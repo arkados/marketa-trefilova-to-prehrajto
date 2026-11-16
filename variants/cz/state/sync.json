@@ -120803,13 +120803,6 @@
           "source_id": "29912867",
           "target_video_id": "30985026",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:12:08.658122+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29912867",
-          "target_video_id": "30985026",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:48:57.009980+00:00"
         },
         {
@@ -120818,6 +120811,13 @@
           "target_video_id": "30985026",
           "permanent": false,
           "attempted_at": "2026-11-16T17:14:50.105693+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29912867",
+          "target_video_id": "30985026",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:06:15.922190+00:00"
         }
       ],
       "last_plan": {
@@ -120860,7 +120860,7 @@
       "last_plan": {
         "source_id": "28192094",
         "display_name": "Dolphin Tale 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:14:55.806802+00:00"
+        "planned_at": "2026-11-16T21:06:13.868884+00:00"
       },
       "previous_target_id": "30985028",
       "prepared": {
@@ -120868,6 +120868,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:36:58.892476+00:00",
         "relay_source_id": "28192094"
+      },
+      "claim": {
+        "worker_id": "17ece9dd5e84431b98548e3b5b6afc0f-shard-0",
+        "claimed_at": "2026-11-16T21:06:15.038985+00:00",
+        "lease_expires_at": "2026-11-17T03:06:15.038985+00:00",
+        "run_id": "43949050228"
       }
     },
     "30444": {
@@ -164103,7 +164109,7 @@
       "last_plan": {
         "source_id": "26750213",
         "display_name": "Catch the Doctor! (Chyťte doktora) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:06:10.560427+00:00"
+        "planned_at": "2026-11-16T21:06:14.250473+00:00"
       }
     },
     "28376": {
@@ -212824,5 +212830,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:06:10.897939+00:00"
+  "updated_at": "2026-11-16T21:06:15.922208+00:00"
 }
