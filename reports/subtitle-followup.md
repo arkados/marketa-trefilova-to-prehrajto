@@ -496,7 +496,7 @@ Attach subtitles only after target processing has finished.
 | The Endless Trench 1080p CZ Titulky | 30901287 | https://sdilej.cz/13066841/the.endless.trench.2019.1080p.cz.sub.web-dl.ddp5.1.x264.mkv | Complete: Czech subtitles verified |
 | The Tiger: An Old Hunter's Tale (The Tiger) 1080p CZ Titulky | 30901878 | https://sdilej.cz/17612916/the.tiger.an.old.hunters.tale.2015.korean.1080p.bluray.h264.aac-titulky-cz.mkv | Complete: Czech subtitles verified |
 | I, Robot 1080p CZ Titulky | 30903487 | https://sdilej.cz/13584267/ja-robot-i-robot-2004-cz-dabing-1080p-bluray-dd5.1.mkv | Complete: Czech subtitles verified |
-| Glass Onion: A Knives Out Mystery 1080p CZ Titulky | 30903877 | https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv | Extract Czech track from exact source after processing |
+| Glass Onion: A Knives Out Mystery 1080p CZ titulky | 30903877 | https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv | Extract Czech track from exact source after processing |
 | The Menu 720p CZ Titulky | 30903901 | https://sdilej.cz/26500415/the-menu-2022-cz-sk-tit.mkv | Complete: Czech subtitles verified |
 | Tropic Thunder 1080p CZ Titulky | 30904135 | https://sdilej.cz/34431613/tropic.thunder.2008.tc.1080p.bluray.x264.ac3-warbro.mkv | Complete: Czech subtitles verified |
 | Mean Girls 1080p CZ Titulky | 30904668 | https://sdilej.cz/28367449/protivny-sprosty-holky-2004--tt0377092--en-sk-cs-.webdl-1080p.h265-ac3-5.1-deadinside.mkv | Complete: Czech subtitles verified |
