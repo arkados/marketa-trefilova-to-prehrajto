@@ -110920,7 +110920,7 @@
       "last_plan": {
         "source_id": "34711871",
         "display_name": "Girl Power 720p CZ Dabing",
-        "planned_at": "2026-11-16T16:28:42.754728+00:00"
+        "planned_at": "2026-11-16T20:39:56.035016+00:00"
       },
       "previous_target_id": "30983774",
       "prepared": {
@@ -110928,6 +110928,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T14:45:36.797999+00:00",
         "relay_source_id": "34711871"
+      },
+      "claim": {
+        "worker_id": "79ff4cc13e3c4a1ca7d48521d3dd42df-shard-0",
+        "claimed_at": "2026-11-16T20:39:57.255536+00:00",
+        "lease_expires_at": "2026-11-17T02:39:57.255536+00:00",
+        "run_id": "43949050228"
       }
     },
     "21086": {
@@ -163863,11 +163869,23 @@
       "attempts": []
     },
     "5091": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34646244",
+          "reason": "Request failed for https://sdilej.cz/34646244/teroristka-2019-komedie-czdab.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:39:58.601967+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34646244",
         "display_name": "Shotgun Justice (Teroristka) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:39:45.932249+00:00"
+        "planned_at": "2026-11-16T20:39:56.403791+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34646244",
+        "requested_at": "2026-11-16T20:39:58.601954+00:00"
       }
     },
     "36951": {
@@ -163880,7 +163898,12 @@
       "attempts": []
     },
     "15459": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13593715",
+        "display_name": "Láska rohatá 1080p CZ Dabing",
+        "planned_at": "2026-11-16T20:39:56.621763+00:00"
+      }
     },
     "30965": {
       "attempts": []
@@ -212639,5 +212662,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:39:52.362648+00:00"
+  "updated_at": "2026-11-16T20:39:58.601973+00:00"
 }
