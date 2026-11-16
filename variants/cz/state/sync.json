@@ -141125,7 +141125,7 @@
       "last_plan": {
         "source_id": "34710797",
         "display_name": "Pohádka o splněných přáních 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:56:03.799088+00:00"
+        "planned_at": "2026-11-16T21:51:13.812612+00:00"
       },
       "previous_target_id": "30988191",
       "prepared": {
@@ -141133,6 +141133,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:48:42.910555+00:00",
         "relay_source_id": "34710797"
+      },
+      "claim": {
+        "worker_id": "069cb389d885493ba0c6938b58b630d7-shard-0",
+        "claimed_at": "2026-11-16T21:51:14.918857+00:00",
+        "lease_expires_at": "2026-11-17T03:51:14.918857+00:00",
+        "run_id": "43949050228"
       }
     },
     "15778": {
@@ -163852,7 +163858,15 @@
       "attempts": []
     },
     "23086": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734079",
+          "target_video_id": "31095813",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:51:16.028964+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734079",
         "display_name": "True Believer 1080p CZ Dabing",
@@ -163861,7 +163875,7 @@
       "previous_target_id": "31095813",
       "prepared": {
         "target_video_id": "31095813",
-        "size_bytes": 2586906982,
+        "size_bytes": 2600000000,
         "prepared_at": "2026-11-16T17:56:04.453168+00:00",
         "relay_source_id": "33734079"
       }
@@ -164265,7 +164279,7 @@
       "last_plan": {
         "source_id": "19118380",
         "display_name": "Here Today SD CZ Dabing",
-        "planned_at": "2026-11-16T21:51:10.479840+00:00"
+        "planned_at": "2026-11-16T21:51:14.196616+00:00"
       }
     },
     "29408": {
@@ -212962,5 +212976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:51:10.837109+00:00"
+  "updated_at": "2026-11-16T21:51:16.028979+00:00"
 }
