@@ -114103,7 +114103,7 @@
       "last_plan": {
         "source_id": "16147077",
         "display_name": "Panic Room 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:14:22.787333+00:00"
+        "planned_at": "2026-11-16T22:46:42.724948+00:00"
       },
       "previous_target_id": "30984104",
       "prepared": {
@@ -164483,17 +164483,19 @@
       }
     },
     "26039": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34152128",
+          "target_video_id": "31100947",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:46:43.007380+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34152128",
         "display_name": "13 Beloved (13: Game of Death) 720p CZ Dabing",
         "planned_at": "2026-11-16T22:35:42.912288+00:00"
-      },
-      "claim": {
-        "worker_id": "3c984729b23d458f819fe0bde2468989-shard-0",
-        "claimed_at": "2026-11-16T22:35:46.132327+00:00",
-        "lease_expires_at": "2026-11-17T04:35:46.132327+00:00",
-        "run_id": "43949050228"
       },
       "previous_target_id": "31100947",
       "prepared": {
@@ -213172,5 +213174,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:46:40.321943+00:00"
+  "updated_at": "2026-11-16T22:46:43.007397+00:00"
 }
