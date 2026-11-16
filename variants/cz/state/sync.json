@@ -119274,13 +119274,6 @@
           "source_id": "33730079",
           "target_video_id": "30984911",
           "permanent": false,
-          "attempted_at": "2026-11-16T14:59:53.591022+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33730079",
-          "target_video_id": "30984911",
-          "permanent": false,
           "attempted_at": "2026-11-16T17:20:51.807439+00:00"
         },
         {
@@ -119289,6 +119282,13 @@
           "target_video_id": "30984911",
           "permanent": false,
           "attempted_at": "2026-11-16T21:12:06.224592+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33730079",
+          "target_video_id": "30984911",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:44:48.838991+00:00"
         }
       ],
       "last_plan": {
@@ -143919,7 +143919,7 @@
       "last_plan": {
         "source_id": "34661764",
         "display_name": "Past 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:12:04.242645+00:00"
+        "planned_at": "2026-11-16T22:44:47.296377+00:00"
       },
       "previous_target_id": "30988695",
       "prepared": {
@@ -143927,6 +143927,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T09:26:47.795965+00:00",
         "relay_source_id": "34661764"
+      },
+      "claim": {
+        "worker_id": "949cc14d705a4c7685240c8f7448417b-shard-0",
+        "claimed_at": "2026-11-16T22:44:48.499288+00:00",
+        "lease_expires_at": "2026-11-17T04:44:48.499288+00:00",
+        "run_id": "43949050228"
       }
     },
     "35624": {
@@ -164496,7 +164502,7 @@
       "last_plan": {
         "source_id": "12675838",
         "display_name": "Overcomer SD CZ Dabing",
-        "planned_at": "2026-11-16T22:44:43.886763+00:00"
+        "planned_at": "2026-11-16T22:44:47.670968+00:00"
       }
     },
     "8616": {
@@ -213160,5 +213166,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:44:44.381855+00:00"
+  "updated_at": "2026-11-16T22:44:48.839003+00:00"
 }
