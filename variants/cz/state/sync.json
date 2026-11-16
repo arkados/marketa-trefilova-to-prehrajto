@@ -140150,13 +140150,6 @@
           "source_id": "32093549",
           "target_video_id": "30988051",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:16:03.764409+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32093549",
-          "target_video_id": "30988051",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:57:54.971726+00:00"
         },
         {
@@ -140165,6 +140158,13 @@
           "target_video_id": "30988051",
           "permanent": false,
           "attempted_at": "2026-11-16T17:19:35.980737+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32093549",
+          "target_video_id": "30988051",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:10:45.405073+00:00"
         }
       ],
       "last_plan": {
@@ -143884,7 +143884,7 @@
       "last_plan": {
         "source_id": "34779576",
         "display_name": "Deligh (Delight) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:19:37.992748+00:00"
+        "planned_at": "2026-11-16T21:10:43.742177+00:00"
       },
       "previous_target_id": "30988692",
       "prepared": {
@@ -143892,6 +143892,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T09:25:18.940524+00:00",
         "relay_source_id": "34779576"
+      },
+      "claim": {
+        "worker_id": "fa8ccdb279e84a3e81c16296d7d0599b-shard-0",
+        "claimed_at": "2026-11-16T21:10:44.975273+00:00",
+        "lease_expires_at": "2026-11-17T03:10:44.975273+00:00",
+        "run_id": "43949050228"
       }
     },
     "31837": {
@@ -164103,7 +164109,7 @@
       "last_plan": {
         "source_id": "26750213",
         "display_name": "Catch the Doctor! (Chyťte doktora) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:10:40.528706+00:00"
+        "planned_at": "2026-11-16T21:10:44.167276+00:00"
       }
     },
     "28376": {
@@ -212824,5 +212830,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:10:41.210659+00:00"
+  "updated_at": "2026-11-16T21:10:45.405089+00:00"
 }
