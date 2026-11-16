@@ -115118,7 +115118,7 @@
       "last_plan": {
         "source_id": "31604257",
         "display_name": "The Tree of Life 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:34:53.228515+00:00"
+        "planned_at": "2026-11-16T21:30:30.520219+00:00"
       },
       "previous_target_id": "30984469",
       "prepared": {
@@ -115126,6 +115126,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T16:32:30.183782+00:00",
         "relay_source_id": "31604257"
+      },
+      "claim": {
+        "worker_id": "7bae076e26334a87b2e985fe30eb211f-shard-0",
+        "claimed_at": "2026-11-16T21:30:31.617541+00:00",
+        "lease_expires_at": "2026-11-17T03:30:31.617541+00:00",
+        "run_id": "43949050228"
       }
     },
     "2871": {
@@ -163773,7 +163779,15 @@
       "attempts": []
     },
     "24706": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30294681",
+          "target_video_id": "31095446",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:30:32.770880+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30294681",
         "display_name": "The Nest (2002) 1080p CZ Dabing",
@@ -163782,7 +163796,7 @@
       "previous_target_id": "31095446",
       "prepared": {
         "target_video_id": "31095446",
-        "size_bytes": 12784978511,
+        "size_bytes": 12800000000,
         "prepared_at": "2026-11-16T17:34:53.721834+00:00",
         "relay_source_id": "30294681"
       }
@@ -164193,7 +164207,7 @@
       "last_plan": {
         "source_id": "34711784",
         "display_name": "The Midsummer Wreath (Svatojánský věneček) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:30:26.923344+00:00"
+        "planned_at": "2026-11-16T21:30:30.898703+00:00"
       }
     },
     "11545": {
@@ -212902,5 +212916,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:30:27.262728+00:00"
+  "updated_at": "2026-11-16T21:30:32.770898+00:00"
 }
