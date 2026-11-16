@@ -107714,7 +107714,7 @@
       "last_plan": {
         "source_id": "34864618",
         "display_name": "Home Care (Domácí péče) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:21:52.767738+00:00"
+        "planned_at": "2026-11-16T21:13:29.278848+00:00"
       },
       "previous_target_id": "30983175",
       "prepared": {
@@ -107722,6 +107722,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T13:54:18.671677+00:00",
         "relay_source_id": "34864618"
+      },
+      "claim": {
+        "worker_id": "c07a37dccb6c4972aae784f2365ca714-shard-0",
+        "claimed_at": "2026-11-16T21:13:30.637422+00:00",
+        "lease_expires_at": "2026-11-17T03:13:30.637422+00:00",
+        "run_id": "43949050228"
       }
     },
     "2520": {
@@ -123303,13 +123309,6 @@
           "source_id": "25407037",
           "target_video_id": "30985544",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:17:54.789875+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25407037",
-          "target_video_id": "30985544",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:04:23.072150+00:00"
         },
         {
@@ -123318,6 +123317,13 @@
           "target_video_id": "30985544",
           "permanent": false,
           "attempted_at": "2026-11-16T17:21:54.238713+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25407037",
+          "target_video_id": "30985544",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:13:31.115928+00:00"
         }
       ],
       "last_plan": {
@@ -164111,11 +164117,22 @@
       "last_plan": {
         "source_id": "26750213",
         "display_name": "Catch the Doctor! (Chyťte doktora) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:13:23.257165+00:00"
+        "planned_at": "2026-11-16T21:13:29.633401+00:00"
+      },
+      "claim": {
+        "worker_id": "d4877fc998854e0a9065b62f086037da-shard-0",
+        "claimed_at": "2026-11-16T21:13:31.325216+00:00",
+        "lease_expires_at": "2026-11-17T03:13:31.325216+00:00",
+        "run_id": "43949050228"
       }
     },
     "28376": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33333813",
+        "display_name": "The Forge 1080p CZ Dabing",
+        "planned_at": "2026-11-16T21:13:29.899069+00:00"
+      }
     },
     "15605": {
       "attempts": []
@@ -212832,5 +212849,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:13:26.452182+00:00"
+  "updated_at": "2026-11-16T21:13:31.325248+00:00"
 }
