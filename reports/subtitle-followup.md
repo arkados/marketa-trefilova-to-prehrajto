@@ -611,7 +611,7 @@ Attach subtitles only after target processing has finished.
 | The Place SD CZ Titulky | 30988255 | https://sdilej.cz/9657833/misto-splnenych-prani-the-place-2017-cz-titulky.mkv | Extract Czech track from exact source after processing |
 | The Night of the 12th (La Nuit du 12) 1080p CZ Titulky | 30988430 | https://sdilej.cz/26365359/la-nuit-du-12-the-night-of-the-12th-2022-sktit-v-obraze-bluray-1080p.mkv | Extract Czech track from exact source after processing |
 | Legacy, notre héritage (Legacy) 1080p CZ Titulky | 30988551 | https://sdilej.cz/17633756/space-jam-a-new-legacy-space-jam-novy-zacatek-2021-1080p-aac5.1-titulky-cz.mkv | Extract Czech track from exact source after processing |
-| Baramulla (बारामूला) 1080p CZ Titulky | 30988608 | https://sdilej.cz/32361142/baramulla-2025-horor-cztit.mkv | Extract Czech track from exact source after processing |
+| Baramulla (baramula) 1080p CZ titulky | 30988608 | https://sdilej.cz/32361142/baramulla-2025-horor-cztit.mkv | Extract Czech track from exact source after processing |
 | Paris, 13th District (Les Olympiades, Paris 13e) 1080p CZ titulky | 30988745 | https://sdilej.cz/23240065/pariz-13.-obvod-les-olympiades-1080p-2021-vlozene-cz-titulky-malasorte.mkv | Extract Czech track from exact source after processing |
 | Journey to the Beginning of Time (Cesta do pravěku) 1080p CZ Titulky | 30988776 | https://sdilej.cz/34670411/cesta-do-praveku-sci-fi-dobrodruzny-1955-cz.1080p.mkv | Extract Czech track from exact source after processing |
 | I Dutifully Report (Poslušně hlásím) 1080p CZ Titulky | 30989692 | https://sdilej.cz/27431239/svejk-2-poslusne-hlasim-1958-96-min-fhd-x264-2.0-cs-.mkv | Extract Czech track from exact source after processing |
