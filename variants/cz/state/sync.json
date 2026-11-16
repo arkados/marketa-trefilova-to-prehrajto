@@ -111642,6 +111642,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T14:51:07.924459+00:00",
         "relay_source_id": "35073576"
+      },
+      "claim": {
+        "worker_id": "87019824eaff44e78ad4ea4815a0fb76-shard-0",
+        "claimed_at": "2026-11-16T20:52:27.435795+00:00",
+        "lease_expires_at": "2026-11-17T02:52:27.435795+00:00",
+        "run_id": "43949050228"
       }
     },
     "12571": {
@@ -117088,7 +117094,7 @@
       "last_plan": {
         "source_id": "33853425",
         "display_name": "Crime 101 4K CZ Dabing",
-        "planned_at": "2026-11-16T16:46:19.570060+00:00"
+        "planned_at": "2026-11-16T20:52:27.711957+00:00"
       },
       "previous_target_id": "30984743",
       "prepared": {
@@ -163947,17 +163953,19 @@
       }
     },
     "30965": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33992687",
+          "target_video_id": "31098801",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:52:28.885983+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33992687",
         "display_name": "Night Ride SD CZ Dabing",
         "planned_at": "2026-11-16T20:50:57.125006+00:00"
-      },
-      "claim": {
-        "worker_id": "e367817dfeb840108678043e512270a9-shard-0",
-        "claimed_at": "2026-11-16T20:51:00.360157+00:00",
-        "lease_expires_at": "2026-11-17T02:51:00.360157+00:00",
-        "run_id": "43949050228"
       },
       "previous_target_id": "31098801",
       "prepared": {
@@ -163972,7 +163980,7 @@
       "last_plan": {
         "source_id": "12192746",
         "display_name": "Au poste! (Au poste !) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:52:24.247218+00:00"
+        "planned_at": "2026-11-16T20:52:28.097185+00:00"
       }
     },
     "27772": {
@@ -212726,5 +212734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:52:24.558965+00:00"
+  "updated_at": "2026-11-16T20:52:28.885999+00:00"
 }
