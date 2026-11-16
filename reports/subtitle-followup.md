@@ -747,5 +747,5 @@ Attach subtitles only after target processing has finished.
 | Monkey Man 1080p CZ Titulky | 31091689 | https://sdilej.cz/28774522/monkey.man.2024.1080p.amzn.webrip.ddp5.1.x265.10bit-leon.-en-subs-cz-en-.mkv | Extract Czech track from exact source after processing |
 | Crime 101 4K CZ Titulky | 31092791 | https://sdilej.cz/35185544/crime-101-2026-2160p-web-dl-ddp5-1-x265-cz-sk-titulky-dop.-.mkv | Extract Czech track from exact source after processing |
 | Caught Stealing 4K CZ Titulky | 31093102 | https://sdilej.cz/31933757/caught.stealing.2025.2160p.web.h265-ethel.mkv | Extract Czech track from exact source after processing |
-| I See You 1080p CZ Titulky | 31093833 | https://sdilej.cz/33237368/i.see.you.2019.1080p.bluray.dl.ac3.x264-majo.mkv | Extract Czech track from exact source after processing |
+| I See You 1080p CZ titulky | 31093833 | https://sdilej.cz/33237368/i.see.you.2019.1080p.bluray.dl.ac3.x264-majo.mkv | Extract Czech track from exact source after processing |
 | Bones and All 1080p CZ Titulky | 31093982 | https://sdilej.cz/24332922/bones-and-all-1080p-2022-vlozene-cz-titulky-malasorte.mkv | Extract Czech track from exact source after processing |
