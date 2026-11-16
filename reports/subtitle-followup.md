@@ -744,7 +744,7 @@ Attach subtitles only after target processing has finished.
 | Reptile 1080p CZ Titulky | 31090284 | https://sdilej.cz/26924113/reptile.2023.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv | Extract Czech track from exact source after processing |
 | Rebel Ridge 1080p CZ Titulky | 31091395 | https://sdilej.cz/35402850/rebel.ridge.2024.1080p.webrip.x265.10bit.aac5.1-yts.mx-.cz.sub.mkv | Extract Czech track from exact source after processing |
 | News of the World 1080p CZ Titulky | 31091456 | https://sdilej.cz/15442247/news.of.the.world.2020.1080p.amzn.webrip.ddp5.1.x264.cz.tit.mkv | Extract Czech track from exact source after processing |
-| Monkey Man 1080p CZ Titulky | 31091689 | https://sdilej.cz/28774522/monkey.man.2024.1080p.amzn.webrip.ddp5.1.x265.10bit-leon.-en-subs-cz-en-.mkv | Extract Czech track from exact source after processing |
+| Monkey Man 1080p CZ titulky | 31091689 | https://sdilej.cz/28774522/monkey.man.2024.1080p.amzn.webrip.ddp5.1.x265.10bit-leon.-en-subs-cz-en-.mkv | Extract Czech track from exact source after processing |
 | Crime 101 4K CZ Titulky | 31092791 | https://sdilej.cz/35185544/crime-101-2026-2160p-web-dl-ddp5-1-x265-cz-sk-titulky-dop.-.mkv | Extract Czech track from exact source after processing |
 | Caught Stealing 4K CZ Titulky | 31093102 | https://sdilej.cz/31933757/caught.stealing.2025.2160p.web.h265-ethel.mkv | Extract Czech track from exact source after processing |
 | I See You 1080p CZ titulky | 31093833 | https://sdilej.cz/33237368/i.see.you.2019.1080p.bluray.dl.ac3.x264-majo.mkv | Extract Czech track from exact source after processing |
