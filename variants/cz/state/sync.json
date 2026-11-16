@@ -131517,13 +131517,6 @@
     "12774": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "34662434",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:29:53.316485+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "34662434",
           "target_video_id": "30987005",
@@ -131536,12 +131529,19 @@
           "target_video_id": "30987005",
           "permanent": false,
           "attempted_at": "2026-11-16T21:27:39.068952+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34662434",
+          "target_video_id": "30987005",
+          "permanent": false,
+          "attempted_at": "2026-11-16T23:51:03.019216+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34662434",
         "display_name": "Silent Barricade (Němá barikáda) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:27:32.382491+00:00"
+        "planned_at": "2026-11-16T23:51:00.365374+00:00"
       },
       "previous_target_id": "30987005",
       "prepared": {
@@ -164599,7 +164599,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:50:56.090441+00:00"
+        "planned_at": "2026-11-16T23:51:00.671678+00:00"
       }
     },
     "30838": {
@@ -213248,5 +213248,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T23:50:58.349134+00:00"
+  "updated_at": "2026-11-16T23:51:03.019235+00:00"
 }
