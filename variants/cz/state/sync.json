@@ -8536,13 +8536,6 @@
           "source_id": "28293597",
           "target_video_id": "30631236",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:35:39.645645+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28293597",
-          "target_video_id": "30631236",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:39:09.839659+00:00"
         },
         {
@@ -8551,6 +8544,13 @@
           "target_video_id": "30631236",
           "permanent": false,
           "attempted_at": "2026-11-16T17:44:21.172003+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28293597",
+          "target_video_id": "30631236",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:39:49.831435+00:00"
         }
       ],
       "last_plan": {
@@ -8564,12 +8564,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
-      },
-      "claim": {
-        "worker_id": "679f823ce9b44792a612817cc006ae71-shard-0",
-        "claimed_at": "2026-11-16T21:36:27.647845+00:00",
-        "lease_expires_at": "2026-11-17T03:36:27.647845+00:00",
-        "run_id": "43949050228"
       }
     },
     "29922": {
@@ -128675,7 +128669,7 @@
       "last_plan": {
         "source_id": "34825483",
         "display_name": "We Grown Now 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:46:08.306569+00:00"
+        "planned_at": "2026-11-16T21:39:48.627112+00:00"
       },
       "previous_target_id": "30986657",
       "prepared": {
@@ -135235,13 +135229,6 @@
     "23598": {
       "attempts": [
         {
-          "status": "target_processing",
-          "source_id": "27820429",
-          "target_video_id": "30987555",
-          "permanent": false,
-          "attempted_at": "2026-11-16T13:41:40.543158+00:00"
-        },
-        {
           "status": "target_lookup_failed",
           "permanent": false,
           "source_id": "27820429",
@@ -135254,6 +135241,13 @@
           "target_video_id": "30987555",
           "permanent": false,
           "attempted_at": "2026-11-16T17:46:09.968434+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27820429",
+          "target_video_id": "30987555",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:39:50.044860+00:00"
         }
       ],
       "last_plan": {
@@ -135267,12 +135261,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T05:11:39.254053+00:00",
         "relay_source_id": "27820429"
-      },
-      "claim": {
-        "worker_id": "46d250b0f00c4ffa98dbbac368414a3d-shard-0",
-        "claimed_at": "2026-11-16T21:39:45.249759+00:00",
-        "lease_expires_at": "2026-11-17T03:39:45.249759+00:00",
-        "run_id": "43949050228"
       }
     },
     "32124": {
@@ -164221,7 +164209,7 @@
       "last_plan": {
         "source_id": "34711784",
         "display_name": "The Midsummer Wreath (Svatojánský věneček) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:39:44.102301+00:00"
+        "planned_at": "2026-11-16T21:39:48.988435+00:00"
       }
     },
     "11545": {
@@ -212930,5 +212918,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:39:45.582498+00:00"
+  "updated_at": "2026-11-16T21:39:50.044881+00:00"
 }
