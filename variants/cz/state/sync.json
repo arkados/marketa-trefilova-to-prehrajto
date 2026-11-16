@@ -127092,13 +127092,6 @@
     "2936": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "14900937",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:32:55.228282+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "14900937",
           "target_video_id": "30986320",
@@ -127111,12 +127104,19 @@
           "target_video_id": "30986320",
           "permanent": false,
           "attempted_at": "2026-11-16T21:29:56.362269+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14900937",
+          "target_video_id": "30986320",
+          "permanent": false,
+          "attempted_at": "2026-11-16T23:53:32.636032+00:00"
         }
       ],
       "last_plan": {
         "source_id": "14900937",
         "display_name": "We Bare Bears: The Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:29:50.510223+00:00"
+        "planned_at": "2026-11-16T23:53:29.501566+00:00"
       },
       "previous_target_id": "30986320",
       "prepared": {
@@ -164599,7 +164599,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:53:25.270328+00:00"
+        "planned_at": "2026-11-16T23:53:29.835839+00:00"
       }
     },
     "30838": {
@@ -213248,5 +213248,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T23:53:27.489000+00:00"
+  "updated_at": "2026-11-16T23:53:32.636049+00:00"
 }
