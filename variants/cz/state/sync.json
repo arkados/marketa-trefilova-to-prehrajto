@@ -14675,13 +14675,6 @@
           "source_id": "32500310",
           "target_video_id": "30657182",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:43:23.489981+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32500310",
-          "target_video_id": "30657182",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:48:06.440503+00:00"
         },
         {
@@ -14690,6 +14683,13 @@
           "target_video_id": "30657182",
           "permanent": false,
           "attempted_at": "2026-11-16T17:47:53.123854+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32500310",
+          "target_video_id": "30657182",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:41:38.531092+00:00"
         }
       ],
       "last_plan": {
@@ -140928,7 +140928,7 @@
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-16T17:47:56.352288+00:00"
+        "planned_at": "2026-11-16T21:41:36.677988+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -140936,6 +140936,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T07:42:12.868116+00:00",
         "relay_source_id": "32763044"
+      },
+      "claim": {
+        "worker_id": "a957c834929a420e95a5efadbea8ea5a-shard-0",
+        "claimed_at": "2026-11-16T21:41:37.730739+00:00",
+        "lease_expires_at": "2026-11-17T03:41:37.730739+00:00",
+        "run_id": "43949050228"
       }
     },
     "34825": {
@@ -164230,7 +164236,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:41:33.297867+00:00"
+        "planned_at": "2026-11-16T21:41:37.047712+00:00"
       }
     },
     "29530": {
@@ -212936,5 +212942,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:41:33.604360+00:00"
+  "updated_at": "2026-11-16T21:41:38.531109+00:00"
 }
