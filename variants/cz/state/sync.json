@@ -118555,13 +118555,6 @@
           "source_id": "25787561",
           "target_video_id": "30984861",
           "permanent": false,
-          "attempted_at": "2026-11-16T14:30:52.263110+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25787561",
-          "target_video_id": "30984861",
-          "permanent": false,
           "attempted_at": "2026-11-16T16:39:07.276446+00:00"
         },
         {
@@ -118570,6 +118563,13 @@
           "target_video_id": "30984861",
           "permanent": false,
           "attempted_at": "2026-11-16T20:47:22.290928+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25787561",
+          "target_video_id": "30984861",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:19:55.314662+00:00"
         }
       ],
       "last_plan": {
@@ -118612,7 +118612,7 @@
       "last_plan": {
         "source_id": "33647002",
         "display_name": "Frantic 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:47:20.259406+00:00"
+        "planned_at": "2026-11-16T22:19:53.483205+00:00"
       },
       "previous_target_id": "30984863",
       "prepared": {
@@ -118620,6 +118620,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:57:35.530517+00:00",
         "relay_source_id": "33647002"
+      },
+      "claim": {
+        "worker_id": "74709da572204344849414467c066318-shard-0",
+        "claimed_at": "2026-11-16T22:19:54.983361+00:00",
+        "lease_expires_at": "2026-11-17T04:19:54.983361+00:00",
+        "run_id": "43949050228"
       }
     },
     "17739": {
@@ -164371,7 +164377,7 @@
       "last_plan": {
         "source_id": "22972779",
         "display_name": "Mandragora SD CZ Dabing",
-        "planned_at": "2026-11-16T22:19:50.343990+00:00"
+        "planned_at": "2026-11-16T22:19:53.875793+00:00"
       }
     },
     "32167": {
@@ -213050,5 +213056,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:19:50.663057+00:00"
+  "updated_at": "2026-11-16T22:19:55.314680+00:00"
 }
