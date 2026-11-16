@@ -163854,17 +163854,19 @@
       "attempts": []
     },
     "14958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689031",
+          "target_video_id": "31098506",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:45:20.864265+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689031",
         "display_name": "Christmas on 5th Avenue 1080p CZ Dabing",
         "planned_at": "2026-11-16T20:39:45.708924+00:00"
-      },
-      "claim": {
-        "worker_id": "3725619522a44d3fbd61f48d573668d9-shard-0",
-        "claimed_at": "2026-11-16T20:39:46.742647+00:00",
-        "lease_expires_at": "2026-11-17T02:39:46.742647+00:00",
-        "run_id": "43949050228"
       },
       "previous_target_id": "31098506",
       "prepared": {
@@ -212674,5 +212676,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:45:18.654694+00:00"
+  "updated_at": "2026-11-16T20:45:20.864281+00:00"
 }
