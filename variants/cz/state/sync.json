@@ -123263,13 +123263,6 @@
           "source_id": "35438981",
           "target_video_id": "30985543",
           "permanent": false,
-          "attempted_at": "2026-11-16T14:52:21.627119+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35438981",
-          "target_video_id": "30985543",
-          "permanent": false,
           "attempted_at": "2026-11-16T17:17:20.574569+00:00"
         },
         {
@@ -123278,6 +123271,13 @@
           "target_video_id": "30985543",
           "permanent": false,
           "attempted_at": "2026-11-16T21:08:38.688583+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35438981",
+          "target_video_id": "30985543",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:41:20.123454+00:00"
         }
       ],
       "last_plan": {
@@ -126160,7 +126160,7 @@
       "last_plan": {
         "source_id": "34700408",
         "display_name": "Firecreek 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:08:38.001920+00:00"
+        "planned_at": "2026-11-16T22:41:18.076760+00:00"
       },
       "previous_target_id": "30986040",
       "prepared": {
@@ -126168,6 +126168,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T23:07:09.114768+00:00",
         "relay_source_id": "34700408"
+      },
+      "claim": {
+        "worker_id": "dc80adf9179e4b4d98b93fd18b1447dd-shard-0",
+        "claimed_at": "2026-11-16T22:41:19.171982+00:00",
+        "lease_expires_at": "2026-11-17T04:41:19.171982+00:00",
+        "run_id": "43949050228"
       }
     },
     "20329": {
@@ -164496,7 +164502,7 @@
       "last_plan": {
         "source_id": "12675838",
         "display_name": "Overcomer SD CZ Dabing",
-        "planned_at": "2026-11-16T22:41:15.156014+00:00"
+        "planned_at": "2026-11-16T22:41:18.462149+00:00"
       }
     },
     "8616": {
@@ -213160,5 +213166,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:41:15.156031+00:00"
+  "updated_at": "2026-11-16T22:41:20.123468+00:00"
 }
