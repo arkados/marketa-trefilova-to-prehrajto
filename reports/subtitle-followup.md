@@ -50,7 +50,7 @@ Attach subtitles only after target processing has finished.
 | Braveheart 4K CZ titulky | 30597835 | https://sdilej.cz/33013175/braveheart-1995-2160p-en-truehd-radecek.mkv | Extract Czech track from exact source after processing |
 | Requiem for a Dream 1080p CZ titulky | 30676098 | https://sdilej.cz/22817696/requiem-for-a-dream-2000-bdrip-1080p-hevc-en-cz-commentary.mkv | Extract Czech track from exact source after processing |
 | Heat 1080p CZ Titulky | 30602067 | https://sdilej.cz/6486240/heat-1995-bdrip-1080p-x265-ac3-d3fil3r-ceske-titulky.mkv | Complete: Czech subtitles verified |
-| Oldboy (올드보이) (2003) 1080p CZ Titulky | 30602237 | https://sdilej.cz/32311338/oldboy-2003-min-sik-choi-kor-dab.-cz-ttl..mkv | Complete: Czech subtitles verified |
+| Oldboy (OlDeuBoI) (2003) 1080p CZ titulky | 30602237 | https://sdilej.cz/32311338/oldboy-2003-min-sik-choi-kor-dab.-cz-ttl..mkv | Complete: Czech subtitles verified |
 | Dr. Strangelove (Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb) SD CZ Titulky | 30602497 | https://sdilej.cz/29062378/dr.-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb.mp4 | Extract Czech track from exact source after processing |
 | Once Upon a Time in America 1080p CZ Titulky | 30677049 | https://sdilej.cz/16198758/tenkrat-v-americe-once.upon.a.time.in.america.1984.extended.1080p.bluray.x264-cz-dabing.mkv | Complete: Czech subtitles verified |
 | Lawrence of Arabia 1080p CZ Titulky | 30603287 | https://sdilej.cz/15748784/lawrence-z-arabie-1962.mkv | Complete: Czech subtitles verified |
