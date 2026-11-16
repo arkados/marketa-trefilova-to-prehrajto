@@ -122951,13 +122951,6 @@
           "source_id": "33997586",
           "target_video_id": "30985496",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:27:11.594429+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33997586",
-          "target_video_id": "30985496",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:17:32.598906+00:00"
         },
         {
@@ -122966,6 +122959,13 @@
           "target_video_id": "30985496",
           "permanent": false,
           "attempted_at": "2026-11-16T17:28:27.747098+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33997586",
+          "target_video_id": "30985496",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:20:39.818822+00:00"
         }
       ],
       "last_plan": {
@@ -123434,7 +123434,7 @@
       "last_plan": {
         "source_id": "34650326",
         "display_name": "How to Blow Up a Pipeline 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:28:31.219141+00:00"
+        "planned_at": "2026-11-16T21:20:37.741804+00:00"
       },
       "previous_target_id": "30985556",
       "prepared": {
@@ -123442,6 +123442,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T20:18:36.571269+00:00",
         "relay_source_id": "34650326"
+      },
+      "claim": {
+        "worker_id": "491d7f4595ef45759ec3b47d9c56a81a-shard-0",
+        "claimed_at": "2026-11-16T21:20:38.848444+00:00",
+        "lease_expires_at": "2026-11-17T03:20:38.848444+00:00",
+        "run_id": "43949050228"
       }
     },
     "2865": {
@@ -164164,7 +164170,7 @@
       "last_plan": {
         "source_id": "28912022",
         "display_name": "Sabata (Ehi amico... c'è Sabata. Hai chiuso!) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:20:34.809518+00:00"
+        "planned_at": "2026-11-16T21:20:38.134824+00:00"
       }
     },
     "29281": {
@@ -212876,5 +212882,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:20:34.809533+00:00"
+  "updated_at": "2026-11-16T21:20:39.818836+00:00"
 }
