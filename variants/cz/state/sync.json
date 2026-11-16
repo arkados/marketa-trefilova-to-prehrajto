@@ -107497,13 +107497,6 @@
           "source_id": "34883971",
           "target_video_id": "30983122",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:10:01.456623+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34883971",
-          "target_video_id": "30983122",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:45:14.129170+00:00"
         },
         {
@@ -107512,6 +107505,13 @@
           "target_video_id": "30983122",
           "permanent": false,
           "attempted_at": "2026-11-16T17:12:45.474696+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34883971",
+          "target_video_id": "30983122",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:03:48.606162+00:00"
         }
       ],
       "last_plan": {
@@ -107525,12 +107525,6 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T13:52:34.466559+00:00",
         "relay_source_id": "34883971"
-      },
-      "claim": {
-        "worker_id": "224fbd39e3eb4443b85e5dcd9660b897-shard-0",
-        "claimed_at": "2026-11-16T21:03:43.644115+00:00",
-        "lease_expires_at": "2026-11-17T03:03:43.644115+00:00",
-        "run_id": "43949050228"
       }
     },
     "30300": {
@@ -132333,7 +132327,7 @@
       "last_plan": {
         "source_id": "34734279",
         "display_name": "Její pastorkyně 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:12:47.063413+00:00"
+        "planned_at": "2026-11-16T21:03:47.019614+00:00"
       },
       "previous_target_id": "30987118",
       "prepared": {
@@ -132341,6 +132335,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-11T03:39:51.407056+00:00",
         "relay_source_id": "34734279"
+      },
+      "claim": {
+        "worker_id": "53c30584a4de49c99424d2fbb80e08b1-shard-0",
+        "claimed_at": "2026-11-16T21:03:48.090685+00:00",
+        "lease_expires_at": "2026-11-17T03:03:48.090685+00:00",
+        "run_id": "43949050228"
       }
     },
     "16582": {
@@ -164074,7 +164074,7 @@
       "last_plan": {
         "source_id": "32660679",
         "display_name": "Shayda 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:03:42.794603+00:00"
+        "planned_at": "2026-11-16T21:03:47.410946+00:00"
       }
     },
     "9118": {
@@ -212810,5 +212810,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:03:44.403190+00:00"
+  "updated_at": "2026-11-16T21:03:48.606182+00:00"
 }
