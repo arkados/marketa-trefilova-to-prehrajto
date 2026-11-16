@@ -110481,13 +110481,6 @@
           "source_id": "35184124",
           "target_video_id": "30983741",
           "permanent": false,
-          "attempted_at": "2026-11-16T12:37:25.173511+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35184124",
-          "target_video_id": "30983741",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:17:35.417565+00:00"
         },
         {
@@ -110496,6 +110489,13 @@
           "target_video_id": "30983741",
           "permanent": false,
           "attempted_at": "2026-11-16T16:21:53.570502+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35184124",
+          "target_video_id": "30983741",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:36:02.040286+00:00"
         }
       ],
       "last_plan": {
@@ -116606,7 +116606,7 @@
       "last_plan": {
         "source_id": "14845493",
         "display_name": "Mank 1080p CZ Dabing",
-        "planned_at": "2026-11-16T16:21:53.813812+00:00"
+        "planned_at": "2026-11-16T20:36:00.005786+00:00"
       },
       "previous_target_id": "30984699",
       "prepared": {
@@ -116614,6 +116614,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:20:31.441781+00:00",
         "relay_source_id": "14845493"
+      },
+      "claim": {
+        "worker_id": "61d08dcf0ddd4ec7b8138450f1f2614d-shard-0",
+        "claimed_at": "2026-11-16T20:36:01.194482+00:00",
+        "lease_expires_at": "2026-11-17T02:36:01.194482+00:00",
+        "run_id": "43949050228"
       }
     },
     "2816": {
@@ -163826,7 +163832,7 @@
       "last_plan": {
         "source_id": "34689031",
         "display_name": "Christmas on 5th Avenue 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:35:56.917659+00:00"
+        "planned_at": "2026-11-16T20:36:00.400198+00:00"
       }
     },
     "35577": {
@@ -212607,5 +212613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:35:56.917677+00:00"
+  "updated_at": "2026-11-16T20:36:02.040304+00:00"
 }
