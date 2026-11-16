@@ -99535,13 +99535,6 @@
           "source_id": "34471665",
           "target_video_id": "30959278",
           "permanent": false,
-          "attempted_at": "2026-11-16T12:35:46.454930+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34471665",
-          "target_video_id": "30959278",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:15:08.109631+00:00"
         },
         {
@@ -99550,6 +99543,13 @@
           "target_video_id": "30959278",
           "permanent": false,
           "attempted_at": "2026-11-16T16:19:38.126910+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34471665",
+          "target_video_id": "30959278",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:33:59.829751+00:00"
         }
       ],
       "last_plan": {
@@ -135740,7 +135740,7 @@
       "last_plan": {
         "source_id": "34660671",
         "display_name": "Jan Cimbura 1080p CZ Dabing",
-        "planned_at": "2026-11-16T16:19:39.959986+00:00"
+        "planned_at": "2026-11-16T20:33:58.235858+00:00"
       },
       "previous_target_id": "30987601",
       "prepared": {
@@ -135748,6 +135748,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T05:22:14.482694+00:00",
         "relay_source_id": "34660671"
+      },
+      "claim": {
+        "worker_id": "8b6b450dc54b4510aec2a69dd94d50be-shard-0",
+        "claimed_at": "2026-11-16T20:33:59.489698+00:00",
+        "lease_expires_at": "2026-11-17T02:33:59.489698+00:00",
+        "run_id": "43949050228"
       }
     },
     "24173": {
@@ -163793,7 +163799,7 @@
       "last_plan": {
         "source_id": "25923903",
         "display_name": "Oslo 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:33:53.547604+00:00"
+        "planned_at": "2026-11-16T20:33:58.662196+00:00"
       }
     },
     "3292": {
@@ -212585,5 +212591,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:33:53.848295+00:00"
+  "updated_at": "2026-11-16T20:33:59.829793+00:00"
 }
