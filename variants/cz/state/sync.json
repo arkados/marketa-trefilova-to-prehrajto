@@ -84020,13 +84020,6 @@
           "source_id": "20559777",
           "target_video_id": "30916027",
           "permanent": false,
-          "attempted_at": "2026-11-16T14:10:28.433430+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20559777",
-          "target_video_id": "30916027",
-          "permanent": false,
           "attempted_at": "2026-11-16T16:15:32.571113+00:00"
         },
         {
@@ -84035,6 +84028,13 @@
           "target_video_id": "30916027",
           "permanent": false,
           "attempted_at": "2026-11-16T20:30:21.278850+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20559777",
+          "target_video_id": "30916027",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:01:15.574284+00:00"
         }
       ],
       "last_plan": {
@@ -127929,7 +127929,7 @@
       "last_plan": {
         "source_id": "28178997",
         "display_name": "The Great Spy Chase SD CZ Dabing",
-        "planned_at": "2026-11-16T20:30:21.945922+00:00"
+        "planned_at": "2026-11-16T22:01:13.490726+00:00"
       },
       "previous_target_id": "30986561",
       "prepared": {
@@ -127937,6 +127937,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T00:52:31.985633+00:00",
         "relay_source_id": "28178997"
+      },
+      "claim": {
+        "worker_id": "28846f261ce5414cb3d9c647f595c976-shard-0",
+        "claimed_at": "2026-11-16T22:01:14.802669+00:00",
+        "lease_expires_at": "2026-11-17T04:01:14.802669+00:00",
+        "run_id": "43949050228"
       }
     },
     "33919": {
@@ -164302,11 +164308,22 @@
       "last_plan": {
         "source_id": "28280402",
         "display_name": "The Last Vermeer 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:01:10.466517+00:00"
+        "planned_at": "2026-11-16T22:01:13.843686+00:00"
+      },
+      "claim": {
+        "worker_id": "98b62179296446d690181211c08f9bce-shard-0",
+        "claimed_at": "2026-11-16T22:01:15.027877+00:00",
+        "lease_expires_at": "2026-11-17T04:01:15.027877+00:00",
+        "run_id": "43949050228"
       }
     },
     "3439": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11719514",
+        "display_name": "Panfilov's 28 Men (28 panfilovtsev) 1080p CZ Dabing",
+        "planned_at": "2026-11-16T22:01:14.105098+00:00"
+      }
     },
     "12387": {
       "attempts": []
@@ -212987,5 +213004,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:01:10.466535+00:00"
+  "updated_at": "2026-11-16T22:01:15.574303+00:00"
 }
