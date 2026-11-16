@@ -118111,13 +118111,6 @@
           "source_id": "30138435",
           "target_video_id": "30984838",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:53:12.073255+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30138435",
-          "target_video_id": "30984838",
-          "permanent": false,
           "attempted_at": "2026-11-16T16:05:29.470880+00:00"
         },
         {
@@ -118126,6 +118119,13 @@
           "target_video_id": "30984838",
           "permanent": false,
           "attempted_at": "2026-11-16T17:55:13.847327+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30138435",
+          "target_video_id": "30984838",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:50:02.644240+00:00"
         }
       ],
       "last_plan": {
@@ -123471,7 +123471,7 @@
       "last_plan": {
         "source_id": "30317434",
         "display_name": "True Spirit 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:55:13.333040+00:00"
+        "planned_at": "2026-11-16T21:50:00.639211+00:00"
       },
       "previous_target_id": "30985560",
       "prepared": {
@@ -123479,6 +123479,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T20:21:43.183488+00:00",
         "relay_source_id": "30317434"
+      },
+      "claim": {
+        "worker_id": "406f48b5dd5241649ecf5990b1b07690-shard-0",
+        "claimed_at": "2026-11-16T21:50:01.828510+00:00",
+        "lease_expires_at": "2026-11-17T03:50:01.828510+00:00",
+        "run_id": "43949050228"
       }
     },
     "34041": {
@@ -164236,7 +164242,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:49:57.237599+00:00"
+        "planned_at": "2026-11-16T21:50:01.016839+00:00"
       }
     },
     "29530": {
@@ -212942,5 +212948,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:49:57.607351+00:00"
+  "updated_at": "2026-11-16T21:50:02.644256+00:00"
 }
