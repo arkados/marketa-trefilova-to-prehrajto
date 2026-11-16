@@ -1021,13 +1021,6 @@
           "source_id": "33238710",
           "target_video_id": "30577961",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:27:27.734808+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33238710",
-          "target_video_id": "30577961",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:18:10.144474+00:00"
         },
         {
@@ -1036,6 +1029,13 @@
           "target_video_id": "30577961",
           "permanent": false,
           "attempted_at": "2026-11-16T17:28:47.188950+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33238710",
+          "target_video_id": "30577961",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:21:01.063818+00:00"
         }
       ],
       "last_plan": {
@@ -1049,12 +1049,6 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-10-28T04:52:11.852635+00:00",
         "relay_source_id": "33238710"
-      },
-      "claim": {
-        "worker_id": "5eb84f3a4334400cac27e87df1f53646-shard-0",
-        "claimed_at": "2026-11-16T21:20:56.576617+00:00",
-        "lease_expires_at": "2026-11-17T03:20:56.576617+00:00",
-        "run_id": "43949050228"
       }
     },
     "54": {
@@ -132635,7 +132629,7 @@
       "last_plan": {
         "source_id": "34676372",
         "display_name": "Fly, Bird, Fly! (Leť, ptáku leť!) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:28:50.219161+00:00"
+        "planned_at": "2026-11-16T21:20:59.551251+00:00"
       },
       "previous_target_id": "30987143",
       "prepared": {
@@ -132643,6 +132637,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T03:46:31.761216+00:00",
         "relay_source_id": "34676372"
+      },
+      "claim": {
+        "worker_id": "a9c09f0565a04cc896ac14bf2e34b68e-shard-0",
+        "claimed_at": "2026-11-16T21:21:00.712569+00:00",
+        "lease_expires_at": "2026-11-17T03:21:00.712569+00:00",
+        "run_id": "43949050228"
       }
     },
     "35743": {
@@ -164170,7 +164170,7 @@
       "last_plan": {
         "source_id": "28912022",
         "display_name": "Sabata (Ehi amico... c'è Sabata. Hai chiuso!) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:20:55.756610+00:00"
+        "planned_at": "2026-11-16T21:20:59.947928+00:00"
       }
     },
     "29281": {
@@ -212882,5 +212882,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:20:56.923221+00:00"
+  "updated_at": "2026-11-16T21:21:01.063836+00:00"
 }
