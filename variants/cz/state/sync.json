@@ -124895,6 +124895,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T21:46:31.548702+00:00",
         "relay_source_id": "33746084"
+      },
+      "claim": {
+        "worker_id": "b5d17cc8a98142608e68258b49932545-shard-0",
+        "claimed_at": "2026-11-16T20:50:45.554716+00:00",
+        "lease_expires_at": "2026-11-17T02:50:45.554716+00:00",
+        "run_id": "43949050228"
       }
     },
     "16382": {
@@ -127460,7 +127466,7 @@
       "last_plan": {
         "source_id": "34703676",
         "display_name": "The Children of Noisy Village SD CZ Dabing",
-        "planned_at": "2026-11-16T16:43:42.060937+00:00"
+        "planned_at": "2026-11-16T20:50:45.814176+00:00"
       },
       "previous_target_id": "30986415",
       "prepared": {
@@ -127468,6 +127474,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T00:24:10.511742+00:00",
         "relay_source_id": "34703676"
+      },
+      "claim": {
+        "worker_id": "ef991919d8ff4a6aac900466e0a05f33-shard-0",
+        "claimed_at": "2026-11-16T20:50:46.821466+00:00",
+        "lease_expires_at": "2026-11-17T02:50:46.821466+00:00",
+        "run_id": "43949050228"
       }
     },
     "31344": {
@@ -163918,17 +163930,19 @@
       "attempts": []
     },
     "15459": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13593715",
+          "target_video_id": "31098663",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:50:47.105876+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13593715",
         "display_name": "Láska rohatá 1080p CZ Dabing",
         "planned_at": "2026-11-16T20:45:27.351765+00:00"
-      },
-      "claim": {
-        "worker_id": "b3a66a873b1a4ac7811ae72909181c0e-shard-0",
-        "claimed_at": "2026-11-16T20:45:28.448140+00:00",
-        "lease_expires_at": "2026-11-17T02:45:28.448140+00:00",
-        "run_id": "43949050228"
       },
       "previous_target_id": "31098663",
       "prepared": {
@@ -163943,7 +163957,7 @@
       "last_plan": {
         "source_id": "33992687",
         "display_name": "Night Ride SD CZ Dabing",
-        "planned_at": "2026-11-16T20:50:42.499786+00:00"
+        "planned_at": "2026-11-16T20:50:46.193763+00:00"
       }
     },
     "17169": {
@@ -212700,5 +212714,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:50:42.825820+00:00"
+  "updated_at": "2026-11-16T20:50:47.105898+00:00"
 }
