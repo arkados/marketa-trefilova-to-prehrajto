@@ -110249,13 +110249,6 @@
     "12647": {
       "attempts": [
         {
-          "status": "target_processing",
-          "source_id": "34634766",
-          "target_video_id": "30983705",
-          "permanent": false,
-          "attempted_at": "2026-11-16T13:50:50.765023+00:00"
-        },
-        {
           "status": "target_lookup_failed",
           "permanent": false,
           "source_id": "34634766",
@@ -110268,6 +110261,13 @@
           "target_video_id": "30983705",
           "permanent": false,
           "attempted_at": "2026-11-16T17:54:02.220463+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34634766",
+          "target_video_id": "30983705",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:48:24.195112+00:00"
         }
       ],
       "last_plan": {
@@ -110313,7 +110313,7 @@
       "last_plan": {
         "source_id": "35139243",
         "display_name": "Christmas with Elisabeth 720p CZ Dabing",
-        "planned_at": "2026-11-16T17:54:00.653904+00:00"
+        "planned_at": "2026-11-16T21:48:22.642871+00:00"
       },
       "previous_target_id": "30983706",
       "prepared": {
@@ -110321,6 +110321,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T14:37:41.020427+00:00",
         "relay_source_id": "35139243"
+      },
+      "claim": {
+        "worker_id": "c1646723496845658f00aa6b965beaec-shard-0",
+        "claimed_at": "2026-11-16T21:48:23.871167+00:00",
+        "lease_expires_at": "2026-11-17T03:48:23.871167+00:00",
+        "run_id": "43949050228"
       }
     },
     "26455": {
@@ -164236,7 +164242,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:48:19.615721+00:00"
+        "planned_at": "2026-11-16T21:48:23.019171+00:00"
       }
     },
     "29530": {
@@ -212942,5 +212948,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:48:19.615738+00:00"
+  "updated_at": "2026-11-16T21:48:24.195130+00:00"
 }
