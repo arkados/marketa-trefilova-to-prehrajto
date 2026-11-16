@@ -598,7 +598,7 @@ Attach subtitles only after target processing has finished.
 | Tenebrae (Tenebre) 1080p CZ Titulky | 30985350 | https://sdilej.cz/11416033/tenebre-tenebrae-1982-titulky.cz.1080p.mkv | Extract Czech track from exact source after processing |
 | Rose Island (L'incredibile storia dell'Isola delle Rose) 1080p CZ Titulky | 30985967 | https://sdilej.cz/14916136/rose.island.2020.1080p.nf.web-dl.dd5.1.x264.en.ita.cz.tit.mkv | Extract Czech track from exact source after processing |
 | The Great Hack 1080p CZ Titulky | 30986211 | https://sdilej.cz/35468703/the.great.hack.2019.1080p.nf.web-dl.ddp5.1.x264-ntg.mkv | Extract Czech track from exact source after processing |
-| Truth & Treason 4K CZ Titulky | 30986247 | https://sdilej.cz/34285530/truth-and-treason-2025-2160p.4k-cz.tit.mkv | Extract Czech track from exact source after processing |
+| Truth & Treason 4K CZ titulky | 30986247 | https://sdilej.cz/34285530/truth-and-treason-2025-2160p.4k-cz.tit.mkv | Extract Czech track from exact source after processing |
 | Sanctuary (Freistatt) 720p CZ Titulky | 30986677 | https://sdilej.cz/6556256/freistatt-sanctuary-2015-.720p.brrip.xvid.ac3.2.0-ceske-titulky.mkv | Extract Czech track from exact source after processing |
 | Queen of Hearts (Dronningen) 1080p CZ Titulky | 30987463 | https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv | Extract Czech track from exact source after processing |
 | Two Brothers 1080p CZ Titulky | 30987615 | https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv | Extract Czech track from exact source after processing |
