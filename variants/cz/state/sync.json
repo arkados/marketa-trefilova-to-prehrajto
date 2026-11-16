@@ -110413,13 +110413,6 @@
           "source_id": "34885981",
           "target_video_id": "30983734",
           "permanent": false,
-          "attempted_at": "2026-11-16T14:15:41.329916+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34885981",
-          "target_video_id": "30983734",
-          "permanent": false,
           "attempted_at": "2026-11-16T16:20:02.502603+00:00"
         },
         {
@@ -110428,6 +110421,13 @@
           "target_video_id": "30983734",
           "permanent": false,
           "attempted_at": "2026-11-16T20:34:21.120378+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34885981",
+          "target_video_id": "30983734",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:05:26.731973+00:00"
         }
       ],
       "last_plan": {
@@ -163882,17 +163882,23 @@
           "attempted_at": "2026-11-16T20:34:21.331055+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "26792701",
-        "display_name": "Emma Hamilton 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:27:37.980750+00:00"
-      },
       "previous_target_id": "31098331",
-      "prepared": {
+      "upload": {
         "target_video_id": "31098331",
-        "size_bytes": 2278369577,
-        "prepared_at": "2026-11-16T20:27:49.120762+00:00",
-        "relay_source_id": "26792701"
+        "display_name": "Emma Hamilton 1080p CZ Dabing",
+        "source_id": "26792701",
+        "source_url": "https://sdilej.cz/26792701/lady-hamiltonova.mkv",
+        "source_filename": "Lady Hamiltonová.mkv",
+        "size_bytes": 2300000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9507247805595398,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/emma-hamilton-1080p-cz-dabing-mkv/c4db7796e04b2ad1",
+        "uploaded_at": "2026-11-16T22:05:27.019576+00:00"
       }
     },
     "29144": {
@@ -164323,7 +164329,7 @@
       "last_plan": {
         "source_id": "11719514",
         "display_name": "Panfilov's 28 Men (28 panfilovtsev) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:05:21.179789+00:00"
+        "planned_at": "2026-11-16T22:05:24.664725+00:00"
       }
     },
     "12387": {
@@ -213005,5 +213011,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:05:21.500271+00:00"
+  "updated_at": "2026-11-16T22:05:27.019592+00:00"
 }
