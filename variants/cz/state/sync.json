@@ -133611,13 +133611,6 @@
           "source_id": "34883806",
           "target_video_id": "30987308",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:08:46.018318+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34883806",
-          "target_video_id": "30987308",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:42:45.488060+00:00"
         },
         {
@@ -133626,12 +133619,19 @@
           "target_video_id": "30987308",
           "permanent": false,
           "attempted_at": "2026-11-16T17:11:20.265626+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34883806",
+          "target_video_id": "30987308",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:02:03.231386+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34883806",
         "display_name": "Escape Home (Útěky domů) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:11:13.548835+00:00"
+        "planned_at": "2026-11-16T21:02:00.097073+00:00"
       },
       "previous_target_id": "30987308",
       "prepared": {
@@ -164011,17 +164011,19 @@
       }
     },
     "27772": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34881849",
+          "target_video_id": "31098956",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:02:03.527580+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34881849",
         "display_name": "Ein Sommer in Paris 720p CZ Dabing",
         "planned_at": "2026-11-16T20:56:45.269639+00:00"
-      },
-      "claim": {
-        "worker_id": "966678657efa46a381fe38800ab7d4b3-shard-0",
-        "claimed_at": "2026-11-16T20:56:48.719890+00:00",
-        "lease_expires_at": "2026-11-17T02:56:48.719890+00:00",
-        "run_id": "43949050228"
       },
       "previous_target_id": "31098956",
       "prepared": {
@@ -164066,7 +164068,7 @@
       "last_plan": {
         "source_id": "32660679",
         "display_name": "Shayda 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:01:54.269395+00:00"
+        "planned_at": "2026-11-16T21:02:00.499371+00:00"
       }
     },
     "9118": {
@@ -212802,5 +212804,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:01:57.761648+00:00"
+  "updated_at": "2026-11-16T21:02:03.527597+00:00"
 }
