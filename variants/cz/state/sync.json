@@ -125171,13 +125171,6 @@
     "3011": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "16799155",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:29:54.982898+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "16799155",
           "target_video_id": "30985789",
@@ -125190,12 +125183,19 @@
           "target_video_id": "30985789",
           "permanent": false,
           "attempted_at": "2026-11-16T21:27:44.099309+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16799155",
+          "target_video_id": "30985789",
+          "permanent": false,
+          "attempted_at": "2026-11-16T23:51:08.882684+00:00"
         }
       ],
       "last_plan": {
         "source_id": "16799155",
         "display_name": "The Bachelors 720p CZ Dabing",
-        "planned_at": "2026-11-16T21:27:38.730834+00:00"
+        "planned_at": "2026-11-16T23:51:06.050858+00:00"
       },
       "previous_target_id": "30985789",
       "prepared": {
@@ -164599,7 +164599,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:51:00.671678+00:00"
+        "planned_at": "2026-11-16T23:51:06.378204+00:00"
       }
     },
     "30838": {
@@ -213248,5 +213248,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T23:51:03.019235+00:00"
+  "updated_at": "2026-11-16T23:51:08.882703+00:00"
 }
