@@ -603,7 +603,7 @@ Attach subtitles only after target processing has finished.
 | Queen of Hearts (Dronningen) 1080p CZ titulky | 30987463 | https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv | Extract Czech track from exact source after processing |
 | Two Brothers 1080p CZ Titulky | 30987615 | https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv | Extract Czech track from exact source after processing |
 | The Roundup (BeomJoeDoSi 2) 1080p CZ titulky | 30987709 | https://sdilej.cz/22321220/the.roundup.2022.cz.titulky.1080p.mkv | Extract Czech track from exact source after processing |
-| The Most Dangerous Game 1080p CZ Titulky | 30987757 | https://sdilej.cz/27648883/nejnebezpecnejsi-hra-1932-.mkv | Extract Czech track from exact source after processing |
+| The Most Dangerous Game 1080p CZ titulky | 30987757 | https://sdilej.cz/27648883/nejnebezpecnejsi-hra-1932-.mkv | Extract Czech track from exact source after processing |
 | Battle for Sevastopol (Битва за Севастополь) 1080p CZ Titulky | 30987870 | https://sdilej.cz/12196905/bitva-o-sevastopol-battle-for-sevastopol-2015-titulky.cz-1080p-dts.mkv | Extract Czech track from exact source after processing |
 | Ferry 720p CZ Titulky | 30987911 | https://sdilej.cz/32154189/ferry-2021-cz-tit-1080p.mkv | Extract Czech track from exact source after processing |
 | Skyking (#SKYKING) 1080p CZ titulky | 30987918 | https://sdilej.cz/34014919/skyking.2026.sk.titulky.1080p.mkv | Extract Czech track from exact source after processing |
