@@ -47191,13 +47191,6 @@
           "source_id": "35147292",
           "target_video_id": "30771541",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:46:36.608341+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35147292",
-          "target_video_id": "30771541",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:52:42.451339+00:00"
         },
         {
@@ -47206,6 +47199,13 @@
           "target_video_id": "30771541",
           "permanent": false,
           "attempted_at": "2026-11-16T17:50:57.503955+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35147292",
+          "target_video_id": "30771541",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:44:53.664638+00:00"
         }
       ],
       "last_plan": {
@@ -118088,7 +118088,7 @@
       "last_plan": {
         "source_id": "34966653",
         "display_name": "City Slickers 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:51:00.714628+00:00"
+        "planned_at": "2026-11-16T21:44:51.579526+00:00"
       },
       "previous_target_id": "30984828",
       "prepared": {
@@ -118096,6 +118096,12 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-11-10T17:46:29.376787+00:00",
         "relay_source_id": "34966653"
+      },
+      "claim": {
+        "worker_id": "19106e131053403b84b4fe13839e80bd-shard-0",
+        "claimed_at": "2026-11-16T21:44:52.748860+00:00",
+        "lease_expires_at": "2026-11-17T03:44:52.748860+00:00",
+        "run_id": "43949050228"
       }
     },
     "33216": {
@@ -164230,7 +164236,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:44:48.449009+00:00"
+        "planned_at": "2026-11-16T21:44:51.952587+00:00"
       }
     },
     "29530": {
@@ -212936,5 +212942,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:44:48.449027+00:00"
+  "updated_at": "2026-11-16T21:44:53.664654+00:00"
 }
