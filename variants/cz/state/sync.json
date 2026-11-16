@@ -133261,13 +133261,6 @@
           "source_id": "32876939",
           "target_video_id": "30987247",
           "permanent": false,
-          "attempted_at": "2026-11-16T12:35:21.305971+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32876939",
-          "target_video_id": "30987247",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:14:19.223777+00:00"
         },
         {
@@ -133276,6 +133269,13 @@
           "target_video_id": "30987247",
           "permanent": false,
           "attempted_at": "2026-11-16T16:18:53.457325+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32876939",
+          "target_video_id": "30987247",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:33:22.364561+00:00"
         }
       ],
       "last_plan": {
@@ -141428,7 +141428,7 @@
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-16T16:18:55.321643+00:00"
+        "planned_at": "2026-11-16T20:33:20.607192+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -141436,6 +141436,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T07:55:40.231369+00:00",
         "relay_source_id": "34693961"
+      },
+      "claim": {
+        "worker_id": "c300c04563ec4b6facc2f543cd149014-shard-0",
+        "claimed_at": "2026-11-16T20:33:21.693449+00:00",
+        "lease_expires_at": "2026-11-17T02:33:21.693449+00:00",
+        "run_id": "43949050228"
       }
     },
     "15440": {
@@ -163793,7 +163799,7 @@
       "last_plan": {
         "source_id": "25923903",
         "display_name": "Oslo 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:33:17.313952+00:00"
+        "planned_at": "2026-11-16T20:33:20.982541+00:00"
       }
     },
     "3292": {
@@ -212585,5 +212591,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:33:17.627287+00:00"
+  "updated_at": "2026-11-16T20:33:22.364579+00:00"
 }
