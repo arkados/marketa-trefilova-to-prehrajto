@@ -10913,13 +10913,6 @@
           "source_id": "32380403",
           "target_video_id": "30642909",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:26:15.825941+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32380403",
-          "target_video_id": "30642909",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:15:58.934167+00:00"
         },
         {
@@ -10928,12 +10921,19 @@
           "target_video_id": "30642909",
           "permanent": false,
           "attempted_at": "2026-11-16T17:27:45.441343+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32380403",
+          "target_video_id": "30642909",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:19:54.514261+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32380403",
         "display_name": "The Sea Inside 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:27:42.764593+00:00"
+        "planned_at": "2026-11-16T21:19:51.389175+00:00"
       },
       "previous_target_id": "30642909",
       "prepared": {
@@ -82935,6 +82935,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-08T06:34:06.156483+00:00",
         "relay_source_id": "27791112"
+      },
+      "claim": {
+        "worker_id": "d0e9f21179c344699ac9b5ad349b23c9-shard-0",
+        "claimed_at": "2026-11-16T21:19:51.080533+00:00",
+        "lease_expires_at": "2026-11-17T03:19:51.080533+00:00",
+        "run_id": "43949050228"
       }
     },
     "28024": {
@@ -164164,7 +164170,7 @@
       "last_plan": {
         "source_id": "28912022",
         "display_name": "Sabata (Ehi amico... c'è Sabata. Hai chiuso!) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:19:47.896063+00:00"
+        "planned_at": "2026-11-16T21:19:51.785873+00:00"
       }
     },
     "29281": {
@@ -212876,5 +212882,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:19:48.468406+00:00"
+  "updated_at": "2026-11-16T21:19:54.514279+00:00"
 }
