@@ -1021,13 +1021,6 @@
           "source_id": "33238710",
           "target_video_id": "30577961",
           "permanent": false,
-          "attempted_at": "2026-11-16T15:18:10.144474+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33238710",
-          "target_video_id": "30577961",
-          "permanent": false,
           "attempted_at": "2026-11-16T17:28:47.188950+00:00"
         },
         {
@@ -1036,6 +1029,13 @@
           "target_video_id": "30577961",
           "permanent": false,
           "attempted_at": "2026-11-16T21:21:01.063818+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33238710",
+          "target_video_id": "30577961",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:53:19.413611+00:00"
         }
       ],
       "last_plan": {
@@ -1049,12 +1049,6 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-10-28T04:52:11.852635+00:00",
         "relay_source_id": "33238710"
-      },
-      "claim": {
-        "worker_id": "3f3789cc559b4590bf08ff374ce39f6e-shard-0",
-        "claimed_at": "2026-11-16T22:53:15.771929+00:00",
-        "lease_expires_at": "2026-11-17T04:53:15.771929+00:00",
-        "run_id": "43949050228"
       }
     },
     "54": {
@@ -132630,7 +132624,7 @@
       "last_plan": {
         "source_id": "34676372",
         "display_name": "Fly, Bird, Fly! (Leť, ptáku leť!) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:20:59.551251+00:00"
+        "planned_at": "2026-11-16T22:53:18.042760+00:00"
       },
       "previous_target_id": "30987143",
       "prepared": {
@@ -164539,11 +164533,16 @@
       "last_plan": {
         "source_id": "35124112",
         "display_name": "Martin a Venuse (Martin a Venuše) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:53:12.731977+00:00"
+        "planned_at": "2026-11-16T22:53:18.400797+00:00"
       }
     },
     "10173": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31551840",
+        "display_name": "Into the Wind (Do větru) (2018) 1080p CZ Dabing",
+        "planned_at": "2026-11-16T22:53:18.709394+00:00"
+      }
     },
     "17104": {
       "attempts": []
@@ -213200,5 +213199,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:53:15.771961+00:00"
+  "updated_at": "2026-11-16T22:53:19.413631+00:00"
 }
