@@ -323,7 +323,7 @@ Attach subtitles only after target processing has finished.
 | The Wonderful Story of Henry Sugar 1080p CZ Titulky | 30763706 | https://sdilej.cz/26884588/the.wonderful.story.of.henry.sugar.2023.1080p.web.h264-ethel-cz-titulky.mkv | Complete: Czech subtitles verified |
 | Mid90s 720p CZ Titulky | 30761152 | https://sdilej.cz/31920680/mid90s-2018-cz-titulky-brdrip.720p.dd5.1.x264-mg.okay-.mkv | Complete: Czech subtitles verified |
 | Burning (Beoning) (2018) 720p CZ Titulky | 30761347 | https://sdilej.cz/10716235/vzplanuti-cz-titulky-hd-720p.mkv | Complete: Czech subtitles verified |
-| Bullitt 720p CZ Titulky | 30763383 | https://sdilej.cz/7674339/bullittuv-pripad-bullitt-1968-cz-eng-pl-dab-cz-eng-pl-tit.-ok-kvalitka-.mkv | Extract Czech track from exact source after processing |
+| Bullitt 720p CZ titulky | 30763383 | https://sdilej.cz/7674339/bullittuv-pripad-bullitt-1968-cz-eng-pl-dab-cz-eng-pl-tit.-ok-kvalitka-.mkv | Extract Czech track from exact source after processing |
 | Marathon Man 1080p CZ Titulky | 30763573 | https://sdilej.cz/20877545/maratonec.1976.en.cz.mkv | Complete: Czech subtitles verified |
 | High Plains Drifter 1080p CZ Titulky | 30763637 | https://sdilej.cz/26121857/tulak-z-sirych-plani-1973.mkv | Complete: Czech subtitles verified |
 | 5 Centimeters Per Second (Byôsoku 5 senchimêtoru) 1080p CZ Titulky | 30768804 | https://sdilej.cz/27114239/5-centimeters-per-second-2007-1080p-cz-tit.mkv | Complete: Czech subtitles verified |
