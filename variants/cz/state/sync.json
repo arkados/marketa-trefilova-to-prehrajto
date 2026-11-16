@@ -164119,17 +164119,19 @@
       "attempts": []
     },
     "26627": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26750213",
+          "target_video_id": "31099358",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:19:25.586195+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26750213",
         "display_name": "Catch the Doctor! (Chyťte doktora) 1080p CZ Dabing",
         "planned_at": "2026-11-16T21:13:29.633401+00:00"
-      },
-      "claim": {
-        "worker_id": "d4877fc998854e0a9065b62f086037da-shard-0",
-        "claimed_at": "2026-11-16T21:13:31.325216+00:00",
-        "lease_expires_at": "2026-11-17T03:13:31.325216+00:00",
-        "run_id": "43949050228"
       },
       "previous_target_id": "31099358",
       "prepared": {
@@ -212862,5 +212864,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:19:23.179668+00:00"
+  "updated_at": "2026-11-16T21:19:25.586217+00:00"
 }
