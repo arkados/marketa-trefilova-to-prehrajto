@@ -107817,13 +107817,6 @@
           "source_id": "34713446",
           "target_video_id": "30983246",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:19:02.503623+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34713446",
-          "target_video_id": "30983246",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:07:28.411118+00:00"
         },
         {
@@ -107832,6 +107825,13 @@
           "target_video_id": "30983246",
           "permanent": false,
           "attempted_at": "2026-11-16T17:23:10.952860+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34713446",
+          "target_video_id": "30983246",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:15:09.408270+00:00"
         }
       ],
       "last_plan": {
@@ -107877,7 +107877,7 @@
       "last_plan": {
         "source_id": "34883521",
         "display_name": "Vera 68 (Věra 68) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:23:12.563595+00:00"
+        "planned_at": "2026-11-16T21:15:07.677840+00:00"
       },
       "previous_target_id": "30983259",
       "prepared": {
@@ -107885,6 +107885,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T13:56:32.195971+00:00",
         "relay_source_id": "34883521"
+      },
+      "claim": {
+        "worker_id": "54f9e8f9d1114e8198788c79455c317b-shard-0",
+        "claimed_at": "2026-11-16T21:15:08.909407+00:00",
+        "lease_expires_at": "2026-11-17T03:15:08.909407+00:00",
+        "run_id": "43949050228"
       }
     },
     "26105": {
@@ -164132,7 +164138,7 @@
       "last_plan": {
         "source_id": "33333813",
         "display_name": "The Forge 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:15:04.655820+00:00"
+        "planned_at": "2026-11-16T21:15:08.074328+00:00"
       }
     },
     "15605": {
@@ -212850,5 +212856,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:15:04.655839+00:00"
+  "updated_at": "2026-11-16T21:15:09.408291+00:00"
 }
