@@ -110564,13 +110564,6 @@
           "source_id": "34716525",
           "target_video_id": "30983747",
           "permanent": false,
-          "attempted_at": "2026-11-16T12:37:45.979964+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716525",
-          "target_video_id": "30983747",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:18:02.819190+00:00"
         },
         {
@@ -110579,6 +110572,13 @@
           "target_video_id": "30983747",
           "permanent": false,
           "attempted_at": "2026-11-16T16:22:17.586326+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716525",
+          "target_video_id": "30983747",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:36:30.629074+00:00"
         }
       ],
       "last_plan": {
@@ -110592,12 +110592,6 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:42:03.377463+00:00",
         "relay_source_id": "34716525"
-      },
-      "claim": {
-        "worker_id": "f5ff4648c3884ea58f3408325c8d9824-shard-0",
-        "claimed_at": "2026-11-16T20:36:25.792789+00:00",
-        "lease_expires_at": "2026-11-17T02:36:25.792789+00:00",
-        "run_id": "43949050228"
       }
     },
     "31730": {
@@ -131881,7 +131875,7 @@
       "last_plan": {
         "source_id": "29956320",
         "display_name": "Dalskabáty, hrisna ves (Dalskabáty, hříšná ves aneb Zapomenutý čert) SD CZ Dabing",
-        "planned_at": "2026-11-16T16:22:15.860554+00:00"
+        "planned_at": "2026-11-16T20:36:28.470570+00:00"
       },
       "previous_target_id": "30987039",
       "prepared": {
@@ -131889,6 +131883,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T03:28:04.677666+00:00",
         "relay_source_id": "29956320"
+      },
+      "claim": {
+        "worker_id": "4fb7ea45604e48de8a4b9171ea48e3b4-shard-0",
+        "claimed_at": "2026-11-16T20:36:29.576463+00:00",
+        "lease_expires_at": "2026-11-17T02:36:29.576463+00:00",
+        "run_id": "43949050228"
       }
     },
     "32432": {
@@ -163832,7 +163832,7 @@
       "last_plan": {
         "source_id": "34689031",
         "display_name": "Christmas on 5th Avenue 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:36:24.894960+00:00"
+        "planned_at": "2026-11-16T20:36:28.870311+00:00"
       }
     },
     "35577": {
@@ -212613,5 +212613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:36:26.145558+00:00"
+  "updated_at": "2026-11-16T20:36:30.629091+00:00"
 }
