@@ -101024,13 +101024,6 @@
           "source_id": "35139959",
           "target_video_id": "30966007",
           "permanent": false,
-          "attempted_at": "2026-11-16T12:34:51.731337+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35139959",
-          "target_video_id": "30966007",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:13:17.776300+00:00"
         },
         {
@@ -101039,6 +101032,13 @@
           "target_video_id": "30966007",
           "permanent": false,
           "attempted_at": "2026-11-16T16:18:14.279889+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35139959",
+          "target_video_id": "30966007",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:32:44.650229+00:00"
         }
       ],
       "last_plan": {
@@ -133244,7 +133244,7 @@
       "last_plan": {
         "source_id": "34714426",
         "display_name": "Mezi námi zloději SD CZ Dabing",
-        "planned_at": "2026-11-16T16:18:16.182338+00:00"
+        "planned_at": "2026-11-16T20:32:42.836768+00:00"
       },
       "previous_target_id": "30987246",
       "prepared": {
@@ -133252,6 +133252,12 @@
         "size_bytes": 796400000,
         "prepared_at": "2026-11-11T04:02:42.743119+00:00",
         "relay_source_id": "34714426"
+      },
+      "claim": {
+        "worker_id": "fa4d62c8ebb04a3aa41911de560dcc0d-shard-0",
+        "claimed_at": "2026-11-16T20:32:44.252595+00:00",
+        "lease_expires_at": "2026-11-17T02:32:44.252595+00:00",
+        "run_id": "43949050228"
       }
     },
     "24132": {
@@ -163793,7 +163799,7 @@
       "last_plan": {
         "source_id": "25923903",
         "display_name": "Oslo 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:32:39.325771+00:00"
+        "planned_at": "2026-11-16T20:32:43.213815+00:00"
       }
     },
     "3292": {
@@ -212585,5 +212591,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:32:39.649921+00:00"
+  "updated_at": "2026-11-16T20:32:44.650247+00:00"
 }
