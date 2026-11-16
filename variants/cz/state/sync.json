@@ -109202,13 +109202,6 @@
     "14263": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "34686041",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T14:47:17.227626+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "34686041",
           "target_video_id": "30983624",
@@ -109221,6 +109214,13 @@
           "target_video_id": "30983624",
           "permanent": false,
           "attempted_at": "2026-11-16T21:05:16.717879+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34686041",
+          "target_video_id": "30983624",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:37:53.871493+00:00"
         }
       ],
       "last_plan": {
@@ -109234,12 +109234,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T14:23:31.273129+00:00",
         "relay_source_id": "34686041"
-      },
-      "claim": {
-        "worker_id": "b96e606dd0b94ebcb9fe5afd0e659a54-shard-0",
-        "claimed_at": "2026-11-16T22:37:50.185906+00:00",
-        "lease_expires_at": "2026-11-17T04:37:50.185906+00:00",
-        "run_id": "43949050228"
       }
     },
     "11527": {
@@ -159788,7 +159782,7 @@
       "last_plan": {
         "source_id": "26692246",
         "display_name": "The Third Prince (Třetí princ) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:05:12.823636+00:00"
+        "planned_at": "2026-11-16T22:37:53.578275+00:00"
       },
       "previous_target_id": "31073555",
       "prepared": {
@@ -164502,7 +164496,7 @@
       "last_plan": {
         "source_id": "12675838",
         "display_name": "Overcomer SD CZ Dabing",
-        "planned_at": "2026-11-16T22:37:49.501737+00:00"
+        "planned_at": "2026-11-16T22:37:54.242640+00:00"
       }
     },
     "8616": {
@@ -213166,5 +213160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:37:50.858725+00:00"
+  "updated_at": "2026-11-16T22:37:54.242655+00:00"
 }
