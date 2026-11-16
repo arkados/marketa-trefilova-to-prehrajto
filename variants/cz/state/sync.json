@@ -109289,13 +109289,6 @@
           "source_id": "31753593",
           "target_video_id": "30983629",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:25:19.151963+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31753593",
-          "target_video_id": "30983629",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:15:42.855460+00:00"
         },
         {
@@ -109304,6 +109297,13 @@
           "target_video_id": "30983629",
           "permanent": false,
           "attempted_at": "2026-11-16T17:27:30.802329+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31753593",
+          "target_video_id": "30983629",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:19:44.909393+00:00"
         }
       ],
       "last_plan": {
@@ -114322,7 +114322,7 @@
       "last_plan": {
         "source_id": "32021078",
         "display_name": "The Fantastic Four: First Steps (The Fantastic 4: First Steps) 4K CZ Dabing",
-        "planned_at": "2026-11-16T17:27:32.479580+00:00"
+        "planned_at": "2026-11-16T21:19:43.466296+00:00"
       },
       "previous_target_id": "30984120",
       "prepared": {
@@ -114330,6 +114330,12 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-10T15:29:35.978333+00:00",
         "relay_source_id": "32021078"
+      },
+      "claim": {
+        "worker_id": "ff0ede59c4b644939debe1c9d5ac69ad-shard-0",
+        "claimed_at": "2026-11-16T21:19:44.610791+00:00",
+        "lease_expires_at": "2026-11-17T03:19:44.610791+00:00",
+        "run_id": "43949050228"
       }
     },
     "3114": {
@@ -164164,7 +164170,7 @@
       "last_plan": {
         "source_id": "28912022",
         "display_name": "Sabata (Ehi amico... c'è Sabata. Hai chiuso!) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:19:38.247006+00:00"
+        "planned_at": "2026-11-16T21:19:43.829468+00:00"
       }
     },
     "29281": {
@@ -212876,5 +212882,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:19:41.110380+00:00"
+  "updated_at": "2026-11-16T21:19:44.909414+00:00"
 }
