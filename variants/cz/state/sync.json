@@ -120368,13 +120368,6 @@
           "source_id": "11263337",
           "target_video_id": "30985002",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:02:28.090988+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11263337",
-          "target_video_id": "30985002",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:33:42.709547+00:00"
         },
         {
@@ -120383,6 +120376,13 @@
           "target_video_id": "30985002",
           "permanent": false,
           "attempted_at": "2026-11-16T16:43:18.111351+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11263337",
+          "target_video_id": "30985002",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:50:30.503240+00:00"
         }
       ],
       "last_plan": {
@@ -120396,12 +120396,6 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T18:30:17.466007+00:00",
         "relay_source_id": "11263337"
-      },
-      "claim": {
-        "worker_id": "bb90333fbb7946c281dfb99ea3bc1523-shard-0",
-        "claimed_at": "2026-11-16T20:50:26.490465+00:00",
-        "lease_expires_at": "2026-11-17T02:50:26.490465+00:00",
-        "run_id": "43949050228"
       }
     },
     "3022": {
@@ -121670,7 +121664,7 @@
       "last_plan": {
         "source_id": "33746515",
         "display_name": "Taps 1080p CZ Dabing",
-        "planned_at": "2026-11-16T16:43:19.943640+00:00"
+        "planned_at": "2026-11-16T20:50:29.178707+00:00"
       },
       "previous_target_id": "30985386",
       "prepared": {
@@ -121678,6 +121672,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T19:00:56.350782+00:00",
         "relay_source_id": "33746515"
+      },
+      "claim": {
+        "worker_id": "cdd57d71827142a4b5c4e4dd81c7dae1-shard-0",
+        "claimed_at": "2026-11-16T20:50:30.201692+00:00",
+        "lease_expires_at": "2026-11-17T02:50:30.201692+00:00",
+        "run_id": "43949050228"
       }
     },
     "27476": {
@@ -163949,7 +163949,7 @@
       "last_plan": {
         "source_id": "33992687",
         "display_name": "Night Ride SD CZ Dabing",
-        "planned_at": "2026-11-16T20:50:25.819408+00:00"
+        "planned_at": "2026-11-16T20:50:29.545792+00:00"
       }
     },
     "17169": {
@@ -212706,5 +212706,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:50:26.794254+00:00"
+  "updated_at": "2026-11-16T20:50:30.503257+00:00"
 }
