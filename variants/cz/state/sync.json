@@ -128645,13 +128645,6 @@
     "16044": {
       "attempts": [
         {
-          "status": "target_processing",
-          "source_id": "34825483",
-          "target_video_id": "30986657",
-          "permanent": false,
-          "attempted_at": "2026-11-16T13:41:44.447543+00:00"
-        },
-        {
           "status": "target_lookup_failed",
           "permanent": false,
           "source_id": "34825483",
@@ -128664,6 +128657,13 @@
           "target_video_id": "30986657",
           "permanent": false,
           "attempted_at": "2026-11-16T17:46:12.078245+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34825483",
+          "target_video_id": "30986657",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:39:56.380667+00:00"
         }
       ],
       "last_plan": {
@@ -128677,12 +128677,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T01:24:56.579002+00:00",
         "relay_source_id": "34825483"
-      },
-      "claim": {
-        "worker_id": "9641341747e74f4d84d1fa5f73026d50-shard-0",
-        "claimed_at": "2026-11-16T21:39:52.695100+00:00",
-        "lease_expires_at": "2026-11-17T03:39:52.695100+00:00",
-        "run_id": "43949050228"
       }
     },
     "2852": {
@@ -142659,7 +142653,7 @@
       "last_plan": {
         "source_id": "35210758",
         "display_name": "Uncle Cyril (Prokletí domu Hajnů) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:46:11.910369+00:00"
+        "planned_at": "2026-11-16T21:39:56.100329+00:00"
       },
       "previous_target_id": "30988537",
       "prepared": {
@@ -164215,11 +164209,16 @@
       "last_plan": {
         "source_id": "34711784",
         "display_name": "The Midsummer Wreath (Svatojánský věneček) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:39:48.988435+00:00"
+        "planned_at": "2026-11-16T21:39:56.750239+00:00"
       }
     },
     "11545": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11186054",
+        "display_name": "Rumburak 1080p CZ Dabing",
+        "planned_at": "2026-11-16T21:39:56.966903+00:00"
+      }
     },
     "29530": {
       "attempts": []
@@ -212924,5 +212923,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:39:52.695130+00:00"
+  "updated_at": "2026-11-16T21:39:56.966915+00:00"
 }
