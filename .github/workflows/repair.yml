@@ -1,0 +1,56 @@
+name: repair-missing-sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 * * * *"
+concurrency:
+  group: marketa-source-repair
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  repair:
+    if: github.event_name == 'workflow_dispatch' || vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      HF_HOME: /tmp/huggingface
+      WHISPER_CPU_THREADS: "2"
+      WHISPER_NUM_WORKERS: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HF_HOME }}
+          key: whisper-small-${{ runner.os }}-v1
+      - name: Install discovery runtime
+        run: |
+          pip install --timeout 90 --retries 5 '.[whisper,visual]'
+          sudo python3 scripts/configure_ubuntu_mirrors.py
+          sudo apt-get -o Acquire::Retries=2 update
+          sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg tesseract-ocr tesseract-ocr-ces tesseract-ocr-eng
+      - name: Validate upload histories
+        run: python -c 'from pathlib import Path; from marketa_sync.history import audit_history; print(audit_history(Path.cwd()))'
+      - name: Configure durable checkpoints
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Repair sources independently of transfers
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+        run: marketa-sync repair-sources --limit 100 --runtime-minutes 210 --persist-git-state
+      - name: Preserve source repair diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marketa-repairs-${{ github.run_id }}
+          path: |
+            state/source-repairs.json
+            state/source-repair-search.json

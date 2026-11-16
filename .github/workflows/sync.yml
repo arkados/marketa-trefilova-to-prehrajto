@@ -1,0 +1,131 @@
+name: marketa-sync
+on:
+  workflow_call:
+    inputs:
+      mode:
+        type: string
+        required: true
+      limit:
+        type: number
+        default: 2
+      workers:
+        type: number
+        default: 3
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Operation"
+        type: choice
+        default: plan
+        options: [plan, prepare, upload, continuous, subtitles]
+      limit:
+        description: "Maximum items per operation"
+        type: number
+        default: 2
+      workers:
+        description: "Simultaneous film transfers (1 to 6)"
+        type: number
+        default: 3
+
+concurrency:
+  group: ${{ inputs.mode == 'prepare' && 'marketa-source-preparation' || inputs.mode == 'plan' && 'marketa-read-only-plans' || 'marketa-target-and-state' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.event_name == 'workflow_dispatch' || vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      MODE: ${{ inputs.mode }}
+      BATCH_LIMIT: ${{ inputs.limit || '2' }}
+      UPLOAD_WORKERS: ${{ inputs.workers || '3' }}
+      HF_HOME: /tmp/huggingface
+      WHISPER_CPU_THREADS: "2"
+      WHISPER_NUM_WORKERS: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HF_HOME }}
+          key: whisper-small-${{ runner.os }}-v1
+      - name: Install runtime
+        run: |
+          pip install .
+          if [[ "$MODE" == prepare || "$MODE" == continuous || "$MODE" == subtitles ]]; then
+            sudo python3 scripts/configure_ubuntu_mirrors.py
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
+            sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg
+          fi
+          if [[ "$MODE" == prepare ]]; then
+            sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends tesseract-ocr tesseract-ocr-ces tesseract-ocr-eng
+            pip install --timeout 90 --retries 5 '.[whisper,visual]'
+            python scripts/check_whisper_runtime.py
+          fi
+      - name: Validate upload histories
+        run: python -c 'from pathlib import Path; from marketa_sync.history import audit_history; print(audit_history(Path.cwd()))'
+      - name: Configure durable checkpoints
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Resolve English titles
+        if: env.MODE == 'prepare'
+        continue-on-error: true
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: marketa-sync titles --limit 100 --persist-git-state
+      - name: Show next uploads
+        if: env.MODE == 'plan'
+        run: marketa-sync plan --limit "$BATCH_LIMIT"
+      - name: Prepare Czech and both original-language variants
+        if: env.MODE == 'prepare'
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+        run: marketa-sync prepare --limit "$BATCH_LIMIT" --runtime-minutes 210 --persist-git-state
+      - name: Transfer variants with parallel workers
+        if: env.MODE == 'upload'
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+        run: marketa-sync upload --limit "$BATCH_LIMIT" --workers "$UPLOAD_WORKERS" --runtime-minutes 240 --persist-git-state
+      - name: Continuously drain prepared films and follow up subtitles
+        if: env.MODE == 'continuous'
+        # Stop starting transfers before the runner deadline so a large file
+        # can finish before the queued successor takes over.
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+        run: marketa-sync continuous --limit "$BATCH_LIMIT" --workers "$UPLOAD_WORKERS" --runtime-minutes 240 --persist-git-state
+      - name: Attach subtitles after processing
+        if: env.MODE == 'subtitles'
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+        run: marketa-sync subtitles --limit 20 --runtime-minutes 35 --persist-git-state
+      - name: Preserve diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marketa-state-${{ github.run_id }}
+          path: |
+            state/film-discovery.json
+            variants/*/state/
+            variants/*/plans/
+            reports/
+          if-no-files-found: ignore

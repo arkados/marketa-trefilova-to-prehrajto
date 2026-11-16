@@ -1,0 +1,39 @@
+name: tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: |
+          sudo python3 scripts/configure_ubuntu_mirrors.py
+          sudo apt-get -o Acquire::Retries=2 update
+          sudo apt-get -o Acquire::Retries=2 install -y --no-install-recommends ffmpeg tesseract-ocr tesseract-ocr-ces tesseract-ocr-eng fonts-dejavu-core
+          pip install --timeout 90 --retries 5 '.[test,visual]'
+      - run: pytest
+  whisper-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HF_HOME: /tmp/huggingface
+      WHISPER_CPU_THREADS: "2"
+      WHISPER_NUM_WORKERS: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HF_HOME }}
+          key: whisper-small-${{ runner.os }}-v1
+      - run: pip install '.[whisper]'
+      - run: python scripts/check_whisper_runtime.py
