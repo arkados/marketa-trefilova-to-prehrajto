@@ -6827,7 +6827,7 @@
       "last_plan": {
         "source_id": "29667772",
         "display_name": "Star Wars: Episode III – Revenge of the Sith (Star Wars: Episode III - Revenge of the Sith) 1080p CZ titulky",
-        "planned_at": "2026-11-16T21:55:38.189044+00:00"
+        "planned_at": "2026-11-16T22:25:49.903910+00:00"
       },
       "previous_target_id": "30661597",
       "prepared": {
@@ -6835,6 +6835,12 @@
         "size_bytes": 8700000000,
         "prepared_at": "2026-10-31T08:34:47.262597+00:00",
         "relay_source_id": "29667772"
+      },
+      "claim": {
+        "worker_id": "b0cf6b4d4a5c42e3bbc0e2de7aa89c30-shard-0",
+        "claimed_at": "2026-11-16T22:25:50.518547+00:00",
+        "lease_expires_at": "2026-11-17T04:25:50.518547+00:00",
+        "run_id": "43949050228"
       }
     },
     "655": {
@@ -7260,13 +7266,6 @@
           "source_id": "28240998",
           "target_video_id": "30664033",
           "permanent": false,
-          "attempted_at": "2026-11-16T20:55:25.570232+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28240998",
-          "target_video_id": "30664033",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:25:31.852745+00:00"
         },
         {
@@ -7275,6 +7274,13 @@
           "target_video_id": "30664033",
           "permanent": false,
           "attempted_at": "2026-11-16T21:55:39.109206+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28240998",
+          "target_video_id": "30664033",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:25:50.665004+00:00"
         }
       ],
       "last_plan": {
@@ -100732,5 +100738,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:25:46.111429+00:00"
+  "updated_at": "2026-11-16T22:25:50.665022+00:00"
 }
