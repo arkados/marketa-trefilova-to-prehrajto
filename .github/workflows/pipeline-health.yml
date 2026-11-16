@@ -1,0 +1,41 @@
+name: pipeline-health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+  workflow_run:
+    workflows: [continuous-upload, prepare-sources, repair-missing-sources]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: marketa-trefilova-to-prehrajto-pipeline-health
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Resume continuous uploads when no uploader is active
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UPLOAD_WORKFLOW: continuous.yml
+        shell: bash
+        run: |
+          set -euo pipefail
+          active=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow "$UPLOAD_WORKFLOW" \
+            --limit 30 --json status \
+            --jq '[.[] | select(.status == "in_progress" or .status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length')
+          if [[ "$active" -gt 0 ]]; then
+            echo "Upload is already active or queued; no additional run needed"
+            exit 0
+          fi
+          echo "No active upload run; resuming the continuous uploader"
+          gh workflow run continuous.yml --repo "$GITHUB_REPOSITORY"
