@@ -117434,13 +117434,6 @@
     "3146": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "28400163",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:32:53.239756+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "28400163",
           "target_video_id": "30984786",
@@ -117453,12 +117446,19 @@
           "target_video_id": "30984786",
           "permanent": false,
           "attempted_at": "2026-11-16T21:29:51.221975+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28400163",
+          "target_video_id": "30984786",
+          "permanent": false,
+          "attempted_at": "2026-11-16T23:53:27.488986+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28400163",
         "display_name": "Mr. Peabody & Sherman 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:29:45.877840+00:00"
+        "planned_at": "2026-11-16T23:53:24.974757+00:00"
       },
       "previous_target_id": "30984786",
       "prepared": {
@@ -164599,7 +164599,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:53:20.921038+00:00"
+        "planned_at": "2026-11-16T23:53:25.270328+00:00"
       }
     },
     "30838": {
@@ -213248,5 +213248,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T23:53:23.019394+00:00"
+  "updated_at": "2026-11-16T23:53:27.489000+00:00"
 }
