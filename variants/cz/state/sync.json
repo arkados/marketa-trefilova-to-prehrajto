@@ -50137,13 +50137,6 @@
           "source_id": "11203350",
           "target_video_id": "30775439",
           "permanent": false,
-          "attempted_at": "2026-11-16T13:49:04.729484+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11203350",
-          "target_video_id": "30775439",
-          "permanent": false,
           "attempted_at": "2026-11-16T15:58:29.359618+00:00"
         },
         {
@@ -50152,6 +50145,13 @@
           "target_video_id": "30775439",
           "permanent": false,
           "attempted_at": "2026-11-16T17:52:57.705203+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11203350",
+          "target_video_id": "30775439",
+          "permanent": false,
+          "attempted_at": "2026-11-16T21:46:53.694440+00:00"
         }
       ],
       "last_plan": {
@@ -107994,7 +107994,7 @@
       "last_plan": {
         "source_id": "32711232",
         "display_name": "On the Roof (Na střeše) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T17:52:59.541214+00:00"
+        "planned_at": "2026-11-16T21:46:52.170813+00:00"
       },
       "previous_target_id": "30983462",
       "prepared": {
@@ -108002,6 +108002,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:05:43.545596+00:00",
         "relay_source_id": "32711232"
+      },
+      "claim": {
+        "worker_id": "ea39bd26e15e43568c5408c8374c852f-shard-0",
+        "claimed_at": "2026-11-16T21:46:53.377042+00:00",
+        "lease_expires_at": "2026-11-17T03:46:53.377042+00:00",
+        "run_id": "43949050228"
       }
     },
     "12717": {
@@ -164230,7 +164236,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:46:49.241412+00:00"
+        "planned_at": "2026-11-16T21:46:52.559456+00:00"
       }
     },
     "29530": {
@@ -212936,5 +212942,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T21:46:49.241428+00:00"
+  "updated_at": "2026-11-16T21:46:53.694457+00:00"
 }
