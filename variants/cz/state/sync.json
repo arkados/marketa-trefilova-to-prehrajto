@@ -138854,13 +138854,6 @@
     "10754": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "33806385",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:37:28.587401+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "33806385",
           "target_video_id": "30987901",
@@ -138873,6 +138866,13 @@
           "target_video_id": "30987901",
           "permanent": false,
           "attempted_at": "2026-11-16T21:33:32.336483+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33806385",
+          "target_video_id": "30987901",
+          "permanent": false,
+          "attempted_at": "2026-11-16T23:57:18.165673+00:00"
         }
       ],
       "last_plan": {
@@ -161073,7 +161073,7 @@
       "last_plan": {
         "source_id": "33810828",
         "display_name": "Die Gänsemagd 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:33:30.797827+00:00"
+        "planned_at": "2026-11-16T23:57:16.744132+00:00"
       },
       "previous_target_id": "31078819",
       "prepared": {
@@ -161081,6 +161081,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-16T01:18:02.253641+00:00",
         "relay_source_id": "33810828"
+      },
+      "claim": {
+        "worker_id": "939d723ac51c410f91199660f28a703d-shard-0",
+        "claimed_at": "2026-11-16T23:57:17.569251+00:00",
+        "lease_expires_at": "2026-11-17T05:57:17.569251+00:00",
+        "run_id": "43981967428"
       }
     },
     "21630": {
@@ -164608,7 +164614,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:57:13.834235+00:00"
+        "planned_at": "2026-11-16T23:57:17.042329+00:00"
       }
     },
     "30838": {
@@ -213257,5 +213263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T23:57:14.078278+00:00"
+  "updated_at": "2026-11-16T23:57:18.165689+00:00"
 }
