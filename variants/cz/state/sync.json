@@ -141803,13 +141803,6 @@
           "source_id": "30436273",
           "target_video_id": "30988335",
           "permanent": false,
-          "attempted_at": "2026-11-16T14:37:21.315975+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30436273",
-          "target_video_id": "30988335",
-          "permanent": false,
           "attempted_at": "2026-11-16T16:48:12.978002+00:00"
         },
         {
@@ -141818,6 +141811,13 @@
           "target_video_id": "30988335",
           "permanent": false,
           "attempted_at": "2026-11-16T20:55:57.111285+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30436273",
+          "target_video_id": "30988335",
+          "permanent": false,
+          "attempted_at": "2026-11-16T22:30:24.122117+00:00"
         }
       ],
       "last_plan": {
@@ -164078,7 +164078,7 @@
       "last_plan": {
         "source_id": "12192746",
         "display_name": "Au poste! (Au poste !) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T20:52:39.290196+00:00"
+        "planned_at": "2026-11-16T22:30:22.510349+00:00"
       },
       "previous_target_id": "31098841",
       "prepared": {
@@ -164086,6 +164086,12 @@
         "size_bytes": 1762679034,
         "prepared_at": "2026-11-16T20:52:47.831709+00:00",
         "relay_source_id": "12192746"
+      },
+      "claim": {
+        "worker_id": "0771fc68a033432c852e0612eead9bb5-shard-0",
+        "claimed_at": "2026-11-16T22:30:23.864122+00:00",
+        "lease_expires_at": "2026-11-17T04:30:23.864122+00:00",
+        "run_id": "43949050228"
       }
     },
     "27772": {
@@ -164434,11 +164440,22 @@
       "last_plan": {
         "source_id": "33767644",
         "display_name": "They Called Him Bulldozer (Lo chiamavano Bulldozer) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:30:18.767471+00:00"
+        "planned_at": "2026-11-16T22:30:22.864203+00:00"
+      },
+      "claim": {
+        "worker_id": "877dc6ee49d8411c809ce79799ee93e5-shard-0",
+        "claimed_at": "2026-11-16T22:30:24.338892+00:00",
+        "lease_expires_at": "2026-11-17T04:30:24.338892+00:00",
+        "run_id": "43949050228"
       }
     },
     "26039": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34152128",
+        "display_name": "13 Beloved (13: Game of Death) 720p CZ Dabing",
+        "planned_at": "2026-11-16T22:30:23.130487+00:00"
+      }
     },
     "17360": {
       "attempts": []
@@ -213104,5 +213121,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:30:19.056878+00:00"
+  "updated_at": "2026-11-16T22:30:24.338920+00:00"
 }
