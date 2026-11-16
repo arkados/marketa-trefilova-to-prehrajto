@@ -127397,13 +127397,6 @@
           "source_id": "6308804",
           "target_video_id": "30986400",
           "permanent": false,
-          "attempted_at": "2026-11-16T12:59:58.404933+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6308804",
-          "target_video_id": "30986400",
-          "permanent": false,
           "attempted_at": "2026-11-16T14:30:40.109502+00:00"
         },
         {
@@ -127412,6 +127405,13 @@
           "target_video_id": "30986400",
           "permanent": false,
           "attempted_at": "2026-11-16T16:38:50.711703+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6308804",
+          "target_video_id": "30986400",
+          "permanent": false,
+          "attempted_at": "2026-11-16T20:47:12.671447+00:00"
         }
       ],
       "last_plan": {
@@ -133419,7 +133419,7 @@
       "last_plan": {
         "source_id": "30864230",
         "display_name": "The Night Guest SD CZ Dabing",
-        "planned_at": "2026-11-16T16:38:52.485173+00:00"
+        "planned_at": "2026-11-16T20:47:11.179361+00:00"
       },
       "previous_target_id": "30987287",
       "prepared": {
@@ -133427,6 +133427,12 @@
         "size_bytes": 912100000,
         "prepared_at": "2026-11-11T04:10:15.307743+00:00",
         "relay_source_id": "30864230"
+      },
+      "claim": {
+        "worker_id": "1a2326bc26c84e4a80c90c17ee9f894d-shard-0",
+        "claimed_at": "2026-11-16T20:47:12.346505+00:00",
+        "lease_expires_at": "2026-11-17T02:47:12.346505+00:00",
+        "run_id": "43949050228"
       }
     },
     "31705": {
@@ -163931,7 +163937,7 @@
       "last_plan": {
         "source_id": "33992687",
         "display_name": "Night Ride SD CZ Dabing",
-        "planned_at": "2026-11-16T20:47:07.728967+00:00"
+        "planned_at": "2026-11-16T20:47:11.553197+00:00"
       }
     },
     "17169": {
@@ -212688,5 +212694,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T20:47:08.052536+00:00"
+  "updated_at": "2026-11-16T20:47:12.671464+00:00"
 }
