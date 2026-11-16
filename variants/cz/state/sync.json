@@ -129570,7 +129570,7 @@
       "last_plan": {
         "source_id": "34836027",
         "display_name": "Killer Clans SD CZ Dabing",
-        "planned_at": "2026-11-16T21:35:50.084811+00:00"
+        "planned_at": "2026-11-16T23:59:00.963422+00:00"
       },
       "previous_target_id": "30986780",
       "prepared": {
@@ -129578,6 +129578,12 @@
         "size_bytes": 895100000,
         "prepared_at": "2026-11-11T02:06:40.360622+00:00",
         "relay_source_id": "34836027"
+      },
+      "claim": {
+        "worker_id": "8edbeb69afca42599e585459aab917b4-shard-0",
+        "claimed_at": "2026-11-16T23:59:01.793373+00:00",
+        "lease_expires_at": "2026-11-17T05:59:01.793373+00:00",
+        "run_id": "43981967428"
       }
     },
     "13027": {
@@ -136890,13 +136896,6 @@
     "16243": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "33807241",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:41:30.580245+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "33807241",
           "target_video_id": "30987739",
@@ -136909,6 +136908,13 @@
           "target_video_id": "30987739",
           "permanent": false,
           "attempted_at": "2026-11-16T21:35:49.368528+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33807241",
+          "target_video_id": "30987739",
+          "permanent": false,
+          "attempted_at": "2026-11-16T23:59:02.410667+00:00"
         }
       ],
       "last_plan": {
@@ -164608,7 +164614,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:58:58.085104+00:00"
+        "planned_at": "2026-11-16T23:59:01.259913+00:00"
       }
     },
     "30838": {
@@ -213257,5 +213263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-16T23:58:58.536749+00:00"
+  "updated_at": "2026-11-16T23:59:02.410685+00:00"
 }
