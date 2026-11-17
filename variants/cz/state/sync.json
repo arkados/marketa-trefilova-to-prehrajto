@@ -1021,13 +1021,6 @@
           "source_id": "33238710",
           "target_video_id": "30577961",
           "permanent": false,
-          "attempted_at": "2026-11-17T06:33:35.896234+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33238710",
-          "target_video_id": "30577961",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:11:13.629896+00:00"
         },
         {
@@ -1036,6 +1029,13 @@
           "target_video_id": "30577961",
           "permanent": false,
           "attempted_at": "2026-11-17T09:23:40.643248+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33238710",
+          "target_video_id": "30577961",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:42:29.102663+00:00"
         }
       ],
       "last_plan": {
@@ -164693,7 +164693,7 @@
       "last_plan": {
         "source_id": "35124112",
         "display_name": "Martin a Venuse (Martin a Venuše) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:23:38.954275+00:00"
+        "planned_at": "2026-11-17T10:42:27.426337+00:00"
       },
       "previous_target_id": "31101208",
       "prepared": {
@@ -164701,6 +164701,12 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-16T22:53:29.017685+00:00",
         "relay_source_id": "35124112"
+      },
+      "claim": {
+        "worker_id": "06deb106a24d4276bd9db73435949fb8-shard-0",
+        "claimed_at": "2026-11-17T10:42:28.398303+00:00",
+        "lease_expires_at": "2026-11-17T16:42:28.398303+00:00",
+        "run_id": "44013593637"
       }
     },
     "10173": {
@@ -167669,7 +167675,7 @@
       "last_plan": {
         "source_id": "34195064",
         "display_name": "Sea Sparkle (Zeevonk) 720p CZ Dabing",
-        "planned_at": "2026-11-17T10:42:24.537161+00:00"
+        "planned_at": "2026-11-17T10:42:27.741575+00:00"
       }
     },
     "24056": {
@@ -215814,5 +215820,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:42:24.827887+00:00"
+  "updated_at": "2026-11-17T10:42:29.102680+00:00"
 }
