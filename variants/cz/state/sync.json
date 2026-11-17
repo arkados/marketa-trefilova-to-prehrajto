@@ -167669,17 +167669,19 @@
       }
     },
     "16405": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34681364",
+          "target_video_id": "31115965",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:52:20.870559+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34681364",
         "display_name": "Beef (Ruido) 1080p CZ Dabing",
         "planned_at": "2026-11-17T10:38:40.693350+00:00"
-      },
-      "claim": {
-        "worker_id": "8ec556efac7e46638b1c75b4a02fe325-shard-0",
-        "claimed_at": "2026-11-17T10:38:41.913926+00:00",
-        "lease_expires_at": "2026-11-17T16:38:41.913926+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31115965",
       "prepared": {
@@ -215859,5 +215861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:52:18.681174+00:00"
+  "updated_at": "2026-11-17T10:52:20.870576+00:00"
 }
