@@ -8594,6 +8594,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "783b7ba4800242e8aa69aeb2e576e610-shard-0",
+        "claimed_at": "2026-11-17T13:47:30.483237+00:00",
+        "lease_expires_at": "2026-11-17T19:47:30.483237+00:00",
+        "run_id": "44078950078"
       }
     },
     "29922": {
@@ -114705,13 +114711,6 @@
           "source_id": "28048905",
           "target_video_id": "30984162",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:59:16.933963+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28048905",
-          "target_video_id": "30984162",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:16:51.780213+00:00"
         },
         {
@@ -114720,12 +114719,19 @@
           "target_video_id": "30984162",
           "permanent": false,
           "attempted_at": "2026-11-17T12:31:09.293032+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28048905",
+          "target_video_id": "30984162",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:47:34.048816+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28048905",
         "display_name": "Mad Max 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:31:03.108757+00:00"
+        "planned_at": "2026-11-17T13:47:31.032074+00:00"
       },
       "previous_target_id": "30984162",
       "prepared": {
@@ -168832,6 +168838,12 @@
         "source_id": "34700022",
         "display_name": "Donovan's Reef SD CZ Dabing",
         "planned_at": "2026-11-17T13:47:27.798146+00:00"
+      },
+      "claim": {
+        "worker_id": "a8b8773d764e48bb868a32d14e3d7ff7-shard-0",
+        "claimed_at": "2026-11-17T13:47:30.794760+00:00",
+        "lease_expires_at": "2026-11-17T19:47:30.794760+00:00",
+        "run_id": "44078950078"
       }
     },
     "11863": {
@@ -168845,7 +168857,7 @@
       "last_plan": {
         "source_id": "31279801",
         "display_name": "Titan: The OceanGate Disaster 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:47:28.223896+00:00"
+        "planned_at": "2026-11-17T13:47:31.465370+00:00"
       }
     },
     "11093": {
@@ -216780,5 +216792,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:47:28.223911+00:00"
+  "updated_at": "2026-11-17T13:47:34.048837+00:00"
 }
