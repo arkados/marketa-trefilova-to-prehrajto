@@ -126296,13 +126296,6 @@
           "source_id": "6506542",
           "target_video_id": "30986163",
           "permanent": false,
-          "attempted_at": "2026-11-17T02:42:46.669240+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6506542",
-          "target_video_id": "30986163",
-          "permanent": false,
           "attempted_at": "2026-11-17T04:04:27.737481+00:00"
         },
         {
@@ -126311,6 +126304,13 @@
           "target_video_id": "30986163",
           "permanent": false,
           "attempted_at": "2026-11-17T05:29:48.267099+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6506542",
+          "target_video_id": "30986163",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:55:52.004769+00:00"
         }
       ],
       "last_plan": {
@@ -139108,7 +139108,7 @@
       "last_plan": {
         "source_id": "34898047",
         "display_name": "Ohnivé zeny mezi námi (Ohnivé ženy mezi námi) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:29:47.578617+00:00"
+        "planned_at": "2026-11-17T06:55:50.076418+00:00"
       },
       "previous_target_id": "30987922",
       "prepared": {
@@ -139116,6 +139116,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T06:48:12.289737+00:00",
         "relay_source_id": "34898047"
+      },
+      "claim": {
+        "worker_id": "a5979d140572493bb83bc72845cf80f7-shard-0",
+        "claimed_at": "2026-11-17T06:55:51.473503+00:00",
+        "lease_expires_at": "2026-11-17T12:55:51.473503+00:00",
+        "run_id": "44012569640"
       }
     },
     "10676": {
@@ -166224,7 +166230,13 @@
       "last_plan": {
         "source_id": "29910338",
         "display_name": "Clash of Steel SD CZ Dabing",
-        "planned_at": "2026-11-17T06:55:46.953705+00:00"
+        "planned_at": "2026-11-17T06:55:50.439719+00:00"
+      },
+      "claim": {
+        "worker_id": "26f42298decc47f799763813dfdce71a-shard-0",
+        "claimed_at": "2026-11-17T06:55:51.785929+00:00",
+        "lease_expires_at": "2026-11-17T12:55:51.785929+00:00",
+        "run_id": "44012569640"
       }
     },
     "33229": {
@@ -166246,7 +166258,12 @@
       "attempts": []
     },
     "3279": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30892006",
+        "display_name": "November (Novembre) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T06:55:50.717362+00:00"
+      }
     },
     "16123": {
       "attempts": []
@@ -214603,5 +214620,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:55:46.953724+00:00"
+  "updated_at": "2026-11-17T06:55:52.004786+00:00"
 }
