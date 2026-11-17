@@ -132677,13 +132677,6 @@
           "source_id": "29186186",
           "target_video_id": "30987146",
           "permanent": false,
-          "attempted_at": "2026-11-17T17:26:36.044278+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29186186",
-          "target_video_id": "30987146",
-          "permanent": false,
           "attempted_at": "2026-11-17T18:38:32.424265+00:00"
         },
         {
@@ -132692,12 +132685,19 @@
           "target_video_id": "30987146",
           "permanent": false,
           "attempted_at": "2026-11-17T19:54:35.803012+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29186186",
+          "target_video_id": "30987146",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:25:26.432720+00:00"
         }
       ],
       "last_plan": {
         "source_id": "29186186",
         "display_name": "The Trap (1950) SD CZ Dabing",
-        "planned_at": "2026-11-17T19:54:31.550682+00:00"
+        "planned_at": "2026-11-17T21:25:23.794295+00:00"
       },
       "previous_target_id": "30987146",
       "prepared": {
@@ -171164,11 +171164,23 @@
       }
     },
     "17376": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "15179670",
+          "reason": "Request failed for https://sdilej.cz/15179670/vanoce-podle-eve-it-s-christmas-eve-2018-cz-dabing-webrip-1080p-.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:25:26.634850+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15179670",
         "display_name": "It’s Christmas, Eve (It's Christmas, Eve) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:25:18.249494+00:00"
+        "planned_at": "2026-11-17T21:25:24.114717+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "15179670",
+        "requested_at": "2026-11-17T21:25:26.634831+00:00"
       }
     },
     "3257": {
@@ -171181,7 +171193,12 @@
       "attempts": []
     },
     "16321": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32179703",
+        "display_name": "Protected Men (Die geschützten Männer) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T21:25:24.321100+00:00"
+      }
     },
     "3244": {
       "attempts": []
@@ -218680,5 +218697,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:25:21.225289+00:00"
+  "updated_at": "2026-11-17T21:25:26.634857+00:00"
 }
