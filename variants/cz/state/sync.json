@@ -134566,13 +134566,6 @@
           "source_id": "34676079",
           "target_video_id": "30987477",
           "permanent": false,
-          "attempted_at": "2026-11-17T17:04:22.543952+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676079",
-          "target_video_id": "30987477",
-          "permanent": false,
           "attempted_at": "2026-11-17T18:15:25.470289+00:00"
         },
         {
@@ -134581,6 +134574,13 @@
           "target_video_id": "30987477",
           "permanent": false,
           "attempted_at": "2026-11-17T19:34:01.363372+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676079",
+          "target_video_id": "30987477",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:00:27.799513+00:00"
         }
       ],
       "last_plan": {
@@ -134594,12 +134594,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:52:55.769930+00:00",
         "relay_source_id": "34676079"
-      },
-      "claim": {
-        "worker_id": "dc31b4e55da54e3dbc139ea7edde5ac0-shard-0",
-        "claimed_at": "2026-11-17T21:00:03.771495+00:00",
-        "lease_expires_at": "2026-11-18T03:00:03.771495+00:00",
-        "run_id": "44170464010"
       }
     },
     "24448": {
@@ -136279,7 +136273,7 @@
       "last_plan": {
         "source_id": "34528200",
         "display_name": "Stín smrtihlava 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:34:04.333727+00:00"
+        "planned_at": "2026-11-17T21:00:08.534374+00:00"
       },
       "previous_target_id": "30987645",
       "prepared": {
@@ -136287,6 +136281,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-11T05:33:32.582515+00:00",
         "relay_source_id": "34528200"
+      },
+      "claim": {
+        "worker_id": "0d8059ab93f740a1abb2cea6ef3629cd-shard-0",
+        "claimed_at": "2026-11-17T21:00:09.381762+00:00",
+        "lease_expires_at": "2026-11-18T03:00:09.381762+00:00",
+        "run_id": "44170464010"
       }
     },
     "13978": {
@@ -137993,6 +137993,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-11T06:19:56.772073+00:00",
         "relay_source_id": "33884267"
+      },
+      "claim": {
+        "worker_id": "f4de990a52cb4089b863ef621fe14b95-shard-0",
+        "claimed_at": "2026-11-17T21:00:07.112410+00:00",
+        "lease_expires_at": "2026-11-18T03:00:07.112410+00:00",
+        "run_id": "44170464010"
       }
     },
     "5777": {
@@ -170995,7 +171001,7 @@
       "last_plan": {
         "source_id": "34910384",
         "display_name": "Rains Over Babel 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:00:04.569453+00:00"
+        "planned_at": "2026-11-17T21:00:08.847047+00:00"
       }
     },
     "7221": {
@@ -218549,5 +218555,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:00:04.569472+00:00"
+  "updated_at": "2026-11-17T21:00:27.799532+00:00"
 }
