@@ -122371,13 +122371,6 @@
           "source_id": "30394887",
           "target_video_id": "30985435",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:25:37.115659+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30394887",
-          "target_video_id": "30985435",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:44:49.380216+00:00"
         },
         {
@@ -122386,6 +122379,13 @@
           "target_video_id": "30985435",
           "permanent": false,
           "attempted_at": "2026-11-17T16:25:41.530760+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30394887",
+          "target_video_id": "30985435",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:37:54.768559+00:00"
         }
       ],
       "last_plan": {
@@ -137021,7 +137021,7 @@
       "last_plan": {
         "source_id": "32941007",
         "display_name": "The Websters Movie (Websterovci vo filme) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:25:41.108740+00:00"
+        "planned_at": "2026-11-17T17:37:53.473243+00:00"
       },
       "previous_target_id": "30987743",
       "prepared": {
@@ -137029,6 +137029,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T05:52:17.271606+00:00",
         "relay_source_id": "32941007"
+      },
+      "claim": {
+        "worker_id": "0e16fea1d2ac401ea159a22e87cd2572-shard-0",
+        "claimed_at": "2026-11-17T17:37:54.134122+00:00",
+        "lease_expires_at": "2026-11-17T23:37:54.134122+00:00",
+        "run_id": "44093224298"
       }
     },
     "30381": {
@@ -169894,7 +169900,7 @@
       "last_plan": {
         "source_id": "26738481",
         "display_name": "South Sentinel (Sentinelle sud) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:37:50.962208+00:00"
+        "planned_at": "2026-11-17T17:37:53.704367+00:00"
       }
     },
     "20664": {
@@ -217628,5 +217634,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:37:50.962224+00:00"
+  "updated_at": "2026-11-17T17:37:54.768576+00:00"
 }
