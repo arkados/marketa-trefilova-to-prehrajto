@@ -109784,13 +109784,6 @@
           "source_id": "34712454",
           "target_video_id": "30983676",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:43:19.205578+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34712454",
-          "target_video_id": "30983676",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:00:04.010217+00:00"
         },
         {
@@ -109799,6 +109792,13 @@
           "target_video_id": "30983676",
           "permanent": false,
           "attempted_at": "2026-11-17T21:31:15.633595+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34712454",
+          "target_video_id": "30983676",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:59:47.602513+00:00"
         }
       ],
       "last_plan": {
@@ -136787,7 +136787,7 @@
       "last_plan": {
         "source_id": "19686604",
         "display_name": "Volným pádem 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:31:14.129521+00:00"
+        "planned_at": "2026-11-17T22:59:45.886000+00:00"
       },
       "previous_target_id": "30987716",
       "prepared": {
@@ -136795,6 +136795,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
+      },
+      "claim": {
+        "worker_id": "be9b7cf645ab4adf83fe85e0c1cf3f70-shard-0",
+        "claimed_at": "2026-11-17T22:59:46.796062+00:00",
+        "lease_expires_at": "2026-11-18T04:59:46.796062+00:00",
+        "run_id": "44170464010"
       }
     },
     "31573": {
@@ -171723,7 +171729,7 @@
       "last_plan": {
         "source_id": "28248567",
         "display_name": "Hranari (Edgemen) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:59:43.029076+00:00"
+        "planned_at": "2026-11-17T22:59:46.219577+00:00"
       }
     },
     "3301": {
@@ -219142,5 +219148,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:59:43.303418+00:00"
+  "updated_at": "2026-11-17T22:59:47.602536+00:00"
 }
