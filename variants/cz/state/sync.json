@@ -110838,6 +110838,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T14:44:13.701234+00:00",
         "relay_source_id": "32367221"
+      },
+      "claim": {
+        "worker_id": "a9985594a3f54d06a065cb08af4f27f4-shard-0",
+        "claimed_at": "2026-11-17T16:50:05.096678+00:00",
+        "lease_expires_at": "2026-11-17T22:50:05.096678+00:00",
+        "run_id": "44093224298"
       }
     },
     "16531": {
@@ -129949,13 +129955,6 @@
           "source_id": "34698686",
           "target_video_id": "30986857",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:38:37.821028+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34698686",
-          "target_video_id": "30986857",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:54:19.034352+00:00"
         },
         {
@@ -129964,6 +129963,13 @@
           "target_video_id": "30986857",
           "permanent": false,
           "attempted_at": "2026-11-17T15:14:27.141161+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34698686",
+          "target_video_id": "30986857",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:50:05.716176+00:00"
         }
       ],
       "last_plan": {
@@ -129977,12 +129983,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T02:23:01.630909+00:00",
         "relay_source_id": "34698686"
-      },
-      "claim": {
-        "worker_id": "f4c27cc20c6a4f719af2b00aa5072044-shard-0",
-        "claimed_at": "2026-11-17T16:50:02.201434+00:00",
-        "lease_expires_at": "2026-11-17T22:50:02.201434+00:00",
-        "run_id": "44093224298"
       }
     },
     "14899": {
@@ -131952,7 +131952,7 @@
       "last_plan": {
         "source_id": "34713475",
         "display_name": "Lucie and the Miracles SD CZ Dabing",
-        "planned_at": "2026-11-17T15:14:30.792353+00:00"
+        "planned_at": "2026-11-17T16:50:05.274638+00:00"
       },
       "previous_target_id": "30987043",
       "prepared": {
@@ -169644,7 +169644,7 @@
       "last_plan": {
         "source_id": "17954858",
         "display_name": "Talvez uma História de Amor 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:50:02.613682+00:00"
+        "planned_at": "2026-11-17T16:50:05.505273+00:00"
       }
     },
     "33249": {
@@ -217444,5 +217444,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:50:02.613707+00:00"
+  "updated_at": "2026-11-17T16:50:05.716200+00:00"
 }
