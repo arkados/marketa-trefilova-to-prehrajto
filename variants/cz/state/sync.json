@@ -164915,17 +164915,19 @@
       }
     },
     "13972": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10596276",
+          "target_video_id": "31104363",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:29:25.074205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10596276",
         "display_name": "From Time to Time SD CZ Dabing",
         "planned_at": "2026-11-17T01:26:59.375381+00:00"
-      },
-      "claim": {
-        "worker_id": "e85ed4f7847f4449a4155e592c904304-shard-0",
-        "claimed_at": "2026-11-17T01:27:05.518353+00:00",
-        "lease_expires_at": "2026-11-17T07:27:05.518353+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31104363",
       "prepared": {
@@ -213550,5 +213552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:29:23.111992+00:00"
+  "updated_at": "2026-11-17T01:29:25.074227+00:00"
 }
