@@ -123481,13 +123481,6 @@
           "source_id": "30317434",
           "target_video_id": "30985560",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:55:22.531491+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30317434",
-          "target_video_id": "30985560",
-          "permanent": false,
           "attempted_at": "2026-11-17T16:35:18.927361+00:00"
         },
         {
@@ -123496,6 +123489,13 @@
           "target_video_id": "30985560",
           "permanent": false,
           "attempted_at": "2026-11-17T17:47:42.135079+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30317434",
+          "target_video_id": "30985560",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:03:02.389917+00:00"
         }
       ],
       "last_plan": {
@@ -124036,7 +124036,7 @@
       "last_plan": {
         "source_id": "32453487",
         "display_name": "Le gendarme se marie 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:47:44.712770+00:00"
+        "planned_at": "2026-11-17T19:03:01.043735+00:00"
       },
       "previous_target_id": "30985646",
       "prepared": {
@@ -124044,6 +124044,12 @@
         "size_bytes": 7000000000,
         "prepared_at": "2026-11-10T20:58:30.117329+00:00",
         "relay_source_id": "32453487"
+      },
+      "claim": {
+        "worker_id": "e075e525b1e74c478329ac17e062735d-shard-0",
+        "claimed_at": "2026-11-17T19:03:01.626614+00:00",
+        "lease_expires_at": "2026-11-18T01:03:01.626614+00:00",
+        "run_id": "44093224298"
       }
     },
     "18520": {
@@ -170396,7 +170402,7 @@
       "last_plan": {
         "source_id": "34910128",
         "display_name": "The Sparrow in the Chimney 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:02:58.769367+00:00"
+        "planned_at": "2026-11-17T19:03:01.260326+00:00"
       }
     },
     "25427": {
@@ -218046,5 +218052,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:02:58.769381+00:00"
+  "updated_at": "2026-11-17T19:03:02.389932+00:00"
 }
