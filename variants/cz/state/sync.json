@@ -109593,13 +109593,6 @@
           "source_id": "33436521",
           "target_video_id": "30983669",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:09:31.488040+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33436521",
-          "target_video_id": "30983669",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:35:09.275619+00:00"
         },
         {
@@ -109608,6 +109601,13 @@
           "target_video_id": "30983669",
           "permanent": false,
           "attempted_at": "2026-11-17T08:12:33.089779+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33436521",
+          "target_video_id": "30983669",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:25:02.698273+00:00"
         }
       ],
       "last_plan": {
@@ -166098,7 +166098,7 @@
       "last_plan": {
         "source_id": "32367190",
         "display_name": "Pod parou 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:12:31.549117+00:00"
+        "planned_at": "2026-11-17T09:25:01.366794+00:00"
       },
       "previous_target_id": "31108918",
       "prepared": {
@@ -166106,6 +166106,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-17T05:03:08.196412+00:00",
         "relay_source_id": "32367190"
+      },
+      "claim": {
+        "worker_id": "56313fd741a5443fb78a9157814b2233-shard-0",
+        "claimed_at": "2026-11-17T09:25:02.332049+00:00",
+        "lease_expires_at": "2026-11-17T15:25:02.332049+00:00",
+        "run_id": "44013593637"
       }
     },
     "27298": {
@@ -167259,7 +167265,7 @@
       "last_plan": {
         "source_id": "35073670",
         "display_name": "Enchanted Feather (Zakleté pírko) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:24:57.669524+00:00"
+        "planned_at": "2026-11-17T09:25:01.675318+00:00"
       }
     },
     "31672": {
@@ -215464,5 +215470,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:24:57.669557+00:00"
+  "updated_at": "2026-11-17T09:25:02.698291+00:00"
 }
