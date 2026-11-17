@@ -109898,13 +109898,6 @@
           "source_id": "34979725",
           "target_video_id": "30983683",
           "permanent": false,
-          "attempted_at": "2026-11-16T23:57:14.078259+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34979725",
-          "target_video_id": "30983683",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:13:45.964195+00:00"
         },
         {
@@ -109913,6 +109906,13 @@
           "target_video_id": "30983683",
           "permanent": false,
           "attempted_at": "2026-11-17T02:34:02.540025+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34979725",
+          "target_video_id": "30983683",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:54:54.439320+00:00"
         }
       ],
       "last_plan": {
@@ -138908,7 +138908,7 @@
       "last_plan": {
         "source_id": "33806385",
         "display_name": "Focus, Please! (Zaostřit prosím!) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:34:01.599335+00:00"
+        "planned_at": "2026-11-17T03:54:52.586028+00:00"
       },
       "previous_target_id": "30987901",
       "prepared": {
@@ -138916,6 +138916,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T06:41:36.668898+00:00",
         "relay_source_id": "33806385"
+      },
+      "claim": {
+        "worker_id": "fe5e118c2b0f4e0589a7db653a9f7787-shard-0",
+        "claimed_at": "2026-11-17T03:54:53.939478+00:00",
+        "lease_expires_at": "2026-11-17T09:54:53.939478+00:00",
+        "run_id": "44012569640"
       }
     },
     "11246": {
@@ -165411,11 +165417,22 @@
       "last_plan": {
         "source_id": "34470938",
         "display_name": "Laputa 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:54:48.728183+00:00"
+        "planned_at": "2026-11-17T03:54:52.945457+00:00"
+      },
+      "claim": {
+        "worker_id": "efb1782cbb174589b5dbae78467a8f96-shard-0",
+        "claimed_at": "2026-11-17T03:54:54.146464+00:00",
+        "lease_expires_at": "2026-11-17T09:54:54.146464+00:00",
+        "run_id": "44012569640"
       }
     },
     "16641": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11773035",
+        "display_name": "Girl Flu. 1080p CZ Dabing",
+        "planned_at": "2026-11-17T03:54:53.217452+00:00"
+      }
     },
     "11122": {
       "attempts": []
@@ -213925,5 +213942,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:54:49.032188+00:00"
+  "updated_at": "2026-11-17T03:54:54.439338+00:00"
 }
