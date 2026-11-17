@@ -134087,7 +134087,7 @@
       "last_plan": {
         "source_id": "26710573",
         "display_name": "Requiem 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:31:25.262007+00:00"
+        "planned_at": "2026-11-17T22:59:58.505512+00:00"
       },
       "previous_target_id": "30987368",
       "prepared": {
@@ -171704,17 +171704,19 @@
       }
     },
     "9102": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26227581",
+          "target_video_id": "31132237",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:59:58.734732+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26227581",
         "display_name": "Pepa 1080p CZ Dabing",
         "planned_at": "2026-11-17T22:56:25.524701+00:00"
-      },
-      "claim": {
-        "worker_id": "4c598af77f714afa96be9fdc70d56787-shard-0",
-        "claimed_at": "2026-11-17T22:56:29.104340+00:00",
-        "lease_expires_at": "2026-11-18T04:56:29.104340+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31132237",
       "prepared": {
@@ -219148,5 +219150,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:59:56.241732+00:00"
+  "updated_at": "2026-11-17T22:59:58.734745+00:00"
 }
