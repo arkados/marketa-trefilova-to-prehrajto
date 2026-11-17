@@ -46173,13 +46173,6 @@
           "source_id": "27568018",
           "target_video_id": "30768107",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:11:16.753071+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27568018",
-          "target_video_id": "30768107",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:29:53.452662+00:00"
         },
         {
@@ -46188,12 +46181,19 @@
           "target_video_id": "30768107",
           "permanent": false,
           "attempted_at": "2026-11-17T02:50:27.481218+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27568018",
+          "target_video_id": "30768107",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:09:46.954527+00:00"
         }
       ],
       "last_plan": {
         "source_id": "27568018",
         "display_name": "North Country SD CZ Dabing",
-        "planned_at": "2026-11-17T02:50:22.772473+00:00"
+        "planned_at": "2026-11-17T04:09:43.899287+00:00"
       },
       "previous_target_id": "30768107",
       "prepared": {
@@ -165481,7 +165481,13 @@
       "last_plan": {
         "source_id": "25288564",
         "display_name": "Girlie SD CZ Dabing",
-        "planned_at": "2026-11-17T04:09:37.224259+00:00"
+        "planned_at": "2026-11-17T04:09:44.295280+00:00"
+      },
+      "claim": {
+        "worker_id": "25783a1ba6bc45ab9bd6e03df8a26718-shard-0",
+        "claimed_at": "2026-11-17T04:09:45.457858+00:00",
+        "lease_expires_at": "2026-11-17T10:09:45.457858+00:00",
+        "run_id": "44012569640"
       }
     },
     "18999": {
@@ -165497,7 +165503,12 @@
       "attempts": []
     },
     "18880": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "6872048",
+        "display_name": "Monster High: Haunted SD CZ Dabing",
+        "planned_at": "2026-11-17T04:09:44.532517+00:00"
+      }
     },
     "30432": {
       "attempts": []
@@ -213983,5 +213994,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:09:40.572649+00:00"
+  "updated_at": "2026-11-17T04:09:46.954543+00:00"
 }
