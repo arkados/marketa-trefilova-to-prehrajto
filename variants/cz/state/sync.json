@@ -1021,13 +1021,6 @@
           "source_id": "33238710",
           "target_video_id": "30577961",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:38:14.702147+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33238710",
-          "target_video_id": "30577961",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:53:24.874089+00:00"
         },
         {
@@ -1036,6 +1029,13 @@
           "target_video_id": "30577961",
           "permanent": false,
           "attempted_at": "2026-11-17T21:24:53.653826+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33238710",
+          "target_video_id": "30577961",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:54:27.739635+00:00"
         }
       ],
       "last_plan": {
@@ -1049,12 +1049,6 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-10-28T04:52:11.852635+00:00",
         "relay_source_id": "33238710"
-      },
-      "claim": {
-        "worker_id": "d2c9fcdad3024b989d551debcba3f671-shard-0",
-        "claimed_at": "2026-11-17T22:54:21.906806+00:00",
-        "lease_expires_at": "2026-11-18T04:54:21.906806+00:00",
-        "run_id": "44170464010"
       }
     },
     "54": {
@@ -164699,7 +164693,7 @@
       "last_plan": {
         "source_id": "35124112",
         "display_name": "Martin a Venuse (Martin a Venuše) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:24:51.628792+00:00"
+        "planned_at": "2026-11-17T22:54:26.336504+00:00"
       },
       "previous_target_id": "31101208",
       "prepared": {
@@ -164707,6 +164701,12 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-16T22:53:29.017685+00:00",
         "relay_source_id": "35124112"
+      },
+      "claim": {
+        "worker_id": "f85391ea7e40447c991e35e7291cee76-shard-0",
+        "claimed_at": "2026-11-17T22:54:27.313386+00:00",
+        "lease_expires_at": "2026-11-18T04:54:27.313386+00:00",
+        "run_id": "44170464010"
       }
     },
     "10173": {
@@ -171693,7 +171693,7 @@
       "last_plan": {
         "source_id": "26227581",
         "display_name": "Pepa 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:54:21.291770+00:00"
+        "planned_at": "2026-11-17T22:54:26.743047+00:00"
       }
     },
     "27931": {
@@ -219115,5 +219115,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:54:22.745356+00:00"
+  "updated_at": "2026-11-17T22:54:27.739654+00:00"
 }
