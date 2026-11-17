@@ -109747,13 +109747,6 @@
           "source_id": "33706598",
           "target_video_id": "30983674",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:54:11.616361+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33706598",
-          "target_video_id": "30983674",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:30:37.630591+00:00"
         },
         {
@@ -109762,6 +109755,13 @@
           "target_video_id": "30983674",
           "permanent": false,
           "attempted_at": "2026-11-17T18:42:51.661296+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33706598",
+          "target_video_id": "30983674",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:59:44.398788+00:00"
         }
       ],
       "last_plan": {
@@ -127755,7 +127755,7 @@
       "last_plan": {
         "source_id": "24587871",
         "display_name": "Snow for Christmas (Solan og Ludvig - Jul i Flåklypa) 720p CZ Dabing",
-        "planned_at": "2026-11-17T18:42:53.935847+00:00"
+        "planned_at": "2026-11-17T19:59:43.121608+00:00"
       },
       "previous_target_id": "30986461",
       "prepared": {
@@ -127763,6 +127763,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T00:34:44.422441+00:00",
         "relay_source_id": "24587871"
+      },
+      "claim": {
+        "worker_id": "341cbe05c289424c84617a56ae90f2bc-shard-0",
+        "claimed_at": "2026-11-17T19:59:44.063761+00:00",
+        "lease_expires_at": "2026-11-18T01:59:44.063761+00:00",
+        "run_id": "44093224298"
       }
     },
     "2929": {
@@ -170694,11 +170700,22 @@
       "last_plan": {
         "source_id": "29508970",
         "display_name": "Ride with the Devil SD CZ Dabing",
-        "planned_at": "2026-11-17T19:59:39.733462+00:00"
+        "planned_at": "2026-11-17T19:59:43.366001+00:00"
+      },
+      "claim": {
+        "worker_id": "c38d80b4c49c454f9298c88a6d1dee31-shard-0",
+        "claimed_at": "2026-11-17T19:59:44.248969+00:00",
+        "lease_expires_at": "2026-11-18T01:59:44.248969+00:00",
+        "run_id": "44093224298"
       }
     },
     "12111": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33712153",
+        "display_name": "Svatba upírů 1080p CZ Dabing",
+        "planned_at": "2026-11-17T19:59:43.527206+00:00"
+      }
     },
     "21897": {
       "attempts": []
@@ -218293,5 +218310,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:59:40.112501+00:00"
+  "updated_at": "2026-11-17T19:59:44.398810+00:00"
 }
