@@ -112990,6 +112990,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T15:06:52.143201+00:00",
         "relay_source_id": "29707305"
+      },
+      "claim": {
+        "worker_id": "9c9ac64033264de288c8ddd9faa49c20-shard-0",
+        "claimed_at": "2026-11-17T09:42:17.456394+00:00",
+        "lease_expires_at": "2026-11-17T15:42:17.456394+00:00",
+        "run_id": "44013593637"
       }
     },
     "36907": {
@@ -122463,13 +122469,6 @@
           "source_id": "5498626",
           "target_video_id": "30985443",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:29:19.773020+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "5498626",
-          "target_video_id": "30985443",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:55:19.849097+00:00"
         },
         {
@@ -122478,6 +122477,13 @@
           "target_video_id": "30985443",
           "permanent": false,
           "attempted_at": "2026-11-17T08:27:21.796487+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "5498626",
+          "target_video_id": "30985443",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:42:17.259948+00:00"
         }
       ],
       "last_plan": {
@@ -122491,12 +122497,6 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T19:20:22.937945+00:00",
         "relay_source_id": "5498626"
-      },
-      "claim": {
-        "worker_id": "e77d0ba462ba48d59edf361aaa14908c-shard-0",
-        "claimed_at": "2026-11-17T09:42:14.162078+00:00",
-        "lease_expires_at": "2026-11-17T15:42:14.162078+00:00",
-        "run_id": "44013593637"
       }
     },
     "2961": {
@@ -153175,7 +153175,7 @@
       "last_plan": {
         "source_id": "35428812",
         "display_name": "Lame de fond 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:27:23.656977+00:00"
+        "planned_at": "2026-11-17T09:42:17.688462+00:00"
       },
       "previous_target_id": "31037711",
       "prepared": {
@@ -167359,7 +167359,7 @@
       "last_plan": {
         "source_id": "34645635",
         "display_name": "Car-napping (Carnapping - Ordered, Stolen and Sold) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:42:14.906964+00:00"
+        "planned_at": "2026-11-17T09:42:18.153308+00:00"
       }
     },
     "22837": {
@@ -215549,5 +215549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:42:14.906982+00:00"
+  "updated_at": "2026-11-17T09:42:18.153327+00:00"
 }
