@@ -167063,17 +167063,23 @@
       }
     },
     "10897": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34058836",
+          "reason": "Source detail has no authenticated download link; source_id=34058836",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:00:36.610709+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34058836",
         "display_name": "Fantômas contre Scotland Yard 4K CZ Dabing",
         "planned_at": "2026-11-17T09:00:32.044072+00:00"
       },
-      "claim": {
-        "worker_id": "eb5aa47c612c44daa8b6f2a8325313c6-shard-0",
-        "claimed_at": "2026-11-17T09:00:33.317309+00:00",
-        "lease_expires_at": "2026-11-17T15:00:33.317309+00:00",
-        "run_id": "44013593637"
+      "source_repair_requested": {
+        "source_id": "34058836",
+        "requested_at": "2026-11-17T09:00:36.610692+00:00"
       }
     },
     "34197": {
@@ -215315,5 +215321,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:00:34.240955+00:00"
+  "updated_at": "2026-11-17T09:00:36.610719+00:00"
 }
