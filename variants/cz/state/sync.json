@@ -131184,13 +131184,6 @@
           "source_id": "32958300",
           "target_video_id": "30986964",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:56:43.415536+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32958300",
-          "target_video_id": "30986964",
-          "permanent": false,
           "attempted_at": "2026-11-17T03:16:01.319057+00:00"
         },
         {
@@ -131199,6 +131192,13 @@
           "target_video_id": "30986964",
           "permanent": false,
           "attempted_at": "2026-11-17T04:39:01.907263+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32958300",
+          "target_video_id": "30986964",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:05:09.478458+00:00"
         }
       ],
       "last_plan": {
@@ -165735,7 +165735,7 @@
       "last_plan": {
         "source_id": "31000919",
         "display_name": "SPL II (SPL 2: A Time for Consequences) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T04:21:22.760770+00:00"
+        "planned_at": "2026-11-17T06:05:07.686843+00:00"
       },
       "previous_target_id": "31108013",
       "prepared": {
@@ -165743,6 +165743,12 @@
         "size_bytes": 4744428772,
         "prepared_at": "2026-11-17T04:21:29.782716+00:00",
         "relay_source_id": "31000919"
+      },
+      "claim": {
+        "worker_id": "dd6505b2e4fe41bd8224a866a3f7cd13-shard-0",
+        "claimed_at": "2026-11-17T06:05:08.993683+00:00",
+        "lease_expires_at": "2026-11-17T12:05:08.993683+00:00",
+        "run_id": "44012569640"
       }
     },
     "3573": {
@@ -165988,7 +165994,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T06:05:04.555384+00:00"
+        "planned_at": "2026-11-17T06:05:08.089977+00:00"
       }
     },
     "22145": {
@@ -214403,5 +214409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:05:04.555403+00:00"
+  "updated_at": "2026-11-17T06:05:09.478477+00:00"
 }
