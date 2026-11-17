@@ -111498,7 +111498,7 @@
       "last_plan": {
         "source_id": "34470304",
         "display_name": "Pension pro svobodné pány SD CZ Dabing",
-        "planned_at": "2026-11-17T11:28:58.962333+00:00"
+        "planned_at": "2026-11-17T12:45:09.561416+00:00"
       },
       "previous_target_id": "30983801",
       "prepared": {
@@ -111586,6 +111586,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T14:50:19.063914+00:00",
         "relay_source_id": "28586856"
+      },
+      "claim": {
+        "worker_id": "44c5f4fd754e486eaa4e1080bde8b50c-shard-0",
+        "claimed_at": "2026-11-17T12:45:08.386111+00:00",
+        "lease_expires_at": "2026-11-17T18:45:08.386111+00:00",
+        "run_id": "44078950078"
       }
     },
     "16643": {
@@ -168260,17 +168266,19 @@
       }
     },
     "16975": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18154169",
+          "target_video_id": "31118481",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:45:10.313574+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18154169",
         "display_name": "Coup de foudre à Jaipur 1080p CZ Dabing",
         "planned_at": "2026-11-17T12:42:55.283000+00:00"
-      },
-      "claim": {
-        "worker_id": "9a4f6d4e75674f71ae6ece6035b57cc3-shard-0",
-        "claimed_at": "2026-11-17T12:42:56.261101+00:00",
-        "lease_expires_at": "2026-11-17T18:42:56.261101+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31118481",
       "prepared": {
@@ -168285,7 +168293,7 @@
       "last_plan": {
         "source_id": "12938278",
         "display_name": "The Art of Us SD CZ Dabing",
-        "planned_at": "2026-11-17T12:45:05.848024+00:00"
+        "planned_at": "2026-11-17T12:45:09.971718+00:00"
       }
     },
     "28020": {
@@ -216325,5 +216333,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:45:06.123789+00:00"
+  "updated_at": "2026-11-17T12:45:10.313591+00:00"
 }
