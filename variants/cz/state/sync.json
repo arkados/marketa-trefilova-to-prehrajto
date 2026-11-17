@@ -140083,6 +140083,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T07:18:56.338737+00:00",
         "relay_source_id": "34676284"
+      },
+      "claim": {
+        "worker_id": "c331a2a6652341a19d07b1a10f9d339f-shard-0",
+        "claimed_at": "2026-11-17T19:40:35.155225+00:00",
+        "lease_expires_at": "2026-11-18T01:40:35.155225+00:00",
+        "run_id": "44093224298"
       }
     },
     "15370": {
@@ -157165,7 +157171,7 @@
       "last_plan": {
         "source_id": "26857794",
         "display_name": "Ein Sommer in Andalusien SD CZ Dabing",
-        "planned_at": "2026-11-17T18:25:58.195710+00:00"
+        "planned_at": "2026-11-17T19:40:35.352530+00:00"
       },
       "previous_target_id": "31062647",
       "prepared": {
@@ -170549,17 +170555,19 @@
       "attempts": []
     },
     "16580": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34070482",
+          "target_video_id": "31126333",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:40:35.807716+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34070482",
         "display_name": "Feel My Voice (Non abbiam bisogno di parole) 1080p CZ Dabing",
         "planned_at": "2026-11-17T19:34:04.575926+00:00"
-      },
-      "claim": {
-        "worker_id": "6f898386eac74a46be9ca97b276361d6-shard-0",
-        "claimed_at": "2026-11-17T19:34:05.320996+00:00",
-        "lease_expires_at": "2026-11-18T01:34:05.320996+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31126333",
       "prepared": {
@@ -170574,7 +170582,7 @@
       "last_plan": {
         "source_id": "34209434",
         "display_name": "Čertí brko 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:40:32.830001+00:00"
+        "planned_at": "2026-11-17T19:40:35.608131+00:00"
       }
     },
     "3203": {
@@ -218197,5 +218205,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:40:33.021530+00:00"
+  "updated_at": "2026-11-17T19:40:35.807729+00:00"
 }
