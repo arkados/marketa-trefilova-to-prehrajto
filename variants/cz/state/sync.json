@@ -122146,6 +122146,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T19:10:28.363748+00:00",
         "relay_source_id": "30988446"
+      },
+      "claim": {
+        "worker_id": "a6d1d66558714b0b9ab2a12c177a8711-shard-0",
+        "claimed_at": "2026-11-17T08:09:58.841129+00:00",
+        "lease_expires_at": "2026-11-17T14:09:58.841129+00:00",
+        "run_id": "44013593637"
       }
     },
     "2943": {
@@ -166639,17 +166645,19 @@
       "attempts": []
     },
     "15681": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32923305",
+          "target_video_id": "31113256",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:09:59.027934+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32923305",
         "display_name": "The Last Ashes (Läif a Séil) 1080p CZ Dabing",
         "planned_at": "2026-11-17T08:03:46.149305+00:00"
-      },
-      "claim": {
-        "worker_id": "550dd60035824d2ca1ee594f764b27d1-shard-0",
-        "claimed_at": "2026-11-17T08:03:47.168231+00:00",
-        "lease_expires_at": "2026-11-17T14:03:47.168231+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31113256",
       "prepared": {
@@ -214971,5 +214979,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:09:56.783708+00:00"
+  "updated_at": "2026-11-17T08:09:59.027956+00:00"
 }
