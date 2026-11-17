@@ -136884,13 +136884,6 @@
           "source_id": "34788921",
           "target_video_id": "30987732",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:22:54.965979+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788921",
-          "target_video_id": "30987732",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:42:03.703682+00:00"
         },
         {
@@ -136899,6 +136892,13 @@
           "target_video_id": "30987732",
           "permanent": false,
           "attempted_at": "2026-11-17T15:58:38.803664+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788921",
+          "target_video_id": "30987732",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:35:22.983546+00:00"
         }
       ],
       "last_plan": {
@@ -166150,7 +166150,7 @@
       "last_plan": {
         "source_id": "32379690",
         "display_name": "Every You Every Me (Alle die Du bist) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:58:38.242943+00:00"
+        "planned_at": "2026-11-17T17:35:21.670768+00:00"
       },
       "previous_target_id": "31109029",
       "prepared": {
@@ -166158,6 +166158,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-17T05:09:50.837602+00:00",
         "relay_source_id": "32379690"
+      },
+      "claim": {
+        "worker_id": "8870c7aff20746669262b11fd4b43ba4-shard-0",
+        "claimed_at": "2026-11-17T17:35:22.343138+00:00",
+        "lease_expires_at": "2026-11-17T23:35:22.343138+00:00",
+        "run_id": "44093224298"
       }
     },
     "13884": {
@@ -169888,7 +169894,7 @@
       "last_plan": {
         "source_id": "26738481",
         "display_name": "South Sentinel (Sentinelle sud) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:35:19.103240+00:00"
+        "planned_at": "2026-11-17T17:35:21.918665+00:00"
       }
     },
     "20664": {
@@ -217622,5 +217628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:35:19.103260+00:00"
+  "updated_at": "2026-11-17T17:35:22.983566+00:00"
 }
