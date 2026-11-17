@@ -133716,13 +133716,6 @@
           "source_id": "9621938",
           "target_video_id": "30987320",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:16:12.299388+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "9621938",
-          "target_video_id": "30987320",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:36:09.537164+00:00"
         },
         {
@@ -133731,6 +133724,13 @@
           "target_video_id": "30987320",
           "permanent": false,
           "attempted_at": "2026-11-17T17:10:20.834158+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "9621938",
+          "target_video_id": "30987320",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:23:20.206913+00:00"
         }
       ],
       "last_plan": {
@@ -133744,12 +133744,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T04:16:35.918680+00:00",
         "relay_source_id": "9621938"
-      },
-      "claim": {
-        "worker_id": "28c08dff541e4890a2e51c6e632dcf1d-shard-0",
-        "claimed_at": "2026-11-17T18:23:16.867858+00:00",
-        "lease_expires_at": "2026-11-18T00:23:16.867858+00:00",
-        "run_id": "44093224298"
       }
     },
     "36732": {
@@ -136405,7 +136399,7 @@
       "last_plan": {
         "source_id": "34781942",
         "display_name": "Alinas Traum SD CZ Dabing",
-        "planned_at": "2026-11-17T17:10:20.434482+00:00"
+        "planned_at": "2026-11-17T18:23:20.603463+00:00"
       },
       "previous_target_id": "30987667",
       "prepared": {
@@ -170132,17 +170126,19 @@
       "attempts": []
     },
     "22312": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31396325",
+          "target_video_id": "31124329",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:23:20.789569+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31396325",
         "display_name": "Obsession (1976) SD CZ Dabing",
         "planned_at": "2026-11-17T18:15:58.921636+00:00"
-      },
-      "claim": {
-        "worker_id": "e9531bbfe0614c6a8b391e000c6683d9-shard-0",
-        "claimed_at": "2026-11-17T18:15:59.674030+00:00",
-        "lease_expires_at": "2026-11-18T00:15:59.674030+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31124329",
       "prepared": {
@@ -217881,5 +217877,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:23:18.257054+00:00"
+  "updated_at": "2026-11-17T18:23:20.789583+00:00"
 }
