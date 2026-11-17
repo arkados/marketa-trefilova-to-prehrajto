@@ -129698,13 +129698,6 @@
           "source_id": "34796896",
           "target_video_id": "30986820",
           "permanent": false,
-          "attempted_at": "2026-11-16T15:59:26.899467+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34796896",
-          "target_video_id": "30986820",
-          "permanent": false,
           "attempted_at": "2026-11-16T17:53:32.831005+00:00"
         },
         {
@@ -129713,12 +129706,19 @@
           "target_video_id": "30986820",
           "permanent": false,
           "attempted_at": "2026-11-16T21:47:41.978636+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34796896",
+          "target_video_id": "30986820",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:09:49.356416+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34796896",
         "display_name": "On the Comet (Na kometě) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:47:36.028385+00:00"
+        "planned_at": "2026-11-17T00:09:46.445477+00:00"
       },
       "previous_target_id": "30986820",
       "prepared": {
@@ -164645,7 +164645,13 @@
       "last_plan": {
         "source_id": "23504959",
         "display_name": "The Flower in His Mouth 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:09:38.343946+00:00"
+        "planned_at": "2026-11-17T00:09:46.747635+00:00"
+      },
+      "claim": {
+        "worker_id": "d12a8b62a0734eb6b03a899ea4d5d149-shard-0",
+        "claimed_at": "2026-11-17T00:09:47.968982+00:00",
+        "lease_expires_at": "2026-11-17T06:09:47.968982+00:00",
+        "run_id": "43981967428"
       }
     },
     "23372": {
@@ -164655,10 +164661,26 @@
       "attempts": []
     },
     "3272": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34651335",
+        "display_name": "Faraway 1080p CZ Dabing",
+        "planned_at": "2026-11-17T00:09:46.928931+00:00"
+      },
+      "claim": {
+        "worker_id": "ef88b458056647f1aa02b035c42a1c7b-shard-0",
+        "claimed_at": "2026-11-17T00:09:47.775503+00:00",
+        "lease_expires_at": "2026-11-17T06:09:47.775503+00:00",
+        "run_id": "43981967428"
+      }
     },
     "37237": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30643097",
+        "display_name": "Amerika SD CZ Dabing",
+        "planned_at": "2026-11-17T00:09:47.112978+00:00"
+      }
     },
     "11089": {
       "attempts": []
@@ -213285,5 +213307,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:09:43.552850+00:00"
+  "updated_at": "2026-11-17T00:09:49.356434+00:00"
 }
