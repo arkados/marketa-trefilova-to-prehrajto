@@ -29926,13 +29926,6 @@
           "source_id": "34850732",
           "target_video_id": "30723078",
           "permanent": false,
-          "attempted_at": "2026-11-16T17:51:25.779286+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34850732",
-          "target_video_id": "30723078",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:45:26.099345+00:00"
         },
         {
@@ -29941,6 +29934,13 @@
           "target_video_id": "30723078",
           "permanent": false,
           "attempted_at": "2026-11-17T00:07:53.622468+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34850732",
+          "target_video_id": "30723078",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:26:49.947381+00:00"
         }
       ],
       "last_plan": {
@@ -29954,12 +29954,6 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-02T09:31:48.716182+00:00",
         "relay_source_id": "34850732"
-      },
-      "claim": {
-        "worker_id": "19d592149cd04618906d8916b142ba6c-shard-0",
-        "claimed_at": "2026-11-17T01:26:46.944415+00:00",
-        "lease_expires_at": "2026-11-17T07:26:46.944415+00:00",
-        "run_id": "43981967428"
       }
     },
     "888": {
@@ -56194,7 +56188,7 @@
       "last_plan": {
         "source_id": "32042477",
         "display_name": "The Physician 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:07:52.193062+00:00"
+        "planned_at": "2026-11-17T01:26:50.787533+00:00"
       },
       "previous_target_id": "30784526",
       "prepared": {
@@ -164886,17 +164880,19 @@
       }
     },
     "17164": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28545053",
+          "target_video_id": "31104143",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:26:51.571118+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28545053",
         "display_name": "The Final Game (42 segundos) 1080p CZ Dabing",
         "planned_at": "2026-11-17T01:19:38.785826+00:00"
-      },
-      "claim": {
-        "worker_id": "28d3ff1fde034591b20c0523bee5181a-shard-0",
-        "claimed_at": "2026-11-17T01:19:42.364670+00:00",
-        "lease_expires_at": "2026-11-17T07:19:42.364670+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31104143",
       "prepared": {
@@ -164911,7 +164907,7 @@
       "last_plan": {
         "source_id": "10596276",
         "display_name": "From Time to Time SD CZ Dabing",
-        "planned_at": "2026-11-17T01:26:46.229859+00:00"
+        "planned_at": "2026-11-17T01:26:51.344862+00:00"
       }
     },
     "36970": {
@@ -213524,5 +213520,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:26:47.858795+00:00"
+  "updated_at": "2026-11-17T01:26:51.571141+00:00"
 }
