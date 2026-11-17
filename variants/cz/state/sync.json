@@ -165202,17 +165202,19 @@
       "attempts": []
     },
     "34817": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34967355",
+          "target_video_id": "31106495",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:25:42.692134+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34967355",
         "display_name": "Not a Thing 1080p CZ Dabing",
         "planned_at": "2026-11-17T03:08:21.471981+00:00"
-      },
-      "claim": {
-        "worker_id": "a01f948f5a794f2e90118bc74a956f16-shard-0",
-        "claimed_at": "2026-11-17T03:08:22.528025+00:00",
-        "lease_expires_at": "2026-11-17T09:08:22.528025+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31106495",
       "prepared": {
@@ -213809,5 +213811,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:25:40.590400+00:00"
+  "updated_at": "2026-11-17T03:25:42.692150+00:00"
 }
