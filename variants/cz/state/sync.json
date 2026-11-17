@@ -106389,13 +106389,6 @@
           "source_id": "30045237",
           "target_video_id": "30978930",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:09:10.927057+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30045237",
-          "target_video_id": "30978930",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:25:51.973650+00:00"
         },
         {
@@ -106404,6 +106397,13 @@
           "target_video_id": "30978930",
           "permanent": false,
           "attempted_at": "2026-11-17T15:45:36.191662+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30045237",
+          "target_video_id": "30978930",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:19:25.615536+00:00"
         }
       ],
       "last_plan": {
@@ -134860,7 +134860,7 @@
       "last_plan": {
         "source_id": "33494979",
         "display_name": "A Foolish Girl (Bláhové děvče) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:45:36.550055+00:00"
+        "planned_at": "2026-11-17T17:19:24.118654+00:00"
       },
       "previous_target_id": "30987504",
       "prepared": {
@@ -134868,6 +134868,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T05:01:41.646370+00:00",
         "relay_source_id": "33494979"
+      },
+      "claim": {
+        "worker_id": "d23e96505f284115b4ffee455d13ed9b-shard-0",
+        "claimed_at": "2026-11-17T17:19:24.899090+00:00",
+        "lease_expires_at": "2026-11-17T23:19:24.899090+00:00",
+        "run_id": "44093224298"
       }
     },
     "11032": {
@@ -169827,7 +169833,7 @@
       "last_plan": {
         "source_id": "11702952",
         "display_name": "Asterix: The Secret of the Magic Potion (Astérix: Le Secret de la potion magique) 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:19:21.502707+00:00"
+        "planned_at": "2026-11-17T17:19:24.368785+00:00"
       }
     },
     "21373": {
@@ -217582,5 +217588,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:19:21.502731+00:00"
+  "updated_at": "2026-11-17T17:19:25.615560+00:00"
 }
