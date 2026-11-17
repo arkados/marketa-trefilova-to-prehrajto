@@ -133320,6 +133320,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T04:03:02.993627+00:00",
         "relay_source_id": "32876939"
+      },
+      "claim": {
+        "worker_id": "dbbc569ba28841958854968f2c56ac60-shard-0",
+        "claimed_at": "2026-11-17T22:07:42.490745+00:00",
+        "lease_expires_at": "2026-11-18T04:07:42.490745+00:00",
+        "run_id": "44170464010"
       }
     },
     "24161": {
@@ -135714,13 +135720,6 @@
           "source_id": "34701460",
           "target_video_id": "30987598",
           "permanent": false,
-          "attempted_at": "2026-11-17T17:58:45.052460+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34701460",
-          "target_video_id": "30987598",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:11:58.465598+00:00"
         },
         {
@@ -135729,6 +135728,13 @@
           "target_video_id": "30987598",
           "permanent": false,
           "attempted_at": "2026-11-17T20:40:54.727085+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34701460",
+          "target_video_id": "30987598",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:07:43.684406+00:00"
         }
       ],
       "last_plan": {
@@ -135742,12 +135748,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:21:57.085563+00:00",
         "relay_source_id": "34701460"
-      },
-      "claim": {
-        "worker_id": "2c3acad8cbcf424a80b12e9e166d0e03-shard-0",
-        "claimed_at": "2026-11-17T22:07:38.726554+00:00",
-        "lease_expires_at": "2026-11-18T04:07:38.726554+00:00",
-        "run_id": "44170464010"
       }
     },
     "24046": {
@@ -141465,7 +141465,7 @@
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:40:57.023814+00:00"
+        "planned_at": "2026-11-17T22:07:42.729885+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -171437,7 +171437,7 @@
       "last_plan": {
         "source_id": "29976237",
         "display_name": "Die Verführung - Das fremde Mädchen (The Seduction - The Strange Girl) SD CZ Dabing",
-        "planned_at": "2026-11-17T22:07:39.584219+00:00"
+        "planned_at": "2026-11-17T22:07:43.149383+00:00"
       }
     },
     "27964": {
@@ -218909,5 +218909,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:07:39.584237+00:00"
+  "updated_at": "2026-11-17T22:07:43.684430+00:00"
 }
