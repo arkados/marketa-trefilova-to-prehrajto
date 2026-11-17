@@ -118958,13 +118958,6 @@
           "source_id": "33257690",
           "target_video_id": "30984872",
           "permanent": false,
-          "attempted_at": "2026-11-17T06:06:55.473308+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33257690",
-          "target_video_id": "30984872",
-          "permanent": false,
           "attempted_at": "2026-11-17T07:33:27.431191+00:00"
         },
         {
@@ -118973,6 +118966,13 @@
           "target_video_id": "30984872",
           "permanent": false,
           "attempted_at": "2026-11-17T09:00:01.074137+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33257690",
+          "target_video_id": "30984872",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:18:08.590466+00:00"
         }
       ],
       "last_plan": {
@@ -167168,17 +167168,23 @@
           "attempted_at": "2026-11-17T09:00:25.321878+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34695025",
-        "display_name": "Family Film (Rodinný film) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:56:22.754594+00:00"
-      },
       "previous_target_id": "31114373",
-      "prepared": {
+      "upload": {
         "target_video_id": "31114373",
-        "size_bytes": 1917751263,
-        "prepared_at": "2026-11-17T08:56:29.272911+00:00",
-        "relay_source_id": "34695025"
+        "display_name": "Family Film (Rodinný film) 1080p CZ Dabing",
+        "source_id": "34695025",
+        "source_url": "https://sdilej.cz/34695025/rodinny-film-2016-cz-dabing.mp4",
+        "source_filename": "Rodinný film (2016) CZ Dabing.mp4",
+        "size_bytes": 1900000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9301344156265259,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/family-film-rodinny-film-1080p-cz-dabing-mp4/b00bac3e528e94ae",
+        "uploaded_at": "2026-11-17T10:18:08.818175+00:00"
       }
     },
     "10897": {
@@ -167550,7 +167556,7 @@
       "last_plan": {
         "source_id": "35145625",
         "display_name": "Yakari, A Spectacular Journey (Yakari : La Grande Aventure) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:18:03.916138+00:00"
+        "planned_at": "2026-11-17T10:18:07.059291+00:00"
       }
     },
     "8895": {
@@ -215710,5 +215716,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:18:04.179468+00:00"
+  "updated_at": "2026-11-17T10:18:08.818191+00:00"
 }
