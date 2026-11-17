@@ -43002,6 +43002,12 @@
         "size_bytes": 31200000000,
         "prepared_at": "2026-11-03T07:52:26.317997+00:00",
         "relay_source_id": "34357032"
+      },
+      "claim": {
+        "worker_id": "43b4fdc5b3d74386a5d63f39d73549af-shard-0",
+        "claimed_at": "2026-11-17T11:07:30.393862+00:00",
+        "lease_expires_at": "2026-11-17T17:07:30.393862+00:00",
+        "run_id": "44013593637"
       }
     },
     "1395": {
@@ -139208,13 +139214,6 @@
           "source_id": "34715447",
           "target_video_id": "30987931",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:01:20.219369+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715447",
-          "target_video_id": "30987931",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:34:15.285670+00:00"
         },
         {
@@ -139223,12 +139222,19 @@
           "target_video_id": "30987931",
           "permanent": false,
           "attempted_at": "2026-11-17T09:48:04.166567+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715447",
+          "target_video_id": "30987931",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:07:33.397844+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34715447",
         "display_name": "Snow White (O Sněhurce) (1972) SD CZ Dabing",
-        "planned_at": "2026-11-17T09:48:01.776838+00:00"
+        "planned_at": "2026-11-17T11:07:30.647622+00:00"
       },
       "previous_target_id": "30987931",
       "prepared": {
@@ -167773,7 +167779,7 @@
       "last_plan": {
         "source_id": "18922812",
         "display_name": "Woman Walks Ahead 720p CZ Dabing",
-        "planned_at": "2026-11-17T11:07:28.109758+00:00"
+        "planned_at": "2026-11-17T11:07:30.961999+00:00"
       }
     },
     "21761": {
@@ -215906,5 +215912,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:07:28.109778+00:00"
+  "updated_at": "2026-11-17T11:07:33.397864+00:00"
 }
