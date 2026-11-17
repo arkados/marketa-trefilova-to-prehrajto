@@ -165628,17 +165628,19 @@
       }
     },
     "3573": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34510186",
+          "target_video_id": "31108439",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:49:03.370431+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34510186",
         "display_name": "Eleanor the Great 1080p CZ Dabing",
         "planned_at": "2026-11-17T04:39:09.091319+00:00"
-      },
-      "claim": {
-        "worker_id": "c6d5d801dfc34e498526bc5335c30388-shard-0",
-        "claimed_at": "2026-11-17T04:39:11.960731+00:00",
-        "lease_expires_at": "2026-11-17T10:39:11.960731+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31108439",
       "prepared": {
@@ -214125,5 +214127,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:49:00.109858+00:00"
+  "updated_at": "2026-11-17T04:49:03.370455+00:00"
 }
