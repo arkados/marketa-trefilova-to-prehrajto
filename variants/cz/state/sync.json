@@ -133320,6 +133320,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T04:03:02.993627+00:00",
         "relay_source_id": "32876939"
+      },
+      "claim": {
+        "worker_id": "e2c21e25bdb343d5af45515bb280a7d9-shard-0",
+        "claimed_at": "2026-11-17T08:44:53.680186+00:00",
+        "lease_expires_at": "2026-11-17T14:44:53.680186+00:00",
+        "run_id": "44013593637"
       }
     },
     "24161": {
@@ -135714,13 +135720,6 @@
           "source_id": "34701460",
           "target_video_id": "30987598",
           "permanent": false,
-          "attempted_at": "2026-11-17T04:24:38.963190+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34701460",
-          "target_video_id": "30987598",
-          "permanent": false,
           "attempted_at": "2026-11-17T05:47:15.589469+00:00"
         },
         {
@@ -135729,6 +135728,13 @@
           "target_video_id": "30987598",
           "permanent": false,
           "attempted_at": "2026-11-17T07:14:03.707112+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34701460",
+          "target_video_id": "30987598",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:44:53.489704+00:00"
         }
       ],
       "last_plan": {
@@ -135742,12 +135748,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:21:57.085563+00:00",
         "relay_source_id": "34701460"
-      },
-      "claim": {
-        "worker_id": "0af476f7b6244421b2d2b73f7d26470d-shard-0",
-        "claimed_at": "2026-11-17T08:44:50.508263+00:00",
-        "lease_expires_at": "2026-11-17T14:44:50.508263+00:00",
-        "run_id": "44013593637"
       }
     },
     "24046": {
@@ -141465,7 +141465,7 @@
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-17T07:14:06.463731+00:00"
+        "planned_at": "2026-11-17T08:44:53.908933+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -166928,7 +166928,7 @@
       "last_plan": {
         "source_id": "32146983",
         "display_name": "A Bird of the Air 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:44:51.047136+00:00"
+        "planned_at": "2026-11-17T08:44:54.205519+00:00"
       }
     },
     "14803": {
@@ -215193,5 +215193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:44:51.047155+00:00"
+  "updated_at": "2026-11-17T08:44:54.205545+00:00"
 }
