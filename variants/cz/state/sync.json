@@ -111287,13 +111287,6 @@
           "source_id": "34877008",
           "target_video_id": "30983790",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:59:59.432904+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877008",
-          "target_video_id": "30983790",
-          "permanent": false,
           "attempted_at": "2026-11-17T07:26:21.870698+00:00"
         },
         {
@@ -111302,6 +111295,13 @@
           "target_video_id": "30983790",
           "permanent": false,
           "attempted_at": "2026-11-17T08:53:27.196718+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877008",
+          "target_video_id": "30983790",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:12:03.048110+00:00"
         }
       ],
       "last_plan": {
@@ -115410,7 +115410,7 @@
       "last_plan": {
         "source_id": "32925649",
         "display_name": "The Lake House 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:53:24.205284+00:00"
+        "planned_at": "2026-11-17T10:12:01.641658+00:00"
       },
       "previous_target_id": "30984584",
       "prepared": {
@@ -115418,6 +115418,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T16:54:29.152360+00:00",
         "relay_source_id": "32925649"
+      },
+      "claim": {
+        "worker_id": "b048038056c5443ca8e1353efbfd0c85-shard-0",
+        "claimed_at": "2026-11-17T10:12:02.821235+00:00",
+        "lease_expires_at": "2026-11-17T16:12:02.821235+00:00",
+        "run_id": "44013593637"
       }
     },
     "2842": {
@@ -167544,7 +167550,7 @@
       "last_plan": {
         "source_id": "35145625",
         "display_name": "Yakari, A Spectacular Journey (Yakari : La Grande Aventure) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:11:58.937652+00:00"
+        "planned_at": "2026-11-17T10:12:01.955064+00:00"
       }
     },
     "8895": {
@@ -215704,5 +215710,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:11:58.937670+00:00"
+  "updated_at": "2026-11-17T10:12:03.048125+00:00"
 }
