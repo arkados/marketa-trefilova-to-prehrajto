@@ -130608,13 +130608,6 @@
           "source_id": "34713662",
           "target_video_id": "30986923",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:16:02.003694+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34713662",
-          "target_video_id": "30986923",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:35:18.154944+00:00"
         },
         {
@@ -130623,12 +130616,19 @@
           "target_video_id": "30986923",
           "permanent": false,
           "attempted_at": "2026-11-17T15:52:30.631987+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34713662",
+          "target_video_id": "30986923",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:28:34.428980+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34713662",
         "display_name": "Donbass (2016) 720p CZ Dabing",
-        "planned_at": "2026-11-17T15:52:26.185309+00:00"
+        "planned_at": "2026-11-17T17:28:32.401091+00:00"
       },
       "previous_target_id": "30986923",
       "prepared": {
@@ -169827,11 +169827,22 @@
       "last_plan": {
         "source_id": "11702952",
         "display_name": "Asterix: The Secret of the Magic Potion (Astérix: Le Secret de la potion magique) 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:28:28.246514+00:00"
+        "planned_at": "2026-11-17T17:28:32.632586+00:00"
+      },
+      "claim": {
+        "worker_id": "8fe19700c02b4840a5387d56d1af07e0-shard-0",
+        "claimed_at": "2026-11-17T17:28:33.390903+00:00",
+        "lease_expires_at": "2026-11-17T23:28:33.390903+00:00",
+        "run_id": "44093224298"
       }
     },
     "21373": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34788955",
+        "display_name": "The Robe SD CZ Dabing",
+        "planned_at": "2026-11-17T17:28:32.810734+00:00"
+      }
     },
     "16436": {
       "attempts": []
@@ -217582,5 +217593,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:28:29.893442+00:00"
+  "updated_at": "2026-11-17T17:28:34.429001+00:00"
 }
