@@ -123864,7 +123864,7 @@
       "last_plan": {
         "source_id": "27021419",
         "display_name": "Ray Donovan: The Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:31:28.571340+00:00"
+        "planned_at": "2026-11-17T23:00:06.543968+00:00"
       },
       "previous_target_id": "30985619",
       "prepared": {
@@ -123872,6 +123872,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T20:46:51.208874+00:00",
         "relay_source_id": "27021419"
+      },
+      "claim": {
+        "worker_id": "8e136b1005144488b074e003b24a0f7a-shard-0",
+        "claimed_at": "2026-11-17T23:00:07.582444+00:00",
+        "lease_expires_at": "2026-11-18T05:00:07.582444+00:00",
+        "run_id": "44170464010"
       }
     },
     "2868": {
@@ -134061,13 +134067,6 @@
           "source_id": "26710573",
           "target_video_id": "30987368",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:43:39.680063+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26710573",
-          "target_video_id": "30987368",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:00:33.466108+00:00"
         },
         {
@@ -134076,6 +134075,13 @@
           "target_video_id": "30987368",
           "permanent": false,
           "attempted_at": "2026-11-17T21:31:30.117242+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26710573",
+          "target_video_id": "30987368",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:00:22.255544+00:00"
         }
       ],
       "last_plan": {
@@ -134089,12 +134095,6 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T04:26:03.641359+00:00",
         "relay_source_id": "26710573"
-      },
-      "claim": {
-        "worker_id": "16288f3455fe40e8bfdcad8c76f8ba95-shard-0",
-        "claimed_at": "2026-11-17T23:00:04.236402+00:00",
-        "lease_expires_at": "2026-11-18T05:00:04.236402+00:00",
-        "run_id": "44170464010"
       }
     },
     "32779": {
@@ -171731,11 +171731,22 @@
       "last_plan": {
         "source_id": "28248567",
         "display_name": "Hranari (Edgemen) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:00:01.081506+00:00"
+        "planned_at": "2026-11-17T23:00:06.864991+00:00"
+      },
+      "claim": {
+        "worker_id": "e745740719fd494490d68279875048b7-shard-0",
+        "claimed_at": "2026-11-17T23:00:07.769018+00:00",
+        "lease_expires_at": "2026-11-18T05:00:07.769018+00:00",
+        "run_id": "44170464010"
       }
     },
     "3301": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "22588171",
+        "display_name": "The Valet (2022) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T23:00:07.064589+00:00"
+      }
     },
     "12042": {
       "attempts": []
@@ -219150,5 +219161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:00:04.236428+00:00"
+  "updated_at": "2026-11-17T23:00:22.255560+00:00"
 }
