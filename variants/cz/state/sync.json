@@ -131184,13 +131184,6 @@
           "source_id": "32958300",
           "target_video_id": "30986964",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:39:24.372403+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32958300",
-          "target_video_id": "30986964",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:56:43.415536+00:00"
         },
         {
@@ -131199,6 +131192,13 @@
           "target_video_id": "30986964",
           "permanent": false,
           "attempted_at": "2026-11-17T03:16:01.319057+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32958300",
+          "target_video_id": "30986964",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:39:01.907263+00:00"
         }
       ],
       "last_plan": {
@@ -131212,12 +131212,6 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-11T02:59:25.633916+00:00",
         "relay_source_id": "32958300"
-      },
-      "claim": {
-        "worker_id": "425ec8a7b4b34f92bf743a9fbd0bac0f-shard-0",
-        "claimed_at": "2026-11-17T04:38:58.392184+00:00",
-        "lease_expires_at": "2026-11-17T10:38:58.392184+00:00",
-        "run_id": "44012569640"
       }
     },
     "31584": {
@@ -143761,7 +143755,7 @@
       "last_plan": {
         "source_id": "17325368",
         "display_name": "Moments (Chvilky) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:16:01.059578+00:00"
+        "planned_at": "2026-11-17T04:39:01.154491+00:00"
       },
       "previous_target_id": "30988661",
       "prepared": {
@@ -165604,17 +165598,19 @@
       }
     },
     "28641": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31000919",
+          "target_video_id": "31108013",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:39:02.184493+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31000919",
         "display_name": "SPL II (SPL 2: A Time for Consequences) 1080p CZ Dabing",
         "planned_at": "2026-11-17T04:21:22.760770+00:00"
-      },
-      "claim": {
-        "worker_id": "3d4eeee398fd491ca3ad3c016f0b9297-shard-0",
-        "claimed_at": "2026-11-17T04:21:24.064525+00:00",
-        "lease_expires_at": "2026-11-17T10:21:24.064525+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31108013",
       "prepared": {
@@ -165629,7 +165625,7 @@
       "last_plan": {
         "source_id": "34510186",
         "display_name": "Eleanor the Great 1080p CZ Dabing",
-        "planned_at": "2026-11-17T04:38:57.540244+00:00"
+        "planned_at": "2026-11-17T04:39:01.566030+00:00"
       }
     },
     "32546": {
@@ -214104,5 +214100,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:38:58.772933+00:00"
+  "updated_at": "2026-11-17T04:39:02.184514+00:00"
 }
