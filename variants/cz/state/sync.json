@@ -170482,17 +170482,19 @@
       }
     },
     "4574": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31739723",
+          "target_video_id": "31126046",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:33:35.915180+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31739723",
         "display_name": "Bet on Friendship (Prvok, Šampón, Tečka a Karel) 1080p CZ Dabing",
         "planned_at": "2026-11-17T19:25:17.132434+00:00"
-      },
-      "claim": {
-        "worker_id": "c8d860c8512e466597d3a2d6c8d00819-shard-0",
-        "claimed_at": "2026-11-17T19:25:18.074412+00:00",
-        "lease_expires_at": "2026-11-18T01:25:18.074412+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31126046",
       "prepared": {
@@ -218165,5 +218167,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:33:33.886157+00:00"
+  "updated_at": "2026-11-17T19:33:35.915191+00:00"
 }
