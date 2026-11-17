@@ -107847,13 +107847,6 @@
           "source_id": "34713446",
           "target_video_id": "30983246",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:18:39.987785+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34713446",
-          "target_video_id": "30983246",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:37:37.969927+00:00"
         },
         {
@@ -107862,6 +107855,13 @@
           "target_video_id": "30983246",
           "permanent": false,
           "attempted_at": "2026-11-17T11:51:23.418993+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34713446",
+          "target_video_id": "30983246",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:08:28.556541+00:00"
         }
       ],
       "last_plan": {
@@ -107907,7 +107907,7 @@
       "last_plan": {
         "source_id": "34883521",
         "display_name": "Vera 68 (Věra 68) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:51:22.858217+00:00"
+        "planned_at": "2026-11-17T13:08:27.289071+00:00"
       },
       "previous_target_id": "30983259",
       "prepared": {
@@ -107915,6 +107915,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T13:56:32.195971+00:00",
         "relay_source_id": "34883521"
+      },
+      "claim": {
+        "worker_id": "df53667dad414166b7653590ccfe937c-shard-0",
+        "claimed_at": "2026-11-17T13:08:28.288560+00:00",
+        "lease_expires_at": "2026-11-17T19:08:28.288560+00:00",
+        "run_id": "44078950078"
       }
     },
     "26105": {
@@ -168572,7 +168578,7 @@
       "last_plan": {
         "source_id": "29700583",
         "display_name": "Convoy Buddies (Simone e Matteo: un gioco da ragazzi) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:08:23.123450+00:00"
+        "planned_at": "2026-11-17T13:08:27.621742+00:00"
       }
     },
     "27918": {
@@ -216546,5 +216552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:08:23.123468+00:00"
+  "updated_at": "2026-11-17T13:08:28.556560+00:00"
 }
