@@ -108300,13 +108300,6 @@
           "source_id": "35066259",
           "target_video_id": "30983517",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:08:42.004351+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066259",
-          "target_video_id": "30983517",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:23:52.161184+00:00"
         },
         {
@@ -108315,6 +108308,13 @@
           "target_video_id": "30983517",
           "permanent": false,
           "attempted_at": "2026-11-17T12:39:46.314336+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066259",
+          "target_video_id": "30983517",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:55:25.469317+00:00"
         }
       ],
       "last_plan": {
@@ -147618,7 +147618,7 @@
       "last_plan": {
         "source_id": "12863543",
         "display_name": "Taxi 121 SD CZ Dabing",
-        "planned_at": "2026-11-17T12:39:44.926181+00:00"
+        "planned_at": "2026-11-17T13:55:23.667358+00:00"
       },
       "previous_target_id": "30999429",
       "prepared": {
@@ -147626,6 +147626,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-12T06:39:50.580418+00:00",
         "relay_source_id": "12863543"
+      },
+      "claim": {
+        "worker_id": "05e68aa515cb45c9921a78544af43145-shard-0",
+        "claimed_at": "2026-11-17T13:55:24.616938+00:00",
+        "lease_expires_at": "2026-11-17T19:55:24.616938+00:00",
+        "run_id": "44078950078"
       }
     },
     "28088": {
@@ -168881,7 +168887,7 @@
       "last_plan": {
         "source_id": "34673121",
         "display_name": "The Water Margin (ShuiHuChuan) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:55:20.881347+00:00"
+        "planned_at": "2026-11-17T13:55:24.051998+00:00"
       }
     },
     "29930": {
@@ -216813,5 +216819,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:55:21.128940+00:00"
+  "updated_at": "2026-11-17T13:55:25.469334+00:00"
 }
