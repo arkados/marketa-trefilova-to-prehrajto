@@ -108300,13 +108300,6 @@
           "source_id": "35066259",
           "target_video_id": "30983517",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:56:22.556273+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066259",
-          "target_video_id": "30983517",
-          "permanent": false,
           "attempted_at": "2026-11-17T07:22:49.416405+00:00"
         },
         {
@@ -108315,6 +108308,13 @@
           "target_video_id": "30983517",
           "permanent": false,
           "attempted_at": "2026-11-17T08:50:27.732590+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066259",
+          "target_video_id": "30983517",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:08:42.004351+00:00"
         }
       ],
       "last_plan": {
@@ -147618,7 +147618,7 @@
       "last_plan": {
         "source_id": "12863543",
         "display_name": "Taxi 121 SD CZ Dabing",
-        "planned_at": "2026-11-17T08:50:26.892087+00:00"
+        "planned_at": "2026-11-17T10:08:40.181158+00:00"
       },
       "previous_target_id": "30999429",
       "prepared": {
@@ -147626,6 +147626,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-12T06:39:50.580418+00:00",
         "relay_source_id": "12863543"
+      },
+      "claim": {
+        "worker_id": "578c235e89c844dc87d3b4402b8ebe8f-shard-0",
+        "claimed_at": "2026-11-17T10:08:41.098718+00:00",
+        "lease_expires_at": "2026-11-17T16:08:41.098718+00:00",
+        "run_id": "44013593637"
       }
     },
     "28088": {
@@ -167506,7 +167512,7 @@
       "last_plan": {
         "source_id": "30800237",
         "display_name": "The Day the Earth Blew Up: A Looney Tunes Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:08:37.557943+00:00"
+        "planned_at": "2026-11-17T10:08:40.489913+00:00"
       }
     },
     "20981": {
@@ -215672,5 +215678,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:08:37.557962+00:00"
+  "updated_at": "2026-11-17T10:08:42.004370+00:00"
 }
