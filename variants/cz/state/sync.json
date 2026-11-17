@@ -169416,17 +169416,19 @@
       }
     },
     "8117": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30722470",
+          "target_video_id": "31122761",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:26:48.950953+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30722470",
         "display_name": "After Party 1080p CZ Dabing",
         "planned_at": "2026-11-17T16:22:36.567100+00:00"
-      },
-      "claim": {
-        "worker_id": "4d68099ed6ac4f35b96ce158bad15df5-shard-0",
-        "claimed_at": "2026-11-17T16:22:37.312341+00:00",
-        "lease_expires_at": "2026-11-17T22:22:37.312341+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31122761",
       "prepared": {
@@ -217291,5 +217293,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:26:46.889813+00:00"
+  "updated_at": "2026-11-17T16:26:48.950976+00:00"
 }
