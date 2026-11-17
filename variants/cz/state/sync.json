@@ -171727,17 +171727,19 @@
       }
     },
     "27931": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28248567",
+          "target_video_id": "31132374",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:07:13.603895+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28248567",
         "display_name": "Hranari (Edgemen) 1080p CZ Dabing",
         "planned_at": "2026-11-17T23:00:06.864991+00:00"
-      },
-      "claim": {
-        "worker_id": "e745740719fd494490d68279875048b7-shard-0",
-        "claimed_at": "2026-11-17T23:00:07.769018+00:00",
-        "lease_expires_at": "2026-11-18T05:00:07.769018+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31132374",
       "prepared": {
@@ -219168,5 +219170,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:07:10.246914+00:00"
+  "updated_at": "2026-11-17T23:07:13.603913+00:00"
 }
