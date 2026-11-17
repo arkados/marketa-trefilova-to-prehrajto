@@ -132369,13 +132369,6 @@
           "source_id": "25018592",
           "target_video_id": "30987121",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:27:49.396520+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25018592",
-          "target_video_id": "30987121",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:42:28.068288+00:00"
         },
         {
@@ -132384,6 +132377,13 @@
           "target_video_id": "30987121",
           "permanent": false,
           "attempted_at": "2026-11-17T21:12:58.597161+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25018592",
+          "target_video_id": "30987121",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:42:16.468566+00:00"
         }
       ],
       "last_plan": {
@@ -166273,7 +166273,7 @@
       "last_plan": {
         "source_id": "34847633",
         "display_name": "Secret Name (La Place d'une autre) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:12:56.724058+00:00"
+        "planned_at": "2026-11-17T22:42:14.763517+00:00"
       },
       "previous_target_id": "31110339",
       "prepared": {
@@ -166281,6 +166281,12 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-11-17T05:58:14.226533+00:00",
         "relay_source_id": "34847633"
+      },
+      "claim": {
+        "worker_id": "540e6f1839f040a6a37ad5e9656cb840-shard-0",
+        "claimed_at": "2026-11-17T22:42:15.675938+00:00",
+        "lease_expires_at": "2026-11-18T04:42:15.675938+00:00",
+        "run_id": "44170464010"
       }
     },
     "10752": {
@@ -171594,7 +171600,7 @@
       "last_plan": {
         "source_id": "33856169",
         "display_name": "Dirty Soul (Duše jako kaviár) 4K CZ Dabing",
-        "planned_at": "2026-11-17T22:42:11.816282+00:00"
+        "planned_at": "2026-11-17T22:42:15.095752+00:00"
       }
     },
     "3520": {
@@ -219028,5 +219034,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:42:12.077076+00:00"
+  "updated_at": "2026-11-17T22:42:16.468583+00:00"
 }
