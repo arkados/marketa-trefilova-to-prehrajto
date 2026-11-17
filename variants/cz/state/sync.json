@@ -123276,7 +123276,7 @@
       "last_plan": {
         "source_id": "33589689",
         "display_name": "Paris 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:16:52.720144+00:00"
+        "planned_at": "2026-11-17T10:35:55.281662+00:00"
       },
       "previous_target_id": "30985541",
       "prepared": {
@@ -123284,6 +123284,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T20:10:08.286827+00:00",
         "relay_source_id": "33589689"
+      },
+      "claim": {
+        "worker_id": "1e12f352539348dd8ccf646b0a4cc0c8-shard-0",
+        "claimed_at": "2026-11-17T10:35:56.165723+00:00",
+        "lease_expires_at": "2026-11-17T16:35:56.165723+00:00",
+        "run_id": "44013593637"
       }
     },
     "27916": {
@@ -138393,13 +138399,6 @@
           "source_id": "35068840",
           "target_video_id": "30987861",
           "permanent": false,
-          "attempted_at": "2026-11-17T06:26:04.385274+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35068840",
-          "target_video_id": "30987861",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:03:20.974004+00:00"
         },
         {
@@ -138408,6 +138407,13 @@
           "target_video_id": "30987861",
           "permanent": false,
           "attempted_at": "2026-11-17T09:16:53.090386+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35068840",
+          "target_video_id": "30987861",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:35:56.397996+00:00"
         }
       ],
       "last_plan": {
@@ -138421,12 +138427,6 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T06:29:19.776162+00:00",
         "relay_source_id": "35068840"
-      },
-      "claim": {
-        "worker_id": "5a9566db87844f0b9913d6e642de2418-shard-0",
-        "claimed_at": "2026-11-17T10:35:48.268532+00:00",
-        "lease_expires_at": "2026-11-17T16:35:48.268532+00:00",
-        "run_id": "44013593637"
       }
     },
     "11005": {
@@ -167652,7 +167652,7 @@
       "last_plan": {
         "source_id": "34681364",
         "display_name": "Beef (Ruido) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:35:47.739772+00:00"
+        "planned_at": "2026-11-17T10:35:55.597043+00:00"
       }
     },
     "14309": {
@@ -215800,5 +215800,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:35:52.068841+00:00"
+  "updated_at": "2026-11-17T10:35:56.398014+00:00"
 }
