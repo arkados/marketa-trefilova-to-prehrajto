@@ -57281,13 +57281,6 @@
           "source_id": "33383467",
           "target_video_id": "30785708",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:31:35.552000+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33383467",
-          "target_video_id": "30785708",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:57:45.777952+00:00"
         },
         {
@@ -57296,6 +57289,13 @@
           "target_video_id": "30785708",
           "permanent": false,
           "attempted_at": "2026-11-17T08:29:27.896912+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33383467",
+          "target_video_id": "30785708",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:44:18.818135+00:00"
         }
       ],
       "last_plan": {
@@ -166926,17 +166926,23 @@
           "attempted_at": "2026-11-17T08:29:30.815395+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34722906",
-        "display_name": "Let’s Not Get Angry (Let's Not Get Angry) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:21:21.102671+00:00"
-      },
       "previous_target_id": "31113662",
-      "prepared": {
+      "upload": {
         "target_video_id": "31113662",
-        "size_bytes": 3103494894,
-        "prepared_at": "2026-11-17T08:21:27.598842+00:00",
-        "relay_source_id": "34722906"
+        "display_name": "Let’s Not Get Angry (Let's Not Get Angry) 1080p CZ Dabing",
+        "source_id": "34722906",
+        "source_url": "https://sdilej.cz/34722906/my-se-nehnevame-1966-cz-dabing.mp4",
+        "source_filename": "My se nehněváme (1966) CZ Dabing.mp4",
+        "size_bytes": 3100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9836951494216919,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/let-s-not-get-angry-let-s-not-get-angry-1080p-cz-dabing-mp4/369cf2ed3947cb85",
+        "uploaded_at": "2026-11-17T09:44:19.028303+00:00"
       }
     },
     "22389": {
@@ -167381,7 +167387,7 @@
       "last_plan": {
         "source_id": "33767282",
         "display_name": "White Nights 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:44:14.137677+00:00"
+        "planned_at": "2026-11-17T09:44:17.295283+00:00"
       }
     },
     "27845": {
@@ -215568,5 +215574,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:44:14.384485+00:00"
+  "updated_at": "2026-11-17T09:44:19.028316+00:00"
 }
