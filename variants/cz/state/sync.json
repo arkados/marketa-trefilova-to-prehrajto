@@ -165342,17 +165342,19 @@
       "attempts": []
     },
     "36678": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24947133",
+          "target_video_id": "31107285",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:50:17.403762+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24947133",
         "display_name": "Le désordre et la nuit SD CZ Dabing",
         "planned_at": "2026-11-17T03:47:48.238736+00:00"
-      },
-      "claim": {
-        "worker_id": "081669115a2a47f7b5d22ae80fedd233-shard-0",
-        "claimed_at": "2026-11-17T03:47:49.656774+00:00",
-        "lease_expires_at": "2026-11-17T09:47:49.656774+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31107285",
       "prepared": {
@@ -213901,5 +213903,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:50:13.851767+00:00"
+  "updated_at": "2026-11-17T03:50:17.403778+00:00"
 }
