@@ -131172,6 +131172,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T02:58:34.152788+00:00",
         "relay_source_id": "35147186"
+      },
+      "claim": {
+        "worker_id": "69c2c99c77c44e2c9bcc726340665dc1-shard-0",
+        "claimed_at": "2026-11-17T18:08:52.473283+00:00",
+        "lease_expires_at": "2026-11-18T00:08:52.473283+00:00",
+        "run_id": "44093224298"
       }
     },
     "10712": {
@@ -147482,7 +147488,7 @@
       "last_plan": {
         "source_id": "19973532",
         "display_name": "Stárí není pro sraby (Stáří není pro sraby) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:57:44.850860+00:00"
+        "planned_at": "2026-11-17T18:08:52.921385+00:00"
       },
       "previous_target_id": "30998700",
       "prepared": {
@@ -147490,6 +147496,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-12T04:54:16.332507+00:00",
         "relay_source_id": "19973532"
+      },
+      "claim": {
+        "worker_id": "1726de38a54f45f9bf525f46272f84a2-shard-0",
+        "claimed_at": "2026-11-17T18:08:53.611209+00:00",
+        "lease_expires_at": "2026-11-18T00:08:53.611209+00:00",
+        "run_id": "44093224298"
       }
     },
     "30971": {
@@ -170021,17 +170033,19 @@
       }
     },
     "14662": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24730421",
+          "target_video_id": "31124201",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:08:53.831083+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24730421",
         "display_name": "The Magic of Kings (Kouzla králů) 1080p CZ Dabing",
         "planned_at": "2026-11-17T18:05:47.953409+00:00"
-      },
-      "claim": {
-        "worker_id": "22163892d3cb4938afde3b6fb5582d4b-shard-0",
-        "claimed_at": "2026-11-17T18:05:50.442515+00:00",
-        "lease_expires_at": "2026-11-18T00:05:50.442515+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31124201",
       "prepared": {
@@ -170049,7 +170063,7 @@
       "last_plan": {
         "source_id": "31417258",
         "display_name": "Le Mans 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:08:48.942754+00:00"
+        "planned_at": "2026-11-17T18:08:53.161975+00:00"
       }
     },
     "4826": {
@@ -217765,5 +217779,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:08:49.129850+00:00"
+  "updated_at": "2026-11-17T18:08:53.831099+00:00"
 }
