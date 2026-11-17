@@ -115554,13 +115554,6 @@
           "source_id": "30985526",
           "target_video_id": "30984610",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:26:09.390474+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30985526",
-          "target_video_id": "30984610",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:42:23.975676+00:00"
         },
         {
@@ -115569,6 +115562,13 @@
           "target_video_id": "30984610",
           "permanent": false,
           "attempted_at": "2026-11-17T12:56:30.921743+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30985526",
+          "target_video_id": "30984610",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:15:25.324848+00:00"
         }
       ],
       "last_plan": {
@@ -130246,7 +130246,7 @@
       "last_plan": {
         "source_id": "25438208",
         "display_name": "Story of a Godfather (Příběh kmotra) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:56:29.666436+00:00"
+        "planned_at": "2026-11-17T14:15:24.040014+00:00"
       },
       "previous_target_id": "30986891",
       "prepared": {
@@ -130254,6 +130254,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T02:31:10.546394+00:00",
         "relay_source_id": "25438208"
+      },
+      "claim": {
+        "worker_id": "e2f8a6206f3e4f028c4f3b71b50156ef-shard-0",
+        "claimed_at": "2026-11-17T14:15:25.041708+00:00",
+        "lease_expires_at": "2026-11-17T20:15:25.041708+00:00",
+        "run_id": "44078950078"
       }
     },
     "3121": {
@@ -168978,7 +168984,7 @@
       "last_plan": {
         "source_id": "33846398",
         "display_name": "St. Peter's Key (Klíč svatého Petra) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:15:21.260487+00:00"
+        "planned_at": "2026-11-17T14:15:24.362011+00:00"
       }
     },
     "23234": {
@@ -216898,5 +216904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:15:21.260504+00:00"
+  "updated_at": "2026-11-17T14:15:25.324867+00:00"
 }
