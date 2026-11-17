@@ -124016,13 +124016,6 @@
           "source_id": "32453487",
           "target_video_id": "30985646",
           "permanent": false,
-          "attempted_at": "2026-11-17T11:07:47.882314+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32453487",
-          "target_video_id": "30985646",
-          "permanent": false,
           "attempted_at": "2026-11-17T12:22:01.555207+00:00"
         },
         {
@@ -124031,12 +124024,19 @@
           "target_video_id": "30985646",
           "permanent": false,
           "attempted_at": "2026-11-17T13:38:57.317212+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32453487",
+          "target_video_id": "30985646",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:55:28.843615+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32453487",
         "display_name": "Le gendarme se marie 4K CZ Dabing",
-        "planned_at": "2026-11-17T13:38:52.494240+00:00"
+        "planned_at": "2026-11-17T14:55:26.397815+00:00"
       },
       "previous_target_id": "30985646",
       "prepared": {
@@ -169173,11 +169173,22 @@
       "last_plan": {
         "source_id": "30617961",
         "display_name": "Hroch SD CZ Dabing",
-        "planned_at": "2026-11-17T14:55:19.459676+00:00"
+        "planned_at": "2026-11-17T14:55:26.710513+00:00"
+      },
+      "claim": {
+        "worker_id": "41641d8ea6a942fcb8ec6eaf908bab81-shard-0",
+        "claimed_at": "2026-11-17T14:55:27.728235+00:00",
+        "lease_expires_at": "2026-11-17T20:55:27.728235+00:00",
+        "run_id": "44078950078"
       }
     },
     "3409": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "14295572",
+        "display_name": "Paul, Apostle of Christ SD CZ Dabing",
+        "planned_at": "2026-11-17T14:55:26.975623+00:00"
+      }
     },
     "36788": {
       "attempts": []
@@ -217063,5 +217074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:55:22.531510+00:00"
+  "updated_at": "2026-11-17T14:55:28.843642+00:00"
 }
