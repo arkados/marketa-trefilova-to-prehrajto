@@ -168434,17 +168434,19 @@
       }
     },
     "11160": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12139621",
+          "target_video_id": "31118765",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:00:33.218686+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12139621",
         "display_name": "Breakheart Pass 1080p CZ Dabing",
         "planned_at": "2026-11-17T12:57:33.954951+00:00"
-      },
-      "claim": {
-        "worker_id": "282446eee4fd4172960aecd428cbd79a-shard-0",
-        "claimed_at": "2026-11-17T12:57:36.915497+00:00",
-        "lease_expires_at": "2026-11-17T18:57:36.915497+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31118765",
       "prepared": {
@@ -216463,5 +216465,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:00:31.022148+00:00"
+  "updated_at": "2026-11-17T13:00:33.218704+00:00"
 }
