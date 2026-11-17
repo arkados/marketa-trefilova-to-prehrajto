@@ -110086,13 +110086,6 @@
           "source_id": "29678156",
           "target_video_id": "30983692",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:03:42.674446+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29678156",
-          "target_video_id": "30983692",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:22:00.235190+00:00"
         },
         {
@@ -110101,6 +110094,13 @@
           "target_video_id": "30983692",
           "permanent": false,
           "attempted_at": "2026-11-17T02:40:04.288795+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29678156",
+          "target_video_id": "30983692",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:01:29.003366+00:00"
         }
       ],
       "last_plan": {
@@ -110114,12 +110114,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T14:35:23.576048+00:00",
         "relay_source_id": "29678156"
-      },
-      "claim": {
-        "worker_id": "6d1cc7189e954f618945c65352aea0ae-shard-0",
-        "claimed_at": "2026-11-17T04:01:24.661139+00:00",
-        "lease_expires_at": "2026-11-17T10:01:24.661139+00:00",
-        "run_id": "44012569640"
       }
     },
     "12054": {
@@ -110176,6 +110170,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T14:35:35.121572+00:00",
         "relay_source_id": "30160689"
+      },
+      "claim": {
+        "worker_id": "956a8334ec7d412cbb03dc16481e6bc9-shard-0",
+        "claimed_at": "2026-11-17T04:01:28.418264+00:00",
+        "lease_expires_at": "2026-11-17T10:01:28.418264+00:00",
+        "run_id": "44012569640"
       }
     },
     "32878": {
@@ -124328,7 +124328,7 @@
       "last_plan": {
         "source_id": "33064122",
         "display_name": "Taboo 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:40:06.262914+00:00"
+        "planned_at": "2026-11-17T04:01:28.676116+00:00"
       },
       "previous_target_id": "30985714",
       "prepared": {
@@ -165456,7 +165456,7 @@
       "last_plan": {
         "source_id": "29163002",
         "display_name": "Hail the Artist (Salut l'artiste) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T04:01:25.878784+00:00"
+        "planned_at": "2026-11-17T04:01:29.412502+00:00"
       }
     },
     "20899": {
@@ -213964,5 +213964,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:01:25.878802+00:00"
+  "updated_at": "2026-11-17T04:01:29.412519+00:00"
 }
