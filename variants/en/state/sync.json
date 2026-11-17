@@ -22517,13 +22517,6 @@
           "source_id": "16607977",
           "target_video_id": "30987463",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:00:46.124211+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16607977",
-          "target_video_id": "30987463",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:30:52.638120+00:00"
         },
         {
@@ -22532,6 +22525,13 @@
           "target_video_id": "30987463",
           "permanent": false,
           "attempted_at": "2026-11-17T11:00:58.902884+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16607977",
+          "target_video_id": "30987463",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:31:12.358860+00:00"
         }
       ],
       "last_plan": {
@@ -22545,12 +22545,6 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T04:48:37.657424+00:00",
         "relay_source_id": "16607977"
-      },
-      "claim": {
-        "worker_id": "c159965e09094e5faf24c90c7fca6664-shard-0",
-        "claimed_at": "2026-11-17T11:31:08.704477+00:00",
-        "lease_expires_at": "2026-11-17T17:31:08.704477+00:00",
-        "run_id": "44013593637"
       }
     },
     "34759": {
@@ -22810,6 +22804,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:52:35.333881+00:00",
         "relay_source_id": "23076909"
+      },
+      "claim": {
+        "worker_id": "dd02886ec6434d1491716c38a46e0aa3-shard-0",
+        "claimed_at": "2026-11-17T11:31:12.268866+00:00",
+        "lease_expires_at": "2026-11-17T17:31:12.268866+00:00",
+        "run_id": "44013593637"
       }
     },
     "20937": {
@@ -22950,7 +22950,7 @@
       "last_plan": {
         "source_id": "32361142",
         "display_name": "Baramulla (baramula) 1080p CZ titulky",
-        "planned_at": "2026-11-17T11:01:06.755242+00:00"
+        "planned_at": "2026-11-17T11:31:13.056917+00:00"
       },
       "previous_target_id": "30988608",
       "prepared": {
@@ -100744,5 +100744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:31:09.613194+00:00"
+  "updated_at": "2026-11-17T11:31:13.056929+00:00"
 }
