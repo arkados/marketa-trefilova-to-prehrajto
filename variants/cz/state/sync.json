@@ -118474,13 +118474,6 @@
           "source_id": "27358348",
           "target_video_id": "30984858",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:10:11.133922+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27358348",
-          "target_video_id": "30984858",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:27:51.700280+00:00"
         },
         {
@@ -118489,6 +118482,13 @@
           "target_video_id": "30984858",
           "permanent": false,
           "attempted_at": "2026-11-17T20:53:56.185985+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27358348",
+          "target_video_id": "30984858",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:21:24.315229+00:00"
         }
       ],
       "last_plan": {
@@ -118502,12 +118502,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T17:56:37.863450+00:00",
         "relay_source_id": "27358348"
-      },
-      "claim": {
-        "worker_id": "96e282a6a76d4aad876828d3e9215206-shard-0",
-        "claimed_at": "2026-11-17T22:21:21.283805+00:00",
-        "lease_expires_at": "2026-11-18T04:21:21.283805+00:00",
-        "run_id": "44170464010"
       }
     },
     "22172": {
@@ -118574,7 +118568,7 @@
       "last_plan": {
         "source_id": "13038862",
         "display_name": "Odd Thomas 720p CZ Dabing",
-        "planned_at": "2026-11-17T20:53:55.600815+00:00"
+        "planned_at": "2026-11-17T22:21:23.747832+00:00"
       },
       "previous_target_id": "30984859",
       "prepared": {
@@ -171511,11 +171505,16 @@
       "last_plan": {
         "source_id": "26365100",
         "display_name": "Gorky Park 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:21:18.892633+00:00"
+        "planned_at": "2026-11-17T22:21:24.068893+00:00"
       }
     },
     "30268": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27040352",
+        "display_name": "Smashed 720p CZ Dabing",
+        "planned_at": "2026-11-17T22:21:24.511246+00:00"
+      }
     },
     "26621": {
       "attempts": []
@@ -218957,5 +218956,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:21:21.283834+00:00"
+  "updated_at": "2026-11-17T22:21:24.511262+00:00"
 }
