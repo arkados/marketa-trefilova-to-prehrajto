@@ -167493,17 +167493,19 @@
       "attempts": []
     },
     "16739": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695203",
+          "target_video_id": "31115473",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:10:34.275808+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695203",
         "display_name": "Meester Kikker 720p CZ Dabing",
         "planned_at": "2026-11-17T10:06:29.394442+00:00"
-      },
-      "claim": {
-        "worker_id": "a558c356282d4a85bc05fb8750592170-shard-0",
-        "claimed_at": "2026-11-17T10:06:32.691464+00:00",
-        "lease_expires_at": "2026-11-17T16:06:32.691464+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31115473",
       "prepared": {
@@ -215684,5 +215686,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:10:32.294730+00:00"
+  "updated_at": "2026-11-17T10:10:34.275827+00:00"
 }
