@@ -109339,7 +109339,7 @@
       "last_plan": {
         "source_id": "31753593",
         "display_name": "Run, He Is Coming! (Utekajme, už ide!) SD CZ Dabing",
-        "planned_at": "2026-11-17T19:52:07.761258+00:00"
+        "planned_at": "2026-11-17T21:23:28.040394+00:00"
       },
       "previous_target_id": "30983629",
       "prepared": {
@@ -121308,6 +121308,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T18:42:19.166641+00:00",
         "relay_source_id": "33745590"
+      },
+      "claim": {
+        "worker_id": "6f43c510fd614991933c58c24f566eca-shard-0",
+        "claimed_at": "2026-11-17T21:23:27.787281+00:00",
+        "lease_expires_at": "2026-11-18T03:23:27.787281+00:00",
+        "run_id": "44170464010"
       }
     },
     "13361": {
@@ -171114,17 +171120,19 @@
       }
     },
     "21644": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34700063",
+          "target_video_id": "31129202",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:23:29.083685+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34700063",
         "display_name": "A Man Named Rocca SD CZ Dabing",
         "planned_at": "2026-11-17T21:21:34.847574+00:00"
-      },
-      "claim": {
-        "worker_id": "1bea1c90e7f34c3bb162662a43e1cc25-shard-0",
-        "claimed_at": "2026-11-17T21:21:35.927614+00:00",
-        "lease_expires_at": "2026-11-18T03:21:35.927614+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31129202",
       "prepared": {
@@ -171139,7 +171147,7 @@
       "last_plan": {
         "source_id": "34700306",
         "display_name": "The Last Supper 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:23:25.131252+00:00"
+        "planned_at": "2026-11-17T21:23:28.386901+00:00"
       }
     },
     "17376": {
@@ -218654,5 +218662,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:23:25.390003+00:00"
+  "updated_at": "2026-11-17T21:23:29.083700+00:00"
 }
