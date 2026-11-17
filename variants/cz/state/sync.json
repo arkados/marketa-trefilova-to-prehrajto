@@ -123864,7 +123864,7 @@
       "last_plan": {
         "source_id": "27021419",
         "display_name": "Ray Donovan: The Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:28:17.353428+00:00"
+        "planned_at": "2026-11-17T10:48:28.376594+00:00"
       },
       "previous_target_id": "30985619",
       "prepared": {
@@ -123872,6 +123872,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T20:46:51.208874+00:00",
         "relay_source_id": "27021419"
+      },
+      "claim": {
+        "worker_id": "35531ebb127549b384bcae7ac92704a6-shard-0",
+        "claimed_at": "2026-11-17T10:48:29.254866+00:00",
+        "lease_expires_at": "2026-11-17T16:48:29.254866+00:00",
+        "run_id": "44013593637"
       }
     },
     "2868": {
@@ -167671,17 +167677,19 @@
       }
     },
     "14309": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34195064",
+          "target_video_id": "31116024",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:48:30.438159+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34195064",
         "display_name": "Sea Sparkle (Zeevonk) 720p CZ Dabing",
         "planned_at": "2026-11-17T10:42:44.664518+00:00"
-      },
-      "claim": {
-        "worker_id": "7fb678eb2f6e47989b20c59ba0893b09-shard-0",
-        "claimed_at": "2026-11-17T10:42:45.592451+00:00",
-        "lease_expires_at": "2026-11-17T16:42:45.592451+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31116024",
       "prepared": {
@@ -167696,7 +167704,7 @@
       "last_plan": {
         "source_id": "34594557",
         "display_name": "Excellent Cadavers 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:48:23.526711+00:00"
+        "planned_at": "2026-11-17T10:48:28.711784+00:00"
       }
     },
     "3391": {
@@ -215838,5 +215846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:48:25.471722+00:00"
+  "updated_at": "2026-11-17T10:48:30.438174+00:00"
 }
