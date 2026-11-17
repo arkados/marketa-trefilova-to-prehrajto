@@ -114705,13 +114705,6 @@
           "source_id": "28048905",
           "target_video_id": "30984162",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:10:34.124332+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28048905",
-          "target_video_id": "30984162",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:39:26.063739+00:00"
         },
         {
@@ -114720,6 +114713,13 @@
           "target_video_id": "30984162",
           "permanent": false,
           "attempted_at": "2026-11-17T22:03:56.262102+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28048905",
+          "target_video_id": "30984162",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:31:47.902972+00:00"
         }
       ],
       "last_plan": {
@@ -141422,7 +141422,7 @@
       "last_plan": {
         "source_id": "29201504",
         "display_name": "Průlom SD CZ Dabing",
-        "planned_at": "2026-11-17T22:03:57.526112+00:00"
+        "planned_at": "2026-11-17T23:31:46.164517+00:00"
       },
       "previous_target_id": "30988227",
       "prepared": {
@@ -141430,6 +141430,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T07:54:44.217051+00:00",
         "relay_source_id": "29201504"
+      },
+      "claim": {
+        "worker_id": "a62f9df39a3e4a64b40068b9b3695f2a-shard-0",
+        "claimed_at": "2026-11-17T23:31:47.101525+00:00",
+        "lease_expires_at": "2026-11-18T05:31:47.101525+00:00",
+        "run_id": "44170464010"
       }
     },
     "15578": {
@@ -171904,7 +171910,7 @@
       "last_plan": {
         "source_id": "34703251",
         "display_name": "Heaven's Gate SD CZ Dabing",
-        "planned_at": "2026-11-17T23:31:43.058116+00:00"
+        "planned_at": "2026-11-17T23:31:46.492351+00:00"
       }
     },
     "33837": {
@@ -219302,5 +219308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:31:43.404502+00:00"
+  "updated_at": "2026-11-17T23:31:47.902990+00:00"
 }
