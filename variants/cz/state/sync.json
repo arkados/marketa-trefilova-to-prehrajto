@@ -171384,17 +171384,19 @@
       }
     },
     "3345": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35185503",
+          "target_video_id": "31130365",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:04:35.812134+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35185503",
         "display_name": "Land 1080p CZ Dabing",
         "planned_at": "2026-11-17T21:59:21.836159+00:00"
-      },
-      "claim": {
-        "worker_id": "ac79d59b76854ec7a65e69ac5886a091-shard-0",
-        "claimed_at": "2026-11-17T21:59:24.661660+00:00",
-        "lease_expires_at": "2026-11-18T03:59:24.661660+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31130365",
       "prepared": {
@@ -218896,5 +218898,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:04:32.361635+00:00"
+  "updated_at": "2026-11-17T22:04:35.812151+00:00"
 }
