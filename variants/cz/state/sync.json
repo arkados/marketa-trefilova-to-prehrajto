@@ -128290,13 +128290,6 @@
           "source_id": "33885910",
           "target_video_id": "30986630",
           "permanent": false,
-          "attempted_at": "2026-11-17T03:35:12.965517+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33885910",
-          "target_video_id": "30986630",
-          "permanent": false,
           "attempted_at": "2026-11-17T05:00:21.123939+00:00"
         },
         {
@@ -128305,6 +128298,13 @@
           "target_video_id": "30986630",
           "permanent": false,
           "attempted_at": "2026-11-17T06:26:13.161409+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33885910",
+          "target_video_id": "30986630",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:03:31.574549+00:00"
         }
       ],
       "last_plan": {
@@ -142065,7 +142065,7 @@
       "last_plan": {
         "source_id": "27874374",
         "display_name": "Together (Spolu) (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-17T06:26:12.858986+00:00"
+        "planned_at": "2026-11-17T08:03:30.347657+00:00"
       },
       "previous_target_id": "30988406",
       "prepared": {
@@ -142073,6 +142073,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T08:20:53.674997+00:00",
         "relay_source_id": "27874374"
+      },
+      "claim": {
+        "worker_id": "db83193ef4914287bef35c735a092a6b-shard-0",
+        "claimed_at": "2026-11-17T08:03:31.332722+00:00",
+        "lease_expires_at": "2026-11-17T14:03:31.332722+00:00",
+        "run_id": "44013593637"
       }
     },
     "33115": {
@@ -166604,6 +166610,12 @@
         "source_id": "12913503",
         "display_name": "The Quartette (Kvarteto) 1080p CZ Dabing",
         "planned_at": "2026-11-17T08:03:26.994519+00:00"
+      },
+      "claim": {
+        "worker_id": "9ba318e969c24d70aef6cd70fca13d46-shard-0",
+        "claimed_at": "2026-11-17T08:03:30.060065+00:00",
+        "lease_expires_at": "2026-11-17T14:03:30.060065+00:00",
+        "run_id": "44013593637"
       }
     },
     "20949": {
@@ -166614,7 +166626,7 @@
       "last_plan": {
         "source_id": "32923305",
         "display_name": "The Last Ashes (Läif a Séil) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:03:27.187618+00:00"
+        "planned_at": "2026-11-17T08:03:30.686846+00:00"
       }
     },
     "16143": {
@@ -214924,5 +214936,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:03:27.187635+00:00"
+  "updated_at": "2026-11-17T08:03:31.574568+00:00"
 }
