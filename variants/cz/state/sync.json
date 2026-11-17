@@ -56168,13 +56168,6 @@
           "source_id": "32042477",
           "target_video_id": "30784526",
           "permanent": false,
-          "attempted_at": "2026-11-16T17:51:29.550546+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32042477",
-          "target_video_id": "30784526",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:45:31.190412+00:00"
         },
         {
@@ -56183,6 +56176,13 @@
           "target_video_id": "30784526",
           "permanent": false,
           "attempted_at": "2026-11-17T00:07:56.267494+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32042477",
+          "target_video_id": "30784526",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:26:59.079216+00:00"
         }
       ],
       "last_plan": {
@@ -56196,12 +56196,6 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-04T11:23:58.909175+00:00",
         "relay_source_id": "32042477"
-      },
-      "claim": {
-        "worker_id": "fe453cd67d464fb1ba66d267a32fd838-shard-0",
-        "claimed_at": "2026-11-17T01:26:55.776433+00:00",
-        "lease_expires_at": "2026-11-17T07:26:55.776433+00:00",
-        "run_id": "43981967428"
       }
     },
     "24818": {
@@ -116417,7 +116411,7 @@
       "last_plan": {
         "source_id": "34095385",
         "display_name": "Candyman (1992) 4K CZ Dabing",
-        "planned_at": "2026-11-17T00:07:55.731419+00:00"
+        "planned_at": "2026-11-17T01:26:58.844616+00:00"
       },
       "previous_target_id": "30984680",
       "prepared": {
@@ -164913,7 +164907,7 @@
       "last_plan": {
         "source_id": "10596276",
         "display_name": "From Time to Time SD CZ Dabing",
-        "planned_at": "2026-11-17T01:26:51.344862+00:00"
+        "planned_at": "2026-11-17T01:26:59.375381+00:00"
       }
     },
     "36970": {
@@ -164923,7 +164917,12 @@
       "attempts": []
     },
     "8173": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28822231",
+        "display_name": "Princ Mamánek 4K CZ Dabing",
+        "planned_at": "2026-11-17T01:26:59.562654+00:00"
+      }
     },
     "11358": {
       "attempts": []
@@ -213526,5 +213525,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:26:55.776468+00:00"
+  "updated_at": "2026-11-17T01:26:59.562670+00:00"
 }
