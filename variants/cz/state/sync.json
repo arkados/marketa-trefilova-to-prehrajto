@@ -121234,6 +121234,12 @@
         "size_bytes": 13200000000,
         "prepared_at": "2026-11-10T18:40:40.098352+00:00",
         "relay_source_id": "34392768"
+      },
+      "claim": {
+        "worker_id": "916fe04bb8b34fc6999b2d4428bd99f4-shard-0",
+        "claimed_at": "2026-11-17T22:50:00.294647+00:00",
+        "lease_expires_at": "2026-11-18T04:50:00.294647+00:00",
+        "run_id": "44170464010"
       }
     },
     "3144": {
@@ -136610,13 +136616,6 @@
           "source_id": "26541445",
           "target_video_id": "30987698",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:34:44.977957+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26541445",
-          "target_video_id": "30987698",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:49:00.953194+00:00"
         },
         {
@@ -136625,6 +136624,13 @@
           "target_video_id": "30987698",
           "permanent": false,
           "attempted_at": "2026-11-17T21:20:37.104212+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26541445",
+          "target_video_id": "30987698",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:50:01.533120+00:00"
         }
       ],
       "last_plan": {
@@ -136638,12 +136644,6 @@
         "size_bytes": 839700000,
         "prepared_at": "2026-11-11T05:43:04.003267+00:00",
         "relay_source_id": "26541445"
-      },
-      "claim": {
-        "worker_id": "121d28aed864491586c6e4ce7f33d051-shard-0",
-        "claimed_at": "2026-11-17T22:49:57.148845+00:00",
-        "lease_expires_at": "2026-11-18T04:49:57.148845+00:00",
-        "run_id": "44170464010"
       }
     },
     "17193": {
@@ -138530,7 +138530,7 @@
       "last_plan": {
         "source_id": "34661718",
         "display_name": "Rukavička 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:20:39.915707+00:00"
+        "planned_at": "2026-11-17T22:50:00.552579+00:00"
       },
       "previous_target_id": "30987874",
       "prepared": {
@@ -138538,6 +138538,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-11-11T06:32:04.763146+00:00",
         "relay_source_id": "34661718"
+      },
+      "claim": {
+        "worker_id": "25c12a4a0e6b4aa1a1b382d420392526-shard-0",
+        "claimed_at": "2026-11-17T22:50:01.769730+00:00",
+        "lease_expires_at": "2026-11-18T04:50:01.769730+00:00",
+        "run_id": "44170464010"
       }
     },
     "12707": {
@@ -171614,7 +171620,7 @@
       "last_plan": {
         "source_id": "33856169",
         "display_name": "Dirty Soul (Duše jako kaviár) 4K CZ Dabing",
-        "planned_at": "2026-11-17T22:49:57.748202+00:00"
+        "planned_at": "2026-11-17T22:50:00.881824+00:00"
       }
     },
     "3520": {
@@ -219048,5 +219054,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:49:57.748219+00:00"
+  "updated_at": "2026-11-17T22:50:01.769756+00:00"
 }
