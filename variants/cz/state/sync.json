@@ -129526,7 +129526,7 @@
       "last_plan": {
         "source_id": "29464471",
         "display_name": "Shaolin Mantis 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:07:19.407914+00:00"
+        "planned_at": "2026-11-17T13:20:33.794631+00:00"
       },
       "previous_target_id": "30986773",
       "prepared": {
@@ -136804,13 +136804,6 @@
           "source_id": "34714080",
           "target_video_id": "30987722",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:32:58.611523+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714080",
-          "target_video_id": "30987722",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:50:32.216841+00:00"
         },
         {
@@ -136819,6 +136812,13 @@
           "target_video_id": "30987722",
           "permanent": false,
           "attempted_at": "2026-11-17T12:07:19.982316+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714080",
+          "target_video_id": "30987722",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:20:33.179236+00:00"
         }
       ],
       "last_plan": {
@@ -136832,12 +136832,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:49:24.573576+00:00",
         "relay_source_id": "34714080"
-      },
-      "claim": {
-        "worker_id": "d74fc6d6e7bf4e348760c9af9a7d4804-shard-0",
-        "claimed_at": "2026-11-17T13:20:29.908301+00:00",
-        "lease_expires_at": "2026-11-17T19:20:29.908301+00:00",
-        "run_id": "44078950078"
       }
     },
     "30415": {
@@ -168675,17 +168669,19 @@
       }
     },
     "3274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34966885",
+          "target_video_id": "31119102",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:20:34.031308+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34966885",
         "display_name": "The Lost King 1080p CZ Dabing",
         "planned_at": "2026-11-17T13:16:39.671274+00:00"
-      },
-      "claim": {
-        "worker_id": "00a55656844d46799e502f4e02b0aa59-shard-0",
-        "claimed_at": "2026-11-17T13:16:43.023705+00:00",
-        "lease_expires_at": "2026-11-17T19:16:43.023705+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31119102",
       "prepared": {
@@ -216656,5 +216652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:20:30.350035+00:00"
+  "updated_at": "2026-11-17T13:20:34.031330+00:00"
 }
