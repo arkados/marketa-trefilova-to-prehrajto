@@ -131431,13 +131431,6 @@
           "source_id": "29099333",
           "target_video_id": "30986987",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:25:15.833770+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29099333",
-          "target_video_id": "30986987",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:44:53.112211+00:00"
         },
         {
@@ -131446,12 +131439,19 @@
           "target_video_id": "30986987",
           "permanent": false,
           "attempted_at": "2026-11-17T17:18:48.193381+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29099333",
+          "target_video_id": "30986987",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:33:52.002339+00:00"
         }
       ],
       "last_plan": {
         "source_id": "29099333",
         "display_name": "Wolves' Lairs (Vlčie diery) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:18:43.546754+00:00"
+        "planned_at": "2026-11-17T18:33:49.878172+00:00"
       },
       "previous_target_id": "30986987",
       "prepared": {
@@ -170228,17 +170228,19 @@
       }
     },
     "16787": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "8819850",
+          "target_video_id": "31124527",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:33:52.171060+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "8819850",
         "display_name": "Mum's List SD CZ Dabing",
         "planned_at": "2026-11-17T18:31:52.898829+00:00"
-      },
-      "claim": {
-        "worker_id": "88b2cc80cc95497d8a48a21d23b40719-shard-0",
-        "claimed_at": "2026-11-17T18:31:53.608687+00:00",
-        "lease_expires_at": "2026-11-18T00:31:53.608687+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31124527",
       "prepared": {
@@ -170253,7 +170255,7 @@
       "last_plan": {
         "source_id": "32695662",
         "display_name": "When the Light Breaks (Ljósbrot) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:33:46.219894+00:00"
+        "planned_at": "2026-11-17T18:33:50.169107+00:00"
       }
     },
     "33284": {
@@ -217939,5 +217941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:33:47.787807+00:00"
+  "updated_at": "2026-11-17T18:33:52.171073+00:00"
 }
