@@ -110607,13 +110607,6 @@
           "source_id": "34788913",
           "target_video_id": "30983748",
           "permanent": false,
-          "attempted_at": "2026-11-16T16:22:38.002082+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788913",
-          "target_video_id": "30983748",
-          "permanent": false,
           "attempted_at": "2026-11-16T20:36:53.366561+00:00"
         },
         {
@@ -110622,6 +110615,13 @@
           "target_video_id": "30983748",
           "permanent": false,
           "attempted_at": "2026-11-16T22:08:56.899390+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788913",
+          "target_video_id": "30983748",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:29:00.694720+00:00"
         }
       ],
       "last_plan": {
@@ -135852,7 +135852,7 @@
       "last_plan": {
         "source_id": "34515639",
         "display_name": "Runaway (Útěk) (2025) 4K CZ Dabing",
-        "planned_at": "2026-11-16T22:08:59.329033+00:00"
+        "planned_at": "2026-11-17T00:28:59.231011+00:00"
       },
       "previous_target_id": "30987605",
       "prepared": {
@@ -135860,6 +135860,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T05:23:51.134886+00:00",
         "relay_source_id": "34515639"
+      },
+      "claim": {
+        "worker_id": "530aab578ebe4e7ab95539e9325207cd-shard-0",
+        "claimed_at": "2026-11-17T00:29:00.055173+00:00",
+        "lease_expires_at": "2026-11-17T06:29:00.055173+00:00",
+        "run_id": "43981967428"
       }
     },
     "25125": {
@@ -164744,7 +164750,7 @@
       "last_plan": {
         "source_id": "30739424",
         "display_name": "Prime Cut 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:28:56.429879+00:00"
+        "planned_at": "2026-11-17T00:28:59.526689+00:00"
       }
     },
     "15926": {
@@ -213369,5 +213375,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:28:56.911379+00:00"
+  "updated_at": "2026-11-17T00:29:00.694738+00:00"
 }
