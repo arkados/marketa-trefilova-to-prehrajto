@@ -115091,13 +115091,6 @@
           "source_id": "6506542",
           "target_video_id": "30984339",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:23:29.594047+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6506542",
-          "target_video_id": "30984339",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:38:35.439939+00:00"
         },
         {
@@ -115106,6 +115099,13 @@
           "target_video_id": "30984339",
           "permanent": false,
           "attempted_at": "2026-11-17T10:56:18.444684+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6506542",
+          "target_video_id": "30984339",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:13:07.655053+00:00"
         }
       ],
       "last_plan": {
@@ -130788,7 +130788,7 @@
       "last_plan": {
         "source_id": "34468790",
         "display_name": "A Hoof Here, a Hoof There (Kopytem sem, kopytem tam) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:56:17.250925+00:00"
+        "planned_at": "2026-11-17T12:13:06.497541+00:00"
       },
       "previous_target_id": "30986934",
       "prepared": {
@@ -130796,6 +130796,12 @@
         "size_bytes": 6800000000,
         "prepared_at": "2026-11-11T02:44:39.784842+00:00",
         "relay_source_id": "34468790"
+      },
+      "claim": {
+        "worker_id": "9ee044e04269408dbd9f27d5cbe1027c-shard-0",
+        "claimed_at": "2026-11-17T12:13:07.403786+00:00",
+        "lease_expires_at": "2026-11-17T18:13:07.403786+00:00",
+        "run_id": "44078950078"
       }
     },
     "2767": {
@@ -168115,7 +168121,7 @@
       "last_plan": {
         "source_id": "28716936",
         "display_name": "Little Odessa 720p CZ Dabing",
-        "planned_at": "2026-11-17T12:13:03.753064+00:00"
+        "planned_at": "2026-11-17T12:13:06.803358+00:00"
       }
     },
     "30352": {
@@ -216179,5 +216185,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:13:04.242549+00:00"
+  "updated_at": "2026-11-17T12:13:07.655071+00:00"
 }
