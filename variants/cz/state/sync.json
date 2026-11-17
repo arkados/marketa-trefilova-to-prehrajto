@@ -165113,17 +165113,19 @@
       "attempts": []
     },
     "13692": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34816741",
+          "target_video_id": "31106237",
+          "permanent": false,
+          "attempted_at": "2026-11-17T02:56:07.843800+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34816741",
         "display_name": "Barbie and the Magic of Pegasus 1080p CZ Dabing",
         "planned_at": "2026-11-17T02:52:01.958047+00:00"
-      },
-      "claim": {
-        "worker_id": "ac9f39afd4af480093b71fb4c8dcc92a-shard-0",
-        "claimed_at": "2026-11-17T02:52:04.955601+00:00",
-        "lease_expires_at": "2026-11-17T08:52:04.955601+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31106237",
       "prepared": {
@@ -213724,5 +213726,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T02:56:04.474144+00:00"
+  "updated_at": "2026-11-17T02:56:07.843822+00:00"
 }
