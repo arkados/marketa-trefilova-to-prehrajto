@@ -108891,13 +108891,6 @@
           "source_id": "33495197",
           "target_video_id": "30983589",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:39:38.004699+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33495197",
-          "target_video_id": "30983589",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:07:24.050778+00:00"
         },
         {
@@ -108906,12 +108899,19 @@
           "target_video_id": "30983589",
           "permanent": false,
           "attempted_at": "2026-11-17T10:24:24.017635+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33495197",
+          "target_video_id": "30983589",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:40:32.865489+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33495197",
         "display_name": "Nezralé maliny 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:24:19.993105+00:00"
+        "planned_at": "2026-11-17T11:40:30.126615+00:00"
       },
       "previous_target_id": "30983589",
       "prepared": {
@@ -118687,6 +118687,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "6e06d98ab84c42a09285b2f88096cfec-shard-0",
+        "claimed_at": "2026-11-17T11:40:29.868868+00:00",
+        "lease_expires_at": "2026-11-17T17:40:29.868868+00:00",
+        "run_id": "44013593637"
       }
     },
     "12374": {
@@ -167926,7 +167932,7 @@
       "last_plan": {
         "source_id": "27642554",
         "display_name": "The Magic Book (Kouzelný měšec) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:40:27.675151+00:00"
+        "planned_at": "2026-11-17T11:40:30.456125+00:00"
       }
     },
     "5997": {
@@ -216029,5 +216035,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:40:27.675168+00:00"
+  "updated_at": "2026-11-17T11:40:32.865506+00:00"
 }
