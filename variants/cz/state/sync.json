@@ -118235,7 +118235,7 @@
       "last_plan": {
         "source_id": "22310180",
         "display_name": "The Boxtrolls 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:22:00.847409+00:00"
+        "planned_at": "2026-11-17T22:00:29.259844+00:00"
       },
       "previous_target_id": "30984848",
       "prepared": {
@@ -118243,6 +118243,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T17:49:38.685015+00:00",
         "relay_source_id": "22310180"
+      },
+      "claim": {
+        "worker_id": "f145982d682c4503a4d6055679021f93-shard-0",
+        "claimed_at": "2026-11-17T22:00:30.306658+00:00",
+        "lease_expires_at": "2026-11-18T04:00:30.306658+00:00",
+        "run_id": "44170464010"
       }
     },
     "3112": {
@@ -171392,15 +171398,32 @@
       }
     },
     "15275": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30636163",
+          "reason": "Request failed for https://sdilej.cz/30636163/cesta-za-legendou-2024.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:00:31.579615+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30636163",
         "display_name": "Zak & Wowo: The Legend of Lendarys (Zak & Wowo, la légende de Lendarys) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:00:19.172127+00:00"
+        "planned_at": "2026-11-17T22:00:29.588699+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30636163",
+        "requested_at": "2026-11-17T22:00:31.579604+00:00"
       }
     },
     "27691": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29976237",
+        "display_name": "Die Verführung - Das fremde Mädchen (The Seduction - The Strange Girl) SD CZ Dabing",
+        "planned_at": "2026-11-17T22:00:29.783890+00:00"
+      }
     },
     "27964": {
       "attempts": []
@@ -218866,5 +218889,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:00:26.719856+00:00"
+  "updated_at": "2026-11-17T22:00:31.579619+00:00"
 }
