@@ -141007,13 +141007,6 @@
           "source_id": "33505803",
           "target_video_id": "30988160",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:31:38.502887+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33505803",
-          "target_video_id": "30988160",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:57:49.527196+00:00"
         },
         {
@@ -141022,12 +141015,19 @@
           "target_video_id": "30988160",
           "permanent": false,
           "attempted_at": "2026-11-17T08:29:45.762021+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33505803",
+          "target_video_id": "30988160",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:44:24.012019+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33505803",
         "display_name": "Kde alibi nestací (Where an Alibi Is Not Everything) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:29:39.858249+00:00"
+        "planned_at": "2026-11-17T09:44:21.653808+00:00"
       },
       "previous_target_id": "30988160",
       "prepared": {
@@ -167387,7 +167387,13 @@
       "last_plan": {
         "source_id": "33767282",
         "display_name": "White Nights 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:44:17.295283+00:00"
+        "planned_at": "2026-11-17T09:44:21.968914+00:00"
+      },
+      "claim": {
+        "worker_id": "90cd0f1f22a64636a547c877b03f7871-shard-0",
+        "claimed_at": "2026-11-17T09:44:22.886166+00:00",
+        "lease_expires_at": "2026-11-17T15:44:22.886166+00:00",
+        "run_id": "44013593637"
       }
     },
     "27845": {
@@ -167397,7 +167403,12 @@
       "attempts": []
     },
     "19206": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28932533",
+        "display_name": "Pure Devilry (Certoviny) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T09:44:22.163510+00:00"
+      }
     },
     "5923": {
       "attempts": []
@@ -215574,5 +215585,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:44:19.028316+00:00"
+  "updated_at": "2026-11-17T09:44:24.012037+00:00"
 }
