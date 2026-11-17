@@ -106417,6 +106417,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T12:08:41.122784+00:00",
         "relay_source_id": "30045237"
+      },
+      "claim": {
+        "worker_id": "23e504d8af684e23a870a0baf6cadd5c-shard-0",
+        "claimed_at": "2026-11-17T22:49:38.256268+00:00",
+        "lease_expires_at": "2026-11-18T04:49:38.256268+00:00",
+        "run_id": "44170464010"
       }
     },
     "22815": {
@@ -134860,7 +134866,7 @@
       "last_plan": {
         "source_id": "33494979",
         "display_name": "A Foolish Girl (Bláhové děvče) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:20:18.015139+00:00"
+        "planned_at": "2026-11-17T22:49:38.533280+00:00"
       },
       "previous_target_id": "30987504",
       "prepared": {
@@ -171581,17 +171587,19 @@
       "attempts": []
     },
     "22945": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33788028",
+          "target_video_id": "31131617",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:49:39.123676+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33788028",
         "display_name": "The Accidental Tourist 1080p CZ Dabing",
         "planned_at": "2026-11-17T22:40:15.936398+00:00"
-      },
-      "claim": {
-        "worker_id": "368ac43117ed4eb1aa9c6d8e241248b9-shard-0",
-        "claimed_at": "2026-11-17T22:40:18.857662+00:00",
-        "lease_expires_at": "2026-11-18T04:40:18.857662+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31131617",
       "prepared": {
@@ -171606,7 +171614,7 @@
       "last_plan": {
         "source_id": "33856169",
         "display_name": "Dirty Soul (Duše jako kaviár) 4K CZ Dabing",
-        "planned_at": "2026-11-17T22:49:35.821392+00:00"
+        "planned_at": "2026-11-17T22:49:38.852940+00:00"
       }
     },
     "3520": {
@@ -219040,5 +219048,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:49:35.821408+00:00"
+  "updated_at": "2026-11-17T22:49:39.123694+00:00"
 }
