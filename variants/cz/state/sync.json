@@ -165894,17 +165894,19 @@
       "attempts": []
     },
     "30401": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6052793",
+          "target_video_id": "31109295",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:51:22.881957+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6052793",
         "display_name": "Boychoir 1080p CZ Dabing",
         "planned_at": "2026-11-17T05:21:18.203202+00:00"
-      },
-      "claim": {
-        "worker_id": "990dfc606f7a41a38017269ea88bcd65-shard-0",
-        "claimed_at": "2026-11-17T05:21:21.398380+00:00",
-        "lease_expires_at": "2026-11-17T11:21:21.398380+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31109295",
       "prepared": {
@@ -214349,5 +214351,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:51:18.961137+00:00"
+  "updated_at": "2026-11-17T05:51:22.881981+00:00"
 }
