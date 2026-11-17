@@ -27453,13 +27453,6 @@
           "source_id": "33392596",
           "target_video_id": "30714569",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:58:35.026850+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33392596",
-          "target_video_id": "30714569",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:12:51.550536+00:00"
         },
         {
@@ -27468,6 +27461,13 @@
           "target_video_id": "30714569",
           "permanent": false,
           "attempted_at": "2026-11-17T21:48:56.299684+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33392596",
+          "target_video_id": "30714569",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:17:05.283047+00:00"
         }
       ],
       "last_plan": {
@@ -29025,7 +29025,7 @@
       "last_plan": {
         "source_id": "26168393",
         "display_name": "42 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:48:55.718341+00:00"
+        "planned_at": "2026-11-17T23:17:03.708455+00:00"
       },
       "previous_target_id": "30721201",
       "prepared": {
@@ -29033,6 +29033,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-02T07:43:34.032473+00:00",
         "relay_source_id": "26168393"
+      },
+      "claim": {
+        "worker_id": "a0b5eb63b2894534aa0f9b1902ccf246-shard-0",
+        "claimed_at": "2026-11-17T23:17:04.660199+00:00",
+        "lease_expires_at": "2026-11-18T05:17:04.660199+00:00",
+        "run_id": "44170464010"
       }
     },
     "23584": {
@@ -171819,6 +171825,12 @@
         "source_id": "34877541",
         "display_name": "Cinderella (Aschenputtel) (2010) 1080p CZ Dabing",
         "planned_at": "2026-11-17T23:16:59.069836+00:00"
+      },
+      "claim": {
+        "worker_id": "7071409c98874bacb05b41d71f5ae932-shard-0",
+        "claimed_at": "2026-11-17T23:17:02.004328+00:00",
+        "lease_expires_at": "2026-11-18T05:17:02.004328+00:00",
+        "run_id": "44170464010"
       }
     },
     "10729": {
@@ -171826,7 +171838,7 @@
       "last_plan": {
         "source_id": "31606856",
         "display_name": "The Wild One 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:16:59.274915+00:00"
+        "planned_at": "2026-11-17T23:17:04.089116+00:00"
       }
     },
     "12862": {
@@ -219230,5 +219242,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:16:59.536576+00:00"
+  "updated_at": "2026-11-17T23:17:05.283065+00:00"
 }
