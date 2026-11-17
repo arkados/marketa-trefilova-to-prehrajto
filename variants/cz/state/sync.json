@@ -108429,7 +108429,7 @@
       "last_plan": {
         "source_id": "34674550",
         "display_name": "Bony a klid 1080p CZ Dabing",
-        "planned_at": "2026-11-17T01:49:48.453471+00:00"
+        "planned_at": "2026-11-17T03:08:11.521390+00:00"
       },
       "previous_target_id": "30983537",
       "prepared": {
@@ -108437,6 +108437,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T14:16:22.451303+00:00",
         "relay_source_id": "34674550"
+      },
+      "claim": {
+        "worker_id": "a58cec0df23549c28701b50a5b12893f-shard-0",
+        "claimed_at": "2026-11-17T03:08:12.399411+00:00",
+        "lease_expires_at": "2026-11-17T09:08:12.399411+00:00",
+        "run_id": "43981967428"
       }
     },
     "1561": {
@@ -115376,6 +115382,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T16:46:31.416296+00:00",
         "relay_source_id": "29393947"
+      },
+      "claim": {
+        "worker_id": "847f2716069c4f228c16e228fb787f1d-shard-0",
+        "claimed_at": "2026-11-17T03:08:11.278413+00:00",
+        "lease_expires_at": "2026-11-17T09:08:11.278413+00:00",
+        "run_id": "43981967428"
       }
     },
     "13497": {
@@ -165165,17 +165177,19 @@
       "attempts": []
     },
     "14616": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33957800",
+          "target_video_id": "31106392",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:08:12.959365+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33957800",
         "display_name": "What Lucía Saw (Llegaron de noche) 1080p CZ Dabing",
         "planned_at": "2026-11-17T03:00:38.834053+00:00"
-      },
-      "claim": {
-        "worker_id": "56396ff7e4d742109a56708587e0ae1f-shard-0",
-        "claimed_at": "2026-11-17T03:00:39.913414+00:00",
-        "lease_expires_at": "2026-11-17T09:00:39.913414+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31106392",
       "prepared": {
@@ -165193,7 +165207,7 @@
       "last_plan": {
         "source_id": "34967355",
         "display_name": "Not a Thing 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:08:08.527667+00:00"
+        "planned_at": "2026-11-17T03:08:11.827748+00:00"
       }
     },
     "23532": {
@@ -213758,5 +213772,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:08:08.768371+00:00"
+  "updated_at": "2026-11-17T03:08:12.959384+00:00"
 }
