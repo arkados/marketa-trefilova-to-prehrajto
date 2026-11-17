@@ -22221,13 +22221,6 @@
           "source_id": "13368212",
           "target_video_id": "30984580",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:29:57.471725+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13368212",
-          "target_video_id": "30984580",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:00:05.113253+00:00"
         },
         {
@@ -22236,6 +22229,13 @@
           "target_video_id": "30984580",
           "permanent": false,
           "attempted_at": "2026-11-17T09:30:11.740579+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13368212",
+          "target_video_id": "30984580",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:00:24.278840+00:00"
         }
       ],
       "last_plan": {
@@ -22249,12 +22249,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T16:54:02.689081+00:00",
         "relay_source_id": "13368212"
-      },
-      "claim": {
-        "worker_id": "a5a2025f688c4823891b355099efe014-shard-0",
-        "claimed_at": "2026-11-17T10:00:17.840751+00:00",
-        "lease_expires_at": "2026-11-17T16:00:17.840751+00:00",
-        "run_id": "44013593637"
       }
     },
     "2294": {
@@ -22469,7 +22463,7 @@
       "last_plan": {
         "source_id": "34285530",
         "display_name": "Truth & Treason 4K CZ titulky",
-        "planned_at": "2026-11-17T09:30:16.632079+00:00"
+        "planned_at": "2026-11-17T10:00:21.953577+00:00"
       },
       "previous_target_id": "30986247",
       "prepared": {
@@ -22477,6 +22471,12 @@
         "size_bytes": 5800000000,
         "prepared_at": "2026-11-10T23:43:36.905558+00:00",
         "relay_source_id": "34285530"
+      },
+      "claim": {
+        "worker_id": "ced9faef73f34c4fab46a6a87f3f2c84-shard-0",
+        "claimed_at": "2026-11-17T10:00:22.330344+00:00",
+        "lease_expires_at": "2026-11-17T16:00:22.330344+00:00",
+        "run_id": "44013593637"
       }
     },
     "18655": {
@@ -22773,6 +22773,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T06:46:10.895941+00:00",
         "relay_source_id": "34014919"
+      },
+      "claim": {
+        "worker_id": "a32d367926644af4b1e33912b29d2fc6-shard-0",
+        "claimed_at": "2026-11-17T10:00:21.290854+00:00",
+        "lease_expires_at": "2026-11-17T16:00:21.290854+00:00",
+        "run_id": "44013593637"
       }
     },
     "14755": {
@@ -100744,5 +100750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:00:18.814291+00:00"
+  "updated_at": "2026-11-17T10:00:24.278859+00:00"
 }
