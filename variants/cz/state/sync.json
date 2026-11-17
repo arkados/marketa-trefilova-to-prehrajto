@@ -109496,7 +109496,7 @@
       "last_plan": {
         "source_id": "24370736",
         "display_name": "Na druhý pohled 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:42:03.045204+00:00"
+        "planned_at": "2026-11-17T05:08:01.589923+00:00"
       },
       "previous_target_id": "30983666",
       "prepared": {
@@ -109504,6 +109504,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T14:30:29.974007+00:00",
         "relay_source_id": "24370736"
+      },
+      "claim": {
+        "worker_id": "fe120b6b609a436c82b8760186463702-shard-0",
+        "claimed_at": "2026-11-17T05:08:02.813563+00:00",
+        "lease_expires_at": "2026-11-17T11:08:02.813563+00:00",
+        "run_id": "44012569640"
       }
     },
     "24062": {
@@ -165354,6 +165360,13 @@
           "target_video_id": "31107020",
           "permanent": false,
           "attempted_at": "2026-11-17T03:42:04.086371+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22128615",
+          "target_video_id": "31107020",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:08:03.281009+00:00"
         }
       ],
       "last_plan": {
@@ -165364,7 +165377,7 @@
       "previous_target_id": "31107020",
       "prepared": {
         "target_video_id": "31107020",
-        "size_bytes": 2235266644,
+        "size_bytes": 2200000000,
         "prepared_at": "2026-11-17T03:32:57.266221+00:00",
         "relay_source_id": "22128615"
       }
@@ -165764,7 +165777,7 @@
       "last_plan": {
         "source_id": "32379690",
         "display_name": "Every You Every Me (Alle die Du bist) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:07:58.475012+00:00"
+        "planned_at": "2026-11-17T05:08:01.958513+00:00"
       }
     },
     "13884": {
@@ -214212,5 +214225,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:07:58.789175+00:00"
+  "updated_at": "2026-11-17T05:08:03.281028+00:00"
 }
