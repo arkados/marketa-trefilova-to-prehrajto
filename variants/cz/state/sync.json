@@ -119828,13 +119828,6 @@
           "source_id": "24662573",
           "target_video_id": "30984966",
           "permanent": false,
-          "attempted_at": "2026-11-17T11:16:22.573169+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24662573",
-          "target_video_id": "30984966",
-          "permanent": false,
           "attempted_at": "2026-11-17T12:30:16.820722+00:00"
         },
         {
@@ -119843,6 +119836,13 @@
           "target_video_id": "30984966",
           "permanent": false,
           "attempted_at": "2026-11-17T13:46:59.772901+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24662573",
+          "target_video_id": "30984966",
+          "permanent": false,
+          "attempted_at": "2026-11-17T15:06:34.536997+00:00"
         }
       ],
       "last_plan": {
@@ -168932,17 +168932,23 @@
           "attempted_at": "2026-11-17T13:47:02.063841+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "10600818",
-        "display_name": "Backstage (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:42:17.022629+00:00"
-      },
       "previous_target_id": "31119432",
-      "prepared": {
+      "upload": {
         "target_video_id": "31119432",
-        "size_bytes": 2251864507,
-        "prepared_at": "2026-11-17T13:42:24.968956+00:00",
-        "relay_source_id": "10600818"
+        "display_name": "Backstage (2018) 1080p CZ Dabing",
+        "source_id": "10600818",
+        "source_url": "https://sdilej.cz/10600818/backstage-2018-cz-dab.mkv",
+        "source_filename": "Backstage (2018) CZ DAB.mkv",
+        "size_bytes": 2300000000,
+        "width": 1916,
+        "height": 800,
+        "audio_language": "cs",
+        "language_probability": 0.983895480632782,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/backstage-2018-1080p-cz-dabing-mkv/aef756257b2d444e",
+        "uploaded_at": "2026-11-17T15:06:34.767957+00:00"
       }
     },
     "21689": {
@@ -169254,7 +169260,7 @@
       "last_plan": {
         "source_id": "31556533",
         "display_name": "Rebel in the Rye 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:06:29.531924+00:00"
+        "planned_at": "2026-11-17T15:06:32.797205+00:00"
       }
     },
     "11829": {
@@ -217129,5 +217135,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T15:06:29.868971+00:00"
+  "updated_at": "2026-11-17T15:06:34.767975+00:00"
 }
