@@ -142230,13 +142230,6 @@
           "source_id": "23685410",
           "target_video_id": "30988442",
           "permanent": false,
-          "attempted_at": "2026-11-17T06:34:01.932013+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23685410",
-          "target_video_id": "30988442",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:11:36.448774+00:00"
         },
         {
@@ -142245,12 +142238,19 @@
           "target_video_id": "30988442",
           "permanent": false,
           "attempted_at": "2026-11-17T09:23:59.981273+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23685410",
+          "target_video_id": "30988442",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:42:46.912266+00:00"
         }
       ],
       "last_plan": {
         "source_id": "23685410",
         "display_name": "Prípad dvou básníku (Případ dvou básníků) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:23:55.642623+00:00"
+        "planned_at": "2026-11-17T10:42:44.230876+00:00"
       },
       "previous_target_id": "30988442",
       "prepared": {
@@ -167669,11 +167669,22 @@
       "last_plan": {
         "source_id": "34195064",
         "display_name": "Sea Sparkle (Zeevonk) 720p CZ Dabing",
-        "planned_at": "2026-11-17T10:42:38.894435+00:00"
+        "planned_at": "2026-11-17T10:42:44.664518+00:00"
+      },
+      "claim": {
+        "worker_id": "7fb678eb2f6e47989b20c59ba0893b09-shard-0",
+        "claimed_at": "2026-11-17T10:42:45.592451+00:00",
+        "lease_expires_at": "2026-11-17T16:42:45.592451+00:00",
+        "run_id": "44013593637"
       }
     },
     "24056": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34594557",
+        "display_name": "Excellent Cadavers 1080p CZ Dabing",
+        "planned_at": "2026-11-17T10:42:44.870320+00:00"
+      }
     },
     "3391": {
       "attempts": []
@@ -215814,5 +215825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:42:41.462476+00:00"
+  "updated_at": "2026-11-17T10:42:46.912284+00:00"
 }
