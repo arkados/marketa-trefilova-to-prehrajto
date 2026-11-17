@@ -114703,6 +114703,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:35:54.736912+00:00",
         "relay_source_id": "28048905"
+      },
+      "claim": {
+        "worker_id": "3dc7c3222e994d46b1e219737bdfdf5f-shard-0",
+        "claimed_at": "2026-11-17T00:24:33.123387+00:00",
+        "lease_expires_at": "2026-11-17T06:24:33.123387+00:00",
+        "run_id": "43981967428"
       }
     },
     "2903": {
@@ -123623,13 +123629,6 @@
           "source_id": "34674170",
           "target_video_id": "30985583",
           "permanent": false,
-          "attempted_at": "2026-11-16T16:16:54.018710+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34674170",
-          "target_video_id": "30985583",
-          "permanent": false,
           "attempted_at": "2026-11-16T20:31:36.676646+00:00"
         },
         {
@@ -123638,6 +123637,13 @@
           "target_video_id": "30985583",
           "permanent": false,
           "attempted_at": "2026-11-16T22:02:32.419186+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34674170",
+          "target_video_id": "30985583",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:24:33.915911+00:00"
         }
       ],
       "last_plan": {
@@ -123651,12 +123657,6 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-10T20:31:18.399994+00:00",
         "relay_source_id": "34674170"
-      },
-      "claim": {
-        "worker_id": "f121d4df99ad4476bd2a34033f2d27bb-shard-0",
-        "claimed_at": "2026-11-17T00:24:29.877135+00:00",
-        "lease_expires_at": "2026-11-17T06:24:29.877135+00:00",
-        "run_id": "43981967428"
       }
     },
     "24105": {
@@ -141398,7 +141398,7 @@
       "last_plan": {
         "source_id": "29201504",
         "display_name": "Průlom SD CZ Dabing",
-        "planned_at": "2026-11-16T22:02:35.346884+00:00"
+        "planned_at": "2026-11-17T00:24:33.347754+00:00"
       },
       "previous_target_id": "30988227",
       "prepared": {
@@ -164729,7 +164729,7 @@
       "last_plan": {
         "source_id": "30643097",
         "display_name": "Amerika SD CZ Dabing",
-        "planned_at": "2026-11-17T00:24:30.402261+00:00"
+        "planned_at": "2026-11-17T00:24:33.645814+00:00"
       }
     },
     "11089": {
@@ -213357,5 +213357,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:24:30.644055+00:00"
+  "updated_at": "2026-11-17T00:24:33.915931+00:00"
 }
