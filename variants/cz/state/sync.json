@@ -165316,17 +165316,19 @@
       "attempts": []
     },
     "22105": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34722802",
+          "target_video_id": "31107209",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:46:30.310118+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34722802",
         "display_name": "Junior Bonner 720p CZ Dabing",
         "planned_at": "2026-11-17T03:42:09.047581+00:00"
-      },
-      "claim": {
-        "worker_id": "64b85a3d02504a5d92b8103873d9031e-shard-0",
-        "claimed_at": "2026-11-17T03:42:11.989908+00:00",
-        "lease_expires_at": "2026-11-17T09:42:11.989908+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31107209",
       "prepared": {
@@ -213876,5 +213878,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:46:12.323135+00:00"
+  "updated_at": "2026-11-17T03:46:30.310136+00:00"
 }
