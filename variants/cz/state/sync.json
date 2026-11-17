@@ -115091,13 +115091,6 @@
           "source_id": "6506542",
           "target_video_id": "30984339",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:13:07.655053+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6506542",
-          "target_video_id": "30984339",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:26:31.488004+00:00"
         },
         {
@@ -115106,6 +115099,13 @@
           "target_video_id": "30984339",
           "permanent": false,
           "attempted_at": "2026-11-17T14:45:45.846512+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6506542",
+          "target_video_id": "30984339",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:26:30.909782+00:00"
         }
       ],
       "last_plan": {
@@ -130788,7 +130788,7 @@
       "last_plan": {
         "source_id": "34468790",
         "display_name": "A Hoof Here, a Hoof There (Kopytem sem, kopytem tam) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:45:44.524742+00:00"
+        "planned_at": "2026-11-17T16:26:29.394406+00:00"
       },
       "previous_target_id": "30986934",
       "prepared": {
@@ -130796,6 +130796,12 @@
         "size_bytes": 6800000000,
         "prepared_at": "2026-11-11T02:44:39.784842+00:00",
         "relay_source_id": "34468790"
+      },
+      "claim": {
+        "worker_id": "473fb766caec4b45a4bc12373fe6ec8c-shard-0",
+        "claimed_at": "2026-11-17T16:26:30.072776+00:00",
+        "lease_expires_at": "2026-11-17T22:26:30.072776+00:00",
+        "run_id": "44093224298"
       }
     },
     "2767": {
@@ -169435,7 +169441,7 @@
       "last_plan": {
         "source_id": "34453131",
         "display_name": "Seems Like Old Times 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:26:26.860981+00:00"
+        "planned_at": "2026-11-17T16:26:29.644329+00:00"
       }
     },
     "29915": {
@@ -217285,5 +217291,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:26:26.861003+00:00"
+  "updated_at": "2026-11-17T16:26:30.909802+00:00"
 }
