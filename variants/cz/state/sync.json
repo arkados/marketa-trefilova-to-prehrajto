@@ -130534,13 +130534,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-17T17:21:05.515149+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-17T18:35:59.866555+00:00"
         },
         {
@@ -130549,6 +130542,13 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-17T19:50:34.167663+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:22:09.413227+00:00"
         }
       ],
       "last_plan": {
@@ -140306,7 +140306,7 @@
       "last_plan": {
         "source_id": "34864473",
         "display_name": "Corpus Delicti 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:50:37.183611+00:00"
+        "planned_at": "2026-11-17T21:22:08.051854+00:00"
       },
       "previous_target_id": "30988077",
       "prepared": {
@@ -140314,6 +140314,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-11T07:27:44.810508+00:00",
         "relay_source_id": "34864473"
+      },
+      "claim": {
+        "worker_id": "71ba0439e596454da6bf0ac3ff5404fd-shard-0",
+        "claimed_at": "2026-11-17T21:22:09.116425+00:00",
+        "lease_expires_at": "2026-11-18T03:22:09.116425+00:00",
+        "run_id": "44170464010"
       }
     },
     "24211": {
@@ -171139,7 +171145,7 @@
       "last_plan": {
         "source_id": "34700306",
         "display_name": "The Last Supper 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:22:05.137441+00:00"
+        "planned_at": "2026-11-17T21:22:08.446764+00:00"
       }
     },
     "17376": {
@@ -218654,5 +218660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:22:05.577739+00:00"
+  "updated_at": "2026-11-17T21:22:09.413245+00:00"
 }
