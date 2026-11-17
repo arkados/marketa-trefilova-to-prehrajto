@@ -39066,7 +39066,7 @@
       "last_plan": {
         "source_id": "34784954",
         "display_name": "The Taste of Things 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:52:50.249311+00:00"
+        "planned_at": "2026-11-17T16:32:50.844223+00:00"
       },
       "previous_target_id": "30745770",
       "prepared": {
@@ -110231,13 +110231,6 @@
           "source_id": "29985485",
           "target_video_id": "30983701",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:19:29.043171+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29985485",
-          "target_video_id": "30983701",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:36:32.070658+00:00"
         },
         {
@@ -110246,6 +110239,13 @@
           "target_video_id": "30983701",
           "permanent": false,
           "attempted_at": "2026-11-17T14:52:50.963131+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29985485",
+          "target_video_id": "30983701",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:32:51.033140+00:00"
         }
       ],
       "last_plan": {
@@ -169466,17 +169466,19 @@
       }
     },
     "29915": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33746519",
+          "target_video_id": "31122819",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:32:51.339733+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33746519",
         "display_name": "La Boum (The Party) 1080p CZ Dabing",
         "planned_at": "2026-11-17T16:27:04.880554+00:00"
-      },
-      "claim": {
-        "worker_id": "f5d68777e9304e8c8b790097461eb837-shard-0",
-        "claimed_at": "2026-11-17T16:27:07.779254+00:00",
-        "lease_expires_at": "2026-11-17T22:27:07.779254+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31122819",
       "prepared": {
@@ -217330,5 +217332,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:32:46.468835+00:00"
+  "updated_at": "2026-11-17T16:32:51.339762+00:00"
 }
