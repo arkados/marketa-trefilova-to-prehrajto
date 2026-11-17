@@ -168827,17 +168827,19 @@
       }
     },
     "21689": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34700022",
+          "target_video_id": "31119536",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:50:32.199561+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34700022",
         "display_name": "Donovan's Reef SD CZ Dabing",
         "planned_at": "2026-11-17T13:47:27.798146+00:00"
-      },
-      "claim": {
-        "worker_id": "a8b8773d764e48bb868a32d14e3d7ff7-shard-0",
-        "claimed_at": "2026-11-17T13:47:30.794760+00:00",
-        "lease_expires_at": "2026-11-17T19:47:30.794760+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31119536",
       "prepared": {
@@ -216793,5 +216795,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:50:29.937190+00:00"
+  "updated_at": "2026-11-17T13:50:32.199578+00:00"
 }
