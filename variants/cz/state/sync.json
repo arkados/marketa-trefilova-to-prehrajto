@@ -169169,17 +169169,19 @@
       }
     },
     "24226": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30617961",
+          "target_video_id": "31121061",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:56:59.601749+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30617961",
         "display_name": "Hroch SD CZ Dabing",
         "planned_at": "2026-11-17T14:55:26.710513+00:00"
-      },
-      "claim": {
-        "worker_id": "41641d8ea6a942fcb8ec6eaf908bab81-shard-0",
-        "claimed_at": "2026-11-17T14:55:27.728235+00:00",
-        "lease_expires_at": "2026-11-17T20:55:27.728235+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31121061",
       "prepared": {
@@ -217081,5 +217083,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:56:54.668017+00:00"
+  "updated_at": "2026-11-17T14:56:59.601770+00:00"
 }
