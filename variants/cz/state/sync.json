@@ -133086,13 +133086,6 @@
           "source_id": "31712414",
           "target_video_id": "30987222",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:39:25.998436+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31712414",
-          "target_video_id": "30987222",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:51:36.240916+00:00"
         },
         {
@@ -133101,6 +133094,13 @@
           "target_video_id": "30987222",
           "permanent": false,
           "attempted_at": "2026-11-17T19:06:31.203592+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31712414",
+          "target_video_id": "30987222",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:20:47.458691+00:00"
         }
       ],
       "last_plan": {
@@ -143112,7 +143112,7 @@
       "last_plan": {
         "source_id": "32111003",
         "display_name": "Alemania 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:06:30.805932+00:00"
+        "planned_at": "2026-11-17T20:20:46.215134+00:00"
       },
       "previous_target_id": "30988596",
       "prepared": {
@@ -143120,6 +143120,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T08:51:15.384448+00:00",
         "relay_source_id": "32111003"
+      },
+      "claim": {
+        "worker_id": "6d95a99c172442ed9d234bd895594e81-shard-0",
+        "claimed_at": "2026-11-17T20:20:46.883232+00:00",
+        "lease_expires_at": "2026-11-18T02:20:46.883232+00:00",
+        "run_id": "44093224298"
       }
     },
     "35611": {
@@ -170851,7 +170857,7 @@
       "last_plan": {
         "source_id": "28996454",
         "display_name": "Bloody Johann (Krvavý Johann) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:20:41.505588+00:00"
+        "planned_at": "2026-11-17T20:20:46.442665+00:00"
       }
     },
     "32159": {
@@ -218429,5 +218435,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:20:43.982731+00:00"
+  "updated_at": "2026-11-17T20:20:47.458714+00:00"
 }
