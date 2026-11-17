@@ -128290,13 +128290,6 @@
           "source_id": "33885910",
           "target_video_id": "30986630",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:23:26.218967+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33885910",
-          "target_video_id": "30986630",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:43:04.094071+00:00"
         },
         {
@@ -128305,6 +128298,13 @@
           "target_video_id": "30986630",
           "permanent": false,
           "attempted_at": "2026-11-17T17:16:59.768427+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33885910",
+          "target_video_id": "30986630",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:31:41.418001+00:00"
         }
       ],
       "last_plan": {
@@ -142065,7 +142065,7 @@
       "last_plan": {
         "source_id": "27874374",
         "display_name": "Together (Spolu) (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:16:59.220413+00:00"
+        "planned_at": "2026-11-17T18:31:39.605245+00:00"
       },
       "previous_target_id": "30988406",
       "prepared": {
@@ -142073,6 +142073,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T08:20:53.674997+00:00",
         "relay_source_id": "27874374"
+      },
+      "claim": {
+        "worker_id": "e585157d58534e3c9e48e5497e93f47a-shard-0",
+        "claimed_at": "2026-11-17T18:31:40.625543+00:00",
+        "lease_expires_at": "2026-11-18T00:31:40.625543+00:00",
+        "run_id": "44093224298"
       }
     },
     "33115": {
@@ -170211,7 +170217,13 @@
       "last_plan": {
         "source_id": "34468543",
         "display_name": "Heartless (Sem Coração) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:31:36.805054+00:00"
+        "planned_at": "2026-11-17T18:31:39.836390+00:00"
+      },
+      "claim": {
+        "worker_id": "93547a9ffad34c20a934be81f9da0316-shard-0",
+        "claimed_at": "2026-11-17T18:31:40.814511+00:00",
+        "lease_expires_at": "2026-11-18T00:31:40.814511+00:00",
+        "run_id": "44093224298"
       }
     },
     "16787": {
@@ -170219,7 +170231,7 @@
       "last_plan": {
         "source_id": "8819850",
         "display_name": "Mum's List SD CZ Dabing",
-        "planned_at": "2026-11-17T18:25:11.122977+00:00"
+        "planned_at": "2026-11-17T18:31:39.976448+00:00"
       }
     },
     "3571": {
@@ -217908,5 +217920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:31:36.982082+00:00"
+  "updated_at": "2026-11-17T18:31:41.418016+00:00"
 }
