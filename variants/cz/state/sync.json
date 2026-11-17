@@ -168733,17 +168733,19 @@
       }
     },
     "22921": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30832465",
+          "target_video_id": "31119196",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:30:28.270160+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30832465",
         "display_name": "Ironweed 1080p CZ Dabing",
         "planned_at": "2026-11-17T13:22:50.857946+00:00"
-      },
-      "claim": {
-        "worker_id": "19a82c189b2e43ecb2f60d9950d3d8d6-shard-0",
-        "claimed_at": "2026-11-17T13:22:51.905331+00:00",
-        "lease_expires_at": "2026-11-17T19:22:51.905331+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31119196",
       "prepared": {
@@ -216726,5 +216728,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:30:24.761115+00:00"
+  "updated_at": "2026-11-17T13:30:28.270174+00:00"
 }
