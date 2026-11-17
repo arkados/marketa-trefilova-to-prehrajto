@@ -1058,13 +1058,6 @@
           "source_id": "31918348",
           "target_video_id": "30578228",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:52:39.459541+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31918348",
-          "target_video_id": "30578228",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:10:32.726024+00:00"
         },
         {
@@ -1073,6 +1066,13 @@
           "target_video_id": "30578228",
           "permanent": false,
           "attempted_at": "2026-11-17T21:46:04.068136+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31918348",
+          "target_video_id": "30578228",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:13:57.295020+00:00"
         }
       ],
       "last_plan": {
@@ -132912,7 +132912,7 @@
       "last_plan": {
         "source_id": "26568103",
         "display_name": "Záku Kasíku, nezen se! (Žáku Kašíku, nežeň se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:46:02.602418+00:00"
+        "planned_at": "2026-11-17T23:13:54.908835+00:00"
       },
       "previous_target_id": "30987180",
       "prepared": {
@@ -132920,6 +132920,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T03:52:43.832583+00:00",
         "relay_source_id": "26568103"
+      },
+      "claim": {
+        "worker_id": "aa3751a6efa041cda6283ea2538f1543-shard-0",
+        "claimed_at": "2026-11-17T23:13:55.924698+00:00",
+        "lease_expires_at": "2026-11-18T05:13:55.924698+00:00",
+        "run_id": "44170464010"
       }
     },
     "32524": {
@@ -171810,7 +171816,7 @@
       "last_plan": {
         "source_id": "34877541",
         "display_name": "Cinderella (Aschenputtel) (2010) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:13:52.135652+00:00"
+        "planned_at": "2026-11-17T23:13:55.325106+00:00"
       }
     },
     "10729": {
@@ -219217,5 +219223,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:13:52.135668+00:00"
+  "updated_at": "2026-11-17T23:13:57.295036+00:00"
 }
