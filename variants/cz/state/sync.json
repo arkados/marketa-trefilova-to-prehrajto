@@ -166985,17 +166985,19 @@
       "attempts": []
     },
     "25717": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21449222",
+          "target_video_id": "31114285",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:53:19.116011+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21449222",
         "display_name": "The Last Armoured Train (The Last Armored Train) SD CZ Dabing",
         "planned_at": "2026-11-17T08:51:26.301134+00:00"
-      },
-      "claim": {
-        "worker_id": "e10bda01d67948b7802885e0adaef5ac-shard-0",
-        "claimed_at": "2026-11-17T08:51:29.144483+00:00",
-        "lease_expires_at": "2026-11-17T14:51:29.144483+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31114285",
       "prepared": {
@@ -215251,5 +215253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:53:16.864551+00:00"
+  "updated_at": "2026-11-17T08:53:19.116026+00:00"
 }
