@@ -132986,7 +132986,7 @@
       "last_plan": {
         "source_id": "30251989",
         "display_name": "Order (Řád) SD CZ Dabing",
-        "planned_at": "2026-11-17T04:07:59.620328+00:00"
+        "planned_at": "2026-11-17T05:32:42.146614+00:00"
       },
       "previous_target_id": "30987208",
       "prepared": {
@@ -132994,6 +132994,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T03:56:55.465680+00:00",
         "relay_source_id": "30251989"
+      },
+      "claim": {
+        "worker_id": "c1e7b18e6b434685988e08eedc9fa689-shard-0",
+        "claimed_at": "2026-11-17T05:32:43.403678+00:00",
+        "lease_expires_at": "2026-11-17T11:32:43.403678+00:00",
+        "run_id": "44012569640"
       }
     },
     "31944": {
@@ -137195,13 +137201,6 @@
           "source_id": "33063567",
           "target_video_id": "30987763",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:28:53.474831+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33063567",
-          "target_video_id": "30987763",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:46:42.480304+00:00"
         },
         {
@@ -137210,6 +137209,13 @@
           "target_video_id": "30987763",
           "permanent": false,
           "attempted_at": "2026-11-17T04:07:55.902952+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33063567",
+          "target_video_id": "30987763",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:32:43.721512+00:00"
         }
       ],
       "last_plan": {
@@ -165870,7 +165876,7 @@
       "last_plan": {
         "source_id": "25673608",
         "display_name": "Lockdown (2021) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:32:37.640294+00:00"
+        "planned_at": "2026-11-17T05:32:42.532962+00:00"
       }
     },
     "4091": {
@@ -214300,5 +214306,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:32:37.959171+00:00"
+  "updated_at": "2026-11-17T05:32:43.721528+00:00"
 }
