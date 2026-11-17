@@ -169034,17 +169034,19 @@
       }
     },
     "23234": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28665296",
+          "target_video_id": "31120491",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:31:32.725790+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28665296",
         "display_name": "Rush (1991) SD CZ Dabing",
         "planned_at": "2026-11-17T14:29:21.259585+00:00"
-      },
-      "claim": {
-        "worker_id": "9122304da9634d97937395cc10b6a043-shard-0",
-        "claimed_at": "2026-11-17T14:29:24.109798+00:00",
-        "lease_expires_at": "2026-11-17T20:29:24.109798+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31120491",
       "prepared": {
@@ -216973,5 +216975,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:31:29.194486+00:00"
+  "updated_at": "2026-11-17T14:31:32.725807+00:00"
 }
