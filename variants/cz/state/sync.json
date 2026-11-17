@@ -116749,13 +116749,6 @@
           "source_id": "34190531",
           "target_video_id": "30984720",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:41:38.668283+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34190531",
-          "target_video_id": "30984720",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:57:09.783284+00:00"
         },
         {
@@ -116764,6 +116757,13 @@
           "target_video_id": "30984720",
           "permanent": false,
           "attempted_at": "2026-11-17T15:17:33.631549+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34190531",
+          "target_video_id": "30984720",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:55:12.713741+00:00"
         }
       ],
       "last_plan": {
@@ -116777,12 +116777,6 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:23:59.006056+00:00",
         "relay_source_id": "34190531"
-      },
-      "claim": {
-        "worker_id": "b41ace34a32c41c7ab18a3c6e01bbb79-shard-0",
-        "claimed_at": "2026-11-17T16:55:09.800336+00:00",
-        "lease_expires_at": "2026-11-17T22:55:09.800336+00:00",
-        "run_id": "44093224298"
       }
     },
     "2923": {
@@ -169640,17 +169634,19 @@
       "attempts": []
     },
     "5035": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17954858",
+          "target_video_id": "31123153",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:55:12.855926+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17954858",
         "display_name": "Talvez uma História de Amor 1080p CZ Dabing",
         "planned_at": "2026-11-17T16:50:20.385239+00:00"
-      },
-      "claim": {
-        "worker_id": "1131fde70f474b56950c7ef5cb5ef26c-shard-0",
-        "claimed_at": "2026-11-17T16:50:23.255279+00:00",
-        "lease_expires_at": "2026-11-17T22:50:23.255279+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31123153",
       "prepared": {
@@ -217462,5 +217458,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:55:10.733371+00:00"
+  "updated_at": "2026-11-17T16:55:12.855947+00:00"
 }
