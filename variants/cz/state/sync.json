@@ -130014,6 +130014,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T02:23:40.824707+00:00",
         "relay_source_id": "30992102"
+      },
+      "claim": {
+        "worker_id": "d60046b199a647d19184e914d3eec34f-shard-0",
+        "claimed_at": "2026-11-17T12:42:19.851954+00:00",
+        "lease_expires_at": "2026-11-17T18:42:19.851954+00:00",
+        "run_id": "44078950078"
       }
     },
     "35345": {
@@ -141639,13 +141645,6 @@
           "source_id": "35428804",
           "target_video_id": "30988277",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:52:58.765294+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35428804",
-          "target_video_id": "30988277",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:11:31.147307+00:00"
         },
         {
@@ -141654,6 +141653,13 @@
           "target_video_id": "30988277",
           "permanent": false,
           "attempted_at": "2026-11-17T11:26:26.406028+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35428804",
+          "target_video_id": "30988277",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:42:19.654819+00:00"
         }
       ],
       "last_plan": {
@@ -141667,12 +141673,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T08:02:57.465974+00:00",
         "relay_source_id": "35428804"
-      },
-      "claim": {
-        "worker_id": "01aafd0978424eeea2eed89c03611ffd-shard-0",
-        "claimed_at": "2026-11-17T12:42:16.716231+00:00",
-        "lease_expires_at": "2026-11-17T18:42:16.716231+00:00",
-        "run_id": "44078950078"
       }
     },
     "16152": {
@@ -143641,7 +143641,7 @@
       "last_plan": {
         "source_id": "30818266",
         "display_name": "Operation Bororo (Akce Bororo) SD CZ Dabing",
-        "planned_at": "2026-11-17T11:26:29.194546+00:00"
+        "planned_at": "2026-11-17T12:42:20.144841+00:00"
       },
       "previous_target_id": "30988649",
       "prepared": {
@@ -168247,7 +168247,7 @@
       "last_plan": {
         "source_id": "30433852",
         "display_name": "Old Men in New Cars (Old Men in New Cars: In China They Eat Dogs II) SD CZ Dabing",
-        "planned_at": "2026-11-17T12:42:17.256868+00:00"
+        "planned_at": "2026-11-17T12:42:20.449654+00:00"
       }
     },
     "16975": {
@@ -216293,5 +216293,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:42:17.256884+00:00"
+  "updated_at": "2026-11-17T12:42:20.449669+00:00"
 }
