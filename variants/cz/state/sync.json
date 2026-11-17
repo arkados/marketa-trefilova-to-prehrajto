@@ -127126,13 +127126,6 @@
           "source_id": "14900937",
           "target_video_id": "30986320",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:55:09.651442+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14900937",
-          "target_video_id": "30986320",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:31:31.378542+00:00"
         },
         {
@@ -127141,6 +127134,13 @@
           "target_video_id": "30986320",
           "permanent": false,
           "attempted_at": "2026-11-17T18:44:09.892400+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14900937",
+          "target_video_id": "30986320",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:01:00.634632+00:00"
         }
       ],
       "last_plan": {
@@ -170400,17 +170400,23 @@
           "attempted_at": "2026-11-17T18:44:11.833377+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "33689662",
-        "display_name": "Intacto 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:40:01.121504+00:00"
-      },
       "previous_target_id": "31124701",
-      "prepared": {
+      "upload": {
         "target_video_id": "31124701",
-        "size_bytes": 2495163316,
-        "prepared_at": "2026-11-17T18:40:07.792786+00:00",
-        "relay_source_id": "33689662"
+        "display_name": "Intacto 1080p CZ Dabing",
+        "source_id": "33689662",
+        "source_url": "https://sdilej.cz/33689662/intacto-2001-1080p-cz.mp4",
+        "source_filename": "Intacto (2001) 1080p, cz.mp4",
+        "size_bytes": 2500000000,
+        "width": 1920,
+        "height": 760,
+        "audio_language": "cs",
+        "language_probability": 0.9956055283546448,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/intacto-1080p-cz-dabing-mp4/d3019a85f2c987b2",
+        "uploaded_at": "2026-11-17T20:01:00.797300+00:00"
       }
     },
     "10722": {
@@ -170715,7 +170721,7 @@
       "last_plan": {
         "source_id": "33712153",
         "display_name": "Svatba upírů 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:00:56.767646+00:00"
+        "planned_at": "2026-11-17T20:00:59.488995+00:00"
       }
     },
     "21897": {
@@ -218311,5 +218317,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:00:56.943615+00:00"
+  "updated_at": "2026-11-17T20:01:00.797319+00:00"
 }
