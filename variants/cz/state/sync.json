@@ -110323,13 +110323,6 @@
           "source_id": "35139243",
           "target_video_id": "30983706",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:20:28.792107+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35139243",
-          "target_video_id": "30983706",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:37:28.492522+00:00"
         },
         {
@@ -110338,6 +110331,13 @@
           "target_video_id": "30983706",
           "permanent": false,
           "attempted_at": "2026-11-17T14:53:57.893611+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35139243",
+          "target_video_id": "30983706",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:33:58.568054+00:00"
         }
       ],
       "last_plan": {
@@ -144192,7 +144192,7 @@
       "last_plan": {
         "source_id": "30864267",
         "display_name": "Srdečný pozdrav ze zeměkoule 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:53:56.491713+00:00"
+        "planned_at": "2026-11-17T16:33:57.457371+00:00"
       },
       "previous_target_id": "30988779",
       "prepared": {
@@ -144200,6 +144200,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T09:56:19.579893+00:00",
         "relay_source_id": "30864267"
+      },
+      "claim": {
+        "worker_id": "8d8e95e5450642a28d53af9d4b5b3104-shard-0",
+        "claimed_at": "2026-11-17T16:33:58.255994+00:00",
+        "lease_expires_at": "2026-11-17T22:33:58.255994+00:00",
+        "run_id": "44093224298"
       }
     },
     "32807": {
@@ -169514,7 +169520,7 @@
       "last_plan": {
         "source_id": "33611926",
         "display_name": "A movie of eggs (Una película de huevos) SD CZ Dabing",
-        "planned_at": "2026-11-17T16:33:54.694349+00:00"
+        "planned_at": "2026-11-17T16:33:57.713058+00:00"
       }
     },
     "20009": {
@@ -217350,5 +217356,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:33:54.916219+00:00"
+  "updated_at": "2026-11-17T16:33:58.568078+00:00"
 }
