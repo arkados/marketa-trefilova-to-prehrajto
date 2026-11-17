@@ -166582,17 +166582,19 @@
       }
     },
     "3167": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34529040",
+          "target_video_id": "31113144",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:03:18.551731+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34529040",
         "display_name": "Crime Story (ZhongAnZu) 1080p CZ Dabing",
         "planned_at": "2026-11-17T07:59:09.192061+00:00"
-      },
-      "claim": {
-        "worker_id": "e641b5a6da8244799be19fef44656b8c-shard-0",
-        "claimed_at": "2026-11-17T07:59:10.272939+00:00",
-        "lease_expires_at": "2026-11-17T13:59:10.272939+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31113144",
       "prepared": {
@@ -214928,5 +214930,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:03:16.670255+00:00"
+  "updated_at": "2026-11-17T08:03:18.551748+00:00"
 }
