@@ -136563,7 +136563,7 @@
       "last_plan": {
         "source_id": "34676679",
         "display_name": "Stop SD CZ Dabing",
-        "planned_at": "2026-11-16T22:46:38.574338+00:00"
+        "planned_at": "2026-11-17T00:59:25.582977+00:00"
       },
       "previous_target_id": "30987696",
       "prepared": {
@@ -136571,6 +136571,12 @@
         "size_bytes": 775400000,
         "prepared_at": "2026-11-11T05:42:13.668373+00:00",
         "relay_source_id": "34676679"
+      },
+      "claim": {
+        "worker_id": "8477542b8c254cc4b24ff186dd23f367-shard-0",
+        "claimed_at": "2026-11-17T00:59:26.676436+00:00",
+        "lease_expires_at": "2026-11-17T06:59:26.676436+00:00",
+        "run_id": "43981967428"
       }
     },
     "36736": {
@@ -164567,17 +164573,23 @@
           "attempted_at": "2026-11-16T22:46:43.007380+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34152128",
-        "display_name": "13 Beloved (13: Game of Death) 720p CZ Dabing",
-        "planned_at": "2026-11-17T00:59:22.163194+00:00"
-      },
       "previous_target_id": "31100947",
-      "prepared": {
+      "upload": {
         "target_video_id": "31100947",
-        "size_bytes": 4495949755,
-        "prepared_at": "2026-11-16T22:35:50.982402+00:00",
-        "relay_source_id": "34152128"
+        "display_name": "13 Beloved (13: Game of Death) 720p CZ Dabing",
+        "source_id": "34152128",
+        "source_url": "https://sdilej.cz/34152128/13-hra-smrti-2006-pucci-film-1080p-cz-dabing.mp4",
+        "source_filename": "13 Hra smrti+(2006) pucci film 1080p CZ Dabing.mp4",
+        "size_bytes": 4500000000,
+        "width": 1280,
+        "height": 724,
+        "audio_language": "cs",
+        "language_probability": 0.9648258686065674,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/13-beloved-13-game-of-death-720p-cz-dabing-mp4/d04a349fca9c5014",
+        "uploaded_at": "2026-11-17T00:59:26.887784+00:00"
       }
     },
     "17360": {
@@ -164820,7 +164832,7 @@
       "last_plan": {
         "source_id": "25512131",
         "display_name": "The Wronged Man 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:59:22.483377+00:00"
+        "planned_at": "2026-11-17T00:59:26.084315+00:00"
       }
     },
     "17164": {
@@ -213444,5 +213456,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:59:22.740159+00:00"
+  "updated_at": "2026-11-17T00:59:26.887801+00:00"
 }
