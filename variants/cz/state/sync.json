@@ -165460,17 +165460,19 @@
       }
     },
     "11122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29163002",
+          "target_video_id": "31107589",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:12:47.141568+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29163002",
         "display_name": "Hail the Artist (Salut l'artiste) 1080p CZ Dabing",
         "planned_at": "2026-11-17T04:01:43.080043+00:00"
-      },
-      "claim": {
-        "worker_id": "dc177adac433436c982239720624dc1c-shard-0",
-        "claimed_at": "2026-11-17T04:01:45.780237+00:00",
-        "lease_expires_at": "2026-11-17T10:01:45.780237+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31107589",
       "prepared": {
@@ -214010,5 +214012,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:12:44.575233+00:00"
+  "updated_at": "2026-11-17T04:12:47.141589+00:00"
 }
