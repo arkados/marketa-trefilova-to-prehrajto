@@ -63774,6 +63774,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-05T12:23:58.720921+00:00",
         "relay_source_id": "34095247"
+      },
+      "claim": {
+        "worker_id": "0c5b797bb72749c692877573bc24d86c-shard-0",
+        "claimed_at": "2026-11-17T23:27:04.320753+00:00",
+        "lease_expires_at": "2026-11-18T05:27:04.320753+00:00",
+        "run_id": "44170464010"
       }
     },
     "13126": {
@@ -67431,13 +67437,6 @@
           "source_id": "22557019",
           "target_video_id": "30840608",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:06:49.400422+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22557019",
-          "target_video_id": "30840608",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:21:04.810887+00:00"
         },
         {
@@ -67446,6 +67445,13 @@
           "target_video_id": "30840608",
           "permanent": false,
           "attempted_at": "2026-11-17T21:59:06.983901+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22557019",
+          "target_video_id": "30840608",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:27:03.436889+00:00"
         }
       ],
       "last_plan": {
@@ -67459,12 +67465,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-06T01:22:25.472864+00:00",
         "relay_source_id": "22557019"
-      },
-      "claim": {
-        "worker_id": "d43a1e9da8934a73b7d09b7fd72e5a2d-shard-0",
-        "claimed_at": "2026-11-17T23:26:59.803531+00:00",
-        "lease_expires_at": "2026-11-18T05:26:59.803531+00:00",
-        "run_id": "44170464010"
       }
     },
     "1894": {
@@ -171478,7 +171478,7 @@
       "last_plan": {
         "source_id": "20161960",
         "display_name": "The Night Doctor (Médecin de nuit) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:54:17.592573+00:00"
+        "planned_at": "2026-11-17T23:27:04.884774+00:00"
       },
       "previous_target_id": "31130202",
       "prepared": {
@@ -171876,7 +171876,7 @@
       "last_plan": {
         "source_id": "34496315",
         "display_name": "Mafia vs. Ninja (HongMenXiaoZi) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:27:00.397160+00:00"
+        "planned_at": "2026-11-17T23:27:05.204770+00:00"
       }
     },
     "22505": {
@@ -219277,5 +219277,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:27:00.680738+00:00"
+  "updated_at": "2026-11-17T23:27:05.204788+00:00"
 }
