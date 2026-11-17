@@ -10815,13 +10815,6 @@
           "source_id": "33222569",
           "target_video_id": "30735890",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:20:38.098251+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33222569",
-          "target_video_id": "30735890",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:00:40.478919+00:00"
         },
         {
@@ -10830,6 +10823,13 @@
           "target_video_id": "30735890",
           "permanent": false,
           "attempted_at": "2026-11-17T08:31:09.097890+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33222569",
+          "target_video_id": "30735890",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:01:14.546314+00:00"
         }
       ],
       "last_plan": {
@@ -11390,7 +11390,7 @@
       "last_plan": {
         "source_id": "13881903",
         "display_name": "Volhynia (Wołyń) 720p CZ titulky",
-        "planned_at": "2026-11-17T08:31:08.348993+00:00"
+        "planned_at": "2026-11-17T09:01:13.874974+00:00"
       },
       "previous_target_id": "30745166",
       "prepared": {
@@ -11398,6 +11398,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-02T23:48:48.234894+00:00",
         "relay_source_id": "13881903"
+      },
+      "claim": {
+        "worker_id": "3b484c0d22e94e68b2e4975224cbb581-shard-0",
+        "claimed_at": "2026-11-17T09:01:14.316075+00:00",
+        "lease_expires_at": "2026-11-17T15:01:14.316075+00:00",
+        "run_id": "44013593637"
       }
     },
     "938": {
@@ -100738,5 +100744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:01:10.422787+00:00"
+  "updated_at": "2026-11-17T09:01:14.546333+00:00"
 }
