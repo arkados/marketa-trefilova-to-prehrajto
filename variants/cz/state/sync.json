@@ -164725,17 +164725,19 @@
       }
     },
     "37237": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30643097",
+          "target_video_id": "31102720",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:32:11.607031+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30643097",
         "display_name": "Amerika SD CZ Dabing",
         "planned_at": "2026-11-17T00:24:41.921406+00:00"
-      },
-      "claim": {
-        "worker_id": "354ee1f5d6b744a69b3986ba068b45c6-shard-0",
-        "claimed_at": "2026-11-17T00:24:42.883926+00:00",
-        "lease_expires_at": "2026-11-17T06:24:42.883926+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31102720",
       "prepared": {
@@ -213375,5 +213377,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:32:09.324993+00:00"
+  "updated_at": "2026-11-17T00:32:11.607049+00:00"
 }
