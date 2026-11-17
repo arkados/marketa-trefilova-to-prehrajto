@@ -116675,13 +116675,6 @@
           "source_id": "33767290",
           "target_video_id": "30984707",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:14:17.635025+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767290",
-          "target_video_id": "30984707",
-          "permanent": false,
           "attempted_at": "2026-11-17T16:49:49.707494+00:00"
         },
         {
@@ -116690,12 +116683,19 @@
           "target_video_id": "30984707",
           "permanent": false,
           "attempted_at": "2026-11-17T18:03:01.962405+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767290",
+          "target_video_id": "30984707",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:15:55.603692+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33767290",
         "display_name": "White Men Can't Jump 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:02:56.308640+00:00"
+        "planned_at": "2026-11-17T19:15:53.345481+00:00"
       },
       "previous_target_id": "30984707",
       "prepared": {
@@ -139578,6 +139578,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T07:01:26.061668+00:00",
         "relay_source_id": "34713910"
+      },
+      "claim": {
+        "worker_id": "c15f3579142d4dc58cff312b66a96010-shard-0",
+        "claimed_at": "2026-11-17T19:15:53.141763+00:00",
+        "lease_expires_at": "2026-11-18T01:15:53.141763+00:00",
+        "run_id": "44093224298"
       }
     },
     "33296": {
@@ -170416,7 +170422,7 @@
       "last_plan": {
         "source_id": "34910128",
         "display_name": "The Sparrow in the Chimney 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:15:50.666450+00:00"
+        "planned_at": "2026-11-17T19:15:53.584351+00:00"
       }
     },
     "25427": {
@@ -218066,5 +218072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:15:50.926993+00:00"
+  "updated_at": "2026-11-17T19:15:55.603711+00:00"
 }
