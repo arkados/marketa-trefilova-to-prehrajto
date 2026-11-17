@@ -126825,13 +126825,6 @@
           "source_id": "34788727",
           "target_video_id": "30986265",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:27:19.724247+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788727",
-          "target_video_id": "30986265",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:04:33.940113+00:00"
         },
         {
@@ -126840,6 +126833,13 @@
           "target_video_id": "30986265",
           "permanent": false,
           "attempted_at": "2026-11-17T18:15:34.349202+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788727",
+          "target_video_id": "30986265",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:34:14.243335+00:00"
         }
       ],
       "last_plan": {
@@ -133582,7 +133582,7 @@
       "last_plan": {
         "source_id": "34710904",
         "display_name": "O Nesytovi 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:15:33.839937+00:00"
+        "planned_at": "2026-11-17T19:34:13.013265+00:00"
       },
       "previous_target_id": "30987301",
       "prepared": {
@@ -133590,6 +133590,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T04:13:03.584487+00:00",
         "relay_source_id": "34710904"
+      },
+      "claim": {
+        "worker_id": "6266da91229f42198405be690e4df90e-shard-0",
+        "claimed_at": "2026-11-17T19:34:13.666995+00:00",
+        "lease_expires_at": "2026-11-18T01:34:13.666995+00:00",
+        "run_id": "44093224298"
       }
     },
     "32273": {
@@ -170556,7 +170562,7 @@
       "last_plan": {
         "source_id": "34209434",
         "display_name": "Čertí brko 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:34:07.803450+00:00"
+        "planned_at": "2026-11-17T19:34:13.241663+00:00"
       }
     },
     "3203": {
@@ -218179,5 +218185,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:34:10.950942+00:00"
+  "updated_at": "2026-11-17T19:34:14.243350+00:00"
 }
