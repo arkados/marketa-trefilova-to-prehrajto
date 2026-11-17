@@ -83929,13 +83929,6 @@
           "source_id": "30859189",
           "target_video_id": "30915737",
           "permanent": false,
-          "attempted_at": "2026-11-17T04:21:52.320704+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30859189",
-          "target_video_id": "30915737",
-          "permanent": false,
           "attempted_at": "2026-11-17T05:44:20.176150+00:00"
         },
         {
@@ -83944,6 +83937,13 @@
           "target_video_id": "30915737",
           "permanent": false,
           "attempted_at": "2026-11-17T07:11:05.580446+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30859189",
+          "target_video_id": "30915737",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:42:22.035136+00:00"
         }
       ],
       "last_plan": {
@@ -83957,12 +83957,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-08T11:13:22.427450+00:00",
         "relay_source_id": "30859189"
-      },
-      "claim": {
-        "worker_id": "fe4b3cef212a440e8bbf7efd7aed60f6-shard-0",
-        "claimed_at": "2026-11-17T08:42:19.504998+00:00",
-        "lease_expires_at": "2026-11-17T14:42:19.504998+00:00",
-        "run_id": "44013593637"
       }
     },
     "2309": {
@@ -84076,7 +84070,7 @@
       "last_plan": {
         "source_id": "20559777",
         "display_name": "Mystery 101 1080p CZ Dabing",
-        "planned_at": "2026-11-17T07:11:04.278228+00:00"
+        "planned_at": "2026-11-17T08:42:22.588951+00:00"
       },
       "previous_target_id": "30916027",
       "prepared": {
@@ -166902,14 +166896,19 @@
       "last_plan": {
         "source_id": "27442385",
         "display_name": "The Rain Fairy (Dešťová víla) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:42:16.686392+00:00"
+        "planned_at": "2026-11-17T08:42:22.921650+00:00"
       }
     },
     "35723": {
       "attempts": []
     },
     "13593": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32146983",
+        "display_name": "A Bird of the Air 1080p CZ Dabing",
+        "planned_at": "2026-11-17T08:42:23.121457+00:00"
+      }
     },
     "14803": {
       "attempts": []
@@ -215173,5 +215172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:42:19.505029+00:00"
+  "updated_at": "2026-11-17T08:42:23.121474+00:00"
 }
