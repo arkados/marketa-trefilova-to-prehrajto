@@ -123407,13 +123407,6 @@
           "source_id": "34230753",
           "target_video_id": "30985555",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:29:06.695996+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34230753",
-          "target_video_id": "30985555",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:55:06.902680+00:00"
         },
         {
@@ -123422,6 +123415,13 @@
           "target_video_id": "30985555",
           "permanent": false,
           "attempted_at": "2026-11-17T08:27:11.129009+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34230753",
+          "target_video_id": "30985555",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:42:08.233745+00:00"
         }
       ],
       "last_plan": {
@@ -123435,12 +123435,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T20:18:15.751150+00:00",
         "relay_source_id": "34230753"
-      },
-      "claim": {
-        "worker_id": "d36b3af32d4d4d408cf3dee42495997d-shard-0",
-        "claimed_at": "2026-11-17T09:42:03.964699+00:00",
-        "lease_expires_at": "2026-11-17T15:42:03.964699+00:00",
-        "run_id": "44013593637"
       }
     },
     "2528": {
@@ -129688,6 +129682,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T02:10:01.122902+00:00",
         "relay_source_id": "34993388"
+      },
+      "claim": {
+        "worker_id": "4c860a1375684d108ec92570f256d53b-shard-0",
+        "claimed_at": "2026-11-17T09:42:07.418655+00:00",
+        "lease_expires_at": "2026-11-17T15:42:07.418655+00:00",
+        "run_id": "44013593637"
       }
     },
     "14540": {
@@ -135358,7 +135358,7 @@
       "last_plan": {
         "source_id": "34683641",
         "display_name": "To byla svatba, strýcku (To byla svatba, strýčku) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:27:13.310224+00:00"
+        "planned_at": "2026-11-17T09:42:07.658575+00:00"
       },
       "previous_target_id": "30987565",
       "prepared": {
@@ -167359,7 +167359,7 @@
       "last_plan": {
         "source_id": "34645635",
         "display_name": "Car-napping (Carnapping - Ordered, Stolen and Sold) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:42:05.050631+00:00"
+        "planned_at": "2026-11-17T09:42:07.960403+00:00"
       }
     },
     "22837": {
@@ -215549,5 +215549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:42:05.050649+00:00"
+  "updated_at": "2026-11-17T09:42:08.233766+00:00"
 }
