@@ -108421,13 +108421,6 @@
           "source_id": "33299236",
           "target_video_id": "30983538",
           "permanent": false,
-          "attempted_at": "2026-11-16T16:32:11.828939+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33299236",
-          "target_video_id": "30983538",
-          "permanent": false,
           "attempted_at": "2026-11-16T20:42:04.094173+00:00"
         },
         {
@@ -108436,6 +108429,13 @@
           "target_video_id": "30983538",
           "permanent": false,
           "attempted_at": "2026-11-16T22:14:41.407179+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33299236",
+          "target_video_id": "30983538",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:33:21.714307+00:00"
         }
       ],
       "last_plan": {
@@ -108481,7 +108481,7 @@
       "last_plan": {
         "source_id": "34908320",
         "display_name": "Pražská 5 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:14:42.107092+00:00"
+        "planned_at": "2026-11-17T00:33:19.944927+00:00"
       },
       "previous_target_id": "30983539",
       "prepared": {
@@ -108489,6 +108489,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T14:16:25.808778+00:00",
         "relay_source_id": "34908320"
+      },
+      "claim": {
+        "worker_id": "cef3b989e1ad4e6b973749afe3b15a45-shard-0",
+        "claimed_at": "2026-11-17T00:33:20.790455+00:00",
+        "lease_expires_at": "2026-11-17T06:33:20.790455+00:00",
+        "run_id": "43981967428"
       }
     },
     "24344": {
@@ -164773,7 +164779,7 @@
       "last_plan": {
         "source_id": "29085703",
         "display_name": "The Path of Excellence (La Voie royale) 720p CZ Dabing",
-        "planned_at": "2026-11-17T00:33:17.230495+00:00"
+        "planned_at": "2026-11-17T00:33:20.240870+00:00"
       }
     },
     "14712": {
@@ -213395,5 +213401,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:33:17.474922+00:00"
+  "updated_at": "2026-11-17T00:33:21.714324+00:00"
 }
