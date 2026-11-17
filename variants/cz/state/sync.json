@@ -110517,13 +110517,6 @@
           "source_id": "35184124",
           "target_video_id": "30983741",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:14:06.770758+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35184124",
-          "target_video_id": "30983741",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:43:14.851832+00:00"
         },
         {
@@ -110532,6 +110525,13 @@
           "target_video_id": "30983741",
           "permanent": false,
           "attempted_at": "2026-11-17T22:10:05.808063+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35184124",
+          "target_video_id": "30983741",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:38:51.645435+00:00"
         }
       ],
       "last_plan": {
@@ -116642,7 +116642,7 @@
       "last_plan": {
         "source_id": "14845493",
         "display_name": "Mank 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:10:04.254866+00:00"
+        "planned_at": "2026-11-17T23:38:49.722823+00:00"
       },
       "previous_target_id": "30984699",
       "prepared": {
@@ -116650,6 +116650,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:20:31.441781+00:00",
         "relay_source_id": "14845493"
+      },
+      "claim": {
+        "worker_id": "6607a212103b41589c530230e7955c0b-shard-0",
+        "claimed_at": "2026-11-17T23:38:50.734123+00:00",
+        "lease_expires_at": "2026-11-18T05:38:50.734123+00:00",
+        "run_id": "44170464010"
       }
     },
     "2816": {
@@ -171940,7 +171946,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:38:46.251456+00:00"
+        "planned_at": "2026-11-17T23:38:50.140500+00:00"
       }
     },
     "13183": {
@@ -219329,5 +219335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:38:46.782873+00:00"
+  "updated_at": "2026-11-17T23:38:51.645452+00:00"
 }
