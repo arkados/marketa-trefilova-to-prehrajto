@@ -73951,13 +73951,6 @@
           "source_id": "24916658",
           "target_video_id": "30880343",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:37:52.915755+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24916658",
-          "target_video_id": "30880343",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:52:09.515370+00:00"
         },
         {
@@ -73966,6 +73959,13 @@
           "target_video_id": "30880343",
           "permanent": false,
           "attempted_at": "2026-11-17T11:10:46.926229+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24916658",
+          "target_video_id": "30880343",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:24:55.820356+00:00"
         }
       ],
       "last_plan": {
@@ -74133,7 +74133,7 @@
       "last_plan": {
         "source_id": "31393436",
         "display_name": "Run Boy Run (Lauf Junge lauf) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:10:45.661830+00:00"
+        "planned_at": "2026-11-17T12:24:55.540601+00:00"
       },
       "previous_target_id": "30882162",
       "prepared": {
@@ -168119,17 +168119,19 @@
       }
     },
     "12169": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28716936",
+          "target_video_id": "31117834",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:24:56.026696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28716936",
         "display_name": "Little Odessa 720p CZ Dabing",
         "planned_at": "2026-11-17T12:14:27.486992+00:00"
-      },
-      "claim": {
-        "worker_id": "5d949d5f65bc4c6ca4e09bdf28b3d159-shard-0",
-        "claimed_at": "2026-11-17T12:14:30.556916+00:00",
-        "lease_expires_at": "2026-11-17T18:14:30.556916+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31117834",
       "prepared": {
@@ -216205,5 +216207,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:24:51.633470+00:00"
+  "updated_at": "2026-11-17T12:24:56.026713+00:00"
 }
