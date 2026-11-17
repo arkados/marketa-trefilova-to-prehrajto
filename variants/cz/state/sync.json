@@ -128333,13 +128333,6 @@
           "source_id": "27035939",
           "target_video_id": "30986633",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:18:33.035354+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27035939",
-          "target_video_id": "30986633",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:37:31.314738+00:00"
         },
         {
@@ -128348,6 +128341,13 @@
           "target_video_id": "30986633",
           "permanent": false,
           "attempted_at": "2026-11-17T11:51:17.171172+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27035939",
+          "target_video_id": "30986633",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:08:20.409345+00:00"
         }
       ],
       "last_plan": {
@@ -166058,7 +166058,7 @@
       "last_plan": {
         "source_id": "18796618",
         "display_name": "Fort Apache, The Bronx SD CZ Dabing",
-        "planned_at": "2026-11-17T11:51:16.566099+00:00"
+        "planned_at": "2026-11-17T13:08:18.718916+00:00"
       },
       "previous_target_id": "31108850",
       "prepared": {
@@ -166066,6 +166066,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-17T04:59:34.147751+00:00",
         "relay_source_id": "18796618"
+      },
+      "claim": {
+        "worker_id": "4b20fafc5dfe4db3a7818c2319de5777-shard-0",
+        "claimed_at": "2026-11-17T13:08:19.729518+00:00",
+        "lease_expires_at": "2026-11-17T19:08:19.729518+00:00",
+        "run_id": "44078950078"
       }
     },
     "22958": {
@@ -168572,7 +168578,7 @@
       "last_plan": {
         "source_id": "29700583",
         "display_name": "Convoy Buddies (Simone e Matteo: un gioco da ragazzi) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:08:15.903368+00:00"
+        "planned_at": "2026-11-17T13:08:19.059250+00:00"
       }
     },
     "27918": {
@@ -216546,5 +216552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:08:16.174984+00:00"
+  "updated_at": "2026-11-17T13:08:20.409359+00:00"
 }
