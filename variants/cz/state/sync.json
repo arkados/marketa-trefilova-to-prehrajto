@@ -83929,13 +83929,6 @@
           "source_id": "30859189",
           "target_video_id": "30915737",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:58:06.158340+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30859189",
-          "target_video_id": "30915737",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:15:42.171151+00:00"
         },
         {
@@ -83944,6 +83937,13 @@
           "target_video_id": "30915737",
           "permanent": false,
           "attempted_at": "2026-11-17T12:29:09.467813+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30859189",
+          "target_video_id": "30915737",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:46:13.458490+00:00"
         }
       ],
       "last_plan": {
@@ -84070,7 +84070,7 @@
       "last_plan": {
         "source_id": "20559777",
         "display_name": "Mystery 101 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:29:12.115611+00:00"
+        "planned_at": "2026-11-17T13:46:12.228688+00:00"
       },
       "previous_target_id": "30916027",
       "prepared": {
@@ -84078,6 +84078,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-08T11:27:26.185912+00:00",
         "relay_source_id": "20559777"
+      },
+      "claim": {
+        "worker_id": "642007b8ead548c0b71a1759f60344f1-shard-0",
+        "claimed_at": "2026-11-17T13:46:13.203686+00:00",
+        "lease_expires_at": "2026-11-17T19:46:13.203686+00:00",
+        "run_id": "44078950078"
       }
     },
     "1954": {
@@ -168823,7 +168829,7 @@
       "last_plan": {
         "source_id": "34700022",
         "display_name": "Donovan's Reef SD CZ Dabing",
-        "planned_at": "2026-11-17T13:46:09.789687+00:00"
+        "planned_at": "2026-11-17T13:46:12.558916+00:00"
       }
     },
     "11863": {
@@ -216767,5 +216773,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:46:09.789704+00:00"
+  "updated_at": "2026-11-17T13:46:13.458508+00:00"
 }
