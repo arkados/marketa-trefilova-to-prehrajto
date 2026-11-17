@@ -12854,13 +12854,6 @@
           "source_id": "34846817",
           "target_video_id": "30649962",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:28:36.333409+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34846817",
-          "target_video_id": "30649962",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:40:48.289907+00:00"
         },
         {
@@ -12869,6 +12862,13 @@
           "target_video_id": "30649962",
           "permanent": false,
           "attempted_at": "2026-11-17T18:52:48.298732+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34846817",
+          "target_video_id": "30649962",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:10:43.766753+00:00"
         }
       ],
       "last_plan": {
@@ -144118,7 +144118,7 @@
       "last_plan": {
         "source_id": "7239474",
         "display_name": "Bílá spona SD CZ Dabing",
-        "planned_at": "2026-11-17T18:52:48.823588+00:00"
+        "planned_at": "2026-11-17T20:10:42.157856+00:00"
       },
       "previous_target_id": "30988750",
       "prepared": {
@@ -144126,6 +144126,12 @@
         "size_bytes": 756000000,
         "prepared_at": "2026-11-11T09:48:19.543124+00:00",
         "relay_source_id": "7239474"
+      },
+      "claim": {
+        "worker_id": "a9b38596360848ef80bc637e4b48f55b-shard-0",
+        "claimed_at": "2026-11-17T20:10:42.914132+00:00",
+        "lease_expires_at": "2026-11-18T02:10:42.914132+00:00",
+        "run_id": "44093224298"
       }
     },
     "17569": {
@@ -170776,7 +170782,7 @@
       "last_plan": {
         "source_id": "26408626",
         "display_name": "All Creatures Great and Small 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:10:39.411221+00:00"
+        "planned_at": "2026-11-17T20:10:42.397359+00:00"
       }
     },
     "11033": {
@@ -218363,5 +218369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:10:39.795376+00:00"
+  "updated_at": "2026-11-17T20:10:43.766771+00:00"
 }
