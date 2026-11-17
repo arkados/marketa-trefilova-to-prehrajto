@@ -168214,17 +168214,19 @@
       }
     },
     "15049": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32695569",
+          "target_video_id": "31118333",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:41:54.545582+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32695569",
         "display_name": "Silent Roar 1080p CZ Dabing",
         "planned_at": "2026-11-17T12:33:48.879250+00:00"
-      },
-      "claim": {
-        "worker_id": "6dc2bb9e5f8d4bc28b535af90d116f3b-shard-0",
-        "claimed_at": "2026-11-17T12:33:50.240117+00:00",
-        "lease_expires_at": "2026-11-17T18:33:50.240117+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31118333",
       "prepared": {
@@ -216285,5 +216287,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:41:52.248891+00:00"
+  "updated_at": "2026-11-17T12:41:54.545601+00:00"
 }
