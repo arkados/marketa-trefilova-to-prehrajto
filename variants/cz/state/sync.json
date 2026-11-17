@@ -114463,7 +114463,7 @@
       "last_plan": {
         "source_id": "14570962",
         "display_name": "Unknown (2011) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:30:14.964842+00:00"
+        "planned_at": "2026-11-17T22:58:50.699982+00:00"
       },
       "previous_target_id": "30984139",
       "prepared": {
@@ -114471,6 +114471,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T15:32:31.278133+00:00",
         "relay_source_id": "14570962"
+      },
+      "claim": {
+        "worker_id": "59630ea05d354ffa821744568eb75aea-shard-0",
+        "claimed_at": "2026-11-17T22:58:51.639206+00:00",
+        "lease_expires_at": "2026-11-18T04:58:51.639206+00:00",
+        "run_id": "44170464010"
       }
     },
     "3152": {
@@ -171271,17 +171277,23 @@
           "attempted_at": "2026-11-17T21:30:12.919324+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34700306",
-        "display_name": "The Last Supper 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:58:47.323463+00:00"
-      },
       "previous_target_id": "31129266",
-      "prepared": {
+      "upload": {
         "target_video_id": "31129266",
-        "size_bytes": 3441404996,
-        "prepared_at": "2026-11-17T21:23:44.611170+00:00",
-        "relay_source_id": "34700306"
+        "display_name": "The Last Supper 1080p CZ Dabing",
+        "source_id": "34700306",
+        "source_url": "https://sdilej.cz/34700306/the.last.supper-posledni.smich.1995.eng.cze.1080p.bluray.x264.ac3.mkv",
+        "source_filename": "The.Last.Supper_Poslední.smích.1995.eng.cze.1080p.bluray.x264.ac3.mkv",
+        "size_bytes": 3400000000,
+        "width": 1920,
+        "height": 1036,
+        "audio_language": "cs",
+        "language_probability": 0.9185771346092224,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-last-supper-1080p-cz-dabing-mkv/c9a1a89978ee93ad",
+        "uploaded_at": "2026-11-17T22:58:51.883647+00:00"
       }
     },
     "17376": {
@@ -171717,7 +171729,7 @@
       "last_plan": {
         "source_id": "28248567",
         "display_name": "Hranari (Edgemen) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:58:47.690022+00:00"
+        "planned_at": "2026-11-17T22:58:51.026150+00:00"
       }
     },
     "3301": {
@@ -219136,5 +219148,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:58:48.007306+00:00"
+  "updated_at": "2026-11-17T22:58:51.883663+00:00"
 }
