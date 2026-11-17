@@ -115989,6 +115989,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-10T17:11:58.046728+00:00",
         "relay_source_id": "34858393"
+      },
+      "claim": {
+        "worker_id": "db84fba9ff3b4d1d95ddc3c4a61960c3-shard-0",
+        "claimed_at": "2026-11-17T23:08:59.244332+00:00",
+        "lease_expires_at": "2026-11-18T05:08:59.244332+00:00",
+        "run_id": "44170464010"
       }
     },
     "2962": {
@@ -171750,17 +171756,23 @@
       }
     },
     "3301": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "22588171",
+          "reason": "Source detail has no authenticated download link; source_id=22588171",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:08:59.443728+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22588171",
         "display_name": "The Valet (2022) 1080p CZ Dabing",
         "planned_at": "2026-11-17T23:08:48.948250+00:00"
       },
-      "claim": {
-        "worker_id": "a6f4eb2592c6461598163693c11b3e60-shard-0",
-        "claimed_at": "2026-11-17T23:08:52.002000+00:00",
-        "lease_expires_at": "2026-11-18T05:08:52.002000+00:00",
-        "run_id": "44170464010"
+      "source_repair_requested": {
+        "source_id": "22588171",
+        "requested_at": "2026-11-17T23:08:59.443712+00:00"
       }
     },
     "12042": {
@@ -219181,5 +219193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:08:56.831331+00:00"
+  "updated_at": "2026-11-17T23:08:59.443734+00:00"
 }
