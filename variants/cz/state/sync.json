@@ -81735,7 +81735,7 @@
       "last_plan": {
         "source_id": "29912133",
         "display_name": "If Only SD CZ Dabing",
-        "planned_at": "2026-11-17T02:58:26.675900+00:00"
+        "planned_at": "2026-11-17T04:21:22.398447+00:00"
       },
       "previous_target_id": "30902570",
       "prepared": {
@@ -81743,6 +81743,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-08T00:27:59.502231+00:00",
         "relay_source_id": "29912133"
+      },
+      "claim": {
+        "worker_id": "bfd22c3817ca4daaaf3aeffd0d5a75ae-shard-0",
+        "claimed_at": "2026-11-17T04:21:23.789403+00:00",
+        "lease_expires_at": "2026-11-17T10:21:23.789403+00:00",
+        "run_id": "44012569640"
       }
     },
     "19982": {
@@ -135637,13 +135643,6 @@
           "source_id": "11994914",
           "target_video_id": "30987591",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:22:55.017396+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11994914",
-          "target_video_id": "30987591",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:37:38.854586+00:00"
         },
         {
@@ -135652,6 +135651,13 @@
           "target_video_id": "30987591",
           "permanent": false,
           "attempted_at": "2026-11-17T02:58:26.093762+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11994914",
+          "target_video_id": "30987591",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:21:24.279688+00:00"
         }
       ],
       "last_plan": {
@@ -165581,11 +165587,22 @@
       "last_plan": {
         "source_id": "31000919",
         "display_name": "SPL II (SPL 2: A Time for Consequences) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T04:21:19.131574+00:00"
+        "planned_at": "2026-11-17T04:21:22.760770+00:00"
+      },
+      "claim": {
+        "worker_id": "3d4eeee398fd491ca3ad3c016f0b9297-shard-0",
+        "claimed_at": "2026-11-17T04:21:24.064525+00:00",
+        "lease_expires_at": "2026-11-17T10:21:24.064525+00:00",
+        "run_id": "44012569640"
       }
     },
     "3573": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34510186",
+        "display_name": "Eleanor the Great 1080p CZ Dabing",
+        "planned_at": "2026-11-17T04:21:23.033361+00:00"
+      }
     },
     "32546": {
       "attempts": []
@@ -214059,5 +214076,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:21:19.431788+00:00"
+  "updated_at": "2026-11-17T04:21:24.279708+00:00"
 }
