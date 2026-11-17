@@ -170184,17 +170184,19 @@
       }
     },
     "3195": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34619373",
+          "target_video_id": "31124430",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:31:16.504868+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34619373",
         "display_name": "Mr. Monk's Last Case: A Monk Movie 1080p CZ Dabing",
         "planned_at": "2026-11-17T18:24:02.661321+00:00"
-      },
-      "claim": {
-        "worker_id": "2125dfc4420d43568dfe4736538b700c-shard-0",
-        "claimed_at": "2026-11-17T18:24:03.558799+00:00",
-        "lease_expires_at": "2026-11-18T00:24:03.558799+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31124430",
       "prepared": {
@@ -217906,5 +217908,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:31:14.188298+00:00"
+  "updated_at": "2026-11-17T18:31:16.504887+00:00"
 }
