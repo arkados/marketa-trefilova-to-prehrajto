@@ -110543,7 +110543,7 @@
       "last_plan": {
         "source_id": "35184124",
         "display_name": "Ticket to the Memorial 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:12:17.277229+00:00"
+        "planned_at": "2026-11-17T16:47:43.943247+00:00"
       },
       "previous_target_id": "30983741",
       "prepared": {
@@ -110551,6 +110551,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T14:41:32.659404+00:00",
         "relay_source_id": "35184124"
+      },
+      "claim": {
+        "worker_id": "03a8c03769ba421d8164267f7fe2dc0b-shard-0",
+        "claimed_at": "2026-11-17T16:47:44.654999+00:00",
+        "lease_expires_at": "2026-11-17T22:47:44.654999+00:00",
+        "run_id": "44093224298"
       }
     },
     "35511": {
@@ -169596,17 +169602,19 @@
       }
     },
     "3349": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35208227",
+          "target_video_id": "31123041",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:47:45.738765+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35208227",
         "display_name": "The Pirates of Somalia 1080p CZ Dabing",
         "planned_at": "2026-11-17T16:42:19.728812+00:00"
-      },
-      "claim": {
-        "worker_id": "08e7f3a58d7246529585daba0465f8b3-shard-0",
-        "claimed_at": "2026-11-17T16:42:20.515364+00:00",
-        "lease_expires_at": "2026-11-17T22:42:20.515364+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31123041",
       "prepared": {
@@ -169642,7 +169650,7 @@
       "last_plan": {
         "source_id": "17954858",
         "display_name": "Talvez uma História de Amor 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:47:39.235189+00:00"
+        "planned_at": "2026-11-17T16:47:44.273428+00:00"
       }
     },
     "33249": {
@@ -217442,5 +217450,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:47:41.770236+00:00"
+  "updated_at": "2026-11-17T16:47:45.738783+00:00"
 }
