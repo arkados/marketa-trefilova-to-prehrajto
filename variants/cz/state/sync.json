@@ -142405,7 +142405,7 @@
       "last_plan": {
         "source_id": "11413310",
         "display_name": "Prípad dvou manzelek (Případ dvou manželek) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T23:56:01.467485+00:00"
+        "planned_at": "2026-11-17T01:12:34.840140+00:00"
       },
       "previous_target_id": "30988502",
       "prepared": {
@@ -142413,6 +142413,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T08:35:10.296083+00:00",
         "relay_source_id": "11413310"
+      },
+      "claim": {
+        "worker_id": "cda2e678ca79423ba01956a16f9ecad8-shard-0",
+        "claimed_at": "2026-11-17T01:12:35.684463+00:00",
+        "lease_expires_at": "2026-11-17T07:12:35.684463+00:00",
+        "run_id": "43981967428"
       }
     },
     "37384": {
@@ -164655,17 +164661,23 @@
           "attempted_at": "2026-11-16T23:56:02.748206+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31551840",
-        "display_name": "Into the Wind (Do větru) (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T01:12:31.316238+00:00"
-      },
       "previous_target_id": "31101897",
-      "prepared": {
+      "upload": {
         "target_video_id": "31101897",
-        "size_bytes": 2882997132,
-        "prepared_at": "2026-11-16T23:46:16.990750+00:00",
-        "relay_source_id": "31551840"
+        "display_name": "Into the Wind (Do větru) (2018) 1080p CZ Dabing",
+        "source_id": "31551840",
+        "source_url": "https://sdilej.cz/31551840/do-vetru-2018-1080p.mkv",
+        "source_filename": "Do vetru 2018 1080p.mkv",
+        "size_bytes": 2900000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9848944544792175,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/into-the-wind-do-vetru-2018-1080p-cz-dabing-mkv/372bceef5321fce8",
+        "uploaded_at": "2026-11-17T01:12:35.911091+00:00"
       }
     },
     "17104": {
@@ -164870,7 +164882,7 @@
       "last_plan": {
         "source_id": "28545053",
         "display_name": "The Final Game (42 segundos) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T01:12:31.623647+00:00"
+        "planned_at": "2026-11-17T01:12:35.143522+00:00"
       }
     },
     "13972": {
@@ -213486,5 +213498,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:12:32.111627+00:00"
+  "updated_at": "2026-11-17T01:12:35.911107+00:00"
 }
