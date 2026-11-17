@@ -109747,13 +109747,6 @@
           "source_id": "33706598",
           "target_video_id": "30983674",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:09:40.422725+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33706598",
-          "target_video_id": "30983674",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:29:24.542532+00:00"
         },
         {
@@ -109762,6 +109755,13 @@
           "target_video_id": "30983674",
           "permanent": false,
           "attempted_at": "2026-11-17T03:46:12.323116+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33706598",
+          "target_video_id": "30983674",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:13:04.436459+00:00"
         }
       ],
       "last_plan": {
@@ -165398,7 +165398,7 @@
       "last_plan": {
         "source_id": "34722802",
         "display_name": "Junior Bonner 720p CZ Dabing",
-        "planned_at": "2026-11-17T03:42:09.047581+00:00"
+        "planned_at": "2026-11-17T05:13:02.453863+00:00"
       },
       "previous_target_id": "31107209",
       "prepared": {
@@ -165406,6 +165406,12 @@
         "size_bytes": 1966956000,
         "prepared_at": "2026-11-17T03:42:16.728845+00:00",
         "relay_source_id": "34722802"
+      },
+      "claim": {
+        "worker_id": "66d552f005f4449dac5fab2c1a9e0e2a-shard-0",
+        "claimed_at": "2026-11-17T05:13:03.989933+00:00",
+        "lease_expires_at": "2026-11-17T11:13:03.989933+00:00",
+        "run_id": "44012569640"
       }
     },
     "22666": {
@@ -165806,7 +165812,7 @@
       "last_plan": {
         "source_id": "6052793",
         "display_name": "Boychoir 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:12:59.280764+00:00"
+        "planned_at": "2026-11-17T05:13:02.825135+00:00"
       }
     },
     "27254": {
@@ -214239,5 +214245,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:12:59.608274+00:00"
+  "updated_at": "2026-11-17T05:13:04.436480+00:00"
 }
