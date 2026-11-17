@@ -113621,13 +113621,6 @@
           "source_id": "11995636",
           "target_video_id": "30984056",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:15:08.052144+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11995636",
-          "target_video_id": "30984056",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:33:48.089638+00:00"
         },
         {
@@ -113636,6 +113629,13 @@
           "target_video_id": "30984056",
           "permanent": false,
           "attempted_at": "2026-11-17T20:59:45.970292+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11995636",
+          "target_video_id": "30984056",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:27:22.094246+00:00"
         }
       ],
       "last_plan": {
@@ -132186,7 +132186,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-17T20:59:43.908009+00:00"
+        "planned_at": "2026-11-17T22:27:19.903337+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132194,6 +132194,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "f725c6b73c2c4cdab981507c5fa568c6-shard-0",
+        "claimed_at": "2026-11-17T22:27:20.906277+00:00",
+        "lease_expires_at": "2026-11-18T04:27:20.906277+00:00",
+        "run_id": "44170464010"
       }
     },
     "27054": {
@@ -171533,7 +171539,7 @@
       "last_plan": {
         "source_id": "27040352",
         "display_name": "Smashed 720p CZ Dabing",
-        "planned_at": "2026-11-17T22:27:16.686419+00:00"
+        "planned_at": "2026-11-17T22:27:20.220073+00:00"
       }
     },
     "26621": {
@@ -218976,5 +218982,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:27:16.974786+00:00"
+  "updated_at": "2026-11-17T22:27:22.094265+00:00"
 }
