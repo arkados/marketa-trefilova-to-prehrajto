@@ -128431,13 +128431,6 @@
           "source_id": "7124354",
           "target_video_id": "30986644",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:34:54.225806+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7124354",
-          "target_video_id": "30986644",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:52:08.292696+00:00"
         },
         {
@@ -128446,12 +128439,19 @@
           "target_video_id": "30986644",
           "permanent": false,
           "attempted_at": "2026-11-17T17:28:14.397654+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7124354",
+          "target_video_id": "30986644",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:40:05.213475+00:00"
         }
       ],
       "last_plan": {
         "source_id": "7124354",
         "display_name": "Falco: Damn It, We're Still Alive! (Falco - Verdammt, wir leben noch!) SD CZ Dabing",
-        "planned_at": "2026-11-17T17:28:10.090866+00:00"
+        "planned_at": "2026-11-17T18:40:00.889219+00:00"
       },
       "previous_target_id": "30986644",
       "prepared": {
@@ -170293,11 +170293,22 @@
       "last_plan": {
         "source_id": "33689662",
         "display_name": "Intacto 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:39:54.914632+00:00"
+        "planned_at": "2026-11-17T18:40:01.121504+00:00"
+      },
+      "claim": {
+        "worker_id": "d5913ca1e3cf49a187c7bd52796c1be2-shard-0",
+        "claimed_at": "2026-11-17T18:40:01.788653+00:00",
+        "lease_expires_at": "2026-11-18T00:40:01.788653+00:00",
+        "run_id": "44093224298"
       }
     },
     "10722": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34133526",
+        "display_name": "Destry 1080p CZ Dabing",
+        "planned_at": "2026-11-17T18:40:01.264951+00:00"
+      }
     },
     "32115": {
       "attempts": []
@@ -217961,5 +217972,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:39:57.434816+00:00"
+  "updated_at": "2026-11-17T18:40:05.213492+00:00"
 }
