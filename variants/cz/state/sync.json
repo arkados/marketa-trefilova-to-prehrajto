@@ -120759,13 +120759,6 @@
           "source_id": "34453326",
           "target_video_id": "30985025",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:58:09.911531+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34453326",
-          "target_video_id": "30985025",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:17:09.822926+00:00"
         },
         {
@@ -120774,6 +120767,13 @@
           "target_video_id": "30985025",
           "permanent": false,
           "attempted_at": "2026-11-17T15:36:56.171787+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34453326",
+          "target_video_id": "30985025",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:11:04.972020+00:00"
         }
       ],
       "last_plan": {
@@ -120816,7 +120816,7 @@
       "last_plan": {
         "source_id": "17805705",
         "display_name": "Ballerina (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:36:54.890435+00:00"
+        "planned_at": "2026-11-17T17:11:03.844584+00:00"
       },
       "previous_target_id": "30985024",
       "prepared": {
@@ -120824,6 +120824,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T18:36:07.983562+00:00",
         "relay_source_id": "17805705"
+      },
+      "claim": {
+        "worker_id": "df34b900355747b9a53aa592d011aeb4-shard-0",
+        "claimed_at": "2026-11-17T17:11:04.512625+00:00",
+        "lease_expires_at": "2026-11-17T23:11:04.512625+00:00",
+        "run_id": "44093224298"
       }
     },
     "21367": {
@@ -169827,7 +169833,7 @@
       "last_plan": {
         "source_id": "11702952",
         "display_name": "Asterix: The Secret of the Magic Potion (Astérix: Le Secret de la potion magique) 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:11:01.339025+00:00"
+        "planned_at": "2026-11-17T17:11:04.088690+00:00"
       }
     },
     "21373": {
@@ -217582,5 +217588,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:11:01.502577+00:00"
+  "updated_at": "2026-11-17T17:11:04.972041+00:00"
 }
