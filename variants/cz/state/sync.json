@@ -139456,6 +139456,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T06:57:58.086618+00:00",
         "relay_source_id": "34902657"
+      },
+      "claim": {
+        "worker_id": "92298cf23c2c40c89c16bb60303ae9a8-shard-0",
+        "claimed_at": "2026-11-17T02:59:59.249282+00:00",
+        "lease_expires_at": "2026-11-17T08:59:59.249282+00:00",
+        "run_id": "43981967428"
       }
     },
     "17553": {
@@ -165133,17 +165139,19 @@
       "attempts": []
     },
     "22565": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27571306",
+          "target_video_id": "31106309",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:00:00.043763+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27571306",
         "display_name": "Espion, lève-toi (Spy, Stand Up) 720p CZ Dabing",
         "planned_at": "2026-11-17T02:56:18.418896+00:00"
-      },
-      "claim": {
-        "worker_id": "6dc70b6007ef4a72b6b993dd46f10ed8-shard-0",
-        "claimed_at": "2026-11-17T02:56:21.224351+00:00",
-        "lease_expires_at": "2026-11-17T08:56:21.224351+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31106309",
       "prepared": {
@@ -213738,5 +213746,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T02:59:56.148172+00:00"
+  "updated_at": "2026-11-17T03:00:00.043782+00:00"
 }
