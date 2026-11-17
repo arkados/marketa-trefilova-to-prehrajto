@@ -166307,17 +166307,19 @@
       "attempts": []
     },
     "3279": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30892006",
+          "target_video_id": "31111794",
+          "permanent": false,
+          "attempted_at": "2026-11-17T07:10:51.709309+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30892006",
         "display_name": "November (Novembre) 1080p CZ Dabing",
         "planned_at": "2026-11-17T06:58:13.884426+00:00"
-      },
-      "claim": {
-        "worker_id": "7c14125ab4044abf9f38915f3bc0f948-shard-0",
-        "claimed_at": "2026-11-17T06:58:16.853081+00:00",
-        "lease_expires_at": "2026-11-17T12:58:16.853081+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31111794",
       "prepared": {
@@ -214687,5 +214689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T07:10:49.512544+00:00"
+  "updated_at": "2026-11-17T07:10:51.709331+00:00"
 }
