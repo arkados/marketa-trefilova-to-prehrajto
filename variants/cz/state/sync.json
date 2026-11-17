@@ -107450,13 +107450,6 @@
           "source_id": "34751129",
           "target_video_id": "30983121",
           "permanent": false,
-          "attempted_at": "2026-11-17T02:05:07.633907+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34751129",
-          "target_video_id": "30983121",
-          "permanent": false,
           "attempted_at": "2026-11-17T03:27:04.458568+00:00"
         },
         {
@@ -107465,6 +107458,13 @@
           "target_video_id": "30983121",
           "permanent": false,
           "attempted_at": "2026-11-17T04:50:17.997978+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34751129",
+          "target_video_id": "30983121",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:14:24.490054+00:00"
         }
       ],
       "last_plan": {
@@ -141893,7 +141893,7 @@
       "last_plan": {
         "source_id": "22069348",
         "display_name": "Prípad pro rybáre (Případ pro rybáře) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T04:50:28.036134+00:00"
+        "planned_at": "2026-11-17T06:14:22.863994+00:00"
       },
       "previous_target_id": "30988344",
       "prepared": {
@@ -141901,6 +141901,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T08:12:54.569713+00:00",
         "relay_source_id": "22069348"
+      },
+      "claim": {
+        "worker_id": "0204a08a42614e10909652eea1db043f-shard-0",
+        "claimed_at": "2026-11-17T06:14:24.065118+00:00",
+        "lease_expires_at": "2026-11-17T12:14:24.065118+00:00",
+        "run_id": "44012569640"
       }
     },
     "32326": {
@@ -166009,7 +166015,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T06:14:19.466877+00:00"
+        "planned_at": "2026-11-17T06:14:23.234093+00:00"
       }
     },
     "22145": {
@@ -214424,5 +214430,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:14:19.780392+00:00"
+  "updated_at": "2026-11-17T06:14:24.490072+00:00"
 }
