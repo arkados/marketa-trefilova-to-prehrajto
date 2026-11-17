@@ -141833,13 +141833,6 @@
           "source_id": "30436273",
           "target_video_id": "30988335",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:04:22.044840+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30436273",
-          "target_video_id": "30988335",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:21:14.915529+00:00"
         },
         {
@@ -141848,6 +141841,13 @@
           "target_video_id": "30988335",
           "permanent": false,
           "attempted_at": "2026-11-17T11:37:20.381253+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30436273",
+          "target_video_id": "30988335",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:51:29.818797+00:00"
         }
       ],
       "last_plan": {
@@ -141861,12 +141861,6 @@
         "size_bytes": 803900000,
         "prepared_at": "2026-11-11T08:12:00.885093+00:00",
         "relay_source_id": "30436273"
-      },
-      "claim": {
-        "worker_id": "3ee222e1388143fd9a11961f52d26e2e-shard-0",
-        "claimed_at": "2026-11-17T12:51:27.331661+00:00",
-        "lease_expires_at": "2026-11-17T18:51:27.331661+00:00",
-        "run_id": "44078950078"
       }
     },
     "12705": {
@@ -143715,7 +143709,7 @@
       "last_plan": {
         "source_id": "31011202",
         "display_name": "The Christening Party (Křtiny) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:37:19.100785+00:00"
+        "planned_at": "2026-11-17T12:51:30.573625+00:00"
       },
       "previous_target_id": "30988658",
       "prepared": {
@@ -168377,7 +168371,7 @@
       "last_plan": {
         "source_id": "31624003",
         "display_name": "River Rascals (Špunti na vodě) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:51:24.803276+00:00"
+        "planned_at": "2026-11-17T12:51:30.876909+00:00"
       }
     },
     "26850": {
@@ -168390,7 +168384,12 @@
       "attempts": []
     },
     "15632": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29103590",
+        "display_name": "Las buenas compañías 720p CZ Dabing",
+        "planned_at": "2026-11-17T12:51:31.063949+00:00"
+      }
     },
     "11160": {
       "attempts": []
@@ -216399,5 +216398,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:51:27.331688+00:00"
+  "updated_at": "2026-11-17T12:51:31.063963+00:00"
 }
