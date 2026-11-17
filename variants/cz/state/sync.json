@@ -110112,13 +110112,6 @@
           "source_id": "30160689",
           "target_video_id": "30983693",
           "permanent": false,
-          "attempted_at": "2026-11-16T17:47:28.404057+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30160689",
-          "target_video_id": "30983693",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:41:16.165506+00:00"
         },
         {
@@ -110127,6 +110120,13 @@
           "target_video_id": "30983693",
           "permanent": false,
           "attempted_at": "2026-11-17T00:03:49.742899+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30160689",
+          "target_video_id": "30983693",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:22:05.272949+00:00"
         }
       ],
       "last_plan": {
@@ -124292,7 +124292,7 @@
       "last_plan": {
         "source_id": "33064122",
         "display_name": "Taboo 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:03:52.178835+00:00"
+        "planned_at": "2026-11-17T01:22:03.232484+00:00"
       },
       "previous_target_id": "30985714",
       "prepared": {
@@ -124300,6 +124300,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T21:26:39.868620+00:00",
         "relay_source_id": "33064122"
+      },
+      "claim": {
+        "worker_id": "f5225c6492b74af880ed5359506fd58a-shard-0",
+        "claimed_at": "2026-11-17T01:22:04.307825+00:00",
+        "lease_expires_at": "2026-11-17T07:22:04.307825+00:00",
+        "run_id": "43981967428"
       }
     },
     "19272": {
@@ -164899,7 +164905,7 @@
       "last_plan": {
         "source_id": "10596276",
         "display_name": "From Time to Time SD CZ Dabing",
-        "planned_at": "2026-11-17T01:22:00.592880+00:00"
+        "planned_at": "2026-11-17T01:22:03.632884+00:00"
       }
     },
     "36970": {
@@ -213512,5 +213518,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:22:00.592898+00:00"
+  "updated_at": "2026-11-17T01:22:05.272967+00:00"
 }
