@@ -130571,13 +130571,6 @@
           "source_id": "27699157",
           "target_video_id": "30986910",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:37:48.934573+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27699157",
-          "target_video_id": "30986910",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:52:49.733906+00:00"
         },
         {
@@ -130586,6 +130579,13 @@
           "target_video_id": "30986910",
           "permanent": false,
           "attempted_at": "2026-11-17T21:24:17.654048+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27699157",
+          "target_video_id": "30986910",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:53:54.373858+00:00"
         }
       ],
       "last_plan": {
@@ -136710,7 +136710,7 @@
       "last_plan": {
         "source_id": "30864308",
         "display_name": "Florián SD CZ Dabing",
-        "planned_at": "2026-11-17T21:24:17.020017+00:00"
+        "planned_at": "2026-11-17T22:53:52.462462+00:00"
       },
       "previous_target_id": "30987706",
       "prepared": {
@@ -136718,6 +136718,12 @@
         "size_bytes": 881300000,
         "prepared_at": "2026-11-11T05:44:40.450348+00:00",
         "relay_source_id": "30864308"
+      },
+      "claim": {
+        "worker_id": "1bf8331bae1e422692e015ead4b66b68-shard-0",
+        "claimed_at": "2026-11-17T22:53:53.852699+00:00",
+        "lease_expires_at": "2026-11-18T04:53:53.852699+00:00",
+        "run_id": "44170464010"
       }
     },
     "31989": {
@@ -171666,11 +171672,22 @@
       "last_plan": {
         "source_id": "12215378",
         "display_name": "The Kindergarten Teacher SD CZ Dabing",
-        "planned_at": "2026-11-17T22:53:46.381751+00:00"
+        "planned_at": "2026-11-17T22:53:52.787665+00:00"
+      },
+      "claim": {
+        "worker_id": "961886e201ce4c829de23f437d6f0b66-shard-0",
+        "claimed_at": "2026-11-17T22:53:54.046091+00:00",
+        "lease_expires_at": "2026-11-18T04:53:54.046091+00:00",
+        "run_id": "44170464010"
       }
     },
     "9102": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26227581",
+        "display_name": "Pepa 1080p CZ Dabing",
+        "planned_at": "2026-11-17T22:53:53.027553+00:00"
+      }
     },
     "27931": {
       "attempts": []
@@ -219091,5 +219108,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:53:46.636359+00:00"
+  "updated_at": "2026-11-17T22:53:54.373877+00:00"
 }
