@@ -119835,13 +119835,6 @@
           "source_id": "32925561",
           "target_video_id": "30984968",
           "permanent": false,
-          "attempted_at": "2026-11-16T16:18:28.827079+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32925561",
-          "target_video_id": "30984968",
-          "permanent": false,
           "attempted_at": "2026-11-16T20:32:56.831333+00:00"
         },
         {
@@ -119850,6 +119843,13 @@
           "target_video_id": "30984968",
           "permanent": false,
           "attempted_at": "2026-11-16T22:04:07.826805+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32925561",
+          "target_video_id": "30984968",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:25:44.477065+00:00"
         }
       ],
       "last_plan": {
@@ -127282,7 +127282,7 @@
       "last_plan": {
         "source_id": "30853709",
         "display_name": "Scooby-Doo! Stage Fright 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:04:07.317437+00:00"
+        "planned_at": "2026-11-17T00:25:43.053628+00:00"
       },
       "previous_target_id": "30986389",
       "prepared": {
@@ -127290,6 +127290,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T00:16:03.909965+00:00",
         "relay_source_id": "30853709"
+      },
+      "claim": {
+        "worker_id": "5bdc7d16c7174e9ea7bee3c07e633e91-shard-0",
+        "claimed_at": "2026-11-17T00:25:43.898569+00:00",
+        "lease_expires_at": "2026-11-17T06:25:43.898569+00:00",
+        "run_id": "43981967428"
       }
     },
     "17039": {
@@ -164744,7 +164750,7 @@
       "last_plan": {
         "source_id": "30739424",
         "display_name": "Prime Cut 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:25:40.139989+00:00"
+        "planned_at": "2026-11-17T00:25:43.352703+00:00"
       }
     },
     "15926": {
@@ -213369,5 +213375,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:25:40.459298+00:00"
+  "updated_at": "2026-11-17T00:25:44.477083+00:00"
 }
