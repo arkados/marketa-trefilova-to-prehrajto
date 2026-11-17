@@ -109256,7 +109256,7 @@
       "last_plan": {
         "source_id": "34686041",
         "display_name": "Princové jsou na draka 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:43:18.305702+00:00"
+        "planned_at": "2026-11-17T12:57:23.406024+00:00"
       },
       "previous_target_id": "30983624",
       "prepared": {
@@ -109264,6 +109264,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T14:23:31.273129+00:00",
         "relay_source_id": "34686041"
+      },
+      "claim": {
+        "worker_id": "f20e3d2bcf15496c82f555889f6a222e-shard-0",
+        "claimed_at": "2026-11-17T12:57:24.360783+00:00",
+        "lease_expires_at": "2026-11-17T18:57:24.360783+00:00",
+        "run_id": "44078950078"
       }
     },
     "11527": {
@@ -111924,13 +111930,6 @@
           "source_id": "27757295",
           "target_video_id": "30983821",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:10:11.048449+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27757295",
-          "target_video_id": "30983821",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:27:04.754722+00:00"
         },
         {
@@ -111939,6 +111938,13 @@
           "target_video_id": "30983821",
           "permanent": false,
           "attempted_at": "2026-11-17T11:43:18.907156+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27757295",
+          "target_video_id": "30983821",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:57:24.611730+00:00"
         }
       ],
       "last_plan": {
@@ -168405,17 +168411,19 @@
       "attempts": []
     },
     "15632": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29103590",
+          "target_video_id": "31118700",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:57:24.831174+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29103590",
         "display_name": "Las buenas compañías 720p CZ Dabing",
         "planned_at": "2026-11-17T12:53:36.615525+00:00"
-      },
-      "claim": {
-        "worker_id": "278e8d2e780d45638b4483ee70e84238-shard-0",
-        "claimed_at": "2026-11-17T12:53:39.190813+00:00",
-        "lease_expires_at": "2026-11-17T18:53:39.190813+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31118700",
       "prepared": {
@@ -168430,7 +168438,7 @@
       "last_plan": {
         "source_id": "12139621",
         "display_name": "Breakheart Pass 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:57:20.502047+00:00"
+        "planned_at": "2026-11-17T12:57:23.716448+00:00"
       }
     },
     "14611": {
@@ -216437,5 +216445,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:57:20.774389+00:00"
+  "updated_at": "2026-11-17T12:57:24.831195+00:00"
 }
