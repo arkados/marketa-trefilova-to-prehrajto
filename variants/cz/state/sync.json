@@ -115796,7 +115796,7 @@
       "last_plan": {
         "source_id": "24757259",
         "display_name": "Something's Gotta Give 1080p CZ Dabing",
-        "planned_at": "2026-11-17T06:39:34.656864+00:00"
+        "planned_at": "2026-11-17T08:16:08.320879+00:00"
       },
       "previous_target_id": "30984631",
       "prepared": {
@@ -166693,17 +166693,19 @@
       }
     },
     "16143": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694571",
+          "target_video_id": "31113413",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:16:08.613734+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694571",
         "display_name": "Just a Couple of Days (Quelques jours pas plus) 1080p CZ Dabing",
         "planned_at": "2026-11-17T08:10:06.840062+00:00"
-      },
-      "claim": {
-        "worker_id": "f4ba6cbeeca444da997e45b9e973e591-shard-0",
-        "claimed_at": "2026-11-17T08:10:09.683758+00:00",
-        "lease_expires_at": "2026-11-17T14:10:09.683758+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31113413",
       "prepared": {
@@ -215022,5 +215024,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:16:06.041896+00:00"
+  "updated_at": "2026-11-17T08:16:08.613755+00:00"
 }
