@@ -110249,13 +110249,6 @@
     "12647": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "34634766",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T16:01:53.019163+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "34634766",
           "target_video_id": "30983705",
@@ -110268,12 +110261,19 @@
           "target_video_id": "30983705",
           "permanent": false,
           "attempted_at": "2026-11-16T21:48:24.195112+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34634766",
+          "target_video_id": "30983705",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:10:45.427975+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34634766",
         "display_name": "Andula Won (Andula vyhrála) 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:48:18.933867+00:00"
+        "planned_at": "2026-11-17T00:10:43.028770+00:00"
       },
       "previous_target_id": "30983705",
       "prepared": {
@@ -164693,7 +164693,7 @@
       "last_plan": {
         "source_id": "30643097",
         "display_name": "Amerika SD CZ Dabing",
-        "planned_at": "2026-11-17T00:10:38.765963+00:00"
+        "planned_at": "2026-11-17T00:10:43.363192+00:00"
       }
     },
     "11089": {
@@ -213321,5 +213321,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:10:40.872662+00:00"
+  "updated_at": "2026-11-17T00:10:45.427993+00:00"
 }
