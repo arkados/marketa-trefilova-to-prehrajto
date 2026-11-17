@@ -115202,13 +115202,6 @@
           "source_id": "30903286",
           "target_video_id": "30984508",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:41:50.296292+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30903286",
-          "target_video_id": "30984508",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:59:29.881315+00:00"
         },
         {
@@ -115217,6 +115210,13 @@
           "target_video_id": "30984508",
           "permanent": false,
           "attempted_at": "2026-11-17T12:16:18.301823+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30903286",
+          "target_video_id": "30984508",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:30:51.163118+00:00"
         }
       ],
       "last_plan": {
@@ -127807,7 +127807,7 @@
       "last_plan": {
         "source_id": "32484287",
         "display_name": "Christmas in Conway 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:16:17.758235+00:00"
+        "planned_at": "2026-11-17T13:30:49.931041+00:00"
       },
       "previous_target_id": "30986499",
       "prepared": {
@@ -127815,6 +127815,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T00:40:39.948679+00:00",
         "relay_source_id": "32484287"
+      },
+      "claim": {
+        "worker_id": "dd38d58280834ded94cbe0246550a24a-shard-0",
+        "claimed_at": "2026-11-17T13:30:50.932886+00:00",
+        "lease_expires_at": "2026-11-17T19:30:50.932886+00:00",
+        "run_id": "44078950078"
       }
     },
     "16080": {
@@ -168781,7 +168787,7 @@
       "last_plan": {
         "source_id": "10600818",
         "display_name": "Backstage (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:30:47.404406+00:00"
+        "planned_at": "2026-11-17T13:30:50.275409+00:00"
       }
     },
     "21689": {
@@ -216728,5 +216734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:30:47.404423+00:00"
+  "updated_at": "2026-11-17T13:30:51.163137+00:00"
 }
