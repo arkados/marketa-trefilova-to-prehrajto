@@ -126316,7 +126316,7 @@
       "last_plan": {
         "source_id": "6506542",
         "display_name": "Play Dirty (1969) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:29:43.220848+00:00"
+        "planned_at": "2026-11-17T06:55:44.284240+00:00"
       },
       "previous_target_id": "30986163",
       "prepared": {
@@ -137158,13 +137158,6 @@
           "source_id": "34861474",
           "target_video_id": "30987752",
           "permanent": false,
-          "attempted_at": "2026-11-17T02:42:41.716569+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34861474",
-          "target_video_id": "30987752",
-          "permanent": false,
           "attempted_at": "2026-11-17T04:04:23.793746+00:00"
         },
         {
@@ -137173,6 +137166,13 @@
           "target_video_id": "30987752",
           "permanent": false,
           "attempted_at": "2026-11-17T05:29:45.169587+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34861474",
+          "target_video_id": "30987752",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:55:44.647403+00:00"
         }
       ],
       "last_plan": {
@@ -137186,12 +137186,6 @@
         "size_bytes": 5900000000,
         "prepared_at": "2026-11-11T05:55:32.167140+00:00",
         "relay_source_id": "34861474"
-      },
-      "claim": {
-        "worker_id": "66697d4388574478986348954b16d176-shard-0",
-        "claimed_at": "2026-11-17T06:55:40.316817+00:00",
-        "lease_expires_at": "2026-11-17T12:55:40.316817+00:00",
-        "run_id": "44012569640"
       }
     },
     "27047": {
@@ -166197,17 +166191,19 @@
       "attempts": []
     },
     "15503": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35183705",
+          "target_video_id": "31111676",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:55:44.872610+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35183705",
         "display_name": "Say Forever (Zejtra napořád) 1080p CZ Dabing",
         "planned_at": "2026-11-17T06:52:59.606396+00:00"
-      },
-      "claim": {
-        "worker_id": "0e541ee39cca4a29a5bd23f4dbe9ef81-shard-0",
-        "claimed_at": "2026-11-17T06:53:03.009958+00:00",
-        "lease_expires_at": "2026-11-17T12:53:03.009958+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31111676",
       "prepared": {
@@ -214607,5 +214603,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:55:40.660304+00:00"
+  "updated_at": "2026-11-17T06:55:44.872630+00:00"
 }
