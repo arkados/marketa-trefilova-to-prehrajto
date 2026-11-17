@@ -168512,17 +168512,19 @@
       "attempts": []
     },
     "6941": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31323441",
+          "target_video_id": "31118917",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:05:53.370614+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31323441",
         "display_name": "The Watchmaker's Apprentice (Hodinářův učeň) 1080p CZ Dabing",
         "planned_at": "2026-11-17T13:04:03.821461+00:00"
-      },
-      "claim": {
-        "worker_id": "1794d0ffdfef47fb93ac038264dd711e-shard-0",
-        "claimed_at": "2026-11-17T13:04:06.702919+00:00",
-        "lease_expires_at": "2026-11-17T19:04:06.702919+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31118917",
       "prepared": {
@@ -216520,5 +216522,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:05:51.099601+00:00"
+  "updated_at": "2026-11-17T13:05:53.370631+00:00"
 }
