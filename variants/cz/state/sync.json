@@ -133935,6 +133935,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T04:21:19.566129+00:00",
         "relay_source_id": "24359415"
+      },
+      "claim": {
+        "worker_id": "cac86fe47d3a4d4982f4828f5279a8be-shard-0",
+        "claimed_at": "2026-11-17T22:49:46.275097+00:00",
+        "lease_expires_at": "2026-11-18T04:49:46.275097+00:00",
+        "run_id": "44170464010"
       }
     },
     "32584": {
@@ -134840,13 +134846,6 @@
           "source_id": "33494979",
           "target_video_id": "30987504",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:34:33.582950+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33494979",
-          "target_video_id": "30987504",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:48:42.819255+00:00"
         },
         {
@@ -134855,6 +134854,13 @@
           "target_video_id": "30987504",
           "permanent": false,
           "attempted_at": "2026-11-17T21:20:22.129718+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33494979",
+          "target_video_id": "30987504",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:49:46.913442+00:00"
         }
       ],
       "last_plan": {
@@ -134868,12 +134874,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T05:01:41.646370+00:00",
         "relay_source_id": "33494979"
-      },
-      "claim": {
-        "worker_id": "230a469793644e2894d7db46c2f7219b-shard-0",
-        "claimed_at": "2026-11-17T22:49:42.322775+00:00",
-        "lease_expires_at": "2026-11-18T04:49:42.322775+00:00",
-        "run_id": "44170464010"
       }
     },
     "11032": {
@@ -142130,7 +142130,7 @@
       "last_plan": {
         "source_id": "34327399",
         "display_name": "The Peacock Feather (Pávie pierko) SD CZ Dabing",
-        "planned_at": "2026-11-17T21:20:24.890083+00:00"
+        "planned_at": "2026-11-17T22:49:47.145483+00:00"
       },
       "previous_target_id": "30988418",
       "prepared": {
@@ -171614,7 +171614,7 @@
       "last_plan": {
         "source_id": "33856169",
         "display_name": "Dirty Soul (Duše jako kaviár) 4K CZ Dabing",
-        "planned_at": "2026-11-17T22:49:42.875248+00:00"
+        "planned_at": "2026-11-17T22:49:47.496183+00:00"
       }
     },
     "3520": {
@@ -219048,5 +219048,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:49:42.875265+00:00"
+  "updated_at": "2026-11-17T22:49:47.496200+00:00"
 }
