@@ -111478,13 +111478,6 @@
           "source_id": "34470304",
           "target_video_id": "30983801",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:58:32.809610+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34470304",
-          "target_video_id": "30983801",
-          "permanent": false,
           "attempted_at": "2026-11-17T18:09:57.828688+00:00"
         },
         {
@@ -111493,6 +111486,13 @@
           "target_video_id": "30983801",
           "permanent": false,
           "attempted_at": "2026-11-17T19:27:41.498641+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34470304",
+          "target_video_id": "30983801",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:53:43.081581+00:00"
         }
       ],
       "last_plan": {
@@ -111506,12 +111506,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:49:56.897260+00:00",
         "relay_source_id": "34470304"
-      },
-      "claim": {
-        "worker_id": "5320e9b862464c81a716bc86a2a2ad12-shard-0",
-        "claimed_at": "2026-11-17T20:53:39.126870+00:00",
-        "lease_expires_at": "2026-11-18T02:53:39.126870+00:00",
-        "run_id": "44170464010"
       }
     },
     "12710": {
@@ -111547,7 +111541,7 @@
       "last_plan": {
         "source_id": "34710916",
         "display_name": "The Great Nothing 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:27:40.939519+00:00"
+        "planned_at": "2026-11-17T20:53:41.905497+00:00"
       },
       "previous_target_id": "30983802",
       "prepared": {
@@ -111555,6 +111549,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:50:04.632161+00:00",
         "relay_source_id": "34710916"
+      },
+      "claim": {
+        "worker_id": "2f9489eca75a4db0a45d63b110ab192e-shard-0",
+        "claimed_at": "2026-11-17T20:53:42.767882+00:00",
+        "lease_expires_at": "2026-11-18T02:53:42.767882+00:00",
+        "run_id": "44170464010"
       }
     },
     "21346": {
@@ -170980,7 +170980,7 @@
       "last_plan": {
         "source_id": "34910384",
         "display_name": "Rains Over Babel 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:53:38.477187+00:00"
+        "planned_at": "2026-11-17T20:53:42.238673+00:00"
       }
     },
     "7221": {
@@ -218534,5 +218534,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:53:39.689859+00:00"
+  "updated_at": "2026-11-17T20:53:43.081601+00:00"
 }
