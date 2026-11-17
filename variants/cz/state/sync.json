@@ -119546,7 +119546,7 @@
       "last_plan": {
         "source_id": "25075952",
         "display_name": "Trust (2010) SD CZ Dabing",
-        "planned_at": "2026-11-17T18:46:39.486826+00:00"
+        "planned_at": "2026-11-17T20:04:16.662518+00:00"
       },
       "previous_target_id": "30984939",
       "prepared": {
@@ -119554,6 +119554,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T18:14:19.601271+00:00",
         "relay_source_id": "25075952"
+      },
+      "claim": {
+        "worker_id": "b9c15e2d6d2b483193a23daa8305626c-shard-0",
+        "claimed_at": "2026-11-17T20:04:17.582546+00:00",
+        "lease_expires_at": "2026-11-18T02:04:17.582546+00:00",
+        "run_id": "44093224298"
       }
     },
     "22752": {
@@ -132809,13 +132815,6 @@
           "source_id": "34716844",
           "target_video_id": "30987165",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:57:47.905216+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716844",
-          "target_video_id": "30987165",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:34:33.815873+00:00"
         },
         {
@@ -132824,6 +132823,13 @@
           "target_video_id": "30987165",
           "permanent": false,
           "attempted_at": "2026-11-17T18:46:41.125853+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716844",
+          "target_video_id": "30987165",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:04:18.407620+00:00"
         }
       ],
       "last_plan": {
@@ -170755,11 +170761,22 @@
       "last_plan": {
         "source_id": "34846271",
         "display_name": "We Have a Pope (Habemus Papam) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:04:13.497167+00:00"
+        "planned_at": "2026-11-17T20:04:16.891184+00:00"
+      },
+      "claim": {
+        "worker_id": "bb4d1222e4324ec787cb11137d80b9bf-shard-0",
+        "claimed_at": "2026-11-17T20:04:17.442151+00:00",
+        "lease_expires_at": "2026-11-18T02:04:17.442151+00:00",
+        "run_id": "44093224298"
       }
     },
     "11132": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26408626",
+        "display_name": "All Creatures Great and Small 1080p CZ Dabing",
+        "planned_at": "2026-11-17T20:04:17.045036+00:00"
+      }
     },
     "11033": {
       "attempts": []
@@ -218345,5 +218362,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:04:14.082103+00:00"
+  "updated_at": "2026-11-17T20:04:18.407641+00:00"
 }
