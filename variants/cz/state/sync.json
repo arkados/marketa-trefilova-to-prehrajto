@@ -165372,17 +165372,19 @@
       }
     },
     "21857": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32763438",
+          "target_video_id": "31107368",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:54:37.233361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32763438",
         "display_name": "The Big Restaurant (The Restaurant) 1080p CZ Dabing",
         "planned_at": "2026-11-17T03:50:50.560349+00:00"
-      },
-      "claim": {
-        "worker_id": "94f03d702abe488cb5e281a482ac2493-shard-0",
-        "claimed_at": "2026-11-17T03:50:51.741981+00:00",
-        "lease_expires_at": "2026-11-17T09:50:51.741981+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31107368",
       "prepared": {
@@ -213923,5 +213925,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:54:34.615774+00:00"
+  "updated_at": "2026-11-17T03:54:37.233379+00:00"
 }
