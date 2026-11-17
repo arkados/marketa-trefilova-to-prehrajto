@@ -37557,13 +37557,6 @@
           "source_id": "35376993",
           "target_video_id": "30744174",
           "permanent": false,
-          "attempted_at": "2026-11-17T17:49:20.975922+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35376993",
-          "target_video_id": "30744174",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:04:32.890227+00:00"
         },
         {
@@ -37572,6 +37565,13 @@
           "target_video_id": "30744174",
           "permanent": false,
           "attempted_at": "2026-11-17T20:18:32.536825+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35376993",
+          "target_video_id": "30744174",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:56:17.461456+00:00"
         }
       ],
       "last_plan": {
@@ -126457,7 +126457,7 @@
       "last_plan": {
         "source_id": "12859228",
         "display_name": "Man in the Wilderness 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:18:29.973063+00:00"
+        "planned_at": "2026-11-17T21:56:16.107979+00:00"
       },
       "previous_target_id": "30986203",
       "prepared": {
@@ -126465,6 +126465,12 @@
         "size_bytes": 8900000000,
         "prepared_at": "2026-11-10T23:35:03.735891+00:00",
         "relay_source_id": "12859228"
+      },
+      "claim": {
+        "worker_id": "ea4277ca132749e3b73548cf471489ac-shard-0",
+        "claimed_at": "2026-11-17T21:56:17.196382+00:00",
+        "lease_expires_at": "2026-11-18T03:56:17.196382+00:00",
+        "run_id": "44170464010"
       }
     },
     "17403": {
@@ -171367,7 +171373,7 @@
       "last_plan": {
         "source_id": "35185503",
         "display_name": "Land 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:56:12.755260+00:00"
+        "planned_at": "2026-11-17T21:56:16.443196+00:00"
       }
     },
     "15275": {
@@ -218840,5 +218846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:56:13.036150+00:00"
+  "updated_at": "2026-11-17T21:56:17.461474+00:00"
 }
