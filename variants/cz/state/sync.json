@@ -118605,7 +118605,7 @@
       "last_plan": {
         "source_id": "25787561",
         "display_name": "Florence Foster Jenkins 1080p CZ Dabing",
-        "planned_at": "2026-11-17T07:29:51.316954+00:00"
+        "planned_at": "2026-11-17T08:56:15.986201+00:00"
       },
       "previous_target_id": "30984861",
       "prepared": {
@@ -133424,13 +133424,6 @@
           "source_id": "30864230",
           "target_video_id": "30987287",
           "permanent": false,
-          "attempted_at": "2026-11-17T04:36:57.939613+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30864230",
-          "target_video_id": "30987287",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:03:14.839272+00:00"
         },
         {
@@ -133439,6 +133432,13 @@
           "target_video_id": "30987287",
           "permanent": false,
           "attempted_at": "2026-11-17T07:29:51.971266+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30864230",
+          "target_video_id": "30987287",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:56:16.536058+00:00"
         }
       ],
       "last_plan": {
@@ -133452,12 +133452,6 @@
         "size_bytes": 912100000,
         "prepared_at": "2026-11-11T04:10:15.307743+00:00",
         "relay_source_id": "30864230"
-      },
-      "claim": {
-        "worker_id": "28f3dfd302c04fb4814b90ec9d4f3584-shard-0",
-        "claimed_at": "2026-11-17T08:56:13.365852+00:00",
-        "lease_expires_at": "2026-11-17T14:56:13.365852+00:00",
-        "run_id": "44013593637"
       }
     },
     "31705": {
@@ -167023,17 +167017,19 @@
       "attempts": []
     },
     "14543": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12689703",
+          "target_video_id": "31114344",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:56:16.769790+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12689703",
         "display_name": "O zivot (O život) SD CZ Dabing",
         "planned_at": "2026-11-17T08:54:39.059700+00:00"
-      },
-      "claim": {
-        "worker_id": "ad937d4333144cf8986523c6314ceb38-shard-0",
-        "claimed_at": "2026-11-17T08:54:40.098695+00:00",
-        "lease_expires_at": "2026-11-17T14:54:40.098695+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31114344",
       "prepared": {
@@ -167048,7 +167044,7 @@
       "last_plan": {
         "source_id": "34695025",
         "display_name": "Family Film (Rodinný film) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:56:12.743510+00:00"
+        "planned_at": "2026-11-17T08:56:16.300413+00:00"
       }
     },
     "10897": {
@@ -215283,5 +215279,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:56:13.867808+00:00"
+  "updated_at": "2026-11-17T08:56:16.769806+00:00"
 }
