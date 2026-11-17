@@ -205,13 +205,6 @@
           "source_id": "32109285",
           "target_video_id": "30570341",
           "permanent": false,
-          "attempted_at": "2026-11-17T11:55:44.818056+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32109285",
-          "target_video_id": "30570341",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:12:55.874560+00:00"
         },
         {
@@ -220,6 +213,13 @@
           "target_video_id": "30570341",
           "permanent": false,
           "attempted_at": "2026-11-17T14:29:39.040043+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32109285",
+          "target_video_id": "30570341",
+          "permanent": false,
+          "attempted_at": "2026-11-17T15:49:10.702774+00:00"
         }
       ],
       "last_plan": {
@@ -233,12 +233,6 @@
         "size_bytes": 9500000000,
         "prepared_at": "2026-10-27T18:58:10.341227+00:00",
         "relay_source_id": "32109285"
-      },
-      "claim": {
-        "worker_id": "c93b449e56b54fbd94b28f56cb9853f1-shard-0",
-        "claimed_at": "2026-11-17T15:49:06.676194+00:00",
-        "lease_expires_at": "2026-11-17T21:49:06.676194+00:00",
-        "run_id": "44078950078"
       }
     },
     "10755": {
@@ -14092,7 +14086,7 @@
       "last_plan": {
         "source_id": "18888145",
         "display_name": "The Outlaw Josey Wales 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:29:38.619633+00:00"
+        "planned_at": "2026-11-17T15:49:09.443911+00:00"
       },
       "previous_target_id": "30654220",
       "prepared": {
@@ -14100,6 +14094,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-10-31T03:58:16.842735+00:00",
         "relay_source_id": "18888145"
+      },
+      "claim": {
+        "worker_id": "9091db1f8e6e45d9a99e2e661ec9dbd8-shard-0",
+        "claimed_at": "2026-11-17T15:49:10.450038+00:00",
+        "lease_expires_at": "2026-11-17T21:49:10.450038+00:00",
+        "run_id": "44078950078"
       }
     },
     "22047": {
@@ -169412,7 +169412,7 @@
       "last_plan": {
         "source_id": "30722470",
         "display_name": "After Party 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:49:06.049824+00:00"
+        "planned_at": "2026-11-17T15:49:09.814043+00:00"
       }
     },
     "22528": {
@@ -217260,5 +217260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T15:49:07.171459+00:00"
+  "updated_at": "2026-11-17T15:49:10.702793+00:00"
 }
