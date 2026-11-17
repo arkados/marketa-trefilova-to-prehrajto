@@ -107332,7 +107332,7 @@
       "last_plan": {
         "source_id": "35161768",
         "display_name": "The Stone Table Inn (Hostinec „U kamenného stolu“) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:31:13.857316+00:00"
+        "planned_at": "2026-11-17T17:08:09.412539+00:00"
       },
       "previous_target_id": "30983079",
       "prepared": {
@@ -107340,6 +107340,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T13:50:47.430378+00:00",
         "relay_source_id": "35161768"
+      },
+      "claim": {
+        "worker_id": "d79f58f5570444118d0811773968d9ee-shard-0",
+        "claimed_at": "2026-11-17T17:08:10.416018+00:00",
+        "lease_expires_at": "2026-11-17T23:08:10.416018+00:00",
+        "run_id": "44093224298"
       }
     },
     "31686": {
@@ -169782,17 +169788,19 @@
       }
     },
     "15255": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34735256",
+          "target_video_id": "31123397",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:08:10.956442+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34735256",
         "display_name": "Blackout (380.000 Volt - Der große Stromausfall) (2010) SD CZ Dabing",
         "planned_at": "2026-11-17T17:06:49.215685+00:00"
-      },
-      "claim": {
-        "worker_id": "ce97a72d32394520a164ec697353298e-shard-0",
-        "claimed_at": "2026-11-17T17:06:49.970939+00:00",
-        "lease_expires_at": "2026-11-17T23:06:49.970939+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31123397",
       "prepared": {
@@ -169810,7 +169818,7 @@
       "last_plan": {
         "source_id": "30421345",
         "display_name": "Exodus (1960) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:08:05.117278+00:00"
+        "planned_at": "2026-11-17T17:08:09.633050+00:00"
       }
     },
     "3388": {
@@ -217568,5 +217576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:08:07.094922+00:00"
+  "updated_at": "2026-11-17T17:08:10.956459+00:00"
 }
