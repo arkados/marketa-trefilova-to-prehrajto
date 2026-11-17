@@ -141833,13 +141833,6 @@
           "source_id": "30436273",
           "target_video_id": "30988335",
           "permanent": false,
-          "attempted_at": "2026-11-17T06:09:29.456977+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30436273",
-          "target_video_id": "30988335",
-          "permanent": false,
           "attempted_at": "2026-11-17T07:35:57.749695+00:00"
         },
         {
@@ -141848,6 +141841,13 @@
           "target_video_id": "30988335",
           "permanent": false,
           "attempted_at": "2026-11-17T09:04:22.044840+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30436273",
+          "target_video_id": "30988335",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:21:14.915529+00:00"
         }
       ],
       "last_plan": {
@@ -143709,7 +143709,7 @@
       "last_plan": {
         "source_id": "31011202",
         "display_name": "The Christening Party (Křtiny) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:04:21.083427+00:00"
+        "planned_at": "2026-11-17T10:21:13.331383+00:00"
       },
       "previous_target_id": "30988658",
       "prepared": {
@@ -143717,6 +143717,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T09:07:30.175373+00:00",
         "relay_source_id": "31011202"
+      },
+      "claim": {
+        "worker_id": "2ba1096b9025498eb6dd1cff241a3f3f-shard-0",
+        "claimed_at": "2026-11-17T10:21:14.223562+00:00",
+        "lease_expires_at": "2026-11-17T16:21:14.223562+00:00",
+        "run_id": "44013593637"
       }
     },
     "33112": {
@@ -167585,7 +167591,7 @@
       "last_plan": {
         "source_id": "29053755",
         "display_name": "Kurz manzelské touhy (Kurz manželské touhy) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:21:10.813669+00:00"
+        "planned_at": "2026-11-17T10:21:13.650584+00:00"
       }
     },
     "23750": {
@@ -215742,5 +215748,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:21:10.813687+00:00"
+  "updated_at": "2026-11-17T10:21:14.915563+00:00"
 }
