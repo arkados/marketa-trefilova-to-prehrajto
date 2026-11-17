@@ -132369,13 +132369,6 @@
           "source_id": "25018592",
           "target_video_id": "30987121",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:29:40.449288+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25018592",
-          "target_video_id": "30987121",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:45:47.063641+00:00"
         },
         {
@@ -132384,6 +132377,13 @@
           "target_video_id": "30987121",
           "permanent": false,
           "attempted_at": "2026-11-17T12:59:58.426267+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25018592",
+          "target_video_id": "30987121",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:19:02.173524+00:00"
         }
       ],
       "last_plan": {
@@ -166273,7 +166273,7 @@
       "last_plan": {
         "source_id": "34847633",
         "display_name": "Secret Name (La Place d'une autre) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:59:56.804896+00:00"
+        "planned_at": "2026-11-17T14:19:01.037900+00:00"
       },
       "previous_target_id": "31110339",
       "prepared": {
@@ -166281,6 +166281,12 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-11-17T05:58:14.226533+00:00",
         "relay_source_id": "34847633"
+      },
+      "claim": {
+        "worker_id": "fdf76c04334e46408d42800a59948531-shard-0",
+        "claimed_at": "2026-11-17T14:19:02.391159+00:00",
+        "lease_expires_at": "2026-11-17T20:19:02.391159+00:00",
+        "run_id": "44078950078"
       }
     },
     "10752": {
@@ -168984,7 +168990,7 @@
       "last_plan": {
         "source_id": "33846398",
         "display_name": "St. Peter's Key (Klíč svatého Petra) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:18:56.621629+00:00"
+        "planned_at": "2026-11-17T14:19:01.361713+00:00"
       }
     },
     "23234": {
@@ -216904,5 +216910,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:18:56.887472+00:00"
+  "updated_at": "2026-11-17T14:19:02.391184+00:00"
 }
