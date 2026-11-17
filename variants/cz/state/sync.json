@@ -109784,13 +109784,6 @@
           "source_id": "34712454",
           "target_video_id": "30983676",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:18:20.361244+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34712454",
-          "target_video_id": "30983676",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:37:27.363828+00:00"
         },
         {
@@ -109799,6 +109792,13 @@
           "target_video_id": "30983676",
           "permanent": false,
           "attempted_at": "2026-11-17T15:54:29.265118+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34712454",
+          "target_video_id": "30983676",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:30:54.283559+00:00"
         }
       ],
       "last_plan": {
@@ -136787,7 +136787,7 @@
       "last_plan": {
         "source_id": "19686604",
         "display_name": "Volným pádem 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:54:28.679823+00:00"
+        "planned_at": "2026-11-17T17:30:53.028107+00:00"
       },
       "previous_target_id": "30987716",
       "prepared": {
@@ -136795,6 +136795,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
+      },
+      "claim": {
+        "worker_id": "22c8d9d6c24f4fb896b54cf2404cbaf3-shard-0",
+        "claimed_at": "2026-11-17T17:30:53.691541+00:00",
+        "lease_expires_at": "2026-11-17T23:30:53.691541+00:00",
+        "run_id": "44093224298"
       }
     },
     "31573": {
@@ -169850,7 +169856,7 @@
       "last_plan": {
         "source_id": "34788955",
         "display_name": "The Robe SD CZ Dabing",
-        "planned_at": "2026-11-17T17:30:50.535825+00:00"
+        "planned_at": "2026-11-17T17:30:53.263495+00:00"
       }
     },
     "16436": {
@@ -217602,5 +217608,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:30:50.834090+00:00"
+  "updated_at": "2026-11-17T17:30:54.283577+00:00"
 }
