@@ -22138,6 +22138,12 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-11-10T15:46:16.176627+00:00",
         "relay_source_id": "28930526"
+      },
+      "claim": {
+        "worker_id": "10645feef1df459dbe2737b1901769f5-shard-0",
+        "claimed_at": "2026-11-17T14:32:31.319845+00:00",
+        "lease_expires_at": "2026-11-17T20:32:31.319845+00:00",
+        "run_id": "44078950078"
       }
     },
     "19061": {
@@ -22648,7 +22654,7 @@
       "last_plan": {
         "source_id": "27648883",
         "display_name": "The Most Dangerous Game 1080p CZ titulky",
-        "planned_at": "2026-11-17T14:02:21.602157+00:00"
+        "planned_at": "2026-11-17T14:32:32.018402+00:00"
       },
       "previous_target_id": "30987757",
       "prepared": {
@@ -22924,13 +22930,6 @@
           "source_id": "32361142",
           "target_video_id": "30988608",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:02:01.541991+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32361142",
-          "target_video_id": "30988608",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:32:08.288793+00:00"
         },
         {
@@ -22939,6 +22938,13 @@
           "target_video_id": "30988608",
           "permanent": false,
           "attempted_at": "2026-11-17T14:02:12.328404+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32361142",
+          "target_video_id": "30988608",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:32:31.237550+00:00"
         }
       ],
       "last_plan": {
@@ -22952,12 +22958,6 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T08:54:59.112446+00:00",
         "relay_source_id": "32361142"
-      },
-      "claim": {
-        "worker_id": "ed11a5d4567443f6a8d01e1865e9d6dc-shard-0",
-        "claimed_at": "2026-11-17T14:32:27.827169+00:00",
-        "lease_expires_at": "2026-11-17T20:32:27.827169+00:00",
-        "run_id": "44078950078"
       }
     },
     "19714": {
@@ -100750,5 +100750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:32:28.620191+00:00"
+  "updated_at": "2026-11-17T14:32:32.018415+00:00"
 }
