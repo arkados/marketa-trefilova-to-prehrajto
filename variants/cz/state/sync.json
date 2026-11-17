@@ -129765,13 +129765,6 @@
           "source_id": "30726013",
           "target_video_id": "30986834",
           "permanent": false,
-          "attempted_at": "2026-11-17T11:16:27.894661+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30726013",
-          "target_video_id": "30986834",
-          "permanent": false,
           "attempted_at": "2026-11-17T12:30:19.257070+00:00"
         },
         {
@@ -129780,12 +129773,19 @@
           "target_video_id": "30986834",
           "permanent": false,
           "attempted_at": "2026-11-17T13:47:07.916704+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30726013",
+          "target_video_id": "30986834",
+          "permanent": false,
+          "attempted_at": "2026-11-17T15:06:42.079991+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30726013",
         "display_name": "Solitude (Einvera) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:46:59.157598+00:00"
+        "planned_at": "2026-11-17T15:06:38.431052+00:00"
       },
       "previous_target_id": "30986834",
       "prepared": {
@@ -169260,11 +169260,22 @@
       "last_plan": {
         "source_id": "31556533",
         "display_name": "Rebel in the Rye 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:06:32.797205+00:00"
+        "planned_at": "2026-11-17T15:06:38.759010+00:00"
+      },
+      "claim": {
+        "worker_id": "8e04b052de4a4c899705ec3cc277069b-shard-0",
+        "claimed_at": "2026-11-17T15:06:39.763207+00:00",
+        "lease_expires_at": "2026-11-17T21:06:39.763207+00:00",
+        "run_id": "44078950078"
       }
     },
     "11829": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26655086",
+        "display_name": "Devil Hunters (LieMoQunYing) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T15:06:38.963554+00:00"
+      }
     },
     "22792": {
       "attempts": []
@@ -217135,5 +217146,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T15:06:34.767975+00:00"
+  "updated_at": "2026-11-17T15:06:42.080006+00:00"
 }
