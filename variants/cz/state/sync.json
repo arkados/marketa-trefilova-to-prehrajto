@@ -128333,13 +128333,6 @@
           "source_id": "27035939",
           "target_video_id": "30986633",
           "permanent": false,
-          "attempted_at": "2026-11-17T17:18:33.268815+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27035939",
-          "target_video_id": "30986633",
-          "permanent": false,
           "attempted_at": "2026-11-17T18:33:34.943850+00:00"
         },
         {
@@ -128348,6 +128341,13 @@
           "target_video_id": "30986633",
           "permanent": false,
           "attempted_at": "2026-11-17T19:47:48.515298+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27035939",
+          "target_video_id": "30986633",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:19:24.652404+00:00"
         }
       ],
       "last_plan": {
@@ -166064,7 +166064,7 @@
       "last_plan": {
         "source_id": "18796618",
         "display_name": "Fort Apache, The Bronx SD CZ Dabing",
-        "planned_at": "2026-11-17T19:47:48.113820+00:00"
+        "planned_at": "2026-11-17T21:19:23.439689+00:00"
       },
       "previous_target_id": "31108850",
       "prepared": {
@@ -166072,6 +166072,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-17T04:59:34.147751+00:00",
         "relay_source_id": "18796618"
+      },
+      "claim": {
+        "worker_id": "354deee0ba9c4edfbae1207225ad63cd-shard-0",
+        "claimed_at": "2026-11-17T21:19:24.410496+00:00",
+        "lease_expires_at": "2026-11-18T03:19:24.410496+00:00",
+        "run_id": "44170464010"
       }
     },
     "22958": {
@@ -171116,7 +171122,7 @@
       "last_plan": {
         "source_id": "34700063",
         "display_name": "A Man Named Rocca SD CZ Dabing",
-        "planned_at": "2026-11-17T21:19:20.456247+00:00"
+        "planned_at": "2026-11-17T21:19:23.759657+00:00"
       }
     },
     "12245": {
@@ -218634,5 +218640,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:19:20.713977+00:00"
+  "updated_at": "2026-11-17T21:19:24.652420+00:00"
 }
