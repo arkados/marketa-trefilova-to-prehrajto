@@ -123758,13 +123758,6 @@
           "source_id": "22838327",
           "target_video_id": "30985596",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:57:35.239393+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22838327",
-          "target_video_id": "30985596",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:12:31.644418+00:00"
         },
         {
@@ -123773,6 +123766,13 @@
           "target_video_id": "30985596",
           "permanent": false,
           "attempted_at": "2026-11-17T03:34:26.002845+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22838327",
+          "target_video_id": "30985596",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:59:19.903632+00:00"
         }
       ],
       "last_plan": {
@@ -123786,12 +123786,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T20:38:45.079478+00:00",
         "relay_source_id": "22838327"
-      },
-      "claim": {
-        "worker_id": "2f1a1758afc54f568f4bfb04f89ffae8-shard-0",
-        "claimed_at": "2026-11-17T04:59:15.728533+00:00",
-        "lease_expires_at": "2026-11-17T10:59:15.728533+00:00",
-        "run_id": "44012569640"
       }
     },
     "19160": {
@@ -136562,7 +136556,7 @@
       "last_plan": {
         "source_id": "33957932",
         "display_name": "Poslední útěk Jeronýma Pražského 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:34:24.506134+00:00"
+        "planned_at": "2026-11-17T04:59:20.652764+00:00"
       },
       "previous_target_id": "30987693",
       "prepared": {
@@ -165687,17 +165681,19 @@
       }
     },
     "15957": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30892949",
+          "target_video_id": "31108732",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:59:21.316353+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30892949",
         "display_name": "15 Years (15 Jahre) 1080p CZ Dabing",
         "planned_at": "2026-11-17T04:53:16.685922+00:00"
-      },
-      "claim": {
-        "worker_id": "b0219401400042698a0490229f0d8cef-shard-0",
-        "claimed_at": "2026-11-17T04:53:19.699211+00:00",
-        "lease_expires_at": "2026-11-17T10:53:19.699211+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31108732",
       "prepared": {
@@ -165712,7 +165708,7 @@
       "last_plan": {
         "source_id": "18796618",
         "display_name": "Fort Apache, The Bronx SD CZ Dabing",
-        "planned_at": "2026-11-17T04:59:14.956984+00:00"
+        "planned_at": "2026-11-17T04:59:21.036203+00:00"
       }
     },
     "22958": {
@@ -214178,5 +214174,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:59:16.606043+00:00"
+  "updated_at": "2026-11-17T04:59:21.316374+00:00"
 }
