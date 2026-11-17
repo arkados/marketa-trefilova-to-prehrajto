@@ -113859,13 +113859,6 @@
           "source_id": "33761714",
           "target_video_id": "30984074",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:46:30.736114+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33761714",
-          "target_video_id": "30984074",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:13:34.218626+00:00"
         },
         {
@@ -113874,12 +113867,19 @@
           "target_video_id": "30984074",
           "permanent": false,
           "attempted_at": "2026-11-17T10:32:37.090271+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33761714",
+          "target_video_id": "30984074",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:46:33.981286+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33761714",
         "display_name": "The Transporter 4K CZ Dabing",
-        "planned_at": "2026-11-17T10:32:32.233102+00:00"
+        "planned_at": "2026-11-17T11:46:31.409136+00:00"
       },
       "previous_target_id": "30984074",
       "prepared": {
@@ -167677,6 +167677,14 @@
           "target_video_id": "31115706",
           "permanent": false,
           "attempted_at": "2026-11-17T10:32:08.345296+00:00"
+        },
+        {
+          "status": "target_requires_review",
+          "source_id": "29053755",
+          "target_video_id": "31115706",
+          "reason": "Prepared video is absent from uploaded listing",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:46:34.234816+00:00"
         }
       ],
       "last_plan": {
@@ -167684,13 +167692,7 @@
         "display_name": "Kurz manzelské touhy (Kurz manželské touhy) 1080p CZ Dabing",
         "planned_at": "2026-11-17T11:46:28.333945+00:00"
       },
-      "previous_target_id": "31115706",
-      "prepared": {
-        "target_video_id": "31115706",
-        "size_bytes": 1958736662,
-        "prepared_at": "2026-11-17T10:23:45.395136+00:00",
-        "relay_source_id": "29053755"
-      }
+      "previous_target_id": "31115706"
     },
     "23750": {
       "attempts": []
@@ -167926,7 +167928,7 @@
       "last_plan": {
         "source_id": "27642554",
         "display_name": "The Magic Book (Kouzelný měšec) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:46:28.874399+00:00"
+        "planned_at": "2026-11-17T11:46:31.733835+00:00"
       }
     },
     "5997": {
@@ -216029,5 +216031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:46:28.874424+00:00"
+  "updated_at": "2026-11-17T11:46:34.234838+00:00"
 }
