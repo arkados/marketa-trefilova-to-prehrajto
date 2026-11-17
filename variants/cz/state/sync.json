@@ -165251,17 +165251,19 @@
       "attempts": []
     },
     "3280": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29236119",
+          "target_video_id": "31106835",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:32:40.716090+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29236119",
         "display_name": "The Survivor (2021) 720p CZ Dabing",
         "planned_at": "2026-11-17T03:25:51.220455+00:00"
-      },
-      "claim": {
-        "worker_id": "808cb588e47a4e949860f60263b44848-shard-0",
-        "claimed_at": "2026-11-17T03:25:53.911047+00:00",
-        "lease_expires_at": "2026-11-17T09:25:53.911047+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31106835",
       "prepared": {
@@ -213829,5 +213831,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:32:38.515804+00:00"
+  "updated_at": "2026-11-17T03:32:40.716108+00:00"
 }
