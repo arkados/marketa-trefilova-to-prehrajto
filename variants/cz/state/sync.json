@@ -109476,13 +109476,6 @@
           "source_id": "24370736",
           "target_video_id": "30983666",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:11:30.687779+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24370736",
-          "target_video_id": "30983666",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:23:48.594883+00:00"
         },
         {
@@ -109491,12 +109484,19 @@
           "target_video_id": "30983666",
           "permanent": false,
           "attempted_at": "2026-11-17T10:42:36.275943+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24370736",
+          "target_video_id": "30983666",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:56:28.918465+00:00"
         }
       ],
       "last_plan": {
         "source_id": "24370736",
         "display_name": "Na druhý pohled 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:42:32.351487+00:00"
+        "planned_at": "2026-11-17T11:56:26.085127+00:00"
       },
       "previous_target_id": "30983666",
       "prepared": {
@@ -167980,11 +167980,22 @@
       "last_plan": {
         "source_id": "34527657",
         "display_name": "Coal Tower (Perníková věž) 720p CZ Dabing",
-        "planned_at": "2026-11-17T11:56:20.761448+00:00"
+        "planned_at": "2026-11-17T11:56:26.408573+00:00"
+      },
+      "claim": {
+        "worker_id": "eb63018484de4b3599df952e0798f589-shard-0",
+        "claimed_at": "2026-11-17T11:56:27.758390+00:00",
+        "lease_expires_at": "2026-11-17T17:56:27.758390+00:00",
+        "run_id": "44013593637"
       }
     },
     "32009": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34847236",
+        "display_name": "Christmas in My Hometown (A Holiday for Love) 720p CZ Dabing",
+        "planned_at": "2026-11-17T11:56:26.661510+00:00"
+      }
     },
     "33272": {
       "attempts": []
@@ -216077,5 +216088,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:56:23.773718+00:00"
+  "updated_at": "2026-11-17T11:56:28.918482+00:00"
 }
