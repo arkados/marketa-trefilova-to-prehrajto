@@ -170725,17 +170725,19 @@
       }
     },
     "12111": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33712153",
+          "target_video_id": "31127031",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:04:04.572676+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33712153",
         "display_name": "Svatba upírů 1080p CZ Dabing",
         "planned_at": "2026-11-17T20:01:03.803875+00:00"
-      },
-      "claim": {
-        "worker_id": "0913abc0c2fa46d5a349fe1766413a6e-shard-0",
-        "claimed_at": "2026-11-17T20:01:04.473942+00:00",
-        "lease_expires_at": "2026-11-18T02:01:04.473942+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31127031",
       "prepared": {
@@ -218343,5 +218345,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:04:02.142249+00:00"
+  "updated_at": "2026-11-17T20:04:04.572696+00:00"
 }
