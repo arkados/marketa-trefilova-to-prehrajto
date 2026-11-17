@@ -123921,13 +123921,6 @@
           "source_id": "29575212",
           "target_video_id": "30985633",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:07:41.976127+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29575212",
-          "target_video_id": "30985633",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:26:40.345775+00:00"
         },
         {
@@ -123936,6 +123929,13 @@
           "target_video_id": "30985633",
           "permanent": false,
           "attempted_at": "2026-11-17T02:43:50.071524+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29575212",
+          "target_video_id": "30985633",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:05:11.815741+00:00"
         }
       ],
       "last_plan": {
@@ -134321,7 +134321,7 @@
       "last_plan": {
         "source_id": "30626666",
         "display_name": "Konec cesty SD CZ Dabing",
-        "planned_at": "2026-11-17T02:43:53.802730+00:00"
+        "planned_at": "2026-11-17T04:05:09.842044+00:00"
       },
       "previous_target_id": "30987409",
       "prepared": {
@@ -134329,6 +134329,12 @@
         "size_bytes": 986400000,
         "prepared_at": "2026-11-11T04:33:42.133116+00:00",
         "relay_source_id": "30626666"
+      },
+      "claim": {
+        "worker_id": "a0b62ae242f0474a83fcb5656815cf37-shard-0",
+        "claimed_at": "2026-11-17T04:05:11.034468+00:00",
+        "lease_expires_at": "2026-11-17T10:05:11.034468+00:00",
+        "run_id": "44012569640"
       }
     },
     "16221": {
@@ -165481,7 +165487,7 @@
       "last_plan": {
         "source_id": "25288564",
         "display_name": "Girlie SD CZ Dabing",
-        "planned_at": "2026-11-17T04:05:07.058456+00:00"
+        "planned_at": "2026-11-17T04:05:10.218216+00:00"
       }
     },
     "18999": {
@@ -213983,5 +213989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:05:07.058473+00:00"
+  "updated_at": "2026-11-17T04:05:11.815757+00:00"
 }
