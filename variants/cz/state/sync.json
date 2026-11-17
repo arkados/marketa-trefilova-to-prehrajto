@@ -109319,13 +109319,6 @@
           "source_id": "31753593",
           "target_video_id": "30983629",
           "permanent": false,
-          "attempted_at": "2026-11-17T03:40:48.011116+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31753593",
-          "target_video_id": "30983629",
-          "permanent": false,
           "attempted_at": "2026-11-17T05:06:35.472079+00:00"
         },
         {
@@ -109334,6 +109327,13 @@
           "target_video_id": "30983629",
           "permanent": false,
           "attempted_at": "2026-11-17T06:32:27.127356+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31753593",
+          "target_video_id": "30983629",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:10:11.407324+00:00"
         }
       ],
       "last_plan": {
@@ -114352,7 +114352,7 @@
       "last_plan": {
         "source_id": "32021078",
         "display_name": "The Fantastic Four: First Steps (The Fantastic 4: First Steps) 4K CZ Dabing",
-        "planned_at": "2026-11-17T06:32:25.371491+00:00"
+        "planned_at": "2026-11-17T08:10:09.906833+00:00"
       },
       "previous_target_id": "30984120",
       "prepared": {
@@ -114360,6 +114360,12 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-10T15:29:35.978333+00:00",
         "relay_source_id": "32021078"
+      },
+      "claim": {
+        "worker_id": "066ef8338bda4e7d87c4518cca449b62-shard-0",
+        "claimed_at": "2026-11-17T08:10:11.112793+00:00",
+        "lease_expires_at": "2026-11-17T14:10:11.112793+00:00",
+        "run_id": "44013593637"
       }
     },
     "3114": {
@@ -166667,6 +166673,12 @@
         "source_id": "34694571",
         "display_name": "Just a Couple of Days (Quelques jours pas plus) 1080p CZ Dabing",
         "planned_at": "2026-11-17T08:10:06.840062+00:00"
+      },
+      "claim": {
+        "worker_id": "f4ba6cbeeca444da997e45b9e973e591-shard-0",
+        "claimed_at": "2026-11-17T08:10:09.683758+00:00",
+        "lease_expires_at": "2026-11-17T14:10:09.683758+00:00",
+        "run_id": "44013593637"
       }
     },
     "3226": {
@@ -166680,7 +166692,7 @@
       "last_plan": {
         "source_id": "27431432",
         "display_name": "Tender Waves (Něžné vlny) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:10:07.259307+00:00"
+        "planned_at": "2026-11-17T08:10:10.251150+00:00"
       }
     },
     "37250": {
@@ -214978,5 +214990,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:10:07.259323+00:00"
+  "updated_at": "2026-11-17T08:10:11.407343+00:00"
 }
