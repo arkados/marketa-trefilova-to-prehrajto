@@ -167728,17 +167728,19 @@
       }
     },
     "24056": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34594557",
+          "target_video_id": "31116181",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:06:18.118586+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34594557",
         "display_name": "Excellent Cadavers 1080p CZ Dabing",
         "planned_at": "2026-11-17T10:52:27.549876+00:00"
-      },
-      "claim": {
-        "worker_id": "92bdbdd6b1764e2f84eaa6fbd678f9bf-shard-0",
-        "claimed_at": "2026-11-17T10:52:30.506046+00:00",
-        "lease_expires_at": "2026-11-17T16:52:30.506046+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31116181",
       "prepared": {
@@ -215892,5 +215894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:06:16.089470+00:00"
+  "updated_at": "2026-11-17T11:06:18.118604+00:00"
 }
