@@ -132406,13 +132406,6 @@
           "source_id": "33767536",
           "target_video_id": "30987126",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:39:06.441302+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767536",
-          "target_video_id": "30987126",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:13:11.665683+00:00"
         },
         {
@@ -132421,6 +132414,13 @@
           "target_video_id": "30987126",
           "permanent": false,
           "attempted_at": "2026-11-17T18:28:06.435795+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767536",
+          "target_video_id": "30987126",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:42:47.023835+00:00"
         }
       ],
       "last_plan": {
@@ -141973,7 +141973,7 @@
       "last_plan": {
         "source_id": "32763852",
         "display_name": "Šviháci 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:28:04.951406+00:00"
+        "planned_at": "2026-11-17T19:42:45.865467+00:00"
       },
       "previous_target_id": "30988393",
       "prepared": {
@@ -141981,6 +141981,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T08:19:06.905333+00:00",
         "relay_source_id": "32763852"
+      },
+      "claim": {
+        "worker_id": "186e27fa80e14b3fb4b1bac25ad14b16-shard-0",
+        "claimed_at": "2026-11-17T19:42:46.510741+00:00",
+        "lease_expires_at": "2026-11-18T01:42:46.510741+00:00",
+        "run_id": "44093224298"
       }
     },
     "27827": {
@@ -170606,7 +170612,7 @@
       "last_plan": {
         "source_id": "25037481",
         "display_name": "Love on the Spikes (Láska na špičkách) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:42:43.463982+00:00"
+        "planned_at": "2026-11-17T19:42:46.108510+00:00"
       }
     },
     "5329": {
@@ -218217,5 +218223,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:42:43.783428+00:00"
+  "updated_at": "2026-11-17T19:42:47.023852+00:00"
 }
