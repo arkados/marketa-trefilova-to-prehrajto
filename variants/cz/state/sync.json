@@ -123891,13 +123891,6 @@
           "source_id": "29575212",
           "target_video_id": "30985633",
           "permanent": false,
-          "attempted_at": "2026-11-16T17:51:12.410423+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29575212",
-          "target_video_id": "30985633",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:45:10.822998+00:00"
         },
         {
@@ -123906,6 +123899,13 @@
           "target_video_id": "30985633",
           "permanent": false,
           "attempted_at": "2026-11-17T00:07:41.976127+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29575212",
+          "target_video_id": "30985633",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:26:40.345775+00:00"
         }
       ],
       "last_plan": {
@@ -134291,7 +134291,7 @@
       "last_plan": {
         "source_id": "30626666",
         "display_name": "Konec cesty SD CZ Dabing",
-        "planned_at": "2026-11-17T00:07:41.732297+00:00"
+        "planned_at": "2026-11-17T01:26:38.750960+00:00"
       },
       "previous_target_id": "30987409",
       "prepared": {
@@ -134299,6 +134299,12 @@
         "size_bytes": 986400000,
         "prepared_at": "2026-11-11T04:33:42.133116+00:00",
         "relay_source_id": "30626666"
+      },
+      "claim": {
+        "worker_id": "76bf93b456f0490282bc914b5075a594-shard-0",
+        "claimed_at": "2026-11-17T01:26:39.709411+00:00",
+        "lease_expires_at": "2026-11-17T07:26:39.709411+00:00",
+        "run_id": "43981967428"
       }
     },
     "16221": {
@@ -164905,7 +164911,7 @@
       "last_plan": {
         "source_id": "10596276",
         "display_name": "From Time to Time SD CZ Dabing",
-        "planned_at": "2026-11-17T01:26:33.880617+00:00"
+        "planned_at": "2026-11-17T01:26:39.073294+00:00"
       }
     },
     "36970": {
@@ -213518,5 +213524,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:26:34.141042+00:00"
+  "updated_at": "2026-11-17T01:26:40.345793+00:00"
 }
