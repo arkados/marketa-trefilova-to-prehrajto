@@ -128179,13 +128179,6 @@
           "source_id": "34909924",
           "target_video_id": "30986627",
           "permanent": false,
-          "attempted_at": "2026-11-16T22:41:44.676643+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34909924",
-          "target_video_id": "30986627",
-          "permanent": false,
           "attempted_at": "2026-11-17T00:55:07.622839+00:00"
         },
         {
@@ -128194,6 +128187,13 @@
           "target_video_id": "30986627",
           "permanent": false,
           "attempted_at": "2026-11-17T02:10:09.929283+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34909924",
+          "target_video_id": "30986627",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:31:59.464627+00:00"
         }
       ],
       "last_plan": {
@@ -158492,7 +158492,7 @@
       "last_plan": {
         "source_id": "13899901",
         "display_name": "The White Snake (Die weiße Schlange) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:10:08.780207+00:00"
+        "planned_at": "2026-11-17T03:31:57.535215+00:00"
       },
       "previous_target_id": "31069681",
       "prepared": {
@@ -158500,6 +158500,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-15T17:25:07.386473+00:00",
         "relay_source_id": "13899901"
+      },
+      "claim": {
+        "worker_id": "8ccb7a56034f475caa83bf0a44ce7b7c-shard-0",
+        "claimed_at": "2026-11-17T03:31:58.465993+00:00",
+        "lease_expires_at": "2026-11-17T09:31:58.465993+00:00",
+        "run_id": "43981967428"
       }
     },
     "11144": {
@@ -165279,7 +165285,7 @@
       "last_plan": {
         "source_id": "22128615",
         "display_name": "Four Suns (Čtyři slunce) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:31:53.208241+00:00"
+        "planned_at": "2026-11-17T03:31:57.844746+00:00"
       }
     },
     "26387": {
@@ -213823,5 +213829,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:31:53.453066+00:00"
+  "updated_at": "2026-11-17T03:31:59.464645+00:00"
 }
