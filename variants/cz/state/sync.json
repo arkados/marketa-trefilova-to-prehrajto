@@ -131221,13 +131221,6 @@
           "source_id": "34714070",
           "target_video_id": "30986970",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:10:02.013390+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714070",
-          "target_video_id": "30986970",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:27:42.299702+00:00"
         },
         {
@@ -131236,6 +131229,13 @@
           "target_video_id": "30986970",
           "permanent": false,
           "attempted_at": "2026-11-17T17:04:55.761782+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714070",
+          "target_video_id": "30986970",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:15:55.160010+00:00"
         }
       ],
       "last_plan": {
@@ -131249,12 +131249,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T03:01:05.296421+00:00",
         "relay_source_id": "34714070"
-      },
-      "claim": {
-        "worker_id": "06f2abae85804e92be4eb39e77c3300c-shard-0",
-        "claimed_at": "2026-11-17T18:15:51.431896+00:00",
-        "lease_expires_at": "2026-11-18T00:15:51.431896+00:00",
-        "run_id": "44093224298"
       }
     },
     "34095": {
@@ -141859,7 +141853,7 @@
       "last_plan": {
         "source_id": "30436273",
         "display_name": "Musíme se sejít SD CZ Dabing",
-        "planned_at": "2026-11-17T17:04:53.313465+00:00"
+        "planned_at": "2026-11-17T18:15:54.937403+00:00"
       },
       "previous_target_id": "30988335",
       "prepared": {
@@ -170071,17 +170065,19 @@
       "attempts": []
     },
     "11053": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31417258",
+          "target_video_id": "31124260",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:15:55.612946+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31417258",
         "display_name": "Le Mans 1080p CZ Dabing",
         "planned_at": "2026-11-17T18:09:00.269226+00:00"
-      },
-      "claim": {
-        "worker_id": "c781064aa3194d0ab5a5c7a733f6eb3a-shard-0",
-        "claimed_at": "2026-11-17T18:09:01.247398+00:00",
-        "lease_expires_at": "2026-11-18T00:09:01.247398+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31124260",
       "prepared": {
@@ -170122,7 +170118,7 @@
       "last_plan": {
         "source_id": "31396325",
         "display_name": "Obsession (1976) SD CZ Dabing",
-        "planned_at": "2026-11-17T18:15:50.912917+00:00"
+        "planned_at": "2026-11-17T18:15:55.430427+00:00"
       }
     },
     "34587": {
@@ -217829,5 +217825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:15:51.950868+00:00"
+  "updated_at": "2026-11-17T18:15:55.612970+00:00"
 }
