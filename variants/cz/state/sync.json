@@ -8606,13 +8606,6 @@
           "source_id": "21842659",
           "target_video_id": "30631275",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:05:12.879256+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21842659",
-          "target_video_id": "30631275",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:23:19.944482+00:00"
         },
         {
@@ -8621,6 +8614,13 @@
           "target_video_id": "30631275",
           "permanent": false,
           "attempted_at": "2026-11-17T02:41:07.411475+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21842659",
+          "target_video_id": "30631275",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:02:38.960140+00:00"
         }
       ],
       "last_plan": {
@@ -22374,7 +22374,7 @@
       "last_plan": {
         "source_id": "18074667",
         "display_name": "The Florida Project 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:41:07.975299+00:00"
+        "planned_at": "2026-11-17T04:02:37.349953+00:00"
       },
       "previous_target_id": "30692683",
       "prepared": {
@@ -22382,6 +22382,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-01T10:42:52.289576+00:00",
         "relay_source_id": "18074667"
+      },
+      "claim": {
+        "worker_id": "57e3375569d8499e9a796e28eb1c2338-shard-0",
+        "claimed_at": "2026-11-17T04:02:38.548702+00:00",
+        "lease_expires_at": "2026-11-17T10:02:38.548702+00:00",
+        "run_id": "44012569640"
       }
     },
     "730": {
@@ -165481,7 +165487,7 @@
       "last_plan": {
         "source_id": "25288564",
         "display_name": "Girlie SD CZ Dabing",
-        "planned_at": "2026-11-17T04:02:34.545131+00:00"
+        "planned_at": "2026-11-17T04:02:37.725425+00:00"
       }
     },
     "18999": {
@@ -213983,5 +213989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:02:34.545145+00:00"
+  "updated_at": "2026-11-17T04:02:38.960157+00:00"
 }
