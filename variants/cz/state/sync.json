@@ -68065,13 +68065,6 @@
           "source_id": "34852546",
           "target_video_id": "30853531",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:06:51.089371+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34852546",
-          "target_video_id": "30853531",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:38:16.118564+00:00"
         },
         {
@@ -68080,6 +68073,13 @@
           "target_video_id": "30853531",
           "permanent": false,
           "attempted_at": "2026-11-17T09:52:34.985960+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34852546",
+          "target_video_id": "30853531",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:11:01.355084+00:00"
         }
       ],
       "last_plan": {
@@ -164406,7 +164406,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:52:37.075670+00:00"
+        "planned_at": "2026-11-17T11:11:00.039067+00:00"
       },
       "previous_target_id": "31100173",
       "prepared": {
@@ -164414,6 +164414,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-16T21:51:03.827088+00:00",
         "relay_source_id": "11186054"
+      },
+      "claim": {
+        "worker_id": "3679300a13dd45498b1a19b94bd4074f-shard-0",
+        "claimed_at": "2026-11-17T11:11:01.027666+00:00",
+        "lease_expires_at": "2026-11-17T17:11:01.027666+00:00",
+        "run_id": "44013593637"
       }
     },
     "29530": {
@@ -167773,7 +167779,7 @@
       "last_plan": {
         "source_id": "18922812",
         "display_name": "Woman Walks Ahead 720p CZ Dabing",
-        "planned_at": "2026-11-17T11:10:55.698596+00:00"
+        "planned_at": "2026-11-17T11:11:00.357177+00:00"
       }
     },
     "21761": {
@@ -215906,5 +215912,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:10:55.954574+00:00"
+  "updated_at": "2026-11-17T11:11:01.355103+00:00"
 }
