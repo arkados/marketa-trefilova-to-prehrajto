@@ -141505,7 +141505,7 @@
       "last_plan": {
         "source_id": "34864897",
         "display_name": "Die Sterntaler 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:35:26.720983+00:00"
+        "planned_at": "2026-11-17T13:51:01.953473+00:00"
       },
       "previous_target_id": "30988229",
       "prepared": {
@@ -141513,6 +141513,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T07:56:43.201825+00:00",
         "relay_source_id": "34864897"
+      },
+      "claim": {
+        "worker_id": "5520d45abe2646a28557871a7e318c6f-shard-0",
+        "claimed_at": "2026-11-17T13:51:03.378141+00:00",
+        "lease_expires_at": "2026-11-17T19:51:03.378141+00:00",
+        "run_id": "44078950078"
       }
     },
     "15658": {
@@ -166179,13 +166185,6 @@
           "source_id": "6052793",
           "target_video_id": "31109295",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:04:18.607458+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6052793",
-          "target_video_id": "31109295",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:19:26.473957+00:00"
         },
         {
@@ -166194,6 +166193,13 @@
           "target_video_id": "31109295",
           "permanent": false,
           "attempted_at": "2026-11-17T12:35:27.329446+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6052793",
+          "target_video_id": "31109295",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:51:04.039741+00:00"
         }
       ],
       "last_plan": {
@@ -168860,11 +168866,22 @@
       "last_plan": {
         "source_id": "31279801",
         "display_name": "Titan: The OceanGate Disaster 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:50:58.712131+00:00"
+        "planned_at": "2026-11-17T13:51:02.263503+00:00"
+      },
+      "claim": {
+        "worker_id": "e38110beab4045eda3aa53f2acc65c79-shard-0",
+        "claimed_at": "2026-11-17T13:51:03.609776+00:00",
+        "lease_expires_at": "2026-11-17T19:51:03.609776+00:00",
+        "run_id": "44078950078"
       }
     },
     "11093": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34673121",
+        "display_name": "The Water Margin (ShuiHuChuan) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T13:51:02.488951+00:00"
+      }
     },
     "29930": {
       "attempts": []
@@ -216795,5 +216812,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:50:59.335240+00:00"
+  "updated_at": "2026-11-17T13:51:04.039759+00:00"
 }
