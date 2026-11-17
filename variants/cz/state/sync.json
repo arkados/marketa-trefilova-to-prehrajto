@@ -167426,17 +167426,19 @@
       "attempts": []
     },
     "19206": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28932533",
+          "target_video_id": "31115263",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:00:05.112817+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28932533",
         "display_name": "Pure Devilry (Certoviny) 1080p CZ Dabing",
         "planned_at": "2026-11-17T09:55:57.437099+00:00"
-      },
-      "claim": {
-        "worker_id": "cd9e577d26794a0ea575ffdea5c322c7-shard-0",
-        "claimed_at": "2026-11-17T09:56:00.282794+00:00",
-        "lease_expires_at": "2026-11-17T15:56:00.282794+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31115263",
       "prepared": {
@@ -215626,5 +215628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:00:01.813419+00:00"
+  "updated_at": "2026-11-17T10:00:05.112835+00:00"
 }
