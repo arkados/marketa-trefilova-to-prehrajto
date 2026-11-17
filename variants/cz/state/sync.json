@@ -8094,7 +8094,7 @@
       "last_plan": {
         "source_id": "20447868",
         "display_name": "Dogville 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:08:07.579108+00:00"
+        "planned_at": "2026-11-17T20:22:21.333215+00:00"
       },
       "previous_target_id": "30630355",
       "prepared": {
@@ -8102,6 +8102,12 @@
         "size_bytes": 9000000000,
         "prepared_at": "2026-10-30T09:33:08.276639+00:00",
         "relay_source_id": "20447868"
+      },
+      "claim": {
+        "worker_id": "8dd422f119a546b5b394bfc80b6b3141-shard-0",
+        "claimed_at": "2026-11-17T20:22:21.964854+00:00",
+        "lease_expires_at": "2026-11-18T02:22:21.964854+00:00",
+        "run_id": "44093224298"
       }
     },
     "10690": {
@@ -113036,13 +113042,6 @@
           "source_id": "33495930",
           "target_video_id": "30983976",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:41:08.471225+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33495930",
-          "target_video_id": "30983976",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:53:12.724287+00:00"
         },
         {
@@ -113051,6 +113050,13 @@
           "target_video_id": "30983976",
           "permanent": false,
           "attempted_at": "2026-11-17T19:08:07.975335+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33495930",
+          "target_video_id": "30983976",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:22:22.118334+00:00"
         }
       ],
       "last_plan": {
@@ -113064,12 +113070,6 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T15:09:20.357315+00:00",
         "relay_source_id": "33495930"
-      },
-      "claim": {
-        "worker_id": "76c843d446404464be2fb2e9c1a9b043-shard-0",
-        "claimed_at": "2026-11-17T20:22:18.471811+00:00",
-        "lease_expires_at": "2026-11-18T02:22:18.471811+00:00",
-        "run_id": "44093224298"
       }
     },
     "12718": {
@@ -170857,7 +170857,7 @@
       "last_plan": {
         "source_id": "28996454",
         "display_name": "Bloody Johann (Krvavý Johann) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:22:18.062714+00:00"
+        "planned_at": "2026-11-17T20:22:21.558085+00:00"
       }
     },
     "32159": {
@@ -218435,5 +218435,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:22:19.161843+00:00"
+  "updated_at": "2026-11-17T20:22:22.118350+00:00"
 }
