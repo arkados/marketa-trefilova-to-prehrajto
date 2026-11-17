@@ -83899,13 +83899,6 @@
           "source_id": "30859189",
           "target_video_id": "30915737",
           "permanent": false,
-          "attempted_at": "2026-11-16T16:15:25.356545+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30859189",
-          "target_video_id": "30915737",
-          "permanent": false,
           "attempted_at": "2026-11-16T20:30:17.924176+00:00"
         },
         {
@@ -83914,6 +83907,13 @@
           "target_video_id": "30915737",
           "permanent": false,
           "attempted_at": "2026-11-16T22:01:07.020583+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30859189",
+          "target_video_id": "30915737",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:23:24.927545+00:00"
         }
       ],
       "last_plan": {
@@ -83927,12 +83927,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-08T11:13:22.427450+00:00",
         "relay_source_id": "30859189"
-      },
-      "claim": {
-        "worker_id": "037f25f065514e5e90b16811315527fc-shard-0",
-        "claimed_at": "2026-11-17T00:23:21.292506+00:00",
-        "lease_expires_at": "2026-11-17T06:23:21.292506+00:00",
-        "run_id": "43981967428"
       }
     },
     "2309": {
@@ -84046,7 +84040,7 @@
       "last_plan": {
         "source_id": "20559777",
         "display_name": "Mystery 101 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:01:10.103198+00:00"
+        "planned_at": "2026-11-17T00:23:24.361656+00:00"
       },
       "previous_target_id": "30916027",
       "prepared": {
@@ -164398,6 +164392,12 @@
         "size_bytes": 1797778254,
         "prepared_at": "2026-11-16T21:57:17.659276+00:00",
         "relay_source_id": "19118380"
+      },
+      "claim": {
+        "worker_id": "6d5052770cd1420b8807c2bf6db597bf-shard-0",
+        "claimed_at": "2026-11-17T00:23:24.136131+00:00",
+        "lease_expires_at": "2026-11-17T06:23:24.136131+00:00",
+        "run_id": "43981967428"
       }
     },
     "29408": {
@@ -164723,7 +164723,7 @@
       "last_plan": {
         "source_id": "30643097",
         "display_name": "Amerika SD CZ Dabing",
-        "planned_at": "2026-11-17T00:23:21.813992+00:00"
+        "planned_at": "2026-11-17T00:23:24.661132+00:00"
       }
     },
     "11089": {
@@ -213351,5 +213351,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:23:21.814008+00:00"
+  "updated_at": "2026-11-17T00:23:24.927566+00:00"
 }
