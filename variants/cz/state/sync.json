@@ -101384,13 +101384,6 @@
           "source_id": "34968104",
           "target_video_id": "30967671",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:08:07.595844+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34968104",
-          "target_video_id": "30967671",
-          "permanent": false,
           "attempted_at": "2026-11-17T16:44:39.182318+00:00"
         },
         {
@@ -101399,6 +101392,13 @@
           "target_video_id": "30967671",
           "permanent": false,
           "attempted_at": "2026-11-17T17:58:02.034202+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34968104",
+          "target_video_id": "30967671",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:11:14.787564+00:00"
         }
       ],
       "last_plan": {
@@ -101412,12 +101412,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T06:46:06.993808+00:00",
         "relay_source_id": "34968104"
-      },
-      "claim": {
-        "worker_id": "3a8c4cc2b8b74134ad5e0a6efffaa5c4-shard-0",
-        "claimed_at": "2026-11-17T19:11:11.304149+00:00",
-        "lease_expires_at": "2026-11-18T01:11:11.304149+00:00",
-        "run_id": "44093224298"
       }
     },
     "35562": {
@@ -101788,7 +101782,7 @@
       "last_plan": {
         "source_id": "13450050",
         "display_name": "Garage Sale Mystery: Guilty Until Proven Innocent 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:58:01.402825+00:00"
+        "planned_at": "2026-11-17T19:11:13.980111+00:00"
       },
       "previous_target_id": "30969076",
       "prepared": {
@@ -101796,6 +101790,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T07:24:54.477551+00:00",
         "relay_source_id": "13450050"
+      },
+      "claim": {
+        "worker_id": "37d04813c33142d4bd5f26edabc81ed2-shard-0",
+        "claimed_at": "2026-11-17T19:11:14.584414+00:00",
+        "lease_expires_at": "2026-11-18T01:11:14.584414+00:00",
+        "run_id": "44093224298"
       }
     },
     "16869": {
@@ -170415,7 +170415,7 @@
       "last_plan": {
         "source_id": "34910128",
         "display_name": "The Sparrow in the Chimney 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:11:10.900867+00:00"
+        "planned_at": "2026-11-17T19:11:14.207931+00:00"
       }
     },
     "25427": {
@@ -218065,5 +218065,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:11:11.939403+00:00"
+  "updated_at": "2026-11-17T19:11:14.787624+00:00"
 }
