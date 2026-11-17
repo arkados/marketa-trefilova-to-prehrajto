@@ -22221,13 +22221,6 @@
           "source_id": "13368212",
           "target_video_id": "30984580",
           "permanent": false,
-          "attempted_at": "2026-11-17T02:47:35.051148+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13368212",
-          "target_video_id": "30984580",
-          "permanent": false,
           "attempted_at": "2026-11-17T03:17:42.060015+00:00"
         },
         {
@@ -22236,6 +22229,13 @@
           "target_video_id": "30984580",
           "permanent": false,
           "attempted_at": "2026-11-17T03:48:21.163785+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13368212",
+          "target_video_id": "30984580",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:18:29.277215+00:00"
         }
       ],
       "last_plan": {
@@ -22759,7 +22759,7 @@
       "last_plan": {
         "source_id": "34014919",
         "display_name": "Skyking (#SKYKING) 1080p CZ titulky",
-        "planned_at": "2026-11-17T03:48:20.716378+00:00"
+        "planned_at": "2026-11-17T04:18:27.976473+00:00"
       },
       "previous_target_id": "30987918",
       "prepared": {
@@ -22767,6 +22767,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T06:46:10.895941+00:00",
         "relay_source_id": "34014919"
+      },
+      "claim": {
+        "worker_id": "40dacaadfac04ac58c75e50240dfccc6-shard-0",
+        "claimed_at": "2026-11-17T04:18:29.040552+00:00",
+        "lease_expires_at": "2026-11-17T10:18:29.040552+00:00",
+        "run_id": "44012569640"
       }
     },
     "14755": {
@@ -100738,5 +100744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:18:23.624733+00:00"
+  "updated_at": "2026-11-17T04:18:29.277234+00:00"
 }
