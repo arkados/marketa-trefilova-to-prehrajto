@@ -1759,13 +1759,6 @@
           "source_id": "33013175",
           "target_video_id": "30597835",
           "permanent": false,
-          "attempted_at": "2026-11-16T22:25:33.538597+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33013175",
-          "target_video_id": "30597835",
-          "permanent": false,
           "attempted_at": "2026-11-16T22:55:42.666942+00:00"
         },
         {
@@ -1774,6 +1767,13 @@
           "target_video_id": "30597835",
           "permanent": false,
           "attempted_at": "2026-11-16T23:47:38.700938+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33013175",
+          "target_video_id": "30597835",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:17:50.617141+00:00"
         }
       ],
       "last_plan": {
@@ -22833,7 +22833,7 @@
       "last_plan": {
         "source_id": "9657833",
         "display_name": "The Place SD CZ titulky",
-        "planned_at": "2026-11-16T23:47:38.153495+00:00"
+        "planned_at": "2026-11-17T00:17:48.740040+00:00"
       },
       "previous_target_id": "30988255",
       "prepared": {
@@ -22841,6 +22841,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T07:59:47.278610+00:00",
         "relay_source_id": "9657833"
+      },
+      "claim": {
+        "worker_id": "b3c805ccc2f4400e9b8bdd47edcca529-shard-0",
+        "claimed_at": "2026-11-17T00:17:49.273468+00:00",
+        "lease_expires_at": "2026-11-17T06:17:49.273468+00:00",
+        "run_id": "43981967428"
       }
     },
     "2220": {
@@ -100732,5 +100738,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:17:45.222399+00:00"
+  "updated_at": "2026-11-17T00:17:50.617158+00:00"
 }
