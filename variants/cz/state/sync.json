@@ -72207,6 +72207,12 @@
         "size_bytes": 7200000000,
         "prepared_at": "2026-11-11T07:25:47.418420+00:00",
         "relay_source_id": "35464779"
+      },
+      "claim": {
+        "worker_id": "92a166922ad64aeb90cf9644f730ef47-shard-0",
+        "claimed_at": "2026-11-17T05:02:29.792209+00:00",
+        "lease_expires_at": "2026-11-17T11:02:29.792209+00:00",
+        "run_id": "44012569640"
       }
     },
     "32093": {
@@ -119378,13 +119384,6 @@
           "source_id": "34674768",
           "target_video_id": "30984916",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:00:25.505153+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34674768",
-          "target_video_id": "30984916",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:15:10.954273+00:00"
         },
         {
@@ -119393,6 +119392,13 @@
           "target_video_id": "30984916",
           "permanent": false,
           "attempted_at": "2026-11-17T03:37:10.346397+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34674768",
+          "target_video_id": "30984916",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:02:30.015666+00:00"
         }
       ],
       "last_plan": {
@@ -119406,12 +119412,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T18:10:39.394954+00:00",
         "relay_source_id": "34674768"
-      },
-      "claim": {
-        "worker_id": "c113ea4da860465aaff7cb26cb73e416-shard-0",
-        "claimed_at": "2026-11-17T05:02:26.401563+00:00",
-        "lease_expires_at": "2026-11-17T11:02:26.401563+00:00",
-        "run_id": "44012569640"
       }
     },
     "3101": {
@@ -129283,7 +129283,7 @@
       "last_plan": {
         "source_id": "29878083",
         "display_name": "La Horse (The Horse) SD CZ Dabing",
-        "planned_at": "2026-11-17T03:37:14.428363+00:00"
+        "planned_at": "2026-11-17T05:02:30.283383+00:00"
       },
       "previous_target_id": "30986749",
       "prepared": {
@@ -165740,7 +165740,7 @@
       "last_plan": {
         "source_id": "32367190",
         "display_name": "Pod parou 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:02:27.038192+00:00"
+        "planned_at": "2026-11-17T05:02:30.717503+00:00"
       }
     },
     "27298": {
@@ -214200,5 +214200,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:02:27.038210+00:00"
+  "updated_at": "2026-11-17T05:02:30.717522+00:00"
 }
