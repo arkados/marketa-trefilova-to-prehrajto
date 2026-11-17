@@ -205,13 +205,6 @@
           "source_id": "32109285",
           "target_video_id": "30570341",
           "permanent": false,
-          "attempted_at": "2026-11-16T17:28:07.298153+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32109285",
-          "target_video_id": "30570341",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:20:18.780094+00:00"
         },
         {
@@ -220,6 +213,13 @@
           "target_video_id": "30570341",
           "permanent": false,
           "attempted_at": "2026-11-16T22:52:31.580194+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32109285",
+          "target_video_id": "30570341",
+          "permanent": false,
+          "attempted_at": "2026-11-17T01:04:36.414890+00:00"
         }
       ],
       "last_plan": {
@@ -233,12 +233,6 @@
         "size_bytes": 9500000000,
         "prepared_at": "2026-10-27T18:58:10.341227+00:00",
         "relay_source_id": "32109285"
-      },
-      "claim": {
-        "worker_id": "2e21bc20c45d4b44be72aa9b5221f3ea-shard-0",
-        "claimed_at": "2026-11-17T01:04:30.633028+00:00",
-        "lease_expires_at": "2026-11-17T07:04:30.633028+00:00",
-        "run_id": "43981967428"
       }
     },
     "10755": {
@@ -14062,7 +14056,7 @@
       "last_plan": {
         "source_id": "18888145",
         "display_name": "The Outlaw Josey Wales 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:52:30.816047+00:00"
+        "planned_at": "2026-11-17T01:04:34.808881+00:00"
       },
       "previous_target_id": "30654220",
       "prepared": {
@@ -14070,6 +14064,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-10-31T03:58:16.842735+00:00",
         "relay_source_id": "18888145"
+      },
+      "claim": {
+        "worker_id": "e7ea81b7576942f5b9dd4e6551f22faf-shard-0",
+        "claimed_at": "2026-11-17T01:04:35.722004+00:00",
+        "lease_expires_at": "2026-11-17T07:04:35.722004+00:00",
+        "run_id": "43981967428"
       }
     },
     "22047": {
@@ -164855,7 +164855,7 @@
       "last_plan": {
         "source_id": "28545053",
         "display_name": "The Final Game (42 segundos) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T01:04:30.063146+00:00"
+        "planned_at": "2026-11-17T01:04:35.122437+00:00"
       }
     },
     "13972": {
@@ -213471,5 +213471,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T01:04:31.293880+00:00"
+  "updated_at": "2026-11-17T01:04:36.414908+00:00"
 }
