@@ -123370,13 +123370,6 @@
           "source_id": "12249060",
           "target_video_id": "30985547",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:23:41.091586+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12249060",
-          "target_video_id": "30985547",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:43:18.640534+00:00"
         },
         {
@@ -123385,12 +123378,19 @@
           "target_video_id": "30985547",
           "permanent": false,
           "attempted_at": "2026-11-17T17:17:15.058546+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12249060",
+          "target_video_id": "30985547",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:31:54.658177+00:00"
         }
       ],
       "last_plan": {
         "source_id": "12249060",
         "display_name": "Red Sun (Soleil Rouge) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:17:10.525174+00:00"
+        "planned_at": "2026-11-17T18:31:52.650101+00:00"
       },
       "previous_target_id": "30985547",
       "prepared": {
@@ -170232,11 +170232,22 @@
       "last_plan": {
         "source_id": "8819850",
         "display_name": "Mum's List SD CZ Dabing",
-        "planned_at": "2026-11-17T18:31:46.390152+00:00"
+        "planned_at": "2026-11-17T18:31:52.898829+00:00"
+      },
+      "claim": {
+        "worker_id": "88b2cc80cc95497d8a48a21d23b40719-shard-0",
+        "claimed_at": "2026-11-17T18:31:53.608687+00:00",
+        "lease_expires_at": "2026-11-18T00:31:53.608687+00:00",
+        "run_id": "44093224298"
       }
     },
     "3571": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32695662",
+        "display_name": "When the Light Breaks (Ljósbrot) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T18:31:53.056929+00:00"
+      }
     },
     "33284": {
       "attempts": []
@@ -217921,5 +217932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:31:49.518236+00:00"
+  "updated_at": "2026-11-17T18:31:54.658194+00:00"
 }
