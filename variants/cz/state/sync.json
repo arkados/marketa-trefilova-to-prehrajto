@@ -115501,13 +115501,6 @@
           "source_id": "34771652",
           "target_video_id": "30984595",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:14:37.472765+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34771652",
-          "target_video_id": "30984595",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:33:07.178995+00:00"
         },
         {
@@ -115516,6 +115509,13 @@
           "target_video_id": "30984595",
           "permanent": false,
           "attempted_at": "2026-11-17T20:59:04.151981+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34771652",
+          "target_video_id": "30984595",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:26:41.229204+00:00"
         }
       ],
       "last_plan": {
@@ -127527,7 +127527,7 @@
       "last_plan": {
         "source_id": "26168894",
         "display_name": "Victim/Suspect 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:59:02.565045+00:00"
+        "planned_at": "2026-11-17T22:26:39.451619+00:00"
       },
       "previous_target_id": "30986421",
       "prepared": {
@@ -127535,6 +127535,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T00:25:57.856645+00:00",
         "relay_source_id": "26168894"
+      },
+      "claim": {
+        "worker_id": "886181d561e1444a9df64750b330752a-shard-0",
+        "claimed_at": "2026-11-17T22:26:40.373867+00:00",
+        "lease_expires_at": "2026-11-18T04:26:40.373867+00:00",
+        "run_id": "44170464010"
       }
     },
     "16562": {
@@ -171526,7 +171532,7 @@
       "last_plan": {
         "source_id": "27040352",
         "display_name": "Smashed 720p CZ Dabing",
-        "planned_at": "2026-11-17T22:26:36.522762+00:00"
+        "planned_at": "2026-11-17T22:26:39.776192+00:00"
       }
     },
     "26621": {
@@ -218969,5 +218975,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:26:36.522781+00:00"
+  "updated_at": "2026-11-17T22:26:41.229222+00:00"
 }
