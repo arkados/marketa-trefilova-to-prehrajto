@@ -43002,6 +43002,12 @@
         "size_bytes": 31200000000,
         "prepared_at": "2026-11-03T07:52:26.317997+00:00",
         "relay_source_id": "34357032"
+      },
+      "claim": {
+        "worker_id": "1d807099937c44159e68d7083bb1f5db-shard-0",
+        "claimed_at": "2026-11-17T17:47:44.487672+00:00",
+        "lease_expires_at": "2026-11-17T23:47:44.487672+00:00",
+        "run_id": "44093224298"
       }
     },
     "1395": {
@@ -124016,13 +124022,6 @@
           "source_id": "32453487",
           "target_video_id": "30985646",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:38:57.317212+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32453487",
-          "target_video_id": "30985646",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:55:28.843615+00:00"
         },
         {
@@ -124031,12 +124030,19 @@
           "target_video_id": "30985646",
           "permanent": false,
           "attempted_at": "2026-11-17T16:35:25.783964+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32453487",
+          "target_video_id": "30985646",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:47:46.957679+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32453487",
         "display_name": "Le gendarme se marie 4K CZ Dabing",
-        "planned_at": "2026-11-17T16:35:21.438942+00:00"
+        "planned_at": "2026-11-17T17:47:44.712770+00:00"
       },
       "previous_target_id": "30985646",
       "prepared": {
@@ -169940,7 +169946,7 @@
       "last_plan": {
         "source_id": "32276796",
         "display_name": "Grand Prix (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:47:41.898758+00:00"
+        "planned_at": "2026-11-17T17:47:44.988597+00:00"
       }
     },
     "14774": {
@@ -217668,5 +217674,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:47:42.135108+00:00"
+  "updated_at": "2026-11-17T17:47:46.957701+00:00"
 }
