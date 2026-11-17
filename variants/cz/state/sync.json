@@ -82671,6 +82671,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-08T05:26:41.175531+00:00",
         "relay_source_id": "34668514"
+      },
+      "claim": {
+        "worker_id": "532ad6002b4048aa86bf2b1d99ea8cb8-shard-0",
+        "claimed_at": "2026-11-17T00:23:17.680958+00:00",
+        "lease_expires_at": "2026-11-17T06:23:17.680958+00:00",
+        "run_id": "43981967428"
       }
     },
     "23317": {
@@ -83919,7 +83925,7 @@
       "last_plan": {
         "source_id": "30859189",
         "display_name": "Snack Shack 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:01:02.414982+00:00"
+        "planned_at": "2026-11-17T00:23:17.917973+00:00"
       },
       "previous_target_id": "30915737",
       "prepared": {
@@ -143136,13 +143142,6 @@
           "source_id": "34706688",
           "target_video_id": "30988602",
           "permanent": false,
-          "attempted_at": "2026-11-16T16:15:16.873885+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34706688",
-          "target_video_id": "30988602",
-          "permanent": false,
           "attempted_at": "2026-11-16T20:30:09.804768+00:00"
         },
         {
@@ -143151,6 +143150,13 @@
           "target_video_id": "30988602",
           "permanent": false,
           "attempted_at": "2026-11-16T22:00:59.527609+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34706688",
+          "target_video_id": "30988602",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:23:18.491949+00:00"
         }
       ],
       "last_plan": {
@@ -143164,12 +143170,6 @@
         "size_bytes": 823400000,
         "prepared_at": "2026-11-11T08:54:05.354889+00:00",
         "relay_source_id": "34706688"
-      },
-      "claim": {
-        "worker_id": "fde5805af24f4d6ea6ad549162673b43-shard-0",
-        "claimed_at": "2026-11-17T00:23:14.534020+00:00",
-        "lease_expires_at": "2026-11-17T06:23:14.534020+00:00",
-        "run_id": "43981967428"
       }
     },
     "16505": {
@@ -164723,7 +164723,7 @@
       "last_plan": {
         "source_id": "30643097",
         "display_name": "Amerika SD CZ Dabing",
-        "planned_at": "2026-11-17T00:23:15.057399+00:00"
+        "planned_at": "2026-11-17T00:23:18.212527+00:00"
       }
     },
     "11089": {
@@ -213351,5 +213351,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:23:15.057417+00:00"
+  "updated_at": "2026-11-17T00:23:18.491970+00:00"
 }
