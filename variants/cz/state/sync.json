@@ -123114,13 +123114,6 @@
           "source_id": "27404870",
           "target_video_id": "30985506",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:17:01.567938+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27404870",
-          "target_video_id": "30985506",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:46:16.637324+00:00"
         },
         {
@@ -123129,6 +123122,13 @@
           "target_video_id": "30985506",
           "permanent": false,
           "attempted_at": "2026-11-17T22:13:17.076608+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27404870",
+          "target_video_id": "30985506",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:42:01.805943+00:00"
         }
       ],
       "last_plan": {
@@ -171028,7 +171028,7 @@
       "last_plan": {
         "source_id": "29053345",
         "display_name": "Vánocní príbeh (Vánoční příběh) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:13:17.482667+00:00"
+        "planned_at": "2026-11-17T23:42:00.301363+00:00"
       },
       "previous_target_id": "31128050",
       "prepared": {
@@ -171036,6 +171036,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-17T20:37:33.806980+00:00",
         "relay_source_id": "29053345"
+      },
+      "claim": {
+        "worker_id": "4904d4514e274bdfbd380a5e021074e7-shard-0",
+        "claimed_at": "2026-11-17T23:42:01.187549+00:00",
+        "lease_expires_at": "2026-11-18T05:42:01.187549+00:00",
+        "run_id": "44170464010"
       }
     },
     "13493": {
@@ -171946,7 +171952,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:41:56.172085+00:00"
+        "planned_at": "2026-11-17T23:42:00.621709+00:00"
       }
     },
     "13183": {
@@ -219335,5 +219341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:41:56.542827+00:00"
+  "updated_at": "2026-11-17T23:42:01.805971+00:00"
 }
