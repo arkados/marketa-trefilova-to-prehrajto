@@ -112735,7 +112735,7 @@
       "last_plan": {
         "source_id": "35074796",
         "display_name": "Přísně tajné premiéry 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:46:18.786553+00:00"
+        "planned_at": "2026-11-17T20:03:58.539657+00:00"
       },
       "previous_target_id": "30983926",
       "prepared": {
@@ -112743,6 +112743,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:04:16.781769+00:00",
         "relay_source_id": "35074796"
+      },
+      "claim": {
+        "worker_id": "9142201e52214c33bdd3f80b0353adda-shard-0",
+        "claimed_at": "2026-11-17T20:03:59.194873+00:00",
+        "lease_expires_at": "2026-11-18T02:03:59.194873+00:00",
+        "run_id": "44093224298"
       }
     },
     "14842": {
@@ -170362,17 +170368,23 @@
           "attempted_at": "2026-11-17T18:46:22.634965+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "32695662",
-        "display_name": "When the Light Breaks (Ljósbrot) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:03:55.762781+00:00"
-      },
       "previous_target_id": "31124666",
-      "prepared": {
+      "upload": {
         "target_video_id": "31124666",
-        "size_bytes": 2374474296,
-        "prepared_at": "2026-11-17T18:38:40.094106+00:00",
-        "relay_source_id": "32695662"
+        "display_name": "When the Light Breaks (Ljósbrot) 1080p CZ Dabing",
+        "source_id": "32695662",
+        "source_url": "https://sdilej.cz/32695662/kdyz-se-svetlo-zlomi-when-the-light-breaks-1080p-web.dl-x264-ac3-5.1-is-cz-2024.mkv",
+        "source_filename": "Když se světlo zlomí When The Light Breaks 1080p WEB.DL x264 AC3 5.1 IS CZ 2024.mkv",
+        "size_bytes": 2400000000,
+        "width": 1920,
+        "height": 1036,
+        "audio_language": "cs",
+        "language_probability": 0.9916873574256897,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/when-the-light-breaks-ljosbrot-1080p-cz-dabing-mkv/3c585379bf57b06c",
+        "uploaded_at": "2026-11-17T20:03:59.378295+00:00"
       }
     },
     "33284": {
@@ -170747,7 +170759,7 @@
       "last_plan": {
         "source_id": "34846271",
         "display_name": "We Have a Pope (Habemus Papam) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:03:56.004075+00:00"
+        "planned_at": "2026-11-17T20:03:58.782884+00:00"
       }
     },
     "11132": {
@@ -218337,5 +218349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:03:56.004092+00:00"
+  "updated_at": "2026-11-17T20:03:59.378310+00:00"
 }
