@@ -123864,7 +123864,7 @@
       "last_plan": {
         "source_id": "27021419",
         "display_name": "Ray Donovan: The Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:48:28.376594+00:00"
+        "planned_at": "2026-11-17T12:05:21.396576+00:00"
       },
       "previous_target_id": "30985619",
       "prepared": {
@@ -123872,6 +123872,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T20:46:51.208874+00:00",
         "relay_source_id": "27021419"
+      },
+      "claim": {
+        "worker_id": "8168bc7a668d435288dbc1b06dd20c52-shard-0",
+        "claimed_at": "2026-11-17T12:05:22.414606+00:00",
+        "lease_expires_at": "2026-11-17T18:05:22.414606+00:00",
+        "run_id": "44078950078"
       }
     },
     "2868": {
@@ -168040,11 +168046,23 @@
       "attempts": []
     },
     "5340": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32759833",
+          "reason": "Request failed for https://sdilej.cz/32759833/zapisnik-alkoholicky-2024-cz-dab-1080p.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:05:23.743296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32759833",
         "display_name": "Her Drunken Diary (Zápisník alkoholičky) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:05:17.333404+00:00"
+        "planned_at": "2026-11-17T12:05:21.703920+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "32759833",
+        "requested_at": "2026-11-17T12:05:23.743283+00:00"
       }
     },
     "29576": {
@@ -168061,7 +168079,7 @@
       "last_plan": {
         "source_id": "25924611",
         "display_name": "Buster (Buster: Oregon Mortensen) (2021) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:00:39.157048+00:00"
+        "planned_at": "2026-11-17T12:05:21.900263+00:00"
       }
     },
     "12169": {
@@ -216128,5 +216146,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:05:18.966339+00:00"
+  "updated_at": "2026-11-17T12:05:23.743300+00:00"
 }
