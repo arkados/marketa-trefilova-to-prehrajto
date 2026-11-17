@@ -170497,17 +170497,19 @@
       }
     },
     "13893": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25200969",
+          "target_video_id": "31126161",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:32:38.820252+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25200969",
         "display_name": "Flash Point (DaoHuoXian) 1080p CZ Dabing",
         "planned_at": "2026-11-17T19:28:33.588626+00:00"
-      },
-      "claim": {
-        "worker_id": "6c902e4e78374c5e896e74b34ec7052c-shard-0",
-        "claimed_at": "2026-11-17T19:28:34.259016+00:00",
-        "lease_expires_at": "2026-11-18T01:28:34.259016+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31126161",
       "prepared": {
@@ -218157,5 +218159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:32:36.837506+00:00"
+  "updated_at": "2026-11-17T19:32:38.820285+00:00"
 }
