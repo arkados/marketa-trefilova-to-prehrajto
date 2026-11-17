@@ -99571,13 +99571,6 @@
           "source_id": "34471665",
           "target_video_id": "30959278",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:09:38.513848+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34471665",
-          "target_video_id": "30959278",
-          "permanent": false,
           "attempted_at": "2026-11-17T16:45:48.564840+00:00"
         },
         {
@@ -99586,6 +99579,13 @@
           "target_video_id": "30959278",
           "permanent": false,
           "attempted_at": "2026-11-17T17:59:13.774692+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34471665",
+          "target_video_id": "30959278",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:12:25.492700+00:00"
         }
       ],
       "last_plan": {
@@ -99599,12 +99599,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T02:09:17.495984+00:00",
         "relay_source_id": "34471665"
-      },
-      "claim": {
-        "worker_id": "e043c19fe99648fe88b16999729bbb3d-shard-0",
-        "claimed_at": "2026-11-17T19:12:22.015251+00:00",
-        "lease_expires_at": "2026-11-18T01:12:22.015251+00:00",
-        "run_id": "44093224298"
       }
     },
     "28005": {
@@ -135777,7 +135771,7 @@
       "last_plan": {
         "source_id": "34660671",
         "display_name": "Jan Cimbura 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:59:13.316375+00:00"
+        "planned_at": "2026-11-17T19:12:24.733713+00:00"
       },
       "previous_target_id": "30987601",
       "prepared": {
@@ -135785,6 +135779,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T05:22:14.482694+00:00",
         "relay_source_id": "34660671"
+      },
+      "claim": {
+        "worker_id": "ecd95ed1a23b4913ab63342896c27116-shard-0",
+        "claimed_at": "2026-11-17T19:12:25.314454+00:00",
+        "lease_expires_at": "2026-11-18T01:12:25.314454+00:00",
+        "run_id": "44093224298"
       }
     },
     "24173": {
@@ -170422,7 +170422,7 @@
       "last_plan": {
         "source_id": "34910128",
         "display_name": "The Sparrow in the Chimney 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:12:21.398255+00:00"
+        "planned_at": "2026-11-17T19:12:24.955483+00:00"
       }
     },
     "25427": {
@@ -218072,5 +218072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:12:22.643908+00:00"
+  "updated_at": "2026-11-17T19:12:25.492716+00:00"
 }
