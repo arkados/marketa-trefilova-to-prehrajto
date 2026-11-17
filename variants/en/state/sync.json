@@ -22249,17 +22249,16 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T16:54:02.689081+00:00",
         "relay_source_id": "13368212"
+      },
+      "claim": {
+        "worker_id": "9e1894de04ca49bea10fd148175cbdf3-shard-0",
+        "claimed_at": "2026-11-17T11:30:41.895202+00:00",
+        "lease_expires_at": "2026-11-17T17:30:41.895202+00:00",
+        "run_id": "44013593637"
       }
     },
     "2294": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "11947495",
-          "target_video_id": "30984719",
-          "permanent": false,
-          "attempted_at": "2026-11-17T10:00:13.496364+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "11947495",
@@ -22273,6 +22272,13 @@
           "target_video_id": "30984719",
           "permanent": false,
           "attempted_at": "2026-11-17T11:00:32.050686+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11947495",
+          "target_video_id": "30984719",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:30:41.767183+00:00"
         }
       ],
       "last_plan": {
@@ -22286,12 +22292,6 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T17:23:36.346391+00:00",
         "relay_source_id": "11947495"
-      },
-      "claim": {
-        "worker_id": "96618a795278481f851162fd5614f211-shard-0",
-        "claimed_at": "2026-11-17T11:30:37.921615+00:00",
-        "lease_expires_at": "2026-11-17T17:30:37.921615+00:00",
-        "run_id": "44013593637"
       }
     },
     "18960": {
@@ -22765,7 +22765,7 @@
       "last_plan": {
         "source_id": "34014919",
         "display_name": "Skyking (#SKYKING) 1080p CZ titulky",
-        "planned_at": "2026-11-17T11:00:35.063481+00:00"
+        "planned_at": "2026-11-17T11:30:42.666259+00:00"
       },
       "previous_target_id": "30987918",
       "prepared": {
@@ -100744,5 +100744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:30:38.719627+00:00"
+  "updated_at": "2026-11-17T11:30:42.666272+00:00"
 }
