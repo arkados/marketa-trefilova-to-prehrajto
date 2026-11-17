@@ -171097,17 +171097,19 @@
       "attempts": []
     },
     "3839": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22313419",
+          "target_video_id": "31129124",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:21:28.330984+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22313419",
         "display_name": "Belle & Sebastian: The Adventure Continues (Belle et Sébastien, l'aventure continue) SD CZ Dabing",
         "planned_at": "2026-11-17T21:18:18.128732+00:00"
-      },
-      "claim": {
-        "worker_id": "0bb571cde3b049c48c9f9b98e7a4ac37-shard-0",
-        "claimed_at": "2026-11-17T21:18:21.106402+00:00",
-        "lease_expires_at": "2026-11-18T03:18:21.106402+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31129124",
       "prepared": {
@@ -218640,5 +218642,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:21:26.049626+00:00"
+  "updated_at": "2026-11-17T21:21:28.331011+00:00"
 }
