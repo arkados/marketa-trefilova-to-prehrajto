@@ -128646,13 +128646,6 @@
     "16044": {
       "attempts": [
         {
-          "status": "target_lookup_failed",
-          "permanent": false,
-          "source_id": "34825483",
-          "reason": "Existing target lookup failed; upload deferred",
-          "attempted_at": "2026-11-16T15:44:55.024607+00:00"
-        },
-        {
           "status": "target_processing",
           "source_id": "34825483",
           "target_video_id": "30986657",
@@ -128665,12 +128658,19 @@
           "target_video_id": "30986657",
           "permanent": false,
           "attempted_at": "2026-11-16T21:39:56.380667+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34825483",
+          "target_video_id": "30986657",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:02:03.607570+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34825483",
         "display_name": "We Grown Now 1080p CZ Dabing",
-        "planned_at": "2026-11-16T21:39:48.627112+00:00"
+        "planned_at": "2026-11-17T00:02:00.521323+00:00"
       },
       "previous_target_id": "30986657",
       "prepared": {
@@ -164620,7 +164620,7 @@
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:01:50.380980+00:00"
+        "planned_at": "2026-11-17T00:02:00.878255+00:00"
       }
     },
     "30838": {
@@ -213269,5 +213269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:01:53.541016+00:00"
+  "updated_at": "2026-11-17T00:02:03.607589+00:00"
 }
