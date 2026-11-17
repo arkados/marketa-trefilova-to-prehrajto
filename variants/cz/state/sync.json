@@ -138790,13 +138790,6 @@
           "source_id": "34715012",
           "target_video_id": "30987898",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:19:08.279444+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715012",
-          "target_video_id": "30987898",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:38:14.696277+00:00"
         },
         {
@@ -138805,12 +138798,19 @@
           "target_video_id": "30987898",
           "permanent": false,
           "attempted_at": "2026-11-17T15:55:16.158920+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715012",
+          "target_video_id": "30987898",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:31:37.284417+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34715012",
         "display_name": "Prijela k nám pout (Přijela k nám pouť) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:55:12.394925+00:00"
+        "planned_at": "2026-11-17T17:31:34.850550+00:00"
       },
       "previous_target_id": "30987898",
       "prepared": {
@@ -169850,7 +169850,13 @@
       "last_plan": {
         "source_id": "34788955",
         "display_name": "The Robe SD CZ Dabing",
-        "planned_at": "2026-11-17T17:31:29.568073+00:00"
+        "planned_at": "2026-11-17T17:31:35.096248+00:00"
+      },
+      "claim": {
+        "worker_id": "8bd8392b7a764d3380276492b8b11bbe-shard-0",
+        "claimed_at": "2026-11-17T17:31:35.803827+00:00",
+        "lease_expires_at": "2026-11-17T23:31:35.803827+00:00",
+        "run_id": "44093224298"
       }
     },
     "16436": {
@@ -169869,7 +169875,12 @@
       "attempts": []
     },
     "15226": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26738481",
+        "display_name": "South Sentinel (Sentinelle sud) 1080p CZ Dabing",
+        "planned_at": "2026-11-17T17:31:35.249691+00:00"
+      }
     },
     "20664": {
       "attempts": []
@@ -217602,5 +217613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:31:31.569922+00:00"
+  "updated_at": "2026-11-17T17:31:37.284436+00:00"
 }
