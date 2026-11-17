@@ -112666,6 +112666,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T15:02:33.300774+00:00",
         "relay_source_id": "35186010"
+      },
+      "claim": {
+        "worker_id": "9530e10bba71402b93d1c728b0521839-shard-0",
+        "claimed_at": "2026-11-17T09:28:59.490581+00:00",
+        "lease_expires_at": "2026-11-17T15:28:59.490581+00:00",
+        "run_id": "44013593637"
       }
     },
     "14888": {
@@ -140688,7 +140694,7 @@
       "last_plan": {
         "source_id": "33856306",
         "display_name": "Long Story Short (Feste & Freunde - Ein Hoch auf uns!) (2024) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:16:33.421447+00:00"
+        "planned_at": "2026-11-17T09:28:59.726259+00:00"
       },
       "previous_target_id": "30988120",
       "prepared": {
@@ -167240,17 +167246,19 @@
       }
     },
     "16735": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30423757",
+          "target_video_id": "31114805",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:28:59.963351+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30423757",
         "display_name": "How to Shake Off a Bride (Jak se zbavit nevěsty) 1080p CZ Dabing",
         "planned_at": "2026-11-17T09:24:27.653521+00:00"
-      },
-      "claim": {
-        "worker_id": "655ab73e115942719b1f95ed6fc4e1f7-shard-0",
-        "claimed_at": "2026-11-17T09:24:30.426728+00:00",
-        "lease_expires_at": "2026-11-17T15:24:30.426728+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31114805",
       "prepared": {
@@ -215470,5 +215478,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:28:57.152651+00:00"
+  "updated_at": "2026-11-17T09:28:59.963373+00:00"
 }
