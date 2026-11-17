@@ -123407,13 +123407,6 @@
           "source_id": "34230753",
           "target_video_id": "30985555",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:57:22.585010+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34230753",
-          "target_video_id": "30985555",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:11:55.403112+00:00"
         },
         {
@@ -123422,6 +123415,13 @@
           "target_video_id": "30985555",
           "permanent": false,
           "attempted_at": "2026-11-17T21:47:53.300668+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34230753",
+          "target_video_id": "30985555",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:15:46.851253+00:00"
         }
       ],
       "last_plan": {
@@ -129674,7 +129674,7 @@
       "last_plan": {
         "source_id": "34993388",
         "display_name": "Love Me Tender (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:47:53.022929+00:00"
+        "planned_at": "2026-11-17T23:15:44.772767+00:00"
       },
       "previous_target_id": "30986791",
       "prepared": {
@@ -129682,6 +129682,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T02:10:01.122902+00:00",
         "relay_source_id": "34993388"
+      },
+      "claim": {
+        "worker_id": "11d83e6f11dc444eb65d95a64ed6c521-shard-0",
+        "claimed_at": "2026-11-17T23:15:45.746839+00:00",
+        "lease_expires_at": "2026-11-18T05:15:45.746839+00:00",
+        "run_id": "44170464010"
       }
     },
     "14540": {
@@ -171816,7 +171822,7 @@
       "last_plan": {
         "source_id": "34877541",
         "display_name": "Cinderella (Aschenputtel) (2010) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:15:41.769768+00:00"
+        "planned_at": "2026-11-17T23:15:45.171982+00:00"
       }
     },
     "10729": {
@@ -219223,5 +219229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:15:42.021621+00:00"
+  "updated_at": "2026-11-17T23:15:46.851270+00:00"
 }
