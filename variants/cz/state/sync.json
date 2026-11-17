@@ -170826,17 +170826,19 @@
       }
     },
     "21861": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34794500",
+          "target_video_id": "31127524",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:32:42.030323+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34794500",
         "display_name": "Hotel (1967) 1080p CZ Dabing",
         "planned_at": "2026-11-17T20:20:35.069359+00:00"
-      },
-      "claim": {
-        "worker_id": "6d5e35d326ea46929fab4e9b885b807a-shard-0",
-        "claimed_at": "2026-11-17T20:20:37.968698+00:00",
-        "lease_expires_at": "2026-11-18T02:20:37.968698+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31127524",
       "prepared": {
@@ -218429,5 +218431,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:22:38.457915+00:00"
+  "updated_at": "2026-11-17T20:32:42.030349+00:00"
 }
