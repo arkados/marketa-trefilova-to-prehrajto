@@ -20077,6 +20077,12 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-10-31T23:30:33.725749+00:00",
         "relay_source_id": "12671560"
+      },
+      "claim": {
+        "worker_id": "27c08d80000d4b5ea3d1506821f54ad7-shard-0",
+        "claimed_at": "2026-11-17T17:53:02.165008+00:00",
+        "lease_expires_at": "2026-11-17T23:53:02.165008+00:00",
+        "run_id": "44093224298"
       }
     },
     "835": {
@@ -116589,7 +116595,7 @@
       "last_plan": {
         "source_id": "31728968",
         "display_name": "Thirteen 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:41:01.662071+00:00"
+        "planned_at": "2026-11-17T17:53:02.544970+00:00"
       },
       "previous_target_id": "30984695",
       "prepared": {
@@ -119791,13 +119797,6 @@
           "source_id": "11960847",
           "target_video_id": "30984963",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:44:27.890395+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11960847",
-          "target_video_id": "30984963",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:02:38.898085+00:00"
         },
         {
@@ -119806,6 +119805,13 @@
           "target_video_id": "30984963",
           "permanent": false,
           "attempted_at": "2026-11-17T16:40:59.282584+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11960847",
+          "target_video_id": "30984963",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:53:02.304143+00:00"
         }
       ],
       "last_plan": {
@@ -119819,12 +119825,6 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-10T18:21:03.419188+00:00",
         "relay_source_id": "11960847"
-      },
-      "claim": {
-        "worker_id": "e0d3acd430064af69ff0d3d3ff7a95fe-shard-0",
-        "claimed_at": "2026-11-17T17:52:57.777848+00:00",
-        "lease_expires_at": "2026-11-17T23:52:57.777848+00:00",
-        "run_id": "44093224298"
       }
     },
     "2870": {
@@ -169961,7 +169961,7 @@
       "last_plan": {
         "source_id": "32276796",
         "display_name": "Grand Prix (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:52:59.854596+00:00"
+        "planned_at": "2026-11-17T17:53:02.821114+00:00"
       }
     },
     "14774": {
@@ -217689,5 +217689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:52:59.854618+00:00"
+  "updated_at": "2026-11-17T17:53:02.821131+00:00"
 }
