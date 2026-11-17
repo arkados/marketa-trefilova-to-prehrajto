@@ -167461,17 +167461,19 @@
       }
     },
     "5923": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35183996",
+          "target_video_id": "31115388",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:06:21.859590+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35183996",
         "display_name": "Droneman (Modelář) 1080p CZ Dabing",
         "planned_at": "2026-11-17T10:01:44.895437+00:00"
-      },
-      "claim": {
-        "worker_id": "d413b1ed989747519c2f5b90d6d4dbe5-shard-0",
-        "claimed_at": "2026-11-17T10:01:49.126933+00:00",
-        "lease_expires_at": "2026-11-17T16:01:49.126933+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31115388",
       "prepared": {
@@ -215658,5 +215660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:06:19.686928+00:00"
+  "updated_at": "2026-11-17T10:06:21.859611+00:00"
 }
