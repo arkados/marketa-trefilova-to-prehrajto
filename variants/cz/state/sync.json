@@ -128545,6 +128545,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "619d2343bb7848b58e19e324a0b11e36-shard-0",
+        "claimed_at": "2026-11-17T23:12:36.571401+00:00",
+        "lease_expires_at": "2026-11-18T05:12:36.571401+00:00",
+        "run_id": "44170464010"
       }
     },
     "32719": {
@@ -171367,17 +171373,23 @@
           "attempted_at": "2026-11-17T21:44:38.942837+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "33021231",
-        "display_name": "Between us (Mizh nami) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:37:18.557706+00:00"
-      },
       "previous_target_id": "31129687",
-      "prepared": {
+      "upload": {
         "target_video_id": "31129687",
-        "size_bytes": 2472171536,
-        "prepared_at": "2026-11-17T21:37:26.156165+00:00",
-        "relay_source_id": "33021231"
+        "display_name": "Between us (Mizh nami) 1080p CZ Dabing",
+        "source_id": "33021231",
+        "source_url": "https://sdilej.cz/33021231/hora-mezi-nami.mkv",
+        "source_filename": "Hora mezi námi",
+        "size_bytes": 2500000000,
+        "width": 1920,
+        "height": 808,
+        "audio_language": "cs",
+        "language_probability": 0.9723153710365295,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/between-us-mizh-nami-1080p-cz-dabing-bin/ef04533bcf779337",
+        "uploaded_at": "2026-11-17T23:12:39.712372+00:00"
       }
     },
     "3403": {
@@ -171804,7 +171816,7 @@
       "last_plan": {
         "source_id": "34877541",
         "display_name": "Cinderella (Aschenputtel) (2010) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:12:33.751334+00:00"
+        "planned_at": "2026-11-17T23:12:37.301635+00:00"
       }
     },
     "10729": {
@@ -219211,5 +219223,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:12:34.067811+00:00"
+  "updated_at": "2026-11-17T23:12:39.712387+00:00"
 }
