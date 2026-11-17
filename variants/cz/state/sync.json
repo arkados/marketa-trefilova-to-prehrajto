@@ -125671,7 +125671,7 @@
       "last_plan": {
         "source_id": "33870427",
         "display_name": "Unstoppable (2024) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:00:36.541090+00:00"
+        "planned_at": "2026-11-17T18:11:57.490493+00:00"
       },
       "previous_target_id": "30985879",
       "prepared": {
@@ -125679,6 +125679,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T22:22:39.741739+00:00",
         "relay_source_id": "33870427"
+      },
+      "claim": {
+        "worker_id": "1f7c607be78844e09aa8b2608cd05644-shard-0",
+        "claimed_at": "2026-11-17T18:11:58.137439+00:00",
+        "lease_expires_at": "2026-11-18T00:11:58.137439+00:00",
+        "run_id": "44093224298"
       }
     },
     "2831": {
@@ -169770,17 +169776,23 @@
           "attempted_at": "2026-11-17T17:00:33.847188+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "35068137",
-        "display_name": "Leaving (Odcházení) SD CZ Dabing",
-        "planned_at": "2026-11-17T18:11:54.800000+00:00"
-      },
       "previous_target_id": "31123256",
-      "prepared": {
+      "upload": {
         "target_video_id": "31123256",
-        "size_bytes": 1295782328,
-        "prepared_at": "2026-11-17T16:57:59.307077+00:00",
-        "relay_source_id": "35068137"
+        "display_name": "Leaving (Odcházení) SD CZ Dabing",
+        "source_id": "35068137",
+        "source_url": "https://sdilej.cz/35068137/odchazeni.mkv",
+        "source_filename": "Odcházení.mkv",
+        "size_bytes": 1300000000,
+        "width": 1024,
+        "height": 576,
+        "audio_language": "cs",
+        "language_probability": 0.978087306022644,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/leaving-odchazeni-sd-cz-dabing-mkv/5750908e15a76f91",
+        "uploaded_at": "2026-11-17T18:11:58.560463+00:00"
       }
     },
     "3316": {
@@ -170104,7 +170116,7 @@
       "last_plan": {
         "source_id": "31396325",
         "display_name": "Obsession (1976) SD CZ Dabing",
-        "planned_at": "2026-11-17T18:11:55.044278+00:00"
+        "planned_at": "2026-11-17T18:11:57.722853+00:00"
       }
     },
     "34587": {
@@ -217811,5 +217823,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:11:55.044291+00:00"
+  "updated_at": "2026-11-17T18:11:58.560475+00:00"
 }
