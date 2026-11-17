@@ -132376,13 +132376,6 @@
           "source_id": "33767536",
           "target_video_id": "30987126",
           "permanent": false,
-          "attempted_at": "2026-11-16T17:17:08.173116+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767536",
-          "target_video_id": "30987126",
-          "permanent": false,
           "attempted_at": "2026-11-16T21:08:26.123490+00:00"
         },
         {
@@ -132391,6 +132384,13 @@
           "target_video_id": "30987126",
           "permanent": false,
           "attempted_at": "2026-11-16T22:41:05.591349+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767536",
+          "target_video_id": "30987126",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:54:33.247193+00:00"
         }
       ],
       "last_plan": {
@@ -141943,7 +141943,7 @@
       "last_plan": {
         "source_id": "32763852",
         "display_name": "Šviháci 1080p CZ Dabing",
-        "planned_at": "2026-11-16T22:41:04.860661+00:00"
+        "planned_at": "2026-11-17T00:54:31.758261+00:00"
       },
       "previous_target_id": "30988393",
       "prepared": {
@@ -141951,6 +141951,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T08:19:06.905333+00:00",
         "relay_source_id": "32763852"
+      },
+      "claim": {
+        "worker_id": "b5183137b57f4b10a9ecc2c56c7179d7-shard-0",
+        "claimed_at": "2026-11-17T00:54:32.592706+00:00",
+        "lease_expires_at": "2026-11-17T06:54:32.592706+00:00",
+        "run_id": "43981967428"
       }
     },
     "27827": {
@@ -164820,7 +164826,7 @@
       "last_plan": {
         "source_id": "25512131",
         "display_name": "The Wronged Man 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:54:28.922140+00:00"
+        "planned_at": "2026-11-17T00:54:32.052071+00:00"
       }
     },
     "17164": {
@@ -213444,5 +213450,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:54:29.144378+00:00"
+  "updated_at": "2026-11-17T00:54:33.247209+00:00"
 }
