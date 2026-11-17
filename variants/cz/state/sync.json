@@ -166159,17 +166159,19 @@
       }
     },
     "3512": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25288951",
+          "target_video_id": "31111647",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:52:51.326129+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25288951",
         "display_name": "Cyberbully SD CZ Dabing",
         "planned_at": "2026-11-17T06:51:45.243265+00:00"
-      },
-      "claim": {
-        "worker_id": "92ab510b78a54ca48f6a71c277089f1b-shard-0",
-        "claimed_at": "2026-11-17T06:51:48.267924+00:00",
-        "lease_expires_at": "2026-11-17T12:51:48.267924+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31111647",
       "prepared": {
@@ -214587,5 +214589,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:52:45.205554+00:00"
+  "updated_at": "2026-11-17T06:52:51.326153+00:00"
 }
