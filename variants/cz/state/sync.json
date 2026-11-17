@@ -135734,7 +135734,7 @@
       "last_plan": {
         "source_id": "34701460",
         "display_name": "A Bet on Thirteen (Sázka na třináctku) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T07:13:59.013221+00:00"
+        "planned_at": "2026-11-17T08:44:47.069757+00:00"
       },
       "previous_target_id": "30987598",
       "prepared": {
@@ -143271,6 +143271,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T08:56:41.131345+00:00",
         "relay_source_id": "34850592"
+      },
+      "claim": {
+        "worker_id": "d6b7369875f54dccb34a092ca4a923c4-shard-0",
+        "claimed_at": "2026-11-17T08:44:46.833517+00:00",
+        "lease_expires_at": "2026-11-17T14:44:46.833517+00:00",
+        "run_id": "44013593637"
       }
     },
     "32891": {
@@ -166892,17 +166898,19 @@
       }
     },
     "13741": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27442385",
+          "target_video_id": "31114102",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:44:47.655263+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27442385",
         "display_name": "The Rain Fairy (Dešťová víla) 1080p CZ Dabing",
         "planned_at": "2026-11-17T08:42:22.921650+00:00"
-      },
-      "claim": {
-        "worker_id": "4627fb0368a2417c86c8afc4f2f813fd-shard-0",
-        "claimed_at": "2026-11-17T08:42:25.520492+00:00",
-        "lease_expires_at": "2026-11-17T14:42:25.520492+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31114102",
       "prepared": {
@@ -166920,7 +166928,7 @@
       "last_plan": {
         "source_id": "32146983",
         "display_name": "A Bird of the Air 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:44:44.510270+00:00"
+        "planned_at": "2026-11-17T08:44:47.388262+00:00"
       }
     },
     "14803": {
@@ -215185,5 +215193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:44:44.510289+00:00"
+  "updated_at": "2026-11-17T08:44:47.655286+00:00"
 }
