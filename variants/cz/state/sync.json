@@ -114594,13 +114594,6 @@
           "source_id": "33770531",
           "target_video_id": "30984155",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:12:16.071375+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33770531",
-          "target_video_id": "30984155",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:32:39.548267+00:00"
         },
         {
@@ -114609,6 +114602,13 @@
           "target_video_id": "30984155",
           "permanent": false,
           "attempted_at": "2026-11-17T03:53:22.266503+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33770531",
+          "target_video_id": "30984155",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:16:06.381993+00:00"
         }
       ],
       "last_plan": {
@@ -134167,7 +134167,7 @@
       "last_plan": {
         "source_id": "35286913",
         "display_name": "Jarní vody 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:53:21.549498+00:00"
+        "planned_at": "2026-11-17T05:16:04.570909+00:00"
       },
       "previous_target_id": "30987383",
       "prepared": {
@@ -134175,6 +134175,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T04:27:15.782474+00:00",
         "relay_source_id": "35286913"
+      },
+      "claim": {
+        "worker_id": "d35c327934b9483b9421cf6e72e0b48a-shard-0",
+        "claimed_at": "2026-11-17T05:16:05.966960+00:00",
+        "lease_expires_at": "2026-11-17T11:16:05.966960+00:00",
+        "run_id": "44012569640"
       }
     },
     "12754": {
@@ -165826,7 +165832,7 @@
       "last_plan": {
         "source_id": "6052793",
         "display_name": "Boychoir 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:16:01.096477+00:00"
+        "planned_at": "2026-11-17T05:16:04.999299+00:00"
       }
     },
     "27254": {
@@ -214259,5 +214265,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:16:01.440961+00:00"
+  "updated_at": "2026-11-17T05:16:06.382014+00:00"
 }
