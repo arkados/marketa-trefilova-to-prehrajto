@@ -137084,13 +137084,6 @@
           "source_id": "27448062",
           "target_video_id": "30987750",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:48:14.564758+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27448062",
-          "target_video_id": "30987750",
-          "permanent": false,
           "attempted_at": "2026-11-17T16:28:46.117460+00:00"
         },
         {
@@ -137099,12 +137092,19 @@
           "target_video_id": "30987750",
           "permanent": false,
           "attempted_at": "2026-11-17T17:40:57.877513+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27448062",
+          "target_video_id": "30987750",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:52:58.349000+00:00"
         }
       ],
       "last_plan": {
         "source_id": "27448062",
         "display_name": "Zvonící mece (Zvonící meče) SD CZ Dabing",
-        "planned_at": "2026-11-17T17:40:53.739840+00:00"
+        "planned_at": "2026-11-17T18:52:56.440307+00:00"
       },
       "previous_target_id": "30987750",
       "prepared": {
@@ -170361,7 +170361,13 @@
       "last_plan": {
         "source_id": "27845622",
         "display_name": "Bethlehem Night (Betlémské světlo) 4K CZ Dabing",
-        "planned_at": "2026-11-17T18:52:51.644464+00:00"
+        "planned_at": "2026-11-17T18:52:56.663847+00:00"
+      },
+      "claim": {
+        "worker_id": "aafc2b0685034f9583826bfdba8f3c5d-shard-0",
+        "claimed_at": "2026-11-17T18:52:57.292407+00:00",
+        "lease_expires_at": "2026-11-18T00:52:57.292407+00:00",
+        "run_id": "44093224298"
       }
     },
     "14873": {
@@ -170371,7 +170377,12 @@
       "attempts": []
     },
     "37373": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34910128",
+        "display_name": "The Sparrow in the Chimney 1080p CZ Dabing",
+        "planned_at": "2026-11-17T18:52:56.804517+00:00"
+      }
     },
     "25427": {
       "attempts": []
@@ -218020,5 +218031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:52:54.136255+00:00"
+  "updated_at": "2026-11-17T18:52:58.349014+00:00"
 }
