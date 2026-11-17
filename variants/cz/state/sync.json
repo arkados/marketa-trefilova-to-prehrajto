@@ -110810,13 +110810,6 @@
           "source_id": "32367221",
           "target_video_id": "30983754",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:14:31.988734+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32367221",
-          "target_video_id": "30983754",
-          "permanent": false,
           "attempted_at": "2026-11-17T16:50:08.627073+00:00"
         },
         {
@@ -110825,12 +110818,19 @@
           "target_video_id": "30983754",
           "permanent": false,
           "attempted_at": "2026-11-17T18:03:24.010812+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32367221",
+          "target_video_id": "30983754",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:16:16.326556+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32367221",
         "display_name": "Oznamuje se láskám vasim (Oznamuje se láskám vašim) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:03:19.850437+00:00"
+        "planned_at": "2026-11-17T19:16:13.700147+00:00"
       },
       "previous_target_id": "30983754",
       "prepared": {
@@ -170422,14 +170422,25 @@
       "last_plan": {
         "source_id": "34910128",
         "display_name": "The Sparrow in the Chimney 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:16:09.232160+00:00"
+        "planned_at": "2026-11-17T19:16:13.935405+00:00"
+      },
+      "claim": {
+        "worker_id": "6a94fe2e910b48ceb317a8a64b748f2c-shard-0",
+        "claimed_at": "2026-11-17T19:16:14.500098+00:00",
+        "lease_expires_at": "2026-11-18T01:16:14.500098+00:00",
+        "run_id": "44093224298"
       }
     },
     "25427": {
       "attempts": []
     },
     "27220": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "25619803",
+        "display_name": "Planet Hulk SD CZ Dabing",
+        "planned_at": "2026-11-17T19:16:14.076802+00:00"
+      }
     },
     "4574": {
       "attempts": []
@@ -218072,5 +218083,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:16:10.863024+00:00"
+  "updated_at": "2026-11-17T19:16:16.326573+00:00"
 }
