@@ -128971,6 +128971,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T01:40:52.011583+00:00",
         "relay_source_id": "12402129"
+      },
+      "claim": {
+        "worker_id": "a8cdbc817e234119b1e6f6606631244d-shard-0",
+        "claimed_at": "2026-11-17T23:40:02.429434+00:00",
+        "lease_expires_at": "2026-11-18T05:40:02.429434+00:00",
+        "run_id": "44170464010"
       }
     },
     "15620": {
@@ -171555,17 +171561,23 @@
           "attempted_at": "2026-11-17T22:11:20.185202+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "29976237",
-        "display_name": "Die Verführung - Das fremde Mädchen (The Seduction - The Strange Girl) SD CZ Dabing",
-        "planned_at": "2026-11-17T22:08:23.081607+00:00"
-      },
       "previous_target_id": "31130627",
-      "prepared": {
+      "upload": {
         "target_video_id": "31130627",
-        "size_bytes": 949679896,
-        "prepared_at": "2026-11-17T22:08:31.463993+00:00",
-        "relay_source_id": "29976237"
+        "display_name": "Die Verführung - Das fremde Mädchen (The Seduction - The Strange Girl) SD CZ Dabing",
+        "source_id": "29976237",
+        "source_url": "https://sdilej.cz/29976237/cizi.holka-2011-cz.avi",
+        "source_filename": "Cizi.holka-(2011)cz.avi",
+        "size_bytes": 949700000,
+        "width": 720,
+        "height": 576,
+        "audio_language": "cs",
+        "language_probability": 0.9728990197181702,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/die-verfuehrung-das-fremde-maedchen-the-seduction-the-strange-girl-sd-cz-dabing-avi/8d995d3d05ed7c0b",
+        "uploaded_at": "2026-11-17T23:40:07.022550+00:00"
       }
     },
     "27964": {
@@ -171940,7 +171952,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:39:59.737072+00:00"
+        "planned_at": "2026-11-17T23:40:03.085813+00:00"
       }
     },
     "13183": {
@@ -219329,5 +219341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:39:59.987105+00:00"
+  "updated_at": "2026-11-17T23:40:07.022567+00:00"
 }
