@@ -136730,13 +136730,6 @@
           "source_id": "34788778",
           "target_video_id": "30987713",
           "permanent": false,
-          "attempted_at": "2026-11-17T15:52:49.145560+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788778",
-          "target_video_id": "30987713",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:28:59.476645+00:00"
         },
         {
@@ -136745,6 +136738,13 @@
           "target_video_id": "30987713",
           "permanent": false,
           "attempted_at": "2026-11-17T18:40:56.851030+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788778",
+          "target_video_id": "30987713",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:58:19.048900+00:00"
         }
       ],
       "last_plan": {
@@ -136758,12 +136758,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T05:46:59.133224+00:00",
         "relay_source_id": "34788778"
-      },
-      "claim": {
-        "worker_id": "bf90a9b12a3a4d50b2a2f7b39a478492-shard-0",
-        "claimed_at": "2026-11-17T19:58:15.984239+00:00",
-        "lease_expires_at": "2026-11-18T01:58:15.984239+00:00",
-        "run_id": "44093224298"
       }
     },
     "6887": {
@@ -157272,7 +157266,7 @@
       "last_plan": {
         "source_id": "25693110",
         "display_name": "Nackt. Das Netz vergisst nie. 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:40:58.856172+00:00"
+        "planned_at": "2026-11-17T19:58:19.756808+00:00"
       },
       "previous_target_id": "31062847",
       "prepared": {
@@ -170647,17 +170641,19 @@
       }
     },
     "5329": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30951427",
+          "target_video_id": "31126898",
+          "permanent": false,
+          "attempted_at": "2026-11-17T19:58:20.171657+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30951427",
         "display_name": "Diplo: The Mighty Dinosaur (Diplodocus) 1080p CZ Dabing",
         "planned_at": "2026-11-17T19:53:19.526201+00:00"
-      },
-      "claim": {
-        "worker_id": "48aae10496da40d7928ff6f377d76409-shard-0",
-        "claimed_at": "2026-11-17T19:53:20.698699+00:00",
-        "lease_expires_at": "2026-11-18T01:53:20.698699+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31126898",
       "prepared": {
@@ -170672,7 +170668,7 @@
       "last_plan": {
         "source_id": "11737058",
         "display_name": "Il... Belpaese SD CZ Dabing",
-        "planned_at": "2026-11-17T19:58:15.534195+00:00"
+        "planned_at": "2026-11-17T19:58:19.997371+00:00"
       }
     },
     "28261": {
@@ -218277,5 +218273,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T19:58:16.487025+00:00"
+  "updated_at": "2026-11-17T19:58:20.171676+00:00"
 }
