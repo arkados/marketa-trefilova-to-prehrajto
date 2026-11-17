@@ -166414,17 +166414,19 @@
       }
     },
     "33239": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12492281",
+          "target_video_id": "31112284",
+          "permanent": false,
+          "attempted_at": "2026-11-17T07:28:59.785744+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12492281",
         "display_name": "Zulu Dawn 1080p CZ Dabing",
         "planned_at": "2026-11-17T07:22:11.559311+00:00"
-      },
-      "claim": {
-        "worker_id": "5cab103affbb4192a3de3fa1103eb145-shard-0",
-        "claimed_at": "2026-11-17T07:22:12.938626+00:00",
-        "lease_expires_at": "2026-11-17T13:22:12.938626+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31112284",
       "prepared": {
@@ -214779,5 +214781,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T07:28:56.630385+00:00"
+  "updated_at": "2026-11-17T07:28:59.785763+00:00"
 }
