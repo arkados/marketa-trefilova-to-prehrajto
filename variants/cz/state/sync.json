@@ -134415,13 +134415,6 @@
           "source_id": "35418778",
           "target_video_id": "30987434",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:16:01.864087+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35418778",
-          "target_video_id": "30987434",
-          "permanent": false,
           "attempted_at": "2026-11-17T20:45:29.777370+00:00"
         },
         {
@@ -134430,12 +134423,19 @@
           "target_video_id": "30987434",
           "permanent": false,
           "attempted_at": "2026-11-17T22:12:27.101010+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35418778",
+          "target_video_id": "30987434",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:41:04.509943+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35418778",
         "display_name": "Murder in the Somme (Le Vagabond de la Baie de Somme) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:12:22.431752+00:00"
+        "planned_at": "2026-11-17T23:41:01.562113+00:00"
       },
       "previous_target_id": "30987434",
       "prepared": {
@@ -139578,6 +139578,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T07:01:26.061668+00:00",
         "relay_source_id": "34713910"
+      },
+      "claim": {
+        "worker_id": "828ac725b0a548209bb26d41fb934696-shard-0",
+        "claimed_at": "2026-11-17T23:41:01.269305+00:00",
+        "lease_expires_at": "2026-11-18T05:41:01.269305+00:00",
+        "run_id": "44170464010"
       }
     },
     "33296": {
@@ -171946,7 +171952,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:40:58.541750+00:00"
+        "planned_at": "2026-11-17T23:41:01.882446+00:00"
       }
     },
     "13183": {
@@ -219335,5 +219341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:40:58.791789+00:00"
+  "updated_at": "2026-11-17T23:41:04.509968+00:00"
 }
