@@ -128637,13 +128637,6 @@
           "source_id": "29545278",
           "target_video_id": "30986656",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:24:54.531952+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29545278",
-          "target_video_id": "30986656",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:44:02.864738+00:00"
         },
         {
@@ -128652,6 +128645,13 @@
           "target_video_id": "30986656",
           "permanent": false,
           "attempted_at": "2026-11-17T16:25:03.277545+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29545278",
+          "target_video_id": "30986656",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:37:12.995108+00:00"
         }
       ],
       "last_plan": {
@@ -140839,7 +140839,7 @@
       "last_plan": {
         "source_id": "30863959",
         "display_name": "A 105 p.c. Alibi 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:25:02.844001+00:00"
+        "planned_at": "2026-11-17T17:37:11.525307+00:00"
       },
       "previous_target_id": "30988142",
       "prepared": {
@@ -140847,6 +140847,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T07:39:26.787645+00:00",
         "relay_source_id": "30863959"
+      },
+      "claim": {
+        "worker_id": "fa47a34d514f48d99cc05d514f47f142-shard-0",
+        "claimed_at": "2026-11-17T17:37:12.181755+00:00",
+        "lease_expires_at": "2026-11-17T23:37:12.181755+00:00",
+        "run_id": "44093224298"
       }
     },
     "21784": {
@@ -169894,7 +169900,7 @@
       "last_plan": {
         "source_id": "26738481",
         "display_name": "South Sentinel (Sentinelle sud) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:37:09.166217+00:00"
+        "planned_at": "2026-11-17T17:37:11.763761+00:00"
       }
     },
     "20664": {
@@ -217628,5 +217634,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:37:09.166234+00:00"
+  "updated_at": "2026-11-17T17:37:12.995133+00:00"
 }
