@@ -123807,13 +123807,6 @@
           "source_id": "16256834",
           "target_video_id": "30985618",
           "permanent": false,
-          "attempted_at": "2026-11-17T11:53:43.259101+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16256834",
-          "target_video_id": "30985618",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:10:53.225001+00:00"
         },
         {
@@ -123822,6 +123815,13 @@
           "target_video_id": "30985618",
           "permanent": false,
           "attempted_at": "2026-11-17T14:27:32.250919+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16256834",
+          "target_video_id": "30985618",
+          "permanent": false,
+          "attempted_at": "2026-11-17T15:47:14.778226+00:00"
         }
       ],
       "last_plan": {
@@ -130554,7 +130554,7 @@
       "last_plan": {
         "source_id": "27361344",
         "display_name": "The Very Late Afternoon of a Faun (Faunovo velmi pozdní odpoledne) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:27:31.995691+00:00"
+        "planned_at": "2026-11-17T15:47:13.097209+00:00"
       },
       "previous_target_id": "30986908",
       "prepared": {
@@ -130562,6 +130562,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T02:38:37.729548+00:00",
         "relay_source_id": "27361344"
+      },
+      "claim": {
+        "worker_id": "c19515549b0d4d5d8cab7946f7cdfc37-shard-0",
+        "claimed_at": "2026-11-17T15:47:14.042290+00:00",
+        "lease_expires_at": "2026-11-17T21:47:14.042290+00:00",
+        "run_id": "44078950078"
       }
     },
     "2834": {
@@ -169400,7 +169406,7 @@
       "last_plan": {
         "source_id": "30722470",
         "display_name": "After Party 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:47:10.227778+00:00"
+        "planned_at": "2026-11-17T15:47:13.413664+00:00"
       }
     },
     "22528": {
@@ -217248,5 +217254,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T15:47:10.227795+00:00"
+  "updated_at": "2026-11-17T15:47:14.778245+00:00"
 }
