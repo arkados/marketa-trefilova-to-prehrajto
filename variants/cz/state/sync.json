@@ -41484,7 +41484,7 @@
       "last_plan": {
         "source_id": "34826023",
         "display_name": "Identity 4K CZ Dabing",
-        "planned_at": "2026-11-17T20:18:13.246828+00:00"
+        "planned_at": "2026-11-17T21:55:59.544783+00:00"
       },
       "previous_target_id": "30751591",
       "prepared": {
@@ -41492,6 +41492,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-03T03:58:27.242114+00:00",
         "relay_source_id": "34826023"
+      },
+      "claim": {
+        "worker_id": "fc98635fad964cfcbd418360fd43b36f-shard-0",
+        "claimed_at": "2026-11-17T21:56:00.418717+00:00",
+        "lease_expires_at": "2026-11-18T03:56:00.418717+00:00",
+        "run_id": "44170464010"
       }
     },
     "34337": {
@@ -170871,17 +170877,23 @@
           "attempted_at": "2026-11-17T20:18:16.727567+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "26408626",
-        "display_name": "All Creatures Great and Small 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:55:56.125495+00:00"
-      },
       "previous_target_id": "31127340",
-      "prepared": {
+      "upload": {
         "target_video_id": "31127340",
-        "size_bytes": 2122300997,
-        "prepared_at": "2026-11-17T20:13:56.781697+00:00",
-        "relay_source_id": "26408626"
+        "display_name": "All Creatures Great and Small 1080p CZ Dabing",
+        "source_id": "26408626",
+        "source_url": "https://sdilej.cz/26408626/vsechny-velke-a-male-bytosti.mkv",
+        "source_filename": "Všechny velké a malé bytosti.mkv",
+        "size_bytes": 2100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9712867140769958,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/all-creatures-great-and-small-1080p-cz-dabing-mkv/46ba21267c797e7c",
+        "uploaded_at": "2026-11-17T21:56:00.701042+00:00"
       }
     },
     "11033": {
@@ -171361,7 +171373,7 @@
       "last_plan": {
         "source_id": "35185503",
         "display_name": "Land 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:55:56.451194+00:00"
+        "planned_at": "2026-11-17T21:55:59.858006+00:00"
       }
     },
     "15275": {
@@ -218834,5 +218846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T21:55:56.714766+00:00"
+  "updated_at": "2026-11-17T21:56:00.701058+00:00"
 }
