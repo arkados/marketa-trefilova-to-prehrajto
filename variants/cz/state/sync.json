@@ -132766,13 +132766,6 @@
           "source_id": "17465562",
           "target_video_id": "30987160",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:18:31.432460+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17465562",
-          "target_video_id": "30987160",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:37:38.443447+00:00"
         },
         {
@@ -132781,6 +132774,13 @@
           "target_video_id": "30987160",
           "permanent": false,
           "attempted_at": "2026-11-17T15:54:41.288155+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17465562",
+          "target_video_id": "30987160",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:31:04.307712+00:00"
         }
       ],
       "last_plan": {
@@ -134081,7 +134081,7 @@
       "last_plan": {
         "source_id": "26710573",
         "display_name": "Requiem 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:54:40.084440+00:00"
+        "planned_at": "2026-11-17T17:31:03.066696+00:00"
       },
       "previous_target_id": "30987368",
       "prepared": {
@@ -134089,6 +134089,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T04:26:03.641359+00:00",
         "relay_source_id": "26710573"
+      },
+      "claim": {
+        "worker_id": "40d792189da0464589bbb66f47a35e74-shard-0",
+        "claimed_at": "2026-11-17T17:31:03.704743+00:00",
+        "lease_expires_at": "2026-11-17T23:31:03.704743+00:00",
+        "run_id": "44093224298"
       }
     },
     "32779": {
@@ -169850,7 +169856,7 @@
       "last_plan": {
         "source_id": "34788955",
         "display_name": "The Robe SD CZ Dabing",
-        "planned_at": "2026-11-17T17:31:00.664473+00:00"
+        "planned_at": "2026-11-17T17:31:03.295145+00:00"
       }
     },
     "16436": {
@@ -217602,5 +217608,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:31:00.664494+00:00"
+  "updated_at": "2026-11-17T17:31:04.307737+00:00"
 }
