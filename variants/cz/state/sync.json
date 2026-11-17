@@ -169846,17 +169846,19 @@
       }
     },
     "21373": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34788955",
+          "target_video_id": "31123716",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:33:32.308911+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34788955",
         "display_name": "The Robe SD CZ Dabing",
         "planned_at": "2026-11-17T17:31:35.096248+00:00"
-      },
-      "claim": {
-        "worker_id": "8bd8392b7a764d3380276492b8b11bbe-shard-0",
-        "claimed_at": "2026-11-17T17:31:35.803827+00:00",
-        "lease_expires_at": "2026-11-17T23:31:35.803827+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31123716",
       "prepared": {
@@ -217620,5 +217622,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:33:29.407881+00:00"
+  "updated_at": "2026-11-17T17:33:32.308931+00:00"
 }
