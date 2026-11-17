@@ -50933,6 +50933,12 @@
         "size_bytes": 5800000000,
         "prepared_at": "2026-11-04T01:15:13.177284+00:00",
         "relay_source_id": "32819081"
+      },
+      "claim": {
+        "worker_id": "a668ae009e144dbca52bce3f6435f49f-shard-0",
+        "claimed_at": "2026-11-17T00:09:37.750955+00:00",
+        "lease_expires_at": "2026-11-17T06:09:37.750955+00:00",
+        "run_id": "43981967428"
       }
     },
     "23950": {
@@ -130878,7 +130884,7 @@
       "last_plan": {
         "source_id": "30624932",
         "display_name": "The Cry (Křik) SD CZ Dabing",
-        "planned_at": "2026-11-16T21:47:31.571721+00:00"
+        "planned_at": "2026-11-17T00:09:38.027204+00:00"
       },
       "previous_target_id": "30986943",
       "prepared": {
@@ -130886,6 +130892,12 @@
         "size_bytes": 971300000,
         "prepared_at": "2026-11-11T02:47:37.595965+00:00",
         "relay_source_id": "30624932"
+      },
+      "claim": {
+        "worker_id": "7db27003ef0544e88aa330e8879dde65-shard-0",
+        "claimed_at": "2026-11-17T00:09:38.980104+00:00",
+        "lease_expires_at": "2026-11-17T06:09:38.980104+00:00",
+        "run_id": "43981967428"
       }
     },
     "20748": {
@@ -164612,17 +164624,19 @@
       }
     },
     "31435": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713962",
+          "target_video_id": "31102193",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:09:39.362443+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713962",
         "display_name": "Mamifera (Mamífera) 1080p CZ Dabing",
         "planned_at": "2026-11-17T00:04:54.003491+00:00"
-      },
-      "claim": {
-        "worker_id": "015404191ed2463787a705e707cbcce3-shard-0",
-        "claimed_at": "2026-11-17T00:04:54.954682+00:00",
-        "lease_expires_at": "2026-11-17T06:04:54.954682+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31102193",
       "prepared": {
@@ -164643,7 +164657,7 @@
       "last_plan": {
         "source_id": "23504959",
         "display_name": "The Flower in His Mouth 1080p CZ Dabing",
-        "planned_at": "2026-11-17T00:09:35.332725+00:00"
+        "planned_at": "2026-11-17T00:09:38.343946+00:00"
       }
     },
     "23372": {
@@ -213283,5 +213297,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:09:35.332743+00:00"
+  "updated_at": "2026-11-17T00:09:39.362461+00:00"
 }
