@@ -124207,6 +124207,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T21:02:55.982384+00:00",
         "relay_source_id": "30548877"
+      },
+      "claim": {
+        "worker_id": "cccfb82bec28406a832e982ab7c2c629-shard-0",
+        "claimed_at": "2026-11-17T10:23:30.009403+00:00",
+        "lease_expires_at": "2026-11-17T16:23:30.009403+00:00",
+        "run_id": "44013593637"
       }
     },
     "23611": {
@@ -167560,17 +167566,19 @@
       "attempts": []
     },
     "14178": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35145625",
+          "target_video_id": "31115623",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:23:30.270043+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35145625",
         "display_name": "Yakari, A Spectacular Journey (Yakari : La Grande Aventure) 1080p CZ Dabing",
         "planned_at": "2026-11-17T10:18:11.615727+00:00"
-      },
-      "claim": {
-        "worker_id": "2c684a6992844358a6bebac247a387e3-shard-0",
-        "claimed_at": "2026-11-17T10:18:12.510763+00:00",
-        "lease_expires_at": "2026-11-17T16:18:12.510763+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31115623",
       "prepared": {
@@ -215742,5 +215750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:23:27.724506+00:00"
+  "updated_at": "2026-11-17T10:23:30.270060+00:00"
 }
