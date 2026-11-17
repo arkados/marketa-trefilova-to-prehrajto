@@ -134292,6 +134292,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T04:33:04.944396+00:00",
         "relay_source_id": "34694077"
+      },
+      "claim": {
+        "worker_id": "9bfe9efc71b44cbd87fc057b2bb5efbf-shard-0",
+        "claimed_at": "2026-11-17T14:52:21.953433+00:00",
+        "lease_expires_at": "2026-11-17T20:52:21.953433+00:00",
+        "run_id": "44078950078"
       }
     },
     "32945": {
@@ -169122,17 +169128,19 @@
       "attempts": []
     },
     "15035": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27370790",
+          "target_video_id": "31120917",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:52:22.212852+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27370790",
         "display_name": "Stridavka (Střídavka) 1080p CZ Dabing",
         "planned_at": "2026-11-17T14:49:48.051733+00:00"
-      },
-      "claim": {
-        "worker_id": "45419c0466d449a7b29c8ef56a3e632c-shard-0",
-        "claimed_at": "2026-11-17T14:49:50.784657+00:00",
-        "lease_expires_at": "2026-11-17T20:49:50.784657+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31120917",
       "prepared": {
@@ -217043,5 +217051,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:52:19.620830+00:00"
+  "updated_at": "2026-11-17T14:52:22.212868+00:00"
 }
