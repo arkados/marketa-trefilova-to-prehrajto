@@ -118531,7 +118531,7 @@
       "last_plan": {
         "source_id": "32263146",
         "display_name": "Last Tango in Paris 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:53:58.747139+00:00"
+        "planned_at": "2026-11-17T22:21:27.390290+00:00"
       },
       "previous_target_id": "30984860",
       "prepared": {
@@ -118539,17 +118539,16 @@
         "size_bytes": 6500000000,
         "prepared_at": "2026-11-10T17:56:45.657447+00:00",
         "relay_source_id": "32263146"
+      },
+      "claim": {
+        "worker_id": "fc33ff8fb6a9414e8307e01f56141be4-shard-0",
+        "claimed_at": "2026-11-17T22:21:28.313750+00:00",
+        "lease_expires_at": "2026-11-18T04:21:28.313750+00:00",
+        "run_id": "44170464010"
       }
     },
     "3157": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "13038862",
-          "target_video_id": "30984859",
-          "permanent": false,
-          "attempted_at": "2026-11-17T18:10:15.239986+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "13038862",
@@ -118563,6 +118562,13 @@
           "target_video_id": "30984859",
           "permanent": false,
           "attempted_at": "2026-11-17T20:54:00.150487+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13038862",
+          "target_video_id": "30984859",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:21:29.352638+00:00"
         }
       ],
       "last_plan": {
@@ -171506,6 +171512,12 @@
         "source_id": "26365100",
         "display_name": "Gorky Park 1080p CZ Dabing",
         "planned_at": "2026-11-17T22:21:24.068893+00:00"
+      },
+      "claim": {
+        "worker_id": "ec88d01b4b7b4339839dfeaa613f418c-shard-0",
+        "claimed_at": "2026-11-17T22:21:27.153272+00:00",
+        "lease_expires_at": "2026-11-18T04:21:27.153272+00:00",
+        "run_id": "44170464010"
       }
     },
     "30268": {
@@ -171513,7 +171525,7 @@
       "last_plan": {
         "source_id": "27040352",
         "display_name": "Smashed 720p CZ Dabing",
-        "planned_at": "2026-11-17T22:21:24.511246+00:00"
+        "planned_at": "2026-11-17T22:21:27.706814+00:00"
       }
     },
     "26621": {
@@ -218956,5 +218968,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:21:24.511262+00:00"
+  "updated_at": "2026-11-17T22:21:29.352657+00:00"
 }
