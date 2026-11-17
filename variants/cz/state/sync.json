@@ -125556,6 +125556,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T22:11:21.871926+00:00",
         "relay_source_id": "34788112"
+      },
+      "claim": {
+        "worker_id": "97db19404ea74cf980df9c1fd0b47ae3-shard-0",
+        "claimed_at": "2026-11-17T08:45:00.292509+00:00",
+        "lease_expires_at": "2026-11-17T14:45:00.292509+00:00",
+        "run_id": "44013593637"
       }
     },
     "11015": {
@@ -141439,13 +141445,6 @@
           "source_id": "34693961",
           "target_video_id": "30988228",
           "permanent": false,
-          "attempted_at": "2026-11-17T04:24:46.403136+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693961",
-          "target_video_id": "30988228",
-          "permanent": false,
           "attempted_at": "2026-11-17T05:47:24.929928+00:00"
         },
         {
@@ -141454,6 +141453,13 @@
           "target_video_id": "30988228",
           "permanent": false,
           "attempted_at": "2026-11-17T07:14:11.173358+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693961",
+          "target_video_id": "30988228",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:45:01.058280+00:00"
         }
       ],
       "last_plan": {
@@ -141467,12 +141473,6 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T07:55:40.231369+00:00",
         "relay_source_id": "34693961"
-      },
-      "claim": {
-        "worker_id": "882ea2e6f0ff4a3499cd35ddb88edd3f-shard-0",
-        "claimed_at": "2026-11-17T08:44:56.858582+00:00",
-        "lease_expires_at": "2026-11-17T14:44:56.858582+00:00",
-        "run_id": "44013593637"
       }
     },
     "15440": {
@@ -143330,7 +143330,7 @@
       "last_plan": {
         "source_id": "34787775",
         "display_name": "Lovers in the Year One (Milenci v roce jedna) SD CZ Dabing",
-        "planned_at": "2026-11-17T07:14:15.418700+00:00"
+        "planned_at": "2026-11-17T08:45:01.284309+00:00"
       },
       "previous_target_id": "30988615",
       "prepared": {
@@ -166928,7 +166928,7 @@
       "last_plan": {
         "source_id": "32146983",
         "display_name": "A Bird of the Air 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:44:57.391750+00:00"
+        "planned_at": "2026-11-17T08:45:01.616752+00:00"
       }
     },
     "14803": {
@@ -215193,5 +215193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:44:57.391770+00:00"
+  "updated_at": "2026-11-17T08:45:01.616769+00:00"
 }
