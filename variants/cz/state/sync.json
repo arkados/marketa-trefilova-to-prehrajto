@@ -170696,17 +170696,19 @@
       "attempts": []
     },
     "12499": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29508970",
+          "target_video_id": "31127005",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:02:55.121176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29508970",
         "display_name": "Ride with the Devil SD CZ Dabing",
         "planned_at": "2026-11-17T19:59:43.366001+00:00"
-      },
-      "claim": {
-        "worker_id": "c38d80b4c49c454f9298c88a6d1dee31-shard-0",
-        "claimed_at": "2026-11-17T19:59:44.248969+00:00",
-        "lease_expires_at": "2026-11-18T01:59:44.248969+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31127005",
       "prepared": {
@@ -218335,5 +218337,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:02:51.951770+00:00"
+  "updated_at": "2026-11-17T20:02:55.121203+00:00"
 }
