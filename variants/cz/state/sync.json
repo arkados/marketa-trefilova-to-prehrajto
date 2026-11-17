@@ -21722,13 +21722,6 @@
           "source_id": "30201467",
           "target_video_id": "30689742",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:33:16.095487+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30201467",
-          "target_video_id": "30689742",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:49:59.072445+00:00"
         },
         {
@@ -21737,6 +21730,13 @@
           "target_video_id": "30689742",
           "permanent": false,
           "attempted_at": "2026-11-17T16:30:16.479828+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30201467",
+          "target_video_id": "30689742",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:42:29.101325+00:00"
         }
       ],
       "last_plan": {
@@ -137141,7 +137141,7 @@
       "last_plan": {
         "source_id": "31005194",
         "display_name": "Mord 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:30:15.120237+00:00"
+        "planned_at": "2026-11-17T17:42:27.298635+00:00"
       },
       "previous_target_id": "30987751",
       "prepared": {
@@ -137149,6 +137149,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:55:02.328631+00:00",
         "relay_source_id": "31005194"
+      },
+      "claim": {
+        "worker_id": "9f5412540e1a41a792b69b064056e554-shard-0",
+        "claimed_at": "2026-11-17T17:42:27.905115+00:00",
+        "lease_expires_at": "2026-11-17T23:42:27.905115+00:00",
+        "run_id": "44093224298"
       }
     },
     "3365": {
@@ -169908,7 +169914,7 @@
       "last_plan": {
         "source_id": "26738481",
         "display_name": "South Sentinel (Sentinelle sud) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:42:24.781446+00:00"
+        "planned_at": "2026-11-17T17:42:27.510671+00:00"
       }
     },
     "20664": {
@@ -217642,5 +217648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:42:24.963082+00:00"
+  "updated_at": "2026-11-17T17:42:29.101343+00:00"
 }
