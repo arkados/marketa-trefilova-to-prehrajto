@@ -110471,6 +110471,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T14:40:48.261346+00:00",
         "relay_source_id": "34885981"
+      },
+      "claim": {
+        "worker_id": "b2cccd50f9d54e0fb9f12f36428d94e1-shard-0",
+        "claimed_at": "2026-11-17T13:50:40.296528+00:00",
+        "lease_expires_at": "2026-11-17T19:50:40.296528+00:00",
+        "run_id": "44078950078"
       }
     },
     "1992": {
@@ -124650,13 +124656,6 @@
           "source_id": "20827767",
           "target_video_id": "30985751",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:03:52.960961+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20827767",
-          "target_video_id": "30985751",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:18:58.491723+00:00"
         },
         {
@@ -124665,6 +124664,13 @@
           "target_video_id": "30985751",
           "permanent": false,
           "attempted_at": "2026-11-17T12:35:01.752039+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20827767",
+          "target_video_id": "30985751",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:50:40.108393+00:00"
         }
       ],
       "last_plan": {
@@ -124678,12 +124684,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:39:28.502583+00:00",
         "relay_source_id": "20827767"
-      },
-      "claim": {
-        "worker_id": "5a923e7d8fb84ec4a3ed2d8d33ee20a4-shard-0",
-        "claimed_at": "2026-11-17T13:50:37.120771+00:00",
-        "lease_expires_at": "2026-11-17T19:50:37.120771+00:00",
-        "run_id": "44078950078"
       }
     },
     "22167": {
@@ -144943,7 +144943,7 @@
       "last_plan": {
         "source_id": "35428807",
         "display_name": "Murders in Valenciennes (Les Disparus de Valenciennes) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:35:04.209816+00:00"
+        "planned_at": "2026-11-17T13:50:40.533632+00:00"
       },
       "previous_target_id": "30990277",
       "prepared": {
@@ -168866,7 +168866,7 @@
       "last_plan": {
         "source_id": "31279801",
         "display_name": "Titan: The OceanGate Disaster 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:50:37.661196+00:00"
+        "planned_at": "2026-11-17T13:50:40.835741+00:00"
       }
     },
     "11093": {
@@ -216801,5 +216801,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:50:37.661211+00:00"
+  "updated_at": "2026-11-17T13:50:40.835759+00:00"
 }
