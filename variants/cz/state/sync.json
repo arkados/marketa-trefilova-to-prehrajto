@@ -121397,13 +121397,6 @@
           "source_id": "33730801",
           "target_video_id": "30985060",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:15:50.623048+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33730801",
-          "target_video_id": "30985060",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:36:10.160304+00:00"
         },
         {
@@ -121412,6 +121405,13 @@
           "target_video_id": "30985060",
           "permanent": false,
           "attempted_at": "2026-11-17T03:57:02.865064+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33730801",
+          "target_video_id": "30985060",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:22:41.459078+00:00"
         }
       ],
       "last_plan": {
@@ -136981,7 +136981,7 @@
       "last_plan": {
         "source_id": "15441977",
         "display_name": "Jacob, Mimmi and the Talking Dogs (Jēkabs, Mimmi un runājošie suņi) 720p CZ Dabing",
-        "planned_at": "2026-11-17T03:57:02.197374+00:00"
+        "planned_at": "2026-11-17T05:22:39.948445+00:00"
       },
       "previous_target_id": "30987740",
       "prepared": {
@@ -136989,6 +136989,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T05:51:39.961282+00:00",
         "relay_source_id": "15441977"
+      },
+      "claim": {
+        "worker_id": "db14f39cc8b9486abde40c4cc9476205-shard-0",
+        "claimed_at": "2026-11-17T05:22:41.155815+00:00",
+        "lease_expires_at": "2026-11-17T11:22:41.155815+00:00",
+        "run_id": "44012569640"
       }
     },
     "24067": {
@@ -165856,7 +165862,7 @@
       "last_plan": {
         "source_id": "25673608",
         "display_name": "Lockdown (2021) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:22:36.878335+00:00"
+        "planned_at": "2026-11-17T05:22:40.328887+00:00"
       }
     },
     "4091": {
@@ -214286,5 +214292,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:22:37.196382+00:00"
+  "updated_at": "2026-11-17T05:22:41.459096+00:00"
 }
