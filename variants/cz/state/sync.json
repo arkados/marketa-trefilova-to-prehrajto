@@ -120435,13 +120435,6 @@
           "source_id": "25263125",
           "target_video_id": "30985003",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:59:34.649037+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25263125",
-          "target_video_id": "30985003",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:18:01.378488+00:00"
         },
         {
@@ -120450,6 +120443,13 @@
           "target_video_id": "30985003",
           "permanent": false,
           "attempted_at": "2026-11-17T11:34:57.751041+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25263125",
+          "target_video_id": "30985003",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:49:02.352042+00:00"
         }
       ],
       "last_plan": {
@@ -120463,12 +120463,6 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T18:31:12.199895+00:00",
         "relay_source_id": "25263125"
-      },
-      "claim": {
-        "worker_id": "5f4888a8fa7d405dad828a6877fdbbec-shard-0",
-        "claimed_at": "2026-11-17T12:48:59.455074+00:00",
-        "lease_expires_at": "2026-11-17T18:48:59.455074+00:00",
-        "run_id": "44078950078"
       }
     },
     "23119": {
@@ -168324,17 +168318,19 @@
       "attempts": []
     },
     "14683": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28623659",
+          "target_video_id": "31118563",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:49:02.901764+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28623659",
         "display_name": "Alois Nebel 1080p CZ Dabing",
         "planned_at": "2026-11-17T12:46:26.920394+00:00"
-      },
-      "claim": {
-        "worker_id": "c504bebf6bf442c5bea92e6c947adf56-shard-0",
-        "claimed_at": "2026-11-17T12:46:28.147411+00:00",
-        "lease_expires_at": "2026-11-17T18:46:28.147411+00:00",
-        "run_id": "44078950078"
       },
       "previous_target_id": "31118563",
       "prepared": {
@@ -216377,5 +216373,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:48:59.734467+00:00"
+  "updated_at": "2026-11-17T12:49:02.901783+00:00"
 }
