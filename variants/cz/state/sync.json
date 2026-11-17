@@ -109467,6 +109467,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-10T14:30:14.467093+00:00",
         "relay_source_id": "35072913"
+      },
+      "claim": {
+        "worker_id": "f89266bc395443a9892646a0be0889c1-shard-0",
+        "claimed_at": "2026-11-17T18:38:05.992909+00:00",
+        "lease_expires_at": "2026-11-18T00:38:05.992909+00:00",
+        "run_id": "44093224298"
       }
     },
     "28861": {
@@ -112358,13 +112364,6 @@
           "source_id": "28689669",
           "target_video_id": "30983852",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:30:06.384184+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28689669",
-          "target_video_id": "30983852",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:49:35.141968+00:00"
         },
         {
@@ -112373,6 +112372,13 @@
           "target_video_id": "30983852",
           "permanent": false,
           "attempted_at": "2026-11-17T17:26:00.082018+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28689669",
+          "target_video_id": "30983852",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:38:06.590259+00:00"
         }
       ],
       "last_plan": {
@@ -112386,12 +112392,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T14:59:51.629242+00:00",
         "relay_source_id": "28689669"
-      },
-      "claim": {
-        "worker_id": "545198aa97b84bf2af894ef0cb84afa6-shard-0",
-        "claimed_at": "2026-11-17T18:38:03.401690+00:00",
-        "lease_expires_at": "2026-11-18T00:38:03.401690+00:00",
-        "run_id": "44093224298"
       }
     },
     "23936": {
@@ -156327,7 +156327,7 @@
       "last_plan": {
         "source_id": "30107992",
         "display_name": "Dreamers (Zoufalci) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:26:02.588836+00:00"
+        "planned_at": "2026-11-17T18:38:06.169106+00:00"
       },
       "previous_target_id": "31058652",
       "prepared": {
@@ -170263,7 +170263,7 @@
       "last_plan": {
         "source_id": "32695662",
         "display_name": "When the Light Breaks (Ljósbrot) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:38:03.800923+00:00"
+        "planned_at": "2026-11-17T18:38:06.391980+00:00"
       }
     },
     "33284": {
@@ -217949,5 +217949,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:38:03.800942+00:00"
+  "updated_at": "2026-11-17T18:38:06.590297+00:00"
 }
