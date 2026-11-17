@@ -129543,13 +129543,6 @@
           "source_id": "13254742",
           "target_video_id": "30986777",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:19:48.623420+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13254742",
-          "target_video_id": "30986777",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:34:54.540237+00:00"
         },
         {
@@ -129558,6 +129551,13 @@
           "target_video_id": "30986777",
           "permanent": false,
           "attempted_at": "2026-11-17T10:52:36.979704+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13254742",
+          "target_video_id": "30986777",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:09:26.610351+00:00"
         }
       ],
       "last_plan": {
@@ -136904,7 +136904,7 @@
       "last_plan": {
         "source_id": "34788921",
         "display_name": "Frona SD CZ Dabing",
-        "planned_at": "2026-11-17T10:52:34.329008+00:00"
+        "planned_at": "2026-11-17T12:09:24.786053+00:00"
       },
       "previous_target_id": "30987732",
       "prepared": {
@@ -136912,6 +136912,12 @@
         "size_bytes": 950300000,
         "prepared_at": "2026-11-11T05:50:38.507752+00:00",
         "relay_source_id": "34788921"
+      },
+      "claim": {
+        "worker_id": "83ee49859502404bafbc6792e3ea2245-shard-0",
+        "claimed_at": "2026-11-17T12:09:25.881619+00:00",
+        "lease_expires_at": "2026-11-17T18:09:25.881619+00:00",
+        "run_id": "44078950078"
       }
     },
     "32842": {
@@ -168109,7 +168115,7 @@
       "last_plan": {
         "source_id": "28716936",
         "display_name": "Little Odessa 720p CZ Dabing",
-        "planned_at": "2026-11-17T12:09:20.876472+00:00"
+        "planned_at": "2026-11-17T12:09:25.100879+00:00"
       }
     },
     "30352": {
@@ -216173,5 +216179,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:09:21.139727+00:00"
+  "updated_at": "2026-11-17T12:09:26.610367+00:00"
 }
