@@ -125814,13 +125814,6 @@
           "source_id": "33203545",
           "target_video_id": "30985900",
           "permanent": false,
-          "attempted_at": "2026-11-17T02:06:06.376667+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33203545",
-          "target_video_id": "30985900",
-          "permanent": false,
           "attempted_at": "2026-11-17T03:28:03.539972+00:00"
         },
         {
@@ -125829,6 +125822,13 @@
           "target_video_id": "30985900",
           "permanent": false,
           "attempted_at": "2026-11-17T04:52:06.117467+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33203545",
+          "target_video_id": "30985900",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:15:27.879749+00:00"
         }
       ],
       "last_plan": {
@@ -131377,7 +131377,7 @@
       "last_plan": {
         "source_id": "26779825",
         "display_name": "Cekání na dést (Waiting for the Rain) SD CZ Dabing",
-        "planned_at": "2026-11-17T04:52:05.337733+00:00"
+        "planned_at": "2026-11-17T06:15:25.373015+00:00"
       },
       "previous_target_id": "30986978",
       "prepared": {
@@ -131385,6 +131385,12 @@
         "size_bytes": 767500000,
         "prepared_at": "2026-11-11T03:05:41.700464+00:00",
         "relay_source_id": "26779825"
+      },
+      "claim": {
+        "worker_id": "ea6087d249a5409d96e6d2e96ce7d1ad-shard-0",
+        "claimed_at": "2026-11-17T06:15:26.486797+00:00",
+        "lease_expires_at": "2026-11-17T12:15:26.486797+00:00",
+        "run_id": "44012569640"
       }
     },
     "24134": {
@@ -166009,7 +166015,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T06:15:22.219443+00:00"
+        "planned_at": "2026-11-17T06:15:25.753038+00:00"
       }
     },
     "22145": {
@@ -214424,5 +214430,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:15:22.717225+00:00"
+  "updated_at": "2026-11-17T06:15:27.879768+00:00"
 }
