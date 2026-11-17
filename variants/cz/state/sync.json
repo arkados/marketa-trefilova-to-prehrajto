@@ -169759,17 +169759,19 @@
       "attempts": []
     },
     "3253": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28520512",
+          "target_video_id": "31123339",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:06:43.256723+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28520512",
         "display_name": "Big George Foreman 1080p CZ Dabing",
         "planned_at": "2026-11-17T17:02:28.785574+00:00"
-      },
-      "claim": {
-        "worker_id": "f7e008a266a34d019a99396c44797599-shard-0",
-        "claimed_at": "2026-11-17T17:02:31.452254+00:00",
-        "lease_expires_at": "2026-11-17T23:02:31.452254+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31123339",
       "prepared": {
@@ -217548,5 +217550,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:06:40.878533+00:00"
+  "updated_at": "2026-11-17T17:06:43.256743+00:00"
 }
