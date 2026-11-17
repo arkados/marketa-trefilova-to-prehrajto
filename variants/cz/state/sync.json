@@ -107429,6 +107429,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-10T13:51:43.579952+00:00",
         "relay_source_id": "34709346"
+      },
+      "claim": {
+        "worker_id": "d525d96dcb5948b993771f6fc2fffc45-shard-0",
+        "claimed_at": "2026-11-17T17:08:23.014548+00:00",
+        "lease_expires_at": "2026-11-17T23:08:23.014548+00:00",
+        "run_id": "44093224298"
       }
     },
     "31325": {
@@ -121770,13 +121776,6 @@
           "source_id": "31294628",
           "target_video_id": "30985390",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:55:08.297422+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31294628",
-          "target_video_id": "30985390",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:14:01.220892+00:00"
         },
         {
@@ -121785,6 +121784,13 @@
           "target_video_id": "30985390",
           "permanent": false,
           "attempted_at": "2026-11-17T15:31:26.963140+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31294628",
+          "target_video_id": "30985390",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:08:24.071099+00:00"
         }
       ],
       "last_plan": {
@@ -121798,12 +121804,6 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T19:03:22.520843+00:00",
         "relay_source_id": "31294628"
-      },
-      "claim": {
-        "worker_id": "d92516ce9d914590b8996c95320d0713-shard-0",
-        "claimed_at": "2026-11-17T17:08:19.657740+00:00",
-        "lease_expires_at": "2026-11-17T23:08:19.657740+00:00",
-        "run_id": "44093224298"
       }
     },
     "2915": {
@@ -125092,7 +125092,7 @@
       "last_plan": {
         "source_id": "26655410",
         "display_name": "Tom of Finland 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:31:29.361673+00:00"
+        "planned_at": "2026-11-17T17:08:23.206291+00:00"
       },
       "previous_target_id": "30985777",
       "prepared": {
@@ -125100,6 +125100,12 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-10T21:49:35.654076+00:00",
         "relay_source_id": "26655410"
+      },
+      "claim": {
+        "worker_id": "b0e90c31ba6849e192b3c52e7e6d27f9-shard-0",
+        "claimed_at": "2026-11-17T17:08:23.902361+00:00",
+        "lease_expires_at": "2026-11-17T23:08:23.902361+00:00",
+        "run_id": "44093224298"
       }
     },
     "22493": {
@@ -169812,7 +169818,7 @@
       "last_plan": {
         "source_id": "30421345",
         "display_name": "Exodus (1960) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:08:20.314444+00:00"
+        "planned_at": "2026-11-17T17:08:23.435727+00:00"
       }
     },
     "3388": {
@@ -217570,5 +217576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:08:20.551814+00:00"
+  "updated_at": "2026-11-17T17:08:24.071122+00:00"
 }
