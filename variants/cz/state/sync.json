@@ -8074,13 +8074,6 @@
           "source_id": "20447868",
           "target_video_id": "30630355",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:41:13.341428+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20447868",
-          "target_video_id": "30630355",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:53:16.333223+00:00"
         },
         {
@@ -8089,6 +8082,13 @@
           "target_video_id": "30630355",
           "permanent": false,
           "attempted_at": "2026-11-17T19:08:12.949143+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20447868",
+          "target_video_id": "30630355",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:22:24.930817+00:00"
         }
       ],
       "last_plan": {
@@ -8102,12 +8102,6 @@
         "size_bytes": 9000000000,
         "prepared_at": "2026-10-30T09:33:08.276639+00:00",
         "relay_source_id": "20447868"
-      },
-      "claim": {
-        "worker_id": "8dd422f119a546b5b394bfc80b6b3141-shard-0",
-        "claimed_at": "2026-11-17T20:22:21.964854+00:00",
-        "lease_expires_at": "2026-11-18T02:22:21.964854+00:00",
-        "run_id": "44093224298"
       }
     },
     "10690": {
@@ -133167,7 +133161,7 @@
       "last_plan": {
         "source_id": "34787172",
         "display_name": "Brontosaurus 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:08:11.470479+00:00"
+        "planned_at": "2026-11-17T20:22:24.165485+00:00"
       },
       "previous_target_id": "30987230",
       "prepared": {
@@ -133175,6 +133169,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T04:00:19.698478+00:00",
         "relay_source_id": "34787172"
+      },
+      "claim": {
+        "worker_id": "a42049356cf644e19231f38ec4a29f86-shard-0",
+        "claimed_at": "2026-11-17T20:22:24.747960+00:00",
+        "lease_expires_at": "2026-11-18T02:22:24.747960+00:00",
+        "run_id": "44093224298"
       }
     },
     "24237": {
@@ -170857,7 +170857,7 @@
       "last_plan": {
         "source_id": "28996454",
         "display_name": "Bloody Johann (Krvavý Johann) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:22:21.558085+00:00"
+        "planned_at": "2026-11-17T20:22:24.394349+00:00"
       }
     },
     "32159": {
@@ -218435,5 +218435,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:22:22.118350+00:00"
+  "updated_at": "2026-11-17T20:22:24.930833+00:00"
 }
