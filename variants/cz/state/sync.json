@@ -109738,6 +109738,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T14:31:55.056751+00:00",
         "relay_source_id": "34708982"
+      },
+      "claim": {
+        "worker_id": "dca54aecbd8446ada79a7863201babe4-shard-0",
+        "claimed_at": "2026-11-17T22:56:10.669367+00:00",
+        "lease_expires_at": "2026-11-18T04:56:10.669367+00:00",
+        "run_id": "44170464010"
       }
     },
     "17692": {
@@ -138687,7 +138693,7 @@
       "last_plan": {
         "source_id": "34232902",
         "display_name": "Nahá pastýrka (Nahá pastýřka) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:27:02.003648+00:00"
+        "planned_at": "2026-11-17T22:56:10.911180+00:00"
       },
       "previous_target_id": "30987888",
       "prepared": {
@@ -166084,13 +166090,6 @@
           "source_id": "32367190",
           "target_video_id": "31108918",
           "permanent": false,
-          "attempted_at": "2026-11-17T18:39:27.044839+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32367190",
-          "target_video_id": "31108918",
-          "permanent": false,
           "attempted_at": "2026-11-17T19:57:06.217476+00:00"
         },
         {
@@ -166099,6 +166098,13 @@
           "target_video_id": "31108918",
           "permanent": false,
           "attempted_at": "2026-11-17T21:26:54.428640+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32367190",
+          "target_video_id": "31108918",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:56:11.526927+00:00"
         }
       ],
       "last_plan": {
@@ -166112,12 +166118,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-17T05:03:08.196412+00:00",
         "relay_source_id": "32367190"
-      },
-      "claim": {
-        "worker_id": "420ae88b893d43879ec1ed4792dc09a7-shard-0",
-        "claimed_at": "2026-11-17T22:56:07.056671+00:00",
-        "lease_expires_at": "2026-11-18T04:56:07.056671+00:00",
-        "run_id": "44170464010"
       }
     },
     "27298": {
@@ -171695,7 +171695,7 @@
       "last_plan": {
         "source_id": "26227581",
         "display_name": "Pepa 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:56:07.645436+00:00"
+        "planned_at": "2026-11-17T22:56:11.282760+00:00"
       }
     },
     "27931": {
@@ -219117,5 +219117,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:56:07.645453+00:00"
+  "updated_at": "2026-11-17T22:56:11.526967+00:00"
 }
