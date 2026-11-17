@@ -167757,17 +167757,19 @@
       }
     },
     "3391": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11398910",
+          "target_video_id": "31116426",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:15:33.733827+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11398910",
         "display_name": "Puzzle 1080p CZ Dabing",
         "planned_at": "2026-11-17T11:06:25.518914+00:00"
-      },
-      "claim": {
-        "worker_id": "91d1e7e5483e4ecb8d026be94adc28d4-shard-0",
-        "claimed_at": "2026-11-17T11:06:28.419590+00:00",
-        "lease_expires_at": "2026-11-17T17:06:28.419590+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31116426",
       "prepared": {
@@ -215918,5 +215920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:15:31.440703+00:00"
+  "updated_at": "2026-11-17T11:15:33.733845+00:00"
 }
