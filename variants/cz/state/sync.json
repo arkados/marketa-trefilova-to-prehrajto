@@ -167098,17 +167098,19 @@
       "attempts": []
     },
     "23728": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6467256",
+          "target_video_id": "31114455",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:03:44.675970+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6467256",
         "display_name": "The Man Who Captured Eichmann SD CZ Dabing",
         "planned_at": "2026-11-17T09:00:39.528442+00:00"
-      },
-      "claim": {
-        "worker_id": "a13a0c17bc1b4e14bfdc3be4781e5e58-shard-0",
-        "claimed_at": "2026-11-17T09:00:40.882844+00:00",
-        "lease_expires_at": "2026-11-17T15:00:40.882844+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31114455",
       "prepared": {
@@ -215351,5 +215353,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:03:42.567828+00:00"
+  "updated_at": "2026-11-17T09:03:44.675988+00:00"
 }
