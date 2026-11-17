@@ -109387,13 +109387,6 @@
           "source_id": "30219473",
           "target_video_id": "30983642",
           "permanent": false,
-          "attempted_at": "2026-11-16T21:18:09.000162+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30219473",
-          "target_video_id": "30983642",
-          "permanent": false,
           "attempted_at": "2026-11-16T22:50:22.829522+00:00"
         },
         {
@@ -109402,12 +109395,19 @@
           "target_video_id": "30983642",
           "permanent": false,
           "attempted_at": "2026-11-17T01:02:43.241880+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30219473",
+          "target_video_id": "30983642",
+          "permanent": false,
+          "attempted_at": "2026-11-17T02:20:16.073384+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30219473",
         "display_name": "A Game without Rules 1080p CZ Dabing",
-        "planned_at": "2026-11-17T01:02:38.468698+00:00"
+        "planned_at": "2026-11-17T02:20:13.351310+00:00"
       },
       "previous_target_id": "30983642",
       "prepared": {
@@ -165019,11 +165019,22 @@
       "last_plan": {
         "source_id": "33223201",
         "display_name": "The Devil's Brigade 720p CZ Dabing",
-        "planned_at": "2026-11-17T02:20:06.381104+00:00"
+        "planned_at": "2026-11-17T02:20:13.662904+00:00"
+      },
+      "claim": {
+        "worker_id": "4fbaba5477b242e283a5b0d2680fae8d-shard-0",
+        "claimed_at": "2026-11-17T02:20:14.624649+00:00",
+        "lease_expires_at": "2026-11-17T08:20:14.624649+00:00",
+        "run_id": "43981967428"
       }
     },
     "30396": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "24053971",
+        "display_name": "Santa 1080p CZ Dabing",
+        "planned_at": "2026-11-17T02:20:13.861467+00:00"
+      }
     },
     "22670": {
       "attempts": []
@@ -213617,5 +213628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T02:20:10.819815+00:00"
+  "updated_at": "2026-11-17T02:20:16.073403+00:00"
 }
