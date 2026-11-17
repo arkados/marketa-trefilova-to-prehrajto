@@ -111002,13 +111002,6 @@
           "source_id": "25235773",
           "target_video_id": "30983777",
           "permanent": false,
-          "attempted_at": "2026-11-16T22:13:25.746472+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25235773",
-          "target_video_id": "30983777",
-          "permanent": false,
           "attempted_at": "2026-11-17T00:32:17.405486+00:00"
         },
         {
@@ -111017,6 +111010,13 @@
           "target_video_id": "30983777",
           "permanent": false,
           "attempted_at": "2026-11-17T01:47:48.834168+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25235773",
+          "target_video_id": "30983777",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:07:57.387426+00:00"
         }
       ],
       "last_plan": {
@@ -149667,7 +149667,7 @@
       "last_plan": {
         "source_id": "35428437",
         "display_name": "Péril blanc 1080p CZ Dabing",
-        "planned_at": "2026-11-17T01:47:47.198309+00:00"
+        "planned_at": "2026-11-17T03:07:55.556423+00:00"
       },
       "previous_target_id": "31020067",
       "prepared": {
@@ -149675,6 +149675,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-13T22:19:40.902331+00:00",
         "relay_source_id": "35428437"
+      },
+      "claim": {
+        "worker_id": "af1eb7c760c64f488bd981e8ea029acb-shard-0",
+        "claimed_at": "2026-11-17T03:07:56.414583+00:00",
+        "lease_expires_at": "2026-11-17T09:07:56.414583+00:00",
+        "run_id": "43981967428"
       }
     },
     "23213": {
@@ -165193,7 +165199,7 @@
       "last_plan": {
         "source_id": "34967355",
         "display_name": "Not a Thing 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:07:52.677029+00:00"
+        "planned_at": "2026-11-17T03:07:55.873774+00:00"
       }
     },
     "23532": {
@@ -213758,5 +213764,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:07:53.063367+00:00"
+  "updated_at": "2026-11-17T03:07:57.387444+00:00"
 }
