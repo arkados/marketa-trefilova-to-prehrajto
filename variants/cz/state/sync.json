@@ -111709,6 +111709,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T14:51:19.173901+00:00",
         "relay_source_id": "34733928"
+      },
+      "claim": {
+        "worker_id": "49cc67c6539b4079a8f42881fcb5d526-shard-0",
+        "claimed_at": "2026-11-17T21:00:00.005749+00:00",
+        "lease_expires_at": "2026-11-18T03:00:00.005749+00:00",
+        "run_id": "44170464010"
       }
     },
     "31811": {
@@ -134586,7 +134592,7 @@
       "last_plan": {
         "source_id": "34676079",
         "display_name": "Madla z cihelny 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:33:56.723714+00:00"
+        "planned_at": "2026-11-17T21:00:00.253190+00:00"
       },
       "previous_target_id": "30987477",
       "prepared": {
@@ -170956,17 +170962,19 @@
       }
     },
     "5010": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20544157",
+          "target_video_id": "31128487",
+          "permanent": false,
+          "attempted_at": "2026-11-17T21:00:00.896826+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20544157",
         "display_name": "Copilot (Die Welt wird eine andere sein) 1080p CZ Dabing",
         "planned_at": "2026-11-17T20:53:15.829605+00:00"
-      },
-      "claim": {
-        "worker_id": "d8a7660840f6498f961527a63221e8b4-shard-0",
-        "claimed_at": "2026-11-17T20:53:17.293474+00:00",
-        "lease_expires_at": "2026-11-18T02:53:17.293474+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31128487",
       "prepared": {
@@ -170987,7 +170995,7 @@
       "last_plan": {
         "source_id": "34910384",
         "display_name": "Rains Over Babel 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:59:56.944512+00:00"
+        "planned_at": "2026-11-17T21:00:00.617352+00:00"
       }
     },
     "7221": {
@@ -218541,5 +218549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:59:57.205033+00:00"
+  "updated_at": "2026-11-17T21:00:00.896847+00:00"
 }
