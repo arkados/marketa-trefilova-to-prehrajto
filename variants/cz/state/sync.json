@@ -1058,13 +1058,6 @@
           "source_id": "31918348",
           "target_video_id": "30578228",
           "permanent": false,
-          "attempted_at": "2026-11-17T06:53:20.843309+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31918348",
-          "target_video_id": "30578228",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:25:40.749313+00:00"
         },
         {
@@ -1073,6 +1066,13 @@
           "target_video_id": "30578228",
           "permanent": false,
           "attempted_at": "2026-11-17T09:40:36.705445+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31918348",
+          "target_video_id": "30578228",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:58:13.459533+00:00"
         }
       ],
       "last_plan": {
@@ -132912,7 +132912,7 @@
       "last_plan": {
         "source_id": "26568103",
         "display_name": "Záku Kasíku, nezen se! (Žáku Kašíku, nežeň se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:40:35.894334+00:00"
+        "planned_at": "2026-11-17T10:58:11.377872+00:00"
       },
       "previous_target_id": "30987180",
       "prepared": {
@@ -132920,6 +132920,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T03:52:43.832583+00:00",
         "relay_source_id": "26568103"
+      },
+      "claim": {
+        "worker_id": "7672ed02fce543f28716840449dd7c5e-shard-0",
+        "claimed_at": "2026-11-17T10:58:12.553721+00:00",
+        "lease_expires_at": "2026-11-17T16:58:12.553721+00:00",
+        "run_id": "44013593637"
       }
     },
     "32524": {
@@ -167741,7 +167747,7 @@
       "last_plan": {
         "source_id": "11398910",
         "display_name": "Puzzle 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:58:08.575346+00:00"
+        "planned_at": "2026-11-17T10:58:11.687949+00:00"
       }
     },
     "22629": {
@@ -215880,5 +215886,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:58:08.883247+00:00"
+  "updated_at": "2026-11-17T10:58:13.459567+00:00"
 }
