@@ -116941,6 +116941,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T17:26:29.839950+00:00",
         "relay_source_id": "12275349"
+      },
+      "claim": {
+        "worker_id": "c5da7d29c96e4c52b5ce26904df2650d-shard-0",
+        "claimed_at": "2026-11-17T11:31:27.385112+00:00",
+        "lease_expires_at": "2026-11-17T17:31:27.385112+00:00",
+        "run_id": "44013593637"
       }
     },
     "2814": {
@@ -124820,13 +124826,6 @@
           "source_id": "29875663",
           "target_video_id": "30985766",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:30:44.791029+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29875663",
-          "target_video_id": "30985766",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:57:06.992437+00:00"
         },
         {
@@ -124835,6 +124834,13 @@
           "target_video_id": "30985766",
           "permanent": false,
           "attempted_at": "2026-11-17T10:15:45.786611+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29875663",
+          "target_video_id": "30985766",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:31:27.196175+00:00"
         }
       ],
       "last_plan": {
@@ -124848,12 +124854,6 @@
         "size_bytes": 890500000,
         "prepared_at": "2026-11-10T21:45:18.431339+00:00",
         "relay_source_id": "29875663"
-      },
-      "claim": {
-        "worker_id": "02205fb1e433430f91e77754dc163cb7-shard-0",
-        "claimed_at": "2026-11-17T11:31:23.662969+00:00",
-        "lease_expires_at": "2026-11-17T17:31:23.662969+00:00",
-        "run_id": "44013593637"
       }
     },
     "18709": {
@@ -126771,7 +126771,7 @@
       "last_plan": {
         "source_id": "34695449",
         "display_name": "Charlatan (Šarlatán) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:15:48.329061+00:00"
+        "planned_at": "2026-11-17T11:31:27.623704+00:00"
       },
       "previous_target_id": "30986259",
       "prepared": {
@@ -167861,7 +167861,7 @@
       "last_plan": {
         "source_id": "32234223",
         "display_name": "Family Matters (Sei fratelli) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:31:24.523558+00:00"
+        "planned_at": "2026-11-17T11:31:27.933043+00:00"
       }
     },
     "7022": {
@@ -215990,5 +215990,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:31:24.523576+00:00"
+  "updated_at": "2026-11-17T11:31:27.933062+00:00"
 }
