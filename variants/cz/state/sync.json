@@ -166784,17 +166784,19 @@
       }
     },
     "37250": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34722906",
+          "target_video_id": "31113662",
+          "permanent": false,
+          "attempted_at": "2026-11-17T08:29:30.815395+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34722906",
         "display_name": "Let’s Not Get Angry (Let's Not Get Angry) 1080p CZ Dabing",
         "planned_at": "2026-11-17T08:21:21.102671+00:00"
-      },
-      "claim": {
-        "worker_id": "939fdc901fbf41408588a816de4869b9-shard-0",
-        "claimed_at": "2026-11-17T08:21:23.822650+00:00",
-        "lease_expires_at": "2026-11-17T14:21:23.822650+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31113662",
       "prepared": {
@@ -215101,5 +215103,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:29:27.896933+00:00"
+  "updated_at": "2026-11-17T08:29:30.815414+00:00"
 }
