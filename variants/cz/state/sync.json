@@ -124199,7 +124199,7 @@
       "last_plan": {
         "source_id": "30548877",
         "display_name": "Smoke & Mirrors (El hombre de las mil caras) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:23:27.162772+00:00"
+        "planned_at": "2026-11-17T11:39:39.293346+00:00"
       },
       "previous_target_id": "30985657",
       "prepared": {
@@ -124971,13 +124971,6 @@
           "source_id": "31916577",
           "target_video_id": "30985772",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:38:33.382764+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31916577",
-          "target_video_id": "30985772",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:06:36.102579+00:00"
         },
         {
@@ -124986,6 +124979,13 @@
           "target_video_id": "30985772",
           "permanent": false,
           "attempted_at": "2026-11-17T10:23:27.724485+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31916577",
+          "target_video_id": "30985772",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:39:39.884355+00:00"
         }
       ],
       "last_plan": {
@@ -124999,12 +124999,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T21:48:16.921812+00:00",
         "relay_source_id": "31916577"
-      },
-      "claim": {
-        "worker_id": "5ae19d4dfefe4540bf56dc46a4ec10e8-shard-0",
-        "claimed_at": "2026-11-17T11:39:36.217332+00:00",
-        "lease_expires_at": "2026-11-17T17:39:36.217332+00:00",
-        "run_id": "44013593637"
       }
     },
     "32155": {
@@ -167656,17 +167650,23 @@
           "attempted_at": "2026-11-17T10:23:30.270043+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "35145625",
-        "display_name": "Yakari, A Spectacular Journey (Yakari : La Grande Aventure) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:39:36.463900+00:00"
-      },
       "previous_target_id": "31115623",
-      "prepared": {
+      "upload": {
         "target_video_id": "31115623",
-        "size_bytes": 3639174795,
-        "prepared_at": "2026-11-17T10:18:16.131882+00:00",
-        "relay_source_id": "35145625"
+        "display_name": "Yakari, A Spectacular Journey (Yakari : La Grande Aventure) 1080p CZ Dabing",
+        "source_id": "35145625",
+        "source_url": "https://sdilej.cz/35145625/yakari-velke-dobrodruzstvi-2020-cz-dabing-1080p-fhd.mkv",
+        "source_filename": "Yakari - Velké dobrodružství 2020 CZ dabing 1080p FHD.mkv",
+        "size_bytes": 3600000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9664445519447327,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/yakari-a-spectacular-journey-yakari-la-grande-aventure-1080p-cz-dabing-mkv/f85e7efe9ff0532a",
+        "uploaded_at": "2026-11-17T11:39:40.304688+00:00"
       }
     },
     "8895": {
@@ -167905,7 +167905,7 @@
       "last_plan": {
         "source_id": "22864797",
         "display_name": "The Last Train (Der letzte Zug) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T11:39:36.768941+00:00"
+        "planned_at": "2026-11-17T11:39:39.601863+00:00"
       }
     },
     "12315": {
@@ -216011,5 +216011,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:39:36.768960+00:00"
+  "updated_at": "2026-11-17T11:39:40.304704+00:00"
 }
