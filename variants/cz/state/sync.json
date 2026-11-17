@@ -113531,13 +113531,6 @@
           "source_id": "31202256",
           "target_video_id": "30984050",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:44:32.748722+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31202256",
-          "target_video_id": "30984050",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:00:05.177892+00:00"
         },
         {
@@ -113546,6 +113539,13 @@
           "target_video_id": "30984050",
           "permanent": false,
           "attempted_at": "2026-11-17T15:20:24.159242+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31202256",
+          "target_video_id": "30984050",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:57:53.421763+00:00"
         }
       ],
       "last_plan": {
@@ -152216,7 +152216,7 @@
       "last_plan": {
         "source_id": "35428520",
         "display_name": "The Mysteries of Gallant Wood (Les Mystères du Bois Galant) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:20:24.405389+00:00"
+        "planned_at": "2026-11-17T16:57:51.980717+00:00"
       },
       "previous_target_id": "31034228",
       "prepared": {
@@ -152224,6 +152224,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-14T16:25:19.524242+00:00",
         "relay_source_id": "35428520"
+      },
+      "claim": {
+        "worker_id": "83778349d7864b558037ba02e9da36f3-shard-0",
+        "claimed_at": "2026-11-17T16:57:52.783308+00:00",
+        "lease_expires_at": "2026-11-17T22:57:52.783308+00:00",
+        "run_id": "44093224298"
       }
     },
     "14283": {
@@ -169690,11 +169696,22 @@
       "last_plan": {
         "source_id": "35068137",
         "display_name": "Leaving (Odcházení) SD CZ Dabing",
-        "planned_at": "2026-11-17T16:57:48.548742+00:00"
+        "planned_at": "2026-11-17T16:57:52.210319+00:00"
+      },
+      "claim": {
+        "worker_id": "b33d8e3efa9241bf87b78cb389bc28b7-shard-0",
+        "claimed_at": "2026-11-17T16:57:52.935092+00:00",
+        "lease_expires_at": "2026-11-17T22:57:52.935092+00:00",
+        "run_id": "44093224298"
       }
     },
     "3316": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11145252",
+        "display_name": "Journey's End SD CZ Dabing",
+        "planned_at": "2026-11-17T16:57:52.349344+00:00"
+      }
     },
     "27151": {
       "attempts": []
@@ -217478,5 +217495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:57:49.021330+00:00"
+  "updated_at": "2026-11-17T16:57:53.421784+00:00"
 }
