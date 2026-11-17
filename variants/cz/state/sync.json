@@ -29757,13 +29757,6 @@
           "source_id": "21165095",
           "target_video_id": "30722559",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:26:22.901106+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21165095",
-          "target_video_id": "30722559",
-          "permanent": false,
           "attempted_at": "2026-11-17T13:43:42.257643+00:00"
         },
         {
@@ -29772,6 +29765,13 @@
           "target_video_id": "30722559",
           "permanent": false,
           "attempted_at": "2026-11-17T15:01:04.853364+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21165095",
+          "target_video_id": "30722559",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:40:14.151741+00:00"
         }
       ],
       "last_plan": {
@@ -123544,7 +123544,7 @@
       "last_plan": {
         "source_id": "24836709",
         "display_name": "Harper SD CZ Dabing",
-        "planned_at": "2026-11-17T15:01:03.355027+00:00"
+        "planned_at": "2026-11-17T16:40:12.790867+00:00"
       },
       "previous_target_id": "30985572",
       "prepared": {
@@ -123552,6 +123552,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T20:28:40.493950+00:00",
         "relay_source_id": "24836709"
+      },
+      "claim": {
+        "worker_id": "8e307179ee5b47cdbabc4190c00632bb-shard-0",
+        "claimed_at": "2026-11-17T16:40:13.495961+00:00",
+        "lease_expires_at": "2026-11-17T22:40:13.495961+00:00",
+        "run_id": "44093224298"
       }
     },
     "32552": {
@@ -169578,7 +169584,7 @@
       "last_plan": {
         "source_id": "35208227",
         "display_name": "The Pirates of Somalia 1080p CZ Dabing",
-        "planned_at": "2026-11-17T16:40:10.229465+00:00"
+        "planned_at": "2026-11-17T16:40:13.021221+00:00"
       }
     },
     "28165": {
@@ -217402,5 +217408,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:40:10.229487+00:00"
+  "updated_at": "2026-11-17T16:40:14.151763+00:00"
 }
