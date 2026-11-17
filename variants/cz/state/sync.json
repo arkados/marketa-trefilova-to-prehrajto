@@ -109076,13 +109076,6 @@
           "source_id": "35095666",
           "target_video_id": "30983616",
           "permanent": false,
-          "attempted_at": "2026-11-17T12:55:32.758546+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35095666",
-          "target_video_id": "30983616",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:14:23.762871+00:00"
         },
         {
@@ -109091,6 +109084,13 @@
           "target_video_id": "30983616",
           "permanent": false,
           "attempted_at": "2026-11-17T15:32:49.210020+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35095666",
+          "target_video_id": "30983616",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:08:44.514706+00:00"
         }
       ],
       "last_plan": {
@@ -113842,7 +113842,7 @@
       "last_plan": {
         "source_id": "32818573",
         "display_name": "The Island 4K CZ Dabing",
-        "planned_at": "2026-11-17T15:32:52.677634+00:00"
+        "planned_at": "2026-11-17T17:08:43.320703+00:00"
       },
       "previous_target_id": "30984069",
       "prepared": {
@@ -113850,6 +113850,12 @@
         "size_bytes": 6300000000,
         "prepared_at": "2026-11-10T15:23:16.436228+00:00",
         "relay_source_id": "32818573"
+      },
+      "claim": {
+        "worker_id": "4a89093c26ac44ad8c3a7f36dae061ca-shard-0",
+        "claimed_at": "2026-11-17T17:08:44.014742+00:00",
+        "lease_expires_at": "2026-11-17T23:08:44.014742+00:00",
+        "run_id": "44093224298"
       }
     },
     "3143": {
@@ -169827,7 +169833,7 @@
       "last_plan": {
         "source_id": "11702952",
         "display_name": "Asterix: The Secret of the Magic Potion (Astérix: Le Secret de la potion magique) 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:08:40.982449+00:00"
+        "planned_at": "2026-11-17T17:08:43.556127+00:00"
       }
     },
     "21373": {
@@ -217582,5 +217588,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:08:40.982468+00:00"
+  "updated_at": "2026-11-17T17:08:44.514728+00:00"
 }
