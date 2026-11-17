@@ -167857,17 +167857,19 @@
       "attempts": []
     },
     "16017": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32234223",
+          "target_video_id": "31117016",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:39:26.767942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32234223",
         "display_name": "Family Matters (Sei fratelli) 1080p CZ Dabing",
         "planned_at": "2026-11-17T11:33:20.145415+00:00"
-      },
-      "claim": {
-        "worker_id": "58d5fbd5d6754dd5987896a9381a3c1f-shard-0",
-        "claimed_at": "2026-11-17T11:33:23.143671+00:00",
-        "lease_expires_at": "2026-11-17T17:33:23.143671+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31117016",
       "prepared": {
@@ -216003,5 +216005,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:39:24.412741+00:00"
+  "updated_at": "2026-11-17T11:39:26.767960+00:00"
 }
