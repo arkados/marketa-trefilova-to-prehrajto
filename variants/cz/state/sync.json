@@ -37585,6 +37585,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-02T22:56:31.304569+00:00",
         "relay_source_id": "35376993"
+      },
+      "claim": {
+        "worker_id": "98aa23b0b0ee4eef8abaf8a11c4e63f8-shard-0",
+        "claimed_at": "2026-11-17T04:13:04.281308+00:00",
+        "lease_expires_at": "2026-11-17T10:13:04.281308+00:00",
+        "run_id": "44012569640"
       }
     },
     "21768": {
@@ -108041,13 +108047,6 @@
           "source_id": "30853807",
           "target_video_id": "30983476",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:14:47.799215+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30853807",
-          "target_video_id": "30983476",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:32:19.016872+00:00"
         },
         {
@@ -108056,6 +108055,13 @@
           "target_video_id": "30983476",
           "permanent": false,
           "attempted_at": "2026-11-17T02:52:59.812710+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30853807",
+          "target_video_id": "30983476",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:13:04.817386+00:00"
         }
       ],
       "last_plan": {
@@ -108069,12 +108075,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T14:07:30.171414+00:00",
         "relay_source_id": "30853807"
-      },
-      "claim": {
-        "worker_id": "24bfbd033c8f4a809301dfb7a91d4b7a-shard-0",
-        "claimed_at": "2026-11-17T04:13:00.641131+00:00",
-        "lease_expires_at": "2026-11-17T10:13:00.641131+00:00",
-        "run_id": "44012569640"
       }
     },
     "21377": {
@@ -126463,7 +126463,7 @@
       "last_plan": {
         "source_id": "12859228",
         "display_name": "Man in the Wilderness 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:53:02.260300+00:00"
+        "planned_at": "2026-11-17T04:13:04.536305+00:00"
       },
       "previous_target_id": "30986203",
       "prepared": {
@@ -165531,7 +165531,7 @@
       "last_plan": {
         "source_id": "6872048",
         "display_name": "Monster High: Haunted SD CZ Dabing",
-        "planned_at": "2026-11-17T04:13:01.635458+00:00"
+        "planned_at": "2026-11-17T04:13:05.229430+00:00"
       }
     },
     "30432": {
@@ -214018,5 +214018,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:13:01.635472+00:00"
+  "updated_at": "2026-11-17T04:13:05.229448+00:00"
 }
