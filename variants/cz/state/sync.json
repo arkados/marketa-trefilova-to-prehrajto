@@ -164681,17 +164681,19 @@
       "attempts": []
     },
     "3272": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34651335",
+          "target_video_id": "31102284",
+          "permanent": false,
+          "attempted_at": "2026-11-17T00:16:12.379205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34651335",
         "display_name": "Faraway 1080p CZ Dabing",
         "planned_at": "2026-11-17T00:09:46.928931+00:00"
-      },
-      "claim": {
-        "worker_id": "ef88b458056647f1aa02b035c42a1c7b-shard-0",
-        "claimed_at": "2026-11-17T00:09:47.775503+00:00",
-        "lease_expires_at": "2026-11-17T06:09:47.775503+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31102284",
       "prepared": {
@@ -213334,5 +213336,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T00:16:10.284107+00:00"
+  "updated_at": "2026-11-17T00:16:12.379223+00:00"
 }
