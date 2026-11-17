@@ -114696,6 +114696,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T15:35:21.100548+00:00",
         "relay_source_id": "31964145"
+      },
+      "claim": {
+        "worker_id": "cd4bd459e2394072b7190708b75fc27e-shard-0",
+        "claimed_at": "2026-11-17T09:34:38.064866+00:00",
+        "lease_expires_at": "2026-11-17T15:34:38.064866+00:00",
+        "run_id": "44013593637"
       }
     },
     "2821": {
@@ -135077,13 +135083,6 @@
           "source_id": "32557568",
           "target_video_id": "30987534",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:18:00.079555+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32557568",
-          "target_video_id": "30987534",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:43:17.319564+00:00"
         },
         {
@@ -135092,6 +135091,13 @@
           "target_video_id": "30987534",
           "permanent": false,
           "attempted_at": "2026-11-17T08:19:26.379550+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32557568",
+          "target_video_id": "30987534",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:34:37.870530+00:00"
         }
       ],
       "last_plan": {
@@ -135105,12 +135111,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T05:09:12.113795+00:00",
         "relay_source_id": "32557568"
-      },
-      "claim": {
-        "worker_id": "71188d1d33cf450f9f601ad6441c2f4b-shard-0",
-        "claimed_at": "2026-11-17T09:34:34.743877+00:00",
-        "lease_expires_at": "2026-11-17T15:34:34.743877+00:00",
-        "run_id": "44013593637"
       }
     },
     "13373": {
@@ -142484,7 +142484,7 @@
       "last_plan": {
         "source_id": "34705988",
         "display_name": "Affairs of My Wife 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:19:30.515011+00:00"
+        "planned_at": "2026-11-17T09:34:38.301361+00:00"
       },
       "previous_target_id": "30988511",
       "prepared": {
@@ -167319,7 +167319,7 @@
       "last_plan": {
         "source_id": "33940398",
         "display_name": "Tu choisiras la vie 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:34:35.524292+00:00"
+        "planned_at": "2026-11-17T09:34:38.613884+00:00"
       }
     },
     "29104": {
@@ -215515,5 +215515,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:34:35.524311+00:00"
+  "updated_at": "2026-11-17T09:34:38.613903+00:00"
 }
