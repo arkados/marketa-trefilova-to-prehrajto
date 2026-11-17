@@ -167589,17 +167589,19 @@
       }
     },
     "8895": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29053755",
+          "target_video_id": "31115706",
+          "permanent": false,
+          "attempted_at": "2026-11-17T10:32:08.345296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29053755",
         "display_name": "Kurz manzelské touhy (Kurz manželské touhy) 1080p CZ Dabing",
         "planned_at": "2026-11-17T10:23:37.723025+00:00"
-      },
-      "claim": {
-        "worker_id": "bf41b1a7e6174c57995ad64326cc0791-shard-0",
-        "claimed_at": "2026-11-17T10:23:40.489892+00:00",
-        "lease_expires_at": "2026-11-17T16:23:40.489892+00:00",
-        "run_id": "44013593637"
       },
       "previous_target_id": "31115706",
       "prepared": {
@@ -215768,5 +215770,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:32:06.022974+00:00"
+  "updated_at": "2026-11-17T10:32:08.345313+00:00"
 }
