@@ -169559,17 +169559,19 @@
       "attempts": []
     },
     "26999": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "9971964",
+          "target_video_id": "31122953",
+          "permanent": false,
+          "attempted_at": "2026-11-17T16:42:13.943124+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "9971964",
         "display_name": "Merantau SD CZ Dabing",
         "planned_at": "2026-11-17T16:36:54.893333+00:00"
-      },
-      "claim": {
-        "worker_id": "bf4b121c8fd54318b2aeeedc7d9b0098-shard-0",
-        "claimed_at": "2026-11-17T16:36:55.653558+00:00",
-        "lease_expires_at": "2026-11-17T22:36:55.653558+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31122953",
       "prepared": {
@@ -217408,5 +217410,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:42:11.949726+00:00"
+  "updated_at": "2026-11-17T16:42:13.943156+00:00"
 }
