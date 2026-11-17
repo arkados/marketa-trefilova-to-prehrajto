@@ -107995,6 +107995,12 @@
         "size_bytes": 920700000,
         "prepared_at": "2026-11-10T14:05:41.851499+00:00",
         "relay_source_id": "31561997"
+      },
+      "claim": {
+        "worker_id": "773486dde92344e1a6556cccbf4cb3aa-shard-0",
+        "claimed_at": "2026-11-17T06:57:52.738724+00:00",
+        "lease_expires_at": "2026-11-17T12:57:52.738724+00:00",
+        "run_id": "44012569640"
       }
     },
     "2623": {
@@ -119697,7 +119703,7 @@
       "last_plan": {
         "source_id": "25411027",
         "display_name": "Anonymous SD CZ Dabing",
-        "planned_at": "2026-11-17T05:31:41.287040+00:00"
+        "planned_at": "2026-11-17T06:57:53.044720+00:00"
       },
       "previous_target_id": "30984957",
       "prepared": {
@@ -166220,17 +166226,19 @@
       "attempts": []
     },
     "23984": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29910338",
+          "target_video_id": "31111746",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:57:54.028789+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29910338",
         "display_name": "Clash of Steel SD CZ Dabing",
         "planned_at": "2026-11-17T06:55:50.439719+00:00"
-      },
-      "claim": {
-        "worker_id": "26f42298decc47f799763813dfdce71a-shard-0",
-        "claimed_at": "2026-11-17T06:55:51.785929+00:00",
-        "lease_expires_at": "2026-11-17T12:55:51.785929+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31111746",
       "prepared": {
@@ -166263,7 +166271,7 @@
       "last_plan": {
         "source_id": "30892006",
         "display_name": "November (Novembre) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T06:57:49.939041+00:00"
+        "planned_at": "2026-11-17T06:57:53.523906+00:00"
       }
     },
     "16123": {
@@ -214621,5 +214629,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:57:49.939061+00:00"
+  "updated_at": "2026-11-17T06:57:54.028809+00:00"
 }
