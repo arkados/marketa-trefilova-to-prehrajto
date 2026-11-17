@@ -107744,7 +107744,7 @@
       "last_plan": {
         "source_id": "34864618",
         "display_name": "Home Care (Domácí péče) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:18:10.511354+00:00"
+        "planned_at": "2026-11-17T22:47:32.184689+00:00"
       },
       "previous_target_id": "30983175",
       "prepared": {
@@ -107752,6 +107752,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T13:54:18.671677+00:00",
         "relay_source_id": "34864618"
+      },
+      "claim": {
+        "worker_id": "2d548ca8ab514012820a411547213ca7-shard-0",
+        "claimed_at": "2026-11-17T22:47:33.115178+00:00",
+        "lease_expires_at": "2026-11-18T04:47:33.115178+00:00",
+        "run_id": "44170464010"
       }
     },
     "2520": {
@@ -171168,17 +171174,23 @@
           "attempted_at": "2026-11-17T21:18:11.316357+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "30890689",
-        "display_name": "Beyond the Sea SD CZ Dabing",
-        "planned_at": "2026-11-17T22:47:29.048022+00:00"
-      },
       "previous_target_id": "31129027",
-      "prepared": {
+      "upload": {
         "target_video_id": "31129027",
-        "size_bytes": 1468579840,
-        "prepared_at": "2026-11-17T21:14:14.976913+00:00",
-        "relay_source_id": "30890689"
+        "display_name": "Beyond the Sea SD CZ Dabing",
+        "source_id": "30890689",
+        "source_url": "https://sdilej.cz/30890689/za-morem-2004-cz.avi",
+        "source_filename": "Za-morem-2004 cz.avi",
+        "size_bytes": 1500000000,
+        "width": 672,
+        "height": 288,
+        "audio_language": "cs",
+        "language_probability": 0.950565755367279,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/beyond-the-sea-sd-cz-dabing-avi/678a740d9cf9671c",
+        "uploaded_at": "2026-11-17T22:47:33.357521+00:00"
       }
     },
     "24804": {
@@ -171600,7 +171612,7 @@
       "last_plan": {
         "source_id": "33856169",
         "display_name": "Dirty Soul (Duše jako kaviár) 4K CZ Dabing",
-        "planned_at": "2026-11-17T22:47:29.370999+00:00"
+        "planned_at": "2026-11-17T22:47:32.511343+00:00"
       }
     },
     "3520": {
@@ -219034,5 +219046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:47:29.626901+00:00"
+  "updated_at": "2026-11-17T22:47:33.357537+00:00"
 }
