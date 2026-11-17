@@ -107401,13 +107401,6 @@
           "source_id": "34709346",
           "target_video_id": "30983103",
           "permanent": false,
-          "attempted_at": "2026-11-17T10:24:51.826285+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34709346",
-          "target_video_id": "30983103",
-          "permanent": false,
           "attempted_at": "2026-11-17T11:41:05.686598+00:00"
         },
         {
@@ -107416,6 +107409,13 @@
           "target_video_id": "30983103",
           "permanent": false,
           "attempted_at": "2026-11-17T12:55:11.090407+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34709346",
+          "target_video_id": "30983103",
+          "permanent": false,
+          "attempted_at": "2026-11-17T14:14:06.506689+00:00"
         }
       ],
       "last_plan": {
@@ -125086,7 +125086,7 @@
       "last_plan": {
         "source_id": "26655410",
         "display_name": "Tom of Finland 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:55:10.507608+00:00"
+        "planned_at": "2026-11-17T14:14:05.257246+00:00"
       },
       "previous_target_id": "30985777",
       "prepared": {
@@ -125094,6 +125094,12 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-10T21:49:35.654076+00:00",
         "relay_source_id": "26655410"
+      },
+      "claim": {
+        "worker_id": "61178cdbb65740e1ad80e1bb46100e25-shard-0",
+        "claimed_at": "2026-11-17T14:14:06.241564+00:00",
+        "lease_expires_at": "2026-11-17T20:14:06.241564+00:00",
+        "run_id": "44078950078"
       }
     },
     "22493": {
@@ -168978,7 +168984,7 @@
       "last_plan": {
         "source_id": "33846398",
         "display_name": "St. Peter's Key (Klíč svatého Petra) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T14:14:00.969726+00:00"
+        "planned_at": "2026-11-17T14:14:05.567623+00:00"
       }
     },
     "23234": {
@@ -216898,5 +216904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:14:01.220915+00:00"
+  "updated_at": "2026-11-17T14:14:06.506722+00:00"
 }
