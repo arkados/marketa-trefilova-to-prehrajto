@@ -126997,13 +126997,6 @@
           "source_id": "29549918",
           "target_video_id": "30986280",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:16:36.879058+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29549918",
-          "target_video_id": "30986280",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:36:26.610244+00:00"
         },
         {
@@ -127012,12 +127005,19 @@
           "target_video_id": "30986280",
           "permanent": false,
           "attempted_at": "2026-11-17T17:10:38.152585+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29549918",
+          "target_video_id": "30986280",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:24:04.772447+00:00"
         }
       ],
       "last_plan": {
         "source_id": "29549918",
         "display_name": "Tsar SD CZ Dabing",
-        "planned_at": "2026-11-17T18:23:55.394143+00:00"
+        "planned_at": "2026-11-17T18:24:02.437449+00:00"
       },
       "previous_target_id": "30986280",
       "prepared": {
@@ -170182,7 +170182,13 @@
       "last_plan": {
         "source_id": "34619373",
         "display_name": "Mr. Monk's Last Case: A Monk Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:23:55.619499+00:00"
+        "planned_at": "2026-11-17T18:24:02.661321+00:00"
+      },
+      "claim": {
+        "worker_id": "2125dfc4420d43568dfe4736538b700c-shard-0",
+        "claimed_at": "2026-11-17T18:24:03.558799+00:00",
+        "lease_expires_at": "2026-11-18T00:24:03.558799+00:00",
+        "run_id": "44093224298"
       }
     },
     "15847": {
@@ -170190,11 +170196,16 @@
       "last_plan": {
         "source_id": "34468543",
         "display_name": "Heartless (Sem Coração) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:23:52.796473+00:00"
+        "planned_at": "2026-11-17T18:24:02.800908+00:00"
       }
     },
     "16787": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "8819850",
+        "display_name": "Mum's List SD CZ Dabing",
+        "planned_at": "2026-11-17T18:24:02.936717+00:00"
+      }
     },
     "3571": {
       "attempts": []
@@ -217882,5 +217893,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:23:58.574037+00:00"
+  "updated_at": "2026-11-17T18:24:04.772465+00:00"
 }
