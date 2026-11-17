@@ -111088,13 +111088,6 @@
           "source_id": "8555407",
           "target_video_id": "30983781",
           "permanent": false,
-          "attempted_at": "2026-11-16T22:13:52.567022+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "8555407",
-          "target_video_id": "30983781",
-          "permanent": false,
           "attempted_at": "2026-11-17T00:32:40.420245+00:00"
         },
         {
@@ -111103,12 +111096,19 @@
           "target_video_id": "30983781",
           "permanent": false,
           "attempted_at": "2026-11-17T01:49:57.863665+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "8555407",
+          "target_video_id": "30983781",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:08:23.785510+00:00"
         }
       ],
       "last_plan": {
         "source_id": "8555407",
         "display_name": "Podnájemníci SD CZ Dabing",
-        "planned_at": "2026-11-17T01:49:53.247112+00:00"
+        "planned_at": "2026-11-17T03:08:21.103265+00:00"
       },
       "previous_target_id": "30983781",
       "prepared": {
@@ -165195,17 +165195,39 @@
       "last_plan": {
         "source_id": "34967355",
         "display_name": "Not a Thing 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:08:11.827748+00:00"
+        "planned_at": "2026-11-17T03:08:21.471981+00:00"
+      },
+      "claim": {
+        "worker_id": "a01f948f5a794f2e90118bc74a956f16-shard-0",
+        "claimed_at": "2026-11-17T03:08:22.528025+00:00",
+        "lease_expires_at": "2026-11-17T09:08:22.528025+00:00",
+        "run_id": "43981967428"
       }
     },
     "23532": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11922068",
+        "display_name": "Not Angels But Angels 720p CZ Dabing",
+        "planned_at": "2026-11-17T03:08:21.663746+00:00"
+      },
+      "claim": {
+        "worker_id": "86d5b8f7312442b589d776b227b39fce-shard-0",
+        "claimed_at": "2026-11-17T03:08:22.753416+00:00",
+        "lease_expires_at": "2026-11-17T09:08:22.753416+00:00",
+        "run_id": "43981967428"
+      }
     },
     "15338": {
       "attempts": []
     },
     "3280": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29236119",
+        "display_name": "The Survivor (2021) 720p CZ Dabing",
+        "planned_at": "2026-11-17T03:08:21.851512+00:00"
+      }
     },
     "3759": {
       "attempts": []
@@ -213760,5 +213782,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:08:17.323095+00:00"
+  "updated_at": "2026-11-17T03:08:23.785526+00:00"
 }
