@@ -169925,17 +169925,19 @@
       "attempts": []
     },
     "15226": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26738481",
+          "target_video_id": "31123892",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:52:30.942558+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26738481",
         "display_name": "South Sentinel (Sentinelle sud) 1080p CZ Dabing",
         "planned_at": "2026-11-17T17:44:29.025372+00:00"
-      },
-      "claim": {
-        "worker_id": "c1207b2eca2741d2b5e7cd4787bed7d1-shard-0",
-        "claimed_at": "2026-11-17T17:44:29.739570+00:00",
-        "lease_expires_at": "2026-11-17T23:44:29.739570+00:00",
-        "run_id": "44093224298"
       },
       "previous_target_id": "31123892",
       "prepared": {
@@ -217681,5 +217683,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:52:28.623480+00:00"
+  "updated_at": "2026-11-17T17:52:30.942575+00:00"
 }
