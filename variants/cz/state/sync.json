@@ -128563,13 +128563,6 @@
           "source_id": "30184929",
           "target_video_id": "30986654",
           "permanent": false,
-          "attempted_at": "2026-11-16T23:56:47.518529+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30184929",
-          "target_video_id": "30986654",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:13:17.372802+00:00"
         },
         {
@@ -128578,6 +128571,13 @@
           "target_video_id": "30986654",
           "permanent": false,
           "attempted_at": "2026-11-17T02:33:35.852546+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30184929",
+          "target_video_id": "30986654",
+          "permanent": false,
+          "attempted_at": "2026-11-17T03:54:22.969763+00:00"
         }
       ],
       "last_plan": {
@@ -158110,7 +158110,7 @@
       "last_plan": {
         "source_id": "15349115",
         "display_name": "Das doppelte Lottchen 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:33:35.282321+00:00"
+        "planned_at": "2026-11-17T03:54:20.894126+00:00"
       },
       "previous_target_id": "31067880",
       "prepared": {
@@ -158118,6 +158118,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-15T16:27:35.604888+00:00",
         "relay_source_id": "15349115"
+      },
+      "claim": {
+        "worker_id": "5d2064d28d424b19b9bd523cd3b2b889-shard-0",
+        "claimed_at": "2026-11-17T03:54:22.050495+00:00",
+        "lease_expires_at": "2026-11-17T09:54:22.050495+00:00",
+        "run_id": "44012569640"
       }
     },
     "22108": {
@@ -165409,7 +165415,7 @@
       "last_plan": {
         "source_id": "34470938",
         "display_name": "Laputa 1080p CZ Dabing",
-        "planned_at": "2026-11-17T03:54:17.951890+00:00"
+        "planned_at": "2026-11-17T03:54:21.267085+00:00"
       }
     },
     "16641": {
@@ -213923,5 +213929,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T03:54:18.286946+00:00"
+  "updated_at": "2026-11-17T03:54:22.969786+00:00"
 }
