@@ -130497,13 +130497,6 @@
           "source_id": "31267316",
           "target_video_id": "30986907",
           "permanent": false,
-          "attempted_at": "2026-11-17T13:10:18.258990+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31267316",
-          "target_video_id": "30986907",
-          "permanent": false,
           "attempted_at": "2026-11-17T14:26:56.710084+00:00"
         },
         {
@@ -130512,6 +130505,13 @@
           "target_video_id": "30986907",
           "permanent": false,
           "attempted_at": "2026-11-17T15:46:39.311710+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31267316",
+          "target_video_id": "30986907",
+          "permanent": false,
+          "attempted_at": "2026-11-17T17:20:27.307796+00:00"
         }
       ],
       "last_plan": {
@@ -131491,7 +131491,7 @@
       "last_plan": {
         "source_id": "32614966",
         "display_name": "Under the Grey Sky (Pod szarym niebem) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T15:46:38.689272+00:00"
+        "planned_at": "2026-11-17T17:20:25.711930+00:00"
       },
       "previous_target_id": "30986990",
       "prepared": {
@@ -131499,6 +131499,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:10:48.379016+00:00",
         "relay_source_id": "32614966"
+      },
+      "claim": {
+        "worker_id": "03afde60120e452fa26435bac09e85e1-shard-0",
+        "claimed_at": "2026-11-17T17:20:26.580525+00:00",
+        "lease_expires_at": "2026-11-17T23:20:26.580525+00:00",
+        "run_id": "44093224298"
       }
     },
     "12675": {
@@ -169827,7 +169833,7 @@
       "last_plan": {
         "source_id": "11702952",
         "display_name": "Asterix: The Secret of the Magic Potion (Astérix: Le Secret de la potion magique) 4K CZ Dabing",
-        "planned_at": "2026-11-17T17:20:22.920956+00:00"
+        "planned_at": "2026-11-17T17:20:26.000131+00:00"
       }
     },
     "21373": {
@@ -217582,5 +217588,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T17:20:23.147659+00:00"
+  "updated_at": "2026-11-17T17:20:27.307819+00:00"
 }
