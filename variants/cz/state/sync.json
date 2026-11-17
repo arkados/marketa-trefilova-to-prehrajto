@@ -114594,13 +114594,6 @@
           "source_id": "33770531",
           "target_video_id": "30984155",
           "permanent": false,
-          "attempted_at": "2026-11-17T09:33:05.465517+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33770531",
-          "target_video_id": "30984155",
-          "permanent": false,
           "attempted_at": "2026-11-17T10:50:39.561327+00:00"
         },
         {
@@ -114609,6 +114602,13 @@
           "target_video_id": "30984155",
           "permanent": false,
           "attempted_at": "2026-11-17T12:07:26.959611+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33770531",
+          "target_video_id": "30984155",
+          "permanent": false,
+          "attempted_at": "2026-11-17T13:20:46.877450+00:00"
         }
       ],
       "last_plan": {
@@ -134167,7 +134167,7 @@
       "last_plan": {
         "source_id": "35286913",
         "display_name": "Jarní vody 1080p CZ Dabing",
-        "planned_at": "2026-11-17T12:07:26.404938+00:00"
+        "planned_at": "2026-11-17T13:20:45.105279+00:00"
       },
       "previous_target_id": "30987383",
       "prepared": {
@@ -134175,6 +134175,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T04:27:15.782474+00:00",
         "relay_source_id": "35286913"
+      },
+      "claim": {
+        "worker_id": "51a9bd9594984c3e9a8b1196b4957e2d-shard-0",
+        "claimed_at": "2026-11-17T13:20:46.581458+00:00",
+        "lease_expires_at": "2026-11-17T19:20:46.581458+00:00",
+        "run_id": "44078950078"
       }
     },
     "12754": {
@@ -168697,6 +168703,12 @@
         "source_id": "34064982",
         "display_name": "The Leisure Seeker 1080p CZ Dabing",
         "planned_at": "2026-11-17T13:20:41.753582+00:00"
+      },
+      "claim": {
+        "worker_id": "da4707a8d80c42a98e13678f66cd791c-shard-0",
+        "claimed_at": "2026-11-17T13:20:44.681796+00:00",
+        "lease_expires_at": "2026-11-17T19:20:44.681796+00:00",
+        "run_id": "44078950078"
       }
     },
     "22921": {
@@ -168704,7 +168716,7 @@
       "last_plan": {
         "source_id": "30832465",
         "display_name": "Ironweed 1080p CZ Dabing",
-        "planned_at": "2026-11-17T13:20:42.179158+00:00"
+        "planned_at": "2026-11-17T13:20:45.456427+00:00"
       }
     },
     "21957": {
@@ -216657,5 +216669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T13:20:42.179174+00:00"
+  "updated_at": "2026-11-17T13:20:46.877468+00:00"
 }
