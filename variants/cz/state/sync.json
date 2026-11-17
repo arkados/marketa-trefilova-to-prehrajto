@@ -72639,6 +72639,12 @@
         "size_bytes": 27600000000,
         "prepared_at": "2026-11-06T22:43:18.167527+00:00",
         "relay_source_id": "27386940"
+      },
+      "claim": {
+        "worker_id": "254bd3edc6f44b938c8bd176e855e461-shard-0",
+        "claimed_at": "2026-11-17T04:13:52.647721+00:00",
+        "lease_expires_at": "2026-11-17T10:13:52.647721+00:00",
+        "run_id": "44012569640"
       }
     },
     "11683": {
@@ -74458,13 +74464,6 @@
           "source_id": "24984582",
           "target_video_id": "30883462",
           "permanent": false,
-          "attempted_at": "2026-11-17T00:15:53.787976+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24984582",
-          "target_video_id": "30883462",
-          "permanent": false,
           "attempted_at": "2026-11-17T01:33:10.730626+00:00"
         },
         {
@@ -74473,6 +74472,13 @@
           "target_video_id": "30883462",
           "permanent": false,
           "attempted_at": "2026-11-17T02:53:50.547298+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24984582",
+          "target_video_id": "30883462",
+          "permanent": false,
+          "attempted_at": "2026-11-17T04:13:53.633378+00:00"
         }
       ],
       "last_plan": {
@@ -74486,12 +74492,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-07T06:42:27.663683+00:00",
         "relay_source_id": "24984582"
-      },
-      "claim": {
-        "worker_id": "1331c660cf004fd59389b4699c595ce6-shard-0",
-        "claimed_at": "2026-11-17T04:13:49.342274+00:00",
-        "lease_expires_at": "2026-11-17T10:13:49.342274+00:00",
-        "run_id": "44012569640"
       }
     },
     "21479": {
@@ -137418,7 +137418,7 @@
       "last_plan": {
         "source_id": "33708412",
         "display_name": "Léto s kovbojem 1080p CZ Dabing",
-        "planned_at": "2026-11-17T02:53:53.094275+00:00"
+        "planned_at": "2026-11-17T04:13:52.918365+00:00"
       },
       "previous_target_id": "30987773",
       "prepared": {
@@ -165531,7 +165531,7 @@
       "last_plan": {
         "source_id": "6872048",
         "display_name": "Monster High: Haunted SD CZ Dabing",
-        "planned_at": "2026-11-17T04:13:49.968937+00:00"
+        "planned_at": "2026-11-17T04:13:53.283523+00:00"
       }
     },
     "30432": {
@@ -214018,5 +214018,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:13:49.968954+00:00"
+  "updated_at": "2026-11-17T04:13:53.633396+00:00"
 }
