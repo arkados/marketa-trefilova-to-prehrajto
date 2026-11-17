@@ -166130,17 +166130,19 @@
       }
     },
     "7353": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35179935",
+          "target_video_id": "31111458",
+          "permanent": false,
+          "attempted_at": "2026-11-17T06:51:17.401799+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35179935",
         "display_name": "Zahradnictví: Rodinný prítel (Zahradnictví: Rodinný přítel) 1080p CZ Dabing",
         "planned_at": "2026-11-17T06:44:09.818664+00:00"
-      },
-      "claim": {
-        "worker_id": "ebab8c374f444a7cb9c9b1046ecf99c4-shard-0",
-        "claimed_at": "2026-11-17T06:44:12.829321+00:00",
-        "lease_expires_at": "2026-11-17T12:44:12.829321+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31111458",
       "prepared": {
@@ -214561,5 +214563,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T06:51:12.804897+00:00"
+  "updated_at": "2026-11-17T06:51:17.401853+00:00"
 }
