@@ -116495,13 +116495,6 @@
           "source_id": "11567602",
           "target_video_id": "30984685",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:35:35.437496+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11567602",
-          "target_video_id": "30984685",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:48:02.701632+00:00"
         },
         {
@@ -116510,6 +116503,13 @@
           "target_video_id": "30984685",
           "permanent": false,
           "attempted_at": "2026-11-17T19:03:20.151281+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11567602",
+          "target_video_id": "30984685",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:17:14.746487+00:00"
         }
       ],
       "last_plan": {
@@ -124082,7 +124082,7 @@
       "last_plan": {
         "source_id": "32499158",
         "display_name": "Khartoum 1080p CZ Dabing",
-        "planned_at": "2026-11-17T19:03:19.278128+00:00"
+        "planned_at": "2026-11-17T20:17:13.244830+00:00"
       },
       "previous_target_id": "30985645",
       "prepared": {
@@ -124090,6 +124090,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T20:58:28.408510+00:00",
         "relay_source_id": "32499158"
+      },
+      "claim": {
+        "worker_id": "b1275e6b845040a3b18fab244841825a-shard-0",
+        "claimed_at": "2026-11-17T20:17:14.034516+00:00",
+        "lease_expires_at": "2026-11-18T02:17:14.034516+00:00",
+        "run_id": "44093224298"
       }
     },
     "2981": {
@@ -170805,7 +170811,7 @@
       "last_plan": {
         "source_id": "25389517",
         "display_name": "Rio Lobo SD CZ Dabing",
-        "planned_at": "2026-11-17T20:17:09.358354+00:00"
+        "planned_at": "2026-11-17T20:17:13.515071+00:00"
       }
     },
     "21861": {
@@ -218389,5 +218395,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:17:09.358377+00:00"
+  "updated_at": "2026-11-17T20:17:14.746510+00:00"
 }
