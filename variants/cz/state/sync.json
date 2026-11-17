@@ -110205,7 +110205,7 @@
       "last_plan": {
         "source_id": "33708286",
         "display_name": "Kam slunce nechodí (Kam slunce nechodí...) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T21:48:48.618616+00:00"
+        "planned_at": "2026-11-17T23:16:50.859824+00:00"
       },
       "previous_target_id": "30983694",
       "prepared": {
@@ -142812,6 +142812,12 @@
         "size_bytes": 15100000000,
         "prepared_at": "2026-11-11T08:43:22.098273+00:00",
         "relay_source_id": "29645616"
+      },
+      "claim": {
+        "worker_id": "dfea0f3655fb413dbd1e32fe8dd30979-shard-0",
+        "claimed_at": "2026-11-17T23:16:50.366703+00:00",
+        "lease_expires_at": "2026-11-18T05:16:50.366703+00:00",
+        "run_id": "44170464010"
       }
     },
     "36843": {
@@ -171791,17 +171797,19 @@
       "attempts": []
     },
     "3660": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26902327",
+          "target_video_id": "31132625",
+          "permanent": false,
+          "attempted_at": "2026-11-17T23:16:52.186150+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26902327",
         "display_name": "Metronom 720p CZ Dabing",
         "planned_at": "2026-11-17T23:09:06.546142+00:00"
-      },
-      "claim": {
-        "worker_id": "7e0dbd248d7d49a9844d2571289f88e1-shard-0",
-        "claimed_at": "2026-11-17T23:09:07.811897+00:00",
-        "lease_expires_at": "2026-11-18T05:09:07.811897+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31132625",
       "prepared": {
@@ -171816,7 +171824,7 @@
       "last_plan": {
         "source_id": "34877541",
         "display_name": "Cinderella (Aschenputtel) (2010) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:16:47.352775+00:00"
+        "planned_at": "2026-11-17T23:16:51.194595+00:00"
       }
     },
     "10729": {
@@ -219223,5 +219231,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T23:16:47.352793+00:00"
+  "updated_at": "2026-11-17T23:16:52.186166+00:00"
 }
