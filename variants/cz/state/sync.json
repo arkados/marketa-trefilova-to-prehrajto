@@ -115850,13 +115850,6 @@
           "source_id": "34380174",
           "target_video_id": "30984639",
           "permanent": false,
-          "attempted_at": "2026-11-17T08:20:09.400349+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34380174",
-          "target_video_id": "30984639",
-          "permanent": false,
           "attempted_at": "2026-11-17T09:35:16.012925+00:00"
         },
         {
@@ -115865,6 +115858,13 @@
           "target_video_id": "30984639",
           "permanent": false,
           "attempted_at": "2026-11-17T10:52:59.583924+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34380174",
+          "target_video_id": "30984639",
+          "permanent": false,
+          "attempted_at": "2026-11-17T12:09:47.255524+00:00"
         }
       ],
       "last_plan": {
@@ -166350,7 +166350,7 @@
       "last_plan": {
         "source_id": "30167948",
         "display_name": "The Burned Barns 1080p CZ Dabing",
-        "planned_at": "2026-11-17T10:52:58.871861+00:00"
+        "planned_at": "2026-11-17T12:09:45.813229+00:00"
       },
       "previous_target_id": "31111068",
       "prepared": {
@@ -166358,6 +166358,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-17T06:29:17.224468+00:00",
         "relay_source_id": "30167948"
+      },
+      "claim": {
+        "worker_id": "7f6b4bd07dcc4f709f5c1eca19a7e8ce-shard-0",
+        "claimed_at": "2026-11-17T12:09:46.697598+00:00",
+        "lease_expires_at": "2026-11-17T18:09:46.697598+00:00",
+        "run_id": "44078950078"
       }
     },
     "7353": {
@@ -168109,7 +168115,7 @@
       "last_plan": {
         "source_id": "28716936",
         "display_name": "Little Odessa 720p CZ Dabing",
-        "planned_at": "2026-11-17T12:09:43.155076+00:00"
+        "planned_at": "2026-11-17T12:09:46.135189+00:00"
       }
     },
     "30352": {
@@ -216173,5 +216179,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T12:09:43.155093+00:00"
+  "updated_at": "2026-11-17T12:09:47.255542+00:00"
 }
