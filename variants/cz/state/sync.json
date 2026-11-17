@@ -8594,6 +8594,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "a4f5aebb6e5c472d8c43195527c2b68c-shard-0",
+        "claimed_at": "2026-11-17T11:12:33.346498+00:00",
+        "lease_expires_at": "2026-11-17T17:12:33.346498+00:00",
+        "run_id": "44013593637"
       }
     },
     "29922": {
@@ -141250,13 +141256,6 @@
           "source_id": "32354388",
           "target_video_id": "30988211",
           "permanent": false,
-          "attempted_at": "2026-11-17T07:08:32.328920+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32354388",
-          "target_video_id": "30988211",
-          "permanent": false,
           "attempted_at": "2026-11-17T08:40:11.956072+00:00"
         },
         {
@@ -141265,12 +141264,19 @@
           "target_video_id": "30988211",
           "permanent": false,
           "attempted_at": "2026-11-17T09:55:57.657195+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32354388",
+          "target_video_id": "30988211",
+          "permanent": false,
+          "attempted_at": "2026-11-17T11:12:36.115630+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32354388",
         "display_name": "Vítr v kapse 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:55:52.209783+00:00"
+        "planned_at": "2026-11-17T11:12:33.598812+00:00"
       },
       "previous_target_id": "30988211",
       "prepared": {
@@ -167785,7 +167791,7 @@
       "last_plan": {
         "source_id": "18922812",
         "display_name": "Woman Walks Ahead 720p CZ Dabing",
-        "planned_at": "2026-11-17T11:12:30.807065+00:00"
+        "planned_at": "2026-11-17T11:12:33.914855+00:00"
       }
     },
     "21761": {
@@ -215918,5 +215924,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T11:12:31.227099+00:00"
+  "updated_at": "2026-11-17T11:12:36.115649+00:00"
 }
