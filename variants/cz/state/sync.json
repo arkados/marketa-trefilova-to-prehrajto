@@ -132677,13 +132677,6 @@
           "source_id": "29186186",
           "target_video_id": "30987146",
           "permanent": false,
-          "attempted_at": "2026-11-17T14:30:42.172462+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29186186",
-          "target_video_id": "30987146",
-          "permanent": false,
           "attempted_at": "2026-11-17T15:50:10.729453+00:00"
         },
         {
@@ -132692,6 +132685,13 @@
           "target_video_id": "30987146",
           "permanent": false,
           "attempted_at": "2026-11-17T17:26:36.044278+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29186186",
+          "target_video_id": "30987146",
+          "permanent": false,
+          "attempted_at": "2026-11-17T18:38:32.424265+00:00"
         }
       ],
       "last_plan": {
@@ -132705,12 +132705,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T03:47:31.247238+00:00",
         "relay_source_id": "29186186"
-      },
-      "claim": {
-        "worker_id": "3468329e873f44ed81008133970cd63f-shard-0",
-        "claimed_at": "2026-11-17T18:38:28.763297+00:00",
-        "lease_expires_at": "2026-11-18T00:38:28.763297+00:00",
-        "run_id": "44093224298"
       }
     },
     "34517": {
@@ -133970,7 +133964,7 @@
       "last_plan": {
         "source_id": "35084675",
         "display_name": "The Secret of a Great Narrator (Tajemství velikého vypravěče) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T17:26:34.061526+00:00"
+        "planned_at": "2026-11-17T18:38:32.856756+00:00"
       },
       "previous_target_id": "30987349",
       "prepared": {
@@ -170263,7 +170257,7 @@
       "last_plan": {
         "source_id": "32695662",
         "display_name": "When the Light Breaks (Ljósbrot) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:38:28.158858+00:00"
+        "planned_at": "2026-11-17T18:38:33.081905+00:00"
       }
     },
     "33284": {
@@ -170282,7 +170276,12 @@
       "attempts": []
     },
     "19446": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33689662",
+        "display_name": "Intacto 1080p CZ Dabing",
+        "planned_at": "2026-11-17T18:38:33.218875+00:00"
+      }
     },
     "10722": {
       "attempts": []
@@ -217949,5 +217948,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T18:38:29.161428+00:00"
+  "updated_at": "2026-11-17T18:38:33.218892+00:00"
 }
