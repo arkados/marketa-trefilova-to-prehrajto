@@ -21722,13 +21722,6 @@
           "source_id": "30201467",
           "target_video_id": "30689742",
           "permanent": false,
-          "attempted_at": "2026-11-17T05:29:36.199765+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30201467",
-          "target_video_id": "30689742",
-          "permanent": false,
           "attempted_at": "2026-11-17T06:55:36.143481+00:00"
         },
         {
@@ -21737,6 +21730,13 @@
           "target_video_id": "30689742",
           "permanent": false,
           "attempted_at": "2026-11-17T08:27:35.025831+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30201467",
+          "target_video_id": "30689742",
+          "permanent": false,
+          "attempted_at": "2026-11-17T09:42:32.048126+00:00"
         }
       ],
       "last_plan": {
@@ -137141,7 +137141,7 @@
       "last_plan": {
         "source_id": "31005194",
         "display_name": "Mord 1080p CZ Dabing",
-        "planned_at": "2026-11-17T08:27:33.836124+00:00"
+        "planned_at": "2026-11-17T09:42:30.954612+00:00"
       },
       "previous_target_id": "30987751",
       "prepared": {
@@ -137149,6 +137149,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:55:02.328631+00:00",
         "relay_source_id": "31005194"
+      },
+      "claim": {
+        "worker_id": "1203868f4dec4c05be39c891ffa46636-shard-0",
+        "claimed_at": "2026-11-17T09:42:32.246631+00:00",
+        "lease_expires_at": "2026-11-17T15:42:32.246631+00:00",
+        "run_id": "44013593637"
       }
     },
     "3365": {
@@ -167354,6 +167360,12 @@
         "source_id": "34645635",
         "display_name": "Car-napping (Carnapping - Ordered, Stolen and Sold) 1080p CZ Dabing",
         "planned_at": "2026-11-17T09:42:27.870433+00:00"
+      },
+      "claim": {
+        "worker_id": "aac45568314747ddb2a9496dbdc8fae0-shard-0",
+        "claimed_at": "2026-11-17T09:42:30.727457+00:00",
+        "lease_expires_at": "2026-11-17T15:42:30.727457+00:00",
+        "run_id": "44013593637"
       }
     },
     "22837": {
@@ -167361,7 +167373,7 @@
       "last_plan": {
         "source_id": "33767282",
         "display_name": "White Nights 1080p CZ Dabing",
-        "planned_at": "2026-11-17T09:42:28.181105+00:00"
+        "planned_at": "2026-11-17T09:42:31.306351+00:00"
       }
     },
     "27845": {
@@ -215548,5 +215560,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T09:42:28.181122+00:00"
+  "updated_at": "2026-11-17T09:42:32.246655+00:00"
 }
