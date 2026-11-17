@@ -135674,13 +135674,6 @@
           "source_id": "31513493",
           "target_video_id": "30987592",
           "permanent": false,
-          "attempted_at": "2026-11-17T01:39:10.481031+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31513493",
-          "target_video_id": "30987592",
-          "permanent": false,
           "attempted_at": "2026-11-17T02:59:56.148150+00:00"
         },
         {
@@ -135689,6 +135682,13 @@
           "target_video_id": "30987592",
           "permanent": false,
           "attempted_at": "2026-11-17T04:22:56.681760+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31513493",
+          "target_video_id": "30987592",
+          "permanent": false,
+          "attempted_at": "2026-11-17T05:45:27.671065+00:00"
         }
       ],
       "last_plan": {
@@ -165219,7 +165219,7 @@
       "last_plan": {
         "source_id": "27571306",
         "display_name": "Espion, lève-toi (Spy, Stand Up) 720p CZ Dabing",
-        "planned_at": "2026-11-17T04:22:55.999850+00:00"
+        "planned_at": "2026-11-17T05:45:25.872394+00:00"
       },
       "previous_target_id": "31106309",
       "prepared": {
@@ -165227,6 +165227,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-17T02:56:25.676118+00:00",
         "relay_source_id": "27571306"
+      },
+      "claim": {
+        "worker_id": "d641eb4963c040b3810fb1e65d70dbdc-shard-0",
+        "claimed_at": "2026-11-17T05:45:27.265532+00:00",
+        "lease_expires_at": "2026-11-17T11:45:27.265532+00:00",
+        "run_id": "44012569640"
       }
     },
     "33237": {
@@ -165912,7 +165918,7 @@
       "last_plan": {
         "source_id": "25673608",
         "display_name": "Lockdown (2021) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T05:45:22.778728+00:00"
+        "planned_at": "2026-11-17T05:45:26.240132+00:00"
       }
     },
     "4091": {
@@ -214342,5 +214348,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:45:23.090756+00:00"
+  "updated_at": "2026-11-17T05:45:27.671086+00:00"
 }
