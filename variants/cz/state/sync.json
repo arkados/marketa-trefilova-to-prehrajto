@@ -166490,17 +166490,19 @@
       "attempts": []
     },
     "3186": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31089104",
+          "target_video_id": "31112519",
+          "permanent": false,
+          "attempted_at": "2026-11-17T07:44:30.762361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31089104",
         "display_name": "Profile 1080p CZ Dabing",
         "planned_at": "2026-11-17T07:34:02.906786+00:00"
-      },
-      "claim": {
-        "worker_id": "839dc06291894abcab015b640d997443-shard-0",
-        "claimed_at": "2026-11-17T07:34:05.811957+00:00",
-        "lease_expires_at": "2026-11-17T13:34:05.811957+00:00",
-        "run_id": "44012569640"
       },
       "previous_target_id": "31112519",
       "prepared": {
@@ -214846,5 +214848,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T07:44:28.729177+00:00"
+  "updated_at": "2026-11-17T07:44:30.762382+00:00"
 }
