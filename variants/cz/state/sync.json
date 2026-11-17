@@ -144119,7 +144119,7 @@
       "last_plan": {
         "source_id": "7239474",
         "display_name": "Bílá spona SD CZ Dabing",
-        "planned_at": "2026-11-17T01:22:52.152560+00:00"
+        "planned_at": "2026-11-17T02:40:42.562160+00:00"
       },
       "previous_target_id": "30988750",
       "prepared": {
@@ -165026,17 +165026,19 @@
       "attempts": []
     },
     "8173": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28822231",
+          "target_video_id": "31104434",
+          "permanent": false,
+          "attempted_at": "2026-11-17T02:40:42.789456+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28822231",
         "display_name": "Princ Mamánek 4K CZ Dabing",
         "planned_at": "2026-11-17T01:29:30.748332+00:00"
-      },
-      "claim": {
-        "worker_id": "a790171e6d404d7da3e6a93c9cb0ca0f-shard-0",
-        "claimed_at": "2026-11-17T01:29:31.910640+00:00",
-        "lease_expires_at": "2026-11-17T07:29:31.910640+00:00",
-        "run_id": "43981967428"
       },
       "previous_target_id": "31104434",
       "prepared": {
@@ -213672,5 +213674,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T02:40:40.466956+00:00"
+  "updated_at": "2026-11-17T02:40:42.789478+00:00"
 }
