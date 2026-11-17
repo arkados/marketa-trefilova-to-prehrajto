@@ -171475,17 +171475,19 @@
       "attempts": []
     },
     "19385": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31691443",
+          "target_video_id": "31130728",
+          "permanent": false,
+          "attempted_at": "2026-11-17T22:21:15.128370+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31691443",
         "display_name": "Il lupo e l'agnello 720p CZ Dabing",
         "planned_at": "2026-11-17T22:11:29.093818+00:00"
-      },
-      "claim": {
-        "worker_id": "05b4387d45344d2d89ad0e08db2ddb68-shard-0",
-        "claimed_at": "2026-11-17T22:11:32.726556+00:00",
-        "lease_expires_at": "2026-11-18T04:11:32.726556+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31130728",
       "prepared": {
@@ -218955,5 +218957,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T22:21:12.734827+00:00"
+  "updated_at": "2026-11-17T22:21:15.128387+00:00"
 }
