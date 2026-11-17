@@ -123407,13 +123407,6 @@
           "source_id": "34230753",
           "target_video_id": "30985555",
           "permanent": false,
-          "attempted_at": "2026-11-17T16:29:47.336091+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34230753",
-          "target_video_id": "30985555",
-          "permanent": false,
           "attempted_at": "2026-11-17T17:41:57.438974+00:00"
         },
         {
@@ -123422,6 +123415,13 @@
           "target_video_id": "30985555",
           "permanent": false,
           "attempted_at": "2026-11-17T18:57:22.585010+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34230753",
+          "target_video_id": "30985555",
+          "permanent": false,
+          "attempted_at": "2026-11-17T20:11:55.403112+00:00"
         }
       ],
       "last_plan": {
@@ -123435,12 +123435,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T20:18:15.751150+00:00",
         "relay_source_id": "34230753"
-      },
-      "claim": {
-        "worker_id": "b4e85cf53b70471fb266848756c9b919-shard-0",
-        "claimed_at": "2026-11-17T20:11:51.673121+00:00",
-        "lease_expires_at": "2026-11-18T02:11:51.673121+00:00",
-        "run_id": "44093224298"
       }
     },
     "2528": {
@@ -129680,7 +129674,7 @@
       "last_plan": {
         "source_id": "34993388",
         "display_name": "Love Me Tender (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T18:57:24.874038+00:00"
+        "planned_at": "2026-11-17T20:11:54.538394+00:00"
       },
       "previous_target_id": "30986791",
       "prepared": {
@@ -129688,6 +129682,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T02:10:01.122902+00:00",
         "relay_source_id": "34993388"
+      },
+      "claim": {
+        "worker_id": "e0b8895d1d04460fb7684e72dfde602d-shard-0",
+        "claimed_at": "2026-11-17T20:11:55.209391+00:00",
+        "lease_expires_at": "2026-11-18T02:11:55.209391+00:00",
+        "run_id": "44093224298"
       }
     },
     "14540": {
@@ -170782,7 +170782,7 @@
       "last_plan": {
         "source_id": "26408626",
         "display_name": "All Creatures Great and Small 1080p CZ Dabing",
-        "planned_at": "2026-11-17T20:11:51.230932+00:00"
+        "planned_at": "2026-11-17T20:11:54.779213+00:00"
       }
     },
     "11033": {
@@ -218369,5 +218369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-17T20:11:52.192994+00:00"
+  "updated_at": "2026-11-17T20:11:55.403133+00:00"
 }
