@@ -130207,6 +130207,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T02:29:25.576648+00:00",
         "relay_source_id": "30420191"
+      },
+      "claim": {
+        "worker_id": "59eedd0a64644b5aa86c97aa4080c22d-shard-0",
+        "claimed_at": "2026-11-18T19:49:38.976983+00:00",
+        "lease_expires_at": "2026-11-19T01:49:38.976983+00:00",
+        "run_id": "44366936972"
       }
     },
     "32254": {
@@ -138095,7 +138101,7 @@
       "last_plan": {
         "source_id": "32352659",
         "display_name": "Ohnivé zeny se vracejí (Ohnivé ženy se vracejí) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:18:19.820165+00:00"
+        "planned_at": "2026-11-18T19:49:39.249006+00:00"
       },
       "previous_target_id": "30987841",
       "prepared": {
@@ -138103,6 +138109,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T06:21:37.258852+00:00",
         "relay_source_id": "32352659"
+      },
+      "claim": {
+        "worker_id": "25145a51a28e4650a46a0ba81c0fb8bf-shard-0",
+        "claimed_at": "2026-11-18T19:49:40.130779+00:00",
+        "lease_expires_at": "2026-11-19T01:49:40.130779+00:00",
+        "run_id": "44366936972"
       }
     },
     "24547": {
@@ -176131,17 +176143,19 @@
       "attempts": []
     },
     "24699": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34194769",
+          "target_video_id": "31158495",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:49:41.067103+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34194769",
         "display_name": "Spider 4K CZ Dabing",
         "planned_at": "2026-11-18T19:37:03.369225+00:00"
-      },
-      "claim": {
-        "worker_id": "5705b703b4454a97a5ffac5c973c37c6-shard-0",
-        "claimed_at": "2026-11-18T19:37:04.439824+00:00",
-        "lease_expires_at": "2026-11-19T01:37:04.439824+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31158495",
       "prepared": {
@@ -176179,7 +176193,7 @@
       "last_plan": {
         "source_id": "34135528",
         "display_name": "The Runway 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:49:36.507763+00:00"
+        "planned_at": "2026-11-18T19:49:39.559407+00:00"
       }
     },
     "11972": {
@@ -222907,5 +222921,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:49:36.507781+00:00"
+  "updated_at": "2026-11-18T19:49:41.067120+00:00"
 }
