@@ -135399,13 +135399,6 @@
           "source_id": "24800590",
           "target_video_id": "30987566",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:29:30.935502+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24800590",
-          "target_video_id": "30987566",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:02:24.232961+00:00"
         },
         {
@@ -135414,6 +135407,13 @@
           "target_video_id": "30987566",
           "permanent": false,
           "attempted_at": "2026-11-18T20:36:16.327909+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24800590",
+          "target_video_id": "30987566",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:07:34.341496+00:00"
         }
       ],
       "last_plan": {
@@ -175527,7 +175527,7 @@
       "last_plan": {
         "source_id": "33575963",
         "display_name": "The Air I Breathe 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:36:19.947360+00:00"
+        "planned_at": "2026-11-18T22:07:32.747250+00:00"
       },
       "previous_target_id": "31156295",
       "prepared": {
@@ -175535,6 +175535,12 @@
         "size_bytes": 7700000000,
         "prepared_at": "2026-11-18T17:22:49.918183+00:00",
         "relay_source_id": "33575963"
+      },
+      "claim": {
+        "worker_id": "0bd2fe96af9b431487750b9b18634ae3-shard-0",
+        "claimed_at": "2026-11-18T22:07:33.688454+00:00",
+        "lease_expires_at": "2026-11-19T04:07:33.688454+00:00",
+        "run_id": "44366936972"
       }
     },
     "11797": {
@@ -176826,7 +176832,7 @@
       "last_plan": {
         "source_id": "27809555",
         "display_name": "Notorious 720p CZ Dabing",
-        "planned_at": "2026-11-18T22:07:29.816838+00:00"
+        "planned_at": "2026-11-18T22:07:33.079083+00:00"
       }
     },
     "3248": {
@@ -223458,5 +223464,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:07:30.089637+00:00"
+  "updated_at": "2026-11-18T22:07:34.341515+00:00"
 }
