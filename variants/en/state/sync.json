@@ -22480,13 +22480,6 @@
           "source_id": "6556256",
           "target_video_id": "30986677",
           "permanent": false,
-          "attempted_at": "2026-11-17T23:04:40.419866+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6556256",
-          "target_video_id": "30986677",
-          "permanent": false,
           "attempted_at": "2026-11-17T23:34:46.647692+00:00"
         },
         {
@@ -22495,12 +22488,19 @@
           "target_video_id": "30986677",
           "permanent": false,
           "attempted_at": "2026-11-18T00:04:55.698319+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6556256",
+          "target_video_id": "30986677",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:45:52.972895+00:00"
         }
       ],
       "last_plan": {
         "source_id": "6556256",
         "display_name": "Sanctuary (Freistatt) 720p CZ titulky",
-        "planned_at": "2026-11-18T00:04:51.168518+00:00"
+        "planned_at": "2026-11-18T00:45:50.390360+00:00"
       },
       "previous_target_id": "30986677",
       "prepared": {
@@ -28077,7 +28077,18 @@
       "attempts": []
     },
     "95": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13460272",
+        "display_name": "Senna SD CZ titulky",
+        "planned_at": "2026-11-18T00:45:50.584551+00:00"
+      },
+      "claim": {
+        "worker_id": "255302cc261e43cd9a9a5e83455ee0ea-shard-0",
+        "claimed_at": "2026-11-18T00:45:51.260465+00:00",
+        "lease_expires_at": "2026-11-18T06:45:51.260465+00:00",
+        "run_id": "44190029167"
+      }
     },
     "28698": {
       "attempts": []
@@ -100750,5 +100761,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:08:39.243246+00:00"
+  "updated_at": "2026-11-18T00:45:52.972911+00:00"
 }
