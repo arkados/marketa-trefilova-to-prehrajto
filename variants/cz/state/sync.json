@@ -175902,17 +175902,19 @@
       "attempts": []
     },
     "20260": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32871501",
+          "target_video_id": "31157809",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:00:57.684577+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32871501",
         "display_name": "Young & Beautiful (Jeune et jolie) 1080p CZ Dabing",
         "planned_at": "2026-11-18T18:53:51.370316+00:00"
-      },
-      "claim": {
-        "worker_id": "88ef860d400c45e89a8f72216d3e239e-shard-0",
-        "claimed_at": "2026-11-18T18:53:52.098046+00:00",
-        "lease_expires_at": "2026-11-19T00:53:52.098046+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31157809",
       "prepared": {
@@ -222679,5 +222681,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:00:55.105235+00:00"
+  "updated_at": "2026-11-18T19:00:57.684597+00:00"
 }
