@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:11:36.443511+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:11:49.735728+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -139,7 +139,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Ladyhawke 1080p CZ Titulky](https://prehraj.to/ladyhawke-1080p-cz-titulky-mkv/b0fee03b1be1f71b) (ID 31008069) | [Sdílej 35402331](https://sdilej.cz/35402331/ladyhawke.1985.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-13T02:02:54.481412+00:00 |
 | [Legacy, notre héritage (Legacy) 1080p CZ Titulky](https://prehraj.to/legacy-notre-heritage-legacy-1080p-cz-titulky-mkv/69691dd82efd42a0) (ID 30988551) | [Sdílej 17633756](https://sdilej.cz/17633756/space-jam-a-new-legacy-space-jam-novy-zacatek-2021-1080p-aac5.1-titulky-cz.mkv) | target_unavailable | 2026-11-18T13:10:44.894384+00:00 |
 | [Legend (2015) (ID 2712) 1080p CZ Titulky](https://prehraj.to/legend-2015-id-2712-1080p-cz-titulky-mkv/46ea2e48fa560927) (ID 31004679) | [Sdílej 32845458](https://sdilej.cz/32845458/legendy-zlocinu-2015-krimi-thriller-tom-hardy-czdab-bluray.1080p.mkv) | target_unavailable | 2026-11-12T17:58:12.108728+00:00 |
-| [Little Fish (2020) 1080p CZ Titulky](https://prehraj.to/little-fish-2020-1080p-cz-titulky-mkv/3f9cbbdd9272bed4) (ID 30989893) | [Sdílej 35401846](https://sdilej.cz/35401846/little.fish.2020.1080p.webrip.x264-rarbg-.mkv) | target_unavailable | 2026-11-11T12:28:04.209634+00:00 |
+| [Little Fish (2020) 1080p CZ Titulky](https://prehraj.to/little-fish-2020-1080p-cz-titulky-mkv/3f9cbbdd9272bed4) (ID 30989893) | [Sdílej 35401846](https://sdilej.cz/35401846/little.fish.2020.1080p.webrip.x264-rarbg-.mkv) | target_unavailable | 2026-11-18T13:11:49.643663+00:00 |
 | [Live Free or Die Hard 1080p CZ Titulky](https://prehraj.to/live-free-or-die-hard-1080p-cz-titulky-mkv/6a67b448e96b3947) (ID 30904979) | [Sdílej 23260210](https://sdilej.cz/23260210/die-hard-4-live-free-or-die-hard-smrtonosna-past-4-0-2007-hd-1080p-ang-cz.mkv) | source_unavailable | 2026-11-17T16:23:14.834186+00:00 |
 | [Long Live the Republic! (Long Live the Republic) 1080p CZ Titulky](https://prehraj.to/long-live-the-republic-long-live-the-republic-1080p-cz-titulky-mkv/02d7eee9b4e5b296) (ID 30999144) | [Sdílej 33879962](https://sdilej.cz/33879962/at-zije-republika.1965.bdrip.cz.1080p.mkv) | target_unavailable | 2026-11-12T06:03:01.957679+00:00 |
 | [Lunacy (Šílení) 1080p CZ Titulky](https://prehraj.to/lunacy-sileni-1080p-cz-titulky-mkv/822aea77a1ef13bd) (ID 30984494) | [Sdílej 32997472](https://sdilej.cz/32997472/sileni-2005-fhd-cz.mkv) | target_unavailable | 2026-11-18T13:01:02.645142+00:00 |
