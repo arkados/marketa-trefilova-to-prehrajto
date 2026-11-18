@@ -139805,13 +139805,6 @@
           "source_id": "27739188",
           "target_video_id": "30987990",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:58:50.155911+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27739188",
-          "target_video_id": "30987990",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:33:13.015352+00:00"
         },
         {
@@ -139820,6 +139813,13 @@
           "target_video_id": "30987990",
           "permanent": false,
           "attempted_at": "2026-11-18T18:05:09.297088+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27739188",
+          "target_video_id": "30987990",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:37:04.632811+00:00"
         }
       ],
       "last_plan": {
@@ -175728,7 +175728,7 @@
       "last_plan": {
         "source_id": "30905035",
         "display_name": "Blood and Bone 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:57:30.513543+00:00"
+        "planned_at": "2026-11-18T19:37:03.057485+00:00"
       },
       "previous_target_id": "31156765",
       "prepared": {
@@ -175736,6 +175736,12 @@
         "size_bytes": 3073400535,
         "prepared_at": "2026-11-18T17:57:38.133333+00:00",
         "relay_source_id": "30905035"
+      },
+      "claim": {
+        "worker_id": "def16684bbc74e1eb1a5d267ab6d7501-shard-0",
+        "claimed_at": "2026-11-18T19:37:04.192995+00:00",
+        "lease_expires_at": "2026-11-19T01:37:04.192995+00:00",
+        "run_id": "44366936972"
       }
     },
     "24351": {
@@ -176104,11 +176110,22 @@
       "last_plan": {
         "source_id": "34194769",
         "display_name": "Spider 4K CZ Dabing",
-        "planned_at": "2026-11-18T19:36:57.862264+00:00"
+        "planned_at": "2026-11-18T19:37:03.369225+00:00"
+      },
+      "claim": {
+        "worker_id": "5705b703b4454a97a5ffac5c973c37c6-shard-0",
+        "claimed_at": "2026-11-18T19:37:04.439824+00:00",
+        "lease_expires_at": "2026-11-19T01:37:04.439824+00:00",
+        "run_id": "44366936972"
       }
     },
     "27742": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26782832",
+        "display_name": "Liberal Arts 720p CZ Dabing",
+        "planned_at": "2026-11-18T19:37:03.601031+00:00"
+      }
     },
     "27029": {
       "attempts": []
@@ -222838,5 +222855,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:36:58.102558+00:00"
+  "updated_at": "2026-11-18T19:37:04.632829+00:00"
 }
