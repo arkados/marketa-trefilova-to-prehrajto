@@ -1021,13 +1021,6 @@
           "source_id": "33238710",
           "target_video_id": "30577961",
           "permanent": false,
-          "attempted_at": "2026-11-18T13:15:19.568259+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33238710",
-          "target_video_id": "30577961",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:34:18.120248+00:00"
         },
         {
@@ -1036,6 +1029,13 @@
           "target_video_id": "30577961",
           "permanent": false,
           "attempted_at": "2026-11-18T17:05:59.379978+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33238710",
+          "target_video_id": "30577961",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:40:29.195732+00:00"
         }
       ],
       "last_plan": {
@@ -1049,12 +1049,6 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-10-28T04:52:11.852635+00:00",
         "relay_source_id": "33238710"
-      },
-      "claim": {
-        "worker_id": "660198a989784e94a9c93af903321d93-shard-0",
-        "claimed_at": "2026-11-18T18:40:25.157579+00:00",
-        "lease_expires_at": "2026-11-19T00:40:25.157579+00:00",
-        "run_id": "44366936972"
       }
     },
     "54": {
@@ -164729,7 +164723,7 @@
       "last_plan": {
         "source_id": "35124112",
         "display_name": "Martin a Venuse (Martin a Venuše) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:05:57.891029+00:00"
+        "planned_at": "2026-11-18T18:40:28.083811+00:00"
       },
       "previous_target_id": "31101208",
       "prepared": {
@@ -164737,6 +164731,12 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-16T22:53:29.017685+00:00",
         "relay_source_id": "35124112"
+      },
+      "claim": {
+        "worker_id": "1105527945164dbbb12e31e84fb8922a-shard-0",
+        "claimed_at": "2026-11-18T18:40:28.961480+00:00",
+        "lease_expires_at": "2026-11-19T00:40:28.961480+00:00",
+        "run_id": "44366936972"
       }
     },
     "10173": {
@@ -175838,7 +175838,7 @@
       "last_plan": {
         "source_id": "24527969",
         "display_name": "Anna and the King 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:40:24.569076+00:00"
+        "planned_at": "2026-11-18T18:40:28.393628+00:00"
       }
     },
     "37356": {
@@ -222602,5 +222602,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:40:25.778615+00:00"
+  "updated_at": "2026-11-18T18:40:29.195747+00:00"
 }
