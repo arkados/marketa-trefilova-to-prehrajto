@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:51:08.775111+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:51:23.003401+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -92,7 +92,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [C'est la vie! (Le Sens de la fête) 1080p CZ Titulky](https://prehraj.to/c-est-la-vie-le-sens-de-la-fete-1080p-cz-titulky-mkv/595d5ada0a880100) (ID 31014523) | [Sdílej 34972763](https://sdilej.cz/34972763/le.sens.de.la.fete.2017.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-13T15:53:28.526115+00:00 |
 | [Caught Stealing 4K CZ Titulky](https://prehraj.to/caught-stealing-4k-cz-titulky-mkv/ef892ac61c48f6bc) (ID 31093102) | [Sdílej 31933757](https://sdilej.cz/31933757/caught.stealing.2025.2160p.web.h265-ethel.mkv) | target_unavailable | 2026-11-16T15:04:44.248971+00:00 |
 | [Chisum 1080p CZ Titulky](https://prehraj.to/chisum-1080p-cz-titulky-mkv/fe1f1cb661ffa3f5) (ID 31014978) | [Sdílej 30779927](https://sdilej.cz/30779927/john-chisum-hraji-john-wayne-1970-cz-dab-leg.mkv) | target_unavailable | 2026-11-13T16:13:27.459046+00:00 |
-| [Chocolat (2000) 1080p CZ titulky](https://prehraj.to/chocolat-2000-1080p-cz-titulky-mkv/8143f0612377d3e9) (ID 30859204) | [Sdílej 34220031](https://sdilej.cz/34220031/cokolada-2000-romant.drama-johnny-depp-czdab.bluray.1080p.mkv) | target_unavailable | 2026-11-10T09:49:52.647297+00:00 |
+| [Chocolat (2000) 1080p CZ titulky](https://prehraj.to/chocolat-2000-1080p-cz-titulky-mkv/8143f0612377d3e9) (ID 30859204) | [Sdílej 34220031](https://sdilej.cz/34220031/cokolada-2000-romant.drama-johnny-depp-czdab.bluray.1080p.mkv) | target_unavailable | 2026-11-18T12:51:21.804813+00:00 |
 | [Chocolat (2016) SD CZ Titulky](https://prehraj.to/chocolat-2016-sd-cz-titulky-mkv/668ea0f6de46f2fd) (ID 30990768) | [Sdílej 6841848](https://sdilej.cz/6841848/chocolat-monsieur-chocolat-2016-titulky.cz-1080p.mkv) | target_unavailable | 2026-11-11T13:58:21.537398+00:00 |
 | [Clear and Present Danger 1080p CZ Titulky](https://prehraj.to/clear-and-present-danger-1080p-cz-titulky-mkv/4922b20cbda668d9) (ID 31006506) | [Sdílej 29946984](https://sdilej.cz/29946984/jasne-nebezpeci-1994-en-cs-pl-en-cs-pl-816p23.976-.mkv) | target_unavailable | 2026-11-12T22:01:37.628878+00:00 |
 | [Clueless 1080p CZ Titulky](https://prehraj.to/clueless-1080p-cz-titulky-mkv/90a29b56ae939edf) (ID 31003560) | [Sdílej 30783542](https://sdilej.cz/30783542/bezmocna-clueless-1995-en.cz.sk-bdrip-hevc-1080p.mkv) | target_unavailable | 2026-11-12T15:08:14.223418+00:00 |
