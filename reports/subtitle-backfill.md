@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:11:29.209354+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:11:36.443511+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 512, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 189, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 513, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 188, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -241,7 +241,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [The Trip (I onde dager) (2021) 1080p CZ Titulky](https://prehraj.to/the-trip-i-onde-dager-2021-1080p-cz-titulky-mkv/82caf92e9a18400b) (ID 31011633) | [Sdílej 18710569](https://sdilej.cz/18710569/cesta-za-smirenim-2021-5.1-nor-cz-titulky.mkv) | target_unavailable | 2026-11-13T10:31:52.143680+00:00 |
 | [The Wolf's Call (Le Chant du loup) 1080p CZ Titulky](https://prehraj.to/the-wolf-s-call-le-chant-du-loup-1080p-cz-titulky-mkv/4a83a17b66ed5b42) (ID 31012805) | [Sdílej 11904731](https://sdilej.cz/11904731/le.chant.du.loup.2019.sk.sub.1080p.web.h264.mkv) | target_unavailable | 2026-11-13T13:22:35.025391+00:00 |
 | [Thelma (2024) 1080p CZ Titulky](https://prehraj.to/thelma-2024-1080p-cz-titulky-mkv/685abf34816aec01) (ID 31011855) | [Sdílej 29624808](https://sdilej.cz/29624808/thelma.2024.1080p.amzn.web-dl.ddp5.1.h.264-leon.-en-subs-cz-en-.mkv) | target_unavailable | 2026-11-13T11:12:03.974420+00:00 |
-| [Those Magnificent Men in their Flying Machines (Those Magnificent Men in Their Flying Machines or How I Flew from London to Paris in 25 Hours 11 Minutes) 1080p CZ Titulky](https://prehraj.to/those-magnificent-men-in-their-flying-machines-those-magnificent-men-in-their-flying-machines-or-how-i-flew-from-london-to-paris-in-25-hours-11-minutes-1080p-cz-titulky-mkv/90a870d6f93d626a) (ID 30989766) | [Sdílej 6120853](https://sdilej.cz/6120853/bajecni-muzi-na-letajicich-strojich-1965-fhd-1080p--cz-eng-.mkv) | target_unavailable | 2026-11-11T12:18:05.456630+00:00 |
 | [Triangle 1080p CZ Titulky](https://prehraj.to/triangle-1080p-cz-titulky-mkv/9a4c0387f9957337) (ID 31006060) | [Sdílej 14629570](https://sdilej.cz/14629570/triangle-en-vlozene-titulky-2009-thriller-1080p.mkv) | target_unavailable | 2026-11-12T21:11:25.519777+00:00 |
 | [Tron: Legacy 1080p CZ Titulky](https://prehraj.to/tron-legacy-1080p-cz-titulky-mkv/85950bf12e3130f6) (ID 31078464) | [Sdílej 21025893](https://sdilej.cz/21025893/tron-legacy-2010-hevc-1080p-cz-dabing.mkv) | target_unavailable | 2026-11-16T01:05:31.229891+00:00 |
 | [Truth & Treason 4K CZ titulky](https://prehraj.to/truth-treason-4k-cz-titulky-mkv/fa8a5eacff079076) (ID 30986247) | [Sdílej 34285530](https://sdilej.cz/34285530/truth-and-treason-2025-2160p.4k-cz.tit.mkv) | target_unavailable | 2026-11-18T13:01:41.988493+00:00 |
