@@ -123837,13 +123837,6 @@
           "source_id": "16256834",
           "target_video_id": "30985618",
           "permanent": false,
-          "attempted_at": "2026-11-18T13:09:59.293038+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16256834",
-          "target_video_id": "30985618",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:30:53.920330+00:00"
         },
         {
@@ -123852,6 +123845,13 @@
           "target_video_id": "30985618",
           "permanent": false,
           "attempted_at": "2026-11-18T17:03:01.406486+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16256834",
+          "target_video_id": "30985618",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:37:42.568856+00:00"
         }
       ],
       "last_plan": {
@@ -130584,7 +130584,7 @@
       "last_plan": {
         "source_id": "27361344",
         "display_name": "The Very Late Afternoon of a Faun (Faunovo velmi pozdní odpoledne) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:03:00.614996+00:00"
+        "planned_at": "2026-11-18T18:37:40.832126+00:00"
       },
       "previous_target_id": "30986908",
       "prepared": {
@@ -130592,6 +130592,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T02:38:37.729548+00:00",
         "relay_source_id": "27361344"
+      },
+      "claim": {
+        "worker_id": "3ecb89e9cc204feead662822a20d1a49-shard-0",
+        "claimed_at": "2026-11-18T18:37:41.687008+00:00",
+        "lease_expires_at": "2026-11-19T00:37:41.687008+00:00",
+        "run_id": "44366936972"
       }
     },
     "2834": {
@@ -175820,7 +175826,7 @@
       "last_plan": {
         "source_id": "24527969",
         "display_name": "Anna and the King 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:37:37.447642+00:00"
+        "planned_at": "2026-11-18T18:37:41.142231+00:00"
       }
     },
     "37356": {
@@ -222584,5 +222590,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:37:38.043112+00:00"
+  "updated_at": "2026-11-18T18:37:42.568874+00:00"
 }
