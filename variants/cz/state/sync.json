@@ -93395,13 +93395,6 @@
           "source_id": "34296350",
           "target_video_id": "30942671",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:51:19.401995+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34296350",
-          "target_video_id": "30942671",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:23:08.559248+00:00"
         },
         {
@@ -93410,6 +93403,13 @@
           "target_video_id": "30942671",
           "permanent": false,
           "attempted_at": "2026-11-18T20:57:47.793176+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34296350",
+          "target_video_id": "30942671",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:41:18.559399+00:00"
         }
       ],
       "last_plan": {
@@ -121564,7 +121564,7 @@
       "last_plan": {
         "source_id": "35117462",
         "display_name": "Simon Birch 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:57:47.177820+00:00"
+        "planned_at": "2026-11-18T22:41:16.595131+00:00"
       },
       "previous_target_id": "30985082",
       "prepared": {
@@ -121572,6 +121572,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T18:53:09.599430+00:00",
         "relay_source_id": "35117462"
+      },
+      "claim": {
+        "worker_id": "546bc6be8f4c4502a2011a004d0ea141-shard-0",
+        "claimed_at": "2026-11-18T22:41:17.509202+00:00",
+        "lease_expires_at": "2026-11-19T04:41:17.509202+00:00",
+        "run_id": "44406951430"
       }
     },
     "3085": {
@@ -176992,7 +176998,7 @@
       "last_plan": {
         "source_id": "24938055",
         "display_name": "Modelky s.r.o. 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:41:12.842960+00:00"
+        "planned_at": "2026-11-18T22:41:16.933691+00:00"
       }
     },
     "34861": {
@@ -223600,5 +223606,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:41:12.842979+00:00"
+  "updated_at": "2026-11-18T22:41:18.559419+00:00"
 }
