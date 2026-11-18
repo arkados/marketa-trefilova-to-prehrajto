@@ -112341,7 +112341,7 @@
       "last_plan": {
         "source_id": "33810878",
         "display_name": "Strach má velké oci (Strach má velké oči) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T01:57:19.196915+00:00"
+        "planned_at": "2026-11-18T03:23:53.712202+00:00"
       },
       "previous_target_id": "30983848",
       "prepared": {
@@ -140326,13 +140326,6 @@
           "source_id": "34789190",
           "target_video_id": "30988078",
           "permanent": false,
-          "attempted_at": "2026-11-17T22:52:03.182274+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34789190",
-          "target_video_id": "30988078",
-          "permanent": false,
           "attempted_at": "2026-11-18T00:18:36.541609+00:00"
         },
         {
@@ -140341,6 +140334,13 @@
           "target_video_id": "30988078",
           "permanent": false,
           "attempted_at": "2026-11-18T01:57:20.925525+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34789190",
+          "target_video_id": "30988078",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:23:54.507768+00:00"
         }
       ],
       "last_plan": {
@@ -140354,12 +140354,6 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-11T07:28:05.394485+00:00",
         "relay_source_id": "34789190"
-      },
-      "claim": {
-        "worker_id": "019ed6a706de43a597cb0d1c2f70c249-shard-0",
-        "claimed_at": "2026-11-18T03:23:51.018354+00:00",
-        "lease_expires_at": "2026-11-18T09:23:51.018354+00:00",
-        "run_id": "44190029167"
       }
     },
     "24824": {
@@ -172679,17 +172673,19 @@
       }
     },
     "26203": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14050740",
+          "target_video_id": "31138411",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:23:54.760410+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14050740",
         "display_name": "Redbelt SD CZ Dabing",
         "planned_at": "2026-11-18T03:20:43.851270+00:00"
-      },
-      "claim": {
-        "worker_id": "82b6e26a9367488f8646753bdf41bfb3-shard-0",
-        "claimed_at": "2026-11-18T03:20:45.153205+00:00",
-        "lease_expires_at": "2026-11-18T09:20:45.153205+00:00",
-        "run_id": "44190029167"
       },
       "previous_target_id": "31138411",
       "prepared": {
@@ -172710,7 +172706,7 @@
       "last_plan": {
         "source_id": "30238160",
         "display_name": "Divoké pivo SD CZ Dabing",
-        "planned_at": "2026-11-18T03:23:50.158335+00:00"
+        "planned_at": "2026-11-18T03:23:54.210823+00:00"
       }
     },
     "15971": {
@@ -219979,5 +219975,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:23:51.486604+00:00"
+  "updated_at": "2026-11-18T03:23:54.760434+00:00"
 }
