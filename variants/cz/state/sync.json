@@ -115989,6 +115989,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-10T17:11:58.046728+00:00",
         "relay_source_id": "34858393"
+      },
+      "claim": {
+        "worker_id": "df879f35fce14f48885cd23fc192a5bb-shard-0",
+        "claimed_at": "2026-11-18T05:43:28.987588+00:00",
+        "lease_expires_at": "2026-11-18T11:43:28.987588+00:00",
+        "run_id": "44237121625"
       }
     },
     "2962": {
@@ -132849,13 +132855,6 @@
           "source_id": "31648494",
           "target_video_id": "30987174",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:32:56.194595+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31648494",
-          "target_video_id": "30987174",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:11:04.328734+00:00"
         },
         {
@@ -132864,6 +132863,13 @@
           "target_video_id": "30987174",
           "permanent": false,
           "attempted_at": "2026-11-18T03:37:55.099979+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31648494",
+          "target_video_id": "30987174",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:43:28.784767+00:00"
         }
       ],
       "last_plan": {
@@ -132877,12 +132883,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T03:51:55.158487+00:00",
         "relay_source_id": "31648494"
-      },
-      "claim": {
-        "worker_id": "5143745313e843d1962894223126cde4-shard-0",
-        "claimed_at": "2026-11-18T05:43:25.328147+00:00",
-        "lease_expires_at": "2026-11-18T11:43:25.328147+00:00",
-        "run_id": "44237121625"
       }
     },
     "24072": {
@@ -136950,7 +136950,7 @@
       "last_plan": {
         "source_id": "33807241",
         "display_name": "How to Be Normal and the Oddness of the Other World 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:37:57.406370+00:00"
+        "planned_at": "2026-11-18T05:43:29.261501+00:00"
       },
       "previous_target_id": "30987739",
       "prepared": {
@@ -220270,7 +220270,7 @@
       "last_plan": {
         "source_id": "34695402",
         "display_name": "The Duchess of Cancun 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:43:26.190642+00:00"
+        "planned_at": "2026-11-18T05:43:29.601492+00:00"
       }
     },
     "37449": {
@@ -220305,5 +220305,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:43:26.190662+00:00"
+  "updated_at": "2026-11-18T05:43:29.601515+00:00"
 }
