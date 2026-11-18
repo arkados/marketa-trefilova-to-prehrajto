@@ -171101,7 +171101,7 @@
       "last_plan": {
         "source_id": "29053345",
         "display_name": "Vánocní príbeh (Vánoční příběh) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:48:39.315431+00:00"
+        "planned_at": "2026-11-18T16:24:05.813699+00:00"
       },
       "previous_target_id": "31128050",
       "prepared": {
@@ -174687,17 +174687,19 @@
       }
     },
     "29494": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18079003",
+          "target_video_id": "31155271",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:24:06.086571+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18079003",
         "display_name": "Missing Link (2019) [ID 29494] 1080p CZ Dabing",
         "planned_at": "2026-11-18T16:21:46.884172+00:00"
-      },
-      "claim": {
-        "worker_id": "fbf32bc5110644f7b8fa416139216c95-shard-0",
-        "claimed_at": "2026-11-18T16:21:50.248545+00:00",
-        "lease_expires_at": "2026-11-18T22:21:50.248545+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31155271",
       "prepared": {
@@ -221683,5 +221685,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:24:03.476935+00:00"
+  "updated_at": "2026-11-18T16:24:06.086589+00:00"
 }
