@@ -121865,6 +121865,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T19:03:44.603582+00:00",
         "relay_source_id": "18059712"
+      },
+      "claim": {
+        "worker_id": "0baa8f978b4f460186ffe1e64e9cd03d-shard-0",
+        "claimed_at": "2026-11-18T23:07:15.403759+00:00",
+        "lease_expires_at": "2026-11-19T05:07:15.403759+00:00",
+        "run_id": "44406951430"
       }
     },
     "15045": {
@@ -177125,17 +177131,19 @@
       }
     },
     "3395": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11612155",
+          "target_video_id": "31162407",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:07:15.964224+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11612155",
         "display_name": "Marrowbone (El secreto de Marrowbone) 1080p CZ Dabing",
         "planned_at": "2026-11-18T23:02:31.314713+00:00"
-      },
-      "claim": {
-        "worker_id": "37e05e9c1c284432babc72a3f757aa17-shard-0",
-        "claimed_at": "2026-11-18T23:02:32.417199+00:00",
-        "lease_expires_at": "2026-11-19T05:02:32.417199+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31162407",
       "prepared": {
@@ -223737,5 +223745,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:07:12.219887+00:00"
+  "updated_at": "2026-11-18T23:07:15.964241+00:00"
 }
