@@ -122684,6 +122684,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T19:26:20.062444+00:00",
         "relay_source_id": "28510712"
+      },
+      "claim": {
+        "worker_id": "4ce3642063084da5a8e35963f0b09206-shard-0",
+        "claimed_at": "2026-11-18T19:29:42.526592+00:00",
+        "lease_expires_at": "2026-11-19T01:29:42.526592+00:00",
+        "run_id": "44366936972"
       }
     },
     "12443": {
@@ -128051,7 +128057,7 @@
       "last_plan": {
         "source_id": "34847608",
         "display_name": "Dead Over Heels: An Aurora Teagarden Mystery 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:58:25.745319+00:00"
+        "planned_at": "2026-11-18T19:29:42.978128+00:00"
       },
       "previous_target_id": "30986566",
       "prepared": {
@@ -128068,13 +128074,6 @@
           "source_id": "34502346",
           "target_video_id": "30986567",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:51:00.571985+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34502346",
-          "target_video_id": "30986567",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:26:33.467207+00:00"
         },
         {
@@ -128083,6 +128082,13 @@
           "target_video_id": "30986567",
           "permanent": false,
           "attempted_at": "2026-11-18T17:58:21.961805+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34502346",
+          "target_video_id": "30986567",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:29:42.738178+00:00"
         }
       ],
       "last_plan": {
@@ -128096,12 +128102,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T00:54:51.180948+00:00",
         "relay_source_id": "34502346"
-      },
-      "claim": {
-        "worker_id": "b20df10ec11845afb814855bcebdce72-shard-0",
-        "claimed_at": "2026-11-18T19:29:38.560531+00:00",
-        "lease_expires_at": "2026-11-19T01:29:38.560531+00:00",
-        "run_id": "44366936972"
       }
     },
     "24321": {
@@ -176077,7 +176077,7 @@
       "last_plan": {
         "source_id": "29786912",
         "display_name": "The Professor (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:29:39.917651+00:00"
+        "planned_at": "2026-11-18T19:29:43.300805+00:00"
       }
     },
     "25308": {
@@ -222817,5 +222817,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:29:39.917669+00:00"
+  "updated_at": "2026-11-18T19:29:43.300819+00:00"
 }
