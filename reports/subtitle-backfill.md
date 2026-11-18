@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:12:54.965361+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:13:02.779268+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 520, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 181, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 521, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 180, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -132,7 +132,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Juno 1080p CZ titulky](https://prehraj.to/juno-1080p-cz-titulky-mkv/087c1b745f58cf79) (ID 30747251) | [Sdílej 33537783](https://sdilej.cz/33537783/juno-2007-komedie-usa-elliot-page-michael-cera-jennifer-garner-czdab-fhd.mkv) | target_unavailable | 2026-11-18T12:43:13.065261+00:00 |
 | [Kingdom: Ashin of the North (킹덤: 아신전) 1080p CZ Titulky](https://prehraj.to/kingdom-ashin-of-the-north-1080p-cz-titulky-mkv/0bbed16b5497b18a) (ID 31014339) | [Sdílej 17566638](https://sdilej.cz/17566638/kingdom.ashin.of.the.north.2021.korean.1080p.nf.webrip.ddp5.1.atmos.x264.cz.tit.mkv) | target_unavailable | 2026-11-13T15:43:19.028818+00:00 |
 | [Kolya (Kolja) 4K CZ Titulky](https://prehraj.to/kolya-kolja-4k-cz-titulky-mkv/47407a1efcebc0f7) (ID 30693817) | [Sdílej 25989515](https://sdilej.cz/25989515/kolja-directors-cut-1996-2160p-uhd-cz-dabing.mkv) | target_unavailable | 2026-11-18T12:42:58.091544+00:00 |
-| [La cocina 1080p CZ Titulky](https://prehraj.to/la-cocina-1080p-cz-titulky-mkv/d5c5780a393c92bb) (ID 30994375) | [Sdílej 30864866](https://sdilej.cz/30864866/la.cocina-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-11T21:48:05.978098+00:00 |
 | [Ladyhawke 1080p CZ Titulky](https://prehraj.to/ladyhawke-1080p-cz-titulky-mkv/b0fee03b1be1f71b) (ID 31008069) | [Sdílej 35402331](https://sdilej.cz/35402331/ladyhawke.1985.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-13T02:02:54.481412+00:00 |
 | [Legacy, notre héritage (Legacy) 1080p CZ Titulky](https://prehraj.to/legacy-notre-heritage-legacy-1080p-cz-titulky-mkv/69691dd82efd42a0) (ID 30988551) | [Sdílej 17633756](https://sdilej.cz/17633756/space-jam-a-new-legacy-space-jam-novy-zacatek-2021-1080p-aac5.1-titulky-cz.mkv) | target_unavailable | 2026-11-18T13:10:44.894384+00:00 |
 | [Legend (2015) (ID 2712) 1080p CZ Titulky](https://prehraj.to/legend-2015-id-2712-1080p-cz-titulky-mkv/46ea2e48fa560927) (ID 31004679) | [Sdílej 32845458](https://sdilej.cz/32845458/legendy-zlocinu-2015-krimi-thriller-tom-hardy-czdab-bluray.1080p.mkv) | target_unavailable | 2026-11-12T17:58:12.108728+00:00 |
