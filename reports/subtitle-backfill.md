@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:10:44.894446+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:10:49.553560+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -75,7 +75,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Amanda Knox 720p CZ Titulky](https://prehraj.to/amanda-knox-720p-cz-titulky-mkv/dc7abbb229ed0761) (ID 31012115) | [Sdílej 8457253](https://sdilej.cz/8457253/amanda-knox-2016-titulky.cz-720p.mkv) | target_unavailable | 2026-11-13T11:52:12.867373+00:00 |
 | [Aquaman 1080p CZ Titulky](https://prehraj.to/aquaman-1080p-cz-titulky-mkv/f64913e4467b40bc) (ID 31076066) | [Sdílej 11321745](https://sdilej.cz/11321745/aquaman-aquaman-2018-1080p-cztit.mkv) | target_unavailable | 2026-11-15T23:04:04.860123+00:00 |
 | [Arthur the King 1080p CZ titulky](https://prehraj.to/arthur-the-king-1080p-cz-titulky-mkv/81358047462d64ac) (ID 30984204) | [Sdílej 28930526](https://sdilej.cz/28930526/arthur-the-king-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T13:00:51.730143+00:00 |
-| [Baramulla (baramula) 1080p CZ titulky](https://prehraj.to/baramulla-1080p-cz-titulky-mkv/6e86eb68d3269eed) (ID 30988608) | [Sdílej 32361142](https://sdilej.cz/32361142/baramulla-2025-horor-cztit.mkv) | target_unavailable | 2026-11-11T08:58:29.739634+00:00 |
+| [Baramulla (baramula) 1080p CZ titulky](https://prehraj.to/baramulla-1080p-cz-titulky-mkv/6e86eb68d3269eed) (ID 30988608) | [Sdílej 32361142](https://sdilej.cz/32361142/baramulla-2025-horor-cztit.mkv) | target_unavailable | 2026-11-18T13:10:49.206520+00:00 |
 | [Barbie 4K CZ Titulky](https://prehraj.to/barbie-4k-cz-titulky-mkv/24a106665f1096ca) (ID 31075505) | [Sdílej 27439387](https://sdilej.cz/27439387/barbie-2023-2160p-.mkv) | target_unavailable | 2026-11-15T22:43:54.343853+00:00 |
 | [Batman: Hush 1080p CZ Titulky](https://prehraj.to/batman-hush-1080p-cz-titulky-mkv/0e27438de6130be0) (ID 31012237) | [Sdílej 12033354](https://sdilej.cz/12033354/batman-hush.2019.cz-titulky.1080p.webrip-super-animovany-novinka.mkv) | target_unavailable | 2026-11-13T12:12:16.054164+00:00 |
 | [Battle for Sevastopol (Битва за Севастополь) 1080p CZ Titulky](https://prehraj.to/battle-for-sevastopol-1080p-cz-titulky-mkv/6e49c046f24775f4) (ID 30987870) | [Sdílej 12196905](https://sdilej.cz/12196905/bitva-o-sevastopol-battle-for-sevastopol-2015-titulky.cz-1080p-dts.mkv) | target_unavailable | 2026-11-18T13:02:16.998514+00:00 |
