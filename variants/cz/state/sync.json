@@ -172103,17 +172103,19 @@
       }
     },
     "17551": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24303627",
+          "target_video_id": "31134595",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:38:53.848229+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24303627",
         "display_name": "Hannes 1080p CZ Dabing",
         "planned_at": "2026-11-18T00:31:14.398536+00:00"
-      },
-      "claim": {
-        "worker_id": "b4368295930a4031807f59bfbb76f367-shard-0",
-        "claimed_at": "2026-11-18T00:31:17.597019+00:00",
-        "lease_expires_at": "2026-11-18T06:31:17.597019+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31134595",
       "prepared": {
@@ -219490,5 +219492,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:34:08.427410+00:00"
+  "updated_at": "2026-11-18T00:38:53.848247+00:00"
 }
