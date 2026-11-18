@@ -109229,13 +109229,6 @@
           "source_id": "34789117",
           "target_video_id": "30983623",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:24:11.581798+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34789117",
-          "target_video_id": "30983623",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:52:39.046669+00:00"
         },
         {
@@ -109244,6 +109237,13 @@
           "target_video_id": "30983623",
           "permanent": false,
           "attempted_at": "2026-11-18T15:15:31.605424+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34789117",
+          "target_video_id": "30983623",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:48:36.750665+00:00"
         }
       ],
       "last_plan": {
@@ -134693,7 +134693,7 @@
       "last_plan": {
         "source_id": "28002899",
         "display_name": "Filosofská historie (History of Philosophy) SD CZ Dabing",
-        "planned_at": "2026-11-18T15:15:30.101238+00:00"
+        "planned_at": "2026-11-18T16:48:34.814925+00:00"
       },
       "previous_target_id": "30987491",
       "prepared": {
@@ -134701,6 +134701,12 @@
         "size_bytes": 986500000,
         "prepared_at": "2026-11-11T04:56:40.021432+00:00",
         "relay_source_id": "28002899"
+      },
+      "claim": {
+        "worker_id": "1f898d17bc114b6ea7ff2c4434d46c47-shard-0",
+        "claimed_at": "2026-11-18T16:48:36.237930+00:00",
+        "lease_expires_at": "2026-11-18T22:48:36.237930+00:00",
+        "run_id": "44319849691"
       }
     },
     "15210": {
@@ -174941,11 +174947,22 @@
       "last_plan": {
         "source_id": "30232774",
         "display_name": "The Six Triple Eight 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:48:31.296166+00:00"
+        "planned_at": "2026-11-18T16:48:35.187285+00:00"
+      },
+      "claim": {
+        "worker_id": "9b4435e9007542b2bd45841f6af821e2-shard-0",
+        "claimed_at": "2026-11-18T16:48:36.467260+00:00",
+        "lease_expires_at": "2026-11-18T22:48:36.467260+00:00",
+        "run_id": "44319849691"
       }
     },
     "11357": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30900340",
+        "display_name": "Stir Crazy 1080p CZ Dabing",
+        "planned_at": "2026-11-18T16:48:35.475208+00:00"
+      }
     },
     "26827": {
       "attempts": []
@@ -221861,5 +221878,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:48:31.579076+00:00"
+  "updated_at": "2026-11-18T16:48:36.750683+00:00"
 }
