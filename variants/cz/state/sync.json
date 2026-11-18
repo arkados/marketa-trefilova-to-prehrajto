@@ -134371,13 +134371,6 @@
           "source_id": "23221863",
           "target_video_id": "30987417",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:31:41.026351+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23221863",
-          "target_video_id": "30987417",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:05:30.975377+00:00"
         },
         {
@@ -134386,6 +134379,13 @@
           "target_video_id": "30987417",
           "permanent": false,
           "attempted_at": "2026-11-18T17:38:17.235092+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23221863",
+          "target_video_id": "30987417",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:10:15.837223+00:00"
         }
       ],
       "last_plan": {
@@ -144262,7 +144262,7 @@
       "last_plan": {
         "source_id": "34679715",
         "display_name": "Milan Rastislav Štefánik 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:38:16.772378+00:00"
+        "planned_at": "2026-11-18T19:10:14.443238+00:00"
       },
       "previous_target_id": "30988789",
       "prepared": {
@@ -144270,6 +144270,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-11T10:01:18.033034+00:00",
         "relay_source_id": "34679715"
+      },
+      "claim": {
+        "worker_id": "3d17dcff8bf84cb1b74f594bef83d1d7-shard-0",
+        "claimed_at": "2026-11-18T19:10:15.442795+00:00",
+        "lease_expires_at": "2026-11-19T01:10:15.442795+00:00",
+        "run_id": "44366936972"
       }
     },
     "15443": {
@@ -175979,6 +175985,12 @@
         "source_id": "28654737",
         "display_name": "Everyone Says I Love You 1080p CZ Dabing",
         "planned_at": "2026-11-18T19:10:10.721138+00:00"
+      },
+      "claim": {
+        "worker_id": "3f53cf35df524104949c451f2242271d-shard-0",
+        "claimed_at": "2026-11-18T19:10:14.208752+00:00",
+        "lease_expires_at": "2026-11-19T01:10:14.208752+00:00",
+        "run_id": "44366936972"
       }
     },
     "3342": {
@@ -175986,7 +175998,7 @@
       "last_plan": {
         "source_id": "16506466",
         "display_name": "Let Him Go 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:10:11.175804+00:00"
+        "planned_at": "2026-11-18T19:10:14.754982+00:00"
       }
     },
     "11906": {
@@ -222732,5 +222744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:10:11.175821+00:00"
+  "updated_at": "2026-11-18T19:10:15.837239+00:00"
 }
