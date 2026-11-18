@@ -125454,13 +125454,6 @@
           "source_id": "24613759",
           "target_video_id": "30985828",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:25:50.117286+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24613759",
-          "target_video_id": "30985828",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:52:53.317562+00:00"
         },
         {
@@ -125469,12 +125462,19 @@
           "target_video_id": "30985828",
           "permanent": false,
           "attempted_at": "2026-11-18T06:01:20.890728+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24613759",
+          "target_video_id": "30985828",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:33:57.746678+00:00"
         }
       ],
       "last_plan": {
         "source_id": "24613759",
         "display_name": "The Royal Game (Schachnovelle) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T06:01:14.978003+00:00"
+        "planned_at": "2026-11-18T07:33:54.504633+00:00"
       },
       "previous_target_id": "30985828",
       "prepared": {
@@ -173456,14 +173456,25 @@
       "last_plan": {
         "source_id": "34781623",
         "display_name": "A Prairie Home Companion SD CZ Dabing",
-        "planned_at": "2026-11-18T07:33:48.493044+00:00"
+        "planned_at": "2026-11-18T07:33:54.864370+00:00"
+      },
+      "claim": {
+        "worker_id": "35dc60e330994a3b834e083fe3d007c3-shard-0",
+        "claimed_at": "2026-11-18T07:33:55.918842+00:00",
+        "lease_expires_at": "2026-11-18T13:33:55.918842+00:00",
+        "run_id": "44237121625"
       }
     },
     "14573": {
       "attempts": []
     },
     "37409": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34527267",
+        "display_name": "No Hit Wonder 1080p CZ Dabing",
+        "planned_at": "2026-11-18T07:33:55.085247+00:00"
+      }
     },
     "35701": {
       "attempts": []
@@ -220637,5 +220648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:33:50.273596+00:00"
+  "updated_at": "2026-11-18T07:33:57.746700+00:00"
 }
