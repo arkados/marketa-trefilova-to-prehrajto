@@ -130239,7 +130239,7 @@
       "last_plan": {
         "source_id": "34255923",
         "display_name": "Ninety Degrees in the Shade (90° in the Shade) SD CZ Dabing",
-        "planned_at": "2026-11-18T19:47:34.828038+00:00"
+        "planned_at": "2026-11-18T21:19:28.373513+00:00"
       },
       "previous_target_id": "30986889",
       "prepared": {
@@ -130247,6 +130247,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T02:29:31.025469+00:00",
         "relay_source_id": "34255923"
+      },
+      "claim": {
+        "worker_id": "2e92eb56ebd34f798c671765cb981cb7-shard-0",
+        "claimed_at": "2026-11-18T21:19:29.464674+00:00",
+        "lease_expires_at": "2026-11-19T03:19:29.464674+00:00",
+        "run_id": "44366936972"
       }
     },
     "3086": {
@@ -143719,13 +143725,6 @@
           "source_id": "31011202",
           "target_video_id": "30988658",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:39:23.648132+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31011202",
-          "target_video_id": "30988658",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:16:33.302105+00:00"
         },
         {
@@ -143734,6 +143733,13 @@
           "target_video_id": "30988658",
           "permanent": false,
           "attempted_at": "2026-11-18T19:47:32.167259+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31011202",
+          "target_video_id": "30988658",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:19:30.548251+00:00"
         }
       ],
       "last_plan": {
@@ -176556,11 +176562,22 @@
       "last_plan": {
         "source_id": "10537299",
         "display_name": "Apt Pupil SD CZ Dabing",
-        "planned_at": "2026-11-18T21:19:24.673363+00:00"
+        "planned_at": "2026-11-18T21:19:28.692634+00:00"
+      },
+      "claim": {
+        "worker_id": "517c400b2e5a4ec9b627e4983b756d1c-shard-0",
+        "claimed_at": "2026-11-18T21:19:29.745997+00:00",
+        "lease_expires_at": "2026-11-19T03:19:29.745997+00:00",
+        "run_id": "44366936972"
       }
     },
     "3315": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35006701",
+        "display_name": "Freaks (2018) 1080p CZ Dabing",
+        "planned_at": "2026-11-18T21:19:28.897204+00:00"
+      }
     },
     "24088": {
       "attempts": []
@@ -223236,5 +223253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:19:24.913237+00:00"
+  "updated_at": "2026-11-18T21:19:30.548267+00:00"
 }
