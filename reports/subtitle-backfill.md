@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:20:38.355336+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:20:46.517447+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 522, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 179, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 523, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 178, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -71,7 +71,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [A Hard Day's Night 1080p CZ titulky](https://prehraj.to/a-hard-day-s-night-1080p-cz-titulky-mkv/5ee085f36b73998f) (ID 30735890) | [Sdílej 33222569](https://sdilej.cz/33222569/the-beatles-a-hard-day-s-night-1964-fhd-en-cz-tit.mkv) | target_unavailable | 2026-11-18T12:50:38.667256+00:00 |
 | [A Quiet Place: Part II (A Quiet Place Part II) 4K CZ Titulky](https://prehraj.to/a-quiet-place-part-ii-a-quiet-place-part-ii-4k-cz-titulky-mkv/c31f7fd8bdaedbc6) (ID 30855593) | [Sdílej 23371789](https://sdilej.cz/23371789/a-quiet-place-part-ii-2020-tiche-misto-cast-ii-bluray-uhd-4k-2160p-hevc-h-265-en-aac-7-1-titulky-cz.mkv) | target_unavailable | 2026-11-18T12:51:01.320143+00:00 |
 | [A Stitch in Time SD CZ Titulky](https://prehraj.to/a-stitch-in-time-sd-cz-titulky-mkv/41c3ce409c9e9775) (ID 31036267) | [Sdílej 33109570](https://sdilej.cz/33109570/zasah.v.pravou.chvili.a.stich.in.time.1963.eridanus.cz.mkv) | target_unavailable | 2026-11-14T18:06:05.732870+00:00 |
-| [Action in the North Atlantic SD CZ Titulky](https://prehraj.to/action-in-the-north-atlantic-sd-cz-titulky-mkv/e5e35b5f1378849d) (ID 30995564) | [Sdílej 20648681](https://sdilej.cz/20648681/action-in-the-north-atlantic-konvoj-do-murmanska-1943-dvdrip-720x576-mpeg2-audio-en-subtitles-cz.mkv) | target_unavailable | 2026-11-11T23:58:36.090915+00:00 |
 | [Amanda Knox 720p CZ Titulky](https://prehraj.to/amanda-knox-720p-cz-titulky-mkv/dc7abbb229ed0761) (ID 31012115) | [Sdílej 8457253](https://sdilej.cz/8457253/amanda-knox-2016-titulky.cz-720p.mkv) | target_unavailable | 2026-11-13T11:52:12.867373+00:00 |
 | [Aquaman 1080p CZ Titulky](https://prehraj.to/aquaman-1080p-cz-titulky-mkv/f64913e4467b40bc) (ID 31076066) | [Sdílej 11321745](https://sdilej.cz/11321745/aquaman-aquaman-2018-1080p-cztit.mkv) | target_unavailable | 2026-11-15T23:04:04.860123+00:00 |
 | [Arthur the King 1080p CZ titulky](https://prehraj.to/arthur-the-king-1080p-cz-titulky-mkv/81358047462d64ac) (ID 30984204) | [Sdílej 28930526](https://sdilej.cz/28930526/arthur-the-king-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T13:00:51.730143+00:00 |
