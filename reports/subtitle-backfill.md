@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:02:00.509873+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:02:07.774014+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 510, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 2, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 189, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 510, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 1, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 190, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -233,6 +233,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 166. Dův
 | [The Outrun 1080p CZ titulky](https://prehraj.to/the-outrun-1080p-cz-titulky-mkv/8f43c6e22bfac52c) (ID 31013953) | [Sdílej 30078440](https://sdilej.cz/30078440/the.outrun-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-13T15:23:17.879665+00:00 |
 | [The Place SD CZ titulky](https://prehraj.to/the-place-sd-cz-titulky-mkv/89bc7215d78c8de2) (ID 30988255) | [Sdílej 9657833](https://sdilej.cz/9657833/misto-splnenych-prani-the-place-2017-cz-titulky.mkv) | target_unavailable | 2026-11-11T08:08:17.411486+00:00 |
 | [The Rip 1080p CZ Titulky](https://prehraj.to/the-rip-1080p-cz-titulky-mkv/6201a007cf7ae881) (ID 31088948) | [Sdílej 32923971](https://sdilej.cz/32923971/the.rip-2026-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-16T10:02:26.377301+00:00 |
+| [The Roundup (BeomJoeDoSi 2) 1080p CZ titulky](https://prehraj.to/the-roundup-2-1080p-cz-titulky-mkv/b9c8c250819b6d7f) (ID 30987709) | [Sdílej 22321220](https://sdilej.cz/22321220/the.roundup.2022.cz.titulky.1080p.mkv) | target_unavailable | 2026-11-18T13:02:05.866528+00:00 |
 | [The Seven Year Itch 1080p CZ titulky](https://prehraj.to/the-seven-year-itch-1080p-cz-titulky-mkv/b29d39d2b9b4ca46) (ID 30983632) | [Sdílej 6563156](https://sdilej.cz/6563156/slameny-vdovec-the-seven-year-itch-1955-cz-1080phd-.mkv) | target_unavailable | 2026-11-18T13:00:46.309365+00:00 |
 | [The Swedish Connection (Den svenska länken) 1080p CZ Titulky](https://prehraj.to/the-swedish-connection-den-svenska-laenken-1080p-cz-titulky-mkv/e1e5d6aed8007610) (ID 31021651) | [Sdílej 33292727](https://sdilej.cz/33292727/den-svenska-lanken-2026-1080p-cz.tit.mkv) | target_unavailable | 2026-11-13T23:58:57.489099+00:00 |
 | [The Thing About Harry SD CZ Titulky](https://prehraj.to/the-thing-about-harry-sd-cz-titulky-mkv/d41d4049afba56ae) (ID 31019472) | [Sdílej 13528951](https://sdilej.cz/13528951/the-thing-about-harry-2020-cz.tit.mkv) | target_unavailable | 2026-11-13T21:55:53.842391+00:00 |
