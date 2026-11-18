@@ -111984,13 +111984,6 @@
           "source_id": "35077086",
           "target_video_id": "30983823",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:57:27.337600+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35077086",
-          "target_video_id": "30983823",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:24:03.066530+00:00"
         },
         {
@@ -111999,6 +111992,13 @@
           "target_video_id": "30983823",
           "permanent": false,
           "attempted_at": "2026-11-18T12:52:20.083536+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35077086",
+          "target_video_id": "30983823",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:15:21.387080+00:00"
         }
       ],
       "last_plan": {
@@ -149132,7 +149132,7 @@
       "last_plan": {
         "source_id": "25693555",
         "display_name": "Cold Sunday 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:52:20.323725+00:00"
+        "planned_at": "2026-11-18T15:15:19.817971+00:00"
       },
       "previous_target_id": "31018952",
       "prepared": {
@@ -149140,6 +149140,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-13T21:20:19.359119+00:00",
         "relay_source_id": "25693555"
+      },
+      "claim": {
+        "worker_id": "54740a3fedab45ea87efe803ea097859-shard-0",
+        "claimed_at": "2026-11-18T15:15:21.002927+00:00",
+        "lease_expires_at": "2026-11-18T21:15:21.002927+00:00",
+        "run_id": "44319849691"
       }
     },
     "28247": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:15:11.325225+00:00"
+        "planned_at": "2026-11-18T15:15:20.186576+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:15:11.325246+00:00"
+  "updated_at": "2026-11-18T15:15:21.387097+00:00"
 }
