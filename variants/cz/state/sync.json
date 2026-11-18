@@ -111815,13 +111815,6 @@
           "source_id": "34786946",
           "target_video_id": "30983812",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:54:35.809643+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34786946",
-          "target_video_id": "30983812",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:21:09.180398+00:00"
         },
         {
@@ -111830,6 +111823,13 @@
           "target_video_id": "30983812",
           "permanent": false,
           "attempted_at": "2026-11-18T12:48:33.675773+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34786946",
+          "target_video_id": "30983812",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:09:14.105116+00:00"
         }
       ],
       "last_plan": {
@@ -132335,7 +132335,7 @@
       "last_plan": {
         "source_id": "34720992",
         "display_name": "The World According to My Dad (Jiříkovo vidění) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:48:32.154461+00:00"
+        "planned_at": "2026-11-18T15:09:12.501799+00:00"
       },
       "previous_target_id": "30987116",
       "prepared": {
@@ -132343,6 +132343,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:38:59.210885+00:00",
         "relay_source_id": "34720992"
+      },
+      "claim": {
+        "worker_id": "d585988fa66d40609151b8362f5a7927-shard-0",
+        "claimed_at": "2026-11-18T15:09:13.691498+00:00",
+        "lease_expires_at": "2026-11-18T21:09:13.691498+00:00",
+        "run_id": "44319849691"
       }
     },
     "24172": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:09:08.484964+00:00"
+        "planned_at": "2026-11-18T15:09:12.911932+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:09:08.789224+00:00"
+  "updated_at": "2026-11-18T15:09:14.105132+00:00"
 }
