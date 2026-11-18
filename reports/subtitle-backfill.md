@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:01:21.674113+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:01:27.309973+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -202,7 +202,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 166. Dův
 | [Super 8 720p CZ Titulky](https://prehraj.to/super-8-720p-cz-titulky-mkv/d5cd79cf2c765ab9) (ID 30970243) | [Sdílej 16310205](https://sdilej.cz/16310205/super-8-2011-sci-fi-cz-dab-720p-hd.mkv) | target_unavailable | 2026-11-18T12:52:10.387573+00:00 |
 | [Swiss Army Man 720p CZ Titulky](https://prehraj.to/swiss-army-man-720p-cz-titulky-mkv/10671e3af2c0c0f9) (ID 31006278) | [Sdílej 6507377](https://sdilej.cz/6507377/swiss-army-man-2016-720p-bluray-dts-x264-ceske-titulky.mkv) | target_unavailable | 2026-11-12T21:41:36.793090+00:00 |
 | [Talk to Me 4K CZ Titulky](https://prehraj.to/talk-to-me-4k-cz-titulky-mkv/28dafb7f3e8f3657) (ID 30912885) | [Sdílej 26853803](https://sdilej.cz/26853803/talk.to.me.2022.2160p.web-dl.ddp5.1.dv.hdr.h.265-flux.cztit.mkv) | source_unavailable | 2026-11-18T12:40:59.383892+00:00 |
-| [Tenebrae (Tenebre) 1080p CZ Titulky](https://prehraj.to/tenebrae-tenebre-1080p-cz-titulky-mkv/621ba6916f09d5d0) (ID 30985350) | [Sdílej 11416033](https://sdilej.cz/11416033/tenebre-tenebrae-1982-titulky.cz.1080p.mkv) | target_unavailable | 2026-11-10T18:59:36.735572+00:00 |
+| [Tenebrae (Tenebre) 1080p CZ Titulky](https://prehraj.to/tenebrae-tenebre-1080p-cz-titulky-mkv/621ba6916f09d5d0) (ID 30985350) | [Sdílej 11416033](https://sdilej.cz/11416033/tenebre-tenebrae-1982-titulky.cz.1080p.mkv) | target_unavailable | 2026-11-18T13:01:26.206691+00:00 |
 | [Thanks for Every New Morning (Díky za každé nové ráno) 1080p CZ Titulky](https://prehraj.to/thanks-for-every-new-morning-diky-za-kazde-nove-rano-1080p-cz-titulky-mkv/f7fc3cff453730b5) (ID 31046004) | [Sdílej 32018336](https://sdilej.cz/32018336/diky-za-kazde-nove-rano-1994-komedie-cz-ivana-chylkova-fhd.mkv) | target_unavailable | 2026-11-15T02:37:00.384225+00:00 |
 | [The 33 720p CZ titulky](https://prehraj.to/the-33-720p-cz-titulky-mkv/5becb0838f958235) (ID 31009004) | [Sdílej 33551012](https://sdilej.cz/33551012/33-zivotu-2015-cz-dab-720p.mkv) | target_unavailable | 2026-11-13T04:33:24.935057+00:00 |
 | [The Age of Disclosure 4K CZ Titulky](https://prehraj.to/the-age-of-disclosure-4k-cz-titulky-mkv/99536dd7686279ac) (ID 31022883) | [Sdílej 32453965](https://sdilej.cz/32453965/the.age.of.disclosure.2025.2160p.4k.web.x265.10bit.aac5.1-yts.lt-.mkv) | target_unavailable | 2026-11-14T02:49:17.414841+00:00 |
