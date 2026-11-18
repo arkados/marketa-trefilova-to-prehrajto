@@ -117082,6 +117082,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:29:45.924071+00:00",
         "relay_source_id": "28248567"
+      },
+      "claim": {
+        "worker_id": "ee84f2fec86a47e7899d64a7fc4941e9-shard-0",
+        "claimed_at": "2026-11-18T16:36:45.187082+00:00",
+        "lease_expires_at": "2026-11-18T22:36:45.187082+00:00",
+        "run_id": "44319849691"
       }
     },
     "23726": {
@@ -136209,13 +136215,6 @@
           "source_id": "34714270",
           "target_video_id": "30987637",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:15:46.788693+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714270",
-          "target_video_id": "30987637",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:43:26.049783+00:00"
         },
         {
@@ -136224,6 +136223,13 @@
           "target_video_id": "30987637",
           "permanent": false,
           "attempted_at": "2026-11-18T15:03:34.995638+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714270",
+          "target_video_id": "30987637",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:36:44.953102+00:00"
         }
       ],
       "last_plan": {
@@ -136237,12 +136243,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:31:52.098930+00:00",
         "relay_source_id": "34714270"
-      },
-      "claim": {
-        "worker_id": "5dd83cbbcf14455f8628e6ec8edb51f5-shard-0",
-        "claimed_at": "2026-11-18T16:36:41.580626+00:00",
-        "lease_expires_at": "2026-11-18T22:36:41.580626+00:00",
-        "run_id": "44319849691"
       }
     },
     "12573": {
@@ -147868,7 +147868,7 @@
       "last_plan": {
         "source_id": "12674209",
         "display_name": "The Key (1971) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:03:45.252805+00:00"
+        "planned_at": "2026-11-18T16:36:45.457492+00:00"
       },
       "previous_target_id": "31009490",
       "prepared": {
@@ -174880,7 +174880,7 @@
       "last_plan": {
         "source_id": "31964279",
         "display_name": "Around the World in 80 Days (1956) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:36:42.222484+00:00"
+        "planned_at": "2026-11-18T16:36:45.885674+00:00"
       }
     },
     "4095": {
@@ -221821,5 +221821,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:36:42.222499+00:00"
+  "updated_at": "2026-11-18T16:36:45.885690+00:00"
 }
