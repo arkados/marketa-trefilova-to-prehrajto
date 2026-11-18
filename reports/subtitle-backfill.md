@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:05:38.500987+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:05:44.113707+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
@@ -110,7 +110,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Finch 1080p CZ Titulky](https://prehraj.to/finch-1080p-cz-titulky-mkv/54f021b7c071bba6) (ID 31006906) | [Sdílej 26705455](https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv) | target_unavailable | 2026-11-12T23:01:49.245539+00:00 |
 | [Frozen 2 (Frozen II) 1080p CZ Titulky](https://prehraj.to/frozen-2-frozen-ii-1080p-cz-titulky-mkv/1ee5ef3470d00b88) (ID 31085056) | [Sdílej 26861725](https://sdilej.cz/26861725/ledove-kralovstvi-2-frozen-2-2019-cz-fhd-h265-deadinside.mkv) | target_unavailable | 2026-11-16T06:57:28.896402+00:00 |
 | [Game Night 1080p CZ Titulky](https://prehraj.to/game-night-1080p-cz-titulky-mkv/b40177a2665fd61e) (ID 31003096) | [Sdílej 35243994](https://sdilej.cz/35243994/game.night.2018.open.matte.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:47:42.927442+00:00 |
-| [Gladiator (2000) 4K CZ Titulky](https://prehraj.to/gladiator-2000-cz-titulky-mkv/5ab06a3385e9b8ad) (ID 30589321) | [Sdílej 32959336](https://sdilej.cz/32959336/gladiator-2000-2160p-cz-dabing-en-dts-hd-radecek.mkv) | target_unavailable | 2026-11-12T12:57:32.177877+00:00 |
+| [Gladiator (2000) 4K CZ Titulky](https://prehraj.to/gladiator-2000-cz-titulky-mkv/5ab06a3385e9b8ad) (ID 30589321) | [Sdílej 32959336](https://sdilej.cz/32959336/gladiator-2000-2160p-cz-dabing-en-dts-hd-radecek.mkv) | target_unavailable | 2026-11-18T23:05:43.312027+00:00 |
 | [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-18T12:51:48.581939+00:00 |
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
 | [Goya's Ghosts 1080p CZ Titulky](https://prehraj.to/goya-s-ghosts-1080p-cz-titulky-mkv/ec0601bdb13bfd2b) (ID 31010194) | [Sdílej 34683084](https://sdilej.cz/34683084/goyovy-prizraky-drama-j.bardem-n.-portman-2006-cztit.1080p.bluray.mkv) | target_unavailable | 2026-11-13T07:37:29.825605+00:00 |
