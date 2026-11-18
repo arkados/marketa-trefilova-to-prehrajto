@@ -111471,13 +111471,6 @@
           "source_id": "35113183",
           "target_video_id": "30983797",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:55:15.247179+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35113183",
-          "target_video_id": "30983797",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:30:00.632950+00:00"
         },
         {
@@ -111486,6 +111479,13 @@
           "target_video_id": "30983797",
           "permanent": false,
           "attempted_at": "2026-11-18T18:01:58.023747+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35113183",
+          "target_video_id": "30983797",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:33:01.772346+00:00"
         }
       ],
       "last_plan": {
@@ -130073,7 +130073,7 @@
       "last_plan": {
         "source_id": "27023916",
         "display_name": "Candidate (Kandidát) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:01:55.809561+00:00"
+        "planned_at": "2026-11-18T19:33:00.341629+00:00"
       },
       "previous_target_id": "30986878",
       "prepared": {
@@ -130081,6 +130081,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T02:25:58.373508+00:00",
         "relay_source_id": "27023916"
+      },
+      "claim": {
+        "worker_id": "01b5d28b0e83407baa706271355ec247-shard-0",
+        "claimed_at": "2026-11-18T19:33:01.497328+00:00",
+        "lease_expires_at": "2026-11-19T01:33:01.497328+00:00",
+        "run_id": "44366936972"
       }
     },
     "30998": {
@@ -176102,7 +176108,7 @@
       "last_plan": {
         "source_id": "34194769",
         "display_name": "Spider 4K CZ Dabing",
-        "planned_at": "2026-11-18T19:32:53.791796+00:00"
+        "planned_at": "2026-11-18T19:33:00.802708+00:00"
       }
     },
     "27742": {
@@ -222836,5 +222842,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:32:54.540732+00:00"
+  "updated_at": "2026-11-18T19:33:01.772365+00:00"
 }
