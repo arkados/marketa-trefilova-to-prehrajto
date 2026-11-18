@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:21:00.548717+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:21:07.440488+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 525, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 176, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 526, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 175, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -166,7 +166,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [Requiem for a Dream 1080p CZ titulky](https://prehraj.to/requiem-for-a-dream-1080p-cz-titulky-mkv/c63b14022d43238e) (ID 30676098) | [Sdílej 22817696](https://sdilej.cz/22817696/requiem-for-a-dream-2000-bdrip-1080p-hevc-en-cz-commentary.mkv) | target_unavailable | 2026-11-18T12:42:42.515682+00:00 |
 | [Return of the Idiot (Návrat idiota) 1080p CZ Titulky](https://prehraj.to/return-of-the-idiot-navrat-idiota-1080p-cz-titulky-mkv/5d66cde734ee8ceb) (ID 30997077) | [Sdílej 32263750](https://sdilej.cz/32263750/navrat-idiota-1999-fhd-cz.mkv) | target_unavailable | 2026-11-12T02:32:15.886113+00:00 |
 | [Rocky III 1080p CZ Titulky](https://prehraj.to/rocky-iii-1080p-cz-titulky-mkv/6b7d02dad040975e) (ID 31004255) | [Sdílej 33588201](https://sdilej.cz/33588201/rocky-iii.-cz.sk.en.1080p.hmax.web-dl..mkv) | target_unavailable | 2026-11-12T16:47:55.740633+00:00 |
-| [Ronnie Coleman: The King 1080p CZ Titulky](https://prehraj.to/ronnie-coleman-the-king-1080p-cz-titulky-mkv/cbfa63a4ec1d43fc) (ID 30996831) | [Sdílej 11475864](https://sdilej.cz/11475864/ronnie-coleman-the-king-2018-cz-titulky-1080p-web-x264.mkv) | target_unavailable | 2026-11-12T02:02:18.507156+00:00 |
 | [Rose Island (L'incredibile storia dell'Isola delle Rose) 1080p CZ Titulky](https://prehraj.to/rose-island-l-incredibile-storia-dell-isola-delle-rose-1080p-cz-titulky-mkv/1a02e2a380215670) (ID 30985967) | [Sdílej 14916136](https://sdilej.cz/14916136/rose.island.2020.1080p.nf.web-dl.dd5.1.x264.en.ita.cz.tit.mkv) | target_unavailable | 2026-11-18T13:01:31.018736+00:00 |
 | [Rosemary's Baby 4K CZ Titulky](https://prehraj.to/rosemary-s-baby-4k-cz-titulky-mkv/67d2334180307cd7) (ID 30629227) | [Sdílej 32726297](https://sdilej.cz/32726297/rosemary-s.baby-1968-2160p-cz-en.mkv) | target_unavailable | 2026-11-18T12:41:27.570949+00:00 |
 | [Rye Lane 1080p CZ titulky](https://prehraj.to/rye-lane-1080p-cz-titulky-mkv/fd377405243130a1) (ID 30893092) | [Sdílej 25662574](https://sdilej.cz/25662574/vzplanuti-na-rye-lane-rye.lane.2023.proper.1080p.webrip.x264-rarbg-cz-titulky-.mkv) | target_unavailable | 2026-11-18T12:51:43.751048+00:00 |
