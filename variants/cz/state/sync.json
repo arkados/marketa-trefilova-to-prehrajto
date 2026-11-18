@@ -114295,13 +114295,6 @@
           "source_id": "32941800",
           "target_video_id": "30984118",
           "permanent": false,
-          "attempted_at": "2026-11-17T22:52:16.279648+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32941800",
-          "target_video_id": "30984118",
-          "permanent": false,
           "attempted_at": "2026-11-18T00:18:48.451554+00:00"
         },
         {
@@ -114310,6 +114303,13 @@
           "target_video_id": "30984118",
           "permanent": false,
           "attempted_at": "2026-11-18T01:57:32.567891+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32941800",
+          "target_video_id": "30984118",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:24:11.425051+00:00"
         }
       ],
       "last_plan": {
@@ -122178,7 +122178,7 @@
       "last_plan": {
         "source_id": "20040559",
         "display_name": "The Chumscrubber 1080p CZ Dabing",
-        "planned_at": "2026-11-18T01:57:31.807655+00:00"
+        "planned_at": "2026-11-18T03:24:09.245791+00:00"
       },
       "previous_target_id": "30985420",
       "prepared": {
@@ -122186,6 +122186,12 @@
         "size_bytes": 5800000000,
         "prepared_at": "2026-11-10T19:12:57.845151+00:00",
         "relay_source_id": "20040559"
+      },
+      "claim": {
+        "worker_id": "b4b0cf0c365d42619528d78c94c292a1-shard-0",
+        "claimed_at": "2026-11-18T03:24:10.910452+00:00",
+        "lease_expires_at": "2026-11-18T09:24:10.910452+00:00",
+        "run_id": "44190029167"
       }
     },
     "2982": {
@@ -172726,11 +172732,22 @@
       "last_plan": {
         "source_id": "29632714",
         "display_name": "The Vanishing Soldier (hhyyl hn'lm) 720p CZ Dabing",
-        "planned_at": "2026-11-18T03:24:03.615166+00:00"
+        "planned_at": "2026-11-18T03:24:09.615355+00:00"
+      },
+      "claim": {
+        "worker_id": "16967f04069640d29608e53fddd4187a-shard-0",
+        "claimed_at": "2026-11-18T03:24:11.131600+00:00",
+        "lease_expires_at": "2026-11-18T09:24:11.131600+00:00",
+        "run_id": "44190029167"
       }
     },
     "22786": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31217849",
+        "display_name": "Flesh and Blood (Flesh + Blood) 1080p CZ Dabing",
+        "planned_at": "2026-11-18T03:24:10.129298+00:00"
+      }
     },
     "28951": {
       "attempts": []
@@ -219992,5 +220009,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:24:06.262331+00:00"
+  "updated_at": "2026-11-18T03:24:11.425070+00:00"
 }
