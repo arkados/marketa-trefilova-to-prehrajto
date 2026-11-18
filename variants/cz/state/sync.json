@@ -109898,13 +109898,6 @@
           "source_id": "34979725",
           "target_video_id": "30983683",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:08:59.601313+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34979725",
-          "target_video_id": "30983683",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:35:43.879778+00:00"
         },
         {
@@ -109913,6 +109906,13 @@
           "target_video_id": "30983683",
           "permanent": false,
           "attempted_at": "2026-11-18T05:41:27.840374+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34979725",
+          "target_video_id": "30983683",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:16:11.739447+00:00"
         }
       ],
       "last_plan": {
@@ -138908,7 +138908,7 @@
       "last_plan": {
         "source_id": "33806385",
         "display_name": "Focus, Please! (Zaostřit prosím!) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:41:27.539980+00:00"
+        "planned_at": "2026-11-18T07:16:09.836862+00:00"
       },
       "previous_target_id": "30987901",
       "prepared": {
@@ -138916,6 +138916,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T06:41:36.668898+00:00",
         "relay_source_id": "33806385"
+      },
+      "claim": {
+        "worker_id": "c6790955dce744f585b88d4dd4af7e19-shard-0",
+        "claimed_at": "2026-11-18T07:16:10.875622+00:00",
+        "lease_expires_at": "2026-11-18T13:16:10.875622+00:00",
+        "run_id": "44237121625"
       }
     },
     "11246": {
@@ -173369,7 +173375,7 @@
       "last_plan": {
         "source_id": "33767301",
         "display_name": "White Fang (1991) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:16:06.890645+00:00"
+        "planned_at": "2026-11-18T07:16:10.205018+00:00"
       }
     },
     "3475": {
@@ -220559,5 +220565,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:16:06.890663+00:00"
+  "updated_at": "2026-11-18T07:16:11.739469+00:00"
 }
