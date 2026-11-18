@@ -118707,6 +118707,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "036d1cd98e4f46a4a462731c5f4867d5-shard-0",
+        "claimed_at": "2026-11-18T15:10:48.555462+00:00",
+        "lease_expires_at": "2026-11-18T21:10:48.555462+00:00",
+        "run_id": "44319849691"
       }
     },
     "12374": {
@@ -136353,13 +136359,6 @@
           "source_id": "34676204",
           "target_video_id": "30987655",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:56:11.090497+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676204",
-          "target_video_id": "30987655",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:22:46.571335+00:00"
         },
         {
@@ -136368,12 +136367,19 @@
           "target_video_id": "30987655",
           "permanent": false,
           "attempted_at": "2026-11-18T12:50:16.360857+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676204",
+          "target_video_id": "30987655",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:10:52.315122+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34676204",
         "display_name": "Séfe, vrat se! (Šéfe, vrať se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:50:10.293959+00:00"
+        "planned_at": "2026-11-18T15:10:48.845460+00:00"
       },
       "previous_target_id": "30987655",
       "prepared": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:10:45.985956+00:00"
+        "planned_at": "2026-11-18T15:10:49.233770+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:10:45.985973+00:00"
+  "updated_at": "2026-11-18T15:10:52.315137+00:00"
 }
