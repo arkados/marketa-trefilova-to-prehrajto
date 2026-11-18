@@ -28228,17 +28228,19 @@
       "attempts": []
     },
     "179": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26220562",
+          "target_video_id": "31152251",
+          "permanent": false,
+          "attempted_at": "2026-11-18T13:43:02.018457+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26220562",
         "display_name": "A Beautiful Mind 720p CZ titulky",
         "planned_at": "2026-11-18T13:28:32.343316+00:00"
-      },
-      "claim": {
-        "worker_id": "84cea8d194ea4b36acfadf130990f041-shard-0",
-        "claimed_at": "2026-11-18T13:28:32.887100+00:00",
-        "lease_expires_at": "2026-11-18T19:28:32.887100+00:00",
-        "run_id": "44276193396"
       },
       "previous_target_id": "31152251",
       "prepared": {
@@ -100811,5 +100813,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T13:28:37.411239+00:00"
+  "updated_at": "2026-11-18T13:43:02.018474+00:00"
 }
