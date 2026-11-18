@@ -172650,17 +172650,19 @@
       }
     },
     "15832": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23937311",
+          "target_video_id": "31138342",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:20:37.082899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23937311",
         "display_name": "Dvanáct měsíčků 1080p CZ Dabing",
         "planned_at": "2026-11-18T03:17:22.344932+00:00"
-      },
-      "claim": {
-        "worker_id": "fc15546e3bc040d7b7b625ad4546cf15-shard-0",
-        "claimed_at": "2026-11-18T03:17:26.254890+00:00",
-        "lease_expires_at": "2026-11-18T09:17:26.254890+00:00",
-        "run_id": "44190029167"
       },
       "previous_target_id": "31138342",
       "prepared": {
@@ -219953,5 +219955,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:20:34.249847+00:00"
+  "updated_at": "2026-11-18T03:20:37.082920+00:00"
 }
