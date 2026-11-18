@@ -115121,13 +115121,6 @@
           "source_id": "6506542",
           "target_video_id": "30984339",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:24:45.803106+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6506542",
-          "target_video_id": "30984339",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:57:30.868938+00:00"
         },
         {
@@ -115136,6 +115129,13 @@
           "target_video_id": "30984339",
           "permanent": false,
           "attempted_at": "2026-11-18T20:31:02.623807+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6506542",
+          "target_video_id": "30984339",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:02:50.592283+00:00"
         }
       ],
       "last_plan": {
@@ -130818,7 +130818,7 @@
       "last_plan": {
         "source_id": "34468790",
         "display_name": "A Hoof Here, a Hoof There (Kopytem sem, kopytem tam) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:31:01.355450+00:00"
+        "planned_at": "2026-11-18T22:02:48.775042+00:00"
       },
       "previous_target_id": "30986934",
       "prepared": {
@@ -130826,6 +130826,12 @@
         "size_bytes": 6800000000,
         "prepared_at": "2026-11-11T02:44:39.784842+00:00",
         "relay_source_id": "34468790"
+      },
+      "claim": {
+        "worker_id": "df426530574c48a6ab25b8dcfd24b1b7-shard-0",
+        "claimed_at": "2026-11-18T22:02:49.943632+00:00",
+        "lease_expires_at": "2026-11-19T04:02:49.943632+00:00",
+        "run_id": "44366936972"
       }
     },
     "2767": {
@@ -176797,7 +176803,7 @@
       "last_plan": {
         "source_id": "13386783",
         "display_name": "The Matador (2005) 720p CZ Dabing",
-        "planned_at": "2026-11-18T22:02:45.938461+00:00"
+        "planned_at": "2026-11-18T22:02:49.109597+00:00"
       }
     },
     "3554": {
@@ -223432,5 +223438,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:02:45.938482+00:00"
+  "updated_at": "2026-11-18T22:02:50.592303+00:00"
 }
