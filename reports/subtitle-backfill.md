@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:16:20.902569+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:16:25.990715+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
@@ -169,7 +169,7 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Talk to Me 4K CZ Titulky](https://prehraj.to/talk-to-me-4k-cz-titulky-mkv/28dafb7f3e8f3657) (ID 30912885) | [Sdílej 26853803](https://sdilej.cz/26853803/talk.to.me.2022.2160p.web-dl.ddp5.1.dv.hdr.h.265-flux.cztit.mkv) | source_unavailable | 2026-11-18T12:40:59.383892+00:00 |
 | [Tenebrae (Tenebre) 1080p CZ Titulky](https://prehraj.to/tenebrae-tenebre-1080p-cz-titulky-mkv/621ba6916f09d5d0) (ID 30985350) | [Sdílej 11416033](https://sdilej.cz/11416033/tenebre-tenebrae-1982-titulky.cz.1080p.mkv) | target_unavailable | 2026-11-18T13:01:26.206691+00:00 |
 | [Thanks for Every New Morning (Díky za každé nové ráno) 1080p CZ Titulky](https://prehraj.to/thanks-for-every-new-morning-diky-za-kazde-nove-rano-1080p-cz-titulky-mkv/f7fc3cff453730b5) (ID 31046004) | [Sdílej 32018336](https://sdilej.cz/32018336/diky-za-kazde-nove-rano-1994-komedie-cz-ivana-chylkova-fhd.mkv) | target_unavailable | 2026-11-15T02:37:00.384225+00:00 |
-| [The 33 720p CZ titulky](https://prehraj.to/the-33-720p-cz-titulky-mkv/5becb0838f958235) (ID 31009004) | [Sdílej 33551012](https://sdilej.cz/33551012/33-zivotu-2015-cz-dab-720p.mkv) | target_unavailable | 2026-11-13T04:33:24.935057+00:00 |
+| [The 33 720p CZ titulky](https://prehraj.to/the-33-720p-cz-titulky-mkv/5becb0838f958235) (ID 31009004) | [Sdílej 33551012](https://sdilej.cz/33551012/33-zivotu-2015-cz-dab-720p.mkv) | target_unavailable | 2026-11-18T23:16:25.458802+00:00 |
 | [The Age of Disclosure 4K CZ Titulky](https://prehraj.to/the-age-of-disclosure-4k-cz-titulky-mkv/99536dd7686279ac) (ID 31022883) | [Sdílej 32453965](https://sdilej.cz/32453965/the.age.of.disclosure.2025.2160p.4k.web.x265.10bit.aac5.1-yts.lt-.mkv) | target_unavailable | 2026-11-14T02:49:17.414841+00:00 |
 | [The Blue Star Hotel (Hotel Modrá Hvězda) 1080p CZ Titulky](https://prehraj.to/the-blue-star-hotel-hotel-modra-hvezda-1080p-cz-titulky-mkv/06c354de780cbd4b) (ID 31021806) | [Sdílej 29780275](https://sdilej.cz/29780275/hotel-modra-hvezda-1941-x265-1080-.mkv) | target_unavailable | 2026-11-14T00:29:03.642831+00:00 |
 | [The Book of Eli 1080p CZ Titulky](https://prehraj.to/the-book-of-eli-1080p-cz-titulky-mkv/dddbbcabc8d8f9e5) (ID 31078813) | [Sdílej 18629616](https://sdilej.cz/18629616/kniha-preziti-2010-cz-en-sp.mkv) | target_unavailable | 2026-11-16T01:25:39.653413+00:00 |
