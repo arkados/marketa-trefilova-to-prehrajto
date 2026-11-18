@@ -174542,17 +174542,19 @@
       }
     },
     "11338": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32998636",
+          "target_video_id": "31154996",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:10:36.355355+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32998636",
         "display_name": "The Final Countdown 4K CZ Dabing",
         "planned_at": "2026-11-18T16:05:26.554168+00:00"
-      },
-      "claim": {
-        "worker_id": "77079c7eb61849beb625e7edce942eaa-shard-0",
-        "claimed_at": "2026-11-18T16:05:29.764193+00:00",
-        "lease_expires_at": "2026-11-18T22:05:29.764193+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31154996",
       "prepared": {
@@ -221562,5 +221564,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:10:33.737255+00:00"
+  "updated_at": "2026-11-18T16:10:36.355372+00:00"
 }
