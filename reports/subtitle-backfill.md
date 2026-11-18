@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:20:53.900550+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:21:00.548717+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 524, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 177, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 525, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 176, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -241,7 +241,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [Warm Bodies 1080p CZ Titulky](https://prehraj.to/warm-bodies-1080p-cz-titulky-mkv/977a0f47cc83d50d) (ID 31084567) | [Sdílej 34285900](https://sdilej.cz/34285900/mrtvi-a-neklidni-2013-1080p-en-cz-dab.mkv) | target_unavailable | 2026-11-16T06:27:26.167574+00:00 |
 | [We Have Never Been Modern (Úsvit) 1080p CZ Titulky](https://prehraj.to/we-have-never-been-modern-usvit-1080p-cz-titulky-mkv/3788c12f44af03c2) (ID 31029502) | [Sdílej 27577780](https://sdilej.cz/27577780/we-have-never-been-modern-webrip-cz-2023-1080p.mkv) | target_unavailable | 2026-11-14T12:44:19.218012+00:00 |
 | [Welcome to the Rileys 1080p CZ Titulky](https://prehraj.to/welcome-to-the-rileys-1080p-cz-titulky-mkv/db70ad58153e767b) (ID 31012333) | [Sdílej 31162122](https://sdilej.cz/31162122/2010-welcome-to-the-rileys-svet-podla-mallory-mo-1080p-en-cztit.mkv) | target_unavailable | 2026-11-13T12:22:20.161759+00:00 |
-| [Western 1080p CZ Titulky](https://prehraj.to/western-1080p-cz-titulky-mkv/c495ad858b44d774) (ID 30996177) | [Sdílej 19486059](https://sdilej.cz/19486059/hostiles-2017-western-hd-cz-dab-lum.mkv) | target_unavailable | 2026-11-12T00:58:51.372099+00:00 |
 | [When Evil Lurks (Cuando acecha la maldad) 1080p CZ Titulky](https://prehraj.to/when-evil-lurks-cuando-acecha-la-maldad-1080p-cz-titulky-mkv/ed964c363b3daa75) (ID 31007827) | [Sdílej 27144377](https://sdilej.cz/27144377/when-evil-lurks-webrip-es-titulky-cz-2023.mkv) | target_unavailable | 2026-11-13T01:22:49.208781+00:00 |
 | [Wild Prague (Planeta Praha) 1080p CZ Titulky](https://prehraj.to/wild-prague-planeta-praha-1080p-cz-titulky-mkv/5c84480e4a1bd5f3) (ID 31048440) | [Sdílej 26860783](https://sdilej.cz/26860783/planeta-praha-2022-dokument-hd-5.1-cz-dabing.mkv) | target_unavailable | 2026-11-15T04:47:49.289272+00:00 |
 | [Wisdom of Happiness 1080p CZ Titulky](https://prehraj.to/wisdom-of-happiness-1080p-cz-titulky-mkv/03c6d43c9cceda93) (ID 31029095) | [Sdílej 34455088](https://sdilej.cz/34455088/wisdom-of-happiness-2024-1080p-cz.tit.mkv) | target_unavailable | 2026-11-14T12:14:13.778843+00:00 |
