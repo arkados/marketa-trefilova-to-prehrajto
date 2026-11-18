@@ -118511,13 +118511,6 @@
           "source_id": "32263146",
           "target_video_id": "30984860",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:27:20.713003+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32263146",
-          "target_video_id": "30984860",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:52:49.437780+00:00"
         },
         {
@@ -118526,12 +118519,19 @@
           "target_video_id": "30984860",
           "permanent": false,
           "attempted_at": "2026-11-18T04:21:18.164926+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32263146",
+          "target_video_id": "30984860",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:28:45.924764+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32263146",
         "display_name": "Last Tango in Paris 1080p CZ Dabing",
-        "planned_at": "2026-11-18T04:21:13.006617+00:00"
+        "planned_at": "2026-11-18T06:28:43.074715+00:00"
       },
       "previous_target_id": "30984860",
       "prepared": {
@@ -173240,11 +173240,22 @@
       "last_plan": {
         "source_id": "27653950",
         "display_name": "Elegy SD CZ Dabing",
-        "planned_at": "2026-11-18T06:28:36.817481+00:00"
+        "planned_at": "2026-11-18T06:28:43.439206+00:00"
+      },
+      "claim": {
+        "worker_id": "a49d33e9409a438997e70b95805aeac1-shard-0",
+        "claimed_at": "2026-11-18T06:28:44.494955+00:00",
+        "lease_expires_at": "2026-11-18T12:28:44.494955+00:00",
+        "run_id": "44237121625"
       }
     },
     "3382": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "12280092",
+        "display_name": "Teen Titans Go! To the Movies 1080p CZ Dabing",
+        "planned_at": "2026-11-18T06:28:43.660807+00:00"
+      }
     },
     "30071": {
       "attempts": []
@@ -220442,5 +220453,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:28:40.418043+00:00"
+  "updated_at": "2026-11-18T06:28:45.924784+00:00"
 }
