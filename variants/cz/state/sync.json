@@ -29757,13 +29757,6 @@
           "source_id": "21165095",
           "target_video_id": "30722559",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:31:41.064373+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21165095",
-          "target_video_id": "30722559",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:58:55.886562+00:00"
         },
         {
@@ -29772,6 +29765,13 @@
           "target_video_id": "30722559",
           "permanent": false,
           "attempted_at": "2026-11-18T06:07:17.932996+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21165095",
+          "target_video_id": "30722559",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:41:29.792609+00:00"
         }
       ],
       "last_plan": {
@@ -123544,7 +123544,7 @@
       "last_plan": {
         "source_id": "24836709",
         "display_name": "Harper SD CZ Dabing",
-        "planned_at": "2026-11-18T06:07:16.122564+00:00"
+        "planned_at": "2026-11-18T07:41:28.029966+00:00"
       },
       "previous_target_id": "30985572",
       "prepared": {
@@ -123552,6 +123552,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T20:28:40.493950+00:00",
         "relay_source_id": "24836709"
+      },
+      "claim": {
+        "worker_id": "c8d7149640944e7bb00a68ab3c798d70-shard-0",
+        "claimed_at": "2026-11-18T07:41:29.092138+00:00",
+        "lease_expires_at": "2026-11-18T13:41:29.092138+00:00",
+        "run_id": "44237121625"
       }
     },
     "32552": {
@@ -173488,7 +173494,7 @@
       "last_plan": {
         "source_id": "34527267",
         "display_name": "No Hit Wonder 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:41:23.422875+00:00"
+        "planned_at": "2026-11-18T07:41:28.403010+00:00"
       }
     },
     "35701": {
@@ -220663,5 +220669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:41:23.725680+00:00"
+  "updated_at": "2026-11-18T07:41:29.792630+00:00"
 }
