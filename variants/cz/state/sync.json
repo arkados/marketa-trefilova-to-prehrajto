@@ -117671,13 +117671,6 @@
           "source_id": "15096224",
           "target_video_id": "30984803",
           "permanent": false,
-          "attempted_at": "2026-11-18T18:53:42.752920+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15096224",
-          "target_video_id": "30984803",
-          "permanent": false,
           "attempted_at": "2026-11-18T20:27:36.485084+00:00"
         },
         {
@@ -117686,6 +117679,13 @@
           "target_video_id": "30984803",
           "permanent": false,
           "attempted_at": "2026-11-18T21:59:04.195821+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15096224",
+          "target_video_id": "30984803",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:42:52.267860+00:00"
         }
       ],
       "last_plan": {
@@ -176864,7 +176864,7 @@
       "last_plan": {
         "source_id": "10943896",
         "display_name": "Deep Cover (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:49:21.847520+00:00"
+        "planned_at": "2026-11-18T23:42:50.801732+00:00"
       },
       "previous_target_id": "31160955",
       "prepared": {
@@ -176872,6 +176872,12 @@
         "size_bytes": 3716328366,
         "prepared_at": "2026-11-18T21:49:31.339047+00:00",
         "relay_source_id": "10943896"
+      },
+      "claim": {
+        "worker_id": "6ded9b6972d84fb08109349d86dbccf4-shard-0",
+        "claimed_at": "2026-11-18T23:42:51.629066+00:00",
+        "lease_expires_at": "2026-11-19T05:42:51.629066+00:00",
+        "run_id": "44406951430"
       }
     },
     "24112": {
@@ -177297,7 +177303,7 @@
       "last_plan": {
         "source_id": "31789637",
         "display_name": "The Enforcer (1976) 4K CZ Dabing",
-        "planned_at": "2026-11-18T23:42:46.556298+00:00"
+        "planned_at": "2026-11-18T23:42:51.125605+00:00"
       }
     },
     "30355": {
@@ -223854,5 +223860,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:42:46.835892+00:00"
+  "updated_at": "2026-11-18T23:42:52.267876+00:00"
 }
