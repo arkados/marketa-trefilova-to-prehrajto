@@ -129287,13 +129287,6 @@
           "source_id": "29878083",
           "target_video_id": "30986749",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:37:32.404988+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29878083",
-          "target_video_id": "30986749",
-          "permanent": false,
           "attempted_at": "2026-11-18T13:07:07.807514+00:00"
         },
         {
@@ -129302,6 +129295,13 @@
           "target_video_id": "30986749",
           "permanent": false,
           "attempted_at": "2026-11-18T15:28:11.375024+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29878083",
+          "target_video_id": "30986749",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:59:54.895392+00:00"
         }
       ],
       "last_plan": {
@@ -138517,7 +138517,7 @@
       "last_plan": {
         "source_id": "34694371",
         "display_name": "Misericordia 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:28:10.916946+00:00"
+        "planned_at": "2026-11-18T16:59:53.168990+00:00"
       },
       "previous_target_id": "30987871",
       "prepared": {
@@ -138525,6 +138525,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T06:31:19.313862+00:00",
         "relay_source_id": "34694371"
+      },
+      "claim": {
+        "worker_id": "b52d77559b134893a1f6d3a72c7c6dfd-shard-0",
+        "claimed_at": "2026-11-18T16:59:54.592932+00:00",
+        "lease_expires_at": "2026-11-18T22:59:54.592932+00:00",
+        "run_id": "44319849691"
       }
     },
     "12593": {
@@ -174993,11 +174999,22 @@
       "last_plan": {
         "source_id": "27488583",
         "display_name": "The Man Without a Face 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:59:48.683349+00:00"
+        "planned_at": "2026-11-18T16:59:53.594283+00:00"
+      },
+      "claim": {
+        "worker_id": "fc0c046296894b049659e8bb66de2e19-shard-0",
+        "claimed_at": "2026-11-18T16:59:55.114920+00:00",
+        "lease_expires_at": "2026-11-18T22:59:55.114920+00:00",
+        "run_id": "44319849691"
       }
     },
     "3389": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26244786",
+        "display_name": "Big Nothing 1080p CZ Dabing",
+        "planned_at": "2026-11-18T16:59:53.828406+00:00"
+      }
     },
     "19464": {
       "attempts": []
@@ -221901,5 +221918,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:59:50.061319+00:00"
+  "updated_at": "2026-11-18T16:59:55.114952+00:00"
 }
