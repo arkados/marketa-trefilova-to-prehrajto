@@ -658,7 +658,7 @@ Attach subtitles only after target processing has finished.
 | Finch 1080p CZ titulky | 31006906 | https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv | Complete: Czech subtitles verified |
 | Sorry to Bother You 1080p CZ titulky | 31006990 | https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv | Complete: Czech subtitles verified |
 | 48 Hrs. 4K CZ titulky | 31007032 | https://sdilej.cz/35125536/1982-48-hodin-2160p-sk-cz-eng.mkv | Complete: Czech subtitles verified |
-| The Bad Guys 4K CZ Titulky | 31007205 | https://sdilej.cz/21710230/-gemberx-the-bad-guys-2022-2160p-anj-cz-titulky.mkv | Extract Czech track from exact source after processing |
+| The Bad Guys 4K CZ titulky | 31007205 | https://sdilej.cz/21710230/-gemberx-the-bad-guys-2022-2160p-anj-cz-titulky.mkv | Complete: Czech subtitles verified |
 | Eternity 1080p CZ Titulky | 31007543 | https://sdilej.cz/32702296/eternity-2025-1080p-cz.tit.mkv | Extract Czech track from exact source after processing |
 | When Evil Lurks (Cuando acecha la maldad) 1080p CZ Titulky | 31007827 | https://sdilej.cz/27144377/when-evil-lurks-webrip-es-titulky-cz-2023.mkv | Extract Czech track from exact source after processing |
 | Rent 1080p CZ Titulky | 31007976 | https://sdilej.cz/22944190/bohemove-2005-cz-titulky.mkv | Extract Czech track from exact source after processing |
