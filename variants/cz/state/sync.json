@@ -137539,13 +137539,6 @@
           "source_id": "30647651",
           "target_video_id": "30987782",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:46:00.198784+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30647651",
-          "target_video_id": "30987782",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:17:50.650991+00:00"
         },
         {
@@ -137554,6 +137547,13 @@
           "target_video_id": "30987782",
           "permanent": false,
           "attempted_at": "2026-11-18T20:52:29.946766+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30647651",
+          "target_video_id": "30987782",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:36:03.464653+00:00"
         }
       ],
       "last_plan": {
@@ -141375,7 +141375,7 @@
       "last_plan": {
         "source_id": "11736941",
         "display_name": "The Russian Job (Švéd v žigulíku) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:52:29.322196+00:00"
+        "planned_at": "2026-11-18T22:36:02.165144+00:00"
       },
       "previous_target_id": "30988215",
       "prepared": {
@@ -141383,6 +141383,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T07:52:44.166649+00:00",
         "relay_source_id": "11736941"
+      },
+      "claim": {
+        "worker_id": "71db816b63b94c0ea01076edbc2ef98f-shard-0",
+        "claimed_at": "2026-11-18T22:36:03.178522+00:00",
+        "lease_expires_at": "2026-11-19T04:36:03.178522+00:00",
+        "run_id": "44406951430"
       }
     },
     "11634": {
@@ -176940,7 +176946,7 @@
       "last_plan": {
         "source_id": "33776421",
         "display_name": "The Blob 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:35:59.003404+00:00"
+        "planned_at": "2026-11-18T22:36:02.501984+00:00"
       }
     },
     "29454": {
@@ -223554,5 +223560,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:35:59.306318+00:00"
+  "updated_at": "2026-11-18T22:36:03.464671+00:00"
 }
