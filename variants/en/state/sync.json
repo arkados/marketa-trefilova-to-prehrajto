@@ -22147,13 +22147,6 @@
           "source_id": "11267704",
           "target_video_id": "30984466",
           "permanent": false,
-          "attempted_at": "2026-11-18T19:13:30.101271+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11267704",
-          "target_video_id": "30984466",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:43:42.217726+00:00"
         },
         {
@@ -22162,6 +22155,13 @@
           "target_video_id": "30984466",
           "permanent": false,
           "attempted_at": "2026-11-18T20:13:59.294523+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11267704",
+          "target_video_id": "30984466",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:44:14.129582+00:00"
         }
       ],
       "last_plan": {
@@ -22175,12 +22175,6 @@
         "size_bytes": 7000000000,
         "prepared_at": "2026-11-10T16:31:37.585049+00:00",
         "relay_source_id": "11267704"
-      },
-      "claim": {
-        "worker_id": "a4d45e60a35e43e3b287d19690c223b8-shard-0",
-        "claimed_at": "2026-11-18T20:44:08.716588+00:00",
-        "lease_expires_at": "2026-11-19T02:44:08.716588+00:00",
-        "run_id": "44366936972"
       }
     },
     "13483": {
@@ -22987,7 +22981,7 @@
       "last_plan": {
         "source_id": "23240065",
         "display_name": "Paris, 13th District (Les Olympiades, Paris 13e) 1080p CZ titulky",
-        "planned_at": "2026-11-18T20:13:55.824536+00:00"
+        "planned_at": "2026-11-18T20:44:13.614824+00:00"
       },
       "previous_target_id": "30988745",
       "prepared": {
@@ -22995,6 +22989,12 @@
         "size_bytes": 8199999999,
         "prepared_at": "2026-11-11T09:46:13.396689+00:00",
         "relay_source_id": "23240065"
+      },
+      "claim": {
+        "worker_id": "b460a6f2215847b7bc4f13b75fd1eb15-shard-0",
+        "claimed_at": "2026-11-18T20:44:13.994345+00:00",
+        "lease_expires_at": "2026-11-19T02:44:13.994345+00:00",
+        "run_id": "44366936972"
       }
     },
     "10731": {
@@ -100851,5 +100851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:44:10.271588+00:00"
+  "updated_at": "2026-11-18T20:44:14.129602+00:00"
 }
