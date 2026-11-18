@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:38.528890+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:42.881594+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -175,7 +175,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Rental Family 1080p CZ Titulky](https://prehraj.to/rental-family-1080p-cz-titulky-mp4/a1a16ac5b338c17c) (ID 30699789) | [Sdílej 33092843](https://sdilej.cz/33092843/rental-family-2025-cz-titulky.mp4) | upload_unconfirmed | 2026-11-10T09:41:43.782147+00:00 |
 | [René 1080p CZ Titulky](https://prehraj.to/rene-1080p-cz-titulky-mkv/5a9f54c8abee0cc4) (ID 31025310) | [Sdílej 30660141](https://sdilej.cz/30660141/puls-3-invaze-hraji-rider-strong-brittany-renee-finamore-2008-cz-dab-leg.mkv) | target_unavailable | 2026-11-14T08:02:38.054935+00:00 |
 | [Reptile 1080p CZ Titulky](https://prehraj.to/reptile-1080p-cz-titulky-mkv/1c3317d9326351a7) (ID 31090284) | [Sdílej 26924113](https://sdilej.cz/26924113/reptile.2023.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv) | target_unavailable | 2026-11-16T11:42:48.272152+00:00 |
-| [Requiem for a Dream 1080p CZ titulky](https://prehraj.to/requiem-for-a-dream-1080p-cz-titulky-mkv/c63b14022d43238e) (ID 30676098) | [Sdílej 22817696](https://sdilej.cz/22817696/requiem-for-a-dream-2000-bdrip-1080p-hevc-en-cz-commentary.mkv) | target_unavailable | 2026-11-10T09:41:20.258373+00:00 |
+| [Requiem for a Dream 1080p CZ titulky](https://prehraj.to/requiem-for-a-dream-1080p-cz-titulky-mkv/c63b14022d43238e) (ID 30676098) | [Sdílej 22817696](https://sdilej.cz/22817696/requiem-for-a-dream-2000-bdrip-1080p-hevc-en-cz-commentary.mkv) | target_unavailable | 2026-11-18T12:42:42.515682+00:00 |
 | [Responsible Child 1080p CZ Titulky](https://prehraj.to/responsible-child-1080p-cz-titulky-mkv/c129d501c494c306) (ID 30995865) | [Sdílej 18700045](https://sdilej.cz/18700045/responsible.child.2019.1080p.webrip.titulky-cz.mkv) | target_unavailable | 2026-11-12T00:18:47.978736+00:00 |
 | [Return of the Idiot (Návrat idiota) 1080p CZ Titulky](https://prehraj.to/return-of-the-idiot-navrat-idiota-1080p-cz-titulky-mkv/5d66cde734ee8ceb) (ID 30997077) | [Sdílej 32263750](https://sdilej.cz/32263750/navrat-idiota-1999-fhd-cz.mkv) | target_unavailable | 2026-11-12T02:32:15.886113+00:00 |
 | [Rise 720p CZ Titulky](https://prehraj.to/rise-720p-cz-titulky-mkv/50432ebabf1a4191) (ID 30989991) | [Sdílej 25891436](https://sdilej.cz/25891436/rise-svetla-empire-of-light-cz-titulky-2022.mkv) | target_unavailable | 2026-11-11T12:48:05.962907+00:00 |
