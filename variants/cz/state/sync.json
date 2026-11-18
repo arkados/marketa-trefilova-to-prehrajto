@@ -8104,13 +8104,6 @@
           "source_id": "20447868",
           "target_video_id": "30630355",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:47:57.152368+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20447868",
-          "target_video_id": "30630355",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:15:02.776495+00:00"
         },
         {
@@ -8119,6 +8112,13 @@
           "target_video_id": "30630355",
           "permanent": false,
           "attempted_at": "2026-11-18T14:35:37.494833+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20447868",
+          "target_video_id": "30630355",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:09:51.710924+00:00"
         }
       ],
       "last_plan": {
@@ -133191,7 +133191,7 @@
       "last_plan": {
         "source_id": "34787172",
         "display_name": "Brontosaurus 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:35:36.074173+00:00"
+        "planned_at": "2026-11-18T16:09:50.095650+00:00"
       },
       "previous_target_id": "30987230",
       "prepared": {
@@ -133199,6 +133199,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T04:00:19.698478+00:00",
         "relay_source_id": "34787172"
+      },
+      "claim": {
+        "worker_id": "fe93a0ce91984425a2f63c5b29382136-shard-0",
+        "claimed_at": "2026-11-18T16:09:51.392648+00:00",
+        "lease_expires_at": "2026-11-18T22:09:51.392648+00:00",
+        "run_id": "44319849691"
       }
     },
     "24237": {
@@ -174561,7 +174567,7 @@
       "last_plan": {
         "source_id": "24093399",
         "display_name": "Benedetta 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:09:47.098845+00:00"
+        "planned_at": "2026-11-18T16:09:50.524900+00:00"
       }
     },
     "37210": {
@@ -221556,5 +221562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:09:47.098863+00:00"
+  "updated_at": "2026-11-18T16:09:51.710943+00:00"
 }
