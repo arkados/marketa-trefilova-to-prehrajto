@@ -108451,13 +108451,6 @@
           "source_id": "33299236",
           "target_video_id": "30983538",
           "permanent": false,
-          "attempted_at": "2026-11-18T06:24:11.232567+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33299236",
-          "target_video_id": "30983538",
-          "permanent": false,
           "attempted_at": "2026-11-18T07:58:34.927689+00:00"
         },
         {
@@ -108466,6 +108459,13 @@
           "target_video_id": "30983538",
           "permanent": false,
           "attempted_at": "2026-11-18T09:41:15.640011+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33299236",
+          "target_video_id": "30983538",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:07:24.414214+00:00"
         }
       ],
       "last_plan": {
@@ -108511,7 +108511,7 @@
       "last_plan": {
         "source_id": "34908320",
         "display_name": "Pražská 5 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:41:13.569355+00:00"
+        "planned_at": "2026-11-18T11:07:22.770499+00:00"
       },
       "previous_target_id": "30983539",
       "prepared": {
@@ -108519,6 +108519,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T14:16:25.808778+00:00",
         "relay_source_id": "34908320"
+      },
+      "claim": {
+        "worker_id": "4a17cc215abe478ea72bd1599f49e54c-shard-0",
+        "claimed_at": "2026-11-18T11:07:23.717662+00:00",
+        "lease_expires_at": "2026-11-18T17:07:23.717662+00:00",
+        "run_id": "44276193396"
       }
     },
     "24344": {
@@ -173836,7 +173842,7 @@
       "last_plan": {
         "source_id": "32276905",
         "display_name": "Havel 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:07:19.918092+00:00"
+        "planned_at": "2026-11-18T11:07:23.169263+00:00"
       }
     },
     "21727": {
@@ -220963,5 +220969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:07:19.918109+00:00"
+  "updated_at": "2026-11-18T11:07:24.414233+00:00"
 }
