@@ -14733,6 +14733,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-10-31T06:23:14.737343+00:00",
         "relay_source_id": "32500310"
+      },
+      "claim": {
+        "worker_id": "20952846c4484a3586b1f3a5afc77fc0-shard-0",
+        "claimed_at": "2026-11-18T00:52:06.541977+00:00",
+        "lease_expires_at": "2026-11-18T06:52:06.541977+00:00",
+        "run_id": "44190029167"
       }
     },
     "22177": {
@@ -119600,13 +119606,6 @@
           "source_id": "34864462",
           "target_video_id": "30984947",
           "permanent": false,
-          "attempted_at": "2026-11-17T20:10:22.352769+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34864462",
-          "target_video_id": "30984947",
-          "permanent": false,
           "attempted_at": "2026-11-17T21:45:51.207125+00:00"
         },
         {
@@ -119615,6 +119614,13 @@
           "target_video_id": "30984947",
           "permanent": false,
           "attempted_at": "2026-11-17T23:13:44.381708+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34864462",
+          "target_video_id": "30984947",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:52:06.758007+00:00"
         }
       ],
       "last_plan": {
@@ -119628,12 +119634,6 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-10T18:16:42.459401+00:00",
         "relay_source_id": "34864462"
-      },
-      "claim": {
-        "worker_id": "ea16b3a9e3c64d0483196c192a4362c3-shard-0",
-        "claimed_at": "2026-11-18T00:52:03.322925+00:00",
-        "lease_expires_at": "2026-11-18T06:52:03.322925+00:00",
-        "run_id": "44190029167"
       }
     },
     "18622": {
@@ -140959,7 +140959,7 @@
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-17T23:13:47.035676+00:00"
+        "planned_at": "2026-11-18T00:52:07.025769+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -172136,7 +172136,7 @@
       "last_plan": {
         "source_id": "35010856",
         "display_name": "The True Knight (Pravý rytíř) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:52:03.969880+00:00"
+        "planned_at": "2026-11-18T00:52:07.462768+00:00"
       }
     },
     "17501": {
@@ -219508,5 +219508,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:52:03.969899+00:00"
+  "updated_at": "2026-11-18T00:52:07.462782+00:00"
 }
