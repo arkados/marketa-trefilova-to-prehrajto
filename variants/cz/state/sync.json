@@ -107743,7 +107743,7 @@
       "last_plan": {
         "source_id": "34913823",
         "display_name": "School for Fathers SD CZ Dabing",
-        "planned_at": "2026-11-18T15:25:58.212268+00:00"
+        "planned_at": "2026-11-18T16:57:22.958020+00:00"
       },
       "previous_target_id": "30983173",
       "prepared": {
@@ -174966,17 +174966,19 @@
       }
     },
     "11357": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30900340",
+          "target_video_id": "31155879",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:57:23.458627+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30900340",
         "display_name": "Stir Crazy 1080p CZ Dabing",
         "planned_at": "2026-11-18T16:54:50.904785+00:00"
-      },
-      "claim": {
-        "worker_id": "cf54089060c84f828388c2b35554505f-shard-0",
-        "claimed_at": "2026-11-18T16:54:54.159432+00:00",
-        "lease_expires_at": "2026-11-18T22:54:54.159432+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31155879",
       "prepared": {
@@ -221905,5 +221907,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:57:20.567702+00:00"
+  "updated_at": "2026-11-18T16:57:23.458646+00:00"
 }
