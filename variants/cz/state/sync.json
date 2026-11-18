@@ -109489,7 +109489,7 @@
       "last_plan": {
         "source_id": "35072913",
         "display_name": "Alena (1947) SD CZ Dabing",
-        "planned_at": "2026-11-18T17:05:42.598543+00:00"
+        "planned_at": "2026-11-18T18:40:14.483212+00:00"
       },
       "previous_target_id": "30983665",
       "prepared": {
@@ -109497,6 +109497,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-10T14:30:14.467093+00:00",
         "relay_source_id": "35072913"
+      },
+      "claim": {
+        "worker_id": "1a5056c6df4c404883e59b49ee3bea33-shard-0",
+        "claimed_at": "2026-11-18T18:40:15.298544+00:00",
+        "lease_expires_at": "2026-11-19T00:40:15.298544+00:00",
+        "run_id": "44366936972"
       }
     },
     "28861": {
@@ -175230,17 +175236,23 @@
           "attempted_at": "2026-11-18T17:05:46.406554+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "33810671",
-        "display_name": "Kitty Mama 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:40:11.149191+00:00"
-      },
       "previous_target_id": "31156008",
-      "prepared": {
+      "upload": {
         "target_video_id": "31156008",
-        "size_bytes": 2128491862,
-        "prepared_at": "2026-11-18T17:03:49.163425+00:00",
-        "relay_source_id": "33810671"
+        "display_name": "Kitty Mama 1080p CZ Dabing",
+        "source_id": "33810671",
+        "source_url": "https://sdilej.cz/33810671/micimutr-2011-pohadka-1080p.mp4",
+        "source_filename": "Micimutr (2011) (pohádka) 1080p.mp4",
+        "size_bytes": 2100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9311992526054382,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/kitty-mama-1080p-cz-dabing-mp4/a6f2d1e8954086a7",
+        "uploaded_at": "2026-11-18T18:40:16.873284+00:00"
       }
     },
     "21169": {
@@ -175826,7 +175838,7 @@
       "last_plan": {
         "source_id": "24527969",
         "display_name": "Anna and the King 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:40:11.504908+00:00"
+        "planned_at": "2026-11-18T18:40:14.791693+00:00"
       }
     },
     "37356": {
@@ -222590,5 +222602,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:40:11.998440+00:00"
+  "updated_at": "2026-11-18T18:40:16.873299+00:00"
 }
