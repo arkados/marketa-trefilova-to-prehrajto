@@ -110471,6 +110471,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T14:40:48.261346+00:00",
         "relay_source_id": "34885981"
+      },
+      "claim": {
+        "worker_id": "9add732f51a443ff85d3f60ad7309ff9-shard-0",
+        "claimed_at": "2026-11-18T06:13:51.319296+00:00",
+        "lease_expires_at": "2026-11-18T12:13:51.319296+00:00",
+        "run_id": "44237121625"
       }
     },
     "1992": {
@@ -124650,13 +124656,6 @@
           "source_id": "20827767",
           "target_video_id": "30985751",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:12:35.944305+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20827767",
-          "target_video_id": "30985751",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:38:10.883478+00:00"
         },
         {
@@ -124665,6 +124664,13 @@
           "target_video_id": "30985751",
           "permanent": false,
           "attempted_at": "2026-11-18T04:05:27.551253+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20827767",
+          "target_video_id": "30985751",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:13:51.110468+00:00"
         }
       ],
       "last_plan": {
@@ -124678,12 +124684,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:39:28.502583+00:00",
         "relay_source_id": "20827767"
-      },
-      "claim": {
-        "worker_id": "59a5d7fb4d134de3b830457b841c717a-shard-0",
-        "claimed_at": "2026-11-18T06:13:47.736806+00:00",
-        "lease_expires_at": "2026-11-18T12:13:47.736806+00:00",
-        "run_id": "44237121625"
       }
     },
     "22167": {
@@ -144943,7 +144943,7 @@
       "last_plan": {
         "source_id": "35428807",
         "display_name": "Murders in Valenciennes (Les Disparus de Valenciennes) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T04:05:29.933312+00:00"
+        "planned_at": "2026-11-18T06:13:51.577396+00:00"
       },
       "previous_target_id": "30990277",
       "prepared": {
@@ -173195,7 +173195,7 @@
       "last_plan": {
         "source_id": "27104173",
         "display_name": "Miss Hanoi 1080p CZ Dabing",
-        "planned_at": "2026-11-18T06:13:48.573829+00:00"
+        "planned_at": "2026-11-18T06:13:51.921564+00:00"
       }
     },
     "3330": {
@@ -220403,5 +220403,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:13:48.573848+00:00"
+  "updated_at": "2026-11-18T06:13:51.921585+00:00"
 }
