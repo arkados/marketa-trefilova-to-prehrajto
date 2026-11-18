@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:12:38.644319+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:12:45.274445+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 518, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 183, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 519, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 182, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -111,7 +111,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Finch 1080p CZ Titulky](https://prehraj.to/finch-1080p-cz-titulky-mkv/54f021b7c071bba6) (ID 31006906) | [Sdílej 26705455](https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv) | target_unavailable | 2026-11-12T23:01:49.245539+00:00 |
 | [Frozen 2 (Frozen II) 1080p CZ Titulky](https://prehraj.to/frozen-2-frozen-ii-1080p-cz-titulky-mkv/1ee5ef3470d00b88) (ID 31085056) | [Sdílej 26861725](https://sdilej.cz/26861725/ledove-kralovstvi-2-frozen-2-2019-cz-fhd-h265-deadinside.mkv) | target_unavailable | 2026-11-16T06:57:28.896402+00:00 |
 | [Game Night 1080p CZ Titulky](https://prehraj.to/game-night-1080p-cz-titulky-mkv/b40177a2665fd61e) (ID 31003096) | [Sdílej 35243994](https://sdilej.cz/35243994/game.night.2018.open.matte.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:47:42.927442+00:00 |
-| [Generation Iron 720p CZ Titulky](https://prehraj.to/generation-iron-720p-cz-titulky-mkv/da434438aecaa89f) (ID 30992304) | [Sdílej 22898145](https://sdilej.cz/22898145/generation-iron.mkv) | target_unavailable | 2026-11-11T17:24:52.699436+00:00 |
 | [Gladiator (2000) 4K CZ Titulky](https://prehraj.to/gladiator-2000-cz-titulky-mkv/5ab06a3385e9b8ad) (ID 30589321) | [Sdílej 32959336](https://sdilej.cz/32959336/gladiator-2000-2160p-cz-dabing-en-dts-hd-radecek.mkv) | target_unavailable | 2026-11-12T12:57:32.177877+00:00 |
 | [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-18T12:51:48.581939+00:00 |
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
