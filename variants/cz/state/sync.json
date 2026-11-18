@@ -125834,13 +125834,6 @@
           "source_id": "33203545",
           "target_video_id": "30985900",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:57:19.192174+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33203545",
-          "target_video_id": "30985900",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:23:55.734681+00:00"
         },
         {
@@ -125849,6 +125842,13 @@
           "target_video_id": "30985900",
           "permanent": false,
           "attempted_at": "2026-11-18T12:52:08.422054+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33203545",
+          "target_video_id": "30985900",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:15:06.802654+00:00"
         }
       ],
       "last_plan": {
@@ -131397,7 +131397,7 @@
       "last_plan": {
         "source_id": "26779825",
         "display_name": "Cekání na dést (Waiting for the Rain) SD CZ Dabing",
-        "planned_at": "2026-11-18T12:52:07.730961+00:00"
+        "planned_at": "2026-11-18T15:15:05.224401+00:00"
       },
       "previous_target_id": "30986978",
       "prepared": {
@@ -131405,6 +131405,12 @@
         "size_bytes": 767500000,
         "prepared_at": "2026-11-11T03:05:41.700464+00:00",
         "relay_source_id": "26779825"
+      },
+      "claim": {
+        "worker_id": "db9e1872c864421eae2c471d46f5b7cf-shard-0",
+        "claimed_at": "2026-11-18T15:15:06.439763+00:00",
+        "lease_expires_at": "2026-11-18T21:15:06.439763+00:00",
+        "run_id": "44319849691"
       }
     },
     "24134": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:15:01.845742+00:00"
+        "planned_at": "2026-11-18T15:15:05.652156+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:15:02.137885+00:00"
+  "updated_at": "2026-11-18T15:15:06.802670+00:00"
 }
