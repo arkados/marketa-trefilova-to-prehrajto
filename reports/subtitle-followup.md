@@ -583,7 +583,7 @@ Attach subtitles only after target processing has finished.
 | Top Gun 4K CZ titulky | 30965106 | https://sdilej.cz/28086780/top.gun.1986.2160p.4k.bluray.x265.10bit.aac5.1-leon.-en-subs-cz-en-.mkv | Complete: Czech subtitles verified |
 | Super 8 720p CZ Titulky | 30970243 | https://sdilej.cz/16310205/super-8-2011-sci-fi-cz-dab-720p-hd.mkv | Extract Czech track from exact source after processing |
 | The Dirt 4K CZ titulky | 30977182 | https://sdilej.cz/12889912/the.dirt.2019.2160p.uhdrip.sdr.hevc.ddp.5.1-ddr.cztitulky.mkv | Complete: Czech subtitles verified |
-| Pieces of a Woman 1080p CZ Titulky | 30977806 | https://sdilej.cz/27839654/stripky-zeny-vanessa-kirby-shia-labeouf-ellen-burstyn-2020-drama-en-cz-titulky.mkv | Extract Czech track from exact source after processing |
+| Pieces of a Woman 1080p CZ titulky | 30977806 | https://sdilej.cz/27839654/stripky-zeny-vanessa-kirby-shia-labeouf-ellen-burstyn-2020-drama-en-cz-titulky.mkv | Complete: Czech subtitles verified |
 | Colonia (Colonia Dignidad – Es gibt kein Zurück) 1080p CZ Titulky | 30977898 | https://sdilej.cz/34886157/colonia.2015.1080p.bluray.dl.dts.x264-majo.mkv | Extract Czech track from exact source after processing |
 | Starman 1080p CZ Titulky | 30978323 | https://sdilej.cz/34237075/starman-1984-1080p-bluray-multi-10bit-av1-majo.mkv | Extract Czech track from exact source after processing |
 | American Animals 1080p CZ Titulky | 30980223 | https://sdilej.cz/10502270/american.animals.2018.1080p.bdrip.x264.cz.titulky.mkv | Complete: Czech subtitles verified |
