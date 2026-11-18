@@ -110726,13 +110726,6 @@
           "source_id": "27514628",
           "target_video_id": "30983750",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:58:04.535978+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27514628",
-          "target_video_id": "30983750",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:22:52.607682+00:00"
         },
         {
@@ -110741,6 +110734,13 @@
           "target_video_id": "30983750",
           "permanent": false,
           "attempted_at": "2026-11-18T14:46:36.794884+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27514628",
+          "target_video_id": "30983750",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:21:46.518452+00:00"
         }
       ],
       "last_plan": {
@@ -110754,12 +110754,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T14:43:15.779270+00:00",
         "relay_source_id": "27514628"
-      },
-      "claim": {
-        "worker_id": "6fd1e931413941ea8f1ab02a3540974e-shard-0",
-        "claimed_at": "2026-11-18T16:21:42.776870+00:00",
-        "lease_expires_at": "2026-11-18T22:21:42.776870+00:00",
-        "run_id": "44319849691"
       }
     },
     "32421": {
@@ -126681,7 +126675,7 @@
       "last_plan": {
         "source_id": "30067608",
         "display_name": "Tom and Jerry: The Fast and the Furry 720p CZ Dabing",
-        "planned_at": "2026-11-18T14:46:36.112788+00:00"
+        "planned_at": "2026-11-18T16:21:46.227630+00:00"
       },
       "previous_target_id": "30986232",
       "prepared": {
@@ -174691,11 +174685,16 @@
       "last_plan": {
         "source_id": "18079003",
         "display_name": "Missing Link (2019) [ID 29494] 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:21:38.027030+00:00"
+        "planned_at": "2026-11-18T16:21:46.884172+00:00"
       }
     },
     "13632": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "23631561",
+        "display_name": "Fido SD CZ Dabing",
+        "planned_at": "2026-11-18T16:21:47.107601+00:00"
+      }
     },
     "3505": {
       "attempts": []
@@ -221665,5 +221664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:21:42.776899+00:00"
+  "updated_at": "2026-11-18T16:21:47.107615+00:00"
 }
