@@ -101048,6 +101048,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T05:57:23.677192+00:00",
         "relay_source_id": "27029351"
+      },
+      "claim": {
+        "worker_id": "320ca31498e34d9da41c4e4d22beb788-shard-0",
+        "claimed_at": "2026-11-18T14:39:36.027754+00:00",
+        "lease_expires_at": "2026-11-18T20:39:36.027754+00:00",
+        "run_id": "44319849691"
       }
     },
     "28078": {
@@ -101080,7 +101086,7 @@
       "last_plan": {
         "source_id": "35139959",
         "display_name": "Love at Second Sight (Mon Inconnue) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:18:50.643062+00:00"
+        "planned_at": "2026-11-18T14:39:36.671946+00:00"
       },
       "previous_target_id": "30966007",
       "prepared": {
@@ -101799,13 +101805,6 @@
           "source_id": "13492700",
           "target_video_id": "30969098",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:32:56.325379+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13492700",
-          "target_video_id": "30969098",
-          "permanent": false,
           "attempted_at": "2026-11-18T10:53:16.715169+00:00"
         },
         {
@@ -101814,6 +101813,13 @@
           "target_video_id": "30969098",
           "permanent": false,
           "attempted_at": "2026-11-18T12:18:48.082235+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13492700",
+          "target_video_id": "30969098",
+          "permanent": false,
+          "attempted_at": "2026-11-18T14:39:35.140980+00:00"
         }
       ],
       "last_plan": {
@@ -101827,12 +101833,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T07:25:39.371014+00:00",
         "relay_source_id": "13492700"
-      },
-      "claim": {
-        "worker_id": "53faf20e2b944917a1f0b9bb2254bc5c-shard-0",
-        "claimed_at": "2026-11-18T14:39:31.778712+00:00",
-        "lease_expires_at": "2026-11-18T20:39:31.778712+00:00",
-        "run_id": "44319849691"
       }
     },
     "26603": {
@@ -174155,7 +174155,7 @@
       "last_plan": {
         "source_id": "34898015",
         "display_name": "Born Into Shit (Po hlavě do prdele) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:39:32.451656+00:00"
+        "planned_at": "2026-11-18T14:39:37.046259+00:00"
       }
     },
     "3384": {
@@ -221219,5 +221219,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:39:32.451672+00:00"
+  "updated_at": "2026-11-18T14:39:37.046275+00:00"
 }
