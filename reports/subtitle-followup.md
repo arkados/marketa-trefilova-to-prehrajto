@@ -749,3 +749,4 @@ Attach subtitles only after target processing has finished.
 | Caught Stealing 4K CZ Titulky | 31093102 | https://sdilej.cz/31933757/caught.stealing.2025.2160p.web.h265-ethel.mkv | Extract Czech track from exact source after processing |
 | I See You 1080p CZ titulky | 31093833 | https://sdilej.cz/33237368/i.see.you.2019.1080p.bluray.dl.ac3.x264-majo.mkv | Extract Czech track from exact source after processing |
 | Bones and All 1080p CZ titulky | 31093982 | https://sdilej.cz/24332922/bones-and-all-1080p-2022-vlozene-cz-titulky-malasorte.mkv | Extract Czech track from exact source after processing |
+| Senna SD CZ titulky | 31135008 | https://sdilej.cz/13460272/senna-legenda-f1-2010-cz-titl.mkv | Extract Czech track from exact source after processing |
