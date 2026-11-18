@@ -14733,6 +14733,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-10-31T06:23:14.737343+00:00",
         "relay_source_id": "32500310"
+      },
+      "claim": {
+        "worker_id": "638027a621de444f97d624cb72ba6b67-shard-0",
+        "claimed_at": "2026-11-18T05:51:01.164696+00:00",
+        "lease_expires_at": "2026-11-18T11:51:01.164696+00:00",
+        "run_id": "44237121625"
       }
     },
     "22177": {
@@ -119600,13 +119606,6 @@
           "source_id": "34864462",
           "target_video_id": "30984947",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:52:06.758007+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34864462",
-          "target_video_id": "30984947",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:15:51.720839+00:00"
         },
         {
@@ -119615,6 +119614,13 @@
           "target_video_id": "30984947",
           "permanent": false,
           "attempted_at": "2026-11-18T03:42:42.277277+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34864462",
+          "target_video_id": "30984947",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:51:01.373446+00:00"
         }
       ],
       "last_plan": {
@@ -119628,12 +119634,6 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-10T18:16:42.459401+00:00",
         "relay_source_id": "34864462"
-      },
-      "claim": {
-        "worker_id": "94d012ce6e2d45e1ae326d207c9f2146-shard-0",
-        "claimed_at": "2026-11-18T05:50:57.517329+00:00",
-        "lease_expires_at": "2026-11-18T11:50:57.517329+00:00",
-        "run_id": "44237121625"
       }
     },
     "18622": {
@@ -140959,7 +140959,7 @@
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-18T03:42:45.162736+00:00"
+        "planned_at": "2026-11-18T05:51:01.636686+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -173090,7 +173090,7 @@
       "last_plan": {
         "source_id": "29311587",
         "display_name": "French Connection II 720p CZ Dabing",
-        "planned_at": "2026-11-18T05:50:58.196522+00:00"
+        "planned_at": "2026-11-18T05:51:02.028037+00:00"
       }
     },
     "13038": {
@@ -220330,5 +220330,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:50:58.502552+00:00"
+  "updated_at": "2026-11-18T05:51:02.028057+00:00"
 }
