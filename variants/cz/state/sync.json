@@ -135218,13 +135218,6 @@
           "source_id": "34735096",
           "target_video_id": "30987554",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:13:17.475410+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34735096",
-          "target_video_id": "30987554",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:40:10.408979+00:00"
         },
         {
@@ -135233,6 +135226,13 @@
           "target_video_id": "30987554",
           "permanent": false,
           "attempted_at": "2026-11-18T05:45:37.686474+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34735096",
+          "target_video_id": "30987554",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:23:33.112172+00:00"
         }
       ],
       "last_plan": {
@@ -135246,12 +135246,6 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T05:11:14.031629+00:00",
         "relay_source_id": "34735096"
-      },
-      "claim": {
-        "worker_id": "63ec6a07330642babd81e3a6cc6c0918-shard-0",
-        "claimed_at": "2026-11-18T07:23:28.270197+00:00",
-        "lease_expires_at": "2026-11-18T13:23:28.270197+00:00",
-        "run_id": "44237121625"
       }
     },
     "10742": {
@@ -140882,7 +140876,7 @@
       "last_plan": {
         "source_id": "34852429",
         "display_name": "The Lost Face (The Borrowed Face) 720p CZ Dabing",
-        "planned_at": "2026-11-18T05:45:37.391700+00:00"
+        "planned_at": "2026-11-18T07:23:32.726441+00:00"
       },
       "previous_target_id": "30988147",
       "prepared": {
@@ -173379,17 +173373,19 @@
       }
     },
     "11991": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767301",
+          "target_video_id": "31144005",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:23:33.823888+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767301",
         "display_name": "White Fang (1991) 1080p CZ Dabing",
         "planned_at": "2026-11-18T07:17:55.791695+00:00"
-      },
-      "claim": {
-        "worker_id": "a87b684ca9c74a86a41a7da7b182dfcd-shard-0",
-        "claimed_at": "2026-11-18T07:17:59.344769+00:00",
-        "lease_expires_at": "2026-11-18T13:17:59.344769+00:00",
-        "run_id": "44237121625"
       },
       "previous_target_id": "31144005",
       "prepared": {
@@ -173404,7 +173400,7 @@
       "last_plan": {
         "source_id": "34208253",
         "display_name": "Kingsglaive: Final Fantasy XV (kingusugureibu fainarufantajii XV) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:23:27.615773+00:00"
+        "planned_at": "2026-11-18T07:23:33.420018+00:00"
       }
     },
     "13878": {
@@ -220591,5 +220587,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:23:29.335376+00:00"
+  "updated_at": "2026-11-18T07:23:33.823911+00:00"
 }
