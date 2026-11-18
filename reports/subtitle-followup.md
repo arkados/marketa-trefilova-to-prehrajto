@@ -654,7 +654,7 @@ Attach subtitles only after target processing has finished.
 | Triangle 1080p CZ titulky | 31006060 | https://sdilej.cz/14629570/triangle-en-vlozene-titulky-2009-thriller-1080p.mkv | Complete: Czech subtitles verified |
 | Bill & Ted's Excellent Adventure 720p CZ titulky | 31006119 | https://sdilej.cz/34453030/skvele-dobrodruzstvi-billa-a-teda-1989-komedie-keanu-reeves-cztit.bluray.hd.mkv | Complete: Czech subtitles verified |
 | Swiss Army Man 720p CZ Titulky | 31006278 | https://sdilej.cz/6507377/swiss-army-man-2016-720p-bluray-dts-x264-ceske-titulky.mkv | Extract Czech track from exact source after processing |
-| Clear and Present Danger 1080p CZ Titulky | 31006506 | https://sdilej.cz/29946984/jasne-nebezpeci-1994-en-cs-pl-en-cs-pl-816p23.976-.mkv | Extract Czech track from exact source after processing |
+| Clear and Present Danger 1080p CZ titulky | 31006506 | https://sdilej.cz/29946984/jasne-nebezpeci-1994-en-cs-pl-en-cs-pl-816p23.976-.mkv | Complete: Czech subtitles verified |
 | Finch 1080p CZ Titulky | 31006906 | https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv | Extract Czech track from exact source after processing |
 | Sorry to Bother You 1080p CZ Titulky | 31006990 | https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv | Extract Czech track from exact source after processing |
 | 48 Hrs. 4K CZ Titulky | 31007032 | https://sdilej.cz/35125536/1982-48-hodin-2160p-sk-cz-eng.mkv | Extract Czech track from exact source after processing |
