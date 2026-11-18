@@ -12884,13 +12884,6 @@
           "source_id": "34846817",
           "target_video_id": "30649962",
           "permanent": false,
-          "attempted_at": "2026-11-18T15:54:07.433122+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34846817",
-          "target_video_id": "30649962",
-          "permanent": false,
           "attempted_at": "2026-11-18T17:27:27.605109+00:00"
         },
         {
@@ -12899,12 +12892,19 @@
           "target_video_id": "30649962",
           "permanent": false,
           "attempted_at": "2026-11-18T19:00:18.356765+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34846817",
+          "target_video_id": "30649962",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:33:43.921309+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34846817",
         "display_name": "Obsession (2026) 4K CZ Dabing",
-        "planned_at": "2026-11-18T19:00:09.112828+00:00"
+        "planned_at": "2026-11-18T20:33:41.310354+00:00"
       },
       "previous_target_id": "30649962",
       "prepared": {
@@ -176292,11 +176292,22 @@
       "last_plan": {
         "source_id": "34695500",
         "display_name": "The Hunter (2011) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:33:30.719787+00:00"
+        "planned_at": "2026-11-18T20:33:41.631908+00:00"
+      },
+      "claim": {
+        "worker_id": "b9c887af40d34dc09749f0b3bcdf794a-shard-0",
+        "claimed_at": "2026-11-18T20:33:42.588685+00:00",
+        "lease_expires_at": "2026-11-19T02:33:42.588685+00:00",
+        "run_id": "44366936972"
       }
     },
     "3530": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "16113255",
+        "display_name": "Wild Target 1080p CZ Dabing",
+        "planned_at": "2026-11-18T20:33:41.840431+00:00"
+      }
     },
     "34335": {
       "attempts": []
@@ -223011,5 +223022,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:33:37.387259+00:00"
+  "updated_at": "2026-11-18T20:33:43.921327+00:00"
 }
