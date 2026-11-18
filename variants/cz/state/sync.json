@@ -111434,13 +111434,6 @@
           "source_id": "26697838",
           "target_video_id": "30983795",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:54:40.421504+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26697838",
-          "target_video_id": "30983795",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:29:34.417221+00:00"
         },
         {
@@ -111449,6 +111442,13 @@
           "target_video_id": "30983795",
           "permanent": false,
           "attempted_at": "2026-11-18T18:01:26.978457+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26697838",
+          "target_video_id": "30983795",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:32:28.840762+00:00"
         }
       ],
       "last_plan": {
@@ -125615,7 +125615,7 @@
       "last_plan": {
         "source_id": "34824290",
         "display_name": "Borsalino 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:01:27.840857+00:00"
+        "planned_at": "2026-11-18T19:32:27.610443+00:00"
       },
       "previous_target_id": "30985867",
       "prepared": {
@@ -125623,6 +125623,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T22:16:18.489755+00:00",
         "relay_source_id": "34824290"
+      },
+      "claim": {
+        "worker_id": "913a1ce115804ca788d5d80e15a753d8-shard-0",
+        "claimed_at": "2026-11-18T19:32:28.548552+00:00",
+        "lease_expires_at": "2026-11-19T01:32:28.548552+00:00",
+        "run_id": "44366936972"
       }
     },
     "19244": {
@@ -176102,7 +176108,7 @@
       "last_plan": {
         "source_id": "34194769",
         "display_name": "Spider 4K CZ Dabing",
-        "planned_at": "2026-11-18T19:32:23.388410+00:00"
+        "planned_at": "2026-11-18T19:32:27.924069+00:00"
       }
     },
     "27742": {
@@ -222836,5 +222842,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:32:23.711532+00:00"
+  "updated_at": "2026-11-18T19:32:28.840779+00:00"
 }
