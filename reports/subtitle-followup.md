@@ -619,8 +619,8 @@ Attach subtitles only after target processing has finished.
 | Those Magnificent Men in their Flying Machines (Those Magnificent Men in Their Flying Machines or How I Flew from London to Paris in 25 Hours 11 Minutes) 1080p CZ titulky | 30989766 | https://sdilej.cz/6120853/bajecni-muzi-na-letajicich-strojich-1965-fhd-1080p--cz-eng-.mkv | Complete: Czech subtitles verified |
 | Little Fish (2020) 1080p CZ Titulky | 30989893 | https://sdilej.cz/35401846/little.fish.2020.1080p.webrip.x264-rarbg-.mkv | Extract Czech track from exact source after processing |
 | How About Adolf? (Der Vorname) 1080p CZ Titulky | 30989905 | https://sdilej.cz/34819330/der-vorname-how-about-adolf-2018-1080p-cz.tit.mkv | Complete: Czech subtitles verified |
-| Rise 720p CZ Titulky | 30989991 | https://sdilej.cz/25891436/rise-svetla-empire-of-light-cz-titulky-2022.mkv | Extract Czech track from exact source after processing |
-| Sayonara 1080p CZ Titulky | 30990118 | https://sdilej.cz/34273318/sayonara-1957-bdrip-hd-1080p-h264-ita-eng-cze-ac3-armor-.mkv | Extract Czech track from exact source after processing |
+| Rise 720p CZ titulky | 30989991 | https://sdilej.cz/25891436/rise-svetla-empire-of-light-cz-titulky-2022.mkv | Complete: Czech subtitles verified |
+| Sayonara 1080p CZ titulky | 30990118 | https://sdilej.cz/34273318/sayonara-1957-bdrip-hd-1080p-h264-ita-eng-cze-ac3-armor-.mkv | Complete: Czech subtitles verified |
 | Once Upon a Deadpool SD CZ Titulky | 30990381 | https://sdilej.cz/11183990/once-upon-a-deadpool-2018-titulky.cz.mkv | Extract Czech track from exact source after processing |
 | Chocolat (2016) SD CZ Titulky | 30990768 | https://sdilej.cz/6841848/chocolat-monsieur-chocolat-2016-titulky.cz-1080p.mkv | Extract Czech track from exact source after processing |
 | Pupendo 1080p CZ Titulky | 30990822 | https://sdilej.cz/31960641/pupendo-2003-komedie-cz-1080p.mkv | Extract Czech track from exact source after processing |
