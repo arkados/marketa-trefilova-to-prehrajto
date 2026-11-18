@@ -116516,6 +116516,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T17:16:56.893144+00:00",
         "relay_source_id": "33799960"
+      },
+      "claim": {
+        "worker_id": "3b90ec50d0744274a6bba7b0d7ce80ef-shard-0",
+        "claimed_at": "2026-11-18T15:58:14.760975+00:00",
+        "lease_expires_at": "2026-11-18T21:58:14.760975+00:00",
+        "run_id": "44319849691"
       }
     },
     "2983": {
@@ -174398,17 +174404,19 @@
       "attempts": []
     },
     "16830": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20710849",
+          "target_video_id": "31154835",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:58:14.983494+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20710849",
         "display_name": "Saint Judy 1080p CZ Dabing",
         "planned_at": "2026-11-18T15:55:12.084141+00:00"
-      },
-      "claim": {
-        "worker_id": "a5ac99c48d8645f881849796f5add724-shard-0",
-        "claimed_at": "2026-11-18T15:55:15.061425+00:00",
-        "lease_expires_at": "2026-11-18T21:55:15.061425+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31154835",
       "prepared": {
@@ -221439,5 +221447,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:58:11.967546+00:00"
+  "updated_at": "2026-11-18T15:58:14.983515+00:00"
 }
