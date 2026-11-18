@@ -172929,17 +172929,19 @@
       }
     },
     "23281": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34397132",
+          "target_video_id": "31140229",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:11:34.089161+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34397132",
         "display_name": "Damage (1992) 1080p CZ Dabing",
         "planned_at": "2026-11-18T04:31:55.577903+00:00"
-      },
-      "claim": {
-        "worker_id": "ebf9d23d9e9c45c9a69ac59c8407cbe7-shard-0",
-        "claimed_at": "2026-11-18T04:31:56.783625+00:00",
-        "lease_expires_at": "2026-11-18T10:31:56.783625+00:00",
-        "run_id": "44190029167"
       },
       "previous_target_id": "31140229",
       "prepared": {
@@ -220187,5 +220189,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T04:49:31.334345+00:00"
+  "updated_at": "2026-11-18T05:11:34.089176+00:00"
 }
