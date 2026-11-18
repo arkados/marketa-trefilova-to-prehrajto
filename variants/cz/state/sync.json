@@ -131876,13 +131876,6 @@
           "source_id": "30410983",
           "target_video_id": "30987029",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:45:32.943713+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30410983",
-          "target_video_id": "30987029",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:17:23.760085+00:00"
         },
         {
@@ -131891,6 +131884,13 @@
           "target_video_id": "30987029",
           "permanent": false,
           "attempted_at": "2026-11-18T20:52:07.162366+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30410983",
+          "target_video_id": "30987029",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:35:36.059321+00:00"
         }
       ],
       "last_plan": {
@@ -143179,7 +143179,7 @@
       "last_plan": {
         "source_id": "35286089",
         "display_name": "Únos 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:52:06.073265+00:00"
+        "planned_at": "2026-11-18T22:35:34.284135+00:00"
       },
       "previous_target_id": "30988597",
       "prepared": {
@@ -143187,6 +143187,12 @@
         "size_bytes": 5100000000,
         "prepared_at": "2026-11-11T08:53:06.797535+00:00",
         "relay_source_id": "35286089"
+      },
+      "claim": {
+        "worker_id": "f116d9d19b1e4e98b0a26014abbd5678-shard-0",
+        "claimed_at": "2026-11-18T22:35:35.675096+00:00",
+        "lease_expires_at": "2026-11-19T04:35:35.675096+00:00",
+        "run_id": "44406951430"
       }
     },
     "25024": {
@@ -176940,7 +176946,7 @@
       "last_plan": {
         "source_id": "33776421",
         "display_name": "The Blob 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:35:30.095032+00:00"
+        "planned_at": "2026-11-18T22:35:34.643913+00:00"
       }
     },
     "29454": {
@@ -223554,5 +223560,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:35:30.367642+00:00"
+  "updated_at": "2026-11-18T22:35:36.059349+00:00"
 }
