@@ -141383,6 +141383,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T07:52:44.166649+00:00",
         "relay_source_id": "11736941"
+      },
+      "claim": {
+        "worker_id": "c98e996a9ea349b68d15df1b0a06fbee-shard-0",
+        "claimed_at": "2026-11-18T17:46:03.593964+00:00",
+        "lease_expires_at": "2026-11-18T23:46:03.593964+00:00",
+        "run_id": "44319849691"
       }
     },
     "11634": {
@@ -148546,7 +148552,7 @@
       "last_plan": {
         "source_id": "33850265",
         "display_name": "Dr. Quinn Medicine Woman: The Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:10:43.337701+00:00"
+        "planned_at": "2026-11-18T17:46:03.876143+00:00"
       },
       "previous_target_id": "31016668",
       "prepared": {
@@ -175421,17 +175427,19 @@
       }
     },
     "14083": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27665133",
+          "target_video_id": "31156484",
+          "permanent": false,
+          "attempted_at": "2026-11-18T17:46:04.157450+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27665133",
         "display_name": "La noche mágica 1080p CZ Dabing",
         "planned_at": "2026-11-18T17:39:25.730187+00:00"
-      },
-      "claim": {
-        "worker_id": "537a76b8f2384936974fbc026a21eaf4-shard-0",
-        "claimed_at": "2026-11-18T17:39:28.644756+00:00",
-        "lease_expires_at": "2026-11-18T23:39:28.644756+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31156484",
       "prepared": {
@@ -222276,5 +222284,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:46:00.840619+00:00"
+  "updated_at": "2026-11-18T17:46:04.157469+00:00"
 }
