@@ -172390,17 +172390,19 @@
       }
     },
     "22938": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734691",
+          "target_video_id": "31136666",
+          "permanent": false,
+          "attempted_at": "2026-11-18T02:00:16.595347+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734691",
         "display_name": "The Stepfather (1987) 1080p CZ Dabing",
         "planned_at": "2026-11-18T01:55:15.304643+00:00"
-      },
-      "claim": {
-        "worker_id": "1bdd1307a5f748ccbfcb9afec20e5d8c-shard-0",
-        "claimed_at": "2026-11-18T01:55:18.206019+00:00",
-        "lease_expires_at": "2026-11-18T07:55:18.206019+00:00",
-        "run_id": "44190029167"
       },
       "previous_target_id": "31136666",
       "prepared": {
@@ -219732,5 +219734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T02:00:13.700959+00:00"
+  "updated_at": "2026-11-18T02:00:16.595371+00:00"
 }
