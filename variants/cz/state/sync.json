@@ -27453,13 +27453,6 @@
           "source_id": "33392596",
           "target_video_id": "30714569",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:21:22.717343+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33392596",
-          "target_video_id": "30714569",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:45:41.976623+00:00"
         },
         {
@@ -27468,6 +27461,13 @@
           "target_video_id": "30714569",
           "permanent": false,
           "attempted_at": "2026-11-18T05:55:10.885293+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33392596",
+          "target_video_id": "30714569",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:29:24.853956+00:00"
         }
       ],
       "last_plan": {
@@ -29025,7 +29025,7 @@
       "last_plan": {
         "source_id": "26168393",
         "display_name": "42 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:55:14.476011+00:00"
+        "planned_at": "2026-11-18T07:29:23.358926+00:00"
       },
       "previous_target_id": "30721201",
       "prepared": {
@@ -29033,6 +29033,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-02T07:43:34.032473+00:00",
         "relay_source_id": "26168393"
+      },
+      "claim": {
+        "worker_id": "d0ea8e37c23e44afad17452b117e769e-shard-0",
+        "claimed_at": "2026-11-18T07:29:24.497274+00:00",
+        "lease_expires_at": "2026-11-18T13:29:24.497274+00:00",
+        "run_id": "44237121625"
       }
     },
     "23584": {
@@ -173421,7 +173427,7 @@
       "last_plan": {
         "source_id": "34952213",
         "display_name": "A Monster in Paris (Un monstre à Paris) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:29:20.234615+00:00"
+        "planned_at": "2026-11-18T07:29:23.718962+00:00"
       }
     },
     "26566": {
@@ -220611,5 +220617,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:29:20.543381+00:00"
+  "updated_at": "2026-11-18T07:29:24.853977+00:00"
 }
