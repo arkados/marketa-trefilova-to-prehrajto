@@ -22295,13 +22295,6 @@
           "source_id": "7004752",
           "target_video_id": "30984744",
           "permanent": false,
-          "attempted_at": "2026-11-18T07:51:15.502487+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7004752",
-          "target_video_id": "30984744",
-          "permanent": false,
           "attempted_at": "2026-11-18T08:21:25.319718+00:00"
         },
         {
@@ -22310,6 +22303,13 @@
           "target_video_id": "30984744",
           "permanent": false,
           "attempted_at": "2026-11-18T08:51:34.788137+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7004752",
+          "target_video_id": "30984744",
+          "permanent": false,
+          "attempted_at": "2026-11-18T09:31:38.388035+00:00"
         }
       ],
       "last_plan": {
@@ -28103,7 +28103,7 @@
       "last_plan": {
         "source_id": "13460272",
         "display_name": "Senna SD CZ titulky",
-        "planned_at": "2026-11-18T08:51:33.677504+00:00"
+        "planned_at": "2026-11-18T09:31:37.334399+00:00"
       },
       "previous_target_id": "31135008",
       "prepared": {
@@ -28111,6 +28111,12 @@
         "size_bytes": 2048912549,
         "prepared_at": "2026-11-18T00:45:55.685778+00:00",
         "relay_source_id": "13460272"
+      },
+      "claim": {
+        "worker_id": "48765a93554e4166a4ac91b9be441137-shard-0",
+        "claimed_at": "2026-11-18T09:31:37.727992+00:00",
+        "lease_expires_at": "2026-11-18T15:31:37.727992+00:00",
+        "run_id": "44276193396"
       }
     },
     "28698": {
@@ -100784,5 +100790,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:31:34.139080+00:00"
+  "updated_at": "2026-11-18T09:31:38.388051+00:00"
 }
