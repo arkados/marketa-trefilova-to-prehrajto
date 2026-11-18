@@ -108017,7 +108017,7 @@
       "last_plan": {
         "source_id": "31561997",
         "display_name": "Vracenky SD CZ Dabing",
-        "planned_at": "2026-11-18T14:26:02.068854+00:00"
+        "planned_at": "2026-11-18T15:58:27.847052+00:00"
       },
       "previous_target_id": "30983461",
       "prepared": {
@@ -141065,6 +141065,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-11T07:44:03.302758+00:00",
         "relay_source_id": "33505803"
+      },
+      "claim": {
+        "worker_id": "f49553315b0b4c4b9fdb097cd41a51f7-shard-0",
+        "claimed_at": "2026-11-18T15:58:27.573643+00:00",
+        "lease_expires_at": "2026-11-18T21:58:27.573643+00:00",
+        "run_id": "44319849691"
       }
     },
     "24712": {
@@ -174424,11 +174430,23 @@
       "attempts": []
     },
     "28462": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34710968",
+          "reason": "Request failed for https://sdilej.cz/34710968/mistress-america-2015-cz-dabing.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:58:28.872573+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34710968",
         "display_name": "Mistress America 1080p CZ Dabing",
         "planned_at": "2026-11-18T15:58:24.308962+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34710968",
+        "requested_at": "2026-11-18T15:58:28.872556+00:00"
       }
     },
     "12501": {
@@ -174436,7 +174454,7 @@
       "last_plan": {
         "source_id": "29292566",
         "display_name": "Mystery, Alaska 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:58:24.542021+00:00"
+        "planned_at": "2026-11-18T15:58:28.387119+00:00"
       }
     },
     "36704": {
@@ -221446,5 +221464,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:58:24.542034+00:00"
+  "updated_at": "2026-11-18T15:58:28.872578+00:00"
 }
