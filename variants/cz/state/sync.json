@@ -109573,7 +109573,7 @@
       "last_plan": {
         "source_id": "34716695",
         "display_name": "Měsíc nad řekou 1080p CZ Dabing",
-        "planned_at": "2026-11-18T08:39:58.356442+00:00"
+        "planned_at": "2026-11-18T10:16:34.355247+00:00"
       },
       "previous_target_id": "30983668",
       "prepared": {
@@ -109581,6 +109581,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:30:57.208597+00:00",
         "relay_source_id": "34716695"
+      },
+      "claim": {
+        "worker_id": "020302849c684a009029454656e264aa-shard-0",
+        "claimed_at": "2026-11-18T10:16:35.206338+00:00",
+        "lease_expires_at": "2026-11-18T16:16:35.206338+00:00",
+        "run_id": "44276193396"
       }
     },
     "24311": {
@@ -173626,17 +173632,23 @@
           "attempted_at": "2026-11-18T08:39:55.989808+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "28001260",
-        "display_name": "Hamlet (1990) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:16:30.934278+00:00"
-      },
       "previous_target_id": "31145261",
-      "prepared": {
+      "upload": {
         "target_video_id": "31145261",
-        "size_bytes": 2636518286,
-        "prepared_at": "2026-11-18T08:32:03.571991+00:00",
-        "relay_source_id": "28001260"
+        "display_name": "Hamlet (1990) 1080p CZ Dabing",
+        "source_id": "28001260",
+        "source_url": "https://sdilej.cz/28001260/hamlet-1990--------------347-.mkv",
+        "source_filename": "Hamlet (1990) (347).mkv",
+        "size_bytes": 2600000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9682782292366028,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/hamlet-1990-1080p-cz-dabing-mkv/c5f8a3bb0fcecbd4",
+        "uploaded_at": "2026-11-18T10:16:35.466948+00:00"
       }
     },
     "16058": {
@@ -173711,7 +173723,7 @@
       "last_plan": {
         "source_id": "17573707",
         "display_name": "The Last Letter from Your Lover 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:16:31.237369+00:00"
+        "planned_at": "2026-11-18T10:16:34.661999+00:00"
       }
     },
     "13848": {
@@ -220862,5 +220874,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T10:16:31.479477+00:00"
+  "updated_at": "2026-11-18T10:16:35.466962+00:00"
 }
