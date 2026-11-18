@@ -141973,13 +141973,6 @@
           "source_id": "32763852",
           "target_video_id": "30988393",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:04:43.818324+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32763852",
-          "target_video_id": "30988393",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:28:16.219861+00:00"
         },
         {
@@ -141988,6 +141981,13 @@
           "target_video_id": "30988393",
           "permanent": false,
           "attempted_at": "2026-11-18T12:56:02.527425+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32763852",
+          "target_video_id": "30988393",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:19:25.566784+00:00"
         }
       ],
       "last_plan": {
@@ -168625,7 +168625,7 @@
       "last_plan": {
         "source_id": "12139621",
         "display_name": "Breakheart Pass 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:56:00.671357+00:00"
+        "planned_at": "2026-11-18T15:19:24.036416+00:00"
       },
       "previous_target_id": "31118765",
       "prepared": {
@@ -168633,6 +168633,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-17T12:57:40.565798+00:00",
         "relay_source_id": "12139621"
+      },
+      "claim": {
+        "worker_id": "023435f76df14c5db3362f16afa421b1-shard-0",
+        "claimed_at": "2026-11-18T15:19:25.268477+00:00",
+        "lease_expires_at": "2026-11-18T21:19:25.268477+00:00",
+        "run_id": "44319849691"
       }
     },
     "14611": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:19:20.689473+00:00"
+        "planned_at": "2026-11-18T15:19:24.427912+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:19:20.689490+00:00"
+  "updated_at": "2026-11-18T15:19:25.566800+00:00"
 }
