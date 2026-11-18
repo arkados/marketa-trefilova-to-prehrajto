@@ -130742,7 +130742,7 @@
       "last_plan": {
         "source_id": "30261994",
         "display_name": "Nightline (Promlčeno) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T23:07:19.092586+00:00"
+        "planned_at": "2026-11-18T00:31:59.833132+00:00"
       },
       "previous_target_id": "30986930",
       "prepared": {
@@ -130750,6 +130750,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T02:43:15.360689+00:00",
         "relay_source_id": "30261994"
+      },
+      "claim": {
+        "worker_id": "506eb843712e4a7c865b0b5436833641-shard-0",
+        "claimed_at": "2026-11-18T00:32:00.815414+00:00",
+        "lease_expires_at": "2026-11-18T06:32:00.815414+00:00",
+        "run_id": "44170464010"
       }
     },
     "13847": {
@@ -171835,17 +171841,23 @@
           "attempted_at": "2026-11-17T23:07:13.603895+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "28248567",
-        "display_name": "Hranari (Edgemen) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:31:56.323214+00:00"
-      },
       "previous_target_id": "31132374",
-      "prepared": {
+      "upload": {
         "target_video_id": "31132374",
-        "size_bytes": 2287367413,
-        "prepared_at": "2026-11-17T23:00:43.499214+00:00",
-        "relay_source_id": "28248567"
+        "display_name": "Hranari (Edgemen) 1080p CZ Dabing",
+        "source_id": "28248567",
+        "source_url": "https://sdilej.cz/28248567/ranar-2011---1013-.mkv",
+        "source_filename": "Ranař (2011) (1013).mkv",
+        "size_bytes": 2300000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.942961573600769,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/hranari-edgemen-1080p-cz-dabing-mkv/28da6ddc8e2fb3f7",
+        "uploaded_at": "2026-11-18T00:32:01.128927+00:00"
       }
     },
     "3301": {
@@ -172122,7 +172134,7 @@
       "last_plan": {
         "source_id": "35010856",
         "display_name": "The True Knight (Pravý rytíř) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:31:56.656070+00:00"
+        "planned_at": "2026-11-18T00:32:00.197815+00:00"
       }
     },
     "17501": {
@@ -219484,5 +219496,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:31:56.916399+00:00"
+  "updated_at": "2026-11-18T00:32:01.128943+00:00"
 }
