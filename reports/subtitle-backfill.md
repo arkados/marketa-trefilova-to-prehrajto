@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:13:50.903753+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:13:59.452155+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 544, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 153, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 545, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 152, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -104,7 +104,6 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Fack ju Göhte 1080p CZ Titulky](https://prehraj.to/fack-ju-goehte-1080p-cz-titulky-mkv/5fbcf6e92c7a2fb4) (ID 31009557) | [Sdílej 29043242](https://sdilej.cz/29043242/fakju-pane-uciteli.mkv) | target_unavailable | 2026-11-13T06:07:12.445204+00:00 |
 | [Fany 1080p CZ Titulky](https://prehraj.to/fany-1080p-cz-titulky-mp4/50d935402cab42ee) (ID 31036927) | [Sdílej 26914298](https://sdilej.cz/26914298/rany-cz-1080p.mp4) | target_unavailable | 2026-11-14T18:46:18.601763+00:00 |
 | [Ferry 720p CZ titulky](https://prehraj.to/ferry-720p-cz-titulky-mkv/30f5b91e1b85ee37) (ID 30987911) | [Sdílej 32154189](https://sdilej.cz/32154189/ferry-2021-cz-tit-1080p.mkv) | target_unavailable | 2026-11-18T13:02:23.061217+00:00 |
-| [Finch 1080p CZ Titulky](https://prehraj.to/finch-1080p-cz-titulky-mkv/54f021b7c071bba6) (ID 31006906) | [Sdílej 26705455](https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv) | target_unavailable | 2026-11-12T23:01:49.245539+00:00 |
 | [Frozen 2 (Frozen II) 1080p CZ Titulky](https://prehraj.to/frozen-2-frozen-ii-1080p-cz-titulky-mkv/1ee5ef3470d00b88) (ID 31085056) | [Sdílej 26861725](https://sdilej.cz/26861725/ledove-kralovstvi-2-frozen-2-2019-cz-fhd-h265-deadinside.mkv) | target_unavailable | 2026-11-16T06:57:28.896402+00:00 |
 | [Gladiator (2000) 4K CZ Titulky](https://prehraj.to/gladiator-2000-cz-titulky-mkv/5ab06a3385e9b8ad) (ID 30589321) | [Sdílej 32959336](https://sdilej.cz/32959336/gladiator-2000-2160p-cz-dabing-en-dts-hd-radecek.mkv) | target_unavailable | 2026-11-18T23:05:43.312027+00:00 |
 | [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-18T12:51:48.581939+00:00 |
