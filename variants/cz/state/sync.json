@@ -128630,13 +128630,6 @@
           "source_id": "7866512",
           "target_video_id": "30986655",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:14:58.359296+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7866512",
-          "target_video_id": "30986655",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:47:47.237028+00:00"
         },
         {
@@ -128645,12 +128638,19 @@
           "target_video_id": "30986655",
           "permanent": false,
           "attempted_at": "2026-11-18T17:20:40.061873+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7866512",
+          "target_video_id": "30986655",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:53:54.675514+00:00"
         }
       ],
       "last_plan": {
         "source_id": "7866512",
         "display_name": "The Kid (2010) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:20:29.678109+00:00"
+        "planned_at": "2026-11-18T18:53:51.054194+00:00"
       },
       "previous_target_id": "30986655",
       "prepared": {
@@ -175898,11 +175898,22 @@
       "last_plan": {
         "source_id": "32871501",
         "display_name": "Young & Beautiful (Jeune et jolie) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:53:45.939840+00:00"
+        "planned_at": "2026-11-18T18:53:51.370316+00:00"
+      },
+      "claim": {
+        "worker_id": "88ef860d400c45e89a8f72216d3e239e-shard-0",
+        "claimed_at": "2026-11-18T18:53:52.098046+00:00",
+        "lease_expires_at": "2026-11-19T00:53:52.098046+00:00",
+        "run_id": "44366936972"
       }
     },
     "15913": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28404933",
+        "display_name": "Honeymoon (Líbánky) (2013) 4K CZ Dabing",
+        "planned_at": "2026-11-18T18:53:51.580459+00:00"
+      }
     },
     "23700": {
       "attempts": []
@@ -222653,5 +222664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:53:48.068680+00:00"
+  "updated_at": "2026-11-18T18:53:54.675532+00:00"
 }
