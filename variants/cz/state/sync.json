@@ -116340,13 +116340,6 @@
           "source_id": "33544977",
           "target_video_id": "30984660",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:29:11.036986+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33544977",
-          "target_video_id": "30984660",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:56:15.857692+00:00"
         },
         {
@@ -116355,6 +116348,13 @@
           "target_video_id": "30984660",
           "permanent": false,
           "attempted_at": "2026-11-18T14:18:20.061553+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33544977",
+          "target_video_id": "30984660",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:51:44.598784+00:00"
         }
       ],
       "last_plan": {
@@ -144185,7 +144185,7 @@
       "last_plan": {
         "source_id": "29307486",
         "display_name": "Murder in Provence (Le Prix de la loyauté) SD CZ Dabing",
-        "planned_at": "2026-11-18T14:18:19.367968+00:00"
+        "planned_at": "2026-11-18T15:51:42.946862+00:00"
       },
       "previous_target_id": "30988757",
       "prepared": {
@@ -144193,6 +144193,12 @@
         "size_bytes": 842000000,
         "prepared_at": "2026-11-11T09:49:40.767037+00:00",
         "relay_source_id": "29307486"
+      },
+      "claim": {
+        "worker_id": "f7168faf04744f9481328993dba4b6de-shard-0",
+        "claimed_at": "2026-11-18T15:51:44.231520+00:00",
+        "lease_expires_at": "2026-11-18T21:51:44.231520+00:00",
+        "run_id": "44319849691"
       }
     },
     "11445": {
@@ -174343,17 +174349,19 @@
       "attempts": []
     },
     "11645": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34232448",
+          "target_video_id": "31154723",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:51:44.817862+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34232448",
         "display_name": "Night of the Creeps 4K CZ Dabing",
         "planned_at": "2026-11-18T15:47:55.011587+00:00"
-      },
-      "claim": {
-        "worker_id": "36cf15d54dd04704b8815ae2b325d939-shard-0",
-        "claimed_at": "2026-11-18T15:47:58.308410+00:00",
-        "lease_expires_at": "2026-11-18T21:47:58.308410+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31154723",
       "prepared": {
@@ -174371,7 +174379,7 @@
       "last_plan": {
         "source_id": "19775054",
         "display_name": "The Fantastic Journey of Margot & Marguerite (L'Aventure des Marguerite) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:51:38.562426+00:00"
+        "planned_at": "2026-11-18T15:51:43.355570+00:00"
       }
     },
     "26609": {
@@ -221399,5 +221407,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:51:38.562440+00:00"
+  "updated_at": "2026-11-18T15:51:44.817879+00:00"
 }
