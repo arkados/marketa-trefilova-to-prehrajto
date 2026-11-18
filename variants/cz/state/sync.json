@@ -6995,13 +6995,6 @@
           "source_id": "31074308",
           "target_video_id": "30626698",
           "permanent": false,
-          "attempted_at": "2026-11-17T21:47:44.821514+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31074308",
-          "target_video_id": "30626698",
-          "permanent": false,
           "attempted_at": "2026-11-17T23:15:39.221284+00:00"
         },
         {
@@ -7010,6 +7003,13 @@
           "target_video_id": "30626698",
           "permanent": false,
           "attempted_at": "2026-11-18T00:53:45.453947+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31074308",
+          "target_video_id": "30626698",
+          "permanent": false,
+          "attempted_at": "2026-11-18T02:20:09.639154+00:00"
         }
       ],
       "last_plan": {
@@ -7023,12 +7023,6 @@
         "size_bytes": 10000000000,
         "prepared_at": "2026-10-30T05:04:22.312252+00:00",
         "relay_source_id": "31074308"
-      },
-      "claim": {
-        "worker_id": "952e186e69234e6e99a86e4c5f4e22b0-shard-0",
-        "claimed_at": "2026-11-18T02:20:03.739522+00:00",
-        "lease_expires_at": "2026-11-18T08:20:03.739522+00:00",
-        "run_id": "44190029167"
       }
     },
     "321": {
@@ -134247,7 +134241,7 @@
       "last_plan": {
         "source_id": "33817621",
         "display_name": "Jak se Franta naučil bát 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:53:44.725582+00:00"
+        "planned_at": "2026-11-18T02:20:06.409736+00:00"
       },
       "previous_target_id": "30987402",
       "prepared": {
@@ -134255,6 +134249,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T04:32:01.194800+00:00",
         "relay_source_id": "33817621"
+      },
+      "claim": {
+        "worker_id": "fd7d438fa7d34803add2c24e106a1e26-shard-0",
+        "claimed_at": "2026-11-18T02:20:07.449017+00:00",
+        "lease_expires_at": "2026-11-18T08:20:07.449017+00:00",
+        "run_id": "44190029167"
       }
     },
     "32074": {
@@ -172529,6 +172529,13 @@
         "claimed_at": "2026-11-18T02:20:02.154728+00:00",
         "lease_expires_at": "2026-11-18T08:20:02.154728+00:00",
         "run_id": "44190029167"
+      },
+      "previous_target_id": "31137198",
+      "prepared": {
+        "target_video_id": "31137198",
+        "size_bytes": 4032088080,
+        "prepared_at": "2026-11-18T02:20:09.913756+00:00",
+        "relay_source_id": "27284522"
       }
     },
     "3294": {
@@ -172536,7 +172543,7 @@
       "last_plan": {
         "source_id": "27387929",
         "display_name": "A Christmas Story Christmas 4K CZ Dabing",
-        "planned_at": "2026-11-18T02:20:02.859790+00:00"
+        "planned_at": "2026-11-18T02:20:06.783957+00:00"
       }
     },
     "13507": {
@@ -219823,5 +219830,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T02:20:04.327238+00:00"
+  "updated_at": "2026-11-18T02:20:09.913779+00:00"
 }
