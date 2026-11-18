@@ -27417,13 +27417,6 @@
           "source_id": "29719575",
           "target_video_id": "30714314",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:09:14.406507+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29719575",
-          "target_video_id": "30714314",
-          "permanent": false,
           "attempted_at": "2026-11-18T17:41:49.661201+00:00"
         },
         {
@@ -27432,6 +27425,13 @@
           "target_video_id": "30714314",
           "permanent": false,
           "attempted_at": "2026-11-18T19:16:28.052084+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29719575",
+          "target_video_id": "30714314",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:51:11.307974+00:00"
         }
       ],
       "last_plan": {
@@ -129852,7 +129852,7 @@
       "last_plan": {
         "source_id": "34774875",
         "display_name": "Waterboys 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:16:24.812126+00:00"
+        "planned_at": "2026-11-18T20:51:09.979813+00:00"
       },
       "previous_target_id": "30986837",
       "prepared": {
@@ -129860,6 +129860,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T02:18:35.871036+00:00",
         "relay_source_id": "34774875"
+      },
+      "claim": {
+        "worker_id": "9e6ac1e7401c4648ad88ae658c8bde7d-shard-0",
+        "claimed_at": "2026-11-18T20:51:10.960294+00:00",
+        "lease_expires_at": "2026-11-19T02:51:10.960294+00:00",
+        "run_id": "44366936972"
       }
     },
     "22072": {
@@ -176435,7 +176441,7 @@
       "last_plan": {
         "source_id": "34673189",
         "display_name": "Me Before Me 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:51:06.997416+00:00"
+        "planned_at": "2026-11-18T20:51:10.323016+00:00"
       }
     },
     "15231": {
@@ -223136,5 +223142,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:51:06.997436+00:00"
+  "updated_at": "2026-11-18T20:51:11.307991+00:00"
 }
