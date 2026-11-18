@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:42.881594+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:48.911102+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -159,7 +159,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Nope SD CZ Titulky](https://prehraj.to/nope-sd-cz-titulky-mkv/dd3a076bdb26a68f) (ID 31081523) | [Sdílej 28526265](https://sdilej.cz/28526265/nope-2022-cztit-v-obraze.mkv) | target_unavailable | 2026-11-16T03:35:48.714262+00:00 |
 | [Officer Black Belt (무도실무관) 1080p CZ Titulky](https://prehraj.to/officer-black-belt-1080p-cz-titulky-mkv/0a508ab3d7fb78fb) (ID 31015032) | [Sdílej 29683351](https://sdilej.cz/29683351/officer.black.belt.2024.1080p.web.h264-edith.mkv) | target_unavailable | 2026-11-13T16:13:31.466084+00:00 |
 | [Once Upon a Deadpool SD CZ Titulky](https://prehraj.to/once-upon-a-deadpool-sd-cz-titulky-mkv/87a8d248a0d82245) (ID 30990381) | [Sdílej 11183990](https://sdilej.cz/11183990/once-upon-a-deadpool-2018-titulky.cz.mkv) | target_unavailable | 2026-11-11T13:28:18.261248+00:00 |
-| [One Battle After Another 4K CZ titulky](https://prehraj.to/one-battle-after-another-4k-cz-titulky-mkv/1be8829cd8a60408) (ID 30681595) | [Sdílej 32388547](https://sdilej.cz/32388547/jedna-bitva-za-druhou-2025-cztitle.mkv) | target_unavailable | 2026-11-10T09:41:28.229600+00:00 |
+| [One Battle After Another 4K CZ titulky](https://prehraj.to/one-battle-after-another-4k-cz-titulky-mkv/1be8829cd8a60408) (ID 30681595) | [Sdílej 32388547](https://sdilej.cz/32388547/jedna-bitva-za-druhou-2025-cztitle.mkv) | target_unavailable | 2026-11-18T12:42:47.209734+00:00 |
 | [Oppenheimer 4K CZ Titulky](https://prehraj.to/oppenheimer-cz-titulky-mkv/9ee165ff5b204326) (ID 30606867) | [Sdílej 32915178](https://sdilej.cz/32915178/oppenheimer-2023-cz-sk-radecek.mkv) | target_unavailable | 2026-11-10T09:49:40.884744+00:00 |
 | [Outlaws 1080p CZ Titulky](https://prehraj.to/outlaws-1080p-cz-titulky-mkv/68a34795b5fffcb7) (ID 31021566) | [Sdílej 19685390](https://sdilej.cz/19685390/las-leyes-de-la-frontera-outlaws-psanci-2021-cz-titulky-.mkv) | target_unavailable | 2026-11-13T23:48:52.122445+00:00 |
 | [Panic Room 1080p CZ Titulky](https://prehraj.to/panic-room-1080p-cz-titulky-mkv/b7d9d801c754daee) (ID 31081901) | [Sdílej 31100204](https://sdilej.cz/31100204/2002-panic-room-ukryt-cz-en-1080p.mkv) | target_unavailable | 2026-11-16T03:46:44.277523+00:00 |
