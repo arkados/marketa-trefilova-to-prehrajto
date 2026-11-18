@@ -8606,13 +8606,6 @@
           "source_id": "21842659",
           "target_video_id": "30631275",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:17:14.312955+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21842659",
-          "target_video_id": "30631275",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:43:26.973172+00:00"
         },
         {
@@ -8621,6 +8614,13 @@
           "target_video_id": "30631275",
           "permanent": false,
           "attempted_at": "2026-11-18T05:52:04.821704+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21842659",
+          "target_video_id": "30631275",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:27:00.547138+00:00"
         }
       ],
       "last_plan": {
@@ -22374,7 +22374,7 @@
       "last_plan": {
         "source_id": "18074667",
         "display_name": "The Florida Project 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:52:07.091035+00:00"
+        "planned_at": "2026-11-18T07:26:58.833696+00:00"
       },
       "previous_target_id": "30692683",
       "prepared": {
@@ -22382,6 +22382,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-01T10:42:52.289576+00:00",
         "relay_source_id": "18074667"
+      },
+      "claim": {
+        "worker_id": "a0ce7137f60647ccaea7dd7587fb2368-shard-0",
+        "claimed_at": "2026-11-18T07:26:59.876632+00:00",
+        "lease_expires_at": "2026-11-18T13:26:59.876632+00:00",
+        "run_id": "44237121625"
       }
     },
     "730": {
@@ -173421,7 +173427,7 @@
       "last_plan": {
         "source_id": "34952213",
         "display_name": "A Monster in Paris (Un monstre à Paris) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:26:55.793328+00:00"
+        "planned_at": "2026-11-18T07:26:59.193956+00:00"
       }
     },
     "26566": {
@@ -220611,5 +220617,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:26:56.084326+00:00"
+  "updated_at": "2026-11-18T07:27:00.547160+00:00"
 }
