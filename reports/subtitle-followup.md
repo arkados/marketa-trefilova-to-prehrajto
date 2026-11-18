@@ -652,7 +652,7 @@ Attach subtitles only after target processing has finished.
 | Conan the Barbarian (1982) 1080p CZ titulky | 31005845 | https://sdilej.cz/35402133/conan.the.barbarian.1982.1080p.bluray.h264.aac-rarbg.cz.sub.mkv | Complete: Czech subtitles verified |
 | Green Room 1080p CZ titulky | 31005872 | https://sdilej.cz/6122354/green-room-2015-titulky.cz-1080p.h264.mkv | Complete: Czech subtitles verified |
 | Triangle 1080p CZ titulky | 31006060 | https://sdilej.cz/14629570/triangle-en-vlozene-titulky-2009-thriller-1080p.mkv | Complete: Czech subtitles verified |
-| Bill & Ted's Excellent Adventure 720p CZ Titulky | 31006119 | https://sdilej.cz/34453030/skvele-dobrodruzstvi-billa-a-teda-1989-komedie-keanu-reeves-cztit.bluray.hd.mkv | Extract Czech track from exact source after processing |
+| Bill & Ted's Excellent Adventure 720p CZ titulky | 31006119 | https://sdilej.cz/34453030/skvele-dobrodruzstvi-billa-a-teda-1989-komedie-keanu-reeves-cztit.bluray.hd.mkv | Complete: Czech subtitles verified |
 | Swiss Army Man 720p CZ Titulky | 31006278 | https://sdilej.cz/6507377/swiss-army-man-2016-720p-bluray-dts-x264-ceske-titulky.mkv | Extract Czech track from exact source after processing |
 | Clear and Present Danger 1080p CZ Titulky | 31006506 | https://sdilej.cz/29946984/jasne-nebezpeci-1994-en-cs-pl-en-cs-pl-816p23.976-.mkv | Extract Czech track from exact source after processing |
 | Finch 1080p CZ Titulky | 31006906 | https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv | Extract Czech track from exact source after processing |
