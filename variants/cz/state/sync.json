@@ -127565,13 +127565,6 @@
           "source_id": "30676301",
           "target_video_id": "30986424",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:35:24.701647+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30676301",
-          "target_video_id": "30986424",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:02:02.438895+00:00"
         },
         {
@@ -127580,6 +127573,13 @@
           "target_video_id": "30986424",
           "permanent": false,
           "attempted_at": "2026-11-18T04:29:20.297843+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30676301",
+          "target_video_id": "30986424",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:38:38.228023+00:00"
         }
       ],
       "last_plan": {
@@ -138016,7 +138016,7 @@
       "last_plan": {
         "source_id": "29979237",
         "display_name": "Smetana 1080p CZ Dabing",
-        "planned_at": "2026-11-18T04:29:24.130600+00:00"
+        "planned_at": "2026-11-18T06:38:36.541819+00:00"
       },
       "previous_target_id": "30987839",
       "prepared": {
@@ -138024,6 +138024,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T06:20:47.389772+00:00",
         "relay_source_id": "29979237"
+      },
+      "claim": {
+        "worker_id": "28e6aabfeb4d4e3fa2a1b8ef7d26cf0b-shard-0",
+        "claimed_at": "2026-11-18T06:38:37.515804+00:00",
+        "lease_expires_at": "2026-11-18T12:38:37.515804+00:00",
+        "run_id": "44237121625"
       }
     },
     "10741": {
@@ -173270,7 +173276,7 @@
       "last_plan": {
         "source_id": "12280092",
         "display_name": "Teen Titans Go! To the Movies 1080p CZ Dabing",
-        "planned_at": "2026-11-18T06:38:33.586034+00:00"
+        "planned_at": "2026-11-18T06:38:36.881904+00:00"
       }
     },
     "30071": {
@@ -220469,5 +220475,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:38:33.858649+00:00"
+  "updated_at": "2026-11-18T06:38:38.228044+00:00"
 }
