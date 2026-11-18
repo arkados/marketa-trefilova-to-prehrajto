@@ -176912,17 +176912,19 @@
       }
     },
     "15974": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694410",
+          "target_video_id": "31161689",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:36:21.774140+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694410",
         "display_name": "Familia 1080p CZ Dabing",
         "planned_at": "2026-11-18T22:31:46.574001+00:00"
-      },
-      "claim": {
-        "worker_id": "dbb8232643154f13bd9ae002268180ff-shard-0",
-        "claimed_at": "2026-11-18T22:31:47.520503+00:00",
-        "lease_expires_at": "2026-11-19T04:31:47.520503+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31161689",
       "prepared": {
@@ -223560,5 +223562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:36:19.613049+00:00"
+  "updated_at": "2026-11-18T22:36:21.774161+00:00"
 }
