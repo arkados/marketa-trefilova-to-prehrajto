@@ -98848,13 +98848,6 @@
           "source_id": "25775847",
           "target_video_id": "30957288",
           "permanent": false,
-          "attempted_at": "2026-11-18T04:02:45.833151+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25775847",
-          "target_video_id": "30957288",
-          "permanent": false,
           "attempted_at": "2026-11-18T06:11:05.389617+00:00"
         },
         {
@@ -98863,12 +98856,19 @@
           "target_video_id": "30957288",
           "permanent": false,
           "attempted_at": "2026-11-18T07:45:04.279654+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25775847",
+          "target_video_id": "30957288",
+          "permanent": false,
+          "attempted_at": "2026-11-18T09:29:06.232056+00:00"
         }
       ],
       "last_plan": {
         "source_id": "25775847",
         "display_name": "Sněženky a machři 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:17:18.357924+00:00"
+        "planned_at": "2026-11-18T09:29:03.173513+00:00"
       },
       "previous_target_id": "30957288",
       "prepared": {
@@ -173655,14 +173655,30 @@
       "last_plan": {
         "source_id": "34657903",
         "display_name": "Dealer 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:17:18.718037+00:00"
+        "planned_at": "2026-11-18T09:29:03.488541+00:00"
+      },
+      "claim": {
+        "worker_id": "e8bb1242e04a45af9e608f0b4a22ec6f-shard-0",
+        "claimed_at": "2026-11-18T09:29:04.555934+00:00",
+        "lease_expires_at": "2026-11-18T15:29:04.555934+00:00",
+        "run_id": "44276193396"
       }
     },
     "3317": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "19572859",
+        "display_name": "8-Bit Christmas 4K CZ Dabing",
+        "planned_at": "2026-11-18T09:29:03.688052+00:00"
+      }
     },
     "3331": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "17573707",
+        "display_name": "The Last Letter from Your Lover 1080p CZ Dabing",
+        "planned_at": "2026-11-18T09:29:03.883139+00:00"
+      }
     },
     "13848": {
       "attempts": []
@@ -220812,5 +220828,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:22:32.529568+00:00"
+  "updated_at": "2026-11-18T09:29:06.232073+00:00"
 }
