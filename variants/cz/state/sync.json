@@ -172331,17 +172331,19 @@
       "attempts": []
     },
     "17089": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695573",
+          "target_video_id": "31136395",
+          "permanent": false,
+          "attempted_at": "2026-11-18T01:49:17.804888+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695573",
         "display_name": "A Song for Christmas (2017) [ID 17089] 1080p CZ Dabing",
         "planned_at": "2026-11-18T01:43:43.217338+00:00"
-      },
-      "claim": {
-        "worker_id": "b5415810156e4d98b81eedb0382092a5-shard-0",
-        "claimed_at": "2026-11-18T01:43:45.953247+00:00",
-        "lease_expires_at": "2026-11-18T07:43:45.953247+00:00",
-        "run_id": "44190029167"
       },
       "previous_target_id": "31136395",
       "prepared": {
@@ -219679,5 +219681,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T01:49:15.623417+00:00"
+  "updated_at": "2026-11-18T01:49:17.804909+00:00"
 }
