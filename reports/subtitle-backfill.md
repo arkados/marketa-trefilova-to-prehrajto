@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:16:25.990715+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:16:33.919559+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 553, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 144, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 554, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 143, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -98,7 +98,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Empties (Vratné lahve) 1080p CZ Titulky](https://prehraj.to/empties-vratne-lahve-1080p-cz-titulky-mkv/2fa38051e9b275cf) (ID 30938020) | [Sdílej 32453722](https://sdilej.cz/32453722/vratne-lahve-2007-fhd-cz.mkv) | target_unavailable | 2026-11-18T12:42:36.487068+00:00 |
 | [Enola Holmes 2 1080p CZ Titulky](https://prehraj.to/enola-holmes-2-1080p-cz-titulky-mkv/b2c4680e2b15504c) (ID 31089623) | [Sdílej 23652012](https://sdilej.cz/23652012/enola.holmes.2.2022.1080p.nf.web-dl.ddp5.1.atmos.h.264-smurf.cz.titulky.mkv) | target_unavailable | 2026-11-16T10:52:31.877634+00:00 |
 | [Erin Brockovich 1080p CZ titulky](https://prehraj.to/erin-brockovich-1080p-cz-titulky-mkv/894daecd9c168ca1) (ID 30715404) | [Sdílej 19346570](https://sdilej.cz/19346570/erin.brockovich.2000.1080p.bluray.cz-en.5.1.mkv) | target_unavailable | 2026-11-18T12:50:33.452447+00:00 |
-| [Fack ju Göhte 1080p CZ Titulky](https://prehraj.to/fack-ju-goehte-1080p-cz-titulky-mkv/5fbcf6e92c7a2fb4) (ID 31009557) | [Sdílej 29043242](https://sdilej.cz/29043242/fakju-pane-uciteli.mkv) | target_unavailable | 2026-11-13T06:07:12.445204+00:00 |
 | [Fany 1080p CZ Titulky](https://prehraj.to/fany-1080p-cz-titulky-mp4/50d935402cab42ee) (ID 31036927) | [Sdílej 26914298](https://sdilej.cz/26914298/rany-cz-1080p.mp4) | target_unavailable | 2026-11-14T18:46:18.601763+00:00 |
 | [Ferry 720p CZ titulky](https://prehraj.to/ferry-720p-cz-titulky-mkv/30f5b91e1b85ee37) (ID 30987911) | [Sdílej 32154189](https://sdilej.cz/32154189/ferry-2021-cz-tit-1080p.mkv) | target_unavailable | 2026-11-18T13:02:23.061217+00:00 |
 | [Frozen 2 (Frozen II) 1080p CZ Titulky](https://prehraj.to/frozen-2-frozen-ii-1080p-cz-titulky-mkv/1ee5ef3470d00b88) (ID 31085056) | [Sdílej 26861725](https://sdilej.cz/26861725/ledove-kralovstvi-2-frozen-2-2019-cz-fhd-h265-deadinside.mkv) | target_unavailable | 2026-11-16T06:57:28.896402+00:00 |
