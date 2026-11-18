@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:52:10.758144+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:52:18.869003+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 506, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 2, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 193, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 507, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 2, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 192, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -214,7 +214,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [The Blue Trail (O Último Azul) 1080p CZ Titulky](https://prehraj.to/the-blue-trail-o-ultimo-azul-1080p-cz-titulky-mkv/5344564bd1401e11) (ID 30996874) | [Sdílej 32938361](https://sdilej.cz/32938361/modrou-stezkou-2025-sci-fi-drama-fantasy-cztit-fhd.mkv) | target_unavailable | 2026-11-12T02:12:09.271724+00:00 |
 | [The Book of Eli 1080p CZ Titulky](https://prehraj.to/the-book-of-eli-1080p-cz-titulky-mkv/dddbbcabc8d8f9e5) (ID 31078813) | [Sdílej 18629616](https://sdilej.cz/18629616/kniha-preziti-2010-cz-en-sp.mkv) | target_unavailable | 2026-11-16T01:25:39.653413+00:00 |
 | [The Charterhouse of Parma (La Chartreuse de Parme) 1080p CZ Titulky](https://prehraj.to/the-charterhouse-of-parma-la-chartreuse-de-parme-1080p-cz-titulky-mkv/52b1dea585ce6f92) (ID 31018372) | [Sdílej 24337653](https://sdilej.cz/24337653/veznice-parmska-la-chartreuse-de-parme-1948-fr.cz.mkv) | target_unavailable | 2026-11-13T20:05:24.454966+00:00 |
-| [The Dirt 4K CZ Titulky](https://prehraj.to/the-dirt-4k-cz-titulky-mkv/2af6bd2bb9daad74) (ID 30977182) | [Sdílej 12889912](https://sdilej.cz/12889912/the.dirt.2019.2160p.uhdrip.sdr.hevc.ddp.5.1-ddr.cztitulky.mkv) | target_unavailable | 2026-11-10T11:21:36.817236+00:00 |
 | [The Disappearance of Josef Mengele (Das Verschwinden des Josef Mengele) 1080p CZ Titulky](https://prehraj.to/the-disappearance-of-josef-mengele-das-verschwinden-des-josef-mengele-1080p-cz-titulky-mkv/d1ab6bd16b47c091) (ID 31030581) | [Sdílej 34039821](https://sdilej.cz/34039821/zmizeni-josefa-menegeleho-das-verschwinden-des-josef-mengele-2025-cz-titulky.mkv) | target_unavailable | 2026-11-14T13:44:39.139758+00:00 |
 | [The Duke 1080p CZ Titulky](https://prehraj.to/the-duke-1080p-cz-titulky-mkv/5a064bbcad6030c1) (ID 31014248) | [Sdílej 18856807](https://sdilej.cz/18856807/the.duke.1080p.web-dl.dd5.1.h.264-titulky-cz.mkv) | target_unavailable | 2026-11-13T15:33:25.013573+00:00 |
 | [The Fall Guy 1440p CZ Titulky](https://prehraj.to/the-fall-guy-1440p-cz-titulky-mkv/dac3cf1c63d5378e) (ID 31083790) | [Sdílej 29045511](https://sdilej.cz/29045511/kaskader-the-fall-guy-2024-cz-titulky-2160p.mkv) | target_unavailable | 2026-11-16T05:27:16.995499+00:00 |
