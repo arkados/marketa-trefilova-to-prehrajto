@@ -751,4 +751,4 @@ Attach subtitles only after target processing has finished.
 | Bones and All 1080p CZ titulky | 31093982 | https://sdilej.cz/24332922/bones-and-all-1080p-2022-vlozene-cz-titulky-malasorte.mkv | Extract Czech track from exact source after processing |
 | Senna SD CZ titulky | 31135008 | https://sdilej.cz/13460272/senna-legenda-f1-2010-cz-titl.mkv | Extract Czech track from exact source after processing |
 | A Beautiful Mind 720p CZ titulky | 31152251 | https://sdilej.cz/26220562/cista-duse-2001-.mkv | Extract Czech track from exact source after processing |
-| Howl's Moving Castle (Hauru no ugoku shiro) 1080p CZ titulky | 31154500 | https://sdilej.cz/29683410/howl-s-moving-castle-zamek-v-oblacich-cz-dab.-.mkv | Extract Czech track from exact source after processing |
+| Howl's Moving Castle (Hauru no ugoku shiro) 1080p CZ titulky | 31154500 | https://sdilej.cz/29683410/howl-s-moving-castle-zamek-v-oblacich-cz-dab.-.mkv | Complete: Czech subtitles verified |
