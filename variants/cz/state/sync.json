@@ -174056,17 +174056,19 @@
       }
     },
     "3217": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29265516",
+          "target_video_id": "31151855",
+          "permanent": false,
+          "attempted_at": "2026-11-18T13:26:55.148168+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29265516",
         "display_name": "Empire of Light 720p CZ Dabing",
         "planned_at": "2026-11-18T13:07:28.179679+00:00"
-      },
-      "claim": {
-        "worker_id": "6b3622898cf046519e200e0ccd888668-shard-0",
-        "claimed_at": "2026-11-18T13:07:29.155068+00:00",
-        "lease_expires_at": "2026-11-18T19:07:29.155068+00:00",
-        "run_id": "44276193396"
       },
       "previous_target_id": "31151855",
       "prepared": {
@@ -221157,5 +221159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T13:26:52.460278+00:00"
+  "updated_at": "2026-11-18T13:26:55.148185+00:00"
 }
