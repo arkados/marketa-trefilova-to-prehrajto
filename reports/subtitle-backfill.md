@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:51:44.158641+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:51:50.151019+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -115,7 +115,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [Game Night 1080p CZ Titulky](https://prehraj.to/game-night-1080p-cz-titulky-mkv/b40177a2665fd61e) (ID 31003096) | [Sdílej 35243994](https://sdilej.cz/35243994/game.night.2018.open.matte.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:47:42.927442+00:00 |
 | [Generation Iron 720p CZ Titulky](https://prehraj.to/generation-iron-720p-cz-titulky-mkv/da434438aecaa89f) (ID 30992304) | [Sdílej 22898145](https://sdilej.cz/22898145/generation-iron.mkv) | target_unavailable | 2026-11-11T17:24:52.699436+00:00 |
 | [Gladiator (2000) 4K CZ Titulky](https://prehraj.to/gladiator-2000-cz-titulky-mkv/5ab06a3385e9b8ad) (ID 30589321) | [Sdílej 32959336](https://sdilej.cz/32959336/gladiator-2000-2160p-cz-dabing-en-dts-hd-radecek.mkv) | target_unavailable | 2026-11-12T12:57:32.177877+00:00 |
-| [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-10T09:50:13.007331+00:00 |
+| [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-18T12:51:48.581939+00:00 |
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
 | [Goya's Ghosts 1080p CZ Titulky](https://prehraj.to/goya-s-ghosts-1080p-cz-titulky-mkv/ec0601bdb13bfd2b) (ID 31010194) | [Sdílej 34683084](https://sdilej.cz/34683084/goyovy-prizraky-drama-j.bardem-n.-portman-2006-cztit.1080p.bluray.mkv) | target_unavailable | 2026-11-13T07:37:29.825605+00:00 |
 | [Green Book 1080p](https://prehraj.to/green-book-mp4/2e88bec948b595b6) (ID 30609217) | [Sdílej 31912774](https://sdilej.cz/31912774/green.book.2018.1080p.bluray.h264.aac-rarbg.mp4) | target_unavailable | 2026-11-18T12:50:52.390277+00:00 |
