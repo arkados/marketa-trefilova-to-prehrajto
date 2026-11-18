@@ -115158,13 +115158,6 @@
           "source_id": "31604257",
           "target_video_id": "30984469",
           "permanent": false,
-          "attempted_at": "2026-11-18T18:49:33.579545+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31604257",
-          "target_video_id": "30984469",
-          "permanent": false,
           "attempted_at": "2026-11-18T20:23:46.025395+00:00"
         },
         {
@@ -115173,6 +115166,13 @@
           "target_video_id": "30984469",
           "permanent": false,
           "attempted_at": "2026-11-18T21:55:18.436500+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31604257",
+          "target_video_id": "30984469",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:39:05.746195+00:00"
         }
       ],
       "last_plan": {
@@ -115215,7 +115215,7 @@
       "last_plan": {
         "source_id": "12492093",
         "display_name": "Yesterday (2019) 4K CZ Dabing",
-        "planned_at": "2026-11-18T21:55:16.403723+00:00"
+        "planned_at": "2026-11-18T23:39:04.461295+00:00"
       },
       "previous_target_id": "30984495",
       "prepared": {
@@ -115223,6 +115223,12 @@
         "size_bytes": 29600000000,
         "prepared_at": "2026-11-10T16:36:51.014450+00:00",
         "relay_source_id": "12492093"
+      },
+      "claim": {
+        "worker_id": "7d75c947be664e56a6c10f7c760d3d30-shard-0",
+        "claimed_at": "2026-11-18T23:39:05.511237+00:00",
+        "lease_expires_at": "2026-11-19T05:39:05.511237+00:00",
+        "run_id": "44406951430"
       }
     },
     "34394": {
@@ -177271,6 +177277,12 @@
         "source_id": "12015153",
         "display_name": "The Old Man & the Gun 1080p CZ Dabing",
         "planned_at": "2026-11-18T23:39:00.861835+00:00"
+      },
+      "claim": {
+        "worker_id": "6d942296b4584ee1928291ec740f06fc-shard-0",
+        "claimed_at": "2026-11-18T23:39:04.224012+00:00",
+        "lease_expires_at": "2026-11-19T05:39:04.224012+00:00",
+        "run_id": "44406951430"
       }
     },
     "35160": {
@@ -177284,7 +177296,7 @@
       "last_plan": {
         "source_id": "31789637",
         "display_name": "The Enforcer (1976) 4K CZ Dabing",
-        "planned_at": "2026-11-18T23:39:01.068766+00:00"
+        "planned_at": "2026-11-18T23:39:04.781709+00:00"
       }
     },
     "30355": {
@@ -223841,5 +223853,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:39:01.571502+00:00"
+  "updated_at": "2026-11-18T23:39:05.746210+00:00"
 }
