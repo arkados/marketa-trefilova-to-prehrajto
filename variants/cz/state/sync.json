@@ -173770,17 +173770,19 @@
       }
     },
     "3204": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30019851",
+          "target_video_id": "31149337",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:05:59.152625+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30019851",
         "display_name": "Quiz Lady 1080p CZ Dabing",
         "planned_at": "2026-11-18T10:58:20.565764+00:00"
-      },
-      "claim": {
-        "worker_id": "5675f9bd09bc46f194596b93d0fdaa04-shard-0",
-        "claimed_at": "2026-11-18T10:58:24.105707+00:00",
-        "lease_expires_at": "2026-11-18T16:58:24.105707+00:00",
-        "run_id": "44276193396"
       },
       "previous_target_id": "31149337",
       "prepared": {
@@ -220955,5 +220957,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:05:56.994945+00:00"
+  "updated_at": "2026-11-18T11:05:59.152645+00:00"
 }
