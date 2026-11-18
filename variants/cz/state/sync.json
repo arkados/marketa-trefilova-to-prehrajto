@@ -80577,6 +80577,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-07T21:32:39.846982+00:00",
         "relay_source_id": "28771706"
+      },
+      "claim": {
+        "worker_id": "170eacb3c11941c199e43c342883394a-shard-0",
+        "claimed_at": "2026-11-18T17:28:19.090117+00:00",
+        "lease_expires_at": "2026-11-18T23:28:19.090117+00:00",
+        "run_id": "44319849691"
       }
     },
     "2305": {
@@ -174448,17 +174454,23 @@
           "attempted_at": "2026-11-18T15:55:04.276891+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "19775054",
-        "display_name": "The Fantastic Journey of Margot & Marguerite (L'Aventure des Marguerite) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:51:52.448884+00:00"
-      },
       "previous_target_id": "31154788",
-      "prepared": {
+      "upload": {
         "target_video_id": "31154788",
-        "size_bytes": 3230624786,
-        "prepared_at": "2026-11-18T15:52:00.146969+00:00",
-        "relay_source_id": "19775054"
+        "display_name": "The Fantastic Journey of Margot & Marguerite (L'Aventure des Marguerite) 1080p CZ Dabing",
+        "source_id": "19775054",
+        "source_url": "https://sdilej.cz/19775054/fantasticka-vymena-l.aventure.des.marguerite.2020.1080p.webrip.cz.dabing.mkv",
+        "source_filename": "Fantasticka vymena - L.aventure.des.Marguerite.2020.1080p.WEBRip.CZ.dabing.mkv",
+        "size_bytes": 3200000000,
+        "width": 1920,
+        "height": 804,
+        "audio_language": "cs",
+        "language_probability": 0.9378569722175598,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-fantastic-journey-of-margot-marguerite-l-aventure-des-marguerite-1080p-cz-dabing-mkv/dce19041d0022596",
+        "uploaded_at": "2026-11-18T17:28:23.635357+00:00"
       }
     },
     "26609": {
@@ -175297,7 +175309,7 @@
       "last_plan": {
         "source_id": "33356528",
         "display_name": "Door on the Left as You Leave the Elevator (À gauche en sortant de l’ascenseur) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:28:16.617973+00:00"
+        "planned_at": "2026-11-18T17:28:19.895698+00:00"
       }
     },
     "11415": {
@@ -222148,5 +222160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:28:16.617989+00:00"
+  "updated_at": "2026-11-18T17:28:23.635370+00:00"
 }
