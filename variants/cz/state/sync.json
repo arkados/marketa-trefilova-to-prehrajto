@@ -116525,13 +116525,6 @@
           "source_id": "11567602",
           "target_video_id": "30984685",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:03:28.006976+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11567602",
-          "target_video_id": "30984685",
-          "permanent": false,
           "attempted_at": "2026-11-18T17:36:14.082807+00:00"
         },
         {
@@ -116540,6 +116533,13 @@
           "target_video_id": "30984685",
           "permanent": false,
           "attempted_at": "2026-11-18T19:08:18.707330+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11567602",
+          "target_video_id": "30984685",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:42:46.762351+00:00"
         }
       ],
       "last_plan": {
@@ -124112,7 +124112,7 @@
       "last_plan": {
         "source_id": "32499158",
         "display_name": "Khartoum 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:08:18.142978+00:00"
+        "planned_at": "2026-11-18T20:42:45.478933+00:00"
       },
       "previous_target_id": "30985645",
       "prepared": {
@@ -124120,6 +124120,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T20:58:28.408510+00:00",
         "relay_source_id": "32499158"
+      },
+      "claim": {
+        "worker_id": "9402f6d77b0641279773512118dadefb-shard-0",
+        "claimed_at": "2026-11-18T20:42:46.438931+00:00",
+        "lease_expires_at": "2026-11-19T02:42:46.438931+00:00",
+        "run_id": "44366936972"
       }
     },
     "2981": {
@@ -176377,7 +176383,7 @@
       "last_plan": {
         "source_id": "31215691",
         "display_name": "Spun 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:42:42.331112+00:00"
+        "planned_at": "2026-11-18T20:42:45.805033+00:00"
       }
     },
     "24612": {
@@ -223084,5 +223090,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:42:42.593029+00:00"
+  "updated_at": "2026-11-18T20:42:46.762375+00:00"
 }
