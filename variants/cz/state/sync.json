@@ -172976,17 +172976,19 @@
       }
     },
     "14415": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30849820",
+          "target_video_id": "31141351",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:28:50.325438+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30849820",
         "display_name": "Mamacruz 1080p CZ Dabing",
         "planned_at": "2026-11-18T05:17:20.998408+00:00"
-      },
-      "claim": {
-        "worker_id": "aeb70797e0034844ac181bf9bd8e39e7-shard-0",
-        "claimed_at": "2026-11-18T05:17:22.331788+00:00",
-        "lease_expires_at": "2026-11-18T11:17:22.331788+00:00",
-        "run_id": "44237121625"
       },
       "previous_target_id": "31141351",
       "prepared": {
@@ -220236,5 +220238,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:28:48.109872+00:00"
+  "updated_at": "2026-11-18T05:28:50.325459+00:00"
 }
