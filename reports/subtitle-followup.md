@@ -668,7 +668,7 @@ Attach subtitles only after target processing has finished.
 | The 33 720p CZ titulky | 31009004 | https://sdilej.cz/33551012/33-zivotu-2015-cz-dab-720p.mkv | Extract Czech track from exact source after processing |
 | Fack ju Göhte 1080p CZ titulky | 31009557 | https://sdilej.cz/29043242/fakju-pane-uciteli.mkv | Complete: Czech subtitles verified |
 | Ms. President (Prezidentka) 1080p CZ titulky | 31009923 | https://sdilej.cz/30776190/prezidentka-2024-sk.mkv | Complete: Czech subtitles verified |
-| The Night Comes for Us 1080p CZ Titulky | 31010102 | https://sdilej.cz/26970393/the-night-comes-for-us-2018-cz-sub-indonesian-1080p-nf-webrip-ddp5-1-x264.mkv | Extract Czech track from exact source after processing |
+| The Night Comes for Us 1080p CZ titulky | 31010102 | https://sdilej.cz/26970393/the-night-comes-for-us-2018-cz-sub-indonesian-1080p-nf-webrip-ddp5-1-x264.mkv | Complete: Czech subtitles verified |
 | Goya's Ghosts 1080p CZ Titulky | 31010194 | https://sdilej.cz/34683084/goyovy-prizraky-drama-j.bardem-n.-portman-2006-cztit.1080p.bluray.mkv | Extract Czech track from exact source after processing |
 | The Thomas Crown Affair (1968) 1080p CZ Titulky | 31010662 | https://sdilej.cz/11447322/pripad-thomase-crowna-the-thomas-crown-affair-1968-czen-1080phd-.mkv | Extract Czech track from exact source after processing |
 | The Trip (I onde dager) (2021) 1080p CZ Titulky | 31011633 | https://sdilej.cz/18710569/cesta-za-smirenim-2021-5.1-nor-cz-titulky.mkv | Extract Czech track from exact source after processing |
