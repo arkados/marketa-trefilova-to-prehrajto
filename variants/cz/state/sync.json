@@ -109593,13 +109593,6 @@
           "source_id": "33436521",
           "target_video_id": "30983669",
           "permanent": false,
-          "attempted_at": "2026-11-18T03:28:01.594370+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33436521",
-          "target_video_id": "30983669",
-          "permanent": false,
           "attempted_at": "2026-11-18T05:31:55.019664+00:00"
         },
         {
@@ -109608,6 +109601,13 @@
           "target_video_id": "30983669",
           "permanent": false,
           "attempted_at": "2026-11-18T07:08:20.741527+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33436521",
+          "target_video_id": "30983669",
+          "permanent": false,
+          "attempted_at": "2026-11-18T08:40:31.232876+00:00"
         }
       ],
       "last_plan": {
@@ -166104,7 +166104,7 @@
       "last_plan": {
         "source_id": "32367190",
         "display_name": "Pod parou 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:08:19.866481+00:00"
+        "planned_at": "2026-11-18T08:40:29.376762+00:00"
       },
       "previous_target_id": "31108918",
       "prepared": {
@@ -166112,6 +166112,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-17T05:03:08.196412+00:00",
         "relay_source_id": "32367190"
+      },
+      "claim": {
+        "worker_id": "1a0947b5bf79425cb377cc873ab0470e-shard-0",
+        "claimed_at": "2026-11-18T08:40:30.439252+00:00",
+        "lease_expires_at": "2026-11-18T14:40:30.439252+00:00",
+        "run_id": "44237121625"
       }
     },
     "27298": {
@@ -173606,7 +173612,7 @@
       "last_plan": {
         "source_id": "26889943",
         "display_name": "The Swan 1080p CZ Dabing",
-        "planned_at": "2026-11-18T08:40:26.525179+00:00"
+        "planned_at": "2026-11-18T08:40:29.753137+00:00"
       }
     },
     "4119": {
@@ -220766,5 +220772,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T08:40:26.525199+00:00"
+  "updated_at": "2026-11-18T08:40:31.232897+00:00"
 }
