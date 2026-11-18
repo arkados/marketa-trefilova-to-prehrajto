@@ -141833,13 +141833,6 @@
           "source_id": "30436273",
           "target_video_id": "30988335",
           "permanent": false,
-          "attempted_at": "2026-11-18T06:37:49.750626+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30436273",
-          "target_video_id": "30988335",
-          "permanent": false,
           "attempted_at": "2026-11-18T08:10:08.643317+00:00"
         },
         {
@@ -141848,6 +141841,13 @@
           "target_video_id": "30988335",
           "permanent": false,
           "attempted_at": "2026-11-18T09:51:43.061431+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30436273",
+          "target_video_id": "30988335",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:18:01.512148+00:00"
         }
       ],
       "last_plan": {
@@ -143709,7 +143709,7 @@
       "last_plan": {
         "source_id": "31011202",
         "display_name": "The Christening Party (Křtiny) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:51:41.317318+00:00"
+        "planned_at": "2026-11-18T11:17:59.954445+00:00"
       },
       "previous_target_id": "30988658",
       "prepared": {
@@ -143717,6 +143717,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T09:07:30.175373+00:00",
         "relay_source_id": "31011202"
+      },
+      "claim": {
+        "worker_id": "d28c7f7292a44a45bb121026e5fba030-shard-0",
+        "claimed_at": "2026-11-18T11:18:00.833464+00:00",
+        "lease_expires_at": "2026-11-18T17:18:00.833464+00:00",
+        "run_id": "44276193396"
       }
     },
     "33112": {
@@ -173871,7 +173877,7 @@
       "last_plan": {
         "source_id": "14054640",
         "display_name": "White Lion 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:17:56.838135+00:00"
+        "planned_at": "2026-11-18T11:18:00.275148+00:00"
       }
     },
     "30132": {
@@ -220983,5 +220989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:17:57.084776+00:00"
+  "updated_at": "2026-11-18T11:18:01.512166+00:00"
 }
