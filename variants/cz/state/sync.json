@@ -110501,6 +110501,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T14:40:48.261346+00:00",
         "relay_source_id": "34885981"
+      },
+      "claim": {
+        "worker_id": "277849bc42454118906b7fb121fd2274-shard-0",
+        "claimed_at": "2026-11-18T16:18:47.469734+00:00",
+        "lease_expires_at": "2026-11-18T22:18:47.469734+00:00",
+        "run_id": "44319849691"
       }
     },
     "1992": {
@@ -124680,13 +124686,6 @@
           "source_id": "20827767",
           "target_video_id": "30985751",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:55:12.068460+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20827767",
-          "target_video_id": "30985751",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:20:16.790052+00:00"
         },
         {
@@ -124695,6 +124694,13 @@
           "target_video_id": "30985751",
           "permanent": false,
           "attempted_at": "2026-11-18T14:44:01.646747+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20827767",
+          "target_video_id": "30985751",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:18:47.685710+00:00"
         }
       ],
       "last_plan": {
@@ -124708,12 +124714,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:39:28.502583+00:00",
         "relay_source_id": "20827767"
-      },
-      "claim": {
-        "worker_id": "0e825eba7f2142329f8ddf4d68bea975-shard-0",
-        "claimed_at": "2026-11-18T16:18:43.202862+00:00",
-        "lease_expires_at": "2026-11-18T22:18:43.202862+00:00",
-        "run_id": "44319849691"
       }
     },
     "22167": {
@@ -144973,7 +144973,7 @@
       "last_plan": {
         "source_id": "35428807",
         "display_name": "Murders in Valenciennes (Les Disparus de Valenciennes) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:44:03.969378+00:00"
+        "planned_at": "2026-11-18T16:18:47.959755+00:00"
       },
       "previous_target_id": "30990277",
       "prepared": {
@@ -174625,7 +174625,7 @@
       "last_plan": {
         "source_id": "33852768",
         "display_name": "Moxie 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:18:44.002047+00:00"
+        "planned_at": "2026-11-18T16:18:48.392138+00:00"
       }
     },
     "21152": {
@@ -221611,5 +221611,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:18:44.410168+00:00"
+  "updated_at": "2026-11-18T16:18:48.392156+00:00"
 }
