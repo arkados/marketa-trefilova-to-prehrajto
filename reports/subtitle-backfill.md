@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:13:43.231160+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:13:50.903753+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 543, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 154, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 544, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 153, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -93,7 +93,6 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Caught Stealing 4K CZ Titulky](https://prehraj.to/caught-stealing-4k-cz-titulky-mkv/ef892ac61c48f6bc) (ID 31093102) | [Sdílej 31933757](https://sdilej.cz/31933757/caught.stealing.2025.2160p.web.h265-ethel.mkv) | target_unavailable | 2026-11-16T15:04:44.248971+00:00 |
 | [Chisum 1080p CZ Titulky](https://prehraj.to/chisum-1080p-cz-titulky-mkv/fe1f1cb661ffa3f5) (ID 31014978) | [Sdílej 30779927](https://sdilej.cz/30779927/john-chisum-hraji-john-wayne-1970-cz-dab-leg.mkv) | target_unavailable | 2026-11-13T16:13:27.459046+00:00 |
 | [Chocolat (2000) 1080p CZ titulky](https://prehraj.to/chocolat-2000-1080p-cz-titulky-mkv/8143f0612377d3e9) (ID 30859204) | [Sdílej 34220031](https://sdilej.cz/34220031/cokolada-2000-romant.drama-johnny-depp-czdab.bluray.1080p.mkv) | target_unavailable | 2026-11-18T12:51:21.804813+00:00 |
-| [Clear and Present Danger 1080p CZ Titulky](https://prehraj.to/clear-and-present-danger-1080p-cz-titulky-mkv/4922b20cbda668d9) (ID 31006506) | [Sdílej 29946984](https://sdilej.cz/29946984/jasne-nebezpeci-1994-en-cs-pl-en-cs-pl-816p23.976-.mkv) | target_unavailable | 2026-11-12T22:01:37.628878+00:00 |
 | [Clumsy (La Maladroite) 1080p CZ Titulky](https://prehraj.to/clumsy-la-maladroite-1080p-cz-titulky-mkv/84d8cb64cc0b5019) (ID 31020400) | [Sdílej 11963441](https://sdilej.cz/11963441/kidnapping.stella.2019.cz.sub.1080p.web-dl.ddp5.1.h264.mkv) | target_unavailable | 2026-11-13T22:35:58.323598+00:00 |
 | [Crime 101 4K CZ Titulky](https://prehraj.to/crime-101-4k-cz-titulky-mkv/c0f3a2c7f8cfe178) (ID 31092791) | [Sdílej 35185544](https://sdilej.cz/35185544/crime-101-2026-2160p-web-dl-ddp5-1-x265-cz-sk-titulky-dop.-.mkv) | target_unavailable | 2026-11-16T14:44:28.778543+00:00 |
 | [Disturbia 1080p CZ Titulky](https://prehraj.to/disturbia-1080p-cz-titulky-mkv/44d408b374b25828) (ID 31083451) | [Sdílej 34714560](https://sdilej.cz/34714560/disturbia-2007-cz-en.mkv) | target_unavailable | 2026-11-16T05:07:12.791445+00:00 |
