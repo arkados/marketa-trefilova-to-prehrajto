@@ -112104,7 +112104,7 @@
       "last_plan": {
         "source_id": "29053403",
         "display_name": "Buko 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:45:39.188271+00:00"
+        "planned_at": "2026-11-18T00:11:53.221972+00:00"
       },
       "previous_target_id": "30983831",
       "prepared": {
@@ -112112,6 +112112,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T14:54:52.279606+00:00",
         "relay_source_id": "29053403"
+      },
+      "claim": {
+        "worker_id": "05c1d06860ce40a3850ad970fe464f30-shard-0",
+        "claimed_at": "2026-11-18T00:11:54.280640+00:00",
+        "lease_expires_at": "2026-11-18T06:11:54.280640+00:00",
+        "run_id": "44170464010"
       }
     },
     "34100": {
@@ -114023,13 +114029,6 @@
           "source_id": "34355461",
           "target_video_id": "30984084",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:45:14.729559+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34355461",
-          "target_video_id": "30984084",
-          "permanent": false,
           "attempted_at": "2026-11-17T21:16:25.335321+00:00"
         },
         {
@@ -114038,6 +114037,13 @@
           "target_video_id": "30984084",
           "permanent": false,
           "attempted_at": "2026-11-17T22:45:40.955799+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34355461",
+          "target_video_id": "30984084",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:11:54.543159+00:00"
         }
       ],
       "last_plan": {
@@ -171969,17 +171975,19 @@
       "attempts": []
     },
     "10382": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32999709",
+          "target_video_id": "31133866",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:11:54.772545+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
         "planned_at": "2026-11-18T00:00:38.846578+00:00"
-      },
-      "claim": {
-        "worker_id": "75dbe39ea2514405aafdeee5a27a4010-shard-0",
-        "claimed_at": "2026-11-18T00:00:41.945683+00:00",
-        "lease_expires_at": "2026-11-18T06:00:41.945683+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31133866",
       "prepared": {
@@ -171997,7 +172005,7 @@
       "last_plan": {
         "source_id": "32150899",
         "display_name": "Muzzikanti SD CZ Dabing",
-        "planned_at": "2026-11-18T00:11:50.450740+00:00"
+        "planned_at": "2026-11-18T00:11:53.555590+00:00"
       }
     },
     "25946": {
@@ -219380,5 +219388,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:11:50.450758+00:00"
+  "updated_at": "2026-11-18T00:11:54.772566+00:00"
 }
