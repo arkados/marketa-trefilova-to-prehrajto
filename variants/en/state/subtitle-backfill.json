@@ -13,7 +13,7 @@
   "missing_detail_urls": 1,
   "next_page": 0,
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:11:15.920921+00:00",
+  "updated_at": "2026-11-18T23:13:29.302614+00:00",
   "videos": {
     "30580910": {
       "checked_at": "2026-10-28T22:47:29.080648+00:00",
@@ -12446,9 +12446,25 @@
       "title": "Bill & Ted's Excellent Adventure 720p CZ titulky"
     },
     "31006278": {
-      "checked_at": "2026-11-12T21:41:36.793090+00:00",
+      "checked_at": "2026-11-18T23:13:27.574737+00:00",
       "detail_url": "https://prehraj.to/swiss-army-man-720p-cz-titulky-mkv/10671e3af2c0c0f9",
-      "retry_after": "2026-11-12T22:41:36.793100+00:00",
+      "extraction": {
+        "bytes": 80499,
+        "format": "utf8_srt_crlf",
+        "method": "original_embedded_track",
+        "sha256": "5b4edf97446beb67a2f2a87969cd4f4b26f4d7d6f30a38123a56c483a6743366",
+        "source_codec": "subrip",
+        "source_id": "6507377",
+        "stream_index": 0
+      },
+      "intent": {
+        "before_ids": [],
+        "created_at": "2026-11-18T23:13:27.574733+00:00",
+        "filename": "cs-31006278-5b4edf9744.srt",
+        "sha256": "5b4edf97446beb67a2f2a87969cd4f4b26f4d7d6f30a38123a56c483a6743366"
+      },
+      "retry_after": "2026-11-19T00:13:27.574738+00:00",
+      "seen_at": "2026-11-18T23:13:27.574709+00:00",
       "source": {
         "cr_film_id": 18861,
         "height": 536,
@@ -12458,7 +12474,7 @@
         "source_url": "https://sdilej.cz/6507377/swiss-army-man-2016-720p-bluray-dts-x264-ceske-titulky.mkv",
         "width": 1280
       },
-      "status": "target_unavailable",
+      "status": "upload_unconfirmed",
       "target_video_id": "31006278",
       "title": "Swiss Army Man 720p CZ Titulky"
     },
