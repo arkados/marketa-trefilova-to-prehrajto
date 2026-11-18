@@ -1058,13 +1058,6 @@
           "source_id": "31918348",
           "target_video_id": "30578228",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:16:05.083960+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31918348",
-          "target_video_id": "30578228",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:42:56.349817+00:00"
         },
         {
@@ -1073,6 +1066,13 @@
           "target_video_id": "30578228",
           "permanent": false,
           "attempted_at": "2026-11-18T05:51:16.371341+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31918348",
+          "target_video_id": "30578228",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:26:28.006352+00:00"
         }
       ],
       "last_plan": {
@@ -132912,7 +132912,7 @@
       "last_plan": {
         "source_id": "26568103",
         "display_name": "Záku Kasíku, nezen se! (Žáku Kašíku, nežeň se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:51:13.559324+00:00"
+        "planned_at": "2026-11-18T07:26:24.968857+00:00"
       },
       "previous_target_id": "30987180",
       "prepared": {
@@ -132920,6 +132920,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T03:52:43.832583+00:00",
         "relay_source_id": "26568103"
+      },
+      "claim": {
+        "worker_id": "882287e5e5984f4f84fa363044b23544-shard-0",
+        "claimed_at": "2026-11-18T07:26:26.069411+00:00",
+        "lease_expires_at": "2026-11-18T13:26:26.069411+00:00",
+        "run_id": "44237121625"
       }
     },
     "32524": {
@@ -173421,7 +173427,7 @@
       "last_plan": {
         "source_id": "34952213",
         "display_name": "A Monster in Paris (Un monstre à Paris) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:26:21.878074+00:00"
+        "planned_at": "2026-11-18T07:26:25.341655+00:00"
       }
     },
     "26566": {
@@ -220611,5 +220617,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:26:22.163194+00:00"
+  "updated_at": "2026-11-18T07:26:28.006375+00:00"
 }
