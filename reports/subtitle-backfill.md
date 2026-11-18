@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:05:13.132531+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:05:22.885739+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 531, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 169, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 532, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 168, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -137,7 +137,6 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Lunacy (Šílení) 1080p CZ Titulky](https://prehraj.to/lunacy-sileni-1080p-cz-titulky-mkv/822aea77a1ef13bd) (ID 30984494) | [Sdílej 32997472](https://sdilej.cz/32997472/sileni-2005-fhd-cz.mkv) | target_unavailable | 2026-11-18T13:01:02.645142+00:00 |
 | [Mad Max 1080p CZ Titulky](https://prehraj.to/mad-max-1080p-cz-titulky-mkv/45feab11968b9f26) (ID 31084809) | [Sdílej 31308978](https://sdilej.cz/31308978/1.-mad.max.1979.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-16T06:47:29.465403+00:00 |
 | [Madly (FolleMente) 1080p CZ Titulky](https://prehraj.to/madly-follemente-1080p-cz-titulky-mkv/7249df21acb007e5) (ID 31020680) | [Sdílej 32445017](https://sdilej.cz/32445017/follemente-2025-cz.tit.mkv) | target_unavailable | 2026-11-13T22:56:03.120326+00:00 |
-| [Mission: Impossible III 1080p CZ Titulky](https://prehraj.to/mission-impossible-iii-1080p-cz-titulky-mkv/918c4a3183a14248) (ID 31000186) | [Sdílej 12223333](https://sdilej.cz/12223333/mission-impossible-iii.-2006.mkv) | target_unavailable | 2026-11-12T08:14:12.903553+00:00 |
 | [Monkey Man 1080p CZ titulky](https://prehraj.to/monkey-man-1080p-cz-titulky-mkv/18b68635e024dd77) (ID 31091689) | [Sdílej 28774522](https://sdilej.cz/28774522/monkey.man.2024.1080p.amzn.webrip.ddp5.1.x265.10bit-leon.-en-subs-cz-en-.mkv) | target_unavailable | 2026-11-16T13:23:39.844081+00:00 |
 | [Monsters, Inc. 1080p CZ Titulky](https://prehraj.to/monsters-inc-1080p-cz-titulky-mkv/e9cb96c4f3275984) (ID 30614354) | [Sdílej 27782789](https://sdilej.cz/27782789/monsters-inc.-priserky.s.r.o.-.mkv) | target_unavailable | 2026-11-18T12:51:07.079135+00:00 |
 | [Ms. President (Prezidentka) 1080p CZ Titulky](https://prehraj.to/ms-president-prezidentka-1080p-cz-titulky-mkv/49b673dbb3690970) (ID 31009923) | [Sdílej 30776190](https://sdilej.cz/30776190/prezidentka-2024-sk.mkv) | target_unavailable | 2026-11-13T06:57:23.658709+00:00 |
