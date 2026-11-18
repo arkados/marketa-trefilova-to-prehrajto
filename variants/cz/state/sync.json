@@ -111017,13 +111017,6 @@
           "source_id": "25235773",
           "target_video_id": "30983777",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:40:00.676872+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25235773",
-          "target_video_id": "30983777",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:06:10.235957+00:00"
         },
         {
@@ -111032,6 +111025,13 @@
           "target_video_id": "30983777",
           "permanent": false,
           "attempted_at": "2026-11-18T12:26:36.351552+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25235773",
+          "target_video_id": "30983777",
+          "permanent": false,
+          "attempted_at": "2026-11-18T14:50:04.408490+00:00"
         }
       ],
       "last_plan": {
@@ -149682,7 +149682,7 @@
       "last_plan": {
         "source_id": "35428437",
         "display_name": "Péril blanc 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:26:39.868682+00:00"
+        "planned_at": "2026-11-18T14:50:02.882257+00:00"
       },
       "previous_target_id": "31020067",
       "prepared": {
@@ -149690,6 +149690,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-13T22:19:40.902331+00:00",
         "relay_source_id": "35428437"
+      },
+      "claim": {
+        "worker_id": "5abc44fb454943cf86b28e92ba357f10-shard-0",
+        "claimed_at": "2026-11-18T14:50:04.094041+00:00",
+        "lease_expires_at": "2026-11-18T20:50:04.094041+00:00",
+        "run_id": "44319849691"
       }
     },
     "23213": {
@@ -174180,7 +174186,7 @@
       "last_plan": {
         "source_id": "11978852",
         "display_name": "Colette (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:49:59.465200+00:00"
+        "planned_at": "2026-11-18T14:50:03.275403+00:00"
       }
     },
     "3510": {
@@ -221241,5 +221247,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:49:59.759574+00:00"
+  "updated_at": "2026-11-18T14:50:04.408506+00:00"
 }
