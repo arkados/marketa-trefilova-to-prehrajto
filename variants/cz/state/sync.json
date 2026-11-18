@@ -112231,13 +112231,6 @@
           "source_id": "33855360",
           "target_video_id": "30983838",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:01:53.071065+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33855360",
-          "target_video_id": "30983838",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:36:21.115158+00:00"
         },
         {
@@ -112246,6 +112239,13 @@
           "target_video_id": "30983838",
           "permanent": false,
           "attempted_at": "2026-11-18T20:09:47.201228+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33855360",
+          "target_video_id": "30983838",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:40:39.467962+00:00"
         }
       ],
       "last_plan": {
@@ -114308,7 +114308,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-18T20:09:46.609006+00:00"
+        "planned_at": "2026-11-18T21:40:38.092373+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -114316,6 +114316,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:29:05.818325+00:00",
         "relay_source_id": "31982080"
+      },
+      "claim": {
+        "worker_id": "b4abb6bd654b417fbb4c5708b1645925-shard-0",
+        "claimed_at": "2026-11-18T21:40:39.039755+00:00",
+        "lease_expires_at": "2026-11-19T03:40:39.039755+00:00",
+        "run_id": "44366936972"
       }
     },
     "2796": {
@@ -176722,7 +176728,7 @@
       "last_plan": {
         "source_id": "29133513",
         "display_name": "The Horse Whisperer 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:40:35.355097+00:00"
+        "planned_at": "2026-11-18T21:40:38.424618+00:00"
       }
     },
     "3184": {
@@ -223372,5 +223378,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:40:35.355119+00:00"
+  "updated_at": "2026-11-18T21:40:39.467980+00:00"
 }
