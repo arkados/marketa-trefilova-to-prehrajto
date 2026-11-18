@@ -111394,13 +111394,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:09:28.633944+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:34:19.686238+00:00"
         },
         {
@@ -111409,6 +111402,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-18T14:54:35.541138+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:29:29.561155+00:00"
         }
       ],
       "last_plan": {
@@ -111422,12 +111422,6 @@
         "size_bytes": 807200000,
         "prepared_at": "2026-11-10T14:49:12.511698+00:00",
         "relay_source_id": "28004879"
-      },
-      "claim": {
-        "worker_id": "62e7e655d40a4d539e472ac8afb7b514-shard-0",
-        "claimed_at": "2026-11-18T16:29:26.745522+00:00",
-        "lease_expires_at": "2026-11-18T22:29:26.745522+00:00",
-        "run_id": "44319849691"
       }
     },
     "13136": {
@@ -111460,7 +111454,7 @@
       "last_plan": {
         "source_id": "26697838",
         "display_name": "Smích se lepí na paty 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:54:37.970358+00:00"
+        "planned_at": "2026-11-18T16:29:28.885124+00:00"
       },
       "previous_target_id": "30983795",
       "prepared": {
@@ -174802,14 +174796,19 @@
       "last_plan": {
         "source_id": "32859912",
         "display_name": "Grumpier Old Men 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:29:23.937260+00:00"
+        "planned_at": "2026-11-18T16:29:29.315873+00:00"
       }
     },
     "31207": {
       "attempts": []
     },
     "21160": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29208540",
+        "display_name": "Marvin's Room 1080p CZ Dabing",
+        "planned_at": "2026-11-18T16:29:29.775491+00:00"
+      }
     },
     "12262": {
       "attempts": []
@@ -221755,5 +221754,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:29:26.745552+00:00"
+  "updated_at": "2026-11-18T16:29:29.775505+00:00"
 }
