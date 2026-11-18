@@ -112040,13 +112040,6 @@
           "source_id": "34903816",
           "target_video_id": "30983828",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:33:30.331239+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34903816",
-          "target_video_id": "30983828",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:59:27.416035+00:00"
         },
         {
@@ -112055,6 +112048,13 @@
           "target_video_id": "30983828",
           "permanent": false,
           "attempted_at": "2026-11-18T15:22:15.506015+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34903816",
+          "target_video_id": "30983828",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:54:51.433209+00:00"
         }
       ],
       "last_plan": {
@@ -112068,12 +112068,6 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T14:54:38.256137+00:00",
         "relay_source_id": "34903816"
-      },
-      "claim": {
-        "worker_id": "ce781792ace4435a88eb85dab6806c38-shard-0",
-        "claimed_at": "2026-11-18T16:54:48.406457+00:00",
-        "lease_expires_at": "2026-11-18T22:54:48.406457+00:00",
-        "run_id": "44319849691"
       }
     },
     "11021": {
@@ -130365,7 +130359,7 @@
       "last_plan": {
         "source_id": "32368628",
         "display_name": "Hogo fogo Homolka 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:22:13.930642+00:00"
+        "planned_at": "2026-11-18T16:54:50.520302+00:00"
       },
       "previous_target_id": "30986898",
       "prepared": {
@@ -174970,7 +174964,7 @@
       "last_plan": {
         "source_id": "30900340",
         "display_name": "Stir Crazy 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:54:45.613507+00:00"
+        "planned_at": "2026-11-18T16:54:50.904785+00:00"
       }
     },
     "26827": {
@@ -174980,7 +174974,12 @@
       "attempts": []
     },
     "12089": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27488583",
+        "display_name": "The Man Without a Face 1080p CZ Dabing",
+        "planned_at": "2026-11-18T16:54:51.131508+00:00"
+      }
     },
     "3389": {
       "attempts": []
@@ -221887,5 +221886,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:54:48.406487+00:00"
+  "updated_at": "2026-11-18T16:54:51.433232+00:00"
 }
