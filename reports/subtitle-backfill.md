@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:32.959954+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:38.528890+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -101,7 +101,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Conan the Barbarian (1982) 1080p CZ Titulky](https://prehraj.to/conan-the-barbarian-1982-1080p-cz-titulky-mkv/e587d1d606f14398) (ID 31005845) | [Sdílej 35402133](https://sdilej.cz/35402133/conan.the.barbarian.1982.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-12T20:41:22.573123+00:00 |
 | [Crime 101 4K CZ Titulky](https://prehraj.to/crime-101-4k-cz-titulky-mkv/c0f3a2c7f8cfe178) (ID 31092791) | [Sdílej 35185544](https://sdilej.cz/35185544/crime-101-2026-2160p-web-dl-ddp5-1-x265-cz-sk-titulky-dop.-.mkv) | target_unavailable | 2026-11-16T14:44:28.778543+00:00 |
 | [Disturbia 1080p CZ Titulky](https://prehraj.to/disturbia-1080p-cz-titulky-mkv/44d408b374b25828) (ID 31083451) | [Sdílej 34714560](https://sdilej.cz/34714560/disturbia-2007-cz-en.mkv) | target_unavailable | 2026-11-16T05:07:12.791445+00:00 |
-| [Empties (Vratné lahve) 1080p CZ Titulky](https://prehraj.to/empties-vratne-lahve-1080p-cz-titulky-mkv/2fa38051e9b275cf) (ID 30938020) | [Sdílej 32453722](https://sdilej.cz/32453722/vratne-lahve-2007-fhd-cz.mkv) | target_unavailable | 2026-11-10T09:41:16.438716+00:00 |
+| [Empties (Vratné lahve) 1080p CZ Titulky](https://prehraj.to/empties-vratne-lahve-1080p-cz-titulky-mkv/2fa38051e9b275cf) (ID 30938020) | [Sdílej 32453722](https://sdilej.cz/32453722/vratne-lahve-2007-fhd-cz.mkv) | target_unavailable | 2026-11-18T12:42:36.487068+00:00 |
 | [Enemy Mine 1080p CZ Titulky](https://prehraj.to/enemy-mine-1080p-cz-titulky-mkv/7b6ef8f13c6edbc7) (ID 31008155) | [Sdílej 14778688](https://sdilej.cz/14778688/muj-nepritel-1080p.-1985-brrip-ac3.czdab.mkv) | target_unavailable | 2026-11-13T02:23:00.210004+00:00 |
 | [Enola Holmes 2 1080p CZ Titulky](https://prehraj.to/enola-holmes-2-1080p-cz-titulky-mkv/b2c4680e2b15504c) (ID 31089623) | [Sdílej 23652012](https://sdilej.cz/23652012/enola.holmes.2.2022.1080p.nf.web-dl.ddp5.1.atmos.h.264-smurf.cz.titulky.mkv) | target_unavailable | 2026-11-16T10:52:31.877634+00:00 |
 | [Erin Brockovich 1080p CZ titulky](https://prehraj.to/erin-brockovich-1080p-cz-titulky-mkv/894daecd9c168ca1) (ID 30715404) | [Sdílej 19346570](https://sdilej.cz/19346570/erin.brockovich.2000.1080p.bluray.cz-en.5.1.mkv) | target_unavailable | 2026-11-10T09:49:25.124690+00:00 |
