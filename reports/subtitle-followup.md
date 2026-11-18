@@ -621,7 +621,7 @@ Attach subtitles only after target processing has finished.
 | How About Adolf? (Der Vorname) 1080p CZ Titulky | 30989905 | https://sdilej.cz/34819330/der-vorname-how-about-adolf-2018-1080p-cz.tit.mkv | Complete: Czech subtitles verified |
 | Rise 720p CZ titulky | 30989991 | https://sdilej.cz/25891436/rise-svetla-empire-of-light-cz-titulky-2022.mkv | Complete: Czech subtitles verified |
 | Sayonara 1080p CZ titulky | 30990118 | https://sdilej.cz/34273318/sayonara-1957-bdrip-hd-1080p-h264-ita-eng-cze-ac3-armor-.mkv | Complete: Czech subtitles verified |
-| Once Upon a Deadpool SD CZ Titulky | 30990381 | https://sdilej.cz/11183990/once-upon-a-deadpool-2018-titulky.cz.mkv | Extract Czech track from exact source after processing |
+| Once Upon a Deadpool SD CZ titulky | 30990381 | https://sdilej.cz/11183990/once-upon-a-deadpool-2018-titulky.cz.mkv | Complete: Czech subtitles verified |
 | Chocolat (2016) SD CZ Titulky | 30990768 | https://sdilej.cz/6841848/chocolat-monsieur-chocolat-2016-titulky.cz-1080p.mkv | Extract Czech track from exact source after processing |
 | Pupendo 1080p CZ Titulky | 30990822 | https://sdilej.cz/31960641/pupendo-2003-komedie-cz-1080p.mkv | Extract Czech track from exact source after processing |
 | Generation Iron 720p CZ Titulky | 30992304 | https://sdilej.cz/22898145/generation-iron.mkv | Extract Czech track from exact source after processing |
