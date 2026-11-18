@@ -27387,13 +27387,6 @@
           "source_id": "29719575",
           "target_video_id": "30714314",
           "permanent": false,
-          "attempted_at": "2026-11-18T03:59:26.527138+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29719575",
-          "target_video_id": "30714314",
-          "permanent": false,
           "attempted_at": "2026-11-18T06:07:42.165625+00:00"
         },
         {
@@ -27402,6 +27395,13 @@
           "target_video_id": "30714314",
           "permanent": false,
           "attempted_at": "2026-11-18T07:41:53.795814+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29719575",
+          "target_video_id": "30714314",
+          "permanent": false,
+          "attempted_at": "2026-11-18T09:14:07.312658+00:00"
         }
       ],
       "last_plan": {
@@ -129822,7 +129822,7 @@
       "last_plan": {
         "source_id": "34774875",
         "display_name": "Waterboys 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:41:52.080843+00:00"
+        "planned_at": "2026-11-18T09:14:04.593761+00:00"
       },
       "previous_target_id": "30986837",
       "prepared": {
@@ -129830,6 +129830,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T02:18:35.871036+00:00",
         "relay_source_id": "34774875"
+      },
+      "claim": {
+        "worker_id": "86831642f75d497085f97d1c08771abf-shard-0",
+        "claimed_at": "2026-11-18T09:14:05.634135+00:00",
+        "lease_expires_at": "2026-11-18T15:14:05.634135+00:00",
+        "run_id": "44237121625"
       }
     },
     "22072": {
@@ -173653,7 +173659,7 @@
       "last_plan": {
         "source_id": "34657903",
         "display_name": "Dealer 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:14:01.729208+00:00"
+        "planned_at": "2026-11-18T09:14:04.963336+00:00"
       }
     },
     "3317": {
@@ -220810,5 +220816,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:14:01.729231+00:00"
+  "updated_at": "2026-11-18T09:14:07.312679+00:00"
 }
