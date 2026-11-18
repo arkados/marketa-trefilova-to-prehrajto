@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:05:22.885739+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:05:30.895250+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 532, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 168, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 533, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 167, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -141,7 +141,6 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Monsters, Inc. 1080p CZ Titulky](https://prehraj.to/monsters-inc-1080p-cz-titulky-mkv/e9cb96c4f3275984) (ID 30614354) | [Sdílej 27782789](https://sdilej.cz/27782789/monsters-inc.-priserky.s.r.o.-.mkv) | target_unavailable | 2026-11-18T12:51:07.079135+00:00 |
 | [Ms. President (Prezidentka) 1080p CZ Titulky](https://prehraj.to/ms-president-prezidentka-1080p-cz-titulky-mkv/49b673dbb3690970) (ID 31009923) | [Sdílej 30776190](https://sdilej.cz/30776190/prezidentka-2024-sk.mkv) | target_unavailable | 2026-11-13T06:57:23.658709+00:00 |
 | [Měsíc nad řekou 1080p CZ Titulky](https://prehraj.to/mesic-nad-rekou-1080p-cz-titulky-mkv/28fd5daa695dc4f8) (ID 31057723) | [Sdílej 35452662](https://sdilej.cz/35452662/mesic-nad-rekou-1953-.1080p.mastercopy.mkv) | target_unavailable | 2026-11-15T10:39:17.652051+00:00 |
-| [National Treasure 1080p CZ Titulky](https://prehraj.to/national-treasure-1080p-cz-titulky-mkv/a65abfbf3098895d) (ID 31001064) | [Sdílej 34237563](https://sdilej.cz/34237563/lovci-pokladu-2004-1080p-en-cz-sk-dab.mkv) | target_unavailable | 2026-11-12T10:14:50.776266+00:00 |
 | [News of the World 1080p CZ Titulky](https://prehraj.to/news-of-the-world-1080p-cz-titulky-mkv/d87d83fa56279758) (ID 31091456) | [Sdílej 15442247](https://sdilej.cz/15442247/news.of.the.world.2020.1080p.amzn.webrip.ddp5.1.x264.cz.tit.mkv) | target_unavailable | 2026-11-16T13:03:37.216034+00:00 |
 | [Ninja in the Dragon's Den 1080p CZ Titulky](https://prehraj.to/ninja-in-the-dragon-s-den-1080p-cz-titulky-mkv/82c83f21529e1287) (ID 30983315) | [Sdílej 30986611](https://sdilej.cz/30986611/ninja.in.the.dragon-s.den.ninja.komando1982.eridanus.1080.bluray.cz.eng.ru.chin.mkv) | target_unavailable | 2026-11-18T13:00:41.740305+00:00 |
 | [Nope SD CZ Titulky](https://prehraj.to/nope-sd-cz-titulky-mkv/dd3a076bdb26a68f) (ID 31081523) | [Sdílej 28526265](https://sdilej.cz/28526265/nope-2022-cztit-v-obraze.mkv) | target_unavailable | 2026-11-16T03:35:48.714262+00:00 |
