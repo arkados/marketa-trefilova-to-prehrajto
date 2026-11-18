@@ -109955,7 +109955,7 @@
       "last_plan": {
         "source_id": "24035589",
         "display_name": "Lucerna 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:23:53.603969+00:00"
+        "planned_at": "2026-11-18T11:50:56.595603+00:00"
       },
       "previous_target_id": "30983684",
       "prepared": {
@@ -112715,13 +112715,6 @@
           "source_id": "35074796",
           "target_video_id": "30983926",
           "permanent": false,
-          "attempted_at": "2026-11-18T07:15:30.819688+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35074796",
-          "target_video_id": "30983926",
-          "permanent": false,
           "attempted_at": "2026-11-18T08:47:42.712988+00:00"
         },
         {
@@ -112730,6 +112723,13 @@
           "target_video_id": "30983926",
           "permanent": false,
           "attempted_at": "2026-11-18T10:23:54.225430+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35074796",
+          "target_video_id": "30983926",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:50:57.187032+00:00"
         }
       ],
       "last_plan": {
@@ -112743,12 +112743,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:04:16.781769+00:00",
         "relay_source_id": "35074796"
-      },
-      "claim": {
-        "worker_id": "ea694974fa1e40219071323da2d410a2-shard-0",
-        "claimed_at": "2026-11-18T11:50:52.774215+00:00",
-        "lease_expires_at": "2026-11-18T17:50:52.774215+00:00",
-        "run_id": "44276193396"
       }
     },
     "14842": {
@@ -173870,17 +173864,19 @@
       "attempts": []
     },
     "27409": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14054640",
+          "target_video_id": "31149915",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:50:57.711813+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14054640",
         "display_name": "White Lion 1080p CZ Dabing",
         "planned_at": "2026-11-18T11:28:41.312239+00:00"
-      },
-      "claim": {
-        "worker_id": "5f7ae202f63b45f781e2c660102fa84e-shard-0",
-        "claimed_at": "2026-11-18T11:28:44.398901+00:00",
-        "lease_expires_at": "2026-11-18T17:28:44.398901+00:00",
-        "run_id": "44276193396"
       },
       "previous_target_id": "31149915",
       "prepared": {
@@ -173898,7 +173894,7 @@
       "last_plan": {
         "source_id": "11614808",
         "display_name": "Albert Nobbs SD CZ Dabing",
-        "planned_at": "2026-11-18T11:50:52.093501+00:00"
+        "planned_at": "2026-11-18T11:50:56.910824+00:00"
       }
     },
     "25586": {
@@ -221004,5 +221000,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:50:53.959584+00:00"
+  "updated_at": "2026-11-18T11:50:57.711832+00:00"
 }
