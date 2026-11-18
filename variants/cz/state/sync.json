@@ -109032,13 +109032,6 @@
           "source_id": "22546836",
           "target_video_id": "30983603",
           "permanent": false,
-          "attempted_at": "2026-11-18T12:48:42.491837+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22546836",
-          "target_video_id": "30983603",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:09:22.094847+00:00"
         },
         {
@@ -109047,6 +109040,13 @@
           "target_video_id": "30983603",
           "permanent": false,
           "attempted_at": "2026-11-18T16:45:20.498459+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22546836",
+          "target_video_id": "30983603",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:19:40.767853+00:00"
         }
       ],
       "last_plan": {
@@ -109060,12 +109060,6 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T14:21:36.081757+00:00",
         "relay_source_id": "22546836"
-      },
-      "claim": {
-        "worker_id": "a235636e858d4bbb8d34261533082e0e-shard-0",
-        "claimed_at": "2026-11-18T18:19:36.159498+00:00",
-        "lease_expires_at": "2026-11-19T00:19:36.159498+00:00",
-        "run_id": "44366936972"
       }
     },
     "12671": {
@@ -119190,7 +119184,7 @@
       "last_plan": {
         "source_id": "12049029",
         "display_name": "Tolkien 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:45:19.813186+00:00"
+        "planned_at": "2026-11-18T18:19:38.793432+00:00"
       },
       "previous_target_id": "30984886",
       "prepared": {
@@ -119198,6 +119192,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:03:27.140287+00:00",
         "relay_source_id": "12049029"
+      },
+      "claim": {
+        "worker_id": "741ff10c4b274b2197dd968a86385ff2-shard-0",
+        "claimed_at": "2026-11-18T18:19:39.665146+00:00",
+        "lease_expires_at": "2026-11-19T00:19:39.665146+00:00",
+        "run_id": "44366936972"
       }
     },
     "11922": {
@@ -175713,6 +175713,13 @@
         "claimed_at": "2026-11-18T18:19:32.917816+00:00",
         "lease_expires_at": "2026-11-19T00:19:32.917816+00:00",
         "run_id": "44366936972"
+      },
+      "previous_target_id": "31157111",
+      "prepared": {
+        "target_video_id": "31157111",
+        "size_bytes": 3550103089,
+        "prepared_at": "2026-11-18T18:19:40.993079+00:00",
+        "relay_source_id": "32552693"
       }
     },
     "14988": {
@@ -175735,7 +175742,7 @@
       "last_plan": {
         "source_id": "34721451",
         "display_name": "Cold in July 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:19:35.654069+00:00"
+        "planned_at": "2026-11-18T18:19:39.109969+00:00"
       }
     },
     "18756": {
@@ -222517,5 +222524,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:19:36.475160+00:00"
+  "updated_at": "2026-11-18T18:19:40.993098+00:00"
 }
