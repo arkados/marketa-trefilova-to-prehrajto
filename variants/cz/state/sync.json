@@ -8673,13 +8673,6 @@
           "source_id": "17777440",
           "target_video_id": "30631282",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:34:56.988674+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17777440",
-          "target_video_id": "30631282",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:59:15.626408+00:00"
         },
         {
@@ -8688,6 +8681,13 @@
           "target_video_id": "30631282",
           "permanent": false,
           "attempted_at": "2026-11-18T14:21:26.293508+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17777440",
+          "target_video_id": "30631282",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:54:45.746931+00:00"
         }
       ],
       "last_plan": {
@@ -115366,7 +115366,7 @@
       "last_plan": {
         "source_id": "28364650",
         "display_name": "Jay and Silent Bob Strike Back 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:21:29.894420+00:00"
+        "planned_at": "2026-11-18T15:54:44.132639+00:00"
       },
       "previous_target_id": "30984531",
       "prepared": {
@@ -115374,6 +115374,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:42:37.453998+00:00",
         "relay_source_id": "28364650"
+      },
+      "claim": {
+        "worker_id": "5c2c66b9e1eb4642a8c294e4de30493d-shard-0",
+        "claimed_at": "2026-11-18T15:54:45.411146+00:00",
+        "lease_expires_at": "2026-11-18T21:54:45.411146+00:00",
+        "run_id": "44319849691"
       }
     },
     "2818": {
@@ -174400,7 +174406,7 @@
       "last_plan": {
         "source_id": "20710849",
         "display_name": "Saint Judy 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:54:41.273939+00:00"
+        "planned_at": "2026-11-18T15:54:44.617224+00:00"
       }
     },
     "22819": {
@@ -221419,5 +221425,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:54:41.273954+00:00"
+  "updated_at": "2026-11-18T15:54:45.746949+00:00"
 }
