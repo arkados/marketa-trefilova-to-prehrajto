@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:12:22.985369+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:12:38.644319+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 517, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 184, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 518, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 183, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -162,7 +162,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Paul 1080p CZ Titulky](https://prehraj.to/paul-1080p-cz-titulky-mkv/15157768501db2a5) (ID 31002516) | [Sdílej 35003134](https://sdilej.cz/35003134/paul.2011.unrated.1080p.bluray.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:07:44.033693+00:00 |
 | [Pillion 1080p CZ Titulky](https://prehraj.to/pillion-1080p-cz-titulky-mkv/62a244197da04bbf) (ID 31013758) | [Sdílej 34465941](https://sdilej.cz/34465941/pillion-2025-.mkv) | target_unavailable | 2026-11-13T15:03:19.170487+00:00 |
 | [Poor Things 1080p CZ titulky](https://prehraj.to/poor-things-1080p-cz-titulky-mkv/de58b83d9d75655d) (ID 30664033) | [Sdílej 28240998](https://sdilej.cz/28240998/poor.things-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T12:42:31.191507+00:00 |
-| [Pupendo 1080p CZ Titulky](https://prehraj.to/pupendo-1080p-cz-titulky-mkv/ceecd8c58f1ab5ac) (ID 30990822) | [Sdílej 31960641](https://sdilej.cz/31960641/pupendo-2003-komedie-cz-1080p.mkv) | target_unavailable | 2026-11-11T14:08:24.508347+00:00 |
 | [Queen of Hearts (Dronningen) 1080p CZ titulky](https://prehraj.to/queen-of-hearts-dronningen-1080p-cz-titulky-mkv/add428a7f119488e) (ID 30987463) | [Sdílej 16607977](https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv) | target_unavailable | 2026-11-18T13:01:53.440111+00:00 |
 | [Rebel Ridge 1080p CZ Titulky](https://prehraj.to/rebel-ridge-1080p-cz-titulky-mkv/f5b629dcde5dfb97) (ID 31091395) | [Sdílej 35402850](https://sdilej.cz/35402850/rebel.ridge.2024.1080p.webrip.x265.10bit.aac5.1-yts.mx-.cz.sub.mkv) | target_unavailable | 2026-11-16T12:53:37.558029+00:00 |
 | [Rent 1080p CZ Titulky](https://prehraj.to/rent-1080p-cz-titulky-mkv/ed2162beee69f685) (ID 31007976) | [Sdílej 22944190](https://sdilej.cz/22944190/bohemove-2005-cz-titulky.mkv) | target_unavailable | 2026-11-13T01:42:54.375952+00:00 |
