@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:10:36.121224+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:10:41.090650+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -230,7 +230,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [The Most Dangerous Game 1080p CZ titulky](https://prehraj.to/the-most-dangerous-game-1080p-cz-titulky-mkv/cea26b2b85836981) (ID 30987757) | [Sdílej 27648883](https://sdilej.cz/27648883/nejnebezpecnejsi-hra-1932-.mkv) | target_unavailable | 2026-11-18T13:02:11.908023+00:00 |
 | [The Murderer Hides His Face (Vrah skrývá tvář) 1080p CZ Titulky](https://prehraj.to/the-murderer-hides-his-face-vrah-skryva-tvar-1080p-cz-titulky-mkv/c8d47bac8742e79e) (ID 31026251) | [Sdílej 35079047](https://sdilej.cz/35079047/vrah-skryva-tvar-1966-hd.mkv) | target_unavailable | 2026-11-14T09:43:05.399694+00:00 |
 | [The Night Comes for Us 1080p CZ Titulky](https://prehraj.to/the-night-comes-for-us-1080p-cz-titulky-mkv/1d56fe292b5751a1) (ID 31010102) | [Sdílej 26970393](https://sdilej.cz/26970393/the-night-comes-for-us-2018-cz-sub-indonesian-1080p-nf-webrip-ddp5-1-x264.mkv) | target_unavailable | 2026-11-13T07:17:37.393585+00:00 |
-| [The Night of the 12th (La Nuit du 12) 1080p CZ titulky](https://prehraj.to/the-night-of-the-12th-la-nuit-du-12-1080p-cz-titulky-mkv/63f9f49f4c10fbe7) (ID 30988430) | [Sdílej 26365359](https://sdilej.cz/26365359/la-nuit-du-12-the-night-of-the-12th-2022-sktit-v-obraze-bluray-1080p.mkv) | target_unavailable | 2026-11-11T08:28:18.381991+00:00 |
+| [The Night of the 12th (La Nuit du 12) 1080p CZ titulky](https://prehraj.to/the-night-of-the-12th-la-nuit-du-12-1080p-cz-titulky-mkv/63f9f49f4c10fbe7) (ID 30988430) | [Sdílej 26365359](https://sdilej.cz/26365359/la-nuit-du-12-the-night-of-the-12th-2022-sktit-v-obraze-bluray-1080p.mkv) | target_unavailable | 2026-11-18T13:10:40.503299+00:00 |
 | [The Outrun 1080p CZ titulky](https://prehraj.to/the-outrun-1080p-cz-titulky-mkv/8f43c6e22bfac52c) (ID 31013953) | [Sdílej 30078440](https://sdilej.cz/30078440/the.outrun-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-13T15:23:17.879665+00:00 |
 | [The Place SD CZ titulky](https://prehraj.to/the-place-sd-cz-titulky-mkv/89bc7215d78c8de2) (ID 30988255) | [Sdílej 9657833](https://sdilej.cz/9657833/misto-splnenych-prani-the-place-2017-cz-titulky.mkv) | target_unavailable | 2026-11-18T13:10:36.121160+00:00 |
 | [The Rip 1080p CZ Titulky](https://prehraj.to/the-rip-1080p-cz-titulky-mkv/6201a007cf7ae881) (ID 31088948) | [Sdílej 32923971](https://sdilej.cz/32923971/the.rip-2026-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-16T10:02:26.377301+00:00 |
