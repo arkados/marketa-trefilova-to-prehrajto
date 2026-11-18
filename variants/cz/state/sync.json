@@ -130947,13 +130947,6 @@
           "source_id": "34451524",
           "target_video_id": "30986945",
           "permanent": false,
-          "attempted_at": "2026-11-17T23:23:27.900476+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34451524",
-          "target_video_id": "30986945",
-          "permanent": false,
           "attempted_at": "2026-11-18T01:01:50.934779+00:00"
         },
         {
@@ -130962,6 +130955,13 @@
           "target_video_id": "30986945",
           "permanent": false,
           "attempted_at": "2026-11-18T02:27:54.994772+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34451524",
+          "target_video_id": "30986945",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:54:52.795925+00:00"
         }
       ],
       "last_plan": {
@@ -165738,7 +165738,7 @@
       "last_plan": {
         "source_id": "29163002",
         "display_name": "Hail the Artist (Salut l'artiste) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T02:27:54.642720+00:00"
+        "planned_at": "2026-11-18T03:54:50.685328+00:00"
       },
       "previous_target_id": "31107589",
       "prepared": {
@@ -165746,6 +165746,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-17T04:01:50.003868+00:00",
         "relay_source_id": "29163002"
+      },
+      "claim": {
+        "worker_id": "adc251dad12f4d75b4d323db5f474de2-shard-0",
+        "claimed_at": "2026-11-18T03:54:51.939340+00:00",
+        "lease_expires_at": "2026-11-18T09:54:51.939340+00:00",
+        "run_id": "44190029167"
       }
     },
     "20899": {
@@ -172832,7 +172838,7 @@
       "last_plan": {
         "source_id": "32581298",
         "display_name": "Postcards from the Edge 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:54:47.114309+00:00"
+        "planned_at": "2026-11-18T03:54:51.138749+00:00"
       }
     },
     "26008": {
@@ -220080,5 +220086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:54:47.465411+00:00"
+  "updated_at": "2026-11-18T03:54:52.795943+00:00"
 }
