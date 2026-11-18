@@ -123407,13 +123407,6 @@
           "source_id": "34230753",
           "target_video_id": "30985555",
           "permanent": false,
-          "attempted_at": "2026-11-18T02:20:17.741492+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34230753",
-          "target_video_id": "30985555",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:44:37.929376+00:00"
         },
         {
@@ -123422,6 +123415,13 @@
           "target_video_id": "30985555",
           "permanent": false,
           "attempted_at": "2026-11-18T05:53:38.649197+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34230753",
+          "target_video_id": "30985555",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:28:11.457522+00:00"
         }
       ],
       "last_plan": {
@@ -129674,7 +129674,7 @@
       "last_plan": {
         "source_id": "34993388",
         "display_name": "Love Me Tender (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:53:41.056030+00:00"
+        "planned_at": "2026-11-18T07:28:09.649844+00:00"
       },
       "previous_target_id": "30986791",
       "prepared": {
@@ -129682,6 +129682,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T02:10:01.122902+00:00",
         "relay_source_id": "34993388"
+      },
+      "claim": {
+        "worker_id": "be841d4bbfa74807a44bf318dc8f2d0a-shard-0",
+        "claimed_at": "2026-11-18T07:28:11.021369+00:00",
+        "lease_expires_at": "2026-11-18T13:28:11.021369+00:00",
+        "run_id": "44237121625"
       }
     },
     "14540": {
@@ -173421,7 +173427,7 @@
       "last_plan": {
         "source_id": "34952213",
         "display_name": "A Monster in Paris (Un monstre à Paris) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:28:06.442744+00:00"
+        "planned_at": "2026-11-18T07:28:10.127972+00:00"
       }
     },
     "26566": {
@@ -220611,5 +220617,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:28:06.442763+00:00"
+  "updated_at": "2026-11-18T07:28:11.457568+00:00"
 }
