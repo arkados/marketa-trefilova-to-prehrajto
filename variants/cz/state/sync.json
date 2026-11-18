@@ -177096,17 +177096,19 @@
       "attempts": []
     },
     "3462": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32457155",
+          "target_video_id": "31162355",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:05:18.497221+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32457155",
         "display_name": "Miracle on 34th Street (1994) 1080p CZ Dabing",
         "planned_at": "2026-11-18T23:00:44.145035+00:00"
-      },
-      "claim": {
-        "worker_id": "06b6d41682ed43cba966039935762f7e-shard-0",
-        "claimed_at": "2026-11-18T23:00:45.094403+00:00",
-        "lease_expires_at": "2026-11-19T05:00:45.094403+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31162355",
       "prepared": {
@@ -223729,5 +223731,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:05:16.042873+00:00"
+  "updated_at": "2026-11-18T23:05:18.497243+00:00"
 }
