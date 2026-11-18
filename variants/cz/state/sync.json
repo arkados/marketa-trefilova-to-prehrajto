@@ -67238,7 +67238,7 @@
       "last_plan": {
         "source_id": "25671141",
         "display_name": "The Blind Man Who Did Not Want to See Titanic (Sokea mies joka ei halunnut nähdä Titanicia) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:07:15.534752+00:00"
+        "planned_at": "2026-11-18T20:41:29.777355+00:00"
       },
       "previous_target_id": "30833110",
       "prepared": {
@@ -131784,6 +131784,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T03:19:22.514356+00:00",
         "relay_source_id": "32647219"
+      },
+      "claim": {
+        "worker_id": "44ee508da5e84bb6b9af2fc3960534f0-shard-0",
+        "claimed_at": "2026-11-18T20:41:29.519596+00:00",
+        "lease_expires_at": "2026-11-19T02:41:29.519596+00:00",
+        "run_id": "44366936972"
       }
     },
     "13290": {
@@ -176326,17 +176332,19 @@
       }
     },
     "3530": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16113255",
+          "target_video_id": "31159475",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:41:31.019694+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16113255",
         "display_name": "Wild Target 1080p CZ Dabing",
         "planned_at": "2026-11-18T20:37:50.005224+00:00"
-      },
-      "claim": {
-        "worker_id": "fbacdd5e94fd4db49ad48c25f6007631-shard-0",
-        "claimed_at": "2026-11-18T20:37:53.124538+00:00",
-        "lease_expires_at": "2026-11-19T02:37:53.124538+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31159475",
       "prepared": {
@@ -176351,7 +176359,7 @@
       "last_plan": {
         "source_id": "34785975",
         "display_name": "Curse of the Crystal Eye SD CZ Dabing",
-        "planned_at": "2026-11-18T20:41:26.971818+00:00"
+        "planned_at": "2026-11-18T20:41:30.120003+00:00"
       }
     },
     "33062": {
@@ -223064,5 +223072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:41:26.971836+00:00"
+  "updated_at": "2026-11-18T20:41:31.019710+00:00"
 }
