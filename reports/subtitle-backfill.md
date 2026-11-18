@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:10:25.405650+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:10:27.283851+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -190,7 +190,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Signum Laudis 1080p CZ Titulky](https://prehraj.to/signum-laudis-1080p-cz-titulky-mkv/a5c4df7facc8548f) (ID 31054410) | [Sdílej 34940876](https://sdilej.cz/34940876/signum-laudis-1980-vojnovi-cssr-fhd-cz-dabing-1080p.mkv) | target_unavailable | 2026-11-15T08:48:55.491885+00:00 |
 | [Singin' in the Rain SD](https://prehraj.to/singin-in-the-rain-sd-mp4/2de17edf2d52a7eb) (ID 30677056) | [Sdílej 15908236](https://sdilej.cz/15908236/zpivani-v-desti-czdab.mp4) | target_unavailable | 2026-11-15T06:58:24.109347+00:00 |
 | [Sinister SD CZ Titulky](https://prehraj.to/sinister-sd-cz-titulky-mkv/6b64f0997910e8eb) (ID 31081591) | [Sdílej 11051862](https://sdilej.cz/11051862/sinister-2012-brrip-cztitl.mkv) | target_unavailable | 2026-11-16T03:35:52.345173+00:00 |
-| [Skyking (#SKYKING) 1080p CZ titulky](https://prehraj.to/skyking-skyking-1080p-cz-titulky-mkv/f146a58059f0f6dc) (ID 30987918) | [Sdílej 34014919](https://sdilej.cz/34014919/skyking.2026.sk.titulky.1080p.mkv) | target_unavailable | 2026-11-11T06:48:07.231650+00:00 |
+| [Skyking (#SKYKING) 1080p CZ titulky](https://prehraj.to/skyking-skyking-1080p-cz-titulky-mkv/f146a58059f0f6dc) (ID 30987918) | [Sdílej 34014919](https://sdilej.cz/34014919/skyking.2026.sk.titulky.1080p.mkv) | target_unavailable | 2026-11-18T13:10:27.230370+00:00 |
 | [Something Wild 1080p CZ Titulky](https://prehraj.to/something-wild-1080p-cz-titulky-mkv/8437ea7ca997fba2) (ID 31013121) | [Sdílej 35182294](https://sdilej.cz/35182294/something.wild.1986.criterion.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-13T14:02:39.393310+00:00 |
 | [Sorry to Bother You 1080p CZ Titulky](https://prehraj.to/sorry-to-bother-you-1080p-cz-titulky-mkv/daedc2ae52062479) (ID 31006990) | [Sdílej 10716193](https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv) | target_unavailable | 2026-11-12T23:11:49.787012+00:00 |
 | [Speak No Evil (2024) 4K CZ titulky](https://prehraj.to/speak-no-evil-2024-4k-cz-titulky-mkv/90136363ce83fc58) (ID 31088511) | [Sdílej 29814058](https://sdilej.cz/29814058/speak.no.evil-2024-cztit-v-obraze-2160p.mkv) | target_unavailable | 2026-11-16T09:42:18.280460+00:00 |
