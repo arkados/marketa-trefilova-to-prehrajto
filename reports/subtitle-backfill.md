@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:15:59.215411+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:16:05.663015+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 550, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 147, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 551, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 146, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -120,7 +120,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Juno 1080p CZ titulky](https://prehraj.to/juno-1080p-cz-titulky-mkv/087c1b745f58cf79) (ID 30747251) | [Sdílej 33537783](https://sdilej.cz/33537783/juno-2007-komedie-usa-elliot-page-michael-cera-jennifer-garner-czdab-fhd.mkv) | target_unavailable | 2026-11-18T12:43:13.065261+00:00 |
 | [Kingdom: Ashin of the North (킹덤: 아신전) 1080p CZ Titulky](https://prehraj.to/kingdom-ashin-of-the-north-1080p-cz-titulky-mkv/0bbed16b5497b18a) (ID 31014339) | [Sdílej 17566638](https://sdilej.cz/17566638/kingdom.ashin.of.the.north.2021.korean.1080p.nf.webrip.ddp5.1.atmos.x264.cz.tit.mkv) | target_unavailable | 2026-11-13T15:43:19.028818+00:00 |
 | [Kolya (Kolja) 4K CZ Titulky](https://prehraj.to/kolya-kolja-4k-cz-titulky-mkv/47407a1efcebc0f7) (ID 30693817) | [Sdílej 25989515](https://sdilej.cz/25989515/kolja-directors-cut-1996-2160p-uhd-cz-dabing.mkv) | target_unavailable | 2026-11-18T12:42:58.091544+00:00 |
-| [Ladyhawke 1080p CZ Titulky](https://prehraj.to/ladyhawke-1080p-cz-titulky-mkv/b0fee03b1be1f71b) (ID 31008069) | [Sdílej 35402331](https://sdilej.cz/35402331/ladyhawke.1985.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-13T02:02:54.481412+00:00 |
 | [Legacy, notre héritage (Legacy) 1080p CZ Titulky](https://prehraj.to/legacy-notre-heritage-legacy-1080p-cz-titulky-mkv/69691dd82efd42a0) (ID 30988551) | [Sdílej 17633756](https://sdilej.cz/17633756/space-jam-a-new-legacy-space-jam-novy-zacatek-2021-1080p-aac5.1-titulky-cz.mkv) | target_unavailable | 2026-11-18T13:10:44.894384+00:00 |
 | [Little Fish (2020) 1080p CZ Titulky](https://prehraj.to/little-fish-2020-1080p-cz-titulky-mkv/3f9cbbdd9272bed4) (ID 30989893) | [Sdílej 35401846](https://sdilej.cz/35401846/little.fish.2020.1080p.webrip.x264-rarbg-.mkv) | target_unavailable | 2026-11-18T13:11:49.643663+00:00 |
 | [Live Free or Die Hard 1080p CZ Titulky](https://prehraj.to/live-free-or-die-hard-1080p-cz-titulky-mkv/6a67b448e96b3947) (ID 30904979) | [Sdílej 23260210](https://sdilej.cz/23260210/die-hard-4-live-free-or-die-hard-smrtonosna-past-4-0-2007-hd-1080p-ang-cz.mkv) | source_unavailable | 2026-11-17T16:23:14.834186+00:00 |
