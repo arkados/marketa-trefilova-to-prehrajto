@@ -134797,13 +134797,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:14:12.117412+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-18T01:53:03.430463+00:00"
         },
         {
@@ -134812,6 +134805,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-18T03:17:28.060045+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:23:21.218624+00:00"
         }
       ],
       "last_plan": {
@@ -140232,7 +140232,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-18T03:17:27.310588+00:00"
+        "planned_at": "2026-11-18T05:23:19.411598+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140240,6 +140240,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "b567ef46e4af4a50b84db6bb153d1660-shard-0",
+        "claimed_at": "2026-11-18T05:23:20.411197+00:00",
+        "lease_expires_at": "2026-11-18T11:23:20.411197+00:00",
+        "run_id": "44237121625"
       }
     },
     "12711": {
@@ -172983,7 +172989,7 @@
       "last_plan": {
         "source_id": "11493484",
         "display_name": "A Dog's Way Home 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:23:16.227255+00:00"
+        "planned_at": "2026-11-18T05:23:19.771024+00:00"
       }
     },
     "16421": {
@@ -220218,5 +220224,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:23:16.507178+00:00"
+  "updated_at": "2026-11-18T05:23:21.218643+00:00"
 }
