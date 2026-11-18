@@ -222,13 +222,6 @@
           "source_id": "26227362",
           "target_video_id": "30582771",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:18:33.281846+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26227362",
-          "target_video_id": "30582771",
-          "permanent": false,
           "attempted_at": "2026-11-18T01:48:41.537723+00:00"
         },
         {
@@ -237,6 +230,13 @@
           "target_video_id": "30582771",
           "permanent": false,
           "attempted_at": "2026-11-18T02:19:17.173658+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26227362",
+          "target_video_id": "30582771",
+          "permanent": false,
+          "attempted_at": "2026-11-18T02:49:22.352275+00:00"
         }
       ],
       "last_plan": {
@@ -250,12 +250,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-10-28T09:35:24.990917+00:00",
         "relay_source_id": "26227362"
-      },
-      "claim": {
-        "worker_id": "91c57f2b9c904de78a0029e92fc0e3f6-shard-0",
-        "claimed_at": "2026-11-18T02:49:17.844539+00:00",
-        "lease_expires_at": "2026-11-18T08:49:17.844539+00:00",
-        "run_id": "44190029167"
       }
     },
     "24": {
@@ -12314,7 +12308,7 @@
       "last_plan": {
         "source_id": "7674339",
         "display_name": "Bullitt 720p CZ titulky",
-        "planned_at": "2026-11-18T02:19:14.266604+00:00"
+        "planned_at": "2026-11-18T02:49:21.726947+00:00"
       },
       "previous_target_id": "30763383",
       "prepared": {
@@ -12322,6 +12316,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-03T14:13:54.051993+00:00",
         "relay_source_id": "7674339"
+      },
+      "claim": {
+        "worker_id": "ea798eff661f4d3b866440648b2e1150-shard-0",
+        "claimed_at": "2026-11-18T02:49:22.476900+00:00",
+        "lease_expires_at": "2026-11-18T08:49:22.476900+00:00",
+        "run_id": "44190029167"
       }
     },
     "11203": {
@@ -100790,5 +100790,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T02:49:18.447256+00:00"
+  "updated_at": "2026-11-18T02:49:22.476923+00:00"
 }
