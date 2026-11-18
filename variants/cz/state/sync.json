@@ -205,13 +205,6 @@
           "source_id": "32109285",
           "target_video_id": "30570341",
           "permanent": false,
-          "attempted_at": "2026-11-17T21:24:06.701634+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32109285",
-          "target_video_id": "30570341",
-          "permanent": false,
           "attempted_at": "2026-11-17T22:53:41.568964+00:00"
         },
         {
@@ -220,6 +213,13 @@
           "target_video_id": "30570341",
           "permanent": false,
           "attempted_at": "2026-11-18T00:20:20.283211+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32109285",
+          "target_video_id": "30570341",
+          "permanent": false,
+          "attempted_at": "2026-11-18T01:58:55.660799+00:00"
         }
       ],
       "last_plan": {
@@ -233,12 +233,6 @@
         "size_bytes": 9500000000,
         "prepared_at": "2026-10-27T18:58:10.341227+00:00",
         "relay_source_id": "32109285"
-      },
-      "claim": {
-        "worker_id": "16e70e03f224439d8a9e61eae18954a2-shard-0",
-        "claimed_at": "2026-11-18T01:58:51.461309+00:00",
-        "lease_expires_at": "2026-11-18T07:58:51.461309+00:00",
-        "run_id": "44190029167"
       }
     },
     "10755": {
@@ -14092,7 +14086,7 @@
       "last_plan": {
         "source_id": "18888145",
         "display_name": "The Outlaw Josey Wales 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:20:18.052807+00:00"
+        "planned_at": "2026-11-18T01:58:53.985635+00:00"
       },
       "previous_target_id": "30654220",
       "prepared": {
@@ -14100,6 +14094,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-10-31T03:58:16.842735+00:00",
         "relay_source_id": "18888145"
+      },
+      "claim": {
+        "worker_id": "13acf8caace844f4b940a7efe34bb4c0-shard-0",
+        "claimed_at": "2026-11-18T01:58:55.249339+00:00",
+        "lease_expires_at": "2026-11-18T07:58:55.249339+00:00",
+        "run_id": "44190029167"
       }
     },
     "22047": {
@@ -172415,7 +172415,7 @@
       "last_plan": {
         "source_id": "33564907",
         "display_name": "Flirting with Disaster 720p CZ Dabing",
-        "planned_at": "2026-11-18T01:58:50.590188+00:00"
+        "planned_at": "2026-11-18T01:58:54.390321+00:00"
       }
     },
     "23533": {
@@ -219732,5 +219732,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T01:58:51.791793+00:00"
+  "updated_at": "2026-11-18T01:58:55.660816+00:00"
 }
