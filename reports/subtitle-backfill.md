@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:59.891559+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:43:09.115671+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -172,7 +172,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Queen of Hearts (Dronningen) 1080p CZ titulky](https://prehraj.to/queen-of-hearts-dronningen-1080p-cz-titulky-mkv/add428a7f119488e) (ID 30987463) | [Sdílej 16607977](https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv) | target_unavailable | 2026-11-11T04:55:10.264786+00:00 |
 | [Rebel Ridge 1080p CZ Titulky](https://prehraj.to/rebel-ridge-1080p-cz-titulky-mkv/f5b629dcde5dfb97) (ID 31091395) | [Sdílej 35402850](https://sdilej.cz/35402850/rebel.ridge.2024.1080p.webrip.x265.10bit.aac5.1-yts.mx-.cz.sub.mkv) | target_unavailable | 2026-11-16T12:53:37.558029+00:00 |
 | [Rent 1080p CZ Titulky](https://prehraj.to/rent-1080p-cz-titulky-mkv/ed2162beee69f685) (ID 31007976) | [Sdílej 22944190](https://sdilej.cz/22944190/bohemove-2005-cz-titulky.mkv) | target_unavailable | 2026-11-13T01:42:54.375952+00:00 |
-| [Rental Family 1080p CZ Titulky](https://prehraj.to/rental-family-1080p-cz-titulky-mp4/a1a16ac5b338c17c) (ID 30699789) | [Sdílej 33092843](https://sdilej.cz/33092843/rental-family-2025-cz-titulky.mp4) | upload_unconfirmed | 2026-11-10T09:41:43.782147+00:00 |
+| [Rental Family 1080p CZ Titulky](https://prehraj.to/rental-family-1080p-cz-titulky-mp4/a1a16ac5b338c17c) (ID 30699789) | [Sdílej 33092843](https://sdilej.cz/33092843/rental-family-2025-cz-titulky.mp4) | upload_unconfirmed | 2026-11-18T12:43:08.789094+00:00 |
 | [René 1080p CZ Titulky](https://prehraj.to/rene-1080p-cz-titulky-mkv/5a9f54c8abee0cc4) (ID 31025310) | [Sdílej 30660141](https://sdilej.cz/30660141/puls-3-invaze-hraji-rider-strong-brittany-renee-finamore-2008-cz-dab-leg.mkv) | target_unavailable | 2026-11-14T08:02:38.054935+00:00 |
 | [Reptile 1080p CZ Titulky](https://prehraj.to/reptile-1080p-cz-titulky-mkv/1c3317d9326351a7) (ID 31090284) | [Sdílej 26924113](https://sdilej.cz/26924113/reptile.2023.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv) | target_unavailable | 2026-11-16T11:42:48.272152+00:00 |
 | [Requiem for a Dream 1080p CZ titulky](https://prehraj.to/requiem-for-a-dream-1080p-cz-titulky-mkv/c63b14022d43238e) (ID 30676098) | [Sdílej 22817696](https://sdilej.cz/22817696/requiem-for-a-dream-2000-bdrip-1080p-hevc-en-cz-commentary.mkv) | target_unavailable | 2026-11-18T12:42:42.515682+00:00 |
