@@ -646,7 +646,7 @@ Attach subtitles only after target processing has finished.
 | Game Night 1080p CZ titulky | 31003096 | https://sdilej.cz/35243994/game.night.2018.open.matte.1080p.bluray.dl.dts.x264-majo.mkv | Complete: Czech subtitles verified |
 | Clueless 1080p CZ titulky | 31003560 | https://sdilej.cz/30783542/bezmocna-clueless-1995-en.cz.sk-bdrip-hevc-1080p.mkv | Complete: Czech subtitles verified |
 | The Magnificent Seven (2016) 4K CZ Titulky | 31003896 | https://sdilej.cz/32905861/the-magnificent-seven-sedm-statecnych-2016-2160p-dv-cz-dabing-en-truehd-atmos-radecek.mkv | Extract Czech track from exact source after processing |
-| Rocky III 1080p CZ Titulky | 31004255 | https://sdilej.cz/33588201/rocky-iii.-cz.sk.en.1080p.hmax.web-dl..mkv | Extract Czech track from exact source after processing |
+| Rocky III 1080p CZ titulky | 31004255 | https://sdilej.cz/33588201/rocky-iii.-cz.sk.en.1080p.hmax.web-dl..mkv | Complete: Czech subtitles verified |
 | Legend (2015) [ID 2712] 1080p CZ Titulky | 31004679 | https://sdilej.cz/32845458/legendy-zlocinu-2015-krimi-thriller-tom-hardy-czdab-bluray.1080p.mkv | Extract Czech track from exact source after processing |
 | Wonka 4K CZ Titulky | 31005086 | https://sdilej.cz/27822278/wonka-2023-cztit-v-obraze-2160p.mkv | Extract Czech track from exact source after processing |
 | Conan the Barbarian (1982) 1080p CZ Titulky | 31005845 | https://sdilej.cz/35402133/conan.the.barbarian.1982.1080p.bluray.h264.aac-rarbg.cz.sub.mkv | Extract Czech track from exact source after processing |
