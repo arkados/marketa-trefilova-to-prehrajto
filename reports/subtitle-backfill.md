@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:12.846367+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:21.691322+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -222,7 +222,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [The Fighter 1080p CZ Titulky](https://prehraj.to/the-fighter-1080p-cz-titulky-mkv/d534f89e529377c9) (ID 30705917) | [Sdílej 34732235](https://sdilej.cz/34732235/the-fighter-2010-bdrip-1080p-cz-en.mkv) | upload_unconfirmed | 2026-11-18T12:41:08.877507+00:00 |
 | [The Fourth Phase 1080p CZ Titulky](https://prehraj.to/the-fourth-phase-1080p-cz-titulky-mkv/4d5e4c7ddc78724a) (ID 31017820) | [Sdílej 6841800](https://sdilej.cz/6841800/ctvrta-faze-the-fourth-phase-2016-titulky.cz-1080p.mkv) | target_unavailable | 2026-11-13T18:54:00.404555+00:00 |
 | [The Gangster, the Cop, the Devil (AgInJeon) 1080p CZ titulky](https://prehraj.to/the-gangster-the-cop-the-devil-1080p-cz-titulky-mkv/5b70f3475e836bb0) (ID 30984719) | [Sdílej 11947495](https://sdilej.cz/11947495/the-gangster-the-cop-the-devil-2019.hd1080p-cz-titulky.mkv) | target_unavailable | 2026-11-10T17:27:27.267012+00:00 |
-| [The Godfather 1080p CZ Titulky](https://prehraj.to/the-godfather-cz-titulky-mp4/5a0860210a302e5d) (ID 30594653) | [Sdílej 32106032](https://sdilej.cz/32106032/kmotr-i-czdab-fullhd-the-godfather-i-krimi-usa-1972-audio-cz-en-tit.-cz-1080p-.mp4) | upload_unconfirmed | 2026-11-10T09:41:00.927061+00:00 |
+| [The Godfather 1080p CZ Titulky](https://prehraj.to/the-godfather-cz-titulky-mp4/5a0860210a302e5d) (ID 30594653) | [Sdílej 32106032](https://sdilej.cz/32106032/kmotr-i-czdab-fullhd-the-godfather-i-krimi-usa-1972-audio-cz-en-tit.-cz-1080p-.mp4) | upload_unconfirmed | 2026-11-18T12:42:21.582804+00:00 |
 | [The Great Hack 1080p CZ titulky](https://prehraj.to/the-great-hack-1080p-cz-titulky-mkv/876cecaca50e47a3) (ID 30986211) | [Sdílej 35468703](https://sdilej.cz/35468703/the.great.hack.2019.1080p.nf.web-dl.ddp5.1.x264-ntg.mkv) | target_unavailable | 2026-11-10T23:42:01.868480+00:00 |
 | [The Last Kingdom: Seven Kings Must Die 4K CZ Titulky](https://prehraj.to/the-last-kingdom-seven-kings-must-die-4k-cz-titulky-mkv/8d719a35d53fc641) (ID 31008794) | [Sdílej 29781891](https://sdilej.cz/29781891/the-last-kingdom-seven-kings-must-die-2023-2160p-4k-web-x265-10bit-aac5-1-yts-mx-.mkv) | target_unavailable | 2026-11-13T04:03:12.760406+00:00 |
 | [The Last Stop in Yuma County 1080p CZ Titulky](https://prehraj.to/the-last-stop-in-yuma-county-1080p-cz-titulky-mkv/cbd03db1f36cc17f) (ID 31012476) | [Sdílej 29064521](https://sdilej.cz/29064521/the-last-stop-in-yuma-county-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-13T12:42:27.360943+00:00 |
