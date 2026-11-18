@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:50:39.404439+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:50:45.517472+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -88,7 +88,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [Breathing (Atmen) 1080p CZ Titulky](https://prehraj.to/breathing-atmen-1080p-cz-titulky-mkv/8b7d1e0c0a2a43f5) (ID 30998606) | [Sdílej 32749057](https://sdilej.cz/32749057/atmen-breathing-dychat-2011-bdremux-1080p.mkv) | target_unavailable | 2026-11-12T04:42:31.716555+00:00 |
 | [Bridesmaids 1080p CZ Titulky](https://prehraj.to/bridesmaids-1080p-cz-titulky-mkv/2f192b692bfe9798) (ID 31081337) | [Sdílej 35402056](https://sdilej.cz/35402056/bridesmaids.2011.extended.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-16T03:25:49.954361+00:00 |
 | [Buko 1080p CZ Titulky](https://prehraj.to/buko-1080p-cz-titulky-mkv/51db92178e47233d) (ID 31070846) | [Sdílej 29318297](https://sdilej.cz/29318297/buko-2022.mkv) | target_unavailable | 2026-11-15T18:32:11.006216+00:00 |
-| [Bullitt 720p CZ titulky](https://prehraj.to/bullitt-720p-cz-titulky-mkv/9f2c24fd0bd707e1) (ID 30763383) | [Sdílej 7674339](https://sdilej.cz/7674339/bullittuv-pripad-bullitt-1968-cz-eng-pl-dab-cz-eng-pl-tit.-ok-kvalitka-.mkv) | target_unavailable | 2026-11-10T09:49:33.170027+00:00 |
+| [Bullitt 720p CZ titulky](https://prehraj.to/bullitt-720p-cz-titulky-mkv/9f2c24fd0bd707e1) (ID 30763383) | [Sdílej 7674339](https://sdilej.cz/7674339/bullittuv-pripad-bullitt-1968-cz-eng-pl-dab-cz-eng-pl-tit.-ok-kvalitka-.mkv) | target_unavailable | 2026-11-18T12:50:43.330087+00:00 |
 | [C'est la vie! (Le Sens de la fête) 1080p CZ Titulky](https://prehraj.to/c-est-la-vie-le-sens-de-la-fete-1080p-cz-titulky-mkv/595d5ada0a880100) (ID 31014523) | [Sdílej 34972763](https://sdilej.cz/34972763/le.sens.de.la.fete.2017.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-13T15:53:28.526115+00:00 |
 | [Caught Stealing 4K CZ Titulky](https://prehraj.to/caught-stealing-4k-cz-titulky-mkv/ef892ac61c48f6bc) (ID 31093102) | [Sdílej 31933757](https://sdilej.cz/31933757/caught.stealing.2025.2160p.web.h265-ethel.mkv) | target_unavailable | 2026-11-16T15:04:44.248971+00:00 |
 | [Chisum 1080p CZ Titulky](https://prehraj.to/chisum-1080p-cz-titulky-mkv/fe1f1cb661ffa3f5) (ID 31014978) | [Sdílej 30779927](https://sdilej.cz/30779927/john-chisum-hraji-john-wayne-1970-cz-dab-leg.mkv) | target_unavailable | 2026-11-13T16:13:27.459046+00:00 |
