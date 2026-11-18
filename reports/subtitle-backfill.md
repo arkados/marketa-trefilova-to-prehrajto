@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:26.741837+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:32.959954+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -167,7 +167,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Paul 1080p CZ Titulky](https://prehraj.to/paul-1080p-cz-titulky-mkv/15157768501db2a5) (ID 31002516) | [Sdílej 35003134](https://sdilej.cz/35003134/paul.2011.unrated.1080p.bluray.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:07:44.033693+00:00 |
 | [Pieces of a Woman 1080p CZ Titulky](https://prehraj.to/pieces-of-a-woman-1080p-cz-titulky-mkv/362a0c0c06085a1e) (ID 30977806) | [Sdílej 27839654](https://sdilej.cz/27839654/stripky-zeny-vanessa-kirby-shia-labeouf-ellen-burstyn-2020-drama-en-cz-titulky.mkv) | target_unavailable | 2026-11-10T11:42:06.561220+00:00 |
 | [Pillion 1080p CZ Titulky](https://prehraj.to/pillion-1080p-cz-titulky-mkv/62a244197da04bbf) (ID 31013758) | [Sdílej 34465941](https://sdilej.cz/34465941/pillion-2025-.mkv) | target_unavailable | 2026-11-13T15:03:19.170487+00:00 |
-| [Poor Things 1080p CZ titulky](https://prehraj.to/poor-things-1080p-cz-titulky-mkv/de58b83d9d75655d) (ID 30664033) | [Sdílej 28240998](https://sdilej.cz/28240998/poor.things-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-10T09:41:12.851565+00:00 |
+| [Poor Things 1080p CZ titulky](https://prehraj.to/poor-things-1080p-cz-titulky-mkv/de58b83d9d75655d) (ID 30664033) | [Sdílej 28240998](https://sdilej.cz/28240998/poor.things-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T12:42:31.191507+00:00 |
 | [Pupendo 1080p CZ Titulky](https://prehraj.to/pupendo-1080p-cz-titulky-mkv/ceecd8c58f1ab5ac) (ID 30990822) | [Sdílej 31960641](https://sdilej.cz/31960641/pupendo-2003-komedie-cz-1080p.mkv) | target_unavailable | 2026-11-11T14:08:24.508347+00:00 |
 | [Queen of Hearts (Dronningen) 1080p CZ titulky](https://prehraj.to/queen-of-hearts-dronningen-1080p-cz-titulky-mkv/add428a7f119488e) (ID 30987463) | [Sdílej 16607977](https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv) | target_unavailable | 2026-11-11T04:55:10.264786+00:00 |
 | [Rebel Ridge 1080p CZ Titulky](https://prehraj.to/rebel-ridge-1080p-cz-titulky-mkv/f5b629dcde5dfb97) (ID 31091395) | [Sdílej 35402850](https://sdilej.cz/35402850/rebel.ridge.2024.1080p.webrip.x265.10bit.aac5.1-yts.mx-.cz.sub.mkv) | target_unavailable | 2026-11-16T12:53:37.558029+00:00 |
