@@ -122358,13 +122358,6 @@
           "source_id": "27099387",
           "target_video_id": "30985431",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:14:55.955789+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27099387",
-          "target_video_id": "30985431",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:47:44.394032+00:00"
         },
         {
@@ -122373,6 +122366,13 @@
           "target_video_id": "30985431",
           "permanent": false,
           "attempted_at": "2026-11-18T17:20:30.601973+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27099387",
+          "target_video_id": "30985431",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:53:47.824747+00:00"
         }
       ],
       "last_plan": {
@@ -175359,17 +175359,23 @@
           "attempted_at": "2026-11-18T17:20:33.598364+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "27036851",
-        "display_name": "Return to Oz 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:16:12.628439+00:00"
-      },
       "previous_target_id": "31156206",
-      "prepared": {
+      "upload": {
         "target_video_id": "31156206",
-        "size_bytes": 4726463572,
-        "prepared_at": "2026-11-18T17:16:22.539233+00:00",
-        "relay_source_id": "27036851"
+        "display_name": "Return to Oz 1080p CZ Dabing",
+        "source_id": "27036851",
+        "source_url": "https://sdilej.cz/27036851/navrat-do-zeme-oz-webrip-cz-en-1985-1080p.mkv",
+        "source_filename": "Návrat-do-země-Oz-WEBRip-CZ-EN-1985-1080p.mkv",
+        "size_bytes": 4700000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9805799126625061,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/return-to-oz-1080p-cz-dabing-mkv/0faf036e1b57ba9c",
+        "uploaded_at": "2026-11-18T18:53:48.068663+00:00"
       }
     },
     "20369": {
@@ -175892,7 +175898,7 @@
       "last_plan": {
         "source_id": "32871501",
         "display_name": "Young & Beautiful (Jeune et jolie) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:53:42.499762+00:00"
+        "planned_at": "2026-11-18T18:53:45.939840+00:00"
       }
     },
     "15913": {
@@ -222647,5 +222653,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:53:42.752942+00:00"
+  "updated_at": "2026-11-18T18:53:48.068680+00:00"
 }
