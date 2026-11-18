@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:41:23.083590+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:41:28.985857+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -182,7 +182,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Rocky III 1080p CZ Titulky](https://prehraj.to/rocky-iii-1080p-cz-titulky-mkv/6b7d02dad040975e) (ID 31004255) | [Sdílej 33588201](https://sdilej.cz/33588201/rocky-iii.-cz.sk.en.1080p.hmax.web-dl..mkv) | target_unavailable | 2026-11-12T16:47:55.740633+00:00 |
 | [Ronnie Coleman: The King 1080p CZ Titulky](https://prehraj.to/ronnie-coleman-the-king-1080p-cz-titulky-mkv/cbfa63a4ec1d43fc) (ID 30996831) | [Sdílej 11475864](https://sdilej.cz/11475864/ronnie-coleman-the-king-2018-cz-titulky-1080p-web-x264.mkv) | target_unavailable | 2026-11-12T02:02:18.507156+00:00 |
 | [Rose Island (L'incredibile storia dell'Isola delle Rose) 1080p CZ Titulky](https://prehraj.to/rose-island-l-incredibile-storia-dell-isola-delle-rose-1080p-cz-titulky-mkv/1a02e2a380215670) (ID 30985967) | [Sdílej 14916136](https://sdilej.cz/14916136/rose.island.2020.1080p.nf.web-dl.dd5.1.x264.en.ita.cz.tit.mkv) | target_unavailable | 2026-11-10T22:51:54.138806+00:00 |
-| [Rosemary's Baby 4K CZ Titulky](https://prehraj.to/rosemary-s-baby-4k-cz-titulky-mkv/67d2334180307cd7) (ID 30629227) | [Sdílej 32726297](https://sdilej.cz/32726297/rosemary-s.baby-1968-2160p-cz-en.mkv) | target_unavailable | 2026-11-10T09:40:19.689760+00:00 |
+| [Rosemary's Baby 4K CZ Titulky](https://prehraj.to/rosemary-s-baby-4k-cz-titulky-mkv/67d2334180307cd7) (ID 30629227) | [Sdílej 32726297](https://sdilej.cz/32726297/rosemary-s.baby-1968-2160p-cz-en.mkv) | target_unavailable | 2026-11-18T12:41:27.570949+00:00 |
 | [Rye Lane 1080p CZ titulky](https://prehraj.to/rye-lane-1080p-cz-titulky-mkv/fd377405243130a1) (ID 30893092) | [Sdílej 25662574](https://sdilej.cz/25662574/vzplanuti-na-rye-lane-rye.lane.2023.proper.1080p.webrip.x264-rarbg-cz-titulky-.mkv) | target_unavailable | 2026-11-10T09:50:09.047853+00:00 |
 | [Sanctuary (Freistatt) 720p CZ titulky](https://prehraj.to/sanctuary-freistatt-720p-cz-titulky-mkv/23e2e67faa47d345) (ID 30986677) | [Sdílej 6556256](https://sdilej.cz/6556256/freistatt-sanctuary-2015-.720p.brrip.xvid.ac3.2.0-ceske-titulky.mkv) | target_unavailable | 2026-11-11T01:32:25.152784+00:00 |
 | [Sayonara 1080p CZ Titulky](https://prehraj.to/sayonara-1080p-cz-titulky-mkv/d28553733dbbab0f) (ID 30990118) | [Sdílej 34273318](https://sdilej.cz/34273318/sayonara-1957-bdrip-hd-1080p-h264-ita-eng-cze-ac3-armor-.mkv) | target_unavailable | 2026-11-11T13:08:15.794158+00:00 |
