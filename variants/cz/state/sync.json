@@ -114911,6 +114911,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:52:43.929137+00:00",
         "relay_source_id": "33016418"
+      },
+      "claim": {
+        "worker_id": "920da37a62dc47baa6c87dd69a45e0aa-shard-0",
+        "claimed_at": "2026-11-18T21:41:51.706671+00:00",
+        "lease_expires_at": "2026-11-19T03:41:51.706671+00:00",
+        "run_id": "44366936972"
       }
     },
     "3129": {
@@ -134907,13 +134913,6 @@
           "source_id": "30160695",
           "target_video_id": "30987505",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:03:17.782295+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30160695",
-          "target_video_id": "30987505",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:37:57.279674+00:00"
         },
         {
@@ -134922,6 +134921,13 @@
           "target_video_id": "30987505",
           "permanent": false,
           "attempted_at": "2026-11-18T20:11:18.096213+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30160695",
+          "target_video_id": "30987505",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:41:52.257060+00:00"
         }
       ],
       "last_plan": {
@@ -134935,12 +134941,6 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T05:02:30.309521+00:00",
         "relay_source_id": "30160695"
-      },
-      "claim": {
-        "worker_id": "00e68306a2964abe9b40ac947d76eb85-shard-0",
-        "claimed_at": "2026-11-18T21:41:47.845041+00:00",
-        "lease_expires_at": "2026-11-19T03:41:47.845041+00:00",
-        "run_id": "44366936972"
       }
     },
     "28890": {
@@ -136706,7 +136706,7 @@
       "last_plan": {
         "source_id": "34756332",
         "display_name": "Sharks and Little Fish (Haie und kleine Fische) SD CZ Dabing",
-        "planned_at": "2026-11-18T20:11:28.011306+00:00"
+        "planned_at": "2026-11-18T21:41:52.502990+00:00"
       },
       "previous_target_id": "30987705",
       "prepared": {
@@ -176730,7 +176730,7 @@
       "last_plan": {
         "source_id": "29133513",
         "display_name": "The Horse Whisperer 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:41:48.486508+00:00"
+        "planned_at": "2026-11-18T21:41:52.820178+00:00"
       }
     },
     "3184": {
@@ -223380,5 +223380,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:41:49.054997+00:00"
+  "updated_at": "2026-11-18T21:41:52.820195+00:00"
 }
