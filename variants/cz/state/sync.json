@@ -173327,17 +173327,19 @@
       }
     },
     "30071": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35092281",
+          "target_video_id": "31143190",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:17:35.183252+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35092281",
         "display_name": "Six Degrees of Separation 1080p CZ Dabing",
         "planned_at": "2026-11-18T06:48:46.175366+00:00"
-      },
-      "claim": {
-        "worker_id": "943128e8dda04b6097b59548fdf5fbe1-shard-0",
-        "claimed_at": "2026-11-18T06:48:47.583009+00:00",
-        "lease_expires_at": "2026-11-18T12:48:47.583009+00:00",
-        "run_id": "44237121625"
       },
       "previous_target_id": "31143190",
       "prepared": {
@@ -220565,5 +220567,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:17:31.814711+00:00"
+  "updated_at": "2026-11-18T07:17:35.183279+00:00"
 }
