@@ -133666,13 +133666,6 @@
           "source_id": "34883806",
           "target_video_id": "30987308",
           "permanent": false,
-          "attempted_at": "2026-11-18T12:49:15.516662+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34883806",
-          "target_video_id": "30987308",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:09:55.777153+00:00"
         },
         {
@@ -133681,12 +133674,19 @@
           "target_video_id": "30987308",
           "permanent": false,
           "attempted_at": "2026-11-18T16:45:54.775687+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34883806",
+          "target_video_id": "30987308",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:20:14.274309+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34883806",
         "display_name": "Escape Home (Útěky domů) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:45:49.784875+00:00"
+        "planned_at": "2026-11-18T18:20:11.894890+00:00"
       },
       "previous_target_id": "30987308",
       "prepared": {
@@ -175736,14 +175736,25 @@
       "last_plan": {
         "source_id": "34721451",
         "display_name": "Cold in July 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:20:03.342745+00:00"
+        "planned_at": "2026-11-18T18:20:12.206183+00:00"
+      },
+      "claim": {
+        "worker_id": "46acaef2e61641d7b922fc7da2bcd1da-shard-0",
+        "claimed_at": "2026-11-18T18:20:13.110218+00:00",
+        "lease_expires_at": "2026-11-19T00:20:13.110218+00:00",
+        "run_id": "44366936972"
       }
     },
     "18756": {
       "attempts": []
     },
     "11182": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30800296",
+        "display_name": "Holy Year (L'Année sainte) 1080p CZ Dabing",
+        "planned_at": "2026-11-18T18:20:12.413722+00:00"
+      }
     },
     "35398": {
       "attempts": []
@@ -222518,5 +222529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:20:09.171880+00:00"
+  "updated_at": "2026-11-18T18:20:14.274324+00:00"
 }
