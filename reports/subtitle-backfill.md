@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:02:18.827440+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:02:23.984725+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -108,7 +108,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 166. Dův
 | [Fack ju Göhte 1080p CZ Titulky](https://prehraj.to/fack-ju-goehte-1080p-cz-titulky-mkv/5fbcf6e92c7a2fb4) (ID 31009557) | [Sdílej 29043242](https://sdilej.cz/29043242/fakju-pane-uciteli.mkv) | target_unavailable | 2026-11-13T06:07:12.445204+00:00 |
 | [Falcon Lake 1080p CZ Titulky](https://prehraj.to/falcon-lake-1080p-cz-titulky-mkv/1306a741b8099445) (ID 30997054) | [Sdílej 35401837](https://sdilej.cz/35401837/falcon.lake.2022.french.1080p.webrip.x264-vxt.fr.cz.tit.mkv) | target_unavailable | 2026-11-12T02:22:17.310556+00:00 |
 | [Fany 1080p CZ Titulky](https://prehraj.to/fany-1080p-cz-titulky-mp4/50d935402cab42ee) (ID 31036927) | [Sdílej 26914298](https://sdilej.cz/26914298/rany-cz-1080p.mp4) | target_unavailable | 2026-11-14T18:46:18.601763+00:00 |
-| [Ferry 720p CZ titulky](https://prehraj.to/ferry-720p-cz-titulky-mkv/30f5b91e1b85ee37) (ID 30987911) | [Sdílej 32154189](https://sdilej.cz/32154189/ferry-2021-cz-tit-1080p.mkv) | target_unavailable | 2026-11-11T06:48:03.154945+00:00 |
+| [Ferry 720p CZ titulky](https://prehraj.to/ferry-720p-cz-titulky-mkv/30f5b91e1b85ee37) (ID 30987911) | [Sdílej 32154189](https://sdilej.cz/32154189/ferry-2021-cz-tit-1080p.mkv) | target_unavailable | 2026-11-18T13:02:23.061217+00:00 |
 | [Finch 1080p CZ Titulky](https://prehraj.to/finch-1080p-cz-titulky-mkv/54f021b7c071bba6) (ID 31006906) | [Sdílej 26705455](https://sdilej.cz/26705455/finch-2021-cz-titulky-1080p.mkv) | target_unavailable | 2026-11-12T23:01:49.245539+00:00 |
 | [Frozen 2 (Frozen II) 1080p CZ Titulky](https://prehraj.to/frozen-2-frozen-ii-1080p-cz-titulky-mkv/1ee5ef3470d00b88) (ID 31085056) | [Sdílej 26861725](https://sdilej.cz/26861725/ledove-kralovstvi-2-frozen-2-2019-cz-fhd-h265-deadinside.mkv) | target_unavailable | 2026-11-16T06:57:28.896402+00:00 |
 | [Game Night 1080p CZ Titulky](https://prehraj.to/game-night-1080p-cz-titulky-mkv/b40177a2665fd61e) (ID 31003096) | [Sdílej 35243994](https://sdilej.cz/35243994/game.night.2018.open.matte.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:47:42.927442+00:00 |
