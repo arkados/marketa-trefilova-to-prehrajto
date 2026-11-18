@@ -130286,13 +130286,6 @@
           "source_id": "34694634",
           "target_video_id": "30986897",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:03:19.839308+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34694634",
-          "target_video_id": "30986897",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:26:33.514004+00:00"
         },
         {
@@ -130301,6 +130294,13 @@
           "target_video_id": "30986897",
           "permanent": false,
           "attempted_at": "2026-11-18T12:54:34.570875+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34694634",
+          "target_video_id": "30986897",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:17:42.600487+00:00"
         }
       ],
       "last_plan": {
@@ -141953,7 +141953,7 @@
       "last_plan": {
         "source_id": "8790479",
         "display_name": "Piano, solo SD CZ Dabing",
-        "planned_at": "2026-11-18T12:54:32.873188+00:00"
+        "planned_at": "2026-11-18T15:17:41.072419+00:00"
       },
       "previous_target_id": "30988375",
       "prepared": {
@@ -141961,6 +141961,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T08:16:16.541498+00:00",
         "relay_source_id": "8790479"
+      },
+      "claim": {
+        "worker_id": "9b24b2d9725944faa0e95b1475a9fa11-shard-0",
+        "claimed_at": "2026-11-18T15:17:42.299198+00:00",
+        "lease_expires_at": "2026-11-18T21:17:42.299198+00:00",
+        "run_id": "44319849691"
       }
     },
     "22065": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:17:37.929414+00:00"
+        "planned_at": "2026-11-18T15:17:41.469155+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:17:37.929427+00:00"
+  "updated_at": "2026-11-18T15:17:42.600503+00:00"
 }
