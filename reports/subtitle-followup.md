@@ -642,7 +642,7 @@ Attach subtitles only after target processing has finished.
 | Mission: Impossible III 1080p CZ titulky | 31000186 | https://sdilej.cz/12223333/mission-impossible-iii.-2006.mkv | Complete: Czech subtitles verified |
 | National Treasure 1080p CZ titulky | 31001064 | https://sdilej.cz/34237563/lovci-pokladu-2004-1080p-en-cz-sk-dab.mkv | Complete: Czech subtitles verified |
 | Ice Age: Dawn of the Dinosaurs 1080p CZ titulky | 31001947 | https://sdilej.cz/19665397/doba-ledova-3-usvit-dinosauru-1080p-5.1cz-5.1dts-en-2009-stbr-.mkv | Complete: Czech subtitles verified |
-| Paul 1080p CZ Titulky | 31002516 | https://sdilej.cz/35003134/paul.2011.unrated.1080p.bluray.dts.x264-majo.mkv | Extract Czech track from exact source after processing |
+| Paul 1080p CZ titulky | 31002516 | https://sdilej.cz/35003134/paul.2011.unrated.1080p.bluray.dts.x264-majo.mkv | Complete: Czech subtitles verified |
 | Game Night 1080p CZ Titulky | 31003096 | https://sdilej.cz/35243994/game.night.2018.open.matte.1080p.bluray.dl.dts.x264-majo.mkv | Extract Czech track from exact source after processing |
 | Clueless 1080p CZ Titulky | 31003560 | https://sdilej.cz/30783542/bezmocna-clueless-1995-en.cz.sk-bdrip-hevc-1080p.mkv | Extract Czech track from exact source after processing |
 | The Magnificent Seven (2016) 4K CZ Titulky | 31003896 | https://sdilej.cz/32905861/the-magnificent-seven-sedm-statecnych-2016-2160p-dv-cz-dabing-en-truehd-atmos-radecek.mkv | Extract Czech track from exact source after processing |
