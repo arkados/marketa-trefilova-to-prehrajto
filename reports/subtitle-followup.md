@@ -663,7 +663,7 @@ Attach subtitles only after target processing has finished.
 | When Evil Lurks (Cuando acecha la maldad) 1080p CZ Titulky | 31007827 | https://sdilej.cz/27144377/when-evil-lurks-webrip-es-titulky-cz-2023.mkv | Extract Czech track from exact source after processing |
 | Rent 1080p CZ titulky | 31007976 | https://sdilej.cz/22944190/bohemove-2005-cz-titulky.mkv | Complete: Czech subtitles verified |
 | Ladyhawke 1080p CZ titulky | 31008069 | https://sdilej.cz/35402331/ladyhawke.1985.1080p.bluray.h264.aac-rarbg.cz.sub.mkv | Complete: Czech subtitles verified |
-| Enemy Mine 1080p CZ Titulky | 31008155 | https://sdilej.cz/14778688/muj-nepritel-1080p.-1985-brrip-ac3.czdab.mkv | Extract Czech track from exact source after processing |
+| Enemy Mine 1080p CZ titulky | 31008155 | https://sdilej.cz/14778688/muj-nepritel-1080p.-1985-brrip-ac3.czdab.mkv | Complete: Czech subtitles verified |
 | The Last Kingdom: Seven Kings Must Die 4K CZ Titulky | 31008794 | https://sdilej.cz/29781891/the-last-kingdom-seven-kings-must-die-2023-2160p-4k-web-x265-10bit-aac5-1-yts-mx-.mkv | Extract Czech track from exact source after processing |
 | The 33 720p CZ titulky | 31009004 | https://sdilej.cz/33551012/33-zivotu-2015-cz-dab-720p.mkv | Extract Czech track from exact source after processing |
 | Fack ju Göhte 1080p CZ Titulky | 31009557 | https://sdilej.cz/29043242/fakju-pane-uciteli.mkv | Extract Czech track from exact source after processing |
