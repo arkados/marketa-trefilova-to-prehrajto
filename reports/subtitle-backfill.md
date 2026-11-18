@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:52:05.808278+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:52:10.758144+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -202,7 +202,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [Storm Boy 1080p CZ Titulky](https://prehraj.to/storm-boy-1080p-cz-titulky-mkv/ffb88184b9c52296) (ID 31023557) | [Sdílej 11694349](https://sdilej.cz/11694349/storm.boy.2019.1080p.bluray.h264.ac3-cz-titulky.mkv) | target_unavailable | 2026-11-14T04:10:26.996827+00:00 |
 | [Straight Up 1080p CZ Titulky](https://prehraj.to/straight-up-1080p-cz-titulky-mkv/010b7b33f87bd1a5) (ID 31024574) | [Sdílej 14062612](https://sdilej.cz/14062612/straight.up.2019.1080p.webrip.x264.cz.tit.mkv) | target_unavailable | 2026-11-14T06:21:05.956457+00:00 |
 | [Summer of 85 (Été 85) 1080p CZ Titulky](https://prehraj.to/summer-of-85-ete-85-1080p-cz-titulky-mkv/d747ddcd906b0afe) (ID 31014099) | [Sdílej 28284942](https://sdilej.cz/28284942/leto-85-cz-titulky.mkv) | target_unavailable | 2026-11-13T15:33:20.901501+00:00 |
-| [Super 8 720p CZ Titulky](https://prehraj.to/super-8-720p-cz-titulky-mkv/d5cd79cf2c765ab9) (ID 30970243) | [Sdílej 16310205](https://sdilej.cz/16310205/super-8-2011-sci-fi-cz-dab-720p-hd.mkv) | target_unavailable | 2026-11-10T09:50:25.429862+00:00 |
+| [Super 8 720p CZ Titulky](https://prehraj.to/super-8-720p-cz-titulky-mkv/d5cd79cf2c765ab9) (ID 30970243) | [Sdílej 16310205](https://sdilej.cz/16310205/super-8-2011-sci-fi-cz-dab-720p-hd.mkv) | target_unavailable | 2026-11-18T12:52:10.387573+00:00 |
 | [Swiss Army Man 720p CZ Titulky](https://prehraj.to/swiss-army-man-720p-cz-titulky-mkv/10671e3af2c0c0f9) (ID 31006278) | [Sdílej 6507377](https://sdilej.cz/6507377/swiss-army-man-2016-720p-bluray-dts-x264-ceske-titulky.mkv) | target_unavailable | 2026-11-12T21:41:36.793090+00:00 |
 | [Talk to Me 4K CZ Titulky](https://prehraj.to/talk-to-me-4k-cz-titulky-mkv/28dafb7f3e8f3657) (ID 30912885) | [Sdílej 26853803](https://sdilej.cz/26853803/talk.to.me.2022.2160p.web-dl.ddp5.1.dv.hdr.h.265-flux.cztit.mkv) | source_unavailable | 2026-11-18T12:40:59.383892+00:00 |
 | [Tenebrae (Tenebre) 1080p CZ Titulky](https://prehraj.to/tenebrae-tenebre-1080p-cz-titulky-mkv/621ba6916f09d5d0) (ID 30985350) | [Sdílej 11416033](https://sdilej.cz/11416033/tenebre-tenebrae-1982-titulky.cz.1080p.mkv) | target_unavailable | 2026-11-10T18:59:36.735572+00:00 |
