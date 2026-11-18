@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:15:35.326735+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:15:42.149424+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 548, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 149, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 549, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 148, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -99,7 +99,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Enemy Mine 1080p CZ Titulky](https://prehraj.to/enemy-mine-1080p-cz-titulky-mkv/7b6ef8f13c6edbc7) (ID 31008155) | [Sdílej 14778688](https://sdilej.cz/14778688/muj-nepritel-1080p.-1985-brrip-ac3.czdab.mkv) | target_unavailable | 2026-11-13T02:23:00.210004+00:00 |
 | [Enola Holmes 2 1080p CZ Titulky](https://prehraj.to/enola-holmes-2-1080p-cz-titulky-mkv/b2c4680e2b15504c) (ID 31089623) | [Sdílej 23652012](https://sdilej.cz/23652012/enola.holmes.2.2022.1080p.nf.web-dl.ddp5.1.atmos.h.264-smurf.cz.titulky.mkv) | target_unavailable | 2026-11-16T10:52:31.877634+00:00 |
 | [Erin Brockovich 1080p CZ titulky](https://prehraj.to/erin-brockovich-1080p-cz-titulky-mkv/894daecd9c168ca1) (ID 30715404) | [Sdílej 19346570](https://sdilej.cz/19346570/erin.brockovich.2000.1080p.bluray.cz-en.5.1.mkv) | target_unavailable | 2026-11-18T12:50:33.452447+00:00 |
-| [Eternity 1080p CZ Titulky](https://prehraj.to/eternity-1080p-cz-titulky-mkv/d72f47d7a3f823ad) (ID 31007543) | [Sdílej 32702296](https://sdilej.cz/32702296/eternity-2025-1080p-cz.tit.mkv) | target_unavailable | 2026-11-13T00:32:03.276375+00:00 |
 | [Fack ju Göhte 1080p CZ Titulky](https://prehraj.to/fack-ju-goehte-1080p-cz-titulky-mkv/5fbcf6e92c7a2fb4) (ID 31009557) | [Sdílej 29043242](https://sdilej.cz/29043242/fakju-pane-uciteli.mkv) | target_unavailable | 2026-11-13T06:07:12.445204+00:00 |
 | [Fany 1080p CZ Titulky](https://prehraj.to/fany-1080p-cz-titulky-mp4/50d935402cab42ee) (ID 31036927) | [Sdílej 26914298](https://sdilej.cz/26914298/rany-cz-1080p.mp4) | target_unavailable | 2026-11-14T18:46:18.601763+00:00 |
 | [Ferry 720p CZ titulky](https://prehraj.to/ferry-720p-cz-titulky-mkv/30f5b91e1b85ee37) (ID 30987911) | [Sdílej 32154189](https://sdilej.cz/32154189/ferry-2021-cz-tit-1080p.mkv) | target_unavailable | 2026-11-18T13:02:23.061217+00:00 |
