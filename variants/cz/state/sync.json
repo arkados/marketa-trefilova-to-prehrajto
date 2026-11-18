@@ -117209,13 +117209,6 @@
           "source_id": "34711260",
           "target_video_id": "30984755",
           "permanent": false,
-          "attempted_at": "2026-11-17T21:15:24.280472+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34711260",
-          "target_video_id": "30984755",
-          "permanent": false,
           "attempted_at": "2026-11-17T22:44:29.463682+00:00"
         },
         {
@@ -117224,6 +117217,13 @@
           "target_video_id": "30984755",
           "permanent": false,
           "attempted_at": "2026-11-18T00:10:49.846078+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34711260",
+          "target_video_id": "30984755",
+          "permanent": false,
+          "attempted_at": "2026-11-18T01:49:27.323360+00:00"
         }
       ],
       "last_plan": {
@@ -117237,12 +117237,6 @@
         "size_bytes": 7700000000,
         "prepared_at": "2026-11-10T17:34:58.016061+00:00",
         "relay_source_id": "34711260"
-      },
-      "claim": {
-        "worker_id": "2e96c50b67b745cfad9ec6b41b7481fd-shard-0",
-        "claimed_at": "2026-11-18T01:49:24.520122+00:00",
-        "lease_expires_at": "2026-11-18T07:49:24.520122+00:00",
-        "run_id": "44190029167"
       }
     },
     "2877": {
@@ -136525,7 +136519,7 @@
       "last_plan": {
         "source_id": "32367766",
         "display_name": "Alibi on the Lake (Alibi na vodě) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:10:48.478374+00:00"
+        "planned_at": "2026-11-18T01:49:26.668049+00:00"
       },
       "previous_target_id": "30987691",
       "prepared": {
@@ -172358,11 +172352,16 @@
       "last_plan": {
         "source_id": "26239571",
         "display_name": "Zulu (2013) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T01:49:22.006732+00:00"
+        "planned_at": "2026-11-18T01:49:27.037685+00:00"
       }
     },
     "22938": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33734691",
+        "display_name": "The Stepfather (1987) 1080p CZ Dabing",
+        "planned_at": "2026-11-18T01:49:27.545950+00:00"
+      }
     },
     "12300": {
       "attempts": []
@@ -219681,5 +219680,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T01:49:24.520151+00:00"
+  "updated_at": "2026-11-18T01:49:27.545970+00:00"
 }
