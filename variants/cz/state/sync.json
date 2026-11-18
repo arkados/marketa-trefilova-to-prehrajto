@@ -121397,13 +121397,6 @@
           "source_id": "33730801",
           "target_video_id": "30985060",
           "permanent": false,
-          "attempted_at": "2026-11-17T23:09:17.819354+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33730801",
-          "target_video_id": "30985060",
-          "permanent": false,
           "attempted_at": "2026-11-18T00:33:13.372233+00:00"
         },
         {
@@ -121412,6 +121405,13 @@
           "target_video_id": "30985060",
           "permanent": false,
           "attempted_at": "2026-11-18T02:11:19.277216+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33730801",
+          "target_video_id": "30985060",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:38:10.143232+00:00"
         }
       ],
       "last_plan": {
@@ -136981,7 +136981,7 @@
       "last_plan": {
         "source_id": "15441977",
         "display_name": "Jacob, Mimmi and the Talking Dogs (Jēkabs, Mimmi un runājošie suņi) 720p CZ Dabing",
-        "planned_at": "2026-11-18T02:11:18.584260+00:00"
+        "planned_at": "2026-11-18T03:38:08.303216+00:00"
       },
       "previous_target_id": "30987740",
       "prepared": {
@@ -136989,6 +136989,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T05:51:39.961282+00:00",
         "relay_source_id": "15441977"
+      },
+      "claim": {
+        "worker_id": "a1db4ada005f47d682d228dcff900806-shard-0",
+        "claimed_at": "2026-11-18T03:38:09.548225+00:00",
+        "lease_expires_at": "2026-11-18T09:38:09.548225+00:00",
+        "run_id": "44190029167"
       }
     },
     "24067": {
@@ -172782,7 +172788,7 @@
       "last_plan": {
         "source_id": "31701383",
         "display_name": "Unknown Number: The High School Catfish 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:38:05.121753+00:00"
+        "planned_at": "2026-11-18T03:38:08.693389+00:00"
       }
     },
     "19925": {
@@ -220042,5 +220048,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:38:05.426067+00:00"
+  "updated_at": "2026-11-18T03:38:10.143252+00:00"
 }
