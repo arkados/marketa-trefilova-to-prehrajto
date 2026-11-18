@@ -133454,13 +133454,6 @@
           "source_id": "30864230",
           "target_video_id": "30987287",
           "permanent": false,
-          "attempted_at": "2026-11-18T12:37:50.949111+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30864230",
-          "target_video_id": "30987287",
-          "permanent": false,
           "attempted_at": "2026-11-18T14:57:58.601301+00:00"
         },
         {
@@ -133469,12 +133462,19 @@
           "target_video_id": "30987287",
           "permanent": false,
           "attempted_at": "2026-11-18T16:32:26.458245+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30864230",
+          "target_video_id": "30987287",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:04:14.340210+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30864230",
         "display_name": "The Night Guest SD CZ Dabing",
-        "planned_at": "2026-11-18T16:32:18.882897+00:00"
+        "planned_at": "2026-11-18T18:04:11.803296+00:00"
       },
       "previous_target_id": "30987287",
       "prepared": {
@@ -175584,14 +175584,25 @@
       "last_plan": {
         "source_id": "33926277",
         "display_name": "Where the Heart Is SD CZ Dabing",
-        "planned_at": "2026-11-18T18:04:07.027574+00:00"
+        "planned_at": "2026-11-18T18:04:12.184530+00:00"
+      },
+      "claim": {
+        "worker_id": "5bb9ca01155e411194480712fa326801-shard-0",
+        "claimed_at": "2026-11-18T18:04:13.298627+00:00",
+        "lease_expires_at": "2026-11-19T00:04:13.298627+00:00",
+        "run_id": "44319849691"
       }
     },
     "31884": {
       "attempts": []
     },
     "27148": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33622939",
+        "display_name": "This Must Be the Place SD CZ Dabing",
+        "planned_at": "2026-11-18T18:04:12.413698+00:00"
+      }
     },
     "32884": {
       "attempts": []
@@ -222399,5 +222410,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:04:09.137451+00:00"
+  "updated_at": "2026-11-18T18:04:14.340227+00:00"
 }
