@@ -125748,7 +125748,7 @@
       "last_plan": {
         "source_id": "23031428",
         "display_name": "Accident 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:53:35.351776+00:00"
+        "planned_at": "2026-11-18T11:20:02.657689+00:00"
       },
       "previous_target_id": "30985892",
       "prepared": {
@@ -125756,6 +125756,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T22:27:10.798206+00:00",
         "relay_source_id": "23031428"
+      },
+      "claim": {
+        "worker_id": "626d6ddf181a4a9b9fa9713ee88629a8-shard-0",
+        "claimed_at": "2026-11-18T11:20:03.790181+00:00",
+        "lease_expires_at": "2026-11-18T17:20:03.790181+00:00",
+        "run_id": "44276193396"
       }
     },
     "2966": {
@@ -138045,13 +138051,6 @@
           "source_id": "32352659",
           "target_video_id": "30987841",
           "permanent": false,
-          "attempted_at": "2026-11-18T06:39:54.664717+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32352659",
-          "target_video_id": "30987841",
-          "permanent": false,
           "attempted_at": "2026-11-18T08:12:10.567437+00:00"
         },
         {
@@ -138060,6 +138059,13 @@
           "target_video_id": "30987841",
           "permanent": false,
           "attempted_at": "2026-11-18T09:53:34.715041+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32352659",
+          "target_video_id": "30987841",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:20:05.152369+00:00"
         }
       ],
       "last_plan": {
@@ -138073,12 +138079,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T06:21:37.258852+00:00",
         "relay_source_id": "32352659"
-      },
-      "claim": {
-        "worker_id": "4c853240b56c4694be56c02316437b8e-shard-0",
-        "claimed_at": "2026-11-18T11:19:59.311537+00:00",
-        "lease_expires_at": "2026-11-18T17:19:59.311537+00:00",
-        "run_id": "44276193396"
       }
     },
     "24547": {
@@ -173877,7 +173877,7 @@
       "last_plan": {
         "source_id": "14054640",
         "display_name": "White Lion 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:19:58.664193+00:00"
+        "planned_at": "2026-11-18T11:20:03.248984+00:00"
       }
     },
     "30132": {
@@ -220989,5 +220989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:19:59.684125+00:00"
+  "updated_at": "2026-11-18T11:20:05.152386+00:00"
 }
