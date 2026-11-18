@@ -108807,13 +108807,6 @@
           "source_id": "34783018",
           "target_video_id": "30983586",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:54:19.721153+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34783018",
-          "target_video_id": "30983586",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:29:18.193368+00:00"
         },
         {
@@ -108822,6 +108815,13 @@
           "target_video_id": "30983586",
           "permanent": false,
           "attempted_at": "2026-11-18T18:01:12.198206+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34783018",
+          "target_video_id": "30983586",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:32:10.770411+00:00"
         }
       ],
       "last_plan": {
@@ -122766,7 +122766,7 @@
       "last_plan": {
         "source_id": "35374576",
         "display_name": "The Wild Geese 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:01:11.515626+00:00"
+        "planned_at": "2026-11-18T19:32:09.087918+00:00"
       },
       "previous_target_id": "30985473",
       "prepared": {
@@ -122774,6 +122774,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T19:30:18.003095+00:00",
         "relay_source_id": "35374576"
+      },
+      "claim": {
+        "worker_id": "d2b28238595c4a2a81145ecb3cebffb1-shard-0",
+        "claimed_at": "2026-11-18T19:32:09.997795+00:00",
+        "lease_expires_at": "2026-11-19T01:32:09.997795+00:00",
+        "run_id": "44366936972"
       }
     },
     "22415": {
@@ -176102,7 +176108,7 @@
       "last_plan": {
         "source_id": "34194769",
         "display_name": "Spider 4K CZ Dabing",
-        "planned_at": "2026-11-18T19:32:04.986157+00:00"
+        "planned_at": "2026-11-18T19:32:09.406065+00:00"
       }
     },
     "27742": {
@@ -222836,5 +222842,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:32:05.243878+00:00"
+  "updated_at": "2026-11-18T19:32:10.770428+00:00"
 }
