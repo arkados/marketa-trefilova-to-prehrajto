@@ -117669,6 +117669,12 @@
         "size_bytes": 8600000000,
         "prepared_at": "2026-11-10T17:41:40.528718+00:00",
         "relay_source_id": "15096224"
+      },
+      "claim": {
+        "worker_id": "b5f01fc746364613a8b3ce0f793447b9-shard-0",
+        "claimed_at": "2026-11-18T05:42:43.434692+00:00",
+        "lease_expires_at": "2026-11-18T11:42:43.434692+00:00",
+        "run_id": "44237121625"
       }
     },
     "26009": {
@@ -122348,7 +122354,7 @@
       "last_plan": {
         "source_id": "27099387",
         "display_name": "Beast (2017) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:37:04.473007+00:00"
+        "planned_at": "2026-11-18T05:42:43.690978+00:00"
       },
       "previous_target_id": "30985431",
       "prepared": {
@@ -130722,13 +130728,6 @@
           "source_id": "30261994",
           "target_video_id": "30986930",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:32:03.776057+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30261994",
-          "target_video_id": "30986930",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:10:14.218606+00:00"
         },
         {
@@ -130737,6 +130736,13 @@
           "target_video_id": "30986930",
           "permanent": false,
           "attempted_at": "2026-11-18T03:37:01.333102+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30261994",
+          "target_video_id": "30986930",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:42:43.228561+00:00"
         }
       ],
       "last_plan": {
@@ -130750,12 +130756,6 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T02:43:15.360689+00:00",
         "relay_source_id": "30261994"
-      },
-      "claim": {
-        "worker_id": "233aba5806ba467aab23f4b01208f442-shard-0",
-        "claimed_at": "2026-11-18T05:42:39.374444+00:00",
-        "lease_expires_at": "2026-11-18T11:42:39.374444+00:00",
-        "run_id": "44237121625"
       }
     },
     "13847": {
@@ -220270,7 +220270,7 @@
       "last_plan": {
         "source_id": "34695402",
         "display_name": "The Duchess of Cancun 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:42:39.991128+00:00"
+        "planned_at": "2026-11-18T05:42:44.042576+00:00"
       }
     },
     "37449": {
@@ -220305,5 +220305,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:42:40.313157+00:00"
+  "updated_at": "2026-11-18T05:42:44.042598+00:00"
 }
