@@ -112647,6 +112647,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T15:02:25.707411+00:00",
         "relay_source_id": "30230963"
+      },
+      "claim": {
+        "worker_id": "387ffb21367e432b826ca2e4488e6cc7-shard-0",
+        "claimed_at": "2026-11-18T15:38:12.284056+00:00",
+        "lease_expires_at": "2026-11-18T21:38:12.284056+00:00",
+        "run_id": "44319849691"
       }
     },
     "13006": {
@@ -114567,7 +114573,7 @@
       "last_plan": {
         "source_id": "29766668",
         "display_name": "The Fall Guy 4K CZ Dabing",
-        "planned_at": "2026-11-18T13:20:48.137424+00:00"
+        "planned_at": "2026-11-18T15:38:12.559377+00:00"
       },
       "previous_target_id": "30984145",
       "prepared": {
@@ -138734,13 +138740,6 @@
           "source_id": "34716543",
           "target_video_id": "30987889",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:19:11.133682+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716543",
-          "target_video_id": "30987889",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:46:01.696688+00:00"
         },
         {
@@ -138749,6 +138748,13 @@
           "target_video_id": "30987889",
           "permanent": false,
           "attempted_at": "2026-11-18T13:20:28.806429+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716543",
+          "target_video_id": "30987889",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:38:12.072859+00:00"
         }
       ],
       "last_plan": {
@@ -138762,12 +138768,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:37:21.744038+00:00",
         "relay_source_id": "34716543"
-      },
-      "claim": {
-        "worker_id": "03f83c39641b43e9a55bc8ace1e2285a-shard-0",
-        "claimed_at": "2026-11-18T15:38:08.555813+00:00",
-        "lease_expires_at": "2026-11-18T21:38:08.555813+00:00",
-        "run_id": "44319849691"
       }
     },
     "12832": {
@@ -174288,7 +174288,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:38:09.196122+00:00"
+        "planned_at": "2026-11-18T15:38:12.923694+00:00"
       }
     },
     "32797": {
@@ -221339,5 +221339,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:38:09.196138+00:00"
+  "updated_at": "2026-11-18T15:38:12.923712+00:00"
 }
