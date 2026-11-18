@@ -68065,13 +68065,6 @@
           "source_id": "34852546",
           "target_video_id": "30853531",
           "permanent": false,
-          "attempted_at": "2026-11-18T07:40:02.060614+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34852546",
-          "target_video_id": "30853531",
-          "permanent": false,
           "attempted_at": "2026-11-18T09:12:15.180506+00:00"
         },
         {
@@ -68080,6 +68073,13 @@
           "target_video_id": "30853531",
           "permanent": false,
           "attempted_at": "2026-11-18T10:45:09.280759+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34852546",
+          "target_video_id": "30853531",
+          "permanent": false,
+          "attempted_at": "2026-11-18T12:12:48.777848+00:00"
         }
       ],
       "last_plan": {
@@ -164406,7 +164406,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:45:07.465818+00:00"
+        "planned_at": "2026-11-18T12:12:47.099782+00:00"
       },
       "previous_target_id": "31100173",
       "prepared": {
@@ -164414,6 +164414,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-16T21:51:03.827088+00:00",
         "relay_source_id": "11186054"
+      },
+      "claim": {
+        "worker_id": "72e4e2c24ab74dc8a80172abdaf2fba9-shard-0",
+        "claimed_at": "2026-11-18T12:12:47.997377+00:00",
+        "lease_expires_at": "2026-11-18T18:12:47.997377+00:00",
+        "run_id": "44276193396"
       }
     },
     "29530": {
@@ -173956,7 +173962,7 @@
       "last_plan": {
         "source_id": "34454587",
         "display_name": "Starter for 10 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:12:44.463837+00:00"
+        "planned_at": "2026-11-18T12:12:47.418627+00:00"
       }
     },
     "28475": {
@@ -221044,5 +221050,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T12:12:44.463854+00:00"
+  "updated_at": "2026-11-18T12:12:48.777867+00:00"
 }
