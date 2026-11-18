@@ -108277,13 +108277,6 @@
           "source_id": "27903517",
           "target_video_id": "30983504",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:55:40.903376+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27903517",
-          "target_video_id": "30983504",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:27:18.496250+00:00"
         },
         {
@@ -108292,6 +108285,13 @@
           "target_video_id": "30983504",
           "permanent": false,
           "attempted_at": "2026-11-18T21:02:08.722938+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27903517",
+          "target_video_id": "30983504",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:45:47.630573+00:00"
         }
       ],
       "last_plan": {
@@ -131111,7 +131111,7 @@
       "last_plan": {
         "source_id": "33705422",
         "display_name": "Bota jménem Melichar 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:02:06.184862+00:00"
+        "planned_at": "2026-11-18T22:45:45.383410+00:00"
       },
       "previous_target_id": "30986954",
       "prepared": {
@@ -131119,6 +131119,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T02:55:02.143492+00:00",
         "relay_source_id": "33705422"
+      },
+      "claim": {
+        "worker_id": "812d766bfaf44249af2dc976741e163f-shard-0",
+        "claimed_at": "2026-11-18T22:45:46.395574+00:00",
+        "lease_expires_at": "2026-11-19T04:45:46.395574+00:00",
+        "run_id": "44406951430"
       }
     },
     "23934": {
@@ -177010,11 +177016,22 @@
       "last_plan": {
         "source_id": "31626723",
         "display_name": "Pánský klub (The Gentlemen's Club) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:45:42.116659+00:00"
+        "planned_at": "2026-11-18T22:45:45.705327+00:00"
+      },
+      "claim": {
+        "worker_id": "9bbe2e4b77f24e42849f0f4b3700288b-shard-0",
+        "claimed_at": "2026-11-18T22:45:46.854087+00:00",
+        "lease_expires_at": "2026-11-19T04:45:46.854087+00:00",
+        "run_id": "44406951430"
       }
     },
     "22744": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33741641",
+        "display_name": "The Last Starfighter 1080p CZ Dabing",
+        "planned_at": "2026-11-18T22:45:45.900126+00:00"
+      }
     },
     "3340": {
       "attempts": []
@@ -223615,5 +223632,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:45:42.116677+00:00"
+  "updated_at": "2026-11-18T22:45:47.630589+00:00"
 }
