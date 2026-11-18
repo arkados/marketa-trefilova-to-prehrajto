@@ -42447,7 +42447,7 @@
       "last_plan": {
         "source_id": "34334657",
         "display_name": "The Last Duel 4K CZ Dabing",
-        "planned_at": "2026-11-18T02:27:58.223402+00:00"
+        "planned_at": "2026-11-18T03:54:56.266031+00:00"
       },
       "previous_target_id": "30754884",
       "prepared": {
@@ -165718,13 +165718,6 @@
           "source_id": "29163002",
           "target_video_id": "31107589",
           "permanent": false,
-          "attempted_at": "2026-11-17T23:23:33.599784+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29163002",
-          "target_video_id": "31107589",
-          "permanent": false,
           "attempted_at": "2026-11-18T01:01:56.805083+00:00"
         },
         {
@@ -165733,6 +165726,13 @@
           "target_video_id": "31107589",
           "permanent": false,
           "attempted_at": "2026-11-18T02:27:59.923403+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29163002",
+          "target_video_id": "31107589",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:54:56.638645+00:00"
         }
       ],
       "last_plan": {
@@ -165746,12 +165746,6 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-17T04:01:50.003868+00:00",
         "relay_source_id": "29163002"
-      },
-      "claim": {
-        "worker_id": "adc251dad12f4d75b4d323db5f474de2-shard-0",
-        "claimed_at": "2026-11-18T03:54:51.939340+00:00",
-        "lease_expires_at": "2026-11-18T09:54:51.939340+00:00",
-        "run_id": "44190029167"
       }
     },
     "20899": {
@@ -172804,17 +172798,19 @@
       }
     },
     "28951": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31701383",
+          "target_video_id": "31138909",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:54:57.299429+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31701383",
         "display_name": "Unknown Number: The High School Catfish 1080p CZ Dabing",
         "planned_at": "2026-11-18T03:50:06.314619+00:00"
-      },
-      "claim": {
-        "worker_id": "53da27c516e84f7fbf5c1b901baa13ba-shard-0",
-        "claimed_at": "2026-11-18T03:50:07.692311+00:00",
-        "lease_expires_at": "2026-11-18T09:50:07.692311+00:00",
-        "run_id": "44190029167"
       },
       "previous_target_id": "31138909",
       "prepared": {
@@ -172838,7 +172834,7 @@
       "last_plan": {
         "source_id": "32581298",
         "display_name": "Postcards from the Edge 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:54:51.138749+00:00"
+        "planned_at": "2026-11-18T03:54:57.055462+00:00"
       }
     },
     "26008": {
@@ -220086,5 +220082,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:54:52.795943+00:00"
+  "updated_at": "2026-11-18T03:54:57.299453+00:00"
 }
