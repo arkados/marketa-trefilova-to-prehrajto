@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:54.638106+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:59.891559+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -137,7 +137,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Juno 1080p CZ titulky](https://prehraj.to/juno-1080p-cz-titulky-mkv/087c1b745f58cf79) (ID 30747251) | [Sdílej 33537783](https://sdilej.cz/33537783/juno-2007-komedie-usa-elliot-page-michael-cera-jennifer-garner-czdab-fhd.mkv) | target_unavailable | 2026-11-10T09:41:51.695654+00:00 |
 | [King of Kings 720p CZ Titulky](https://prehraj.to/king-of-kings-720p-cz-titulky-mkv/baf4f8c4bbc9016b) (ID 30989744) | [Sdílej 29895942](https://sdilej.cz/29895942/kral-kralov.king-of-kings-1961-720p-en-cztit-historicky.mkv) | target_unavailable | 2026-11-11T12:18:01.717596+00:00 |
 | [Kingdom: Ashin of the North (킹덤: 아신전) 1080p CZ Titulky](https://prehraj.to/kingdom-ashin-of-the-north-1080p-cz-titulky-mkv/0bbed16b5497b18a) (ID 31014339) | [Sdílej 17566638](https://sdilej.cz/17566638/kingdom.ashin.of.the.north.2021.korean.1080p.nf.webrip.ddp5.1.atmos.x264.cz.tit.mkv) | target_unavailable | 2026-11-13T15:43:19.028818+00:00 |
-| [Kolya (Kolja) 4K CZ Titulky](https://prehraj.to/kolya-kolja-4k-cz-titulky-mkv/47407a1efcebc0f7) (ID 30693817) | [Sdílej 25989515](https://sdilej.cz/25989515/kolja-directors-cut-1996-2160p-uhd-cz-dabing.mkv) | target_unavailable | 2026-11-10T09:41:35.528523+00:00 |
+| [Kolya (Kolja) 4K CZ Titulky](https://prehraj.to/kolya-kolja-4k-cz-titulky-mkv/47407a1efcebc0f7) (ID 30693817) | [Sdílej 25989515](https://sdilej.cz/25989515/kolja-directors-cut-1996-2160p-uhd-cz-dabing.mkv) | target_unavailable | 2026-11-18T12:42:58.091544+00:00 |
 | [La cocina 1080p CZ Titulky](https://prehraj.to/la-cocina-1080p-cz-titulky-mkv/d5c5780a393c92bb) (ID 30994375) | [Sdílej 30864866](https://sdilej.cz/30864866/la.cocina-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-11T21:48:05.978098+00:00 |
 | [Ladyhawke 1080p CZ Titulky](https://prehraj.to/ladyhawke-1080p-cz-titulky-mkv/b0fee03b1be1f71b) (ID 31008069) | [Sdílej 35402331](https://sdilej.cz/35402331/ladyhawke.1985.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-13T02:02:54.481412+00:00 |
 | [Legacy, notre héritage (Legacy) 1080p CZ Titulky](https://prehraj.to/legacy-notre-heritage-legacy-1080p-cz-titulky-mkv/69691dd82efd42a0) (ID 30988551) | [Sdílej 17633756](https://sdilej.cz/17633756/space-jam-a-new-legacy-space-jam-novy-zacatek-2021-1080p-aac5.1-titulky-cz.mkv) | target_unavailable | 2026-11-11T08:48:27.898479+00:00 |
