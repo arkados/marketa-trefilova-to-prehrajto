@@ -173153,17 +173153,19 @@
       "attempts": []
     },
     "17547": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25365153",
+          "target_video_id": "31142332",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:13:37.766450+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25365153",
         "display_name": "Agnes Joy 720p CZ Dabing",
         "planned_at": "2026-11-18T06:03:12.231688+00:00"
-      },
-      "claim": {
-        "worker_id": "79188d5423374de3b87af996bee7cd1f-shard-0",
-        "claimed_at": "2026-11-18T06:03:16.282562+00:00",
-        "lease_expires_at": "2026-11-18T12:03:16.282562+00:00",
-        "run_id": "44237121625"
       },
       "previous_target_id": "31142332",
       "prepared": {
@@ -220395,5 +220397,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:13:35.236912+00:00"
+  "updated_at": "2026-11-18T06:13:37.766474+00:00"
 }
