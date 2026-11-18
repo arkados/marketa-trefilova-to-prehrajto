@@ -111825,13 +111825,6 @@
           "source_id": "34786946",
           "target_video_id": "30983812",
           "permanent": false,
-          "attempted_at": "2026-11-18T12:48:33.675773+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34786946",
-          "target_video_id": "30983812",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:09:14.105116+00:00"
         },
         {
@@ -111840,6 +111833,13 @@
           "target_video_id": "30983812",
           "permanent": false,
           "attempted_at": "2026-11-18T16:45:02.539722+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34786946",
+          "target_video_id": "30983812",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:19:33.106880+00:00"
         }
       ],
       "last_plan": {
@@ -132345,7 +132345,7 @@
       "last_plan": {
         "source_id": "34720992",
         "display_name": "The World According to My Dad (Jiříkovo vidění) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:45:09.205163+00:00"
+        "planned_at": "2026-11-18T18:19:31.322120+00:00"
       },
       "previous_target_id": "30987116",
       "prepared": {
@@ -132353,6 +132353,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:38:59.210885+00:00",
         "relay_source_id": "34720992"
+      },
+      "claim": {
+        "worker_id": "9174243bf11c42e09164de9abc2930dd-shard-0",
+        "claimed_at": "2026-11-18T18:19:32.436178+00:00",
+        "lease_expires_at": "2026-11-19T00:19:32.436178+00:00",
+        "run_id": "44366936972"
       }
     },
     "24172": {
@@ -175700,7 +175706,13 @@
       "last_plan": {
         "source_id": "32552693",
         "display_name": "A Walk in the Clouds 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:19:27.919516+00:00"
+        "planned_at": "2026-11-18T18:19:31.636544+00:00"
+      },
+      "claim": {
+        "worker_id": "b46d4c3c3de34f89a25bf438fc514a97-shard-0",
+        "claimed_at": "2026-11-18T18:19:32.917816+00:00",
+        "lease_expires_at": "2026-11-19T00:19:32.917816+00:00",
+        "run_id": "44366936972"
       }
     },
     "14988": {
@@ -175719,7 +175731,12 @@
       "attempts": []
     },
     "3543": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34721451",
+        "display_name": "Cold in July 1080p CZ Dabing",
+        "planned_at": "2026-11-18T18:19:31.865180+00:00"
+      }
     },
     "18756": {
       "attempts": []
@@ -222500,5 +222517,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:19:28.266127+00:00"
+  "updated_at": "2026-11-18T18:19:33.106906+00:00"
 }
