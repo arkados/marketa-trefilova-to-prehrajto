@@ -117542,6 +117542,12 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-10T17:40:12.153908+00:00",
         "relay_source_id": "33668270"
+      },
+      "claim": {
+        "worker_id": "10df5c305e5e47859b64d254ea70ebf8-shard-0",
+        "claimed_at": "2026-11-18T05:38:49.465182+00:00",
+        "lease_expires_at": "2026-11-18T11:38:49.465182+00:00",
+        "run_id": "44237121625"
       }
     },
     "31560": {
@@ -124219,13 +124225,6 @@
           "source_id": "34700341",
           "target_video_id": "30985692",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:28:21.879858+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34700341",
-          "target_video_id": "30985692",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:06:25.556065+00:00"
         },
         {
@@ -124234,6 +124233,13 @@
           "target_video_id": "30985692",
           "permanent": false,
           "attempted_at": "2026-11-18T03:33:11.843397+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34700341",
+          "target_video_id": "30985692",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:38:49.668702+00:00"
         }
       ],
       "last_plan": {
@@ -124247,12 +124253,6 @@
         "size_bytes": 931500000,
         "prepared_at": "2026-11-10T21:16:14.761613+00:00",
         "relay_source_id": "34700341"
-      },
-      "claim": {
-        "worker_id": "7f2071abb4fe41098399ee7d69fecdfa-shard-0",
-        "claimed_at": "2026-11-18T05:38:46.034434+00:00",
-        "lease_expires_at": "2026-11-18T11:38:46.034434+00:00",
-        "run_id": "44237121625"
       }
     },
     "2615": {
@@ -142404,7 +142404,7 @@
       "last_plan": {
         "source_id": "32094190",
         "display_name": "Ukradená bitva (Die gestohlene Schlacht) SD CZ Dabing",
-        "planned_at": "2026-11-18T03:33:14.813838+00:00"
+        "planned_at": "2026-11-18T05:38:49.922449+00:00"
       },
       "previous_target_id": "30988468",
       "prepared": {
@@ -173055,7 +173055,7 @@
       "last_plan": {
         "source_id": "9382552",
         "display_name": "My Summer of Love SD CZ Dabing",
-        "planned_at": "2026-11-18T05:38:46.656931+00:00"
+        "planned_at": "2026-11-18T05:38:50.303381+00:00"
       }
     },
     "17885": {
@@ -220279,5 +220279,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:38:47.062503+00:00"
+  "updated_at": "2026-11-18T05:38:50.303402+00:00"
 }
