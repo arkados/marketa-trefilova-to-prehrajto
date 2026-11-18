@@ -124179,13 +124179,6 @@
           "source_id": "30548877",
           "target_video_id": "30985657",
           "permanent": false,
-          "attempted_at": "2026-11-18T06:41:04.347072+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30548877",
-          "target_video_id": "30985657",
-          "permanent": false,
           "attempted_at": "2026-11-18T08:12:59.009829+00:00"
         },
         {
@@ -124194,6 +124187,13 @@
           "target_video_id": "30985657",
           "permanent": false,
           "attempted_at": "2026-11-18T09:54:13.836546+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30548877",
+          "target_video_id": "30985657",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:20:45.868541+00:00"
         }
       ],
       "last_plan": {
@@ -127622,7 +127622,7 @@
       "last_plan": {
         "source_id": "34651344",
         "display_name": "Gigi & Nate 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:54:12.933215+00:00"
+        "planned_at": "2026-11-18T11:20:44.253402+00:00"
       },
       "previous_target_id": "30986432",
       "prepared": {
@@ -127630,6 +127630,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T00:27:57.652347+00:00",
         "relay_source_id": "34651344"
+      },
+      "claim": {
+        "worker_id": "25eaf568bcdf439db8061925adec6db8-shard-0",
+        "claimed_at": "2026-11-18T11:20:45.111817+00:00",
+        "lease_expires_at": "2026-11-18T17:20:45.111817+00:00",
+        "run_id": "44276193396"
       }
     },
     "23824": {
@@ -173871,7 +173877,7 @@
       "last_plan": {
         "source_id": "14054640",
         "display_name": "White Lion 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:20:41.434414+00:00"
+        "planned_at": "2026-11-18T11:20:44.563248+00:00"
       }
     },
     "30132": {
@@ -220983,5 +220989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:20:41.434430+00:00"
+  "updated_at": "2026-11-18T11:20:45.868557+00:00"
 }
