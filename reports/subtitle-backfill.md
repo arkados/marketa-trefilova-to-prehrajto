@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:11:11.821672+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:11:29.209354+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 511, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 190, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 512, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 189, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -133,7 +133,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [John Wick: Chapter 4 1440p CZ titulky](https://prehraj.to/john-wick-chapter-4-1440p-cz-titulky-mkv/f4d1e18a53df6591) (ID 30682158) | [Sdílej 26167173](https://sdilej.cz/26167173/john.wick.chapter.4.2023.2160p.web-dl.ddp5.1.atmos.dv.hdr10-.h.265-cmrg.cztit.mkv) | target_unavailable | 2026-11-18T12:42:53.192808+00:00 |
 | [Journey to the Beginning of Time (Cesta do pravěku) 1080p CZ Titulky](https://prehraj.to/journey-to-the-beginning-of-time-cesta-do-praveku-1080p-cz-titulky-mkv/bcad1ddfb754d1f0) (ID 30988776) | [Sdílej 34670411](https://sdilej.cz/34670411/cesta-do-praveku-sci-fi-dobrodruzny-1955-cz.1080p.mkv) | target_unavailable | 2026-11-18T13:11:03.186843+00:00 |
 | [Juno 1080p CZ titulky](https://prehraj.to/juno-1080p-cz-titulky-mkv/087c1b745f58cf79) (ID 30747251) | [Sdílej 33537783](https://sdilej.cz/33537783/juno-2007-komedie-usa-elliot-page-michael-cera-jennifer-garner-czdab-fhd.mkv) | target_unavailable | 2026-11-18T12:43:13.065261+00:00 |
-| [King of Kings 720p CZ Titulky](https://prehraj.to/king-of-kings-720p-cz-titulky-mkv/baf4f8c4bbc9016b) (ID 30989744) | [Sdílej 29895942](https://sdilej.cz/29895942/kral-kralov.king-of-kings-1961-720p-en-cztit-historicky.mkv) | target_unavailable | 2026-11-11T12:18:01.717596+00:00 |
 | [Kingdom: Ashin of the North (킹덤: 아신전) 1080p CZ Titulky](https://prehraj.to/kingdom-ashin-of-the-north-1080p-cz-titulky-mkv/0bbed16b5497b18a) (ID 31014339) | [Sdílej 17566638](https://sdilej.cz/17566638/kingdom.ashin.of.the.north.2021.korean.1080p.nf.webrip.ddp5.1.atmos.x264.cz.tit.mkv) | target_unavailable | 2026-11-13T15:43:19.028818+00:00 |
 | [Kolya (Kolja) 4K CZ Titulky](https://prehraj.to/kolya-kolja-4k-cz-titulky-mkv/47407a1efcebc0f7) (ID 30693817) | [Sdílej 25989515](https://sdilej.cz/25989515/kolja-directors-cut-1996-2160p-uhd-cz-dabing.mkv) | target_unavailable | 2026-11-18T12:42:58.091544+00:00 |
 | [La cocina 1080p CZ Titulky](https://prehraj.to/la-cocina-1080p-cz-titulky-mkv/d5c5780a393c92bb) (ID 30994375) | [Sdílej 30864866](https://sdilej.cz/30864866/la.cocina-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-11T21:48:05.978098+00:00 |
