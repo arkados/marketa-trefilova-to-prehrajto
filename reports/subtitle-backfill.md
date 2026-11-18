@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:01:54.520111+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:02:00.509873+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -245,7 +245,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 166. Dův
 | [Triangle 1080p CZ Titulky](https://prehraj.to/triangle-1080p-cz-titulky-mkv/9a4c0387f9957337) (ID 31006060) | [Sdílej 14629570](https://sdilej.cz/14629570/triangle-en-vlozene-titulky-2009-thriller-1080p.mkv) | target_unavailable | 2026-11-12T21:11:25.519777+00:00 |
 | [Tron: Legacy 1080p CZ Titulky](https://prehraj.to/tron-legacy-1080p-cz-titulky-mkv/85950bf12e3130f6) (ID 31078464) | [Sdílej 21025893](https://sdilej.cz/21025893/tron-legacy-2010-hevc-1080p-cz-dabing.mkv) | target_unavailable | 2026-11-16T01:05:31.229891+00:00 |
 | [Truth & Treason 4K CZ titulky](https://prehraj.to/truth-treason-4k-cz-titulky-mkv/fa8a5eacff079076) (ID 30986247) | [Sdílej 34285530](https://sdilej.cz/34285530/truth-and-treason-2025-2160p.4k-cz.tit.mkv) | target_unavailable | 2026-11-18T13:01:41.988493+00:00 |
-| [Two Brothers 1080p CZ titulky](https://prehraj.to/two-brothers-1080p-cz-titulky-mkv/6140579d9ab70609) (ID 30987615) | [Sdílej 10716193](https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv) | target_unavailable | 2026-11-11T05:35:22.097030+00:00 |
+| [Two Brothers 1080p CZ titulky](https://prehraj.to/two-brothers-1080p-cz-titulky-mkv/6140579d9ab70609) (ID 30987615) | [Sdílej 10716193](https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv) | target_unavailable | 2026-11-18T13:01:58.653878+00:00 |
 | [Une liaison pornographique SD CZ Titulky](https://prehraj.to/une-liaison-pornographique-sd-cz-titulky-mkv/c3eb2bb7ac142c0f) (ID 31020447) | [Sdílej 33564256](https://sdilej.cz/33564256/pornograficky-vztah-1999-tit.mkv) | target_unavailable | 2026-11-13T22:46:02.464792+00:00 |
 | [V for Vendetta 4K CZ Titulky](https://prehraj.to/v-for-vendetta-4k-cz-titulky-mkv/2f60c4c7b2427a19) (ID 30613867) | [Sdílej 32858384](https://sdilej.cz/32858384/v-jako-vendeta-v-for-vendetta-2005-2160p-hdr-cz-dabing-en-truehd-atmos.mkv) | target_unavailable | 2026-11-18T12:51:33.543338+00:00 |
 | [Volhynia (Wołyń) 720p CZ titulky](https://prehraj.to/volhynia-wolyn-720p-cz-titulky-mkv/a7372a0be8306f2c) (ID 30745166) | [Sdílej 13881903](https://sdilej.cz/13881903/volyn-2016-polsky-cz-tit.mkv) | target_unavailable | 2026-11-18T12:50:29.164603+00:00 |
