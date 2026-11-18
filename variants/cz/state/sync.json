@@ -174015,17 +174015,19 @@
       }
     },
     "28475": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7111728",
+          "target_video_id": "31151111",
+          "permanent": false,
+          "attempted_at": "2026-11-18T12:40:37.640744+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7111728",
         "display_name": "Obvious Child 720p CZ Dabing",
         "planned_at": "2026-11-18T12:28:11.373482+00:00"
-      },
-      "claim": {
-        "worker_id": "12f1d5635865459aba583b96e598fea4-shard-0",
-        "claimed_at": "2026-11-18T12:28:12.322982+00:00",
-        "lease_expires_at": "2026-11-18T18:28:12.322982+00:00",
-        "run_id": "44276193396"
       },
       "previous_target_id": "31151111",
       "prepared": {
@@ -221122,5 +221124,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T12:40:25.944983+00:00"
+  "updated_at": "2026-11-18T12:40:37.640751+00:00"
 }
