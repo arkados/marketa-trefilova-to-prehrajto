@@ -129090,13 +129090,6 @@
           "source_id": "34711999",
           "target_video_id": "30986733",
           "permanent": false,
-          "attempted_at": "2026-11-17T22:31:54.182044+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34711999",
-          "target_video_id": "30986733",
-          "permanent": false,
           "attempted_at": "2026-11-17T23:59:57.174888+00:00"
         },
         {
@@ -129105,6 +129098,13 @@
           "target_video_id": "30986733",
           "permanent": false,
           "attempted_at": "2026-11-18T01:38:25.687631+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34711999",
+          "target_video_id": "30986733",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:04:59.525074+00:00"
         }
       ],
       "last_plan": {
@@ -138102,7 +138102,7 @@
       "last_plan": {
         "source_id": "24113515",
         "display_name": "Vandronik (O Janovi a podivuhodném příteli) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T01:38:23.555103+00:00"
+        "planned_at": "2026-11-18T03:04:57.694985+00:00"
       },
       "previous_target_id": "30987842",
       "prepared": {
@@ -138110,6 +138110,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T06:22:35.276508+00:00",
         "relay_source_id": "24113515"
+      },
+      "claim": {
+        "worker_id": "45226666ac834d118024b2116ac4aefb-shard-0",
+        "claimed_at": "2026-11-18T03:04:58.957047+00:00",
+        "lease_expires_at": "2026-11-18T09:04:58.957047+00:00",
+        "run_id": "44190029167"
       }
     },
     "12822": {
@@ -172621,7 +172627,7 @@
       "last_plan": {
         "source_id": "23937311",
         "display_name": "Dvanáct měsíčků 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:04:54.570427+00:00"
+        "planned_at": "2026-11-18T03:04:58.086625+00:00"
       }
     },
     "26203": {
@@ -219902,5 +219908,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:04:54.925889+00:00"
+  "updated_at": "2026-11-18T03:04:59.525092+00:00"
 }
