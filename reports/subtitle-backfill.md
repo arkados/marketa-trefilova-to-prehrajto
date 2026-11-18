@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:15:48.858345+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:15:59.215411+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 549, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 148, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 550, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 147, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -144,7 +144,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Poor Things 1080p CZ titulky](https://prehraj.to/poor-things-1080p-cz-titulky-mkv/de58b83d9d75655d) (ID 30664033) | [Sdílej 28240998](https://sdilej.cz/28240998/poor.things-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T12:42:31.191507+00:00 |
 | [Queen of Hearts (Dronningen) 1080p CZ titulky](https://prehraj.to/queen-of-hearts-dronningen-1080p-cz-titulky-mkv/add428a7f119488e) (ID 30987463) | [Sdílej 16607977](https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv) | target_unavailable | 2026-11-18T13:01:53.440111+00:00 |
 | [Rebel Ridge 1080p CZ Titulky](https://prehraj.to/rebel-ridge-1080p-cz-titulky-mkv/f5b629dcde5dfb97) (ID 31091395) | [Sdílej 35402850](https://sdilej.cz/35402850/rebel.ridge.2024.1080p.webrip.x265.10bit.aac5.1-yts.mx-.cz.sub.mkv) | target_unavailable | 2026-11-16T12:53:37.558029+00:00 |
-| [Rent 1080p CZ Titulky](https://prehraj.to/rent-1080p-cz-titulky-mkv/ed2162beee69f685) (ID 31007976) | [Sdílej 22944190](https://sdilej.cz/22944190/bohemove-2005-cz-titulky.mkv) | target_unavailable | 2026-11-13T01:42:54.375952+00:00 |
 | [Rental Family 1080p CZ Titulky](https://prehraj.to/rental-family-1080p-cz-titulky-mp4/a1a16ac5b338c17c) (ID 30699789) | [Sdílej 33092843](https://sdilej.cz/33092843/rental-family-2025-cz-titulky.mp4) | upload_unconfirmed | 2026-11-18T12:43:08.789094+00:00 |
 | [René 1080p CZ Titulky](https://prehraj.to/rene-1080p-cz-titulky-mkv/5a9f54c8abee0cc4) (ID 31025310) | [Sdílej 30660141](https://sdilej.cz/30660141/puls-3-invaze-hraji-rider-strong-brittany-renee-finamore-2008-cz-dab-leg.mkv) | target_unavailable | 2026-11-14T08:02:38.054935+00:00 |
 | [Reptile 1080p CZ Titulky](https://prehraj.to/reptile-1080p-cz-titulky-mkv/1c3317d9326351a7) (ID 31090284) | [Sdílej 26924113](https://sdilej.cz/26924113/reptile.2023.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv) | target_unavailable | 2026-11-16T11:42:48.272152+00:00 |
