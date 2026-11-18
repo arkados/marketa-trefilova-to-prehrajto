@@ -110517,13 +110517,6 @@
           "source_id": "35184124",
           "target_video_id": "30983741",
           "permanent": false,
-          "attempted_at": "2026-11-18T04:07:21.204713+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35184124",
-          "target_video_id": "30983741",
-          "permanent": false,
           "attempted_at": "2026-11-18T06:15:26.807241+00:00"
         },
         {
@@ -110532,6 +110525,13 @@
           "target_video_id": "30983741",
           "permanent": false,
           "attempted_at": "2026-11-18T07:52:38.223206+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35184124",
+          "target_video_id": "30983741",
+          "permanent": false,
+          "attempted_at": "2026-11-18T09:35:45.190933+00:00"
         }
       ],
       "last_plan": {
@@ -116642,7 +116642,7 @@
       "last_plan": {
         "source_id": "14845493",
         "display_name": "Mank 1080p CZ Dabing",
-        "planned_at": "2026-11-18T07:52:38.900548+00:00"
+        "planned_at": "2026-11-18T09:35:43.832931+00:00"
       },
       "previous_target_id": "30984699",
       "prepared": {
@@ -116650,6 +116650,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:20:31.441781+00:00",
         "relay_source_id": "14845493"
+      },
+      "claim": {
+        "worker_id": "2d29071db28f49d18e8890336482090d-shard-0",
+        "claimed_at": "2026-11-18T09:35:44.815889+00:00",
+        "lease_expires_at": "2026-11-18T15:35:44.815889+00:00",
+        "run_id": "44276193396"
       }
     },
     "2816": {
@@ -173682,7 +173688,7 @@
       "last_plan": {
         "source_id": "19572859",
         "display_name": "8-Bit Christmas 4K CZ Dabing",
-        "planned_at": "2026-11-18T09:35:41.091795+00:00"
+        "planned_at": "2026-11-18T09:35:44.203737+00:00"
       }
     },
     "3331": {
@@ -220841,5 +220847,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:35:41.412206+00:00"
+  "updated_at": "2026-11-18T09:35:45.190951+00:00"
 }
