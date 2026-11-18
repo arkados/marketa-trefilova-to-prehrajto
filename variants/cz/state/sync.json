@@ -108200,13 +108200,6 @@
           "source_id": "30612511",
           "target_video_id": "30983498",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:55:34.756053+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30612511",
-          "target_video_id": "30983498",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:27:14.299832+00:00"
         },
         {
@@ -108215,6 +108208,13 @@
           "target_video_id": "30983498",
           "permanent": false,
           "attempted_at": "2026-11-18T21:02:02.100757+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30612511",
+          "target_video_id": "30983498",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:45:41.817013+00:00"
         }
       ],
       "last_plan": {
@@ -108228,12 +108228,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T14:09:38.631857+00:00",
         "relay_source_id": "30612511"
-      },
-      "claim": {
-        "worker_id": "75b37445998d40ccaeff45d481ec6ad9-shard-0",
-        "claimed_at": "2026-11-18T22:45:38.622486+00:00",
-        "lease_expires_at": "2026-11-19T04:45:38.622486+00:00",
-        "run_id": "44406951430"
       }
     },
     "32038": {
@@ -108303,7 +108297,7 @@
       "last_plan": {
         "source_id": "27903517",
         "display_name": "Capek's Tales (Čapkovy povídky) SD CZ Dabing",
-        "planned_at": "2026-11-18T21:02:01.468908+00:00"
+        "planned_at": "2026-11-18T22:45:41.589888+00:00"
       },
       "previous_target_id": "30983504",
       "prepared": {
@@ -176996,17 +176990,19 @@
       }
     },
     "30491": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "24938055",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-18T22:45:41.330461+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24938055",
         "display_name": "Modelky s.r.o. 1080p CZ Dabing",
         "planned_at": "2026-11-18T22:44:22.615149+00:00"
-      },
-      "claim": {
-        "worker_id": "477ce3a73fd0481bb0c92b9d63c74326-shard-0",
-        "claimed_at": "2026-11-18T22:44:25.477182+00:00",
-        "lease_expires_at": "2026-11-19T04:44:25.477182+00:00",
-        "run_id": "44406951430"
       }
     },
     "34861": {
@@ -177014,7 +177010,7 @@
       "last_plan": {
         "source_id": "31626723",
         "display_name": "Pánský klub (The Gentlemen's Club) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:45:37.641602+00:00"
+        "planned_at": "2026-11-18T22:45:42.116659+00:00"
       }
     },
     "22744": {
@@ -223619,5 +223615,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:45:39.004928+00:00"
+  "updated_at": "2026-11-18T22:45:42.116677+00:00"
 }
