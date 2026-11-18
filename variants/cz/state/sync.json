@@ -121004,7 +121004,7 @@
       "last_plan": {
         "source_id": "23806861",
         "display_name": "Athena 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:27:00.215810+00:00"
+        "planned_at": "2026-11-18T12:54:58.441529+00:00"
       },
       "previous_target_id": "30985032",
       "prepared": {
@@ -121012,17 +121012,16 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T18:37:53.303604+00:00",
         "relay_source_id": "23806861"
+      },
+      "claim": {
+        "worker_id": "62a7766562404c20a93607611764abb3-shard-0",
+        "claimed_at": "2026-11-18T12:54:59.849667+00:00",
+        "lease_expires_at": "2026-11-18T18:54:59.849667+00:00",
+        "run_id": "44276193396"
       }
     },
     "21120": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "34011156",
-          "target_video_id": "30985031",
-          "permanent": false,
-          "attempted_at": "2026-11-18T08:23:39.487278+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "34011156",
@@ -121036,6 +121035,13 @@
           "target_video_id": "30985031",
           "permanent": false,
           "attempted_at": "2026-11-18T11:27:02.385411+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34011156",
+          "target_video_id": "30985031",
+          "permanent": false,
+          "attempted_at": "2026-11-18T12:55:00.386115+00:00"
         }
       ],
       "last_plan": {
@@ -174060,7 +174066,7 @@
       "last_plan": {
         "source_id": "29265516",
         "display_name": "Empire of Light 720p CZ Dabing",
-        "planned_at": "2026-11-18T12:54:55.391940+00:00"
+        "planned_at": "2026-11-18T12:54:58.953407+00:00"
       }
     },
     "18966": {
@@ -221136,5 +221142,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T12:54:55.391957+00:00"
+  "updated_at": "2026-11-18T12:55:00.386133+00:00"
 }
