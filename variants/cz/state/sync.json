@@ -118687,6 +118687,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "4e74582c403241aa94a982b893954dae-shard-0",
+        "claimed_at": "2026-11-18T03:05:39.419378+00:00",
+        "lease_expires_at": "2026-11-18T09:05:39.419378+00:00",
+        "run_id": "44190029167"
       }
     },
     "12374": {
@@ -139975,13 +139981,6 @@
           "source_id": "33810799",
           "target_video_id": "30988025",
           "permanent": false,
-          "attempted_at": "2026-11-17T22:33:12.172408+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33810799",
-          "target_video_id": "30988025",
-          "permanent": false,
           "attempted_at": "2026-11-18T00:00:49.012477+00:00"
         },
         {
@@ -139990,12 +139989,19 @@
           "target_video_id": "30988025",
           "permanent": false,
           "attempted_at": "2026-11-18T01:39:20.811923+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33810799",
+          "target_video_id": "30988025",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:05:44.528534+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33810799",
         "display_name": "Thomas the Falconer (Sokoliar Tomáš) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T01:39:15.877112+00:00"
+        "planned_at": "2026-11-18T03:05:40.134402+00:00"
       },
       "previous_target_id": "30988025",
       "prepared": {
@@ -172621,7 +172627,7 @@
       "last_plan": {
         "source_id": "23937311",
         "display_name": "Dvanáct měsíčků 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:05:35.458416+00:00"
+        "planned_at": "2026-11-18T03:05:40.566896+00:00"
       }
     },
     "26203": {
@@ -219902,5 +219908,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:05:35.858966+00:00"
+  "updated_at": "2026-11-18T03:05:44.528552+00:00"
 }
