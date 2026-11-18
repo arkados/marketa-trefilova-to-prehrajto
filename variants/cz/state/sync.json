@@ -12854,13 +12854,6 @@
           "source_id": "34846817",
           "target_video_id": "30649962",
           "permanent": false,
-          "attempted_at": "2026-11-17T20:10:43.766753+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34846817",
-          "target_video_id": "30649962",
-          "permanent": false,
           "attempted_at": "2026-11-17T21:46:15.539424+00:00"
         },
         {
@@ -12869,6 +12862,13 @@
           "target_video_id": "30649962",
           "permanent": false,
           "attempted_at": "2026-11-17T23:14:10.434969+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34846817",
+          "target_video_id": "30649962",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:52:32.871648+00:00"
         }
       ],
       "last_plan": {
@@ -144118,7 +144118,7 @@
       "last_plan": {
         "source_id": "7239474",
         "display_name": "Bílá spona SD CZ Dabing",
-        "planned_at": "2026-11-17T23:14:09.293280+00:00"
+        "planned_at": "2026-11-18T00:52:31.091601+00:00"
       },
       "previous_target_id": "30988750",
       "prepared": {
@@ -144126,6 +144126,12 @@
         "size_bytes": 756000000,
         "prepared_at": "2026-11-11T09:48:19.543124+00:00",
         "relay_source_id": "7239474"
+      },
+      "claim": {
+        "worker_id": "a91e8009d12742a6a73795c528f1ba60-shard-0",
+        "claimed_at": "2026-11-18T00:52:32.413610+00:00",
+        "lease_expires_at": "2026-11-18T06:52:32.413610+00:00",
+        "run_id": "44190029167"
       }
     },
     "17569": {
@@ -172157,7 +172163,7 @@
       "last_plan": {
         "source_id": "35254247",
         "display_name": "Jappeloup 1080p CZ Dabing",
-        "planned_at": "2026-11-18T00:52:27.072629+00:00"
+        "planned_at": "2026-11-18T00:52:31.500893+00:00"
       }
     },
     "22536": {
@@ -219515,5 +219521,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:52:27.072649+00:00"
+  "updated_at": "2026-11-18T00:52:32.871665+00:00"
 }
