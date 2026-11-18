@@ -108330,13 +108330,6 @@
           "source_id": "35066259",
           "target_video_id": "30983517",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:05:16.313900+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066259",
-          "target_video_id": "30983517",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:25:40.436402+00:00"
         },
         {
@@ -108345,6 +108338,13 @@
           "target_video_id": "30983517",
           "permanent": false,
           "attempted_at": "2026-11-18T14:49:19.483349+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066259",
+          "target_video_id": "30983517",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:24:59.632807+00:00"
         }
       ],
       "last_plan": {
@@ -147648,7 +147648,7 @@
       "last_plan": {
         "source_id": "12863543",
         "display_name": "Taxi 121 SD CZ Dabing",
-        "planned_at": "2026-11-18T14:49:18.783693+00:00"
+        "planned_at": "2026-11-18T16:24:57.991827+00:00"
       },
       "previous_target_id": "30999429",
       "prepared": {
@@ -147656,6 +147656,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-12T06:39:50.580418+00:00",
         "relay_source_id": "12863543"
+      },
+      "claim": {
+        "worker_id": "81caa6f875644de090335ae00980ab57-shard-0",
+        "claimed_at": "2026-11-18T16:24:59.298122+00:00",
+        "lease_expires_at": "2026-11-18T22:24:59.298122+00:00",
+        "run_id": "44319849691"
       }
     },
     "28088": {
@@ -174758,7 +174764,7 @@
       "last_plan": {
         "source_id": "31596102",
         "display_name": "Husband to Rent (Hodinový manžel) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:24:54.962613+00:00"
+        "planned_at": "2026-11-18T16:24:58.490442+00:00"
       }
     },
     "12236": {
@@ -221714,5 +221720,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:24:54.962631+00:00"
+  "updated_at": "2026-11-18T16:24:59.632824+00:00"
 }
