@@ -127243,13 +127243,6 @@
           "source_id": "34453688",
           "target_video_id": "30986375",
           "permanent": false,
-          "attempted_at": "2026-11-18T04:01:16.872140+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34453688",
-          "target_video_id": "30986375",
-          "permanent": false,
           "attempted_at": "2026-11-18T06:09:35.640581+00:00"
         },
         {
@@ -127258,6 +127251,13 @@
           "target_video_id": "30986375",
           "permanent": false,
           "attempted_at": "2026-11-18T07:43:30.946484+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34453688",
+          "target_video_id": "30986375",
+          "permanent": false,
+          "attempted_at": "2026-11-18T09:15:50.182544+00:00"
         }
       ],
       "last_plan": {
@@ -135657,7 +135657,7 @@
       "last_plan": {
         "source_id": "11994914",
         "display_name": "Bankrot SD CZ Dabing",
-        "planned_at": "2026-11-18T07:43:31.273822+00:00"
+        "planned_at": "2026-11-18T09:15:48.278302+00:00"
       },
       "previous_target_id": "30987591",
       "prepared": {
@@ -135665,6 +135665,12 @@
         "size_bytes": 975100000,
         "prepared_at": "2026-11-11T05:20:01.782170+00:00",
         "relay_source_id": "11994914"
+      },
+      "claim": {
+        "worker_id": "24d7f44b4f45417ebf1409df2357e95b-shard-0",
+        "claimed_at": "2026-11-18T09:15:49.324210+00:00",
+        "lease_expires_at": "2026-11-18T15:15:49.324210+00:00",
+        "run_id": "44237121625"
       }
     },
     "24145": {
@@ -173653,7 +173659,7 @@
       "last_plan": {
         "source_id": "34657903",
         "display_name": "Dealer 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:15:45.208904+00:00"
+        "planned_at": "2026-11-18T09:15:48.635139+00:00"
       }
     },
     "3317": {
@@ -220810,5 +220816,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:15:45.208924+00:00"
+  "updated_at": "2026-11-18T09:15:50.182566+00:00"
 }
