@@ -111628,13 +111628,6 @@
           "source_id": "34952768",
           "target_video_id": "30983806",
           "permanent": false,
-          "attempted_at": "2026-11-18T15:05:04.816032+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34952768",
-          "target_video_id": "30983806",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:38:02.655938+00:00"
         },
         {
@@ -111643,12 +111636,19 @@
           "target_video_id": "30983806",
           "permanent": false,
           "attempted_at": "2026-11-18T18:12:26.806307+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34952768",
+          "target_video_id": "30983806",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:41:59.400964+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34952768",
         "display_name": "Hotel (Hôtel) (2013) 720p CZ Dabing",
-        "planned_at": "2026-11-18T18:12:21.003917+00:00"
+        "planned_at": "2026-11-18T19:41:56.051460+00:00"
       },
       "previous_target_id": "30983806",
       "prepared": {
@@ -176150,11 +176150,22 @@
       "last_plan": {
         "source_id": "26782832",
         "display_name": "Liberal Arts 720p CZ Dabing",
-        "planned_at": "2026-11-18T19:41:49.977463+00:00"
+        "planned_at": "2026-11-18T19:41:56.371475+00:00"
+      },
+      "claim": {
+        "worker_id": "48b22487e0144169b0840f65548bf21c-shard-0",
+        "claimed_at": "2026-11-18T19:41:57.313485+00:00",
+        "lease_expires_at": "2026-11-19T01:41:57.313485+00:00",
+        "run_id": "44366936972"
       }
     },
     "27029": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34135528",
+        "display_name": "The Runway 1080p CZ Dabing",
+        "planned_at": "2026-11-18T19:41:56.575285+00:00"
+      }
     },
     "11972": {
       "attempts": []
@@ -222881,5 +222892,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:41:53.403361+00:00"
+  "updated_at": "2026-11-18T19:41:59.400984+00:00"
 }
