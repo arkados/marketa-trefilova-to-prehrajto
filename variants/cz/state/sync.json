@@ -114735,13 +114735,6 @@
           "source_id": "28048905",
           "target_video_id": "30984162",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:48:23.558039+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28048905",
-          "target_video_id": "30984162",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:20:12.425954+00:00"
         },
         {
@@ -114750,6 +114743,13 @@
           "target_video_id": "30984162",
           "permanent": false,
           "attempted_at": "2026-11-18T20:54:54.486069+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28048905",
+          "target_video_id": "30984162",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:38:24.273686+00:00"
         }
       ],
       "last_plan": {
@@ -141452,7 +141452,7 @@
       "last_plan": {
         "source_id": "29201504",
         "display_name": "Průlom SD CZ Dabing",
-        "planned_at": "2026-11-18T20:54:53.893124+00:00"
+        "planned_at": "2026-11-18T22:38:22.692853+00:00"
       },
       "previous_target_id": "30988227",
       "prepared": {
@@ -141460,6 +141460,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T07:54:44.217051+00:00",
         "relay_source_id": "29201504"
+      },
+      "claim": {
+        "worker_id": "909d531a4bd042fe8f6f65e03cc57d52-shard-0",
+        "claimed_at": "2026-11-18T22:38:23.600752+00:00",
+        "lease_expires_at": "2026-11-19T04:38:23.600752+00:00",
+        "run_id": "44406951430"
       }
     },
     "15578": {
@@ -176963,7 +176969,7 @@
       "last_plan": {
         "source_id": "34711920",
         "display_name": "Pumpkin Pie Wars 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:38:19.637005+00:00"
+        "planned_at": "2026-11-18T22:38:23.016663+00:00"
       }
     },
     "30491": {
@@ -223574,5 +223580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:38:19.637023+00:00"
+  "updated_at": "2026-11-18T22:38:24.273705+00:00"
 }
