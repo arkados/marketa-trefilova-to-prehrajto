@@ -140513,13 +140513,6 @@
           "source_id": "34673105",
           "target_video_id": "30988105",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:44:25.042142+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34673105",
-          "target_video_id": "30988105",
-          "permanent": false,
           "attempted_at": "2026-11-18T13:18:03.104834+00:00"
         },
         {
@@ -140528,6 +140521,13 @@
           "target_video_id": "30988105",
           "permanent": false,
           "attempted_at": "2026-11-18T15:36:26.019216+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34673105",
+          "target_video_id": "30988105",
+          "permanent": false,
+          "attempted_at": "2026-11-18T17:07:57.410700+00:00"
         }
       ],
       "last_plan": {
@@ -146953,7 +146953,7 @@
       "last_plan": {
         "source_id": "33856066",
         "display_name": "Jan Palach 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:36:24.406104+00:00"
+        "planned_at": "2026-11-18T17:07:55.747658+00:00"
       },
       "previous_target_id": "30995059",
       "prepared": {
@@ -146961,6 +146961,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T22:58:45.261990+00:00",
         "relay_source_id": "33856066"
+      },
+      "claim": {
+        "worker_id": "096944a00b3c4dc9b59a3e8e8096845b-shard-0",
+        "claimed_at": "2026-11-18T17:07:57.041080+00:00",
+        "lease_expires_at": "2026-11-18T23:07:57.041080+00:00",
+        "run_id": "44319849691"
       }
     },
     "10711": {
@@ -175099,7 +175105,7 @@
       "last_plan": {
         "source_id": "34118992",
         "display_name": "Hysteria 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:07:52.826745+00:00"
+        "planned_at": "2026-11-18T17:07:56.224648+00:00"
       }
     },
     "16767": {
@@ -221986,5 +221992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:07:52.826760+00:00"
+  "updated_at": "2026-11-18T17:07:57.410719+00:00"
 }
