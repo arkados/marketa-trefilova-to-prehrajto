@@ -111638,7 +111638,7 @@
       "last_plan": {
         "source_id": "34952768",
         "display_name": "Hotel (Hôtel) (2013) 720p CZ Dabing",
-        "planned_at": "2026-11-18T12:44:22.751754+00:00"
+        "planned_at": "2026-11-18T15:05:00.032437+00:00"
       },
       "previous_target_id": "30983806",
       "prepared": {
@@ -111646,6 +111646,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T14:51:02.683791+00:00",
         "relay_source_id": "34952768"
+      },
+      "claim": {
+        "worker_id": "975d3f8d0caa4c0d8abd0dc03575112c-shard-0",
+        "claimed_at": "2026-11-18T15:05:01.059411+00:00",
+        "lease_expires_at": "2026-11-18T21:05:01.059411+00:00",
+        "run_id": "44319849691"
       }
     },
     "13010": {
@@ -174213,17 +174219,19 @@
       }
     },
     "3384": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11978852",
+          "target_video_id": "31153744",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:05:01.615193+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11978852",
         "display_name": "Colette (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-18T14:50:48.735404+00:00"
-      },
-      "claim": {
-        "worker_id": "b2d45adebd134b8c8b91d049fa9107e6-shard-0",
-        "claimed_at": "2026-11-18T14:50:50.000693+00:00",
-        "lease_expires_at": "2026-11-18T20:50:50.000693+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31153744",
       "prepared": {
@@ -174268,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:04:55.914244+00:00"
+        "planned_at": "2026-11-18T15:05:00.410419+00:00"
       }
     },
     "32797": {
@@ -221314,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:04:57.928019+00:00"
+  "updated_at": "2026-11-18T15:05:01.615208+00:00"
 }
