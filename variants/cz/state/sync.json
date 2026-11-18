@@ -111711,13 +111711,6 @@
           "source_id": "34733928",
           "target_video_id": "30983808",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:38:31.547178+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34733928",
-          "target_video_id": "30983808",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:15:47.201242+00:00"
         },
         {
@@ -111726,6 +111719,13 @@
           "target_video_id": "30983808",
           "permanent": false,
           "attempted_at": "2026-11-18T19:46:27.261486+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34733928",
+          "target_video_id": "30983808",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:18:39.110904+00:00"
         }
       ],
       "last_plan": {
@@ -134616,7 +134616,7 @@
       "last_plan": {
         "source_id": "34676079",
         "display_name": "Madla z cihelny 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:46:30.643458+00:00"
+        "planned_at": "2026-11-18T21:18:37.233497+00:00"
       },
       "previous_target_id": "30987477",
       "prepared": {
@@ -134624,6 +134624,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:52:55.769930+00:00",
         "relay_source_id": "34676079"
+      },
+      "claim": {
+        "worker_id": "e1e4368643cb4f0aa8ed4f5f3eb46da4-shard-0",
+        "claimed_at": "2026-11-18T21:18:38.109532+00:00",
+        "lease_expires_at": "2026-11-19T03:18:38.109532+00:00",
+        "run_id": "44366936972"
       }
     },
     "24448": {
@@ -176554,7 +176560,7 @@
       "last_plan": {
         "source_id": "10537299",
         "display_name": "Apt Pupil SD CZ Dabing",
-        "planned_at": "2026-11-18T21:18:34.187654+00:00"
+        "planned_at": "2026-11-18T21:18:37.549691+00:00"
       }
     },
     "3315": {
@@ -223234,5 +223240,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:18:34.544193+00:00"
+  "updated_at": "2026-11-18T21:18:39.110929+00:00"
 }
