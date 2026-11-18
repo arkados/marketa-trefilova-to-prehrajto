@@ -39074,6 +39074,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-03T00:24:04.738396+00:00",
         "relay_source_id": "34784954"
+      },
+      "claim": {
+        "worker_id": "fe07d56e8f454aaab2f03907bf46fda4-shard-0",
+        "claimed_at": "2026-11-18T07:31:44.612616+00:00",
+        "lease_expires_at": "2026-11-18T13:31:44.612616+00:00",
+        "run_id": "44237121625"
       }
     },
     "17605": {
@@ -123996,7 +124002,7 @@
       "last_plan": {
         "source_id": "12475327",
         "display_name": "Ladies in Black 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:58:38.842437+00:00"
+        "planned_at": "2026-11-18T07:31:44.877580+00:00"
       },
       "previous_target_id": "30985644",
       "prepared": {
@@ -173396,17 +173402,19 @@
       }
     },
     "3475": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34208253",
+          "target_video_id": "31144088",
+          "permanent": false,
+          "attempted_at": "2026-11-18T07:31:45.439628+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34208253",
         "display_name": "Kingsglaive: Final Fantasy XV (kingusugureibu fainarufantajii XV) 1080p CZ Dabing",
         "planned_at": "2026-11-18T07:23:39.486563+00:00"
-      },
-      "claim": {
-        "worker_id": "ee37a25fbb184ec399b6bbe8ca1ae51d-shard-0",
-        "claimed_at": "2026-11-18T07:23:42.784832+00:00",
-        "lease_expires_at": "2026-11-18T13:23:42.784832+00:00",
-        "run_id": "44237121625"
       },
       "previous_target_id": "31144088",
       "prepared": {
@@ -220611,5 +220619,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:31:42.022273+00:00"
+  "updated_at": "2026-11-18T07:31:45.439656+00:00"
 }
