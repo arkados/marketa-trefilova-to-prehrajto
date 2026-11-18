@@ -120428,13 +120428,6 @@
           "source_id": "11263337",
           "target_video_id": "30985002",
           "permanent": false,
-          "attempted_at": "2026-11-18T15:02:21.847787+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11263337",
-          "target_video_id": "30985002",
-          "permanent": false,
           "attempted_at": "2026-11-18T16:35:41.260158+00:00"
         },
         {
@@ -120443,6 +120436,13 @@
           "target_video_id": "30985002",
           "permanent": false,
           "attempted_at": "2026-11-18T18:07:58.177060+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11263337",
+          "target_video_id": "30985002",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:39:49.755520+00:00"
         }
       ],
       "last_plan": {
@@ -121724,7 +121724,7 @@
       "last_plan": {
         "source_id": "33746515",
         "display_name": "Taps 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:08:02.022193+00:00"
+        "planned_at": "2026-11-18T19:39:48.476813+00:00"
       },
       "previous_target_id": "30985386",
       "prepared": {
@@ -121732,6 +121732,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T19:00:56.350782+00:00",
         "relay_source_id": "33746515"
+      },
+      "claim": {
+        "worker_id": "ca01e67ff100432eab6a0f73d5a4bbd9-shard-0",
+        "claimed_at": "2026-11-18T19:39:49.428394+00:00",
+        "lease_expires_at": "2026-11-19T01:39:49.428394+00:00",
+        "run_id": "44366936972"
       }
     },
     "27476": {
@@ -176138,7 +176144,7 @@
       "last_plan": {
         "source_id": "26782832",
         "display_name": "Liberal Arts 720p CZ Dabing",
-        "planned_at": "2026-11-18T19:39:45.779270+00:00"
+        "planned_at": "2026-11-18T19:39:48.795844+00:00"
       }
     },
     "27029": {
@@ -222869,5 +222875,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:39:45.779289+00:00"
+  "updated_at": "2026-11-18T19:39:49.755536+00:00"
 }
