@@ -177012,17 +177012,19 @@
       }
     },
     "34861": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31626723",
+          "target_video_id": "31161937",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:53:49.973915+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31626723",
         "display_name": "Pánský klub (The Gentlemen's Club) 1080p CZ Dabing",
         "planned_at": "2026-11-18T22:45:45.705327+00:00"
-      },
-      "claim": {
-        "worker_id": "9bbe2e4b77f24e42849f0f4b3700288b-shard-0",
-        "claimed_at": "2026-11-18T22:45:46.854087+00:00",
-        "lease_expires_at": "2026-11-19T04:45:46.854087+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31161937",
       "prepared": {
@@ -223657,5 +223659,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:53:47.748957+00:00"
+  "updated_at": "2026-11-18T22:53:49.973937+00:00"
 }
