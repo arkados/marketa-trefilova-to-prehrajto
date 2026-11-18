@@ -176973,17 +176973,19 @@
       }
     },
     "29454": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34711920",
+          "target_video_id": "31161866",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:44:14.564410+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34711920",
         "display_name": "Pumpkin Pie Wars 1080p CZ Dabing",
         "planned_at": "2026-11-18T22:41:02.582193+00:00"
-      },
-      "claim": {
-        "worker_id": "310978a3269e4141ab311f5c30529fc1-shard-0",
-        "claimed_at": "2026-11-18T22:41:05.734943+00:00",
-        "lease_expires_at": "2026-11-19T04:41:05.734943+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31161866",
       "prepared": {
@@ -223606,5 +223608,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:44:11.221240+00:00"
+  "updated_at": "2026-11-18T22:44:14.564433+00:00"
 }
