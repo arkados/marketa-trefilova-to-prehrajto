@@ -176009,17 +176009,19 @@
       }
     },
     "3342": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16506466",
+          "target_video_id": "31158203",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:22:01.775156+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16506466",
         "display_name": "Let Him Go 1080p CZ Dabing",
         "planned_at": "2026-11-18T19:16:35.852960+00:00"
-      },
-      "claim": {
-        "worker_id": "fd4e794259ed44009bf1aca85b398bfa-shard-0",
-        "claimed_at": "2026-11-18T19:16:38.873858+00:00",
-        "lease_expires_at": "2026-11-19T01:16:38.873858+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31158203",
       "prepared": {
@@ -222777,5 +222779,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:21:59.097588+00:00"
+  "updated_at": "2026-11-18T19:22:01.775270+00:00"
 }
