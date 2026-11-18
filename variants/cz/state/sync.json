@@ -120598,13 +120598,6 @@
           "source_id": "34674871",
           "target_video_id": "30985012",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:41:15.061194+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34674871",
-          "target_video_id": "30985012",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:18:15.302391+00:00"
         },
         {
@@ -120613,6 +120606,13 @@
           "target_video_id": "30985012",
           "permanent": false,
           "attempted_at": "2026-11-18T19:49:35.694349+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34674871",
+          "target_video_id": "30985012",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:21:33.798728+00:00"
         }
       ],
       "last_plan": {
@@ -176227,17 +176227,23 @@
           "attempted_at": "2026-11-18T19:49:41.067103+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34194769",
-        "display_name": "Spider 4K CZ Dabing",
-        "planned_at": "2026-11-18T19:37:03.369225+00:00"
-      },
       "previous_target_id": "31158495",
-      "prepared": {
+      "upload": {
         "target_video_id": "31158495",
-        "size_bytes": 5714405724,
-        "prepared_at": "2026-11-18T19:37:12.945443+00:00",
-        "relay_source_id": "34194769"
+        "display_name": "Spider 4K CZ Dabing",
+        "source_id": "34194769",
+        "source_url": "https://sdilej.cz/34194769/spider-man-2002-cz-dab-2160p.mkv",
+        "source_filename": "Spider-Man 2002 CZ dab 2160p.mkv",
+        "size_bytes": 5700000000,
+        "width": 3840,
+        "height": 2076,
+        "audio_language": "cs",
+        "language_probability": 0.9793251156806946,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/spider-4k-cz-dabing-mkv/e9f5459f586c9bfc",
+        "uploaded_at": "2026-11-18T21:21:34.149465+00:00"
       }
     },
     "27742": {
@@ -176606,7 +176612,7 @@
       "last_plan": {
         "source_id": "29871948",
         "display_name": "Drop Dead Gorgeous 720p CZ Dabing",
-        "planned_at": "2026-11-18T21:21:25.735098+00:00"
+        "planned_at": "2026-11-18T21:21:32.456814+00:00"
       }
     },
     "31634": {
@@ -223280,5 +223286,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:21:28.683964+00:00"
+  "updated_at": "2026-11-18T21:21:34.149480+00:00"
 }
