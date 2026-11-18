@@ -1779,7 +1779,7 @@
       "last_plan": {
         "source_id": "33013175",
         "display_name": "Braveheart 4K CZ titulky",
-        "planned_at": "2026-11-18T22:26:02.906600+00:00"
+        "planned_at": "2026-11-18T22:56:12.837438+00:00"
       },
       "previous_target_id": "30597835",
       "prepared": {
@@ -1787,6 +1787,12 @@
         "size_bytes": 35700000000,
         "prepared_at": "2026-10-28T23:45:04.154960+00:00",
         "relay_source_id": "33013175"
+      },
+      "claim": {
+        "worker_id": "7afed390df3d444a99e928e1e5c06294-shard-0",
+        "claimed_at": "2026-11-18T22:56:13.290662+00:00",
+        "lease_expires_at": "2026-11-19T04:56:13.290662+00:00",
+        "run_id": "44406951430"
       }
     },
     "125": {
@@ -22850,13 +22856,6 @@
           "source_id": "26365359",
           "target_video_id": "30988430",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:15:03.139764+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26365359",
-          "target_video_id": "30988430",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:45:36.307171+00:00"
         },
         {
@@ -22865,6 +22864,13 @@
           "target_video_id": "30988430",
           "permanent": false,
           "attempted_at": "2026-11-18T22:26:01.738302+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26365359",
+          "target_video_id": "30988430",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:56:14.070958+00:00"
         }
       ],
       "last_plan": {
@@ -100845,5 +100851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:56:09.214622+00:00"
+  "updated_at": "2026-11-18T22:56:14.070977+00:00"
 }
