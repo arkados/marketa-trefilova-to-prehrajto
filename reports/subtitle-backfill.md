@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:21:07.440488+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:21:22.583400+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 526, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 175, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 526, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 174, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -194,7 +194,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [The Age of Disclosure 4K CZ Titulky](https://prehraj.to/the-age-of-disclosure-4k-cz-titulky-mkv/99536dd7686279ac) (ID 31022883) | [Sdílej 32453965](https://sdilej.cz/32453965/the.age.of.disclosure.2025.2160p.4k.web.x265.10bit.aac5.1-yts.lt-.mkv) | target_unavailable | 2026-11-14T02:49:17.414841+00:00 |
 | [The Bad Guys 4K CZ Titulky](https://prehraj.to/the-bad-guys-4k-cz-titulky-mkv/bc2de6364176dbeb) (ID 31007205) | [Sdílej 21710230](https://sdilej.cz/21710230/-gemberx-the-bad-guys-2022-2160p-anj-cz-titulky.mkv) | target_unavailable | 2026-11-12T23:41:53.131963+00:00 |
 | [The Blue Star Hotel (Hotel Modrá Hvězda) 1080p CZ Titulky](https://prehraj.to/the-blue-star-hotel-hotel-modra-hvezda-1080p-cz-titulky-mkv/06c354de780cbd4b) (ID 31021806) | [Sdílej 29780275](https://sdilej.cz/29780275/hotel-modra-hvezda-1941-x265-1080-.mkv) | target_unavailable | 2026-11-14T00:29:03.642831+00:00 |
-| [The Blue Trail (O Último Azul) 1080p CZ Titulky](https://prehraj.to/the-blue-trail-o-ultimo-azul-1080p-cz-titulky-mkv/5344564bd1401e11) (ID 30996874) | [Sdílej 32938361](https://sdilej.cz/32938361/modrou-stezkou-2025-sci-fi-drama-fantasy-cztit-fhd.mkv) | target_unavailable | 2026-11-12T02:12:09.271724+00:00 |
 | [The Book of Eli 1080p CZ Titulky](https://prehraj.to/the-book-of-eli-1080p-cz-titulky-mkv/dddbbcabc8d8f9e5) (ID 31078813) | [Sdílej 18629616](https://sdilej.cz/18629616/kniha-preziti-2010-cz-en-sp.mkv) | target_unavailable | 2026-11-16T01:25:39.653413+00:00 |
 | [The Charterhouse of Parma (La Chartreuse de Parme) 1080p CZ Titulky](https://prehraj.to/the-charterhouse-of-parma-la-chartreuse-de-parme-1080p-cz-titulky-mkv/52b1dea585ce6f92) (ID 31018372) | [Sdílej 24337653](https://sdilej.cz/24337653/veznice-parmska-la-chartreuse-de-parme-1948-fr.cz.mkv) | target_unavailable | 2026-11-13T20:05:24.454966+00:00 |
 | [The Disappearance of Josef Mengele (Das Verschwinden des Josef Mengele) 1080p CZ Titulky](https://prehraj.to/the-disappearance-of-josef-mengele-das-verschwinden-des-josef-mengele-1080p-cz-titulky-mkv/d1ab6bd16b47c091) (ID 31030581) | [Sdílej 34039821](https://sdilej.cz/34039821/zmizeni-josefa-menegeleho-das-verschwinden-des-josef-mengele-2025-cz-titulky.mkv) | target_unavailable | 2026-11-14T13:44:39.139758+00:00 |
