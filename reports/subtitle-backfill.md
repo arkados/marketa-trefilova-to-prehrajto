@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:20:31.415092+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:20:38.355336+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 521, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 180, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 522, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 179, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -123,7 +123,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [Icahn: The Restless Billionaire 1080p CZ Titulky](https://prehraj.to/icahn-the-restless-billionaire-1080p-cz-titulky-mkv/cc800dc5fe12cc55) (ID 31024287) | [Sdílej 32831706](https://sdilej.cz/32831706/icahn.the.restless.billionaire.2022.1080p.web.h264-cz-tit.mkv) | target_unavailable | 2026-11-14T05:40:52.471648+00:00 |
 | [Ice Age: Dawn of the Dinosaurs 1080p CZ Titulky](https://prehraj.to/ice-age-dawn-of-the-dinosaurs-1080p-cz-titulky-mkv/382fe0f08e6b9133) (ID 31001947) | [Sdílej 19665397](https://sdilej.cz/19665397/doba-ledova-3-usvit-dinosauru-1080p-5.1cz-5.1dts-en-2009-stbr-.mkv) | target_unavailable | 2026-11-12T12:07:21.355399+00:00 |
 | [In the Line of Duty (Royal Warriors) 1080p CZ Titulky](https://prehraj.to/in-the-line-of-duty-royal-warriors-1080p-cz-titulky-mkv/3324189baf276c8d) (ID 30999591) | [Sdílej 32876443](https://sdilej.cz/32876443/red-force-1986-akcni-hongkong-czdab-bluray.1080p.mkv) | target_unavailable | 2026-11-12T06:53:58.367956+00:00 |
-| [In the Shadows (Ve stínu) 1080p CZ Titulky](https://prehraj.to/in-the-shadows-ve-stinu-1080p-cz-titulky-mkv/09197a5fd4c0c217) (ID 30994567) | [Sdílej 18714751](https://sdilej.cz/18714751/ve.stinu.2012.1080p.mkv) | target_unavailable | 2026-11-11T22:08:09.720462+00:00 |
 | [Inside the Mind of a Cat 720p CZ Titulky](https://prehraj.to/inside-the-mind-of-a-cat-720p-cz-titulky-mkv/aaf375a971796bb3) (ID 31018003) | [Sdílej 22592958](https://sdilej.cz/22592958/inside.the.mind.of.a.cat.2022.720p.nf.web-dl.ddp5.1.h.264-smurf-cz-titulky.mkv) | target_unavailable | 2026-11-13T19:15:25.528491+00:00 |
 | [Iron Man 2 1080p CZ Titulky](https://prehraj.to/iron-man-2-1080p-cz-titulky-mkv/a7aa04a1c5e5391b) (ID 31000126) | [Sdílej 24604994](https://sdilej.cz/24604994/05-marvel-iron-man-2-2010-cz.mkv) | target_unavailable | 2026-11-12T08:04:11.134895+00:00 |
 | [It Follows 1080p CZ Titulky](https://prehraj.to/it-follows-1080p-cz-titulky-mkv/ec36d096c40b5d95) (ID 31082032) | [Sdílej 35213743](https://sdilej.cz/35213743/it-follows-2014-.mkv) | target_unavailable | 2026-11-16T03:56:39.315934+00:00 |
