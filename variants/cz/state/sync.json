@@ -175980,17 +175980,19 @@
       }
     },
     "23700": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28654737",
+          "target_video_id": "31158105",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:14:46.648319+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28654737",
         "display_name": "Everyone Says I Love You 1080p CZ Dabing",
         "planned_at": "2026-11-18T19:10:10.721138+00:00"
-      },
-      "claim": {
-        "worker_id": "3f53cf35df524104949c451f2242271d-shard-0",
-        "claimed_at": "2026-11-18T19:10:14.208752+00:00",
-        "lease_expires_at": "2026-11-19T01:10:14.208752+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31158105",
       "prepared": {
@@ -222751,5 +222753,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:14:42.852758+00:00"
+  "updated_at": "2026-11-18T19:14:46.648333+00:00"
 }
