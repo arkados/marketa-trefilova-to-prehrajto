@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:40:59.383942+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:41:08.884186+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -219,7 +219,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [The Duke 1080p CZ Titulky](https://prehraj.to/the-duke-1080p-cz-titulky-mkv/5a064bbcad6030c1) (ID 31014248) | [Sdílej 18856807](https://sdilej.cz/18856807/the.duke.1080p.web-dl.dd5.1.h.264-titulky-cz.mkv) | target_unavailable | 2026-11-13T15:33:25.013573+00:00 |
 | [The Fall Guy 1440p CZ Titulky](https://prehraj.to/the-fall-guy-1440p-cz-titulky-mkv/dac3cf1c63d5378e) (ID 31083790) | [Sdílej 29045511](https://sdilej.cz/29045511/kaskader-the-fall-guy-2024-cz-titulky-2160p.mkv) | target_unavailable | 2026-11-16T05:27:16.995499+00:00 |
 | [The Fantastic Four: First Steps (The Fantastic 4: First Steps) 4K CZ Titulky](https://prehraj.to/the-fantastic-four-first-steps-the-fantastic-4-first-steps-4k-cz-titulky-mkv/24beaf75ce8e1241) (ID 31082827) | [Sdílej 31912446](https://sdilej.cz/31912446/the-fantastic-four-first-steps-2025-cz-titulky-dd-e-ac3-5.1-en-2160p-hevc.mkv) | target_unavailable | 2026-11-16T04:36:59.840815+00:00 |
-| [The Fighter 1080p CZ Titulky](https://prehraj.to/the-fighter-1080p-cz-titulky-mkv/d534f89e529377c9) (ID 30705917) | [Sdílej 34732235](https://sdilej.cz/34732235/the-fighter-2010-bdrip-1080p-cz-en.mkv) | upload_unconfirmed | 2026-11-10T09:40:00.989392+00:00 |
+| [The Fighter 1080p CZ Titulky](https://prehraj.to/the-fighter-1080p-cz-titulky-mkv/d534f89e529377c9) (ID 30705917) | [Sdílej 34732235](https://sdilej.cz/34732235/the-fighter-2010-bdrip-1080p-cz-en.mkv) | upload_unconfirmed | 2026-11-18T12:41:08.877507+00:00 |
 | [The Fourth Phase 1080p CZ Titulky](https://prehraj.to/the-fourth-phase-1080p-cz-titulky-mkv/4d5e4c7ddc78724a) (ID 31017820) | [Sdílej 6841800](https://sdilej.cz/6841800/ctvrta-faze-the-fourth-phase-2016-titulky.cz-1080p.mkv) | target_unavailable | 2026-11-13T18:54:00.404555+00:00 |
 | [The Gangster, the Cop, the Devil (AgInJeon) 1080p CZ titulky](https://prehraj.to/the-gangster-the-cop-the-devil-1080p-cz-titulky-mkv/5b70f3475e836bb0) (ID 30984719) | [Sdílej 11947495](https://sdilej.cz/11947495/the-gangster-the-cop-the-devil-2019.hd1080p-cz-titulky.mkv) | target_unavailable | 2026-11-10T17:27:27.267012+00:00 |
 | [The Godfather 1080p CZ Titulky](https://prehraj.to/the-godfather-cz-titulky-mp4/5a0860210a302e5d) (ID 30594653) | [Sdílej 32106032](https://sdilej.cz/32106032/kmotr-i-czdab-fullhd-the-godfather-i-krimi-usa-1972-audio-cz-en-tit.-cz-1080p-.mp4) | upload_unconfirmed | 2026-11-10T09:41:00.927061+00:00 |
