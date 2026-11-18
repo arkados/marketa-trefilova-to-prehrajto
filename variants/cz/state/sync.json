@@ -29956,13 +29956,6 @@
           "source_id": "34850732",
           "target_video_id": "30723078",
           "permanent": false,
-          "attempted_at": "2026-11-18T05:56:07.289158+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34850732",
-          "target_video_id": "30723078",
-          "permanent": false,
           "attempted_at": "2026-11-18T07:30:05.157426+00:00"
         },
         {
@@ -29971,6 +29964,13 @@
           "target_video_id": "30723078",
           "permanent": false,
           "attempted_at": "2026-11-18T09:03:48.753941+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34850732",
+          "target_video_id": "30723078",
+          "permanent": false,
+          "attempted_at": "2026-11-18T10:37:26.232788+00:00"
         }
       ],
       "last_plan": {
@@ -56218,7 +56218,7 @@
       "last_plan": {
         "source_id": "32042477",
         "display_name": "The Physician 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:03:47.053229+00:00"
+        "planned_at": "2026-11-18T10:37:24.781149+00:00"
       },
       "previous_target_id": "30784526",
       "prepared": {
@@ -56226,6 +56226,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-04T11:23:58.909175+00:00",
         "relay_source_id": "32042477"
+      },
+      "claim": {
+        "worker_id": "304310702b4f4cfdb7375b7c4cceba0c-shard-0",
+        "claimed_at": "2026-11-18T10:37:25.623861+00:00",
+        "lease_expires_at": "2026-11-18T16:37:25.623861+00:00",
+        "run_id": "44276193396"
       }
     },
     "24818": {
@@ -173719,7 +173725,7 @@
       "last_plan": {
         "source_id": "17573707",
         "display_name": "The Last Letter from Your Lover 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:37:20.893485+00:00"
+        "planned_at": "2026-11-18T10:37:25.090498+00:00"
       }
     },
     "13848": {
@@ -220870,5 +220876,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T10:37:21.143826+00:00"
+  "updated_at": "2026-11-18T10:37:26.232804+00:00"
 }
