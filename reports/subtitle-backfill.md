@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:15:24.399784+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:15:35.326735+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 547, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 150, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 548, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 149, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -175,7 +175,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Thanks for Every New Morning (Díky za každé nové ráno) 1080p CZ Titulky](https://prehraj.to/thanks-for-every-new-morning-diky-za-kazde-nove-rano-1080p-cz-titulky-mkv/f7fc3cff453730b5) (ID 31046004) | [Sdílej 32018336](https://sdilej.cz/32018336/diky-za-kazde-nove-rano-1994-komedie-cz-ivana-chylkova-fhd.mkv) | target_unavailable | 2026-11-15T02:37:00.384225+00:00 |
 | [The 33 720p CZ titulky](https://prehraj.to/the-33-720p-cz-titulky-mkv/5becb0838f958235) (ID 31009004) | [Sdílej 33551012](https://sdilej.cz/33551012/33-zivotu-2015-cz-dab-720p.mkv) | target_unavailable | 2026-11-13T04:33:24.935057+00:00 |
 | [The Age of Disclosure 4K CZ Titulky](https://prehraj.to/the-age-of-disclosure-4k-cz-titulky-mkv/99536dd7686279ac) (ID 31022883) | [Sdílej 32453965](https://sdilej.cz/32453965/the.age.of.disclosure.2025.2160p.4k.web.x265.10bit.aac5.1-yts.lt-.mkv) | target_unavailable | 2026-11-14T02:49:17.414841+00:00 |
-| [The Bad Guys 4K CZ Titulky](https://prehraj.to/the-bad-guys-4k-cz-titulky-mkv/bc2de6364176dbeb) (ID 31007205) | [Sdílej 21710230](https://sdilej.cz/21710230/-gemberx-the-bad-guys-2022-2160p-anj-cz-titulky.mkv) | target_unavailable | 2026-11-12T23:41:53.131963+00:00 |
 | [The Blue Star Hotel (Hotel Modrá Hvězda) 1080p CZ Titulky](https://prehraj.to/the-blue-star-hotel-hotel-modra-hvezda-1080p-cz-titulky-mkv/06c354de780cbd4b) (ID 31021806) | [Sdílej 29780275](https://sdilej.cz/29780275/hotel-modra-hvezda-1941-x265-1080-.mkv) | target_unavailable | 2026-11-14T00:29:03.642831+00:00 |
 | [The Book of Eli 1080p CZ Titulky](https://prehraj.to/the-book-of-eli-1080p-cz-titulky-mkv/dddbbcabc8d8f9e5) (ID 31078813) | [Sdílej 18629616](https://sdilej.cz/18629616/kniha-preziti-2010-cz-en-sp.mkv) | target_unavailable | 2026-11-16T01:25:39.653413+00:00 |
 | [The Charterhouse of Parma (La Chartreuse de Parme) 1080p CZ Titulky](https://prehraj.to/the-charterhouse-of-parma-la-chartreuse-de-parme-1080p-cz-titulky-mkv/52b1dea585ce6f92) (ID 31018372) | [Sdílej 24337653](https://sdilej.cz/24337653/veznice-parmska-la-chartreuse-de-parme-1948-fr.cz.mkv) | target_unavailable | 2026-11-13T20:05:24.454966+00:00 |
