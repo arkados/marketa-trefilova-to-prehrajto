@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:01:04.812952+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:01:10.895122+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -236,7 +236,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 166. Dův
 | [The Seven Year Itch 1080p CZ titulky](https://prehraj.to/the-seven-year-itch-1080p-cz-titulky-mkv/b29d39d2b9b4ca46) (ID 30983632) | [Sdílej 6563156](https://sdilej.cz/6563156/slameny-vdovec-the-seven-year-itch-1955-cz-1080phd-.mkv) | target_unavailable | 2026-11-18T13:00:46.309365+00:00 |
 | [The Swedish Connection (Den svenska länken) 1080p CZ Titulky](https://prehraj.to/the-swedish-connection-den-svenska-laenken-1080p-cz-titulky-mkv/e1e5d6aed8007610) (ID 31021651) | [Sdílej 33292727](https://sdilej.cz/33292727/den-svenska-lanken-2026-1080p-cz.tit.mkv) | target_unavailable | 2026-11-13T23:58:57.489099+00:00 |
 | [The Thing About Harry SD CZ Titulky](https://prehraj.to/the-thing-about-harry-sd-cz-titulky-mkv/d41d4049afba56ae) (ID 31019472) | [Sdílej 13528951](https://sdilej.cz/13528951/the-thing-about-harry-2020-cz.tit.mkv) | target_unavailable | 2026-11-13T21:55:53.842391+00:00 |
-| [The Thing from Another World SD CZ titulky](https://prehraj.to/the-thing-from-another-world-sd-cz-titulky-mkv/8b211c1b291dfc65) (ID 30984580) | [Sdílej 13368212](https://sdilej.cz/13368212/vec-the-thing-from-another-world-1951--cz-tit.-.mkv) | target_unavailable | 2026-11-10T16:57:15.224704+00:00 |
+| [The Thing from Another World SD CZ titulky](https://prehraj.to/the-thing-from-another-world-sd-cz-titulky-mkv/8b211c1b291dfc65) (ID 30984580) | [Sdílej 13368212](https://sdilej.cz/13368212/vec-the-thing-from-another-world-1951--cz-tit.-.mkv) | target_unavailable | 2026-11-18T13:01:08.699822+00:00 |
 | [The Thomas Crown Affair (1968) 1080p CZ Titulky](https://prehraj.to/the-thomas-crown-affair-1968-1080p-cz-titulky-mkv/7dcf635b5f2ebdf8) (ID 31010662) | [Sdílej 11447322](https://sdilej.cz/11447322/pripad-thomase-crowna-the-thomas-crown-affair-1968-czen-1080phd-.mkv) | target_unavailable | 2026-11-13T08:37:43.571358+00:00 |
 | [The Trip (I onde dager) (2021) 1080p CZ Titulky](https://prehraj.to/the-trip-i-onde-dager-2021-1080p-cz-titulky-mkv/82caf92e9a18400b) (ID 31011633) | [Sdílej 18710569](https://sdilej.cz/18710569/cesta-za-smirenim-2021-5.1-nor-cz-titulky.mkv) | target_unavailable | 2026-11-13T10:31:52.143680+00:00 |
 | [The Wolf's Call (Le Chant du loup) 1080p CZ Titulky](https://prehraj.to/the-wolf-s-call-le-chant-du-loup-1080p-cz-titulky-mkv/4a83a17b66ed5b42) (ID 31012805) | [Sdílej 11904731](https://sdilej.cz/11904731/le.chant.du.loup.2019.sk.sub.1080p.web.h264.mkv) | target_unavailable | 2026-11-13T13:22:35.025391+00:00 |
