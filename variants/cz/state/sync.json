@@ -128575,6 +128575,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "7a0facf4f6e941f9943d9313eefa41b6-shard-0",
+        "claimed_at": "2026-11-18T20:33:07.363866+00:00",
+        "lease_expires_at": "2026-11-19T02:33:07.363866+00:00",
+        "run_id": "44366936972"
       }
     },
     "32719": {
@@ -140963,13 +140969,6 @@
           "source_id": "32763044",
           "target_video_id": "30988157",
           "permanent": false,
-          "attempted_at": "2026-11-18T15:53:49.757530+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32763044",
-          "target_video_id": "30988157",
-          "permanent": false,
           "attempted_at": "2026-11-18T17:27:10.525937+00:00"
         },
         {
@@ -140978,12 +140977,19 @@
           "target_video_id": "30988157",
           "permanent": false,
           "attempted_at": "2026-11-18T18:59:58.758030+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32763044",
+          "target_video_id": "30988157",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:33:11.489571+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-18T18:59:52.987665+00:00"
+        "planned_at": "2026-11-18T20:33:07.650345+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -176269,7 +176275,7 @@
       "last_plan": {
         "source_id": "35056987",
         "display_name": "Small Time Crooks 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:33:03.930659+00:00"
+        "planned_at": "2026-11-18T20:33:08.108197+00:00"
       }
     },
     "27547": {
@@ -222991,5 +222997,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:33:04.495733+00:00"
+  "updated_at": "2026-11-18T20:33:11.489588+00:00"
 }
