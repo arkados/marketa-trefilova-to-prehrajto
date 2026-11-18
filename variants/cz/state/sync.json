@@ -131251,13 +131251,6 @@
           "source_id": "34714070",
           "target_video_id": "30986970",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:39:14.447743+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714070",
-          "target_video_id": "30986970",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:16:25.430165+00:00"
         },
         {
@@ -131266,6 +131259,13 @@
           "target_video_id": "30986970",
           "permanent": false,
           "attempted_at": "2026-11-18T19:47:20.843829+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714070",
+          "target_video_id": "30986970",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:19:20.358458+00:00"
         }
       ],
       "last_plan": {
@@ -141883,7 +141883,7 @@
       "last_plan": {
         "source_id": "30436273",
         "display_name": "Musíme se sejít SD CZ Dabing",
-        "planned_at": "2026-11-18T19:47:23.697571+00:00"
+        "planned_at": "2026-11-18T21:19:18.750782+00:00"
       },
       "previous_target_id": "30988335",
       "prepared": {
@@ -141891,6 +141891,12 @@
         "size_bytes": 803900000,
         "prepared_at": "2026-11-11T08:12:00.885093+00:00",
         "relay_source_id": "30436273"
+      },
+      "claim": {
+        "worker_id": "38a1f8608d364c2e8a55ae320152865c-shard-0",
+        "claimed_at": "2026-11-18T21:19:19.652215+00:00",
+        "lease_expires_at": "2026-11-19T03:19:19.652215+00:00",
+        "run_id": "44366936972"
       }
     },
     "12705": {
@@ -176554,7 +176560,7 @@
       "last_plan": {
         "source_id": "10537299",
         "display_name": "Apt Pupil SD CZ Dabing",
-        "planned_at": "2026-11-18T21:19:15.610707+00:00"
+        "planned_at": "2026-11-18T21:19:19.072482+00:00"
       }
     },
     "3315": {
@@ -223234,5 +223240,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:19:15.955556+00:00"
+  "updated_at": "2026-11-18T21:19:20.358476+00:00"
 }
