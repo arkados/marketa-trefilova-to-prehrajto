@@ -108703,13 +108703,6 @@
           "source_id": "34679606",
           "target_video_id": "30983578",
           "permanent": false,
-          "attempted_at": "2026-11-18T06:25:34.345686+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34679606",
-          "target_video_id": "30983578",
-          "permanent": false,
           "attempted_at": "2026-11-18T07:59:59.832569+00:00"
         },
         {
@@ -108718,6 +108711,13 @@
           "target_video_id": "30983578",
           "permanent": false,
           "attempted_at": "2026-11-18T09:42:31.992203+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34679606",
+          "target_video_id": "30983578",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:08:43.454797+00:00"
         }
       ],
       "last_plan": {
@@ -111307,7 +111307,7 @@
       "last_plan": {
         "source_id": "34877008",
         "display_name": "The Slinger (Práče) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:42:30.463490+00:00"
+        "planned_at": "2026-11-18T11:08:41.694969+00:00"
       },
       "previous_target_id": "30983790",
       "prepared": {
@@ -111315,6 +111315,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T14:48:35.963240+00:00",
         "relay_source_id": "34877008"
+      },
+      "claim": {
+        "worker_id": "f0b68057dd4c4029b1d9b0af8cc4da6d-shard-0",
+        "claimed_at": "2026-11-18T11:08:42.715437+00:00",
+        "lease_expires_at": "2026-11-18T17:08:42.715437+00:00",
+        "run_id": "44276193396"
       }
     },
     "24061": {
@@ -173836,7 +173842,7 @@
       "last_plan": {
         "source_id": "32276905",
         "display_name": "Havel 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:08:38.491250+00:00"
+        "planned_at": "2026-11-18T11:08:42.178874+00:00"
       }
     },
     "21727": {
@@ -220963,5 +220969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:08:38.908007+00:00"
+  "updated_at": "2026-11-18T11:08:43.454816+00:00"
 }
