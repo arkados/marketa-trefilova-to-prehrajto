@@ -114705,13 +114705,6 @@
           "source_id": "28048905",
           "target_video_id": "30984162",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:09:58.235034+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28048905",
-          "target_video_id": "30984162",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:35:38.967642+00:00"
         },
         {
@@ -114720,6 +114713,13 @@
           "target_video_id": "30984162",
           "permanent": false,
           "attempted_at": "2026-11-18T04:03:04.846195+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28048905",
+          "target_video_id": "30984162",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:11:26.671523+00:00"
         }
       ],
       "last_plan": {
@@ -141422,7 +141422,7 @@
       "last_plan": {
         "source_id": "29201504",
         "display_name": "Průlom SD CZ Dabing",
-        "planned_at": "2026-11-18T04:03:03.318054+00:00"
+        "planned_at": "2026-11-18T06:11:24.995270+00:00"
       },
       "previous_target_id": "30988227",
       "prepared": {
@@ -141430,6 +141430,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T07:54:44.217051+00:00",
         "relay_source_id": "29201504"
+      },
+      "claim": {
+        "worker_id": "4d1d73df545b49a69323cb503d18be7e-shard-0",
+        "claimed_at": "2026-11-18T06:11:26.069959+00:00",
+        "lease_expires_at": "2026-11-18T12:11:26.069959+00:00",
+        "run_id": "44237121625"
       }
     },
     "15578": {
@@ -173187,7 +173193,7 @@
       "last_plan": {
         "source_id": "27104173",
         "display_name": "Miss Hanoi 1080p CZ Dabing",
-        "planned_at": "2026-11-18T06:11:21.876916+00:00"
+        "planned_at": "2026-11-18T06:11:25.361135+00:00"
       }
     },
     "3330": {
@@ -220395,5 +220401,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:11:22.178978+00:00"
+  "updated_at": "2026-11-18T06:11:26.671545+00:00"
 }
