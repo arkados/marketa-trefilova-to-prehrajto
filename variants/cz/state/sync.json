@@ -139895,13 +139895,6 @@
           "source_id": "15665884",
           "target_video_id": "30988003",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:34:55.873742+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15665884",
-          "target_video_id": "30988003",
-          "permanent": false,
           "attempted_at": "2026-11-18T03:01:32.975535+00:00"
         },
         {
@@ -139910,6 +139903,13 @@
           "target_video_id": "30988003",
           "permanent": false,
           "attempted_at": "2026-11-18T04:28:36.165412+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15665884",
+          "target_video_id": "30988003",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:38:03.548512+00:00"
         }
       ],
       "last_plan": {
@@ -155153,7 +155153,7 @@
       "last_plan": {
         "source_id": "31963280",
         "display_name": "Terezín (Le Terme di Terezín) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T04:28:38.772195+00:00"
+        "planned_at": "2026-11-18T06:38:01.570556+00:00"
       },
       "previous_target_id": "31052044",
       "prepared": {
@@ -155161,6 +155161,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-15T07:16:11.092952+00:00",
         "relay_source_id": "31963280"
+      },
+      "claim": {
+        "worker_id": "dfce98e8b18e438f8684cc9235e28ed5-shard-0",
+        "claimed_at": "2026-11-18T06:38:02.861761+00:00",
+        "lease_expires_at": "2026-11-18T12:38:02.861761+00:00",
+        "run_id": "44237121625"
       }
     },
     "12345": {
@@ -173270,7 +173276,7 @@
       "last_plan": {
         "source_id": "12280092",
         "display_name": "Teen Titans Go! To the Movies 1080p CZ Dabing",
-        "planned_at": "2026-11-18T06:37:57.764860+00:00"
+        "planned_at": "2026-11-18T06:38:02.093081+00:00"
       }
     },
     "30071": {
@@ -220469,5 +220475,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:37:58.173410+00:00"
+  "updated_at": "2026-11-18T06:38:03.548537+00:00"
 }
