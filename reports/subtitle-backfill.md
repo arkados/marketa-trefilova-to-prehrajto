@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:41:43.433085+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:41:48.689597+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -84,7 +84,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Blue Jasmine 1080p CZ Titulky](https://prehraj.to/blue-jasmine-1080p-cz-titulky-mp4/128065231f04a621) (ID 30790802) | [Sdílej 22631501](https://sdilej.cz/22631501/jasmininy-slzy-1080p-hd-.mp4) | upload_unconfirmed | 2026-11-18T12:41:18.817577+00:00 |
 | [Bones and All 1080p CZ titulky](https://prehraj.to/bones-and-all-1080p-cz-titulky-mkv/17296e4677218474) (ID 31093982) | [Sdílej 24332922](https://sdilej.cz/24332922/bones-and-all-1080p-2022-vlozene-cz-titulky-malasorte.mkv) | target_unavailable | 2026-11-16T16:15:02.803144+00:00 |
 | [Border (Gräns) 1080p CZ titulky](https://prehraj.to/border-graens-1080p-cz-titulky-mkv/d88637eb60db39ce) (ID 30984466) | [Sdílej 11267704](https://sdilej.cz/11267704/apvral-border.1080p-1-.mkv) | target_unavailable | 2026-11-10T16:37:10.499800+00:00 |
-| [Braveheart 4K CZ titulky](https://prehraj.to/braveheart-cz-titulky-mkv/10f7acffe0116d49) (ID 30597835) | [Sdílej 33013175](https://sdilej.cz/33013175/braveheart-1995-2160p-en-truehd-radecek.mkv) | target_unavailable | 2026-11-10T09:40:35.834184+00:00 |
+| [Braveheart 4K CZ titulky](https://prehraj.to/braveheart-cz-titulky-mkv/10f7acffe0116d49) (ID 30597835) | [Sdílej 33013175](https://sdilej.cz/33013175/braveheart-1995-2160p-en-truehd-radecek.mkv) | target_unavailable | 2026-11-18T12:41:47.723059+00:00 |
 | [Breathing (Atmen) 1080p CZ Titulky](https://prehraj.to/breathing-atmen-1080p-cz-titulky-mkv/8b7d1e0c0a2a43f5) (ID 30998606) | [Sdílej 32749057](https://sdilej.cz/32749057/atmen-breathing-dychat-2011-bdremux-1080p.mkv) | target_unavailable | 2026-11-12T04:42:31.716555+00:00 |
 | [Bridesmaids 1080p CZ Titulky](https://prehraj.to/bridesmaids-1080p-cz-titulky-mkv/2f192b692bfe9798) (ID 31081337) | [Sdílej 35402056](https://sdilej.cz/35402056/bridesmaids.2011.extended.1080p.bluray.h264.aac-rarbg.cz.sub.mkv) | target_unavailable | 2026-11-16T03:25:49.954361+00:00 |
 | [Buko 1080p CZ Titulky](https://prehraj.to/buko-1080p-cz-titulky-mkv/51db92178e47233d) (ID 31070846) | [Sdílej 29318297](https://sdilej.cz/29318297/buko-2022.mkv) | target_unavailable | 2026-11-15T18:32:11.006216+00:00 |
