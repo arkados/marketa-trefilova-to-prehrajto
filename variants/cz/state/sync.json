@@ -129404,13 +129404,6 @@
           "source_id": "19283864",
           "target_video_id": "30986759",
           "permanent": false,
-          "attempted_at": "2026-11-18T18:41:24.667635+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19283864",
-          "target_video_id": "30986759",
-          "permanent": false,
           "attempted_at": "2026-11-18T20:18:20.726595+00:00"
         },
         {
@@ -129419,6 +129412,13 @@
           "target_video_id": "30986759",
           "permanent": false,
           "attempted_at": "2026-11-18T21:49:49.398487+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19283864",
+          "target_video_id": "30986759",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:33:28.201590+00:00"
         }
       ],
       "last_plan": {
@@ -174350,7 +174350,7 @@
       "last_plan": {
         "source_id": "11570978",
         "display_name": "The Disappearance of Alice Creed 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:49:50.066557+00:00"
+        "planned_at": "2026-11-18T23:33:26.407692+00:00"
       },
       "previous_target_id": "31153745",
       "prepared": {
@@ -174358,6 +174358,12 @@
         "size_bytes": 20100000000,
         "prepared_at": "2026-11-18T14:50:57.756452+00:00",
         "relay_source_id": "11570978"
+      },
+      "claim": {
+        "worker_id": "7991dc594e8946119e85211a053fd18d-shard-0",
+        "claimed_at": "2026-11-18T23:33:27.349415+00:00",
+        "lease_expires_at": "2026-11-19T05:33:27.349415+00:00",
+        "run_id": "44406951430"
       }
     },
     "24746": {
@@ -177248,6 +177254,12 @@
         "source_id": "33419215",
         "display_name": "Nothing to Lose (1997) 1080p CZ Dabing",
         "planned_at": "2026-11-18T23:33:21.932717+00:00"
+      },
+      "claim": {
+        "worker_id": "30bd5bbf561b414f9d8949ffb64be9f2-shard-0",
+        "claimed_at": "2026-11-18T23:33:26.180070+00:00",
+        "lease_expires_at": "2026-11-19T05:33:26.180070+00:00",
+        "run_id": "44406951430"
       }
     },
     "3383": {
@@ -177255,7 +177267,7 @@
       "last_plan": {
         "source_id": "12015153",
         "display_name": "The Old Man & the Gun 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:33:22.374619+00:00"
+        "planned_at": "2026-11-18T23:33:26.715586+00:00"
       }
     },
     "35160": {
@@ -223821,5 +223833,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:33:22.374637+00:00"
+  "updated_at": "2026-11-18T23:33:28.201610+00:00"
 }
