@@ -115878,6 +115878,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:11:13.361205+00:00",
         "relay_source_id": "34380174"
+      },
+      "claim": {
+        "worker_id": "03fc7a99998847448ebb712b133d2b18-shard-0",
+        "claimed_at": "2026-11-18T05:42:27.639848+00:00",
+        "lease_expires_at": "2026-11-18T11:42:27.639848+00:00",
+        "run_id": "44237121625"
       }
     },
     "2822": {
@@ -117551,13 +117557,6 @@
           "source_id": "32925646",
           "target_video_id": "30984789",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:31:45.576569+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32925646",
-          "target_video_id": "30984789",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:09:57.597093+00:00"
         },
         {
@@ -117566,6 +117565,13 @@
           "target_video_id": "30984789",
           "permanent": false,
           "attempted_at": "2026-11-18T03:36:41.415034+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32925646",
+          "target_video_id": "30984789",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:42:28.510586+00:00"
         }
       ],
       "last_plan": {
@@ -117579,12 +117585,6 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T17:40:13.908414+00:00",
         "relay_source_id": "32925646"
-      },
-      "claim": {
-        "worker_id": "59452a66099944e887d375269f45ef4c-shard-0",
-        "claimed_at": "2026-11-18T05:42:24.469008+00:00",
-        "lease_expires_at": "2026-11-18T11:42:24.469008+00:00",
-        "run_id": "44237121625"
       }
     },
     "2881": {
@@ -166362,7 +166362,7 @@
       "last_plan": {
         "source_id": "30167948",
         "display_name": "The Burned Barns 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:36:45.542729+00:00"
+        "planned_at": "2026-11-18T05:42:27.892641+00:00"
       },
       "previous_target_id": "31111068",
       "prepared": {
@@ -220270,7 +220270,7 @@
       "last_plan": {
         "source_id": "34695402",
         "display_name": "The Duchess of Cancun 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:42:25.068536+00:00"
+        "planned_at": "2026-11-18T05:42:28.231970+00:00"
       }
     },
     "37449": {
@@ -220305,5 +220305,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:42:25.068557+00:00"
+  "updated_at": "2026-11-18T05:42:28.510609+00:00"
 }
