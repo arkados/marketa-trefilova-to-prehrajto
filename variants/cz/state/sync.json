@@ -138534,13 +138534,6 @@
           "source_id": "34661718",
           "target_video_id": "30987874",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:38:26.212396+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34661718",
-          "target_video_id": "30987874",
-          "permanent": false,
           "attempted_at": "2026-11-18T13:08:11.950128+00:00"
         },
         {
@@ -138549,12 +138542,19 @@
           "target_video_id": "30987874",
           "permanent": false,
           "attempted_at": "2026-11-18T15:29:18.248292+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34661718",
+          "target_video_id": "30987874",
+          "permanent": false,
+          "attempted_at": "2026-11-18T17:01:09.567464+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34661718",
         "display_name": "Rukavička 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:29:12.658625+00:00"
+        "planned_at": "2026-11-18T17:01:06.201085+00:00"
       },
       "previous_target_id": "30987874",
       "prepared": {
@@ -175014,7 +175014,13 @@
       "last_plan": {
         "source_id": "26244786",
         "display_name": "Big Nothing 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:00:59.813535+00:00"
+        "planned_at": "2026-11-18T17:01:06.639428+00:00"
+      },
+      "claim": {
+        "worker_id": "b0e1b190310940b8b49011c075e67b7d-shard-0",
+        "claimed_at": "2026-11-18T17:01:07.933026+00:00",
+        "lease_expires_at": "2026-11-18T23:01:07.933026+00:00",
+        "run_id": "44319849691"
       }
     },
     "19464": {
@@ -175027,7 +175033,12 @@
       "attempts": []
     },
     "27676": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33810671",
+        "display_name": "Kitty Mama 1080p CZ Dabing",
+        "planned_at": "2026-11-18T17:01:06.918543+00:00"
+      }
     },
     "21169": {
       "attempts": []
@@ -221919,5 +221930,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:01:03.541984+00:00"
+  "updated_at": "2026-11-18T17:01:09.567483+00:00"
 }
