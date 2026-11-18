@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:02:07.774014+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:02:13.294047+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 510, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 1, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 190, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 510, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 191, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -227,6 +227,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 166. Dův
 | [The Lord of the Rings: The Return of the King 1080p CZ Titulky](https://prehraj.to/the-lord-of-the-rings-the-return-of-the-king-1080p-cz-titulky-mkv/ce0a30cc0395a983) (ID 30675719) | [Sdílej 14676847](https://sdilej.cz/14676847/the-lord-of-the-rings-the-return-of-the-king-pan-prstenov-navrat-krala-brip-cz-eng-titulky.mkv) | target_unavailable | 2026-11-18T12:51:57.027963+00:00 |
 | [The Magnificent Seven (2016) 4K CZ Titulky](https://prehraj.to/the-magnificent-seven-2016-4k-cz-titulky-mkv/8e1f67bcb7a081d3) (ID 31003896) | [Sdílej 32905861](https://sdilej.cz/32905861/the-magnificent-seven-sedm-statecnych-2016-2160p-dv-cz-dabing-en-truehd-atmos-radecek.mkv) | target_unavailable | 2026-11-12T15:57:48.753681+00:00 |
 | [The Ministry of Ungentlemanly Warfare 4K CZ Titulky](https://prehraj.to/the-ministry-of-ungentlemanly-warfare-4k-cz-titulky-mkv/61ae345d680615c2) (ID 31087606) | [Sdílej 29086282](https://sdilej.cz/29086282/the-ministry-of-ungentlemanly-warfare-2024-cztit-v-obraze-2160p.mkv) | target_unavailable | 2026-11-16T08:42:04.731439+00:00 |
+| [The Most Dangerous Game 1080p CZ titulky](https://prehraj.to/the-most-dangerous-game-1080p-cz-titulky-mkv/cea26b2b85836981) (ID 30987757) | [Sdílej 27648883](https://sdilej.cz/27648883/nejnebezpecnejsi-hra-1932-.mkv) | target_unavailable | 2026-11-18T13:02:11.908023+00:00 |
 | [The Murderer Hides His Face (Vrah skrývá tvář) 1080p CZ Titulky](https://prehraj.to/the-murderer-hides-his-face-vrah-skryva-tvar-1080p-cz-titulky-mkv/c8d47bac8742e79e) (ID 31026251) | [Sdílej 35079047](https://sdilej.cz/35079047/vrah-skryva-tvar-1966-hd.mkv) | target_unavailable | 2026-11-14T09:43:05.399694+00:00 |
 | [The Night Comes for Us 1080p CZ Titulky](https://prehraj.to/the-night-comes-for-us-1080p-cz-titulky-mkv/1d56fe292b5751a1) (ID 31010102) | [Sdílej 26970393](https://sdilej.cz/26970393/the-night-comes-for-us-2018-cz-sub-indonesian-1080p-nf-webrip-ddp5-1-x264.mkv) | target_unavailable | 2026-11-13T07:17:37.393585+00:00 |
 | [The Night of the 12th (La Nuit du 12) 1080p CZ titulky](https://prehraj.to/the-night-of-the-12th-la-nuit-du-12-1080p-cz-titulky-mkv/63f9f49f4c10fbe7) (ID 30988430) | [Sdílej 26365359](https://sdilej.cz/26365359/la-nuit-du-12-the-night-of-the-12th-2022-sktit-v-obraze-bluray-1080p.mkv) | target_unavailable | 2026-11-11T08:28:18.381991+00:00 |
