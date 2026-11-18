@@ -63776,13 +63776,6 @@
           "source_id": "34095247",
           "target_video_id": "30817480",
           "permanent": false,
-          "attempted_at": "2026-11-18T17:40:49.960363+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34095247",
-          "target_video_id": "30817480",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:14:12.252447+00:00"
         },
         {
@@ -63791,6 +63784,13 @@
           "target_video_id": "30817480",
           "permanent": false,
           "attempted_at": "2026-11-18T20:50:14.268145+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34095247",
+          "target_video_id": "30817480",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:33:17.509844+00:00"
         }
       ],
       "last_plan": {
@@ -134428,7 +134428,7 @@
       "last_plan": {
         "source_id": "25777021",
         "display_name": "Every Million Comes Handy (Každý milion dobrý) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:50:17.328950+00:00"
+        "planned_at": "2026-11-18T22:33:15.351706+00:00"
       },
       "previous_target_id": "30987424",
       "prepared": {
@@ -134436,6 +134436,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:37:43.304180+00:00",
         "relay_source_id": "25777021"
+      },
+      "claim": {
+        "worker_id": "a3bf929a25d04df8bb04cf4849b87b48-shard-0",
+        "claimed_at": "2026-11-18T22:33:16.333287+00:00",
+        "lease_expires_at": "2026-11-19T04:33:16.333287+00:00",
+        "run_id": "44406951430"
       }
     },
     "16650": {
@@ -176934,7 +176940,7 @@
       "last_plan": {
         "source_id": "33776421",
         "display_name": "The Blob 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:33:12.452041+00:00"
+        "planned_at": "2026-11-18T22:33:15.707057+00:00"
       }
     },
     "29454": {
@@ -223548,5 +223554,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:33:12.452060+00:00"
+  "updated_at": "2026-11-18T22:33:17.509863+00:00"
 }
