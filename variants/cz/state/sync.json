@@ -118988,13 +118988,6 @@
           "source_id": "33257690",
           "target_video_id": "30984872",
           "permanent": false,
-          "attempted_at": "2026-11-18T18:09:01.098704+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33257690",
-          "target_video_id": "30984872",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:40:36.521948+00:00"
         },
         {
@@ -119003,12 +118996,19 @@
           "target_video_id": "30984872",
           "permanent": false,
           "attempted_at": "2026-11-18T21:16:51.977985+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33257690",
+          "target_video_id": "30984872",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:00:46.310767+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33257690",
         "display_name": "Ginger Snaps 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:16:45.136204+00:00"
+        "planned_at": "2026-11-18T23:00:43.812687+00:00"
       },
       "previous_target_id": "30984872",
       "prepared": {
@@ -177092,11 +177092,22 @@
       "last_plan": {
         "source_id": "32457155",
         "display_name": "Miracle on 34th Street (1994) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:00:37.147387+00:00"
+        "planned_at": "2026-11-18T23:00:44.145035+00:00"
+      },
+      "claim": {
+        "worker_id": "06b6d41682ed43cba966039935762f7e-shard-0",
+        "claimed_at": "2026-11-18T23:00:45.094403+00:00",
+        "lease_expires_at": "2026-11-19T05:00:45.094403+00:00",
+        "run_id": "44406951430"
       }
     },
     "3395": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11612155",
+        "display_name": "Marrowbone (El secreto de Marrowbone) 1080p CZ Dabing",
+        "planned_at": "2026-11-18T23:00:44.357538+00:00"
+      }
     },
     "24969": {
       "attempts": []
@@ -223685,5 +223696,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:00:40.083623+00:00"
+  "updated_at": "2026-11-18T23:00:46.310791+00:00"
 }
