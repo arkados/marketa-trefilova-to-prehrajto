@@ -22443,13 +22443,6 @@
           "source_id": "34285530",
           "target_video_id": "30986247",
           "permanent": false,
-          "attempted_at": "2026-11-17T22:35:42.238710+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34285530",
-          "target_video_id": "30986247",
-          "permanent": false,
           "attempted_at": "2026-11-17T23:05:46.933521+00:00"
         },
         {
@@ -22458,6 +22451,13 @@
           "target_video_id": "30986247",
           "permanent": false,
           "attempted_at": "2026-11-17T23:35:52.871024+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34285530",
+          "target_video_id": "30986247",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:06:02.358861+00:00"
         }
       ],
       "last_plan": {
@@ -22611,7 +22611,7 @@
       "last_plan": {
         "source_id": "22321220",
         "display_name": "The Roundup (BeomJoeDoSi 2) 1080p CZ titulky",
-        "planned_at": "2026-11-17T23:35:54.605431+00:00"
+        "planned_at": "2026-11-18T00:06:01.514803+00:00"
       },
       "previous_target_id": "30987709",
       "prepared": {
@@ -22619,6 +22619,12 @@
         "size_bytes": 6000000000,
         "prepared_at": "2026-11-11T05:46:05.370254+00:00",
         "relay_source_id": "22321220"
+      },
+      "claim": {
+        "worker_id": "3218bca8db14444abbd51b567c5d22e6-shard-0",
+        "claimed_at": "2026-11-18T00:06:01.989483+00:00",
+        "lease_expires_at": "2026-11-18T06:06:01.989483+00:00",
+        "run_id": "44170464010"
       }
     },
     "21186": {
@@ -100750,5 +100756,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:05:57.926670+00:00"
+  "updated_at": "2026-11-18T00:06:02.358880+00:00"
 }
