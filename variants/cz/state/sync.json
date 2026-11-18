@@ -113651,13 +113651,6 @@
           "source_id": "11995636",
           "target_video_id": "30984056",
           "permanent": false,
-          "attempted_at": "2026-11-18T12:44:38.806183+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11995636",
-          "target_video_id": "30984056",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:05:17.165958+00:00"
         },
         {
@@ -113666,6 +113659,13 @@
           "target_video_id": "30984056",
           "permanent": false,
           "attempted_at": "2026-11-18T16:38:14.310164+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11995636",
+          "target_video_id": "30984056",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:14:33.522826+00:00"
         }
       ],
       "last_plan": {
@@ -132216,7 +132216,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-18T16:38:13.873828+00:00"
+        "planned_at": "2026-11-18T18:14:31.371535+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132224,6 +132224,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "56173731931645c1bb5b6f4a0049f99f-shard-0",
+        "claimed_at": "2026-11-18T18:14:32.448240+00:00",
+        "lease_expires_at": "2026-11-19T00:14:32.448240+00:00",
+        "run_id": "44366936972"
       }
     },
     "27054": {
@@ -175671,7 +175677,13 @@
       "last_plan": {
         "source_id": "30602820",
         "display_name": "Holiday 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:14:27.483614+00:00"
+        "planned_at": "2026-11-18T18:14:31.678110+00:00"
+      },
+      "claim": {
+        "worker_id": "1eb6780371bd4ee7936ddf8e02d782c1-shard-0",
+        "claimed_at": "2026-11-18T18:14:32.728704+00:00",
+        "lease_expires_at": "2026-11-19T00:14:32.728704+00:00",
+        "run_id": "44366936972"
       }
     },
     "23657": {
@@ -175679,7 +175691,7 @@
       "last_plan": {
         "source_id": "32552693",
         "display_name": "A Walk in the Clouds 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:12:21.713364+00:00"
+        "planned_at": "2026-11-18T18:14:31.942954+00:00"
       }
     },
     "14988": {
@@ -222479,5 +222491,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:14:27.893052+00:00"
+  "updated_at": "2026-11-18T18:14:33.522843+00:00"
 }
