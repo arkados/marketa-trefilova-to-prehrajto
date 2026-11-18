@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:51:50.151019+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:51:57.919641+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -228,7 +228,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [The Last Stop in Yuma County 1080p CZ Titulky](https://prehraj.to/the-last-stop-in-yuma-county-1080p-cz-titulky-mkv/cbd03db1f36cc17f) (ID 31012476) | [Sdílej 29064521](https://sdilej.cz/29064521/the-last-stop-in-yuma-county-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-13T12:42:27.360943+00:00 |
 | [The Last Trapper SD CZ Titulky](https://prehraj.to/the-last-trapper-sd-cz-titulky-mkv/6a109cd9e4b3fb34) (ID 31014435) | [Sdílej 35402451](https://sdilej.cz/35402451/the-last-trapper-ac3-5-1-dvdrip-eng-2004.cz.sub.mkv) | target_unavailable | 2026-11-13T15:43:23.074230+00:00 |
 | [The Lord of the Rings: The Fellowship of the Ring 1080p CZ titulky](https://prehraj.to/the-lord-of-the-rings-the-fellowship-of-the-ring-cz-titulky-mkv/cb53362d96bdd8d4) (ID 30582771) | [Sdílej 26227362](https://sdilej.cz/26227362/the-lord-of-the-rings-the-fellowship-of-the-ring-2001-pan-prstenov-spolecenstvo-prstena-brip-cz-eng-titulky.mkv) | target_unavailable | 2026-11-18T12:41:52.617857+00:00 |
-| [The Lord of the Rings: The Return of the King 1080p CZ Titulky](https://prehraj.to/the-lord-of-the-rings-the-return-of-the-king-1080p-cz-titulky-mkv/ce0a30cc0395a983) (ID 30675719) | [Sdílej 14676847](https://sdilej.cz/14676847/the-lord-of-the-rings-the-return-of-the-king-pan-prstenov-navrat-krala-brip-cz-eng-titulky.mkv) | target_unavailable | 2026-11-10T09:50:17.336404+00:00 |
+| [The Lord of the Rings: The Return of the King 1080p CZ Titulky](https://prehraj.to/the-lord-of-the-rings-the-return-of-the-king-1080p-cz-titulky-mkv/ce0a30cc0395a983) (ID 30675719) | [Sdílej 14676847](https://sdilej.cz/14676847/the-lord-of-the-rings-the-return-of-the-king-pan-prstenov-navrat-krala-brip-cz-eng-titulky.mkv) | target_unavailable | 2026-11-18T12:51:57.027963+00:00 |
 | [The Magnificent Seven (2016) 4K CZ Titulky](https://prehraj.to/the-magnificent-seven-2016-4k-cz-titulky-mkv/8e1f67bcb7a081d3) (ID 31003896) | [Sdílej 32905861](https://sdilej.cz/32905861/the-magnificent-seven-sedm-statecnych-2016-2160p-dv-cz-dabing-en-truehd-atmos-radecek.mkv) | target_unavailable | 2026-11-12T15:57:48.753681+00:00 |
 | [The Ministry of Ungentlemanly Warfare 4K CZ Titulky](https://prehraj.to/the-ministry-of-ungentlemanly-warfare-4k-cz-titulky-mkv/61ae345d680615c2) (ID 31087606) | [Sdílej 29086282](https://sdilej.cz/29086282/the-ministry-of-ungentlemanly-warfare-2024-cztit-v-obraze-2160p.mkv) | target_unavailable | 2026-11-16T08:42:04.731439+00:00 |
 | [The Murderer Hides His Face (Vrah skrývá tvář) 1080p CZ Titulky](https://prehraj.to/the-murderer-hides-his-face-vrah-skryva-tvar-1080p-cz-titulky-mkv/c8d47bac8742e79e) (ID 31026251) | [Sdílej 35079047](https://sdilej.cz/35079047/vrah-skryva-tvar-1966-hd.mkv) | target_unavailable | 2026-11-14T09:43:05.399694+00:00 |
