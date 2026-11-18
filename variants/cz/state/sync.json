@@ -117192,7 +117192,7 @@
       "last_plan": {
         "source_id": "33787142",
         "display_name": "The Fog (1980) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T01:49:13.571299+00:00"
+        "planned_at": "2026-11-18T03:13:07.076419+00:00"
       },
       "previous_target_id": "30984754",
       "prepared": {
@@ -117200,6 +117200,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T17:34:50.992826+00:00",
         "relay_source_id": "33787142"
+      },
+      "claim": {
+        "worker_id": "93b3235b78474d228930cf995c9f110a-shard-0",
+        "claimed_at": "2026-11-18T03:13:08.230684+00:00",
+        "lease_expires_at": "2026-11-18T09:13:08.230684+00:00",
+        "run_id": "44190029167"
       }
     },
     "37485": {
@@ -172409,17 +172415,23 @@
           "attempted_at": "2026-11-18T01:49:17.804888+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34695573",
-        "display_name": "A Song for Christmas (2017) [ID 17089] 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:13:03.474702+00:00"
-      },
       "previous_target_id": "31136395",
-      "prepared": {
+      "upload": {
         "target_video_id": "31136395",
-        "size_bytes": 2604143020,
-        "prepared_at": "2026-11-18T01:43:50.453140+00:00",
-        "relay_source_id": "34695573"
+        "display_name": "A Song for Christmas (2017) [ID 17089] 1080p CZ Dabing",
+        "source_id": "34695573",
+        "source_url": "https://sdilej.cz/34695573/a-song-for-christmas-2017-cz-dabing.mp4",
+        "source_filename": "A Song for Christmas (2017) CZ Dabing.mp4",
+        "size_bytes": 2600000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9531570076942444,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/a-song-for-christmas-2017-id-17089-1080p-cz-dabing-mp4/d46ad93ec53e9faf",
+        "uploaded_at": "2026-11-18T03:13:08.547448+00:00"
       }
     },
     "15683": {
@@ -172627,7 +172639,7 @@
       "last_plan": {
         "source_id": "23937311",
         "display_name": "Dvanáct měsíčků 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:13:03.893548+00:00"
+        "planned_at": "2026-11-18T03:13:07.468378+00:00"
       }
     },
     "26203": {
@@ -219908,5 +219920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:13:04.258357+00:00"
+  "updated_at": "2026-11-18T03:13:08.547464+00:00"
 }
