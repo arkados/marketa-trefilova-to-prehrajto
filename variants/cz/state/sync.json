@@ -124638,6 +124638,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-10T21:38:03.839071+00:00",
         "relay_source_id": "27956227"
+      },
+      "claim": {
+        "worker_id": "9b9850ef7b94452a8a9650dc86917db4-shard-0",
+        "claimed_at": "2026-11-18T06:13:44.004875+00:00",
+        "lease_expires_at": "2026-11-18T12:13:44.004875+00:00",
+        "run_id": "44237121625"
       }
     },
     "19325": {
@@ -124670,7 +124676,7 @@
       "last_plan": {
         "source_id": "20827767",
         "display_name": "The Psychic (Sette note in nero) (1977) SD CZ Dabing",
-        "planned_at": "2026-11-18T04:05:21.669557+00:00"
+        "planned_at": "2026-11-18T06:13:44.281803+00:00"
       },
       "previous_target_id": "30985751",
       "prepared": {
@@ -143341,13 +143347,6 @@
           "source_id": "34945151",
           "target_video_id": "30988616",
           "permanent": false,
-          "attempted_at": "2026-11-18T01:12:23.472398+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34945151",
-          "target_video_id": "30988616",
-          "permanent": false,
           "attempted_at": "2026-11-18T02:38:02.555026+00:00"
         },
         {
@@ -143356,6 +143355,13 @@
           "target_video_id": "30988616",
           "permanent": false,
           "attempted_at": "2026-11-18T04:05:19.477428+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34945151",
+          "target_video_id": "30988616",
+          "permanent": false,
+          "attempted_at": "2026-11-18T06:13:44.953838+00:00"
         }
       ],
       "last_plan": {
@@ -143369,12 +143375,6 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T08:57:29.900122+00:00",
         "relay_source_id": "34945151"
-      },
-      "claim": {
-        "worker_id": "3a295d9ea52c4599a2fc7c7fb7929677-shard-0",
-        "claimed_at": "2026-11-18T06:13:40.535753+00:00",
-        "lease_expires_at": "2026-11-18T12:13:40.535753+00:00",
-        "run_id": "44237121625"
       }
     },
     "12778": {
@@ -173195,7 +173195,7 @@
       "last_plan": {
         "source_id": "27104173",
         "display_name": "Miss Hanoi 1080p CZ Dabing",
-        "planned_at": "2026-11-18T06:13:41.517828+00:00"
+        "planned_at": "2026-11-18T06:13:44.628773+00:00"
       }
     },
     "3330": {
@@ -220403,5 +220403,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:13:41.517849+00:00"
+  "updated_at": "2026-11-18T06:13:44.953864+00:00"
 }
