@@ -649,7 +649,7 @@ Attach subtitles only after target processing has finished.
 | Rocky III 1080p CZ titulky | 31004255 | https://sdilej.cz/33588201/rocky-iii.-cz.sk.en.1080p.hmax.web-dl..mkv | Complete: Czech subtitles verified |
 | Legend (2015) [ID 2712] 1080p CZ titulky | 31004679 | https://sdilej.cz/32845458/legendy-zlocinu-2015-krimi-thriller-tom-hardy-czdab-bluray.1080p.mkv | Complete: Czech subtitles verified |
 | Wonka 4K CZ titulky | 31005086 | https://sdilej.cz/27822278/wonka-2023-cztit-v-obraze-2160p.mkv | Complete: Czech subtitles verified |
-| Conan the Barbarian (1982) 1080p CZ Titulky | 31005845 | https://sdilej.cz/35402133/conan.the.barbarian.1982.1080p.bluray.h264.aac-rarbg.cz.sub.mkv | Extract Czech track from exact source after processing |
+| Conan the Barbarian (1982) 1080p CZ titulky | 31005845 | https://sdilej.cz/35402133/conan.the.barbarian.1982.1080p.bluray.h264.aac-rarbg.cz.sub.mkv | Complete: Czech subtitles verified |
 | Green Room 1080p CZ Titulky | 31005872 | https://sdilej.cz/6122354/green-room-2015-titulky.cz-1080p.h264.mkv | Extract Czech track from exact source after processing |
 | Triangle 1080p CZ Titulky | 31006060 | https://sdilej.cz/14629570/triangle-en-vlozene-titulky-2009-thriller-1080p.mkv | Extract Czech track from exact source after processing |
 | Bill & Ted's Excellent Adventure 720p CZ Titulky | 31006119 | https://sdilej.cz/34453030/skvele-dobrodruzstvi-billa-a-teda-1989-komedie-keanu-reeves-cztit.bluray.hd.mkv | Extract Czech track from exact source after processing |
