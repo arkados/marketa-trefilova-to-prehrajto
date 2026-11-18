@@ -114315,7 +114315,7 @@
       "last_plan": {
         "source_id": "32941800",
         "display_name": "Bridget Jones's Diary 4K CZ Dabing",
-        "planned_at": "2026-11-18T01:57:28.047259+00:00"
+        "planned_at": "2026-11-18T03:24:03.195255+00:00"
       },
       "previous_target_id": "30984118",
       "prepared": {
@@ -129325,6 +129325,12 @@
         "size_bytes": 912600000,
         "prepared_at": "2026-11-11T01:58:28.630329+00:00",
         "relay_source_id": "34700391"
+      },
+      "claim": {
+        "worker_id": "e90da01f80704a4baab4b3a35a59378b-shard-0",
+        "claimed_at": "2026-11-18T03:24:02.700792+00:00",
+        "lease_expires_at": "2026-11-18T09:24:02.700792+00:00",
+        "run_id": "44190029167"
       }
     },
     "32875": {
@@ -172702,11 +172708,23 @@
       "attempts": []
     },
     "34027": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30238160",
+          "reason": "Request failed for https://sdilej.cz/30238160/divoke-pivo-1995-cz.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:24:04.309255+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30238160",
         "display_name": "Divoké pivo SD CZ Dabing",
         "planned_at": "2026-11-18T03:23:59.755267+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30238160",
+        "requested_at": "2026-11-18T03:24:04.309241+00:00"
       }
     },
     "15971": {
@@ -172714,7 +172732,7 @@
       "last_plan": {
         "source_id": "29632714",
         "display_name": "The Vanishing Soldier (hhyyl hn'lm) 720p CZ Dabing",
-        "planned_at": "2026-11-18T03:23:59.974031+00:00"
+        "planned_at": "2026-11-18T03:24:03.615166+00:00"
       }
     },
     "22786": {
@@ -219980,5 +219998,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:24:00.281098+00:00"
+  "updated_at": "2026-11-18T03:24:04.309261+00:00"
 }
