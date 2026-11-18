@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:11:57.908891+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:12:04.589365+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 514, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 187, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 515, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 186, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -180,7 +180,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 146. Dův
 | [Rosemary's Baby 4K CZ Titulky](https://prehraj.to/rosemary-s-baby-4k-cz-titulky-mkv/67d2334180307cd7) (ID 30629227) | [Sdílej 32726297](https://sdilej.cz/32726297/rosemary-s.baby-1968-2160p-cz-en.mkv) | target_unavailable | 2026-11-18T12:41:27.570949+00:00 |
 | [Rye Lane 1080p CZ titulky](https://prehraj.to/rye-lane-1080p-cz-titulky-mkv/fd377405243130a1) (ID 30893092) | [Sdílej 25662574](https://sdilej.cz/25662574/vzplanuti-na-rye-lane-rye.lane.2023.proper.1080p.webrip.x264-rarbg-cz-titulky-.mkv) | target_unavailable | 2026-11-18T12:51:43.751048+00:00 |
 | [Sanctuary (Freistatt) 720p CZ titulky](https://prehraj.to/sanctuary-freistatt-720p-cz-titulky-mkv/23e2e67faa47d345) (ID 30986677) | [Sdílej 6556256](https://sdilej.cz/6556256/freistatt-sanctuary-2015-.720p.brrip.xvid.ac3.2.0-ceske-titulky.mkv) | target_unavailable | 2026-11-18T13:01:47.800560+00:00 |
-| [Sayonara 1080p CZ Titulky](https://prehraj.to/sayonara-1080p-cz-titulky-mkv/d28553733dbbab0f) (ID 30990118) | [Sdílej 34273318](https://sdilej.cz/34273318/sayonara-1957-bdrip-hd-1080p-h264-ita-eng-cze-ac3-armor-.mkv) | target_unavailable | 2026-11-11T13:08:15.794158+00:00 |
 | [Senna SD CZ titulky](https://prehraj.to/senna-sd-cz-titulky-mkv/bc21ad3d2b059a11) (ID 31135008) | [Sdílej 13460272](https://sdilej.cz/13460272/senna-legenda-f1-2010-cz-titl.mkv) | target_unavailable | 2026-11-18T00:46:35.207890+00:00 |
 | [Shadow Country (Krajina ve stínu) 1080p CZ Titulky](https://prehraj.to/shadow-country-krajina-ve-stinu-1080p-cz-titulky-mkv/81d9eba21ba781dd) (ID 31054944) | [Sdílej 31983035](https://sdilej.cz/31983035/krajina-ve-stinu-2020-.mkv) | target_unavailable | 2026-11-15T09:08:55.773618+00:00 |
 | [Show Me the Father 1080p CZ Titulky](https://prehraj.to/show-me-the-father-1080p-cz-titulky-mkv/bd2f22a6b772b8e8) (ID 31024476) | [Sdílej 19837193](https://sdilej.cz/19837193/show-me-the-father-1080p-2021-vlozene-sk-titulky-kst.mkv) | target_unavailable | 2026-11-14T06:00:54.131745+00:00 |
