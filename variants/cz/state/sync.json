@@ -107380,6 +107380,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T13:50:54.791025+00:00",
         "relay_source_id": "34711370"
+      },
+      "claim": {
+        "worker_id": "00f8972b66cd4336bf1ed31016e3f7fc-shard-0",
+        "claimed_at": "2026-11-18T03:05:50.734690+00:00",
+        "lease_expires_at": "2026-11-18T09:05:50.734690+00:00",
+        "run_id": "44190029167"
       }
     },
     "20394": {
@@ -118659,13 +118665,6 @@
           "source_id": "29278547",
           "target_video_id": "30984864",
           "permanent": false,
-          "attempted_at": "2026-11-17T22:32:49.765653+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29278547",
-          "target_video_id": "30984864",
-          "permanent": false,
           "attempted_at": "2026-11-18T00:00:34.793458+00:00"
         },
         {
@@ -118674,6 +118673,13 @@
           "target_video_id": "30984864",
           "permanent": false,
           "attempted_at": "2026-11-18T01:39:12.277532+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29278547",
+          "target_video_id": "30984864",
+          "permanent": false,
+          "attempted_at": "2026-11-18T03:05:51.187251+00:00"
         }
       ],
       "last_plan": {
@@ -118687,12 +118693,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
-      },
-      "claim": {
-        "worker_id": "4e74582c403241aa94a982b893954dae-shard-0",
-        "claimed_at": "2026-11-18T03:05:39.419378+00:00",
-        "lease_expires_at": "2026-11-18T09:05:39.419378+00:00",
-        "run_id": "44190029167"
       }
     },
     "12374": {
@@ -172627,7 +172627,7 @@
       "last_plan": {
         "source_id": "23937311",
         "display_name": "Dvanáct měsíčků 1080p CZ Dabing",
-        "planned_at": "2026-11-18T03:05:40.566896+00:00"
+        "planned_at": "2026-11-18T03:05:49.827424+00:00"
       }
     },
     "26203": {
@@ -219908,5 +219908,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T03:05:46.892638+00:00"
+  "updated_at": "2026-11-18T03:05:51.187277+00:00"
 }
