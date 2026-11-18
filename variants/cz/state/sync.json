@@ -127236,13 +127236,6 @@
           "source_id": "28540263",
           "target_video_id": "30986365",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:39:43.512919+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28540263",
-          "target_video_id": "30986365",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:07:04.862234+00:00"
         },
         {
@@ -127251,12 +127244,19 @@
           "target_video_id": "30986365",
           "permanent": false,
           "attempted_at": "2026-11-18T14:27:40.888961+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28540263",
+          "target_video_id": "30986365",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:00:29.550094+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28540263",
         "display_name": "Triumph of the Spirit 720p CZ Dabing",
-        "planned_at": "2026-11-18T14:27:36.046067+00:00"
+        "planned_at": "2026-11-18T16:00:13.364799+00:00"
       },
       "previous_target_id": "30986365",
       "prepared": {
@@ -174495,11 +174495,22 @@
       "last_plan": {
         "source_id": "34861213",
         "display_name": "Bulldogs and Cherries (Buldoci a třešně) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:00:04.664596+00:00"
+        "planned_at": "2026-11-18T16:00:13.786160+00:00"
+      },
+      "claim": {
+        "worker_id": "629ae6231f2540d8bb81e5e4edc626bc-shard-0",
+        "claimed_at": "2026-11-18T16:00:15.055905+00:00",
+        "lease_expires_at": "2026-11-18T22:00:15.055905+00:00",
+        "run_id": "44319849691"
       }
     },
     "3168": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27972417",
+        "display_name": "Hamburger Hill 1080p CZ Dabing",
+        "planned_at": "2026-11-18T16:00:14.062844+00:00"
+      }
     },
     "11338": {
       "attempts": []
@@ -221499,5 +221510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:00:09.799810+00:00"
+  "updated_at": "2026-11-18T16:00:29.550110+00:00"
 }
