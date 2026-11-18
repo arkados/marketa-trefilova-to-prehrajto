@@ -111317,13 +111317,6 @@
           "source_id": "34877008",
           "target_video_id": "30983790",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:08:46.539970+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877008",
-          "target_video_id": "30983790",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:30:12.649781+00:00"
         },
         {
@@ -111332,6 +111325,13 @@
           "target_video_id": "30983790",
           "permanent": false,
           "attempted_at": "2026-11-18T14:53:44.309509+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877008",
+          "target_video_id": "30983790",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:28:44.855964+00:00"
         }
       ],
       "last_plan": {
@@ -115440,7 +115440,7 @@
       "last_plan": {
         "source_id": "32925649",
         "display_name": "The Lake House 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:53:46.628016+00:00"
+        "planned_at": "2026-11-18T16:28:43.212193+00:00"
       },
       "previous_target_id": "30984584",
       "prepared": {
@@ -115448,6 +115448,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T16:54:29.152360+00:00",
         "relay_source_id": "32925649"
+      },
+      "claim": {
+        "worker_id": "bba65e2149124e5cabc92cba2a2406d5-shard-0",
+        "claimed_at": "2026-11-18T16:28:44.511793+00:00",
+        "lease_expires_at": "2026-11-18T22:28:44.511793+00:00",
+        "run_id": "44319849691"
       }
     },
     "2842": {
@@ -174794,7 +174800,7 @@
       "last_plan": {
         "source_id": "32859912",
         "display_name": "Grumpier Old Men 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:28:39.921140+00:00"
+        "planned_at": "2026-11-18T16:28:43.662165+00:00"
       }
     },
     "31207": {
@@ -221747,5 +221753,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:28:40.236350+00:00"
+  "updated_at": "2026-11-18T16:28:44.855981+00:00"
 }
