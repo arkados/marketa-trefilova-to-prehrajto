@@ -176074,17 +176074,19 @@
       }
     },
     "3377": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29786912",
+          "target_video_id": "31158396",
+          "permanent": false,
+          "attempted_at": "2026-11-18T19:36:49.600081+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29786912",
         "display_name": "The Professor (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-18T19:30:02.507251+00:00"
-      },
-      "claim": {
-        "worker_id": "e2d783da1c98430fa17558ff3c10b5ef-shard-0",
-        "claimed_at": "2026-11-18T19:30:03.822359+00:00",
-        "lease_expires_at": "2026-11-19T01:30:03.822359+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31158396",
       "prepared": {
@@ -222836,5 +222838,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T19:36:46.427955+00:00"
+  "updated_at": "2026-11-18T19:36:49.600098+00:00"
 }
