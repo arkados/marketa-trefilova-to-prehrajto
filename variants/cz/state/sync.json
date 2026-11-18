@@ -125014,13 +125014,6 @@
           "source_id": "31751650",
           "target_video_id": "30985776",
           "permanent": false,
-          "attempted_at": "2026-11-18T06:43:34.816775+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31751650",
-          "target_video_id": "30985776",
-          "permanent": false,
           "attempted_at": "2026-11-18T08:14:35.818749+00:00"
         },
         {
@@ -125029,6 +125022,13 @@
           "target_video_id": "30985776",
           "permanent": false,
           "attempted_at": "2026-11-18T09:55:36.463063+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31751650",
+          "target_video_id": "30985776",
+          "permanent": false,
+          "attempted_at": "2026-11-18T11:22:12.337618+00:00"
         }
       ],
       "last_plan": {
@@ -139995,7 +139995,7 @@
       "last_plan": {
         "source_id": "33810799",
         "display_name": "Thomas the Falconer (Sokoliar Tomáš) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T09:55:35.831548+00:00"
+        "planned_at": "2026-11-18T11:22:09.817201+00:00"
       },
       "previous_target_id": "30988025",
       "prepared": {
@@ -140003,6 +140003,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T07:17:16.717992+00:00",
         "relay_source_id": "33810799"
+      },
+      "claim": {
+        "worker_id": "b7860fd2e5d040f9b263b7544571b03f-shard-0",
+        "claimed_at": "2026-11-18T11:22:10.697347+00:00",
+        "lease_expires_at": "2026-11-18T17:22:10.697347+00:00",
+        "run_id": "44276193396"
       }
     },
     "33069": {
@@ -173871,7 +173877,7 @@
       "last_plan": {
         "source_id": "14054640",
         "display_name": "White Lion 1080p CZ Dabing",
-        "planned_at": "2026-11-18T11:22:07.184624+00:00"
+        "planned_at": "2026-11-18T11:22:10.126016+00:00"
       }
     },
     "30132": {
@@ -220983,5 +220989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T11:22:07.184643+00:00"
+  "updated_at": "2026-11-18T11:22:12.337635+00:00"
 }
