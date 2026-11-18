@@ -112201,13 +112201,6 @@
           "source_id": "33855360",
           "target_video_id": "30983838",
           "permanent": false,
-          "attempted_at": "2026-11-18T00:17:11.094195+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33855360",
-          "target_video_id": "30983838",
-          "permanent": false,
           "attempted_at": "2026-11-18T01:55:51.435198+00:00"
         },
         {
@@ -112216,6 +112209,13 @@
           "target_video_id": "30983838",
           "permanent": false,
           "attempted_at": "2026-11-18T03:22:32.432491+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33855360",
+          "target_video_id": "30983838",
+          "permanent": false,
+          "attempted_at": "2026-11-18T05:26:06.487267+00:00"
         }
       ],
       "last_plan": {
@@ -114278,7 +114278,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-18T03:22:31.731940+00:00"
+        "planned_at": "2026-11-18T05:26:04.762040+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -114286,6 +114286,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:29:05.818325+00:00",
         "relay_source_id": "31982080"
+      },
+      "claim": {
+        "worker_id": "52b842e16e0d4ad28b00e382e7122eb4-shard-0",
+        "claimed_at": "2026-11-18T05:26:06.099704+00:00",
+        "lease_expires_at": "2026-11-18T11:26:06.099704+00:00",
+        "run_id": "44237121625"
       }
     },
     "2796": {
@@ -172989,7 +172995,7 @@
       "last_plan": {
         "source_id": "11493484",
         "display_name": "A Dog's Way Home 1080p CZ Dabing",
-        "planned_at": "2026-11-18T05:26:01.723228+00:00"
+        "planned_at": "2026-11-18T05:26:05.129569+00:00"
       }
     },
     "16421": {
@@ -220224,5 +220230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T05:26:02.001636+00:00"
+  "updated_at": "2026-11-18T05:26:06.487321+00:00"
 }
