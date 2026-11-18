@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T13:21:32.603598+00:00
+Poslední aktualizace (UTC): 2026-11-18T13:21:38.970374+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 527, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 173, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 527, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 172, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -38,6 +38,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [Pulp Fiction 4K CZ Titulky](https://prehraj.to/pulp-fiction-cz-titulky-mkv/fb0b1bccb52756c3) (ID 30583711) | [Sdílej 32925539](https://sdilej.cz/32925539/pulp-fiction-1994-cz-en-radecek.mkv) | Česká stopa je obrazová, pouze vynucená nebo v nepodporovaném formátu. | 2026-11-12T03:02:22.678699+00:00 |
 | [Raise the Red Lantern (大红灯笼高高挂) 1080p](https://prehraj.to/raise-the-red-lantern-1080p-mkv/a1807a9d51d5299a) (ID 30623110) | [Sdílej 32450707](https://sdilej.cz/32450707/raise-the-red-lantern-1991-1080p-bluray-x264-oft.mkv) | Původní soubor nemá samostatnou českou titulkovou stopu. | 2026-11-14T00:09:06.152466+00:00 |
 | [Ran (乱) SD](https://prehraj.to/ran-mp4/57f166396045cde6) (ID 30612365) | [Sdílej 33590630](https://sdilej.cz/33590630/ran-1985-tit.mp4) | Původní soubor nemá samostatnou českou titulkovou stopu. | 2026-11-13T04:33:35.604226+00:00 |
+| [Return of the Idiot (Návrat idiota) 1080p CZ Titulky](https://prehraj.to/return-of-the-idiot-navrat-idiota-1080p-cz-titulky-mkv/5d66cde734ee8ceb) (ID 30997077) | [Sdílej 32263750](https://sdilej.cz/32263750/navrat-idiota-1999-fhd-cz.mkv) | Zdrojová titulková stopa je prázdná. | 2026-11-18T13:21:38.387438+00:00 |
 | [Room 1080p CZ Titulky](https://prehraj.to/room-1080p-cz-titulky-mkv/51fa6213b2485412) (ID 30620863) | [Sdílej 14738718](https://sdilej.cz/14738718/doom.mkv) | Česká stopa je obrazová, pouze vynucená nebo v nepodporovaném formátu. | 2026-11-13T20:45:41.189509+00:00 |
 | [Searching for Sugar Man 720p](https://prehraj.to/searching-for-sugar-man-mkv/2f5ae32aac297bc1) (ID 30612744) | [Sdílej 28991356](https://sdilej.cz/28991356/searching.for.sugar.man.2012.720p.brrip.x264.ac3-jyk.mkv) | Původní soubor nemá samostatnou českou titulkovou stopu. | 2026-11-13T05:57:15.357520+00:00 |
 | [Seven (Se7en) 1080p CZ Titulky](https://prehraj.to/seven-se7en-cz-titulky-mkv/0918cbf833ec4f4a) (ID 30585843) | [Sdílej 23150049](https://sdilej.cz/23150049/sedm-se7en-1995-cz-1080p-hevc-.mkv) | Česká stopa je obrazová, pouze vynucená nebo v nepodporovaném formátu. | 2026-11-12T03:02:31.856431+00:00 |
@@ -163,7 +164,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 126. Dův
 | [René 1080p CZ Titulky](https://prehraj.to/rene-1080p-cz-titulky-mkv/5a9f54c8abee0cc4) (ID 31025310) | [Sdílej 30660141](https://sdilej.cz/30660141/puls-3-invaze-hraji-rider-strong-brittany-renee-finamore-2008-cz-dab-leg.mkv) | target_unavailable | 2026-11-14T08:02:38.054935+00:00 |
 | [Reptile 1080p CZ Titulky](https://prehraj.to/reptile-1080p-cz-titulky-mkv/1c3317d9326351a7) (ID 31090284) | [Sdílej 26924113](https://sdilej.cz/26924113/reptile.2023.1080p.10bit.webrip.6ch.x265.hevc-psa-cz-titulky.mkv) | target_unavailable | 2026-11-16T11:42:48.272152+00:00 |
 | [Requiem for a Dream 1080p CZ titulky](https://prehraj.to/requiem-for-a-dream-1080p-cz-titulky-mkv/c63b14022d43238e) (ID 30676098) | [Sdílej 22817696](https://sdilej.cz/22817696/requiem-for-a-dream-2000-bdrip-1080p-hevc-en-cz-commentary.mkv) | target_unavailable | 2026-11-18T12:42:42.515682+00:00 |
-| [Return of the Idiot (Návrat idiota) 1080p CZ Titulky](https://prehraj.to/return-of-the-idiot-navrat-idiota-1080p-cz-titulky-mkv/5d66cde734ee8ceb) (ID 30997077) | [Sdílej 32263750](https://sdilej.cz/32263750/navrat-idiota-1999-fhd-cz.mkv) | target_unavailable | 2026-11-12T02:32:15.886113+00:00 |
 | [Rocky III 1080p CZ Titulky](https://prehraj.to/rocky-iii-1080p-cz-titulky-mkv/6b7d02dad040975e) (ID 31004255) | [Sdílej 33588201](https://sdilej.cz/33588201/rocky-iii.-cz.sk.en.1080p.hmax.web-dl..mkv) | target_unavailable | 2026-11-12T16:47:55.740633+00:00 |
 | [Rose Island (L'incredibile storia dell'Isola delle Rose) 1080p CZ Titulky](https://prehraj.to/rose-island-l-incredibile-storia-dell-isola-delle-rose-1080p-cz-titulky-mkv/1a02e2a380215670) (ID 30985967) | [Sdílej 14916136](https://sdilej.cz/14916136/rose.island.2020.1080p.nf.web-dl.dd5.1.x264.en.ita.cz.tit.mkv) | target_unavailable | 2026-11-18T13:01:31.018736+00:00 |
 | [Rosemary's Baby 4K CZ Titulky](https://prehraj.to/rosemary-s-baby-4k-cz-titulky-mkv/67d2334180307cd7) (ID 30629227) | [Sdílej 32726297](https://sdilej.cz/32726297/rosemary-s.baby-1968-2160p-cz-en.mkv) | target_unavailable | 2026-11-18T12:41:27.570949+00:00 |
