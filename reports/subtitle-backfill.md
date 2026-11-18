@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:52:18.869003+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:52:26.321977+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 507, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 2, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 192, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 508, `attached_verified`: 18, `burned_in_czech_verified`: 1, `existing_tracks_uncertain`: 10, `pending`: 2, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 191, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -165,7 +165,6 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [Panic Room 1080p CZ Titulky](https://prehraj.to/panic-room-1080p-cz-titulky-mkv/b7d9d801c754daee) (ID 31081901) | [Sdílej 31100204](https://sdilej.cz/31100204/2002-panic-room-ukryt-cz-en-1080p.mkv) | target_unavailable | 2026-11-16T03:46:44.277523+00:00 |
 | [Paris, 13th District (Les Olympiades, Paris 13e) 1080p CZ titulky](https://prehraj.to/paris-13th-district-les-olympiades-paris-13e-1080p-cz-titulky-mkv/6e441a58f8608b99) (ID 30988745) | [Sdílej 23240065](https://sdilej.cz/23240065/pariz-13.-obvod-les-olympiades-1080p-2021-vlozene-cz-titulky-malasorte.mkv) | target_unavailable | 2026-11-11T09:48:47.912146+00:00 |
 | [Paul 1080p CZ Titulky](https://prehraj.to/paul-1080p-cz-titulky-mkv/15157768501db2a5) (ID 31002516) | [Sdílej 35003134](https://sdilej.cz/35003134/paul.2011.unrated.1080p.bluray.dts.x264-majo.mkv) | target_unavailable | 2026-11-12T13:07:44.033693+00:00 |
-| [Pieces of a Woman 1080p CZ Titulky](https://prehraj.to/pieces-of-a-woman-1080p-cz-titulky-mkv/362a0c0c06085a1e) (ID 30977806) | [Sdílej 27839654](https://sdilej.cz/27839654/stripky-zeny-vanessa-kirby-shia-labeouf-ellen-burstyn-2020-drama-en-cz-titulky.mkv) | target_unavailable | 2026-11-10T11:42:06.561220+00:00 |
 | [Pillion 1080p CZ Titulky](https://prehraj.to/pillion-1080p-cz-titulky-mkv/62a244197da04bbf) (ID 31013758) | [Sdílej 34465941](https://sdilej.cz/34465941/pillion-2025-.mkv) | target_unavailable | 2026-11-13T15:03:19.170487+00:00 |
 | [Poor Things 1080p CZ titulky](https://prehraj.to/poor-things-1080p-cz-titulky-mkv/de58b83d9d75655d) (ID 30664033) | [Sdílej 28240998](https://sdilej.cz/28240998/poor.things-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T12:42:31.191507+00:00 |
 | [Pupendo 1080p CZ Titulky](https://prehraj.to/pupendo-1080p-cz-titulky-mkv/ceecd8c58f1ab5ac) (ID 30990822) | [Sdílej 31960641](https://sdilej.cz/31960641/pupendo-2003-komedie-cz-1080p.mkv) | target_unavailable | 2026-11-11T14:08:24.508347+00:00 |
