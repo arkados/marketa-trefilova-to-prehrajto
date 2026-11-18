@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:05:04.605455+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:05:13.132531+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 531, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 2, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 170, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 531, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 10, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 169, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -122,7 +122,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Icahn: The Restless Billionaire 1080p CZ Titulky](https://prehraj.to/icahn-the-restless-billionaire-1080p-cz-titulky-mkv/cc800dc5fe12cc55) (ID 31024287) | [Sdílej 32831706](https://sdilej.cz/32831706/icahn.the.restless.billionaire.2022.1080p.web.h264-cz-tit.mkv) | target_unavailable | 2026-11-14T05:40:52.471648+00:00 |
 | [Ice Age: Dawn of the Dinosaurs 1080p CZ Titulky](https://prehraj.to/ice-age-dawn-of-the-dinosaurs-1080p-cz-titulky-mkv/382fe0f08e6b9133) (ID 31001947) | [Sdílej 19665397](https://sdilej.cz/19665397/doba-ledova-3-usvit-dinosauru-1080p-5.1cz-5.1dts-en-2009-stbr-.mkv) | target_unavailable | 2026-11-12T12:07:21.355399+00:00 |
 | [Inside the Mind of a Cat 720p CZ Titulky](https://prehraj.to/inside-the-mind-of-a-cat-720p-cz-titulky-mkv/aaf375a971796bb3) (ID 31018003) | [Sdílej 22592958](https://sdilej.cz/22592958/inside.the.mind.of.a.cat.2022.720p.nf.web-dl.ddp5.1.h.264-smurf-cz-titulky.mkv) | target_unavailable | 2026-11-13T19:15:25.528491+00:00 |
-| [Iron Man 2 1080p CZ Titulky](https://prehraj.to/iron-man-2-1080p-cz-titulky-mkv/a7aa04a1c5e5391b) (ID 31000126) | [Sdílej 24604994](https://sdilej.cz/24604994/05-marvel-iron-man-2-2010-cz.mkv) | target_unavailable | 2026-11-12T08:04:11.134895+00:00 |
+| [Iron Man 2 1080p CZ Titulky](https://prehraj.to/iron-man-2-1080p-cz-titulky-mkv/a7aa04a1c5e5391b) (ID 31000126) | [Sdílej 24604994](https://sdilej.cz/24604994/05-marvel-iron-man-2-2010-cz.mkv) | source_unavailable | 2026-11-18T23:05:13.132454+00:00 |
 | [It Follows 1080p CZ Titulky](https://prehraj.to/it-follows-1080p-cz-titulky-mkv/ec36d096c40b5d95) (ID 31082032) | [Sdílej 35213743](https://sdilej.cz/35213743/it-follows-2014-.mkv) | target_unavailable | 2026-11-16T03:56:39.315934+00:00 |
 | [John Wick: Chapter 4 1440p CZ titulky](https://prehraj.to/john-wick-chapter-4-1440p-cz-titulky-mkv/f4d1e18a53df6591) (ID 30682158) | [Sdílej 26167173](https://sdilej.cz/26167173/john.wick.chapter.4.2023.2160p.web-dl.ddp5.1.atmos.dv.hdr10-.h.265-cmrg.cztit.mkv) | target_unavailable | 2026-11-18T12:42:53.192808+00:00 |
 | [Journey to the Beginning of Time (Cesta do pravěku) 1080p CZ Titulky](https://prehraj.to/journey-to-the-beginning-of-time-cesta-do-praveku-1080p-cz-titulky-mkv/bcad1ddfb754d1f0) (ID 30988776) | [Sdílej 34670411](https://sdilej.cz/34670411/cesta-do-praveku-sci-fi-dobrodruzny-1955-cz.1080p.mkv) | target_unavailable | 2026-11-18T13:11:03.186843+00:00 |
