@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:42:48.911102+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:42:54.638106+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -132,7 +132,7 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 206. Důvo
 | [Inside the Mind of a Cat 720p CZ Titulky](https://prehraj.to/inside-the-mind-of-a-cat-720p-cz-titulky-mkv/aaf375a971796bb3) (ID 31018003) | [Sdílej 22592958](https://sdilej.cz/22592958/inside.the.mind.of.a.cat.2022.720p.nf.web-dl.ddp5.1.h.264-smurf-cz-titulky.mkv) | target_unavailable | 2026-11-13T19:15:25.528491+00:00 |
 | [Iron Man 2 1080p CZ Titulky](https://prehraj.to/iron-man-2-1080p-cz-titulky-mkv/a7aa04a1c5e5391b) (ID 31000126) | [Sdílej 24604994](https://sdilej.cz/24604994/05-marvel-iron-man-2-2010-cz.mkv) | target_unavailable | 2026-11-12T08:04:11.134895+00:00 |
 | [It Follows 1080p CZ Titulky](https://prehraj.to/it-follows-1080p-cz-titulky-mkv/ec36d096c40b5d95) (ID 31082032) | [Sdílej 35213743](https://sdilej.cz/35213743/it-follows-2014-.mkv) | target_unavailable | 2026-11-16T03:56:39.315934+00:00 |
-| [John Wick: Chapter 4 1440p CZ titulky](https://prehraj.to/john-wick-chapter-4-1440p-cz-titulky-mkv/f4d1e18a53df6591) (ID 30682158) | [Sdílej 26167173](https://sdilej.cz/26167173/john.wick.chapter.4.2023.2160p.web-dl.ddp5.1.atmos.dv.hdr10-.h.265-cmrg.cztit.mkv) | target_unavailable | 2026-11-10T09:41:31.892087+00:00 |
+| [John Wick: Chapter 4 1440p CZ titulky](https://prehraj.to/john-wick-chapter-4-1440p-cz-titulky-mkv/f4d1e18a53df6591) (ID 30682158) | [Sdílej 26167173](https://sdilej.cz/26167173/john.wick.chapter.4.2023.2160p.web-dl.ddp5.1.atmos.dv.hdr10-.h.265-cmrg.cztit.mkv) | target_unavailable | 2026-11-18T12:42:53.192808+00:00 |
 | [Journey to the Beginning of Time (Cesta do pravěku) 1080p CZ Titulky](https://prehraj.to/journey-to-the-beginning-of-time-cesta-do-praveku-1080p-cz-titulky-mkv/bcad1ddfb754d1f0) (ID 30988776) | [Sdílej 34670411](https://sdilej.cz/34670411/cesta-do-praveku-sci-fi-dobrodruzny-1955-cz.1080p.mkv) | target_unavailable | 2026-11-11T09:58:51.842084+00:00 |
 | [Juno 1080p CZ titulky](https://prehraj.to/juno-1080p-cz-titulky-mkv/087c1b745f58cf79) (ID 30747251) | [Sdílej 33537783](https://sdilej.cz/33537783/juno-2007-komedie-usa-elliot-page-michael-cera-jennifer-garner-czdab-fhd.mkv) | target_unavailable | 2026-11-10T09:41:51.695654+00:00 |
 | [King of Kings 720p CZ Titulky](https://prehraj.to/king-of-kings-720p-cz-titulky-mkv/baf4f8c4bbc9016b) (ID 30989744) | [Sdílej 29895942](https://sdilej.cz/29895942/kral-kralov.king-of-kings-1961-720p-en-cztit-historicky.mkv) | target_unavailable | 2026-11-11T12:18:01.717596+00:00 |
