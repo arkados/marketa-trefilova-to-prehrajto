@@ -142408,13 +142408,6 @@
           "source_id": "32094190",
           "target_video_id": "30988468",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:49:10.304075+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32094190",
-          "target_video_id": "30988468",
-          "permanent": false,
           "attempted_at": "2026-11-18T13:25:58.383165+00:00"
         },
         {
@@ -142423,6 +142416,13 @@
           "target_video_id": "30988468",
           "permanent": false,
           "attempted_at": "2026-11-18T15:42:14.174038+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32094190",
+          "target_video_id": "30988468",
+          "permanent": false,
+          "attempted_at": "2026-11-18T17:16:12.887255+00:00"
         }
       ],
       "last_plan": {
@@ -142436,12 +142436,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T08:33:07.609068+00:00",
         "relay_source_id": "32094190"
-      },
-      "claim": {
-        "worker_id": "99101c9b090346d396d2d465c1e385c5-shard-0",
-        "claimed_at": "2026-11-18T17:16:10.064001+00:00",
-        "lease_expires_at": "2026-11-18T23:16:10.064001+00:00",
-        "run_id": "44319849691"
       }
     },
     "17631": {
@@ -148319,7 +148313,7 @@
       "last_plan": {
         "source_id": "33623584",
         "display_name": "list of a Lifetime 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:42:18.517017+00:00"
+        "planned_at": "2026-11-18T17:16:12.202024+00:00"
       },
       "previous_target_id": "31016148",
       "prepared": {
@@ -175165,11 +175159,16 @@
       "last_plan": {
         "source_id": "27036851",
         "display_name": "Return to Oz 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:16:07.117551+00:00"
+        "planned_at": "2026-11-18T17:16:12.628439+00:00"
       }
     },
     "20369": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33178746",
+        "display_name": "Son of Batman 1080p CZ Dabing",
+        "planned_at": "2026-11-18T17:16:13.110932+00:00"
+      }
     },
     "25863": {
       "attempts": []
@@ -222040,5 +222039,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:16:10.064028+00:00"
+  "updated_at": "2026-11-18T17:16:13.110945+00:00"
 }
