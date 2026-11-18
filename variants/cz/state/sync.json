@@ -124169,13 +124169,6 @@
           "source_id": "33873702",
           "target_video_id": "30985656",
           "permanent": false,
-          "attempted_at": "2026-11-18T18:19:19.663662+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33873702",
-          "target_video_id": "30985656",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:50:59.650666+00:00"
         },
         {
@@ -124184,6 +124177,13 @@
           "target_video_id": "30985656",
           "permanent": false,
           "attempted_at": "2026-11-18T21:23:04.690982+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33873702",
+          "target_video_id": "30985656",
+          "permanent": false,
+          "attempted_at": "2026-11-18T23:08:25.770369+00:00"
         }
       ],
       "last_plan": {
@@ -172426,7 +172426,7 @@
       "last_plan": {
         "source_id": "34749651",
         "display_name": "The Entity 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:23:06.975364+00:00"
+        "planned_at": "2026-11-18T23:08:24.140427+00:00"
       },
       "previous_target_id": "31136100",
       "prepared": {
@@ -172434,6 +172434,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-18T01:32:50.015518+00:00",
         "relay_source_id": "34749651"
+      },
+      "claim": {
+        "worker_id": "673360343fbc43cfaca2289b60e4a31d-shard-0",
+        "claimed_at": "2026-11-18T23:08:25.039938+00:00",
+        "lease_expires_at": "2026-11-19T05:08:25.039938+00:00",
+        "run_id": "44406951430"
       }
     },
     "33097": {
@@ -177185,7 +177191,7 @@
       "last_plan": {
         "source_id": "18058540",
         "display_name": "Ju-On: The Grudge 720p CZ Dabing",
-        "planned_at": "2026-11-18T23:08:21.069989+00:00"
+        "planned_at": "2026-11-18T23:08:24.479021+00:00"
       }
     },
     "3540": {
@@ -223757,5 +223763,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T23:08:21.347725+00:00"
+  "updated_at": "2026-11-18T23:08:25.770387+00:00"
 }
