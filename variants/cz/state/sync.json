@@ -118615,13 +118615,6 @@
           "source_id": "25787561",
           "target_video_id": "30984861",
           "permanent": false,
-          "attempted_at": "2026-11-18T11:12:05.824096+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25787561",
-          "target_video_id": "30984861",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:37:55.940049+00:00"
         },
         {
@@ -118630,6 +118623,13 @@
           "target_video_id": "30984861",
           "permanent": false,
           "attempted_at": "2026-11-18T14:58:03.560643+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25787561",
+          "target_video_id": "30984861",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:32:32.340077+00:00"
         }
       ],
       "last_plan": {
@@ -118672,7 +118672,7 @@
       "last_plan": {
         "source_id": "33647002",
         "display_name": "Frantic 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:58:05.808478+00:00"
+        "planned_at": "2026-11-18T16:32:30.442302+00:00"
       },
       "previous_target_id": "30984863",
       "prepared": {
@@ -118680,6 +118680,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:57:35.530517+00:00",
         "relay_source_id": "33647002"
+      },
+      "claim": {
+        "worker_id": "d04bc3db040c4dacb77cb7aca257133b-shard-0",
+        "claimed_at": "2026-11-18T16:32:31.841175+00:00",
+        "lease_expires_at": "2026-11-18T22:32:31.841175+00:00",
+        "run_id": "44319849691"
       }
     },
     "17739": {
@@ -174822,11 +174828,22 @@
       "last_plan": {
         "source_id": "29208540",
         "display_name": "Marvin's Room 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:32:26.832722+00:00"
+        "planned_at": "2026-11-18T16:32:30.848755+00:00"
+      },
+      "claim": {
+        "worker_id": "1a1a8b6132824feb97a30da3efe628f1-shard-0",
+        "claimed_at": "2026-11-18T16:32:32.117624+00:00",
+        "lease_expires_at": "2026-11-18T22:32:32.117624+00:00",
+        "run_id": "44319849691"
       }
     },
     "12262": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "17916420",
+        "display_name": "Things to Do in Denver When You're Dead SD CZ Dabing",
+        "planned_at": "2026-11-18T16:32:31.102556+00:00"
+      }
     },
     "21446": {
       "attempts": []
@@ -221769,5 +221786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:32:26.832740+00:00"
+  "updated_at": "2026-11-18T16:32:32.340099+00:00"
 }
