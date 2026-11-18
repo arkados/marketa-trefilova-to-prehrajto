@@ -1058,13 +1058,6 @@
           "source_id": "31918348",
           "target_video_id": "30578228",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:34:09.877903+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31918348",
-          "target_video_id": "30578228",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:58:15.657193+00:00"
         },
         {
@@ -1073,6 +1066,13 @@
           "target_video_id": "30578228",
           "permanent": false,
           "attempted_at": "2026-11-18T14:20:19.828063+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31918348",
+          "target_video_id": "30578228",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:53:55.061065+00:00"
         }
       ],
       "last_plan": {
@@ -132942,7 +132942,7 @@
       "last_plan": {
         "source_id": "26568103",
         "display_name": "Záku Kasíku, nezen se! (Žáku Kašíku, nežeň se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:20:17.882655+00:00"
+        "planned_at": "2026-11-18T15:53:53.027885+00:00"
       },
       "previous_target_id": "30987180",
       "prepared": {
@@ -132950,6 +132950,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T03:52:43.832583+00:00",
         "relay_source_id": "26568103"
+      },
+      "claim": {
+        "worker_id": "4cbe81b1fb084102b770294f70d8c93e-shard-0",
+        "claimed_at": "2026-11-18T15:53:54.279099+00:00",
+        "lease_expires_at": "2026-11-18T21:53:54.279099+00:00",
+        "run_id": "44319849691"
       }
     },
     "32524": {
@@ -174400,7 +174406,7 @@
       "last_plan": {
         "source_id": "20710849",
         "display_name": "Saint Judy 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:53:50.050503+00:00"
+        "planned_at": "2026-11-18T15:53:53.515712+00:00"
       }
     },
     "22819": {
@@ -221419,5 +221425,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:53:50.050519+00:00"
+  "updated_at": "2026-11-18T15:53:55.061085+00:00"
 }
