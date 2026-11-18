@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T12:50:45.517472+00:00
+Poslední aktualizace (UTC): 2026-11-18T12:50:52.957230+00:00
 
 Zkontrolováno videí: 770. Další stránka kontroly: 0.
 
@@ -118,7 +118,7 @@ Kontrol: 20; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 186. Dův
 | [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-10T09:50:13.007331+00:00 |
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
 | [Goya's Ghosts 1080p CZ Titulky](https://prehraj.to/goya-s-ghosts-1080p-cz-titulky-mkv/ec0601bdb13bfd2b) (ID 31010194) | [Sdílej 34683084](https://sdilej.cz/34683084/goyovy-prizraky-drama-j.bardem-n.-portman-2006-cztit.1080p.bluray.mkv) | target_unavailable | 2026-11-13T07:37:29.825605+00:00 |
-| [Green Book 1080p](https://prehraj.to/green-book-mp4/2e88bec948b595b6) (ID 30609217) | [Sdílej 31912774](https://sdilej.cz/31912774/green.book.2018.1080p.bluray.h264.aac-rarbg.mp4) | target_unavailable | 2026-11-10T09:49:37.027203+00:00 |
+| [Green Book 1080p](https://prehraj.to/green-book-mp4/2e88bec948b595b6) (ID 30609217) | [Sdílej 31912774](https://sdilej.cz/31912774/green.book.2018.1080p.bluray.h264.aac-rarbg.mp4) | target_unavailable | 2026-11-18T12:50:52.390277+00:00 |
 | [Green Room 1080p CZ Titulky](https://prehraj.to/green-room-1080p-cz-titulky-mkv/e0dda85f61c4924e) (ID 31005872) | [Sdílej 6122354](https://sdilej.cz/6122354/green-room-2015-titulky.cz-1080p.h264.mkv) | target_unavailable | 2026-11-12T20:51:20.850516+00:00 |
 | [Harrison's Flowers SD CZ Titulky](https://prehraj.to/harrison-s-flowers-sd-cz-titulky-mkv/b113fd605d829de3) (ID 30992832) | [Sdílej 27735775](https://sdilej.cz/27735775/harrisonovy-kvety-harrison-s-flowers-2000-cz-tit.mkv) | target_unavailable | 2026-11-11T18:34:50.841602+00:00 |
 | [How I Became a Gangster (Jak zostalem gangsterem. Historia prawdziwa) 1080p CZ Titulky](https://prehraj.to/how-i-became-a-gangster-jak-zostalem-gangsterem-historia-prawdziwa-1080p-cz-titulky-mkv/eac6b5d7ef9dc2b1) (ID 31021388) | [Sdílej 24575270](https://sdilej.cz/24575270/jak-jsem-se-stal-gangsterem-webrip-pl-en-tit-cz.mkv) | target_unavailable | 2026-11-13T23:28:50.890647+00:00 |
