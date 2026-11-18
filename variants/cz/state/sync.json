@@ -125014,13 +125014,6 @@
           "source_id": "31751650",
           "target_video_id": "30985776",
           "permanent": false,
-          "attempted_at": "2026-11-17T19:38:12.979877+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31751650",
-          "target_video_id": "30985776",
-          "permanent": false,
           "attempted_at": "2026-11-17T21:07:59.267756+00:00"
         },
         {
@@ -125029,6 +125022,13 @@
           "target_video_id": "30985776",
           "permanent": false,
           "attempted_at": "2026-11-17T22:33:06.688267+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31751650",
+          "target_video_id": "30985776",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:00:44.278876+00:00"
         }
       ],
       "last_plan": {
@@ -139995,7 +139995,7 @@
       "last_plan": {
         "source_id": "33810799",
         "display_name": "Thomas the Falconer (Sokoliar Tomáš) 1080p CZ Dabing",
-        "planned_at": "2026-11-17T22:33:08.966279+00:00"
+        "planned_at": "2026-11-18T00:00:42.176153+00:00"
       },
       "previous_target_id": "30988025",
       "prepared": {
@@ -140003,6 +140003,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T07:17:16.717992+00:00",
         "relay_source_id": "33810799"
+      },
+      "claim": {
+        "worker_id": "62735620f51a407a9e4e99cfb217f42b-shard-0",
+        "claimed_at": "2026-11-18T00:00:43.396871+00:00",
+        "lease_expires_at": "2026-11-18T06:00:43.396871+00:00",
+        "run_id": "44170464010"
       }
     },
     "33069": {
@@ -171962,6 +171968,12 @@
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
         "planned_at": "2026-11-18T00:00:38.846578+00:00"
+      },
+      "claim": {
+        "worker_id": "75dbe39ea2514405aafdeee5a27a4010-shard-0",
+        "claimed_at": "2026-11-18T00:00:41.945683+00:00",
+        "lease_expires_at": "2026-11-18T06:00:41.945683+00:00",
+        "run_id": "44170464010"
       }
     },
     "13183": {
@@ -171972,7 +171984,7 @@
       "last_plan": {
         "source_id": "32150899",
         "display_name": "Muzzikanti SD CZ Dabing",
-        "planned_at": "2026-11-18T00:00:39.052798+00:00"
+        "planned_at": "2026-11-18T00:00:42.496226+00:00"
       }
     },
     "25946": {
@@ -219355,5 +219367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:00:39.052814+00:00"
+  "updated_at": "2026-11-18T00:00:44.278895+00:00"
 }
