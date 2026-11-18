@@ -627,7 +627,7 @@ Attach subtitles only after target processing has finished.
 | Generation Iron 720p CZ titulky | 30992304 | https://sdilej.cz/22898145/generation-iron.mkv | Complete: Czech subtitles verified |
 | Harrison's Flowers SD CZ titulky | 30992832 | https://sdilej.cz/27735775/harrisonovy-kvety-harrison-s-flowers-2000-cz-tit.mkv | Complete: Czech subtitles verified |
 | La cocina 1080p CZ titulky | 30994375 | https://sdilej.cz/30864866/la.cocina-2024-cztit-v-obraze-1080p.mkv | Complete: Czech subtitles verified |
-| In the Shadows (Ve stínu) 1080p CZ Titulky | 30994567 | https://sdilej.cz/18714751/ve.stinu.2012.1080p.mkv | Extract Czech track from exact source after processing |
+| In the Shadows (Ve stínu) 1080p CZ titulky | 30994567 | https://sdilej.cz/18714751/ve.stinu.2012.1080p.mkv | Complete: Czech subtitles verified |
 | Action in the North Atlantic SD CZ Titulky | 30995564 | https://sdilej.cz/20648681/action-in-the-north-atlantic-konvoj-do-murmanska-1943-dvdrip-720x576-mpeg2-audio-en-subtitles-cz.mkv | Extract Czech track from exact source after processing |
 | Responsible Child 1080p CZ Titulky | 30995865 | https://sdilej.cz/18700045/responsible.child.2019.1080p.webrip.titulky-cz.mkv | Extract Czech track from exact source after processing |
 | Western 1080p CZ Titulky | 30996177 | https://sdilej.cz/19486059/hostiles-2017-western-hd-cz-dab-lum.mkv | Extract Czech track from exact source after processing |
