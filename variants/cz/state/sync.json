@@ -27387,13 +27387,6 @@
           "source_id": "29719575",
           "target_video_id": "30714314",
           "permanent": false,
-          "attempted_at": "2026-11-18T07:41:53.795814+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29719575",
-          "target_video_id": "30714314",
-          "permanent": false,
           "attempted_at": "2026-11-18T09:14:07.312658+00:00"
         },
         {
@@ -27402,6 +27395,13 @@
           "target_video_id": "30714314",
           "permanent": false,
           "attempted_at": "2026-11-18T10:47:07.320081+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29719575",
+          "target_video_id": "30714314",
+          "permanent": false,
+          "attempted_at": "2026-11-18T12:14:28.040112+00:00"
         }
       ],
       "last_plan": {
@@ -129822,7 +129822,7 @@
       "last_plan": {
         "source_id": "34774875",
         "display_name": "Waterboys 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:47:11.080537+00:00"
+        "planned_at": "2026-11-18T12:14:26.292751+00:00"
       },
       "previous_target_id": "30986837",
       "prepared": {
@@ -129830,6 +129830,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T02:18:35.871036+00:00",
         "relay_source_id": "34774875"
+      },
+      "claim": {
+        "worker_id": "37b1b9ff1f31483da5a6bc9f6788403f-shard-0",
+        "claimed_at": "2026-11-18T12:14:27.150859+00:00",
+        "lease_expires_at": "2026-11-18T18:14:27.150859+00:00",
+        "run_id": "44276193396"
       }
     },
     "22072": {
@@ -173956,7 +173962,7 @@
       "last_plan": {
         "source_id": "34454587",
         "display_name": "Starter for 10 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:14:23.285655+00:00"
+        "planned_at": "2026-11-18T12:14:26.604395+00:00"
       }
     },
     "28475": {
@@ -221044,5 +221050,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T12:14:23.572408+00:00"
+  "updated_at": "2026-11-18T12:14:28.040131+00:00"
 }
