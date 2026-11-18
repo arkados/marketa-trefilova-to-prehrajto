@@ -134817,13 +134817,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:09:38.002485+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:36:16.964483+00:00"
         },
         {
@@ -134832,6 +134825,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-18T13:05:47.223220+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:26:47.312092+00:00"
         }
       ],
       "last_plan": {
@@ -140252,7 +140252,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-18T13:05:47.846564+00:00"
+        "planned_at": "2026-11-18T15:26:45.630566+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140260,6 +140260,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "4c9330e0f1434044876af0533183166b-shard-0",
+        "claimed_at": "2026-11-18T15:26:46.947197+00:00",
+        "lease_expires_at": "2026-11-18T21:26:46.947197+00:00",
+        "run_id": "44319849691"
       }
     },
     "12711": {
@@ -174270,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:26:40.745796+00:00"
+        "planned_at": "2026-11-18T15:26:46.053716+00:00"
       }
     },
     "32797": {
@@ -221316,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:26:41.069223+00:00"
+  "updated_at": "2026-11-18T15:26:47.312109+00:00"
 }
