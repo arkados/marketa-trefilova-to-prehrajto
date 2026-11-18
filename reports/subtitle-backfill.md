@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:16:05.663015+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:16:13.945392+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 551, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 146, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 552, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 145, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -96,7 +96,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [Crime 101 4K CZ Titulky](https://prehraj.to/crime-101-4k-cz-titulky-mkv/c0f3a2c7f8cfe178) (ID 31092791) | [Sdílej 35185544](https://sdilej.cz/35185544/crime-101-2026-2160p-web-dl-ddp5-1-x265-cz-sk-titulky-dop.-.mkv) | target_unavailable | 2026-11-16T14:44:28.778543+00:00 |
 | [Disturbia 1080p CZ Titulky](https://prehraj.to/disturbia-1080p-cz-titulky-mkv/44d408b374b25828) (ID 31083451) | [Sdílej 34714560](https://sdilej.cz/34714560/disturbia-2007-cz-en.mkv) | target_unavailable | 2026-11-16T05:07:12.791445+00:00 |
 | [Empties (Vratné lahve) 1080p CZ Titulky](https://prehraj.to/empties-vratne-lahve-1080p-cz-titulky-mkv/2fa38051e9b275cf) (ID 30938020) | [Sdílej 32453722](https://sdilej.cz/32453722/vratne-lahve-2007-fhd-cz.mkv) | target_unavailable | 2026-11-18T12:42:36.487068+00:00 |
-| [Enemy Mine 1080p CZ Titulky](https://prehraj.to/enemy-mine-1080p-cz-titulky-mkv/7b6ef8f13c6edbc7) (ID 31008155) | [Sdílej 14778688](https://sdilej.cz/14778688/muj-nepritel-1080p.-1985-brrip-ac3.czdab.mkv) | target_unavailable | 2026-11-13T02:23:00.210004+00:00 |
 | [Enola Holmes 2 1080p CZ Titulky](https://prehraj.to/enola-holmes-2-1080p-cz-titulky-mkv/b2c4680e2b15504c) (ID 31089623) | [Sdílej 23652012](https://sdilej.cz/23652012/enola.holmes.2.2022.1080p.nf.web-dl.ddp5.1.atmos.h.264-smurf.cz.titulky.mkv) | target_unavailable | 2026-11-16T10:52:31.877634+00:00 |
 | [Erin Brockovich 1080p CZ titulky](https://prehraj.to/erin-brockovich-1080p-cz-titulky-mkv/894daecd9c168ca1) (ID 30715404) | [Sdílej 19346570](https://sdilej.cz/19346570/erin.brockovich.2000.1080p.bluray.cz-en.5.1.mkv) | target_unavailable | 2026-11-18T12:50:33.452447+00:00 |
 | [Fack ju Göhte 1080p CZ Titulky](https://prehraj.to/fack-ju-goehte-1080p-cz-titulky-mkv/5fbcf6e92c7a2fb4) (ID 31009557) | [Sdílej 29043242](https://sdilej.cz/29043242/fakju-pane-uciteli.mkv) | target_unavailable | 2026-11-13T06:07:12.445204+00:00 |
