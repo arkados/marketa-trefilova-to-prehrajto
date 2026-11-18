@@ -630,7 +630,7 @@ Attach subtitles only after target processing has finished.
 | In the Shadows (Ve stínu) 1080p CZ titulky | 30994567 | https://sdilej.cz/18714751/ve.stinu.2012.1080p.mkv | Complete: Czech subtitles verified |
 | Action in the North Atlantic SD CZ titulky | 30995564 | https://sdilej.cz/20648681/action-in-the-north-atlantic-konvoj-do-murmanska-1943-dvdrip-720x576-mpeg2-audio-en-subtitles-cz.mkv | Complete: Czech subtitles verified |
 | Responsible Child 1080p CZ titulky | 30995865 | https://sdilej.cz/18700045/responsible.child.2019.1080p.webrip.titulky-cz.mkv | Complete: Czech subtitles verified |
-| Western 1080p CZ Titulky | 30996177 | https://sdilej.cz/19486059/hostiles-2017-western-hd-cz-dab-lum.mkv | Extract Czech track from exact source after processing |
+| Western 1080p CZ titulky | 30996177 | https://sdilej.cz/19486059/hostiles-2017-western-hd-cz-dab-lum.mkv | Complete: Czech subtitles verified |
 | Ronnie Coleman: The King 1080p CZ Titulky | 30996831 | https://sdilej.cz/11475864/ronnie-coleman-the-king-2018-cz-titulky-1080p-web-x264.mkv | Extract Czech track from exact source after processing |
 | The Blue Trail (O Último Azul) 1080p CZ Titulky | 30996874 | https://sdilej.cz/32938361/modrou-stezkou-2025-sci-fi-drama-fantasy-cztit-fhd.mkv | Extract Czech track from exact source after processing |
 | Falcon Lake 1080p CZ Titulky | 30997054 | https://sdilej.cz/35401837/falcon.lake.2022.french.1080p.webrip.x264-vxt.fr.cz.tit.mkv | Extract Czech track from exact source after processing |
