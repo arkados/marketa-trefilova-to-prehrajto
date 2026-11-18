@@ -173582,17 +173582,19 @@
       "attempts": []
     },
     "22785": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28527457",
+          "target_video_id": "31144725",
+          "permanent": false,
+          "attempted_at": "2026-11-18T09:22:32.529546+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28527457",
         "display_name": "F/X 1080p CZ Dabing",
         "planned_at": "2026-11-18T08:04:07.340460+00:00"
-      },
-      "claim": {
-        "worker_id": "ba96b5e0d3b14052992837d8a2075286-shard-0",
-        "claimed_at": "2026-11-18T08:04:10.374716+00:00",
-        "lease_expires_at": "2026-11-18T14:04:10.374716+00:00",
-        "run_id": "44237121625"
       },
       "previous_target_id": "31144725",
       "prepared": {
@@ -220810,5 +220812,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:17:20.094090+00:00"
+  "updated_at": "2026-11-18T09:22:32.529568+00:00"
 }
