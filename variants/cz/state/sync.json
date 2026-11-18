@@ -123314,6 +123314,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T20:10:08.286827+00:00",
         "relay_source_id": "33589689"
+      },
+      "claim": {
+        "worker_id": "74af81e8732440f28bcba84a07496ce1-shard-0",
+        "claimed_at": "2026-11-18T18:31:43.892582+00:00",
+        "lease_expires_at": "2026-11-19T00:31:43.892582+00:00",
+        "run_id": "44366936972"
       }
     },
     "27916": {
@@ -128340,7 +128346,7 @@
       "last_plan": {
         "source_id": "33885910",
         "display_name": "Les liaisons dangereuses (Dangerous Love Affairs) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:56:49.405011+00:00"
+        "planned_at": "2026-11-18T18:31:44.161567+00:00"
       },
       "previous_target_id": "30986630",
       "prepared": {
@@ -138423,13 +138429,6 @@
           "source_id": "35068840",
           "target_video_id": "30987861",
           "permanent": false,
-          "attempted_at": "2026-11-18T13:04:39.577093+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35068840",
-          "target_video_id": "30987861",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:25:25.643918+00:00"
         },
         {
@@ -138438,6 +138437,13 @@
           "target_video_id": "30987861",
           "permanent": false,
           "attempted_at": "2026-11-18T16:56:40.826812+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35068840",
+          "target_video_id": "30987861",
+          "permanent": false,
+          "attempted_at": "2026-11-18T18:31:45.056268+00:00"
         }
       ],
       "last_plan": {
@@ -138451,12 +138457,6 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T06:29:19.776162+00:00",
         "relay_source_id": "35068840"
-      },
-      "claim": {
-        "worker_id": "d1c9640de2a74ea1af2fe211f38716c4-shard-0",
-        "claimed_at": "2026-11-18T18:31:40.165832+00:00",
-        "lease_expires_at": "2026-11-19T00:31:40.165832+00:00",
-        "run_id": "44366936972"
       }
     },
     "11005": {
@@ -175784,7 +175784,7 @@
       "last_plan": {
         "source_id": "30800296",
         "display_name": "Holy Year (L'Année sainte) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T18:31:40.963259+00:00"
+        "planned_at": "2026-11-18T18:31:44.529134+00:00"
       }
     },
     "35398": {
@@ -222560,5 +222560,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T18:31:40.963276+00:00"
+  "updated_at": "2026-11-18T18:31:45.056290+00:00"
 }
