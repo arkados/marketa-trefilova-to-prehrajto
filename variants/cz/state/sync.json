@@ -148572,13 +148572,6 @@
           "source_id": "11948507",
           "target_video_id": "31016877",
           "permanent": false,
-          "attempted_at": "2026-11-18T09:40:35.656942+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11948507",
-          "target_video_id": "31016877",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:06:43.727089+00:00"
         },
         {
@@ -148587,12 +148580,19 @@
           "target_video_id": "31016877",
           "permanent": false,
           "attempted_at": "2026-11-18T12:27:18.382911+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11948507",
+          "target_video_id": "31016877",
+          "permanent": false,
+          "attempted_at": "2026-11-18T14:50:51.522022+00:00"
         }
       ],
       "last_plan": {
         "source_id": "11948507",
         "display_name": "Ein Sommer in Südfrankreich SD CZ Dabing",
-        "planned_at": "2026-11-18T12:27:13.978868+00:00"
+        "planned_at": "2026-11-18T14:50:48.368473+00:00"
       },
       "previous_target_id": "31016877",
       "prepared": {
@@ -174188,11 +174188,28 @@
       "last_plan": {
         "source_id": "11978852",
         "display_name": "Colette (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T14:50:39.322608+00:00"
+        "planned_at": "2026-11-18T14:50:48.735404+00:00"
+      },
+      "claim": {
+        "worker_id": "b2d45adebd134b8c8b91d049fa9107e6-shard-0",
+        "claimed_at": "2026-11-18T14:50:50.000693+00:00",
+        "lease_expires_at": "2026-11-18T20:50:50.000693+00:00",
+        "run_id": "44319849691"
       }
     },
     "3510": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11570978",
+        "display_name": "The Disappearance of Alice Creed 1080p CZ Dabing",
+        "planned_at": "2026-11-18T14:50:48.953746+00:00"
+      },
+      "claim": {
+        "worker_id": "e26e7ce8ce4f49c8843d2bf149efef84-shard-0",
+        "claimed_at": "2026-11-18T14:50:50.211243+00:00",
+        "lease_expires_at": "2026-11-18T20:50:50.211243+00:00",
+        "run_id": "44319849691"
+      }
     },
     "24746": {
       "attempts": []
@@ -174204,7 +174221,12 @@
       "attempts": []
     },
     "13745": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26220418",
+        "display_name": "Flawless 1080p CZ Dabing",
+        "planned_at": "2026-11-18T14:50:49.172705+00:00"
+      }
     },
     "32797": {
       "attempts": []
@@ -221249,5 +221271,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T14:50:44.878754+00:00"
+  "updated_at": "2026-11-18T14:50:51.522040+00:00"
 }
