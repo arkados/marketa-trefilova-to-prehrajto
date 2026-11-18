@@ -120348,13 +120348,6 @@
           "source_id": "12171968",
           "target_video_id": "30984999",
           "permanent": false,
-          "attempted_at": "2026-11-18T18:07:36.389754+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12171968",
-          "target_video_id": "30984999",
-          "permanent": false,
           "attempted_at": "2026-11-18T19:39:31.866579+00:00"
         },
         {
@@ -120363,12 +120356,19 @@
           "target_video_id": "30984999",
           "permanent": false,
           "attempted_at": "2026-11-18T21:13:03.651226+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12171968",
+          "target_video_id": "30984999",
+          "permanent": false,
+          "attempted_at": "2026-11-18T22:59:07.169117+00:00"
         }
       ],
       "last_plan": {
         "source_id": "12171968",
         "display_name": "The Diary of a Teenage Girl SD CZ Dabing",
-        "planned_at": "2026-11-18T21:12:58.643575+00:00"
+        "planned_at": "2026-11-18T22:59:04.420474+00:00"
       },
       "previous_target_id": "30984999",
       "prepared": {
@@ -177060,14 +177060,25 @@
       "last_plan": {
         "source_id": "31175554",
         "display_name": "The Vast of Night 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:58:57.286847+00:00"
+        "planned_at": "2026-11-18T22:59:04.760811+00:00"
+      },
+      "claim": {
+        "worker_id": "bbfeb79dd3b04e549bd9fb4c660a50a4-shard-0",
+        "claimed_at": "2026-11-18T22:59:05.730739+00:00",
+        "lease_expires_at": "2026-11-19T04:59:05.730739+00:00",
+        "run_id": "44406951430"
       }
     },
     "4972": {
       "attempts": []
     },
     "3462": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32457155",
+        "display_name": "Miracle on 34th Street (1994) 1080p CZ Dabing",
+        "planned_at": "2026-11-18T22:59:04.975961+00:00"
+      }
     },
     "3395": {
       "attempts": []
@@ -223659,5 +223670,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T22:59:00.963562+00:00"
+  "updated_at": "2026-11-18T22:59:07.169135+00:00"
 }
