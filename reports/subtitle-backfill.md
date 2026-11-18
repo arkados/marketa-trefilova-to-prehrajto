@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:16:42.815175+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:16:49.493778+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 555, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 142, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 556, `attached_verified`: 19, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 141, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -188,7 +188,6 @@ Kontrol: 19; odesláno: 2; potvrzeno: 1; zbývá k prověření nyní: 160. Dův
 | [The Ministry of Ungentlemanly Warfare 4K CZ Titulky](https://prehraj.to/the-ministry-of-ungentlemanly-warfare-4k-cz-titulky-mkv/61ae345d680615c2) (ID 31087606) | [Sdílej 29086282](https://sdilej.cz/29086282/the-ministry-of-ungentlemanly-warfare-2024-cztit-v-obraze-2160p.mkv) | target_unavailable | 2026-11-16T08:42:04.731439+00:00 |
 | [The Most Dangerous Game 1080p CZ titulky](https://prehraj.to/the-most-dangerous-game-1080p-cz-titulky-mkv/cea26b2b85836981) (ID 30987757) | [Sdílej 27648883](https://sdilej.cz/27648883/nejnebezpecnejsi-hra-1932-.mkv) | target_unavailable | 2026-11-18T13:02:11.908023+00:00 |
 | [The Murderer Hides His Face (Vrah skrývá tvář) 1080p CZ Titulky](https://prehraj.to/the-murderer-hides-his-face-vrah-skryva-tvar-1080p-cz-titulky-mkv/c8d47bac8742e79e) (ID 31026251) | [Sdílej 35079047](https://sdilej.cz/35079047/vrah-skryva-tvar-1966-hd.mkv) | target_unavailable | 2026-11-14T09:43:05.399694+00:00 |
-| [The Night Comes for Us 1080p CZ Titulky](https://prehraj.to/the-night-comes-for-us-1080p-cz-titulky-mkv/1d56fe292b5751a1) (ID 31010102) | [Sdílej 26970393](https://sdilej.cz/26970393/the-night-comes-for-us-2018-cz-sub-indonesian-1080p-nf-webrip-ddp5-1-x264.mkv) | target_unavailable | 2026-11-13T07:17:37.393585+00:00 |
 | [The Night of the 12th (La Nuit du 12) 1080p CZ titulky](https://prehraj.to/the-night-of-the-12th-la-nuit-du-12-1080p-cz-titulky-mkv/63f9f49f4c10fbe7) (ID 30988430) | [Sdílej 26365359](https://sdilej.cz/26365359/la-nuit-du-12-the-night-of-the-12th-2022-sktit-v-obraze-bluray-1080p.mkv) | target_unavailable | 2026-11-18T13:10:40.503299+00:00 |
 | [The Outrun 1080p CZ titulky](https://prehraj.to/the-outrun-1080p-cz-titulky-mkv/8f43c6e22bfac52c) (ID 31013953) | [Sdílej 30078440](https://sdilej.cz/30078440/the.outrun-2024-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-13T15:23:17.879665+00:00 |
 | [The Place SD CZ titulky](https://prehraj.to/the-place-sd-cz-titulky-mkv/89bc7215d78c8de2) (ID 30988255) | [Sdílej 9657833](https://sdilej.cz/9657833/misto-splnenych-prani-the-place-2017-cz-titulky.mkv) | target_unavailable | 2026-11-18T13:10:36.121160+00:00 |
