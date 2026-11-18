@@ -222,13 +222,6 @@
           "source_id": "26227362",
           "target_video_id": "30582771",
           "permanent": false,
-          "attempted_at": "2026-11-18T14:43:32.186530+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26227362",
-          "target_video_id": "30582771",
-          "permanent": false,
           "attempted_at": "2026-11-18T15:13:42.845147+00:00"
         },
         {
@@ -237,6 +230,13 @@
           "target_video_id": "30582771",
           "permanent": false,
           "attempted_at": "2026-11-18T15:44:04.202943+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26227362",
+          "target_video_id": "30582771",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:14:25.054956+00:00"
         }
       ],
       "last_plan": {
@@ -250,12 +250,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-10-28T09:35:24.990917+00:00",
         "relay_source_id": "26227362"
-      },
-      "claim": {
-        "worker_id": "9faad3afdfc44b5686509f80dc75d304-shard-0",
-        "claimed_at": "2026-11-18T16:14:20.623684+00:00",
-        "lease_expires_at": "2026-11-18T22:14:20.623684+00:00",
-        "run_id": "44319849691"
       }
     },
     "24": {
@@ -8309,6 +8303,12 @@
         "size_bytes": 18100000000,
         "prepared_at": "2026-11-01T00:33:09.657864+00:00",
         "relay_source_id": "32388547"
+      },
+      "claim": {
+        "worker_id": "f9bbf061ab1f4558b4aa40713b54889c-shard-0",
+        "claimed_at": "2026-11-18T16:14:25.151546+00:00",
+        "lease_expires_at": "2026-11-18T22:14:25.151546+00:00",
+        "run_id": "44319849691"
       }
     },
     "692": {
@@ -11591,7 +11591,7 @@
       "last_plan": {
         "source_id": "33537783",
         "display_name": "Juno 1080p CZ titulky",
-        "planned_at": "2026-11-18T15:44:08.313118+00:00"
+        "planned_at": "2026-11-18T16:14:26.015323+00:00"
       },
       "previous_target_id": "30747251",
       "prepared": {
@@ -100851,5 +100851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:14:21.904269+00:00"
+  "updated_at": "2026-11-18T16:14:26.015337+00:00"
 }
