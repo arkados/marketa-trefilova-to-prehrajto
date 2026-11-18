@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-18T23:06:41.379858+00:00
+Poslední aktualizace (UTC): 2026-11-18T23:06:50.701941+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 541, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 158, `upload_unconfirmed`: 6
+Stavy: `already_has_czech`: 542, `attached_verified`: 18, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 157, `upload_unconfirmed`: 6
 
 ## Poslední dávka
 
@@ -113,7 +113,6 @@ Kontrol: 1; odesláno: 0; potvrzeno: 0; zbývá k prověření nyní: 179. Důvo
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
 | [Goya's Ghosts 1080p CZ Titulky](https://prehraj.to/goya-s-ghosts-1080p-cz-titulky-mkv/ec0601bdb13bfd2b) (ID 31010194) | [Sdílej 34683084](https://sdilej.cz/34683084/goyovy-prizraky-drama-j.bardem-n.-portman-2006-cztit.1080p.bluray.mkv) | target_unavailable | 2026-11-13T07:37:29.825605+00:00 |
 | [Green Book 1080p](https://prehraj.to/green-book-mp4/2e88bec948b595b6) (ID 30609217) | [Sdílej 31912774](https://sdilej.cz/31912774/green.book.2018.1080p.bluray.h264.aac-rarbg.mp4) | target_unavailable | 2026-11-18T12:50:52.390277+00:00 |
-| [Green Room 1080p CZ Titulky](https://prehraj.to/green-room-1080p-cz-titulky-mkv/e0dda85f61c4924e) (ID 31005872) | [Sdílej 6122354](https://sdilej.cz/6122354/green-room-2015-titulky.cz-1080p.h264.mkv) | target_unavailable | 2026-11-12T20:51:20.850516+00:00 |
 | [How I Became a Gangster (Jak zostalem gangsterem. Historia prawdziwa) 1080p CZ Titulky](https://prehraj.to/how-i-became-a-gangster-jak-zostalem-gangsterem-historia-prawdziwa-1080p-cz-titulky-mkv/eac6b5d7ef9dc2b1) (ID 31021388) | [Sdílej 24575270](https://sdilej.cz/24575270/jak-jsem-se-stal-gangsterem-webrip-pl-en-tit-cz.mkv) | target_unavailable | 2026-11-13T23:28:50.890647+00:00 |
 | [I Am Bolt SD CZ titulky](https://prehraj.to/i-am-bolt-sd-cz-titulky-mkv/150f3b94081bd3d1) (ID 30984744) | [Sdílej 7004752](https://sdilej.cz/7004752/i-am-bolt-2016-titulky.cz.mkv) | target_unavailable | 2026-11-18T13:01:19.681212+00:00 |
 | [I See You 1080p CZ titulky](https://prehraj.to/i-see-you-1080p-cz-titulky-mkv/19ae6e9751c99ab1) (ID 31093833) | [Sdílej 33237368](https://sdilej.cz/33237368/i.see.you.2019.1080p.bluray.dl.ac3.x264-majo.mkv) | target_unavailable | 2026-11-16T16:05:01.673159+00:00 |
