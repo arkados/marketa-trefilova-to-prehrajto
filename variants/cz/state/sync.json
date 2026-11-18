@@ -134341,13 +134341,6 @@
           "source_id": "23221863",
           "target_video_id": "30987417",
           "permanent": false,
-          "attempted_at": "2026-11-18T07:37:45.903703+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23221863",
-          "target_video_id": "30987417",
-          "permanent": false,
           "attempted_at": "2026-11-18T09:10:34.834597+00:00"
         },
         {
@@ -134356,6 +134349,13 @@
           "target_video_id": "30987417",
           "permanent": false,
           "attempted_at": "2026-11-18T10:43:30.395383+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23221863",
+          "target_video_id": "30987417",
+          "permanent": false,
+          "attempted_at": "2026-11-18T12:11:06.563280+00:00"
         }
       ],
       "last_plan": {
@@ -144232,7 +144232,7 @@
       "last_plan": {
         "source_id": "34679715",
         "display_name": "Milan Rastislav Štefánik 1080p CZ Dabing",
-        "planned_at": "2026-11-18T10:43:29.741898+00:00"
+        "planned_at": "2026-11-18T12:11:05.042942+00:00"
       },
       "previous_target_id": "30988789",
       "prepared": {
@@ -144240,6 +144240,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-11T10:01:18.033034+00:00",
         "relay_source_id": "34679715"
+      },
+      "claim": {
+        "worker_id": "30d98db8c40047d6a8b9c0145145e442-shard-0",
+        "claimed_at": "2026-11-18T12:11:05.973010+00:00",
+        "lease_expires_at": "2026-11-18T18:11:05.973010+00:00",
+        "run_id": "44276193396"
       }
     },
     "15443": {
@@ -173950,7 +173956,7 @@
       "last_plan": {
         "source_id": "34454587",
         "display_name": "Starter for 10 1080p CZ Dabing",
-        "planned_at": "2026-11-18T12:11:01.002527+00:00"
+        "planned_at": "2026-11-18T12:11:05.358941+00:00"
       }
     },
     "28475": {
@@ -221038,5 +221044,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T12:11:01.253646+00:00"
+  "updated_at": "2026-11-18T12:11:06.563298+00:00"
 }
