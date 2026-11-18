@@ -110746,7 +110746,7 @@
       "last_plan": {
         "source_id": "27514628",
         "display_name": "Let's All Sing Around (Pějme píseň dohola) SD CZ Dabing",
-        "planned_at": "2026-11-18T14:46:32.056403+00:00"
+        "planned_at": "2026-11-18T16:21:37.238398+00:00"
       },
       "previous_target_id": "30983750",
       "prepared": {
@@ -135892,13 +135892,6 @@
           "source_id": "34515639",
           "target_video_id": "30987605",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:58:01.777629+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34515639",
-          "target_video_id": "30987605",
-          "permanent": false,
           "attempted_at": "2026-11-18T12:22:49.772101+00:00"
         },
         {
@@ -135907,6 +135900,13 @@
           "target_video_id": "30987605",
           "permanent": false,
           "attempted_at": "2026-11-18T14:46:33.693721+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34515639",
+          "target_video_id": "30987605",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:21:38.441774+00:00"
         }
       ],
       "last_plan": {
@@ -174658,17 +174658,19 @@
       "attempts": []
     },
     "3229": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27876689",
+          "target_video_id": "31155232",
+          "permanent": false,
+          "attempted_at": "2026-11-18T16:21:38.751641+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27876689",
         "display_name": "Reality (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-18T16:19:42.691729+00:00"
-      },
-      "claim": {
-        "worker_id": "63ba85eca7b8427f98ecac127d4f8caa-shard-0",
-        "claimed_at": "2026-11-18T16:19:44.011132+00:00",
-        "lease_expires_at": "2026-11-18T22:19:44.011132+00:00",
-        "run_id": "44319849691"
       },
       "previous_target_id": "31155232",
       "prepared": {
@@ -174683,7 +174685,7 @@
       "last_plan": {
         "source_id": "18079003",
         "display_name": "Missing Link (2019) [ID 29494] 1080p CZ Dabing",
-        "planned_at": "2026-11-18T16:21:33.621718+00:00"
+        "planned_at": "2026-11-18T16:21:38.027030+00:00"
       }
     },
     "13632": {
@@ -221657,5 +221659,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T16:21:33.621736+00:00"
+  "updated_at": "2026-11-18T16:21:38.751659+00:00"
 }
