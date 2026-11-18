@@ -119334,13 +119334,6 @@
           "source_id": "33730079",
           "target_video_id": "30984911",
           "permanent": false,
-          "attempted_at": "2026-11-18T16:56:06.120177+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33730079",
-          "target_video_id": "30984911",
-          "permanent": false,
           "attempted_at": "2026-11-18T18:31:09.886987+00:00"
         },
         {
@@ -119349,6 +119342,13 @@
           "target_video_id": "30984911",
           "permanent": false,
           "attempted_at": "2026-11-18T20:05:31.558676+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33730079",
+          "target_video_id": "30984911",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:36:14.979000+00:00"
         }
       ],
       "last_plan": {
@@ -143979,7 +143979,7 @@
       "last_plan": {
         "source_id": "34661764",
         "display_name": "Past 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:05:30.983976+00:00"
+        "planned_at": "2026-11-18T21:36:13.395067+00:00"
       },
       "previous_target_id": "30988695",
       "prepared": {
@@ -143987,6 +143987,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T09:26:47.795965+00:00",
         "relay_source_id": "34661764"
+      },
+      "claim": {
+        "worker_id": "8dc8b9437be841a48930cafce52a8996-shard-0",
+        "claimed_at": "2026-11-18T21:36:14.320406+00:00",
+        "lease_expires_at": "2026-11-19T03:36:14.320406+00:00",
+        "run_id": "44366936972"
       }
     },
     "35624": {
@@ -176696,7 +176702,7 @@
       "last_plan": {
         "source_id": "33776695",
         "display_name": "The Salvation 1080p CZ Dabing",
-        "planned_at": "2026-11-18T21:36:10.230304+00:00"
+        "planned_at": "2026-11-18T21:36:13.714923+00:00"
       }
     },
     "33704": {
@@ -223352,5 +223358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:36:10.481624+00:00"
+  "updated_at": "2026-11-18T21:36:14.979018+00:00"
 }
