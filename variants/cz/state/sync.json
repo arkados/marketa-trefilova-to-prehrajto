@@ -134868,6 +134868,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T05:01:41.646370+00:00",
         "relay_source_id": "33494979"
+      },
+      "claim": {
+        "worker_id": "685bc0977f6a4de59be22a3f87dda332-shard-0",
+        "claimed_at": "2026-11-18T00:16:10.951445+00:00",
+        "lease_expires_at": "2026-11-18T06:16:10.951445+00:00",
+        "run_id": "44170464010"
       }
     },
     "11032": {
@@ -172001,17 +172007,19 @@
       "attempts": []
     },
     "10135": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32150899",
+          "target_video_id": "31134111",
+          "permanent": false,
+          "attempted_at": "2026-11-18T00:16:11.153770+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32150899",
         "display_name": "Muzzikanti SD CZ Dabing",
         "planned_at": "2026-11-18T00:12:01.144707+00:00"
-      },
-      "claim": {
-        "worker_id": "725b467ede9842ea98acde21bbd4cf5e-shard-0",
-        "claimed_at": "2026-11-18T00:12:02.468314+00:00",
-        "lease_expires_at": "2026-11-18T06:12:02.468314+00:00",
-        "run_id": "44170464010"
       },
       "previous_target_id": "31134111",
       "prepared": {
@@ -219406,5 +219414,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T00:16:08.300346+00:00"
+  "updated_at": "2026-11-18T00:16:11.153791+00:00"
 }
