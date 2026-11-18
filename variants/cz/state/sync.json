@@ -176720,17 +176720,19 @@
       "attempts": []
     },
     "23816": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29133513",
+          "target_video_id": "31160845",
+          "permanent": false,
+          "attempted_at": "2026-11-18T21:48:47.835585+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29133513",
         "display_name": "The Horse Whisperer 1080p CZ Dabing",
         "planned_at": "2026-11-18T21:42:10.016492+00:00"
-      },
-      "claim": {
-        "worker_id": "ae72b8ee94204f27ba2441cbe96a9898-shard-0",
-        "claimed_at": "2026-11-18T21:42:13.255242+00:00",
-        "lease_expires_at": "2026-11-19T03:42:13.255242+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31160845",
       "prepared": {
@@ -223392,5 +223394,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T21:48:45.230103+00:00"
+  "updated_at": "2026-11-18T21:48:47.835605+00:00"
 }
