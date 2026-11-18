@@ -137448,7 +137448,7 @@
       "last_plan": {
         "source_id": "33708412",
         "display_name": "Léto s kovbojem 1080p CZ Dabing",
-        "planned_at": "2026-11-18T19:10:44.741861+00:00"
+        "planned_at": "2026-11-18T20:48:11.510949+00:00"
       },
       "previous_target_id": "30987773",
       "prepared": {
@@ -137456,6 +137456,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:00:19.379476+00:00",
         "relay_source_id": "33708412"
+      },
+      "claim": {
+        "worker_id": "79aa4452e28d4dd5a8389dfec504f31b-shard-0",
+        "claimed_at": "2026-11-18T20:48:12.444326+00:00",
+        "lease_expires_at": "2026-11-19T02:48:12.444326+00:00",
+        "run_id": "44366936972"
       }
     },
     "12203": {
@@ -176387,17 +176393,19 @@
       "attempts": []
     },
     "3541": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31215691",
+          "target_video_id": "31159575",
+          "permanent": false,
+          "attempted_at": "2026-11-18T20:48:12.741426+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31215691",
         "display_name": "Spun 1080p CZ Dabing",
         "planned_at": "2026-11-18T20:43:47.061509+00:00"
-      },
-      "claim": {
-        "worker_id": "a5ae60b7d3354dfe8f44dd7253a5ed29-shard-0",
-        "claimed_at": "2026-11-18T20:43:50.382052+00:00",
-        "lease_expires_at": "2026-11-19T02:43:50.382052+00:00",
-        "run_id": "44366936972"
       },
       "previous_target_id": "31159575",
       "prepared": {
@@ -176412,7 +176420,7 @@
       "last_plan": {
         "source_id": "33725511",
         "display_name": "The Curse of the Jade Scorpion 1080p CZ Dabing",
-        "planned_at": "2026-11-18T20:48:08.452663+00:00"
+        "planned_at": "2026-11-18T20:48:11.904864+00:00"
       }
     },
     "37446": {
@@ -223116,5 +223124,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T20:48:09.275673+00:00"
+  "updated_at": "2026-11-18T20:48:12.741441+00:00"
 }
