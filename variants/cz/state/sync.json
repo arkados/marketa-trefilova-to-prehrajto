@@ -109919,6 +109919,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T14:33:23.958784+00:00",
         "relay_source_id": "25985391"
+      },
+      "claim": {
+        "worker_id": "2b34a32c00384ec48c0e7de438a6b92d-shard-0",
+        "claimed_at": "2026-11-18T17:15:32.575401+00:00",
+        "lease_expires_at": "2026-11-18T23:15:32.575401+00:00",
+        "run_id": "44319849691"
       }
     },
     "10851": {
@@ -174345,17 +174351,23 @@
           "attempted_at": "2026-11-18T15:41:11.636453+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "26220418",
-        "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:38:21.378433+00:00"
-      },
       "previous_target_id": "31154556",
-      "prepared": {
+      "upload": {
         "target_video_id": "31154556",
-        "size_bytes": 2382576159,
-        "prepared_at": "2026-11-18T15:38:28.304785+00:00",
-        "relay_source_id": "26220418"
+        "display_name": "Flawless 1080p CZ Dabing",
+        "source_id": "26220418",
+        "source_url": "https://sdilej.cz/26220418/brilantni-plan-2007-.mkv",
+        "source_filename": "Brilantni plan (2007).mkv",
+        "size_bytes": 2400000000,
+        "width": 1920,
+        "height": 816,
+        "audio_language": "cs",
+        "language_probability": 0.9740310907363892,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/flawless-1080p-cz-dabing-mkv/883130e9c0c97368",
+        "uploaded_at": "2026-11-18T17:15:36.412542+00:00"
       }
     },
     "32797": {
@@ -175151,7 +175163,7 @@
       "last_plan": {
         "source_id": "27036851",
         "display_name": "Return to Oz 1080p CZ Dabing",
-        "planned_at": "2026-11-18T17:15:29.878363+00:00"
+        "planned_at": "2026-11-18T17:15:33.294678+00:00"
       }
     },
     "20369": {
@@ -222026,5 +222038,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T17:15:29.878396+00:00"
+  "updated_at": "2026-11-18T17:15:36.412554+00:00"
 }
