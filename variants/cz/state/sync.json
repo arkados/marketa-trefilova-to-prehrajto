@@ -8586,13 +8586,6 @@
           "source_id": "28293597",
           "target_video_id": "30631236",
           "permanent": false,
-          "attempted_at": "2026-11-18T10:00:40.102636+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28293597",
-          "target_video_id": "30631236",
-          "permanent": false,
           "attempted_at": "2026-11-18T11:28:34.413520+00:00"
         },
         {
@@ -8601,6 +8594,13 @@
           "target_video_id": "30631236",
           "permanent": false,
           "attempted_at": "2026-11-18T12:59:34.203084+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28293597",
+          "target_video_id": "30631236",
+          "permanent": false,
+          "attempted_at": "2026-11-18T15:25:32.398509+00:00"
         }
       ],
       "last_plan": {
@@ -8614,12 +8614,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
-      },
-      "claim": {
-        "worker_id": "736d07d0eb484c51a50d95db7b3ee393-shard-0",
-        "claimed_at": "2026-11-18T15:22:22.666754+00:00",
-        "lease_expires_at": "2026-11-18T21:22:22.666754+00:00",
-        "run_id": "44319849691"
       }
     },
     "29922": {
@@ -123302,7 +123296,7 @@
       "last_plan": {
         "source_id": "33589689",
         "display_name": "Paris 1080p CZ Dabing",
-        "planned_at": "2026-11-18T13:04:40.404697+00:00"
+        "planned_at": "2026-11-18T15:25:30.120139+00:00"
       },
       "previous_target_id": "30985541",
       "prepared": {
@@ -123310,6 +123304,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T20:10:08.286827+00:00",
         "relay_source_id": "33589689"
+      },
+      "claim": {
+        "worker_id": "165f44f79f6c4cd1a7cbb0753799178b-shard-0",
+        "claimed_at": "2026-11-18T15:25:31.920661+00:00",
+        "lease_expires_at": "2026-11-18T21:25:31.920661+00:00",
+        "run_id": "44319849691"
       }
     },
     "27916": {
@@ -174276,7 +174276,7 @@
       "last_plan": {
         "source_id": "26220418",
         "display_name": "Flawless 1080p CZ Dabing",
-        "planned_at": "2026-11-18T15:25:22.686068+00:00"
+        "planned_at": "2026-11-18T15:25:30.748047+00:00"
       }
     },
     "32797": {
@@ -221322,5 +221322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-18T15:25:25.643934+00:00"
+  "updated_at": "2026-11-18T15:25:32.398532+00:00"
 }
