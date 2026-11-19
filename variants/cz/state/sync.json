@@ -110527,6 +110527,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T14:40:48.261346+00:00",
         "relay_source_id": "34885981"
+      },
+      "claim": {
+        "worker_id": "cc50e3233ec8495aa3f95c09d903fdb6-shard-0",
+        "claimed_at": "2026-11-19T22:19:21.101237+00:00",
+        "lease_expires_at": "2026-11-20T04:19:21.101237+00:00",
+        "run_id": "44616581853"
       }
     },
     "1992": {
@@ -124706,13 +124712,6 @@
           "source_id": "20827767",
           "target_video_id": "30985751",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:27:06.548637+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20827767",
-          "target_video_id": "30985751",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:49:20.279117+00:00"
         },
         {
@@ -124721,6 +124720,13 @@
           "target_video_id": "30985751",
           "permanent": false,
           "attempted_at": "2026-11-19T20:13:04.890083+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20827767",
+          "target_video_id": "30985751",
+          "permanent": false,
+          "attempted_at": "2026-11-19T22:19:22.122362+00:00"
         }
       ],
       "last_plan": {
@@ -124734,12 +124740,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:39:28.502583+00:00",
         "relay_source_id": "20827767"
-      },
-      "claim": {
-        "worker_id": "039c710eb770422b891031eb5446b3fc-shard-0",
-        "claimed_at": "2026-11-19T22:19:17.683159+00:00",
-        "lease_expires_at": "2026-11-20T04:19:17.683159+00:00",
-        "run_id": "44616581853"
       }
     },
     "22167": {
@@ -144999,7 +144999,7 @@
       "last_plan": {
         "source_id": "35428807",
         "display_name": "Murders in Valenciennes (Les Disparus de Valenciennes) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:13:09.596128+00:00"
+        "planned_at": "2026-11-19T22:19:21.360066+00:00"
       },
       "previous_target_id": "30990277",
       "prepared": {
@@ -181526,7 +181526,7 @@
       "last_plan": {
         "source_id": "32991102",
         "display_name": "Death Becomes Her 4K CZ Dabing",
-        "planned_at": "2026-11-19T22:19:18.230328+00:00"
+        "planned_at": "2026-11-19T22:19:21.673830+00:00"
       }
     },
     "3188": {
@@ -227534,5 +227534,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:19:18.662388+00:00"
+  "updated_at": "2026-11-19T22:19:22.122378+00:00"
 }
