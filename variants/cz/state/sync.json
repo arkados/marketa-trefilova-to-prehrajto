@@ -177912,17 +177912,19 @@
       "attempts": []
     },
     "3354": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14775256",
+          "target_video_id": "31168226",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:27:43.547915+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14775256",
         "display_name": "Hillbilly Elegy 1080p CZ Dabing",
         "planned_at": "2026-11-19T03:20:51.067824+00:00"
-      },
-      "claim": {
-        "worker_id": "dcad2df510ca4e979a4c3c7fd8b70f5f-shard-0",
-        "claimed_at": "2026-11-19T03:20:51.699019+00:00",
-        "lease_expires_at": "2026-11-19T09:20:51.699019+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31168226",
       "prepared": {
@@ -224410,5 +224412,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:27:39.259411+00:00"
+  "updated_at": "2026-11-19T03:27:43.547930+00:00"
 }
