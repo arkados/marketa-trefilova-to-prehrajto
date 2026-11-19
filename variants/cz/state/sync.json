@@ -111737,13 +111737,6 @@
           "source_id": "34733928",
           "target_video_id": "30983808",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:44:21.888695+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34733928",
-          "target_video_id": "30983808",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:14:47.636254+00:00"
         },
         {
@@ -111752,6 +111745,13 @@
           "target_video_id": "30983808",
           "permanent": false,
           "attempted_at": "2026-11-19T17:43:24.896623+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34733928",
+          "target_video_id": "30983808",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:07:23.540536+00:00"
         }
       ],
       "last_plan": {
@@ -134642,7 +134642,7 @@
       "last_plan": {
         "source_id": "34676079",
         "display_name": "Madla z cihelny 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:43:24.711655+00:00"
+        "planned_at": "2026-11-19T19:07:22.254453+00:00"
       },
       "previous_target_id": "30987477",
       "prepared": {
@@ -134650,6 +134650,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:52:55.769930+00:00",
         "relay_source_id": "34676079"
+      },
+      "claim": {
+        "worker_id": "538534ae043340a88f0dedde614695be-shard-0",
+        "claimed_at": "2026-11-19T19:07:22.982679+00:00",
+        "lease_expires_at": "2026-11-20T01:07:22.982679+00:00",
+        "run_id": "44531372417"
       }
     },
     "24448": {
@@ -180497,7 +180503,7 @@
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:07:19.702672+00:00"
+        "planned_at": "2026-11-19T19:07:22.507105+00:00"
       }
     },
     "29312": {
@@ -226622,5 +226628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:07:19.702692+00:00"
+  "updated_at": "2026-11-19T19:07:23.540556+00:00"
 }
