@@ -61435,13 +61435,6 @@
           "source_id": "27476888",
           "target_video_id": "30803427",
           "permanent": false,
-          "attempted_at": "2026-11-19T12:42:11.079900+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27476888",
-          "target_video_id": "30803427",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:15:21.395254+00:00"
         },
         {
@@ -61450,6 +61443,13 @@
           "target_video_id": "30803427",
           "permanent": false,
           "attempted_at": "2026-11-19T15:46:18.902697+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27476888",
+          "target_video_id": "30803427",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:20:57.614612+00:00"
         }
       ],
       "last_plan": {
@@ -108197,7 +108197,7 @@
       "last_plan": {
         "source_id": "31501454",
         "display_name": "Of Parents and Children (O rodičích a dětech) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:46:18.488013+00:00"
+        "planned_at": "2026-11-19T17:20:56.101496+00:00"
       },
       "previous_target_id": "30983493",
       "prepared": {
@@ -108205,6 +108205,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-10T14:08:24.537660+00:00",
         "relay_source_id": "31501454"
+      },
+      "claim": {
+        "worker_id": "187d3e6ba6ad4c0c9f3922704f7ad2fb-shard-0",
+        "claimed_at": "2026-11-19T17:20:56.830865+00:00",
+        "lease_expires_at": "2026-11-19T23:20:56.830865+00:00",
+        "run_id": "44531372417"
       }
     },
     "24483": {
@@ -179953,7 +179959,7 @@
       "last_plan": {
         "source_id": "30700240",
         "display_name": "Suspiria (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:20:53.242175+00:00"
+        "planned_at": "2026-11-19T17:20:56.349944+00:00"
       }
     },
     "3372": {
@@ -226153,5 +226159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:20:53.456676+00:00"
+  "updated_at": "2026-11-19T17:20:57.614633+00:00"
 }
