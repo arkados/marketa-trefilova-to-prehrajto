@@ -8673,13 +8673,6 @@
           "source_id": "17777440",
           "target_video_id": "30631282",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:06:14.181935+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17777440",
-          "target_video_id": "30631282",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:49:38.469414+00:00"
         },
         {
@@ -8688,6 +8681,13 @@
           "target_video_id": "30631282",
           "permanent": false,
           "attempted_at": "2026-11-19T01:19:27.842993+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17777440",
+          "target_video_id": "30631282",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:20:10.074033+00:00"
         }
       ],
       "last_plan": {
@@ -8701,12 +8701,6 @@
         "size_bytes": 6600000000,
         "prepared_at": "2026-10-30T10:45:50.836354+00:00",
         "relay_source_id": "17777440"
-      },
-      "claim": {
-        "worker_id": "daf81063b1b84dfda5b72995366199b4-shard-0",
-        "claimed_at": "2026-11-19T03:20:05.293992+00:00",
-        "lease_expires_at": "2026-11-19T09:20:05.293992+00:00",
-        "run_id": "44447775933"
       }
     },
     "21873": {
@@ -115372,7 +115366,7 @@
       "last_plan": {
         "source_id": "28364650",
         "display_name": "Jay and Silent Bob Strike Back 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:19:27.161424+00:00"
+        "planned_at": "2026-11-19T03:20:09.128303+00:00"
       },
       "previous_target_id": "30984531",
       "prepared": {
@@ -115380,6 +115374,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:42:37.453998+00:00",
         "relay_source_id": "28364650"
+      },
+      "claim": {
+        "worker_id": "6859e40d0a3c403da53d1f53c2928dde-shard-0",
+        "claimed_at": "2026-11-19T03:20:09.674262+00:00",
+        "lease_expires_at": "2026-11-19T09:20:09.674262+00:00",
+        "run_id": "44447775933"
       }
     },
     "2818": {
@@ -177920,7 +177920,7 @@
       "last_plan": {
         "source_id": "14775256",
         "display_name": "Hillbilly Elegy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:20:04.951783+00:00"
+        "planned_at": "2026-11-19T03:20:09.341664+00:00"
       }
     },
     "25133": {
@@ -224396,5 +224396,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:20:06.094327+00:00"
+  "updated_at": "2026-11-19T03:20:10.074051+00:00"
 }
