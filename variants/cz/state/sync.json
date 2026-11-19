@@ -132822,13 +132822,6 @@
           "source_id": "17465562",
           "target_video_id": "30987160",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:14:38.579440+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17465562",
-          "target_video_id": "30987160",
-          "permanent": false,
           "attempted_at": "2026-11-19T11:49:10.223705+00:00"
         },
         {
@@ -132837,6 +132830,13 @@
           "target_video_id": "30987160",
           "permanent": false,
           "attempted_at": "2026-11-19T13:41:28.515012+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17465562",
+          "target_video_id": "30987160",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:17:11.798668+00:00"
         }
       ],
       "last_plan": {
@@ -134137,7 +134137,7 @@
       "last_plan": {
         "source_id": "26710573",
         "display_name": "Requiem 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:41:27.838591+00:00"
+        "planned_at": "2026-11-19T15:17:10.018752+00:00"
       },
       "previous_target_id": "30987368",
       "prepared": {
@@ -134145,6 +134145,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T04:26:03.641359+00:00",
         "relay_source_id": "26710573"
+      },
+      "claim": {
+        "worker_id": "f44a9ff6af824aa891f73b93005abda1-shard-0",
+        "claimed_at": "2026-11-19T15:17:11.372241+00:00",
+        "lease_expires_at": "2026-11-19T21:17:11.372241+00:00",
+        "run_id": "44524452534"
       }
     },
     "32779": {
@@ -179607,7 +179613,7 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:17:07.219041+00:00"
+        "planned_at": "2026-11-19T15:17:10.398287+00:00"
       }
     },
     "3312": {
@@ -225849,5 +225855,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:17:07.219059+00:00"
+  "updated_at": "2026-11-19T15:17:11.798688+00:00"
 }
