@@ -119116,13 +119116,6 @@
           "source_id": "11130470",
           "target_video_id": "30984884",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:46:07.656356+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11130470",
-          "target_video_id": "30984884",
-          "permanent": false,
           "attempted_at": "2026-11-19T09:41:51.790027+00:00"
         },
         {
@@ -119131,6 +119124,13 @@
           "target_video_id": "30984884",
           "permanent": false,
           "attempted_at": "2026-11-19T11:16:02.620560+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11130470",
+          "target_video_id": "30984884",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:12:05.813290+00:00"
         }
       ],
       "last_plan": {
@@ -125010,7 +125010,7 @@
       "last_plan": {
         "source_id": "14593132",
         "display_name": "The Suspect (YongUiJa) SD CZ Dabing",
-        "planned_at": "2026-11-19T11:16:04.868054+00:00"
+        "planned_at": "2026-11-19T13:12:04.280905+00:00"
       },
       "previous_target_id": "30985771",
       "prepared": {
@@ -125018,6 +125018,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T21:47:01.509241+00:00",
         "relay_source_id": "14593132"
+      },
+      "claim": {
+        "worker_id": "9fe16a4b10064780980e37d86c1d0da7-shard-0",
+        "claimed_at": "2026-11-19T13:12:05.525071+00:00",
+        "lease_expires_at": "2026-11-19T19:12:05.525071+00:00",
+        "run_id": "44524452534"
       }
     },
     "3019": {
@@ -179394,6 +179400,12 @@
         "source_id": "34402994",
         "display_name": "Killer Joe 1080p CZ Dabing",
         "planned_at": "2026-11-19T13:12:00.856043+00:00"
+      },
+      "claim": {
+        "worker_id": "0e9473370be6418fafb6180b6491d69d-shard-0",
+        "claimed_at": "2026-11-19T13:12:04.009907+00:00",
+        "lease_expires_at": "2026-11-19T19:12:04.009907+00:00",
+        "run_id": "44524452534"
       }
     },
     "4193": {
@@ -179407,7 +179419,7 @@
       "last_plan": {
         "source_id": "21485649",
         "display_name": "Good Boys 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:12:01.360358+00:00"
+        "planned_at": "2026-11-19T13:12:04.649304+00:00"
       }
     },
     "11549": {
@@ -225673,5 +225685,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:12:01.360376+00:00"
+  "updated_at": "2026-11-19T13:12:05.813313+00:00"
 }
