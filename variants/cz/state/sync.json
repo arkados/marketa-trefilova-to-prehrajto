@@ -108356,13 +108356,6 @@
           "source_id": "35066259",
           "target_video_id": "30983517",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:59:44.998987+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066259",
-          "target_video_id": "30983517",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:54:10.581057+00:00"
         },
         {
@@ -108371,6 +108364,13 @@
           "target_video_id": "30983517",
           "permanent": false,
           "attempted_at": "2026-11-19T14:28:13.069424+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066259",
+          "target_video_id": "30983517",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:58:52.648217+00:00"
         }
       ],
       "last_plan": {
@@ -108384,12 +108384,6 @@
         "size_bytes": 734000000,
         "prepared_at": "2026-11-10T14:14:46.316259+00:00",
         "relay_source_id": "35066259"
-      },
-      "claim": {
-        "worker_id": "360d68cd51e841bdacec7d8e0bd6a78f-shard-0",
-        "claimed_at": "2026-11-19T15:58:48.694986+00:00",
-        "lease_expires_at": "2026-11-19T21:58:48.694986+00:00",
-        "run_id": "44524452534"
       }
     },
     "21182": {
@@ -147680,7 +147674,7 @@
       "last_plan": {
         "source_id": "12863543",
         "display_name": "Taxi 121 SD CZ Dabing",
-        "planned_at": "2026-11-19T14:28:11.233915+00:00"
+        "planned_at": "2026-11-19T15:58:51.717828+00:00"
       },
       "previous_target_id": "30999429",
       "prepared": {
@@ -179666,17 +179660,19 @@
       }
     },
     "3312": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31037233",
+          "target_video_id": "31186313",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:58:53.325372+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31037233",
         "display_name": "Fresh (2022) 1080p CZ Dabing",
         "planned_at": "2026-11-19T15:39:35.714411+00:00"
-      },
-      "claim": {
-        "worker_id": "e6efe9974d4e4379b4f87d0fe2c76b0d-shard-0",
-        "claimed_at": "2026-11-19T15:39:38.917738+00:00",
-        "lease_expires_at": "2026-11-19T21:39:38.917738+00:00",
-        "run_id": "44524452534"
       },
       "previous_target_id": "31186313",
       "prepared": {
@@ -179691,7 +179687,7 @@
       "last_plan": {
         "source_id": "31769735",
         "display_name": "Stay 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:58:48.001883+00:00"
+        "planned_at": "2026-11-19T15:58:52.370341+00:00"
       }
     },
     "12546": {
@@ -225927,5 +225923,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:58:49.297569+00:00"
+  "updated_at": "2026-11-19T15:58:53.325391+00:00"
 }
