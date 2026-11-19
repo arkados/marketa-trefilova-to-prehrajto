@@ -112094,6 +112094,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T14:54:38.256137+00:00",
         "relay_source_id": "34903816"
+      },
+      "claim": {
+        "worker_id": "61675e27a2af48be9d455d4875f53be3-shard-0",
+        "claimed_at": "2026-11-19T17:58:42.505672+00:00",
+        "lease_expires_at": "2026-11-19T23:58:42.505672+00:00",
+        "run_id": "44531372417"
       }
     },
     "11021": {
@@ -130385,7 +130391,7 @@
       "last_plan": {
         "source_id": "32368628",
         "display_name": "Hogo fogo Homolka 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:29:12.225811+00:00"
+        "planned_at": "2026-11-19T17:58:43.021614+00:00"
       },
       "previous_target_id": "30986898",
       "prepared": {
@@ -130393,6 +130399,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T02:34:53.801831+00:00",
         "relay_source_id": "32368628"
+      },
+      "claim": {
+        "worker_id": "d8e1b6e4011c45e1889e2b28bb885eaf-shard-0",
+        "claimed_at": "2026-11-19T17:58:43.675936+00:00",
+        "lease_expires_at": "2026-11-19T23:58:43.675936+00:00",
+        "run_id": "44531372417"
       }
     },
     "12672": {
@@ -180026,17 +180038,19 @@
       "attempts": []
     },
     "3176": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31751351",
+          "target_video_id": "31188534",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:58:44.002011+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31751351",
         "display_name": "Unfaithful 1080p CZ Dabing",
         "planned_at": "2026-11-19T17:55:14.941196+00:00"
-      },
-      "claim": {
-        "worker_id": "c665efb129bb4e788e8abcdecfc5f675-shard-0",
-        "claimed_at": "2026-11-19T17:55:18.586911+00:00",
-        "lease_expires_at": "2026-11-19T23:55:18.586911+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31188534",
       "prepared": {
@@ -180051,7 +180065,7 @@
       "last_plan": {
         "source_id": "13208128",
         "display_name": "Anna 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:58:39.048223+00:00"
+        "planned_at": "2026-11-19T17:58:43.283867+00:00"
       }
     },
     "3478": {
@@ -226239,5 +226253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:58:39.518007+00:00"
+  "updated_at": "2026-11-19T17:58:44.002030+00:00"
 }
