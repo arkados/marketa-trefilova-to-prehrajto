@@ -5577,7 +5577,7 @@
       "last_plan": {
         "source_id": "18937386",
         "display_name": "The Sound of Music 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:41:50.974606+00:00"
+        "planned_at": "2026-11-19T06:41:53.592095+00:00"
       }
     },
     "13329": {
@@ -120433,13 +120433,6 @@
           "source_id": "11263337",
           "target_video_id": "30985002",
           "permanent": false,
-          "attempted_at": "2026-11-19T02:02:10.438909+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11263337",
-          "target_video_id": "30985002",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:55:44.587071+00:00"
         },
         {
@@ -120448,6 +120441,13 @@
           "target_video_id": "30985002",
           "permanent": false,
           "attempted_at": "2026-11-19T05:15:02.175852+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11263337",
+          "target_video_id": "30985002",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:41:54.755722+00:00"
         }
       ],
       "last_plan": {
@@ -121729,7 +121729,7 @@
       "last_plan": {
         "source_id": "33746515",
         "display_name": "Taps 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:15:04.121622+00:00"
+        "planned_at": "2026-11-19T06:41:53.383717+00:00"
       },
       "previous_target_id": "30985386",
       "prepared": {
@@ -121737,6 +121737,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T19:00:56.350782+00:00",
         "relay_source_id": "33746515"
+      },
+      "claim": {
+        "worker_id": "bbd4e2ac31d34d94949af1b35f45b1c1-shard-0",
+        "claimed_at": "2026-11-19T06:41:53.963208+00:00",
+        "lease_expires_at": "2026-11-19T12:41:53.963208+00:00",
+        "run_id": "44447775933"
       }
     },
     "27476": {
@@ -224990,5 +224996,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:41:51.309345+00:00"
+  "updated_at": "2026-11-19T06:41:54.755748+00:00"
 }
