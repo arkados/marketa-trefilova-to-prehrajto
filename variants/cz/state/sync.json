@@ -125735,6 +125735,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T22:22:39.741739+00:00",
         "relay_source_id": "33870427"
+      },
+      "claim": {
+        "worker_id": "0175719321ca480ca6a8a920d7d36775-shard-0",
+        "claimed_at": "2026-11-19T17:39:41.463908+00:00",
+        "lease_expires_at": "2026-11-19T23:39:41.463908+00:00",
+        "run_id": "44531372417"
       }
     },
     "2831": {
@@ -179738,17 +179744,23 @@
           "attempted_at": "2026-11-19T16:07:53.558112+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31769735",
-        "display_name": "Stay 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:58:58.530663+00:00"
-      },
       "previous_target_id": "31186699",
-      "prepared": {
+      "upload": {
         "target_video_id": "31186699",
-        "size_bytes": 2440120786,
-        "prepared_at": "2026-11-19T15:59:10.167015+00:00",
-        "relay_source_id": "31769735"
+        "display_name": "Stay 1080p CZ Dabing",
+        "source_id": "31769735",
+        "source_url": "https://sdilej.cz/31769735/hranice-zivota-ewan-mcgregor-ryan-gosling-naomi-watts-2005-drama-thriller-mysteriozni-dvdrip.1080p.-cz-dabing.mkv",
+        "source_filename": "Hranice života (Ewan McGregor, Ryan Gosling, Naomi Watts-2005 Drama-Thriller-Mysteriózní-Dvdrip.1080p.) Cz dabing.mkv",
+        "size_bytes": 2400000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.8788813948631287,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/stay-1080p-cz-dabing-mkv/44058b95223ab22e",
+        "uploaded_at": "2026-11-19T17:39:44.629635+00:00"
       }
     },
     "12546": {
@@ -179983,7 +179995,7 @@
       "last_plan": {
         "source_id": "34347081",
         "display_name": "Midway (2019) 4K CZ Dabing",
-        "planned_at": "2026-11-19T17:39:38.978473+00:00"
+        "planned_at": "2026-11-19T17:39:41.911245+00:00"
       }
     },
     "3376": {
@@ -226180,5 +226192,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:39:38.978493+00:00"
+  "updated_at": "2026-11-19T17:39:44.629654+00:00"
 }
