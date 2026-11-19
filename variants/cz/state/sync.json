@@ -136012,13 +136012,6 @@
           "source_id": "33530416",
           "target_video_id": "30987619",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:54:23.571199+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33530416",
-          "target_video_id": "30987619",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:50:14.070872+00:00"
         },
         {
@@ -136027,6 +136020,13 @@
           "target_video_id": "30987619",
           "permanent": false,
           "attempted_at": "2026-11-19T05:10:50.246212+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33530416",
+          "target_video_id": "30987619",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:37:52.430904+00:00"
         }
       ],
       "last_plan": {
@@ -137830,7 +137830,7 @@
       "last_plan": {
         "source_id": "32511639",
         "display_name": "Kasaři 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:10:48.386054+00:00"
+        "planned_at": "2026-11-19T06:37:50.859686+00:00"
       },
       "previous_target_id": "30987808",
       "prepared": {
@@ -137838,6 +137838,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T06:11:54.968394+00:00",
         "relay_source_id": "32511639"
+      },
+      "claim": {
+        "worker_id": "72554a019cf645c3a5d059007418f0d9-shard-0",
+        "claimed_at": "2026-11-19T06:37:51.434803+00:00",
+        "lease_expires_at": "2026-11-19T12:37:51.434803+00:00",
+        "run_id": "44447775933"
       }
     },
     "12578": {
@@ -178611,7 +178617,7 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:37:48.435595+00:00"
+        "planned_at": "2026-11-19T06:37:51.071516+00:00"
       }
     },
     "3367": {
@@ -224985,5 +224991,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:37:48.785624+00:00"
+  "updated_at": "2026-11-19T06:37:52.430920+00:00"
 }
