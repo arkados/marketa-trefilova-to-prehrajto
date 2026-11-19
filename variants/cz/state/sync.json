@@ -89910,13 +89910,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:24:25.421636+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-19T15:54:59.960477+00:00"
         },
         {
@@ -89925,6 +89918,13 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-19T17:28:27.324272+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:50:42.076279+00:00"
         }
       ],
       "last_plan": {
@@ -141598,7 +141598,7 @@
       "last_plan": {
         "source_id": "34694069",
         "display_name": "Na dvore je kun, séfe! (Na dvoře je kůň, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:28:27.119398+00:00"
+        "planned_at": "2026-11-19T18:50:40.821192+00:00"
       },
       "previous_target_id": "30988245",
       "prepared": {
@@ -141606,6 +141606,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:57:46.666018+00:00",
         "relay_source_id": "34694069"
+      },
+      "claim": {
+        "worker_id": "99636c6489284628a0a628a88cd5a05c-shard-0",
+        "claimed_at": "2026-11-19T18:50:41.519880+00:00",
+        "lease_expires_at": "2026-11-20T00:50:41.519880+00:00",
+        "run_id": "44531372417"
       }
     },
     "17285": {
@@ -180415,7 +180421,7 @@
       "last_plan": {
         "source_id": "27152402",
         "display_name": "Trick 'r Treat 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:50:38.038210+00:00"
+        "planned_at": "2026-11-19T18:50:41.067089+00:00"
       }
     },
     "20333": {
@@ -226560,5 +226566,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:50:38.038245+00:00"
+  "updated_at": "2026-11-19T18:50:42.076301+00:00"
 }
