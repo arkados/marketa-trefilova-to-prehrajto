@@ -124575,7 +124575,7 @@
       "last_plan": {
         "source_id": "34503356",
         "display_name": "The Hot Rock 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:00:42.254232+00:00"
+        "planned_at": "2026-11-19T22:01:40.044521+00:00"
       },
       "previous_target_id": "30985739",
       "prepared": {
@@ -124583,6 +124583,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T21:34:47.747240+00:00",
         "relay_source_id": "34503356"
+      },
+      "claim": {
+        "worker_id": "727a8dade32a42828fe35d673fa11240-shard-0",
+        "claimed_at": "2026-11-19T22:01:40.886447+00:00",
+        "lease_expires_at": "2026-11-20T04:01:40.886447+00:00",
+        "run_id": "44616581853"
       }
     },
     "11306": {
@@ -180872,17 +180878,23 @@
           "attempted_at": "2026-11-19T20:00:43.332514+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "29682514",
-        "display_name": "Safe Haven 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:01:36.474486+00:00"
-      },
       "previous_target_id": "31189754",
-      "prepared": {
+      "upload": {
         "target_video_id": "31189754",
-        "size_bytes": 5113577302,
-        "prepared_at": "2026-11-19T19:48:42.459864+00:00",
-        "relay_source_id": "29682514"
+        "display_name": "Safe Haven 1080p CZ Dabing",
+        "source_id": "29682514",
+        "source_url": "https://sdilej.cz/29682514/safe.haven.2013.mkv",
+        "source_filename": "Safe.Haven.2013.mkv",
+        "size_bytes": 5100000000,
+        "width": 1920,
+        "height": 800,
+        "audio_language": "cs",
+        "language_probability": 0.8867439031600952,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/safe-haven-1080p-cz-dabing-mkv/14c995cbc65ebca4",
+        "uploaded_at": "2026-11-19T22:01:41.189138+00:00"
       }
     },
     "3276": {
@@ -181410,7 +181422,7 @@
       "last_plan": {
         "source_id": "32999212",
         "display_name": "Tron 4K CZ Dabing",
-        "planned_at": "2026-11-19T22:01:36.920745+00:00"
+        "planned_at": "2026-11-19T22:01:40.365315+00:00"
       }
     },
     "3503": {
@@ -227430,5 +227442,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:01:37.260835+00:00"
+  "updated_at": "2026-11-19T22:01:41.189155+00:00"
 }
