@@ -121564,13 +121564,6 @@
           "source_id": "35117462",
           "target_video_id": "30985082",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:39:33.537815+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35117462",
-          "target_video_id": "30985082",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:01:10.706084+00:00"
         },
         {
@@ -121579,6 +121572,13 @@
           "target_video_id": "30985082",
           "permanent": false,
           "attempted_at": "2026-11-19T06:26:02.253206+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35117462",
+          "target_video_id": "30985082",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:15:38.247664+00:00"
         }
       ],
       "last_plan": {
@@ -166249,7 +166249,7 @@
       "last_plan": {
         "source_id": "6052793",
         "display_name": "Boychoir 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:26:05.260863+00:00"
+        "planned_at": "2026-11-19T09:15:36.314244+00:00"
       },
       "previous_target_id": "31109295",
       "prepared": {
@@ -166257,6 +166257,12 @@
         "size_bytes": 8400000000,
         "prepared_at": "2026-11-17T05:21:25.702724+00:00",
         "relay_source_id": "6052793"
+      },
+      "claim": {
+        "worker_id": "d8b1cb5415a547e3952acfc9e1ba8bf0-shard-0",
+        "claimed_at": "2026-11-19T09:15:37.389581+00:00",
+        "lease_expires_at": "2026-11-19T15:15:37.389581+00:00",
+        "run_id": "44451991647"
       }
     },
     "27254": {
@@ -178778,7 +178784,7 @@
       "last_plan": {
         "source_id": "34150181",
         "display_name": "Cocoon (1985) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:15:33.229353+00:00"
+        "planned_at": "2026-11-19T09:15:36.689161+00:00"
       }
     },
     "3303": {
@@ -225137,5 +225143,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:15:33.525364+00:00"
+  "updated_at": "2026-11-19T09:15:38.247682+00:00"
 }
