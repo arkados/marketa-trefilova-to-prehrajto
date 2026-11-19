@@ -129430,13 +129430,6 @@
           "source_id": "19283864",
           "target_video_id": "30986759",
           "permanent": false,
-          "attempted_at": "2026-11-19T08:34:09.300176+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19283864",
-          "target_video_id": "30986759",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:08:53.765769+00:00"
         },
         {
@@ -129445,6 +129438,13 @@
           "target_video_id": "30986759",
           "permanent": false,
           "attempted_at": "2026-11-19T11:44:39.642224+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19283864",
+          "target_video_id": "30986759",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:34:15.667819+00:00"
         }
       ],
       "last_plan": {
@@ -177751,7 +177751,7 @@
       "last_plan": {
         "source_id": "25275828",
         "display_name": "The Soloist 1080p CZ Dabing",
-        "planned_at": "2026-11-19T11:44:43.956215+00:00"
+        "planned_at": "2026-11-19T13:34:14.242596+00:00"
       },
       "previous_target_id": "31164733",
       "prepared": {
@@ -177759,6 +177759,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-19T00:58:33.281022+00:00",
         "relay_source_id": "25275828"
+      },
+      "claim": {
+        "worker_id": "35713f5be6b4482286c9f95d950dfa20-shard-0",
+        "claimed_at": "2026-11-19T13:34:15.388178+00:00",
+        "lease_expires_at": "2026-11-19T19:34:15.388178+00:00",
+        "run_id": "44524452534"
       }
     },
     "3341": {
@@ -179432,7 +179438,7 @@
       "last_plan": {
         "source_id": "21485649",
         "display_name": "Good Boys 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:34:11.387949+00:00"
+        "planned_at": "2026-11-19T13:34:14.622257+00:00"
       }
     },
     "11549": {
@@ -225698,5 +225704,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:34:11.387969+00:00"
+  "updated_at": "2026-11-19T13:34:15.667839+00:00"
 }
