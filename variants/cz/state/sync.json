@@ -132453,6 +132453,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T03:40:45.938464+00:00",
         "relay_source_id": "25018592"
+      },
+      "claim": {
+        "worker_id": "c6d31255d3964d13b5b7003216076ace-shard-0",
+        "claimed_at": "2026-11-19T11:31:04.352803+00:00",
+        "lease_expires_at": "2026-11-19T17:31:04.352803+00:00",
+        "run_id": "44451991647"
       }
     },
     "14879": {
@@ -166329,7 +166335,7 @@
       "last_plan": {
         "source_id": "34847633",
         "display_name": "Secret Name (La Place d'une autre) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:54:12.644909+00:00"
+        "planned_at": "2026-11-19T11:31:04.622885+00:00"
       },
       "previous_target_id": "31110339",
       "prepared": {
@@ -179163,17 +179169,19 @@
       }
     },
     "3318": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19371326",
+          "target_video_id": "31181351",
+          "permanent": false,
+          "attempted_at": "2026-11-19T11:31:05.777788+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19371326",
         "display_name": "The Lost Daughter 1080p CZ Dabing",
         "planned_at": "2026-11-19T11:13:04.490939+00:00"
-      },
-      "claim": {
-        "worker_id": "a77d6b0c965f41629b4cd8841d08ce7d-shard-0",
-        "claimed_at": "2026-11-19T11:13:05.573984+00:00",
-        "lease_expires_at": "2026-11-19T17:13:05.573984+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31181351",
       "prepared": {
@@ -179188,7 +179196,7 @@
       "last_plan": {
         "source_id": "13267960",
         "display_name": "Ghost Town SD CZ Dabing",
-        "planned_at": "2026-11-19T11:31:01.515088+00:00"
+        "planned_at": "2026-11-19T11:31:05.026226+00:00"
       }
     },
     "3193": {
@@ -225484,5 +225492,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T11:31:01.817047+00:00"
+  "updated_at": "2026-11-19T11:31:05.777806+00:00"
 }
