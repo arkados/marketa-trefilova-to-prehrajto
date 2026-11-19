@@ -13,7 +13,7 @@
   "missing_detail_urls": 1,
   "next_page": 0,
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:59:44.414291+00:00",
+  "updated_at": "2026-11-19T12:59:50.611560+00:00",
   "videos": {
     "30580910": {
       "checked_at": "2026-10-28T22:47:29.080648+00:00",
@@ -12946,9 +12946,23 @@
       "title": "Something Wild 1080p CZ titulky"
     },
     "31013758": {
-      "checked_at": "2026-11-13T15:03:19.170487+00:00",
+      "checked_at": "2026-11-19T12:59:50.611411+00:00",
       "detail_url": "https://prehraj.to/pillion-1080p-cz-titulky-mkv/62a244197da04bbf",
-      "retry_after": "2026-11-13T16:03:19.170497+00:00",
+      "extraction": {
+        "bytes": 56096,
+        "format": "utf8_srt_crlf",
+        "method": "original_page_track",
+        "sha256": "d9816b436aca33777aede30d4f60c393f430cb4f71571e68b4a03ceb67a52f48",
+        "source_id": "34465941"
+      },
+      "intent": {
+        "before_ids": [],
+        "created_at": "2026-11-19T12:59:50.611406+00:00",
+        "filename": "cs-31013758-d9816b436a.srt",
+        "sha256": "d9816b436aca33777aede30d4f60c393f430cb4f71571e68b4a03ceb67a52f48"
+      },
+      "retry_after": "2026-11-19T13:59:50.611414+00:00",
+      "seen_at": "2026-11-19T12:59:50.611378+00:00",
       "source": {
         "cr_film_id": 28666,
         "height": 1040,
@@ -12958,7 +12972,7 @@
         "source_url": "https://sdilej.cz/34465941/pillion-2025-.mkv",
         "width": 1920
       },
-      "status": "target_unavailable",
+      "status": "upload_unconfirmed",
       "target_video_id": "31013758",
       "title": "Pillion 1080p CZ Titulky"
     },

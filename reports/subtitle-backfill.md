@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-19T12:59:44.414291+00:00
+Poslední aktualizace (UTC): 2026-11-19T12:59:50.611560+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 565, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 131, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 565, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 130, `upload_unconfirmed`: 8
 
 ## Poslední dávka
 
@@ -133,7 +133,7 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Outlaws 1080p CZ Titulky](https://prehraj.to/outlaws-1080p-cz-titulky-mkv/68a34795b5fffcb7) (ID 31021566) | [Sdílej 19685390](https://sdilej.cz/19685390/las-leyes-de-la-frontera-outlaws-psanci-2021-cz-titulky-.mkv) | target_unavailable | 2026-11-13T23:48:52.122445+00:00 |
 | [Panic Room 1080p CZ Titulky](https://prehraj.to/panic-room-1080p-cz-titulky-mkv/b7d9d801c754daee) (ID 31081901) | [Sdílej 31100204](https://sdilej.cz/31100204/2002-panic-room-ukryt-cz-en-1080p.mkv) | target_unavailable | 2026-11-16T03:46:44.277523+00:00 |
 | [Paris, 13th District (Les Olympiades, Paris 13e) 1080p CZ titulky](https://prehraj.to/paris-13th-district-les-olympiades-paris-13e-1080p-cz-titulky-mkv/6e441a58f8608b99) (ID 30988745) | [Sdílej 23240065](https://sdilej.cz/23240065/pariz-13.-obvod-les-olympiades-1080p-2021-vlozene-cz-titulky-malasorte.mkv) | target_unavailable | 2026-11-18T13:10:58.905382+00:00 |
-| [Pillion 1080p CZ Titulky](https://prehraj.to/pillion-1080p-cz-titulky-mkv/62a244197da04bbf) (ID 31013758) | [Sdílej 34465941](https://sdilej.cz/34465941/pillion-2025-.mkv) | target_unavailable | 2026-11-13T15:03:19.170487+00:00 |
+| [Pillion 1080p CZ Titulky](https://prehraj.to/pillion-1080p-cz-titulky-mkv/62a244197da04bbf) (ID 31013758) | [Sdílej 34465941](https://sdilej.cz/34465941/pillion-2025-.mkv) | upload_unconfirmed | 2026-11-19T12:59:50.611411+00:00 |
 | [Poor Things 1080p CZ titulky](https://prehraj.to/poor-things-1080p-cz-titulky-mkv/de58b83d9d75655d) (ID 30664033) | [Sdílej 28240998](https://sdilej.cz/28240998/poor.things-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-18T12:42:31.191507+00:00 |
 | [Queen of Hearts (Dronningen) 1080p CZ titulky](https://prehraj.to/queen-of-hearts-dronningen-1080p-cz-titulky-mkv/add428a7f119488e) (ID 30987463) | [Sdílej 16607977](https://sdilej.cz/16607977/srdcova-kralovna-1080p-5.1dan-cz-titulky-2019.mkv) | target_unavailable | 2026-11-18T13:01:53.440111+00:00 |
 | [Rebel Ridge 1080p CZ Titulky](https://prehraj.to/rebel-ridge-1080p-cz-titulky-mkv/f5b629dcde5dfb97) (ID 31091395) | [Sdílej 35402850](https://sdilej.cz/35402850/rebel.ridge.2024.1080p.webrip.x265.10bit.aac5.1-yts.mx-.cz.sub.mkv) | target_unavailable | 2026-11-16T12:53:37.558029+00:00 |
