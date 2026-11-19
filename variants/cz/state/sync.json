@@ -111528,13 +111528,6 @@
           "source_id": "34470304",
           "target_video_id": "30983801",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:51:34.372487+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34470304",
-          "target_video_id": "30983801",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:11:41.033033+00:00"
         },
         {
@@ -111543,6 +111536,13 @@
           "target_video_id": "30983801",
           "permanent": false,
           "attempted_at": "2026-11-19T06:38:46.340601+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34470304",
+          "target_video_id": "30983801",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:32:20.871504+00:00"
         }
       ],
       "last_plan": {
@@ -111591,7 +111591,7 @@
       "last_plan": {
         "source_id": "34710916",
         "display_name": "The Great Nothing 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:38:44.848686+00:00"
+        "planned_at": "2026-11-19T09:32:19.068664+00:00"
       },
       "previous_target_id": "30983802",
       "prepared": {
@@ -111599,6 +111599,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:50:04.632161+00:00",
         "relay_source_id": "34710916"
+      },
+      "claim": {
+        "worker_id": "8158203f1a6241b1aef268da885df7f0-shard-0",
+        "claimed_at": "2026-11-19T09:32:20.487131+00:00",
+        "lease_expires_at": "2026-11-19T15:32:20.487131+00:00",
+        "run_id": "44451991647"
       }
     },
     "21346": {
@@ -178842,6 +178848,12 @@
         "source_id": "34721412",
         "display_name": "Popstar: Never Stop Never Stopping 720p CZ Dabing",
         "planned_at": "2026-11-19T09:32:15.320008+00:00"
+      },
+      "claim": {
+        "worker_id": "91368555966d475f9868e7e12bc1465a-shard-0",
+        "claimed_at": "2026-11-19T09:32:18.597560+00:00",
+        "lease_expires_at": "2026-11-19T15:32:18.597560+00:00",
+        "run_id": "44451991647"
       }
     },
     "3400": {
@@ -178849,7 +178861,7 @@
       "last_plan": {
         "source_id": "33758527",
         "display_name": "Gold (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:32:15.819815+00:00"
+        "planned_at": "2026-11-19T09:32:19.687324+00:00"
       }
     },
     "3370": {
@@ -225196,5 +225208,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:32:15.819831+00:00"
+  "updated_at": "2026-11-19T09:32:20.871519+00:00"
 }
