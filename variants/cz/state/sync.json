@@ -136623,7 +136623,7 @@
       "last_plan": {
         "source_id": "34676679",
         "display_name": "Stop SD CZ Dabing",
-        "planned_at": "2026-11-19T02:56:14.521291+00:00"
+        "planned_at": "2026-11-19T04:16:56.544815+00:00"
       },
       "previous_target_id": "30987696",
       "prepared": {
@@ -136631,6 +136631,12 @@
         "size_bytes": 775400000,
         "prepared_at": "2026-11-11T05:42:13.668373+00:00",
         "relay_source_id": "34676679"
+      },
+      "claim": {
+        "worker_id": "8e47829a43d245c997bbab01bc17fd09-shard-0",
+        "claimed_at": "2026-11-19T04:16:57.089645+00:00",
+        "lease_expires_at": "2026-11-19T10:16:57.089645+00:00",
+        "run_id": "44447775933"
       }
     },
     "36736": {
@@ -177830,17 +177836,23 @@
           "attempted_at": "2026-11-19T02:47:54.357419+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34393876",
-        "display_name": "Bad Words 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:16:53.918879+00:00"
-      },
       "previous_target_id": "31166034",
-      "prepared": {
+      "upload": {
         "target_video_id": "31166034",
-        "size_bytes": 10685305347,
-        "prepared_at": "2026-11-19T02:08:01.217725+00:00",
-        "relay_source_id": "34393876"
+        "display_name": "Bad Words 1080p CZ Dabing",
+        "source_id": "34393876",
+        "source_url": "https://sdilej.cz/34393876/bad.words.2013.1080p.bluray.dts.x264-ebp.cz-ftu.mkv",
+        "source_filename": "Bad.Words.2013.1080p.BluRay.DTS.x264-EbP.CZ-FTU.mkv",
+        "size_bytes": 10700000000,
+        "width": 1916,
+        "height": 800,
+        "audio_language": "cs",
+        "language_probability": 0.9823712706565857,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/bad-words-1080p-cz-dabing-mkv/f18838e41389386a",
+        "uploaded_at": "2026-11-19T04:16:57.651173+00:00"
       }
     },
     "37326": {
@@ -178138,7 +178150,7 @@
       "last_plan": {
         "source_id": "26499299",
         "display_name": "The Call of the Wild (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:16:54.129890+00:00"
+        "planned_at": "2026-11-19T04:16:56.753029+00:00"
       }
     },
     "12346": {
@@ -224581,5 +224593,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:16:54.129907+00:00"
+  "updated_at": "2026-11-19T04:16:57.651185+00:00"
 }
