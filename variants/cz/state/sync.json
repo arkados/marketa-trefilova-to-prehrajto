@@ -72641,13 +72641,6 @@
           "source_id": "27386940",
           "target_video_id": "30871996",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:02:17.186787+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27386940",
-          "target_video_id": "30871996",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:33:20.621748+00:00"
         },
         {
@@ -72656,6 +72649,13 @@
           "target_video_id": "30871996",
           "permanent": false,
           "attempted_at": "2026-11-19T03:30:48.736812+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27386940",
+          "target_video_id": "30871996",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:50:03.700832+00:00"
         }
       ],
       "last_plan": {
@@ -137442,7 +137442,7 @@
       "last_plan": {
         "source_id": "33708412",
         "display_name": "Léto s kovbojem 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:30:47.402620+00:00"
+        "planned_at": "2026-11-19T04:50:02.214676+00:00"
       },
       "previous_target_id": "30987773",
       "prepared": {
@@ -137450,6 +137450,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:00:19.379476+00:00",
         "relay_source_id": "33708412"
+      },
+      "claim": {
+        "worker_id": "bf71b85bfc9e40888d92e44917f859bc-shard-0",
+        "claimed_at": "2026-11-19T04:50:02.781618+00:00",
+        "lease_expires_at": "2026-11-19T10:50:02.781618+00:00",
+        "run_id": "44447775933"
       }
     },
     "12203": {
@@ -178253,7 +178259,7 @@
       "last_plan": {
         "source_id": "34455180",
         "display_name": "Osceola 720p CZ Dabing",
-        "planned_at": "2026-11-19T04:49:59.947183+00:00"
+        "planned_at": "2026-11-19T04:50:02.430497+00:00"
       }
     },
     "3206": {
@@ -224678,5 +224684,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:49:59.947196+00:00"
+  "updated_at": "2026-11-19T04:50:03.700844+00:00"
 }
