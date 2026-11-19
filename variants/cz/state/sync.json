@@ -178925,17 +178925,19 @@
       }
     },
     "23862": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33953308",
+          "target_video_id": "31179429",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:14:04.826199+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33953308",
         "display_name": "Sliding Doors 1080p CZ Dabing",
         "planned_at": "2026-11-19T10:06:53.673067+00:00"
-      },
-      "claim": {
-        "worker_id": "b8e5ad4ae81640df87f0d7d8a7186359-shard-0",
-        "claimed_at": "2026-11-19T10:06:56.696078+00:00",
-        "lease_expires_at": "2026-11-19T16:06:56.696078+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31179429",
       "prepared": {
@@ -225306,5 +225308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:14:01.714129+00:00"
+  "updated_at": "2026-11-19T10:14:04.826225+00:00"
 }
