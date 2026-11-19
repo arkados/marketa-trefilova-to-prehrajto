@@ -133428,13 +133428,6 @@
           "source_id": "29078551",
           "target_video_id": "30987286",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:06:51.129647+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29078551",
-          "target_video_id": "30987286",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:01:41.839558+00:00"
         },
         {
@@ -133443,6 +133436,13 @@
           "target_video_id": "30987286",
           "permanent": false,
           "attempted_at": "2026-11-19T14:34:58.255257+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29078551",
+          "target_video_id": "30987286",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:05:48.887446+00:00"
         }
       ],
       "last_plan": {
@@ -141792,7 +141792,7 @@
       "last_plan": {
         "source_id": "34757832",
         "display_name": "Escape to Budapest (Útek do Budína) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:34:57.577692+00:00"
+        "planned_at": "2026-11-19T16:05:47.410807+00:00"
       },
       "previous_target_id": "30988300",
       "prepared": {
@@ -141800,6 +141800,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T08:06:44.146020+00:00",
         "relay_source_id": "34757832"
+      },
+      "claim": {
+        "worker_id": "5047b4a7cc2c49a0900955786e1e0b19-shard-0",
+        "claimed_at": "2026-11-19T16:05:48.564634+00:00",
+        "lease_expires_at": "2026-11-19T22:05:48.564634+00:00",
+        "run_id": "44524452534"
       }
     },
     "11152": {
@@ -179708,7 +179714,7 @@
       "last_plan": {
         "source_id": "29935216",
         "display_name": "Queen of the Lake (Jezerní královna) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:05:41.840796+00:00"
+        "planned_at": "2026-11-19T16:05:47.840725+00:00"
       }
     },
     "3519": {
@@ -225941,5 +225947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:05:41.840816+00:00"
+  "updated_at": "2026-11-19T16:05:48.887468+00:00"
 }
