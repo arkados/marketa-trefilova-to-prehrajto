@@ -135399,13 +135399,6 @@
           "source_id": "24800590",
           "target_video_id": "30987566",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:50:56.276434+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24800590",
-          "target_video_id": "30987566",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:20:46.248913+00:00"
         },
         {
@@ -135414,6 +135407,13 @@
           "target_video_id": "30987566",
           "permanent": false,
           "attempted_at": "2026-11-19T03:21:16.545347+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24800590",
+          "target_video_id": "30987566",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:42:49.688002+00:00"
         }
       ],
       "last_plan": {
@@ -135427,12 +135427,6 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T05:13:38.990418+00:00",
         "relay_source_id": "24800590"
-      },
-      "claim": {
-        "worker_id": "f712cd1f93704a15818a168bcf90f485-shard-0",
-        "claimed_at": "2026-11-19T04:42:46.405222+00:00",
-        "lease_expires_at": "2026-11-19T10:42:46.405222+00:00",
-        "run_id": "44447775933"
       }
     },
     "30403": {
@@ -175545,7 +175539,7 @@
       "last_plan": {
         "source_id": "33575963",
         "display_name": "The Air I Breathe 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:21:19.306944+00:00"
+        "planned_at": "2026-11-19T04:42:49.098958+00:00"
       },
       "previous_target_id": "31156295",
       "prepared": {
@@ -175553,6 +175547,12 @@
         "size_bytes": 7700000000,
         "prepared_at": "2026-11-18T17:22:49.918183+00:00",
         "relay_source_id": "33575963"
+      },
+      "claim": {
+        "worker_id": "f385160f6e334c659bfb9f51f0e5341e-shard-0",
+        "claimed_at": "2026-11-19T04:42:49.823601+00:00",
+        "lease_expires_at": "2026-11-19T10:42:49.823601+00:00",
+        "run_id": "44447775933"
       }
     },
     "11797": {
@@ -178218,7 +178218,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:42:46.030119+00:00"
+        "planned_at": "2026-11-19T04:42:49.312626+00:00"
       }
     },
     "33936": {
@@ -224652,5 +224652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:42:47.224614+00:00"
+  "updated_at": "2026-11-19T04:42:49.823622+00:00"
 }
