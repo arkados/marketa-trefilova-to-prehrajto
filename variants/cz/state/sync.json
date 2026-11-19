@@ -180595,17 +180595,19 @@
       }
     },
     "8807": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31626861",
+          "target_video_id": "31189496",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:27:37.104654+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31626861",
         "display_name": "Doubles (Dvojníci) 1080p CZ Dabing",
         "planned_at": "2026-11-19T19:23:49.658673+00:00"
-      },
-      "claim": {
-        "worker_id": "2ce8b67c6c5c4f6e8a05bb0a3282bf33-shard-0",
-        "claimed_at": "2026-11-19T19:23:50.459945+00:00",
-        "lease_expires_at": "2026-11-20T01:23:50.459945+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31189496",
       "prepared": {
@@ -226733,5 +226735,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:27:33.809285+00:00"
+  "updated_at": "2026-11-19T19:27:37.104682+00:00"
 }
