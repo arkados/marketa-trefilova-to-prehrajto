@@ -108162,6 +108162,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T14:07:27.666701+00:00",
         "relay_source_id": "35084607"
+      },
+      "claim": {
+        "worker_id": "a2ad216102554e7583c5ff7a58c4f8f2-shard-0",
+        "claimed_at": "2026-11-19T22:01:47.716628+00:00",
+        "lease_expires_at": "2026-11-20T04:01:47.716628+00:00",
+        "run_id": "44616581853"
       }
     },
     "13285": {
@@ -131839,7 +131845,7 @@
       "last_plan": {
         "source_id": "24028358",
         "display_name": "Vanilla Flavour (Vůně vanilky) SD CZ Dabing",
-        "planned_at": "2026-11-19T20:00:51.276875+00:00"
+        "planned_at": "2026-11-19T22:01:47.955690+00:00"
       },
       "previous_target_id": "30987024",
       "prepared": {
@@ -131847,6 +131853,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T03:22:23.552899+00:00",
         "relay_source_id": "24028358"
+      },
+      "claim": {
+        "worker_id": "8a74357332d74fc2853de3376d3c8160-shard-0",
+        "claimed_at": "2026-11-19T22:01:48.922107+00:00",
+        "lease_expires_at": "2026-11-20T04:01:48.922107+00:00",
+        "run_id": "44616581853"
       }
     },
     "32082": {
@@ -181391,17 +181403,19 @@
       }
     },
     "12101": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31295788",
+          "target_video_id": "31191153",
+          "permanent": false,
+          "attempted_at": "2026-11-19T22:01:49.136662+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31295788",
         "display_name": "Robin Hood: Men in Tights 1080p CZ Dabing",
         "planned_at": "2026-11-19T21:58:23.187826+00:00"
-      },
-      "claim": {
-        "worker_id": "9cefe3890a784a3d9d46ad0b7c78e366-shard-0",
-        "claimed_at": "2026-11-19T21:58:26.756471+00:00",
-        "lease_expires_at": "2026-11-20T03:58:26.756471+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31191153",
       "prepared": {
@@ -181416,7 +181430,7 @@
       "last_plan": {
         "source_id": "32999212",
         "display_name": "Tron 4K CZ Dabing",
-        "planned_at": "2026-11-19T22:01:45.156518+00:00"
+        "planned_at": "2026-11-19T22:01:48.278453+00:00"
       }
     },
     "3503": {
@@ -227436,5 +227450,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:01:45.156536+00:00"
+  "updated_at": "2026-11-19T22:01:49.136682+00:00"
 }
