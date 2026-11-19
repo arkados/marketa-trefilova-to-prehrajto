@@ -129778,7 +129778,7 @@
       "last_plan": {
         "source_id": "34796896",
         "display_name": "On the Comet (Na kometě) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:24:03.731107+00:00"
+        "planned_at": "2026-11-19T03:24:47.854873+00:00"
       },
       "previous_target_id": "30986820",
       "prepared": {
@@ -129786,6 +129786,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T02:14:22.452892+00:00",
         "relay_source_id": "34796896"
+      },
+      "claim": {
+        "worker_id": "e5ba91eeaa594b639cb6a192b446318a-shard-0",
+        "claimed_at": "2026-11-19T03:24:48.473297+00:00",
+        "lease_expires_at": "2026-11-19T09:24:48.473297+00:00",
+        "run_id": "44447775933"
       }
     },
     "15845": {
@@ -177877,17 +177883,19 @@
       "attempts": []
     },
     "12201": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34675375",
+          "target_video_id": "31167816",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:24:48.762049+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34675375",
         "display_name": "Wyatt Earp 1080p CZ Dabing",
         "planned_at": "2026-11-19T03:06:28.240361+00:00"
-      },
-      "claim": {
-        "worker_id": "9a6124f1e8fa400eb2828c80dd0b87de-shard-0",
-        "claimed_at": "2026-11-19T03:06:28.982438+00:00",
-        "lease_expires_at": "2026-11-19T09:06:28.982438+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31167816",
       "prepared": {
@@ -177938,7 +177946,7 @@
       "last_plan": {
         "source_id": "24188035",
         "display_name": "The Legionnaire (Il legionario) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:24:43.261327+00:00"
+        "planned_at": "2026-11-19T03:24:48.080553+00:00"
       }
     },
     "3162": {
@@ -224408,5 +224416,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:24:44.989109+00:00"
+  "updated_at": "2026-11-19T03:24:48.762061+00:00"
 }
