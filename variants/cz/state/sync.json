@@ -114983,13 +114983,6 @@
           "source_id": "34136697",
           "target_video_id": "30984306",
           "permanent": false,
-          "attempted_at": "2026-11-19T04:25:28.613969+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34136697",
-          "target_video_id": "30984306",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:45:59.266339+00:00"
         },
         {
@@ -114998,12 +114991,19 @@
           "target_video_id": "30984306",
           "permanent": false,
           "attempted_at": "2026-11-19T08:35:43.067780+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34136697",
+          "target_video_id": "30984306",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:10:37.219949+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34136697",
         "display_name": "Madagascar 3: Europe's Most Wanted 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:35:36.904087+00:00"
+        "planned_at": "2026-11-19T10:10:34.343721+00:00"
       },
       "previous_target_id": "30984306",
       "prepared": {
@@ -178953,11 +178953,22 @@
       "last_plan": {
         "source_id": "28476011",
         "display_name": "The Pledge SD CZ Dabing",
-        "planned_at": "2026-11-19T10:10:27.903339+00:00"
+        "planned_at": "2026-11-19T10:10:34.714262+00:00"
+      },
+      "claim": {
+        "worker_id": "226da3db5e924c62b2fd453de34f53ea-shard-0",
+        "claimed_at": "2026-11-19T10:10:35.841210+00:00",
+        "lease_expires_at": "2026-11-19T16:10:35.841210+00:00",
+        "run_id": "44451991647"
       }
     },
     "3171": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30812564",
+        "display_name": "Death Sentence 1080p CZ Dabing",
+        "planned_at": "2026-11-19T10:10:34.968106+00:00"
+      }
     },
     "3476": {
       "attempts": []
@@ -225288,5 +225299,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:10:30.231746+00:00"
+  "updated_at": "2026-11-19T10:10:37.219965+00:00"
 }
