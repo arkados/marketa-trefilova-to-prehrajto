@@ -131240,13 +131240,6 @@
           "source_id": "32958300",
           "target_video_id": "30986964",
           "permanent": false,
-          "attempted_at": "2026-11-19T13:04:07.002506+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32958300",
-          "target_video_id": "30986964",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:37:22.995374+00:00"
         },
         {
@@ -131255,6 +131248,13 @@
           "target_video_id": "30986964",
           "permanent": false,
           "attempted_at": "2026-11-19T16:08:19.510577+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32958300",
+          "target_video_id": "30986964",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:40:13.181796+00:00"
         }
       ],
       "last_plan": {
@@ -165972,7 +165972,7 @@
       "last_plan": {
         "source_id": "31000919",
         "display_name": "SPL II (SPL 2: A Time for Consequences) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:08:18.747325+00:00"
+        "planned_at": "2026-11-19T17:40:11.570700+00:00"
       },
       "previous_target_id": "31108013",
       "prepared": {
@@ -165980,6 +165980,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-17T04:21:29.782716+00:00",
         "relay_source_id": "31000919"
+      },
+      "claim": {
+        "worker_id": "c7230f5eb2704121b76db964817ef1ac-shard-0",
+        "claimed_at": "2026-11-19T17:40:12.286072+00:00",
+        "lease_expires_at": "2026-11-19T23:40:12.286072+00:00",
+        "run_id": "44531372417"
       }
     },
     "3573": {
@@ -179989,7 +179995,7 @@
       "last_plan": {
         "source_id": "34347081",
         "display_name": "Midway (2019) 4K CZ Dabing",
-        "planned_at": "2026-11-19T17:40:08.735013+00:00"
+        "planned_at": "2026-11-19T17:40:11.813311+00:00"
       }
     },
     "3376": {
@@ -226186,5 +226192,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:40:08.949661+00:00"
+  "updated_at": "2026-11-19T17:40:13.181817+00:00"
 }
