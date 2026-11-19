@@ -68121,13 +68121,6 @@
           "source_id": "34852546",
           "target_video_id": "30853531",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:39:29.791784+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34852546",
-          "target_video_id": "30853531",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:04:21.825746+00:00"
         },
         {
@@ -68136,6 +68129,13 @@
           "target_video_id": "30853531",
           "permanent": false,
           "attempted_at": "2026-11-19T22:06:09.415134+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34852546",
+          "target_video_id": "30853531",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:48:58.825157+00:00"
         }
       ],
       "last_plan": {
@@ -164462,7 +164462,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:06:11.908222+00:00"
+        "planned_at": "2026-11-19T23:48:57.088710+00:00"
       },
       "previous_target_id": "31100173",
       "prepared": {
@@ -164470,6 +164470,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-16T21:51:03.827088+00:00",
         "relay_source_id": "11186054"
+      },
+      "claim": {
+        "worker_id": "80bbfc48c3124cff90a3bc79de13d196-shard-0",
+        "claimed_at": "2026-11-19T23:48:57.975894+00:00",
+        "lease_expires_at": "2026-11-20T05:48:57.975894+00:00",
+        "run_id": "44616581853"
       }
     },
     "29530": {
@@ -181877,7 +181883,7 @@
       "last_plan": {
         "source_id": "33746883",
         "display_name": "From Hell 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:48:53.901172+00:00"
+        "planned_at": "2026-11-19T23:48:57.412519+00:00"
       }
     },
     "12435": {
@@ -227855,5 +227861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:48:54.129747+00:00"
+  "updated_at": "2026-11-19T23:48:58.825176+00:00"
 }
