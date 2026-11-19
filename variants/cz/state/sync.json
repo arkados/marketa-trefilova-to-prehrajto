@@ -134699,13 +134699,6 @@
           "source_id": "28002899",
           "target_video_id": "30987491",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:53:16.933256+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28002899",
-          "target_video_id": "30987491",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:14:04.375298+00:00"
         },
         {
@@ -134714,6 +134707,13 @@
           "target_video_id": "30987491",
           "permanent": false,
           "attempted_at": "2026-11-19T20:41:43.570290+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28002899",
+          "target_video_id": "30987491",
+          "permanent": false,
+          "attempted_at": "2026-11-19T22:52:47.536582+00:00"
         }
       ],
       "last_plan": {
@@ -180682,7 +180682,7 @@
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:41:42.693168+00:00"
+        "planned_at": "2026-11-19T22:52:45.932009+00:00"
       },
       "previous_target_id": "31189314",
       "prepared": {
@@ -180690,6 +180690,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-19T19:10:18.436273+00:00",
         "relay_source_id": "33690503"
+      },
+      "claim": {
+        "worker_id": "6ac801ccf2d349a780981a8e5fe80738-shard-0",
+        "claimed_at": "2026-11-19T22:52:46.830640+00:00",
+        "lease_expires_at": "2026-11-20T04:52:46.830640+00:00",
+        "run_id": "44616581853"
       }
     },
     "29312": {
@@ -181629,7 +181635,7 @@
       "last_plan": {
         "source_id": "21846125",
         "display_name": "Monster House 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:52:43.100899+00:00"
+        "planned_at": "2026-11-19T22:52:46.252695+00:00"
       }
     },
     "3463": {
@@ -227633,5 +227639,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:52:43.369869+00:00"
+  "updated_at": "2026-11-19T22:52:47.536599+00:00"
 }
