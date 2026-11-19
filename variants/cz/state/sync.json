@@ -98898,7 +98898,7 @@
       "last_plan": {
         "source_id": "25775847",
         "display_name": "Sněženky a machři 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:08:41.436720+00:00"
+        "planned_at": "2026-11-19T01:40:39.275408+00:00"
       },
       "previous_target_id": "30957288",
       "prepared": {
@@ -98906,6 +98906,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T00:19:22.789310+00:00",
         "relay_source_id": "25775847"
+      },
+      "claim": {
+        "worker_id": "bd9a50dc8b174fb1a8aba41ba893b9dc-shard-0",
+        "claimed_at": "2026-11-19T01:40:40.322042+00:00",
+        "lease_expires_at": "2026-11-19T07:40:40.322042+00:00",
+        "run_id": "44406951430"
       }
     },
     "23314": {
@@ -173665,17 +173671,23 @@
           "attempted_at": "2026-11-19T00:08:42.652545+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "28527457",
-        "display_name": "F/X 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:40:35.894176+00:00"
-      },
       "previous_target_id": "31144725",
-      "prepared": {
+      "upload": {
         "target_video_id": "31144725",
+        "display_name": "F/X 1080p CZ Dabing",
+        "source_id": "28527457",
+        "source_url": "https://sdilej.cz/28527457/smrtici-triky-f-x-1986-fhd-.mkv",
+        "source_filename": "Smrtící triky - F_X (1986, FHD).mkv",
         "size_bytes": 11500000000,
-        "prepared_at": "2026-11-18T08:04:15.828364+00:00",
-        "relay_source_id": "28527457"
+        "width": 1912,
+        "height": 1032,
+        "audio_language": "cs",
+        "language_probability": 0.8918991684913635,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/f-x-1080p-cz-dabing-mkv/9be3e31776e63f79",
+        "uploaded_at": "2026-11-19T01:40:40.659692+00:00"
       }
     },
     "23121": {
@@ -177681,7 +177693,7 @@
       "last_plan": {
         "source_id": "20148452",
         "display_name": "U Turn 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:40:36.542156+00:00"
+        "planned_at": "2026-11-19T01:40:39.623143+00:00"
       }
     },
     "18402": {
@@ -224199,5 +224211,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:40:36.542176+00:00"
+  "updated_at": "2026-11-19T01:40:40.659709+00:00"
 }
