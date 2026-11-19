@@ -133331,7 +133331,7 @@
       "last_plan": {
         "source_id": "34714426",
         "display_name": "Mezi námi zloději SD CZ Dabing",
-        "planned_at": "2026-11-19T22:17:48.382178+00:00"
+        "planned_at": "2026-11-19T23:56:39.435598+00:00"
       },
       "previous_target_id": "30987246",
       "prepared": {
@@ -133339,6 +133339,12 @@
         "size_bytes": 796400000,
         "prepared_at": "2026-11-11T04:02:42.743119+00:00",
         "relay_source_id": "34714426"
+      },
+      "claim": {
+        "worker_id": "3b748c2ce23d43b2bceb791555833a46-shard-0",
+        "claimed_at": "2026-11-19T23:56:40.308614+00:00",
+        "lease_expires_at": "2026-11-20T05:56:40.308614+00:00",
+        "run_id": "44616581853"
       }
     },
     "24132": {
@@ -181634,17 +181640,23 @@
           "attempted_at": "2026-11-19T22:16:04.307808+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "26360348",
-        "display_name": "Police Academy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:56:35.902242+00:00"
-      },
       "previous_target_id": "31191289",
-      "prepared": {
+      "upload": {
         "target_video_id": "31191289",
-        "size_bytes": 2008567475,
-        "prepared_at": "2026-11-19T22:10:11.394005+00:00",
-        "relay_source_id": "26360348"
+        "display_name": "Police Academy 1080p CZ Dabing",
+        "source_id": "26360348",
+        "source_url": "https://sdilej.cz/26360348/policejni-akademie-1-1984-1080p-cz.mkv",
+        "source_filename": "Policejní Akademie 1 1984 1080p CZ.mkv",
+        "size_bytes": 2000000000,
+        "width": 1914,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.8736355900764465,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/police-academy-1080p-cz-dabing-mkv/291086a99fb97425",
+        "uploaded_at": "2026-11-19T23:56:40.522268+00:00"
       }
     },
     "2470": {
@@ -181906,7 +181918,7 @@
       "last_plan": {
         "source_id": "25340687",
         "display_name": "The Parent Trap (1998) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:56:36.231717+00:00"
+        "planned_at": "2026-11-19T23:56:39.755455+00:00"
       }
     },
     "17269": {
@@ -227881,5 +227893,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:56:36.510291+00:00"
+  "updated_at": "2026-11-19T23:56:40.522283+00:00"
 }
