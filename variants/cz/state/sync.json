@@ -133376,6 +133376,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T04:03:02.993627+00:00",
         "relay_source_id": "32876939"
+      },
+      "claim": {
+        "worker_id": "9555456255fd4195ad5192f5b34cedd1-shard-0",
+        "claimed_at": "2026-11-19T10:53:05.190956+00:00",
+        "lease_expires_at": "2026-11-19T16:53:05.190956+00:00",
+        "run_id": "44451991647"
       }
     },
     "24161": {
@@ -141515,7 +141521,7 @@
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:14:28.655969+00:00"
+        "planned_at": "2026-11-19T10:53:05.458226+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -179051,17 +179057,19 @@
       "attempts": []
     },
     "3313": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34477423",
+          "target_video_id": "31180344",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:53:06.128690+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34477423",
         "display_name": "21 Bridges 1080p CZ Dabing",
         "planned_at": "2026-11-19T10:39:49.991147+00:00"
-      },
-      "claim": {
-        "worker_id": "66da6e71b9234ef380348ad10e2bbb77-shard-0",
-        "claimed_at": "2026-11-19T10:39:53.020815+00:00",
-        "lease_expires_at": "2026-11-19T16:39:53.020815+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31180344",
       "prepared": {
@@ -179076,7 +179084,7 @@
       "last_plan": {
         "source_id": "16418890",
         "display_name": "The Best of Me 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:53:02.048882+00:00"
+        "planned_at": "2026-11-19T10:53:05.828543+00:00"
       }
     },
     "3191": {
@@ -225381,5 +225389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:53:02.347546+00:00"
+  "updated_at": "2026-11-19T10:53:06.128713+00:00"
 }
