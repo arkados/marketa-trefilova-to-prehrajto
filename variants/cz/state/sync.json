@@ -108356,13 +108356,6 @@
           "source_id": "35066259",
           "target_video_id": "30983517",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:33:50.550159+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066259",
-          "target_video_id": "30983517",
-          "permanent": false,
           "attempted_at": "2026-11-19T09:24:09.558453+00:00"
         },
         {
@@ -108371,6 +108364,13 @@
           "target_video_id": "30983517",
           "permanent": false,
           "attempted_at": "2026-11-19T10:59:44.998987+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066259",
+          "target_video_id": "30983517",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:54:10.581057+00:00"
         }
       ],
       "last_plan": {
@@ -147674,7 +147674,7 @@
       "last_plan": {
         "source_id": "12863543",
         "display_name": "Taxi 121 SD CZ Dabing",
-        "planned_at": "2026-11-19T10:59:42.842519+00:00"
+        "planned_at": "2026-11-19T12:54:08.608592+00:00"
       },
       "previous_target_id": "30999429",
       "prepared": {
@@ -147682,6 +147682,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-12T06:39:50.580418+00:00",
         "relay_source_id": "12863543"
+      },
+      "claim": {
+        "worker_id": "91def642f26b499fbde3c91f1568ae7d-shard-0",
+        "claimed_at": "2026-11-19T12:54:09.693793+00:00",
+        "lease_expires_at": "2026-11-19T18:54:09.693793+00:00",
+        "run_id": "44524452534"
       }
     },
     "28088": {
@@ -179362,7 +179368,7 @@
       "last_plan": {
         "source_id": "28379966",
         "display_name": "Hidalgo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:54:05.283085+00:00"
+        "planned_at": "2026-11-19T12:54:08.988644+00:00"
       }
     },
     "15258": {
@@ -225640,5 +225646,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:54:05.550409+00:00"
+  "updated_at": "2026-11-19T12:54:10.581092+00:00"
 }
