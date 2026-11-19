@@ -250,6 +250,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-10-28T09:35:24.990917+00:00",
         "relay_source_id": "26227362"
+      },
+      "claim": {
+        "worker_id": "41ea7d12bfb9405a9f7003468944ef18-shard-0",
+        "claimed_at": "2026-11-19T00:57:58.423191+00:00",
+        "lease_expires_at": "2026-11-19T06:57:58.423191+00:00",
+        "run_id": "44406951430"
       }
     },
     "24": {
@@ -8295,7 +8301,7 @@
       "last_plan": {
         "source_id": "32388547",
         "display_name": "One Battle After Another 4K CZ titulky",
-        "planned_at": "2026-11-19T00:27:47.012723+00:00"
+        "planned_at": "2026-11-19T00:57:59.338769+00:00"
       },
       "previous_target_id": "30681595",
       "prepared": {
@@ -12288,13 +12294,6 @@
           "source_id": "7674339",
           "target_video_id": "30763383",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:27:13.769054+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7674339",
-          "target_video_id": "30763383",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:57:21.349515+00:00"
         },
         {
@@ -12303,6 +12302,13 @@
           "target_video_id": "30763383",
           "permanent": false,
           "attempted_at": "2026-11-19T00:27:41.486498+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7674339",
+          "target_video_id": "30763383",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:57:59.216319+00:00"
         }
       ],
       "last_plan": {
@@ -12316,12 +12322,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-03T14:13:54.051993+00:00",
         "relay_source_id": "7674339"
-      },
-      "claim": {
-        "worker_id": "4b544c83b6ab4e75abf30908f7e47d46-shard-0",
-        "claimed_at": "2026-11-19T00:57:54.735005+00:00",
-        "lease_expires_at": "2026-11-19T06:57:54.735005+00:00",
-        "run_id": "44406951430"
       }
     },
     "11203": {
@@ -100851,5 +100851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:57:55.659121+00:00"
+  "updated_at": "2026-11-19T00:57:59.338781+00:00"
 }
