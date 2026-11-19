@@ -29813,13 +29813,6 @@
           "source_id": "21165095",
           "target_video_id": "30722559",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:18:29.420890+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21165095",
-          "target_video_id": "30722559",
-          "permanent": false,
           "attempted_at": "2026-11-19T09:08:19.473488+00:00"
         },
         {
@@ -29828,6 +29821,13 @@
           "target_video_id": "30722559",
           "permanent": false,
           "attempted_at": "2026-11-19T10:44:21.264081+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21165095",
+          "target_video_id": "30722559",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:42:18.423877+00:00"
         }
       ],
       "last_plan": {
@@ -123600,7 +123600,7 @@
       "last_plan": {
         "source_id": "24836709",
         "display_name": "Harper SD CZ Dabing",
-        "planned_at": "2026-11-19T10:44:19.511790+00:00"
+        "planned_at": "2026-11-19T12:42:16.917678+00:00"
       },
       "previous_target_id": "30985572",
       "prepared": {
@@ -123608,6 +123608,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T20:28:40.493950+00:00",
         "relay_source_id": "24836709"
+      },
+      "claim": {
+        "worker_id": "703bc69dd2f1474d948c28ddf03618fd-shard-0",
+        "claimed_at": "2026-11-19T12:42:18.065458+00:00",
+        "lease_expires_at": "2026-11-19T18:42:18.065458+00:00",
+        "run_id": "44524452534"
       }
     },
     "32552": {
@@ -179333,7 +179339,7 @@
       "last_plan": {
         "source_id": "35004172",
         "display_name": "Together (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:42:14.040002+00:00"
+        "planned_at": "2026-11-19T12:42:17.304817+00:00"
       }
     },
     "24896": {
@@ -225619,5 +225625,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:42:14.040022+00:00"
+  "updated_at": "2026-11-19T12:42:18.423895+00:00"
 }
