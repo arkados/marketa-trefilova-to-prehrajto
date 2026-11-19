@@ -114053,13 +114053,6 @@
           "source_id": "34355461",
           "target_video_id": "30984084",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:35:29.146826+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34355461",
-          "target_video_id": "30984084",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:19:47.258816+00:00"
         },
         {
@@ -114068,6 +114061,13 @@
           "target_video_id": "30984084",
           "permanent": false,
           "attempted_at": "2026-11-19T00:48:26.198349+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34355461",
+          "target_video_id": "30984084",
+          "permanent": false,
+          "attempted_at": "2026-11-19T02:21:41.204805+00:00"
         }
       ],
       "last_plan": {
@@ -114081,12 +114081,6 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T15:25:14.268972+00:00",
         "relay_source_id": "34355461"
-      },
-      "claim": {
-        "worker_id": "e52da2b530734a18b64aab47c2abdf48-shard-0",
-        "claimed_at": "2026-11-19T02:21:37.277892+00:00",
-        "lease_expires_at": "2026-11-19T08:21:37.277892+00:00",
-        "run_id": "44406951430"
       }
     },
     "3150": {
@@ -172128,7 +172122,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:48:28.450982+00:00"
+        "planned_at": "2026-11-19T02:21:40.021253+00:00"
       },
       "previous_target_id": "31133866",
       "prepared": {
@@ -172136,6 +172130,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-18T00:00:46.830452+00:00",
         "relay_source_id": "32999709"
+      },
+      "claim": {
+        "worker_id": "1d937dc7e39244039e0071b66615be34-shard-0",
+        "claimed_at": "2026-11-19T02:21:40.950304+00:00",
+        "lease_expires_at": "2026-11-19T08:21:40.950304+00:00",
+        "run_id": "44406951430"
       }
     },
     "13183": {
@@ -177792,7 +177792,7 @@
       "last_plan": {
         "source_id": "13959519",
         "display_name": "Dream Factory (Traumfabrik) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:21:36.699809+00:00"
+        "planned_at": "2026-11-19T02:21:40.386262+00:00"
       }
     },
     "16322": {
@@ -224301,5 +224301,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T02:21:37.832820+00:00"
+  "updated_at": "2026-11-19T02:21:41.204830+00:00"
 }
