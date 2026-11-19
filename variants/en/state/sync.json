@@ -22167,7 +22167,7 @@
       "last_plan": {
         "source_id": "11267704",
         "display_name": "Border (Gräns) 1080p CZ titulky",
-        "planned_at": "2026-11-19T00:56:02.966975+00:00"
+        "planned_at": "2026-11-19T01:26:11.897824+00:00"
       },
       "previous_target_id": "30984466",
       "prepared": {
@@ -22175,6 +22175,12 @@
         "size_bytes": 7000000000,
         "prepared_at": "2026-11-10T16:31:37.585049+00:00",
         "relay_source_id": "11267704"
+      },
+      "claim": {
+        "worker_id": "c6e20da2a68d4ede8c0c56c1f93d3dad-shard-0",
+        "claimed_at": "2026-11-19T01:26:12.356292+00:00",
+        "lease_expires_at": "2026-11-19T07:26:12.356292+00:00",
+        "run_id": "44406951430"
       }
     },
     "13483": {
@@ -22591,13 +22597,6 @@
           "source_id": "22321220",
           "target_video_id": "30987709",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:55:46.317484+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22321220",
-          "target_video_id": "30987709",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:25:54.647418+00:00"
         },
         {
@@ -22606,6 +22605,13 @@
           "target_video_id": "30987709",
           "permanent": false,
           "attempted_at": "2026-11-19T00:56:04.356772+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22321220",
+          "target_video_id": "30987709",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:26:12.524092+00:00"
         }
       ],
       "last_plan": {
@@ -22619,12 +22625,6 @@
         "size_bytes": 6000000000,
         "prepared_at": "2026-11-11T05:46:05.370254+00:00",
         "relay_source_id": "22321220"
-      },
-      "claim": {
-        "worker_id": "3157a9f800dd44368942a342308df8e8-shard-0",
-        "claimed_at": "2026-11-19T01:26:05.380296+00:00",
-        "lease_expires_at": "2026-11-19T07:26:05.380296+00:00",
-        "run_id": "44406951430"
       }
     },
     "21186": {
@@ -100851,5 +100851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:26:08.581264+00:00"
+  "updated_at": "2026-11-19T01:26:12.524116+00:00"
 }
