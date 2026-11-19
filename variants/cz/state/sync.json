@@ -131584,7 +131584,7 @@
       "last_plan": {
         "source_id": "34860819",
         "display_name": "Guard 13 (13. revír) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:32:45.857979+00:00"
+        "planned_at": "2026-11-19T23:13:57.757835+00:00"
       },
       "previous_target_id": "30986996",
       "prepared": {
@@ -131592,6 +131592,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T03:11:45.728295+00:00",
         "relay_source_id": "34860819"
+      },
+      "claim": {
+        "worker_id": "4572a18a824c4371a42c2ca3e7c1d11d-shard-0",
+        "claimed_at": "2026-11-19T23:13:58.801553+00:00",
+        "lease_expires_at": "2026-11-20T05:13:58.801553+00:00",
+        "run_id": "44616581853"
       }
     },
     "32881": {
@@ -181330,17 +181336,23 @@
           "attempted_at": "2026-11-19T21:32:43.686804+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31626198",
-        "display_name": "The Call (2013) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:13:53.127676+00:00"
-      },
       "previous_target_id": "31190863",
-      "prepared": {
+      "upload": {
         "target_video_id": "31190863",
-        "size_bytes": 1888072034,
-        "prepared_at": "2026-11-19T21:30:06.085324+00:00",
-        "relay_source_id": "31626198"
+        "display_name": "The Call (2013) 1080p CZ Dabing",
+        "source_id": "31626198",
+        "source_url": "https://sdilej.cz/31626198/tisnova-linka-2013-krimi-thriller-usa-halle-berry-czdab-1080p.mkv",
+        "source_filename": "Tísňová linka (2013) krimi-thriller USA Halle Berry CZdab 1080p.mkv",
+        "size_bytes": 1900000000,
+        "width": 1920,
+        "height": 1040,
+        "audio_language": "cs",
+        "language_probability": 0.917262852191925,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-call-2013-1080p-cz-dabing-mkv/84e9a8acac714ecb",
+        "uploaded_at": "2026-11-19T23:13:59.098269+00:00"
       }
     },
     "12420": {
@@ -181769,7 +181781,7 @@
       "last_plan": {
         "source_id": "30285030",
         "display_name": "Analyze This 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:13:53.551145+00:00"
+        "planned_at": "2026-11-19T23:13:58.087453+00:00"
       }
     },
     "3180": {
@@ -227753,5 +227765,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:13:53.818090+00:00"
+  "updated_at": "2026-11-19T23:13:59.098286+00:00"
 }
