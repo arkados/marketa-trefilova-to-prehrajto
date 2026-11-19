@@ -124890,13 +124890,6 @@
           "source_id": "33664376",
           "target_video_id": "30985767",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:30:04.915010+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33664376",
-          "target_video_id": "30985767",
-          "permanent": false,
           "attempted_at": "2026-11-19T02:01:50.883312+00:00"
         },
         {
@@ -124905,12 +124898,19 @@
           "target_video_id": "30985767",
           "permanent": false,
           "attempted_at": "2026-11-19T03:55:19.992273+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33664376",
+          "target_video_id": "30985767",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:14:39.366853+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33664376",
         "display_name": "Support Your Local Gunfighter 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:55:17.956822+00:00"
+        "planned_at": "2026-11-19T05:14:37.092666+00:00"
       },
       "previous_target_id": "30985767",
       "prepared": {
@@ -178334,11 +178334,22 @@
       "last_plan": {
         "source_id": "33745748",
         "display_name": "Scanners 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:14:28.659158+00:00"
+        "planned_at": "2026-11-19T05:14:37.316249+00:00"
+      },
+      "claim": {
+        "worker_id": "ecd83f4935884596b5e691cf891564be-shard-0",
+        "claimed_at": "2026-11-19T05:14:37.935657+00:00",
+        "lease_expires_at": "2026-11-19T11:14:37.935657+00:00",
+        "run_id": "44447775933"
       }
     },
     "25895": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32348534",
+        "display_name": "Appaloosa 1080p CZ Dabing",
+        "planned_at": "2026-11-19T05:14:37.453972+00:00"
+      }
     },
     "30196": {
       "attempts": []
@@ -224750,5 +224761,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:14:33.768716+00:00"
+  "updated_at": "2026-11-19T05:14:39.366865+00:00"
 }
