@@ -178343,17 +178343,19 @@
       }
     },
     "3262": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33745748",
+          "target_video_id": "31171014",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:24:40.019484+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33745748",
         "display_name": "Scanners 1080p CZ Dabing",
         "planned_at": "2026-11-19T05:14:37.316249+00:00"
-      },
-      "claim": {
-        "worker_id": "ecd83f4935884596b5e691cf891564be-shard-0",
-        "claimed_at": "2026-11-19T05:14:37.935657+00:00",
-        "lease_expires_at": "2026-11-19T11:14:37.935657+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31171014",
       "prepared": {
@@ -224781,5 +224783,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:24:38.175717+00:00"
+  "updated_at": "2026-11-19T05:24:40.019500+00:00"
 }
