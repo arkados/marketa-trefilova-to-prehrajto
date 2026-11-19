@@ -45756,13 +45756,6 @@
           "source_id": "20443534",
           "target_video_id": "30871258",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:03:52.417932+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20443534",
-          "target_video_id": "30871258",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:35:35.825171+00:00"
         },
         {
@@ -45771,12 +45764,19 @@
           "target_video_id": "30871258",
           "permanent": false,
           "attempted_at": "2026-11-19T03:31:58.731138+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20443534",
+          "target_video_id": "30871258",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:51:23.019887+00:00"
         }
       ],
       "last_plan": {
         "source_id": "20443534",
         "display_name": "The Proposition (2005) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:31:54.706997+00:00"
+        "planned_at": "2026-11-19T04:51:20.637503+00:00"
       },
       "previous_target_id": "30871258",
       "prepared": {
@@ -178253,11 +178253,22 @@
       "last_plan": {
         "source_id": "34455180",
         "display_name": "Osceola 720p CZ Dabing",
-        "planned_at": "2026-11-19T04:51:16.285780+00:00"
+        "planned_at": "2026-11-19T04:51:20.852909+00:00"
+      },
+      "claim": {
+        "worker_id": "bba62ced1486424d8ff905e71d486c71-shard-0",
+        "claimed_at": "2026-11-19T04:51:21.473402+00:00",
+        "lease_expires_at": "2026-11-19T10:51:21.473402+00:00",
+        "run_id": "44447775933"
       }
     },
     "3206": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34651341",
+        "display_name": "Emily the Criminal 1080p CZ Dabing",
+        "planned_at": "2026-11-19T04:51:20.983833+00:00"
+      }
     },
     "13678": {
       "attempts": []
@@ -224678,5 +224689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:51:18.373341+00:00"
+  "updated_at": "2026-11-19T04:51:23.019898+00:00"
 }
