@@ -128630,13 +128630,6 @@
           "source_id": "7866512",
           "target_video_id": "30986655",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:12:50.755879+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7866512",
-          "target_video_id": "30986655",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:14:55.011530+00:00"
         },
         {
@@ -128645,6 +128638,13 @@
           "target_video_id": "30986655",
           "permanent": false,
           "attempted_at": "2026-11-19T04:36:38.585594+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7866512",
+          "target_video_id": "30986655",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:55:06.875237+00:00"
         }
       ],
       "last_plan": {
@@ -128658,12 +128658,6 @@
         "size_bytes": 14400000000,
         "prepared_at": "2026-11-11T01:23:16.041857+00:00",
         "relay_source_id": "7866512"
-      },
-      "claim": {
-        "worker_id": "ab6e8ad8c8e94854923c4f0ac487a4c0-shard-0",
-        "claimed_at": "2026-11-19T05:55:03.374302+00:00",
-        "lease_expires_at": "2026-11-19T11:55:03.374302+00:00",
-        "run_id": "44447775933"
       }
     },
     "23008": {
@@ -178489,17 +178483,19 @@
       }
     },
     "3546": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26449200",
+          "target_video_id": "31171638",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:55:08.035702+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26449200",
         "display_name": "Machine Gun Preacher 720p CZ Dabing",
         "planned_at": "2026-11-19T05:40:35.293663+00:00"
-      },
-      "claim": {
-        "worker_id": "efc638ef9d364f4f92eabd745f6157a3-shard-0",
-        "claimed_at": "2026-11-19T05:40:35.932863+00:00",
-        "lease_expires_at": "2026-11-19T11:40:35.932863+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31171638",
       "prepared": {
@@ -224906,5 +224902,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:55:05.114095+00:00"
+  "updated_at": "2026-11-19T05:55:08.035718+00:00"
 }
