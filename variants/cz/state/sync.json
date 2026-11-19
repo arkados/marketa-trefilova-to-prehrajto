@@ -180325,17 +180325,19 @@
       }
     },
     "11845": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26008412",
+          "target_video_id": "31188972",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:39:39.802091+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26008412",
         "display_name": "Road House (1989) 1080p CZ Dabing",
         "planned_at": "2026-11-19T18:35:39.271122+00:00"
-      },
-      "claim": {
-        "worker_id": "dd6d7c85f4264f4583a85af2c40cfa06-shard-0",
-        "claimed_at": "2026-11-19T18:35:42.263668+00:00",
-        "lease_expires_at": "2026-11-20T00:35:42.263668+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31188972",
       "prepared": {
@@ -226502,5 +226504,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:39:36.486834+00:00"
+  "updated_at": "2026-11-19T18:39:39.802122+00:00"
 }
