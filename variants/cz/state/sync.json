@@ -101182,13 +101182,6 @@
           "source_id": "11696652",
           "target_video_id": "30966458",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:45:30.685973+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11696652",
-          "target_video_id": "30966458",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:10:51.642017+00:00"
         },
         {
@@ -101197,6 +101190,13 @@
           "target_video_id": "30966458",
           "permanent": false,
           "attempted_at": "2026-11-19T22:13:43.574040+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11696652",
+          "target_video_id": "30966458",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:56:00.599590+00:00"
         }
       ],
       "last_plan": {
@@ -171615,7 +171615,7 @@
       "last_plan": {
         "source_id": "35185503",
         "display_name": "Land 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:13:46.940574+00:00"
+        "planned_at": "2026-11-19T23:55:58.757651+00:00"
       },
       "previous_target_id": "31130365",
       "prepared": {
@@ -171623,6 +171623,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-17T21:59:34.850913+00:00",
         "relay_source_id": "35185503"
+      },
+      "claim": {
+        "worker_id": "70ad5be8e2604220afdad17ecfbb60fa-shard-0",
+        "claimed_at": "2026-11-19T23:55:59.716794+00:00",
+        "lease_expires_at": "2026-11-20T05:55:59.716794+00:00",
+        "run_id": "44616581853"
       }
     },
     "15275": {
@@ -181906,7 +181912,7 @@
       "last_plan": {
         "source_id": "25340687",
         "display_name": "The Parent Trap (1998) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:55:55.803808+00:00"
+        "planned_at": "2026-11-19T23:55:59.097619+00:00"
       }
     },
     "17269": {
@@ -227881,5 +227887,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:55:55.803828+00:00"
+  "updated_at": "2026-11-19T23:56:00.599611+00:00"
 }
