@@ -142754,13 +142754,6 @@
           "source_id": "34693072",
           "target_video_id": "30988554",
           "permanent": false,
-          "attempted_at": "2026-11-19T13:54:09.591743+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693072",
-          "target_video_id": "30988554",
-          "permanent": false,
           "attempted_at": "2026-11-19T15:28:20.938043+00:00"
         },
         {
@@ -142769,12 +142762,19 @@
           "target_video_id": "30988554",
           "permanent": false,
           "attempted_at": "2026-11-19T17:05:05.008416+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693072",
+          "target_video_id": "30988554",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:25:31.232651+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34693072",
         "display_name": "Skola princu (Škola princů) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:04:59.744549+00:00"
+        "planned_at": "2026-11-19T18:25:28.540019+00:00"
       },
       "previous_target_id": "30988554",
       "prepared": {
@@ -180210,11 +180210,22 @@
       "last_plan": {
         "source_id": "27430518",
         "display_name": "The Devil's Rejects 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:25:21.326544+00:00"
+        "planned_at": "2026-11-19T18:25:28.803563+00:00"
+      },
+      "claim": {
+        "worker_id": "1727de2af5d34e47a19e1c08864f4e9e-shard-0",
+        "claimed_at": "2026-11-19T18:25:30.734492+00:00",
+        "lease_expires_at": "2026-11-20T00:25:30.734492+00:00",
+        "run_id": "44531372417"
       }
     },
     "3555": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33694104",
+        "display_name": "Eden Lake 1080p CZ Dabing",
+        "planned_at": "2026-11-19T18:25:28.967662+00:00"
+      }
     },
     "30034": {
       "attempts": []
@@ -226383,5 +226394,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:25:23.185416+00:00"
+  "updated_at": "2026-11-19T18:25:31.232671+00:00"
 }
