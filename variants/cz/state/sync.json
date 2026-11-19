@@ -110198,13 +110198,6 @@
           "source_id": "30160689",
           "target_video_id": "30983693",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:29:14.469525+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30160689",
-          "target_video_id": "30983693",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:03:30.738514+00:00"
         },
         {
@@ -110213,6 +110206,13 @@
           "target_video_id": "30983693",
           "permanent": false,
           "attempted_at": "2026-11-19T13:53:32.345470+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30160689",
+          "target_video_id": "30983693",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:27:45.683469+00:00"
         }
       ],
       "last_plan": {
@@ -124378,7 +124378,7 @@
       "last_plan": {
         "source_id": "33064122",
         "display_name": "Taboo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:53:32.900556+00:00"
+        "planned_at": "2026-11-19T15:27:42.056846+00:00"
       },
       "previous_target_id": "30985714",
       "prepared": {
@@ -124386,6 +124386,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T21:26:39.868620+00:00",
         "relay_source_id": "33064122"
+      },
+      "claim": {
+        "worker_id": "71f0d36393de40b9ac769634f8c807e9-shard-0",
+        "claimed_at": "2026-11-19T15:27:43.136582+00:00",
+        "lease_expires_at": "2026-11-19T21:27:43.136582+00:00",
+        "run_id": "44524452534"
       }
     },
     "19272": {
@@ -179613,7 +179619,7 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:27:38.993246+00:00"
+        "planned_at": "2026-11-19T15:27:42.437385+00:00"
       }
     },
     "3312": {
@@ -225855,5 +225861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:27:38.993268+00:00"
+  "updated_at": "2026-11-19T15:27:45.683489+00:00"
 }
