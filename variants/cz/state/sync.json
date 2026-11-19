@@ -130946,6 +130946,12 @@
         "size_bytes": 971300000,
         "prepared_at": "2026-11-11T02:47:37.595965+00:00",
         "relay_source_id": "30624932"
+      },
+      "claim": {
+        "worker_id": "20e926499e4e42ad93545e3f6a165b78-shard-0",
+        "claimed_at": "2026-11-19T04:45:26.986080+00:00",
+        "lease_expires_at": "2026-11-19T10:45:26.986080+00:00",
+        "run_id": "44447775933"
       }
     },
     "20748": {
@@ -177942,17 +177948,23 @@
           "attempted_at": "2026-11-19T03:24:48.762049+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34675375",
-        "display_name": "Wyatt Earp 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:06:28.240361+00:00"
-      },
       "previous_target_id": "31167816",
-      "prepared": {
+      "upload": {
         "target_video_id": "31167816",
-        "size_bytes": 4425020613,
-        "prepared_at": "2026-11-19T03:06:35.132665+00:00",
-        "relay_source_id": "34675375"
+        "display_name": "Wyatt Earp 1080p CZ Dabing",
+        "source_id": "34675375",
+        "source_url": "https://sdilej.cz/34675375/wyatt-earp-1994-cz-dabing.mp4",
+        "source_filename": "Wyatt Earp (1994) CZ Dabing.mp4",
+        "size_bytes": 4400000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9527287483215332,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/wyatt-earp-1080p-cz-dabing-mp4/cc4a9e7dedc8175c",
+        "uploaded_at": "2026-11-19T04:45:28.620572+00:00"
       }
     },
     "3324": {
@@ -178212,7 +178224,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:45:24.654235+00:00"
+        "planned_at": "2026-11-19T04:45:27.381086+00:00"
       }
     },
     "33936": {
@@ -224646,5 +224658,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:45:24.654248+00:00"
+  "updated_at": "2026-11-19T04:45:28.620582+00:00"
 }
