@@ -121911,13 +121911,6 @@
           "source_id": "28233220",
           "target_video_id": "30985399",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:42:57.552629+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28233220",
-          "target_video_id": "30985399",
-          "permanent": false,
           "attempted_at": "2026-11-19T02:16:59.149270+00:00"
         },
         {
@@ -121926,6 +121919,13 @@
           "target_video_id": "30985399",
           "permanent": false,
           "attempted_at": "2026-11-19T04:10:43.393207+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28233220",
+          "target_video_id": "30985399",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:29:43.628714+00:00"
         }
       ],
       "last_plan": {
@@ -134730,7 +134730,7 @@
       "last_plan": {
         "source_id": "34689799",
         "display_name": "Černá sobota 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:10:45.277365+00:00"
+        "planned_at": "2026-11-19T05:29:41.963051+00:00"
       },
       "previous_target_id": "30987492",
       "prepared": {
@@ -134738,6 +134738,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T04:57:29.514686+00:00",
         "relay_source_id": "34689799"
+      },
+      "claim": {
+        "worker_id": "db67f009001e4c3fb84194f4f3c3d070-shard-0",
+        "claimed_at": "2026-11-19T05:29:42.574037+00:00",
+        "lease_expires_at": "2026-11-19T11:29:42.574037+00:00",
+        "run_id": "44447775933"
       }
     },
     "36839": {
@@ -178399,7 +178405,7 @@
       "last_plan": {
         "source_id": "34651540",
         "display_name": "Goal! 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:29:39.658141+00:00"
+        "planned_at": "2026-11-19T05:29:42.192513+00:00"
       }
     },
     "13665": {
@@ -224803,5 +224809,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:29:39.999756+00:00"
+  "updated_at": "2026-11-19T05:29:43.628734+00:00"
 }
