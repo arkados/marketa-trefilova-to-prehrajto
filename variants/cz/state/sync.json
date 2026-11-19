@@ -121151,13 +121151,6 @@
           "source_id": "33786756",
           "target_video_id": "30985035",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:55:37.917812+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33786756",
-          "target_video_id": "30985035",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:26:00.021938+00:00"
         },
         {
@@ -121166,6 +121159,13 @@
           "target_video_id": "30985035",
           "permanent": false,
           "attempted_at": "2026-11-19T17:55:59.471359+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33786756",
+          "target_video_id": "30985035",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:19:33.892129+00:00"
         }
       ],
       "last_plan": {
@@ -121179,12 +121179,6 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T18:38:40.997248+00:00",
         "relay_source_id": "33786756"
-      },
-      "claim": {
-        "worker_id": "05471c3f19ad403d8b15711d6d012870-shard-0",
-        "claimed_at": "2026-11-19T19:19:30.769481+00:00",
-        "lease_expires_at": "2026-11-20T01:19:30.769481+00:00",
-        "run_id": "44531372417"
       }
     },
     "3040": {
@@ -133872,7 +133866,7 @@
       "last_plan": {
         "source_id": "34877761",
         "display_name": "Attempted Murder (Pokus o vraždu) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:55:59.026784+00:00"
+        "planned_at": "2026-11-19T19:19:32.908232+00:00"
       },
       "previous_target_id": "30987324",
       "prepared": {
@@ -133880,6 +133874,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T04:18:00.455277+00:00",
         "relay_source_id": "34877761"
+      },
+      "claim": {
+        "worker_id": "8e6de75b7c0a4110ab64b984433a3afd-shard-0",
+        "claimed_at": "2026-11-19T19:19:33.698648+00:00",
+        "lease_expires_at": "2026-11-20T01:19:33.698648+00:00",
+        "run_id": "44531372417"
       }
     },
     "12590": {
@@ -180564,11 +180564,22 @@
       "last_plan": {
         "source_id": "11038141",
         "display_name": "Penguins of Madagascar 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:19:27.924922+00:00"
+        "planned_at": "2026-11-19T19:19:33.135148+00:00"
+      },
+      "claim": {
+        "worker_id": "231860eb618743ed9023a732171f412e-shard-0",
+        "claimed_at": "2026-11-19T19:19:34.031030+00:00",
+        "lease_expires_at": "2026-11-20T01:19:34.031030+00:00",
+        "run_id": "44531372417"
       }
     },
     "8807": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31626861",
+        "display_name": "Doubles (Dvojníci) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T19:19:33.274946+00:00"
+      }
     },
     "21722": {
       "attempts": []
@@ -226683,5 +226694,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:19:30.769512+00:00"
+  "updated_at": "2026-11-19T19:19:34.031067+00:00"
 }
