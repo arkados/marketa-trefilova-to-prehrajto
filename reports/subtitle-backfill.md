@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-19T13:00:08.508427+00:00
+Poslední aktualizace (UTC): 2026-11-19T13:00:16.044403+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 565, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 130, `upload_unconfirmed`: 8
+Stavy: `already_has_czech`: 566, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 129, `upload_unconfirmed`: 8
 
 ## Poslední dávka
 
@@ -157,7 +157,6 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Star Wars: Episode III – Revenge of the Sith (Star Wars: Episode III - Revenge of the Sith) 1080p CZ titulky](https://prehraj.to/star-wars-episode-iii-revenge-of-the-sith-star-wars-episode-iii-revenge-of-the-sith-1080p-cz-titulky-mkv/1b5123c808358112) (ID 30661597) | [Sdílej 29667772](https://sdilej.cz/29667772/star-wars-epizoda-iii-pomsta-sithu-cz-1080p.mkv) | target_unavailable | 2026-11-18T12:42:26.428426+00:00 |
 | [Storm Boy 1080p CZ Titulky](https://prehraj.to/storm-boy-1080p-cz-titulky-mkv/ffb88184b9c52296) (ID 31023557) | [Sdílej 11694349](https://sdilej.cz/11694349/storm.boy.2019.1080p.bluray.h264.ac3-cz-titulky.mkv) | target_unavailable | 2026-11-14T04:10:26.996827+00:00 |
 | [Straight Up 1080p CZ Titulky](https://prehraj.to/straight-up-1080p-cz-titulky-mkv/010b7b33f87bd1a5) (ID 31024574) | [Sdílej 14062612](https://sdilej.cz/14062612/straight.up.2019.1080p.webrip.x264.cz.tit.mkv) | target_unavailable | 2026-11-14T06:21:05.956457+00:00 |
-| [Summer of 85 (Été 85) 1080p CZ Titulky](https://prehraj.to/summer-of-85-ete-85-1080p-cz-titulky-mkv/d747ddcd906b0afe) (ID 31014099) | [Sdílej 28284942](https://sdilej.cz/28284942/leto-85-cz-titulky.mkv) | target_unavailable | 2026-11-13T15:33:20.901501+00:00 |
 | [Super 8 720p CZ Titulky](https://prehraj.to/super-8-720p-cz-titulky-mkv/d5cd79cf2c765ab9) (ID 30970243) | [Sdílej 16310205](https://sdilej.cz/16310205/super-8-2011-sci-fi-cz-dab-720p-hd.mkv) | target_unavailable | 2026-11-18T12:52:10.387573+00:00 |
 | [Swiss Army Man 720p CZ Titulky](https://prehraj.to/swiss-army-man-720p-cz-titulky-mkv/10671e3af2c0c0f9) (ID 31006278) | [Sdílej 6507377](https://sdilej.cz/6507377/swiss-army-man-2016-720p-bluray-dts-x264-ceske-titulky.mkv) | upload_unconfirmed | 2026-11-18T23:13:43.121069+00:00 |
 | [Talk to Me 4K CZ Titulky](https://prehraj.to/talk-to-me-4k-cz-titulky-mkv/28dafb7f3e8f3657) (ID 30912885) | [Sdílej 26853803](https://sdilej.cz/26853803/talk.to.me.2022.2160p.web-dl.ddp5.1.dv.hdr.h.265-flux.cztit.mkv) | source_unavailable | 2026-11-18T12:40:59.383892+00:00 |
