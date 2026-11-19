@@ -113570,7 +113570,7 @@
       "last_plan": {
         "source_id": "31008000",
         "display_name": "Signs 4K CZ Dabing",
-        "planned_at": "2026-11-19T09:30:59.202018+00:00"
+        "planned_at": "2026-11-19T11:04:52.883503+00:00"
       },
       "previous_target_id": "30984042",
       "prepared": {
@@ -113578,6 +113578,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-10T15:19:52.239174+00:00",
         "relay_source_id": "31008000"
+      },
+      "claim": {
+        "worker_id": "be388075f63343d7938a9e5930379c8a-shard-0",
+        "claimed_at": "2026-11-19T11:04:53.985738+00:00",
+        "lease_expires_at": "2026-11-19T17:04:53.985738+00:00",
+        "run_id": "44451991647"
       }
     },
     "3134": {
@@ -178858,17 +178864,23 @@
           "attempted_at": "2026-11-19T09:30:56.556167+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "22330727",
-        "display_name": "Purple Hearts 1080p CZ Dabing",
-        "planned_at": "2026-11-19T11:04:49.346605+00:00"
-      },
       "previous_target_id": "31178109",
-      "prepared": {
+      "upload": {
         "target_video_id": "31178109",
-        "size_bytes": 2700327124,
-        "prepared_at": "2026-11-19T09:23:05.810555+00:00",
-        "relay_source_id": "22330727"
+        "display_name": "Purple Hearts 1080p CZ Dabing",
+        "source_id": "22330727",
+        "source_url": "https://sdilej.cz/22330727/zranitelna-srdce-2022-cz-dabing.mkv",
+        "source_filename": "Zranitelná Srdce (2022) CZ DABING.mkv",
+        "size_bytes": 2700000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9347619414329529,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/purple-hearts-1080p-cz-dabing-mkv/5f6569521c054e52",
+        "uploaded_at": "2026-11-19T11:04:54.216967+00:00"
       }
     },
     "37542": {
@@ -179105,7 +179117,7 @@
       "last_plan": {
         "source_id": "32998733",
         "display_name": "The Gift (2000) 4K CZ Dabing",
-        "planned_at": "2026-11-19T11:04:50.016577+00:00"
+        "planned_at": "2026-11-19T11:04:53.250128+00:00"
       }
     },
     "3318": {
@@ -225407,5 +225419,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T11:04:50.016605+00:00"
+  "updated_at": "2026-11-19T11:04:54.216983+00:00"
 }
