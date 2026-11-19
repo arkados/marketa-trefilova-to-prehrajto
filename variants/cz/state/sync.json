@@ -110897,7 +110897,7 @@
       "last_plan": {
         "source_id": "35095604",
         "display_name": "Rozsudky soudce Ooky 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:44:24.703323+00:00"
+        "planned_at": "2026-11-19T05:06:01.714559+00:00"
       },
       "previous_target_id": "30983770",
       "prepared": {
@@ -110905,6 +110905,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:45:08.279822+00:00",
         "relay_source_id": "35095604"
+      },
+      "claim": {
+        "worker_id": "d21a13ae9f3c481baa0bca00aa620a36-shard-0",
+        "claimed_at": "2026-11-19T05:06:02.304793+00:00",
+        "lease_expires_at": "2026-11-19T11:06:02.304793+00:00",
+        "run_id": "44447775933"
       }
     },
     "2154": {
@@ -178278,17 +178284,19 @@
       }
     },
     "3206": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34651341",
+          "target_video_id": "31170711",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:06:03.482039+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34651341",
         "display_name": "Emily the Criminal 1080p CZ Dabing",
         "planned_at": "2026-11-19T05:00:15.697951+00:00"
-      },
-      "claim": {
-        "worker_id": "14ba5e728ecb42cda81e70195adf2010-shard-0",
-        "claimed_at": "2026-11-19T05:00:16.314355+00:00",
-        "lease_expires_at": "2026-11-19T11:00:16.314355+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31170711",
       "prepared": {
@@ -178303,7 +178311,7 @@
       "last_plan": {
         "source_id": "27526380",
         "display_name": "The Brave One 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:05:57.945374+00:00"
+        "planned_at": "2026-11-19T05:06:01.956497+00:00"
       }
     },
     "3262": {
@@ -224722,5 +224730,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:05:59.779316+00:00"
+  "updated_at": "2026-11-19T05:06:03.482050+00:00"
 }
