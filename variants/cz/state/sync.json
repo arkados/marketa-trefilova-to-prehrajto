@@ -129076,7 +129076,7 @@
       "last_plan": {
         "source_id": "30776586",
         "display_name": "Chinas, a Second Generation Story (Chinas) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:52:58.538754+00:00"
+        "planned_at": "2026-11-19T03:48:45.135841+00:00"
       },
       "previous_target_id": "30986713",
       "prepared": {
@@ -129084,6 +129084,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-11T01:43:14.938475+00:00",
         "relay_source_id": "30776586"
+      },
+      "claim": {
+        "worker_id": "3123ad7b8b494233aafcdbcc19aef450-shard-0",
+        "claimed_at": "2026-11-19T03:48:45.688128+00:00",
+        "lease_expires_at": "2026-11-19T09:48:45.688128+00:00",
+        "run_id": "44447775933"
       }
     },
     "35493": {
@@ -177988,17 +177994,19 @@
       }
     },
     "12554": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35056002",
+          "target_video_id": "31168589",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:48:47.256485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35056002",
         "display_name": "The Legend of Bagger Vance 1080p CZ Dabing",
         "planned_at": "2026-11-19T03:38:13.720697+00:00"
-      },
-      "claim": {
-        "worker_id": "4c19d85919354431b79ba14f6a14da16-shard-0",
-        "claimed_at": "2026-11-19T03:38:14.326562+00:00",
-        "lease_expires_at": "2026-11-19T09:38:14.326562+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31168589",
       "prepared": {
@@ -178016,7 +178024,7 @@
       "last_plan": {
         "source_id": "34902739",
         "display_name": "Kalifornia 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:48:40.594033+00:00"
+        "planned_at": "2026-11-19T03:48:45.350003+00:00"
       }
     },
     "3251": {
@@ -224474,5 +224482,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:48:42.271844+00:00"
+  "updated_at": "2026-11-19T03:48:47.256497+00:00"
 }
