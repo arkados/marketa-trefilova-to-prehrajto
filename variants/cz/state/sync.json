@@ -132436,13 +132436,6 @@
           "source_id": "33767536",
           "target_video_id": "30987126",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:00:52.010935+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767536",
-          "target_video_id": "30987126",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:32:16.837488+00:00"
         },
         {
@@ -132451,6 +132444,13 @@
           "target_video_id": "30987126",
           "permanent": false,
           "attempted_at": "2026-11-18T23:16:44.783761+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767536",
+          "target_video_id": "30987126",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:44:50.421788+00:00"
         }
       ],
       "last_plan": {
@@ -142003,7 +142003,7 @@
       "last_plan": {
         "source_id": "32763852",
         "display_name": "Šviháci 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:16:44.182628+00:00"
+        "planned_at": "2026-11-19T00:44:48.375877+00:00"
       },
       "previous_target_id": "30988393",
       "prepared": {
@@ -142011,6 +142011,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T08:19:06.905333+00:00",
         "relay_source_id": "32763852"
+      },
+      "claim": {
+        "worker_id": "338c019fcab1433a8523ab43e909ac5b-shard-0",
+        "claimed_at": "2026-11-19T00:44:49.348895+00:00",
+        "lease_expires_at": "2026-11-19T06:44:49.348895+00:00",
+        "run_id": "44406951430"
       }
     },
     "27827": {
@@ -177526,6 +177532,12 @@
         "source_id": "34686295",
         "display_name": "Kandagar 1080p CZ Dabing",
         "planned_at": "2026-11-19T00:44:44.002268+00:00"
+      },
+      "claim": {
+        "worker_id": "c8eac0a8ff9a4db9acd33702a96450bb-shard-0",
+        "claimed_at": "2026-11-19T00:44:48.126960+00:00",
+        "lease_expires_at": "2026-11-19T06:44:48.126960+00:00",
+        "run_id": "44406951430"
       }
     },
     "12014": {
@@ -177533,7 +177545,7 @@
       "last_plan": {
         "source_id": "31552312",
         "display_name": "The Hand That Rocks the Cradle (1992) SD CZ Dabing",
-        "planned_at": "2026-11-19T00:44:44.478710+00:00"
+        "planned_at": "2026-11-19T00:44:48.706040+00:00"
       }
     },
     "30040": {
@@ -224066,5 +224078,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:44:44.478729+00:00"
+  "updated_at": "2026-11-19T00:44:50.421811+00:00"
 }
