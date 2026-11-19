@@ -138046,7 +138046,7 @@
       "last_plan": {
         "source_id": "29979237",
         "display_name": "Smetana 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:05:24.288490+00:00"
+        "planned_at": "2026-11-19T00:34:58.058539+00:00"
       },
       "previous_target_id": "30987839",
       "prepared": {
@@ -138054,6 +138054,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T06:20:47.389772+00:00",
         "relay_source_id": "29979237"
+      },
+      "claim": {
+        "worker_id": "0005f945c9ca4e10b830461d91a7d960-shard-0",
+        "claimed_at": "2026-11-19T00:34:59.053598+00:00",
+        "lease_expires_at": "2026-11-19T06:34:59.053598+00:00",
+        "run_id": "44406951430"
       }
     },
     "10741": {
@@ -177215,17 +177221,23 @@
           "attempted_at": "2026-11-18T23:05:18.497221+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "32457155",
-        "display_name": "Miracle on 34th Street (1994) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:34:54.588118+00:00"
-      },
       "previous_target_id": "31162355",
-      "prepared": {
+      "upload": {
         "target_video_id": "31162355",
-        "size_bytes": 2459464185,
-        "prepared_at": "2026-11-18T23:00:49.591952+00:00",
-        "relay_source_id": "32457155"
+        "display_name": "Miracle on 34th Street (1994) 1080p CZ Dabing",
+        "source_id": "32457155",
+        "source_url": "https://sdilej.cz/32457155/zazrak-v-new-yorku-1994-1080p-cz.mkv",
+        "source_filename": "Zázrak v New Yorku 1994 1080p CZ.mkv",
+        "size_bytes": 2500000000,
+        "width": 1920,
+        "height": 1040,
+        "audio_language": "cs",
+        "language_probability": 0.9078447222709656,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/miracle-on-34th-street-1994-1080p-cz-dabing-mkv/10d9ddb5ce4aa109",
+        "uploaded_at": "2026-11-19T00:34:59.648052+00:00"
       }
     },
     "3395": {
@@ -177482,7 +177494,7 @@
       "last_plan": {
         "source_id": "33758492",
         "display_name": "Prince of Darkness 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:34:55.205149+00:00"
+        "planned_at": "2026-11-19T00:34:58.402953+00:00"
       }
     },
     "14453": {
@@ -224021,5 +224033,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:34:55.205169+00:00"
+  "updated_at": "2026-11-19T00:34:59.648071+00:00"
 }
