@@ -111394,13 +111394,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:07:19.796377+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:50:53.915620+00:00"
         },
         {
@@ -111409,6 +111402,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-19T00:22:03.885741+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:53:39.678390+00:00"
         }
       ],
       "last_plan": {
@@ -111454,7 +111454,7 @@
       "last_plan": {
         "source_id": "26697838",
         "display_name": "Smích se lepí na paty 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:22:02.195428+00:00"
+        "planned_at": "2026-11-19T01:53:37.954539+00:00"
       },
       "previous_target_id": "30983795",
       "prepared": {
@@ -111462,6 +111462,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T14:49:23.310628+00:00",
         "relay_source_id": "26697838"
+      },
+      "claim": {
+        "worker_id": "3bdbaa398527469cb0ba245a1dbc1668-shard-0",
+        "claimed_at": "2026-11-19T01:53:38.926036+00:00",
+        "lease_expires_at": "2026-11-19T07:53:38.926036+00:00",
+        "run_id": "44406951430"
       }
     },
     "33771": {
@@ -177705,7 +177711,7 @@
       "last_plan": {
         "source_id": "20148452",
         "display_name": "U Turn 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:53:33.566961+00:00"
+        "planned_at": "2026-11-19T01:53:38.310367+00:00"
       }
     },
     "18402": {
@@ -224223,5 +224229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:53:33.848517+00:00"
+  "updated_at": "2026-11-19T01:53:39.678409+00:00"
 }
