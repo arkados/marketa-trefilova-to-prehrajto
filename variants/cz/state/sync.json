@@ -123626,13 +123626,6 @@
           "source_id": "34843024",
           "target_video_id": "30985573",
           "permanent": false,
-          "attempted_at": "2026-11-19T12:42:25.459387+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34843024",
-          "target_video_id": "30985573",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:15:38.516670+00:00"
         },
         {
@@ -123641,6 +123634,13 @@
           "target_video_id": "30985573",
           "permanent": false,
           "attempted_at": "2026-11-19T15:46:36.179518+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34843024",
+          "target_video_id": "30985573",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:21:13.382618+00:00"
         }
       ],
       "last_plan": {
@@ -137542,7 +137542,7 @@
       "last_plan": {
         "source_id": "33706152",
         "display_name": "Všichni musí být v pyžamu 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:46:35.462049+00:00"
+        "planned_at": "2026-11-19T17:21:12.121122+00:00"
       },
       "previous_target_id": "30987781",
       "prepared": {
@@ -137550,6 +137550,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:01:55.876469+00:00",
         "relay_source_id": "33706152"
+      },
+      "claim": {
+        "worker_id": "6e66af50d6784d678c55f735f833325f-shard-0",
+        "claimed_at": "2026-11-19T17:21:12.869682+00:00",
+        "lease_expires_at": "2026-11-19T23:21:12.869682+00:00",
+        "run_id": "44531372417"
       }
     },
     "24059": {
@@ -179953,7 +179959,7 @@
       "last_plan": {
         "source_id": "30700240",
         "display_name": "Suspiria (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:21:08.662919+00:00"
+        "planned_at": "2026-11-19T17:21:12.380462+00:00"
       }
     },
     "3372": {
@@ -226153,5 +226159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:21:08.662953+00:00"
+  "updated_at": "2026-11-19T17:21:13.382638+00:00"
 }
