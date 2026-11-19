@@ -124708,6 +124708,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:39:28.502583+00:00",
         "relay_source_id": "20827767"
+      },
+      "claim": {
+        "worker_id": "62ecbeef042e470b9581b2b2b99c2dd5-shard-0",
+        "claimed_at": "2026-11-19T00:11:43.458831+00:00",
+        "lease_expires_at": "2026-11-19T06:11:43.458831+00:00",
+        "run_id": "44406951430"
       }
     },
     "22167": {
@@ -177308,17 +177314,19 @@
       }
     },
     "3383": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12015153",
+          "target_video_id": "31163262",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:11:43.715768+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12015153",
         "display_name": "The Old Man & the Gun 1080p CZ Dabing",
         "planned_at": "2026-11-18T23:39:00.861835+00:00"
-      },
-      "claim": {
-        "worker_id": "6d942296b4584ee1928291ec740f06fc-shard-0",
-        "claimed_at": "2026-11-18T23:39:04.224012+00:00",
-        "lease_expires_at": "2026-11-19T05:39:04.224012+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31163262",
       "prepared": {
@@ -223896,5 +223904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:11:40.977198+00:00"
+  "updated_at": "2026-11-19T00:11:43.715788+00:00"
 }
