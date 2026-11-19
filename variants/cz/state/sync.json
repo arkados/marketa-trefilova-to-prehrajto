@@ -126576,13 +126576,6 @@
           "source_id": "34502876",
           "target_video_id": "30986214",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:41:56.028953+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34502876",
-          "target_video_id": "30986214",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:07:05.089426+00:00"
         },
         {
@@ -126591,6 +126584,13 @@
           "target_video_id": "30986214",
           "permanent": false,
           "attempted_at": "2026-11-19T22:09:22.580202+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34502876",
+          "target_video_id": "30986214",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:52:21.782515+00:00"
         }
       ],
       "last_plan": {
@@ -178402,7 +178402,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:09:22.309679+00:00"
+        "planned_at": "2026-11-19T23:52:19.141209+00:00"
       },
       "previous_target_id": "31170525",
       "prepared": {
@@ -178410,6 +178410,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-19T04:47:42.967614+00:00",
         "relay_source_id": "34964861"
+      },
+      "claim": {
+        "worker_id": "9f21e0660e7c41119dc5c82b67f25291-shard-0",
+        "claimed_at": "2026-11-19T23:52:20.819283+00:00",
+        "lease_expires_at": "2026-11-20T05:52:20.819283+00:00",
+        "run_id": "44616581853"
       }
     },
     "33936": {
@@ -181885,7 +181891,7 @@
       "last_plan": {
         "source_id": "33746883",
         "display_name": "From Hell 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:52:15.614107+00:00"
+        "planned_at": "2026-11-19T23:52:19.586297+00:00"
       }
     },
     "12435": {
@@ -227863,5 +227869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:52:15.614135+00:00"
+  "updated_at": "2026-11-19T23:52:21.782535+00:00"
 }
