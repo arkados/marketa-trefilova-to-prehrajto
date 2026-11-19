@@ -1816,7 +1816,7 @@
       "last_plan": {
         "source_id": "22817696",
         "display_name": "Requiem for a Dream 1080p CZ titulky",
-        "planned_at": "2026-11-19T17:16:13.970044+00:00"
+        "planned_at": "2026-11-19T17:46:46.666446+00:00"
       },
       "previous_target_id": "30676098",
       "prepared": {
@@ -1824,6 +1824,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-10-31T19:23:37.195550+00:00",
         "relay_source_id": "22817696"
+      },
+      "claim": {
+        "worker_id": "d1883db4e97b48cfb0e63ee2982e765a-shard-0",
+        "claimed_at": "2026-11-19T17:46:46.982683+00:00",
+        "lease_expires_at": "2026-11-19T23:46:46.982683+00:00",
+        "run_id": "44531372417"
       }
     },
     "107": {
@@ -6807,13 +6813,6 @@
           "source_id": "29667772",
           "target_video_id": "30661597",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:11:54.855956+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29667772",
-          "target_video_id": "30661597",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:46:03.669062+00:00"
         },
         {
@@ -6822,6 +6821,13 @@
           "target_video_id": "30661597",
           "permanent": false,
           "attempted_at": "2026-11-19T17:16:17.066515+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29667772",
+          "target_video_id": "30661597",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:46:47.151249+00:00"
         }
       ],
       "last_plan": {
@@ -6835,12 +6841,6 @@
         "size_bytes": 8700000000,
         "prepared_at": "2026-10-31T08:34:47.262597+00:00",
         "relay_source_id": "29667772"
-      },
-      "claim": {
-        "worker_id": "ad3284df2f864ea5b96f45c80dabb19f-shard-0",
-        "claimed_at": "2026-11-19T17:46:43.018499+00:00",
-        "lease_expires_at": "2026-11-19T23:46:43.018499+00:00",
-        "run_id": "44531372417"
       }
     },
     "655": {
@@ -100854,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:46:43.729240+00:00"
+  "updated_at": "2026-11-19T17:46:47.151270+00:00"
 }
