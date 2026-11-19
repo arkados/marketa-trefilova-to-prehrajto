@@ -133792,7 +133792,7 @@
       "last_plan": {
         "source_id": "9621938",
         "display_name": "The Last Bohemian SD CZ Dabing",
-        "planned_at": "2026-11-19T17:53:19.411735+00:00"
+        "planned_at": "2026-11-19T19:14:08.183078+00:00"
       },
       "previous_target_id": "30987320",
       "prepared": {
@@ -133800,6 +133800,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T04:16:35.918680+00:00",
         "relay_source_id": "9621938"
+      },
+      "claim": {
+        "worker_id": "bf24c701039541589d8cba130ffc0858-shard-0",
+        "claimed_at": "2026-11-19T19:14:09.151147+00:00",
+        "lease_expires_at": "2026-11-20T01:14:09.151147+00:00",
+        "run_id": "44531372417"
       }
     },
     "36732": {
@@ -138240,6 +138246,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T06:24:20.802315+00:00",
         "relay_source_id": "32899046"
+      },
+      "claim": {
+        "worker_id": "8cf4c5084eb84c5cb84bd56022688ea0-shard-0",
+        "claimed_at": "2026-11-19T19:14:07.686552+00:00",
+        "lease_expires_at": "2026-11-20T01:14:07.686552+00:00",
+        "run_id": "44531372417"
       }
     },
     "33475": {
@@ -180502,17 +180514,19 @@
       }
     },
     "11378": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33690503",
+          "target_video_id": "31189314",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:14:09.697899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
         "planned_at": "2026-11-19T19:10:08.287283+00:00"
-      },
-      "claim": {
-        "worker_id": "b0c7f6df5bd24370994a9935503eaa6e-shard-0",
-        "claimed_at": "2026-11-19T19:10:09.019364+00:00",
-        "lease_expires_at": "2026-11-20T01:10:09.019364+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31189314",
       "prepared": {
@@ -180527,7 +180541,7 @@
       "last_plan": {
         "source_id": "32799247",
         "display_name": "SMS für Dich (Text for You) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:14:04.162038+00:00"
+        "planned_at": "2026-11-19T19:14:08.435836+00:00"
       }
     },
     "3953": {
@@ -226649,5 +226663,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:14:04.375321+00:00"
+  "updated_at": "2026-11-19T19:14:09.697919+00:00"
 }
