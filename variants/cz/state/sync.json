@@ -11019,7 +11019,7 @@
       "last_plan": {
         "source_id": "32380403",
         "display_name": "The Sea Inside 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:07:48.474357+00:00"
+        "planned_at": "2026-11-19T16:47:00.156509+00:00"
       },
       "previous_target_id": "30642909",
       "prepared": {
@@ -11027,6 +11027,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-10-30T19:27:40.852355+00:00",
         "relay_source_id": "32380403"
+      },
+      "claim": {
+        "worker_id": "60a37f012c5e4aa298225f22c6b9c3c0-shard-0",
+        "claimed_at": "2026-11-19T16:47:00.815164+00:00",
+        "lease_expires_at": "2026-11-19T22:47:00.815164+00:00",
+        "run_id": "44531372417"
       }
     },
     "21748": {
@@ -114388,13 +114394,6 @@
           "source_id": "32021078",
           "target_video_id": "30984120",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:42:19.774556+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32021078",
-          "target_video_id": "30984120",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:32:02.812029+00:00"
         },
         {
@@ -114403,6 +114402,13 @@
           "target_video_id": "30984120",
           "permanent": false,
           "attempted_at": "2026-11-19T15:07:50.378987+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32021078",
+          "target_video_id": "30984120",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:47:01.021399+00:00"
         }
       ],
       "last_plan": {
@@ -114416,12 +114422,6 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-10T15:29:35.978333+00:00",
         "relay_source_id": "32021078"
-      },
-      "claim": {
-        "worker_id": "cd3a2be5b3e841c5b8a9affe225eaa73-shard-0",
-        "claimed_at": "2026-11-19T16:46:57.177026+00:00",
-        "lease_expires_at": "2026-11-19T22:46:57.177026+00:00",
-        "run_id": "44531372417"
       }
     },
     "3114": {
@@ -179841,7 +179841,7 @@
       "last_plan": {
         "source_id": "28523932",
         "display_name": "Sweet November 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:46:56.706155+00:00"
+        "planned_at": "2026-11-19T16:47:00.396413+00:00"
       }
     },
     "25873": {
@@ -226058,5 +226058,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:46:57.898470+00:00"
+  "updated_at": "2026-11-19T16:47:01.021419+00:00"
 }
