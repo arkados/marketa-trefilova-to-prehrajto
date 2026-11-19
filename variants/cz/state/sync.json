@@ -178648,17 +178648,19 @@
       }
     },
     "3413": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17541643",
+          "target_video_id": "31173308",
+          "permanent": false,
+          "attempted_at": "2026-11-19T08:09:21.401057+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
         "planned_at": "2026-11-19T06:52:20.811144+00:00"
-      },
-      "claim": {
-        "worker_id": "c256c49390e645058c5ed19611c82e91-shard-0",
-        "claimed_at": "2026-11-19T06:52:21.437782+00:00",
-        "lease_expires_at": "2026-11-19T12:52:21.437782+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31173308",
       "prepared": {
@@ -225044,5 +225046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:56:13.958983+00:00"
+  "updated_at": "2026-11-19T08:09:21.401069+00:00"
 }
