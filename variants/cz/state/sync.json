@@ -141849,13 +141849,6 @@
           "source_id": "28418103",
           "target_video_id": "30988328",
           "permanent": false,
-          "attempted_at": "2026-11-19T05:17:34.418985+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28418103",
-          "target_video_id": "30988328",
-          "permanent": false,
           "attempted_at": "2026-11-19T06:43:57.409542+00:00"
         },
         {
@@ -141864,12 +141857,19 @@
           "target_video_id": "30988328",
           "permanent": false,
           "attempted_at": "2026-11-19T09:38:43.211816+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28418103",
+          "target_video_id": "30988328",
+          "permanent": false,
+          "attempted_at": "2026-11-19T11:13:07.325053+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28418103",
         "display_name": "Vollkommen unerwartet (Rosamunde Pilcher: Vollkommen unerwartet) SD CZ Dabing",
-        "planned_at": "2026-11-19T09:38:39.801689+00:00"
+        "planned_at": "2026-11-19T11:13:04.128995+00:00"
       },
       "previous_target_id": "30988328",
       "prepared": {
@@ -179146,11 +179146,22 @@
       "last_plan": {
         "source_id": "19371326",
         "display_name": "The Lost Daughter 1080p CZ Dabing",
-        "planned_at": "2026-11-19T11:12:56.750132+00:00"
+        "planned_at": "2026-11-19T11:13:04.490939+00:00"
+      },
+      "claim": {
+        "worker_id": "a77d6b0c965f41629b4cd8841d08ce7d-shard-0",
+        "claimed_at": "2026-11-19T11:13:05.573984+00:00",
+        "lease_expires_at": "2026-11-19T17:13:05.573984+00:00",
+        "run_id": "44451991647"
       }
     },
     "26180": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13267960",
+        "display_name": "Ghost Town SD CZ Dabing",
+        "planned_at": "2026-11-19T11:13:04.710840+00:00"
+      }
     },
     "3193": {
       "attempts": []
@@ -225445,5 +225456,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T11:13:00.927761+00:00"
+  "updated_at": "2026-11-19T11:13:07.325071+00:00"
 }
