@@ -127457,13 +127457,6 @@
           "source_id": "6308804",
           "target_video_id": "30986400",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:59:02.552063+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6308804",
-          "target_video_id": "30986400",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:52:17.079722+00:00"
         },
         {
@@ -127472,6 +127465,13 @@
           "target_video_id": "30986400",
           "permanent": false,
           "attempted_at": "2026-11-19T05:12:08.536119+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6308804",
+          "target_video_id": "30986400",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:39:15.380361+00:00"
         }
       ],
       "last_plan": {
@@ -133474,7 +133474,7 @@
       "last_plan": {
         "source_id": "30864230",
         "display_name": "The Night Guest SD CZ Dabing",
-        "planned_at": "2026-11-19T05:12:07.966916+00:00"
+        "planned_at": "2026-11-19T06:39:12.711464+00:00"
       },
       "previous_target_id": "30987287",
       "prepared": {
@@ -133482,6 +133482,12 @@
         "size_bytes": 912100000,
         "prepared_at": "2026-11-11T04:10:15.307743+00:00",
         "relay_source_id": "30864230"
+      },
+      "claim": {
+        "worker_id": "25bbc0c2672d41849100518be35cd37a-shard-0",
+        "claimed_at": "2026-11-19T06:39:13.259326+00:00",
+        "lease_expires_at": "2026-11-19T12:39:13.259326+00:00",
+        "run_id": "44447775933"
       }
     },
     "31705": {
@@ -178611,7 +178617,7 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:39:10.573076+00:00"
+        "planned_at": "2026-11-19T06:39:12.921912+00:00"
       }
     },
     "3367": {
@@ -224985,5 +224991,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:39:10.573089+00:00"
+  "updated_at": "2026-11-19T06:39:15.380372+00:00"
 }
