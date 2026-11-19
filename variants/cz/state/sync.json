@@ -68095,13 +68095,6 @@
           "source_id": "34852546",
           "target_video_id": "30853531",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:32:25.840821+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34852546",
-          "target_video_id": "30853531",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:03:29.625548+00:00"
         },
         {
@@ -68110,6 +68103,13 @@
           "target_video_id": "30853531",
           "permanent": false,
           "attempted_at": "2026-11-19T01:35:02.459661+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34852546",
+          "target_video_id": "30853531",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:31:42.594594+00:00"
         }
       ],
       "last_plan": {
@@ -68123,12 +68123,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-06T08:03:31.674784+00:00",
         "relay_source_id": "34852546"
-      },
-      "claim": {
-        "worker_id": "838aad8bf2804945b238adc3250f98b1-shard-0",
-        "claimed_at": "2026-11-19T03:31:37.582937+00:00",
-        "lease_expires_at": "2026-11-19T09:31:37.582937+00:00",
-        "run_id": "44447775933"
       }
     },
     "2001": {
@@ -164442,7 +164436,7 @@
       "last_plan": {
         "source_id": "11186054",
         "display_name": "Rumburak 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:35:04.855859+00:00"
+        "planned_at": "2026-11-19T03:31:41.442973+00:00"
       },
       "previous_target_id": "31100173",
       "prepared": {
@@ -164450,6 +164444,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-16T21:51:03.827088+00:00",
         "relay_source_id": "11186054"
+      },
+      "claim": {
+        "worker_id": "94beeb17e37a4527a29ae4a6d961d51d-shard-0",
+        "claimed_at": "2026-11-19T03:31:42.017932+00:00",
+        "lease_expires_at": "2026-11-19T09:31:42.017932+00:00",
+        "run_id": "44447775933"
       }
     },
     "29530": {
@@ -177969,7 +177969,7 @@
       "last_plan": {
         "source_id": "34187564",
         "display_name": "Oddity 4K CZ Dabing",
-        "planned_at": "2026-11-19T03:31:37.208416+00:00"
+        "planned_at": "2026-11-19T03:31:41.668939+00:00"
       }
     },
     "12554": {
@@ -224436,5 +224436,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:31:38.465869+00:00"
+  "updated_at": "2026-11-19T03:31:42.594608+00:00"
 }
