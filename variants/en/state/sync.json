@@ -22582,6 +22582,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T05:26:18.941626+00:00",
         "relay_source_id": "10716193"
+      },
+      "claim": {
+        "worker_id": "01191219a4d840f39191093b2f1f8afe-shard-0",
+        "claimed_at": "2026-11-19T00:56:41.745973+00:00",
+        "lease_expires_at": "2026-11-19T06:56:41.745973+00:00",
+        "run_id": "44406951430"
       }
     },
     "2216": {
@@ -22628,13 +22634,6 @@
           "source_id": "27648883",
           "target_video_id": "30987757",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:26:08.367674+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27648883",
-          "target_video_id": "30987757",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:56:17.869623+00:00"
         },
         {
@@ -22643,6 +22642,13 @@
           "target_video_id": "30987757",
           "permanent": false,
           "attempted_at": "2026-11-19T00:26:31.126702+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27648883",
+          "target_video_id": "30987757",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:56:41.651101+00:00"
         }
       ],
       "last_plan": {
@@ -22656,12 +22662,6 @@
         "size_bytes": 4800000000,
         "prepared_at": "2026-11-11T05:56:20.471775+00:00",
         "relay_source_id": "27648883"
-      },
-      "claim": {
-        "worker_id": "4afb222df52f4dde8c9148ee91b4ee6d-shard-0",
-        "claimed_at": "2026-11-19T00:56:38.158553+00:00",
-        "lease_expires_at": "2026-11-19T06:56:38.158553+00:00",
-        "run_id": "44406951430"
       }
     },
     "2378": {
@@ -22839,7 +22839,7 @@
       "last_plan": {
         "source_id": "9657833",
         "display_name": "The Place SD CZ titulky",
-        "planned_at": "2026-11-19T00:26:36.325588+00:00"
+        "planned_at": "2026-11-19T00:56:42.478670+00:00"
       },
       "previous_target_id": "30988255",
       "prepared": {
@@ -100851,5 +100851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:56:38.922232+00:00"
+  "updated_at": "2026-11-19T00:56:42.478686+00:00"
 }
