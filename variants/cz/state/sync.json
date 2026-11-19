@@ -181268,17 +181268,19 @@
       "attempts": []
     },
     "3490": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33806158",
+          "target_video_id": "31191028",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:48:52.508811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33806158",
         "display_name": "The Good Dinosaur 1080p CZ Dabing",
         "planned_at": "2026-11-19T21:44:06.268177+00:00"
-      },
-      "claim": {
-        "worker_id": "5ac639f225804da4904ca99044360ff1-shard-0",
-        "claimed_at": "2026-11-19T21:44:09.448030+00:00",
-        "lease_expires_at": "2026-11-20T03:44:09.448030+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31191028",
       "prepared": {
@@ -227325,5 +227327,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:48:49.895206+00:00"
+  "updated_at": "2026-11-19T21:48:52.508831+00:00"
 }
