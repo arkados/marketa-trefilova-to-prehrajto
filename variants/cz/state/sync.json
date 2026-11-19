@@ -181070,17 +181070,19 @@
       }
     },
     "3399": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34724495",
+          "target_video_id": "31190710",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:20:16.385014+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34724495",
         "display_name": "Out of the Furnace 720p CZ Dabing",
         "planned_at": "2026-11-19T21:14:16.244224+00:00"
-      },
-      "claim": {
-        "worker_id": "5b27c1f804594d80be4c52765bce3f4c-shard-0",
-        "claimed_at": "2026-11-19T21:14:17.318856+00:00",
-        "lease_expires_at": "2026-11-20T03:14:17.318856+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31190710",
       "prepared": {
@@ -227162,5 +227164,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:20:13.494222+00:00"
+  "updated_at": "2026-11-19T21:20:16.385037+00:00"
 }
