@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-19T12:59:35.995039+00:00
+Poslední aktualizace (UTC): 2026-11-19T12:59:44.414291+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 564, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 132, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 565, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 131, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -152,7 +152,6 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Singin' in the Rain SD](https://prehraj.to/singin-in-the-rain-sd-mp4/2de17edf2d52a7eb) (ID 30677056) | [Sdílej 15908236](https://sdilej.cz/15908236/zpivani-v-desti-czdab.mp4) | target_unavailable | 2026-11-15T06:58:24.109347+00:00 |
 | [Sinister SD CZ Titulky](https://prehraj.to/sinister-sd-cz-titulky-mkv/6b64f0997910e8eb) (ID 31081591) | [Sdílej 11051862](https://sdilej.cz/11051862/sinister-2012-brrip-cztitl.mkv) | target_unavailable | 2026-11-16T03:35:52.345173+00:00 |
 | [Skyking (#SKYKING) 1080p CZ titulky](https://prehraj.to/skyking-skyking-1080p-cz-titulky-mkv/f146a58059f0f6dc) (ID 30987918) | [Sdílej 34014919](https://sdilej.cz/34014919/skyking.2026.sk.titulky.1080p.mkv) | target_unavailable | 2026-11-18T13:10:27.230370+00:00 |
-| [Something Wild 1080p CZ Titulky](https://prehraj.to/something-wild-1080p-cz-titulky-mkv/8437ea7ca997fba2) (ID 31013121) | [Sdílej 35182294](https://sdilej.cz/35182294/something.wild.1986.criterion.1080p.bluray.dl.dts.x264-majo.mkv) | target_unavailable | 2026-11-13T14:02:39.393310+00:00 |
 | [Speak No Evil (2024) 4K CZ titulky](https://prehraj.to/speak-no-evil-2024-4k-cz-titulky-mkv/90136363ce83fc58) (ID 31088511) | [Sdílej 29814058](https://sdilej.cz/29814058/speak.no.evil-2024-cztit-v-obraze-2160p.mkv) | target_unavailable | 2026-11-16T09:42:18.280460+00:00 |
 | [Stagecoach (1939) 1080p CZ Titulky](https://prehraj.to/stagecoach-1939-1080p-cz-titulky-mkv/363183867fb1c642) (ID 30656542) | [Sdílej 34968556](https://sdilej.cz/34968556/prepadeni-western-usa-claire-trevor-john-wayne-1939-cztit.1080p.mkv) | upload_unconfirmed | 2026-11-18T12:42:12.386569+00:00 |
 | [Star Wars: Episode III – Revenge of the Sith (Star Wars: Episode III - Revenge of the Sith) 1080p CZ titulky](https://prehraj.to/star-wars-episode-iii-revenge-of-the-sith-star-wars-episode-iii-revenge-of-the-sith-1080p-cz-titulky-mkv/1b5123c808358112) (ID 30661597) | [Sdílej 29667772](https://sdilej.cz/29667772/star-wars-epizoda-iii-pomsta-sithu-cz-1080p.mkv) | target_unavailable | 2026-11-18T12:42:26.428426+00:00 |
