@@ -126570,13 +126570,6 @@
           "source_id": "34502876",
           "target_video_id": "30986214",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:45:32.921501+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34502876",
-          "target_video_id": "30986214",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:43:23.013623+00:00"
         },
         {
@@ -126585,6 +126578,13 @@
           "target_video_id": "30986214",
           "permanent": false,
           "attempted_at": "2026-11-19T14:16:48.028685+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34502876",
+          "target_video_id": "30986214",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:47:42.150088+00:00"
         }
       ],
       "last_plan": {
@@ -178366,7 +178366,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:16:47.344028+00:00"
+        "planned_at": "2026-11-19T15:47:40.665569+00:00"
       },
       "previous_target_id": "31170525",
       "prepared": {
@@ -178374,6 +178374,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-19T04:47:42.967614+00:00",
         "relay_source_id": "34964861"
+      },
+      "claim": {
+        "worker_id": "c9d9cd7ad8474e199a22f760cbddc300-shard-0",
+        "claimed_at": "2026-11-19T15:47:41.836904+00:00",
+        "lease_expires_at": "2026-11-19T21:47:41.836904+00:00",
+        "run_id": "44524452534"
       }
     },
     "33936": {
@@ -179679,7 +179685,7 @@
       "last_plan": {
         "source_id": "31769735",
         "display_name": "Stay 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:47:37.834837+00:00"
+        "planned_at": "2026-11-19T15:47:41.055278+00:00"
       }
     },
     "12546": {
@@ -225915,5 +225921,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:47:37.834857+00:00"
+  "updated_at": "2026-11-19T15:47:42.150109+00:00"
 }
