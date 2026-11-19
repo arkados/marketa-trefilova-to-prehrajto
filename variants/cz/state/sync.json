@@ -14761,13 +14761,6 @@
           "source_id": "32500310",
           "target_video_id": "30657182",
           "permanent": false,
-          "attempted_at": "2026-11-19T13:53:53.931208+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32500310",
-          "target_video_id": "30657182",
-          "permanent": false,
           "attempted_at": "2026-11-19T15:28:04.481545+00:00"
         },
         {
@@ -14776,6 +14769,13 @@
           "target_video_id": "30657182",
           "permanent": false,
           "attempted_at": "2026-11-19T17:04:46.817670+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32500310",
+          "target_video_id": "30657182",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:25:14.384937+00:00"
         }
       ],
       "last_plan": {
@@ -141009,7 +141009,7 @@
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-19T17:04:45.849723+00:00"
+        "planned_at": "2026-11-19T18:25:12.480067+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -141017,6 +141017,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T07:42:12.868116+00:00",
         "relay_source_id": "32763044"
+      },
+      "claim": {
+        "worker_id": "52ad0128da3a4fe3aa0312630755f552-shard-0",
+        "claimed_at": "2026-11-19T18:25:13.611257+00:00",
+        "lease_expires_at": "2026-11-20T00:25:13.611257+00:00",
+        "run_id": "44531372417"
       }
     },
     "34825": {
@@ -180210,7 +180216,7 @@
       "last_plan": {
         "source_id": "27430518",
         "display_name": "The Devil's Rejects 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:25:09.430347+00:00"
+        "planned_at": "2026-11-19T18:25:13.106170+00:00"
       }
     },
     "3555": {
@@ -226383,5 +226389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:25:09.654435+00:00"
+  "updated_at": "2026-11-19T18:25:14.384957+00:00"
 }
