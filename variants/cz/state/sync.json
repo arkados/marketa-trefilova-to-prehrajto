@@ -133766,13 +133766,6 @@
           "source_id": "9621938",
           "target_video_id": "30987320",
           "permanent": false,
-          "attempted_at": "2026-11-19T02:14:38.903561+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "9621938",
-          "target_video_id": "30987320",
-          "permanent": false,
           "attempted_at": "2026-11-19T04:08:39.246459+00:00"
         },
         {
@@ -133781,12 +133774,19 @@
           "target_video_id": "30987320",
           "permanent": false,
           "attempted_at": "2026-11-19T05:25:46.370371+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "9621938",
+          "target_video_id": "30987320",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:52:22.542741+00:00"
         }
       ],
       "last_plan": {
         "source_id": "9621938",
         "display_name": "The Last Bohemian SD CZ Dabing",
-        "planned_at": "2026-11-19T05:25:42.786613+00:00"
+        "planned_at": "2026-11-19T06:52:20.585023+00:00"
       },
       "previous_target_id": "30987320",
       "prepared": {
@@ -178644,11 +178644,22 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:52:13.586185+00:00"
+        "planned_at": "2026-11-19T06:52:20.811144+00:00"
+      },
+      "claim": {
+        "worker_id": "c256c49390e645058c5ed19611c82e91-shard-0",
+        "claimed_at": "2026-11-19T06:52:21.437782+00:00",
+        "lease_expires_at": "2026-11-19T12:52:21.437782+00:00",
+        "run_id": "44447775933"
       }
     },
     "3367": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13693092",
+        "display_name": "Emma (Emma.) (2020) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T06:52:20.946591+00:00"
+      }
     },
     "37170": {
       "attempts": []
@@ -225018,5 +225029,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:52:17.052342+00:00"
+  "updated_at": "2026-11-19T06:52:22.542752+00:00"
 }
