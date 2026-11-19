@@ -126536,13 +126536,6 @@
           "source_id": "35401165",
           "target_video_id": "30986215",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:42:02.890035+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35401165",
-          "target_video_id": "30986215",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:07:14.209895+00:00"
         },
         {
@@ -126551,6 +126544,13 @@
           "target_video_id": "30986215",
           "permanent": false,
           "attempted_at": "2026-11-19T22:09:30.332609+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35401165",
+          "target_video_id": "30986215",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:52:29.728260+00:00"
         }
       ],
       "last_plan": {
@@ -131928,7 +131928,7 @@
       "last_plan": {
         "source_id": "30410983",
         "display_name": "Stedrý vecer pana rady Vacátka (Štědrý večer pana rady Vacátka) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:09:29.692416+00:00"
+        "planned_at": "2026-11-19T23:52:27.958949+00:00"
       },
       "previous_target_id": "30987029",
       "prepared": {
@@ -131936,6 +131936,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T03:24:47.389155+00:00",
         "relay_source_id": "30410983"
+      },
+      "claim": {
+        "worker_id": "6a88ed1430ed498da150be86943fb185-shard-0",
+        "claimed_at": "2026-11-19T23:52:29.104637+00:00",
+        "lease_expires_at": "2026-11-20T05:52:29.104637+00:00",
+        "run_id": "44616581853"
       }
     },
     "13346": {
@@ -181885,7 +181891,7 @@
       "last_plan": {
         "source_id": "33746883",
         "display_name": "From Hell 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:52:24.773840+00:00"
+        "planned_at": "2026-11-19T23:52:28.275176+00:00"
       }
     },
     "12435": {
@@ -227863,5 +227869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:52:25.030071+00:00"
+  "updated_at": "2026-11-19T23:52:29.728279+00:00"
 }
