@@ -114314,13 +114314,6 @@
           "source_id": "31982080",
           "target_video_id": "30984113",
           "permanent": false,
-          "attempted_at": "2026-11-19T08:29:16.450386+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31982080",
-          "target_video_id": "30984113",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:03:06.199687+00:00"
         },
         {
@@ -114329,6 +114322,13 @@
           "target_video_id": "30984113",
           "permanent": false,
           "attempted_at": "2026-11-19T11:39:38.578821+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31982080",
+          "target_video_id": "30984113",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:29:35.259614+00:00"
         }
       ],
       "last_plan": {
@@ -127122,7 +127122,7 @@
       "last_plan": {
         "source_id": "34698812",
         "display_name": "Poisoned: The Danger In Our Food (Poisoned: The Dirty Truth About Your Food) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T11:39:37.896929+00:00"
+        "planned_at": "2026-11-19T13:29:33.664232+00:00"
       },
       "previous_target_id": "30986288",
       "prepared": {
@@ -127130,6 +127130,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T23:53:34.306215+00:00",
         "relay_source_id": "34698812"
+      },
+      "claim": {
+        "worker_id": "b3b7e1374b6d4d8a908406e0c694ce10-shard-0",
+        "claimed_at": "2026-11-19T13:29:34.871153+00:00",
+        "lease_expires_at": "2026-11-19T19:29:34.871153+00:00",
+        "run_id": "44524452534"
       }
     },
     "24288": {
@@ -179432,7 +179438,7 @@
       "last_plan": {
         "source_id": "21485649",
         "display_name": "Good Boys 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:29:30.284570+00:00"
+        "planned_at": "2026-11-19T13:29:34.045552+00:00"
       }
     },
     "11549": {
@@ -225698,5 +225704,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:29:30.575177+00:00"
+  "updated_at": "2026-11-19T13:29:35.259635+00:00"
 }
