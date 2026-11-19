@@ -131782,13 +131782,6 @@
           "source_id": "32647219",
           "target_video_id": "30987015",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:12:42.209552+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32647219",
-          "target_video_id": "30987015",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:34:36.710420+00:00"
         },
         {
@@ -131797,6 +131790,13 @@
           "target_video_id": "30987015",
           "permanent": false,
           "attempted_at": "2026-11-19T19:58:19.662496+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32647219",
+          "target_video_id": "30987015",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:59:34.520009+00:00"
         }
       ],
       "last_plan": {
@@ -180898,7 +180898,7 @@
       "last_plan": {
         "source_id": "34520447",
         "display_name": "Violent Night 4K CZ Dabing",
-        "planned_at": "2026-11-19T19:50:28.498666+00:00"
+        "planned_at": "2026-11-19T21:59:32.354341+00:00"
       },
       "previous_target_id": "31189771",
       "prepared": {
@@ -180906,6 +180906,12 @@
         "size_bytes": 4775016770,
         "prepared_at": "2026-11-19T19:50:33.312776+00:00",
         "relay_source_id": "34520447"
+      },
+      "claim": {
+        "worker_id": "00d09818a9ce4a3cb25634f3c24b2b90-shard-0",
+        "claimed_at": "2026-11-19T21:59:33.491092+00:00",
+        "lease_expires_at": "2026-11-20T03:59:33.491092+00:00",
+        "run_id": "44616581853"
       }
     },
     "22202": {
@@ -181403,7 +181409,7 @@
       "last_plan": {
         "source_id": "32999212",
         "display_name": "Tron 4K CZ Dabing",
-        "planned_at": "2026-11-19T21:59:29.366101+00:00"
+        "planned_at": "2026-11-19T21:59:32.684258+00:00"
       }
     },
     "3503": {
@@ -227423,5 +227429,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:59:29.366128+00:00"
+  "updated_at": "2026-11-19T21:59:34.520028+00:00"
 }
