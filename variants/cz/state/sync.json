@@ -114798,13 +114798,6 @@
           "source_id": "29775767",
           "target_video_id": "30984163",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:01:38.884256+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29775767",
-          "target_video_id": "30984163",
-          "permanent": false,
           "attempted_at": "2026-11-19T08:52:46.811047+00:00"
         },
         {
@@ -114813,6 +114806,13 @@
           "target_video_id": "30984163",
           "permanent": false,
           "attempted_at": "2026-11-19T10:27:18.907629+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29775767",
+          "target_video_id": "30984163",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:01:20.481996+00:00"
         }
       ],
       "last_plan": {
@@ -116386,7 +116386,7 @@
       "last_plan": {
         "source_id": "33544977",
         "display_name": "Teenage Mutant Ninja Turtles (1990) 4K CZ Dabing",
-        "planned_at": "2026-11-19T10:27:23.269830+00:00"
+        "planned_at": "2026-11-19T12:01:18.780033+00:00"
       },
       "previous_target_id": "30984660",
       "prepared": {
@@ -116394,6 +116394,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T17:14:52.543035+00:00",
         "relay_source_id": "33544977"
+      },
+      "claim": {
+        "worker_id": "d1fe87b25d0b4534bba29edf493f4a09-shard-0",
+        "claimed_at": "2026-11-19T12:01:19.817235+00:00",
+        "lease_expires_at": "2026-11-19T18:01:19.817235+00:00",
+        "run_id": "44451991647"
       }
     },
     "2845": {
@@ -179241,7 +179247,7 @@
       "last_plan": {
         "source_id": "34737394",
         "display_name": "High Tension (Haute tension) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:01:15.522249+00:00"
+        "planned_at": "2026-11-19T12:01:19.136071+00:00"
       }
     },
     "20046": {
@@ -225534,5 +225540,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:01:15.820338+00:00"
+  "updated_at": "2026-11-19T12:01:20.482015+00:00"
 }
