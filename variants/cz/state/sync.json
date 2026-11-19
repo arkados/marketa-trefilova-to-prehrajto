@@ -142840,13 +142840,6 @@
           "source_id": "29645616",
           "target_video_id": "30988560",
           "permanent": false,
-          "attempted_at": "2026-11-19T08:57:43.736578+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29645616",
-          "target_video_id": "30988560",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:33:22.130079+00:00"
         },
         {
@@ -142855,12 +142848,19 @@
           "target_video_id": "30988560",
           "permanent": false,
           "attempted_at": "2026-11-19T12:07:38.530375+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29645616",
+          "target_video_id": "30988560",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:58:35.507263+00:00"
         }
       ],
       "last_plan": {
         "source_id": "29645616",
         "display_name": "Broken Promise 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:07:33.366661+00:00"
+        "planned_at": "2026-11-19T13:58:31.401653+00:00"
       },
       "previous_target_id": "30988560",
       "prepared": {
@@ -179474,11 +179474,22 @@
       "last_plan": {
         "source_id": "32942477",
         "display_name": "Star Trek III: The Search for Spock 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:58:17.784895+00:00"
+        "planned_at": "2026-11-19T13:58:31.952881+00:00"
+      },
+      "claim": {
+        "worker_id": "f495a035335d4384a3a5a087d4b74ba3-shard-0",
+        "claimed_at": "2026-11-19T13:58:33.676196+00:00",
+        "lease_expires_at": "2026-11-19T19:58:33.676196+00:00",
+        "run_id": "44524452534"
       }
     },
     "19958": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34698522",
+        "display_name": "The Inbetweeners Movie SD CZ Dabing",
+        "planned_at": "2026-11-19T13:58:32.370150+00:00"
+      }
     },
     "3333": {
       "attempts": []
@@ -225737,5 +225748,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:58:26.373223+00:00"
+  "updated_at": "2026-11-19T13:58:35.507285+00:00"
 }
