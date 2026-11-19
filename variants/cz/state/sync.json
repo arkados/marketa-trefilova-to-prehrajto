@@ -111169,7 +111169,7 @@
       "last_plan": {
         "source_id": "8555407",
         "display_name": "Podnájemníci SD CZ Dabing",
-        "planned_at": "2026-11-19T14:29:32.344760+00:00"
+        "planned_at": "2026-11-19T16:00:19.603142+00:00"
       },
       "previous_target_id": "30983781",
       "prepared": {
@@ -111177,6 +111177,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T14:46:42.056772+00:00",
         "relay_source_id": "8555407"
+      },
+      "claim": {
+        "worker_id": "c13b256cef2f4087a1a3a4c572d19b44-shard-0",
+        "claimed_at": "2026-11-19T16:00:20.659270+00:00",
+        "lease_expires_at": "2026-11-19T22:00:20.659270+00:00",
+        "run_id": "44524452534"
       }
     },
     "12726": {
@@ -174314,13 +174320,6 @@
           "source_id": "34898015",
           "target_video_id": "31153541",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:01:01.001438+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34898015",
-          "target_video_id": "31153541",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:55:21.742909+00:00"
         },
         {
@@ -174329,6 +174328,13 @@
           "target_video_id": "31153541",
           "permanent": false,
           "attempted_at": "2026-11-19T14:29:33.009214+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34898015",
+          "target_video_id": "31153541",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:00:31.106470+00:00"
         }
       ],
       "last_plan": {
@@ -174342,12 +174348,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-18T14:40:10.825054+00:00",
         "relay_source_id": "34898015"
-      },
-      "claim": {
-        "worker_id": "14b5120e618b4216b13471cb18314e78-shard-0",
-        "claimed_at": "2026-11-19T16:00:14.493771+00:00",
-        "lease_expires_at": "2026-11-19T22:00:14.493771+00:00",
-        "run_id": "44524452534"
       }
     },
     "3384": {
@@ -179714,7 +179714,7 @@
       "last_plan": {
         "source_id": "29935216",
         "display_name": "Queen of the Lake (Jezerní královna) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:00:13.760144+00:00"
+        "planned_at": "2026-11-19T16:00:19.990856+00:00"
       }
     },
     "3519": {
@@ -225947,5 +225947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:00:17.230967+00:00"
+  "updated_at": "2026-11-19T16:00:31.106491+00:00"
 }
