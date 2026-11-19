@@ -110656,13 +110656,6 @@
           "source_id": "34716525",
           "target_video_id": "30983747",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:30:44.700437+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716525",
-          "target_video_id": "30983747",
-          "permanent": false,
           "attempted_at": "2026-11-19T09:17:30.886651+00:00"
         },
         {
@@ -110671,6 +110664,13 @@
           "target_video_id": "30983747",
           "permanent": false,
           "attempted_at": "2026-11-19T10:56:12.997767+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716525",
+          "target_video_id": "30983747",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:51:00.250557+00:00"
         }
       ],
       "last_plan": {
@@ -131962,7 +131962,7 @@
       "last_plan": {
         "source_id": "29956320",
         "display_name": "Dalskabáty, hrisna ves (Dalskabáty, hříšná ves aneb Zapomenutý čert) SD CZ Dabing",
-        "planned_at": "2026-11-19T10:56:12.679989+00:00"
+        "planned_at": "2026-11-19T12:50:58.559163+00:00"
       },
       "previous_target_id": "30987039",
       "prepared": {
@@ -131970,6 +131970,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T03:28:04.677666+00:00",
         "relay_source_id": "29956320"
+      },
+      "claim": {
+        "worker_id": "5d151351b3cd494896425abbd2561bba-shard-0",
+        "claimed_at": "2026-11-19T12:50:59.773532+00:00",
+        "lease_expires_at": "2026-11-19T18:50:59.773532+00:00",
+        "run_id": "44524452534"
       }
     },
     "32432": {
@@ -179362,7 +179368,7 @@
       "last_plan": {
         "source_id": "28379966",
         "display_name": "Hidalgo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:50:55.632222+00:00"
+        "planned_at": "2026-11-19T12:50:58.979632+00:00"
       }
     },
     "15258": {
@@ -225640,5 +225646,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:50:55.632251+00:00"
+  "updated_at": "2026-11-19T12:51:00.250579+00:00"
 }
