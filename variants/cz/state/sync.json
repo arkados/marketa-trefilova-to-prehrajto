@@ -131097,7 +131097,7 @@
       "last_plan": {
         "source_id": "17848418",
         "display_name": "Kousek nebe (A Little Piece of Heaven) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:48:00.440461+00:00"
+        "planned_at": "2026-11-19T14:22:14.348836+00:00"
       },
       "previous_target_id": "30986953",
       "prepared": {
@@ -131105,6 +131105,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T02:53:47.837626+00:00",
         "relay_source_id": "17848418"
+      },
+      "claim": {
+        "worker_id": "b3503bb42ba148d6a035e6ca59c3c5a1-shard-0",
+        "claimed_at": "2026-11-19T14:22:15.497350+00:00",
+        "lease_expires_at": "2026-11-19T20:22:15.497350+00:00",
+        "run_id": "44524452534"
       }
     },
     "28008": {
@@ -179513,17 +179519,19 @@
       }
     },
     "19958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34698522",
+          "target_video_id": "31184829",
+          "permanent": false,
+          "attempted_at": "2026-11-19T14:22:15.736745+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34698522",
         "display_name": "The Inbetweeners Movie SD CZ Dabing",
         "planned_at": "2026-11-19T14:20:59.737873+00:00"
-      },
-      "claim": {
-        "worker_id": "4e3071ecce25427199a50e8cbb04f9ea-shard-0",
-        "claimed_at": "2026-11-19T14:21:00.851782+00:00",
-        "lease_expires_at": "2026-11-19T20:21:00.851782+00:00",
-        "run_id": "44524452534"
       },
       "previous_target_id": "31184829",
       "prepared": {
@@ -179544,7 +179552,7 @@
       "last_plan": {
         "source_id": "34014132",
         "display_name": "Kangaroo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:22:10.037582+00:00"
+        "planned_at": "2026-11-19T14:22:14.784170+00:00"
       }
     },
     "3497": {
@@ -225795,5 +225803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T14:22:11.908876+00:00"
+  "updated_at": "2026-11-19T14:22:15.736766+00:00"
 }
