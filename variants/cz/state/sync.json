@@ -139118,7 +139118,7 @@
       "last_plan": {
         "source_id": "34776105",
         "display_name": "Fallow (BRAK) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:50:28.236909+00:00"
+        "planned_at": "2026-11-19T21:53:01.667611+00:00"
       },
       "previous_target_id": "30987920",
       "prepared": {
@@ -139126,6 +139126,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:47:03.938439+00:00",
         "relay_source_id": "34776105"
+      },
+      "claim": {
+        "worker_id": "5b309a88c5614fb6bd2450b5273000d8-shard-0",
+        "claimed_at": "2026-11-19T21:53:02.520051+00:00",
+        "lease_expires_at": "2026-11-20T03:53:02.520051+00:00",
+        "run_id": "44616581853"
       }
     },
     "26977": {
@@ -181303,17 +181309,19 @@
       }
     },
     "19422": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11919025",
+          "target_video_id": "31191067",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:53:03.477451+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11919025",
         "display_name": "Ransom (1996) 1080p CZ Dabing",
         "planned_at": "2026-11-19T21:49:06.221190+00:00"
-      },
-      "claim": {
-        "worker_id": "e52a8b83c48346c7b500c7be906a8f97-shard-0",
-        "claimed_at": "2026-11-19T21:49:09.437033+00:00",
-        "lease_expires_at": "2026-11-20T03:49:09.437033+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31191067",
       "prepared": {
@@ -181349,7 +181357,7 @@
       "last_plan": {
         "source_id": "29878176",
         "display_name": "Verdict (Jury of One) SD CZ Dabing",
-        "planned_at": "2026-11-19T21:52:54.553897+00:00"
+        "planned_at": "2026-11-19T21:53:01.976126+00:00"
       }
     },
     "12101": {
@@ -227375,5 +227383,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:52:59.363840+00:00"
+  "updated_at": "2026-11-19T21:53:03.477469+00:00"
 }
