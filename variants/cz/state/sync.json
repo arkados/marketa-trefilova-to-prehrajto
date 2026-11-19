@@ -115175,6 +115175,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T16:09:03.929660+00:00",
         "relay_source_id": "6506542"
+      },
+      "claim": {
+        "worker_id": "224221a07433414697a0ea982b0944a3-shard-0",
+        "claimed_at": "2026-11-19T19:43:54.710730+00:00",
+        "lease_expires_at": "2026-11-20T01:43:54.710730+00:00",
+        "run_id": "44531372417"
       }
     },
     "34328": {
@@ -130844,7 +130850,7 @@
       "last_plan": {
         "source_id": "34468790",
         "display_name": "A Hoof Here, a Hoof There (Kopytem sem, kopytem tam) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:23:08.504700+00:00"
+        "planned_at": "2026-11-19T19:43:55.052443+00:00"
       },
       "previous_target_id": "30986934",
       "prepared": {
@@ -142677,13 +142683,6 @@
           "source_id": "28465128",
           "target_video_id": "30988535",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:25:54.638236+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28465128",
-          "target_video_id": "30988535",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:02:50.107066+00:00"
         },
         {
@@ -142692,6 +142691,13 @@
           "target_video_id": "30988535",
           "permanent": false,
           "attempted_at": "2026-11-19T18:23:06.127288+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28465128",
+          "target_video_id": "30988535",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:43:54.865508+00:00"
         }
       ],
       "last_plan": {
@@ -142705,12 +142711,6 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T08:39:32.865853+00:00",
         "relay_source_id": "28465128"
-      },
-      "claim": {
-        "worker_id": "3d1472475f3940c893a8ff80f0d3d63a-shard-0",
-        "claimed_at": "2026-11-19T19:43:51.335512+00:00",
-        "lease_expires_at": "2026-11-20T01:43:51.335512+00:00",
-        "run_id": "44531372417"
       }
     },
     "33550": {
@@ -180699,7 +180699,7 @@
       "last_plan": {
         "source_id": "31573819",
         "display_name": "Licence to Kill 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:43:51.800456+00:00"
+        "planned_at": "2026-11-19T19:43:55.287585+00:00"
       }
     },
     "3536": {
@@ -226803,5 +226803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:43:51.984806+00:00"
+  "updated_at": "2026-11-19T19:43:55.287605+00:00"
 }
