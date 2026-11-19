@@ -8673,13 +8673,6 @@
           "source_id": "17777440",
           "target_video_id": "30631282",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:49:38.469414+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17777440",
-          "target_video_id": "30631282",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:19:27.842993+00:00"
         },
         {
@@ -8688,6 +8681,13 @@
           "target_video_id": "30631282",
           "permanent": false,
           "attempted_at": "2026-11-19T03:20:10.074033+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17777440",
+          "target_video_id": "30631282",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:41:48.812150+00:00"
         }
       ],
       "last_plan": {
@@ -115366,7 +115366,7 @@
       "last_plan": {
         "source_id": "28364650",
         "display_name": "Jay and Silent Bob Strike Back 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:20:09.128303+00:00"
+        "planned_at": "2026-11-19T04:41:47.477630+00:00"
       },
       "previous_target_id": "30984531",
       "prepared": {
@@ -115374,6 +115374,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:42:37.453998+00:00",
         "relay_source_id": "28364650"
+      },
+      "claim": {
+        "worker_id": "99d9f0948d1b44afb601897bf4b98396-shard-0",
+        "claimed_at": "2026-11-19T04:41:48.083687+00:00",
+        "lease_expires_at": "2026-11-19T10:41:48.083687+00:00",
+        "run_id": "44447775933"
       }
     },
     "2818": {
@@ -178212,7 +178218,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:41:44.070282+00:00"
+        "planned_at": "2026-11-19T04:41:47.696010+00:00"
       }
     },
     "33936": {
@@ -224646,5 +224652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:41:44.344870+00:00"
+  "updated_at": "2026-11-19T04:41:48.812162+00:00"
 }
