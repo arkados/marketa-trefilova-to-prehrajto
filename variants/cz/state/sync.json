@@ -178546,17 +178546,19 @@
       }
     },
     "17535": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25111363",
+          "target_video_id": "31171915",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:29:59.343557+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25111363",
         "display_name": "Close to the Horizon (Dem Horizont so nah) 1080p CZ Dabing",
         "planned_at": "2026-11-19T05:55:38.471607+00:00"
-      },
-      "claim": {
-        "worker_id": "73e07e879b4c46b0b258ee081f15e00f-shard-0",
-        "claimed_at": "2026-11-19T05:55:39.146755+00:00",
-        "lease_expires_at": "2026-11-19T11:55:39.146755+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31171915",
       "prepared": {
@@ -224951,5 +224953,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:29:55.403091+00:00"
+  "updated_at": "2026-11-19T06:29:59.343572+00:00"
 }
