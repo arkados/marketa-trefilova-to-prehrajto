@@ -138677,13 +138677,6 @@
           "source_id": "32147344",
           "target_video_id": "30987885",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:02:09.001857+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32147344",
-          "target_video_id": "30987885",
-          "permanent": false,
           "attempted_at": "2026-11-19T04:20:32.678152+00:00"
         },
         {
@@ -138692,6 +138685,13 @@
           "target_video_id": "30987885",
           "permanent": false,
           "attempted_at": "2026-11-19T05:41:02.097560+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32147344",
+          "target_video_id": "30987885",
+          "permanent": false,
+          "attempted_at": "2026-11-19T08:31:05.591803+00:00"
         }
       ],
       "last_plan": {
@@ -138705,12 +138705,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:34:09.804201+00:00",
         "relay_source_id": "32147344"
-      },
-      "claim": {
-        "worker_id": "35cfbe87df7144caafaaa299f5184f33-shard-0",
-        "claimed_at": "2026-11-19T08:31:00.918140+00:00",
-        "lease_expires_at": "2026-11-19T14:31:00.918140+00:00",
-        "run_id": "44451991647"
       }
     },
     "33082": {
@@ -140439,7 +140433,7 @@
       "last_plan": {
         "source_id": "26422141",
         "display_name": "The Avalanche SD CZ Dabing",
-        "planned_at": "2026-11-19T05:41:04.134092+00:00"
+        "planned_at": "2026-11-19T08:31:04.245370+00:00"
       },
       "previous_target_id": "30988086",
       "prepared": {
@@ -140447,6 +140441,12 @@
         "size_bytes": 766400000,
         "prepared_at": "2026-11-11T07:28:32.011926+00:00",
         "relay_source_id": "26422141"
+      },
+      "claim": {
+        "worker_id": "e3356ade68804d77b2e2ac755372492e-shard-0",
+        "claimed_at": "2026-11-19T08:31:05.244875+00:00",
+        "lease_expires_at": "2026-11-19T14:31:05.244875+00:00",
+        "run_id": "44451991647"
       }
     },
     "12456": {
@@ -178717,7 +178717,7 @@
       "last_plan": {
         "source_id": "30199287",
         "display_name": "Three Thousand Years of Longing 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:31:00.195458+00:00"
+        "planned_at": "2026-11-19T08:31:04.619281+00:00"
       }
     },
     "3213": {
@@ -225087,5 +225087,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T08:31:01.730490+00:00"
+  "updated_at": "2026-11-19T08:31:05.591820+00:00"
 }
