@@ -123511,13 +123511,6 @@
           "source_id": "30317434",
           "target_video_id": "30985560",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:42:28.908867+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30317434",
-          "target_video_id": "30985560",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:28:11.751774+00:00"
         },
         {
@@ -123526,12 +123519,19 @@
           "target_video_id": "30985560",
           "permanent": false,
           "attempted_at": "2026-11-18T23:59:31.583675+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30317434",
+          "target_video_id": "30985560",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:29:27.193221+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30317434",
         "display_name": "True Spirit 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:59:26.398420+00:00"
+        "planned_at": "2026-11-19T01:29:24.587593+00:00"
       },
       "previous_target_id": "30985560",
       "prepared": {
@@ -177658,11 +177658,22 @@
       "last_plan": {
         "source_id": "13473874",
         "display_name": "Se mi lasci non vale 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:29:17.668716+00:00"
+        "planned_at": "2026-11-19T01:29:24.926760+00:00"
+      },
+      "claim": {
+        "worker_id": "5d693bfba70042deb6d4ed90fae8c4df-shard-0",
+        "claimed_at": "2026-11-19T01:29:25.950768+00:00",
+        "lease_expires_at": "2026-11-19T07:29:25.950768+00:00",
+        "run_id": "44406951430"
       }
     },
     "12409": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "20148452",
+        "display_name": "U Turn 1080p CZ Dabing",
+        "planned_at": "2026-11-19T01:29:25.154316+00:00"
+      }
     },
     "18402": {
       "attempts": []
@@ -224179,5 +224190,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:29:21.848120+00:00"
+  "updated_at": "2026-11-19T01:29:27.193244+00:00"
 }
