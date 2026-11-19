@@ -180080,17 +180080,19 @@
       }
     },
     "3478": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21219449",
+          "target_video_id": "31188621",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:07:12.833279+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21219449",
         "display_name": "Hardcore Henry 1080p CZ Dabing",
         "planned_at": "2026-11-19T18:03:08.984760+00:00"
-      },
-      "claim": {
-        "worker_id": "dbd8f18cd0254c62b8ea4ef8aacc834c-shard-0",
-        "claimed_at": "2026-11-19T18:03:11.985096+00:00",
-        "lease_expires_at": "2026-11-20T00:03:11.985096+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31188621",
       "prepared": {
@@ -226287,5 +226289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:07:10.497887+00:00"
+  "updated_at": "2026-11-19T18:07:12.833302+00:00"
 }
