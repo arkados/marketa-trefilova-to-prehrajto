@@ -114388,13 +114388,6 @@
           "source_id": "32021078",
           "target_video_id": "30984120",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:06:38.018872+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32021078",
-          "target_video_id": "30984120",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:30:17.717774+00:00"
         },
         {
@@ -114403,6 +114396,13 @@
           "target_video_id": "30984120",
           "permanent": false,
           "attempted_at": "2026-11-19T21:29:10.572570+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32021078",
+          "target_video_id": "30984120",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:11:02.133030+00:00"
         }
       ],
       "last_plan": {
@@ -181280,7 +181280,7 @@
       "last_plan": {
         "source_id": "14428041",
         "display_name": "Child's Play (1988) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:20:57.213384+00:00"
+        "planned_at": "2026-11-19T23:11:00.143218+00:00"
       },
       "previous_target_id": "31190783",
       "prepared": {
@@ -181288,6 +181288,12 @@
         "size_bytes": 2669346620,
         "prepared_at": "2026-11-19T21:21:05.450961+00:00",
         "relay_source_id": "14428041"
+      },
+      "claim": {
+        "worker_id": "485d765c04ea4f80be7814439aece7b2-shard-0",
+        "claimed_at": "2026-11-19T23:11:01.251015+00:00",
+        "lease_expires_at": "2026-11-20T05:11:01.251015+00:00",
+        "run_id": "44616581853"
       }
     },
     "14874": {
@@ -181762,7 +181768,7 @@
       "last_plan": {
         "source_id": "30285030",
         "display_name": "Analyze This 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:10:56.881392+00:00"
+        "planned_at": "2026-11-19T23:11:00.628042+00:00"
       }
     },
     "3180": {
@@ -227746,5 +227752,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:10:56.881411+00:00"
+  "updated_at": "2026-11-19T23:11:02.133049+00:00"
 }
