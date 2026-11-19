@@ -115167,7 +115167,7 @@
       "last_plan": {
         "source_id": "6506542",
         "display_name": "Black Mass 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:23:04.409527+00:00"
+        "planned_at": "2026-11-19T19:43:51.554885+00:00"
       },
       "previous_target_id": "30984339",
       "prepared": {
@@ -142705,6 +142705,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T08:39:32.865853+00:00",
         "relay_source_id": "28465128"
+      },
+      "claim": {
+        "worker_id": "3d1472475f3940c893a8ff80f0d3d63a-shard-0",
+        "claimed_at": "2026-11-19T19:43:51.335512+00:00",
+        "lease_expires_at": "2026-11-20T01:43:51.335512+00:00",
+        "run_id": "44531372417"
       }
     },
     "33550": {
@@ -180666,17 +180672,19 @@
       "previous_target_id": "31189561"
     },
     "3209": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30978820",
+          "target_video_id": "31189653",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:43:51.984787+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30978820",
         "display_name": "Stoker 1080p CZ Dabing",
         "planned_at": "2026-11-19T19:41:10.253641+00:00"
-      },
-      "claim": {
-        "worker_id": "6ede1b42dd2b4dbea68fcf4426231eb8-shard-0",
-        "claimed_at": "2026-11-19T19:41:13.124956+00:00",
-        "lease_expires_at": "2026-11-20T01:41:13.124956+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31189653",
       "prepared": {
@@ -180691,7 +180699,7 @@
       "last_plan": {
         "source_id": "31573819",
         "display_name": "Licence to Kill 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:43:48.551387+00:00"
+        "planned_at": "2026-11-19T19:43:51.800456+00:00"
       }
     },
     "3536": {
@@ -226795,5 +226803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:43:48.551406+00:00"
+  "updated_at": "2026-11-19T19:43:51.984806+00:00"
 }
