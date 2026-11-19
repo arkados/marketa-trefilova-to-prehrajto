@@ -140539,13 +140539,6 @@
           "source_id": "34673105",
           "target_video_id": "30988105",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:49:53.304590+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34673105",
-          "target_video_id": "30988105",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:09:35.342287+00:00"
         },
         {
@@ -140554,6 +140547,13 @@
           "target_video_id": "30988105",
           "permanent": false,
           "attempted_at": "2026-11-19T19:32:55.281240+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34673105",
+          "target_video_id": "30988105",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:33:15.618043+00:00"
         }
       ],
       "last_plan": {
@@ -146979,7 +146979,7 @@
       "last_plan": {
         "source_id": "33856066",
         "display_name": "Jan Palach 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:32:53.632867+00:00"
+        "planned_at": "2026-11-19T21:33:14.657023+00:00"
       },
       "previous_target_id": "30995059",
       "prepared": {
@@ -146987,6 +146987,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T22:58:45.261990+00:00",
         "relay_source_id": "33856066"
+      },
+      "claim": {
+        "worker_id": "430e95c50fda490c8f0f74b94c12e8d9-shard-0",
+        "claimed_at": "2026-11-19T21:33:15.837072+00:00",
+        "lease_expires_at": "2026-11-20T03:33:15.837072+00:00",
+        "run_id": "44616581853"
       }
     },
     "10711": {
@@ -181189,7 +181195,7 @@
       "last_plan": {
         "source_id": "33218893",
         "display_name": "City of Angels 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:33:10.234790+00:00"
+        "planned_at": "2026-11-19T21:33:15.039949+00:00"
       }
     },
     "14439": {
@@ -227242,5 +227248,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:33:10.505425+00:00"
+  "updated_at": "2026-11-19T21:33:15.837101+00:00"
 }
