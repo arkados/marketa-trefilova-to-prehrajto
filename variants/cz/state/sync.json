@@ -114650,13 +114650,6 @@
           "source_id": "33770531",
           "target_video_id": "30984155",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:19:34.595599+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33770531",
-          "target_video_id": "30984155",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:56:05.920899+00:00"
         },
         {
@@ -114665,6 +114658,13 @@
           "target_video_id": "30984155",
           "permanent": false,
           "attempted_at": "2026-11-19T18:15:00.175401+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33770531",
+          "target_video_id": "30984155",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:38:12.649831+00:00"
         }
       ],
       "last_plan": {
@@ -134223,7 +134223,7 @@
       "last_plan": {
         "source_id": "35286913",
         "display_name": "Jarní vody 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:15:03.276656+00:00"
+        "planned_at": "2026-11-19T19:38:11.318161+00:00"
       },
       "previous_target_id": "30987383",
       "prepared": {
@@ -134231,6 +134231,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T04:27:15.782474+00:00",
         "relay_source_id": "35286913"
+      },
+      "claim": {
+        "worker_id": "754b2f88edf34b87a0c6f78d0a56c16c-shard-0",
+        "claimed_at": "2026-11-19T19:38:12.008906+00:00",
+        "lease_expires_at": "2026-11-20T01:38:12.008906+00:00",
+        "run_id": "44531372417"
       }
     },
     "12754": {
@@ -180673,7 +180679,7 @@
       "last_plan": {
         "source_id": "30978820",
         "display_name": "Stoker 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:38:08.330395+00:00"
+        "planned_at": "2026-11-19T19:38:11.573301+00:00"
       }
     },
     "11828": {
@@ -226780,5 +226786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:38:08.611267+00:00"
+  "updated_at": "2026-11-19T19:38:12.649847+00:00"
 }
