@@ -117873,13 +117873,6 @@
           "source_id": "33733528",
           "target_video_id": "30984809",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:01:02.478241+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33733528",
-          "target_video_id": "30984809",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:21:18.804128+00:00"
         },
         {
@@ -117888,6 +117881,13 @@
           "target_video_id": "30984809",
           "permanent": false,
           "attempted_at": "2026-11-19T19:42:03.181238+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33733528",
+          "target_video_id": "30984809",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:44:11.806068+00:00"
         }
       ],
       "last_plan": {
@@ -135248,7 +135248,7 @@
       "last_plan": {
         "source_id": "33443922",
         "display_name": "Voda co ma drzí nad vodou (Voda čo ma drží nad vodou) 720p CZ Dabing",
-        "planned_at": "2026-11-19T19:42:01.346472+00:00"
+        "planned_at": "2026-11-19T21:44:09.996862+00:00"
       },
       "previous_target_id": "30987547",
       "prepared": {
@@ -135256,6 +135256,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T05:10:23.147426+00:00",
         "relay_source_id": "33443922"
+      },
+      "claim": {
+        "worker_id": "cc137afdd4524fb68b16bd4502821e04-shard-0",
+        "claimed_at": "2026-11-19T21:44:10.948659+00:00",
+        "lease_expires_at": "2026-11-20T03:44:10.948659+00:00",
+        "run_id": "44616581853"
       }
     },
     "12482": {
@@ -181267,6 +181273,12 @@
         "source_id": "33806158",
         "display_name": "The Good Dinosaur 1080p CZ Dabing",
         "planned_at": "2026-11-19T21:44:06.268177+00:00"
+      },
+      "claim": {
+        "worker_id": "5ac639f225804da4904ca99044360ff1-shard-0",
+        "claimed_at": "2026-11-19T21:44:09.448030+00:00",
+        "lease_expires_at": "2026-11-20T03:44:09.448030+00:00",
+        "run_id": "44616581853"
       }
     },
     "19422": {
@@ -181274,7 +181286,7 @@
       "last_plan": {
         "source_id": "11919025",
         "display_name": "Ransom (1996) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:44:06.461865+00:00"
+        "planned_at": "2026-11-19T21:44:10.305622+00:00"
       }
     },
     "19515": {
@@ -227306,5 +227318,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:44:06.700932+00:00"
+  "updated_at": "2026-11-19T21:44:11.806088+00:00"
 }
