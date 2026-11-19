@@ -116906,13 +116906,6 @@
           "source_id": "15937877",
           "target_video_id": "30984731",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:01:32.631664+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15937877",
-          "target_video_id": "30984731",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:32:00.931970+00:00"
         },
         {
@@ -116921,12 +116914,19 @@
           "target_video_id": "30984731",
           "permanent": false,
           "attempted_at": "2026-11-19T02:03:39.684072+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15937877",
+          "target_video_id": "30984731",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:59:29.333237+00:00"
         }
       ],
       "last_plan": {
         "source_id": "15937877",
         "display_name": "We Own the Night 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:03:35.415432+00:00"
+        "planned_at": "2026-11-19T03:59:27.312380+00:00"
       },
       "previous_target_id": "30984731",
       "prepared": {
@@ -178060,11 +178060,22 @@
       "last_plan": {
         "source_id": "34253344",
         "display_name": "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix : Mission Cléopâtre) 4K CZ Dabing",
-        "planned_at": "2026-11-19T03:59:23.594002+00:00"
+        "planned_at": "2026-11-19T03:59:27.545566+00:00"
+      },
+      "claim": {
+        "worker_id": "3104a21842bf4e35abdacb968de74a19-shard-0",
+        "claimed_at": "2026-11-19T03:59:28.172098+00:00",
+        "lease_expires_at": "2026-11-19T09:59:28.172098+00:00",
+        "run_id": "44447775933"
       }
     },
     "3392": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "8403692",
+        "display_name": "Battle of the Sexes 1080p CZ Dabing",
+        "planned_at": "2026-11-19T03:59:27.684287+00:00"
+      }
     },
     "30397": {
       "attempts": []
@@ -224515,5 +224526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:59:25.187859+00:00"
+  "updated_at": "2026-11-19T03:59:29.333249+00:00"
 }
