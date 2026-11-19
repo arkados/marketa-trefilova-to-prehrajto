@@ -178196,17 +178196,19 @@
       }
     },
     "12346": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11910722",
+          "target_video_id": "31170192",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:47:33.103767+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11910722",
         "display_name": "Absolute Power 1080p CZ Dabing",
         "planned_at": "2026-11-19T04:30:14.781188+00:00"
-      },
-      "claim": {
-        "worker_id": "bde3b62c138247eeb56f35f221178ff4-shard-0",
-        "claimed_at": "2026-11-19T04:30:15.411355+00:00",
-        "lease_expires_at": "2026-11-19T10:30:15.411355+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31170192",
       "prepared": {
@@ -224658,5 +224660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:47:30.573586+00:00"
+  "updated_at": "2026-11-19T04:47:33.103785+00:00"
 }
