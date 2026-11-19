@@ -128593,13 +128593,6 @@
           "source_id": "30184929",
           "target_video_id": "30986654",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:41:14.129251+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30184929",
-          "target_video_id": "30986654",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:10:56.746697+00:00"
         },
         {
@@ -128608,6 +128601,13 @@
           "target_video_id": "30986654",
           "permanent": false,
           "attempted_at": "2026-11-19T03:13:19.266007+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30184929",
+          "target_video_id": "30986654",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:35:07.302312+00:00"
         }
       ],
       "last_plan": {
@@ -128621,12 +128621,6 @@
         "size_bytes": 817600000,
         "prepared_at": "2026-11-11T01:22:24.184742+00:00",
         "relay_source_id": "30184929"
-      },
-      "claim": {
-        "worker_id": "ec519a41af254f1789bbedaae8dac57d-shard-0",
-        "claimed_at": "2026-11-19T04:35:04.458788+00:00",
-        "lease_expires_at": "2026-11-19T10:35:04.458788+00:00",
-        "run_id": "44447775933"
       }
     },
     "3125": {
@@ -132865,7 +132859,7 @@
       "last_plan": {
         "source_id": "34716844",
         "display_name": "Hry a sny 720p CZ Dabing",
-        "planned_at": "2026-11-19T03:13:18.636084+00:00"
+        "planned_at": "2026-11-19T04:35:06.665466+00:00"
       },
       "previous_target_id": "30987165",
       "prepared": {
@@ -132873,6 +132867,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T03:50:24.908505+00:00",
         "relay_source_id": "34716844"
+      },
+      "claim": {
+        "worker_id": "34ebfe4ce6bb45d4bc74619dc544cbc8-shard-0",
+        "claimed_at": "2026-11-19T04:35:07.439488+00:00",
+        "lease_expires_at": "2026-11-19T10:35:07.439488+00:00",
+        "run_id": "44447775933"
       }
     },
     "13232": {
@@ -178218,7 +178218,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:35:03.869695+00:00"
+        "planned_at": "2026-11-19T04:35:06.887453+00:00"
       }
     },
     "33936": {
@@ -224652,5 +224652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:35:04.812672+00:00"
+  "updated_at": "2026-11-19T04:35:07.439508+00:00"
 }
