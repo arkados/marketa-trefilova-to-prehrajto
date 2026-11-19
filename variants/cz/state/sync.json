@@ -1058,13 +1058,6 @@
           "source_id": "31918348",
           "target_video_id": "30578228",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:33:20.476186+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31918348",
-          "target_video_id": "30578228",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:05:09.765593+00:00"
         },
         {
@@ -1073,6 +1066,13 @@
           "target_video_id": "30578228",
           "permanent": false,
           "attempted_at": "2026-11-18T23:48:39.975500+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31918348",
+          "target_video_id": "30578228",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:18:32.187881+00:00"
         }
       ],
       "last_plan": {
@@ -1086,12 +1086,6 @@
         "size_bytes": 7000000000,
         "prepared_at": "2026-10-28T05:04:31.749139+00:00",
         "relay_source_id": "31918348"
-      },
-      "claim": {
-        "worker_id": "c0aa8f4a19d147d4a02fd87da527e57b-shard-0",
-        "claimed_at": "2026-11-19T01:18:27.891399+00:00",
-        "lease_expires_at": "2026-11-19T07:18:27.891399+00:00",
-        "run_id": "44406951430"
       }
     },
     "52": {
@@ -132948,7 +132942,7 @@
       "last_plan": {
         "source_id": "26568103",
         "display_name": "Záku Kasíku, nezen se! (Žáku Kašíku, nežeň se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:48:37.778178+00:00"
+        "planned_at": "2026-11-19T01:18:30.929078+00:00"
       },
       "previous_target_id": "30987180",
       "prepared": {
@@ -132956,6 +132950,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T03:52:43.832583+00:00",
         "relay_source_id": "26568103"
+      },
+      "claim": {
+        "worker_id": "553fa2335e5c4923b9a60ed07e66d104-shard-0",
+        "claimed_at": "2026-11-19T01:18:31.903720+00:00",
+        "lease_expires_at": "2026-11-19T07:18:31.903720+00:00",
+        "run_id": "44406951430"
       }
     },
     "32524": {
@@ -177664,7 +177664,7 @@
       "last_plan": {
         "source_id": "13473874",
         "display_name": "Se mi lasci non vale 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:18:27.307121+00:00"
+        "planned_at": "2026-11-19T01:18:31.277522+00:00"
       }
     },
     "12409": {
@@ -224185,5 +224185,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:18:28.588951+00:00"
+  "updated_at": "2026-11-19T01:18:32.187905+00:00"
 }
