@@ -174336,13 +174336,6 @@
           "source_id": "11570978",
           "target_video_id": "31153745",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:49:54.839233+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11570978",
-          "target_video_id": "31153745",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:33:33.071843+00:00"
         },
         {
@@ -174351,6 +174344,13 @@
           "target_video_id": "31153745",
           "permanent": false,
           "attempted_at": "2026-11-19T01:02:18.439768+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11570978",
+          "target_video_id": "31153745",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:05:30.591739+00:00"
         }
       ],
       "last_plan": {
@@ -177674,7 +177674,7 @@
       "last_plan": {
         "source_id": "25275828",
         "display_name": "The Soloist 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:58:25.488940+00:00"
+        "planned_at": "2026-11-19T03:05:29.142023+00:00"
       },
       "previous_target_id": "31164733",
       "prepared": {
@@ -177682,6 +177682,12 @@
         "size_bytes": 2483832701,
         "prepared_at": "2026-11-19T00:58:33.281022+00:00",
         "relay_source_id": "25275828"
+      },
+      "claim": {
+        "worker_id": "91828fa75d1147ac84eccec5bc98e11e-shard-0",
+        "claimed_at": "2026-11-19T03:05:29.749162+00:00",
+        "lease_expires_at": "2026-11-19T09:05:29.749162+00:00",
+        "run_id": "44447775933"
       }
     },
     "3341": {
@@ -177866,7 +177872,7 @@
       "last_plan": {
         "source_id": "34675375",
         "display_name": "Wyatt Earp 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:05:26.928421+00:00"
+        "planned_at": "2026-11-19T03:05:29.364617+00:00"
       }
     },
     "3324": {
@@ -224354,5 +224360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:05:26.928435+00:00"
+  "updated_at": "2026-11-19T03:05:30.591750+00:00"
 }
