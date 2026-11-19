@@ -127457,13 +127457,6 @@
           "source_id": "6308804",
           "target_video_id": "30986400",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:09:50.431818+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6308804",
-          "target_video_id": "30986400",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:53:20.234939+00:00"
         },
         {
@@ -127472,6 +127465,13 @@
           "target_video_id": "30986400",
           "permanent": false,
           "attempted_at": "2026-11-19T00:24:43.022759+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6308804",
+          "target_video_id": "30986400",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:59:02.552063+00:00"
         }
       ],
       "last_plan": {
@@ -133474,7 +133474,7 @@
       "last_plan": {
         "source_id": "30864230",
         "display_name": "The Night Guest SD CZ Dabing",
-        "planned_at": "2026-11-19T00:24:46.841978+00:00"
+        "planned_at": "2026-11-19T01:59:00.669785+00:00"
       },
       "previous_target_id": "30987287",
       "prepared": {
@@ -133482,6 +133482,12 @@
         "size_bytes": 912100000,
         "prepared_at": "2026-11-11T04:10:15.307743+00:00",
         "relay_source_id": "30864230"
+      },
+      "claim": {
+        "worker_id": "df40ebf40e4940c1ac4b9dc6a2a22b1e-shard-0",
+        "claimed_at": "2026-11-19T01:59:01.629512+00:00",
+        "lease_expires_at": "2026-11-19T07:59:01.629512+00:00",
+        "run_id": "44406951430"
       }
     },
     "31705": {
@@ -177705,7 +177711,7 @@
       "last_plan": {
         "source_id": "20148452",
         "display_name": "U Turn 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:58:57.943190+00:00"
+        "planned_at": "2026-11-19T01:59:01.021468+00:00"
       }
     },
     "18402": {
@@ -224223,5 +224229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:58:57.943208+00:00"
+  "updated_at": "2026-11-19T01:59:02.552082+00:00"
 }
