@@ -134853,13 +134853,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:02:27.343817+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:32:16.129060+00:00"
         },
         {
@@ -134868,6 +134861,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-19T18:01:36.549361+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:25:09.814102+00:00"
         }
       ],
       "last_plan": {
@@ -140288,7 +140288,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-19T18:01:36.095821+00:00"
+        "planned_at": "2026-11-19T19:25:08.174945+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140296,6 +140296,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "49bca84b0f2b446e8cec72ed33dca3ef-shard-0",
+        "claimed_at": "2026-11-19T19:25:09.593172+00:00",
+        "lease_expires_at": "2026-11-20T01:25:09.593172+00:00",
+        "run_id": "44531372417"
       }
     },
     "12711": {
@@ -180608,7 +180614,7 @@
       "last_plan": {
         "source_id": "31739567",
         "display_name": "Intramuros (The Walls of Hell) SD CZ Dabing",
-        "planned_at": "2026-11-19T19:25:04.554336+00:00"
+        "planned_at": "2026-11-19T19:25:08.505577+00:00"
       }
     },
     "17448": {
@@ -226721,5 +226727,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:25:04.779207+00:00"
+  "updated_at": "2026-11-19T19:25:09.814122+00:00"
 }
