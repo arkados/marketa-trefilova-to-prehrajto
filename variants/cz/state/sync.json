@@ -111774,13 +111774,6 @@
           "source_id": "34714367",
           "target_video_id": "30983810",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:46:34.453257+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714367",
-          "target_video_id": "30983810",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:16:51.011636+00:00"
         },
         {
@@ -111789,6 +111782,13 @@
           "target_video_id": "30983810",
           "permanent": false,
           "attempted_at": "2026-11-19T17:48:29.034859+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714367",
+          "target_video_id": "30983810",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:09:18.230665+00:00"
         }
       ],
       "last_plan": {
@@ -125844,7 +125844,7 @@
       "last_plan": {
         "source_id": "27529281",
         "display_name": "Danny Deckchair 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:48:27.727416+00:00"
+        "planned_at": "2026-11-19T19:09:16.847383+00:00"
       },
       "previous_target_id": "30985893",
       "prepared": {
@@ -125852,6 +125852,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T22:27:48.871952+00:00",
         "relay_source_id": "27529281"
+      },
+      "claim": {
+        "worker_id": "2fb09d38fbb144d4b154cd2cd8d4b371-shard-0",
+        "claimed_at": "2026-11-19T19:09:17.653208+00:00",
+        "lease_expires_at": "2026-11-20T01:09:17.653208+00:00",
+        "run_id": "44531372417"
       }
     },
     "2916": {
@@ -180504,7 +180510,7 @@
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:09:14.059313+00:00"
+        "planned_at": "2026-11-19T19:09:17.128327+00:00"
       }
     },
     "29312": {
@@ -226629,5 +226635,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:09:14.303150+00:00"
+  "updated_at": "2026-11-19T19:09:18.230725+00:00"
 }
