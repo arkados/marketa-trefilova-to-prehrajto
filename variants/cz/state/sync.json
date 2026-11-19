@@ -177610,17 +177610,19 @@
       }
     },
     "3341": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27036988",
+          "target_video_id": "31164865",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:07:38.195809+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27036988",
         "display_name": "The Way Back (2020) SD CZ Dabing",
         "planned_at": "2026-11-19T01:05:49.630055+00:00"
-      },
-      "claim": {
-        "worker_id": "b7292e48087d4f3baa7b8253e80b98fb-shard-0",
-        "claimed_at": "2026-11-19T01:05:52.628897+00:00",
-        "lease_expires_at": "2026-11-19T07:05:52.628897+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31164865",
       "prepared": {
@@ -224159,5 +224161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:07:35.753811+00:00"
+  "updated_at": "2026-11-19T01:07:38.195832+00:00"
 }
