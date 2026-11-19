@@ -113598,13 +113598,6 @@
           "source_id": "33199372",
           "target_video_id": "30984053",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:17:52.783937+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33199372",
-          "target_video_id": "30984053",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:02:09.019564+00:00"
         },
         {
@@ -113613,6 +113606,13 @@
           "target_video_id": "30984053",
           "permanent": false,
           "attempted_at": "2026-11-19T00:32:27.088267+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33199372",
+          "target_video_id": "30984053",
+          "permanent": false,
+          "attempted_at": "2026-11-19T02:04:06.856605+00:00"
         }
       ],
       "last_plan": {
@@ -117148,7 +117148,7 @@
       "last_plan": {
         "source_id": "33853425",
         "display_name": "Crime 101 4K CZ Dabing",
-        "planned_at": "2026-11-19T00:32:25.302825+00:00"
+        "planned_at": "2026-11-19T02:04:04.911993+00:00"
       },
       "previous_target_id": "30984743",
       "prepared": {
@@ -117156,6 +117156,12 @@
         "size_bytes": 6600000000,
         "prepared_at": "2026-11-10T17:30:54.981439+00:00",
         "relay_source_id": "33853425"
+      },
+      "claim": {
+        "worker_id": "6b751f2762ca42f69f29c061998275d2-shard-0",
+        "claimed_at": "2026-11-19T02:04:05.933611+00:00",
+        "lease_expires_at": "2026-11-19T08:04:05.933611+00:00",
+        "run_id": "44406951430"
       }
     },
     "11798": {
@@ -177742,7 +177748,7 @@
       "last_plan": {
         "source_id": "34393876",
         "display_name": "Bad Words 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:04:01.841576+00:00"
+        "planned_at": "2026-11-19T02:04:05.276474+00:00"
       }
     },
     "37326": {
@@ -224257,5 +224263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T02:04:01.841594+00:00"
+  "updated_at": "2026-11-19T02:04:06.856625+00:00"
 }
