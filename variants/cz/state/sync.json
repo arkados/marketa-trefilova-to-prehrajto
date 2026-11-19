@@ -114107,6 +114107,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T15:25:14.268972+00:00",
         "relay_source_id": "34355461"
+      },
+      "claim": {
+        "worker_id": "b39a2b6767434e6ab7f29a6f0a0a76fb-shard-0",
+        "claimed_at": "2026-11-19T21:20:41.729997+00:00",
+        "lease_expires_at": "2026-11-20T03:20:41.729997+00:00",
+        "run_id": "44616581853"
       }
     },
     "3150": {
@@ -130402,13 +130408,6 @@
           "source_id": "33698675",
           "target_video_id": "30986899",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:29:44.590666+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33698675",
-          "target_video_id": "30986899",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:59:05.803251+00:00"
         },
         {
@@ -130417,6 +130416,13 @@
           "target_video_id": "30986899",
           "permanent": false,
           "attempted_at": "2026-11-19T19:22:56.200236+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33698675",
+          "target_video_id": "30986899",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:20:41.538569+00:00"
         }
       ],
       "last_plan": {
@@ -130430,12 +130436,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T02:35:21.025638+00:00",
         "relay_source_id": "33698675"
-      },
-      "claim": {
-        "worker_id": "c70c8f091eae4560a48df63cffa52d26-shard-0",
-        "claimed_at": "2026-11-19T21:20:37.703341+00:00",
-        "lease_expires_at": "2026-11-20T03:20:37.703341+00:00",
-        "run_id": "44616581853"
       }
     },
     "12390": {
@@ -172154,7 +172154,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:22:58.926604+00:00"
+        "planned_at": "2026-11-19T21:20:42.113811+00:00"
       },
       "previous_target_id": "31133866",
       "prepared": {
@@ -181103,7 +181103,7 @@
       "last_plan": {
         "source_id": "14428041",
         "display_name": "Child's Play (1988) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:20:38.394457+00:00"
+        "planned_at": "2026-11-19T21:20:42.511030+00:00"
       }
     },
     "14874": {
@@ -227170,5 +227170,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:20:38.730660+00:00"
+  "updated_at": "2026-11-19T21:20:42.511051+00:00"
 }
