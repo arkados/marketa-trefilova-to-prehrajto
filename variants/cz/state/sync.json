@@ -113066,13 +113066,6 @@
           "source_id": "33495930",
           "target_video_id": "30983976",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:51:43.368186+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33495930",
-          "target_video_id": "30983976",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:35:10.326019+00:00"
         },
         {
@@ -113081,6 +113074,13 @@
           "target_video_id": "30983976",
           "permanent": false,
           "attempted_at": "2026-11-19T00:05:52.535416+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33495930",
+          "target_video_id": "30983976",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:37:54.955198+00:00"
         }
       ],
       "last_plan": {
@@ -116619,7 +116619,7 @@
       "last_plan": {
         "source_id": "31728968",
         "display_name": "Thirteen 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:05:50.755125+00:00"
+        "planned_at": "2026-11-19T01:37:53.102626+00:00"
       },
       "previous_target_id": "30984695",
       "prepared": {
@@ -116627,6 +116627,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T17:19:32.952001+00:00",
         "relay_source_id": "31728968"
+      },
+      "claim": {
+        "worker_id": "95f3071dec324f779b5739fb06b29c4d-shard-0",
+        "claimed_at": "2026-11-19T01:37:54.052866+00:00",
+        "lease_expires_at": "2026-11-19T07:37:54.052866+00:00",
+        "run_id": "44406951430"
       }
     },
     "2907": {
@@ -177681,7 +177687,7 @@
       "last_plan": {
         "source_id": "20148452",
         "display_name": "U Turn 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:37:49.986958+00:00"
+        "planned_at": "2026-11-19T01:37:53.459860+00:00"
       }
     },
     "18402": {
@@ -224199,5 +224205,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:37:50.281369+00:00"
+  "updated_at": "2026-11-19T01:37:54.955218+00:00"
 }
