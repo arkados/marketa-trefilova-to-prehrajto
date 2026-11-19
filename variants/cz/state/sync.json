@@ -153211,13 +153211,6 @@
           "source_id": "35428812",
           "target_video_id": "31037711",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:32:43.810576+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35428812",
-          "target_video_id": "31037711",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:07:00.753493+00:00"
         },
         {
@@ -153226,12 +153219,19 @@
           "target_video_id": "31037711",
           "permanent": false,
           "attempted_at": "2026-11-19T13:57:49.031482+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35428812",
+          "target_video_id": "31037711",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:30:53.166299+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35428812",
         "display_name": "Lame de fond 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:57:44.014483+00:00"
+        "planned_at": "2026-11-19T15:30:49.220862+00:00"
       },
       "previous_target_id": "31037711",
       "prepared": {
@@ -179621,11 +179621,22 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:30:40.500116+00:00"
+        "planned_at": "2026-11-19T15:30:49.598697+00:00"
+      },
+      "claim": {
+        "worker_id": "28c9c1f372ca468d912a686628a87d80-shard-0",
+        "claimed_at": "2026-11-19T15:30:51.185762+00:00",
+        "lease_expires_at": "2026-11-19T21:30:51.185762+00:00",
+        "run_id": "44524452534"
       }
     },
     "3312": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31037233",
+        "display_name": "Fresh (2022) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T15:30:49.985549+00:00"
+      }
     },
     "3551": {
       "attempts": []
@@ -225863,5 +225874,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:30:45.996361+00:00"
+  "updated_at": "2026-11-19T15:30:53.166319+00:00"
 }
