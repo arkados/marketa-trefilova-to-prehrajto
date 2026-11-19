@@ -93421,13 +93421,6 @@
           "source_id": "34296350",
           "target_video_id": "30942671",
           "permanent": false,
-          "attempted_at": "2026-11-19T09:15:33.525342+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34296350",
-          "target_video_id": "30942671",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:54:20.784314+00:00"
         },
         {
@@ -93436,6 +93429,13 @@
           "target_video_id": "30942671",
           "permanent": false,
           "attempted_at": "2026-11-19T12:49:05.193310+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34296350",
+          "target_video_id": "30942671",
+          "permanent": false,
+          "attempted_at": "2026-11-19T14:23:13.830095+00:00"
         }
       ],
       "last_plan": {
@@ -93449,12 +93449,6 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-09T09:38:32.659288+00:00",
         "relay_source_id": "34296350"
-      },
-      "claim": {
-        "worker_id": "7f2af7c12aa14a46a07b3bdfa3489fd6-shard-0",
-        "claimed_at": "2026-11-19T14:23:04.378609+00:00",
-        "lease_expires_at": "2026-11-19T20:23:04.378609+00:00",
-        "run_id": "44524452534"
       }
     },
     "10888": {
@@ -121596,7 +121590,7 @@
       "last_plan": {
         "source_id": "35117462",
         "display_name": "Simon Birch 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:49:04.499603+00:00"
+        "planned_at": "2026-11-19T14:23:10.205469+00:00"
       },
       "previous_target_id": "30985082",
       "prepared": {
@@ -121604,6 +121598,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T18:53:09.599430+00:00",
         "relay_source_id": "35117462"
+      },
+      "claim": {
+        "worker_id": "c5256344bcc74bf8832a17cee2c86451-shard-0",
+        "claimed_at": "2026-11-19T14:23:11.325719+00:00",
+        "lease_expires_at": "2026-11-19T20:23:11.325719+00:00",
+        "run_id": "44524452534"
       }
     },
     "3085": {
@@ -179552,7 +179552,7 @@
       "last_plan": {
         "source_id": "34014132",
         "display_name": "Kangaroo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:23:03.612085+00:00"
+        "planned_at": "2026-11-19T14:23:10.590108+00:00"
       }
     },
     "3497": {
@@ -225803,5 +225803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T14:23:06.707885+00:00"
+  "updated_at": "2026-11-19T14:23:13.830115+00:00"
 }
