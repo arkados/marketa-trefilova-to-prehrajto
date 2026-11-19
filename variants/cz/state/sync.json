@@ -112337,13 +112337,6 @@
           "source_id": "34877929",
           "target_video_id": "30983846",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:06:05.315975+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877929",
-          "target_video_id": "30983846",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:36:34.403760+00:00"
         },
         {
@@ -112352,6 +112345,13 @@
           "target_video_id": "30983846",
           "permanent": false,
           "attempted_at": "2026-11-19T18:04:53.042353+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877929",
+          "target_video_id": "30983846",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:28:40.875404+00:00"
         }
       ],
       "last_plan": {
@@ -112365,12 +112365,6 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T14:59:01.798607+00:00",
         "relay_source_id": "34877929"
-      },
-      "claim": {
-        "worker_id": "e61779a0196344d880683dcc2ca14ea5-shard-0",
-        "claimed_at": "2026-11-19T19:28:34.040522+00:00",
-        "lease_expires_at": "2026-11-20T01:28:34.040522+00:00",
-        "run_id": "44531372417"
       }
     },
     "13198": {
@@ -123889,7 +123883,7 @@
       "last_plan": {
         "source_id": "16256834",
         "display_name": "The Assignment (1997) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:04:52.837462+00:00"
+        "planned_at": "2026-11-19T19:28:38.998815+00:00"
       },
       "previous_target_id": "30985618",
       "prepared": {
@@ -123897,6 +123891,12 @@
         "size_bytes": 6300000000,
         "prepared_at": "2026-11-10T20:46:27.420725+00:00",
         "relay_source_id": "16256834"
+      },
+      "claim": {
+        "worker_id": "5acde57436d1403dac8be88f7a51dd5a-shard-0",
+        "claimed_at": "2026-11-19T19:28:39.687851+00:00",
+        "lease_expires_at": "2026-11-20T01:28:39.687851+00:00",
+        "run_id": "44531372417"
       }
     },
     "2867": {
@@ -180643,7 +180643,7 @@
       "last_plan": {
         "source_id": "12269223",
         "display_name": "Léto s gentlemanem 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:28:33.561049+00:00"
+        "planned_at": "2026-11-19T19:28:39.252428+00:00"
       }
     },
     "3209": {
@@ -226753,5 +226753,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:28:36.459959+00:00"
+  "updated_at": "2026-11-19T19:28:40.875424+00:00"
 }
