@@ -121114,13 +121114,6 @@
           "source_id": "11974625",
           "target_video_id": "30985034",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:25:51.574266+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11974625",
-          "target_video_id": "30985034",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:55:52.177411+00:00"
         },
         {
@@ -121129,12 +121122,19 @@
           "target_video_id": "30985034",
           "permanent": false,
           "attempted_at": "2026-11-19T19:19:28.398491+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11974625",
+          "target_video_id": "30985034",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:14:19.889220+00:00"
         }
       ],
       "last_plan": {
         "source_id": "11974625",
         "display_name": "Puncture 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:19:20.308527+00:00"
+        "planned_at": "2026-11-19T21:14:15.903680+00:00"
       },
       "previous_target_id": "30985034",
       "prepared": {
@@ -181074,14 +181074,30 @@
       "last_plan": {
         "source_id": "34724495",
         "display_name": "Out of the Furnace 720p CZ Dabing",
-        "planned_at": "2026-11-19T20:44:14.264085+00:00"
+        "planned_at": "2026-11-19T21:14:16.244224+00:00"
+      },
+      "claim": {
+        "worker_id": "5b27c1f804594d80be4c52765bce3f4c-shard-0",
+        "claimed_at": "2026-11-19T21:14:17.318856+00:00",
+        "lease_expires_at": "2026-11-20T03:14:17.318856+00:00",
+        "run_id": "44616581853"
       }
     },
     "11739": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "14428041",
+        "display_name": "Child's Play (1988) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T21:14:16.453280+00:00"
+      }
     },
     "14874": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34603967",
+        "display_name": "Schächten: A Retribution (Schächten) 720p CZ Dabing",
+        "planned_at": "2026-11-19T21:14:16.665714+00:00"
+      }
     },
     "3560": {
       "attempts": []
@@ -227139,5 +227155,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:13:07.831446+00:00"
+  "updated_at": "2026-11-19T21:14:19.889238+00:00"
 }
