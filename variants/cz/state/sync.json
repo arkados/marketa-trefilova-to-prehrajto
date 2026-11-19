@@ -123652,7 +123652,7 @@
       "last_plan": {
         "source_id": "34843024",
         "display_name": "The War Wagon 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:07:54.005448+00:00"
+        "planned_at": "2026-11-19T23:50:59.753944+00:00"
       },
       "previous_target_id": "30985573",
       "prepared": {
@@ -123660,6 +123660,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T20:28:58.700113+00:00",
         "relay_source_id": "34843024"
+      },
+      "claim": {
+        "worker_id": "b8b2b97b83284958b7630d64e4ae5075-shard-0",
+        "claimed_at": "2026-11-19T23:51:00.822678+00:00",
+        "lease_expires_at": "2026-11-20T05:51:00.822678+00:00",
+        "run_id": "44616581853"
       }
     },
     "2918": {
@@ -181858,17 +181864,19 @@
       }
     },
     "3180": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31343546",
+          "target_video_id": "31192578",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:51:01.544205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31343546",
         "display_name": "Final Destination Bloodlines 4K CZ Dabing",
         "planned_at": "2026-11-19T23:36:48.855347+00:00"
-      },
-      "claim": {
-        "worker_id": "97cec88f3b79404ca0f5ac1c22e7f425-shard-0",
-        "claimed_at": "2026-11-19T23:36:51.899986+00:00",
-        "lease_expires_at": "2026-11-20T05:36:51.899986+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31192578",
       "prepared": {
@@ -181883,7 +181891,7 @@
       "last_plan": {
         "source_id": "33746883",
         "display_name": "From Hell 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:50:52.775511+00:00"
+        "planned_at": "2026-11-19T23:51:00.131551+00:00"
       }
     },
     "12435": {
@@ -227861,5 +227869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:50:55.750063+00:00"
+  "updated_at": "2026-11-19T23:51:01.544222+00:00"
 }
