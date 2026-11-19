@@ -121373,13 +121373,6 @@
           "source_id": "28773140",
           "target_video_id": "30985057",
           "permanent": false,
-          "attempted_at": "2026-11-19T08:35:30.999045+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28773140",
-          "target_video_id": "30985057",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:10:24.667092+00:00"
         },
         {
@@ -121388,6 +121381,13 @@
           "target_video_id": "30985057",
           "permanent": false,
           "attempted_at": "2026-11-19T11:46:00.421723+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28773140",
+          "target_video_id": "30985057",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:35:26.978260+00:00"
         }
       ],
       "last_plan": {
@@ -135070,7 +135070,7 @@
       "last_plan": {
         "source_id": "34697786",
         "display_name": "Fear (1964) SD CZ Dabing",
-        "planned_at": "2026-11-19T11:46:01.059066+00:00"
+        "planned_at": "2026-11-19T13:35:25.538957+00:00"
       },
       "previous_target_id": "30987526",
       "prepared": {
@@ -135078,6 +135078,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T05:05:32.946086+00:00",
         "relay_source_id": "34697786"
+      },
+      "claim": {
+        "worker_id": "fa2e5e62ad754d23ab739dcbb288f686-shard-0",
+        "claimed_at": "2026-11-19T13:35:26.701595+00:00",
+        "lease_expires_at": "2026-11-19T19:35:26.701595+00:00",
+        "run_id": "44524452534"
       }
     },
     "33458": {
@@ -179432,7 +179438,7 @@
       "last_plan": {
         "source_id": "21485649",
         "display_name": "Good Boys 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:35:21.224262+00:00"
+        "planned_at": "2026-11-19T13:35:25.926268+00:00"
       }
     },
     "11549": {
@@ -225698,5 +225704,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:35:21.479304+00:00"
+  "updated_at": "2026-11-19T13:35:26.978283+00:00"
 }
