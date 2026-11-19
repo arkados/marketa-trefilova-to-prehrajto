@@ -124237,6 +124237,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T21:02:55.982384+00:00",
         "relay_source_id": "30548877"
+      },
+      "claim": {
+        "worker_id": "d64834abe8c244c4b65fdf988186a5dc-shard-0",
+        "claimed_at": "2026-11-19T00:37:07.864751+00:00",
+        "lease_expires_at": "2026-11-19T06:37:07.864751+00:00",
+        "run_id": "44406951430"
       }
     },
     "23611": {
@@ -125001,13 +125007,6 @@
           "source_id": "31916577",
           "target_video_id": "30985772",
           "permanent": false,
-          "attempted_at": "2026-11-18T19:50:38.712882+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31916577",
-          "target_video_id": "30985772",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:22:37.762795+00:00"
         },
         {
@@ -125016,6 +125015,13 @@
           "target_video_id": "30985772",
           "permanent": false,
           "attempted_at": "2026-11-18T23:08:12.604954+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31916577",
+          "target_video_id": "30985772",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:37:08.062086+00:00"
         }
       ],
       "last_plan": {
@@ -125029,12 +125035,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T21:48:16.921812+00:00",
         "relay_source_id": "31916577"
-      },
-      "claim": {
-        "worker_id": "85cfc69c1b8b4f519493db8d56d7f8fd-shard-0",
-        "claimed_at": "2026-11-19T00:37:04.111697+00:00",
-        "lease_expires_at": "2026-11-19T06:37:04.111697+00:00",
-        "run_id": "44406951430"
       }
     },
     "32155": {
@@ -127658,7 +127658,7 @@
       "last_plan": {
         "source_id": "34651344",
         "display_name": "Gigi & Nate 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:08:16.422756+00:00"
+        "planned_at": "2026-11-19T00:37:08.329815+00:00"
       },
       "previous_target_id": "30986432",
       "prepared": {
@@ -177502,7 +177502,7 @@
       "last_plan": {
         "source_id": "33758492",
         "display_name": "Prince of Darkness 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:37:04.774991+00:00"
+        "planned_at": "2026-11-19T00:37:08.708324+00:00"
       }
     },
     "14453": {
@@ -224041,5 +224041,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:37:05.004506+00:00"
+  "updated_at": "2026-11-19T00:37:08.708350+00:00"
 }
