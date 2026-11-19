@@ -139905,13 +139905,6 @@
           "source_id": "34787002",
           "target_video_id": "30987995",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:13:49.541919+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34787002",
-          "target_video_id": "30987995",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:42:33.111818+00:00"
         },
         {
@@ -139920,12 +139913,19 @@
           "target_video_id": "30987995",
           "permanent": false,
           "attempted_at": "2026-11-19T19:06:32.303069+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34787002",
+          "target_video_id": "30987995",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:32:52.117906+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34787002",
         "display_name": "Don’t Look Round, a Horse Follows Us! (Don't Look Back, There Is a Horse Behind Us) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:06:25.453625+00:00"
+        "planned_at": "2026-11-19T20:32:47.228813+00:00"
       },
       "previous_target_id": "30987995",
       "prepared": {
@@ -181022,11 +181022,22 @@
       "last_plan": {
         "source_id": "34973061",
         "display_name": "If I Stay 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:32:38.950973+00:00"
+        "planned_at": "2026-11-19T20:32:47.482298+00:00"
+      },
+      "claim": {
+        "worker_id": "4c7a794a286f4a4ba988402f4cc7f940-shard-0",
+        "claimed_at": "2026-11-19T20:32:48.281014+00:00",
+        "lease_expires_at": "2026-11-20T02:32:48.281014+00:00",
+        "run_id": "44531372417"
       }
     },
     "3399": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34724495",
+        "display_name": "Out of the Furnace 720p CZ Dabing",
+        "planned_at": "2026-11-19T20:32:47.632944+00:00"
+      }
     },
     "11739": {
       "attempts": []
@@ -227090,5 +227101,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:32:43.532299+00:00"
+  "updated_at": "2026-11-19T20:32:52.117925+00:00"
 }
