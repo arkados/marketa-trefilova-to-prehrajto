@@ -119519,13 +119519,6 @@
           "source_id": "35279557",
           "target_video_id": "30984930",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:37:47.908130+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35279557",
-          "target_video_id": "30984930",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:07:18.917378+00:00"
         },
         {
@@ -119534,12 +119527,19 @@
           "target_video_id": "30984930",
           "permanent": false,
           "attempted_at": "2026-11-19T03:09:50.553212+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35279557",
+          "target_video_id": "30984930",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:30:16.758872+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35279557",
         "display_name": "Can't Buy Me Love 720p CZ Dabing",
-        "planned_at": "2026-11-19T03:09:37.142334+00:00"
+        "planned_at": "2026-11-19T04:30:14.566026+00:00"
       },
       "previous_target_id": "30984930",
       "prepared": {
@@ -178186,14 +178186,25 @@
       "last_plan": {
         "source_id": "11910722",
         "display_name": "Absolute Power 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:30:10.488095+00:00"
+        "planned_at": "2026-11-19T04:30:14.781188+00:00"
+      },
+      "claim": {
+        "worker_id": "bde3b62c138247eeb56f35f221178ff4-shard-0",
+        "claimed_at": "2026-11-19T04:30:15.411355+00:00",
+        "lease_expires_at": "2026-11-19T10:30:15.411355+00:00",
+        "run_id": "44447775933"
       }
     },
     "3202": {
       "attempts": []
     },
     "7222": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34964861",
+        "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T04:30:14.930801+00:00"
+      }
     },
     "33936": {
       "attempts": []
@@ -224626,5 +224637,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:30:12.215012+00:00"
+  "updated_at": "2026-11-19T04:30:16.758882+00:00"
 }
