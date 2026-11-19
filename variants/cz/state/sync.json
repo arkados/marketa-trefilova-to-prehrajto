@@ -116037,7 +116037,7 @@
       "last_plan": {
         "source_id": "34858393",
         "display_name": "Street Kings 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:23:09.331760+00:00"
+        "planned_at": "2026-11-19T17:00:14.172227+00:00"
       },
       "previous_target_id": "30984643",
       "prepared": {
@@ -116045,6 +116045,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-10T17:11:58.046728+00:00",
         "relay_source_id": "34858393"
+      },
+      "claim": {
+        "worker_id": "04af1df193f641f1bca173f1f8cf2694-shard-0",
+        "claimed_at": "2026-11-19T17:00:14.851911+00:00",
+        "lease_expires_at": "2026-11-19T23:00:14.851911+00:00",
+        "run_id": "44531372417"
       }
     },
     "2962": {
@@ -132933,6 +132939,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T03:51:55.158487+00:00",
         "relay_source_id": "31648494"
+      },
+      "claim": {
+        "worker_id": "15b18e50cc2c4df5875dcd3e1974cbe1-shard-0",
+        "claimed_at": "2026-11-19T17:00:13.987577+00:00",
+        "lease_expires_at": "2026-11-19T23:00:13.987577+00:00",
+        "run_id": "44531372417"
       }
     },
     "24072": {
@@ -179820,17 +179832,19 @@
       }
     },
     "3174": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32156628",
+          "target_video_id": "31187492",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:00:25.502556+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32156628",
         "display_name": "Lilo & Stitch (2025) 4K CZ Dabing",
         "planned_at": "2026-11-19T16:44:17.812197+00:00"
-      },
-      "claim": {
-        "worker_id": "494f94c58a49481186d18ea6fa347ec7-shard-0",
-        "claimed_at": "2026-11-19T16:44:18.718226+00:00",
-        "lease_expires_at": "2026-11-19T22:44:18.718226+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31187492",
       "prepared": {
@@ -179871,7 +179885,7 @@
       "last_plan": {
         "source_id": "33028637",
         "display_name": "Hot Rod SD CZ Dabing",
-        "planned_at": "2026-11-19T17:00:11.541038+00:00"
+        "planned_at": "2026-11-19T17:00:14.420998+00:00"
       }
     },
     "3263": {
@@ -226080,5 +226094,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:00:11.541056+00:00"
+  "updated_at": "2026-11-19T17:00:25.502575+00:00"
 }
