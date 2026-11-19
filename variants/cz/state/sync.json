@@ -140513,13 +140513,6 @@
           "source_id": "34673105",
           "target_video_id": "30988105",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:50:45.034336+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34673105",
-          "target_video_id": "30988105",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:34:29.796588+00:00"
         },
         {
@@ -140528,6 +140521,13 @@
           "target_video_id": "30988105",
           "permanent": false,
           "attempted_at": "2026-11-19T01:03:27.273067+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34673105",
+          "target_video_id": "30988105",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:06:17.685517+00:00"
         }
       ],
       "last_plan": {
@@ -146953,7 +146953,7 @@
       "last_plan": {
         "source_id": "33856066",
         "display_name": "Jan Palach 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:03:24.858400+00:00"
+        "planned_at": "2026-11-19T03:06:16.043101+00:00"
       },
       "previous_target_id": "30995059",
       "prepared": {
@@ -146961,6 +146961,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T22:58:45.261990+00:00",
         "relay_source_id": "33856066"
+      },
+      "claim": {
+        "worker_id": "6241de364b894710934e8015ce7fe511-shard-0",
+        "claimed_at": "2026-11-19T03:06:16.776297+00:00",
+        "lease_expires_at": "2026-11-19T09:06:16.776297+00:00",
+        "run_id": "44447775933"
       }
     },
     "10711": {
@@ -177873,7 +177879,7 @@
       "last_plan": {
         "source_id": "34675375",
         "display_name": "Wyatt Earp 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:06:13.754006+00:00"
+        "planned_at": "2026-11-19T03:06:16.255570+00:00"
       }
     },
     "3324": {
@@ -224361,5 +224367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:06:13.754022+00:00"
+  "updated_at": "2026-11-19T03:06:17.685531+00:00"
 }
