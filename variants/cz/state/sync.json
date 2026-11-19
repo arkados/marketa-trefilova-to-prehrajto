@@ -179844,17 +179844,19 @@
       "attempts": []
     },
     "12934": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28523932",
+          "target_video_id": "31187585",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:59:45.222285+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28523932",
         "display_name": "Sweet November 1080p CZ Dabing",
         "planned_at": "2026-11-19T16:51:40.202938+00:00"
-      },
-      "claim": {
-        "worker_id": "e8df48399d5a4a468dedc8833256ad88-shard-0",
-        "claimed_at": "2026-11-19T16:51:40.874631+00:00",
-        "lease_expires_at": "2026-11-19T22:51:40.874631+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31187585",
       "prepared": {
@@ -226078,5 +226080,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:59:43.009886+00:00"
+  "updated_at": "2026-11-19T16:59:45.222305+00:00"
 }
