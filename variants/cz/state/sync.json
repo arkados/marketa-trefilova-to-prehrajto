@@ -80549,13 +80549,6 @@
           "source_id": "28771706",
           "target_video_id": "30899097",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:06:32.995598+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28771706",
-          "target_video_id": "30899097",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:49:54.854518+00:00"
         },
         {
@@ -80564,6 +80557,13 @@
           "target_video_id": "30899097",
           "permanent": false,
           "attempted_at": "2026-11-19T01:19:43.974262+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28771706",
+          "target_video_id": "30899097",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:20:21.363498+00:00"
         }
       ],
       "last_plan": {
@@ -139092,7 +139092,7 @@
       "last_plan": {
         "source_id": "34776105",
         "display_name": "Fallow (BRAK) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:19:43.319931+00:00"
+        "planned_at": "2026-11-19T03:20:19.974927+00:00"
       },
       "previous_target_id": "30987920",
       "prepared": {
@@ -139100,6 +139100,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:47:03.938439+00:00",
         "relay_source_id": "34776105"
+      },
+      "claim": {
+        "worker_id": "23328b7f6e284177886b5d965439ca5e-shard-0",
+        "claimed_at": "2026-11-19T03:20:20.597776+00:00",
+        "lease_expires_at": "2026-11-19T09:20:20.597776+00:00",
+        "run_id": "44447775933"
       }
     },
     "26977": {
@@ -177914,7 +177920,7 @@
       "last_plan": {
         "source_id": "14775256",
         "display_name": "Hillbilly Elegy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:20:17.500110+00:00"
+        "planned_at": "2026-11-19T03:20:20.202732+00:00"
       }
     },
     "25133": {
@@ -224390,5 +224396,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:20:17.802813+00:00"
+  "updated_at": "2026-11-19T03:20:21.363510+00:00"
 }
