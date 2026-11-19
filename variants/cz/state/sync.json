@@ -39102,13 +39102,6 @@
           "source_id": "34784954",
           "target_video_id": "30745770",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:10:41.784408+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34784954",
-          "target_video_id": "30745770",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:31:41.971845+00:00"
         },
         {
@@ -39117,6 +39110,13 @@
           "target_video_id": "30745770",
           "permanent": false,
           "attempted_at": "2026-11-19T19:56:02.166807+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34784954",
+          "target_video_id": "30745770",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:57:36.637551+00:00"
         }
       ],
       "last_plan": {
@@ -124052,7 +124052,7 @@
       "last_plan": {
         "source_id": "12475327",
         "display_name": "Ladies in Black 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:56:04.368902+00:00"
+        "planned_at": "2026-11-19T21:57:35.073687+00:00"
       },
       "previous_target_id": "30985644",
       "prepared": {
@@ -124060,6 +124060,12 @@
         "size_bytes": 11800000000,
         "prepared_at": "2026-11-10T20:57:40.455304+00:00",
         "relay_source_id": "12475327"
+      },
+      "claim": {
+        "worker_id": "679c39e0ccee4c67a353f2115474d750-shard-0",
+        "claimed_at": "2026-11-19T21:57:35.938645+00:00",
+        "lease_expires_at": "2026-11-20T03:57:35.938645+00:00",
+        "run_id": "44616581853"
       }
     },
     "33147": {
@@ -181380,7 +181386,7 @@
       "last_plan": {
         "source_id": "31295788",
         "display_name": "Robin Hood: Men in Tights 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:57:31.775106+00:00"
+        "planned_at": "2026-11-19T21:57:35.391789+00:00"
       }
     },
     "3496": {
@@ -227403,5 +227409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:57:32.024700+00:00"
+  "updated_at": "2026-11-19T21:57:36.637570+00:00"
 }
