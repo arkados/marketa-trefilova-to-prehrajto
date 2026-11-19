@@ -113751,13 +113751,6 @@
           "source_id": "32044029",
           "target_video_id": "30984062",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:44:33.157876+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32044029",
-          "target_video_id": "30984062",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:08:22.620841+00:00"
         },
         {
@@ -113766,6 +113759,13 @@
           "target_video_id": "30984062",
           "permanent": false,
           "attempted_at": "2026-11-19T20:35:39.158199+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32044029",
+          "target_video_id": "30984062",
+          "permanent": false,
+          "attempted_at": "2026-11-19T22:42:32.611537+00:00"
         }
       ],
       "last_plan": {
@@ -113779,12 +113779,6 @@
         "size_bytes": 5900000000,
         "prepared_at": "2026-11-10T15:22:29.295795+00:00",
         "relay_source_id": "32044029"
-      },
-      "claim": {
-        "worker_id": "f8289c00c16243f794f2bd062a19cf60-shard-0",
-        "claimed_at": "2026-11-19T22:42:25.724581+00:00",
-        "lease_expires_at": "2026-11-20T04:42:25.724581+00:00",
-        "run_id": "44616581853"
       }
     },
     "2992": {
@@ -132288,7 +132282,7 @@
       "last_plan": {
         "source_id": "35080468",
         "display_name": "Polská krev SD CZ Dabing",
-        "planned_at": "2026-11-19T20:35:41.659849+00:00"
+        "planned_at": "2026-11-19T22:42:31.854147+00:00"
       },
       "previous_target_id": "30987106",
       "prepared": {
@@ -181575,11 +181569,16 @@
       "last_plan": {
         "source_id": "34059564",
         "display_name": "Smile 2 4K CZ Dabing",
-        "planned_at": "2026-11-19T22:42:19.140247+00:00"
+        "planned_at": "2026-11-19T22:42:32.168359+00:00"
       }
     },
     "3435": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "18389957",
+        "display_name": "Cars 3 1080p CZ Dabing",
+        "planned_at": "2026-11-19T22:42:32.368617+00:00"
+      }
     },
     "3438": {
       "attempts": []
@@ -227580,5 +227579,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:42:25.724604+00:00"
+  "updated_at": "2026-11-19T22:42:32.611558+00:00"
 }
