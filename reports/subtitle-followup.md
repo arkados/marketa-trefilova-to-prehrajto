@@ -675,7 +675,7 @@ Attach subtitles only after target processing has finished.
 | Thelma (2024) 1080p CZ titulky | 31011855 | https://sdilej.cz/29624808/thelma.2024.1080p.amzn.web-dl.ddp5.1.h.264-leon.-en-subs-cz-en-.mkv | Complete: Czech subtitles verified |
 | Amanda Knox 720p CZ titulky | 31012115 | https://sdilej.cz/8457253/amanda-knox-2016-titulky.cz-720p.mkv | Complete: Czech subtitles verified |
 | Batman: Hush 1080p CZ titulky | 31012237 | https://sdilej.cz/12033354/batman-hush.2019.cz-titulky.1080p.webrip-super-animovany-novinka.mkv | Complete: Czech subtitles verified |
-| Welcome to the Rileys 1080p CZ Titulky | 31012333 | https://sdilej.cz/31162122/2010-welcome-to-the-rileys-svet-podla-mallory-mo-1080p-en-cztit.mkv | Extract Czech track from exact source after processing |
+| Welcome to the Rileys 1080p CZ titulky | 31012333 | https://sdilej.cz/31162122/2010-welcome-to-the-rileys-svet-podla-mallory-mo-1080p-en-cztit.mkv | Complete: Czech subtitles verified |
 | The Last Stop in Yuma County 1080p CZ Titulky | 31012476 | https://sdilej.cz/29064521/the-last-stop-in-yuma-county-2023-cztit-v-obraze-1080p.mkv | Extract Czech track from exact source after processing |
 | The Wolf's Call (Le Chant du loup) 1080p CZ Titulky | 31012805 | https://sdilej.cz/11904731/le.chant.du.loup.2019.sk.sub.1080p.web.h264.mkv | Extract Czech track from exact source after processing |
 | Something Wild 1080p CZ Titulky | 31013121 | https://sdilej.cz/35182294/something.wild.1986.criterion.1080p.bluray.dl.dts.x264-majo.mkv | Extract Czech track from exact source after processing |
