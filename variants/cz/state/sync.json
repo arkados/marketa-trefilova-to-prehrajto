@@ -27443,13 +27443,6 @@
           "source_id": "29719575",
           "target_video_id": "30714314",
           "permanent": false,
-          "attempted_at": "2026-11-19T09:08:44.514049+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29719575",
-          "target_video_id": "30714314",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:44:44.995419+00:00"
         },
         {
@@ -27458,6 +27451,13 @@
           "target_video_id": "30714314",
           "permanent": false,
           "attempted_at": "2026-11-19T12:42:40.976876+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29719575",
+          "target_video_id": "30714314",
+          "permanent": false,
+          "attempted_at": "2026-11-19T14:15:54.652286+00:00"
         }
       ],
       "last_plan": {
@@ -129878,7 +129878,7 @@
       "last_plan": {
         "source_id": "34774875",
         "display_name": "Waterboys 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:42:39.568316+00:00"
+        "planned_at": "2026-11-19T14:15:53.215462+00:00"
       },
       "previous_target_id": "30986837",
       "prepared": {
@@ -129886,6 +129886,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T02:18:35.871036+00:00",
         "relay_source_id": "34774875"
+      },
+      "claim": {
+        "worker_id": "2b9bbb18d35f4abb96b713c15045b2bd-shard-0",
+        "claimed_at": "2026-11-19T14:15:54.367974+00:00",
+        "lease_expires_at": "2026-11-19T20:15:54.367974+00:00",
+        "run_id": "44524452534"
       }
     },
     "22072": {
@@ -179511,7 +179517,7 @@
       "last_plan": {
         "source_id": "34698522",
         "display_name": "The Inbetweeners Movie SD CZ Dabing",
-        "planned_at": "2026-11-19T14:15:50.184881+00:00"
+        "planned_at": "2026-11-19T14:15:53.624696+00:00"
       }
     },
     "3333": {
@@ -225776,5 +225782,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T14:15:50.184900+00:00"
+  "updated_at": "2026-11-19T14:15:54.652307+00:00"
 }
