@@ -110903,13 +110903,6 @@
           "source_id": "35095604",
           "target_video_id": "30983770",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:59:13.925055+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35095604",
-          "target_video_id": "30983770",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:53:42.705521+00:00"
         },
         {
@@ -110918,6 +110911,13 @@
           "target_video_id": "30983770",
           "permanent": false,
           "attempted_at": "2026-11-19T14:27:45.710502+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35095604",
+          "target_video_id": "30983770",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:58:23.874012+00:00"
         }
       ],
       "last_plan": {
@@ -143580,7 +143580,7 @@
       "last_plan": {
         "source_id": "30256707",
         "display_name": "Tři chlapi v chalupě SD CZ Dabing",
-        "planned_at": "2026-11-19T14:27:44.225122+00:00"
+        "planned_at": "2026-11-19T15:58:22.408150+00:00"
       },
       "previous_target_id": "30988639",
       "prepared": {
@@ -143588,6 +143588,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T09:01:38.348451+00:00",
         "relay_source_id": "30256707"
+      },
+      "claim": {
+        "worker_id": "a4124df87c72439799ecc5b2c98fd0c0-shard-0",
+        "claimed_at": "2026-11-19T15:58:23.588864+00:00",
+        "lease_expires_at": "2026-11-19T21:58:23.588864+00:00",
+        "run_id": "44524452534"
       }
     },
     "37450": {
@@ -179685,7 +179691,7 @@
       "last_plan": {
         "source_id": "31769735",
         "display_name": "Stay 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:58:19.209191+00:00"
+        "planned_at": "2026-11-19T15:58:22.837897+00:00"
       }
     },
     "12546": {
@@ -225921,5 +225927,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:58:19.457359+00:00"
+  "updated_at": "2026-11-19T15:58:23.874031+00:00"
 }
