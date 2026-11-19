@@ -124197,6 +124197,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T21:02:36.663487+00:00",
         "relay_source_id": "33873702"
+      },
+      "claim": {
+        "worker_id": "b13c4b53a9b64aceb454a3888e93b61c-shard-0",
+        "claimed_at": "2026-11-19T00:37:15.712882+00:00",
+        "lease_expires_at": "2026-11-19T06:37:15.712882+00:00",
+        "run_id": "44406951430"
       }
     },
     "31026": {
@@ -127632,13 +127638,6 @@
           "source_id": "34651344",
           "target_video_id": "30986432",
           "permanent": false,
-          "attempted_at": "2026-11-18T19:50:48.692474+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34651344",
-          "target_video_id": "30986432",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:22:59.888973+00:00"
         },
         {
@@ -127647,6 +127646,13 @@
           "target_video_id": "30986432",
           "permanent": false,
           "attempted_at": "2026-11-18T23:08:21.347703+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34651344",
+          "target_video_id": "30986432",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:37:15.484545+00:00"
         }
       ],
       "last_plan": {
@@ -127660,12 +127666,6 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T00:27:57.652347+00:00",
         "relay_source_id": "34651344"
-      },
-      "claim": {
-        "worker_id": "18d52174964945a59f476db06f5c95f2-shard-0",
-        "claimed_at": "2026-11-19T00:37:11.228014+00:00",
-        "lease_expires_at": "2026-11-19T06:37:11.228014+00:00",
-        "run_id": "44406951430"
       }
     },
     "23824": {
@@ -172432,7 +172432,7 @@
       "last_plan": {
         "source_id": "34749651",
         "display_name": "The Entity 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:08:24.140427+00:00"
+        "planned_at": "2026-11-19T00:37:15.967563+00:00"
       },
       "previous_target_id": "31136100",
       "prepared": {
@@ -177502,7 +177502,7 @@
       "last_plan": {
         "source_id": "33758492",
         "display_name": "Prince of Darkness 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:37:12.166804+00:00"
+        "planned_at": "2026-11-19T00:37:16.304443+00:00"
       }
     },
     "14453": {
@@ -224041,5 +224041,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:37:12.399685+00:00"
+  "updated_at": "2026-11-19T00:37:16.304460+00:00"
 }
