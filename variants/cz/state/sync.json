@@ -133228,7 +133228,7 @@
       "last_plan": {
         "source_id": "30905918",
         "display_name": "Ta chvíle, ten okamžik (That Instant, That While) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:40:00.550892+00:00"
+        "planned_at": "2026-11-19T03:35:59.089038+00:00"
       },
       "previous_target_id": "30987234",
       "prepared": {
@@ -133236,6 +133236,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T04:01:14.860522+00:00",
         "relay_source_id": "30905918"
+      },
+      "claim": {
+        "worker_id": "d8bd4b0584cb4e31ad3591cd6d51afa7-shard-0",
+        "claimed_at": "2026-11-19T03:35:59.647184+00:00",
+        "lease_expires_at": "2026-11-19T09:35:59.647184+00:00",
+        "run_id": "44447775933"
       }
     },
     "16081": {
@@ -177944,17 +177950,19 @@
       "attempts": []
     },
     "14686": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24188035",
+          "target_video_id": "31168396",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:36:00.434506+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24188035",
         "display_name": "The Legionnaire (Il legionario) 1080p CZ Dabing",
         "planned_at": "2026-11-19T03:29:31.286549+00:00"
-      },
-      "claim": {
-        "worker_id": "00957d3b2ea84f47827e36eadec73c4e-shard-0",
-        "claimed_at": "2026-11-19T03:29:31.917426+00:00",
-        "lease_expires_at": "2026-11-19T09:29:31.917426+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31168396",
       "prepared": {
@@ -177990,7 +177998,7 @@
       "last_plan": {
         "source_id": "35056002",
         "display_name": "The Legend of Bagger Vance 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:35:55.755967+00:00"
+        "planned_at": "2026-11-19T03:35:59.301061+00:00"
       }
     },
     "28013": {
@@ -224454,5 +224462,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:35:57.340914+00:00"
+  "updated_at": "2026-11-19T03:36:00.434520+00:00"
 }
