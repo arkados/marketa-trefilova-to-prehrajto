@@ -141969,13 +141969,6 @@
           "source_id": "8790479",
           "target_video_id": "30988375",
           "permanent": false,
-          "attempted_at": "2026-11-19T09:53:10.970714+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "8790479",
-          "target_video_id": "30988375",
-          "permanent": false,
           "attempted_at": "2026-11-19T11:29:57.026801+00:00"
         },
         {
@@ -141984,12 +141977,19 @@
           "target_video_id": "30988375",
           "permanent": false,
           "attempted_at": "2026-11-19T13:20:10.509741+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "8790479",
+          "target_video_id": "30988375",
+          "permanent": false,
+          "attempted_at": "2026-11-19T14:54:36.015555+00:00"
         }
       ],
       "last_plan": {
         "source_id": "8790479",
         "display_name": "Piano, solo SD CZ Dabing",
-        "planned_at": "2026-11-19T13:20:05.233331+00:00"
+        "planned_at": "2026-11-19T14:54:33.127365+00:00"
       },
       "previous_target_id": "30988375",
       "prepared": {
@@ -179558,14 +179558,25 @@
       "last_plan": {
         "source_id": "34014132",
         "display_name": "Kangaroo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:54:28.211981+00:00"
+        "planned_at": "2026-11-19T14:54:33.506827+00:00"
+      },
+      "claim": {
+        "worker_id": "a48a41e55a10425d83b6aa9cb62a6090-shard-0",
+        "claimed_at": "2026-11-19T14:54:34.621863+00:00",
+        "lease_expires_at": "2026-11-19T20:54:34.621863+00:00",
+        "run_id": "44524452534"
       }
     },
     "3497": {
       "attempts": []
     },
     "3909": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35152970",
+        "display_name": "Scooby-Doo! Shaggy's Showdown 1080p CZ Dabing",
+        "planned_at": "2026-11-19T14:54:33.734015+00:00"
+      }
     },
     "3493": {
       "attempts": []
@@ -225809,5 +225820,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T14:54:30.554666+00:00"
+  "updated_at": "2026-11-19T14:54:36.015575+00:00"
 }
