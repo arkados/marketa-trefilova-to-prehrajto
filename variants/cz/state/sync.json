@@ -120681,7 +120681,7 @@
       "last_plan": {
         "source_id": "21443860",
         "display_name": "Lady Macbeth 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:49:11.941666+00:00"
+        "planned_at": "2026-11-19T19:10:08.046834+00:00"
       },
       "previous_target_id": "30985014",
       "prepared": {
@@ -120689,6 +120689,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T18:33:39.898861+00:00",
         "relay_source_id": "21443860"
+      },
+      "claim": {
+        "worker_id": "f052058677cf4644827c1a22d4eaa20f-shard-0",
+        "claimed_at": "2026-11-19T19:10:08.859092+00:00",
+        "lease_expires_at": "2026-11-20T01:10:08.859092+00:00",
+        "run_id": "44531372417"
       }
     },
     "3001": {
@@ -136349,13 +136355,6 @@
           "source_id": "31451425",
           "target_video_id": "30987653",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:47:23.583107+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31451425",
-          "target_video_id": "30987653",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:17:42.322013+00:00"
         },
         {
@@ -136364,6 +136363,13 @@
           "target_video_id": "30987653",
           "permanent": false,
           "attempted_at": "2026-11-19T17:49:13.345928+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31451425",
+          "target_video_id": "30987653",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:10:09.186953+00:00"
         }
       ],
       "last_plan": {
@@ -136377,12 +136383,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T05:35:25.057645+00:00",
         "relay_source_id": "31451425"
-      },
-      "claim": {
-        "worker_id": "307b13a94125451c8d7d556f2d95c57a-shard-0",
-        "claimed_at": "2026-11-19T19:10:03.904002+00:00",
-        "lease_expires_at": "2026-11-20T01:10:03.904002+00:00",
-        "run_id": "44531372417"
       }
     },
     "12620": {
@@ -180512,11 +180512,22 @@
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:10:01.430874+00:00"
+        "planned_at": "2026-11-19T19:10:08.287283+00:00"
+      },
+      "claim": {
+        "worker_id": "b0c7f6df5bd24370994a9935503eaa6e-shard-0",
+        "claimed_at": "2026-11-19T19:10:09.019364+00:00",
+        "lease_expires_at": "2026-11-20T01:10:09.019364+00:00",
+        "run_id": "44531372417"
       }
     },
     "29312": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32799247",
+        "display_name": "SMS für Dich (Text for You) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T19:10:08.430923+00:00"
+      }
     },
     "3953": {
       "attempts": []
@@ -226637,5 +226648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:10:03.904030+00:00"
+  "updated_at": "2026-11-19T19:10:09.186973+00:00"
 }
