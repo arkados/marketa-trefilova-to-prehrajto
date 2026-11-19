@@ -177587,17 +177587,19 @@
       }
     },
     "30040": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25275828",
+          "target_video_id": "31164733",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:02:21.381770+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25275828",
         "display_name": "The Soloist 1080p CZ Dabing",
         "planned_at": "2026-11-19T00:58:25.488940+00:00"
-      },
-      "claim": {
-        "worker_id": "df8f1fd00f2648b79fe623928faa0088-shard-0",
-        "claimed_at": "2026-11-19T00:58:26.576855+00:00",
-        "lease_expires_at": "2026-11-19T06:58:26.576855+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31164733",
       "prepared": {
@@ -224139,5 +224141,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:02:18.439786+00:00"
+  "updated_at": "2026-11-19T01:02:21.381791+00:00"
 }
