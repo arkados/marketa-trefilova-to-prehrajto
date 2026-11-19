@@ -136700,7 +136700,7 @@
       "last_plan": {
         "source_id": "34756332",
         "display_name": "Sharks and Little Fish (Haie und kleine Fische) SD CZ Dabing",
-        "planned_at": "2026-11-19T04:20:09.212227+00:00"
+        "planned_at": "2026-11-19T05:40:28.691206+00:00"
       },
       "previous_target_id": "30987705",
       "prepared": {
@@ -136708,6 +136708,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T05:43:58.500619+00:00",
         "relay_source_id": "34756332"
+      },
+      "claim": {
+        "worker_id": "c9fb8a202d004a87a9029c326f045389-shard-0",
+        "claimed_at": "2026-11-19T05:40:29.276760+00:00",
+        "lease_expires_at": "2026-11-19T11:40:29.276760+00:00",
+        "run_id": "44447775933"
       }
     },
     "33622": {
@@ -178425,17 +178431,19 @@
       }
     },
     "13665": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33675429",
+          "target_video_id": "31171506",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:40:30.800377+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33675429",
         "display_name": "Penelope (2006) 1080p CZ Dabing",
         "planned_at": "2026-11-19T05:33:02.797297+00:00"
-      },
-      "claim": {
-        "worker_id": "6cca65aeb6e744d99b8672c664443302-shard-0",
-        "claimed_at": "2026-11-19T05:33:03.408467+00:00",
-        "lease_expires_at": "2026-11-19T11:33:03.408467+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31171506",
       "prepared": {
@@ -178471,7 +178479,7 @@
       "last_plan": {
         "source_id": "26449200",
         "display_name": "Machine Gun Preacher 720p CZ Dabing",
-        "planned_at": "2026-11-19T05:40:24.838281+00:00"
+        "planned_at": "2026-11-19T05:40:28.918847+00:00"
       }
     },
     "19417": {
@@ -224866,5 +224874,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:40:26.858111+00:00"
+  "updated_at": "2026-11-19T05:40:30.800388+00:00"
 }
