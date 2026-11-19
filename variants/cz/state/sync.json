@@ -112066,13 +112066,6 @@
           "source_id": "34903816",
           "target_video_id": "30983828",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:59:28.419742+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34903816",
-          "target_video_id": "30983828",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:29:13.068123+00:00"
         },
         {
@@ -112081,6 +112074,13 @@
           "target_video_id": "30983828",
           "permanent": false,
           "attempted_at": "2026-11-19T17:58:47.060030+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34903816",
+          "target_video_id": "30983828",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:22:35.666114+00:00"
         }
       ],
       "last_plan": {
@@ -112094,12 +112094,6 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T14:54:38.256137+00:00",
         "relay_source_id": "34903816"
-      },
-      "claim": {
-        "worker_id": "40a834a5337e42d688214ef531eeface-shard-0",
-        "claimed_at": "2026-11-19T19:22:30.367327+00:00",
-        "lease_expires_at": "2026-11-20T01:22:30.367327+00:00",
-        "run_id": "44531372417"
       }
     },
     "11021": {
@@ -130391,7 +130385,7 @@
       "last_plan": {
         "source_id": "32368628",
         "display_name": "Hogo fogo Homolka 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:58:43.021614+00:00"
+        "planned_at": "2026-11-19T19:22:33.987536+00:00"
       },
       "previous_target_id": "30986898",
       "prepared": {
@@ -130399,6 +130393,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T02:34:53.801831+00:00",
         "relay_source_id": "32368628"
+      },
+      "claim": {
+        "worker_id": "76b1c988e70545bd9b53242e493cbc07-shard-0",
+        "claimed_at": "2026-11-19T19:22:34.804061+00:00",
+        "lease_expires_at": "2026-11-20T01:22:34.804061+00:00",
+        "run_id": "44531372417"
       }
     },
     "12672": {
@@ -180591,7 +180591,7 @@
       "last_plan": {
         "source_id": "31626861",
         "display_name": "Doubles (Dvojníci) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:22:29.849821+00:00"
+        "planned_at": "2026-11-19T19:22:34.347706+00:00"
       }
     },
     "21722": {
@@ -226707,5 +226707,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:22:31.463656+00:00"
+  "updated_at": "2026-11-19T19:22:35.666134+00:00"
 }
