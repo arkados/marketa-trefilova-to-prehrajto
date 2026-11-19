@@ -141123,13 +141123,6 @@
           "source_id": "34791481",
           "target_video_id": "30988184",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:59:15.497067+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34791481",
-          "target_video_id": "30988184",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:29:10.066265+00:00"
         },
         {
@@ -141138,6 +141131,13 @@
           "target_video_id": "30988184",
           "permanent": false,
           "attempted_at": "2026-11-19T03:26:30.802541+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34791481",
+          "target_video_id": "30988184",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:47:30.416895+00:00"
         }
       ],
       "last_plan": {
@@ -177983,17 +177983,23 @@
           "attempted_at": "2026-11-19T03:27:43.547915+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "14775256",
-        "display_name": "Hillbilly Elegy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:20:51.067824+00:00"
-      },
       "previous_target_id": "31168226",
-      "prepared": {
+      "upload": {
         "target_video_id": "31168226",
-        "size_bytes": 2766445539,
-        "prepared_at": "2026-11-19T03:20:54.991203+00:00",
-        "relay_source_id": "14775256"
+        "display_name": "Hillbilly Elegy 1080p CZ Dabing",
+        "source_id": "14775256",
+        "source_url": "https://sdilej.cz/14775256/americka-elegie-hillbilly-elegy-cz-5.1.mkv",
+        "source_filename": "Americká elegie - Hillbilly Elegy cz 5.1.mkv",
+        "size_bytes": 2800000000,
+        "width": 1920,
+        "height": 800,
+        "audio_language": "cs",
+        "language_probability": 0.9495955109596252,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/hillbilly-elegy-1080p-cz-dabing-mkv/e0c9802799440527",
+        "uploaded_at": "2026-11-19T04:47:30.573574+00:00"
       }
     },
     "25133": {
@@ -178218,7 +178224,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:47:26.332711+00:00"
+        "planned_at": "2026-11-19T04:47:29.049623+00:00"
       }
     },
     "33936": {
@@ -224652,5 +224658,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:47:26.623535+00:00"
+  "updated_at": "2026-11-19T04:47:30.573586+00:00"
 }
