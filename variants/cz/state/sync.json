@@ -179964,17 +179964,19 @@
       }
     },
     "3339": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30700240",
+          "target_video_id": "31187990",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:46:36.860837+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30700240",
         "display_name": "Suspiria (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-19T17:23:45.636431+00:00"
-      },
-      "claim": {
-        "worker_id": "ddfd062744974d638b3784d998eac8ff-shard-0",
-        "claimed_at": "2026-11-19T17:23:46.356535+00:00",
-        "lease_expires_at": "2026-11-19T23:23:46.356535+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31187990",
       "prepared": {
@@ -226204,5 +226206,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:46:32.120718+00:00"
+  "updated_at": "2026-11-19T17:46:36.860862+00:00"
 }
