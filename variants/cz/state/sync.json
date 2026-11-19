@@ -120846,7 +120846,7 @@
       "last_plan": {
         "source_id": "17805705",
         "display_name": "Ballerina (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:42:06.570277+00:00"
+        "planned_at": "2026-11-19T02:15:59.462665+00:00"
       },
       "previous_target_id": "30985024",
       "prepared": {
@@ -120854,6 +120854,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T18:36:07.983562+00:00",
         "relay_source_id": "17805705"
+      },
+      "claim": {
+        "worker_id": "84509df395bf417e82f933bfd63106d0-shard-0",
+        "claimed_at": "2026-11-19T02:16:00.478877+00:00",
+        "lease_expires_at": "2026-11-19T08:16:00.478877+00:00",
+        "run_id": "44406951430"
       }
     },
     "21367": {
@@ -177729,17 +177735,19 @@
       }
     },
     "12409": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20148452",
+          "target_video_id": "31165940",
+          "permanent": false,
+          "attempted_at": "2026-11-19T02:16:01.583216+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20148452",
         "display_name": "U Turn 1080p CZ Dabing",
         "planned_at": "2026-11-19T02:02:38.294304+00:00"
-      },
-      "claim": {
-        "worker_id": "051e602591bd4c178da19e6ecbc49f75-shard-0",
-        "claimed_at": "2026-11-19T02:02:41.568322+00:00",
-        "lease_expires_at": "2026-11-19T08:02:41.568322+00:00",
-        "run_id": "44406951430"
       },
       "previous_target_id": "31165940",
       "prepared": {
@@ -177778,7 +177786,7 @@
       "last_plan": {
         "source_id": "13959519",
         "display_name": "Dream Factory (Traumfabrik) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:15:53.090936+00:00"
+        "planned_at": "2026-11-19T02:15:59.843704+00:00"
       }
     },
     "16322": {
@@ -224287,5 +224295,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T02:15:55.450172+00:00"
+  "updated_at": "2026-11-19T02:16:01.583234+00:00"
 }
