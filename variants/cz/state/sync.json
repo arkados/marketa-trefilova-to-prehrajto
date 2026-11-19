@@ -111434,13 +111434,6 @@
           "source_id": "26697838",
           "target_video_id": "30983795",
           "permanent": false,
-          "attempted_at": "2026-11-18T19:32:28.840762+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26697838",
-          "target_video_id": "30983795",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:07:22.821832+00:00"
         },
         {
@@ -111449,6 +111442,13 @@
           "target_video_id": "30983795",
           "permanent": false,
           "attempted_at": "2026-11-18T22:50:58.197956+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26697838",
+          "target_video_id": "30983795",
+          "permanent": false,
+          "attempted_at": "2026-11-19T00:22:07.432326+00:00"
         }
       ],
       "last_plan": {
@@ -111462,12 +111462,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T14:49:23.310628+00:00",
         "relay_source_id": "26697838"
-      },
-      "claim": {
-        "worker_id": "b3cd946b47e9435da3d362a6607dcc85-shard-0",
-        "claimed_at": "2026-11-19T00:22:03.194793+00:00",
-        "lease_expires_at": "2026-11-19T06:22:03.194793+00:00",
-        "run_id": "44406951430"
       }
     },
     "33771": {
@@ -125621,7 +125615,7 @@
       "last_plan": {
         "source_id": "34824290",
         "display_name": "Borsalino 1080p CZ Dabing",
-        "planned_at": "2026-11-18T22:50:56.678856+00:00"
+        "planned_at": "2026-11-19T00:22:06.117517+00:00"
       },
       "previous_target_id": "30985867",
       "prepared": {
@@ -125629,6 +125623,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T22:16:18.489755+00:00",
         "relay_source_id": "34824290"
+      },
+      "claim": {
+        "worker_id": "31fd4ee7e06e4d42951896f2788904de-shard-0",
+        "claimed_at": "2026-11-19T00:22:07.103295+00:00",
+        "lease_expires_at": "2026-11-19T06:22:07.103295+00:00",
+        "run_id": "44406951430"
       }
     },
     "19244": {
@@ -177420,7 +177420,7 @@
       "last_plan": {
         "source_id": "13136208",
         "display_name": "The Good Liar 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:22:02.542186+00:00"
+        "planned_at": "2026-11-19T00:22:06.495934+00:00"
       }
     },
     "31715": {
@@ -223968,5 +223968,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:22:03.885762+00:00"
+  "updated_at": "2026-11-19T00:22:07.432356+00:00"
 }
