@@ -177842,17 +177842,19 @@
       "attempts": []
     },
     "3201": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30155086",
+          "target_video_id": "31167651",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:06:22.383350+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30155086",
         "display_name": "Bottoms 1080p CZ Dabing",
         "planned_at": "2026-11-19T03:01:03.706821+00:00"
-      },
-      "claim": {
-        "worker_id": "cdf5695fd71f435db100fbe4795494bf-shard-0",
-        "claimed_at": "2026-11-19T03:01:04.321579+00:00",
-        "lease_expires_at": "2026-11-19T09:01:04.321579+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31167651",
       "prepared": {
@@ -224367,5 +224369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:06:20.415322+00:00"
+  "updated_at": "2026-11-19T03:06:22.383362+00:00"
 }
