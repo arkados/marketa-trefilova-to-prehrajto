@@ -112257,13 +112257,6 @@
           "source_id": "33855360",
           "target_video_id": "30983838",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:05:14.025515+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33855360",
-          "target_video_id": "30983838",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:35:29.255171+00:00"
         },
         {
@@ -112272,6 +112265,13 @@
           "target_video_id": "30983838",
           "permanent": false,
           "attempted_at": "2026-11-19T18:04:03.148983+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33855360",
+          "target_video_id": "30983838",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:27:50.236938+00:00"
         }
       ],
       "last_plan": {
@@ -114334,7 +114334,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-19T18:04:01.527975+00:00"
+        "planned_at": "2026-11-19T19:27:48.741967+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -114342,6 +114342,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:29:05.818325+00:00",
         "relay_source_id": "31982080"
+      },
+      "claim": {
+        "worker_id": "18aaf11e5d0f48128d629fb628005e15-shard-0",
+        "claimed_at": "2026-11-19T19:27:49.698924+00:00",
+        "lease_expires_at": "2026-11-20T01:27:49.698924+00:00",
+        "run_id": "44531372417"
       }
     },
     "2796": {
@@ -180617,6 +180623,12 @@
         "source_id": "31739567",
         "display_name": "Intramuros (The Walls of Hell) SD CZ Dabing",
         "planned_at": "2026-11-19T19:27:45.591637+00:00"
+      },
+      "claim": {
+        "worker_id": "c2a3038e67604a29a53d377f76a916c3-shard-0",
+        "claimed_at": "2026-11-19T19:27:48.513151+00:00",
+        "lease_expires_at": "2026-11-20T01:27:48.513151+00:00",
+        "run_id": "44531372417"
       }
     },
     "17448": {
@@ -180624,7 +180636,7 @@
       "last_plan": {
         "source_id": "12269223",
         "display_name": "Léto s gentlemanem 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:27:45.750030+00:00"
+        "planned_at": "2026-11-19T19:27:48.972239+00:00"
       }
     },
     "3209": {
@@ -226734,5 +226746,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:27:45.960989+00:00"
+  "updated_at": "2026-11-19T19:27:50.236957+00:00"
 }
