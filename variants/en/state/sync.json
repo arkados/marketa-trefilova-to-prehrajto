@@ -22574,7 +22574,7 @@
       "last_plan": {
         "source_id": "10716193",
         "display_name": "Two Brothers 1080p CZ titulky",
-        "planned_at": "2026-11-19T13:09:30.882261+00:00"
+        "planned_at": "2026-11-19T13:39:47.687006+00:00"
       },
       "previous_target_id": "30987615",
       "prepared": {
@@ -22582,6 +22582,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T05:26:18.941626+00:00",
         "relay_source_id": "10716193"
+      },
+      "claim": {
+        "worker_id": "fe5ed0264fc54b74baed13084df6f8d2-shard-0",
+        "claimed_at": "2026-11-19T13:39:48.458260+00:00",
+        "lease_expires_at": "2026-11-19T19:39:48.458260+00:00",
+        "run_id": "44524452534"
       }
     },
     "2216": {
@@ -22628,13 +22634,6 @@
           "source_id": "27648883",
           "target_video_id": "30987757",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:51:50.815095+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27648883",
-          "target_video_id": "30987757",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:39:22.502296+00:00"
         },
         {
@@ -22643,6 +22642,13 @@
           "target_video_id": "30987757",
           "permanent": false,
           "attempted_at": "2026-11-19T13:09:31.589727+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27648883",
+          "target_video_id": "30987757",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:39:48.997448+00:00"
         }
       ],
       "last_plan": {
@@ -100848,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:39:44.196947+00:00"
+  "updated_at": "2026-11-19T13:39:48.997469+00:00"
 }
