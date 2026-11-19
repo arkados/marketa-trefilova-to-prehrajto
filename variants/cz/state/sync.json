@@ -125993,13 +125993,6 @@
           "source_id": "34150939",
           "target_video_id": "30985913",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:23:38.778845+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34150939",
-          "target_video_id": "30985913",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:53:47.227258+00:00"
         },
         {
@@ -126008,6 +126001,13 @@
           "target_video_id": "30985913",
           "permanent": false,
           "attempted_at": "2026-11-19T19:14:38.610116+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34150939",
+          "target_video_id": "30985913",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:42:16.114380+00:00"
         }
       ],
       "last_plan": {
@@ -166046,7 +166046,7 @@
       "last_plan": {
         "source_id": "29448015",
         "display_name": "Mustang Country SD CZ Dabing",
-        "planned_at": "2026-11-19T19:14:38.112942+00:00"
+        "planned_at": "2026-11-19T20:42:14.545845+00:00"
       },
       "previous_target_id": "31108694",
       "prepared": {
@@ -166054,6 +166054,12 @@
         "size_bytes": 732700000,
         "prepared_at": "2026-11-17T04:51:15.948365+00:00",
         "relay_source_id": "29448015"
+      },
+      "claim": {
+        "worker_id": "eb935572575249c380d2808619d843d5-shard-0",
+        "claimed_at": "2026-11-19T20:42:15.319798+00:00",
+        "lease_expires_at": "2026-11-20T02:42:15.319798+00:00",
+        "run_id": "44531372417"
       }
     },
     "15957": {
@@ -181065,7 +181071,7 @@
       "last_plan": {
         "source_id": "34724495",
         "display_name": "Out of the Furnace 720p CZ Dabing",
-        "planned_at": "2026-11-19T20:42:11.730939+00:00"
+        "planned_at": "2026-11-19T20:42:14.819091+00:00"
       }
     },
     "11739": {
@@ -227130,5 +227136,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:42:11.730960+00:00"
+  "updated_at": "2026-11-19T20:42:16.114401+00:00"
 }
