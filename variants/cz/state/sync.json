@@ -8624,6 +8624,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "72aa0297129643ad9f434bcf32f90265-shard-0",
+        "claimed_at": "2026-11-19T01:01:47.591547+00:00",
+        "lease_expires_at": "2026-11-19T07:01:47.591547+00:00",
+        "run_id": "44406951430"
       }
     },
     "29922": {
@@ -117350,13 +117356,6 @@
           "source_id": "33672383",
           "target_video_id": "30984763",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:18:10.624930+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33672383",
-          "target_video_id": "30984763",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:49:38.743334+00:00"
         },
         {
@@ -117365,12 +117364,19 @@
           "target_video_id": "30984763",
           "permanent": false,
           "attempted_at": "2026-11-18T23:33:15.790666+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33672383",
+          "target_video_id": "30984763",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:01:52.263469+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33672383",
         "display_name": "Caught Stealing 4K CZ Dabing",
-        "planned_at": "2026-11-18T23:33:07.735363+00:00"
+        "planned_at": "2026-11-19T01:01:49.145843+00:00"
       },
       "previous_target_id": "30984763",
       "prepared": {
@@ -177606,7 +177612,7 @@
       "last_plan": {
         "source_id": "27036988",
         "display_name": "The Way Back (2020) SD CZ Dabing",
-        "planned_at": "2026-11-19T01:01:44.703827+00:00"
+        "planned_at": "2026-11-19T01:01:49.845325+00:00"
       }
     },
     "15532": {
@@ -224133,5 +224139,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:01:44.998387+00:00"
+  "updated_at": "2026-11-19T01:01:52.263490+00:00"
 }
