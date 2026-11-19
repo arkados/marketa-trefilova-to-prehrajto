@@ -120200,7 +120200,7 @@
       "last_plan": {
         "source_id": "30808517",
         "display_name": "Keeping Mum 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:35:30.412714+00:00"
+        "planned_at": "2026-11-19T16:06:19.835383+00:00"
       },
       "previous_target_id": "30984989",
       "prepared": {
@@ -120208,6 +120208,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T18:27:57.058145+00:00",
         "relay_source_id": "30808517"
+      },
+      "claim": {
+        "worker_id": "d67cb235ec464606b917599d47dfd85a-shard-0",
+        "claimed_at": "2026-11-19T16:06:20.910764+00:00",
+        "lease_expires_at": "2026-11-19T22:06:20.910764+00:00",
+        "run_id": "44524452534"
       }
     },
     "2880": {
@@ -177213,17 +177219,23 @@
           "attempted_at": "2026-11-19T14:35:31.336888+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31626723",
-        "display_name": "Pánský klub (The Gentlemen's Club) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:06:14.964899+00:00"
-      },
       "previous_target_id": "31161937",
-      "prepared": {
+      "upload": {
         "target_video_id": "31161937",
+        "display_name": "Pánský klub (The Gentlemen's Club) 1080p CZ Dabing",
+        "source_id": "31626723",
+        "source_url": "https://sdilej.cz/31626723/pansky-klub-2022-ceske-filmy-cz-78pt-.mkv",
+        "source_filename": "Pánský klub (2022) české filmy CZ (78PT).mkv",
         "size_bytes": 3000000000,
-        "prepared_at": "2026-11-18T22:45:50.840008+00:00",
-        "relay_source_id": "31626723"
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.979449987411499,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/pansky-klub-the-gentlemen-s-club-1080p-cz-dabing-mkv/4d473fdd8bb7d008",
+        "uploaded_at": "2026-11-19T16:06:22.997592+00:00"
       }
     },
     "22744": {
@@ -179708,7 +179720,7 @@
       "last_plan": {
         "source_id": "29935216",
         "display_name": "Queen of the Lake (Jezerní královna) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:06:15.348201+00:00"
+        "planned_at": "2026-11-19T16:06:20.226091+00:00"
       }
     },
     "3519": {
@@ -225941,5 +225953,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:06:15.648319+00:00"
+  "updated_at": "2026-11-19T16:06:22.997611+00:00"
 }
