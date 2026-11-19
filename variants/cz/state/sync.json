@@ -167608,13 +167608,6 @@
           "source_id": "35183996",
           "target_video_id": "31115388",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:46:35.533595+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35183996",
-          "target_video_id": "31115388",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:42:08.724538+00:00"
         },
         {
@@ -167623,12 +167616,19 @@
           "target_video_id": "31115388",
           "permanent": false,
           "attempted_at": "2026-11-19T05:03:46.894084+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35183996",
+          "target_video_id": "31115388",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:31:12.242619+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35183996",
         "display_name": "Droneman (Modelář) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:03:44.725840+00:00"
+        "planned_at": "2026-11-19T06:31:09.667324+00:00"
       },
       "previous_target_id": "31115388",
       "prepared": {
@@ -178576,11 +178576,22 @@
       "last_plan": {
         "source_id": "27470087",
         "display_name": "K-19: The Widowmaker 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:31:05.202329+00:00"
+        "planned_at": "2026-11-19T06:31:09.887593+00:00"
+      },
+      "claim": {
+        "worker_id": "29da2a4a0e4b47c68ff9026598b91b33-shard-0",
+        "claimed_at": "2026-11-19T06:31:10.498284+00:00",
+        "lease_expires_at": "2026-11-19T12:31:10.498284+00:00",
+        "run_id": "44447775933"
       }
     },
     "3413": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "17541643",
+        "display_name": "Jungle 4K CZ Dabing",
+        "planned_at": "2026-11-19T06:31:10.024497+00:00"
+      }
     },
     "3367": {
       "attempts": []
@@ -224953,5 +224964,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:31:07.450191+00:00"
+  "updated_at": "2026-11-19T06:31:12.242630+00:00"
 }
