@@ -29035,13 +29035,6 @@
           "source_id": "26168393",
           "target_video_id": "30721201",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:51:48.149867+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26168393",
-          "target_video_id": "30721201",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:21:34.754473+00:00"
         },
         {
@@ -29050,6 +29043,13 @@
           "target_video_id": "30721201",
           "permanent": false,
           "attempted_at": "2026-11-19T03:22:03.910751+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26168393",
+          "target_video_id": "30721201",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:43:26.434670+00:00"
         }
       ],
       "last_plan": {
@@ -29063,12 +29063,6 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-02T07:43:34.032473+00:00",
         "relay_source_id": "26168393"
-      },
-      "claim": {
-        "worker_id": "5e3a60b79f664c76bf0b71f8f09c280f-shard-0",
-        "claimed_at": "2026-11-19T04:43:22.710075+00:00",
-        "lease_expires_at": "2026-11-19T10:43:22.710075+00:00",
-        "run_id": "44447775933"
       }
     },
     "23584": {
@@ -119696,7 +119690,7 @@
       "last_plan": {
         "source_id": "33745553",
         "display_name": "Romper Stomper 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:22:06.052735+00:00"
+        "planned_at": "2026-11-19T04:43:25.450763+00:00"
       },
       "previous_target_id": "30984953",
       "prepared": {
@@ -119704,6 +119698,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T18:17:32.822519+00:00",
         "relay_source_id": "33745553"
+      },
+      "claim": {
+        "worker_id": "caa08a9333f54563b35da940d22cd703-shard-0",
+        "claimed_at": "2026-11-19T04:43:26.053080+00:00",
+        "lease_expires_at": "2026-11-19T10:43:26.053080+00:00",
+        "run_id": "44447775933"
       }
     },
     "2987": {
@@ -178218,7 +178218,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:43:22.313948+00:00"
+        "planned_at": "2026-11-19T04:43:25.676701+00:00"
       }
     },
     "33936": {
@@ -224652,5 +224652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:43:23.500116+00:00"
+  "updated_at": "2026-11-19T04:43:26.434686+00:00"
 }
