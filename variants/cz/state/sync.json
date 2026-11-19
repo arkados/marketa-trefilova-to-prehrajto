@@ -27591,13 +27591,6 @@
           "source_id": "32448687",
           "target_video_id": "30714914",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:43:26.798953+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32448687",
-          "target_video_id": "30714914",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:18:29.366615+00:00"
         },
         {
@@ -27606,6 +27599,13 @@
           "target_video_id": "30714914",
           "permanent": false,
           "attempted_at": "2026-11-19T18:38:10.995992+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32448687",
+          "target_video_id": "30714914",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:02:42.095453+00:00"
         }
       ],
       "last_plan": {
@@ -74534,7 +74534,7 @@
       "last_plan": {
         "source_id": "24984582",
         "display_name": "Christmas by Starlight 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:38:10.537619+00:00"
+        "planned_at": "2026-11-19T20:02:40.381880+00:00"
       },
       "previous_target_id": "30883462",
       "prepared": {
@@ -74542,6 +74542,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-07T06:42:27.663683+00:00",
         "relay_source_id": "24984582"
+      },
+      "claim": {
+        "worker_id": "2fe099c757d148d5a08490355baf813b-shard-0",
+        "claimed_at": "2026-11-19T20:02:41.228494+00:00",
+        "lease_expires_at": "2026-11-20T02:02:41.228494+00:00",
+        "run_id": "44531372417"
       }
     },
     "21479": {
@@ -180800,14 +180806,25 @@
       "last_plan": {
         "source_id": "33690430",
         "display_name": "The Man with the Golden Gun 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:02:37.304376+00:00"
+        "planned_at": "2026-11-19T20:02:40.632392+00:00"
+      },
+      "claim": {
+        "worker_id": "27ca8f5fca02489ba19434301ad5e4aa-shard-0",
+        "claimed_at": "2026-11-19T20:02:41.374002+00:00",
+        "lease_expires_at": "2026-11-20T02:02:41.374002+00:00",
+        "run_id": "44531372417"
       }
     },
     "25262": {
       "attempts": []
     },
     "26861": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34872033",
+        "display_name": "Seeking a Friend for the End of the World SD CZ Dabing",
+        "planned_at": "2026-11-19T20:02:40.778552+00:00"
+      }
     },
     "13175": {
       "attempts": []
@@ -226895,5 +226912,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:02:37.304398+00:00"
+  "updated_at": "2026-11-19T20:02:42.095474+00:00"
 }
