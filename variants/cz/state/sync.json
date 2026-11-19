@@ -17527,7 +17527,7 @@
       "last_plan": {
         "source_id": "6078224",
         "display_name": "Billy Elliot SD CZ Dabing",
-        "planned_at": "2026-11-19T08:32:11.228650+00:00"
+        "planned_at": "2026-11-19T10:06:47.186287+00:00"
       },
       "previous_target_id": "30669521",
       "prepared": {
@@ -19064,13 +19064,6 @@
           "source_id": "30770919",
           "target_video_id": "30675401",
           "permanent": false,
-          "attempted_at": "2026-11-19T04:21:26.405254+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30770919",
-          "target_video_id": "30675401",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:42:14.823256+00:00"
         },
         {
@@ -19079,6 +19072,13 @@
           "target_video_id": "30675401",
           "permanent": false,
           "attempted_at": "2026-11-19T08:32:12.980173+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30770919",
+          "target_video_id": "30675401",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:06:47.916787+00:00"
         }
       ],
       "last_plan": {
@@ -19092,12 +19092,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-10-31T18:46:07.059250+00:00",
         "relay_source_id": "30770919"
-      },
-      "claim": {
-        "worker_id": "4bb4450c87d645a091b927368ae6ab16-shard-0",
-        "claimed_at": "2026-11-19T10:06:43.858762+00:00",
-        "lease_expires_at": "2026-11-19T16:06:43.858762+00:00",
-        "run_id": "44451991647"
       }
     },
     "29695": {
@@ -178908,17 +178902,19 @@
       }
     },
     "3370": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11573471",
+          "target_video_id": "31178882",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:06:48.128905+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11573471",
         "display_name": "The Finest Hours 1080p CZ Dabing",
         "planned_at": "2026-11-19T09:48:57.414173+00:00"
-      },
-      "claim": {
-        "worker_id": "a1928c2d9899438988569d26e0982aea-shard-0",
-        "claimed_at": "2026-11-19T09:49:02.153552+00:00",
-        "lease_expires_at": "2026-11-19T15:49:02.153552+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31178882",
       "prepared": {
@@ -178933,7 +178929,7 @@
       "last_plan": {
         "source_id": "33953308",
         "display_name": "Sliding Doors 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:06:43.136527+00:00"
+        "planned_at": "2026-11-19T10:06:47.571565+00:00"
       }
     },
     "28168": {
@@ -225274,5 +225270,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:06:44.660440+00:00"
+  "updated_at": "2026-11-19T10:06:48.128924+00:00"
 }
