@@ -132627,13 +132627,6 @@
           "source_id": "34715074",
           "target_video_id": "30987142",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:41:18.866811+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715074",
-          "target_video_id": "30987142",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:28:15.291802+00:00"
         },
         {
@@ -132642,6 +132635,13 @@
           "target_video_id": "30987142",
           "permanent": false,
           "attempted_at": "2026-11-19T00:55:55.107596+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715074",
+          "target_video_id": "30987142",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:01:00.892237+00:00"
         }
       ],
       "last_plan": {
@@ -177635,17 +177635,23 @@
           "attempted_at": "2026-11-19T00:56:07.178721+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31552312",
-        "display_name": "The Hand That Rocks the Cradle (1992) SD CZ Dabing",
-        "planned_at": "2026-11-19T00:46:31.909961+00:00"
-      },
       "previous_target_id": "31164577",
-      "prepared": {
+      "upload": {
         "target_video_id": "31164577",
-        "size_bytes": 4426842968,
-        "prepared_at": "2026-11-19T00:46:37.201773+00:00",
-        "relay_source_id": "31552312"
+        "display_name": "The Hand That Rocks the Cradle (1992) SD CZ Dabing",
+        "source_id": "31552312",
+        "source_url": "https://sdilej.cz/31552312/ruka-na-kolebce-the-hand-that-rocks-the-cradle-1992-.mkv",
+        "source_filename": "Ruka na kolébce - The Hand That Rocks the Cradle (1992).mkv",
+        "size_bytes": 4400000000,
+        "width": 720,
+        "height": 576,
+        "audio_language": "cs",
+        "language_probability": 0.9932265877723694,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-hand-that-rocks-the-cradle-1992-sd-cz-dabing-mkv/ef57e7e173c2005c",
+        "uploaded_at": "2026-11-19T03:01:01.060393+00:00"
       }
     },
     "30040": {
@@ -177818,7 +177824,7 @@
       "last_plan": {
         "source_id": "30155086",
         "display_name": "Bottoms 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:00:57.081246+00:00"
+        "planned_at": "2026-11-19T03:00:59.505147+00:00"
       }
     },
     "24272": {
@@ -224326,5 +224332,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:00:57.081260+00:00"
+  "updated_at": "2026-11-19T03:01:01.060408+00:00"
 }
