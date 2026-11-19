@@ -101792,13 +101792,6 @@
           "source_id": "13450050",
           "target_video_id": "30969076",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:39:11.542682+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13450050",
-          "target_video_id": "30969076",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:09:57.547485+00:00"
         },
         {
@@ -101807,6 +101800,13 @@
           "target_video_id": "30969076",
           "permanent": false,
           "attempted_at": "2026-11-19T01:41:53.494883+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13450050",
+          "target_video_id": "30969076",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:37:32.033346+00:00"
         }
       ],
       "last_plan": {
@@ -128916,7 +128916,7 @@
       "last_plan": {
         "source_id": "28566197",
         "display_name": "Men Up 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:41:52.817996+00:00"
+        "planned_at": "2026-11-19T03:37:28.809981+00:00"
       },
       "previous_target_id": "30986704",
       "prepared": {
@@ -128924,6 +128924,12 @@
         "size_bytes": 5900000000,
         "prepared_at": "2026-11-11T01:38:40.252314+00:00",
         "relay_source_id": "28566197"
+      },
+      "claim": {
+        "worker_id": "fc39250f6b1246dd917b1871941ec7e9-shard-0",
+        "claimed_at": "2026-11-19T03:37:29.396687+00:00",
+        "lease_expires_at": "2026-11-19T09:37:29.396687+00:00",
+        "run_id": "44447775933"
       }
     },
     "35280": {
@@ -177992,7 +177998,7 @@
       "last_plan": {
         "source_id": "35056002",
         "display_name": "The Legend of Bagger Vance 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:37:26.545515+00:00"
+        "planned_at": "2026-11-19T03:37:29.028579+00:00"
       }
     },
     "28013": {
@@ -224456,5 +224462,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:37:26.545529+00:00"
+  "updated_at": "2026-11-19T03:37:32.033359+00:00"
 }
