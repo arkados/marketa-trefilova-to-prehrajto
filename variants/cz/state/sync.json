@@ -109058,13 +109058,6 @@
           "source_id": "22546836",
           "target_video_id": "30983603",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:48:37.115200+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22546836",
-          "target_video_id": "30983603",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:18:49.525624+00:00"
         },
         {
@@ -109073,6 +109066,13 @@
           "target_video_id": "30983603",
           "permanent": false,
           "attempted_at": "2026-11-19T17:50:12.028913+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22546836",
+          "target_video_id": "30983603",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:11:10.627636+00:00"
         }
       ],
       "last_plan": {
@@ -119210,7 +119210,7 @@
       "last_plan": {
         "source_id": "12049029",
         "display_name": "Tolkien 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:50:11.560210+00:00"
+        "planned_at": "2026-11-19T19:11:08.846602+00:00"
       },
       "previous_target_id": "30984886",
       "prepared": {
@@ -119218,6 +119218,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:03:27.140287+00:00",
         "relay_source_id": "12049029"
+      },
+      "claim": {
+        "worker_id": "9d6af5d7afe24b6baf99094b43e70a00-shard-0",
+        "claimed_at": "2026-11-19T19:11:09.596830+00:00",
+        "lease_expires_at": "2026-11-20T01:11:09.596830+00:00",
+        "run_id": "44531372417"
       }
     },
     "11922": {
@@ -180527,7 +180533,7 @@
       "last_plan": {
         "source_id": "32799247",
         "display_name": "SMS für Dich (Text for You) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:11:06.186201+00:00"
+        "planned_at": "2026-11-19T19:11:09.106318+00:00"
       }
     },
     "3953": {
@@ -226649,5 +226655,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:11:06.186237+00:00"
+  "updated_at": "2026-11-19T19:11:10.627657+00:00"
 }
