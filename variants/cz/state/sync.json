@@ -110860,13 +110860,6 @@
           "source_id": "32367221",
           "target_video_id": "30983754",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:43:35.743601+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32367221",
-          "target_video_id": "30983754",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:05:11.806541+00:00"
         },
         {
@@ -110875,6 +110868,13 @@
           "target_video_id": "30983754",
           "permanent": false,
           "attempted_at": "2026-11-19T06:32:42.070348+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32367221",
+          "target_video_id": "30983754",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:22:21.957480+00:00"
         }
       ],
       "last_plan": {
@@ -139620,7 +139620,7 @@
       "last_plan": {
         "source_id": "34713910",
         "display_name": "She - Hero (She – Hero) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:32:37.071952+00:00"
+        "planned_at": "2026-11-19T09:22:20.120961+00:00"
       },
       "previous_target_id": "30987956",
       "prepared": {
@@ -139628,6 +139628,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T07:01:26.061668+00:00",
         "relay_source_id": "34713910"
+      },
+      "claim": {
+        "worker_id": "04a5a39d371145049dbe39e1cc8bf5b9-shard-0",
+        "claimed_at": "2026-11-19T09:22:21.431950+00:00",
+        "lease_expires_at": "2026-11-19T15:22:21.431950+00:00",
+        "run_id": "44451991647"
       }
     },
     "33296": {
@@ -178792,7 +178798,13 @@
       "last_plan": {
         "source_id": "34150181",
         "display_name": "Cocoon (1985) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:22:16.499332+00:00"
+        "planned_at": "2026-11-19T09:22:20.471400+00:00"
+      },
+      "claim": {
+        "worker_id": "b43940bda1184cee8abda401ffb6fda0-shard-0",
+        "claimed_at": "2026-11-19T09:22:21.638552+00:00",
+        "lease_expires_at": "2026-11-19T15:22:21.638552+00:00",
+        "run_id": "44451991647"
       }
     },
     "3303": {
@@ -178800,7 +178812,7 @@
       "last_plan": {
         "source_id": "22330727",
         "display_name": "Purple Hearts 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:22:10.674235+00:00"
+        "planned_at": "2026-11-19T09:22:20.728291+00:00"
       }
     },
     "37542": {
@@ -225156,5 +225168,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:22:16.499349+00:00"
+  "updated_at": "2026-11-19T09:22:21.957497+00:00"
 }
