@@ -22315,7 +22315,7 @@
       "last_plan": {
         "source_id": "7004752",
         "display_name": "I Am Bolt SD CZ titulky",
-        "planned_at": "2026-11-19T04:28:59.485883+00:00"
+        "planned_at": "2026-11-19T04:59:11.963025+00:00"
       },
       "previous_target_id": "30984744",
       "prepared": {
@@ -22323,6 +22323,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T17:31:13.062687+00:00",
         "relay_source_id": "7004752"
+      },
+      "claim": {
+        "worker_id": "b87b765ad3a144039bebcfab3bfed1aa-shard-0",
+        "claimed_at": "2026-11-19T04:59:12.442268+00:00",
+        "lease_expires_at": "2026-11-19T10:59:12.442268+00:00",
+        "run_id": "44447775933"
       }
     },
     "22652": {
@@ -22406,13 +22412,6 @@
           "source_id": "35468703",
           "target_video_id": "30986211",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:28:47.048100+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35468703",
-          "target_video_id": "30986211",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:58:52.453493+00:00"
         },
         {
@@ -22421,6 +22420,13 @@
           "target_video_id": "30986211",
           "permanent": false,
           "attempted_at": "2026-11-19T04:29:00.322374+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35468703",
+          "target_video_id": "30986211",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:59:13.043160+00:00"
         }
       ],
       "last_plan": {
@@ -100848,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:59:09.249038+00:00"
+  "updated_at": "2026-11-19T04:59:13.043172+00:00"
 }
