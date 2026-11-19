@@ -111434,13 +111434,6 @@
           "source_id": "26697838",
           "target_video_id": "30983795",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:22:07.432326+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26697838",
-          "target_video_id": "30983795",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:53:42.541405+00:00"
         },
         {
@@ -111449,6 +111442,13 @@
           "target_video_id": "30983795",
           "permanent": false,
           "attempted_at": "2026-11-19T03:49:28.494161+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26697838",
+          "target_video_id": "30983795",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:10:14.839054+00:00"
         }
       ],
       "last_plan": {
@@ -125615,7 +125615,7 @@
       "last_plan": {
         "source_id": "34824290",
         "display_name": "Borsalino 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:49:30.440065+00:00"
+        "planned_at": "2026-11-19T05:10:13.538272+00:00"
       },
       "previous_target_id": "30985867",
       "prepared": {
@@ -125623,6 +125623,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T22:16:18.489755+00:00",
         "relay_source_id": "34824290"
+      },
+      "claim": {
+        "worker_id": "7f4201eded0f45698ecc40d8ee299b22-shard-0",
+        "claimed_at": "2026-11-19T05:10:14.138942+00:00",
+        "lease_expires_at": "2026-11-19T11:10:14.138942+00:00",
+        "run_id": "44447775933"
       }
     },
     "19244": {
@@ -178334,7 +178340,7 @@
       "last_plan": {
         "source_id": "33745748",
         "display_name": "Scanners 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:10:10.843398+00:00"
+        "planned_at": "2026-11-19T05:10:13.760517+00:00"
       }
     },
     "25895": {
@@ -224750,5 +224756,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:10:11.117014+00:00"
+  "updated_at": "2026-11-19T05:10:14.839066+00:00"
 }
