@@ -108424,6 +108424,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T14:14:54.921480+00:00",
         "relay_source_id": "32069441"
+      },
+      "claim": {
+        "worker_id": "14f16538cb3c45c981aa7c715fea48f5-shard-0",
+        "claimed_at": "2026-11-19T12:54:32.891695+00:00",
+        "lease_expires_at": "2026-11-19T18:54:32.891695+00:00",
+        "run_id": "44524452534"
       }
     },
     "16783": {
@@ -179337,17 +179343,19 @@
       }
     },
     "20362": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35004172",
+          "target_video_id": "31183223",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:54:33.545335+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35004172",
         "display_name": "Together (2025) 1080p CZ Dabing",
         "planned_at": "2026-11-19T12:48:14.107023+00:00"
-      },
-      "claim": {
-        "worker_id": "19e082d3ea484087ba00f26cb5dd774d-shard-0",
-        "claimed_at": "2026-11-19T12:48:18.015242+00:00",
-        "lease_expires_at": "2026-11-19T18:48:18.015242+00:00",
-        "run_id": "44524452534"
       },
       "previous_target_id": "31183223",
       "prepared": {
@@ -225640,5 +225648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:54:29.409887+00:00"
+  "updated_at": "2026-11-19T12:54:33.545354+00:00"
 }
