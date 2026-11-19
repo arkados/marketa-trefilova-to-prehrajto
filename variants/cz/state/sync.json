@@ -143985,13 +143985,6 @@
           "source_id": "34661764",
           "target_video_id": "30988695",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:59:50.118532+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34661764",
-          "target_video_id": "30988695",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:23:39.748033+00:00"
         },
         {
@@ -144000,6 +143993,13 @@
           "target_video_id": "30988695",
           "permanent": false,
           "attempted_at": "2026-11-19T21:21:33.317520+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34661764",
+          "target_video_id": "30988695",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:03:32.781437+00:00"
         }
       ],
       "last_plan": {
@@ -146197,7 +146197,7 @@
       "last_plan": {
         "source_id": "11812226",
         "display_name": "Čas pracuje pro vraha 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:21:36.096551+00:00"
+        "planned_at": "2026-11-19T23:03:31.142648+00:00"
       },
       "previous_target_id": "30993033",
       "prepared": {
@@ -146205,6 +146205,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T18:51:32.596945+00:00",
         "relay_source_id": "11812226"
+      },
+      "claim": {
+        "worker_id": "16b09c45389044f0a8457e77552e5925-shard-0",
+        "claimed_at": "2026-11-19T23:03:32.000596+00:00",
+        "lease_expires_at": "2026-11-20T05:03:32.000596+00:00",
+        "run_id": "44616581853"
       }
     },
     "13050": {
@@ -181709,7 +181715,7 @@
       "last_plan": {
         "source_id": "22130107",
         "display_name": "Pandorum 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:03:27.993839+00:00"
+        "planned_at": "2026-11-19T23:03:31.453678+00:00"
       }
     },
     "14008": {
@@ -227699,5 +227705,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:03:28.317829+00:00"
+  "updated_at": "2026-11-19T23:03:32.781457+00:00"
 }
