@@ -128031,13 +128031,6 @@
           "source_id": "34847608",
           "target_video_id": "30986566",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:50:50.774399+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34847608",
-          "target_video_id": "30986566",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:46:32.340987+00:00"
         },
         {
@@ -128046,6 +128039,13 @@
           "target_video_id": "30986566",
           "permanent": false,
           "attempted_at": "2026-11-19T05:07:57.552410+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34847608",
+          "target_video_id": "30986566",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:35:06.496474+00:00"
         }
       ],
       "last_plan": {
@@ -166266,7 +166266,7 @@
       "last_plan": {
         "source_id": "25673608",
         "display_name": "Lockdown (2021) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:07:56.240108+00:00"
+        "planned_at": "2026-11-19T06:35:05.110512+00:00"
       },
       "previous_target_id": "31110166",
       "prepared": {
@@ -166274,6 +166274,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-17T05:51:37.665639+00:00",
         "relay_source_id": "25673608"
+      },
+      "claim": {
+        "worker_id": "d7c59b67e89a45848dcb164c1e9890c7-shard-0",
+        "claimed_at": "2026-11-19T06:35:05.708533+00:00",
+        "lease_expires_at": "2026-11-19T12:35:05.708533+00:00",
+        "run_id": "44447775933"
       }
     },
     "4091": {
@@ -178611,7 +178617,7 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:35:02.541078+00:00"
+        "planned_at": "2026-11-19T06:35:05.335003+00:00"
       }
     },
     "3367": {
@@ -224985,5 +224991,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:35:02.844668+00:00"
+  "updated_at": "2026-11-19T06:35:06.496486+00:00"
 }
