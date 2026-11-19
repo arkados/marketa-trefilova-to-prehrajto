@@ -180771,17 +180771,19 @@
       }
     },
     "3276": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34520447",
+          "target_video_id": "31189771",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:58:27.006805+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34520447",
         "display_name": "Violent Night 4K CZ Dabing",
         "planned_at": "2026-11-19T19:50:28.498666+00:00"
-      },
-      "claim": {
-        "worker_id": "8e777cff4f904c41ab8eb2582283ffb9-shard-0",
-        "claimed_at": "2026-11-19T19:50:29.267542+00:00",
-        "lease_expires_at": "2026-11-20T01:50:29.267542+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31189771",
       "prepared": {
@@ -226891,5 +226893,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:58:24.360664+00:00"
+  "updated_at": "2026-11-19T19:58:27.006828+00:00"
 }
