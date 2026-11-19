@@ -54022,13 +54022,6 @@
           "source_id": "33925810",
           "target_video_id": "30780604",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:09:11.676615+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33925810",
-          "target_video_id": "30780604",
-          "permanent": false,
           "attempted_at": "2026-11-19T08:59:50.951633+00:00"
         },
         {
@@ -54037,6 +54030,13 @@
           "target_video_id": "30780604",
           "permanent": false,
           "attempted_at": "2026-11-19T10:35:25.685293+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33925810",
+          "target_video_id": "30780604",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:09:46.813247+00:00"
         }
       ],
       "last_plan": {
@@ -134340,7 +134340,7 @@
       "last_plan": {
         "source_id": "34694077",
         "display_name": "V tomhle zámku strasí, séfe! (V tomhle zámku straší, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:35:24.996646+00:00"
+        "planned_at": "2026-11-19T12:09:45.041854+00:00"
       },
       "previous_target_id": "30987405",
       "prepared": {
@@ -134348,6 +134348,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T04:33:04.944396+00:00",
         "relay_source_id": "34694077"
+      },
+      "claim": {
+        "worker_id": "bdb1becad978475d9c330a4d27e55e93-shard-0",
+        "claimed_at": "2026-11-19T12:09:46.138578+00:00",
+        "lease_expires_at": "2026-11-19T18:09:46.138578+00:00",
+        "run_id": "44451991647"
       }
     },
     "32945": {
@@ -179271,7 +179277,7 @@
       "last_plan": {
         "source_id": "29238534",
         "display_name": "A Most Wanted Man 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:09:41.617990+00:00"
+        "planned_at": "2026-11-19T12:09:45.407118+00:00"
       }
     },
     "14301": {
@@ -225561,5 +225567,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:09:41.918778+00:00"
+  "updated_at": "2026-11-19T12:09:46.813265+00:00"
 }
