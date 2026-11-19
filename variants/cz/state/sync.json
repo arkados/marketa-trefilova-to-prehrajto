@@ -126154,13 +126154,6 @@
           "source_id": "34905544",
           "target_video_id": "30985955",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:45:01.883240+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34905544",
-          "target_video_id": "30985955",
-          "permanent": false,
           "attempted_at": "2026-11-19T02:18:49.680044+00:00"
         },
         {
@@ -126169,12 +126162,19 @@
           "target_video_id": "30985955",
           "permanent": false,
           "attempted_at": "2026-11-19T04:12:22.023701+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34905544",
+          "target_video_id": "30985955",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:31:11.814859+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34905544",
         "display_name": "Next Door (Nebenan) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:12:17.567280+00:00"
+        "planned_at": "2026-11-19T05:31:09.765070+00:00"
       },
       "previous_target_id": "30985955",
       "prepared": {
@@ -178405,11 +178405,22 @@
       "last_plan": {
         "source_id": "34651540",
         "display_name": "Goal! 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:31:02.947128+00:00"
+        "planned_at": "2026-11-19T05:31:09.981545+00:00"
+      },
+      "claim": {
+        "worker_id": "ba35345af56c4e509d7de0eb16a4952a-shard-0",
+        "claimed_at": "2026-11-19T05:31:10.621303+00:00",
+        "lease_expires_at": "2026-11-19T11:31:10.621303+00:00",
+        "run_id": "44447775933"
       }
     },
     "13665": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33675429",
+        "display_name": "Penelope (2006) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T05:31:10.130508+00:00"
+      }
     },
     "8476": {
       "attempts": []
@@ -224809,5 +224820,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:31:07.596099+00:00"
+  "updated_at": "2026-11-19T05:31:11.814873+00:00"
 }
