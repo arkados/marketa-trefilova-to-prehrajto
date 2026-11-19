@@ -118940,13 +118940,6 @@
           "source_id": "14091913",
           "target_video_id": "30984870",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:11:23.806240+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14091913",
-          "target_video_id": "30984870",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:05:34.836060+00:00"
         },
         {
@@ -118955,6 +118948,13 @@
           "target_video_id": "30984870",
           "permanent": false,
           "attempted_at": "2026-11-19T14:40:28.159836+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14091913",
+          "target_video_id": "30984870",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:11:12.085524+00:00"
         }
       ],
       "last_plan": {
@@ -120511,7 +120511,7 @@
       "last_plan": {
         "source_id": "25263125",
         "display_name": "Bleed for This 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:40:34.919396+00:00"
+        "planned_at": "2026-11-19T16:11:10.506061+00:00"
       },
       "previous_target_id": "30985003",
       "prepared": {
@@ -120519,6 +120519,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T18:31:12.199895+00:00",
         "relay_source_id": "25263125"
+      },
+      "claim": {
+        "worker_id": "06c31aeeee034b6abacb95951bee9d63-shard-0",
+        "claimed_at": "2026-11-19T16:11:11.685575+00:00",
+        "lease_expires_at": "2026-11-19T22:11:11.685575+00:00",
+        "run_id": "44524452534"
       }
     },
     "23119": {
@@ -179737,7 +179743,7 @@
       "last_plan": {
         "source_id": "28296310",
         "display_name": "This Is Where I Leave You 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:11:07.375286+00:00"
+        "planned_at": "2026-11-19T16:11:10.888299+00:00"
       }
     },
     "22881": {
@@ -225967,5 +225973,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:11:07.662360+00:00"
+  "updated_at": "2026-11-19T16:11:12.085544+00:00"
 }
