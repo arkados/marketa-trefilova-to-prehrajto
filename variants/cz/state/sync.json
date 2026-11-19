@@ -43030,13 +43030,6 @@
           "source_id": "34357032",
           "target_video_id": "30755710",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:39:57.993574+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34357032",
-          "target_video_id": "30755710",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:15:40.014642+00:00"
         },
         {
@@ -43045,6 +43038,13 @@
           "target_video_id": "30755710",
           "permanent": false,
           "attempted_at": "2026-11-19T14:07:12.542407+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34357032",
+          "target_video_id": "30755710",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:39:04.657418+00:00"
         }
       ],
       "last_plan": {
@@ -141206,7 +141206,7 @@
       "last_plan": {
         "source_id": "34710797",
         "display_name": "Pohádka o splněných přáních 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:07:14.686781+00:00"
+        "planned_at": "2026-11-19T15:38:59.446584+00:00"
       },
       "previous_target_id": "30988191",
       "prepared": {
@@ -141214,6 +141214,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:48:42.910555+00:00",
         "relay_source_id": "34710797"
+      },
+      "claim": {
+        "worker_id": "42ced27a8a4d42f3ab037584b92c8642-shard-0",
+        "claimed_at": "2026-11-19T15:39:03.100536+00:00",
+        "lease_expires_at": "2026-11-19T21:39:03.100536+00:00",
+        "run_id": "44524452534"
       }
     },
     "15778": {
@@ -179638,11 +179644,16 @@
       "last_plan": {
         "source_id": "31037233",
         "display_name": "Fresh (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:38:54.343249+00:00"
+        "planned_at": "2026-11-19T15:39:00.284865+00:00"
       }
     },
     "3551": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31769735",
+        "display_name": "Stay 1080p CZ Dabing",
+        "planned_at": "2026-11-19T15:39:00.811733+00:00"
+      }
     },
     "12546": {
       "attempts": []
@@ -225877,5 +225888,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:38:55.104204+00:00"
+  "updated_at": "2026-11-19T15:39:04.657439+00:00"
 }
