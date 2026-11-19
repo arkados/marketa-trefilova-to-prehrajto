@@ -37635,6 +37635,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-02T22:56:31.304569+00:00",
         "relay_source_id": "35376993"
+      },
+      "claim": {
+        "worker_id": "149c13f8b0244157b74cffda7be5d8fb-shard-0",
+        "claimed_at": "2026-11-19T09:04:49.557575+00:00",
+        "lease_expires_at": "2026-11-19T15:04:49.557575+00:00",
+        "run_id": "44451991647"
       }
     },
     "21768": {
@@ -108091,13 +108097,6 @@
           "source_id": "30853807",
           "target_video_id": "30983476",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:30:02.792908+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30853807",
-          "target_video_id": "30983476",
-          "permanent": false,
           "attempted_at": "2026-11-19T04:49:16.712443+00:00"
         },
         {
@@ -108106,6 +108105,13 @@
           "target_video_id": "30983476",
           "permanent": false,
           "attempted_at": "2026-11-19T06:14:45.758871+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30853807",
+          "target_video_id": "30983476",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:04:49.822612+00:00"
         }
       ],
       "last_plan": {
@@ -108119,12 +108125,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T14:07:30.171414+00:00",
         "relay_source_id": "30853807"
-      },
-      "claim": {
-        "worker_id": "265dd8f120974f4a915062a08750a83f-shard-0",
-        "claimed_at": "2026-11-19T09:04:45.361619+00:00",
-        "lease_expires_at": "2026-11-19T15:04:45.361619+00:00",
-        "run_id": "44451991647"
       }
     },
     "21377": {
@@ -126513,7 +126513,7 @@
       "last_plan": {
         "source_id": "12859228",
         "display_name": "Man in the Wilderness 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:14:52.749853+00:00"
+        "planned_at": "2026-11-19T09:04:50.076575+00:00"
       },
       "previous_target_id": "30986203",
       "prepared": {
@@ -178750,7 +178750,7 @@
       "last_plan": {
         "source_id": "34454373",
         "display_name": "May December 720p CZ Dabing",
-        "planned_at": "2026-11-19T09:04:46.057595+00:00"
+        "planned_at": "2026-11-19T09:04:50.471320+00:00"
       }
     },
     "22777": {
@@ -225112,5 +225112,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:04:46.922694+00:00"
+  "updated_at": "2026-11-19T09:04:50.471335+00:00"
 }
