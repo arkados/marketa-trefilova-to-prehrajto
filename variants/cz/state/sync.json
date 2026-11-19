@@ -119417,7 +119417,7 @@
       "last_plan": {
         "source_id": "31031880",
         "display_name": "Nonnas 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:59:56.525346+00:00"
+        "planned_at": "2026-11-19T19:23:49.422996+00:00"
       },
       "previous_target_id": "30984912",
       "prepared": {
@@ -119425,6 +119425,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T18:09:47.163933+00:00",
         "relay_source_id": "31031880"
+      },
+      "claim": {
+        "worker_id": "7a98c7e9fdda44d0850b805ee8aa7d62-shard-0",
+        "claimed_at": "2026-11-19T19:23:50.311415+00:00",
+        "lease_expires_at": "2026-11-20T01:23:50.311415+00:00",
+        "run_id": "44531372417"
       }
     },
     "11811": {
@@ -126036,13 +126042,6 @@
           "source_id": "34711330",
           "target_video_id": "30985919",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:00:53.829529+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34711330",
-          "target_video_id": "30985919",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:30:45.889403+00:00"
         },
         {
@@ -126051,6 +126050,13 @@
           "target_video_id": "30985919",
           "permanent": false,
           "attempted_at": "2026-11-19T17:59:58.100471+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34711330",
+          "target_video_id": "30985919",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:23:50.635696+00:00"
         }
       ],
       "last_plan": {
@@ -180587,11 +180593,22 @@
       "last_plan": {
         "source_id": "31626861",
         "display_name": "Doubles (Dvojníci) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:23:46.227791+00:00"
+        "planned_at": "2026-11-19T19:23:49.658673+00:00"
+      },
+      "claim": {
+        "worker_id": "2ce8b67c6c5c4f6e8a05bb0a3282bf33-shard-0",
+        "claimed_at": "2026-11-19T19:23:50.459945+00:00",
+        "lease_expires_at": "2026-11-20T01:23:50.459945+00:00",
+        "run_id": "44531372417"
       }
     },
     "21722": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31739567",
+        "display_name": "Intramuros (The Walls of Hell) SD CZ Dabing",
+        "planned_at": "2026-11-19T19:23:49.803191+00:00"
+      }
     },
     "17448": {
       "attempts": []
@@ -226703,5 +226720,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:23:46.445511+00:00"
+  "updated_at": "2026-11-19T19:23:50.635717+00:00"
 }
