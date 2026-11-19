@@ -5577,7 +5577,7 @@
       "last_plan": {
         "source_id": "18937386",
         "display_name": "The Sound of Music 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:40:00.419305+00:00"
+        "planned_at": "2026-11-19T06:40:03.056445+00:00"
       }
     },
     "13329": {
@@ -118825,7 +118825,7 @@
       "last_plan": {
         "source_id": "33873663",
         "display_name": "The Witches 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:12:57.153322+00:00"
+        "planned_at": "2026-11-19T06:40:02.854945+00:00"
       },
       "previous_target_id": "30984867",
       "prepared": {
@@ -118833,6 +118833,12 @@
         "size_bytes": 7100000000,
         "prepared_at": "2026-11-10T17:58:25.417113+00:00",
         "relay_source_id": "33873663"
+      },
+      "claim": {
+        "worker_id": "d9e9b042d3bf41a5829abad83d0c582b-shard-0",
+        "claimed_at": "2026-11-19T06:40:03.395593+00:00",
+        "lease_expires_at": "2026-11-19T12:40:03.395593+00:00",
+        "run_id": "44447775933"
       }
     },
     "3098": {
@@ -120279,13 +120285,6 @@
           "source_id": "14652595",
           "target_video_id": "30984996",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:59:59.511014+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14652595",
-          "target_video_id": "30984996",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:53:20.132481+00:00"
         },
         {
@@ -120294,6 +120293,13 @@
           "target_video_id": "30984996",
           "permanent": false,
           "attempted_at": "2026-11-19T05:12:56.979009+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14652595",
+          "target_video_id": "30984996",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:40:04.771306+00:00"
         }
       ],
       "last_plan": {
@@ -120307,12 +120313,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T18:28:45.684654+00:00",
         "relay_source_id": "14652595"
-      },
-      "claim": {
-        "worker_id": "b14d2cebcbbe45a297c910ad49446a99-shard-0",
-        "claimed_at": "2026-11-19T06:40:00.941175+00:00",
-        "lease_expires_at": "2026-11-19T12:40:00.941175+00:00",
-        "run_id": "44447775933"
       }
     },
     "23324": {
@@ -224996,5 +224996,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:40:00.941195+00:00"
+  "updated_at": "2026-11-19T06:40:04.771347+00:00"
 }
