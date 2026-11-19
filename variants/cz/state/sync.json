@@ -205,13 +205,6 @@
           "source_id": "32109285",
           "target_video_id": "30570341",
           "permanent": false,
-          "attempted_at": "2026-11-19T04:21:33.546068+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32109285",
-          "target_video_id": "30570341",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:42:23.619370+00:00"
         },
         {
@@ -220,6 +213,13 @@
           "target_video_id": "30570341",
           "permanent": false,
           "attempted_at": "2026-11-19T08:32:20.507055+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32109285",
+          "target_video_id": "30570341",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:07:00.846854+00:00"
         }
       ],
       "last_plan": {
@@ -14142,7 +14142,7 @@
       "last_plan": {
         "source_id": "18888145",
         "display_name": "The Outlaw Josey Wales 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:32:19.195940+00:00"
+        "planned_at": "2026-11-19T10:06:58.401915+00:00"
       },
       "previous_target_id": "30654220",
       "prepared": {
@@ -14150,6 +14150,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-10-31T03:58:16.842735+00:00",
         "relay_source_id": "18888145"
+      },
+      "claim": {
+        "worker_id": "e802c702272d4fcd8ec9a2950f737c19-shard-0",
+        "claimed_at": "2026-11-19T10:06:59.470188+00:00",
+        "lease_expires_at": "2026-11-19T16:06:59.470188+00:00",
+        "run_id": "44451991647"
       }
     },
     "22047": {
@@ -178930,6 +178936,12 @@
         "source_id": "33953308",
         "display_name": "Sliding Doors 1080p CZ Dabing",
         "planned_at": "2026-11-19T10:06:53.673067+00:00"
+      },
+      "claim": {
+        "worker_id": "b8e5ad4ae81640df87f0d7d8a7186359-shard-0",
+        "claimed_at": "2026-11-19T10:06:56.696078+00:00",
+        "lease_expires_at": "2026-11-19T16:06:56.696078+00:00",
+        "run_id": "44451991647"
       }
     },
     "28168": {
@@ -178940,7 +178952,7 @@
       "last_plan": {
         "source_id": "28476011",
         "display_name": "The Pledge SD CZ Dabing",
-        "planned_at": "2026-11-19T10:06:54.158404+00:00"
+        "planned_at": "2026-11-19T10:06:58.754532+00:00"
       }
     },
     "3171": {
@@ -225275,5 +225287,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:06:54.158419+00:00"
+  "updated_at": "2026-11-19T10:07:00.846873+00:00"
 }
