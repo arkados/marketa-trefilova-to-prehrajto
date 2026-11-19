@@ -132262,13 +132262,6 @@
           "source_id": "35080468",
           "target_video_id": "30987106",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:45:35.877461+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35080468",
-          "target_video_id": "30987106",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:15:57.612032+00:00"
         },
         {
@@ -132277,6 +132270,13 @@
           "target_video_id": "30987106",
           "permanent": false,
           "attempted_at": "2026-11-19T17:44:44.831587+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35080468",
+          "target_video_id": "30987106",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:08:26.440170+00:00"
         }
       ],
       "last_plan": {
@@ -180059,7 +180059,7 @@
       "last_plan": {
         "source_id": "30700240",
         "display_name": "Suspiria (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:23:45.636431+00:00"
+        "planned_at": "2026-11-19T19:08:25.106603+00:00"
       },
       "previous_target_id": "31187990",
       "prepared": {
@@ -180067,6 +180067,12 @@
         "size_bytes": 11090975431,
         "prepared_at": "2026-11-19T17:23:53.393451+00:00",
         "relay_source_id": "30700240"
+      },
+      "claim": {
+        "worker_id": "a7c26f6e422044ebbcfa702444701462-shard-0",
+        "claimed_at": "2026-11-19T19:08:25.854576+00:00",
+        "lease_expires_at": "2026-11-20T01:08:25.854576+00:00",
+        "run_id": "44531372417"
       }
     },
     "3372": {
@@ -180497,7 +180503,7 @@
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:08:22.336243+00:00"
+        "planned_at": "2026-11-19T19:08:25.344173+00:00"
       }
     },
     "29312": {
@@ -226622,5 +226628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:08:22.620863+00:00"
+  "updated_at": "2026-11-19T19:08:26.440193+00:00"
 }
