@@ -109495,13 +109495,6 @@
           "source_id": "35072913",
           "target_video_id": "30983665",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:07:32.664175+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35072913",
-          "target_video_id": "30983665",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:31:11.975304+00:00"
         },
         {
@@ -109510,6 +109503,13 @@
           "target_video_id": "30983665",
           "permanent": false,
           "attempted_at": "2026-11-19T21:30:29.255655+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35072913",
+          "target_video_id": "30983665",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:12:14.604907+00:00"
         }
       ],
       "last_plan": {
@@ -156377,7 +156377,7 @@
       "last_plan": {
         "source_id": "30107992",
         "display_name": "Dreamers (Zoufalci) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:30:32.909893+00:00"
+        "planned_at": "2026-11-19T23:12:12.905158+00:00"
       },
       "previous_target_id": "31058652",
       "prepared": {
@@ -156385,6 +156385,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-15T11:04:30.659432+00:00",
         "relay_source_id": "30107992"
+      },
+      "claim": {
+        "worker_id": "17211d100f1f493fa8e99ee691c6ffec-shard-0",
+        "claimed_at": "2026-11-19T23:12:13.786070+00:00",
+        "lease_expires_at": "2026-11-20T05:12:13.786070+00:00",
+        "run_id": "44616581853"
       }
     },
     "14502": {
@@ -181769,7 +181775,7 @@
       "last_plan": {
         "source_id": "30285030",
         "display_name": "Analyze This 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:12:09.887376+00:00"
+        "planned_at": "2026-11-19T23:12:13.232467+00:00"
       }
     },
     "3180": {
@@ -227753,5 +227759,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:12:09.887394+00:00"
+  "updated_at": "2026-11-19T23:12:14.604925+00:00"
 }
