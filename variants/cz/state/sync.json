@@ -118319,13 +118319,6 @@
           "source_id": "34651133",
           "target_video_id": "30984850",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:11:13.691292+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34651133",
-          "target_video_id": "30984850",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:43:09.187400+00:00"
         },
         {
@@ -118334,12 +118327,19 @@
           "target_video_id": "30984850",
           "permanent": false,
           "attempted_at": "2026-11-19T03:38:34.315379+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34651133",
+          "target_video_id": "30984850",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:00:17.456047+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34651133",
         "display_name": "Sinbad: Legend of the Seven Seas 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:38:32.322645+00:00"
+        "planned_at": "2026-11-19T05:00:15.474884+00:00"
       },
       "previous_target_id": "30984850",
       "prepared": {
@@ -178282,11 +178282,22 @@
       "last_plan": {
         "source_id": "34651341",
         "display_name": "Emily the Criminal 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:00:06.654587+00:00"
+        "planned_at": "2026-11-19T05:00:15.697951+00:00"
+      },
+      "claim": {
+        "worker_id": "14ba5e728ecb42cda81e70195adf2010-shard-0",
+        "claimed_at": "2026-11-19T05:00:16.314355+00:00",
+        "lease_expires_at": "2026-11-19T11:00:16.314355+00:00",
+        "run_id": "44447775933"
       }
     },
     "13678": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27526380",
+        "display_name": "The Brave One 1080p CZ Dabing",
+        "planned_at": "2026-11-19T05:00:15.833178+00:00"
+      }
     },
     "3262": {
       "attempts": []
@@ -224704,5 +224715,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:00:11.592760+00:00"
+  "updated_at": "2026-11-19T05:00:17.456058+00:00"
 }
