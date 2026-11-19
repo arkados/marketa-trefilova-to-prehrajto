@@ -181141,17 +181141,19 @@
       }
     },
     "14874": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34603967",
+          "target_video_id": "31190859",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:33:57.250394+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34603967",
         "display_name": "Schächten: A Retribution (Schächten) 720p CZ Dabing",
         "planned_at": "2026-11-19T21:29:36.249135+00:00"
-      },
-      "claim": {
-        "worker_id": "c3f8dff0b75b412a99624fd1360495d1-shard-0",
-        "claimed_at": "2026-11-19T21:29:39.626255+00:00",
-        "lease_expires_at": "2026-11-20T03:29:39.626255+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31190859",
       "prepared": {
@@ -227242,5 +227244,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:33:54.607632+00:00"
+  "updated_at": "2026-11-19T21:33:57.250415+00:00"
 }
