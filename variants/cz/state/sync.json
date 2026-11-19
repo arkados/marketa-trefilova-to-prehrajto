@@ -5573,17 +5573,19 @@
       }
     },
     "21774": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18937386",
+          "target_video_id": "31173095",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:52:15.173015+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18937386",
         "display_name": "The Sound of Music 1080p CZ Dabing",
         "planned_at": "2026-11-19T06:42:36.547067+00:00"
-      },
-      "claim": {
-        "worker_id": "da3af7186be64eeb8644de9fb1e41834-shard-0",
-        "claimed_at": "2026-11-19T06:42:37.165546+00:00",
-        "lease_expires_at": "2026-11-19T12:42:37.165546+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31173095",
       "prepared": {
@@ -138224,7 +138226,7 @@
       "last_plan": {
         "source_id": "32899046",
         "display_name": "The Right to Sin SD CZ Dabing",
-        "planned_at": "2026-11-19T05:25:40.321110+00:00"
+        "planned_at": "2026-11-19T06:52:13.360897+00:00"
       },
       "previous_target_id": "30987847",
       "prepared": {
@@ -138232,6 +138234,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T06:24:20.802315+00:00",
         "relay_source_id": "32899046"
+      },
+      "claim": {
+        "worker_id": "1697ca1f52334939a647445d9a5e6551-shard-0",
+        "claimed_at": "2026-11-19T06:52:13.937614+00:00",
+        "lease_expires_at": "2026-11-19T12:52:13.937614+00:00",
+        "run_id": "44447775933"
       }
     },
     "33475": {
@@ -178642,7 +178650,7 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:52:08.599780+00:00"
+        "planned_at": "2026-11-19T06:52:13.586185+00:00"
       }
     },
     "3367": {
@@ -225016,5 +225024,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:52:11.042278+00:00"
+  "updated_at": "2026-11-19T06:52:15.173028+00:00"
 }
