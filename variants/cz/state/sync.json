@@ -205,13 +205,6 @@
           "source_id": "32109285",
           "target_video_id": "30570341",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:16:42.493293+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32109285",
-          "target_video_id": "30570341",
-          "permanent": false,
           "attempted_at": "2026-11-18T21:48:00.432356+00:00"
         },
         {
@@ -220,6 +213,13 @@
           "target_video_id": "30570341",
           "permanent": false,
           "attempted_at": "2026-11-18T23:30:59.590392+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32109285",
+          "target_video_id": "30570341",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:00:10.917651+00:00"
         }
       ],
       "last_plan": {
@@ -233,12 +233,6 @@
         "size_bytes": 9500000000,
         "prepared_at": "2026-10-27T18:58:10.341227+00:00",
         "relay_source_id": "32109285"
-      },
-      "claim": {
-        "worker_id": "be6ec8dfc9f84c45b95ee00385160686-shard-0",
-        "claimed_at": "2026-11-19T01:00:06.443027+00:00",
-        "lease_expires_at": "2026-11-19T07:00:06.443027+00:00",
-        "run_id": "44406951430"
       }
     },
     "10755": {
@@ -14122,7 +14116,7 @@
       "last_plan": {
         "source_id": "18888145",
         "display_name": "The Outlaw Josey Wales 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:31:03.512469+00:00"
+        "planned_at": "2026-11-19T01:00:09.577158+00:00"
       },
       "previous_target_id": "30654220",
       "prepared": {
@@ -14130,6 +14124,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-10-31T03:58:16.842735+00:00",
         "relay_source_id": "18888145"
+      },
+      "claim": {
+        "worker_id": "2814ef51db7d4c4a9f796412dc637450-shard-0",
+        "claimed_at": "2026-11-19T01:00:10.658197+00:00",
+        "lease_expires_at": "2026-11-19T07:00:10.658197+00:00",
+        "run_id": "44406951430"
       }
     },
     "22047": {
@@ -177598,7 +177598,7 @@
       "last_plan": {
         "source_id": "27036988",
         "display_name": "The Way Back (2020) SD CZ Dabing",
-        "planned_at": "2026-11-19T01:00:05.864909+00:00"
+        "planned_at": "2026-11-19T01:00:09.961610+00:00"
       }
     },
     "15532": {
@@ -224125,5 +224125,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:00:07.311936+00:00"
+  "updated_at": "2026-11-19T01:00:10.917670+00:00"
 }
