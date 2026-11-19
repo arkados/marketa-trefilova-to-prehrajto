@@ -109891,13 +109891,6 @@
           "source_id": "25985391",
           "target_video_id": "30983681",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:55:09.067034+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25985391",
-          "target_video_id": "30983681",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:38:55.999253+00:00"
         },
         {
@@ -109906,6 +109899,13 @@
           "target_video_id": "30983681",
           "permanent": false,
           "attempted_at": "2026-11-19T01:08:37.187447+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25985391",
+          "target_video_id": "30983681",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:11:26.314360+00:00"
         }
       ],
       "last_plan": {
@@ -163867,7 +163867,7 @@
       "last_plan": {
         "source_id": "30294681",
         "display_name": "The Nest (2002) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:08:35.102479+00:00"
+        "planned_at": "2026-11-19T03:11:24.740117+00:00"
       },
       "previous_target_id": "31095446",
       "prepared": {
@@ -163875,6 +163875,12 @@
         "size_bytes": 12800000000,
         "prepared_at": "2026-11-16T17:34:53.721834+00:00",
         "relay_source_id": "30294681"
+      },
+      "claim": {
+        "worker_id": "9f66ec6442af460f9d2e07f4dc7817f9-shard-0",
+        "claimed_at": "2026-11-19T03:11:25.319938+00:00",
+        "lease_expires_at": "2026-11-19T09:11:25.319938+00:00",
+        "run_id": "44447775933"
       }
     },
     "3308": {
@@ -177914,7 +177920,7 @@
       "last_plan": {
         "source_id": "14775256",
         "display_name": "Hillbilly Elegy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:11:22.210270+00:00"
+        "planned_at": "2026-11-19T03:11:24.965783+00:00"
       }
     },
     "25133": {
@@ -224390,5 +224396,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:11:22.551740+00:00"
+  "updated_at": "2026-11-19T03:11:26.314372+00:00"
 }
