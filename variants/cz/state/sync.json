@@ -135362,13 +135362,6 @@
           "source_id": "34683641",
           "target_video_id": "30987565",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:07:13.081080+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34683641",
-          "target_video_id": "30987565",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:50:37.178238+00:00"
         },
         {
@@ -135377,12 +135370,19 @@
           "target_video_id": "30987565",
           "permanent": false,
           "attempted_at": "2026-11-19T01:20:25.476647+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34683641",
+          "target_video_id": "30987565",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:20:52.808205+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34683641",
         "display_name": "To byla svatba, strýcku (To byla svatba, strýčku) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:20:19.874287+00:00"
+        "planned_at": "2026-11-19T03:20:50.830360+00:00"
       },
       "previous_target_id": "30987565",
       "prepared": {
@@ -177914,14 +177914,25 @@
       "last_plan": {
         "source_id": "14775256",
         "display_name": "Hillbilly Elegy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:20:46.599306+00:00"
+        "planned_at": "2026-11-19T03:20:51.067824+00:00"
+      },
+      "claim": {
+        "worker_id": "dcad2df510ca4e979a4c3c7fd8b70f5f-shard-0",
+        "claimed_at": "2026-11-19T03:20:51.699019+00:00",
+        "lease_expires_at": "2026-11-19T09:20:51.699019+00:00",
+        "run_id": "44447775933"
       }
     },
     "25133": {
       "attempts": []
     },
     "14686": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "24188035",
+        "display_name": "The Legionnaire (Il legionario) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T03:20:51.207423+00:00"
+      }
     },
     "3162": {
       "attempts": []
@@ -224390,5 +224401,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:20:48.546579+00:00"
+  "updated_at": "2026-11-19T03:20:52.808220+00:00"
 }
