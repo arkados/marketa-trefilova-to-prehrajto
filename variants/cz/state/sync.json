@@ -113677,13 +113677,6 @@
           "source_id": "11995636",
           "target_video_id": "30984056",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:44:06.160361+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11995636",
-          "target_video_id": "30984056",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:14:31.729092+00:00"
         },
         {
@@ -113692,6 +113685,13 @@
           "target_video_id": "30984056",
           "permanent": false,
           "attempted_at": "2026-11-19T17:43:11.410196+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11995636",
+          "target_video_id": "30984056",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:07:09.036538+00:00"
         }
       ],
       "last_plan": {
@@ -132242,7 +132242,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-19T17:43:09.693372+00:00"
+        "planned_at": "2026-11-19T19:07:07.360008+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132250,6 +132250,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "65c2babfddd94fc4a91199e30d2b9f33-shard-0",
+        "claimed_at": "2026-11-19T19:07:08.101816+00:00",
+        "lease_expires_at": "2026-11-20T01:07:08.101816+00:00",
+        "run_id": "44531372417"
       }
     },
     "27054": {
@@ -180497,7 +180503,7 @@
       "last_plan": {
         "source_id": "33690503",
         "display_name": "For Your Eyes Only 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:07:04.488572+00:00"
+        "planned_at": "2026-11-19T19:07:07.622759+00:00"
       }
     },
     "29312": {
@@ -226622,5 +226628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:07:04.687605+00:00"
+  "updated_at": "2026-11-19T19:07:09.036561+00:00"
 }
