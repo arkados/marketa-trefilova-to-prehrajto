@@ -115048,6 +115048,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T16:03:06.555910+00:00",
         "relay_source_id": "34379944"
+      },
+      "claim": {
+        "worker_id": "2c605af73f4c42c994254be615e1c1d7-shard-0",
+        "claimed_at": "2026-11-19T21:34:17.723263+00:00",
+        "lease_expires_at": "2026-11-20T03:34:17.723263+00:00",
+        "run_id": "44616581853"
       }
     },
     "3137": {
@@ -148299,7 +148305,7 @@
       "last_plan": {
         "source_id": "34791759",
         "display_name": "Cirkus bude! (The Circus Will Be) SD CZ Dabing",
-        "planned_at": "2026-11-19T19:33:46.094823+00:00"
+        "planned_at": "2026-11-19T21:34:18.152617+00:00"
       },
       "previous_target_id": "31016095",
       "prepared": {
@@ -148307,6 +148313,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-13T16:56:47.941432+00:00",
         "relay_source_id": "34791759"
+      },
+      "claim": {
+        "worker_id": "9eefd64de1864567bd6a1fc1a3a1f904-shard-0",
+        "claimed_at": "2026-11-19T21:34:19.143344+00:00",
+        "lease_expires_at": "2026-11-20T03:34:19.143344+00:00",
+        "run_id": "44616581853"
       }
     },
     "20915": {
@@ -181187,11 +181199,23 @@
       }
     },
     "12420": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33218893",
+          "reason": "Request failed for https://sdilej.cz/33218893/mesto-andelu-1998-romant.fantasy-nicolas-cage-meg-ryan-czdab-fhd.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:34:19.357317+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33218893",
         "display_name": "City of Angels 1080p CZ Dabing",
         "planned_at": "2026-11-19T21:34:14.849386+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33218893",
+        "requested_at": "2026-11-19T21:34:19.357296+00:00"
       }
     },
     "14439": {
@@ -181199,7 +181223,7 @@
       "last_plan": {
         "source_id": "35414634",
         "display_name": "Exam 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:34:15.061150+00:00"
+        "planned_at": "2026-11-19T21:34:18.477740+00:00"
       }
     },
     "3489": {
@@ -227249,5 +227273,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:34:15.061168+00:00"
+  "updated_at": "2026-11-19T21:34:19.357325+00:00"
 }
