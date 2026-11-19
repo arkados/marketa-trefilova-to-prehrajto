@@ -108481,13 +108481,6 @@
           "source_id": "33299236",
           "target_video_id": "30983538",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:51:15.864956+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33299236",
-          "target_video_id": "30983538",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:47:01.296292+00:00"
         },
         {
@@ -108496,6 +108489,13 @@
           "target_video_id": "30983538",
           "permanent": false,
           "attempted_at": "2026-11-19T05:08:16.451377+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33299236",
+          "target_video_id": "30983538",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:35:28.494308+00:00"
         }
       ],
       "last_plan": {
@@ -108541,7 +108541,7 @@
       "last_plan": {
         "source_id": "34908320",
         "display_name": "Pražská 5 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:08:14.847692+00:00"
+        "planned_at": "2026-11-19T06:35:26.881735+00:00"
       },
       "previous_target_id": "30983539",
       "prepared": {
@@ -108549,6 +108549,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T14:16:25.808778+00:00",
         "relay_source_id": "34908320"
+      },
+      "claim": {
+        "worker_id": "8f12278966ae480b9d634027479851be-shard-0",
+        "claimed_at": "2026-11-19T06:35:27.488121+00:00",
+        "lease_expires_at": "2026-11-19T12:35:27.488121+00:00",
+        "run_id": "44447775933"
       }
     },
     "24344": {
@@ -178611,7 +178617,7 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:35:23.494218+00:00"
+        "planned_at": "2026-11-19T06:35:27.099374+00:00"
       }
     },
     "3367": {
@@ -224985,5 +224991,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:35:23.494232+00:00"
+  "updated_at": "2026-11-19T06:35:28.494321+00:00"
 }
