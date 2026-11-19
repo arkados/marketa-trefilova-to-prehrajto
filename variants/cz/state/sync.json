@@ -113109,13 +113109,6 @@
           "source_id": "35068482",
           "target_video_id": "30983988",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:39:52.545452+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35068482",
-          "target_video_id": "30983988",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:10:40.332943+00:00"
         },
         {
@@ -113124,6 +113117,13 @@
           "target_video_id": "30983988",
           "permanent": false,
           "attempted_at": "2026-11-19T01:42:36.158663+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35068482",
+          "target_video_id": "30983988",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:38:04.112543+00:00"
         }
       ],
       "last_plan": {
@@ -143293,7 +143293,7 @@
       "last_plan": {
         "source_id": "34850592",
         "display_name": "Like Never Before (Jako nikdy) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:42:35.857388+00:00"
+        "planned_at": "2026-11-19T03:38:02.792309+00:00"
       },
       "previous_target_id": "30988612",
       "prepared": {
@@ -143301,6 +143301,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T08:56:41.131345+00:00",
         "relay_source_id": "34850592"
+      },
+      "claim": {
+        "worker_id": "c90914cd656449698c9f61562492658d-shard-0",
+        "claimed_at": "2026-11-19T03:38:03.369742+00:00",
+        "lease_expires_at": "2026-11-19T09:38:03.369742+00:00",
+        "run_id": "44447775933"
       }
     },
     "32891": {
@@ -177992,7 +177998,7 @@
       "last_plan": {
         "source_id": "35056002",
         "display_name": "The Legend of Bagger Vance 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:38:00.617830+00:00"
+        "planned_at": "2026-11-19T03:38:03.003744+00:00"
       }
     },
     "28013": {
@@ -224456,5 +224462,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:38:00.617846+00:00"
+  "updated_at": "2026-11-19T03:38:04.112555+00:00"
 }
