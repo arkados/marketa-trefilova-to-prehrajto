@@ -109917,13 +109917,6 @@
           "source_id": "25985391",
           "target_video_id": "30983681",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:15:43.456130+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25985391",
-          "target_video_id": "30983681",
-          "permanent": false,
           "attempted_at": "2026-11-19T11:50:25.843279+00:00"
         },
         {
@@ -109932,6 +109925,13 @@
           "target_video_id": "30983681",
           "permanent": false,
           "attempted_at": "2026-11-19T13:42:28.685955+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25985391",
+          "target_video_id": "30983681",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:18:12.669947+00:00"
         }
       ],
       "last_plan": {
@@ -163893,7 +163893,7 @@
       "last_plan": {
         "source_id": "30294681",
         "display_name": "The Nest (2002) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:42:27.109142+00:00"
+        "planned_at": "2026-11-19T15:18:10.453380+00:00"
       },
       "previous_target_id": "31095446",
       "prepared": {
@@ -163901,6 +163901,12 @@
         "size_bytes": 12800000000,
         "prepared_at": "2026-11-16T17:34:53.721834+00:00",
         "relay_source_id": "30294681"
+      },
+      "claim": {
+        "worker_id": "3a98fba22890464eb2d83ce42ca236c2-shard-0",
+        "claimed_at": "2026-11-19T15:18:11.543742+00:00",
+        "lease_expires_at": "2026-11-19T21:18:11.543742+00:00",
+        "run_id": "44524452534"
       }
     },
     "3308": {
@@ -179607,7 +179613,7 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:18:07.042398+00:00"
+        "planned_at": "2026-11-19T15:18:10.833155+00:00"
       }
     },
     "3312": {
@@ -225849,5 +225855,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:18:07.579366+00:00"
+  "updated_at": "2026-11-19T15:18:12.669968+00:00"
 }
