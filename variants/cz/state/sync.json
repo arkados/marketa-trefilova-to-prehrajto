@@ -178683,17 +178683,19 @@
       }
     },
     "3367": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13693092",
+          "target_video_id": "31176213",
+          "permanent": false,
+          "attempted_at": "2026-11-19T08:39:06.393368+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13693092",
         "display_name": "Emma (Emma.) (2020) 1080p CZ Dabing",
         "planned_at": "2026-11-19T08:19:04.935433+00:00"
-      },
-      "claim": {
-        "worker_id": "ca2e667d48794f0a8138eef6ec73fa25-shard-0",
-        "claimed_at": "2026-11-19T08:19:06.320873+00:00",
-        "lease_expires_at": "2026-11-19T14:19:06.320873+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31176213",
       "prepared": {
@@ -225094,5 +225096,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T08:39:04.179183+00:00"
+  "updated_at": "2026-11-19T08:39:06.393388+00:00"
 }
