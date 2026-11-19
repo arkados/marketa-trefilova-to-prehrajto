@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-19T12:59:28.870567+00:00
+Poslední aktualizace (UTC): 2026-11-19T12:59:35.995039+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 563, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 133, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 564, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 132, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -193,7 +193,6 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [The Swedish Connection (Den svenska länken) 1080p CZ Titulky](https://prehraj.to/the-swedish-connection-den-svenska-laenken-1080p-cz-titulky-mkv/e1e5d6aed8007610) (ID 31021651) | [Sdílej 33292727](https://sdilej.cz/33292727/den-svenska-lanken-2026-1080p-cz.tit.mkv) | target_unavailable | 2026-11-13T23:58:57.489099+00:00 |
 | [The Thing About Harry SD CZ Titulky](https://prehraj.to/the-thing-about-harry-sd-cz-titulky-mkv/d41d4049afba56ae) (ID 31019472) | [Sdílej 13528951](https://sdilej.cz/13528951/the-thing-about-harry-2020-cz.tit.mkv) | target_unavailable | 2026-11-13T21:55:53.842391+00:00 |
 | [The Thing from Another World SD CZ titulky](https://prehraj.to/the-thing-from-another-world-sd-cz-titulky-mkv/8b211c1b291dfc65) (ID 30984580) | [Sdílej 13368212](https://sdilej.cz/13368212/vec-the-thing-from-another-world-1951--cz-tit.-.mkv) | target_unavailable | 2026-11-18T13:01:08.699822+00:00 |
-| [The Wolf's Call (Le Chant du loup) 1080p CZ Titulky](https://prehraj.to/the-wolf-s-call-le-chant-du-loup-1080p-cz-titulky-mkv/4a83a17b66ed5b42) (ID 31012805) | [Sdílej 11904731](https://sdilej.cz/11904731/le.chant.du.loup.2019.sk.sub.1080p.web.h264.mkv) | target_unavailable | 2026-11-13T13:22:35.025391+00:00 |
 | [Tron: Legacy 1080p CZ Titulky](https://prehraj.to/tron-legacy-1080p-cz-titulky-mkv/85950bf12e3130f6) (ID 31078464) | [Sdílej 21025893](https://sdilej.cz/21025893/tron-legacy-2010-hevc-1080p-cz-dabing.mkv) | target_unavailable | 2026-11-16T01:05:31.229891+00:00 |
 | [Truth & Treason 4K CZ titulky](https://prehraj.to/truth-treason-4k-cz-titulky-mkv/fa8a5eacff079076) (ID 30986247) | [Sdílej 34285530](https://sdilej.cz/34285530/truth-and-treason-2025-2160p.4k-cz.tit.mkv) | target_unavailable | 2026-11-18T13:01:41.988493+00:00 |
 | [Two Brothers 1080p CZ titulky](https://prehraj.to/two-brothers-1080p-cz-titulky-mkv/6140579d9ab70609) (ID 30987615) | [Sdílej 10716193](https://sdilej.cz/10716193/sorry-to-bother-you-cz-titulky-fullhd-1080p.mkv) | target_unavailable | 2026-11-18T13:01:58.653878+00:00 |
