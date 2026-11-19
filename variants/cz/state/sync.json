@@ -142160,13 +142160,6 @@
           "source_id": "34327399",
           "target_video_id": "30988418",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:38:49.213791+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34327399",
-          "target_video_id": "30988418",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:28:41.962719+00:00"
         },
         {
@@ -142175,12 +142168,19 @@
           "target_video_id": "30988418",
           "permanent": false,
           "attempted_at": "2026-11-19T15:04:28.778046+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34327399",
+          "target_video_id": "30988418",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:34:13.896456+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34327399",
         "display_name": "The Peacock Feather (Pávie pierko) SD CZ Dabing",
-        "planned_at": "2026-11-19T15:04:24.077311+00:00"
+        "planned_at": "2026-11-19T16:34:09.929534+00:00"
       },
       "previous_target_id": "30988418",
       "prepared": {
@@ -179786,11 +179786,22 @@
       "last_plan": {
         "source_id": "31222466",
         "display_name": "Black Bag 4K CZ Dabing",
-        "planned_at": "2026-11-19T16:34:04.280031+00:00"
+        "planned_at": "2026-11-19T16:34:10.303337+00:00"
+      },
+      "claim": {
+        "worker_id": "fb811368f27540e4ac37b8829cf350aa-shard-0",
+        "claimed_at": "2026-11-19T16:34:11.406888+00:00",
+        "lease_expires_at": "2026-11-19T22:34:11.406888+00:00",
+        "run_id": "44524452534"
       }
     },
     "3174": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32156628",
+        "display_name": "Lilo & Stitch (2025) 4K CZ Dabing",
+        "planned_at": "2026-11-19T16:34:10.535229+00:00"
+      }
     },
     "14852": {
       "attempts": []
@@ -226007,5 +226018,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:34:07.219929+00:00"
+  "updated_at": "2026-11-19T16:34:13.896478+00:00"
 }
