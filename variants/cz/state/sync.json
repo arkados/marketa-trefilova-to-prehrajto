@@ -125916,13 +125916,6 @@
           "source_id": "18316767",
           "target_video_id": "30985901",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:26:45.082043+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18316767",
-          "target_video_id": "30985901",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:16:58.551968+00:00"
         },
         {
@@ -125931,12 +125924,19 @@
           "target_video_id": "30985901",
           "permanent": false,
           "attempted_at": "2026-11-19T14:51:33.668718+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18316767",
+          "target_video_id": "30985901",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:21:56.087328+00:00"
         }
       ],
       "last_plan": {
         "source_id": "18316767",
         "display_name": "My Little Pony: A New Generation 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:51:28.951273+00:00"
+        "planned_at": "2026-11-19T16:21:52.849606+00:00"
       },
       "previous_target_id": "30985901",
       "prepared": {
@@ -179763,11 +179763,22 @@
       "last_plan": {
         "source_id": "15241925",
         "display_name": "Qu'un sang impur... 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:21:45.367971+00:00"
+        "planned_at": "2026-11-19T16:21:53.239165+00:00"
+      },
+      "claim": {
+        "worker_id": "ce6f37b3902e481da2e71ba80f16f799-shard-0",
+        "claimed_at": "2026-11-19T16:21:54.382762+00:00",
+        "lease_expires_at": "2026-11-19T22:21:54.382762+00:00",
+        "run_id": "44524452534"
       }
     },
     "3185": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31222466",
+        "display_name": "Black Bag 4K CZ Dabing",
+        "planned_at": "2026-11-19T16:21:53.470028+00:00"
+      }
     },
     "3174": {
       "attempts": []
@@ -225987,5 +225998,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:21:49.031378+00:00"
+  "updated_at": "2026-11-19T16:21:56.087348+00:00"
 }
