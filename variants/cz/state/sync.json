@@ -110903,13 +110903,6 @@
           "source_id": "35095604",
           "target_video_id": "30983770",
           "permanent": false,
-          "attempted_at": "2026-11-19T12:53:42.705521+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35095604",
-          "target_video_id": "30983770",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:27:45.710502+00:00"
         },
         {
@@ -110918,6 +110911,13 @@
           "target_video_id": "30983770",
           "permanent": false,
           "attempted_at": "2026-11-19T15:58:23.874012+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35095604",
+          "target_video_id": "30983770",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:31:37.843035+00:00"
         }
       ],
       "last_plan": {
@@ -143580,7 +143580,7 @@
       "last_plan": {
         "source_id": "30256707",
         "display_name": "Tři chlapi v chalupě SD CZ Dabing",
-        "planned_at": "2026-11-19T15:58:22.408150+00:00"
+        "planned_at": "2026-11-19T17:31:36.506748+00:00"
       },
       "previous_target_id": "30988639",
       "prepared": {
@@ -143588,6 +143588,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T09:01:38.348451+00:00",
         "relay_source_id": "30256707"
+      },
+      "claim": {
+        "worker_id": "9ccc8eb64d4e4e29867123fefeb022d4-shard-0",
+        "claimed_at": "2026-11-19T17:31:37.254833+00:00",
+        "lease_expires_at": "2026-11-19T23:31:37.254833+00:00",
+        "run_id": "44531372417"
       }
     },
     "37450": {
@@ -179976,7 +179982,7 @@
       "last_plan": {
         "source_id": "34347081",
         "display_name": "Midway (2019) 4K CZ Dabing",
-        "planned_at": "2026-11-19T17:31:33.749514+00:00"
+        "planned_at": "2026-11-19T17:31:36.766369+00:00"
       }
     },
     "3376": {
@@ -226173,5 +226179,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:31:33.749533+00:00"
+  "updated_at": "2026-11-19T17:31:37.843053+00:00"
 }
