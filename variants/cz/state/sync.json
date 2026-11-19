@@ -133965,6 +133965,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T04:21:19.566129+00:00",
         "relay_source_id": "24359415"
+      },
+      "claim": {
+        "worker_id": "18895709cb7c4524bebf820f1a04592a-shard-0",
+        "claimed_at": "2026-11-19T05:38:40.259576+00:00",
+        "lease_expires_at": "2026-11-19T11:38:40.259576+00:00",
+        "run_id": "44447775933"
       }
     },
     "32584": {
@@ -142134,13 +142140,6 @@
           "source_id": "34327399",
           "target_video_id": "30988418",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:53:49.826424+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34327399",
-          "target_video_id": "30988418",
-          "permanent": false,
           "attempted_at": "2026-11-19T02:59:55.645258+00:00"
         },
         {
@@ -142149,12 +142148,19 @@
           "target_video_id": "30988418",
           "permanent": false,
           "attempted_at": "2026-11-19T04:18:31.632375+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34327399",
+          "target_video_id": "30988418",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:38:42.255044+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34327399",
         "display_name": "The Peacock Feather (Pávie pierko) SD CZ Dabing",
-        "planned_at": "2026-11-19T04:18:28.269798+00:00"
+        "planned_at": "2026-11-19T05:38:40.434221+00:00"
       },
       "previous_target_id": "30988418",
       "prepared": {
@@ -178450,7 +178456,7 @@
       "last_plan": {
         "source_id": "34046536",
         "display_name": "Only for Tereza (Jedině Tereza) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:38:38.100344+00:00"
+        "planned_at": "2026-11-19T05:38:40.660804+00:00"
       }
     },
     "3546": {
@@ -224848,5 +224854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:38:38.100358+00:00"
+  "updated_at": "2026-11-19T05:38:42.255055+00:00"
 }
