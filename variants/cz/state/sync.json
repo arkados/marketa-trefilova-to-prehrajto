@@ -124441,13 +124441,6 @@
           "source_id": "32449094",
           "target_video_id": "30985723",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:31:12.147949+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32449094",
-          "target_video_id": "30985723",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:05:36.912781+00:00"
         },
         {
@@ -124456,12 +124449,19 @@
           "target_video_id": "30985723",
           "permanent": false,
           "attempted_at": "2026-11-19T13:55:25.552774+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32449094",
+          "target_video_id": "30985723",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:29:04.590707+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32449094",
         "display_name": "The Four Seasons 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:55:21.922593+00:00"
+        "planned_at": "2026-11-19T15:29:01.253416+00:00"
       },
       "previous_target_id": "30985723",
       "prepared": {
@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "147407ce902b41bebd68107c2898b849-shard-0",
+        "claimed_at": "2026-11-19T15:29:00.875738+00:00",
+        "lease_expires_at": "2026-11-19T21:29:00.875738+00:00",
+        "run_id": "44524452534"
       }
     },
     "32719": {
@@ -179613,7 +179619,7 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:28:57.939818+00:00"
+        "planned_at": "2026-11-19T15:29:01.819944+00:00"
       }
     },
     "3312": {
@@ -225855,5 +225861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:28:57.939837+00:00"
+  "updated_at": "2026-11-19T15:29:04.590728+00:00"
 }
