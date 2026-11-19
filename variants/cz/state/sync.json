@@ -112949,7 +112949,7 @@
       "last_plan": {
         "source_id": "12192492",
         "display_name": "Lost in the Suburbs (Návrat domů) SD CZ Dabing",
-        "planned_at": "2026-11-19T19:44:34.933451+00:00"
+        "planned_at": "2026-11-19T21:50:14.032799+00:00"
       },
       "previous_target_id": "30983936",
       "prepared": {
@@ -112957,6 +112957,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T15:05:46.561570+00:00",
         "relay_source_id": "12192492"
+      },
+      "claim": {
+        "worker_id": "ba8ab02815c648b8903bf1dcace09247-shard-0",
+        "claimed_at": "2026-11-19T21:50:14.987872+00:00",
+        "lease_expires_at": "2026-11-20T03:50:14.987872+00:00",
+        "run_id": "44616581853"
       }
     },
     "24065": {
@@ -180261,17 +180267,23 @@
           "attempted_at": "2026-11-19T19:44:37.359518+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31587122",
-        "display_name": "Creed III 4K CZ Dabing",
-        "planned_at": "2026-11-19T21:50:10.698897+00:00"
-      },
       "previous_target_id": "31188716",
-      "prepared": {
+      "upload": {
         "target_video_id": "31188716",
+        "display_name": "Creed III 4K CZ Dabing",
+        "source_id": "31587122",
+        "source_url": "https://sdilej.cz/31587122/creed-iii-2023-uhdrdv-cz-en.mkv",
+        "source_filename": "Creed III (2023) UHDRDV cz en.mkv",
         "size_bytes": 5200000000,
-        "prepared_at": "2026-11-19T18:13:10.774163+00:00",
-        "relay_source_id": "31587122"
+        "width": 3840,
+        "height": 1604,
+        "audio_language": "cs",
+        "language_probability": 0.9567911624908447,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/creed-iii-4k-cz-dabing-mkv/38ea0411ecb2edbc",
+        "uploaded_at": "2026-11-19T21:50:15.228974+00:00"
       }
     },
     "3552": {
@@ -181316,7 +181328,7 @@
       "last_plan": {
         "source_id": "32146840",
         "display_name": "Hairspray SD CZ Dabing",
-        "planned_at": "2026-11-19T21:50:11.206152+00:00"
+        "planned_at": "2026-11-19T21:50:14.346511+00:00"
       }
     },
     "22227": {
@@ -227345,5 +227357,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:50:11.206171+00:00"
+  "updated_at": "2026-11-19T21:50:15.228988+00:00"
 }
