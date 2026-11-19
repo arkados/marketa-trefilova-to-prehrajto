@@ -115943,13 +115943,6 @@
           "source_id": "32155099",
           "target_video_id": "30984640",
           "permanent": false,
-          "attempted_at": "2026-11-19T18:19:44.319623+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32155099",
-          "target_video_id": "30984640",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:40:32.045651+00:00"
         },
         {
@@ -115958,6 +115951,13 @@
           "target_video_id": "30984640",
           "permanent": false,
           "attempted_at": "2026-11-19T21:42:33.080289+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32155099",
+          "target_video_id": "30984640",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:26:00.110532+00:00"
         }
       ],
       "last_plan": {
@@ -130798,7 +130798,7 @@
       "last_plan": {
         "source_id": "30261994",
         "display_name": "Nightline (Promlčeno) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:42:31.551981+00:00"
+        "planned_at": "2026-11-19T23:25:58.954811+00:00"
       },
       "previous_target_id": "30986930",
       "prepared": {
@@ -130806,6 +130806,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T02:43:15.360689+00:00",
         "relay_source_id": "30261994"
+      },
+      "claim": {
+        "worker_id": "add2dcd8de1c4164848be897ed184572-shard-0",
+        "claimed_at": "2026-11-19T23:25:59.869061+00:00",
+        "lease_expires_at": "2026-11-20T05:25:59.869061+00:00",
+        "run_id": "44616581853"
       }
     },
     "13847": {
@@ -181810,7 +181816,7 @@
       "last_plan": {
         "source_id": "31343546",
         "display_name": "Final Destination Bloodlines 4K CZ Dabing",
-        "planned_at": "2026-11-19T23:25:54.426995+00:00"
+        "planned_at": "2026-11-19T23:25:59.293505+00:00"
       }
     },
     "3224": {
@@ -227791,5 +227797,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:25:54.686277+00:00"
+  "updated_at": "2026-11-19T23:26:00.110551+00:00"
 }
