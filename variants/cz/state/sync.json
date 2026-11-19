@@ -124032,13 +124032,6 @@
           "source_id": "12475327",
           "target_video_id": "30985644",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:09:47.914485+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12475327",
-          "target_video_id": "30985644",
-          "permanent": false,
           "attempted_at": "2026-11-19T09:00:26.407908+00:00"
         },
         {
@@ -124047,12 +124040,19 @@
           "target_video_id": "30985644",
           "permanent": false,
           "attempted_at": "2026-11-19T10:35:59.598956+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12475327",
+          "target_video_id": "30985644",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:10:22.400171+00:00"
         }
       ],
       "last_plan": {
         "source_id": "12475327",
         "display_name": "Ladies in Black 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:35:54.012205+00:00"
+        "planned_at": "2026-11-19T12:10:18.845423+00:00"
       },
       "previous_target_id": "30985644",
       "prepared": {
@@ -179271,14 +179271,25 @@
       "last_plan": {
         "source_id": "29238534",
         "display_name": "A Most Wanted Man 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:10:12.639309+00:00"
+        "planned_at": "2026-11-19T12:10:19.203230+00:00"
+      },
+      "claim": {
+        "worker_id": "c506f3077be34ca3af633123263a14db-shard-0",
+        "claimed_at": "2026-11-19T12:10:20.255882+00:00",
+        "lease_expires_at": "2026-11-19T18:10:20.255882+00:00",
+        "run_id": "44451991647"
       }
     },
     "14301": {
       "attempts": []
     },
     "23484": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "23659385",
+        "display_name": "The Client 1080p CZ Dabing",
+        "planned_at": "2026-11-19T12:10:19.421994+00:00"
+      }
     },
     "20362": {
       "attempts": []
@@ -225561,5 +225572,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:10:16.014660+00:00"
+  "updated_at": "2026-11-19T12:10:22.400189+00:00"
 }
