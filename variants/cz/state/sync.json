@@ -138232,7 +138232,7 @@
       "last_plan": {
         "source_id": "32899046",
         "display_name": "The Right to Sin SD CZ Dabing",
-        "planned_at": "2026-11-19T14:52:20.357218+00:00"
+        "planned_at": "2026-11-19T16:23:05.907439+00:00"
       },
       "previous_target_id": "30987847",
       "prepared": {
@@ -138240,6 +138240,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T06:24:20.802315+00:00",
         "relay_source_id": "32899046"
+      },
+      "claim": {
+        "worker_id": "3659472392c84ca3af0eae4443fafcab-shard-0",
+        "claimed_at": "2026-11-19T16:23:07.351634+00:00",
+        "lease_expires_at": "2026-11-19T22:23:07.351634+00:00",
+        "run_id": "44524452534"
       }
     },
     "33475": {
@@ -179759,17 +179765,19 @@
       "attempts": []
     },
     "5474": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "15241925",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-19T16:23:07.709162+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15241925",
         "display_name": "Qu'un sang impur... 1080p CZ Dabing",
         "planned_at": "2026-11-19T16:21:53.239165+00:00"
-      },
-      "claim": {
-        "worker_id": "ce6f37b3902e481da2e71ba80f16f799-shard-0",
-        "claimed_at": "2026-11-19T16:21:54.382762+00:00",
-        "lease_expires_at": "2026-11-19T22:21:54.382762+00:00",
-        "run_id": "44524452534"
       }
     },
     "3185": {
@@ -179777,7 +179785,7 @@
       "last_plan": {
         "source_id": "31222466",
         "display_name": "Black Bag 4K CZ Dabing",
-        "planned_at": "2026-11-19T16:23:00.584999+00:00"
+        "planned_at": "2026-11-19T16:23:06.459374+00:00"
       }
     },
     "3174": {
@@ -225998,5 +226006,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:23:03.589182+00:00"
+  "updated_at": "2026-11-19T16:23:07.709185+00:00"
 }
