@@ -142408,13 +142408,6 @@
           "source_id": "32094190",
           "target_video_id": "30988468",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:55:36.332422+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32094190",
-          "target_video_id": "30988468",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:39:25.257539+00:00"
         },
         {
@@ -142423,6 +142416,13 @@
           "target_video_id": "30988468",
           "permanent": false,
           "attempted_at": "2026-11-19T01:09:05.381368+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32094190",
+          "target_video_id": "30988468",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:11:50.437608+00:00"
         }
       ],
       "last_plan": {
@@ -142436,12 +142436,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T08:33:07.609068+00:00",
         "relay_source_id": "32094190"
-      },
-      "claim": {
-        "worker_id": "627ece72be8f4591b325799f00fe91e2-shard-0",
-        "claimed_at": "2026-11-19T03:11:46.317792+00:00",
-        "lease_expires_at": "2026-11-19T09:11:46.317792+00:00",
-        "run_id": "44447775933"
       }
     },
     "17631": {
@@ -148319,7 +148313,7 @@
       "last_plan": {
         "source_id": "33623584",
         "display_name": "list of a Lifetime 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:09:04.706180+00:00"
+        "planned_at": "2026-11-19T03:11:49.329881+00:00"
       },
       "previous_target_id": "31016148",
       "prepared": {
@@ -148327,6 +148321,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-13T16:59:42.814719+00:00",
         "relay_source_id": "33623584"
+      },
+      "claim": {
+        "worker_id": "cf3f7cbb4c7a4f75a19b5b2bf06ce926-shard-0",
+        "claimed_at": "2026-11-19T03:11:49.887808+00:00",
+        "lease_expires_at": "2026-11-19T09:11:49.887808+00:00",
+        "run_id": "44447775933"
       }
     },
     "32863": {
@@ -177920,7 +177920,7 @@
       "last_plan": {
         "source_id": "14775256",
         "display_name": "Hillbilly Elegy 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:11:45.956735+00:00"
+        "planned_at": "2026-11-19T03:11:49.543225+00:00"
       }
     },
     "25133": {
@@ -224396,5 +224396,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:11:47.365815+00:00"
+  "updated_at": "2026-11-19T03:11:50.437621+00:00"
 }
