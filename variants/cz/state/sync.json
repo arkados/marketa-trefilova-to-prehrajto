@@ -109954,13 +109954,6 @@
           "source_id": "34979725",
           "target_video_id": "30983683",
           "permanent": false,
-          "attempted_at": "2026-11-19T08:43:39.581338+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34979725",
-          "target_video_id": "30983683",
-          "permanent": false,
           "attempted_at": "2026-11-19T10:18:39.592783+00:00"
         },
         {
@@ -109969,6 +109962,13 @@
           "target_video_id": "30983683",
           "permanent": false,
           "attempted_at": "2026-11-19T11:56:06.690776+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34979725",
+          "target_video_id": "30983683",
+          "permanent": false,
+          "attempted_at": "2026-11-19T13:45:13.026348+00:00"
         }
       ],
       "last_plan": {
@@ -174184,7 +174184,7 @@
       "last_plan": {
         "source_id": "26652002",
         "display_name": "The Three Musketeers: D'Artagnan (Les Trois Mousquetaires : D'Artagnan) 1440p CZ Dabing",
-        "planned_at": "2026-11-19T11:56:04.575268+00:00"
+        "planned_at": "2026-11-19T13:45:11.477602+00:00"
       },
       "previous_target_id": "31151367",
       "prepared": {
@@ -174192,6 +174192,12 @@
         "size_bytes": 22900000000,
         "prepared_at": "2026-11-18T12:40:55.332748+00:00",
         "relay_source_id": "26652002"
+      },
+      "claim": {
+        "worker_id": "ae8fb3915a894219bc47c5afd136d4da-shard-0",
+        "claimed_at": "2026-11-19T13:45:12.662630+00:00",
+        "lease_expires_at": "2026-11-19T19:45:12.662630+00:00",
+        "run_id": "44524452534"
       }
     },
     "3217": {
@@ -179432,7 +179438,7 @@
       "last_plan": {
         "source_id": "21485649",
         "display_name": "Good Boys 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:45:06.834300+00:00"
+        "planned_at": "2026-11-19T13:45:11.859705+00:00"
       }
     },
     "11549": {
@@ -225698,5 +225704,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:45:07.164219+00:00"
+  "updated_at": "2026-11-19T13:45:13.026368+00:00"
 }
