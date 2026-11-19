@@ -120598,13 +120598,6 @@
           "source_id": "34674871",
           "target_video_id": "30985012",
           "permanent": false,
-          "attempted_at": "2026-11-18T21:21:33.798728+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34674871",
-          "target_video_id": "30985012",
-          "permanent": false,
           "attempted_at": "2026-11-18T23:07:28.589851+00:00"
         },
         {
@@ -120613,12 +120606,19 @@
           "target_video_id": "30985012",
           "permanent": false,
           "attempted_at": "2026-11-19T00:36:20.245831+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34674871",
+          "target_video_id": "30985012",
+          "permanent": false,
+          "attempted_at": "2026-11-19T02:07:58.268031+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34674871",
         "display_name": "DuckTales the Movie: Treasure of the Lost Lamp (DuckTales: The Movie - Treasure of the Lost Lamp) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:36:14.769742+00:00"
+        "planned_at": "2026-11-19T02:07:55.029128+00:00"
       },
       "previous_target_id": "30985012",
       "prepared": {
@@ -177748,14 +177748,25 @@
       "last_plan": {
         "source_id": "34393876",
         "display_name": "Bad Words 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:07:42.831594+00:00"
+        "planned_at": "2026-11-19T02:07:55.669300+00:00"
+      },
+      "claim": {
+        "worker_id": "a8257a3626be4c198f4de2a5feb23295-shard-0",
+        "claimed_at": "2026-11-19T02:07:56.629579+00:00",
+        "lease_expires_at": "2026-11-19T08:07:56.629579+00:00",
+        "run_id": "44406951430"
       }
     },
     "37326": {
       "attempts": []
     },
     "3757": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13959519",
+        "display_name": "Dream Factory (Traumfabrik) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T02:07:55.879943+00:00"
+      }
     },
     "16322": {
       "attempts": []
@@ -224263,5 +224274,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T02:07:51.249269+00:00"
+  "updated_at": "2026-11-19T02:07:58.268047+00:00"
 }
