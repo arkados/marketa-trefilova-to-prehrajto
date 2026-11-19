@@ -179127,17 +179127,19 @@
       }
     },
     "3191": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32998733",
+          "target_video_id": "31181154",
+          "permanent": false,
+          "attempted_at": "2026-11-19T11:27:15.669838+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32998733",
         "display_name": "The Gift (2000) 4K CZ Dabing",
         "planned_at": "2026-11-19T11:06:35.574265+00:00"
-      },
-      "claim": {
-        "worker_id": "02391df9bd334aa781a125eca13e8a94-shard-0",
-        "claimed_at": "2026-11-19T11:06:36.657129+00:00",
-        "lease_expires_at": "2026-11-19T17:06:36.657129+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31181154",
       "prepared": {
@@ -225469,5 +225471,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T11:27:13.387141+00:00"
+  "updated_at": "2026-11-19T11:27:15.669858+00:00"
 }
