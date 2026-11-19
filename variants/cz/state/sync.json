@@ -130564,13 +130564,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:28:35.512982+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:57:05.540092+00:00"
         },
         {
@@ -130579,6 +130572,13 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-19T03:01:20.524803+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:19:56.111678+00:00"
         }
       ],
       "last_plan": {
@@ -140336,7 +140336,7 @@
       "last_plan": {
         "source_id": "34864473",
         "display_name": "Corpus Delicti 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:01:22.442000+00:00"
+        "planned_at": "2026-11-19T04:19:54.530571+00:00"
       },
       "previous_target_id": "30988077",
       "prepared": {
@@ -140344,6 +140344,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-11T07:27:44.810508+00:00",
         "relay_source_id": "34864473"
+      },
+      "claim": {
+        "worker_id": "4010a71fde6342ad890749a1823cedd7-shard-0",
+        "claimed_at": "2026-11-19T04:19:55.102591+00:00",
+        "lease_expires_at": "2026-11-19T10:19:55.102591+00:00",
+        "run_id": "44447775933"
       }
     },
     "24211": {
@@ -178144,7 +178150,7 @@
       "last_plan": {
         "source_id": "26499299",
         "display_name": "The Call of the Wild (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:19:52.172835+00:00"
+        "planned_at": "2026-11-19T04:19:54.749544+00:00"
       }
     },
     "12346": {
@@ -224587,5 +224593,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:19:52.172850+00:00"
+  "updated_at": "2026-11-19T04:19:56.111691+00:00"
 }
