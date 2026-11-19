@@ -111628,7 +111628,7 @@
       "last_plan": {
         "source_id": "28586856",
         "display_name": "Haškovy povídky ze starého mocnářství (Hasek’s Tales from the Old Monarchy) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:38:37.703180+00:00"
+        "planned_at": "2026-11-19T09:32:07.181120+00:00"
       },
       "previous_target_id": "30983803",
       "prepared": {
@@ -126755,13 +126755,6 @@
           "source_id": "13097673",
           "target_video_id": "30986257",
           "permanent": false,
-          "attempted_at": "2026-11-19T03:51:25.924736+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13097673",
-          "target_video_id": "30986257",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:11:34.059936+00:00"
         },
         {
@@ -126770,6 +126763,13 @@
           "target_video_id": "30986257",
           "permanent": false,
           "attempted_at": "2026-11-19T06:38:39.557948+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13097673",
+          "target_video_id": "30986257",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:32:06.855621+00:00"
         }
       ],
       "last_plan": {
@@ -126783,12 +126783,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T23:45:13.323539+00:00",
         "relay_source_id": "13097673"
-      },
-      "claim": {
-        "worker_id": "b1370cc2bfe04cd6890251d1501407db-shard-0",
-        "claimed_at": "2026-11-19T09:32:02.431778+00:00",
-        "lease_expires_at": "2026-11-19T15:32:02.431778+00:00",
-        "run_id": "44451991647"
       }
     },
     "23170": {
@@ -178794,17 +178788,19 @@
       }
     },
     "22777": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34150181",
+          "target_video_id": "31178101",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:32:07.452190+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34150181",
         "display_name": "Cocoon (1985) 1080p CZ Dabing",
         "planned_at": "2026-11-19T09:22:20.471400+00:00"
-      },
-      "claim": {
-        "worker_id": "b43940bda1184cee8abda401ffb6fda0-shard-0",
-        "claimed_at": "2026-11-19T09:22:21.638552+00:00",
-        "lease_expires_at": "2026-11-19T15:22:21.638552+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31178101",
       "prepared": {
@@ -225195,5 +225191,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:32:03.140354+00:00"
+  "updated_at": "2026-11-19T09:32:07.452209+00:00"
 }
