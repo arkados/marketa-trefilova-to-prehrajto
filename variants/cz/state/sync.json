@@ -178957,17 +178957,19 @@
       "attempts": []
     },
     "12959": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28476011",
+          "target_video_id": "31179534",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:20:28.468274+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28476011",
         "display_name": "The Pledge SD CZ Dabing",
         "planned_at": "2026-11-19T10:10:34.714262+00:00"
-      },
-      "claim": {
-        "worker_id": "226da3db5e924c62b2fd453de34f53ea-shard-0",
-        "claimed_at": "2026-11-19T10:10:35.841210+00:00",
-        "lease_expires_at": "2026-11-19T16:10:35.841210+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31179534",
       "prepared": {
@@ -225314,5 +225316,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:20:25.217824+00:00"
+  "updated_at": "2026-11-19T10:20:28.468300+00:00"
 }
