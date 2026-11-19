@@ -141469,13 +141469,6 @@
           "source_id": "34693961",
           "target_video_id": "30988228",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:40:11.338851+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693961",
-          "target_video_id": "30988228",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:10:56.672137+00:00"
         },
         {
@@ -141484,12 +141477,19 @@
           "target_video_id": "30988228",
           "permanent": false,
           "attempted_at": "2026-11-19T01:42:52.284917+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693961",
+          "target_video_id": "30988228",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:38:15.698952+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:42:46.917423+00:00"
+        "planned_at": "2026-11-19T03:38:13.508009+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -177992,14 +177992,25 @@
       "last_plan": {
         "source_id": "35056002",
         "display_name": "The Legend of Bagger Vance 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:38:08.755705+00:00"
+        "planned_at": "2026-11-19T03:38:13.720697+00:00"
+      },
+      "claim": {
+        "worker_id": "4c19d85919354431b79ba14f6a14da16-shard-0",
+        "claimed_at": "2026-11-19T03:38:14.326562+00:00",
+        "lease_expires_at": "2026-11-19T09:38:14.326562+00:00",
+        "run_id": "44447775933"
       }
     },
     "28013": {
       "attempts": []
     },
     "19411": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34902739",
+        "display_name": "Kalifornia 1080p CZ Dabing",
+        "planned_at": "2026-11-19T03:38:13.850868+00:00"
+      }
     },
     "3251": {
       "attempts": []
@@ -224456,5 +224467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:38:10.598591+00:00"
+  "updated_at": "2026-11-19T03:38:15.698964+00:00"
 }
