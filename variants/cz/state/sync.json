@@ -130322,13 +130322,6 @@
           "source_id": "34694634",
           "target_video_id": "30986897",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:29:52.603600+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34694634",
-          "target_video_id": "30986897",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:20:05.550398+00:00"
         },
         {
@@ -130337,6 +130330,13 @@
           "target_video_id": "30986897",
           "permanent": false,
           "attempted_at": "2026-11-19T14:54:30.554642+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34694634",
+          "target_video_id": "30986897",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:25:11.301447+00:00"
         }
       ],
       "last_plan": {
@@ -141989,7 +141989,7 @@
       "last_plan": {
         "source_id": "8790479",
         "display_name": "Piano, solo SD CZ Dabing",
-        "planned_at": "2026-11-19T14:54:33.127365+00:00"
+        "planned_at": "2026-11-19T16:25:09.247439+00:00"
       },
       "previous_target_id": "30988375",
       "prepared": {
@@ -141997,6 +141997,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T08:16:16.541498+00:00",
         "relay_source_id": "8790479"
+      },
+      "claim": {
+        "worker_id": "8affb49cbe034514a59676ffab539465-shard-0",
+        "claimed_at": "2026-11-19T16:25:10.317308+00:00",
+        "lease_expires_at": "2026-11-19T22:25:10.317308+00:00",
+        "run_id": "44524452534"
       }
     },
     "22065": {
@@ -179779,7 +179785,7 @@
       "last_plan": {
         "source_id": "31222466",
         "display_name": "Black Bag 4K CZ Dabing",
-        "planned_at": "2026-11-19T16:25:05.810594+00:00"
+        "planned_at": "2026-11-19T16:25:09.625627+00:00"
       }
     },
     "3174": {
@@ -226000,5 +226006,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:25:06.097263+00:00"
+  "updated_at": "2026-11-19T16:25:11.301467+00:00"
 }
