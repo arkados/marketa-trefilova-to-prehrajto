@@ -139951,13 +139951,6 @@
           "source_id": "15665884",
           "target_video_id": "30988003",
           "permanent": false,
-          "attempted_at": "2026-11-19T13:11:08.798831+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15665884",
-          "target_video_id": "30988003",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:45:22.153198+00:00"
         },
         {
@@ -139966,12 +139959,19 @@
           "target_video_id": "30988003",
           "permanent": false,
           "attempted_at": "2026-11-19T16:15:45.033154+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15665884",
+          "target_video_id": "30988003",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:44:16.416908+00:00"
         }
       ],
       "last_plan": {
         "source_id": "15665884",
         "display_name": "Parallel Worlds 720p CZ Dabing",
-        "planned_at": "2026-11-19T16:15:39.524414+00:00"
+        "planned_at": "2026-11-19T17:44:14.237101+00:00"
       },
       "previous_target_id": "30988003",
       "prepared": {
@@ -179989,14 +179989,25 @@
       "last_plan": {
         "source_id": "34347081",
         "display_name": "Midway (2019) 4K CZ Dabing",
-        "planned_at": "2026-11-19T17:44:09.725719+00:00"
+        "planned_at": "2026-11-19T17:44:14.488743+00:00"
+      },
+      "claim": {
+        "worker_id": "e21fa8b602a24d35b1f5d75d45701405-shard-0",
+        "claimed_at": "2026-11-19T17:44:15.194289+00:00",
+        "lease_expires_at": "2026-11-19T23:44:15.194289+00:00",
+        "run_id": "44531372417"
       }
     },
     "3376": {
       "attempts": []
     },
     "3176": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31751351",
+        "display_name": "Unfaithful 1080p CZ Dabing",
+        "planned_at": "2026-11-19T17:44:14.638604+00:00"
+      }
     },
     "3375": {
       "attempts": []
@@ -226186,5 +226197,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:44:11.573407+00:00"
+  "updated_at": "2026-11-19T17:44:16.416925+00:00"
 }
