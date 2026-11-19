@@ -178809,17 +178809,19 @@
       }
     },
     "3303": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22330727",
+          "target_video_id": "31178109",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:30:56.556167+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22330727",
         "display_name": "Purple Hearts 1080p CZ Dabing",
         "planned_at": "2026-11-19T09:22:59.996284+00:00"
-      },
-      "claim": {
-        "worker_id": "030b44ce90a24e6d8394aefb8724c5da-shard-0",
-        "claimed_at": "2026-11-19T09:23:01.096053+00:00",
-        "lease_expires_at": "2026-11-19T15:23:01.096053+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31178109",
       "prepared": {
@@ -225187,5 +225189,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:30:53.436521+00:00"
+  "updated_at": "2026-11-19T09:30:56.556189+00:00"
 }
