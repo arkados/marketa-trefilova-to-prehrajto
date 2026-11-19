@@ -43032,6 +43032,12 @@
         "size_bytes": 31200000000,
         "prepared_at": "2026-11-03T07:52:26.317997+00:00",
         "relay_source_id": "34357032"
+      },
+      "claim": {
+        "worker_id": "2422c0be978c465296afcf321aadfdca-shard-0",
+        "claimed_at": "2026-11-19T03:29:20.620855+00:00",
+        "lease_expires_at": "2026-11-19T09:29:20.620855+00:00",
+        "run_id": "44447775933"
       }
     },
     "1395": {
@@ -124549,7 +124555,7 @@
       "last_plan": {
         "source_id": "34503356",
         "display_name": "The Hot Rock 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:30:48.064958+00:00"
+        "planned_at": "2026-11-19T03:29:22.092211+00:00"
       },
       "previous_target_id": "30985739",
       "prepared": {
@@ -169608,13 +169614,6 @@
           "source_id": "25585197",
           "target_video_id": "31122892",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:29:11.170903+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25585197",
-          "target_video_id": "31122892",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:00:25.111971+00:00"
         },
         {
@@ -169623,6 +169622,13 @@
           "target_video_id": "31122892",
           "permanent": false,
           "attempted_at": "2026-11-19T01:30:37.151989+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25585197",
+          "target_video_id": "31122892",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:29:21.367867+00:00"
         }
       ],
       "last_plan": {
@@ -169636,12 +169642,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-17T16:33:07.227180+00:00",
         "relay_source_id": "25585197"
-      },
-      "claim": {
-        "worker_id": "aa62bc1a0ac34a5882fda5e9755240b4-shard-0",
-        "claimed_at": "2026-11-19T03:29:17.524212+00:00",
-        "lease_expires_at": "2026-11-19T09:29:17.524212+00:00",
-        "run_id": "44447775933"
       }
     },
     "33238": {
@@ -177948,7 +177948,7 @@
       "last_plan": {
         "source_id": "24188035",
         "display_name": "The Legionnaire (Il legionario) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:29:17.900218+00:00"
+        "planned_at": "2026-11-19T03:29:22.310902+00:00"
       }
     },
     "3162": {
@@ -224423,5 +224423,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:29:18.130715+00:00"
+  "updated_at": "2026-11-19T03:29:22.310916+00:00"
 }
