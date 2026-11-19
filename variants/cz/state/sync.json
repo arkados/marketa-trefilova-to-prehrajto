@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "a12691570c4240ef9d9d656194b0f52a-shard-0",
+        "claimed_at": "2026-11-19T19:13:23.729532+00:00",
+        "lease_expires_at": "2026-11-20T01:13:23.729532+00:00",
+        "run_id": "44531372417"
       }
     },
     "12374": {
@@ -120778,13 +120784,6 @@
           "source_id": "33649267",
           "target_video_id": "30985020",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:51:38.304979+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33649267",
-          "target_video_id": "30985020",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:22:01.855168+00:00"
         },
         {
@@ -120793,12 +120792,19 @@
           "target_video_id": "30985020",
           "permanent": false,
           "attempted_at": "2026-11-19T17:52:42.797893+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33649267",
+          "target_video_id": "30985020",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:13:26.064143+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33649267",
         "display_name": "Devil in a Blue Dress 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:52:38.300985+00:00"
+        "planned_at": "2026-11-19T19:13:23.942745+00:00"
       },
       "previous_target_id": "30985020",
       "prepared": {
@@ -180527,7 +180533,7 @@
       "last_plan": {
         "source_id": "32799247",
         "display_name": "SMS für Dich (Text for You) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:13:20.894990+00:00"
+        "planned_at": "2026-11-19T19:13:24.218007+00:00"
       }
     },
     "3953": {
@@ -226649,5 +226655,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:13:21.129131+00:00"
+  "updated_at": "2026-11-19T19:13:26.064166+00:00"
 }
