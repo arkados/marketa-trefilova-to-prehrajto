@@ -138132,7 +138132,7 @@
       "last_plan": {
         "source_id": "24113515",
         "display_name": "Vandronik (O Janovi a podivuhodném příteli) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:10:36.398935+00:00"
+        "planned_at": "2026-11-19T04:05:23.203291+00:00"
       },
       "previous_target_id": "30987842",
       "prepared": {
@@ -138140,6 +138140,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T06:22:35.276508+00:00",
         "relay_source_id": "24113515"
+      },
+      "claim": {
+        "worker_id": "aa42013c6f694ba0ab3a26533eb1a03c-shard-0",
+        "claimed_at": "2026-11-19T04:05:23.811012+00:00",
+        "lease_expires_at": "2026-11-19T10:05:23.811012+00:00",
+        "run_id": "44447775933"
       }
     },
     "12822": {
@@ -177986,17 +177992,19 @@
       }
     },
     "3162": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34187564",
+          "target_video_id": "31168449",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:05:23.976185+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34187564",
         "display_name": "Oddity 4K CZ Dabing",
         "planned_at": "2026-11-19T03:32:35.327497+00:00"
-      },
-      "claim": {
-        "worker_id": "2e00377fefd148439c46ac14de50b876-shard-0",
-        "claimed_at": "2026-11-19T03:32:35.944686+00:00",
-        "lease_expires_at": "2026-11-19T09:32:35.944686+00:00",
-        "run_id": "44447775933"
       },
       "previous_target_id": "31168449",
       "prepared": {
@@ -178081,7 +178089,7 @@
       "last_plan": {
         "source_id": "8403692",
         "display_name": "Battle of the Sexes 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:05:19.251688+00:00"
+        "planned_at": "2026-11-19T04:05:23.447381+00:00"
       }
     },
     "30397": {
@@ -224533,5 +224541,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:05:21.259613+00:00"
+  "updated_at": "2026-11-19T04:05:23.976200+00:00"
 }
