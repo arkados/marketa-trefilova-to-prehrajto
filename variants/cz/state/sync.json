@@ -41546,7 +41546,7 @@
       "last_plan": {
         "source_id": "34826023",
         "display_name": "Identity 4K CZ Dabing",
-        "planned_at": "2026-11-19T18:37:10.734675+00:00"
+        "planned_at": "2026-11-19T20:01:32.394786+00:00"
       },
       "previous_target_id": "30751591",
       "prepared": {
@@ -41554,6 +41554,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-03T03:58:27.242114+00:00",
         "relay_source_id": "34826023"
+      },
+      "claim": {
+        "worker_id": "a2703e04651a4a2d9e0f0d8cb1bf3af1-shard-0",
+        "claimed_at": "2026-11-19T20:01:33.055081+00:00",
+        "lease_expires_at": "2026-11-20T02:01:33.055081+00:00",
+        "run_id": "44531372417"
       }
     },
     "34337": {
@@ -42489,13 +42495,6 @@
           "source_id": "34334657",
           "target_video_id": "30754884",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:39:40.427070+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34334657",
-          "target_video_id": "30754884",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:17:23.179243+00:00"
         },
         {
@@ -42504,6 +42503,13 @@
           "target_video_id": "30754884",
           "permanent": false,
           "attempted_at": "2026-11-19T18:37:09.382696+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34334657",
+          "target_video_id": "30754884",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:01:33.352562+00:00"
         }
       ],
       "last_plan": {
@@ -42517,12 +42523,6 @@
         "size_bytes": 7100000000,
         "prepared_at": "2026-11-03T06:59:38.837523+00:00",
         "relay_source_id": "34334657"
-      },
-      "claim": {
-        "worker_id": "bd840509c7a347e6b2453e734fa0b4b4-shard-0",
-        "claimed_at": "2026-11-19T20:01:29.190233+00:00",
-        "lease_expires_at": "2026-11-20T02:01:29.190233+00:00",
-        "run_id": "44531372417"
       }
     },
     "1535": {
@@ -180812,7 +180812,7 @@
       "last_plan": {
         "source_id": "33690430",
         "display_name": "The Man with the Golden Gun 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:01:28.297629+00:00"
+        "planned_at": "2026-11-19T20:01:32.641186+00:00"
       }
     },
     "25262": {
@@ -226907,5 +226907,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:01:30.020268+00:00"
+  "updated_at": "2026-11-19T20:01:33.352586+00:00"
 }
