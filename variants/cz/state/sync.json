@@ -116989,7 +116989,7 @@
       "last_plan": {
         "source_id": "12275349",
         "display_name": "All the Money in the World 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:02:21.086569+00:00"
+        "planned_at": "2026-11-19T20:29:08.352476+00:00"
       },
       "previous_target_id": "30984732",
       "prepared": {
@@ -116997,6 +116997,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T17:26:29.839950+00:00",
         "relay_source_id": "12275349"
+      },
+      "claim": {
+        "worker_id": "b8eb0646d1be47cc8cc4b1bf1a91bf4a-shard-0",
+        "claimed_at": "2026-11-19T20:29:09.097318+00:00",
+        "lease_expires_at": "2026-11-20T02:29:09.097318+00:00",
+        "run_id": "44531372417"
       }
     },
     "2814": {
@@ -180939,17 +180945,19 @@
       }
     },
     "3182": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31366589",
+          "target_video_id": "31190166",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:29:10.213922+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31366589",
         "display_name": "Hot Shots! 4K CZ Dabing",
         "planned_at": "2026-11-19T20:22:44.511770+00:00"
-      },
-      "claim": {
-        "worker_id": "b04b2d072f3941149a1da8651c7c0740-shard-0",
-        "claimed_at": "2026-11-19T20:22:47.398832+00:00",
-        "lease_expires_at": "2026-11-20T02:22:47.398832+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31190166",
       "prepared": {
@@ -180985,7 +180993,7 @@
       "last_plan": {
         "source_id": "34901168",
         "display_name": "Just like Heaven 4K CZ Dabing",
-        "planned_at": "2026-11-19T20:29:02.870489+00:00"
+        "planned_at": "2026-11-19T20:29:08.620871+00:00"
       }
     },
     "3506": {
@@ -227056,5 +227064,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:29:05.094267+00:00"
+  "updated_at": "2026-11-19T20:29:10.213942+00:00"
 }
