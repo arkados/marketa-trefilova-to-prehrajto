@@ -109880,13 +109880,6 @@
           "source_id": "34671725",
           "target_video_id": "30983679",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:17:26.723304+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34671725",
-          "target_video_id": "30983679",
-          "permanent": false,
           "attempted_at": "2026-11-19T16:53:40.731406+00:00"
         },
         {
@@ -109895,6 +109888,13 @@
           "target_video_id": "30983679",
           "permanent": false,
           "attempted_at": "2026-11-19T18:12:58.929905+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34671725",
+          "target_video_id": "30983679",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:36:26.003781+00:00"
         }
       ],
       "last_plan": {
@@ -130721,7 +130721,7 @@
       "last_plan": {
         "source_id": "34672037",
         "display_name": "A Bagful of Fleas (Pytel blech) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:12:55.174390+00:00"
+        "planned_at": "2026-11-19T19:36:23.846485+00:00"
       },
       "previous_target_id": "30986926",
       "prepared": {
@@ -130729,6 +130729,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T02:41:46.201833+00:00",
         "relay_source_id": "34672037"
+      },
+      "claim": {
+        "worker_id": "8034bf4ca8ec4d518e0df0c180517ec6-shard-0",
+        "claimed_at": "2026-11-19T19:36:24.534623+00:00",
+        "lease_expires_at": "2026-11-20T01:36:24.534623+00:00",
+        "run_id": "44531372417"
       }
     },
     "13201": {
@@ -180673,7 +180679,7 @@
       "last_plan": {
         "source_id": "30978820",
         "display_name": "Stoker 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:36:21.290622+00:00"
+        "planned_at": "2026-11-19T19:36:24.084977+00:00"
       }
     },
     "11828": {
@@ -226780,5 +226786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:36:21.290671+00:00"
+  "updated_at": "2026-11-19T19:36:26.003801+00:00"
 }
