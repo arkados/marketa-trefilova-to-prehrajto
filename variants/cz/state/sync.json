@@ -124520,6 +124520,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T21:33:37.516001+00:00",
         "relay_source_id": "33977403"
+      },
+      "claim": {
+        "worker_id": "cccd4ddf1e6b44cfa785b2d357315778-shard-0",
+        "claimed_at": "2026-11-19T03:29:14.799313+00:00",
+        "lease_expires_at": "2026-11-19T09:29:14.799313+00:00",
+        "run_id": "44447775933"
       }
     },
     "22100": {
@@ -137348,13 +137354,6 @@
           "source_id": "29809619",
           "target_video_id": "30987769",
           "permanent": false,
-          "attempted_at": "2026-11-18T22:28:54.640508+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29809619",
-          "target_video_id": "30987769",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:00:14.674891+00:00"
         },
         {
@@ -137363,6 +137362,13 @@
           "target_video_id": "30987769",
           "permanent": false,
           "attempted_at": "2026-11-19T01:30:25.551443+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29809619",
+          "target_video_id": "30987769",
+          "permanent": false,
+          "attempted_at": "2026-11-19T03:29:15.542558+00:00"
         }
       ],
       "last_plan": {
@@ -137376,12 +137382,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:59:07.598557+00:00",
         "relay_source_id": "29809619"
-      },
-      "claim": {
-        "worker_id": "c7df2068843e4c3b869a63ef55a7cf64-shard-0",
-        "claimed_at": "2026-11-19T03:29:11.829889+00:00",
-        "lease_expires_at": "2026-11-19T09:29:11.829889+00:00",
-        "run_id": "44447775933"
       }
     },
     "37459": {
@@ -169634,7 +169634,7 @@
       "last_plan": {
         "source_id": "25585197",
         "display_name": "Cooking with Love SD CZ Dabing",
-        "planned_at": "2026-11-19T01:30:34.257834+00:00"
+        "planned_at": "2026-11-19T03:29:14.969028+00:00"
       },
       "previous_target_id": "31122892",
       "prepared": {
@@ -177948,7 +177948,7 @@
       "last_plan": {
         "source_id": "24188035",
         "display_name": "The Legionnaire (Il legionario) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:29:12.203717+00:00"
+        "planned_at": "2026-11-19T03:29:15.174346+00:00"
       }
     },
     "3162": {
@@ -224423,5 +224423,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T03:29:12.574054+00:00"
+  "updated_at": "2026-11-19T03:29:15.542572+00:00"
 }
