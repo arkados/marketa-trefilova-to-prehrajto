@@ -83959,13 +83959,6 @@
           "source_id": "30859189",
           "target_video_id": "30915737",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:53:29.437328+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30859189",
-          "target_video_id": "30915737",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:37:02.867115+00:00"
         },
         {
@@ -83974,6 +83967,13 @@
           "target_video_id": "30915737",
           "permanent": false,
           "attempted_at": "2026-11-19T00:07:41.863014+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30859189",
+          "target_video_id": "30915737",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:39:39.302390+00:00"
         }
       ],
       "last_plan": {
@@ -84100,7 +84100,7 @@
       "last_plan": {
         "source_id": "20559777",
         "display_name": "Mystery 101 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:07:42.520725+00:00"
+        "planned_at": "2026-11-19T01:39:37.683646+00:00"
       },
       "previous_target_id": "30916027",
       "prepared": {
@@ -84108,6 +84108,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-08T11:27:26.185912+00:00",
         "relay_source_id": "20559777"
+      },
+      "claim": {
+        "worker_id": "75bcc53f84ed4abe8e16c8eb41b69580-shard-0",
+        "claimed_at": "2026-11-19T01:39:38.653422+00:00",
+        "lease_expires_at": "2026-11-19T07:39:38.653422+00:00",
+        "run_id": "44406951430"
       }
     },
     "1954": {
@@ -177681,7 +177687,7 @@
       "last_plan": {
         "source_id": "20148452",
         "display_name": "U Turn 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:39:34.604707+00:00"
+        "planned_at": "2026-11-19T01:39:38.038401+00:00"
       }
     },
     "18402": {
@@ -224199,5 +224205,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:39:34.900550+00:00"
+  "updated_at": "2026-11-19T01:39:39.302411+00:00"
 }
