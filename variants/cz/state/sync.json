@@ -107700,13 +107700,6 @@
           "source_id": "11951859",
           "target_video_id": "30983145",
           "permanent": false,
-          "attempted_at": "2026-11-19T02:19:30.502989+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11951859",
-          "target_video_id": "30983145",
-          "permanent": false,
           "attempted_at": "2026-11-19T04:13:03.721367+00:00"
         },
         {
@@ -107715,12 +107708,19 @@
           "target_video_id": "30983145",
           "permanent": false,
           "attempted_at": "2026-11-19T05:32:02.554227+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11951859",
+          "target_video_id": "30983145",
+          "permanent": false,
+          "attempted_at": "2026-11-19T08:19:08.139150+00:00"
         }
       ],
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:56:13.741284+00:00"
+        "planned_at": "2026-11-19T08:19:04.596386+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -178675,17 +178675,33 @@
       "last_plan": {
         "source_id": "13693092",
         "display_name": "Emma (Emma.) (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T06:56:13.958968+00:00"
+        "planned_at": "2026-11-19T08:19:04.935433+00:00"
+      },
+      "claim": {
+        "worker_id": "ca2e667d48794f0a8138eef6ec73fa25-shard-0",
+        "claimed_at": "2026-11-19T08:19:06.320873+00:00",
+        "lease_expires_at": "2026-11-19T14:19:06.320873+00:00",
+        "run_id": "44451991647"
       }
     },
     "37170": {
       "attempts": []
     },
     "3261": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30199287",
+        "display_name": "Three Thousand Years of Longing 1080p CZ Dabing",
+        "planned_at": "2026-11-19T08:19:05.138598+00:00"
+      }
     },
     "3213": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34454373",
+        "display_name": "May December 720p CZ Dabing",
+        "planned_at": "2026-11-19T08:19:05.342206+00:00"
+      }
     },
     "22777": {
       "attempts": []
@@ -225046,5 +225062,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T08:09:21.401069+00:00"
+  "updated_at": "2026-11-19T08:19:08.139168+00:00"
 }
