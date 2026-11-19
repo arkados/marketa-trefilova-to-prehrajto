@@ -181681,17 +181681,19 @@
       }
     },
     "3463": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27464986",
+          "target_video_id": "31191918",
+          "permanent": false,
+          "attempted_at": "2026-11-19T23:04:38.876534+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27464986",
         "display_name": "The Imaginarium of Doctor Parnassus 1080p CZ Dabing",
         "planned_at": "2026-11-19T22:55:04.072430+00:00"
-      },
-      "claim": {
-        "worker_id": "0c3ee9bf892441b5b5038fa4de456a72-shard-0",
-        "claimed_at": "2026-11-19T22:55:05.495223+00:00",
-        "lease_expires_at": "2026-11-20T04:55:05.495223+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31191918",
       "prepared": {
@@ -227699,5 +227701,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T23:04:36.033685+00:00"
+  "updated_at": "2026-11-19T23:04:38.876553+00:00"
 }
