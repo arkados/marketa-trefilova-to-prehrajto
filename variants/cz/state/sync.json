@@ -115906,13 +115906,6 @@
           "source_id": "34380174",
           "target_video_id": "30984639",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:59:02.952354+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34380174",
-          "target_video_id": "30984639",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:19:37.169497+00:00"
         },
         {
@@ -115921,6 +115914,13 @@
           "target_video_id": "30984639",
           "permanent": false,
           "attempted_at": "2026-11-19T19:40:25.757155+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34380174",
+          "target_video_id": "30984639",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:42:25.594901+00:00"
         }
       ],
       "last_plan": {
@@ -166412,7 +166412,7 @@
       "last_plan": {
         "source_id": "30167948",
         "display_name": "The Burned Barns 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:40:25.116904+00:00"
+        "planned_at": "2026-11-19T21:42:24.073850+00:00"
       },
       "previous_target_id": "31111068",
       "prepared": {
@@ -166420,6 +166420,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-17T06:29:17.224468+00:00",
         "relay_source_id": "30167948"
+      },
+      "claim": {
+        "worker_id": "2811a9078913411e81e3b8da484b108f-shard-0",
+        "claimed_at": "2026-11-19T21:42:24.952075+00:00",
+        "lease_expires_at": "2026-11-20T03:42:24.952075+00:00",
+        "run_id": "44616581853"
       }
     },
     "7353": {
@@ -181264,7 +181270,7 @@
       "last_plan": {
         "source_id": "33806158",
         "display_name": "The Good Dinosaur 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:42:20.504518+00:00"
+        "planned_at": "2026-11-19T21:42:24.387290+00:00"
       }
     },
     "19422": {
@@ -227299,5 +227305,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:42:21.023435+00:00"
+  "updated_at": "2026-11-19T21:42:25.594920+00:00"
 }
