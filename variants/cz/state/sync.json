@@ -45802,7 +45802,7 @@
       "last_plan": {
         "source_id": "20443534",
         "display_name": "The Proposition (2005) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:20:03.375417+00:00"
+        "planned_at": "2026-11-19T18:39:45.477523+00:00"
       },
       "previous_target_id": "30871258",
       "prepared": {
@@ -45810,6 +45810,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-06T22:18:15.551292+00:00",
         "relay_source_id": "20443534"
+      },
+      "claim": {
+        "worker_id": "4f010d6d54b742668ad98c6a0c1e0b30-shard-0",
+        "claimed_at": "2026-11-19T18:39:46.252814+00:00",
+        "lease_expires_at": "2026-11-20T00:39:46.252814+00:00",
+        "run_id": "44531372417"
       }
     },
     "1104": {
@@ -127952,13 +127958,6 @@
           "source_id": "34700359",
           "target_video_id": "30986557",
           "permanent": false,
-          "attempted_at": "2026-11-19T14:14:14.191680+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34700359",
-          "target_video_id": "30986557",
-          "permanent": false,
           "attempted_at": "2026-11-19T15:45:16.789303+00:00"
         },
         {
@@ -127967,6 +127966,13 @@
           "target_video_id": "30986557",
           "permanent": false,
           "attempted_at": "2026-11-19T17:20:04.792288+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34700359",
+          "target_video_id": "30986557",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:39:46.972779+00:00"
         }
       ],
       "last_plan": {
@@ -180346,14 +180352,25 @@
       "last_plan": {
         "source_id": "34697029",
         "display_name": "Waiting... 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:39:42.570923+00:00"
+        "planned_at": "2026-11-19T18:39:45.715052+00:00"
+      },
+      "claim": {
+        "worker_id": "486496bd3b3f4185901fc84bb883a7a8-shard-0",
+        "claimed_at": "2026-11-19T18:39:46.392158+00:00",
+        "lease_expires_at": "2026-11-20T00:39:46.392158+00:00",
+        "run_id": "44531372417"
       }
     },
     "24408": {
       "attempts": []
     },
     "3321": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27463592",
+        "display_name": "Run (2020) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T18:39:45.858467+00:00"
+      }
     },
     "3169": {
       "attempts": []
@@ -226498,5 +226515,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:39:42.570944+00:00"
+  "updated_at": "2026-11-19T18:39:46.972802+00:00"
 }
