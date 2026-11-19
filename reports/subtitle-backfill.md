@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-19T12:59:21.881718+00:00
+Poslední aktualizace (UTC): 2026-11-19T12:59:28.870567+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 562, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 134, `upload_unconfirmed`: 7
+Stavy: `already_has_czech`: 563, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 133, `upload_unconfirmed`: 7
 
 ## Poslední dávka
 
@@ -178,7 +178,6 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [The Gangster, the Cop, the Devil (AgInJeon) 1080p CZ titulky](https://prehraj.to/the-gangster-the-cop-the-devil-1080p-cz-titulky-mkv/5b70f3475e836bb0) (ID 30984719) | [Sdílej 11947495](https://sdilej.cz/11947495/the-gangster-the-cop-the-devil-2019.hd1080p-cz-titulky.mkv) | target_unavailable | 2026-11-18T13:01:14.557267+00:00 |
 | [The Godfather 1080p CZ Titulky](https://prehraj.to/the-godfather-cz-titulky-mp4/5a0860210a302e5d) (ID 30594653) | [Sdílej 32106032](https://sdilej.cz/32106032/kmotr-i-czdab-fullhd-the-godfather-i-krimi-usa-1972-audio-cz-en-tit.-cz-1080p-.mp4) | upload_unconfirmed | 2026-11-18T12:42:21.582804+00:00 |
 | [The Great Hack 1080p CZ titulky](https://prehraj.to/the-great-hack-1080p-cz-titulky-mkv/876cecaca50e47a3) (ID 30986211) | [Sdílej 35468703](https://sdilej.cz/35468703/the.great.hack.2019.1080p.nf.web-dl.ddp5.1.x264-ntg.mkv) | target_unavailable | 2026-11-18T13:01:36.477350+00:00 |
-| [The Last Stop in Yuma County 1080p CZ Titulky](https://prehraj.to/the-last-stop-in-yuma-county-1080p-cz-titulky-mkv/cbd03db1f36cc17f) (ID 31012476) | [Sdílej 29064521](https://sdilej.cz/29064521/the-last-stop-in-yuma-county-2023-cztit-v-obraze-1080p.mkv) | target_unavailable | 2026-11-13T12:42:27.360943+00:00 |
 | [The Last Trapper SD CZ Titulky](https://prehraj.to/the-last-trapper-sd-cz-titulky-mkv/6a109cd9e4b3fb34) (ID 31014435) | [Sdílej 35402451](https://sdilej.cz/35402451/the-last-trapper-ac3-5-1-dvdrip-eng-2004.cz.sub.mkv) | target_unavailable | 2026-11-13T15:43:23.074230+00:00 |
 | [The Lord of the Rings: The Fellowship of the Ring 1080p CZ titulky](https://prehraj.to/the-lord-of-the-rings-the-fellowship-of-the-ring-cz-titulky-mkv/cb53362d96bdd8d4) (ID 30582771) | [Sdílej 26227362](https://sdilej.cz/26227362/the-lord-of-the-rings-the-fellowship-of-the-ring-2001-pan-prstenov-spolecenstvo-prstena-brip-cz-eng-titulky.mkv) | target_unavailable | 2026-11-18T12:41:52.617857+00:00 |
 | [The Lord of the Rings: The Return of the King 1080p CZ Titulky](https://prehraj.to/the-lord-of-the-rings-the-return-of-the-king-1080p-cz-titulky-mkv/ce0a30cc0395a983) (ID 30675719) | [Sdílej 14676847](https://sdilej.cz/14676847/the-lord-of-the-rings-the-return-of-the-king-pan-prstenov-navrat-krala-brip-cz-eng-titulky.mkv) | target_unavailable | 2026-11-18T12:51:57.027963+00:00 |
