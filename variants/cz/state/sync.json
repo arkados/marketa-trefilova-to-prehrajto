@@ -139164,7 +139164,7 @@
       "last_plan": {
         "source_id": "34898047",
         "display_name": "Ohnivé zeny mezi námi (Ohnivé ženy mezi námi) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:07:39.625861+00:00"
+        "planned_at": "2026-11-19T18:28:52.767187+00:00"
       },
       "previous_target_id": "30987922",
       "prepared": {
@@ -139172,6 +139172,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T06:48:12.289737+00:00",
         "relay_source_id": "34898047"
+      },
+      "claim": {
+        "worker_id": "be9e1d55143e4940be3b7ff0e567865a-shard-0",
+        "claimed_at": "2026-11-19T18:28:53.540564+00:00",
+        "lease_expires_at": "2026-11-20T00:28:53.540564+00:00",
+        "run_id": "44531372417"
       }
     },
     "10676": {
@@ -180229,17 +180235,19 @@
       }
     },
     "3555": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33694104",
+          "target_video_id": "31188871",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:28:54.585680+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33694104",
         "display_name": "Eden Lake 1080p CZ Dabing",
         "planned_at": "2026-11-19T18:26:04.452292+00:00"
-      },
-      "claim": {
-        "worker_id": "5886b6c2b4274a2caceb5f2250984617-shard-0",
-        "claimed_at": "2026-11-19T18:26:05.056563+00:00",
-        "lease_expires_at": "2026-11-20T00:26:05.056563+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31188871",
       "prepared": {
@@ -180260,7 +180268,7 @@
       "last_plan": {
         "source_id": "12310262",
         "display_name": "Extremely Wicked, Shockingly Evil and Vile 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:28:48.159377+00:00"
+        "planned_at": "2026-11-19T18:28:53.029149+00:00"
       }
     },
     "16070": {
@@ -226421,5 +226429,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:28:50.459349+00:00"
+  "updated_at": "2026-11-19T18:28:54.585702+00:00"
 }
