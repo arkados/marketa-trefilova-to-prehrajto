@@ -130627,13 +130627,6 @@
           "source_id": "27699157",
           "target_video_id": "30986910",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:47:34.035069+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27699157",
-          "target_video_id": "30986910",
-          "permanent": false,
           "attempted_at": "2026-11-19T18:07:10.497861+00:00"
         },
         {
@@ -130642,6 +130635,13 @@
           "target_video_id": "30986910",
           "permanent": false,
           "attempted_at": "2026-11-19T19:30:51.117395+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27699157",
+          "target_video_id": "30986910",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:29:56.272369+00:00"
         }
       ],
       "last_plan": {
@@ -180196,17 +180196,23 @@
           "attempted_at": "2026-11-19T19:30:54.052325+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "21219449",
-        "display_name": "Hardcore Henry 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:30:49.850699+00:00"
-      },
       "previous_target_id": "31188621",
-      "prepared": {
+      "upload": {
         "target_video_id": "31188621",
+        "display_name": "Hardcore Henry 1080p CZ Dabing",
+        "source_id": "21219449",
+        "source_url": "https://sdilej.cz/21219449/hardcore-henry-2015-scifi-dobrodruzny-akcni-thriller-1080p.bluray-cz-dabing.avi",
+        "source_filename": "Hardcore Henry (2015 Scifi-dobrodružný-akční-thriller-1080p.BluRay) cz dabing.avi",
         "size_bytes": 2000000000,
-        "prepared_at": "2026-11-19T18:03:16.510246+00:00",
-        "relay_source_id": "21219449"
+        "width": 1920,
+        "height": 1040,
+        "audio_language": "cs",
+        "language_probability": 0.972735583782196,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/hardcore-henry-1080p-cz-dabing-avi/196dc5e4eeab3774",
+        "uploaded_at": "2026-11-19T21:29:56.527846+00:00"
       }
     },
     "10998": {
@@ -181160,7 +181166,7 @@
       "last_plan": {
         "source_id": "31626198",
         "display_name": "The Call (2013) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:29:51.491073+00:00"
+        "planned_at": "2026-11-19T21:29:54.716186+00:00"
       }
     },
     "12420": {
@@ -227216,5 +227222,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:29:51.491091+00:00"
+  "updated_at": "2026-11-19T21:29:56.527865+00:00"
 }
