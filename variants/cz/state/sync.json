@@ -116980,13 +116980,6 @@
           "source_id": "34455392",
           "target_video_id": "30984733",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:28:32.085988+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34455392",
-          "target_video_id": "30984733",
-          "permanent": false,
           "attempted_at": "2026-11-19T02:00:22.641487+00:00"
         },
         {
@@ -116995,6 +116988,13 @@
           "target_video_id": "30984733",
           "permanent": false,
           "attempted_at": "2026-11-19T03:53:45.940273+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34455392",
+          "target_video_id": "30984733",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:13:18.577886+00:00"
         }
       ],
       "last_plan": {
@@ -118746,7 +118746,7 @@
       "last_plan": {
         "source_id": "27866187",
         "display_name": "Great Expectations (1998) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:53:47.919929+00:00"
+        "planned_at": "2026-11-19T05:13:15.241612+00:00"
       },
       "previous_target_id": "30984865",
       "prepared": {
@@ -118754,6 +118754,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T17:58:08.493272+00:00",
         "relay_source_id": "27866187"
+      },
+      "claim": {
+        "worker_id": "128f466e1d2b4dd38fc659b2b98e06e3-shard-0",
+        "claimed_at": "2026-11-19T05:13:15.812746+00:00",
+        "lease_expires_at": "2026-11-19T11:13:15.812746+00:00",
+        "run_id": "44447775933"
       }
     },
     "2985": {
@@ -178334,7 +178340,7 @@
       "last_plan": {
         "source_id": "33745748",
         "display_name": "Scanners 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:13:12.632347+00:00"
+        "planned_at": "2026-11-19T05:13:15.462476+00:00"
       }
     },
     "25895": {
@@ -224750,5 +224756,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:13:13.001088+00:00"
+  "updated_at": "2026-11-19T05:13:18.577898+00:00"
 }
