@@ -139238,13 +139238,6 @@
           "source_id": "34715447",
           "target_video_id": "30987931",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:59:18.462618+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715447",
-          "target_video_id": "30987931",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:29:13.168425+00:00"
         },
         {
@@ -139253,6 +139246,13 @@
           "target_video_id": "30987931",
           "permanent": false,
           "attempted_at": "2026-11-19T03:27:57.017991+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715447",
+          "target_video_id": "30987931",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:47:40.349564+00:00"
         }
       ],
       "last_plan": {
@@ -174611,7 +174611,7 @@
       "last_plan": {
         "source_id": "34528013",
         "display_name": "Signál 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:28:01.538384+00:00"
+        "planned_at": "2026-11-19T04:47:38.912282+00:00"
       },
       "previous_target_id": "31154894",
       "prepared": {
@@ -174619,6 +174619,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-18T15:59:07.494402+00:00",
         "relay_source_id": "34528013"
+      },
+      "claim": {
+        "worker_id": "05cd91a7a75b4ea28f446fcdd09e80dd-shard-0",
+        "claimed_at": "2026-11-19T04:47:39.537394+00:00",
+        "lease_expires_at": "2026-11-19T10:47:39.537394+00:00",
+        "run_id": "44447775933"
       }
     },
     "11369": {
@@ -178227,6 +178233,12 @@
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
         "planned_at": "2026-11-19T04:47:36.350969+00:00"
+      },
+      "claim": {
+        "worker_id": "2c54ad4aff2a429db3a4b626a15075ff-shard-0",
+        "claimed_at": "2026-11-19T04:47:38.744205+00:00",
+        "lease_expires_at": "2026-11-19T10:47:38.744205+00:00",
+        "run_id": "44447775933"
       }
     },
     "33936": {
@@ -178240,7 +178252,7 @@
       "last_plan": {
         "source_id": "34455180",
         "display_name": "Osceola 720p CZ Dabing",
-        "planned_at": "2026-11-19T04:47:36.484758+00:00"
+        "planned_at": "2026-11-19T04:47:39.134224+00:00"
       }
     },
     "3206": {
@@ -224665,5 +224677,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:47:36.484772+00:00"
+  "updated_at": "2026-11-19T04:47:40.349575+00:00"
 }
