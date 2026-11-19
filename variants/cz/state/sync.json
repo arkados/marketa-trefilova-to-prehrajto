@@ -125096,13 +125096,6 @@
           "source_id": "26655410",
           "target_video_id": "30985777",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:09:41.681491+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26655410",
-          "target_video_id": "30985777",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:38:39.468719+00:00"
         },
         {
@@ -125111,12 +125104,19 @@
           "target_video_id": "30985777",
           "permanent": false,
           "attempted_at": "2026-11-19T02:11:20.708496+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26655410",
+          "target_video_id": "30985777",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:05:49.872045+00:00"
         }
       ],
       "last_plan": {
         "source_id": "26655410",
         "display_name": "Tom of Finland 1080p CZ Dabing",
-        "planned_at": "2026-11-19T02:11:17.822226+00:00"
+        "planned_at": "2026-11-19T04:05:47.666861+00:00"
       },
       "previous_target_id": "30985777",
       "prepared": {
@@ -178083,14 +178083,25 @@
       "last_plan": {
         "source_id": "8403692",
         "display_name": "Battle of the Sexes 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:05:42.582093+00:00"
+        "planned_at": "2026-11-19T04:05:47.893811+00:00"
+      },
+      "claim": {
+        "worker_id": "f7d63fa157be488999e235165ca9fda4-shard-0",
+        "claimed_at": "2026-11-19T04:05:48.535473+00:00",
+        "lease_expires_at": "2026-11-19T10:05:48.535473+00:00",
+        "run_id": "44447775933"
       }
     },
     "30397": {
       "attempts": []
     },
     "3459": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "6910329",
+        "display_name": "Pete's Dragon 1080p CZ Dabing",
+        "planned_at": "2026-11-19T04:05:48.042972+00:00"
+      }
     },
     "3360": {
       "attempts": []
@@ -224535,5 +224546,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:05:44.767517+00:00"
+  "updated_at": "2026-11-19T04:05:49.872056+00:00"
 }
