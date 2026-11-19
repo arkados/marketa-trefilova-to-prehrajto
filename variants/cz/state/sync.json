@@ -179875,17 +179875,19 @@
       }
     },
     "25873": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33028637",
+          "target_video_id": "31187701",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:03:56.767296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33028637",
         "display_name": "Hot Rod SD CZ Dabing",
         "planned_at": "2026-11-19T17:00:34.580461+00:00"
-      },
-      "claim": {
-        "worker_id": "4e1a2d0a228d4c09a6484e1503f7f800-shard-0",
-        "claimed_at": "2026-11-19T17:00:37.742967+00:00",
-        "lease_expires_at": "2026-11-19T23:00:37.742967+00:00",
-        "run_id": "44531372417"
       },
       "previous_target_id": "31187701",
       "prepared": {
@@ -226106,5 +226108,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:03:53.812739+00:00"
+  "updated_at": "2026-11-19T17:03:56.767326+00:00"
 }
