@@ -112131,6 +112131,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T14:54:50.259665+00:00",
         "relay_source_id": "25394211"
+      },
+      "claim": {
+        "worker_id": "71190ad1aa0946909b6d6dbeeca11330-shard-0",
+        "claimed_at": "2026-11-19T21:20:34.309296+00:00",
+        "lease_expires_at": "2026-11-20T03:20:34.309296+00:00",
+        "run_id": "44616581853"
       }
     },
     "15024": {
@@ -121188,13 +121194,6 @@
           "source_id": "7542835",
           "target_video_id": "30985047",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:29:33.929974+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7542835",
-          "target_video_id": "30985047",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:59:00.191591+00:00"
         },
         {
@@ -121203,6 +121202,13 @@
           "target_video_id": "30985047",
           "permanent": false,
           "attempted_at": "2026-11-19T19:22:48.902143+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7542835",
+          "target_video_id": "30985047",
+          "permanent": false,
+          "attempted_at": "2026-11-19T21:20:34.116449+00:00"
         }
       ],
       "last_plan": {
@@ -121216,12 +121222,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T18:39:48.775751+00:00",
         "relay_source_id": "7542835"
-      },
-      "claim": {
-        "worker_id": "fcd6fcf00f06443f9c44238f9bf6f46f-shard-0",
-        "claimed_at": "2026-11-19T21:20:29.362635+00:00",
-        "lease_expires_at": "2026-11-20T03:20:29.362635+00:00",
-        "run_id": "44616581853"
       }
     },
     "22840": {
@@ -130428,7 +130428,7 @@
       "last_plan": {
         "source_id": "33698675",
         "display_name": "Homolka and Pocketbook (Homolka a tobolka) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:22:52.123857+00:00"
+        "planned_at": "2026-11-19T21:20:34.654975+00:00"
       },
       "previous_target_id": "30986899",
       "prepared": {
@@ -181103,7 +181103,7 @@
       "last_plan": {
         "source_id": "14428041",
         "display_name": "Child's Play (1988) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T21:20:30.911691+00:00"
+        "planned_at": "2026-11-19T21:20:34.965895+00:00"
       }
     },
     "14874": {
@@ -227170,5 +227170,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T21:20:30.911711+00:00"
+  "updated_at": "2026-11-19T21:20:34.965914+00:00"
 }
