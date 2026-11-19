@@ -136369,7 +136369,7 @@
       "last_plan": {
         "source_id": "31451425",
         "display_name": "Pan Tau (Pan Tau – der Film) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:10:01.168965+00:00"
+        "planned_at": "2026-11-19T20:37:33.493295+00:00"
       },
       "previous_target_id": "30987653",
       "prepared": {
@@ -136377,6 +136377,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T05:35:25.057645+00:00",
         "relay_source_id": "31451425"
+      },
+      "claim": {
+        "worker_id": "195f07ea60434126bda8a06b5b6f1ead-shard-0",
+        "claimed_at": "2026-11-19T20:37:34.282968+00:00",
+        "lease_expires_at": "2026-11-20T02:37:34.282968+00:00",
+        "run_id": "44531372417"
       }
     },
     "12620": {
@@ -180601,17 +180607,23 @@
           "attempted_at": "2026-11-19T19:09:58.654886+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "32944857",
-        "display_name": "Four Rooms 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:37:30.277281+00:00"
-      },
       "previous_target_id": "31189278",
-      "prepared": {
+      "upload": {
         "target_video_id": "31189278",
-        "size_bytes": 2394444604,
-        "prepared_at": "2026-11-19T19:06:53.900568+00:00",
-        "relay_source_id": "32944857"
+        "display_name": "Four Rooms 1080p CZ Dabing",
+        "source_id": "32944857",
+        "source_url": "https://sdilej.cz/32944857/ctyri-pokoje-1995-fhd-cz-en.mkv",
+        "source_filename": "Čtyři pokoje (1995) FHD cz en.mkv",
+        "size_bytes": 2400000000,
+        "width": 1920,
+        "height": 1032,
+        "audio_language": "cs",
+        "language_probability": 0.9975273013114929,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/four-rooms-1080p-cz-dabing-mkv/9a0baa02a5ade8f9",
+        "uploaded_at": "2026-11-19T20:37:34.593184+00:00"
       }
     },
     "11378": {
@@ -181052,7 +181064,7 @@
       "last_plan": {
         "source_id": "34724495",
         "display_name": "Out of the Furnace 720p CZ Dabing",
-        "planned_at": "2026-11-19T20:37:30.580630+00:00"
+        "planned_at": "2026-11-19T20:37:33.777489+00:00"
       }
     },
     "11739": {
@@ -227117,5 +227129,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:37:30.788447+00:00"
+  "updated_at": "2026-11-19T20:37:34.593202+00:00"
 }
