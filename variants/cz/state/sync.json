@@ -107543,13 +107543,6 @@
           "source_id": "30260482",
           "target_video_id": "30983120",
           "permanent": false,
-          "attempted_at": "2026-11-19T13:15:53.394329+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30260482",
-          "target_video_id": "30983120",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:50:17.384753+00:00"
         },
         {
@@ -107558,6 +107551,13 @@
           "target_video_id": "30983120",
           "permanent": false,
           "attempted_at": "2026-11-19T16:20:39.088702+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30260482",
+          "target_video_id": "30983120",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:51:38.830140+00:00"
         }
       ],
       "last_plan": {
@@ -107571,12 +107571,6 @@
         "size_bytes": 945400000,
         "prepared_at": "2026-11-10T13:52:31.043797+00:00",
         "relay_source_id": "30260482"
-      },
-      "claim": {
-        "worker_id": "e14d8ed740644e69837a1e34c26949b4-shard-0",
-        "claimed_at": "2026-11-19T17:51:35.191279+00:00",
-        "lease_expires_at": "2026-11-19T23:51:35.191279+00:00",
-        "run_id": "44531372417"
       }
     },
     "27006": {
@@ -136415,7 +136409,7 @@
       "last_plan": {
         "source_id": "34676204",
         "display_name": "Séfe, vrat se! (Šéfe, vrať se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:20:40.068427+00:00"
+        "planned_at": "2026-11-19T17:51:37.980830+00:00"
       },
       "previous_target_id": "30987655",
       "prepared": {
@@ -136423,6 +136417,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T05:36:18.226786+00:00",
         "relay_source_id": "34676204"
+      },
+      "claim": {
+        "worker_id": "cabeea64e4794626a573788b00d2ea27-shard-0",
+        "claimed_at": "2026-11-19T17:51:38.668172+00:00",
+        "lease_expires_at": "2026-11-19T23:51:38.668172+00:00",
+        "run_id": "44531372417"
       }
     },
     "12565": {
@@ -180027,7 +180027,7 @@
       "last_plan": {
         "source_id": "31751351",
         "display_name": "Unfaithful 1080p CZ Dabing",
-        "planned_at": "2026-11-19T17:51:34.711321+00:00"
+        "planned_at": "2026-11-19T17:51:38.225301+00:00"
       }
     },
     "3375": {
@@ -226218,5 +226218,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:51:35.692079+00:00"
+  "updated_at": "2026-11-19T17:51:38.830162+00:00"
 }
