@@ -118382,13 +118382,6 @@
           "source_id": "33745493",
           "target_video_id": "30984851",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:30:49.713363+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33745493",
-          "target_video_id": "30984851",
-          "permanent": false,
           "attempted_at": "2026-11-19T09:17:38.980947+00:00"
         },
         {
@@ -118397,6 +118390,13 @@
           "target_video_id": "30984851",
           "permanent": false,
           "attempted_at": "2026-11-19T10:56:21.593407+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33745493",
+          "target_video_id": "30984851",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:51:08.054645+00:00"
         }
       ],
       "last_plan": {
@@ -143503,7 +143503,7 @@
       "last_plan": {
         "source_id": "34683567",
         "display_name": "Sisterhood 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:56:20.878148+00:00"
+        "planned_at": "2026-11-19T12:51:06.443049+00:00"
       },
       "previous_target_id": "30988629",
       "prepared": {
@@ -143511,6 +143511,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T08:59:43.149288+00:00",
         "relay_source_id": "34683567"
+      },
+      "claim": {
+        "worker_id": "55f2e002e5b94d4b821a6267e937e449-shard-0",
+        "claimed_at": "2026-11-19T12:51:07.668321+00:00",
+        "lease_expires_at": "2026-11-19T18:51:07.668321+00:00",
+        "run_id": "44524452534"
       }
     },
     "32639": {
@@ -179362,7 +179368,7 @@
       "last_plan": {
         "source_id": "28379966",
         "display_name": "Hidalgo 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:51:03.305634+00:00"
+        "planned_at": "2026-11-19T12:51:06.846208+00:00"
       }
     },
     "15258": {
@@ -225640,5 +225646,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:51:03.600591+00:00"
+  "updated_at": "2026-11-19T12:51:08.054669+00:00"
 }
