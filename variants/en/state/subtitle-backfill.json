@@ -13,7 +13,7 @@
   "missing_detail_urls": 1,
   "next_page": 0,
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:48:35.335617+00:00",
+  "updated_at": "2026-11-19T12:57:31.016213+00:00",
   "videos": {
     "30580910": {
       "checked_at": "2026-10-28T22:47:29.080648+00:00",
@@ -12747,10 +12747,27 @@
       "title": "The Night Comes for Us 1080p CZ titulky"
     },
     "31010194": {
-      "checked_at": "2026-11-13T07:37:29.825605+00:00",
+      "checked_at": "2026-11-19T12:57:31.016046+00:00",
       "detail_url": "https://prehraj.to/goya-s-ghosts-1080p-cz-titulky-mkv/ec0601bdb13bfd2b",
-      "retry_after": "2026-11-13T08:37:29.825621+00:00",
-      "seen_at": "2026-11-19T12:38:40.779306+00:00",
+      "extraction": {
+        "bytes": 53613,
+        "format": "utf8_srt_crlf",
+        "method": "original_embedded_track",
+        "sha256": "a78e8c0fb342cc7281eb2a8f61137f8c8b114e00a4c2a58740273ce180417a53",
+        "source_codec": "subrip",
+        "source_id": "34683084",
+        "stream_index": 2
+      },
+      "intent": {
+        "before_ids": [
+          "14081329"
+        ],
+        "created_at": "2026-11-19T12:57:31.015994+00:00",
+        "filename": "cs-31010194-a78e8c0fb3.srt",
+        "sha256": "a78e8c0fb342cc7281eb2a8f61137f8c8b114e00a4c2a58740273ce180417a53"
+      },
+      "retry_after": "2026-11-19T13:57:31.016049+00:00",
+      "seen_at": "2026-11-19T12:57:31.015961+00:00",
       "source": {
         "cr_film_id": 19529,
         "height": 1038,
@@ -12760,7 +12777,7 @@
         "source_url": "https://sdilej.cz/34683084/goyovy-prizraky-drama-j.bardem-n.-portman-2006-cztit.1080p.bluray.mkv",
         "width": 1916
       },
-      "status": "target_unavailable",
+      "status": "upload_unconfirmed",
       "target_video_id": "31010194",
       "title": "Goya's Ghosts 1080p CZ Titulky"
     },
