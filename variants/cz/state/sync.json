@@ -110997,13 +110997,6 @@
           "source_id": "35067260",
           "target_video_id": "30983776",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:18:08.645175+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35067260",
-          "target_video_id": "30983776",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:49:51.246302+00:00"
         },
         {
@@ -111012,6 +111005,13 @@
           "target_video_id": "30983776",
           "permanent": false,
           "attempted_at": "2026-11-19T03:45:34.252986+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35067260",
+          "target_video_id": "30983776",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:07:14.282319+00:00"
         }
       ],
       "last_plan": {
@@ -111025,12 +111025,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T14:45:54.577022+00:00",
         "relay_source_id": "35067260"
-      },
-      "claim": {
-        "worker_id": "7246480fa2af4cdd8265dfcf7951ce44-shard-0",
-        "claimed_at": "2026-11-19T05:07:10.323299+00:00",
-        "lease_expires_at": "2026-11-19T11:07:10.323299+00:00",
-        "run_id": "44447775933"
       }
     },
     "33022": {
@@ -111071,6 +111065,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T14:46:00.062913+00:00",
         "relay_source_id": "25235773"
+      },
+      "claim": {
+        "worker_id": "8bf57acf76ec471f9e1ced238da3c37c-shard-0",
+        "claimed_at": "2026-11-19T05:07:13.592795+00:00",
+        "lease_expires_at": "2026-11-19T11:07:13.592795+00:00",
+        "run_id": "44447775933"
       }
     },
     "12876": {
@@ -149708,7 +149708,7 @@
       "last_plan": {
         "source_id": "35428437",
         "display_name": "Péril blanc 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:45:40.389430+00:00"
+        "planned_at": "2026-11-19T05:07:13.953189+00:00"
       },
       "previous_target_id": "31020067",
       "prepared": {
@@ -178313,7 +178313,7 @@
       "last_plan": {
         "source_id": "27526380",
         "display_name": "The Brave One 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:07:11.369842+00:00"
+        "planned_at": "2026-11-19T05:07:14.818457+00:00"
       }
     },
     "3262": {
@@ -224732,5 +224732,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:07:11.369857+00:00"
+  "updated_at": "2026-11-19T05:07:14.818473+00:00"
 }
