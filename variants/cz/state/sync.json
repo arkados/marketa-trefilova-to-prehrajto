@@ -108507,13 +108507,6 @@
           "source_id": "33299236",
           "target_video_id": "30983538",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:01:51.341073+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33299236",
-          "target_video_id": "30983538",
-          "permanent": false,
           "attempted_at": "2026-11-19T12:56:10.689011+00:00"
         },
         {
@@ -108522,6 +108515,13 @@
           "target_video_id": "30983538",
           "permanent": false,
           "attempted_at": "2026-11-19T14:30:27.203856+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33299236",
+          "target_video_id": "30983538",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:01:22.968504+00:00"
         }
       ],
       "last_plan": {
@@ -108567,7 +108567,7 @@
       "last_plan": {
         "source_id": "34908320",
         "display_name": "Pražská 5 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:30:26.887439+00:00"
+        "planned_at": "2026-11-19T16:01:20.805692+00:00"
       },
       "previous_target_id": "30983539",
       "prepared": {
@@ -108575,6 +108575,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T14:16:25.808778+00:00",
         "relay_source_id": "34908320"
+      },
+      "claim": {
+        "worker_id": "75f0cb12160840fc8552d7135ad28cf7-shard-0",
+        "claimed_at": "2026-11-19T16:01:21.953599+00:00",
+        "lease_expires_at": "2026-11-19T22:01:21.953599+00:00",
+        "run_id": "44524452534"
       }
     },
     "24344": {
@@ -179708,7 +179714,7 @@
       "last_plan": {
         "source_id": "29935216",
         "display_name": "Queen of the Lake (Jezerní královna) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:01:17.640092+00:00"
+        "planned_at": "2026-11-19T16:01:21.180225+00:00"
       }
     },
     "3519": {
@@ -225941,5 +225947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:01:17.926959+00:00"
+  "updated_at": "2026-11-19T16:01:22.968524+00:00"
 }
