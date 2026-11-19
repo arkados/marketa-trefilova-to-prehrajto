@@ -123124,7 +123124,7 @@
       "last_plan": {
         "source_id": "10214556",
         "display_name": "Rooster Cogburn SD CZ Dabing",
-        "planned_at": "2026-11-19T04:32:15.219261+00:00"
+        "planned_at": "2026-11-19T05:50:23.003305+00:00"
       },
       "previous_target_id": "30985503",
       "prepared": {
@@ -123132,6 +123132,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-10T19:48:14.438492+00:00",
         "relay_source_id": "10214556"
+      },
+      "claim": {
+        "worker_id": "c27c1e61eed44b84964cfbc7334d77c8-shard-0",
+        "claimed_at": "2026-11-19T05:50:23.579053+00:00",
+        "lease_expires_at": "2026-11-19T11:50:23.579053+00:00",
+        "run_id": "44447775933"
       }
     },
     "2989": {
@@ -178225,17 +178231,23 @@
           "attempted_at": "2026-11-19T04:32:10.201535+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "26499299",
-        "display_name": "The Call of the Wild (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:50:20.398080+00:00"
-      },
       "previous_target_id": "31169976",
-      "prepared": {
+      "upload": {
         "target_video_id": "31169976",
-        "size_bytes": 3159077267,
-        "prepared_at": "2026-11-19T04:21:44.443990+00:00",
-        "relay_source_id": "26499299"
+        "display_name": "The Call of the Wild (2020) 1080p CZ Dabing",
+        "source_id": "26499299",
+        "source_url": "https://sdilej.cz/26499299/volani-divociny-2020-dobrodruzny-drama-rodinny-cz-dabing.mkv",
+        "source_filename": "Volání divočiny (2020 Dobrodružný-Drama-Rodinný) Cz dabing.mkv",
+        "size_bytes": 3200000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.8872613310813904,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-call-of-the-wild-2020-1080p-cz-dabing-mkv/930d7de97cb38057",
+        "uploaded_at": "2026-11-19T05:50:24.077304+00:00"
       }
     },
     "12346": {
@@ -178508,7 +178520,7 @@
       "last_plan": {
         "source_id": "30167079",
         "display_name": "Ferdinand 4K CZ Dabing",
-        "planned_at": "2026-11-19T05:50:20.615308+00:00"
+        "planned_at": "2026-11-19T05:50:23.220662+00:00"
       }
     },
     "17535": {
@@ -224894,5 +224906,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:50:20.968311+00:00"
+  "updated_at": "2026-11-19T05:50:24.077316+00:00"
 }
