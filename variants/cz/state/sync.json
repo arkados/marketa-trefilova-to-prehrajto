@@ -142754,13 +142754,6 @@
           "source_id": "34693072",
           "target_video_id": "30988554",
           "permanent": false,
-          "attempted_at": "2026-11-19T04:41:08.828012+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693072",
-          "target_video_id": "30988554",
-          "permanent": false,
           "attempted_at": "2026-11-19T06:04:05.049990+00:00"
         },
         {
@@ -142769,12 +142762,19 @@
           "target_video_id": "30988554",
           "permanent": false,
           "attempted_at": "2026-11-19T08:54:58.491876+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693072",
+          "target_video_id": "30988554",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:29:58.823083+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34693072",
         "display_name": "Skola princu (Škola princů) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:54:53.270913+00:00"
+        "planned_at": "2026-11-19T10:29:54.787423+00:00"
       },
       "previous_target_id": "30988554",
       "prepared": {
@@ -179005,7 +179005,13 @@
       "last_plan": {
         "source_id": "34651513",
         "display_name": "Blast from the Past 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:29:45.097803+00:00"
+        "planned_at": "2026-11-19T10:29:55.148055+00:00"
+      },
+      "claim": {
+        "worker_id": "af90bf75ce4b4a63898c6333bab9b434-shard-0",
+        "claimed_at": "2026-11-19T10:29:56.609844+00:00",
+        "lease_expires_at": "2026-11-19T16:29:56.609844+00:00",
+        "run_id": "44451991647"
       }
     },
     "23720": {
@@ -179027,7 +179033,12 @@
       "attempts": []
     },
     "3313": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34477423",
+        "display_name": "21 Bridges 1080p CZ Dabing",
+        "planned_at": "2026-11-19T10:29:55.565292+00:00"
+      }
     },
     "3514": {
       "attempts": []
@@ -225334,5 +225345,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:29:50.520842+00:00"
+  "updated_at": "2026-11-19T10:29:58.823100+00:00"
 }
