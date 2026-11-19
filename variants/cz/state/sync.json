@@ -121145,7 +121145,7 @@
       "last_plan": {
         "source_id": "33786756",
         "display_name": "The Lover 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:15:20.989039+00:00"
+        "planned_at": "2026-11-19T00:43:55.684870+00:00"
       },
       "previous_target_id": "30985035",
       "prepared": {
@@ -121153,6 +121153,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T18:38:40.997248+00:00",
         "relay_source_id": "33786756"
+      },
+      "claim": {
+        "worker_id": "17ac7ce39050458db302ddfd8067da3c-shard-0",
+        "claimed_at": "2026-11-19T00:43:56.622580+00:00",
+        "lease_expires_at": "2026-11-19T06:43:56.622580+00:00",
+        "run_id": "44406951430"
       }
     },
     "3040": {
@@ -177276,17 +177282,23 @@
           "attempted_at": "2026-11-18T23:15:29.006395+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34782475",
-        "display_name": "Swimming Pool (2003) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:43:52.310835+00:00"
-      },
       "previous_target_id": "31162501",
-      "prepared": {
+      "upload": {
         "target_video_id": "31162501",
-        "size_bytes": 3312617864,
-        "prepared_at": "2026-11-18T23:07:31.434883+00:00",
-        "relay_source_id": "34782475"
+        "display_name": "Swimming Pool (2003) 1080p CZ Dabing",
+        "source_id": "34782475",
+        "source_url": "https://sdilej.cz/34782475/bazen-2003-.mp4",
+        "source_filename": "Bazén (2003).mp4",
+        "size_bytes": 3300000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9873862862586975,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/swimming-pool-2003-1080p-cz-dabing-mp4/d60e207c96310c2a",
+        "uploaded_at": "2026-11-19T00:44:00.534974+00:00"
       }
     },
     "16272": {
@@ -177517,7 +177529,7 @@
       "last_plan": {
         "source_id": "34686295",
         "display_name": "Kandagar 1080p CZ Dabing",
-        "planned_at": "2026-11-19T00:43:52.942990+00:00"
+        "planned_at": "2026-11-19T00:43:56.036963+00:00"
       }
     },
     "12014": {
@@ -224053,5 +224065,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T00:43:52.943009+00:00"
+  "updated_at": "2026-11-19T00:44:00.534992+00:00"
 }
