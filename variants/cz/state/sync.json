@@ -205,13 +205,6 @@
           "source_id": "32109285",
           "target_video_id": "30570341",
           "permanent": false,
-          "attempted_at": "2026-11-19T10:07:00.846854+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32109285",
-          "target_video_id": "30570341",
-          "permanent": false,
           "attempted_at": "2026-11-19T11:42:50.180933+00:00"
         },
         {
@@ -220,6 +213,13 @@
           "target_video_id": "30570341",
           "permanent": false,
           "attempted_at": "2026-11-19T13:32:29.603016+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32109285",
+          "target_video_id": "30570341",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:08:20.198660+00:00"
         }
       ],
       "last_plan": {
@@ -14142,7 +14142,7 @@
       "last_plan": {
         "source_id": "18888145",
         "display_name": "The Outlaw Josey Wales 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:32:27.695811+00:00"
+        "planned_at": "2026-11-19T15:08:18.253355+00:00"
       },
       "previous_target_id": "30654220",
       "prepared": {
@@ -14150,6 +14150,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-10-31T03:58:16.842735+00:00",
         "relay_source_id": "18888145"
+      },
+      "claim": {
+        "worker_id": "c136da5b1e0547698a179ef97a442350-shard-0",
+        "claimed_at": "2026-11-19T15:08:19.405236+00:00",
+        "lease_expires_at": "2026-11-19T21:08:19.405236+00:00",
+        "run_id": "44524452534"
       }
     },
     "22047": {
@@ -179584,7 +179590,7 @@
       "last_plan": {
         "source_id": "35152970",
         "display_name": "Scooby-Doo! Shaggy's Showdown 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:08:14.461069+00:00"
+        "planned_at": "2026-11-19T15:08:18.699157+00:00"
       }
     },
     "3493": {
@@ -225829,5 +225835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:08:14.461106+00:00"
+  "updated_at": "2026-11-19T15:08:20.198680+00:00"
 }
