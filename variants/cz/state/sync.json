@@ -115031,13 +115031,6 @@
           "source_id": "30198301",
           "target_video_id": "30984318",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:47:05.045946+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30198301",
-          "target_video_id": "30984318",
-          "permanent": false,
           "attempted_at": "2026-11-19T02:20:35.782926+00:00"
         },
         {
@@ -115046,12 +115039,19 @@
           "target_video_id": "30984318",
           "permanent": false,
           "attempted_at": "2026-11-19T04:14:10.017788+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30198301",
+          "target_video_id": "30984318",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:33:04.734117+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30198301",
         "display_name": "The Vow 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:14:05.960928+00:00"
+        "planned_at": "2026-11-19T05:33:02.578335+00:00"
       },
       "previous_target_id": "30984318",
       "prepared": {
@@ -178427,11 +178427,22 @@
       "last_plan": {
         "source_id": "33675429",
         "display_name": "Penelope (2006) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:32:54.604666+00:00"
+        "planned_at": "2026-11-19T05:33:02.797297+00:00"
+      },
+      "claim": {
+        "worker_id": "6cca65aeb6e744d99b8672c664443302-shard-0",
+        "claimed_at": "2026-11-19T05:33:03.408467+00:00",
+        "lease_expires_at": "2026-11-19T11:33:03.408467+00:00",
+        "run_id": "44447775933"
       }
     },
     "8476": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34046536",
+        "display_name": "Only for Tereza (Jedině Tereza) 1080p CZ Dabing",
+        "planned_at": "2026-11-19T05:33:02.927143+00:00"
+      }
     },
     "3546": {
       "attempts": []
@@ -224828,5 +224839,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:33:00.380085+00:00"
+  "updated_at": "2026-11-19T05:33:04.734128+00:00"
 }
