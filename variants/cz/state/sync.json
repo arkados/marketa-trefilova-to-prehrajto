@@ -110079,13 +110079,6 @@
           "source_id": "35067153",
           "target_video_id": "30983691",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:47:54.482648+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35067153",
-          "target_video_id": "30983691",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:17:46.961424+00:00"
         },
         {
@@ -110094,6 +110087,13 @@
           "target_video_id": "30983691",
           "permanent": false,
           "attempted_at": "2026-11-19T03:18:43.663752+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35067153",
+          "target_video_id": "30983691",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:40:29.965601+00:00"
         }
       ],
       "last_plan": {
@@ -134234,7 +134234,7 @@
       "last_plan": {
         "source_id": "34902528",
         "display_name": "Lisáci-Mysáci a Sibenicák (Lišáci – Myšáci a Šibeničák) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:18:43.064184+00:00"
+        "planned_at": "2026-11-19T04:40:28.103760+00:00"
       },
       "previous_target_id": "30987386",
       "prepared": {
@@ -134242,6 +134242,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T04:28:24.558373+00:00",
         "relay_source_id": "34902528"
+      },
+      "claim": {
+        "worker_id": "8cc5ae23148d4859bae1973f3e772fe7-shard-0",
+        "claimed_at": "2026-11-19T04:40:28.917305+00:00",
+        "lease_expires_at": "2026-11-19T10:40:28.917305+00:00",
+        "run_id": "44447775933"
       }
     },
     "30560": {
@@ -178212,7 +178218,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:40:25.909937+00:00"
+        "planned_at": "2026-11-19T04:40:28.327784+00:00"
       }
     },
     "33936": {
@@ -224646,5 +224652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:40:25.909953+00:00"
+  "updated_at": "2026-11-19T04:40:29.965613+00:00"
 }
