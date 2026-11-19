@@ -128320,13 +128320,6 @@
           "source_id": "33885910",
           "target_video_id": "30986630",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:21:05.302167+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33885910",
-          "target_video_id": "30986630",
-          "permanent": false,
           "attempted_at": "2026-11-19T00:50:18.024485+00:00"
         },
         {
@@ -128335,6 +128328,13 @@
           "target_video_id": "30986630",
           "permanent": false,
           "attempted_at": "2026-11-19T02:23:01.952752+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33885910",
+          "target_video_id": "30986630",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:16:04.220597+00:00"
         }
       ],
       "last_plan": {
@@ -128348,12 +128348,6 @@
         "size_bytes": 5900000000,
         "prepared_at": "2026-11-11T01:15:13.819260+00:00",
         "relay_source_id": "33885910"
-      },
-      "claim": {
-        "worker_id": "b25176acca464cb6ba254d745e1bbee2-shard-0",
-        "claimed_at": "2026-11-19T04:16:00.741058+00:00",
-        "lease_expires_at": "2026-11-19T10:16:00.741058+00:00",
-        "run_id": "44447775933"
       }
     },
     "30897": {
@@ -142101,7 +142095,7 @@
       "last_plan": {
         "source_id": "27874374",
         "display_name": "Together (Spolu) (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-19T02:23:01.633211+00:00"
+        "planned_at": "2026-11-19T04:16:03.483210+00:00"
       },
       "previous_target_id": "30988406",
       "prepared": {
@@ -142109,6 +142103,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T08:20:53.674997+00:00",
         "relay_source_id": "27874374"
+      },
+      "claim": {
+        "worker_id": "57dfa4b7719d4543ade26e0229600451-shard-0",
+        "claimed_at": "2026-11-19T04:16:04.064051+00:00",
+        "lease_expires_at": "2026-11-19T10:16:04.064051+00:00",
+        "run_id": "44447775933"
       }
     },
     "33115": {
@@ -178144,7 +178144,7 @@
       "last_plan": {
         "source_id": "26499299",
         "display_name": "The Call of the Wild (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:16:00.371779+00:00"
+        "planned_at": "2026-11-19T04:16:03.706220+00:00"
       }
     },
     "12346": {
@@ -224587,5 +224587,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:16:01.572777+00:00"
+  "updated_at": "2026-11-19T04:16:04.220612+00:00"
 }
