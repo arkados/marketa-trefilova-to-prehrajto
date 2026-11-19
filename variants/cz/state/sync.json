@@ -141843,13 +141843,6 @@
           "source_id": "28418103",
           "target_video_id": "30988328",
           "permanent": false,
-          "attempted_at": "2026-11-19T04:00:27.753508+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28418103",
-          "target_video_id": "30988328",
-          "permanent": false,
           "attempted_at": "2026-11-19T05:17:34.418985+00:00"
         },
         {
@@ -141858,12 +141851,19 @@
           "target_video_id": "30988328",
           "permanent": false,
           "attempted_at": "2026-11-19T06:43:57.409542+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28418103",
+          "target_video_id": "30988328",
+          "permanent": false,
+          "attempted_at": "2026-11-19T09:38:43.211816+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28418103",
         "display_name": "Vollkommen unerwartet (Rosamunde Pilcher: Vollkommen unerwartet) SD CZ Dabing",
-        "planned_at": "2026-11-19T06:43:55.472975+00:00"
+        "planned_at": "2026-11-19T09:38:39.801689+00:00"
       },
       "previous_target_id": "30988328",
       "prepared": {
@@ -178862,11 +178862,22 @@
       "last_plan": {
         "source_id": "33758527",
         "display_name": "Gold (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:38:33.804181+00:00"
+        "planned_at": "2026-11-19T09:38:40.162629+00:00"
+      },
+      "claim": {
+        "worker_id": "07d0c2fa98584876b4a5930f19faf532-shard-0",
+        "claimed_at": "2026-11-19T09:38:41.010293+00:00",
+        "lease_expires_at": "2026-11-19T15:38:41.010293+00:00",
+        "run_id": "44451991647"
       }
     },
     "3370": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11573471",
+        "display_name": "The Finest Hours 1080p CZ Dabing",
+        "planned_at": "2026-11-19T09:38:40.383002+00:00"
+      }
     },
     "23862": {
       "attempts": []
@@ -225209,5 +225220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:38:36.917149+00:00"
+  "updated_at": "2026-11-19T09:38:43.211835+00:00"
 }
