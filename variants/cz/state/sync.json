@@ -155189,13 +155189,6 @@
           "source_id": "31963280",
           "target_video_id": "31052044",
           "permanent": false,
-          "attempted_at": "2026-11-19T17:44:24.041170+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31963280",
-          "target_video_id": "31052044",
-          "permanent": false,
           "attempted_at": "2026-11-19T19:08:19.768358+00:00"
         },
         {
@@ -155204,6 +155197,13 @@
           "target_video_id": "31052044",
           "permanent": false,
           "attempted_at": "2026-11-19T20:35:34.021533+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31963280",
+          "target_video_id": "31052044",
+          "permanent": false,
+          "attempted_at": "2026-11-19T22:42:11.694259+00:00"
         }
       ],
       "last_plan": {
@@ -155217,12 +155217,6 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-15T07:16:11.092952+00:00",
         "relay_source_id": "31963280"
-      },
-      "claim": {
-        "worker_id": "8ae19ea924484f6da9898930ee272719-shard-0",
-        "claimed_at": "2026-11-19T22:41:56.416547+00:00",
-        "lease_expires_at": "2026-11-20T04:41:56.416547+00:00",
-        "run_id": "44616581853"
       }
     },
     "12345": {
@@ -181548,17 +181542,19 @@
       }
     },
     "3474": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32991102",
+          "target_video_id": "31191399",
+          "permanent": false,
+          "attempted_at": "2026-11-19T22:42:12.857934+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32991102",
         "display_name": "Death Becomes Her 4K CZ Dabing",
         "planned_at": "2026-11-19T22:19:39.490072+00:00"
-      },
-      "claim": {
-        "worker_id": "99f7ff6c94354dd392f3e8da0b71a1bd-shard-0",
-        "claimed_at": "2026-11-19T22:19:42.890049+00:00",
-        "lease_expires_at": "2026-11-20T04:19:42.890049+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31191399",
       "prepared": {
@@ -227578,5 +227574,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:42:05.628800+00:00"
+  "updated_at": "2026-11-19T22:42:12.857957+00:00"
 }
