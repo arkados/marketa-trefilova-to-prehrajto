@@ -88273,13 +88273,6 @@
           "source_id": "31439276",
           "target_video_id": "30924533",
           "permanent": false,
-          "attempted_at": "2026-11-19T12:49:37.274172+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31439276",
-          "target_video_id": "30924533",
-          "permanent": false,
           "attempted_at": "2026-11-19T14:23:45.502341+00:00"
         },
         {
@@ -88288,6 +88281,13 @@
           "target_video_id": "30924533",
           "permanent": false,
           "attempted_at": "2026-11-19T15:54:23.423261+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31439276",
+          "target_video_id": "30924533",
+          "permanent": false,
+          "attempted_at": "2026-11-19T17:27:54.883933+00:00"
         }
       ],
       "last_plan": {
@@ -163434,7 +163434,7 @@
       "last_plan": {
         "source_id": "26060946",
         "display_name": "Snow White and the Magic of the Dwarves (Schneewittchen und der Zauber der Zwerge) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:54:18.648704+00:00"
+        "planned_at": "2026-11-19T17:27:53.456496+00:00"
       },
       "previous_target_id": "31094047",
       "prepared": {
@@ -163442,6 +163442,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-16T16:12:31.667794+00:00",
         "relay_source_id": "26060946"
+      },
+      "claim": {
+        "worker_id": "262e6474b5ea40a18ade5b4cb5275ebb-shard-0",
+        "claimed_at": "2026-11-19T17:27:54.173598+00:00",
+        "lease_expires_at": "2026-11-19T23:27:54.173598+00:00",
+        "run_id": "44531372417"
       }
     },
     "32605": {
@@ -179976,7 +179982,7 @@
       "last_plan": {
         "source_id": "34347081",
         "display_name": "Midway (2019) 4K CZ Dabing",
-        "planned_at": "2026-11-19T17:27:50.877238+00:00"
+        "planned_at": "2026-11-19T17:27:53.717562+00:00"
       }
     },
     "3376": {
@@ -226173,5 +226179,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T17:27:50.877258+00:00"
+  "updated_at": "2026-11-19T17:27:54.883954+00:00"
 }
