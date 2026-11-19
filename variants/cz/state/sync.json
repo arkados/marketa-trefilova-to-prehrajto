@@ -179092,17 +179092,19 @@
       }
     },
     "3514": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16418890",
+          "target_video_id": "31180761",
+          "permanent": false,
+          "attempted_at": "2026-11-19T11:07:12.266329+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16418890",
         "display_name": "The Best of Me 1080p CZ Dabing",
         "planned_at": "2026-11-19T10:53:36.449774+00:00"
-      },
-      "claim": {
-        "worker_id": "af7675323c964b17842fac4f1a4ef593-shard-0",
-        "claimed_at": "2026-11-19T10:53:39.680393+00:00",
-        "lease_expires_at": "2026-11-19T16:53:39.680393+00:00",
-        "run_id": "44451991647"
       },
       "previous_target_id": "31180761",
       "prepared": {
@@ -225437,5 +225439,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T11:07:09.171518+00:00"
+  "updated_at": "2026-11-19T11:07:12.266351+00:00"
 }
