@@ -115917,13 +115917,6 @@
           "source_id": "32155099",
           "target_video_id": "30984640",
           "permanent": false,
-          "attempted_at": "2026-11-18T23:42:44.003792+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32155099",
-          "target_video_id": "30984640",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:12:35.245493+00:00"
         },
         {
@@ -115932,6 +115925,13 @@
           "target_video_id": "30984640",
           "permanent": false,
           "attempted_at": "2026-11-19T03:14:42.599882+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32155099",
+          "target_video_id": "30984640",
+          "permanent": false,
+          "attempted_at": "2026-11-19T04:36:26.057317+00:00"
         }
       ],
       "last_plan": {
@@ -130772,7 +130772,7 @@
       "last_plan": {
         "source_id": "30261994",
         "display_name": "Nightline (Promlčeno) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T03:14:41.232522+00:00"
+        "planned_at": "2026-11-19T04:36:24.556586+00:00"
       },
       "previous_target_id": "30986930",
       "prepared": {
@@ -130780,6 +130780,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T02:43:15.360689+00:00",
         "relay_source_id": "30261994"
+      },
+      "claim": {
+        "worker_id": "b8b4d22fdfe64a3fbf373f5234a302ab-shard-0",
+        "claimed_at": "2026-11-19T04:36:25.112824+00:00",
+        "lease_expires_at": "2026-11-19T10:36:25.112824+00:00",
+        "run_id": "44447775933"
       }
     },
     "13847": {
@@ -178212,7 +178218,7 @@
       "last_plan": {
         "source_id": "34964861",
         "display_name": "Ordinary Failures (Běžná selhání) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T04:36:22.056560+00:00"
+        "planned_at": "2026-11-19T04:36:24.774393+00:00"
       }
     },
     "33936": {
@@ -224646,5 +224652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T04:36:22.305266+00:00"
+  "updated_at": "2026-11-19T04:36:26.057329+00:00"
 }
