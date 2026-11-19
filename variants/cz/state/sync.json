@@ -12473,13 +12473,6 @@
           "source_id": "32043793",
           "target_video_id": "30647758",
           "permanent": false,
-          "attempted_at": "2026-11-18T20:32:52.178437+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32043793",
-          "target_video_id": "30647758",
-          "permanent": false,
           "attempted_at": "2026-11-18T22:04:46.607582+00:00"
         },
         {
@@ -12488,6 +12481,13 @@
           "target_video_id": "30647758",
           "permanent": false,
           "attempted_at": "2026-11-18T23:48:14.355127+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32043793",
+          "target_video_id": "30647758",
+          "permanent": false,
+          "attempted_at": "2026-11-19T01:18:12.886401+00:00"
         }
       ],
       "last_plan": {
@@ -135345,7 +135345,7 @@
       "last_plan": {
         "source_id": "35068765",
         "display_name": "Veronika, proste Nika (Veronika, prostě Nika) 1080p CZ Dabing",
-        "planned_at": "2026-11-18T23:48:14.109321+00:00"
+        "planned_at": "2026-11-19T01:18:10.981072+00:00"
       },
       "previous_target_id": "30987562",
       "prepared": {
@@ -135353,6 +135353,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T05:12:28.986309+00:00",
         "relay_source_id": "35068765"
+      },
+      "claim": {
+        "worker_id": "38d65709f826400ab42cfb1c30ecd27f-shard-0",
+        "claimed_at": "2026-11-19T01:18:11.960576+00:00",
+        "lease_expires_at": "2026-11-19T07:18:11.960576+00:00",
+        "run_id": "44406951430"
       }
     },
     "13853": {
@@ -177658,7 +177664,7 @@
       "last_plan": {
         "source_id": "13473874",
         "display_name": "Se mi lasci non vale 1080p CZ Dabing",
-        "planned_at": "2026-11-19T01:18:07.661144+00:00"
+        "planned_at": "2026-11-19T01:18:11.337277+00:00"
       }
     },
     "12409": {
@@ -224179,5 +224185,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:18:07.661162+00:00"
+  "updated_at": "2026-11-19T01:18:12.886422+00:00"
 }
