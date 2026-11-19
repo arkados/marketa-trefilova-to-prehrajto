@@ -80595,7 +80595,7 @@
       "last_plan": {
         "source_id": "28771706",
         "display_name": "Waitress 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:31:36.523381+00:00"
+        "planned_at": "2026-11-19T12:05:49.108622+00:00"
       },
       "previous_target_id": "30899097",
       "prepared": {
@@ -80603,6 +80603,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-07T21:32:39.846982+00:00",
         "relay_source_id": "28771706"
+      },
+      "claim": {
+        "worker_id": "a3231658535d412db263eccefe67a77c-shard-0",
+        "claimed_at": "2026-11-19T12:05:50.651517+00:00",
+        "lease_expires_at": "2026-11-19T18:05:50.651517+00:00",
+        "run_id": "44451991647"
       }
     },
     "2305": {
@@ -116440,13 +116446,6 @@
           "source_id": "33594906",
           "target_video_id": "30984670",
           "permanent": false,
-          "attempted_at": "2026-11-19T06:05:12.411623+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33594906",
-          "target_video_id": "30984670",
-          "permanent": false,
           "attempted_at": "2026-11-19T08:56:01.953919+00:00"
         },
         {
@@ -116455,6 +116454,13 @@
           "target_video_id": "30984670",
           "permanent": false,
           "attempted_at": "2026-11-19T10:31:34.156154+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33594906",
+          "target_video_id": "30984670",
+          "permanent": false,
+          "attempted_at": "2026-11-19T12:05:50.923174+00:00"
         }
       ],
       "last_plan": {
@@ -179243,11 +179249,22 @@
       "last_plan": {
         "source_id": "34737394",
         "display_name": "High Tension (Haute tension) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T12:05:45.936909+00:00"
+        "planned_at": "2026-11-19T12:05:49.463852+00:00"
+      },
+      "claim": {
+        "worker_id": "2735245573d0479e8aa409fd1d362766-shard-0",
+        "claimed_at": "2026-11-19T12:05:50.438149+00:00",
+        "lease_expires_at": "2026-11-19T18:05:50.438149+00:00",
+        "run_id": "44451991647"
       }
     },
     "20046": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29238534",
+        "display_name": "A Most Wanted Man 1080p CZ Dabing",
+        "planned_at": "2026-11-19T12:05:49.727663+00:00"
+      }
     },
     "14301": {
       "attempts": []
@@ -225536,5 +225553,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T12:05:45.936926+00:00"
+  "updated_at": "2026-11-19T12:05:50.923196+00:00"
 }
