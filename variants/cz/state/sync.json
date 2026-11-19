@@ -89910,13 +89910,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-19T05:02:23.151709+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-19T06:30:15.714629+00:00"
         },
         {
@@ -89925,6 +89918,13 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-19T09:16:49.657642+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:55:34.875366+00:00"
         }
       ],
       "last_plan": {
@@ -141598,7 +141598,7 @@
       "last_plan": {
         "source_id": "34694069",
         "display_name": "Na dvore je kun, séfe! (Na dvoře je kůň, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T09:16:51.020501+00:00"
+        "planned_at": "2026-11-19T10:55:32.949759+00:00"
       },
       "previous_target_id": "30988245",
       "prepared": {
@@ -141606,6 +141606,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:57:46.666018+00:00",
         "relay_source_id": "34694069"
+      },
+      "claim": {
+        "worker_id": "1090a6b4a6a3487eaa4ae9b3442b8728-shard-0",
+        "claimed_at": "2026-11-19T10:55:34.059367+00:00",
+        "lease_expires_at": "2026-11-19T16:55:34.059367+00:00",
+        "run_id": "44451991647"
       }
     },
     "17285": {
@@ -179099,7 +179105,7 @@
       "last_plan": {
         "source_id": "32998733",
         "display_name": "The Gift (2000) 4K CZ Dabing",
-        "planned_at": "2026-11-19T10:55:29.842102+00:00"
+        "planned_at": "2026-11-19T10:55:33.323604+00:00"
       }
     },
     "3318": {
@@ -225401,5 +225407,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:55:30.130324+00:00"
+  "updated_at": "2026-11-19T10:55:34.875385+00:00"
 }
