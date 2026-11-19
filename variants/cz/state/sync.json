@@ -112086,7 +112086,7 @@
       "last_plan": {
         "source_id": "34903816",
         "display_name": "The Princess and the Pirate: Sandokan the TV Movie SD CZ Dabing",
-        "planned_at": "2026-11-19T17:58:38.791461+00:00"
+        "planned_at": "2026-11-19T19:22:29.590379+00:00"
       },
       "previous_target_id": "30983828",
       "prepared": {
@@ -112094,6 +112094,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T14:54:38.256137+00:00",
         "relay_source_id": "34903816"
+      },
+      "claim": {
+        "worker_id": "40a834a5337e42d688214ef531eeface-shard-0",
+        "claimed_at": "2026-11-19T19:22:30.367327+00:00",
+        "lease_expires_at": "2026-11-20T01:22:30.367327+00:00",
+        "run_id": "44531372417"
       }
     },
     "11021": {
@@ -180118,17 +180124,23 @@
           "attempted_at": "2026-11-19T17:58:44.002011+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31751351",
-        "display_name": "Unfaithful 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:22:25.401270+00:00"
-      },
       "previous_target_id": "31188534",
-      "prepared": {
+      "upload": {
         "target_video_id": "31188534",
-        "size_bytes": 2475651554,
-        "prepared_at": "2026-11-19T17:55:24.052138+00:00",
-        "relay_source_id": "31751351"
+        "display_name": "Unfaithful 1080p CZ Dabing",
+        "source_id": "31751351",
+        "source_url": "https://sdilej.cz/31751351/neverna-2002-thriller-usa-nemecko-czdab-1080p.mkv",
+        "source_filename": "Nevěrná (2002) thriller USA-Německo CZdab 1080p.mkv",
+        "size_bytes": 2500000000,
+        "width": 1920,
+        "height": 1040,
+        "audio_language": "cs",
+        "language_probability": 0.9754437804222107,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/unfaithful-1080p-cz-dabing-mkv/29a19f5024654556",
+        "uploaded_at": "2026-11-19T19:22:31.463638+00:00"
       }
     },
     "3375": {
@@ -180579,7 +180591,7 @@
       "last_plan": {
         "source_id": "31626861",
         "display_name": "Doubles (Dvojníci) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:22:25.689671+00:00"
+        "planned_at": "2026-11-19T19:22:29.849821+00:00"
       }
     },
     "21722": {
@@ -226695,5 +226707,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:22:26.100843+00:00"
+  "updated_at": "2026-11-19T19:22:31.463656+00:00"
 }
