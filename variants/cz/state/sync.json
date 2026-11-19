@@ -113044,7 +113044,7 @@
       "last_plan": {
         "source_id": "29707305",
         "display_name": "Bretislav a Jitka (Břetislav a Jitka) SD CZ Dabing",
-        "planned_at": "2026-11-19T13:57:40.692058+00:00"
+        "planned_at": "2026-11-19T15:30:39.950159+00:00"
       },
       "previous_target_id": "30983950",
       "prepared": {
@@ -113052,6 +113052,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T15:06:52.143201+00:00",
         "relay_source_id": "29707305"
+      },
+      "claim": {
+        "worker_id": "856a12ddbf014708a02ce23ac92ad23f-shard-0",
+        "claimed_at": "2026-11-19T15:30:41.675495+00:00",
+        "lease_expires_at": "2026-11-19T21:30:41.675495+00:00",
+        "run_id": "44524452534"
       }
     },
     "36907": {
@@ -179594,17 +179600,19 @@
       "attempts": []
     },
     "3909": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35152970",
+          "target_video_id": "31185634",
+          "permanent": false,
+          "attempted_at": "2026-11-19T15:30:43.739248+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35152970",
         "display_name": "Scooby-Doo! Shaggy's Showdown 1080p CZ Dabing",
         "planned_at": "2026-11-19T15:12:51.921201+00:00"
-      },
-      "claim": {
-        "worker_id": "62a5918eb47b401bb7639a1882703efd-shard-0",
-        "claimed_at": "2026-11-19T15:12:55.106987+00:00",
-        "lease_expires_at": "2026-11-19T21:12:55.106987+00:00",
-        "run_id": "44524452534"
       },
       "previous_target_id": "31185634",
       "prepared": {
@@ -179619,7 +179627,7 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T15:30:32.520827+00:00"
+        "planned_at": "2026-11-19T15:30:40.500116+00:00"
       }
     },
     "3312": {
@@ -225861,5 +225869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T15:30:35.353553+00:00"
+  "updated_at": "2026-11-19T15:30:43.739266+00:00"
 }
