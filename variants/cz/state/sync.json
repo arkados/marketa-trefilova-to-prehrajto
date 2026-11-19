@@ -179849,6 +179849,14 @@
           "target_video_id": "31187366",
           "permanent": false,
           "attempted_at": "2026-11-19T16:43:19.622906+00:00"
+        },
+        {
+          "status": "target_requires_review",
+          "source_id": "31222466",
+          "target_video_id": "31187366",
+          "reason": "Prepared video is absent from uploaded listing",
+          "permanent": false,
+          "attempted_at": "2026-11-19T18:06:23.344736+00:00"
         }
       ],
       "last_plan": {
@@ -179856,19 +179864,7 @@
         "display_name": "Black Bag 4K CZ Dabing",
         "planned_at": "2026-11-19T18:06:15.376258+00:00"
       },
-      "previous_target_id": "31187366",
-      "prepared": {
-        "target_video_id": "31187366",
-        "size_bytes": 4313574603,
-        "prepared_at": "2026-11-19T16:34:16.496412+00:00",
-        "relay_source_id": "31222466"
-      },
-      "claim": {
-        "worker_id": "d85513be54d44a369e48ca3b9ed03797-shard-0",
-        "claimed_at": "2026-11-19T18:06:16.077863+00:00",
-        "lease_expires_at": "2026-11-20T00:06:16.077863+00:00",
-        "run_id": "44531372417"
-      }
+      "previous_target_id": "31187366"
     },
     "3174": {
       "attempts": [
@@ -226291,5 +226287,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T18:06:21.162062+00:00"
+  "updated_at": "2026-11-19T18:06:23.344760+00:00"
 }
