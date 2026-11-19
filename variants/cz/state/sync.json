@@ -136720,7 +136720,7 @@
       "last_plan": {
         "source_id": "34756332",
         "display_name": "Sharks and Little Fish (Haie und kleine Fische) SD CZ Dabing",
-        "planned_at": "2026-11-19T05:40:28.691206+00:00"
+        "planned_at": "2026-11-19T08:30:34.513605+00:00"
       },
       "previous_target_id": "30987705",
       "prepared": {
@@ -136728,6 +136728,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T05:43:58.500619+00:00",
         "relay_source_id": "34756332"
+      },
+      "claim": {
+        "worker_id": "54f45562773141fc9e63140b8152ab87-shard-0",
+        "claimed_at": "2026-11-19T08:30:35.724737+00:00",
+        "lease_expires_at": "2026-11-19T14:30:35.724737+00:00",
+        "run_id": "44451991647"
       }
     },
     "33622": {
@@ -178516,17 +178522,23 @@
           "attempted_at": "2026-11-19T05:40:30.800377+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "33675429",
-        "display_name": "Penelope (2006) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:30:31.019228+00:00"
-      },
       "previous_target_id": "31171506",
-      "prepared": {
+      "upload": {
         "target_video_id": "31171506",
-        "size_bytes": 2554330728,
-        "prepared_at": "2026-11-19T05:33:06.990412+00:00",
-        "relay_source_id": "33675429"
+        "display_name": "Penelope (2006) 1080p CZ Dabing",
+        "source_id": "33675429",
+        "source_url": "https://sdilej.cz/33675429/penelope-2006-fhd-cz-en.mkv",
+        "source_filename": "Penelope (2006) FHD cz en.mkv",
+        "size_bytes": 2600000000,
+        "width": 1920,
+        "height": 800,
+        "audio_language": "cs",
+        "language_probability": 0.9652767181396484,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/penelope-2006-1080p-cz-dabing-mkv/e4deacd32ed84771",
+        "uploaded_at": "2026-11-19T08:30:35.985380+00:00"
       }
     },
     "8476": {
@@ -178705,7 +178717,7 @@
       "last_plan": {
         "source_id": "30199287",
         "display_name": "Three Thousand Years of Longing 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:30:31.379934+00:00"
+        "planned_at": "2026-11-19T08:30:34.872331+00:00"
       }
     },
     "3213": {
@@ -225075,5 +225087,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T08:30:31.680431+00:00"
+  "updated_at": "2026-11-19T08:30:35.985401+00:00"
 }
