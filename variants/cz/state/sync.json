@@ -14761,13 +14761,6 @@
           "source_id": "32500310",
           "target_video_id": "30657182",
           "permanent": false,
-          "attempted_at": "2026-11-19T04:40:56.322497+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32500310",
-          "target_video_id": "30657182",
-          "permanent": false,
           "attempted_at": "2026-11-19T06:03:47.689814+00:00"
         },
         {
@@ -14776,6 +14769,13 @@
           "target_video_id": "30657182",
           "permanent": false,
           "attempted_at": "2026-11-19T08:54:40.580840+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32500310",
+          "target_video_id": "30657182",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:29:38.659421+00:00"
         }
       ],
       "last_plan": {
@@ -141009,7 +141009,7 @@
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-19T08:54:38.887503+00:00"
+        "planned_at": "2026-11-19T10:29:37.035614+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -141017,6 +141017,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T07:42:12.868116+00:00",
         "relay_source_id": "32763044"
+      },
+      "claim": {
+        "worker_id": "9738266d24c84fa0b594e2847f167574-shard-0",
+        "claimed_at": "2026-11-19T10:29:38.185608+00:00",
+        "lease_expires_at": "2026-11-19T16:29:38.185608+00:00",
+        "run_id": "44451991647"
       }
     },
     "34825": {
@@ -179005,7 +179011,7 @@
       "last_plan": {
         "source_id": "34651513",
         "display_name": "Blast from the Past 1080p CZ Dabing",
-        "planned_at": "2026-11-19T10:29:34.094188+00:00"
+        "planned_at": "2026-11-19T10:29:37.403990+00:00"
       }
     },
     "23720": {
@@ -225334,5 +225340,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:29:34.094205+00:00"
+  "updated_at": "2026-11-19T10:29:38.659440+00:00"
 }
