@@ -142754,13 +142754,6 @@
           "source_id": "34693072",
           "target_video_id": "30988554",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:28:20.938043+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693072",
-          "target_video_id": "30988554",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:05:05.008416+00:00"
         },
         {
@@ -142769,12 +142762,19 @@
           "target_video_id": "30988554",
           "permanent": false,
           "attempted_at": "2026-11-19T18:25:31.232651+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693072",
+          "target_video_id": "30988554",
+          "permanent": false,
+          "attempted_at": "2026-11-19T19:48:39.447599+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34693072",
         "display_name": "Skola princu (Škola princů) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:25:28.540019+00:00"
+        "planned_at": "2026-11-19T19:48:37.202549+00:00"
       },
       "previous_target_id": "30988554",
       "prepared": {
@@ -180721,11 +180721,22 @@
       "last_plan": {
         "source_id": "29682514",
         "display_name": "Safe Haven 1080p CZ Dabing",
-        "planned_at": "2026-11-19T19:48:32.789205+00:00"
+        "planned_at": "2026-11-19T19:48:37.446689+00:00"
+      },
+      "claim": {
+        "worker_id": "49f82d0a4f684a02866f7fb6c3200fbc-shard-0",
+        "claimed_at": "2026-11-19T19:48:38.212158+00:00",
+        "lease_expires_at": "2026-11-20T01:48:38.212158+00:00",
+        "run_id": "44531372417"
       }
     },
     "3276": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34520447",
+        "display_name": "Violent Night 4K CZ Dabing",
+        "planned_at": "2026-11-19T19:48:37.608587+00:00"
+      }
     },
     "22202": {
       "attempts": []
@@ -226822,5 +226833,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T19:48:34.704935+00:00"
+  "updated_at": "2026-11-19T19:48:39.447624+00:00"
 }
