@@ -133883,13 +133883,6 @@
           "source_id": "27788170",
           "target_video_id": "30987333",
           "permanent": false,
-          "attempted_at": "2026-11-19T02:19:41.713346+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27788170",
-          "target_video_id": "30987333",
-          "permanent": false,
           "attempted_at": "2026-11-19T04:13:26.299202+00:00"
         },
         {
@@ -133898,6 +133891,13 @@
           "target_video_id": "30987333",
           "permanent": false,
           "attempted_at": "2026-11-19T05:32:17.775176+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27788170",
+          "target_video_id": "30987333",
+          "permanent": false,
+          "attempted_at": "2026-11-19T08:22:11.254637+00:00"
         }
       ],
       "last_plan": {
@@ -140208,7 +140208,7 @@
       "last_plan": {
         "source_id": "34668881",
         "display_name": "D2: Train to the End of the World (D2 – Vlakem až na konec světa) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:32:17.257798+00:00"
+        "planned_at": "2026-11-19T08:22:09.295388+00:00"
       },
       "previous_target_id": "30988044",
       "prepared": {
@@ -140216,6 +140216,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T07:21:06.525556+00:00",
         "relay_source_id": "34668881"
+      },
+      "claim": {
+        "worker_id": "0fa225de8e9d4b5cb1a0f8011cbcdf4c-shard-0",
+        "claimed_at": "2026-11-19T08:22:10.349789+00:00",
+        "lease_expires_at": "2026-11-19T14:22:10.349789+00:00",
+        "run_id": "44451991647"
       }
     },
     "33968": {
@@ -178699,7 +178705,7 @@
       "last_plan": {
         "source_id": "30199287",
         "display_name": "Three Thousand Years of Longing 1080p CZ Dabing",
-        "planned_at": "2026-11-19T08:22:06.470037+00:00"
+        "planned_at": "2026-11-19T08:22:09.659162+00:00"
       }
     },
     "3213": {
@@ -225069,5 +225075,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T08:22:06.470053+00:00"
+  "updated_at": "2026-11-19T08:22:11.254654+00:00"
 }
