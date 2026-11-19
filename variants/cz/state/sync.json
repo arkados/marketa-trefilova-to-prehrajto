@@ -113550,13 +113550,6 @@
           "source_id": "31008000",
           "target_video_id": "30984042",
           "permanent": false,
-          "attempted_at": "2026-11-19T16:04:12.841810+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31008000",
-          "target_video_id": "30984042",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:36:32.263022+00:00"
         },
         {
@@ -113565,12 +113558,19 @@
           "target_video_id": "30984042",
           "permanent": false,
           "attempted_at": "2026-11-19T18:58:53.393327+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31008000",
+          "target_video_id": "30984042",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:25:20.457686+00:00"
         }
       ],
       "last_plan": {
         "source_id": "31008000",
         "display_name": "Signs 4K CZ Dabing",
-        "planned_at": "2026-11-19T18:58:47.836601+00:00"
+        "planned_at": "2026-11-19T20:25:17.153878+00:00"
       },
       "previous_target_id": "30984042",
       "prepared": {
@@ -180964,11 +180964,22 @@
       "last_plan": {
         "source_id": "30193982",
         "display_name": "The Other Boleyn Girl 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:25:10.970339+00:00"
+        "planned_at": "2026-11-19T20:25:17.547133+00:00"
+      },
+      "claim": {
+        "worker_id": "85b639c368734a97978d2155c2448d86-shard-0",
+        "claimed_at": "2026-11-19T20:25:18.644555+00:00",
+        "lease_expires_at": "2026-11-20T02:25:18.644555+00:00",
+        "run_id": "44531372417"
       }
     },
     "25431": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34901168",
+        "display_name": "Just like Heaven 4K CZ Dabing",
+        "planned_at": "2026-11-19T20:25:17.732483+00:00"
+      }
     },
     "3506": {
       "attempts": []
@@ -227038,5 +227049,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:25:14.025749+00:00"
+  "updated_at": "2026-11-19T20:25:20.457707+00:00"
 }
