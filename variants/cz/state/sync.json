@@ -110840,13 +110840,6 @@
           "source_id": "32367221",
           "target_video_id": "30983754",
           "permanent": false,
-          "attempted_at": "2026-11-19T01:47:54.663858+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32367221",
-          "target_video_id": "30983754",
-          "permanent": false,
           "attempted_at": "2026-11-19T03:43:35.743601+00:00"
         },
         {
@@ -110855,12 +110848,19 @@
           "target_video_id": "30983754",
           "permanent": false,
           "attempted_at": "2026-11-19T05:05:11.806541+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32367221",
+          "target_video_id": "30983754",
+          "permanent": false,
+          "attempted_at": "2026-11-19T06:32:42.070348+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32367221",
         "display_name": "Oznamuje se láskám vasim (Oznamuje se láskám vašim) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:05:09.851919+00:00"
+        "planned_at": "2026-11-19T06:32:39.911303+00:00"
       },
       "previous_target_id": "30983754",
       "prepared": {
@@ -139608,6 +139608,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T07:01:26.061668+00:00",
         "relay_source_id": "34713910"
+      },
+      "claim": {
+        "worker_id": "0e2a97e0be554608aa29f3a35f0d3765-shard-0",
+        "claimed_at": "2026-11-19T06:32:39.732108+00:00",
+        "lease_expires_at": "2026-11-19T12:32:39.732108+00:00",
+        "run_id": "44447775933"
       }
     },
     "33296": {
@@ -178599,7 +178605,7 @@
       "last_plan": {
         "source_id": "17541643",
         "display_name": "Jungle 4K CZ Dabing",
-        "planned_at": "2026-11-19T06:32:37.298386+00:00"
+        "planned_at": "2026-11-19T06:32:40.142701+00:00"
       }
     },
     "3367": {
@@ -224973,5 +224979,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T06:32:37.570333+00:00"
+  "updated_at": "2026-11-19T06:32:42.070362+00:00"
 }
