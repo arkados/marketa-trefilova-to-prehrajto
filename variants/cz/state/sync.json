@@ -163966,13 +163966,6 @@
           "source_id": "33734079",
           "target_video_id": "31095813",
           "permanent": false,
-          "attempted_at": "2026-11-19T15:38:53.918511+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33734079",
-          "target_video_id": "31095813",
-          "permanent": false,
           "attempted_at": "2026-11-19T17:14:20.931920+00:00"
         },
         {
@@ -163981,6 +163974,13 @@
           "target_video_id": "31095813",
           "permanent": false,
           "attempted_at": "2026-11-19T18:36:39.159049+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33734079",
+          "target_video_id": "31095813",
+          "permanent": false,
+          "attempted_at": "2026-11-19T20:01:01.257801+00:00"
         }
       ],
       "last_plan": {
@@ -179726,7 +179726,7 @@
       "last_plan": {
         "source_id": "26982434",
         "display_name": "Backdraft 1080p CZ Dabing",
-        "planned_at": "2026-11-19T18:36:37.759733+00:00"
+        "planned_at": "2026-11-19T20:00:59.146601+00:00"
       },
       "previous_target_id": "31186101",
       "prepared": {
@@ -179734,6 +179734,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-19T15:30:57.059508+00:00",
         "relay_source_id": "26982434"
+      },
+      "claim": {
+        "worker_id": "b20623410892458d9d9612257c7598cb-shard-0",
+        "claimed_at": "2026-11-19T20:01:00.412262+00:00",
+        "lease_expires_at": "2026-11-20T02:01:00.412262+00:00",
+        "run_id": "44531372417"
       }
     },
     "3312": {
@@ -180806,7 +180812,7 @@
       "last_plan": {
         "source_id": "33690430",
         "display_name": "The Man with the Golden Gun 1080p CZ Dabing",
-        "planned_at": "2026-11-19T20:00:55.750603+00:00"
+        "planned_at": "2026-11-19T20:00:59.507169+00:00"
       }
     },
     "25262": {
@@ -226901,5 +226907,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:00:56.109790+00:00"
+  "updated_at": "2026-11-19T20:01:01.257822+00:00"
 }
