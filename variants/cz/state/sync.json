@@ -142084,7 +142084,7 @@
       "last_plan": {
         "source_id": "11688648",
         "display_name": "Boys from the Mountains (Kluci z hor) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T13:22:42.979840+00:00"
+        "planned_at": "2026-11-19T14:58:03.643494+00:00"
       },
       "previous_target_id": "30988399",
       "prepared": {
@@ -142092,6 +142092,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T08:19:58.351724+00:00",
         "relay_source_id": "11688648"
+      },
+      "claim": {
+        "worker_id": "175a0a1030094873bb950b2f3354493c-shard-0",
+        "claimed_at": "2026-11-19T14:58:04.760138+00:00",
+        "lease_expires_at": "2026-11-19T20:58:04.760138+00:00",
+        "run_id": "44524452534"
       }
     },
     "15645": {
@@ -179554,17 +179560,19 @@
       "attempts": []
     },
     "27883": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34014132",
+          "target_video_id": "31185333",
+          "permanent": false,
+          "attempted_at": "2026-11-19T14:58:05.052777+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34014132",
         "display_name": "Kangaroo 1080p CZ Dabing",
         "planned_at": "2026-11-19T14:54:33.506827+00:00"
-      },
-      "claim": {
-        "worker_id": "a48a41e55a10425d83b6aa9cb62a6090-shard-0",
-        "claimed_at": "2026-11-19T14:54:34.621863+00:00",
-        "lease_expires_at": "2026-11-19T20:54:34.621863+00:00",
-        "run_id": "44524452534"
       },
       "previous_target_id": "31185333",
       "prepared": {
@@ -179582,7 +179590,7 @@
       "last_plan": {
         "source_id": "35152970",
         "display_name": "Scooby-Doo! Shaggy's Showdown 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:57:59.245031+00:00"
+        "planned_at": "2026-11-19T14:58:04.024478+00:00"
       }
     },
     "3493": {
@@ -225827,5 +225835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T14:58:01.345156+00:00"
+  "updated_at": "2026-11-19T14:58:05.052798+00:00"
 }
