@@ -115610,13 +115610,6 @@
           "source_id": "30985526",
           "target_video_id": "30984610",
           "permanent": false,
-          "attempted_at": "2026-11-19T11:26:34.735246+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30985526",
-          "target_video_id": "30984610",
-          "permanent": false,
           "attempted_at": "2026-11-19T13:16:51.576506+00:00"
         },
         {
@@ -115625,12 +115618,19 @@
           "target_video_id": "30984610",
           "permanent": false,
           "attempted_at": "2026-11-19T14:51:25.987304+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30985526",
+          "target_video_id": "30984610",
+          "permanent": false,
+          "attempted_at": "2026-11-19T16:21:42.637601+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30985526",
         "display_name": "Speak No Evil (2024) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T14:51:20.461207+00:00"
+        "planned_at": "2026-11-19T16:21:39.035047+00:00"
       },
       "previous_target_id": "30984610",
       "prepared": {
@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "e7c9579ddc594522a94b019442ddea0d-shard-0",
+        "claimed_at": "2026-11-19T16:21:38.749352+00:00",
+        "lease_expires_at": "2026-11-19T22:21:38.749352+00:00",
+        "run_id": "44524452534"
       }
     },
     "12374": {
@@ -179763,7 +179769,7 @@
       "last_plan": {
         "source_id": "15241925",
         "display_name": "Qu'un sang impur... 1080p CZ Dabing",
-        "planned_at": "2026-11-19T16:21:35.922514+00:00"
+        "planned_at": "2026-11-19T16:21:39.409695+00:00"
       }
     },
     "3185": {
@@ -225987,5 +225993,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T16:21:35.922532+00:00"
+  "updated_at": "2026-11-19T16:21:42.637621+00:00"
 }
