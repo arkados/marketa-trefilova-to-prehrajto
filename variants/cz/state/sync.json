@@ -118783,7 +118783,7 @@
       "last_plan": {
         "source_id": "34651094",
         "display_name": "Rendition 720p CZ Dabing",
-        "planned_at": "2026-11-19T03:53:10.020420+00:00"
+        "planned_at": "2026-11-19T05:12:43.376738+00:00"
       },
       "previous_target_id": "30984866",
       "prepared": {
@@ -118791,6 +118791,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:58:19.721107+00:00",
         "relay_source_id": "34651094"
+      },
+      "claim": {
+        "worker_id": "777550659961432abba953f159e8f693-shard-0",
+        "claimed_at": "2026-11-19T05:12:43.961053+00:00",
+        "lease_expires_at": "2026-11-19T11:12:43.961053+00:00",
+        "run_id": "44447775933"
       }
     },
     "11942": {
@@ -168428,13 +168434,6 @@
           "source_id": "12938278",
           "target_video_id": "31118529",
           "permanent": false,
-          "attempted_at": "2026-11-19T00:26:54.367016+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12938278",
-          "target_video_id": "31118529",
-          "permanent": false,
           "attempted_at": "2026-11-19T01:59:45.630312+00:00"
         },
         {
@@ -168443,6 +168442,13 @@
           "target_video_id": "31118529",
           "permanent": false,
           "attempted_at": "2026-11-19T03:53:02.717435+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12938278",
+          "target_video_id": "31118529",
+          "permanent": false,
+          "attempted_at": "2026-11-19T05:12:47.209115+00:00"
         }
       ],
       "last_plan": {
@@ -168456,12 +168462,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-17T12:45:23.469542+00:00",
         "relay_source_id": "12938278"
-      },
-      "claim": {
-        "worker_id": "a6b2316882954a968ad5d4c529c4e259-shard-0",
-        "claimed_at": "2026-11-19T05:12:41.333958+00:00",
-        "lease_expires_at": "2026-11-19T11:12:41.333958+00:00",
-        "run_id": "44447775933"
       }
     },
     "28020": {
@@ -178340,7 +178340,7 @@
       "last_plan": {
         "source_id": "33745748",
         "display_name": "Scanners 1080p CZ Dabing",
-        "planned_at": "2026-11-19T05:12:40.981959+00:00"
+        "planned_at": "2026-11-19T05:12:43.598457+00:00"
       }
     },
     "25895": {
@@ -224756,5 +224756,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:12:41.523440+00:00"
+  "updated_at": "2026-11-19T05:12:47.209128+00:00"
 }
