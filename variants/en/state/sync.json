@@ -22241,7 +22241,7 @@
       "last_plan": {
         "source_id": "13368212",
         "display_name": "The Thing from Another World SD CZ titulky",
-        "planned_at": "2026-11-19T10:20:08.760574+00:00"
+        "planned_at": "2026-11-19T10:50:20.886723+00:00"
       },
       "previous_target_id": "30984580",
       "prepared": {
@@ -22249,17 +22249,16 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T16:54:02.689081+00:00",
         "relay_source_id": "13368212"
+      },
+      "claim": {
+        "worker_id": "ecea071b435249f1a02c97662f561250-shard-0",
+        "claimed_at": "2026-11-19T10:50:21.554046+00:00",
+        "lease_expires_at": "2026-11-19T16:50:21.554046+00:00",
+        "run_id": "44451991647"
       }
     },
     "2294": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "11947495",
-          "target_video_id": "30984719",
-          "permanent": false,
-          "attempted_at": "2026-11-19T09:19:47.889285+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "11947495",
@@ -22273,6 +22272,13 @@
           "target_video_id": "30984719",
           "permanent": false,
           "attempted_at": "2026-11-19T10:20:08.578620+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11947495",
+          "target_video_id": "30984719",
+          "permanent": false,
+          "attempted_at": "2026-11-19T10:50:22.020506+00:00"
         }
       ],
       "last_plan": {
@@ -100848,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-19T10:50:16.521260+00:00"
+  "updated_at": "2026-11-19T10:50:22.020525+00:00"
 }
