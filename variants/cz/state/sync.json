@@ -125784,13 +125784,6 @@
           "source_id": "23031428",
           "target_video_id": "30985892",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:33:15.145495+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23031428",
-          "target_video_id": "30985892",
-          "permanent": false,
           "attempted_at": "2026-11-20T05:04:32.378393+00:00"
         },
         {
@@ -125799,6 +125792,13 @@
           "target_video_id": "30985892",
           "permanent": false,
           "attempted_at": "2026-11-20T06:39:25.234863+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23031428",
+          "target_video_id": "30985892",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:23:58.766263+00:00"
         }
       ],
       "last_plan": {
@@ -125812,12 +125812,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T22:27:10.798206+00:00",
         "relay_source_id": "23031428"
-      },
-      "claim": {
-        "worker_id": "f9ea88b7dd094789af55e0c57f0d81f7-shard-0",
-        "claimed_at": "2026-11-20T08:23:55.472313+00:00",
-        "lease_expires_at": "2026-11-20T14:23:55.472313+00:00",
-        "run_id": "44666964231"
       }
     },
     "2966": {
@@ -136375,7 +136369,7 @@
       "last_plan": {
         "source_id": "31451425",
         "display_name": "Pan Tau (Pan Tau – der Film) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:39:23.459933+00:00"
+        "planned_at": "2026-11-20T08:23:58.080689+00:00"
       },
       "previous_target_id": "30987653",
       "prepared": {
@@ -183586,11 +183580,16 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:23:52.572493+00:00"
+        "planned_at": "2026-11-20T08:23:58.463786+00:00"
       }
     },
     "13419": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32831577",
+        "display_name": "The Da Vinci Code 1440p CZ Dabing",
+        "planned_at": "2026-11-20T08:23:58.992318+00:00"
+      }
     },
     "3516": {
       "attempts": []
@@ -229369,5 +229368,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:23:55.472343+00:00"
+  "updated_at": "2026-11-20T08:23:58.992334+00:00"
 }
