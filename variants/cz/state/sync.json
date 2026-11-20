@@ -186689,17 +186689,19 @@
       "attempts": []
     },
     "11245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34151184",
+          "target_video_id": "31213762",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:42:57.078642+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34151184",
         "display_name": "Another Man, Another Chance (Un autre homme, une autre chance) 1080p CZ Dabing",
         "planned_at": "2026-11-20T21:35:58.931365+00:00"
-      },
-      "claim": {
-        "worker_id": "91e78732cde84230beaa6335232a1f63-shard-0",
-        "claimed_at": "2026-11-20T21:36:01.995917+00:00",
-        "lease_expires_at": "2026-11-21T03:36:01.995917+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31213762",
       "prepared": {
@@ -231957,5 +231959,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:42:54.807036+00:00"
+  "updated_at": "2026-11-20T21:42:57.078667+00:00"
 }
