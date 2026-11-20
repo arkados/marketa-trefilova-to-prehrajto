@@ -8130,13 +8130,6 @@
           "source_id": "20447868",
           "target_video_id": "30630355",
           "permanent": false,
-          "attempted_at": "2026-11-19T23:52:11.030026+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20447868",
-          "target_video_id": "30630355",
-          "permanent": false,
           "attempted_at": "2026-11-20T01:30:39.535487+00:00"
         },
         {
@@ -8145,6 +8138,13 @@
           "target_video_id": "30630355",
           "permanent": false,
           "attempted_at": "2026-11-20T03:01:30.127690+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20447868",
+          "target_video_id": "30630355",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:32:18.010239+00:00"
         }
       ],
       "last_plan": {
@@ -133217,7 +133217,7 @@
       "last_plan": {
         "source_id": "34787172",
         "display_name": "Brontosaurus 1080p CZ Dabing",
-        "planned_at": "2026-11-20T03:01:29.403321+00:00"
+        "planned_at": "2026-11-20T04:32:16.410475+00:00"
       },
       "previous_target_id": "30987230",
       "prepared": {
@@ -133225,6 +133225,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T04:00:19.698478+00:00",
         "relay_source_id": "34787172"
+      },
+      "claim": {
+        "worker_id": "ad182e3ff8dc46ddb1e3c7e14050eccf-shard-0",
+        "claimed_at": "2026-11-20T04:32:17.606816+00:00",
+        "lease_expires_at": "2026-11-20T10:32:17.606816+00:00",
+        "run_id": "44620782751"
       }
     },
     "24237": {
@@ -182997,7 +183003,7 @@
       "last_plan": {
         "source_id": "29292616",
         "display_name": "Romeo + Juliet 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:32:13.687994+00:00"
+        "planned_at": "2026-11-20T04:32:16.796684+00:00"
       }
     },
     "3538": {
@@ -228852,5 +228858,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:32:13.688011+00:00"
+  "updated_at": "2026-11-20T04:32:18.010256+00:00"
 }
