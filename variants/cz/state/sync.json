@@ -184714,17 +184714,19 @@
       }
     },
     "15583": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28285971",
+          "target_video_id": "31205152",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:28:17.026236+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28285971",
         "display_name": "Three Nights a Week (Trois nuits par semaine) 720p CZ Dabing",
         "planned_at": "2026-11-20T13:20:34.839082+00:00"
-      },
-      "claim": {
-        "worker_id": "d7493a36726b4e3b956fb6d014405e71-shard-0",
-        "claimed_at": "2026-11-20T13:20:37.965709+00:00",
-        "lease_expires_at": "2026-11-20T19:20:37.965709+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31205152",
       "prepared": {
@@ -230324,5 +230326,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:27:38.625700+00:00"
+  "updated_at": "2026-11-20T13:28:17.026252+00:00"
 }
