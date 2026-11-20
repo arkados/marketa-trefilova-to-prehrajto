@@ -183684,17 +183684,19 @@
       }
     },
     "3556": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31222636",
+          "target_video_id": "31200612",
+          "permanent": false,
+          "attempted_at": "2026-11-20T09:24:43.562287+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31222636",
         "display_name": "The Matrix Revolutions 4K CZ Dabing",
         "planned_at": "2026-11-20T09:14:18.662752+00:00"
-      },
-      "claim": {
-        "worker_id": "c9cb510600254a37abe486ec11541321-shard-0",
-        "claimed_at": "2026-11-20T09:14:19.903814+00:00",
-        "lease_expires_at": "2026-11-20T15:14:19.903814+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31200612",
       "prepared": {
@@ -229474,5 +229476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T09:18:08.492989+00:00"
+  "updated_at": "2026-11-20T09:24:43.562306+00:00"
 }
