@@ -86815,7 +86815,7 @@
       "last_plan": {
         "source_id": "32700785",
         "display_name": "Beneath Hill 60 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:39:32.965596+00:00"
+        "planned_at": "2026-11-20T06:11:59.148320+00:00"
       },
       "previous_target_id": "30923122",
       "prepared": {
@@ -139569,13 +139569,6 @@
           "source_id": "34686946",
           "target_video_id": "30987952",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:38:37.041259+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34686946",
-          "target_video_id": "30987952",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:09:20.142317+00:00"
         },
         {
@@ -139584,6 +139577,13 @@
           "target_video_id": "30987952",
           "permanent": false,
           "attempted_at": "2026-11-20T04:39:29.034299+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34686946",
+          "target_video_id": "30987952",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:11:59.935232+00:00"
         }
       ],
       "last_plan": {
@@ -139597,12 +139597,6 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T06:59:19.374284+00:00",
         "relay_source_id": "34686946"
-      },
-      "claim": {
-        "worker_id": "0d781eff104148a598c3918198840b65-shard-0",
-        "claimed_at": "2026-11-20T06:11:55.979683+00:00",
-        "lease_expires_at": "2026-11-20T12:11:55.979683+00:00",
-        "run_id": "44666964231"
       }
     },
     "31358": {
@@ -183289,17 +183283,19 @@
       }
     },
     "3477": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34512187",
+          "target_video_id": "31198113",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:12:00.163015+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34512187",
         "display_name": "Warcraft 4K CZ Dabing",
         "planned_at": "2026-11-20T06:04:40.872237+00:00"
-      },
-      "claim": {
-        "worker_id": "6cfe7a9677b04b699ff7ccdbc6277091-shard-0",
-        "claimed_at": "2026-11-20T06:04:45.288600+00:00",
-        "lease_expires_at": "2026-11-20T12:04:45.288600+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31198113",
       "prepared": {
@@ -183320,7 +183316,7 @@
       "last_plan": {
         "source_id": "26228291",
         "display_name": "The Other Guys 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:11:55.259459+00:00"
+        "planned_at": "2026-11-20T06:11:59.575061+00:00"
       }
     },
     "3517": {
@@ -229130,5 +229126,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:11:56.948323+00:00"
+  "updated_at": "2026-11-20T06:12:00.163034+00:00"
 }
