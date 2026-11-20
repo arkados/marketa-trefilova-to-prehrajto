@@ -142554,13 +142554,6 @@
           "source_id": "28985383",
           "target_video_id": "30988518",
           "permanent": false,
-          "attempted_at": "2026-11-20T02:37:53.010230+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28985383",
-          "target_video_id": "30988518",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:07:12.393538+00:00"
         },
         {
@@ -142569,12 +142562,19 @@
           "target_video_id": "30988518",
           "permanent": false,
           "attempted_at": "2026-11-20T05:40:58.808365+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28985383",
+          "target_video_id": "30988518",
+          "permanent": false,
+          "attempted_at": "2026-11-20T07:14:53.567207+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28985383",
         "display_name": "The Master (1980) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:40:53.408517+00:00"
+        "planned_at": "2026-11-20T07:14:49.661892+00:00"
       },
       "previous_target_id": "30988518",
       "prepared": {
@@ -183478,11 +183478,22 @@
       "last_plan": {
         "source_id": "34827933",
         "display_name": "Wanted 4K CZ Dabing",
-        "planned_at": "2026-11-20T07:14:42.565776+00:00"
+        "planned_at": "2026-11-20T07:14:50.054345+00:00"
+      },
+      "claim": {
+        "worker_id": "0ef377bba65d4d3d970b450a32c202ff-shard-0",
+        "claimed_at": "2026-11-20T07:14:50.968869+00:00",
+        "lease_expires_at": "2026-11-20T13:14:50.968869+00:00",
+        "run_id": "44666964231"
       }
     },
     "3498": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32054288",
+        "display_name": "Armageddon 4K CZ Dabing",
+        "planned_at": "2026-11-20T07:14:50.289473+00:00"
+      }
     },
     "30385": {
       "attempts": []
@@ -229270,5 +229281,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:14:45.856085+00:00"
+  "updated_at": "2026-11-20T07:14:53.567227+00:00"
 }
