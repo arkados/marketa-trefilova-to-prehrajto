@@ -171101,13 +171101,6 @@
           "source_id": "29053345",
           "target_video_id": "31128050",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:42:54.397704+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29053345",
-          "target_video_id": "31128050",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:13:20.784468+00:00"
         },
         {
@@ -171116,12 +171109,19 @@
           "target_video_id": "31128050",
           "permanent": false,
           "attempted_at": "2026-11-20T04:44:03.517137+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29053345",
+          "target_video_id": "31128050",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:17:52.422191+00:00"
         }
       ],
       "last_plan": {
         "source_id": "29053345",
         "display_name": "Vánocní príbeh (Vánoční příběh) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:43:58.354323+00:00"
+        "planned_at": "2026-11-20T06:17:47.057798+00:00"
       },
       "previous_target_id": "31128050",
       "prepared": {
@@ -183337,11 +183337,22 @@
       "last_plan": {
         "source_id": "31009862",
         "display_name": "Angels & Demons 4K CZ Dabing",
-        "planned_at": "2026-11-20T06:17:34.193786+00:00"
+        "planned_at": "2026-11-20T06:17:47.447449+00:00"
+      },
+      "claim": {
+        "worker_id": "b085db8d6b544e328598c48d20e96b0b-shard-0",
+        "claimed_at": "2026-11-20T06:17:48.523176+00:00",
+        "lease_expires_at": "2026-11-20T12:17:48.523176+00:00",
+        "run_id": "44666964231"
       }
     },
     "3368": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32938725",
+        "display_name": "Final Destination 4K CZ Dabing",
+        "planned_at": "2026-11-20T06:17:47.678860+00:00"
+      }
     },
     "21914": {
       "attempts": []
@@ -229144,5 +229155,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:17:43.122780+00:00"
+  "updated_at": "2026-11-20T06:17:52.422207+00:00"
 }
