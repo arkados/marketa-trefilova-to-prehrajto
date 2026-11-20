@@ -185282,17 +185282,19 @@
       }
     },
     "8985": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24104933",
+          "target_video_id": "31206555",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:54:01.204238+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24104933",
         "display_name": "Raluca 720p CZ Dabing",
         "planned_at": "2026-11-20T14:48:06.752554+00:00"
-      },
-      "claim": {
-        "worker_id": "3a82ea0685e244648a12e939e34f4787-shard-0",
-        "claimed_at": "2026-11-20T14:48:09.734994+00:00",
-        "lease_expires_at": "2026-11-20T20:48:09.734994+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31206555",
       "prepared": {
@@ -230790,5 +230792,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:53:58.758761+00:00"
+  "updated_at": "2026-11-20T14:54:01.204257+00:00"
 }
