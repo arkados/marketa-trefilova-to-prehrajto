@@ -109338,13 +109338,6 @@
           "source_id": "33810503",
           "target_video_id": "30983627",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:15:54.655891+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33810503",
-          "target_video_id": "30983627",
-          "permanent": false,
           "attempted_at": "2026-11-20T06:54:19.259137+00:00"
         },
         {
@@ -109353,6 +109346,13 @@
           "target_video_id": "30983627",
           "permanent": false,
           "attempted_at": "2026-11-20T08:38:10.305530+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33810503",
+          "target_video_id": "30983627",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:31:07.399219+00:00"
         }
       ],
       "last_plan": {
@@ -134833,7 +134833,7 @@
       "last_plan": {
         "source_id": "32363401",
         "display_name": "I'll Be Good, Old Man! („Já už budu hodný, dědečku!“) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T08:38:09.593833+00:00"
+        "planned_at": "2026-11-20T10:31:05.242515+00:00"
       },
       "previous_target_id": "30987499",
       "prepared": {
@@ -134841,6 +134841,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-11T04:59:44.589461+00:00",
         "relay_source_id": "32363401"
+      },
+      "claim": {
+        "worker_id": "b8487b932e964556b88de110c11041e3-shard-0",
+        "claimed_at": "2026-11-20T10:31:06.432432+00:00",
+        "lease_expires_at": "2026-11-20T16:31:06.432432+00:00",
+        "run_id": "44710524805"
       }
     },
     "31818": {
@@ -183968,7 +183974,7 @@
       "last_plan": {
         "source_id": "26500170",
         "display_name": "Modern Father's Diary (Deníček moderního fotra) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:31:01.847298+00:00"
+        "planned_at": "2026-11-20T10:31:05.633842+00:00"
       }
     },
     "32855": {
@@ -229691,5 +229697,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:31:01.847317+00:00"
+  "updated_at": "2026-11-20T10:31:07.399240+00:00"
 }
