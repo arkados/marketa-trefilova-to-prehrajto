@@ -131902,13 +131902,6 @@
           "source_id": "30410983",
           "target_video_id": "30987029",
           "permanent": false,
-          "attempted_at": "2026-11-19T22:09:35.315194+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30410983",
-          "target_video_id": "30987029",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:52:33.740674+00:00"
         },
         {
@@ -131917,6 +131910,13 @@
           "target_video_id": "30987029",
           "permanent": false,
           "attempted_at": "2026-11-20T01:31:00.716508+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30410983",
+          "target_video_id": "30987029",
+          "permanent": false,
+          "attempted_at": "2026-11-20T03:01:51.447096+00:00"
         }
       ],
       "last_plan": {
@@ -143205,7 +143205,7 @@
       "last_plan": {
         "source_id": "35286089",
         "display_name": "Únos 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:30:59.923417+00:00"
+        "planned_at": "2026-11-20T03:01:49.467047+00:00"
       },
       "previous_target_id": "30988597",
       "prepared": {
@@ -143213,6 +143213,12 @@
         "size_bytes": 5100000000,
         "prepared_at": "2026-11-11T08:53:06.797535+00:00",
         "relay_source_id": "35286089"
+      },
+      "claim": {
+        "worker_id": "c3c8df7c912a4180ac758c99b528f678-shard-0",
+        "claimed_at": "2026-11-20T03:01:50.583755+00:00",
+        "lease_expires_at": "2026-11-20T09:01:50.583755+00:00",
+        "run_id": "44620782751"
       }
     },
     "25024": {
@@ -182784,7 +182790,7 @@
       "last_plan": {
         "source_id": "34877718",
         "display_name": "Blade II 1080p CZ Dabing",
-        "planned_at": "2026-11-20T03:01:46.127595+00:00"
+        "planned_at": "2026-11-20T03:01:49.856188+00:00"
       }
     },
     "3269": {
@@ -228654,5 +228660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T03:01:46.665131+00:00"
+  "updated_at": "2026-11-20T03:01:51.447112+00:00"
 }
