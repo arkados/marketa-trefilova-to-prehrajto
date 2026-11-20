@@ -182011,17 +182011,23 @@
       "attempts": []
     },
     "11564": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31324928",
+          "reason": "Request failed for https://sdilej.cz/31324928/komando-1985-aakcni.usa.arnold-schwarzenegger.uhd.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:17:22.742894+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31324928",
         "display_name": "Commando (1985) 4K CZ Dabing",
         "planned_at": "2026-11-20T00:17:18.721062+00:00"
       },
-      "claim": {
-        "worker_id": "ab020854c2c74a23a875e29d32ab4d5b-shard-0",
-        "claimed_at": "2026-11-20T00:17:19.735052+00:00",
-        "lease_expires_at": "2026-11-20T06:17:19.735052+00:00",
-        "run_id": "44616581853"
+      "source_repair_requested": {
+        "source_id": "31324928",
+        "requested_at": "2026-11-20T00:17:22.742874+00:00"
       }
     },
     "3534": {
@@ -227986,5 +227992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:17:19.735077+00:00"
+  "updated_at": "2026-11-20T00:17:22.742900+00:00"
 }
