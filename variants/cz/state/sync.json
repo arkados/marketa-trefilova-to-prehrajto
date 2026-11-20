@@ -117265,13 +117265,6 @@
           "source_id": "34711260",
           "target_video_id": "30984755",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:27:08.429782+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34711260",
-          "target_video_id": "30984755",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:10:04.231613+00:00"
         },
         {
@@ -117280,6 +117273,13 @@
           "target_video_id": "30984755",
           "permanent": false,
           "attempted_at": "2026-11-20T13:56:09.333202+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34711260",
+          "target_video_id": "30984755",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:31:00.450651+00:00"
         }
       ],
       "last_plan": {
@@ -184026,7 +184026,7 @@
       "last_plan": {
         "source_id": "26871837",
         "display_name": "Arvéd 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:56:08.474271+00:00"
+        "planned_at": "2026-11-20T15:30:58.774443+00:00"
       },
       "previous_target_id": "31201782",
       "prepared": {
@@ -184034,6 +184034,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-20T10:20:33.466648+00:00",
         "relay_source_id": "26871837"
+      },
+      "claim": {
+        "worker_id": "8fba6c76ea6c425281e8c83ba8e5d091-shard-0",
+        "claimed_at": "2026-11-20T15:31:00.087623+00:00",
+        "lease_expires_at": "2026-11-20T21:31:00.087623+00:00",
+        "run_id": "44745112284"
       }
     },
     "5615": {
@@ -185623,7 +185629,7 @@
       "last_plan": {
         "source_id": "31570278",
         "display_name": "The Magical Duvet 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:30:55.211616+00:00"
+        "planned_at": "2026-11-20T15:30:59.211607+00:00"
       }
     },
     "22619": {
@@ -231040,5 +231046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:30:55.611658+00:00"
+  "updated_at": "2026-11-20T15:31:00.450670+00:00"
 }
