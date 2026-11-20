@@ -183506,17 +183506,19 @@
       }
     },
     "3544": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34827933",
+          "target_video_id": "31199014",
+          "permanent": false,
+          "attempted_at": "2026-11-20T07:49:51.825043+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34827933",
         "display_name": "Wanted 4K CZ Dabing",
         "planned_at": "2026-11-20T07:14:50.054345+00:00"
-      },
-      "claim": {
-        "worker_id": "0ef377bba65d4d3d970b450a32c202ff-shard-0",
-        "claimed_at": "2026-11-20T07:14:50.968869+00:00",
-        "lease_expires_at": "2026-11-20T13:14:50.968869+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31199014",
       "prepared": {
@@ -229320,5 +229322,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:49:46.436267+00:00"
+  "updated_at": "2026-11-20T07:49:51.825062+00:00"
 }
