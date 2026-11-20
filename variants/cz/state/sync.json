@@ -130738,13 +130738,6 @@
           "source_id": "34680568",
           "target_video_id": "30986927",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:37:44.263114+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34680568",
-          "target_video_id": "30986927",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:11:57.159755+00:00"
         },
         {
@@ -130753,6 +130746,13 @@
           "target_video_id": "30986927",
           "permanent": false,
           "attempted_at": "2026-11-20T08:58:35.891755+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34680568",
+          "target_video_id": "30986927",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:50:12.287539+00:00"
         }
       ],
       "last_plan": {
@@ -144100,7 +144100,7 @@
       "last_plan": {
         "source_id": "33480789",
         "display_name": "Hong Gil-dong (Hong Kil-dong) 720p CZ Dabing",
-        "planned_at": "2026-11-20T08:58:33.771298+00:00"
+        "planned_at": "2026-11-20T10:50:10.105691+00:00"
       },
       "previous_target_id": "30988710",
       "prepared": {
@@ -144108,6 +144108,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-11T09:31:20.378523+00:00",
         "relay_source_id": "33480789"
+      },
+      "claim": {
+        "worker_id": "a654a00ac87747bb84d162f927a0e725-shard-0",
+        "claimed_at": "2026-11-20T10:50:11.215600+00:00",
+        "lease_expires_at": "2026-11-20T16:50:11.215600+00:00",
+        "run_id": "44710524805"
       }
     },
     "17093": {
@@ -184061,7 +184067,7 @@
       "last_plan": {
         "source_id": "28024943",
         "display_name": "Return to Paradise Lost (Návrat ztraceného ráje) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:50:06.781585+00:00"
+        "planned_at": "2026-11-20T10:50:10.491770+00:00"
       }
     },
     "13824": {
@@ -229757,5 +229763,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:50:07.098116+00:00"
+  "updated_at": "2026-11-20T10:50:12.287554+00:00"
 }
