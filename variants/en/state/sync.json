@@ -1824,6 +1824,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-10-31T19:23:37.195550+00:00",
         "relay_source_id": "22817696"
+      },
+      "claim": {
+        "worker_id": "a5a68a0384954f1383c3a8827651c345-shard-0",
+        "claimed_at": "2026-11-20T12:29:32.288769+00:00",
+        "lease_expires_at": "2026-11-20T18:29:32.288769+00:00",
+        "run_id": "44710524805"
       }
     },
     "107": {
@@ -6807,13 +6813,6 @@
           "source_id": "29667772",
           "target_video_id": "30661597",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:58:51.698126+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29667772",
-          "target_video_id": "30661597",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:29:01.126736+00:00"
         },
         {
@@ -6822,6 +6821,13 @@
           "target_video_id": "30661597",
           "permanent": false,
           "attempted_at": "2026-11-20T11:59:17.160736+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29667772",
+          "target_video_id": "30661597",
+          "permanent": false,
+          "attempted_at": "2026-11-20T12:29:32.188814+00:00"
         }
       ],
       "last_plan": {
@@ -6835,12 +6841,6 @@
         "size_bytes": 8700000000,
         "prepared_at": "2026-10-31T08:34:47.262597+00:00",
         "relay_source_id": "29667772"
-      },
-      "claim": {
-        "worker_id": "f4a7acd447f54a53af1ae2a80d966879-shard-0",
-        "claimed_at": "2026-11-20T12:29:27.764789+00:00",
-        "lease_expires_at": "2026-11-20T18:29:27.764789+00:00",
-        "run_id": "44710524805"
       }
     },
     "655": {
@@ -16585,7 +16585,7 @@
       "last_plan": {
         "source_id": "34220031",
         "display_name": "Chocolat (2000) 1080p CZ titulky",
-        "planned_at": "2026-11-20T11:59:22.084422+00:00"
+        "planned_at": "2026-11-20T12:29:33.152886+00:00"
       },
       "previous_target_id": "30859204",
       "prepared": {
@@ -100854,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T12:29:29.007917+00:00"
+  "updated_at": "2026-11-20T12:29:33.152899+00:00"
 }
