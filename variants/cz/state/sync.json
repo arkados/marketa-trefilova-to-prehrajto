@@ -116477,13 +116477,6 @@
           "source_id": "34095385",
           "target_video_id": "30984680",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:07:47.359064+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34095385",
-          "target_video_id": "30984680",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:49:25.043515+00:00"
         },
         {
@@ -116492,6 +116485,13 @@
           "target_video_id": "30984680",
           "permanent": false,
           "attempted_at": "2026-11-20T14:31:25.621883+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34095385",
+          "target_video_id": "30984680",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:11:04.543078+00:00"
         }
       ],
       "last_plan": {
@@ -181975,7 +181975,7 @@
       "last_plan": {
         "source_id": "30285030",
         "display_name": "Analyze This 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:31:24.810491+00:00"
+        "planned_at": "2026-11-20T16:11:02.980074+00:00"
       },
       "previous_target_id": "31192310",
       "prepared": {
@@ -181983,6 +181983,12 @@
         "size_bytes": 9000000000,
         "prepared_at": "2026-11-19T23:18:26.560847+00:00",
         "relay_source_id": "30285030"
+      },
+      "claim": {
+        "worker_id": "29eece8486354a7b91ddc879316da98e-shard-0",
+        "claimed_at": "2026-11-20T16:11:04.212715+00:00",
+        "lease_expires_at": "2026-11-20T22:11:04.212715+00:00",
+        "run_id": "44745112284"
       }
     },
     "3180": {
@@ -185903,7 +185909,7 @@
       "last_plan": {
         "source_id": "31649811",
         "display_name": "Pohádkár (Pohádkář) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:10:59.757146+00:00"
+        "planned_at": "2026-11-20T16:11:03.389961+00:00"
       }
     },
     "4876": {
@@ -231269,5 +231275,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:11:00.047404+00:00"
+  "updated_at": "2026-11-20T16:11:04.543097+00:00"
 }
