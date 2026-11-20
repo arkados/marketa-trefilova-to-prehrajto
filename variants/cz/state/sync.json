@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "f86803246e32491d83a9e8ae3f31265e-shard-0",
+        "claimed_at": "2026-11-20T05:09:03.831844+00:00",
+        "lease_expires_at": "2026-11-20T11:09:03.831844+00:00",
+        "run_id": "44620782751"
       }
     },
     "12374": {
@@ -134699,13 +134705,6 @@
           "source_id": "28002899",
           "target_video_id": "30987491",
           "permanent": false,
-          "attempted_at": "2026-11-20T00:29:22.152607+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28002899",
-          "target_video_id": "30987491",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:07:47.198720+00:00"
         },
         {
@@ -134714,12 +134713,19 @@
           "target_video_id": "30987491",
           "permanent": false,
           "attempted_at": "2026-11-20T03:37:39.388616+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28002899",
+          "target_video_id": "30987491",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:09:09.361976+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28002899",
         "display_name": "Filosofská historie (History of Philosophy) SD CZ Dabing",
-        "planned_at": "2026-11-20T03:37:34.143994+00:00"
+        "planned_at": "2026-11-20T05:09:05.690682+00:00"
       },
       "previous_target_id": "30987491",
       "prepared": {
@@ -183108,7 +183114,7 @@
       "last_plan": {
         "source_id": "29783707",
         "display_name": "Tintin and the Temple of the Sun SD CZ Dabing",
-        "planned_at": "2026-11-20T05:09:01.290925+00:00"
+        "planned_at": "2026-11-20T05:09:06.083541+00:00"
       }
     },
     "26136": {
@@ -228951,5 +228957,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:09:01.290941+00:00"
+  "updated_at": "2026-11-20T05:09:09.361994+00:00"
 }
