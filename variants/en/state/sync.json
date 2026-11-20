@@ -22130,7 +22130,7 @@
       "last_plan": {
         "source_id": "28930526",
         "display_name": "Arthur the King 1080p CZ titulky",
-        "planned_at": "2026-11-20T22:10:45.099988+00:00"
+        "planned_at": "2026-11-20T22:40:53.130311+00:00"
       },
       "previous_target_id": "30984204",
       "prepared": {
@@ -22138,6 +22138,12 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-11-10T15:46:16.176627+00:00",
         "relay_source_id": "28930526"
+      },
+      "claim": {
+        "worker_id": "f320f4070ec24f29b472d189392edd41-shard-0",
+        "claimed_at": "2026-11-20T22:40:53.569903+00:00",
+        "lease_expires_at": "2026-11-21T04:40:53.569903+00:00",
+        "run_id": "44817573093"
       }
     },
     "19061": {
@@ -22924,13 +22930,6 @@
           "source_id": "32361142",
           "target_video_id": "30988608",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:10:26.732462+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32361142",
-          "target_video_id": "30988608",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:40:32.735506+00:00"
         },
         {
@@ -22939,6 +22938,13 @@
           "target_video_id": "30988608",
           "permanent": false,
           "attempted_at": "2026-11-20T22:10:46.084809+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32361142",
+          "target_video_id": "30988608",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:40:54.270106+00:00"
         }
       ],
       "last_plan": {
@@ -100848,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:40:49.418031+00:00"
+  "updated_at": "2026-11-20T22:40:54.270128+00:00"
 }
