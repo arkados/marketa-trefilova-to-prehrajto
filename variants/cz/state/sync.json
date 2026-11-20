@@ -131413,13 +131413,6 @@
           "source_id": "26779825",
           "target_video_id": "30986978",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:49:28.270580+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26779825",
-          "target_video_id": "30986978",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:24:29.806565+00:00"
         },
         {
@@ -131428,6 +131421,13 @@
           "target_video_id": "30986978",
           "permanent": false,
           "attempted_at": "2026-11-20T17:01:35.377536+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26779825",
+          "target_video_id": "30986978",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:21:40.060315+00:00"
         }
       ],
       "last_plan": {
@@ -184986,7 +184986,7 @@
       "last_plan": {
         "source_id": "32264317",
         "display_name": "Život je život 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:01:36.736080+00:00"
+        "planned_at": "2026-11-20T22:21:37.962239+00:00"
       },
       "previous_target_id": "31205526",
       "prepared": {
@@ -184994,6 +184994,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-20T13:42:06.780711+00:00",
         "relay_source_id": "32264317"
+      },
+      "claim": {
+        "worker_id": "fce8f78b270d4a3ca344b89b42bc0dcf-shard-0",
+        "claimed_at": "2026-11-20T22:21:39.042725+00:00",
+        "lease_expires_at": "2026-11-21T04:21:39.042725+00:00",
+        "run_id": "44817573093"
       }
     },
     "18240": {
@@ -187068,7 +187074,7 @@
       "last_plan": {
         "source_id": "22744990",
         "display_name": "Ivy + Bean 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:21:34.656071+00:00"
+        "planned_at": "2026-11-20T22:21:38.338161+00:00"
       }
     },
     "20431": {
@@ -232215,5 +232221,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:21:34.961268+00:00"
+  "updated_at": "2026-11-20T22:21:40.060336+00:00"
 }
