@@ -139643,13 +139643,6 @@
           "source_id": "34851292",
           "target_video_id": "30987959",
           "permanent": false,
-          "attempted_at": "2026-11-20T14:55:49.354879+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34851292",
-          "target_video_id": "30987959",
-          "permanent": false,
           "attempted_at": "2026-11-20T16:32:43.060201+00:00"
         },
         {
@@ -139658,12 +139651,19 @@
           "target_video_id": "30987959",
           "permanent": false,
           "attempted_at": "2026-11-20T21:52:03.725017+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34851292",
+          "target_video_id": "30987959",
+          "permanent": false,
+          "attempted_at": "2026-11-20T23:29:30.124912+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34851292",
         "display_name": "Všichni do jednoho SD CZ Dabing",
-        "planned_at": "2026-11-20T21:51:58.811456+00:00"
+        "planned_at": "2026-11-20T23:29:27.237761+00:00"
       },
       "previous_target_id": "30987959",
       "prepared": {
@@ -187553,14 +187553,25 @@
       "last_plan": {
         "source_id": "31969499",
         "display_name": "Verano en diciembre 1080p CZ Dabing",
-        "planned_at": "2026-11-20T23:29:14.130556+00:00"
+        "planned_at": "2026-11-20T23:29:27.605257+00:00"
+      },
+      "claim": {
+        "worker_id": "fe1c1f8001bc4782bd1d74a0e7a25af9-shard-0",
+        "claimed_at": "2026-11-20T23:29:28.702612+00:00",
+        "lease_expires_at": "2026-11-21T05:29:28.702612+00:00",
+        "run_id": "44817573093"
       }
     },
     "37465": {
       "attempts": []
     },
     "4631": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29426504",
+        "display_name": "Women on the Run (Ženy v běhu) 1080p CZ Dabing",
+        "planned_at": "2026-11-20T23:29:27.840453+00:00"
+      }
     },
     "21657": {
       "attempts": []
@@ -232610,5 +232621,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T23:29:23.128745+00:00"
+  "updated_at": "2026-11-20T23:29:30.124933+00:00"
 }
