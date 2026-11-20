@@ -86795,13 +86795,6 @@
           "source_id": "32700785",
           "target_video_id": "30923122",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:38:43.695353+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32700785",
-          "target_video_id": "30923122",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:09:24.812973+00:00"
         },
         {
@@ -86810,6 +86803,13 @@
           "target_video_id": "30923122",
           "permanent": false,
           "attempted_at": "2026-11-20T04:39:36.985894+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32700785",
+          "target_video_id": "30923122",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:12:05.595644+00:00"
         }
       ],
       "last_plan": {
@@ -88293,7 +88293,7 @@
       "last_plan": {
         "source_id": "31439276",
         "display_name": "Treasure Island (1990) SD CZ Dabing",
-        "planned_at": "2026-11-20T04:39:39.539754+00:00"
+        "planned_at": "2026-11-20T06:12:03.648094+00:00"
       },
       "previous_target_id": "30924533",
       "prepared": {
@@ -88301,6 +88301,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-08T19:10:43.613017+00:00",
         "relay_source_id": "31439276"
+      },
+      "claim": {
+        "worker_id": "5946aedd58bb4394be192b4f4a6ee739-shard-0",
+        "claimed_at": "2026-11-20T06:12:05.058759+00:00",
+        "lease_expires_at": "2026-11-20T12:12:05.058759+00:00",
+        "run_id": "44666964231"
       }
     },
     "11149": {
@@ -183316,11 +183322,22 @@
       "last_plan": {
         "source_id": "26228291",
         "display_name": "The Other Guys 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:11:59.575061+00:00"
+        "planned_at": "2026-11-20T06:12:04.033657+00:00"
+      },
+      "claim": {
+        "worker_id": "d2f27e183f014d41b1bf04b1eb24b2d8-shard-0",
+        "claimed_at": "2026-11-20T06:12:05.360424+00:00",
+        "lease_expires_at": "2026-11-20T12:12:05.360424+00:00",
+        "run_id": "44666964231"
       }
     },
     "3517": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31009862",
+        "display_name": "Angels & Demons 4K CZ Dabing",
+        "planned_at": "2026-11-20T06:12:04.315463+00:00"
+      }
     },
     "3368": {
       "attempts": []
@@ -229126,5 +229143,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:12:00.163034+00:00"
+  "updated_at": "2026-11-20T06:12:05.595661+00:00"
 }
