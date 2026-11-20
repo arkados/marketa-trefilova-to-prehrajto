@@ -141495,13 +141495,6 @@
           "source_id": "34693961",
           "target_video_id": "30988228",
           "permanent": false,
-          "attempted_at": "2026-11-20T04:36:55.792767+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693961",
-          "target_video_id": "30988228",
-          "permanent": false,
           "attempted_at": "2026-11-20T06:10:30.861961+00:00"
         },
         {
@@ -141510,12 +141503,19 @@
           "target_video_id": "30988228",
           "permanent": false,
           "attempted_at": "2026-11-20T07:55:48.133868+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693961",
+          "target_video_id": "30988228",
+          "permanent": false,
+          "attempted_at": "2026-11-20T09:40:13.451553+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-20T07:55:42.942340+00:00"
+        "planned_at": "2026-11-20T09:40:10.393872+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -183767,11 +183767,22 @@
       "last_plan": {
         "source_id": "31029218",
         "display_name": "Thor: The Dark World 4K CZ Dabing",
-        "planned_at": "2026-11-20T09:40:02.835410+00:00"
+        "planned_at": "2026-11-20T09:40:10.844613+00:00"
+      },
+      "claim": {
+        "worker_id": "46ae7cf12bf946a68d9b5ca220594eca-shard-0",
+        "claimed_at": "2026-11-20T09:40:12.011424+00:00",
+        "lease_expires_at": "2026-11-20T15:40:12.011424+00:00",
+        "run_id": "44710524805"
       }
     },
     "11626": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30971692",
+        "display_name": "I-Man SD CZ Dabing",
+        "planned_at": "2026-11-20T09:40:11.108563+00:00"
+      }
     },
     "18332": {
       "attempts": []
@@ -229520,5 +229531,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T09:40:07.436160+00:00"
+  "updated_at": "2026-11-20T09:40:13.451567+00:00"
 }
