@@ -120652,6 +120652,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T18:33:36.965358+00:00",
         "relay_source_id": "34674871"
+      },
+      "claim": {
+        "worker_id": "94a6c8aaeca14dff9899b040f9b6bee6-shard-0",
+        "claimed_at": "2026-11-20T08:23:42.669875+00:00",
+        "lease_expires_at": "2026-11-20T14:23:42.669875+00:00",
+        "run_id": "44666964231"
       }
     },
     "3027": {
@@ -130225,7 +130231,7 @@
       "last_plan": {
         "source_id": "30420191",
         "display_name": "Melchior The Apothecary: The Executioner's Daughter (Apteeker Melchior. Timuka tütar) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:39:08.479864+00:00"
+        "planned_at": "2026-11-20T08:23:42.985360+00:00"
       },
       "previous_target_id": "30986888",
       "prepared": {
@@ -132311,13 +132317,6 @@
           "source_id": "28004386",
           "target_video_id": "30987113",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:32:58.526654+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004386",
-          "target_video_id": "30987113",
-          "permanent": false,
           "attempted_at": "2026-11-20T05:04:16.066733+00:00"
         },
         {
@@ -132326,6 +132325,13 @@
           "target_video_id": "30987113",
           "permanent": false,
           "attempted_at": "2026-11-20T06:39:04.565528+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004386",
+          "target_video_id": "30987113",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:23:43.786319+00:00"
         }
       ],
       "last_plan": {
@@ -132339,12 +132345,6 @@
         "size_bytes": 873000000,
         "prepared_at": "2026-11-11T03:38:13.878412+00:00",
         "relay_source_id": "28004386"
-      },
-      "claim": {
-        "worker_id": "d34b4df459434fe6b3ae0f007bb372f3-shard-0",
-        "claimed_at": "2026-11-20T08:23:39.080260+00:00",
-        "lease_expires_at": "2026-11-20T14:23:39.080260+00:00",
-        "run_id": "44666964231"
       }
     },
     "14917": {
@@ -183586,7 +183586,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:23:39.741352+00:00"
+        "planned_at": "2026-11-20T08:23:43.419039+00:00"
       }
     },
     "13419": {
@@ -229369,5 +229369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:23:39.741369+00:00"
+  "updated_at": "2026-11-20T08:23:43.786340+00:00"
 }
