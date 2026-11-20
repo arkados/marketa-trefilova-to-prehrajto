@@ -109203,6 +109203,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T14:22:45.070793+00:00",
         "relay_source_id": "11729861"
+      },
+      "claim": {
+        "worker_id": "cda743b06f42480bb5d91e057bf955d8-shard-0",
+        "claimed_at": "2026-11-20T00:27:40.651444+00:00",
+        "lease_expires_at": "2026-11-20T06:27:40.651444+00:00",
+        "run_id": "44616581853"
       }
     },
     "2601": {
@@ -111908,7 +111914,7 @@
       "last_plan": {
         "source_id": "28002913",
         "display_name": "The Undertaker (Funebrák) SD CZ Dabing",
-        "planned_at": "2026-11-19T22:51:13.115732+00:00"
+        "planned_at": "2026-11-20T00:27:40.895695+00:00"
       },
       "previous_target_id": "30983814",
       "prepared": {
@@ -141929,13 +141935,6 @@
           "source_id": "22069348",
           "target_video_id": "30988344",
           "permanent": false,
-          "attempted_at": "2026-11-19T19:12:44.828043+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22069348",
-          "target_video_id": "30988344",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:40:22.228557+00:00"
         },
         {
@@ -141944,6 +141943,13 @@
           "target_video_id": "30988344",
           "permanent": false,
           "attempted_at": "2026-11-19T22:51:10.113565+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22069348",
+          "target_video_id": "30988344",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:27:41.503196+00:00"
         }
       ],
       "last_plan": {
@@ -141957,12 +141963,6 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T08:12:54.569713+00:00",
         "relay_source_id": "22069348"
-      },
-      "claim": {
-        "worker_id": "a369bca7bd814a45a6f49ec5e16e807c-shard-0",
-        "claimed_at": "2026-11-20T00:27:37.073972+00:00",
-        "lease_expires_at": "2026-11-20T06:27:37.073972+00:00",
-        "run_id": "44616581853"
       }
     },
     "32326": {
@@ -182071,7 +182071,7 @@
       "last_plan": {
         "source_id": "34026417",
         "display_name": "The Housemaid 4K CZ Dabing",
-        "planned_at": "2026-11-20T00:27:37.652794+00:00"
+        "planned_at": "2026-11-20T00:27:41.212778+00:00"
       }
     },
     "24797": {
@@ -228025,5 +228025,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:27:38.082699+00:00"
+  "updated_at": "2026-11-20T00:27:41.503223+00:00"
 }
