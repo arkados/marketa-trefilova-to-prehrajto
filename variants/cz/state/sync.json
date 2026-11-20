@@ -183370,17 +183370,23 @@
       }
     },
     "3368": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32938725",
+          "reason": "Source detail has no authenticated download link; source_id=32938725",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:28:05.234904+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32938725",
         "display_name": "Final Destination 4K CZ Dabing",
         "planned_at": "2026-11-20T06:27:57.413259+00:00"
       },
-      "claim": {
-        "worker_id": "ea3ea03d67304d48a0dde82a587eebf4-shard-0",
-        "claimed_at": "2026-11-20T06:28:00.628501+00:00",
-        "lease_expires_at": "2026-11-20T12:28:00.628501+00:00",
-        "run_id": "44666964231"
+      "source_repair_requested": {
+        "source_id": "32938725",
+        "requested_at": "2026-11-20T06:28:05.234886+00:00"
       }
     },
     "21914": {
@@ -229189,5 +229195,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:28:02.962733+00:00"
+  "updated_at": "2026-11-20T06:28:05.234913+00:00"
 }
