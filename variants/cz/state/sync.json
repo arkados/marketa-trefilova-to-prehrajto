@@ -183430,17 +183430,19 @@
       "attempts": []
     },
     "28935": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12503401",
+          "target_video_id": "31198437",
+          "permanent": false,
+          "attempted_at": "2026-11-20T07:10:59.660199+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12503401",
         "display_name": "Kong: Skull Island 4K CZ Dabing",
         "planned_at": "2026-11-20T06:28:13.279279+00:00"
-      },
-      "claim": {
-        "worker_id": "f8825459f8224249bdc7d01588001502-shard-0",
-        "claimed_at": "2026-11-20T06:28:16.579302+00:00",
-        "lease_expires_at": "2026-11-20T12:28:16.579302+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31198437",
       "prepared": {
@@ -229250,5 +229252,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:10:56.770728+00:00"
+  "updated_at": "2026-11-20T07:10:59.660222+00:00"
 }
