@@ -134582,13 +134582,6 @@
           "source_id": "30622989",
           "target_video_id": "30987471",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:49:23.308539+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30622989",
-          "target_video_id": "30987471",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:40:14.514297+00:00"
         },
         {
@@ -134597,6 +134590,13 @@
           "target_video_id": "30987471",
           "permanent": false,
           "attempted_at": "2026-11-20T15:14:43.262697+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30622989",
+          "target_video_id": "30987471",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:51:25.695334+00:00"
         }
       ],
       "last_plan": {
@@ -182592,17 +182592,23 @@
           "attempted_at": "2026-11-20T15:14:45.936477+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "24122191",
-        "display_name": "Pocahontas 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:14:41.545620+00:00"
-      },
       "previous_target_id": "31194372",
-      "prepared": {
+      "upload": {
         "target_video_id": "31194372",
+        "display_name": "Pocahontas 1080p CZ Dabing",
+        "source_id": "24122191",
+        "source_url": "https://sdilej.cz/24122191/pocahontas-1-1995-1080p-sk-cz-en.mkv",
+        "source_filename": "Pocahontas 1 - (1995) 1080p SK_CZ_EN.mkv",
         "size_bytes": 1700000000,
-        "prepared_at": "2026-11-20T01:54:03.500186+00:00",
-        "relay_source_id": "24122191"
+        "width": 1920,
+        "height": 1072,
+        "audio_language": "cs",
+        "language_probability": 0.8825910687446594,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/pocahontas-1080p-cz-dabing-mkv/0b0b332085986828",
+        "uploaded_at": "2026-11-20T16:51:26.068338+00:00"
       }
     },
     "3428": {
@@ -186205,7 +186211,7 @@
       "last_plan": {
         "source_id": "27360324",
         "display_name": "Hotel Sinestra 720p CZ Dabing",
-        "planned_at": "2026-11-20T16:51:20.251174+00:00"
+        "planned_at": "2026-11-20T16:51:23.986321+00:00"
       }
     },
     "20051": {
@@ -231523,5 +231529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:51:20.625122+00:00"
+  "updated_at": "2026-11-20T16:51:26.068354+00:00"
 }
