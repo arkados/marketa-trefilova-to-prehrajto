@@ -134853,13 +134853,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:33:36.960404+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:14:07.561195+00:00"
         },
         {
@@ -134868,6 +134861,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-20T13:59:56.399052+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:37:41.465406+00:00"
         }
       ],
       "last_plan": {
@@ -140288,7 +140288,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-20T13:59:54.162062+00:00"
+        "planned_at": "2026-11-20T15:37:39.849722+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140296,6 +140296,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "41dcfdc4862245bd8820463b7721b77c-shard-0",
+        "claimed_at": "2026-11-20T15:37:41.108562+00:00",
+        "lease_expires_at": "2026-11-20T21:37:41.108562+00:00",
+        "run_id": "44745112284"
       }
     },
     "12711": {
@@ -185682,7 +185688,7 @@
       "last_plan": {
         "source_id": "34910320",
         "display_name": "Little Trouble Girls 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:37:37.148721+00:00"
+        "planned_at": "2026-11-20T15:37:40.266070+00:00"
       }
     },
     "20650": {
@@ -231087,5 +231093,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:37:37.148739+00:00"
+  "updated_at": "2026-11-20T15:37:41.465432+00:00"
 }
