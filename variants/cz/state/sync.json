@@ -120180,13 +120180,6 @@
           "source_id": "30808517",
           "target_video_id": "30984989",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:28:03.485065+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30808517",
-          "target_video_id": "30984989",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:34:11.214302+00:00"
         },
         {
@@ -120195,6 +120188,13 @@
           "target_video_id": "30984989",
           "permanent": false,
           "attempted_at": "2026-11-20T00:12:39.915801+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30808517",
+          "target_video_id": "30984989",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:53:48.577882+00:00"
         }
       ],
       "last_plan": {
@@ -177590,7 +177590,7 @@
       "last_plan": {
         "source_id": "34526349",
         "display_name": "The Pirates! In an Adventure with Scientists! 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:12:37.898684+00:00"
+        "planned_at": "2026-11-20T01:53:46.738717+00:00"
       },
       "previous_target_id": "31164231",
       "prepared": {
@@ -177598,6 +177598,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-11-19T00:21:00.457929+00:00",
         "relay_source_id": "34526349"
+      },
+      "claim": {
+        "worker_id": "489c4305e32f4ac0be6d1c0467c064bf-shard-0",
+        "claimed_at": "2026-11-20T01:53:47.849090+00:00",
+        "lease_expires_at": "2026-11-20T07:53:47.849090+00:00",
+        "run_id": "44620782751"
       }
     },
     "3373": {
@@ -182425,17 +182431,19 @@
       }
     },
     "3494": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33758444",
+          "target_video_id": "31194336",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:53:48.894217+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33758444",
         "display_name": "Underworld: Evolution 1080p CZ Dabing",
         "planned_at": "2026-11-20T01:50:16.810612+00:00"
-      },
-      "claim": {
-        "worker_id": "75a7fdb61e984eaa805efb9b5ef0a8a8-shard-0",
-        "claimed_at": "2026-11-20T01:50:18.065179+00:00",
-        "lease_expires_at": "2026-11-20T07:50:18.065179+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31194336",
       "prepared": {
@@ -182450,7 +182458,7 @@
       "last_plan": {
         "source_id": "24122191",
         "display_name": "Pocahontas 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:53:43.870419+00:00"
+        "planned_at": "2026-11-20T01:53:47.110025+00:00"
       }
     },
     "3428": {
@@ -228356,5 +228364,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:53:43.870436+00:00"
+  "updated_at": "2026-11-20T01:53:48.894235+00:00"
 }
