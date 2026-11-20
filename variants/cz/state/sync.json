@@ -12499,13 +12499,6 @@
           "source_id": "32043793",
           "target_video_id": "30647758",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:07:08.479289+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32043793",
-          "target_video_id": "30647758",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:02:29.737935+00:00"
         },
         {
@@ -12514,6 +12507,13 @@
           "target_video_id": "30647758",
           "permanent": false,
           "attempted_at": "2026-11-20T12:44:05.128978+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32043793",
+          "target_video_id": "30647758",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:26:40.027389+00:00"
         }
       ],
       "last_plan": {
@@ -135371,7 +135371,7 @@
       "last_plan": {
         "source_id": "35068765",
         "display_name": "Veronika, proste Nika (Veronika, prostě Nika) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:44:03.457402+00:00"
+        "planned_at": "2026-11-20T14:26:38.300690+00:00"
       },
       "previous_target_id": "30987562",
       "prepared": {
@@ -135379,6 +135379,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T05:12:28.986309+00:00",
         "relay_source_id": "35068765"
+      },
+      "claim": {
+        "worker_id": "4c21a33e558e4af98da2f60a88d7af1f-shard-0",
+        "claimed_at": "2026-11-20T14:26:39.651737+00:00",
+        "lease_expires_at": "2026-11-20T20:26:39.651737+00:00",
+        "run_id": "44745112284"
       }
     },
     "13853": {
@@ -185129,7 +185135,7 @@
       "last_plan": {
         "source_id": "17594648",
         "display_name": "The Promised Princess (Slíbená princezna) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:26:34.695677+00:00"
+        "planned_at": "2026-11-20T14:26:38.800304+00:00"
       }
     },
     "6891": {
@@ -230633,5 +230639,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:26:35.538666+00:00"
+  "updated_at": "2026-11-20T14:26:40.027406+00:00"
 }
