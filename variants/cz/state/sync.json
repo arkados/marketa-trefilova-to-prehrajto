@@ -121937,13 +121937,6 @@
           "source_id": "28233220",
           "target_video_id": "30985399",
           "permanent": false,
-          "attempted_at": "2026-11-19T22:55:19.867844+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28233220",
-          "target_video_id": "30985399",
-          "permanent": false,
           "attempted_at": "2026-11-20T00:31:21.778629+00:00"
         },
         {
@@ -121952,6 +121945,13 @@
           "target_video_id": "30985399",
           "permanent": false,
           "attempted_at": "2026-11-20T02:09:45.975513+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28233220",
+          "target_video_id": "30985399",
+          "permanent": false,
+          "attempted_at": "2026-11-20T03:39:40.048396+00:00"
         }
       ],
       "last_plan": {
@@ -121965,12 +121965,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-10T19:07:07.102095+00:00",
         "relay_source_id": "28233220"
-      },
-      "claim": {
-        "worker_id": "656a7dff53f94757a4bf4ba5b848377c-shard-0",
-        "claimed_at": "2026-11-20T03:39:35.524243+00:00",
-        "lease_expires_at": "2026-11-20T09:39:35.524243+00:00",
-        "run_id": "44620782751"
       }
     },
     "3082": {
@@ -134762,7 +134756,7 @@
       "last_plan": {
         "source_id": "34689799",
         "display_name": "Černá sobota 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:09:43.806320+00:00"
+        "planned_at": "2026-11-20T03:39:38.718986+00:00"
       },
       "previous_target_id": "30987492",
       "prepared": {
@@ -134770,6 +134764,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T04:57:29.514686+00:00",
         "relay_source_id": "34689799"
+      },
+      "claim": {
+        "worker_id": "e16ece6c88f34d06b8c99f79f1468bd8-shard-0",
+        "claimed_at": "2026-11-20T03:39:39.722071+00:00",
+        "lease_expires_at": "2026-11-20T09:39:39.722071+00:00",
+        "run_id": "44620782751"
       }
     },
     "36839": {
@@ -182885,7 +182885,7 @@
       "last_plan": {
         "source_id": "32964104",
         "display_name": "Mickey 17 4K CZ Dabing",
-        "planned_at": "2026-11-20T03:39:34.855079+00:00"
+        "planned_at": "2026-11-20T03:39:39.095293+00:00"
       }
     },
     "3545": {
@@ -228749,5 +228749,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T03:39:36.443055+00:00"
+  "updated_at": "2026-11-20T03:39:40.048421+00:00"
 }
