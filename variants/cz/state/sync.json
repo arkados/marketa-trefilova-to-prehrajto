@@ -130156,13 +130156,6 @@
           "source_id": "15144262",
           "target_video_id": "30986885",
           "permanent": false,
-          "attempted_at": "2026-11-20T04:59:58.771907+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15144262",
-          "target_video_id": "30986885",
-          "permanent": false,
           "attempted_at": "2026-11-20T06:34:56.719898+00:00"
         },
         {
@@ -130171,12 +130164,19 @@
           "target_video_id": "30986885",
           "permanent": false,
           "attempted_at": "2026-11-20T08:16:43.522223+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15144262",
+          "target_video_id": "30986885",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:08:52.277420+00:00"
         }
       ],
       "last_plan": {
         "source_id": "15144262",
         "display_name": "The Salt Prince (Soľ nad zlato) SD CZ Dabing",
-        "planned_at": "2026-11-20T08:16:38.507099+00:00"
+        "planned_at": "2026-11-20T10:08:48.928033+00:00"
       },
       "previous_target_id": "30986885",
       "prepared": {
@@ -183852,14 +183852,25 @@
       "last_plan": {
         "source_id": "29856177",
         "display_name": "Goyo 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:07:45.529864+00:00"
+        "planned_at": "2026-11-20T10:08:49.340243+00:00"
+      },
+      "claim": {
+        "worker_id": "5ceca74941b441e2906cab1196296d40-shard-0",
+        "claimed_at": "2026-11-20T10:08:50.576144+00:00",
+        "lease_expires_at": "2026-11-20T16:08:50.576144+00:00",
+        "run_id": "44710524805"
       }
     },
     "3868": {
       "attempts": []
     },
     "35305": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34785904",
+        "display_name": "The Miracle SD CZ Dabing",
+        "planned_at": "2026-11-20T10:08:49.599710+00:00"
+      }
     },
     "26204": {
       "attempts": []
@@ -229593,5 +229604,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:08:46.172485+00:00"
+  "updated_at": "2026-11-20T10:08:52.277448+00:00"
 }
