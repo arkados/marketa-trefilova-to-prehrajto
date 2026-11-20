@@ -72255,7 +72255,7 @@
       "last_plan": {
         "source_id": "35464779",
         "display_name": "American Me 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:15:33.325348+00:00"
+        "planned_at": "2026-11-20T14:01:12.095670+00:00"
       },
       "previous_target_id": "30988069",
       "prepared": {
@@ -119462,6 +119462,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T18:10:39.394954+00:00",
         "relay_source_id": "34674768"
+      },
+      "claim": {
+        "worker_id": "844dbcfe30c64e5aae9af01c9df2a7f7-shard-0",
+        "claimed_at": "2026-11-20T14:01:11.768174+00:00",
+        "lease_expires_at": "2026-11-20T20:01:11.768174+00:00",
+        "run_id": "44745112284"
       }
     },
     "3101": {
@@ -184940,17 +184946,19 @@
       }
     },
     "16267": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35355626",
+          "target_video_id": "31205752",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:01:12.855020+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35355626",
         "display_name": "Simon of the Mountain (Simón de la montaña) 720p CZ Dabing",
         "planned_at": "2026-11-20T13:57:36.088040+00:00"
-      },
-      "claim": {
-        "worker_id": "9c575ad2726e4410a95619a93ec9a8ca-shard-0",
-        "claimed_at": "2026-11-20T13:57:37.044245+00:00",
-        "lease_expires_at": "2026-11-20T19:57:37.044245+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31205752",
       "prepared": {
@@ -184965,7 +184973,7 @@
       "last_plan": {
         "source_id": "27791433",
         "display_name": "Die Schneekönigin (The Snow Queen) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:01:09.232001+00:00"
+        "planned_at": "2026-11-20T14:01:12.562669+00:00"
       }
     },
     "17037": {
@@ -230502,5 +230510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:01:09.232020+00:00"
+  "updated_at": "2026-11-20T14:01:12.855041+00:00"
 }
