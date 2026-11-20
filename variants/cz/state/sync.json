@@ -117376,13 +117376,6 @@
           "source_id": "33672383",
           "target_video_id": "30984763",
           "permanent": false,
-          "attempted_at": "2026-11-20T14:10:16.011750+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33672383",
-          "target_video_id": "30984763",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:46:50.869424+00:00"
         },
         {
@@ -117391,6 +117384,13 @@
           "target_video_id": "30984763",
           "permanent": false,
           "attempted_at": "2026-11-20T17:24:39.377336+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33672383",
+          "target_video_id": "30984763",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:43:06.969382+00:00"
         }
       ],
       "last_plan": {
@@ -122287,7 +122287,7 @@
       "last_plan": {
         "source_id": "27907291",
         "display_name": "Frozen Fever 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:24:46.178043+00:00"
+        "planned_at": "2026-11-20T22:43:05.232999+00:00"
       },
       "previous_target_id": "30985427",
       "prepared": {
@@ -122295,6 +122295,12 @@
         "size_bytes": 167000000,
         "prepared_at": "2026-11-10T19:14:36.983907+00:00",
         "relay_source_id": "27907291"
+      },
+      "claim": {
+        "worker_id": "d5f9070bcef8438cab7ffd2b1190554a-shard-0",
+        "claimed_at": "2026-11-20T22:43:06.431984+00:00",
+        "lease_expires_at": "2026-11-21T04:43:06.431984+00:00",
+        "run_id": "44817573093"
       }
     },
     "26085": {
@@ -187307,6 +187313,12 @@
         "source_id": "34856953",
         "display_name": "Christmas in Rome 1080p CZ Dabing",
         "planned_at": "2026-11-20T22:43:01.579735+00:00"
+      },
+      "claim": {
+        "worker_id": "fd9a90c856e9497a845e8c052287a7d2-shard-0",
+        "claimed_at": "2026-11-20T22:43:04.962935+00:00",
+        "lease_expires_at": "2026-11-21T04:43:04.962935+00:00",
+        "run_id": "44817573093"
       }
     },
     "14992": {
@@ -187320,7 +187332,7 @@
       "last_plan": {
         "source_id": "34713772",
         "display_name": "Moby Doc 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:43:02.069019+00:00"
+        "planned_at": "2026-11-20T22:43:05.626344+00:00"
       }
     },
     "34283": {
@@ -232410,5 +232422,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:43:02.069039+00:00"
+  "updated_at": "2026-11-20T22:43:06.969403+00:00"
 }
