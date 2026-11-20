@@ -114169,13 +114169,6 @@
           "source_id": "16147077",
           "target_video_id": "30984104",
           "permanent": false,
-          "attempted_at": "2026-11-20T08:40:48.976234+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16147077",
-          "target_video_id": "30984104",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:33:52.227495+00:00"
         },
         {
@@ -114184,6 +114177,13 @@
           "target_video_id": "30984104",
           "permanent": false,
           "attempted_at": "2026-11-20T12:14:22.963642+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16147077",
+          "target_video_id": "30984104",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:00:10.213331+00:00"
         }
       ],
       "last_plan": {
@@ -114197,12 +114197,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T15:27:35.431465+00:00",
         "relay_source_id": "16147077"
-      },
-      "claim": {
-        "worker_id": "edaf74cae56e48a5b59b4887ccfde688-shard-0",
-        "claimed_at": "2026-11-20T14:00:04.948551+00:00",
-        "lease_expires_at": "2026-11-20T20:00:04.948551+00:00",
-        "run_id": "44745112284"
       }
     },
     "3064": {
@@ -114248,7 +114242,7 @@
       "last_plan": {
         "source_id": "26231939",
         "display_name": "It Follows 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:14:20.861259+00:00"
+        "planned_at": "2026-11-20T14:00:08.708540+00:00"
       },
       "previous_target_id": "30984106",
       "prepared": {
@@ -114256,6 +114250,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T15:27:45.463085+00:00",
         "relay_source_id": "26231939"
+      },
+      "claim": {
+        "worker_id": "b0a9bb30bb0044bf8baae476da219458-shard-0",
+        "claimed_at": "2026-11-20T14:00:09.898154+00:00",
+        "lease_expires_at": "2026-11-20T20:00:09.898154+00:00",
+        "run_id": "44745112284"
       }
     },
     "2963": {
@@ -184971,7 +184971,7 @@
       "last_plan": {
         "source_id": "27791433",
         "display_name": "Die Schneekönigin (The Snow Queen) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:00:04.204046+00:00"
+        "planned_at": "2026-11-20T14:00:09.140470+00:00"
       }
     },
     "17037": {
@@ -230508,5 +230508,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:00:06.468345+00:00"
+  "updated_at": "2026-11-20T14:00:10.213353+00:00"
 }
