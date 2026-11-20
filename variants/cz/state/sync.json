@@ -184357,17 +184357,19 @@
       "attempts": []
     },
     "17665": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34471051",
+          "target_video_id": "31203820",
+          "permanent": false,
+          "attempted_at": "2026-11-20T12:09:34.511521+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34471051",
         "display_name": "Dalia and the Red Book (Dalia y el libro rojo) 1080p CZ Dabing",
         "planned_at": "2026-11-20T12:03:52.648413+00:00"
-      },
-      "claim": {
-        "worker_id": "ff5df8a4c0dc472397c2e451da8e043f-shard-0",
-        "claimed_at": "2026-11-20T12:03:53.756034+00:00",
-        "lease_expires_at": "2026-11-20T18:03:53.756034+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31203820",
       "prepared": {
@@ -230024,5 +230026,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T12:09:32.150684+00:00"
+  "updated_at": "2026-11-20T12:09:34.511539+00:00"
 }
