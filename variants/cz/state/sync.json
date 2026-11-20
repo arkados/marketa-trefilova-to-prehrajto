@@ -131487,13 +131487,6 @@
           "source_id": "29099333",
           "target_video_id": "30986987",
           "permanent": false,
-          "attempted_at": "2026-11-19T21:24:24.978176+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29099333",
-          "target_video_id": "30986987",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:06:29.892765+00:00"
         },
         {
@@ -131502,6 +131495,13 @@
           "target_video_id": "30986987",
           "permanent": false,
           "attempted_at": "2026-11-20T00:42:36.844530+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29099333",
+          "target_video_id": "30986987",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:20:41.811815+00:00"
         }
       ],
       "last_plan": {
@@ -155278,7 +155278,7 @@
       "last_plan": {
         "source_id": "19982845",
         "display_name": "Ein Sommer in Kapstadt SD CZ Dabing",
-        "planned_at": "2026-11-20T00:42:36.182200+00:00"
+        "planned_at": "2026-11-20T02:20:39.979966+00:00"
       },
       "previous_target_id": "31052284",
       "prepared": {
@@ -155286,6 +155286,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-15T07:25:44.123410+00:00",
         "relay_source_id": "19982845"
+      },
+      "claim": {
+        "worker_id": "6676e2ebdd3843c6a4f30e420949f51f-shard-0",
+        "claimed_at": "2026-11-20T02:20:41.262912+00:00",
+        "lease_expires_at": "2026-11-20T08:20:41.262912+00:00",
+        "run_id": "44620782751"
       }
     },
     "35184": {
@@ -182606,6 +182612,12 @@
         "source_id": "32908063",
         "display_name": "2 Guns 1080p CZ Dabing",
         "planned_at": "2026-11-20T02:20:36.128102+00:00"
+      },
+      "claim": {
+        "worker_id": "b710e1e7f04b4a15806608f8e8c6ea41-shard-0",
+        "claimed_at": "2026-11-20T02:20:39.713374+00:00",
+        "lease_expires_at": "2026-11-20T08:20:39.713374+00:00",
+        "run_id": "44620782751"
       }
     },
     "10893": {
@@ -182613,7 +182625,7 @@
       "last_plan": {
         "source_id": "33034635",
         "display_name": "The Magnificent Trio (BianChengSanXia) SD CZ Dabing",
-        "planned_at": "2026-11-20T02:20:36.476513+00:00"
+        "planned_at": "2026-11-20T02:20:40.418375+00:00"
       }
     },
     "12473": {
@@ -228498,5 +228510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:20:36.476530+00:00"
+  "updated_at": "2026-11-20T02:20:41.811832+00:00"
 }
