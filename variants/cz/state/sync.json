@@ -122116,6 +122116,12 @@
         "size_bytes": 22000000000,
         "prepared_at": "2026-11-10T19:09:15.571400+00:00",
         "relay_source_id": "35010063"
+      },
+      "claim": {
+        "worker_id": "3fae4c5a578a4c3997cea280bb405b62-shard-0",
+        "claimed_at": "2026-11-20T22:26:13.581518+00:00",
+        "lease_expires_at": "2026-11-21T04:26:13.581518+00:00",
+        "run_id": "44817573093"
       }
     },
     "35405": {
@@ -143851,7 +143857,7 @@
       "last_plan": {
         "source_id": "24531973",
         "display_name": "Tajemství staré bambitky 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:08:50.940588+00:00"
+        "planned_at": "2026-11-20T22:26:13.866823+00:00"
       },
       "previous_target_id": "30988677",
       "prepared": {
@@ -184459,13 +184465,6 @@
           "source_id": "35184481",
           "target_video_id": "31203819",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:53:48.868922+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35184481",
-          "target_video_id": "31203819",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:28:43.412398+00:00"
         },
         {
@@ -184474,6 +184473,13 @@
           "target_video_id": "31203819",
           "permanent": false,
           "attempted_at": "2026-11-20T17:08:48.086309+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35184481",
+          "target_video_id": "31203819",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:26:14.549529+00:00"
         }
       ],
       "last_plan": {
@@ -184487,12 +184493,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-20T12:03:58.583785+00:00",
         "relay_source_id": "35184481"
-      },
-      "claim": {
-        "worker_id": "999e40f2c406430b8262054f90d04e60-shard-0",
-        "claimed_at": "2026-11-20T22:26:10.123094+00:00",
-        "lease_expires_at": "2026-11-21T04:26:10.123094+00:00",
-        "run_id": "44817573093"
       }
     },
     "27250": {
@@ -187140,7 +187140,7 @@
       "last_plan": {
         "source_id": "22108149",
         "display_name": "With/In (With/In Volume 1) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:26:10.755629+00:00"
+        "planned_at": "2026-11-20T22:26:14.222116+00:00"
       }
     },
     "10675": {
@@ -232269,5 +232269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:26:10.755649+00:00"
+  "updated_at": "2026-11-20T22:26:14.549552+00:00"
 }
