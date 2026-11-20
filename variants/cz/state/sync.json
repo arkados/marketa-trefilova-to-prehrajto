@@ -184021,17 +184021,19 @@
       }
     },
     "13152": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33810236",
+          "target_video_id": "31202259",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:51:57.643417+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33810236",
         "display_name": "The Devil Knows Why (Čert ví proč) 1080p CZ Dabing",
         "planned_at": "2026-11-20T10:46:58.206686+00:00"
-      },
-      "claim": {
-        "worker_id": "bc6a14559d474a0ea70931682297e83d-shard-0",
-        "claimed_at": "2026-11-20T10:47:02.539628+00:00",
-        "lease_expires_at": "2026-11-20T16:47:02.539628+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31202259",
       "prepared": {
@@ -229757,5 +229759,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:51:54.752041+00:00"
+  "updated_at": "2026-11-20T10:51:57.643435+00:00"
 }
