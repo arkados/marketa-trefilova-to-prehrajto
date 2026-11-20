@@ -108547,13 +108547,6 @@
           "source_id": "34908320",
           "target_video_id": "30983539",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:52:38.112004+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34908320",
-          "target_video_id": "30983539",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:38:01.800200+00:00"
         },
         {
@@ -108562,6 +108555,13 @@
           "target_video_id": "30983539",
           "permanent": false,
           "attempted_at": "2026-11-20T13:20:16.512071+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34908320",
+          "target_video_id": "30983539",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:00:40.635870+00:00"
         }
       ],
       "last_plan": {
@@ -111212,7 +111212,7 @@
       "last_plan": {
         "source_id": "35066715",
         "display_name": "A Dead Man Among the Living (Mrtvý mezi živými) SD CZ Dabing",
-        "planned_at": "2026-11-20T13:20:11.818487+00:00"
+        "planned_at": "2026-11-20T15:00:37.430320+00:00"
       },
       "previous_target_id": "30983782",
       "prepared": {
@@ -111220,6 +111220,12 @@
         "size_bytes": 902500000,
         "prepared_at": "2026-11-10T14:46:43.705888+00:00",
         "relay_source_id": "35066715"
+      },
+      "claim": {
+        "worker_id": "6fd1856c8f23494aa478af9012db0179-shard-0",
+        "claimed_at": "2026-11-20T15:00:38.537403+00:00",
+        "lease_expires_at": "2026-11-20T21:00:38.537403+00:00",
+        "run_id": "44745112284"
       }
     },
     "24140": {
@@ -185385,7 +185391,7 @@
       "last_plan": {
         "source_id": "34909880",
         "display_name": "Kika 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:00:34.301704+00:00"
+        "planned_at": "2026-11-20T15:00:37.825410+00:00"
       }
     },
     "15458": {
@@ -230856,5 +230862,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:00:34.301720+00:00"
+  "updated_at": "2026-11-20T15:00:40.635887+00:00"
 }
