@@ -72263,6 +72263,12 @@
         "size_bytes": 7200000000,
         "prepared_at": "2026-11-11T07:25:47.418420+00:00",
         "relay_source_id": "35464779"
+      },
+      "claim": {
+        "worker_id": "6a2cc4a5bbea4d0b882b107b03853a21-shard-0",
+        "claimed_at": "2026-11-20T14:01:16.010365+00:00",
+        "lease_expires_at": "2026-11-20T20:01:16.010365+00:00",
+        "run_id": "44745112284"
       }
     },
     "32093": {
@@ -119434,13 +119440,6 @@
           "source_id": "34674768",
           "target_video_id": "30984916",
           "permanent": false,
-          "attempted_at": "2026-11-20T08:41:55.265186+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34674768",
-          "target_video_id": "30984916",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:35:08.011006+00:00"
         },
         {
@@ -119449,6 +119448,13 @@
           "target_video_id": "30984916",
           "permanent": false,
           "attempted_at": "2026-11-20T12:15:35.479687+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34674768",
+          "target_video_id": "30984916",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:01:15.785920+00:00"
         }
       ],
       "last_plan": {
@@ -119462,12 +119468,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T18:10:39.394954+00:00",
         "relay_source_id": "34674768"
-      },
-      "claim": {
-        "worker_id": "844dbcfe30c64e5aae9af01c9df2a7f7-shard-0",
-        "claimed_at": "2026-11-20T14:01:11.768174+00:00",
-        "lease_expires_at": "2026-11-20T20:01:11.768174+00:00",
-        "run_id": "44745112284"
       }
     },
     "3101": {
@@ -129339,7 +129339,7 @@
       "last_plan": {
         "source_id": "29878083",
         "display_name": "La Horse (The Horse) SD CZ Dabing",
-        "planned_at": "2026-11-20T12:15:39.566938+00:00"
+        "planned_at": "2026-11-20T14:01:16.282040+00:00"
       },
       "previous_target_id": "30986749",
       "prepared": {
@@ -184973,7 +184973,7 @@
       "last_plan": {
         "source_id": "27791433",
         "display_name": "Die Schneekönigin (The Snow Queen) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:01:12.562669+00:00"
+        "planned_at": "2026-11-20T14:01:16.689202+00:00"
       }
     },
     "17037": {
@@ -230510,5 +230510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:01:12.855041+00:00"
+  "updated_at": "2026-11-20T14:01:16.689217+00:00"
 }
