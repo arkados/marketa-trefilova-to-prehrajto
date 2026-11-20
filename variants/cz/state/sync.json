@@ -119573,6 +119573,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T18:13:27.861016+00:00",
         "relay_source_id": "35279557"
+      },
+      "claim": {
+        "worker_id": "43ae3bcd1d244345a63e1030a530063c-shard-0",
+        "claimed_at": "2026-11-20T12:30:57.159327+00:00",
+        "lease_expires_at": "2026-11-20T18:30:57.159327+00:00",
+        "run_id": "44710524805"
       }
     },
     "15033": {
@@ -132842,7 +132848,7 @@
       "last_plan": {
         "source_id": "17465562",
         "display_name": "Daily Fables (De Fabeltjeskrant: de Grote Dierenbos-spelen) 720p CZ Dabing",
-        "planned_at": "2026-11-20T10:47:16.765854+00:00"
+        "planned_at": "2026-11-20T12:30:58.055177+00:00"
       },
       "previous_target_id": "30987160",
       "prepared": {
@@ -136823,13 +136829,6 @@
           "source_id": "19686604",
           "target_video_id": "30987716",
           "permanent": false,
-          "attempted_at": "2026-11-20T07:09:09.219847+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19686604",
-          "target_video_id": "30987716",
-          "permanent": false,
           "attempted_at": "2026-11-20T08:55:40.574211+00:00"
         },
         {
@@ -136838,6 +136837,13 @@
           "target_video_id": "30987716",
           "permanent": false,
           "attempted_at": "2026-11-20T10:47:11.300383+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19686604",
+          "target_video_id": "30987716",
+          "permanent": false,
+          "attempted_at": "2026-11-20T12:30:57.768803+00:00"
         }
       ],
       "last_plan": {
@@ -136851,12 +136857,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
-      },
-      "claim": {
-        "worker_id": "eb54997e043842d6ba4965c1628648f4-shard-0",
-        "claimed_at": "2026-11-20T12:30:51.843299+00:00",
-        "lease_expires_at": "2026-11-20T18:30:51.843299+00:00",
-        "run_id": "44710524805"
       }
     },
     "31573": {
@@ -184439,7 +184439,7 @@
       "last_plan": {
         "source_id": "24669271",
         "display_name": "Two Brides and One Wedding (Dvě nevěsty a jedna svatba) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:30:52.517910+00:00"
+        "planned_at": "2026-11-20T12:30:58.491297+00:00"
       }
     },
     "5458": {
@@ -230077,5 +230077,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T12:30:53.208950+00:00"
+  "updated_at": "2026-11-20T12:30:58.491315+00:00"
 }
