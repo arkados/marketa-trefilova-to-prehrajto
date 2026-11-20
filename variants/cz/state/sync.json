@@ -185994,17 +185994,19 @@
       "attempts": []
     },
     "16103": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26868576",
+          "target_video_id": "31208262",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:25:56.538772+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26868576",
         "display_name": "I, Olga Hepnarová (Já, Olga Hepnarová) 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:21:29.253167+00:00"
-      },
-      "claim": {
-        "worker_id": "0b5441016e5c40a882055c063157af5d-shard-0",
-        "claimed_at": "2026-11-20T16:21:32.482411+00:00",
-        "lease_expires_at": "2026-11-20T22:21:32.482411+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31208262",
       "prepared": {
@@ -231373,5 +231375,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:25:54.389804+00:00"
+  "updated_at": "2026-11-20T16:25:56.538795+00:00"
 }
