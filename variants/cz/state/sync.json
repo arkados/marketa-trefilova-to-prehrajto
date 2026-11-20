@@ -113092,13 +113092,6 @@
           "source_id": "33495930",
           "target_video_id": "30983976",
           "permanent": false,
-          "attempted_at": "2026-11-20T04:32:09.117866+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33495930",
-          "target_video_id": "30983976",
-          "permanent": false,
           "attempted_at": "2026-11-20T06:05:22.457140+00:00"
         },
         {
@@ -113107,6 +113100,13 @@
           "target_video_id": "30983976",
           "permanent": false,
           "attempted_at": "2026-11-20T07:46:52.901198+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33495930",
+          "target_video_id": "30983976",
+          "permanent": false,
+          "attempted_at": "2026-11-20T09:34:29.864878+00:00"
         }
       ],
       "last_plan": {
@@ -116645,7 +116645,7 @@
       "last_plan": {
         "source_id": "31728968",
         "display_name": "Thirteen 1080p CZ Dabing",
-        "planned_at": "2026-11-20T07:46:55.754349+00:00"
+        "planned_at": "2026-11-20T09:34:27.718102+00:00"
       },
       "previous_target_id": "30984695",
       "prepared": {
@@ -116653,6 +116653,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T17:19:32.952001+00:00",
         "relay_source_id": "31728968"
+      },
+      "claim": {
+        "worker_id": "221cbde6972545978d4a0783c6f323e8-shard-0",
+        "claimed_at": "2026-11-20T09:34:28.896557+00:00",
+        "lease_expires_at": "2026-11-20T15:34:28.896557+00:00",
+        "run_id": "44710524805"
       }
     },
     "2907": {
@@ -183732,7 +183738,7 @@
       "last_plan": {
         "source_id": "30711082",
         "display_name": "Captain Marvel 1080p CZ Dabing",
-        "planned_at": "2026-11-20T09:34:24.471560+00:00"
+        "planned_at": "2026-11-20T09:34:28.110140+00:00"
       }
     },
     "35238": {
@@ -229499,5 +229505,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T09:34:24.471578+00:00"
+  "updated_at": "2026-11-20T09:34:29.864898+00:00"
 }
