@@ -109917,13 +109917,6 @@
           "source_id": "25985391",
           "target_video_id": "30983681",
           "permanent": false,
-          "attempted_at": "2026-11-20T08:56:57.237848+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25985391",
-          "target_video_id": "30983681",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:48:36.214931+00:00"
         },
         {
@@ -109932,6 +109925,13 @@
           "target_video_id": "30983681",
           "permanent": false,
           "attempted_at": "2026-11-20T12:32:22.214239+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25985391",
+          "target_video_id": "30983681",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:16:27.555547+00:00"
         }
       ],
       "last_plan": {
@@ -163893,7 +163893,7 @@
       "last_plan": {
         "source_id": "30294681",
         "display_name": "The Nest (2002) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:32:20.421053+00:00"
+        "planned_at": "2026-11-20T14:16:25.922618+00:00"
       },
       "previous_target_id": "31095446",
       "prepared": {
@@ -163901,6 +163901,12 @@
         "size_bytes": 12800000000,
         "prepared_at": "2026-11-16T17:34:53.721834+00:00",
         "relay_source_id": "30294681"
+      },
+      "claim": {
+        "worker_id": "045e6f92fe194beb9594396ced7844af-shard-0",
+        "claimed_at": "2026-11-20T14:16:27.304171+00:00",
+        "lease_expires_at": "2026-11-20T20:16:27.304171+00:00",
+        "run_id": "44745112284"
       }
     },
     "3308": {
@@ -185059,6 +185065,12 @@
         "source_id": "26117911",
         "display_name": "Confidential Assignment 2: International (GongJo 2: InTeoNaeSyeoNal) 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:16:22.276353+00:00"
+      },
+      "claim": {
+        "worker_id": "d23192d9c29f4120adda7739268a6042-shard-0",
+        "claimed_at": "2026-11-20T14:16:25.642080+00:00",
+        "lease_expires_at": "2026-11-20T20:16:25.642080+00:00",
+        "run_id": "44745112284"
       }
     },
     "14167": {
@@ -185066,7 +185078,7 @@
       "last_plan": {
         "source_id": "19237683",
         "display_name": "Poly 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:16:22.794515+00:00"
+        "planned_at": "2026-11-20T14:16:26.429728+00:00"
       }
     },
     "15333": {
@@ -230582,5 +230594,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:16:22.794530+00:00"
+  "updated_at": "2026-11-20T14:16:27.555564+00:00"
 }
