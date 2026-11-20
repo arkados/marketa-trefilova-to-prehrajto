@@ -134853,13 +134853,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:46:45.920643+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-20T05:23:02.979478+00:00"
         },
         {
@@ -134868,6 +134861,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-20T06:56:45.198554+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:40:37.932042+00:00"
         }
       ],
       "last_plan": {
@@ -140288,7 +140288,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-20T06:56:44.162294+00:00"
+        "planned_at": "2026-11-20T08:40:35.916722+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140296,6 +140296,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "4ef135b66aa64fd3b7b190b792e3d270-shard-0",
+        "claimed_at": "2026-11-20T08:40:37.067219+00:00",
+        "lease_expires_at": "2026-11-20T14:40:37.067219+00:00",
+        "run_id": "44666964231"
       }
     },
     "12711": {
@@ -183624,7 +183630,7 @@
       "last_plan": {
         "source_id": "34274273",
         "display_name": "The Wolverine 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:40:32.886243+00:00"
+        "planned_at": "2026-11-20T08:40:36.319125+00:00"
       }
     },
     "19232": {
@@ -229401,5 +229407,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:40:32.886261+00:00"
+  "updated_at": "2026-11-20T08:40:37.932061+00:00"
 }
