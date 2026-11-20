@@ -183576,17 +183576,19 @@
       "attempts": []
     },
     "3525": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32975036",
+          "target_video_id": "31199935",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:37:20.097994+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
         "planned_at": "2026-11-20T08:23:58.463786+00:00"
-      },
-      "claim": {
-        "worker_id": "7c9cebbd43a94bba9f524f6b6b85dd1e-shard-0",
-        "claimed_at": "2026-11-20T08:24:01.915000+00:00",
-        "lease_expires_at": "2026-11-20T14:24:01.915000+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31199935",
       "prepared": {
@@ -229399,5 +229401,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:37:17.447476+00:00"
+  "updated_at": "2026-11-20T08:37:20.098013+00:00"
 }
