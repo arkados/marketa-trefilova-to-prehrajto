@@ -109649,13 +109649,6 @@
           "source_id": "33436521",
           "target_video_id": "30983669",
           "permanent": false,
-          "attempted_at": "2026-11-19T21:32:54.408647+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33436521",
-          "target_video_id": "30983669",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:14:07.819634+00:00"
         },
         {
@@ -109664,6 +109657,13 @@
           "target_video_id": "30983669",
           "permanent": false,
           "attempted_at": "2026-11-20T00:54:14.350149+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33436521",
+          "target_video_id": "30983669",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:28:22.063380+00:00"
         }
       ],
       "last_plan": {
@@ -166160,7 +166160,7 @@
       "last_plan": {
         "source_id": "32367190",
         "display_name": "Pod parou 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:54:16.839794+00:00"
+        "planned_at": "2026-11-20T02:28:20.341939+00:00"
       },
       "previous_target_id": "31108918",
       "prepared": {
@@ -166168,6 +166168,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-17T05:03:08.196412+00:00",
         "relay_source_id": "32367190"
+      },
+      "claim": {
+        "worker_id": "5ec3a6c67cab4e19b7447a50072276e7-shard-0",
+        "claimed_at": "2026-11-20T02:28:21.525281+00:00",
+        "lease_expires_at": "2026-11-20T08:28:21.525281+00:00",
+        "run_id": "44620782751"
       }
     },
     "27298": {
@@ -182690,7 +182696,7 @@
       "last_plan": {
         "source_id": "31474503",
         "display_name": "King Arthur: Legend of the Sword 4K CZ Dabing",
-        "planned_at": "2026-11-20T02:28:17.389949+00:00"
+        "planned_at": "2026-11-20T02:28:20.720218+00:00"
       }
     },
     "3406": {
@@ -228569,5 +228575,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:28:17.389965+00:00"
+  "updated_at": "2026-11-20T02:28:22.063397+00:00"
 }
