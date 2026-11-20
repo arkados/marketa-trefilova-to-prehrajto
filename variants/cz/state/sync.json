@@ -127526,13 +127526,6 @@
           "source_id": "34703676",
           "target_video_id": "30986415",
           "permanent": false,
-          "attempted_at": "2026-11-19T19:05:05.339293+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34703676",
-          "target_video_id": "30986415",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:31:25.433825+00:00"
         },
         {
@@ -127541,6 +127534,13 @@
           "target_video_id": "30986415",
           "permanent": false,
           "attempted_at": "2026-11-19T22:37:54.722802+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34703676",
+          "target_video_id": "30986415",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:18:54.773525+00:00"
         }
       ],
       "last_plan": {
@@ -145196,7 +145196,7 @@
       "last_plan": {
         "source_id": "35428706",
         "display_name": "Threat to Kermadec (Menace sur Kermadec) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T22:37:54.149666+00:00"
+        "planned_at": "2026-11-20T00:18:53.163939+00:00"
       },
       "previous_target_id": "30990467",
       "prepared": {
@@ -145204,6 +145204,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T13:33:55.032444+00:00",
         "relay_source_id": "35428706"
+      },
+      "claim": {
+        "worker_id": "9de5d07ddc9e453c818bdd89e6a1c724-shard-0",
+        "claimed_at": "2026-11-20T00:18:54.113129+00:00",
+        "lease_expires_at": "2026-11-20T06:18:54.113129+00:00",
+        "run_id": "44616581853"
       }
     },
     "23397": {
@@ -182030,6 +182036,12 @@
         "source_id": "31193586",
         "display_name": "Lethal Weapon 3 4K CZ Dabing",
         "planned_at": "2026-11-20T00:18:49.352277+00:00"
+      },
+      "claim": {
+        "worker_id": "b227edda474c49d78ab171ea9760883c-shard-0",
+        "claimed_at": "2026-11-20T00:18:52.565887+00:00",
+        "lease_expires_at": "2026-11-20T06:18:52.565887+00:00",
+        "run_id": "44616581853"
       }
     },
     "2769": {
@@ -182037,7 +182049,7 @@
       "last_plan": {
         "source_id": "34026417",
         "display_name": "The Housemaid 4K CZ Dabing",
-        "planned_at": "2026-11-20T00:18:49.586346+00:00"
+        "planned_at": "2026-11-20T00:18:53.509132+00:00"
       }
     },
     "24797": {
@@ -227991,5 +228003,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:18:49.893229+00:00"
+  "updated_at": "2026-11-20T00:18:54.773547+00:00"
 }
