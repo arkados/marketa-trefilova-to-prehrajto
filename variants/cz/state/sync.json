@@ -121060,7 +121060,7 @@
       "last_plan": {
         "source_id": "23806861",
         "display_name": "Athena 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:31:55.527315+00:00"
+        "planned_at": "2026-11-20T02:10:17.834091+00:00"
       },
       "previous_target_id": "30985032",
       "prepared": {
@@ -121068,17 +121068,16 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T18:37:53.303604+00:00",
         "relay_source_id": "23806861"
+      },
+      "claim": {
+        "worker_id": "4e1481fe228c42368eb26364e6d53605-shard-0",
+        "claimed_at": "2026-11-20T02:10:19.068241+00:00",
+        "lease_expires_at": "2026-11-20T08:10:19.068241+00:00",
+        "run_id": "44620782751"
       }
     },
     "21120": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "34011156",
-          "target_video_id": "30985031",
-          "permanent": false,
-          "attempted_at": "2026-11-19T20:43:59.704952+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "34011156",
@@ -121092,6 +121091,13 @@
           "target_video_id": "30985031",
           "permanent": false,
           "attempted_at": "2026-11-20T00:31:55.791975+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34011156",
+          "target_video_id": "30985031",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:10:19.402034+00:00"
         }
       ],
       "last_plan": {
@@ -182574,7 +182580,7 @@
       "last_plan": {
         "source_id": "33773579",
         "display_name": "American Reunion 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:10:14.564597+00:00"
+        "planned_at": "2026-11-20T02:10:18.254911+00:00"
       }
     },
     "3558": {
@@ -228465,5 +228471,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:10:14.919876+00:00"
+  "updated_at": "2026-11-20T02:10:19.402052+00:00"
 }
