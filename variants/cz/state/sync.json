@@ -185230,17 +185230,19 @@
       "attempts": []
     },
     "15836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694259",
+          "target_video_id": "31206429",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:44:01.671373+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694259",
         "display_name": "Take A Chance on Me (Marie-Line et son juge) 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:38:42.659678+00:00"
-      },
-      "claim": {
-        "worker_id": "73d76c53669b45ea929832046664c4a1-shard-0",
-        "claimed_at": "2026-11-20T14:38:45.487817+00:00",
-        "lease_expires_at": "2026-11-20T20:38:45.487817+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31206429",
       "prepared": {
@@ -230744,5 +230746,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:43:59.438594+00:00"
+  "updated_at": "2026-11-20T14:44:01.671391+00:00"
 }
