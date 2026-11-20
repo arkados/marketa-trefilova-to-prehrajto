@@ -117376,13 +117376,6 @@
           "source_id": "33672383",
           "target_video_id": "30984763",
           "permanent": false,
-          "attempted_at": "2026-11-19T21:31:38.475748+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33672383",
-          "target_video_id": "30984763",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:13:18.243284+00:00"
         },
         {
@@ -117391,6 +117384,13 @@
           "target_video_id": "30984763",
           "permanent": false,
           "attempted_at": "2026-11-20T00:53:04.271379+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33672383",
+          "target_video_id": "30984763",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:27:21.200372+00:00"
         }
       ],
       "last_plan": {
@@ -117404,12 +117404,6 @@
         "size_bytes": 4800000000,
         "prepared_at": "2026-11-10T17:37:31.941019+00:00",
         "relay_source_id": "33672383"
-      },
-      "claim": {
-        "worker_id": "75ba2eb70a6947a4810f0b02a776600c-shard-0",
-        "claimed_at": "2026-11-20T02:27:17.230589+00:00",
-        "lease_expires_at": "2026-11-20T08:27:17.230589+00:00",
-        "run_id": "44620782751"
       }
     },
     "3026": {
@@ -132716,7 +132710,7 @@
       "last_plan": {
         "source_id": "34676372",
         "display_name": "Fly, Bird, Fly! (Leť, ptáku leť!) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:53:06.765976+00:00"
+        "planned_at": "2026-11-20T02:27:20.417123+00:00"
       },
       "previous_target_id": "30987143",
       "prepared": {
@@ -182648,17 +182642,19 @@
       }
     },
     "10893": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33034635",
+          "target_video_id": "31194753",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:27:21.424920+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33034635",
         "display_name": "The Magnificent Trio (BianChengSanXia) SD CZ Dabing",
         "planned_at": "2026-11-20T02:25:16.882882+00:00"
-      },
-      "claim": {
-        "worker_id": "6d7e672d9cdc486c97ef476aa6fcd6b0-shard-0",
-        "claimed_at": "2026-11-20T02:25:18.060266+00:00",
-        "lease_expires_at": "2026-11-20T08:25:18.060266+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31194753",
       "prepared": {
@@ -182673,7 +182669,7 @@
       "last_plan": {
         "source_id": "34715322",
         "display_name": "You've Got Mail 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:27:16.511705+00:00"
+        "planned_at": "2026-11-20T02:27:20.858318+00:00"
       }
     },
     "15435": {
@@ -228555,5 +228551,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:27:18.121304+00:00"
+  "updated_at": "2026-11-20T02:27:21.424937+00:00"
 }
