@@ -110339,13 +110339,6 @@
           "source_id": "34634766",
           "target_video_id": "30983705",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:52:22.561974+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34634766",
-          "target_video_id": "30983705",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:36:50.705958+00:00"
         },
         {
@@ -110354,6 +110347,13 @@
           "target_video_id": "30983705",
           "permanent": false,
           "attempted_at": "2026-11-20T16:14:05.139371+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34634766",
+          "target_video_id": "30983705",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:29:33.756189+00:00"
         }
       ],
       "last_plan": {
@@ -184731,7 +184731,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:14:02.977154+00:00"
+        "planned_at": "2026-11-20T21:29:31.580333+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -184739,6 +184739,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-20T12:45:59.029491+00:00",
         "relay_source_id": "33707550"
+      },
+      "claim": {
+        "worker_id": "fee9b401887b4ad6a268d86a05725d62-shard-0",
+        "claimed_at": "2026-11-20T21:29:33.282929+00:00",
+        "lease_expires_at": "2026-11-21T03:29:33.282929+00:00",
+        "run_id": "44817573093"
       }
     },
     "33591": {
@@ -186643,7 +186649,7 @@
       "last_plan": {
         "source_id": "29125481",
         "display_name": "Nesmrtelná teta 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:29:28.255146+00:00"
+        "planned_at": "2026-11-20T21:29:32.168181+00:00"
       }
     },
     "31957": {
@@ -231898,5 +231904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:29:28.255166+00:00"
+  "updated_at": "2026-11-20T21:29:33.756214+00:00"
 }
