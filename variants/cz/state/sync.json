@@ -110019,6 +110019,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T14:34:01.849055+00:00",
         "relay_source_id": "24035589"
+      },
+      "claim": {
+        "worker_id": "4fb2d2be834b468690599ad245047017-shard-0",
+        "claimed_at": "2026-11-20T12:35:06.468758+00:00",
+        "lease_expires_at": "2026-11-20T18:35:06.468758+00:00",
+        "run_id": "44710524805"
       }
     },
     "31206": {
@@ -184429,17 +184435,19 @@
       "attempts": []
     },
     "9690": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24669271",
+          "target_video_id": "31204316",
+          "permanent": false,
+          "attempted_at": "2026-11-20T12:35:07.147852+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24669271",
         "display_name": "Two Brides and One Wedding (Dvě nevěsty a jedna svatba) 1080p CZ Dabing",
         "planned_at": "2026-11-20T12:31:41.474040+00:00"
-      },
-      "claim": {
-        "worker_id": "657976d632734e1abd9f0dc87402b607-shard-0",
-        "claimed_at": "2026-11-20T12:31:45.088083+00:00",
-        "lease_expires_at": "2026-11-20T18:31:45.088083+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31204316",
       "prepared": {
@@ -230084,5 +230092,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T12:35:02.879359+00:00"
+  "updated_at": "2026-11-20T12:35:07.147872+00:00"
 }
