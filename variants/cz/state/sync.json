@@ -131097,7 +131097,7 @@
       "last_plan": {
         "source_id": "17848418",
         "display_name": "Kousek nebe (A Little Piece of Heaven) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:28:04.600123+00:00"
+        "planned_at": "2026-11-20T21:47:04.874936+00:00"
       },
       "previous_target_id": "30986953",
       "prepared": {
@@ -131105,6 +131105,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T02:53:47.837626+00:00",
         "relay_source_id": "17848418"
+      },
+      "claim": {
+        "worker_id": "8bd09bc0149f4f1eb878247a7602dd3c-shard-0",
+        "claimed_at": "2026-11-20T21:47:05.856998+00:00",
+        "lease_expires_at": "2026-11-21T03:47:05.856998+00:00",
+        "run_id": "44817573093"
       }
     },
     "28008": {
@@ -186712,17 +186718,19 @@
       }
     },
     "13119": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34592963",
+          "target_video_id": "31213853",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:47:07.746302+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34592963",
         "display_name": "Jungle Book: Lost Treasure (The Jungle Book: Search for the Lost Treasure) 1080p CZ Dabing",
         "planned_at": "2026-11-20T21:43:07.320730+00:00"
-      },
-      "claim": {
-        "worker_id": "f48bdd9d9c6541989d05411d91aeb1c9-shard-0",
-        "claimed_at": "2026-11-20T21:43:10.283003+00:00",
-        "lease_expires_at": "2026-11-21T03:43:10.283003+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31213853",
       "prepared": {
@@ -186791,7 +186799,7 @@
       "last_plan": {
         "source_id": "34399126",
         "display_name": "The Last Whale Singer 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:47:00.408933+00:00"
+        "planned_at": "2026-11-20T21:47:05.249619+00:00"
       }
     },
     "3752": {
@@ -231995,5 +232003,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:47:02.465223+00:00"
+  "updated_at": "2026-11-20T21:47:07.746323+00:00"
 }
