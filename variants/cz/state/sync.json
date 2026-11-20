@@ -8650,6 +8650,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "494af321a13d4af7a8c51c341d255806-shard-0",
+        "claimed_at": "2026-11-20T06:12:48.884775+00:00",
+        "lease_expires_at": "2026-11-20T12:12:48.884775+00:00",
+        "run_id": "44666964231"
       }
     },
     "29922": {
@@ -89910,13 +89916,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:39:29.128183+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:10:06.899516+00:00"
         },
         {
@@ -89925,12 +89924,19 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-20T04:40:45.025279+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:12:52.488350+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34880122",
         "display_name": "Christmas Getaway 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:40:39.753251+00:00"
+        "planned_at": "2026-11-20T06:12:49.185191+00:00"
       },
       "previous_target_id": "30925382",
       "prepared": {
@@ -183337,7 +183343,7 @@
       "last_plan": {
         "source_id": "31009862",
         "display_name": "Angels & Demons 4K CZ Dabing",
-        "planned_at": "2026-11-20T06:12:46.331927+00:00"
+        "planned_at": "2026-11-20T06:12:49.597365+00:00"
       }
     },
     "3368": {
@@ -229144,5 +229150,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:12:46.331945+00:00"
+  "updated_at": "2026-11-20T06:12:52.488366+00:00"
 }
