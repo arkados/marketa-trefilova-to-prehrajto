@@ -36362,7 +36362,7 @@
       "last_plan": {
         "source_id": "11952213",
         "display_name": "Blow Out 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:49:27.910846+00:00"
+        "planned_at": "2026-11-20T14:31:28.587270+00:00"
       },
       "previous_target_id": "30742444",
       "prepared": {
@@ -36370,6 +36370,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-02T21:13:53.287139+00:00",
         "relay_source_id": "11952213"
+      },
+      "claim": {
+        "worker_id": "f78977fa32ef4b54bbefdc5f2742795a-shard-0",
+        "claimed_at": "2026-11-20T14:31:29.912692+00:00",
+        "lease_expires_at": "2026-11-20T20:31:29.912692+00:00",
+        "run_id": "44745112284"
       }
     },
     "10749": {
@@ -181949,13 +181955,6 @@
           "source_id": "30285030",
           "target_video_id": "31192310",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:12:04.495202+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30285030",
-          "target_video_id": "31192310",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:07:51.450122+00:00"
         },
         {
@@ -181964,6 +181963,13 @@
           "target_video_id": "31192310",
           "permanent": false,
           "attempted_at": "2026-11-20T12:49:29.891796+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30285030",
+          "target_video_id": "31192310",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:31:30.485912+00:00"
         }
       ],
       "last_plan": {
@@ -185181,7 +185187,7 @@
       "last_plan": {
         "source_id": "29700167",
         "display_name": "Rommel SD CZ Dabing",
-        "planned_at": "2026-11-20T14:31:25.305222+00:00"
+        "planned_at": "2026-11-20T14:31:29.021324+00:00"
       }
     },
     "7901": {
@@ -230679,5 +230685,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:31:25.621904+00:00"
+  "updated_at": "2026-11-20T14:31:30.485929+00:00"
 }
