@@ -187078,17 +187078,19 @@
       "attempts": []
     },
     "34815": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22744990",
+          "target_video_id": "31214439",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:24:35.794081+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22744990",
         "display_name": "Ivy + Bean 1080p CZ Dabing",
         "planned_at": "2026-11-20T22:22:11.021448+00:00"
-      },
-      "claim": {
-        "worker_id": "a892b112c8154e50b76ba7d7fd01340d-shard-0",
-        "claimed_at": "2026-11-20T22:22:17.565750+00:00",
-        "lease_expires_at": "2026-11-21T04:22:17.565750+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31214439",
       "prepared": {
@@ -232247,5 +232249,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:24:32.320613+00:00"
+  "updated_at": "2026-11-20T22:24:35.794105+00:00"
 }
