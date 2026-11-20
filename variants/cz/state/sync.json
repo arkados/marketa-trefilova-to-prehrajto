@@ -133142,13 +133142,6 @@
           "source_id": "31712414",
           "target_video_id": "30987222",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:17:51.650370+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31712414",
-          "target_video_id": "30987222",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:02:39.966333+00:00"
         },
         {
@@ -133157,6 +133150,13 @@
           "target_video_id": "30987222",
           "permanent": false,
           "attempted_at": "2026-11-20T14:43:38.822081+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31712414",
+          "target_video_id": "30987222",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:20:33.658057+00:00"
         }
       ],
       "last_plan": {
@@ -143168,7 +143168,7 @@
       "last_plan": {
         "source_id": "32111003",
         "display_name": "Alemania 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:43:38.089714+00:00"
+        "planned_at": "2026-11-20T16:20:30.850329+00:00"
       },
       "previous_target_id": "30988596",
       "prepared": {
@@ -143176,6 +143176,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T08:51:15.384448+00:00",
         "relay_source_id": "32111003"
+      },
+      "claim": {
+        "worker_id": "c0e3b6ccec674b5d884f8c7e974e4006-shard-0",
+        "claimed_at": "2026-11-20T16:20:32.037241+00:00",
+        "lease_expires_at": "2026-11-20T22:20:32.037241+00:00",
+        "run_id": "44745112284"
       }
     },
     "35611": {
@@ -185978,7 +185984,7 @@
       "last_plan": {
         "source_id": "26868576",
         "display_name": "I, Olga Hepnarová (Já, Olga Hepnarová) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:20:27.631864+00:00"
+        "planned_at": "2026-11-20T16:20:31.295206+00:00"
       }
     },
     "4888": {
@@ -231335,5 +231341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:20:27.945001+00:00"
+  "updated_at": "2026-11-20T16:20:33.658072+00:00"
 }
