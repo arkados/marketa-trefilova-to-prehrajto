@@ -1,6 +1,6 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-20T05:58:58.309399+00:00
+Poslední aktualizace (UTC): 2026-11-20T05:59:05.639629+00:00
 
 Zkontrolováno videí: 772. Další stránka kontroly: 0.
 
@@ -40,7 +40,7 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Ran (乱) SD](https://prehraj.to/ran-mp4/57f166396045cde6) (ID 30612365) | [Sdílej 33590630](https://sdilej.cz/33590630/ran-1985-tit.mp4) | Původní soubor nemá samostatnou českou titulkovou stopu. | 2026-11-20T04:38:38.406928+00:00 |
 | [Return of the Idiot (Návrat idiota) 1080p CZ Titulky](https://prehraj.to/return-of-the-idiot-navrat-idiota-1080p-cz-titulky-mkv/5d66cde734ee8ceb) (ID 30997077) | [Sdílej 32263750](https://sdilej.cz/32263750/navrat-idiota-1999-fhd-cz.mkv) | Zdrojová titulková stopa je prázdná. | 2026-11-18T13:21:38.387438+00:00 |
 | [Room 1080p CZ Titulky](https://prehraj.to/room-1080p-cz-titulky-mkv/51fa6213b2485412) (ID 30620863) | [Sdílej 14738718](https://sdilej.cz/14738718/doom.mkv) | Česká stopa je obrazová, pouze vynucená nebo v nepodporovaném formátu. | 2026-11-13T20:45:41.189509+00:00 |
-| [Searching for Sugar Man 720p](https://prehraj.to/searching-for-sugar-man-mkv/2f5ae32aac297bc1) (ID 30612744) | [Sdílej 28991356](https://sdilej.cz/28991356/searching.for.sugar.man.2012.720p.brrip.x264.ac3-jyk.mkv) | Původní soubor nemá samostatnou českou titulkovou stopu. | 2026-11-13T05:57:15.357520+00:00 |
+| [Searching for Sugar Man 720p](https://prehraj.to/searching-for-sugar-man-mkv/2f5ae32aac297bc1) (ID 30612744) | [Sdílej 28991356](https://sdilej.cz/28991356/searching.for.sugar.man.2012.720p.brrip.x264.ac3-jyk.mkv) | Původní soubor nemá samostatnou českou titulkovou stopu. | 2026-11-20T05:59:05.451492+00:00 |
 | [Seven (Se7en) 1080p CZ Titulky](https://prehraj.to/seven-se7en-cz-titulky-mkv/0918cbf833ec4f4a) (ID 30585843) | [Sdílej 23150049](https://sdilej.cz/23150049/sedm-se7en-1995-cz-1080p-hevc-.mkv) | Česká stopa je obrazová, pouze vynucená nebo v nepodporovaném formátu. | 2026-11-19T03:07:06.031411+00:00 |
 | [Snatch 1080p CZ Titulky](https://prehraj.to/snatch-1080p-cz-titulky-mkv/7cd4bd12173bd35e) (ID 30677522) | [Sdílej 30945062](https://sdilej.cz/30945062/snatch-podfuck-2000-en-cz-dabing-1080p.mkv) | Česká stopa je obrazová, pouze vynucená nebo v nepodporovaném formátu. | 2026-11-15T04:47:56.128814+00:00 |
 | [System Crasher (Systemsprenger) SD CZ Titulky](https://prehraj.to/system-crasher-systemsprenger-sd-cz-titulky-mp4/f454c1e9197d1145) (ID 30674476) | [Sdílej 35393610](https://sdilej.cz/35393610/narusitel-systemu-helena-zengel-albrecht-schuch-lisa-hagmeister-2019-drama-bdrip.-1080p.-cz-dabing.mp4) | Zdrojové titulky mají neplatné časování. | 2026-11-15T11:40:40.207123+00:00 |
