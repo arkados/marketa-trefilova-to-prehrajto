@@ -113915,13 +113915,6 @@
           "source_id": "33761714",
           "target_video_id": "30984074",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:08:37.173334+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33761714",
-          "target_video_id": "30984074",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:54:48.237756+00:00"
         },
         {
@@ -113930,6 +113923,13 @@
           "target_video_id": "30984074",
           "permanent": false,
           "attempted_at": "2026-11-20T15:29:38.908788+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33761714",
+          "target_video_id": "30984074",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:09:42.230144+00:00"
         }
       ],
       "last_plan": {
@@ -128255,7 +128255,7 @@
       "last_plan": {
         "source_id": "34909924",
         "display_name": "Winter in Sokcho 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:29:39.697383+00:00"
+        "planned_at": "2026-11-20T17:09:40.598451+00:00"
       },
       "previous_target_id": "30986627",
       "prepared": {
@@ -128263,6 +128263,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T01:13:16.122582+00:00",
         "relay_source_id": "34909924"
+      },
+      "claim": {
+        "worker_id": "31acae58960a419dbdfb921ab21faefc-shard-0",
+        "claimed_at": "2026-11-20T17:09:41.895222+00:00",
+        "lease_expires_at": "2026-11-20T23:09:41.895222+00:00",
+        "run_id": "44745112284"
       }
     },
     "15073": {
@@ -186339,7 +186345,7 @@
       "last_plan": {
         "source_id": "34697865",
         "display_name": "Die Goldfische 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:09:37.721173+00:00"
+        "planned_at": "2026-11-20T17:09:41.043310+00:00"
       }
     },
     "15837": {
@@ -231638,5 +231644,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:09:37.721203+00:00"
+  "updated_at": "2026-11-20T17:09:42.230160+00:00"
 }
