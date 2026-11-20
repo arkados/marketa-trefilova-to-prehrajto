@@ -115906,13 +115906,6 @@
           "source_id": "34380174",
           "target_video_id": "30984639",
           "permanent": false,
-          "attempted_at": "2026-11-20T02:37:18.068525+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34380174",
-          "target_video_id": "30984639",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:06:32.082039+00:00"
         },
         {
@@ -115921,6 +115914,13 @@
           "target_video_id": "30984639",
           "permanent": false,
           "attempted_at": "2026-11-20T05:40:24.798014+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34380174",
+          "target_video_id": "30984639",
+          "permanent": false,
+          "attempted_at": "2026-11-20T07:14:23.427450+00:00"
         }
       ],
       "last_plan": {
@@ -166412,7 +166412,7 @@
       "last_plan": {
         "source_id": "30167948",
         "display_name": "The Burned Barns 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:40:24.068443+00:00"
+        "planned_at": "2026-11-20T07:14:21.476246+00:00"
       },
       "previous_target_id": "31111068",
       "prepared": {
@@ -166420,6 +166420,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-17T06:29:17.224468+00:00",
         "relay_source_id": "30167948"
+      },
+      "claim": {
+        "worker_id": "acd4592ab52e4b7f8a9a24cdcc2737f4-shard-0",
+        "claimed_at": "2026-11-20T07:14:22.646746+00:00",
+        "lease_expires_at": "2026-11-20T13:14:22.646746+00:00",
+        "run_id": "44666964231"
       }
     },
     "7353": {
@@ -183478,7 +183484,7 @@
       "last_plan": {
         "source_id": "34827933",
         "display_name": "Wanted 4K CZ Dabing",
-        "planned_at": "2026-11-20T07:14:18.304488+00:00"
+        "planned_at": "2026-11-20T07:14:21.862606+00:00"
       }
     },
     "3498": {
@@ -229270,5 +229276,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:14:18.619075+00:00"
+  "updated_at": "2026-11-20T07:14:23.427468+00:00"
 }
