@@ -56407,13 +56407,6 @@
           "source_id": "31203013",
           "target_video_id": "30784627",
           "permanent": false,
-          "attempted_at": "2026-11-19T21:56:29.619231+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31203013",
-          "target_video_id": "30784627",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:37:04.954337+00:00"
         },
         {
@@ -56422,6 +56415,13 @@
           "target_video_id": "30784627",
           "permanent": false,
           "attempted_at": "2026-11-20T01:14:14.699037+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31203013",
+          "target_video_id": "30784627",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:50:28.204110+00:00"
         }
       ],
       "last_plan": {
@@ -56435,12 +56435,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-04T11:30:22.230138+00:00",
         "relay_source_id": "31203013"
-      },
-      "claim": {
-        "worker_id": "44d38976e76b4708b1fe199a173591ee-shard-0",
-        "claimed_at": "2026-11-20T02:50:24.376248+00:00",
-        "lease_expires_at": "2026-11-20T08:50:24.376248+00:00",
-        "run_id": "44620782751"
       }
     },
     "1377": {
@@ -182302,7 +182296,7 @@
       "last_plan": {
         "source_id": "27325913",
         "display_name": "The Creator 4K CZ Dabing",
-        "planned_at": "2026-11-20T00:51:09.488737+00:00"
+        "planned_at": "2026-11-20T02:50:27.270585+00:00"
       },
       "previous_target_id": "31193510",
       "prepared": {
@@ -182707,17 +182701,19 @@
       }
     },
     "15435": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31474503",
+          "target_video_id": "31194903",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:50:28.894318+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31474503",
         "display_name": "King Arthur: Legend of the Sword 4K CZ Dabing",
         "planned_at": "2026-11-20T02:36:26.802287+00:00"
-      },
-      "claim": {
-        "worker_id": "b50e000070714a949447cfc1d9dde9b6-shard-0",
-        "claimed_at": "2026-11-20T02:36:29.541826+00:00",
-        "lease_expires_at": "2026-11-20T08:36:29.541826+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31194903",
       "prepared": {
@@ -182732,7 +182728,7 @@
       "last_plan": {
         "source_id": "26618301",
         "display_name": "Safe House (2012) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:50:23.579731+00:00"
+        "planned_at": "2026-11-20T02:50:27.699792+00:00"
       }
     },
     "3774": {
@@ -228608,5 +228604,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:50:24.376270+00:00"
+  "updated_at": "2026-11-20T02:50:28.894334+00:00"
 }
