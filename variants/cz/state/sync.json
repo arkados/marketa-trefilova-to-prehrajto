@@ -120454,13 +120454,6 @@
           "source_id": "11263337",
           "target_video_id": "30985002",
           "permanent": false,
-          "attempted_at": "2026-11-20T08:14:39.366432+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11263337",
-          "target_video_id": "30985002",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:05:12.376150+00:00"
         },
         {
@@ -120469,6 +120462,13 @@
           "target_video_id": "30985002",
           "permanent": false,
           "attempted_at": "2026-11-20T11:47:57.381025+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11263337",
+          "target_video_id": "30985002",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:38:56.277899+00:00"
         }
       ],
       "last_plan": {
@@ -121750,7 +121750,7 @@
       "last_plan": {
         "source_id": "33746515",
         "display_name": "Taps 1080p CZ Dabing",
-        "planned_at": "2026-11-20T11:47:54.964426+00:00"
+        "planned_at": "2026-11-20T13:38:54.691512+00:00"
       },
       "previous_target_id": "30985386",
       "prepared": {
@@ -121758,6 +121758,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T19:00:56.350782+00:00",
         "relay_source_id": "33746515"
+      },
+      "claim": {
+        "worker_id": "4a8d869d51e8472bb1014c7db929c17f-shard-0",
+        "claimed_at": "2026-11-20T13:38:55.934235+00:00",
+        "lease_expires_at": "2026-11-20T19:38:55.934235+00:00",
+        "run_id": "44745112284"
       }
     },
     "27476": {
@@ -184800,7 +184806,7 @@
       "last_plan": {
         "source_id": "32264317",
         "display_name": "Život je život 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:38:51.837324+00:00"
+        "planned_at": "2026-11-20T13:38:55.160292+00:00"
       }
     },
     "18240": {
@@ -230370,5 +230376,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:38:51.837342+00:00"
+  "updated_at": "2026-11-20T13:38:56.277915+00:00"
 }
