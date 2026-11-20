@@ -185686,17 +185686,19 @@
       "attempts": []
     },
     "37414": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34910320",
+          "target_video_id": "31207456",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:43:11.501280+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34910320",
         "display_name": "Little Trouble Girls 1080p CZ Dabing",
         "planned_at": "2026-11-20T15:38:03.730868+00:00"
-      },
-      "claim": {
-        "worker_id": "276639e34f6d4f77b27ca903167dbb8f-shard-0",
-        "claimed_at": "2026-11-20T15:38:04.980995+00:00",
-        "lease_expires_at": "2026-11-20T21:38:04.980995+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31207456",
       "prepared": {
@@ -231113,5 +231115,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:43:08.812490+00:00"
+  "updated_at": "2026-11-20T15:43:11.501297+00:00"
 }
