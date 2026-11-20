@@ -155189,13 +155189,6 @@
           "source_id": "31963280",
           "target_video_id": "31052044",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:12:08.537073+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31963280",
-          "target_video_id": "31052044",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:52:36.371096+00:00"
         },
         {
@@ -155204,12 +155197,19 @@
           "target_video_id": "31052044",
           "permanent": false,
           "attempted_at": "2026-11-20T13:43:44.035907+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31963280",
+          "target_video_id": "31052044",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:17:42.469246+00:00"
         }
       ],
       "last_plan": {
         "source_id": "31963280",
         "display_name": "Terezín (Le Terme di Terezín) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:43:38.830088+00:00"
+        "planned_at": "2026-11-20T15:17:39.307320+00:00"
       },
       "previous_target_id": "31052044",
       "prepared": {
@@ -185528,7 +185528,13 @@
       "last_plan": {
         "source_id": "24751949",
         "display_name": "Spur des Falken (Trail of the Falcon) SD CZ Dabing",
-        "planned_at": "2026-11-20T15:17:32.960922+00:00"
+        "planned_at": "2026-11-20T15:17:39.779556+00:00"
+      },
+      "claim": {
+        "worker_id": "35654b9402ee48dfa44e9e516bd9cab3-shard-0",
+        "claimed_at": "2026-11-20T15:17:41.110821+00:00",
+        "lease_expires_at": "2026-11-20T21:17:41.110821+00:00",
+        "run_id": "44745112284"
       }
     },
     "5598": {
@@ -185538,7 +185544,12 @@
       "attempts": []
     },
     "8092": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32932670",
+        "display_name": "Little Emma (Emma's Big Adventure) 1080p CZ Dabing",
+        "planned_at": "2026-11-20T15:17:40.068143+00:00"
+      }
     },
     "15615": {
       "attempts": []
@@ -230960,5 +230971,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:17:36.409278+00:00"
+  "updated_at": "2026-11-20T15:17:42.469266+00:00"
 }
