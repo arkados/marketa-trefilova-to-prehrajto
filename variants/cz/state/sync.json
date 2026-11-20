@@ -184685,17 +184685,19 @@
       }
     },
     "21827": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34498853",
+          "target_video_id": "31205048",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:20:08.981727+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34498853",
         "display_name": "Action Man 1080p CZ Dabing",
         "planned_at": "2026-11-20T13:14:54.846646+00:00"
-      },
-      "claim": {
-        "worker_id": "c3e1879572a04b64ad4c49decfaff0fa-shard-0",
-        "claimed_at": "2026-11-20T13:14:56.387916+00:00",
-        "lease_expires_at": "2026-11-20T19:14:56.387916+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31205048",
       "prepared": {
@@ -230298,5 +230300,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:20:05.764629+00:00"
+  "updated_at": "2026-11-20T13:20:08.981744+00:00"
 }
