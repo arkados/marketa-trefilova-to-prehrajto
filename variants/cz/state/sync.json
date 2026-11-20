@@ -42483,13 +42483,6 @@
           "source_id": "34334657",
           "target_video_id": "30754884",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:55:59.804630+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34334657",
-          "target_video_id": "30754884",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:40:17.145132+00:00"
         },
         {
@@ -42498,6 +42491,13 @@
           "target_video_id": "30754884",
           "permanent": false,
           "attempted_at": "2026-11-20T16:17:22.734443+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34334657",
+          "target_video_id": "30754884",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:32:56.255116+00:00"
         }
       ],
       "last_plan": {
@@ -186112,7 +186112,7 @@
       "last_plan": {
         "source_id": "31649811",
         "display_name": "Pohádkár (Pohádkář) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:14:10.279055+00:00"
+        "planned_at": "2026-11-20T21:32:54.334710+00:00"
       },
       "previous_target_id": "31208152",
       "prepared": {
@@ -186120,6 +186120,12 @@
         "size_bytes": 2090852442,
         "prepared_at": "2026-11-20T16:14:19.053342+00:00",
         "relay_source_id": "31649811"
+      },
+      "claim": {
+        "worker_id": "c20e91722ffe44a5986015c18fb438df-shard-0",
+        "claimed_at": "2026-11-20T21:32:55.399932+00:00",
+        "lease_expires_at": "2026-11-21T03:32:55.399932+00:00",
+        "run_id": "44817573093"
       }
     },
     "4876": {
@@ -186672,7 +186678,7 @@
       "last_plan": {
         "source_id": "34151184",
         "display_name": "Another Man, Another Chance (Un autre homme, une autre chance) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:32:51.240784+00:00"
+        "planned_at": "2026-11-20T21:32:54.725948+00:00"
       }
     },
     "13119": {
@@ -231918,5 +231924,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:32:51.474176+00:00"
+  "updated_at": "2026-11-20T21:32:56.255137+00:00"
 }
