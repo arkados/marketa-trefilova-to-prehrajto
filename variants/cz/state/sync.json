@@ -116805,13 +116805,6 @@
           "source_id": "34190531",
           "target_video_id": "30984720",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:52:54.221059+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34190531",
-          "target_video_id": "30984720",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:38:14.655672+00:00"
         },
         {
@@ -116820,6 +116813,13 @@
           "target_video_id": "30984720",
           "permanent": false,
           "attempted_at": "2026-11-20T13:20:27.768424+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34190531",
+          "target_video_id": "30984720",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:00:52.562952+00:00"
         }
       ],
       "last_plan": {
@@ -116833,12 +116833,6 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:23:59.006056+00:00",
         "relay_source_id": "34190531"
-      },
-      "claim": {
-        "worker_id": "2b02ed07dbc34954a634813d70eecc29-shard-0",
-        "claimed_at": "2026-11-20T15:00:49.436457+00:00",
-        "lease_expires_at": "2026-11-20T21:00:49.436457+00:00",
-        "run_id": "44745112284"
       }
     },
     "2923": {
@@ -139783,7 +139777,7 @@
       "last_plan": {
         "source_id": "30845649",
         "display_name": "Meurtres sur la Côte Fleurie SD CZ Dabing",
-        "planned_at": "2026-11-20T13:20:27.063543+00:00"
+        "planned_at": "2026-11-20T15:00:51.866299+00:00"
       },
       "previous_target_id": "30987970",
       "prepared": {
@@ -185393,11 +185387,16 @@
       "last_plan": {
         "source_id": "34909880",
         "display_name": "Kika 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:00:46.810932+00:00"
+        "planned_at": "2026-11-20T15:00:52.274547+00:00"
       }
     },
     "15458": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33665864",
+        "display_name": "For My Country (Pour la France) 1080p CZ Dabing",
+        "planned_at": "2026-11-20T15:00:52.790685+00:00"
+      }
     },
     "32698": {
       "attempts": []
@@ -230864,5 +230863,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:00:49.436488+00:00"
+  "updated_at": "2026-11-20T15:00:52.790700+00:00"
 }
