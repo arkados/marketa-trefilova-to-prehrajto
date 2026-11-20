@@ -127751,13 +127751,6 @@
           "source_id": "30854253",
           "target_video_id": "30986456",
           "permanent": false,
-          "attempted_at": "2026-11-20T00:39:54.974053+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30854253",
-          "target_video_id": "30986456",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:16:09.080472+00:00"
         },
         {
@@ -127766,12 +127759,19 @@
           "target_video_id": "30986456",
           "permanent": false,
           "attempted_at": "2026-11-20T03:46:02.543292+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30854253",
+          "target_video_id": "30986456",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:18:12.717120+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30854253",
         "display_name": "The Imaginary (yaneura no rajaa) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:17:14.621864+00:00"
+        "planned_at": "2026-11-20T05:18:09.251705+00:00"
       },
       "previous_target_id": "30986456",
       "prepared": {
@@ -183117,17 +183117,39 @@
       "last_plan": {
         "source_id": "29783707",
         "display_name": "Tintin and the Temple of the Sun SD CZ Dabing",
-        "planned_at": "2026-11-20T05:17:14.999574+00:00"
+        "planned_at": "2026-11-20T05:18:09.626824+00:00"
+      },
+      "claim": {
+        "worker_id": "4b5372f5ca0c460ba9445580c7bf8514-shard-0",
+        "claimed_at": "2026-11-20T05:18:11.126233+00:00",
+        "lease_expires_at": "2026-11-20T11:18:11.126233+00:00",
+        "run_id": "44666964231"
       }
     },
     "26136": {
       "attempts": []
     },
     "3561": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32763000",
+        "display_name": "Escape Plan 4K CZ Dabing",
+        "planned_at": "2026-11-20T05:18:09.853843+00:00"
+      },
+      "claim": {
+        "worker_id": "bf7c677c33c843d0b75602fd0a4a0ce5-shard-0",
+        "claimed_at": "2026-11-20T05:18:10.907090+00:00",
+        "lease_expires_at": "2026-11-20T11:18:10.907090+00:00",
+        "run_id": "44666964231"
+      }
     },
     "3499": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31003721",
+        "display_name": "Madagascar: Escape 2 Africa 1080p CZ Dabing",
+        "planned_at": "2026-11-20T05:18:10.076035+00:00"
+      }
     },
     "3500": {
       "attempts": []
@@ -228960,5 +228982,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:17:14.999592+00:00"
+  "updated_at": "2026-11-20T05:18:12.717139+00:00"
 }
