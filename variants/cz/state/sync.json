@@ -116218,13 +116218,6 @@
           "source_id": "32994723",
           "target_video_id": "30984651",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:04:20.659131+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32994723",
-          "target_video_id": "30984651",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:56:14.268448+00:00"
         },
         {
@@ -116233,6 +116226,13 @@
           "target_video_id": "30984651",
           "permanent": false,
           "attempted_at": "2026-11-20T12:40:57.291504+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32994723",
+          "target_video_id": "30984651",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:23:47.317968+00:00"
         }
       ],
       "last_plan": {
@@ -118078,7 +118078,7 @@
       "last_plan": {
         "source_id": "33409005",
         "display_name": "Mr. Holmes SD CZ Dabing",
-        "planned_at": "2026-11-20T12:40:55.082662+00:00"
+        "planned_at": "2026-11-20T14:23:45.610063+00:00"
       },
       "previous_target_id": "30984816",
       "prepared": {
@@ -118086,6 +118086,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T17:44:31.464677+00:00",
         "relay_source_id": "33409005"
+      },
+      "claim": {
+        "worker_id": "aae2330ace2e4b80adda7b786f96f988-shard-0",
+        "claimed_at": "2026-11-20T14:23:46.968689+00:00",
+        "lease_expires_at": "2026-11-20T20:23:46.968689+00:00",
+        "run_id": "44745112284"
       }
     },
     "34177": {
@@ -185091,7 +185097,7 @@
       "last_plan": {
         "source_id": "19237683",
         "display_name": "Poly 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:23:41.143790+00:00"
+        "planned_at": "2026-11-20T14:23:46.091422+00:00"
       }
     },
     "15333": {
@@ -230607,5 +230613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:23:41.508039+00:00"
+  "updated_at": "2026-11-20T14:23:47.317987+00:00"
 }
