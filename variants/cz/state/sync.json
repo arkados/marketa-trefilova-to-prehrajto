@@ -183550,17 +183550,19 @@
       }
     },
     "3498": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32054288",
+          "target_video_id": "31199553",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:23:20.624338+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32054288",
         "display_name": "Armageddon 4K CZ Dabing",
         "planned_at": "2026-11-20T07:57:10.259209+00:00"
-      },
-      "claim": {
-        "worker_id": "a2ec092d7efb4014b79db60372b25b3a-shard-0",
-        "claimed_at": "2026-11-20T07:57:11.594816+00:00",
-        "lease_expires_at": "2026-11-20T13:57:11.594816+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31199553",
       "prepared": {
@@ -229361,5 +229363,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:23:17.938580+00:00"
+  "updated_at": "2026-11-20T08:23:20.624356+00:00"
 }
