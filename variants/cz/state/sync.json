@@ -123626,13 +123626,6 @@
           "source_id": "34843024",
           "target_video_id": "30985573",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:29:46.691681+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34843024",
-          "target_video_id": "30985573",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:00:38.401916+00:00"
         },
         {
@@ -123641,6 +123634,13 @@
           "target_video_id": "30985573",
           "permanent": false,
           "attempted_at": "2026-11-20T04:31:21.698478+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34843024",
+          "target_video_id": "30985573",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:04:31.927528+00:00"
         }
       ],
       "last_plan": {
@@ -137542,7 +137542,7 @@
       "last_plan": {
         "source_id": "33706152",
         "display_name": "Všichni musí být v pyžamu 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:31:22.594134+00:00"
+        "planned_at": "2026-11-20T06:04:30.250622+00:00"
       },
       "previous_target_id": "30987781",
       "prepared": {
@@ -137550,6 +137550,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:01:55.876469+00:00",
         "relay_source_id": "33706152"
+      },
+      "claim": {
+        "worker_id": "94733e9e52fe4845ad10a80b28b5f9f1-shard-0",
+        "claimed_at": "2026-11-20T06:04:31.547217+00:00",
+        "lease_expires_at": "2026-11-20T12:04:31.547217+00:00",
+        "run_id": "44666964231"
       }
     },
     "24059": {
@@ -183260,17 +183266,19 @@
       }
     },
     "3521": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26235862",
+          "target_video_id": "31198054",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:04:32.208985+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26235862",
         "display_name": "DodgeBall: A True Underdog Story 1080p CZ Dabing",
         "planned_at": "2026-11-20T06:00:23.319471+00:00"
-      },
-      "claim": {
-        "worker_id": "8b10c796d21b4fd6ab5d6660c7da3ce3-shard-0",
-        "claimed_at": "2026-11-20T06:00:26.814100+00:00",
-        "lease_expires_at": "2026-11-20T12:00:26.814100+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31198054",
       "prepared": {
@@ -183285,7 +183293,7 @@
       "last_plan": {
         "source_id": "34512187",
         "display_name": "Warcraft 4K CZ Dabing",
-        "planned_at": "2026-11-20T06:04:27.324592+00:00"
+        "planned_at": "2026-11-20T06:04:30.635588+00:00"
       }
     },
     "14555": {
@@ -229104,5 +229112,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:04:27.324610+00:00"
+  "updated_at": "2026-11-20T06:04:32.209004+00:00"
 }
