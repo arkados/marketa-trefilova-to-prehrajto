@@ -132822,13 +132822,6 @@
           "source_id": "17465562",
           "target_video_id": "30987160",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:47:25.613010+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17465562",
-          "target_video_id": "30987160",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:31:11.249287+00:00"
         },
         {
@@ -132837,6 +132830,13 @@
           "target_video_id": "30987160",
           "permanent": false,
           "attempted_at": "2026-11-20T14:15:20.508443+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17465562",
+          "target_video_id": "30987160",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:51:51.015239+00:00"
         }
       ],
       "last_plan": {
@@ -134137,7 +134137,7 @@
       "last_plan": {
         "source_id": "26710573",
         "display_name": "Requiem 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:15:18.770694+00:00"
+        "planned_at": "2026-11-20T15:51:49.338915+00:00"
       },
       "previous_target_id": "30987368",
       "prepared": {
@@ -134145,6 +134145,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T04:26:03.641359+00:00",
         "relay_source_id": "26710573"
+      },
+      "claim": {
+        "worker_id": "1217569c87af4c659275eb65efc6173b-shard-0",
+        "claimed_at": "2026-11-20T15:51:50.624491+00:00",
+        "lease_expires_at": "2026-11-20T21:51:50.624491+00:00",
+        "run_id": "44745112284"
       }
     },
     "32779": {
@@ -185781,7 +185787,7 @@
       "last_plan": {
         "source_id": "20810112",
         "display_name": "Standing Up, Falling Down 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:51:46.123427+00:00"
+        "planned_at": "2026-11-20T15:51:49.807703+00:00"
       }
     },
     "19600": {
@@ -231165,5 +231171,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:51:46.123444+00:00"
+  "updated_at": "2026-11-20T15:51:51.015260+00:00"
 }
