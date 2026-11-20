@@ -222,13 +222,6 @@
           "source_id": "26227362",
           "target_video_id": "30582771",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:20:27.383975+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26227362",
-          "target_video_id": "30582771",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:50:33.832518+00:00"
         },
         {
@@ -237,6 +230,13 @@
           "target_video_id": "30582771",
           "permanent": false,
           "attempted_at": "2026-11-20T04:20:52.272869+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26227362",
+          "target_video_id": "30582771",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:51:01.859136+00:00"
         }
       ],
       "last_plan": {
@@ -250,12 +250,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-10-28T09:35:24.990917+00:00",
         "relay_source_id": "26227362"
-      },
-      "claim": {
-        "worker_id": "5642d9f7fe63460ab7b9d181a44ef3fb-shard-0",
-        "claimed_at": "2026-11-20T04:50:56.959415+00:00",
-        "lease_expires_at": "2026-11-20T10:50:56.959415+00:00",
-        "run_id": "44620782751"
       }
     },
     "24": {
@@ -8301,7 +8295,7 @@
       "last_plan": {
         "source_id": "32388547",
         "display_name": "One Battle After Another 4K CZ titulky",
-        "planned_at": "2026-11-20T04:20:53.006412+00:00"
+        "planned_at": "2026-11-20T04:51:00.943031+00:00"
       },
       "previous_target_id": "30681595",
       "prepared": {
@@ -8309,6 +8303,12 @@
         "size_bytes": 18100000000,
         "prepared_at": "2026-11-01T00:33:09.657864+00:00",
         "relay_source_id": "32388547"
+      },
+      "claim": {
+        "worker_id": "fbef7bdca2054f8394cb6e8ae2a77ce6-shard-0",
+        "claimed_at": "2026-11-20T04:51:01.721274+00:00",
+        "lease_expires_at": "2026-11-20T10:51:01.721274+00:00",
+        "run_id": "44620782751"
       }
     },
     "692": {
@@ -100854,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:50:56.959437+00:00"
+  "updated_at": "2026-11-20T04:51:01.859155+00:00"
 }
