@@ -111169,7 +111169,7 @@
       "last_plan": {
         "source_id": "8555407",
         "display_name": "Podnájemníci SD CZ Dabing",
-        "planned_at": "2026-11-20T03:15:13.492879+00:00"
+        "planned_at": "2026-11-20T04:45:46.236531+00:00"
       },
       "previous_target_id": "30983781",
       "prepared": {
@@ -182984,17 +182984,19 @@
       }
     },
     "3311": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33708792",
+          "target_video_id": "31196520",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:45:46.514813+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33708792",
         "display_name": "The Adam Project 4K CZ Dabing",
         "planned_at": "2026-11-20T04:21:39.589258+00:00"
-      },
-      "claim": {
-        "worker_id": "dda3f69a42a34ca78f8a4315d5475181-shard-0",
-        "claimed_at": "2026-11-20T04:21:42.737347+00:00",
-        "lease_expires_at": "2026-11-20T10:21:42.737347+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31196520",
       "prepared": {
@@ -228864,5 +228866,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:45:43.905656+00:00"
+  "updated_at": "2026-11-20T04:45:46.514829+00:00"
 }
