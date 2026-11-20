@@ -111737,13 +111737,6 @@
           "source_id": "34733928",
           "target_video_id": "30983808",
           "permanent": false,
-          "attempted_at": "2026-11-20T08:17:54.786303+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34733928",
-          "target_video_id": "30983808",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:10:38.339231+00:00"
         },
         {
@@ -111752,12 +111745,19 @@
           "target_video_id": "30983808",
           "permanent": false,
           "attempted_at": "2026-11-20T11:51:28.699541+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34733928",
+          "target_video_id": "30983808",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:42:04.233684+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34733928",
         "display_name": "Grounds for Divorce (Důvod k rozvodu) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T11:51:23.077924+00:00"
+        "planned_at": "2026-11-20T13:42:01.193135+00:00"
       },
       "previous_target_id": "30983808",
       "prepared": {
@@ -184802,11 +184802,28 @@
       "last_plan": {
         "source_id": "32264317",
         "display_name": "Život je život 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:41:52.318737+00:00"
+        "planned_at": "2026-11-20T13:42:01.581454+00:00"
+      },
+      "claim": {
+        "worker_id": "9188c49167e5402c8bb1eb3ff446fd56-shard-0",
+        "claimed_at": "2026-11-20T13:42:02.897757+00:00",
+        "lease_expires_at": "2026-11-20T19:42:02.897757+00:00",
+        "run_id": "44745112284"
       }
     },
     "18240": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30253298",
+        "display_name": "Tacho (Dotkni se duhy) SD CZ Dabing",
+        "planned_at": "2026-11-20T13:42:01.813798+00:00"
+      },
+      "claim": {
+        "worker_id": "949b13ea5007400a86090205653bf962-shard-0",
+        "claimed_at": "2026-11-20T13:42:03.119225+00:00",
+        "lease_expires_at": "2026-11-20T19:42:03.119225+00:00",
+        "run_id": "44745112284"
+      }
     },
     "35765": {
       "attempts": []
@@ -184824,7 +184841,12 @@
       "attempts": []
     },
     "13462": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34697692",
+        "display_name": "Bolero 1080p CZ Dabing",
+        "planned_at": "2026-11-20T13:42:02.041638+00:00"
+      }
     },
     "31504": {
       "attempts": []
@@ -230372,5 +230394,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:41:57.545375+00:00"
+  "updated_at": "2026-11-20T13:42:04.233702+00:00"
 }
