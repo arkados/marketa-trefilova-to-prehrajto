@@ -132616,13 +132616,6 @@
           "source_id": "34713808",
           "target_video_id": "30987138",
           "permanent": false,
-          "attempted_at": "2026-11-20T14:05:51.097366+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34713808",
-          "target_video_id": "30987138",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:41:50.447337+00:00"
         },
         {
@@ -132631,6 +132624,13 @@
           "target_video_id": "30987138",
           "permanent": false,
           "attempted_at": "2026-11-20T17:19:30.603021+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34713808",
+          "target_video_id": "30987138",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:35:48.601938+00:00"
         }
       ],
       "last_plan": {
@@ -186519,7 +186519,7 @@
       "last_plan": {
         "source_id": "34697865",
         "display_name": "Die Goldfische 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:11:55.896542+00:00"
+        "planned_at": "2026-11-20T22:35:47.158379+00:00"
       },
       "previous_target_id": "31209465",
       "prepared": {
@@ -186527,6 +186527,12 @@
         "size_bytes": 2956159597,
         "prepared_at": "2026-11-20T17:12:03.150021+00:00",
         "relay_source_id": "34697865"
+      },
+      "claim": {
+        "worker_id": "697068f4920f47298516d146fbc83e35-shard-0",
+        "claimed_at": "2026-11-20T22:35:48.319461+00:00",
+        "lease_expires_at": "2026-11-21T04:35:48.319461+00:00",
+        "run_id": "44817573093"
       }
     },
     "15837": {
@@ -187209,6 +187215,12 @@
         "source_id": "31745377",
         "display_name": "The Memory Keeper's Daughter SD CZ Dabing",
         "planned_at": "2026-11-20T22:35:43.823230+00:00"
+      },
+      "claim": {
+        "worker_id": "4a73daba74f2476ca072609529feb97e-shard-0",
+        "claimed_at": "2026-11-20T22:35:46.894235+00:00",
+        "lease_expires_at": "2026-11-21T04:35:46.894235+00:00",
+        "run_id": "44817573093"
       }
     },
     "30088": {
@@ -187216,7 +187228,7 @@
       "last_plan": {
         "source_id": "29875935",
         "display_name": "Buck and the Preacher SD CZ Dabing",
-        "planned_at": "2026-11-20T22:35:44.043910+00:00"
+        "planned_at": "2026-11-20T22:35:47.535309+00:00"
       }
     },
     "27147": {
@@ -232327,5 +232339,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:35:44.043929+00:00"
+  "updated_at": "2026-11-20T22:35:48.601963+00:00"
 }
