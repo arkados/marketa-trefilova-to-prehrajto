@@ -166309,13 +166309,6 @@
           "source_id": "34847633",
           "target_video_id": "31110339",
           "permanent": false,
-          "attempted_at": "2026-11-20T08:33:19.254359+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34847633",
-          "target_video_id": "31110339",
-          "permanent": false,
           "attempted_at": "2026-11-20T10:24:06.867176+00:00"
         },
         {
@@ -166324,6 +166317,13 @@
           "target_video_id": "31110339",
           "permanent": false,
           "attempted_at": "2026-11-20T12:07:25.823880+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34847633",
+          "target_video_id": "31110339",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:53:44.787254+00:00"
         }
       ],
       "last_plan": {
@@ -184421,7 +184421,7 @@
       "last_plan": {
         "source_id": "35184481",
         "display_name": "State of Emergency (Výjimečný stav) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:03:52.416566+00:00"
+        "planned_at": "2026-11-20T13:53:43.081781+00:00"
       },
       "previous_target_id": "31203819",
       "prepared": {
@@ -184429,6 +184429,12 @@
         "size_bytes": 2296634536,
         "prepared_at": "2026-11-20T12:03:58.583785+00:00",
         "relay_source_id": "35184481"
+      },
+      "claim": {
+        "worker_id": "865062d9a0e24cb994c508c01d062dde-shard-0",
+        "claimed_at": "2026-11-20T13:53:44.471156+00:00",
+        "lease_expires_at": "2026-11-20T19:53:44.471156+00:00",
+        "run_id": "44745112284"
       }
     },
     "27250": {
@@ -184899,7 +184905,7 @@
       "last_plan": {
         "source_id": "34175829",
         "display_name": "Sweethearts (Bábovky) (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:53:39.874569+00:00"
+        "planned_at": "2026-11-20T13:53:43.594067+00:00"
       }
     },
     "16267": {
@@ -230442,5 +230448,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:53:39.874586+00:00"
+  "updated_at": "2026-11-20T13:53:44.787271+00:00"
 }
