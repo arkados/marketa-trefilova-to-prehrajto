@@ -108376,7 +108376,7 @@
       "last_plan": {
         "source_id": "35066259",
         "display_name": "Dům pro dva (House for Two) SD CZ Dabing",
-        "planned_at": "2026-11-20T14:57:50.537776+00:00"
+        "planned_at": "2026-11-20T16:37:23.242360+00:00"
       },
       "previous_target_id": "30983517",
       "prepared": {
@@ -111014,6 +111014,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T14:45:36.797999+00:00",
         "relay_source_id": "34711871"
+      },
+      "claim": {
+        "worker_id": "92d24b0d10264bb28febe3643c531a94-shard-0",
+        "claimed_at": "2026-11-20T16:37:21.790368+00:00",
+        "lease_expires_at": "2026-11-20T22:37:21.790368+00:00",
+        "run_id": "44745112284"
       }
     },
     "21086": {
@@ -186052,17 +186058,19 @@
       "attempts": []
     },
     "14426": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686253",
+          "target_video_id": "31208461",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:37:24.384467+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686253",
         "display_name": "Employee of the Month (L’Employée du mois) (2022) 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:33:09.973523+00:00"
-      },
-      "claim": {
-        "worker_id": "bd70d50828fc43dba519c9019d567616-shard-0",
-        "claimed_at": "2026-11-20T16:33:12.884890+00:00",
-        "lease_expires_at": "2026-11-20T22:33:12.884890+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31208461",
       "prepared": {
@@ -186077,7 +186085,7 @@
       "last_plan": {
         "source_id": "32352897",
         "display_name": "Els encantats 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:37:18.859951+00:00"
+        "planned_at": "2026-11-20T16:37:24.024320+00:00"
       }
     },
     "5326": {
@@ -231413,5 +231421,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:37:19.248816+00:00"
+  "updated_at": "2026-11-20T16:37:24.384492+00:00"
 }
