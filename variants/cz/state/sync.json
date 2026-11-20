@@ -185891,17 +185891,19 @@
       "attempts": []
     },
     "36691": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34720872",
+          "target_video_id": "31208056",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:13:59.431061+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34720872",
         "display_name": "Cadet Rousselle 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:07:52.229155+00:00"
-      },
-      "claim": {
-        "worker_id": "e7ee3d04a6894296858d3746778812d3-shard-0",
-        "claimed_at": "2026-11-20T16:07:55.135193+00:00",
-        "lease_expires_at": "2026-11-20T22:07:55.135193+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31208056",
       "prepared": {
@@ -231282,5 +231284,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:13:56.807036+00:00"
+  "updated_at": "2026-11-20T16:13:59.431082+00:00"
 }
