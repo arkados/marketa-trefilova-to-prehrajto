@@ -111192,13 +111192,6 @@
           "source_id": "35066715",
           "target_video_id": "30983782",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:52:45.353748+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066715",
-          "target_video_id": "30983782",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:38:05.190005+00:00"
         },
         {
@@ -111207,6 +111200,13 @@
           "target_video_id": "30983782",
           "permanent": false,
           "attempted_at": "2026-11-20T13:20:20.439962+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066715",
+          "target_video_id": "30983782",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:00:43.087673+00:00"
         }
       ],
       "last_plan": {
@@ -111220,12 +111220,6 @@
         "size_bytes": 902500000,
         "prepared_at": "2026-11-10T14:46:43.705888+00:00",
         "relay_source_id": "35066715"
-      },
-      "claim": {
-        "worker_id": "6fd1856c8f23494aa478af9012db0179-shard-0",
-        "claimed_at": "2026-11-20T15:00:38.537403+00:00",
-        "lease_expires_at": "2026-11-20T21:00:38.537403+00:00",
-        "run_id": "44745112284"
       }
     },
     "24140": {
@@ -185363,17 +185357,19 @@
       }
     },
     "3794": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12618688",
+          "target_video_id": "31206677",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:00:43.321125+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12618688",
         "display_name": "Terra Willy (Terra Willy, planète inconnue) 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:58:39.364712+00:00"
-      },
-      "claim": {
-        "worker_id": "b8239f7ef2e84cbaacb87878a1d174cd-shard-0",
-        "claimed_at": "2026-11-20T14:58:40.529520+00:00",
-        "lease_expires_at": "2026-11-20T20:58:40.529520+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31206677",
       "prepared": {
@@ -230862,5 +230858,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:00:40.635887+00:00"
+  "updated_at": "2026-11-20T15:00:43.321146+00:00"
 }
