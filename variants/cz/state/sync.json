@@ -137565,13 +137565,6 @@
           "source_id": "30647651",
           "target_video_id": "30987782",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:21:03.149520+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30647651",
-          "target_video_id": "30987782",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:05:47.950746+00:00"
         },
         {
@@ -137580,6 +137573,13 @@
           "target_video_id": "30987782",
           "permanent": false,
           "attempted_at": "2026-11-20T14:46:40.200866+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30647651",
+          "target_video_id": "30987782",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:23:37.499149+00:00"
         }
       ],
       "last_plan": {
@@ -141401,7 +141401,7 @@
       "last_plan": {
         "source_id": "11736941",
         "display_name": "The Russian Job (Švéd v žigulíku) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:46:38.525626+00:00"
+        "planned_at": "2026-11-20T16:23:34.739734+00:00"
       },
       "previous_target_id": "30988215",
       "prepared": {
@@ -141409,6 +141409,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T07:52:44.166649+00:00",
         "relay_source_id": "11736941"
+      },
+      "claim": {
+        "worker_id": "089ae1e0238b45808915000d1aed326e-shard-0",
+        "claimed_at": "2026-11-20T16:23:37.220470+00:00",
+        "lease_expires_at": "2026-11-20T22:23:37.220470+00:00",
+        "run_id": "44745112284"
       }
     },
     "11634": {
@@ -186007,7 +186013,7 @@
       "last_plan": {
         "source_id": "29701444",
         "display_name": "The Rite of Spring (La consagración de la primavera) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:23:30.763213+00:00"
+        "planned_at": "2026-11-20T16:23:35.484689+00:00"
       }
     },
     "30819": {
@@ -231361,5 +231367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:23:31.379747+00:00"
+  "updated_at": "2026-11-20T16:23:37.499170+00:00"
 }
