@@ -187385,17 +187385,19 @@
       }
     },
     "34283": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34756329",
+          "target_video_id": "31214946",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:57:39.558884+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34756329",
         "display_name": "A Minute to Pray, a Second to Die (Un minuto per pregare, un istante per morire) 1080p CZ Dabing",
         "planned_at": "2026-11-20T22:53:21.260935+00:00"
-      },
-      "claim": {
-        "worker_id": "c16ce723a6ca4372b20b9fbb3ec6ae44-shard-0",
-        "claimed_at": "2026-11-20T22:53:24.714655+00:00",
-        "lease_expires_at": "2026-11-21T04:53:24.714655+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31214946",
       "prepared": {
@@ -232494,5 +232496,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:57:36.981125+00:00"
+  "updated_at": "2026-11-20T22:57:39.558905+00:00"
 }
