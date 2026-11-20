@@ -184610,17 +184610,19 @@
       "attempts": []
     },
     "30259": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18158697",
+          "target_video_id": "31204683",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:02:29.769253+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18158697",
         "display_name": "Oba: The Last Samurai 1080p CZ Dabing",
         "planned_at": "2026-11-20T12:52:33.737890+00:00"
-      },
-      "claim": {
-        "worker_id": "22f119f3631e42c7af917673d5b265a2-shard-0",
-        "claimed_at": "2026-11-20T12:52:37.535733+00:00",
-        "lease_expires_at": "2026-11-20T18:52:37.535733+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31204683",
       "prepared": {
@@ -230232,5 +230234,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:02:24.616573+00:00"
+  "updated_at": "2026-11-20T13:02:29.769287+00:00"
 }
