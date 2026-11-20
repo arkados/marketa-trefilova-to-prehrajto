@@ -123238,13 +123238,6 @@
           "source_id": "9868166",
           "target_video_id": "30985523",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:56:31.976911+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "9868166",
-          "target_video_id": "30985523",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:47:05.528706+00:00"
         },
         {
@@ -123253,6 +123246,13 @@
           "target_video_id": "30985523",
           "permanent": false,
           "attempted_at": "2026-11-20T15:21:53.425433+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "9868166",
+          "target_video_id": "30985523",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:58:57.519596+00:00"
         }
       ],
       "last_plan": {
@@ -138158,7 +138158,7 @@
       "last_plan": {
         "source_id": "24113515",
         "display_name": "Vandronik (O Janovi a podivuhodném příteli) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:21:51.726777+00:00"
+        "planned_at": "2026-11-20T16:58:55.576647+00:00"
       },
       "previous_target_id": "30987842",
       "prepared": {
@@ -138166,6 +138166,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T06:22:35.276508+00:00",
         "relay_source_id": "24113515"
+      },
+      "claim": {
+        "worker_id": "cf857e0f6dee4dc385c8011c453d3af5-shard-0",
+        "claimed_at": "2026-11-20T16:58:57.751352+00:00",
+        "lease_expires_at": "2026-11-20T22:58:57.751352+00:00",
+        "run_id": "44745112284"
       }
     },
     "12822": {
@@ -186256,17 +186262,19 @@
       "attempts": []
     },
     "24074": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "32217413",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-20T16:58:57.252567+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32217413",
         "display_name": "Hey There, It's Yogi Bear! 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:57:32.213975+00:00"
-      },
-      "claim": {
-        "worker_id": "50415ea894804cd2a6702bb77ad51d5c-shard-0",
-        "claimed_at": "2026-11-20T16:57:33.548031+00:00",
-        "lease_expires_at": "2026-11-20T22:57:33.548031+00:00",
-        "run_id": "44745112284"
       }
     },
     "16906": {
@@ -186280,7 +186288,7 @@
       "last_plan": {
         "source_id": "29034294",
         "display_name": "La Chamade (Heartbeat) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:58:52.139773+00:00"
+        "planned_at": "2026-11-20T16:58:55.966834+00:00"
       }
     },
     "29164": {
@@ -231580,5 +231588,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:58:52.139789+00:00"
+  "updated_at": "2026-11-20T16:58:57.751386+00:00"
 }
