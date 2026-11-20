@@ -117803,7 +117803,7 @@
       "last_plan": {
         "source_id": "34062310",
         "display_name": "The Debt 1080p CZ Dabing",
-        "planned_at": "2026-11-20T09:02:06.905161+00:00"
+        "planned_at": "2026-11-20T10:53:44.067175+00:00"
       },
       "previous_target_id": "30984806",
       "prepared": {
@@ -117811,6 +117811,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:42:09.217794+00:00",
         "relay_source_id": "34062310"
+      },
+      "claim": {
+        "worker_id": "dac488de330248a2bb50bc064dcaff5e-shard-0",
+        "claimed_at": "2026-11-20T10:53:45.532289+00:00",
+        "lease_expires_at": "2026-11-20T16:53:45.532289+00:00",
+        "run_id": "44710524805"
       }
     },
     "11796": {
@@ -138987,13 +138993,6 @@
           "source_id": "34479491",
           "target_video_id": "30987906",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:41:20.561491+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34479491",
-          "target_video_id": "30987906",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:15:25.428252+00:00"
         },
         {
@@ -139002,6 +139001,13 @@
           "target_video_id": "30987906",
           "permanent": false,
           "attempted_at": "2026-11-20T09:02:09.474672+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34479491",
+          "target_video_id": "30987906",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:53:46.096905+00:00"
         }
       ],
       "last_plan": {
@@ -184063,7 +184069,13 @@
       "last_plan": {
         "source_id": "28024943",
         "display_name": "Return to Paradise Lost (Návrat ztraceného ráje) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:53:40.335932+00:00"
+        "planned_at": "2026-11-20T10:53:44.443307+00:00"
+      },
+      "claim": {
+        "worker_id": "aae1e205a1044b1c80f93dd3d77c7d8a-shard-0",
+        "claimed_at": "2026-11-20T10:53:45.757033+00:00",
+        "lease_expires_at": "2026-11-20T16:53:45.757033+00:00",
+        "run_id": "44710524805"
       }
     },
     "13824": {
@@ -184073,7 +184085,12 @@
       "attempts": []
     },
     "21604": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29473388",
+        "display_name": "The Haunted Castle 720p CZ Dabing",
+        "planned_at": "2026-11-20T10:53:44.752917+00:00"
+      }
     },
     "12400": {
       "attempts": []
@@ -229759,5 +229776,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:53:40.634126+00:00"
+  "updated_at": "2026-11-20T10:53:46.096920+00:00"
 }
