@@ -136746,13 +136746,6 @@
           "source_id": "30864308",
           "target_video_id": "30987706",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:21:26.846500+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30864308",
-          "target_video_id": "30987706",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:08:58.963295+00:00"
         },
         {
@@ -136761,12 +136754,19 @@
           "target_video_id": "30987706",
           "permanent": false,
           "attempted_at": "2026-11-20T15:45:35.165493+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30864308",
+          "target_video_id": "30987706",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:22:58.288653+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30864308",
         "display_name": "Florián SD CZ Dabing",
-        "planned_at": "2026-11-20T15:45:29.351945+00:00"
+        "planned_at": "2026-11-20T17:22:55.563036+00:00"
       },
       "previous_target_id": "30987706",
       "prepared": {
@@ -186440,11 +186440,22 @@
       "last_plan": {
         "source_id": "34864628",
         "display_name": "The Don Juans 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:22:47.532542+00:00"
+        "planned_at": "2026-11-20T17:22:55.975899+00:00"
+      },
+      "claim": {
+        "worker_id": "1104e72fd28d446dbf445855761ac291-shard-0",
+        "claimed_at": "2026-11-20T17:22:57.130127+00:00",
+        "lease_expires_at": "2026-11-20T23:22:57.130127+00:00",
+        "run_id": "44745112284"
       }
     },
     "29106": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32380173",
+        "display_name": "A Bone to Pick: An Aurora Teagarden Mystery 720p CZ Dabing",
+        "planned_at": "2026-11-20T17:22:56.215791+00:00"
+      }
     },
     "14032": {
       "attempts": []
@@ -231722,5 +231733,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:22:51.416653+00:00"
+  "updated_at": "2026-11-20T17:22:58.288670+00:00"
 }
