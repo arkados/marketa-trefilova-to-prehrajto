@@ -39102,13 +39102,6 @@
           "source_id": "34784954",
           "target_video_id": "30745770",
           "permanent": false,
-          "attempted_at": "2026-11-19T21:57:36.637551+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34784954",
-          "target_video_id": "30745770",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:38:16.031753+00:00"
         },
         {
@@ -39117,6 +39110,13 @@
           "target_video_id": "30745770",
           "permanent": false,
           "attempted_at": "2026-11-20T01:21:11.611286+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34784954",
+          "target_video_id": "30745770",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:51:57.807432+00:00"
         }
       ],
       "last_plan": {
@@ -124052,7 +124052,7 @@
       "last_plan": {
         "source_id": "12475327",
         "display_name": "Ladies in Black 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:21:10.847729+00:00"
+        "planned_at": "2026-11-20T02:51:55.675764+00:00"
       },
       "previous_target_id": "30985644",
       "prepared": {
@@ -124060,6 +124060,12 @@
         "size_bytes": 11800000000,
         "prepared_at": "2026-11-10T20:57:40.455304+00:00",
         "relay_source_id": "12475327"
+      },
+      "claim": {
+        "worker_id": "eb23e827088046fea303be972dc9c182-shard-0",
+        "claimed_at": "2026-11-20T02:51:56.824861+00:00",
+        "lease_expires_at": "2026-11-20T08:51:56.824861+00:00",
+        "run_id": "44620782751"
       }
     },
     "33147": {
@@ -182755,7 +182761,7 @@
       "last_plan": {
         "source_id": "34609339",
         "display_name": "Enola Holmes 4K CZ Dabing",
-        "planned_at": "2026-11-20T02:51:52.791241+00:00"
+        "planned_at": "2026-11-20T02:51:56.066341+00:00"
       }
     },
     "3537": {
@@ -228628,5 +228634,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:51:52.791258+00:00"
+  "updated_at": "2026-11-20T02:51:57.807448+00:00"
 }
