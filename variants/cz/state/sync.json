@@ -121481,6 +121481,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:46:03.380991+00:00",
         "relay_source_id": "33730801"
+      },
+      "claim": {
+        "worker_id": "7049b036cc1a4fee95e2cc5526d93e62-shard-0",
+        "claimed_at": "2026-11-20T21:17:06.671666+00:00",
+        "lease_expires_at": "2026-11-21T03:17:06.671666+00:00",
+        "run_id": "44817573093"
       }
     },
     "11205": {
@@ -129636,13 +129642,6 @@
           "source_id": "34836027",
           "target_video_id": "30986780",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:38:53.973312+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34836027",
-          "target_video_id": "30986780",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:21:48.373671+00:00"
         },
         {
@@ -129651,6 +129650,13 @@
           "target_video_id": "30986780",
           "permanent": false,
           "attempted_at": "2026-11-20T15:58:17.732269+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34836027",
+          "target_video_id": "30986780",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:17:05.699370+00:00"
         }
       ],
       "last_plan": {
@@ -129664,12 +129670,6 @@
         "size_bytes": 895100000,
         "prepared_at": "2026-11-11T02:06:40.360622+00:00",
         "relay_source_id": "34836027"
-      },
-      "claim": {
-        "worker_id": "f3dc921e78fd4212a27051d797156355-shard-0",
-        "claimed_at": "2026-11-20T21:17:01.977275+00:00",
-        "lease_expires_at": "2026-11-21T03:17:01.977275+00:00",
-        "run_id": "44817573093"
       }
     },
     "13027": {
@@ -137043,7 +137043,7 @@
       "last_plan": {
         "source_id": "15441977",
         "display_name": "Jacob, Mimmi and the Talking Dogs (Jēkabs, Mimmi un runājošie suņi) 720p CZ Dabing",
-        "planned_at": "2026-11-20T15:58:19.935750+00:00"
+        "planned_at": "2026-11-20T21:17:07.284014+00:00"
       },
       "previous_target_id": "30987740",
       "prepared": {
@@ -186533,7 +186533,7 @@
       "last_plan": {
         "source_id": "32146497",
         "display_name": "Mediterraneo: The Law of the Sea (Mediterráneo) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:17:02.586699+00:00"
+        "planned_at": "2026-11-20T21:17:07.634976+00:00"
       }
     },
     "21266": {
@@ -231808,5 +231808,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:17:02.906585+00:00"
+  "updated_at": "2026-11-20T21:17:07.634997+00:00"
 }
