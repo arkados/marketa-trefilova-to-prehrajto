@@ -133142,13 +133142,6 @@
           "source_id": "31712414",
           "target_video_id": "30987222",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:02:39.966333+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31712414",
-          "target_video_id": "30987222",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:43:38.822081+00:00"
         },
         {
@@ -133157,6 +133150,13 @@
           "target_video_id": "30987222",
           "permanent": false,
           "attempted_at": "2026-11-20T16:20:33.658057+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31712414",
+          "target_video_id": "30987222",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:36:03.676141+00:00"
         }
       ],
       "last_plan": {
@@ -143168,7 +143168,7 @@
       "last_plan": {
         "source_id": "32111003",
         "display_name": "Alemania 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:20:30.850329+00:00"
+        "planned_at": "2026-11-20T21:36:02.253931+00:00"
       },
       "previous_target_id": "30988596",
       "prepared": {
@@ -143176,6 +143176,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T08:51:15.384448+00:00",
         "relay_source_id": "32111003"
+      },
+      "claim": {
+        "worker_id": "1e8362e1729643b9bd1284b6f846ad9f-shard-0",
+        "claimed_at": "2026-11-20T21:36:03.398128+00:00",
+        "lease_expires_at": "2026-11-21T03:36:03.398128+00:00",
+        "run_id": "44817573093"
       }
     },
     "35611": {
@@ -186681,6 +186687,12 @@
         "source_id": "34151184",
         "display_name": "Another Man, Another Chance (Un autre homme, une autre chance) 1080p CZ Dabing",
         "planned_at": "2026-11-20T21:35:58.931365+00:00"
+      },
+      "claim": {
+        "worker_id": "91e78732cde84230beaa6335232a1f63-shard-0",
+        "claimed_at": "2026-11-20T21:36:01.995917+00:00",
+        "lease_expires_at": "2026-11-21T03:36:01.995917+00:00",
+        "run_id": "44817573093"
       }
     },
     "13119": {
@@ -186688,7 +186700,7 @@
       "last_plan": {
         "source_id": "34592963",
         "display_name": "Jungle Book: Lost Treasure (The Jungle Book: Search for the Lost Treasure) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:35:59.145445+00:00"
+        "planned_at": "2026-11-20T21:36:02.628926+00:00"
       }
     },
     "11224": {
@@ -231931,5 +231943,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:35:59.145463+00:00"
+  "updated_at": "2026-11-20T21:36:03.676168+00:00"
 }
