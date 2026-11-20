@@ -56435,6 +56435,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-04T11:30:22.230138+00:00",
         "relay_source_id": "31203013"
+      },
+      "claim": {
+        "worker_id": "c6858231a0d24810aad3bcf54fcf83bf-shard-0",
+        "claimed_at": "2026-11-20T04:21:28.884451+00:00",
+        "lease_expires_at": "2026-11-20T10:21:28.884451+00:00",
+        "run_id": "44620782751"
       }
     },
     "1377": {
@@ -124481,13 +124487,6 @@
           "source_id": "10827431",
           "target_video_id": "30985726",
           "permanent": false,
-          "attempted_at": "2026-11-19T23:36:59.018047+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "10827431",
-          "target_video_id": "30985726",
-          "permanent": false,
           "attempted_at": "2026-11-20T01:14:11.484340+00:00"
         },
         {
@@ -124496,6 +124495,13 @@
           "target_video_id": "30985726",
           "permanent": false,
           "attempted_at": "2026-11-20T02:50:10.796413+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "10827431",
+          "target_video_id": "30985726",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:21:27.941461+00:00"
         }
       ],
       "last_plan": {
@@ -124509,12 +124515,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:31:25.000011+00:00",
         "relay_source_id": "10827431"
-      },
-      "claim": {
-        "worker_id": "4284e5ee19a743bf8ba26d1e98268619-shard-0",
-        "claimed_at": "2026-11-20T04:21:24.302637+00:00",
-        "lease_expires_at": "2026-11-20T10:21:24.302637+00:00",
-        "run_id": "44620782751"
       }
     },
     "21072": {
@@ -182811,7 +182811,7 @@
       "last_plan": {
         "source_id": "31474503",
         "display_name": "King Arthur: Legend of the Sword 4K CZ Dabing",
-        "planned_at": "2026-11-20T02:36:26.802287+00:00"
+        "planned_at": "2026-11-20T04:21:29.513373+00:00"
       },
       "previous_target_id": "31194903",
       "prepared": {
@@ -182964,7 +182964,7 @@
       "last_plan": {
         "source_id": "33708792",
         "display_name": "The Adam Project 4K CZ Dabing",
-        "planned_at": "2026-11-20T04:21:24.972024+00:00"
+        "planned_at": "2026-11-20T04:21:29.883980+00:00"
       }
     },
     "12330": {
@@ -228827,5 +228827,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:21:25.331422+00:00"
+  "updated_at": "2026-11-20T04:21:29.883996+00:00"
 }
