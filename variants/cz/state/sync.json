@@ -110693,13 +110693,6 @@
           "source_id": "34788913",
           "target_video_id": "30983748",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:16:21.739583+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788913",
-          "target_video_id": "30983748",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:21:53.454420+00:00"
         },
         {
@@ -110708,6 +110701,13 @@
           "target_video_id": "30983748",
           "permanent": false,
           "attempted_at": "2026-11-20T00:00:45.084553+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788913",
+          "target_video_id": "30983748",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:40:27.995904+00:00"
         }
       ],
       "last_plan": {
@@ -135938,7 +135938,7 @@
       "last_plan": {
         "source_id": "34515639",
         "display_name": "Runaway (Útěk) (2025) 4K CZ Dabing",
-        "planned_at": "2026-11-20T00:00:42.892131+00:00"
+        "planned_at": "2026-11-20T01:40:25.997915+00:00"
       },
       "previous_target_id": "30987605",
       "prepared": {
@@ -135946,6 +135946,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T05:23:51.134886+00:00",
         "relay_source_id": "34515639"
+      },
+      "claim": {
+        "worker_id": "654baab35c5c4323bd369a735ff830fa-shard-0",
+        "claimed_at": "2026-11-20T01:40:27.180635+00:00",
+        "lease_expires_at": "2026-11-20T07:40:27.180635+00:00",
+        "run_id": "44620782751"
       }
     },
     "25125": {
@@ -182369,7 +182375,7 @@
       "last_plan": {
         "source_id": "14915783",
         "display_name": "Hanna 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:40:23.133984+00:00"
+        "planned_at": "2026-11-20T01:40:26.396560+00:00"
       }
     },
     "13379": {
@@ -228284,5 +228290,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:40:23.134000+00:00"
+  "updated_at": "2026-11-20T01:40:27.995920+00:00"
 }
