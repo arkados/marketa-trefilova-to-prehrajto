@@ -143771,7 +143771,7 @@
       "last_plan": {
         "source_id": "31011202",
         "display_name": "The Christening Party (Křtiny) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:14:17.696837+00:00"
+        "planned_at": "2026-11-20T23:51:47.376559+00:00"
       },
       "previous_target_id": "30988658",
       "prepared": {
@@ -143779,6 +143779,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T09:07:30.175373+00:00",
         "relay_source_id": "31011202"
+      },
+      "claim": {
+        "worker_id": "fd17bcef998c4bba94856c9005678827-shard-0",
+        "claimed_at": "2026-11-20T23:51:48.532152+00:00",
+        "lease_expires_at": "2026-11-21T05:51:48.532152+00:00",
+        "run_id": "44817573093"
       }
     },
     "33112": {
@@ -187665,17 +187671,19 @@
       }
     },
     "4572": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19414489",
+          "target_video_id": "31215606",
+          "permanent": false,
+          "attempted_at": "2026-11-20T23:51:49.453685+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19414489",
         "display_name": "Goodbye Soviet Union (Hüvasti, NSVL) 1080p CZ Dabing",
         "planned_at": "2026-11-20T23:41:24.791281+00:00"
-      },
-      "claim": {
-        "worker_id": "3e214ef78f614270a42e46e8e3edc1d6-shard-0",
-        "claimed_at": "2026-11-20T23:41:25.986841+00:00",
-        "lease_expires_at": "2026-11-21T05:41:25.986841+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31215606",
       "prepared": {
@@ -187690,7 +187698,7 @@
       "last_plan": {
         "source_id": "30697434",
         "display_name": "La Tulipe noire (The Black Tulip) 4K CZ Dabing",
-        "planned_at": "2026-11-20T23:51:40.214716+00:00"
+        "planned_at": "2026-11-20T23:51:47.763798+00:00"
       }
     },
     "4194": {
@@ -232737,5 +232745,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T23:51:43.112865+00:00"
+  "updated_at": "2026-11-20T23:51:49.453703+00:00"
 }
