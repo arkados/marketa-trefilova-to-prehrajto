@@ -186357,17 +186357,19 @@
       }
     },
     "19275": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34697865",
+          "target_video_id": "31209465",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:19:32.797899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34697865",
         "display_name": "Die Goldfische 1080p CZ Dabing",
         "planned_at": "2026-11-20T17:11:55.896542+00:00"
-      },
-      "claim": {
-        "worker_id": "38fe4ce284aa48b8addca29eb7e59f25-shard-0",
-        "claimed_at": "2026-11-20T17:11:58.768288+00:00",
-        "lease_expires_at": "2026-11-20T23:11:58.768288+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31209465",
       "prepared": {
@@ -231691,5 +231693,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:19:30.603038+00:00"
+  "updated_at": "2026-11-20T17:19:32.797915+00:00"
 }
