@@ -132242,7 +132242,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-20T03:29:59.943335+00:00"
+        "planned_at": "2026-11-20T05:01:14.628346+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132250,6 +132250,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "7d59440e765c4b34a9524d0a15792fe1-shard-0",
+        "claimed_at": "2026-11-20T05:01:15.746352+00:00",
+        "lease_expires_at": "2026-11-20T11:01:15.746352+00:00",
+        "run_id": "44620782751"
       }
     },
     "27054": {
@@ -183014,17 +183020,19 @@
       }
     },
     "12330": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29292616",
+          "target_video_id": "31196981",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:01:16.821680+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29292616",
         "display_name": "Romeo + Juliet 1080p CZ Dabing",
         "planned_at": "2026-11-20T04:45:55.490543+00:00"
-      },
-      "claim": {
-        "worker_id": "e130865524bd40e38f4bb66a311645f8-shard-0",
-        "claimed_at": "2026-11-20T04:45:58.424065+00:00",
-        "lease_expires_at": "2026-11-20T10:45:58.424065+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31196981",
       "prepared": {
@@ -183060,7 +183068,7 @@
       "last_plan": {
         "source_id": "26155935",
         "display_name": "Austin Powers: The Spy Who Shagged Me 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:01:08.313625+00:00"
+        "planned_at": "2026-11-20T05:01:15.049283+00:00"
       }
     },
     "3501": {
@@ -228909,5 +228917,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:01:10.919094+00:00"
+  "updated_at": "2026-11-20T05:01:16.821696+00:00"
 }
