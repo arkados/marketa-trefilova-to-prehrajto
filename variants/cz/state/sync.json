@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "a1b1c53d6e804ed29de90b42c48f243f-shard-0",
+        "claimed_at": "2026-11-20T02:44:36.982349+00:00",
+        "lease_expires_at": "2026-11-20T08:44:36.982349+00:00",
+        "run_id": "44620782751"
       }
     },
     "32719": {
@@ -139098,13 +139104,6 @@
           "source_id": "34776105",
           "target_video_id": "30987920",
           "permanent": false,
-          "attempted_at": "2026-11-19T21:53:06.687143+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34776105",
-          "target_video_id": "30987920",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:33:53.937437+00:00"
         },
         {
@@ -139113,12 +139112,19 @@
           "target_video_id": "30987920",
           "permanent": false,
           "attempted_at": "2026-11-20T01:11:12.996171+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34776105",
+          "target_video_id": "30987920",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:44:40.959944+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34776105",
         "display_name": "Fallow (BRAK) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:11:06.321044+00:00"
+        "planned_at": "2026-11-20T02:44:37.264048+00:00"
       },
       "previous_target_id": "30987920",
       "prepared": {
@@ -182719,7 +182725,7 @@
       "last_plan": {
         "source_id": "26618301",
         "display_name": "Safe House (2012) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:44:34.246898+00:00"
+        "planned_at": "2026-11-20T02:44:37.646506+00:00"
       }
     },
     "3774": {
@@ -228595,5 +228601,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:44:34.571268+00:00"
+  "updated_at": "2026-11-20T02:44:40.959960+00:00"
 }
