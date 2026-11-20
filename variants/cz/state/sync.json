@@ -113476,13 +113476,6 @@
           "source_id": "31063467",
           "target_video_id": "30984035",
           "permanent": false,
-          "attempted_at": "2026-11-20T00:11:10.568284+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31063467",
-          "target_video_id": "30984035",
-          "permanent": false,
           "attempted_at": "2026-11-20T01:52:15.663644+00:00"
         },
         {
@@ -113491,6 +113484,13 @@
           "target_video_id": "30984035",
           "permanent": false,
           "attempted_at": "2026-11-20T03:22:38.583586+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31063467",
+          "target_video_id": "30984035",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:53:06.199820+00:00"
         }
       ],
       "last_plan": {
@@ -136095,7 +136095,7 @@
       "last_plan": {
         "source_id": "30696489",
         "display_name": "Bláhový sen 1080p CZ Dabing",
-        "planned_at": "2026-11-20T03:22:37.893006+00:00"
+        "planned_at": "2026-11-20T04:53:04.649197+00:00"
       },
       "previous_target_id": "30987624",
       "prepared": {
@@ -136103,6 +136103,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:28:50.385454+00:00",
         "relay_source_id": "30696489"
+      },
+      "claim": {
+        "worker_id": "909dd742ea7d46669aaecc9173bf413f-shard-0",
+        "claimed_at": "2026-11-20T04:53:05.863636+00:00",
+        "lease_expires_at": "2026-11-20T10:53:05.863636+00:00",
+        "run_id": "44620782751"
       }
     },
     "35394": {
@@ -183026,7 +183032,7 @@
       "last_plan": {
         "source_id": "26760840",
         "display_name": "Rush Hour 2 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:53:01.731585+00:00"
+        "planned_at": "2026-11-20T04:53:05.036294+00:00"
       }
     },
     "3179": {
@@ -228878,5 +228884,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:53:01.731615+00:00"
+  "updated_at": "2026-11-20T04:53:06.199837+00:00"
 }
