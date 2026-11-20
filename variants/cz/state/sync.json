@@ -126718,13 +126718,6 @@
           "source_id": "10328836",
           "target_video_id": "30986239",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:18:10.138033+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "10328836",
-          "target_video_id": "30986239",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:58:17.881266+00:00"
         },
         {
@@ -126733,6 +126726,13 @@
           "target_video_id": "30986239",
           "permanent": false,
           "attempted_at": "2026-11-20T16:37:49.806284+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "10328836",
+          "target_video_id": "30986239",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:54:16.832473+00:00"
         }
       ],
       "last_plan": {
@@ -126746,12 +126746,6 @@
         "size_bytes": 972500000,
         "prepared_at": "2026-11-10T23:41:45.195318+00:00",
         "relay_source_id": "10328836"
-      },
-      "claim": {
-        "worker_id": "cc474944b1b24c8698309bca81bc57b5-shard-0",
-        "claimed_at": "2026-11-20T21:54:12.076637+00:00",
-        "lease_expires_at": "2026-11-21T03:54:12.076637+00:00",
-        "run_id": "44817573093"
       }
     },
     "29291": {
@@ -132048,7 +132042,7 @@
       "last_plan": {
         "source_id": "33873521",
         "display_name": "Nase bláznivá rodina (Naše bláznivá rodina) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:37:49.008551+00:00"
+        "planned_at": "2026-11-20T21:54:16.544692+00:00"
       },
       "previous_target_id": "30987048",
       "prepared": {
@@ -186832,17 +186826,19 @@
       }
     },
     "3752": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15869326",
+          "target_video_id": "31213953",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:54:17.109772+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15869326",
         "display_name": "Days of the Bagnold Summer 1080p CZ Dabing",
         "planned_at": "2026-11-20T21:50:44.861568+00:00"
-      },
-      "claim": {
-        "worker_id": "fb27c0e4aba94f999c98d55bb4a2134d-shard-0",
-        "claimed_at": "2026-11-20T21:50:48.180874+00:00",
-        "lease_expires_at": "2026-11-21T03:50:48.180874+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31213953",
       "prepared": {
@@ -232055,5 +232051,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:54:12.987956+00:00"
+  "updated_at": "2026-11-20T21:54:17.109800+00:00"
 }
