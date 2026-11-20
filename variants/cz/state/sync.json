@@ -131200,13 +131200,6 @@
           "source_id": "35147186",
           "target_video_id": "30986963",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:51:50.622716+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35147186",
-          "target_video_id": "30986963",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:22:17.633262+00:00"
         },
         {
@@ -131215,6 +131208,13 @@
           "target_video_id": "30986963",
           "permanent": false,
           "attempted_at": "2026-11-20T04:52:43.772161+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35147186",
+          "target_video_id": "30986963",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:28:02.962714+00:00"
         }
       ],
       "last_plan": {
@@ -147538,7 +147538,7 @@
       "last_plan": {
         "source_id": "19973532",
         "display_name": "Stárí není pro sraby (Stáří není pro sraby) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:52:44.653821+00:00"
+        "planned_at": "2026-11-20T06:28:01.127278+00:00"
       },
       "previous_target_id": "30998700",
       "prepared": {
@@ -147546,6 +147546,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-12T04:54:16.332507+00:00",
         "relay_source_id": "19973532"
+      },
+      "claim": {
+        "worker_id": "b883f12619024d938572fbf9a2b3ffce-shard-0",
+        "claimed_at": "2026-11-20T06:28:02.436505+00:00",
+        "lease_expires_at": "2026-11-20T12:28:02.436505+00:00",
+        "run_id": "44666964231"
       }
     },
     "30971": {
@@ -183369,6 +183375,12 @@
         "source_id": "32938725",
         "display_name": "Final Destination 4K CZ Dabing",
         "planned_at": "2026-11-20T06:27:57.413259+00:00"
+      },
+      "claim": {
+        "worker_id": "ea3ea03d67304d48a0dde82a587eebf4-shard-0",
+        "claimed_at": "2026-11-20T06:28:00.628501+00:00",
+        "lease_expires_at": "2026-11-20T12:28:00.628501+00:00",
+        "run_id": "44666964231"
       }
     },
     "21914": {
@@ -183379,7 +183391,7 @@
       "last_plan": {
         "source_id": "12503401",
         "display_name": "Kong: Skull Island 4K CZ Dabing",
-        "planned_at": "2026-11-20T06:27:57.939617+00:00"
+        "planned_at": "2026-11-20T06:28:01.564446+00:00"
       }
     },
     "3427": {
@@ -229177,5 +229189,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:27:57.939633+00:00"
+  "updated_at": "2026-11-20T06:28:02.962733+00:00"
 }
