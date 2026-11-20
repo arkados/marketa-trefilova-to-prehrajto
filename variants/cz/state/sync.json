@@ -8650,6 +8650,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "90c75732eb014c2898c229d88bf5d562-shard-0",
+        "claimed_at": "2026-11-20T08:00:41.175666+00:00",
+        "lease_expires_at": "2026-11-20T14:00:41.175666+00:00",
+        "run_id": "44666964231"
       }
     },
     "29922": {
@@ -116731,13 +116737,6 @@
           "source_id": "33767290",
           "target_video_id": "30984707",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:12:16.823803+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767290",
-          "target_video_id": "30984707",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:42:57.932468+00:00"
         },
         {
@@ -116746,12 +116745,19 @@
           "target_video_id": "30984707",
           "permanent": false,
           "attempted_at": "2026-11-20T06:16:41.202425+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767290",
+          "target_video_id": "30984707",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:00:46.169816+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33767290",
         "display_name": "White Men Can't Jump 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:16:36.414358+00:00"
+        "planned_at": "2026-11-20T08:00:42.877240+00:00"
       },
       "previous_target_id": "30984707",
       "prepared": {
@@ -183566,7 +183572,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:00:38.168518+00:00"
+        "planned_at": "2026-11-20T08:00:43.705803+00:00"
       }
     },
     "13419": {
@@ -229349,5 +229355,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:00:38.471457+00:00"
+  "updated_at": "2026-11-20T08:00:46.169833+00:00"
 }
