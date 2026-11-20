@@ -114277,13 +114277,6 @@
           "source_id": "32952346",
           "target_video_id": "30984110",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:34:02.429026+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32952346",
-          "target_video_id": "30984110",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:14:32.520134+00:00"
         },
         {
@@ -114292,12 +114285,19 @@
           "target_video_id": "30984110",
           "permanent": false,
           "attempted_at": "2026-11-20T14:00:19.474897+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32952346",
+          "target_video_id": "30984110",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:38:06.213202+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32952346",
         "display_name": "Hook 4K CZ Dabing",
-        "planned_at": "2026-11-20T14:00:12.823119+00:00"
+        "planned_at": "2026-11-20T15:38:03.301053+00:00"
       },
       "previous_target_id": "30984110",
       "prepared": {
@@ -185682,14 +185682,25 @@
       "last_plan": {
         "source_id": "34910320",
         "display_name": "Little Trouble Girls 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:37:51.296719+00:00"
+        "planned_at": "2026-11-20T15:38:03.730868+00:00"
+      },
+      "claim": {
+        "worker_id": "276639e34f6d4f77b27ca903167dbb8f-shard-0",
+        "claimed_at": "2026-11-20T15:38:04.980995+00:00",
+        "lease_expires_at": "2026-11-20T21:38:04.980995+00:00",
+        "run_id": "44745112284"
       }
     },
     "20650": {
       "attempts": []
     },
     "4437": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32043063",
+        "display_name": "Runt (2024) 1080p CZ Dabing",
+        "planned_at": "2026-11-20T15:38:03.998935+00:00"
+      }
     },
     "3591": {
       "attempts": []
@@ -231087,5 +231098,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:37:54.615945+00:00"
+  "updated_at": "2026-11-20T15:38:06.213221+00:00"
 }
