@@ -113624,13 +113624,6 @@
           "source_id": "33199372",
           "target_video_id": "30984053",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:29:27.857218+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33199372",
-          "target_video_id": "30984053",
-          "permanent": false,
           "attempted_at": "2026-11-20T05:00:24.522568+00:00"
         },
         {
@@ -113639,6 +113632,13 @@
           "target_video_id": "30984053",
           "permanent": false,
           "attempted_at": "2026-11-20T06:35:13.610076+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33199372",
+          "target_video_id": "30984053",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:17:01.205973+00:00"
         }
       ],
       "last_plan": {
@@ -127583,7 +127583,7 @@
       "last_plan": {
         "source_id": "26168894",
         "display_name": "Victim/Suspect 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:35:12.926793+00:00"
+        "planned_at": "2026-11-20T08:16:59.064293+00:00"
       },
       "previous_target_id": "30986421",
       "prepared": {
@@ -127591,6 +127591,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T00:25:57.856645+00:00",
         "relay_source_id": "26168894"
+      },
+      "claim": {
+        "worker_id": "ed12181a99be4ff78b7a65c4583e4f81-shard-0",
+        "claimed_at": "2026-11-20T08:17:00.202393+00:00",
+        "lease_expires_at": "2026-11-20T14:17:00.202393+00:00",
+        "run_id": "44666964231"
       }
     },
     "16562": {
@@ -183578,7 +183584,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:16:56.061057+00:00"
+        "planned_at": "2026-11-20T08:16:59.449879+00:00"
       }
     },
     "13419": {
@@ -229361,5 +229367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:16:56.061076+00:00"
+  "updated_at": "2026-11-20T08:17:01.205992+00:00"
 }
