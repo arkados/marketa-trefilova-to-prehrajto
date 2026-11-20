@@ -136235,13 +136235,6 @@
           "source_id": "34714270",
           "target_video_id": "30987637",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:28:36.308052+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714270",
-          "target_video_id": "30987637",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:59:15.555042+00:00"
         },
         {
@@ -136250,12 +136243,19 @@
           "target_video_id": "30987637",
           "permanent": false,
           "attempted_at": "2026-11-20T06:34:23.887790+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714270",
+          "target_video_id": "30987637",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:15:42.007336+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34714270",
         "display_name": "V erbu lvice SD CZ Dabing",
-        "planned_at": "2026-11-20T06:34:19.152478+00:00"
+        "planned_at": "2026-11-20T08:15:38.229382+00:00"
       },
       "previous_target_id": "30987637",
       "prepared": {
@@ -181172,6 +181172,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-19T20:23:36.726697+00:00",
         "relay_source_id": "31366589"
+      },
+      "claim": {
+        "worker_id": "5243a4153620422c8fa167147b4e04b5-shard-0",
+        "claimed_at": "2026-11-20T08:15:37.915902+00:00",
+        "lease_expires_at": "2026-11-20T14:15:37.915902+00:00",
+        "run_id": "44666964231"
       }
     },
     "19538": {
@@ -183578,7 +183584,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:15:34.916949+00:00"
+        "planned_at": "2026-11-20T08:15:38.660205+00:00"
       }
     },
     "13419": {
@@ -229361,5 +229367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:15:34.916983+00:00"
+  "updated_at": "2026-11-20T08:15:42.007358+00:00"
 }
