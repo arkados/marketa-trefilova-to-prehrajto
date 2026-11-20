@@ -185028,17 +185028,19 @@
       "attempts": []
     },
     "16315": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694766",
+          "target_video_id": "31206022",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:16:08.779996+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694766",
         "display_name": "Wolfgang (Wolfgang (Extraordinari)) 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:12:45.634317+00:00"
-      },
-      "claim": {
-        "worker_id": "05f3d07beb364d0bb0083f1477a3be24-shard-0",
-        "claimed_at": "2026-11-20T14:12:49.279860+00:00",
-        "lease_expires_at": "2026-11-20T20:12:49.279860+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31206022",
       "prepared": {
@@ -230575,5 +230577,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:16:06.132514+00:00"
+  "updated_at": "2026-11-20T14:16:08.780014+00:00"
 }
