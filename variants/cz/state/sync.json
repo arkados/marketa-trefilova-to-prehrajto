@@ -118940,13 +118940,6 @@
           "source_id": "14091913",
           "target_video_id": "30984870",
           "permanent": false,
-          "attempted_at": "2026-11-20T04:58:38.632469+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14091913",
-          "target_video_id": "30984870",
-          "permanent": false,
           "attempted_at": "2026-11-20T06:33:42.563790+00:00"
         },
         {
@@ -118955,12 +118948,19 @@
           "target_video_id": "30984870",
           "permanent": false,
           "attempted_at": "2026-11-20T08:15:13.725160+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14091913",
+          "target_video_id": "30984870",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:05:50.171821+00:00"
         }
       ],
       "last_plan": {
         "source_id": "14091913",
         "display_name": "Judy (2019) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T08:15:07.850550+00:00"
+        "planned_at": "2026-11-20T10:05:45.173420+00:00"
       },
       "previous_target_id": "30984870",
       "prepared": {
@@ -183829,11 +183829,22 @@
       "last_plan": {
         "source_id": "31555154",
         "display_name": "What Did You Do in the War, Daddy? 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:05:39.528411+00:00"
+        "planned_at": "2026-11-20T10:05:45.553771+00:00"
+      },
+      "claim": {
+        "worker_id": "d398ec2ae3494b4ebf730becd19f53a8-shard-0",
+        "claimed_at": "2026-11-20T10:05:46.664932+00:00",
+        "lease_expires_at": "2026-11-20T16:05:46.664932+00:00",
+        "run_id": "44710524805"
       }
     },
     "3623": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29856177",
+        "display_name": "Goyo 1080p CZ Dabing",
+        "planned_at": "2026-11-20T10:05:45.781079+00:00"
+      }
     },
     "3868": {
       "attempts": []
@@ -229573,5 +229584,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:05:42.456655+00:00"
+  "updated_at": "2026-11-20T10:05:50.171840+00:00"
 }
