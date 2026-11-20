@@ -120986,7 +120986,7 @@
       "last_plan": {
         "source_id": "19734096",
         "display_name": "The House (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:05:47.921171+00:00"
+        "planned_at": "2026-11-20T22:24:06.120381+00:00"
       },
       "previous_target_id": "30985029",
       "prepared": {
@@ -120994,6 +120994,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T18:37:05.778706+00:00",
         "relay_source_id": "19734096"
+      },
+      "claim": {
+        "worker_id": "94ba728c14d441f68339f9272983a931-shard-0",
+        "claimed_at": "2026-11-20T22:24:07.087205+00:00",
+        "lease_expires_at": "2026-11-21T04:24:07.087205+00:00",
+        "run_id": "44817573093"
       }
     },
     "24697": {
@@ -186445,17 +186451,23 @@
           "attempted_at": "2026-11-20T17:05:42.339514+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "29034294",
-        "display_name": "La Chamade (Heartbeat) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:24:02.610114+00:00"
-      },
       "previous_target_id": "31209047",
-      "prepared": {
+      "upload": {
         "target_video_id": "31209047",
-        "size_bytes": 3719839719,
-        "prepared_at": "2026-11-20T16:59:08.809232+00:00",
-        "relay_source_id": "29034294"
+        "display_name": "La Chamade (Heartbeat) 1080p CZ Dabing",
+        "source_id": "29034294",
+        "source_url": "https://sdilej.cz/29034294/pomada.mkv",
+        "source_filename": "Pomáda.mkv",
+        "size_bytes": 3700000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9438303112983704,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/la-chamade-heartbeat-1080p-cz-dabing-mkv/85177244448aa9f5",
+        "uploaded_at": "2026-11-20T22:24:07.357850+00:00"
       }
     },
     "29164": {
@@ -187103,7 +187115,7 @@
       "last_plan": {
         "source_id": "30187837",
         "display_name": "Scooby-Doo! Frankencreepy SD CZ Dabing",
-        "planned_at": "2026-11-20T22:24:03.263676+00:00"
+        "planned_at": "2026-11-20T22:24:06.484970+00:00"
       }
     },
     "8713": {
@@ -232235,5 +232247,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:24:03.263696+00:00"
+  "updated_at": "2026-11-20T22:24:07.357870+00:00"
 }
