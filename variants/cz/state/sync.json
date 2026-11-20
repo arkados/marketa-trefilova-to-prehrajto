@@ -145913,13 +145913,6 @@
           "source_id": "30629482",
           "target_video_id": "30992604",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:09:01.644269+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30629482",
-          "target_video_id": "30992604",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:04:31.329686+00:00"
         },
         {
@@ -145928,6 +145921,13 @@
           "target_video_id": "30992604",
           "permanent": false,
           "attempted_at": "2026-11-20T12:46:17.533867+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30629482",
+          "target_video_id": "30992604",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:28:36.465590+00:00"
         }
       ],
       "last_plan": {
@@ -145941,12 +145941,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T17:58:08.904501+00:00",
         "relay_source_id": "30629482"
-      },
-      "claim": {
-        "worker_id": "9ff9950a9e6d4a6da7edfe3e77ca8c86-shard-0",
-        "claimed_at": "2026-11-20T14:28:33.517385+00:00",
-        "lease_expires_at": "2026-11-20T20:28:33.517385+00:00",
-        "run_id": "44745112284"
       }
     },
     "10785": {
@@ -179147,7 +179141,7 @@
       "last_plan": {
         "source_id": "30812564",
         "display_name": "Death Sentence 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:46:16.597316+00:00"
+        "planned_at": "2026-11-20T14:28:35.764750+00:00"
       },
       "previous_target_id": "31179881",
       "prepared": {
@@ -185143,11 +185137,16 @@
       "last_plan": {
         "source_id": "17594648",
         "display_name": "The Promised Princess (Slíbená princezna) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:28:30.783307+00:00"
+        "planned_at": "2026-11-20T14:28:36.193019+00:00"
       }
     },
     "6891": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "25834193",
+        "display_name": "Shoky & Morthy: Last Big Thing (Shoky & Morthy: Poslední velká akce) 1080p CZ Dabing",
+        "planned_at": "2026-11-20T14:28:36.690070+00:00"
+      }
     },
     "27999": {
       "attempts": []
@@ -230647,5 +230646,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:28:33.517415+00:00"
+  "updated_at": "2026-11-20T14:28:36.690086+00:00"
 }
