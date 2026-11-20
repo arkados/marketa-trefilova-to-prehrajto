@@ -88273,13 +88273,6 @@
           "source_id": "31439276",
           "target_video_id": "30924533",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:12:36.245622+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31439276",
-          "target_video_id": "30924533",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:52:42.264592+00:00"
         },
         {
@@ -88288,6 +88281,13 @@
           "target_video_id": "30924533",
           "permanent": false,
           "attempted_at": "2026-11-20T16:29:42.788633+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31439276",
+          "target_video_id": "30924533",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:48:59.937609+00:00"
         }
       ],
       "last_plan": {
@@ -163434,7 +163434,7 @@
       "last_plan": {
         "source_id": "26060946",
         "display_name": "Snow White and the Magic of the Dwarves (Schneewittchen und der Zauber der Zwerge) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:29:40.167040+00:00"
+        "planned_at": "2026-11-20T21:48:58.026753+00:00"
       },
       "previous_target_id": "31094047",
       "prepared": {
@@ -163442,6 +163442,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-16T16:12:31.667794+00:00",
         "relay_source_id": "26060946"
+      },
+      "claim": {
+        "worker_id": "d55567cd714847c99a9fb18a53e06385-shard-0",
+        "claimed_at": "2026-11-20T21:48:59.111274+00:00",
+        "lease_expires_at": "2026-11-21T03:48:59.111274+00:00",
+        "run_id": "44817573093"
       }
     },
     "32605": {
@@ -186816,7 +186822,7 @@
       "last_plan": {
         "source_id": "15869326",
         "display_name": "Days of the Bagnold Summer 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:48:54.719221+00:00"
+        "planned_at": "2026-11-20T21:48:58.396071+00:00"
       }
     },
     "8234": {
@@ -232017,5 +232023,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:48:55.026678+00:00"
+  "updated_at": "2026-11-20T21:48:59.937631+00:00"
 }
