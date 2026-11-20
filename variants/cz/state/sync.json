@@ -186497,17 +186497,19 @@
       }
     },
     "14032": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19925685",
+          "target_video_id": "31213399",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:16:04.077343+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19925685",
         "display_name": "The Black Mill (Czarny młyn) 1080p CZ Dabing",
         "planned_at": "2026-11-20T21:11:53.047854+00:00"
-      },
-      "claim": {
-        "worker_id": "0c0b798e80d0443992d151b9ae73aa1e-shard-0",
-        "claimed_at": "2026-11-20T21:11:54.423707+00:00",
-        "lease_expires_at": "2026-11-21T03:11:54.423707+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31213399",
       "prepared": {
@@ -231800,5 +231802,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:16:01.431984+00:00"
+  "updated_at": "2026-11-20T21:16:04.077365+00:00"
 }
