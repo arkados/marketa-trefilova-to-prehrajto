@@ -114761,13 +114761,6 @@
           "source_id": "28048905",
           "target_video_id": "30984162",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:08:36.236927+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28048905",
-          "target_video_id": "30984162",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:54:00.425984+00:00"
         },
         {
@@ -114776,6 +114769,13 @@
           "target_video_id": "30984162",
           "permanent": false,
           "attempted_at": "2026-11-20T09:38:12.480763+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28048905",
+          "target_video_id": "30984162",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:23:32.422829+00:00"
         }
       ],
       "last_plan": {
@@ -141478,7 +141478,7 @@
       "last_plan": {
         "source_id": "29201504",
         "display_name": "Průlom SD CZ Dabing",
-        "planned_at": "2026-11-20T09:38:11.735828+00:00"
+        "planned_at": "2026-11-20T11:23:30.245045+00:00"
       },
       "previous_target_id": "30988227",
       "prepared": {
@@ -141486,6 +141486,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T07:54:44.217051+00:00",
         "relay_source_id": "29201504"
+      },
+      "claim": {
+        "worker_id": "4f507e85d7bb417aba3c57fc84d8a2dc-shard-0",
+        "claimed_at": "2026-11-20T11:23:31.429477+00:00",
+        "lease_expires_at": "2026-11-20T17:23:31.429477+00:00",
+        "run_id": "44710524805"
       }
     },
     "15578": {
@@ -184158,7 +184164,7 @@
       "last_plan": {
         "source_id": "13244077",
         "display_name": "The Music of Silence (La musica del silenzio) SD CZ Dabing",
-        "planned_at": "2026-11-20T11:23:27.244235+00:00"
+        "planned_at": "2026-11-20T11:23:30.636434+00:00"
       }
     },
     "22076": {
@@ -229836,5 +229842,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:23:27.244252+00:00"
+  "updated_at": "2026-11-20T11:23:32.422845+00:00"
 }
