@@ -115520,13 +115520,6 @@
           "source_id": "32115488",
           "target_video_id": "30984591",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:25:32.145781+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32115488",
-          "target_video_id": "30984591",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:55:54.615637+00:00"
         },
         {
@@ -115535,6 +115528,13 @@
           "target_video_id": "30984591",
           "permanent": false,
           "attempted_at": "2026-11-20T06:31:27.958492+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32115488",
+          "target_video_id": "30984591",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:13:01.552019+00:00"
         }
       ],
       "last_plan": {
@@ -137933,7 +137933,7 @@
       "last_plan": {
         "source_id": "33554657",
         "display_name": "Old-Timers (Staříci) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:31:27.201493+00:00"
+        "planned_at": "2026-11-20T08:12:59.657913+00:00"
       },
       "previous_target_id": "30987819",
       "prepared": {
@@ -137941,6 +137941,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T06:14:06.914609+00:00",
         "relay_source_id": "33554657"
+      },
+      "claim": {
+        "worker_id": "6c59c75cc1fb44b99a08abc960fdf7ea-shard-0",
+        "claimed_at": "2026-11-20T08:13:00.977774+00:00",
+        "lease_expires_at": "2026-11-20T14:13:00.977774+00:00",
+        "run_id": "44666964231"
       }
     },
     "29359": {
@@ -183578,7 +183584,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:12:56.771977+00:00"
+        "planned_at": "2026-11-20T08:13:00.074366+00:00"
       }
     },
     "13419": {
@@ -229361,5 +229367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:12:56.771994+00:00"
+  "updated_at": "2026-11-20T08:13:01.552037+00:00"
 }
