@@ -119807,13 +119807,6 @@
           "source_id": "32799273",
           "target_video_id": "30984959",
           "permanent": false,
-          "attempted_at": "2026-11-19T22:03:17.627604+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32799273",
-          "target_video_id": "30984959",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:43:54.359255+00:00"
         },
         {
@@ -119822,6 +119815,13 @@
           "target_video_id": "30984959",
           "permanent": false,
           "attempted_at": "2026-11-20T01:26:06.225296+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32799273",
+          "target_video_id": "30984959",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:56:59.977070+00:00"
         }
       ],
       "last_plan": {
@@ -134417,7 +134417,7 @@
       "last_plan": {
         "source_id": "23221863",
         "display_name": "Ten svetr si nesvlíkej 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:26:04.318244+00:00"
+        "planned_at": "2026-11-20T02:56:58.230896+00:00"
       },
       "previous_target_id": "30987417",
       "prepared": {
@@ -134425,6 +134425,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T04:35:39.966856+00:00",
         "relay_source_id": "23221863"
+      },
+      "claim": {
+        "worker_id": "b1d81971eae049a9b4f21f4f5e1dd6be-shard-0",
+        "claimed_at": "2026-11-20T02:56:59.496866+00:00",
+        "lease_expires_at": "2026-11-20T08:56:59.496866+00:00",
+        "run_id": "44620782751"
       }
     },
     "4343": {
@@ -182758,6 +182764,12 @@
         "source_id": "34609339",
         "display_name": "Enola Holmes 4K CZ Dabing",
         "planned_at": "2026-11-20T02:56:54.855275+00:00"
+      },
+      "claim": {
+        "worker_id": "65ab1749801e4ae78f407c44b9abc8e3-shard-0",
+        "claimed_at": "2026-11-20T02:56:57.739571+00:00",
+        "lease_expires_at": "2026-11-20T08:56:57.739571+00:00",
+        "run_id": "44620782751"
       }
     },
     "3537": {
@@ -182765,7 +182777,7 @@
       "last_plan": {
         "source_id": "34877718",
         "display_name": "Blade II 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:56:55.081996+00:00"
+        "planned_at": "2026-11-20T02:56:58.603846+00:00"
       }
     },
     "3269": {
@@ -228635,5 +228647,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:56:55.082011+00:00"
+  "updated_at": "2026-11-20T02:56:59.977087+00:00"
 }
