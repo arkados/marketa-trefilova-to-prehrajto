@@ -119417,7 +119417,7 @@
       "last_plan": {
         "source_id": "31031880",
         "display_name": "Nonnas 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:34:52.371506+00:00"
+        "planned_at": "2026-11-20T15:34:56.506716+00:00"
       },
       "previous_target_id": "30984912",
       "prepared": {
@@ -185628,17 +185628,19 @@
       }
     },
     "27782": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31570278",
+          "target_video_id": "31207349",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:34:56.798981+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31570278",
         "display_name": "The Magical Duvet 1080p CZ Dabing",
         "planned_at": "2026-11-20T15:31:36.902129+00:00"
-      },
-      "claim": {
-        "worker_id": "99691e5ac9df459c96c4e2fbba7194ef-shard-0",
-        "claimed_at": "2026-11-20T15:31:40.388954+00:00",
-        "lease_expires_at": "2026-11-20T21:31:40.388954+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31207349",
       "prepared": {
@@ -231067,5 +231069,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:34:52.838842+00:00"
+  "updated_at": "2026-11-20T15:34:56.799000+00:00"
 }
