@@ -120454,13 +120454,6 @@
           "source_id": "11263337",
           "target_video_id": "30985002",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:33:01.513749+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11263337",
-          "target_video_id": "30985002",
-          "permanent": false,
           "attempted_at": "2026-11-20T08:14:39.366432+00:00"
         },
         {
@@ -120469,6 +120462,13 @@
           "target_video_id": "30985002",
           "permanent": false,
           "attempted_at": "2026-11-20T10:05:12.376150+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11263337",
+          "target_video_id": "30985002",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:47:57.381025+00:00"
         }
       ],
       "last_plan": {
@@ -121750,7 +121750,7 @@
       "last_plan": {
         "source_id": "33746515",
         "display_name": "Taps 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:05:10.330637+00:00"
+        "planned_at": "2026-11-20T11:47:54.964426+00:00"
       },
       "previous_target_id": "30985386",
       "prepared": {
@@ -121758,6 +121758,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T19:00:56.350782+00:00",
         "relay_source_id": "33746515"
+      },
+      "claim": {
+        "worker_id": "b6e4044ed6db45a7b6417a9b173f8992-shard-0",
+        "claimed_at": "2026-11-20T11:47:56.429258+00:00",
+        "lease_expires_at": "2026-11-20T17:47:56.429258+00:00",
+        "run_id": "44710524805"
       }
     },
     "27476": {
@@ -184277,7 +184283,7 @@
       "last_plan": {
         "source_id": "35072913",
         "display_name": "Arenas SD CZ Dabing",
-        "planned_at": "2026-11-20T11:47:51.672257+00:00"
+        "planned_at": "2026-11-20T11:47:55.388563+00:00"
       }
     },
     "8118": {
@@ -229934,5 +229940,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:47:51.672288+00:00"
+  "updated_at": "2026-11-20T11:47:57.381042+00:00"
 }
