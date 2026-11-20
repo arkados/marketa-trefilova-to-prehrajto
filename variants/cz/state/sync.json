@@ -136075,13 +136075,6 @@
           "source_id": "30696489",
           "target_video_id": "30987624",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:24:28.062555+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30696489",
-          "target_video_id": "30987624",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:07:15.817009+00:00"
         },
         {
@@ -136090,12 +136083,19 @@
           "target_video_id": "30987624",
           "permanent": false,
           "attempted_at": "2026-11-20T16:43:43.165903+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30696489",
+          "target_video_id": "30987624",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:00:19.944982+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30696489",
         "display_name": "Bláhový sen 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:43:35.894844+00:00"
+        "planned_at": "2026-11-20T22:00:13.353777+00:00"
       },
       "previous_target_id": "30987624",
       "prepared": {
@@ -186921,7 +186921,13 @@
       "last_plan": {
         "source_id": "34150744",
         "display_name": "The Fifth Cord (Giornata nera per l'ariete) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:00:03.824874+00:00"
+        "planned_at": "2026-11-20T22:00:13.726288+00:00"
+      },
+      "claim": {
+        "worker_id": "dd590ef25e2c48a785daf786fcf8ac93-shard-0",
+        "claimed_at": "2026-11-20T22:00:14.798807+00:00",
+        "lease_expires_at": "2026-11-21T04:00:14.798807+00:00",
+        "run_id": "44817573093"
       }
     },
     "32874": {
@@ -186931,7 +186937,12 @@
       "attempts": []
     },
     "16325": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34694777",
+        "display_name": "The Night Before Christmas in Wonderland 1080p CZ Dabing",
+        "planned_at": "2026-11-20T22:00:13.953610+00:00"
+      }
     },
     "33046": {
       "attempts": []
@@ -232095,5 +232106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:00:10.459627+00:00"
+  "updated_at": "2026-11-20T22:00:19.945003+00:00"
 }
