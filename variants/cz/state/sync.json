@@ -108396,13 +108396,6 @@
           "source_id": "32069441",
           "target_video_id": "30983518",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:18:18.580191+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32069441",
-          "target_video_id": "30983518",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:58:28.298588+00:00"
         },
         {
@@ -108411,6 +108404,13 @@
           "target_video_id": "30983518",
           "permanent": false,
           "attempted_at": "2026-11-20T16:37:57.586509+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32069441",
+          "target_video_id": "30983518",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:54:30.240863+00:00"
         }
       ],
       "last_plan": {
@@ -118439,7 +118439,7 @@
       "last_plan": {
         "source_id": "33849773",
         "display_name": "Dumb Money 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:38:01.725216+00:00"
+        "planned_at": "2026-11-20T21:54:28.777738+00:00"
       },
       "previous_target_id": "30984853",
       "prepared": {
@@ -118447,6 +118447,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:53:32.936855+00:00",
         "relay_source_id": "33849773"
+      },
+      "claim": {
+        "worker_id": "c4652a2b84c446ab9215eeffb1bff2a5-shard-0",
+        "claimed_at": "2026-11-20T21:54:29.966591+00:00",
+        "lease_expires_at": "2026-11-21T03:54:29.966591+00:00",
+        "run_id": "44817573093"
       }
     },
     "2970": {
@@ -186857,6 +186863,12 @@
         "source_id": "30987607",
         "display_name": "Bury Them Deep 1080p CZ Dabing",
         "planned_at": "2026-11-20T21:54:25.163146+00:00"
+      },
+      "claim": {
+        "worker_id": "74771fa2715444c3a3df337a64473c57-shard-0",
+        "claimed_at": "2026-11-20T21:54:28.512678+00:00",
+        "lease_expires_at": "2026-11-21T03:54:28.512678+00:00",
+        "run_id": "44817573093"
       }
     },
     "28356": {
@@ -186879,7 +186891,7 @@
       "last_plan": {
         "source_id": "34773348",
         "display_name": "Back to the Titanic 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:54:25.658702+00:00"
+        "planned_at": "2026-11-20T21:54:29.159801+00:00"
       }
     },
     "34367": {
@@ -232056,5 +232068,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:54:25.658722+00:00"
+  "updated_at": "2026-11-20T21:54:30.240889+00:00"
 }
