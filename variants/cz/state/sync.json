@@ -111420,13 +111420,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:22:46.016278+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:03:00.688003+00:00"
         },
         {
@@ -111435,6 +111428,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-20T16:42:08.351647+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:58:38.186331+00:00"
         }
       ],
       "last_plan": {
@@ -111448,12 +111448,6 @@
         "size_bytes": 807200000,
         "prepared_at": "2026-11-10T14:49:12.511698+00:00",
         "relay_source_id": "28004879"
-      },
-      "claim": {
-        "worker_id": "5a6f80c0de914f6595d7304b0a4f0a1f-shard-0",
-        "claimed_at": "2026-11-20T21:58:35.290562+00:00",
-        "lease_expires_at": "2026-11-21T03:58:35.290562+00:00",
-        "run_id": "44817573093"
       }
     },
     "13136": {
@@ -111486,7 +111480,7 @@
       "last_plan": {
         "source_id": "26697838",
         "display_name": "Smích se lepí na paty 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:42:06.943876+00:00"
+        "planned_at": "2026-11-20T21:58:37.556050+00:00"
       },
       "previous_target_id": "30983795",
       "prepared": {
@@ -186906,11 +186900,16 @@
       "last_plan": {
         "source_id": "34773348",
         "display_name": "Back to the Titanic 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:58:32.676063+00:00"
+        "planned_at": "2026-11-20T21:58:37.910474+00:00"
       }
     },
     "34367": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34150744",
+        "display_name": "The Fifth Cord (Giornata nera per l'ariete) 1080p CZ Dabing",
+        "planned_at": "2026-11-20T21:58:38.405925+00:00"
+      }
     },
     "32874": {
       "attempts": []
@@ -232083,5 +232082,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:58:35.290600+00:00"
+  "updated_at": "2026-11-20T21:58:38.405944+00:00"
 }
