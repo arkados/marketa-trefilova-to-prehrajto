@@ -108356,13 +108356,6 @@
           "source_id": "35066259",
           "target_video_id": "30983517",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:20:34.131139+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066259",
-          "target_video_id": "30983517",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:24:52.265597+00:00"
         },
         {
@@ -108371,6 +108364,13 @@
           "target_video_id": "30983517",
           "permanent": false,
           "attempted_at": "2026-11-20T00:04:09.807210+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066259",
+          "target_video_id": "30983517",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:43:45.040381+00:00"
         }
       ],
       "last_plan": {
@@ -147674,7 +147674,7 @@
       "last_plan": {
         "source_id": "12863543",
         "display_name": "Taxi 121 SD CZ Dabing",
-        "planned_at": "2026-11-20T00:04:12.257164+00:00"
+        "planned_at": "2026-11-20T01:43:42.908543+00:00"
       },
       "previous_target_id": "30999429",
       "prepared": {
@@ -147682,6 +147682,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-12T06:39:50.580418+00:00",
         "relay_source_id": "12863543"
+      },
+      "claim": {
+        "worker_id": "75cb31e5eb6e4b04b6fe5017572228b6-shard-0",
+        "claimed_at": "2026-11-20T01:43:44.025327+00:00",
+        "lease_expires_at": "2026-11-20T07:43:44.025327+00:00",
+        "run_id": "44620782751"
       }
     },
     "28088": {
@@ -182392,7 +182398,7 @@
       "last_plan": {
         "source_id": "27533627",
         "display_name": "The Hitchhiker's Guide to the Galaxy 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:43:40.069723+00:00"
+        "planned_at": "2026-11-20T01:43:43.319559+00:00"
       }
     },
     "3494": {
@@ -228304,5 +228310,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:43:40.069741+00:00"
+  "updated_at": "2026-11-20T01:43:45.040404+00:00"
 }
