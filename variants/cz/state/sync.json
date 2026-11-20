@@ -118940,13 +118940,6 @@
           "source_id": "14091913",
           "target_video_id": "30984870",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:28:07.830597+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14091913",
-          "target_video_id": "30984870",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:58:38.632469+00:00"
         },
         {
@@ -118955,6 +118948,13 @@
           "target_video_id": "30984870",
           "permanent": false,
           "attempted_at": "2026-11-20T06:33:42.563790+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14091913",
+          "target_video_id": "30984870",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:15:13.725160+00:00"
         }
       ],
       "last_plan": {
@@ -120511,7 +120511,7 @@
       "last_plan": {
         "source_id": "25263125",
         "display_name": "Bleed for This 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:33:45.207767+00:00"
+        "planned_at": "2026-11-20T08:15:11.600708+00:00"
       },
       "previous_target_id": "30985003",
       "prepared": {
@@ -120519,6 +120519,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T18:31:12.199895+00:00",
         "relay_source_id": "25263125"
+      },
+      "claim": {
+        "worker_id": "c0b583793df64365905d5953e63245c0-shard-0",
+        "claimed_at": "2026-11-20T08:15:12.828519+00:00",
+        "lease_expires_at": "2026-11-20T14:15:12.828519+00:00",
+        "run_id": "44666964231"
       }
     },
     "23119": {
@@ -183578,7 +183584,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:15:08.238716+00:00"
+        "planned_at": "2026-11-20T08:15:11.986656+00:00"
       }
     },
     "13419": {
@@ -229361,5 +229367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:15:08.551786+00:00"
+  "updated_at": "2026-11-20T08:15:13.725180+00:00"
 }
