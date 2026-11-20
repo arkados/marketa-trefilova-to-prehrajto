@@ -108861,6 +108861,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T14:18:43.524719+00:00",
         "relay_source_id": "34783018"
+      },
+      "claim": {
+        "worker_id": "b87938b5cd77460faeb8675160531eb3-shard-0",
+        "claimed_at": "2026-11-20T21:58:23.254284+00:00",
+        "lease_expires_at": "2026-11-21T03:58:23.254284+00:00",
+        "run_id": "44817573093"
       }
     },
     "24189": {
@@ -108907,13 +108913,6 @@
           "source_id": "29867066",
           "target_video_id": "30983587",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:22:28.518037+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29867066",
-          "target_video_id": "30983587",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:02:43.861090+00:00"
         },
         {
@@ -108922,6 +108921,13 @@
           "target_video_id": "30983587",
           "permanent": false,
           "attempted_at": "2026-11-20T16:41:49.716848+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29867066",
+          "target_video_id": "30983587",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:58:23.039465+00:00"
         }
       ],
       "last_plan": {
@@ -108935,12 +108941,6 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T14:18:45.157766+00:00",
         "relay_source_id": "29867066"
-      },
-      "claim": {
-        "worker_id": "6cfd5d18824d41939ef54b5a383cf23b-shard-0",
-        "claimed_at": "2026-11-20T21:58:18.998435+00:00",
-        "lease_expires_at": "2026-11-21T03:58:18.998435+00:00",
-        "run_id": "44817573093"
       }
     },
     "31159": {
@@ -122798,7 +122798,7 @@
       "last_plan": {
         "source_id": "35374576",
         "display_name": "The Wild Geese 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:41:54.425439+00:00"
+        "planned_at": "2026-11-20T21:58:23.523403+00:00"
       },
       "previous_target_id": "30985473",
       "prepared": {
@@ -186906,7 +186906,7 @@
       "last_plan": {
         "source_id": "34773348",
         "display_name": "Back to the Titanic 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:58:19.630054+00:00"
+        "planned_at": "2026-11-20T21:58:23.871126+00:00"
       }
     },
     "34367": {
@@ -232083,5 +232083,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:58:19.956578+00:00"
+  "updated_at": "2026-11-20T21:58:23.871146+00:00"
 }
