@@ -130393,6 +130393,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T02:34:53.801831+00:00",
         "relay_source_id": "32368628"
+      },
+      "claim": {
+        "worker_id": "82c1eeb8771f40c2ad123206661716eb-shard-0",
+        "claimed_at": "2026-11-20T17:11:45.845074+00:00",
+        "lease_expires_at": "2026-11-20T23:11:45.845074+00:00",
+        "run_id": "44745112284"
       }
     },
     "12672": {
@@ -186320,17 +186326,19 @@
       }
     },
     "29164": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35148989",
+          "target_video_id": "31209307",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:11:46.129656+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35148989",
         "display_name": "My Little Pony: Equestria Girls – Friendship Games (My Little Pony: Equestria Girls - Friendship Games) 1080p CZ Dabing",
         "planned_at": "2026-11-20T17:06:16.434039+00:00"
-      },
-      "claim": {
-        "worker_id": "dfc4e6d5b9494353a39bc4714a76f24e-shard-0",
-        "claimed_at": "2026-11-20T17:06:17.760696+00:00",
-        "lease_expires_at": "2026-11-20T23:06:17.760696+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31209307",
       "prepared": {
@@ -231644,5 +231652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:11:43.161541+00:00"
+  "updated_at": "2026-11-20T17:11:46.129673+00:00"
 }
