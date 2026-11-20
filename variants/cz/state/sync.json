@@ -183341,17 +183341,19 @@
       }
     },
     "3517": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31009862",
+          "target_video_id": "31198312",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:27:24.647229+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31009862",
         "display_name": "Angels & Demons 4K CZ Dabing",
         "planned_at": "2026-11-20T06:17:47.447449+00:00"
-      },
-      "claim": {
-        "worker_id": "b085db8d6b544e328598c48d20e96b0b-shard-0",
-        "claimed_at": "2026-11-20T06:17:48.523176+00:00",
-        "lease_expires_at": "2026-11-20T12:17:48.523176+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31198312",
       "prepared": {
@@ -229170,5 +229172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:27:22.103050+00:00"
+  "updated_at": "2026-11-20T06:27:24.647257+00:00"
 }
