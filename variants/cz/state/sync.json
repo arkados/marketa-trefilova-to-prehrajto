@@ -121937,13 +121937,6 @@
           "source_id": "28233220",
           "target_video_id": "30985399",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:05:08.934802+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28233220",
-          "target_video_id": "30985399",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:52:08.744648+00:00"
         },
         {
@@ -121952,6 +121945,13 @@
           "target_video_id": "30985399",
           "permanent": false,
           "attempted_at": "2026-11-20T15:27:11.011878+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28233220",
+          "target_video_id": "30985399",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:06:23.703717+00:00"
         }
       ],
       "last_plan": {
@@ -121965,12 +121965,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-10T19:07:07.102095+00:00",
         "relay_source_id": "28233220"
-      },
-      "claim": {
-        "worker_id": "6bd919f7733849e99bd793f2cf97becc-shard-0",
-        "claimed_at": "2026-11-20T17:06:17.992832+00:00",
-        "lease_expires_at": "2026-11-20T23:06:17.992832+00:00",
-        "run_id": "44745112284"
       }
     },
     "3082": {
@@ -134762,7 +134756,7 @@
       "last_plan": {
         "source_id": "34689799",
         "display_name": "Černá sobota 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:27:10.193263+00:00"
+        "planned_at": "2026-11-20T17:06:23.993117+00:00"
       },
       "previous_target_id": "30987492",
       "prepared": {
@@ -186331,6 +186325,13 @@
         "claimed_at": "2026-11-20T17:06:17.760696+00:00",
         "lease_expires_at": "2026-11-20T23:06:17.760696+00:00",
         "run_id": "44745112284"
+      },
+      "previous_target_id": "31209307",
+      "prepared": {
+        "target_video_id": "31209307",
+        "size_bytes": 3150238447,
+        "prepared_at": "2026-11-20T17:06:24.224614+00:00",
+        "relay_source_id": "35148989"
       }
     },
     "19275": {
@@ -231637,5 +231638,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:06:17.992862+00:00"
+  "updated_at": "2026-11-20T17:06:24.224634+00:00"
 }
