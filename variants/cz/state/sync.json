@@ -121891,17 +121891,16 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T19:03:44.603582+00:00",
         "relay_source_id": "18059712"
+      },
+      "claim": {
+        "worker_id": "4974e23a828c4d17acf1ba69ec2ec70a-shard-0",
+        "claimed_at": "2026-11-20T08:23:34.544794+00:00",
+        "lease_expires_at": "2026-11-20T14:23:34.544794+00:00",
+        "run_id": "44666964231"
       }
     },
     "15045": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "6793928",
-          "target_video_id": "30985393",
-          "permanent": false,
-          "attempted_at": "2026-11-20T03:32:50.104829+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "6793928",
@@ -121915,6 +121914,13 @@
           "target_video_id": "30985393",
           "permanent": false,
           "attempted_at": "2026-11-20T06:38:53.114340+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6793928",
+          "target_video_id": "30985393",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:23:35.301571+00:00"
         }
       ],
       "last_plan": {
@@ -121928,12 +121934,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T19:04:05.289007+00:00",
         "relay_source_id": "6793928"
-      },
-      "claim": {
-        "worker_id": "c50fa5330c1a437c92fe508784e8eb6a-shard-0",
-        "claimed_at": "2026-11-20T08:23:30.071095+00:00",
-        "lease_expires_at": "2026-11-20T14:23:30.071095+00:00",
-        "run_id": "44666964231"
       }
     },
     "2827": {
@@ -132337,7 +132337,7 @@
       "last_plan": {
         "source_id": "28004386",
         "display_name": "Veselá bída SD CZ Dabing",
-        "planned_at": "2026-11-20T06:38:57.589441+00:00"
+        "planned_at": "2026-11-20T08:23:35.584777+00:00"
       },
       "previous_target_id": "30987113",
       "prepared": {
@@ -183586,7 +183586,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:23:30.733809+00:00"
+        "planned_at": "2026-11-20T08:23:36.016179+00:00"
       }
     },
     "13419": {
@@ -229369,5 +229369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:23:30.733827+00:00"
+  "updated_at": "2026-11-20T08:23:36.016196+00:00"
 }
