@@ -111063,13 +111063,6 @@
           "source_id": "25235773",
           "target_video_id": "30983777",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:23:18.420565+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25235773",
-          "target_video_id": "30983777",
-          "permanent": false,
           "attempted_at": "2026-11-20T08:04:48.371122+00:00"
         },
         {
@@ -111078,6 +111071,13 @@
           "target_video_id": "30983777",
           "permanent": false,
           "attempted_at": "2026-11-20T09:50:18.193196+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25235773",
+          "target_video_id": "30983777",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:36:16.466029+00:00"
         }
       ],
       "last_plan": {
@@ -149728,7 +149728,7 @@
       "last_plan": {
         "source_id": "35428437",
         "display_name": "Péril blanc 1080p CZ Dabing",
-        "planned_at": "2026-11-20T09:50:20.933597+00:00"
+        "planned_at": "2026-11-20T11:36:14.760839+00:00"
       },
       "previous_target_id": "31020067",
       "prepared": {
@@ -149736,6 +149736,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-13T22:19:40.902331+00:00",
         "relay_source_id": "35428437"
+      },
+      "claim": {
+        "worker_id": "7fb12749d8524eb382a4892ed0d0e3ab-shard-0",
+        "claimed_at": "2026-11-20T11:36:15.971711+00:00",
+        "lease_expires_at": "2026-11-20T17:36:15.971711+00:00",
+        "run_id": "44710524805"
       }
     },
     "23213": {
@@ -184222,7 +184228,7 @@
       "last_plan": {
         "source_id": "34660073",
         "display_name": "Ramona 1080p CZ Dabing",
-        "planned_at": "2026-11-20T11:36:11.405328+00:00"
+        "planned_at": "2026-11-20T11:36:15.158348+00:00"
       }
     },
     "21668": {
@@ -229888,5 +229894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:36:11.807309+00:00"
+  "updated_at": "2026-11-20T11:36:16.466045+00:00"
 }
