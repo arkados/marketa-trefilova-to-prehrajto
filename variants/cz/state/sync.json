@@ -107983,13 +107983,6 @@
           "source_id": "30011381",
           "target_video_id": "30983260",
           "permanent": false,
-          "attempted_at": "2026-11-19T19:26:46.236081+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30011381",
-          "target_video_id": "30983260",
-          "permanent": false,
           "attempted_at": "2026-11-19T21:25:05.674749+00:00"
         },
         {
@@ -107998,12 +107991,19 @@
           "target_video_id": "30983260",
           "permanent": false,
           "attempted_at": "2026-11-19T23:07:07.045376+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30011381",
+          "target_video_id": "30983260",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:43:14.009902+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30011381",
         "display_name": "Heaven (Nebe) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:07:01.314524+00:00"
+        "planned_at": "2026-11-20T00:43:10.067434+00:00"
       },
       "previous_target_id": "30983260",
       "prepared": {
@@ -182139,17 +182139,39 @@
       "last_plan": {
         "source_id": "29595730",
         "display_name": "No Time to Spy: A Loud House Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:43:01.691473+00:00"
+        "planned_at": "2026-11-20T00:43:10.381487+00:00"
+      },
+      "claim": {
+        "worker_id": "01ebe847964c47b588e581e5fff67227-shard-0",
+        "claimed_at": "2026-11-20T00:43:11.618576+00:00",
+        "lease_expires_at": "2026-11-20T06:43:11.618576+00:00",
+        "run_id": "44616581853"
       }
     },
     "30920": {
       "attempts": []
     },
     "3401": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32990732",
+        "display_name": "The Bone Collector 4K CZ Dabing",
+        "planned_at": "2026-11-20T00:43:10.684237+00:00"
+      },
+      "claim": {
+        "worker_id": "188e856fd7df4dc981d97a8de9315b26-shard-0",
+        "claimed_at": "2026-11-20T00:43:11.998361+00:00",
+        "lease_expires_at": "2026-11-20T06:43:11.998361+00:00",
+        "run_id": "44616581853"
+      }
     },
     "3236": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27325913",
+        "display_name": "The Creator 4K CZ Dabing",
+        "planned_at": "2026-11-20T00:43:10.889854+00:00"
+      }
     },
     "3227": {
       "attempts": []
@@ -228084,5 +228106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:43:07.397768+00:00"
+  "updated_at": "2026-11-20T00:43:14.009923+00:00"
 }
