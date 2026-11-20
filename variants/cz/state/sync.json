@@ -159848,13 +159848,6 @@
           "source_id": "26692246",
           "target_video_id": "31073555",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:38:09.493501+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26692246",
-          "target_video_id": "31073555",
-          "permanent": false,
           "attempted_at": "2026-11-20T05:09:38.614300+00:00"
         },
         {
@@ -159863,12 +159856,19 @@
           "target_video_id": "31073555",
           "permanent": false,
           "attempted_at": "2026-11-20T06:44:38.047912+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26692246",
+          "target_video_id": "31073555",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:29:03.550935+00:00"
         }
       ],
       "last_plan": {
         "source_id": "26692246",
         "display_name": "The Third Prince (Třetí princ) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T06:44:30.942170+00:00"
+        "planned_at": "2026-11-20T08:29:00.107841+00:00"
       },
       "previous_target_id": "31073555",
       "prepared": {
@@ -183601,11 +183601,22 @@
       "last_plan": {
         "source_id": "32831577",
         "display_name": "The Da Vinci Code 1440p CZ Dabing",
-        "planned_at": "2026-11-20T08:28:53.896687+00:00"
+        "planned_at": "2026-11-20T08:29:00.523770+00:00"
+      },
+      "claim": {
+        "worker_id": "d36d456a1c944db8a9d1f1cb2f8809c2-shard-0",
+        "claimed_at": "2026-11-20T08:29:01.723203+00:00",
+        "lease_expires_at": "2026-11-20T14:29:01.723203+00:00",
+        "run_id": "44666964231"
       }
     },
     "3516": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34274273",
+        "display_name": "The Wolverine 4K CZ Dabing",
+        "planned_at": "2026-11-20T08:29:00.772877+00:00"
+      }
     },
     "19232": {
       "attempts": []
@@ -229381,5 +229392,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:28:57.312743+00:00"
+  "updated_at": "2026-11-20T08:29:03.550954+00:00"
 }
