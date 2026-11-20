@@ -115147,13 +115147,6 @@
           "source_id": "6506542",
           "target_video_id": "30984339",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:41:59.923236+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6506542",
-          "target_video_id": "30984339",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:24:36.274077+00:00"
         },
         {
@@ -115162,6 +115155,13 @@
           "target_video_id": "30984339",
           "permanent": false,
           "attempted_at": "2026-11-20T16:01:20.400015+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6506542",
+          "target_video_id": "30984339",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:20:07.821567+00:00"
         }
       ],
       "last_plan": {
@@ -115175,12 +115175,6 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T16:09:03.929660+00:00",
         "relay_source_id": "6506542"
-      },
-      "claim": {
-        "worker_id": "e0f69fb502614fc1925ff3c91fce848d-shard-0",
-        "claimed_at": "2026-11-20T21:20:00.957512+00:00",
-        "lease_expires_at": "2026-11-21T03:20:00.957512+00:00",
-        "run_id": "44817573093"
       }
     },
     "34328": {
@@ -130850,7 +130844,7 @@
       "last_plan": {
         "source_id": "34468790",
         "display_name": "A Hoof Here, a Hoof There (Kopytem sem, kopytem tam) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:01:20.055877+00:00"
+        "planned_at": "2026-11-20T21:20:04.092071+00:00"
       },
       "previous_target_id": "30986934",
       "prepared": {
@@ -130858,6 +130852,12 @@
         "size_bytes": 6800000000,
         "prepared_at": "2026-11-11T02:44:39.784842+00:00",
         "relay_source_id": "34468790"
+      },
+      "claim": {
+        "worker_id": "226adaaa442e4a9da4aae47dc63de5b0-shard-0",
+        "claimed_at": "2026-11-20T21:20:05.092752+00:00",
+        "lease_expires_at": "2026-11-21T03:20:05.092752+00:00",
+        "run_id": "44817573093"
       }
     },
     "2767": {
@@ -186569,7 +186569,7 @@
       "last_plan": {
         "source_id": "33731529",
         "display_name": "The Man from Snowy River II 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:20:00.239572+00:00"
+        "planned_at": "2026-11-20T21:20:04.468792+00:00"
       }
     },
     "37539": {
@@ -231833,5 +231833,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:20:01.757592+00:00"
+  "updated_at": "2026-11-20T21:20:07.821588+00:00"
 }
