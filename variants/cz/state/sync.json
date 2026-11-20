@@ -186221,17 +186221,19 @@
       "attempts": []
     },
     "15236": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27360324",
+          "target_video_id": "31208869",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:57:03.570660+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27360324",
         "display_name": "Hotel Sinestra 720p CZ Dabing",
         "planned_at": "2026-11-20T16:51:30.712355+00:00"
-      },
-      "claim": {
-        "worker_id": "025f7b0fa03a42d5b303a098b555409e-shard-0",
-        "claimed_at": "2026-11-20T16:51:31.965316+00:00",
-        "lease_expires_at": "2026-11-20T22:51:31.965316+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31208869",
       "prepared": {
@@ -231561,5 +231563,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:57:00.958502+00:00"
+  "updated_at": "2026-11-20T16:57:03.570678+00:00"
 }
