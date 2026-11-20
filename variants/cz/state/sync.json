@@ -116349,7 +116349,7 @@
       "last_plan": {
         "source_id": "34146411",
         "display_name": "Existenz 4K CZ Dabing",
-        "planned_at": "2026-11-20T14:24:14.222526+00:00"
+        "planned_at": "2026-11-20T16:00:54.580886+00:00"
       },
       "previous_target_id": "30984656",
       "prepared": {
@@ -116357,6 +116357,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T17:14:37.969224+00:00",
         "relay_source_id": "34146411"
+      },
+      "claim": {
+        "worker_id": "c8c85b2f6da84c769f99764b8e936df8-shard-0",
+        "claimed_at": "2026-11-20T16:00:56.066540+00:00",
+        "lease_expires_at": "2026-11-20T22:00:56.066540+00:00",
+        "run_id": "44745112284"
       }
     },
     "2777": {
@@ -119619,13 +119625,6 @@
           "source_id": "20753761",
           "target_video_id": "30984945",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:59:24.121304+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20753761",
-          "target_video_id": "30984945",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:41:29.653593+00:00"
         },
         {
@@ -119634,6 +119633,13 @@
           "target_video_id": "30984945",
           "permanent": false,
           "attempted_at": "2026-11-20T14:24:15.898650+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20753761",
+          "target_video_id": "30984945",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:00:56.595604+00:00"
         }
       ],
       "last_plan": {
@@ -185838,14 +185844,25 @@
       "last_plan": {
         "source_id": "33616123",
         "display_name": "Death of a Comedian (La muerte de un comediante) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:00:50.605197+00:00"
+        "planned_at": "2026-11-20T16:00:55.018972+00:00"
+      },
+      "claim": {
+        "worker_id": "fd9f3a4415c94a228ed20f3ff2076ff7-shard-0",
+        "claimed_at": "2026-11-20T16:00:56.297111+00:00",
+        "lease_expires_at": "2026-11-20T22:00:56.297111+00:00",
+        "run_id": "44745112284"
       }
     },
     "16648": {
       "attempts": []
     },
     "36691": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34720872",
+        "display_name": "Cadet Rousselle 1080p CZ Dabing",
+        "planned_at": "2026-11-20T16:00:55.271373+00:00"
+      }
     },
     "9828": {
       "attempts": []
@@ -231213,5 +231230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:00:51.177898+00:00"
+  "updated_at": "2026-11-20T16:00:56.595623+00:00"
 }
