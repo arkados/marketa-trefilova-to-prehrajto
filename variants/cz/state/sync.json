@@ -131718,6 +131718,12 @@
         "size_bytes": 878800000,
         "prepared_at": "2026-11-11T03:15:05.824406+00:00",
         "relay_source_id": "29470532"
+      },
+      "claim": {
+        "worker_id": "375074be0f5446798330c1500087789d-shard-0",
+        "claimed_at": "2026-11-20T07:11:25.334024+00:00",
+        "lease_expires_at": "2026-11-20T13:11:25.334024+00:00",
+        "run_id": "44666964231"
       }
     },
     "31276": {
@@ -138904,13 +138910,6 @@
           "source_id": "34713935",
           "target_video_id": "30987900",
           "permanent": false,
-          "attempted_at": "2026-11-20T02:34:18.759801+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34713935",
-          "target_video_id": "30987900",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:03:34.722957+00:00"
         },
         {
@@ -138919,6 +138918,13 @@
           "target_video_id": "30987900",
           "permanent": false,
           "attempted_at": "2026-11-20T05:37:14.464509+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34713935",
+          "target_video_id": "30987900",
+          "permanent": false,
+          "attempted_at": "2026-11-20T07:11:25.109702+00:00"
         }
       ],
       "last_plan": {
@@ -138932,12 +138938,6 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T06:40:25.817827+00:00",
         "relay_source_id": "34713935"
-      },
-      "claim": {
-        "worker_id": "78305660140f4adc868d569eafdf336c-shard-0",
-        "claimed_at": "2026-11-20T07:11:21.491700+00:00",
-        "lease_expires_at": "2026-11-20T13:11:21.491700+00:00",
-        "run_id": "44666964231"
       }
     },
     "32221": {
@@ -144143,7 +144143,7 @@
       "last_plan": {
         "source_id": "34757822",
         "display_name": "The Abbey's Secret (Le Secret de l'abbaye) SD CZ Dabing",
-        "planned_at": "2026-11-20T05:37:17.736314+00:00"
+        "planned_at": "2026-11-20T07:11:25.615111+00:00"
       },
       "previous_target_id": "30988709",
       "prepared": {
@@ -183463,7 +183463,7 @@
       "last_plan": {
         "source_id": "34908420",
         "display_name": "Kingsman: The Golden Circle 4K CZ Dabing",
-        "planned_at": "2026-11-20T07:11:22.440599+00:00"
+        "planned_at": "2026-11-20T07:11:25.998010+00:00"
       }
     },
     "3544": {
@@ -229258,5 +229258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:11:22.440618+00:00"
+  "updated_at": "2026-11-20T07:11:25.998029+00:00"
 }
