@@ -183719,17 +183719,19 @@
       }
     },
     "24552": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34953121",
+          "target_video_id": "31200797",
+          "permanent": false,
+          "attempted_at": "2026-11-20T09:39:11.212034+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34953121",
         "display_name": "Andel Exit (Angel Exit) 1080p CZ Dabing",
         "planned_at": "2026-11-20T09:25:58.867400+00:00"
-      },
-      "claim": {
-        "worker_id": "5104b656c35c41ebb29205324423cee9-shard-0",
-        "claimed_at": "2026-11-20T09:26:00.356562+00:00",
-        "lease_expires_at": "2026-11-20T15:26:00.356562+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31200797",
       "prepared": {
@@ -229511,5 +229513,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T09:39:08.638612+00:00"
+  "updated_at": "2026-11-20T09:39:11.212054+00:00"
 }
