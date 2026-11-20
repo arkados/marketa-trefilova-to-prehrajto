@@ -111577,13 +111577,6 @@
           "source_id": "34710916",
           "target_video_id": "30983802",
           "permanent": false,
-          "attempted_at": "2026-11-20T03:23:17.327562+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34710916",
-          "target_video_id": "30983802",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:53:43.135197+00:00"
         },
         {
@@ -111592,6 +111585,13 @@
           "target_video_id": "30983802",
           "permanent": false,
           "attempted_at": "2026-11-20T06:29:16.242676+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34710916",
+          "target_video_id": "30983802",
+          "permanent": false,
+          "attempted_at": "2026-11-20T08:10:41.678270+00:00"
         }
       ],
       "last_plan": {
@@ -124859,7 +124859,7 @@
       "last_plan": {
         "source_id": "31149109",
         "display_name": "Hope Gap 720p CZ Dabing",
-        "planned_at": "2026-11-20T06:29:14.671471+00:00"
+        "planned_at": "2026-11-20T08:10:39.673068+00:00"
       },
       "previous_target_id": "30985758",
       "prepared": {
@@ -124867,6 +124867,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T21:43:04.204698+00:00",
         "relay_source_id": "31149109"
+      },
+      "claim": {
+        "worker_id": "b9a990f98e5c413d830672514400b51a-shard-0",
+        "claimed_at": "2026-11-20T08:10:40.973285+00:00",
+        "lease_expires_at": "2026-11-20T14:10:40.973285+00:00",
+        "run_id": "44666964231"
       }
     },
     "21281": {
@@ -183578,7 +183584,7 @@
       "last_plan": {
         "source_id": "32975036",
         "display_name": "In Time 4K CZ Dabing",
-        "planned_at": "2026-11-20T08:10:36.749685+00:00"
+        "planned_at": "2026-11-20T08:10:40.063297+00:00"
       }
     },
     "13419": {
@@ -229361,5 +229367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:10:36.749702+00:00"
+  "updated_at": "2026-11-20T08:10:41.678288+00:00"
 }
