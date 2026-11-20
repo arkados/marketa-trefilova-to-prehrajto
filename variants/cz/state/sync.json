@@ -117873,13 +117873,6 @@
           "source_id": "33733528",
           "target_video_id": "30984809",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:05:22.882827+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33733528",
-          "target_video_id": "30984809",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:39:07.221297+00:00"
         },
         {
@@ -117888,6 +117881,13 @@
           "target_video_id": "30984809",
           "permanent": false,
           "attempted_at": "2026-11-20T04:08:38.099209+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33733528",
+          "target_video_id": "30984809",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:42:17.280265+00:00"
         }
       ],
       "last_plan": {
@@ -135248,7 +135248,7 @@
       "last_plan": {
         "source_id": "33443922",
         "display_name": "Voda co ma drzí nad vodou (Voda čo ma drží nad vodou) 720p CZ Dabing",
-        "planned_at": "2026-11-20T04:08:36.552180+00:00"
+        "planned_at": "2026-11-20T05:42:15.661459+00:00"
       },
       "previous_target_id": "30987547",
       "prepared": {
@@ -135256,6 +135256,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T05:10:23.147426+00:00",
         "relay_source_id": "33443922"
+      },
+      "claim": {
+        "worker_id": "97366edeb46c40dbb2d1b11a4d0f8f7d-shard-0",
+        "claimed_at": "2026-11-20T05:42:16.986695+00:00",
+        "lease_expires_at": "2026-11-20T11:42:16.986695+00:00",
+        "run_id": "44666964231"
       }
     },
     "12482": {
@@ -183197,6 +183203,12 @@
         "source_id": "10595801",
         "display_name": "The Grey 1080p CZ Dabing",
         "planned_at": "2026-11-20T05:42:12.052639+00:00"
+      },
+      "claim": {
+        "worker_id": "d83c1ad39891470ab0ec5e328b6a722c-shard-0",
+        "claimed_at": "2026-11-20T05:42:15.388322+00:00",
+        "lease_expires_at": "2026-11-20T11:42:15.388322+00:00",
+        "run_id": "44666964231"
       }
     },
     "32792": {
@@ -183207,7 +183219,7 @@
       "last_plan": {
         "source_id": "33094104",
         "display_name": "The A-Team 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:42:12.605388+00:00"
+        "planned_at": "2026-11-20T05:42:16.094751+00:00"
       }
     },
     "3521": {
@@ -229032,5 +229044,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:42:12.605405+00:00"
+  "updated_at": "2026-11-20T05:42:17.280285+00:00"
 }
