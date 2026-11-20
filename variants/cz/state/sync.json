@@ -107563,7 +107563,7 @@
       "last_plan": {
         "source_id": "30260482",
         "display_name": "The High Wall SD CZ Dabing",
-        "planned_at": "2026-11-20T03:35:39.388784+00:00"
+        "planned_at": "2026-11-20T05:07:03.037138+00:00"
       },
       "previous_target_id": "30983120",
       "prepared": {
@@ -107571,6 +107571,12 @@
         "size_bytes": 945400000,
         "prepared_at": "2026-11-10T13:52:31.043797+00:00",
         "relay_source_id": "30260482"
+      },
+      "claim": {
+        "worker_id": "a1667e0f663e4725a4fe48b8bf80fbf5-shard-0",
+        "claimed_at": "2026-11-20T05:07:04.434060+00:00",
+        "lease_expires_at": "2026-11-20T11:07:04.434060+00:00",
+        "run_id": "44620782751"
       }
     },
     "27006": {
@@ -154569,13 +154575,6 @@
           "source_id": "24507656",
           "target_video_id": "31048558",
           "permanent": false,
-          "attempted_at": "2026-11-20T00:27:13.838339+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24507656",
-          "target_video_id": "31048558",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:05:34.983798+00:00"
         },
         {
@@ -154584,6 +154583,13 @@
           "target_video_id": "31048558",
           "permanent": false,
           "attempted_at": "2026-11-20T03:35:39.016684+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24507656",
+          "target_video_id": "31048558",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:07:04.727691+00:00"
         }
       ],
       "last_plan": {
@@ -183087,11 +183093,22 @@
       "last_plan": {
         "source_id": "32761215",
         "display_name": "The Girl Next Door (2004) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:06:59.621888+00:00"
+        "planned_at": "2026-11-20T05:07:03.411509+00:00"
+      },
+      "claim": {
+        "worker_id": "c5a0b2c6f92044f4b8ec05819179bbc4-shard-0",
+        "claimed_at": "2026-11-20T05:07:04.954624+00:00",
+        "lease_expires_at": "2026-11-20T11:07:04.954624+00:00",
+        "run_id": "44620782751"
       }
     },
     "21982": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29783707",
+        "display_name": "Tintin and the Temple of the Sun SD CZ Dabing",
+        "planned_at": "2026-11-20T05:07:03.690511+00:00"
+      }
     },
     "26136": {
       "attempts": []
@@ -228933,5 +228950,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:06:59.918403+00:00"
+  "updated_at": "2026-11-20T05:07:04.954654+00:00"
 }
