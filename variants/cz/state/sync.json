@@ -29813,13 +29813,6 @@
           "source_id": "21165095",
           "target_video_id": "30722559",
           "permanent": false,
-          "attempted_at": "2026-11-19T22:07:51.525823+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21165095",
-          "target_video_id": "30722559",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:50:49.962275+00:00"
         },
         {
@@ -29828,6 +29821,13 @@
           "target_video_id": "30722559",
           "permanent": false,
           "attempted_at": "2026-11-20T01:29:31.237931+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21165095",
+          "target_video_id": "30722559",
+          "permanent": false,
+          "attempted_at": "2026-11-20T03:00:30.908359+00:00"
         }
       ],
       "last_plan": {
@@ -123600,7 +123600,7 @@
       "last_plan": {
         "source_id": "24836709",
         "display_name": "Harper SD CZ Dabing",
-        "planned_at": "2026-11-20T01:29:30.467108+00:00"
+        "planned_at": "2026-11-20T03:00:28.879795+00:00"
       },
       "previous_target_id": "30985572",
       "prepared": {
@@ -123608,6 +123608,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T20:28:40.493950+00:00",
         "relay_source_id": "24836709"
+      },
+      "claim": {
+        "worker_id": "ed31ca1494c54494a05ae0ad11985310-shard-0",
+        "claimed_at": "2026-11-20T03:00:29.992872+00:00",
+        "lease_expires_at": "2026-11-20T09:00:29.992872+00:00",
+        "run_id": "44620782751"
       }
     },
     "32552": {
@@ -182784,7 +182790,7 @@
       "last_plan": {
         "source_id": "34877718",
         "display_name": "Blade II 1080p CZ Dabing",
-        "planned_at": "2026-11-20T03:00:26.039314+00:00"
+        "planned_at": "2026-11-20T03:00:29.275043+00:00"
       }
     },
     "3269": {
@@ -228654,5 +228660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T03:00:26.039331+00:00"
+  "updated_at": "2026-11-20T03:00:30.908375+00:00"
 }
