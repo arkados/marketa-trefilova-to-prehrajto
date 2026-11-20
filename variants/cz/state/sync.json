@@ -185785,17 +185785,19 @@
       }
     },
     "3714": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20810112",
+          "target_video_id": "31207862",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:58:43.600310+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20810112",
         "display_name": "Standing Up, Falling Down 1080p CZ Dabing",
         "planned_at": "2026-11-20T15:55:00.211115+00:00"
-      },
-      "claim": {
-        "worker_id": "67f54ac0d46449189379467b2a279b8a-shard-0",
-        "claimed_at": "2026-11-20T15:55:03.245354+00:00",
-        "lease_expires_at": "2026-11-20T21:55:03.245354+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31207862",
       "prepared": {
@@ -231191,5 +231193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:58:41.020997+00:00"
+  "updated_at": "2026-11-20T15:58:43.600327+00:00"
 }
