@@ -145204,6 +145204,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T13:33:55.032444+00:00",
         "relay_source_id": "35428706"
+      },
+      "claim": {
+        "worker_id": "1e9eb66f8e914d7e824ddb2c5e742da2-shard-0",
+        "claimed_at": "2026-11-20T15:13:40.983059+00:00",
+        "lease_expires_at": "2026-11-20T21:13:40.983059+00:00",
+        "run_id": "44745112284"
       }
     },
     "23397": {
@@ -185418,17 +185424,19 @@
       }
     },
     "15458": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33665864",
+          "target_video_id": "31206753",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:13:41.227687+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33665864",
         "display_name": "For My Country (Pour la France) 1080p CZ Dabing",
         "planned_at": "2026-11-20T15:05:37.745520+00:00"
-      },
-      "claim": {
-        "worker_id": "7e6a59955c374d38bede82304e4a73c7-shard-0",
-        "claimed_at": "2026-11-20T15:05:41.752976+00:00",
-        "lease_expires_at": "2026-11-20T21:05:41.752976+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31206753",
       "prepared": {
@@ -230908,5 +230916,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:13:38.317581+00:00"
+  "updated_at": "2026-11-20T15:13:41.227705+00:00"
 }
