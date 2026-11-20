@@ -50809,13 +50809,6 @@
           "source_id": "32030746",
           "target_video_id": "30776194",
           "permanent": false,
-          "attempted_at": "2026-11-20T14:45:01.510263+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32030746",
-          "target_video_id": "30776194",
-          "permanent": false,
           "attempted_at": "2026-11-20T16:21:59.284026+00:00"
         },
         {
@@ -50824,6 +50817,13 @@
           "target_video_id": "30776194",
           "permanent": false,
           "attempted_at": "2026-11-20T21:37:20.149142+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32030746",
+          "target_video_id": "30776194",
+          "permanent": false,
+          "attempted_at": "2026-11-20T23:18:31.361500+00:00"
         }
       ],
       "last_plan": {
@@ -141326,7 +141326,7 @@
       "last_plan": {
         "source_id": "32354388",
         "display_name": "Vítr v kapse 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:37:18.404038+00:00"
+        "planned_at": "2026-11-20T23:18:29.432727+00:00"
       },
       "previous_target_id": "30988211",
       "prepared": {
@@ -141334,6 +141334,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T07:51:51.618130+00:00",
         "relay_source_id": "32354388"
+      },
+      "claim": {
+        "worker_id": "7962470e25dc44a0ad127c8ee820bf7c-shard-0",
+        "claimed_at": "2026-11-20T23:18:30.567788+00:00",
+        "lease_expires_at": "2026-11-21T05:18:30.567788+00:00",
+        "run_id": "44817573093"
       }
     },
     "26392": {
@@ -187528,7 +187534,7 @@
       "last_plan": {
         "source_id": "31969499",
         "display_name": "Verano en diciembre 1080p CZ Dabing",
-        "planned_at": "2026-11-20T23:18:26.370063+00:00"
+        "planned_at": "2026-11-20T23:18:29.834086+00:00"
       }
     },
     "37465": {
@@ -232585,5 +232591,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T23:18:26.663277+00:00"
+  "updated_at": "2026-11-20T23:18:31.361537+00:00"
 }
