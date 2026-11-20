@@ -124461,7 +124461,7 @@
       "last_plan": {
         "source_id": "32449094",
         "display_name": "The Four Seasons 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:44:04.295510+00:00"
+        "planned_at": "2026-11-20T04:14:54.270895+00:00"
       },
       "previous_target_id": "30985723",
       "prepared": {
@@ -124469,6 +124469,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T21:30:12.070947+00:00",
         "relay_source_id": "32449094"
+      },
+      "claim": {
+        "worker_id": "ef7a9f783112488a961c81cffcd3632a-shard-0",
+        "claimed_at": "2026-11-20T04:14:55.342906+00:00",
+        "lease_expires_at": "2026-11-20T10:14:55.342906+00:00",
+        "run_id": "44620782751"
       }
     },
     "28538": {
@@ -182929,17 +182935,19 @@
       }
     },
     "3545": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33960058",
+          "target_video_id": "31196336",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:14:56.010370+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33960058",
         "display_name": "Project X (2012) 1080p CZ Dabing",
         "planned_at": "2026-11-20T04:10:22.141730+00:00"
-      },
-      "claim": {
-        "worker_id": "9cdfe38129974b39914b5c1282170269-shard-0",
-        "claimed_at": "2026-11-20T04:10:23.226037+00:00",
-        "lease_expires_at": "2026-11-20T10:10:23.226037+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31196336",
       "prepared": {
@@ -182954,7 +182962,7 @@
       "last_plan": {
         "source_id": "33708792",
         "display_name": "The Adam Project 4K CZ Dabing",
-        "planned_at": "2026-11-20T04:14:48.386369+00:00"
+        "planned_at": "2026-11-20T04:14:54.671090+00:00"
       }
     },
     "12330": {
@@ -228812,5 +228820,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:14:50.551966+00:00"
+  "updated_at": "2026-11-20T04:14:56.010387+00:00"
 }
