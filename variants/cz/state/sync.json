@@ -39102,13 +39102,6 @@
           "source_id": "34784954",
           "target_video_id": "30745770",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:51:12.832489+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34784954",
-          "target_video_id": "30745770",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:33:24.220003+00:00"
         },
         {
@@ -39117,6 +39110,13 @@
           "target_video_id": "30745770",
           "permanent": false,
           "attempted_at": "2026-11-20T16:12:44.486444+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34784954",
+          "target_video_id": "30745770",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:28:17.453584+00:00"
         }
       ],
       "last_plan": {
@@ -185344,7 +185344,7 @@
       "last_plan": {
         "source_id": "25834193",
         "display_name": "Shoky & Morthy: Last Big Thing (Shoky & Morthy: Poslední velká akce) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:12:42.877639+00:00"
+        "planned_at": "2026-11-20T21:28:15.787516+00:00"
       },
       "previous_target_id": "31206308",
       "prepared": {
@@ -185352,6 +185352,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-20T14:31:18.218759+00:00",
         "relay_source_id": "25834193"
+      },
+      "claim": {
+        "worker_id": "1b4dcfdca8ac4d2f928e8f8114e5634e-shard-0",
+        "claimed_at": "2026-11-20T21:28:16.863102+00:00",
+        "lease_expires_at": "2026-11-21T03:28:16.863102+00:00",
+        "run_id": "44817573093"
       }
     },
     "27999": {
@@ -186624,7 +186630,7 @@
       "last_plan": {
         "source_id": "29125481",
         "display_name": "Nesmrtelná teta 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:28:12.865499+00:00"
+        "planned_at": "2026-11-20T21:28:16.164443+00:00"
       }
     },
     "31957": {
@@ -231879,5 +231885,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:28:12.865519+00:00"
+  "updated_at": "2026-11-20T21:28:17.453605+00:00"
 }
