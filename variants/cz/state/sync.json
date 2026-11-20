@@ -111426,13 +111426,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:27:02.034095+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-20T08:08:26.527209+00:00"
         },
         {
@@ -111441,6 +111434,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-20T09:55:25.250842+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:40:49.672709+00:00"
         }
       ],
       "last_plan": {
@@ -111486,7 +111486,7 @@
       "last_plan": {
         "source_id": "26697838",
         "display_name": "Smích se lepí na paty 1080p CZ Dabing",
-        "planned_at": "2026-11-20T09:55:25.569828+00:00"
+        "planned_at": "2026-11-20T11:40:47.407308+00:00"
       },
       "previous_target_id": "30983795",
       "prepared": {
@@ -111494,6 +111494,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T14:49:23.310628+00:00",
         "relay_source_id": "26697838"
+      },
+      "claim": {
+        "worker_id": "e8a84ec8ec4b453ebe6b76436524a536-shard-0",
+        "claimed_at": "2026-11-20T11:40:48.890141+00:00",
+        "lease_expires_at": "2026-11-20T17:40:48.890141+00:00",
+        "run_id": "44710524805"
       }
     },
     "33771": {
@@ -184230,7 +184236,7 @@
       "last_plan": {
         "source_id": "34660073",
         "display_name": "Ramona 1080p CZ Dabing",
-        "planned_at": "2026-11-20T11:40:43.698745+00:00"
+        "planned_at": "2026-11-20T11:40:47.825658+00:00"
       }
     },
     "21668": {
@@ -229896,5 +229902,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:40:43.698763+00:00"
+  "updated_at": "2026-11-20T11:40:49.672728+00:00"
 }
