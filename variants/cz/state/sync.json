@@ -56407,13 +56407,6 @@
           "source_id": "31203013",
           "target_video_id": "30784627",
           "permanent": false,
-          "attempted_at": "2026-11-19T23:37:04.954337+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31203013",
-          "target_video_id": "30784627",
-          "permanent": false,
           "attempted_at": "2026-11-20T01:14:14.699037+00:00"
         },
         {
@@ -56422,6 +56415,13 @@
           "target_video_id": "30784627",
           "permanent": false,
           "attempted_at": "2026-11-20T02:50:28.204110+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31203013",
+          "target_video_id": "30784627",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:21:33.394306+00:00"
         }
       ],
       "last_plan": {
@@ -56435,12 +56435,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-04T11:30:22.230138+00:00",
         "relay_source_id": "31203013"
-      },
-      "claim": {
-        "worker_id": "c6858231a0d24810aad3bcf54fcf83bf-shard-0",
-        "claimed_at": "2026-11-20T04:21:28.884451+00:00",
-        "lease_expires_at": "2026-11-20T10:21:28.884451+00:00",
-        "run_id": "44620782751"
       }
     },
     "1377": {
@@ -125465,7 +125459,7 @@
       "last_plan": {
         "source_id": "34296329",
         "display_name": "Contra 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:50:45.193498+00:00"
+        "planned_at": "2026-11-20T04:21:33.107248+00:00"
       },
       "previous_target_id": "30985822",
       "prepared": {
@@ -182808,17 +182802,23 @@
           "attempted_at": "2026-11-20T02:50:28.894318+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31474503",
-        "display_name": "King Arthur: Legend of the Sword 4K CZ Dabing",
-        "planned_at": "2026-11-20T04:21:29.513373+00:00"
-      },
       "previous_target_id": "31194903",
-      "prepared": {
+      "upload": {
         "target_video_id": "31194903",
-        "size_bytes": 5949182976,
-        "prepared_at": "2026-11-20T02:36:34.193802+00:00",
-        "relay_source_id": "31474503"
+        "display_name": "King Arthur: Legend of the Sword 4K CZ Dabing",
+        "source_id": "31474503",
+        "source_url": "https://sdilej.cz/31474503/kral-artus-legenda-o-meci-king-arthur-legend-of-the-sword-2017-en-cz-dabing-uhdrdv.mkv",
+        "source_filename": "Král Artuš - Legenda o meči - King Arthur legend of the sword (2017) EN+CZ DABING UHDRDV.mkv",
+        "size_bytes": 5900000000,
+        "width": 3840,
+        "height": 1600,
+        "audio_language": "cs",
+        "language_probability": 0.9685758948326111,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/king-arthur-legend-of-the-sword-4k-cz-dabing-mkv/75ff5b6040a33671",
+        "uploaded_at": "2026-11-20T04:21:34.224790+00:00"
       }
     },
     "3406": {
@@ -182964,7 +182964,7 @@
       "last_plan": {
         "source_id": "33708792",
         "display_name": "The Adam Project 4K CZ Dabing",
-        "planned_at": "2026-11-20T04:21:29.883980+00:00"
+        "planned_at": "2026-11-20T04:21:33.814092+00:00"
       }
     },
     "12330": {
@@ -228827,5 +228827,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:21:29.883996+00:00"
+  "updated_at": "2026-11-20T04:21:34.224806+00:00"
 }
