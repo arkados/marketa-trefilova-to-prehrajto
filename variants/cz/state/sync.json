@@ -155209,7 +155209,7 @@
       "last_plan": {
         "source_id": "31963280",
         "display_name": "Terezín (Le Terme di Terezín) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T11:52:31.015902+00:00"
+        "planned_at": "2026-11-20T13:43:38.830088+00:00"
       },
       "previous_target_id": "31052044",
       "prepared": {
@@ -155217,6 +155217,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-15T07:16:11.092952+00:00",
         "relay_source_id": "31963280"
+      },
+      "claim": {
+        "worker_id": "1310df8dbad847669e15aee1cd9274c6-shard-0",
+        "claimed_at": "2026-11-20T13:43:40.001971+00:00",
+        "lease_expires_at": "2026-11-20T19:43:40.001971+00:00",
+        "run_id": "44745112284"
       }
     },
     "12345": {
@@ -184819,17 +184825,19 @@
       }
     },
     "18240": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30253298",
+          "target_video_id": "31205528",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:43:41.180942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30253298",
         "display_name": "Tacho (Dotkni se duhy) SD CZ Dabing",
         "planned_at": "2026-11-20T13:42:01.813798+00:00"
-      },
-      "claim": {
-        "worker_id": "949b13ea5007400a86090205653bf962-shard-0",
-        "claimed_at": "2026-11-20T13:42:03.119225+00:00",
-        "lease_expires_at": "2026-11-20T19:42:03.119225+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31205528",
       "prepared": {
@@ -184859,7 +184867,7 @@
       "last_plan": {
         "source_id": "34697692",
         "display_name": "Bolero 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:43:33.675627+00:00"
+        "planned_at": "2026-11-20T13:43:39.288296+00:00"
       }
     },
     "31504": {
@@ -230408,5 +230416,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:43:35.983584+00:00"
+  "updated_at": "2026-11-20T13:43:41.180959+00:00"
 }
