@@ -185101,17 +185101,19 @@
       }
     },
     "14167": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19237683",
+          "target_video_id": "31206217",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:28:15.228615+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19237683",
         "display_name": "Poly 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:25:37.184378+00:00"
-      },
-      "claim": {
-        "worker_id": "a15fdc8998b34125b2e57f8c25566b3b-shard-0",
-        "claimed_at": "2026-11-20T14:25:40.078830+00:00",
-        "lease_expires_at": "2026-11-20T20:25:40.078830+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31206217",
       "prepared": {
@@ -230639,5 +230641,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:28:12.320989+00:00"
+  "updated_at": "2026-11-20T14:28:15.228637+00:00"
 }
