@@ -119619,13 +119619,6 @@
           "source_id": "20753761",
           "target_video_id": "30984945",
           "permanent": false,
-          "attempted_at": "2026-11-19T23:29:30.970691+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20753761",
-          "target_video_id": "30984945",
-          "permanent": false,
           "attempted_at": "2026-11-20T01:07:16.471560+00:00"
         },
         {
@@ -119634,12 +119627,19 @@
           "target_video_id": "30984945",
           "permanent": false,
           "attempted_at": "2026-11-20T02:40:49.030698+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20753761",
+          "target_video_id": "30984945",
+          "permanent": false,
+          "attempted_at": "2026-11-20T04:10:24.570438+00:00"
         }
       ],
       "last_plan": {
         "source_id": "20753761",
         "display_name": "Repo Man 1080p CZ Dabing",
-        "planned_at": "2026-11-20T02:40:43.735409+00:00"
+        "planned_at": "2026-11-20T04:10:21.760466+00:00"
       },
       "previous_target_id": "30984945",
       "prepared": {
@@ -182933,11 +182933,22 @@
       "last_plan": {
         "source_id": "33960058",
         "display_name": "Project X (2012) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:10:14.923294+00:00"
+        "planned_at": "2026-11-20T04:10:22.141730+00:00"
+      },
+      "claim": {
+        "worker_id": "9cdfe38129974b39914b5c1282170269-shard-0",
+        "claimed_at": "2026-11-20T04:10:23.226037+00:00",
+        "lease_expires_at": "2026-11-20T10:10:23.226037+00:00",
+        "run_id": "44620782751"
       }
     },
     "3311": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33708792",
+        "display_name": "The Adam Project 4K CZ Dabing",
+        "planned_at": "2026-11-20T04:10:22.367787+00:00"
+      }
     },
     "12330": {
       "attempts": []
@@ -228794,5 +228805,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T04:10:17.949909+00:00"
+  "updated_at": "2026-11-20T04:10:24.570454+00:00"
 }
