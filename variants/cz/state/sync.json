@@ -109746,7 +109746,7 @@
       "last_plan": {
         "source_id": "35076570",
         "display_name": "Vlčí jáma (Wolf Trap) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T08:55:23.064703+00:00"
+        "planned_at": "2026-11-20T10:46:43.861181+00:00"
       },
       "previous_target_id": "30983671",
       "prepared": {
@@ -109754,6 +109754,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:31:43.857292+00:00",
         "relay_source_id": "35076570"
+      },
+      "claim": {
+        "worker_id": "36f77d08f54248568e658ed6689224ad-shard-0",
+        "claimed_at": "2026-11-20T10:46:45.339600+00:00",
+        "lease_expires_at": "2026-11-20T16:46:45.339600+00:00",
+        "run_id": "44710524805"
       }
     },
     "32446": {
@@ -138806,13 +138812,6 @@
           "source_id": "34185549",
           "target_video_id": "30987891",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:34:47.977663+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34185549",
-          "target_video_id": "30987891",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:08:47.963151+00:00"
         },
         {
@@ -138821,6 +138820,13 @@
           "target_video_id": "30987891",
           "permanent": false,
           "attempted_at": "2026-11-20T08:55:23.328397+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34185549",
+          "target_video_id": "30987891",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:46:45.767463+00:00"
         }
       ],
       "last_plan": {
@@ -183992,17 +183998,19 @@
       "attempts": []
     },
     "4590": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659110",
+          "target_video_id": "31202180",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:46:46.600869+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659110",
         "display_name": "Viddana 1080p CZ Dabing",
         "planned_at": "2026-11-20T10:42:35.069684+00:00"
-      },
-      "claim": {
-        "worker_id": "c8fc482af73f4b6584bf7eebbbeab5bf-shard-0",
-        "claimed_at": "2026-11-20T10:42:38.740708+00:00",
-        "lease_expires_at": "2026-11-20T16:42:38.740708+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31202180",
       "prepared": {
@@ -184017,7 +184025,7 @@
       "last_plan": {
         "source_id": "33810236",
         "display_name": "The Devil Knows Why (Čert ví proč) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:46:39.868627+00:00"
+        "planned_at": "2026-11-20T10:46:44.518064+00:00"
       }
     },
     "27074": {
@@ -229731,5 +229739,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:46:40.451832+00:00"
+  "updated_at": "2026-11-20T10:46:46.600884+00:00"
 }
