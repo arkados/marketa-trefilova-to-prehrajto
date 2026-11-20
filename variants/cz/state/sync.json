@@ -116833,6 +116833,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:23:59.006056+00:00",
         "relay_source_id": "34190531"
+      },
+      "claim": {
+        "worker_id": "7c5bffa7af5d4f47b27a736a606a0d37-shard-0",
+        "claimed_at": "2026-11-20T13:20:24.191815+00:00",
+        "lease_expires_at": "2026-11-20T19:20:24.191815+00:00",
+        "run_id": "44710524805"
       }
     },
     "2923": {
@@ -184296,23 +184302,23 @@
           "attempted_at": "2026-11-20T11:38:08.152384+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "32220982",
-        "display_name": "A Cloud in the Teeth (Un nuage entre les dents) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:20:16.796367+00:00"
-      },
       "previous_target_id": "31203097",
-      "prepared": {
+      "upload": {
         "target_video_id": "31203097",
-        "size_bytes": 2147812246,
-        "prepared_at": "2026-11-20T11:30:13.933741+00:00",
-        "relay_source_id": "32220982"
-      },
-      "claim": {
-        "worker_id": "1329031d5bd04ee69afa6ac7ad1aa6d5-shard-0",
-        "claimed_at": "2026-11-20T13:20:20.666722+00:00",
-        "lease_expires_at": "2026-11-20T19:20:20.666722+00:00",
-        "run_id": "44710524805"
+        "display_name": "A Cloud in the Teeth (Un nuage entre les dents) 1080p CZ Dabing",
+        "source_id": "32220982",
+        "source_url": "https://sdilej.cz/32220982/mrak-v-zubech-1974-cz-dab-1080p.mkv",
+        "source_filename": "Mrak v zubech 1974 CZ dab 1080p.mkv",
+        "size_bytes": 2100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9895029067993164,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/a-cloud-in-the-teeth-un-nuage-entre-les-dents-1080p-cz-dabing-mkv/34639446eba6a277",
+        "uploaded_at": "2026-11-20T13:20:24.418960+00:00"
       }
     },
     "37180": {
@@ -230306,5 +230312,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:20:21.339933+00:00"
+  "updated_at": "2026-11-20T13:20:24.418975+00:00"
 }
