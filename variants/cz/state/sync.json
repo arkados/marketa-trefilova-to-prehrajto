@@ -80603,6 +80603,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-07T21:32:39.846982+00:00",
         "relay_source_id": "28771706"
+      },
+      "claim": {
+        "worker_id": "cf629e20d2a7440cb2b9011b00e1b6a7-shard-0",
+        "claimed_at": "2026-11-20T11:04:11.241350+00:00",
+        "lease_expires_at": "2026-11-20T17:04:11.241350+00:00",
+        "run_id": "44710524805"
       }
     },
     "2305": {
@@ -184059,17 +184065,19 @@
       "attempts": []
     },
     "32527": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28024943",
+          "target_video_id": "31202391",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:04:11.522302+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28024943",
         "display_name": "Return to Paradise Lost (Návrat ztraceného ráje) 1080p CZ Dabing",
         "planned_at": "2026-11-20T10:53:44.443307+00:00"
-      },
-      "claim": {
-        "worker_id": "aae1e205a1044b1c80f93dd3d77c7d8a-shard-0",
-        "claimed_at": "2026-11-20T10:53:45.757033+00:00",
-        "lease_expires_at": "2026-11-20T16:53:45.757033+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31202391",
       "prepared": {
@@ -229777,5 +229785,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:04:08.386361+00:00"
+  "updated_at": "2026-11-20T11:04:11.522320+00:00"
 }
