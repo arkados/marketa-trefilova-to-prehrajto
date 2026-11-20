@@ -139301,13 +139301,6 @@
           "source_id": "32433843",
           "target_video_id": "30987933",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:01:44.718490+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32433843",
-          "target_video_id": "30987933",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:42:08.101348+00:00"
         },
         {
@@ -139316,6 +139309,13 @@
           "target_video_id": "30987933",
           "permanent": false,
           "attempted_at": "2026-11-20T09:30:47.733542+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32433843",
+          "target_video_id": "30987933",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:15:58.947921+00:00"
         }
       ],
       "last_plan": {
@@ -139329,12 +139329,6 @@
         "size_bytes": 732200000,
         "prepared_at": "2026-11-11T06:53:27.837708+00:00",
         "relay_source_id": "32433843"
-      },
-      "claim": {
-        "worker_id": "14bac8d771e14b14a1b53c41c8197b28-shard-0",
-        "claimed_at": "2026-11-20T11:15:55.745547+00:00",
-        "lease_expires_at": "2026-11-20T17:15:55.745547+00:00",
-        "run_id": "44710524805"
       }
     },
     "3970": {
@@ -141252,7 +141246,7 @@
       "last_plan": {
         "source_id": "34756339",
         "display_name": "Sweet Sixteen (Sextánka) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T09:30:45.581426+00:00"
+        "planned_at": "2026-11-20T11:15:59.644857+00:00"
       },
       "previous_target_id": "30988204",
       "prepared": {
@@ -184140,14 +184134,19 @@
       "last_plan": {
         "source_id": "31083172",
         "display_name": "The Second Civil War 1080p CZ Dabing",
-        "planned_at": "2026-11-20T11:15:52.078198+00:00"
+        "planned_at": "2026-11-20T11:16:00.031878+00:00"
       }
     },
     "31443": {
       "attempts": []
     },
     "3850": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13244077",
+        "display_name": "The Music of Silence (La musica del silenzio) SD CZ Dabing",
+        "planned_at": "2026-11-20T11:16:00.262657+00:00"
+      }
     },
     "22076": {
       "attempts": []
@@ -229824,5 +229823,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:15:55.745576+00:00"
+  "updated_at": "2026-11-20T11:16:00.262672+00:00"
 }
