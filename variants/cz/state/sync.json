@@ -136575,7 +136575,7 @@
       "last_plan": {
         "source_id": "32367766",
         "display_name": "Alibi on the Lake (Alibi na vodě) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:10:55.105333+00:00"
+        "planned_at": "2026-11-20T22:28:26.033903+00:00"
       },
       "previous_target_id": "30987691",
       "prepared": {
@@ -136583,6 +136583,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-11T05:40:24.808381+00:00",
         "relay_source_id": "32367766"
+      },
+      "claim": {
+        "worker_id": "5c4ef0645f5b436a8ace01ab4cc778da-shard-0",
+        "claimed_at": "2026-11-20T22:28:27.122226+00:00",
+        "lease_expires_at": "2026-11-21T04:28:27.122226+00:00",
+        "run_id": "44817573093"
       }
     },
     "9996": {
@@ -184047,17 +184053,23 @@
           "attempted_at": "2026-11-20T17:10:57.298572+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "26871837",
-        "display_name": "Arvéd 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:28:22.273954+00:00"
-      },
       "previous_target_id": "31201782",
-      "prepared": {
+      "upload": {
         "target_video_id": "31201782",
+        "display_name": "Arvéd 1080p CZ Dabing",
+        "source_id": "26871837",
+        "source_url": "https://sdilej.cz/26871837/arved-2022-cz.mkv",
+        "source_filename": "Arved 2022-CZ.mkv",
         "size_bytes": 2600000000,
-        "prepared_at": "2026-11-20T10:20:33.466648+00:00",
-        "relay_source_id": "26871837"
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9879826307296753,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/arved-1080p-cz-dabing-mkv/bda75c38a1186ba8",
+        "uploaded_at": "2026-11-20T22:28:27.389130+00:00"
       }
     },
     "5615": {
@@ -187164,7 +187176,7 @@
       "last_plan": {
         "source_id": "29107081",
         "display_name": "Eliska ma rada divocinu (Eliška Likes It Hot) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:28:23.191487+00:00"
+        "planned_at": "2026-11-20T22:28:26.421368+00:00"
       }
     },
     "13873": {
@@ -232281,5 +232293,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:28:23.191514+00:00"
+  "updated_at": "2026-11-20T22:28:27.389152+00:00"
 }
