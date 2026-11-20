@@ -186962,17 +186962,19 @@
       "attempts": []
     },
     "16325": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694777",
+          "target_video_id": "31214170",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:08:26.608433+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694777",
         "display_name": "The Night Before Christmas in Wonderland 1080p CZ Dabing",
         "planned_at": "2026-11-20T22:05:10.666691+00:00"
-      },
-      "claim": {
-        "worker_id": "86e0499af09e4620b5b4dfd33f31b796-shard-0",
-        "claimed_at": "2026-11-20T22:05:11.510111+00:00",
-        "lease_expires_at": "2026-11-21T04:05:11.510111+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31214170",
       "prepared": {
@@ -232149,5 +232151,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:08:22.771412+00:00"
+  "updated_at": "2026-11-20T22:08:26.608452+00:00"
 }
