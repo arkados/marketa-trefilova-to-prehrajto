@@ -112451,13 +112451,6 @@
           "source_id": "34705144",
           "target_video_id": "30983853",
           "permanent": false,
-          "attempted_at": "2026-11-19T19:31:30.048808+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34705144",
-          "target_video_id": "30983853",
-          "permanent": false,
           "attempted_at": "2026-11-19T21:30:57.844940+00:00"
         },
         {
@@ -112466,12 +112459,19 @@
           "target_video_id": "30983853",
           "permanent": false,
           "attempted_at": "2026-11-19T23:12:44.261714+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34705144",
+          "target_video_id": "30983853",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:52:23.571648+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34705144",
         "display_name": "Private Torment (Windstorm) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:12:39.249566+00:00"
+        "planned_at": "2026-11-20T00:52:20.034343+00:00"
       },
       "previous_target_id": "30983853",
       "prepared": {
@@ -182222,11 +182222,22 @@
       "last_plan": {
         "source_id": "35205678",
         "display_name": "Over the Hedge 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:52:13.646956+00:00"
+        "planned_at": "2026-11-20T00:52:20.357034+00:00"
+      },
+      "claim": {
+        "worker_id": "13319029773a437e9653c9656f25ffd9-shard-0",
+        "claimed_at": "2026-11-20T00:52:21.102152+00:00",
+        "lease_expires_at": "2026-11-20T06:52:21.102152+00:00",
+        "run_id": "44616581853"
       }
     },
     "3467": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29861179",
+        "display_name": "Miss Peregrine's Home for Peculiar Children 4K CZ Dabing",
+        "planned_at": "2026-11-20T00:52:20.562306+00:00"
+      }
     },
     "12072": {
       "attempts": []
@@ -228155,5 +228166,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:52:15.986317+00:00"
+  "updated_at": "2026-11-20T00:52:23.571668+00:00"
 }
