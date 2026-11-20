@@ -183312,17 +183312,19 @@
       "attempts": []
     },
     "3448": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26228291",
+          "target_video_id": "31198254",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:22:06.747014+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26228291",
         "display_name": "The Other Guys 1080p CZ Dabing",
         "planned_at": "2026-11-20T06:12:04.033657+00:00"
-      },
-      "claim": {
-        "worker_id": "d2f27e183f014d41b1bf04b1eb24b2d8-shard-0",
-        "claimed_at": "2026-11-20T06:12:05.360424+00:00",
-        "lease_expires_at": "2026-11-20T12:12:05.360424+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31198254",
       "prepared": {
@@ -229162,5 +229164,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:22:01.172827+00:00"
+  "updated_at": "2026-11-20T06:22:06.747033+00:00"
 }
