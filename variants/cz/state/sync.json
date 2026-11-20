@@ -136417,6 +136417,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T05:36:18.226786+00:00",
         "relay_source_id": "34676204"
+      },
+      "claim": {
+        "worker_id": "2ac138d621f04628ae97789d65e179ef-shard-0",
+        "claimed_at": "2026-11-20T02:05:49.134620+00:00",
+        "lease_expires_at": "2026-11-20T08:05:49.134620+00:00",
+        "run_id": "44620782751"
       }
     },
     "12565": {
@@ -166009,7 +166015,7 @@
       "last_plan": {
         "source_id": "34510186",
         "display_name": "Eleanor the Great 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:27:22.233073+00:00"
+        "planned_at": "2026-11-20T02:05:49.408913+00:00"
       },
       "previous_target_id": "31108439",
       "prepared": {
@@ -166017,6 +166023,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-17T04:39:16.288767+00:00",
         "relay_source_id": "34510186"
+      },
+      "claim": {
+        "worker_id": "851e506a082f458bbbc40c7013cb93ed-shard-0",
+        "claimed_at": "2026-11-20T02:05:50.459391+00:00",
+        "lease_expires_at": "2026-11-20T08:05:50.459391+00:00",
+        "run_id": "44620782751"
       }
     },
     "32546": {
@@ -182526,17 +182538,19 @@
       }
     },
     "3559": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34137668",
+          "target_video_id": "31194473",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:05:51.299427+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34137668",
         "display_name": "Gangster Squad 1080p CZ Dabing",
         "planned_at": "2026-11-20T02:01:46.106611+00:00"
-      },
-      "claim": {
-        "worker_id": "1a72dbd570d34e1688dd07a785adc6da-shard-0",
-        "claimed_at": "2026-11-20T02:01:49.100970+00:00",
-        "lease_expires_at": "2026-11-20T08:01:49.100970+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31194473",
       "prepared": {
@@ -182551,7 +182565,7 @@
       "last_plan": {
         "source_id": "30074010",
         "display_name": "The Equalizer 2 4K CZ Dabing",
-        "planned_at": "2026-11-20T02:05:46.442195+00:00"
+        "planned_at": "2026-11-20T02:05:49.778583+00:00"
       }
     },
     "3522": {
@@ -228445,5 +228459,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:05:46.442212+00:00"
+  "updated_at": "2026-11-20T02:05:51.299443+00:00"
 }
