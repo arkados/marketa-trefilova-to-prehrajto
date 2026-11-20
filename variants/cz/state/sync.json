@@ -233,6 +233,12 @@
         "size_bytes": 9500000000,
         "prepared_at": "2026-10-27T18:58:10.341227+00:00",
         "relay_source_id": "32109285"
+      },
+      "claim": {
+        "worker_id": "6d07ed42a0da484bbeac2d55dae44fb7-shard-0",
+        "claimed_at": "2026-11-20T22:39:00.484376+00:00",
+        "lease_expires_at": "2026-11-21T04:39:00.484376+00:00",
+        "run_id": "44817573093"
       }
     },
     "10755": {
@@ -135030,7 +135036,7 @@
       "last_plan": {
         "source_id": "34782053",
         "display_name": "Smrt pedofila 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:22:41.551851+00:00"
+        "planned_at": "2026-11-20T22:39:00.956337+00:00"
       },
       "previous_target_id": "30987520",
       "prepared": {
@@ -135038,6 +135044,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T05:04:44.843505+00:00",
         "relay_source_id": "34782053"
+      },
+      "claim": {
+        "worker_id": "9c311d57c3714fbeb179261455b0be93-shard-0",
+        "claimed_at": "2026-11-20T22:39:02.125521+00:00",
+        "lease_expires_at": "2026-11-21T04:39:02.125521+00:00",
+        "run_id": "44817573093"
       }
     },
     "14598": {
@@ -187256,11 +187268,23 @@
       }
     },
     "27147": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "35298374",
+          "reason": "Source detail has no authenticated download link; source_id=35298374",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:39:02.894173+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35298374",
         "display_name": "Young Goethe in Love 720p CZ Dabing",
         "planned_at": "2026-11-20T22:38:57.380821+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "35298374",
+        "requested_at": "2026-11-20T22:39:02.894154+00:00"
       }
     },
     "12272": {
@@ -187268,7 +187292,7 @@
       "last_plan": {
         "source_id": "7012173",
         "display_name": "Alien Nation: The Enemy Within SD CZ Dabing",
-        "planned_at": "2026-11-20T22:38:57.856136+00:00"
+        "planned_at": "2026-11-20T22:39:01.368120+00:00"
       }
     },
     "33668": {
@@ -232373,5 +232397,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:38:57.856154+00:00"
+  "updated_at": "2026-11-20T22:39:02.894180+00:00"
 }
