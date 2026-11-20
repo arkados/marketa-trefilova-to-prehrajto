@@ -111100,13 +111100,6 @@
           "source_id": "30618439",
           "target_video_id": "30983779",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:44:35.834643+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30618439",
-          "target_video_id": "30983779",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:14:58.271936+00:00"
         },
         {
@@ -111115,6 +111108,13 @@
           "target_video_id": "30983779",
           "permanent": false,
           "attempted_at": "2026-11-20T04:45:31.032338+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30618439",
+          "target_video_id": "30983779",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:23:26.634002+00:00"
         }
       ],
       "last_plan": {
@@ -113439,13 +113439,6 @@
           "source_id": "34058657",
           "target_video_id": "30984026",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:44:38.860056+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34058657",
-          "target_video_id": "30984026",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:15:02.574884+00:00"
         },
         {
@@ -113454,12 +113447,19 @@
           "target_video_id": "30984026",
           "permanent": false,
           "attempted_at": "2026-11-20T04:45:36.580635+00:00"
+        },
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "34058657",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-20T06:23:26.396287+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34058657",
         "display_name": "Bruce Almighty 4K CZ Dabing",
-        "planned_at": "2026-11-20T04:45:31.943934+00:00"
+        "planned_at": "2026-11-20T06:23:24.133752+00:00"
       },
       "previous_target_id": "30984026",
       "prepared": {
@@ -183360,7 +183360,7 @@
       "last_plan": {
         "source_id": "32938725",
         "display_name": "Final Destination 4K CZ Dabing",
-        "planned_at": "2026-11-20T06:23:21.277263+00:00"
+        "planned_at": "2026-11-20T06:23:24.551837+00:00"
       }
     },
     "21914": {
@@ -229164,5 +229164,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:23:21.277277+00:00"
+  "updated_at": "2026-11-20T06:23:26.634023+00:00"
 }
