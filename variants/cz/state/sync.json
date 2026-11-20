@@ -183096,17 +183096,19 @@
       }
     },
     "3501": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32761215",
+          "target_video_id": "31197290",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:17:11.714054+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32761215",
         "display_name": "The Girl Next Door (2004) 1080p CZ Dabing",
         "planned_at": "2026-11-20T05:07:03.411509+00:00"
-      },
-      "claim": {
-        "worker_id": "c5a0b2c6f92044f4b8ec05819179bbc4-shard-0",
-        "claimed_at": "2026-11-20T05:07:04.954624+00:00",
-        "lease_expires_at": "2026-11-20T11:07:04.954624+00:00",
-        "run_id": "44620782751"
       },
       "previous_target_id": "31197290",
       "prepared": {
@@ -228964,5 +228966,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:17:08.772161+00:00"
+  "updated_at": "2026-11-20T05:17:11.714073+00:00"
 }
