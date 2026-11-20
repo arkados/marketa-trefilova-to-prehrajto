@@ -120806,6 +120806,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:35:03.703985+00:00",
         "relay_source_id": "33649267"
+      },
+      "claim": {
+        "worker_id": "aac2d0e2679049069395441768679c73-shard-0",
+        "claimed_at": "2026-11-20T00:28:18.100534+00:00",
+        "lease_expires_at": "2026-11-20T06:28:18.100534+00:00",
+        "run_id": "44616581853"
       }
     },
     "2919": {
@@ -125916,13 +125922,6 @@
           "source_id": "18316767",
           "target_video_id": "30985901",
           "permanent": false,
-          "attempted_at": "2026-11-19T19:13:21.129107+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18316767",
-          "target_video_id": "30985901",
-          "permanent": false,
           "attempted_at": "2026-11-19T20:40:59.383099+00:00"
         },
         {
@@ -125931,6 +125930,13 @@
           "target_video_id": "30985901",
           "permanent": false,
           "attempted_at": "2026-11-19T22:52:01.825136+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18316767",
+          "target_video_id": "30985901",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:28:18.697210+00:00"
         }
       ],
       "last_plan": {
@@ -125944,12 +125950,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T22:29:45.966384+00:00",
         "relay_source_id": "18316767"
-      },
-      "claim": {
-        "worker_id": "a2c634bfde75439aaa3a0ad84127ee16-shard-0",
-        "claimed_at": "2026-11-20T00:28:14.754412+00:00",
-        "lease_expires_at": "2026-11-20T06:28:14.754412+00:00",
-        "run_id": "44616581853"
       }
     },
     "10846": {
@@ -134688,7 +134688,7 @@
       "last_plan": {
         "source_id": "30521084",
         "display_name": "Vrazda v Ostrovni ulici (Vražda v Ostrovní ulici) SD CZ Dabing",
-        "planned_at": "2026-11-19T22:52:03.974903+00:00"
+        "planned_at": "2026-11-20T00:28:18.347366+00:00"
       },
       "previous_target_id": "30987480",
       "prepared": {
@@ -182071,7 +182071,7 @@
       "last_plan": {
         "source_id": "34026417",
         "display_name": "The Housemaid 4K CZ Dabing",
-        "planned_at": "2026-11-20T00:28:15.332031+00:00"
+        "planned_at": "2026-11-20T00:28:18.960304+00:00"
       }
     },
     "24797": {
@@ -228025,5 +228025,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:28:15.332050+00:00"
+  "updated_at": "2026-11-20T00:28:18.960320+00:00"
 }
