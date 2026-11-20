@@ -125010,7 +125010,7 @@
       "last_plan": {
         "source_id": "14593132",
         "display_name": "The Suspect (YongUiJa) SD CZ Dabing",
-        "planned_at": "2026-11-20T13:44:32.457711+00:00"
+        "planned_at": "2026-11-20T15:19:00.248169+00:00"
       },
       "previous_target_id": "30985771",
       "prepared": {
@@ -125018,6 +125018,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T21:47:01.509241+00:00",
         "relay_source_id": "14593132"
+      },
+      "claim": {
+        "worker_id": "078c5cb01d894a3ea187a3f3fa7c0741-shard-0",
+        "claimed_at": "2026-11-20T15:19:01.530064+00:00",
+        "lease_expires_at": "2026-11-20T21:19:01.530064+00:00",
+        "run_id": "44745112284"
       }
     },
     "3019": {
@@ -185524,17 +185530,19 @@
       "attempts": []
     },
     "21927": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24751949",
+          "target_video_id": "31207017",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:19:02.012331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24751949",
         "display_name": "Spur des Falken (Trail of the Falcon) SD CZ Dabing",
         "planned_at": "2026-11-20T15:17:39.779556+00:00"
-      },
-      "claim": {
-        "worker_id": "35654b9402ee48dfa44e9e516bd9cab3-shard-0",
-        "claimed_at": "2026-11-20T15:17:41.110821+00:00",
-        "lease_expires_at": "2026-11-20T21:17:41.110821+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31207017",
       "prepared": {
@@ -185555,7 +185563,7 @@
       "last_plan": {
         "source_id": "32932670",
         "display_name": "Little Emma (Emma's Big Adventure) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:18:55.295303+00:00"
+        "planned_at": "2026-11-20T15:19:00.672535+00:00"
       }
     },
     "15615": {
@@ -230978,5 +230986,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:18:57.971630+00:00"
+  "updated_at": "2026-11-20T15:19:02.012350+00:00"
 }
