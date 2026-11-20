@@ -131277,13 +131277,6 @@
           "source_id": "34714070",
           "target_video_id": "30986970",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:36:58.229323+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714070",
-          "target_video_id": "30986970",
-          "permanent": false,
           "attempted_at": "2026-11-20T08:18:37.427471+00:00"
         },
         {
@@ -131292,6 +131285,13 @@
           "target_video_id": "30986970",
           "permanent": false,
           "attempted_at": "2026-11-20T10:11:38.262188+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714070",
+          "target_video_id": "30986970",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:52:14.738434+00:00"
         }
       ],
       "last_plan": {
@@ -141909,7 +141909,7 @@
       "last_plan": {
         "source_id": "30436273",
         "display_name": "Musíme se sejít SD CZ Dabing",
-        "planned_at": "2026-11-20T10:11:40.727698+00:00"
+        "planned_at": "2026-11-20T11:52:12.684053+00:00"
       },
       "previous_target_id": "30988335",
       "prepared": {
@@ -141917,6 +141917,12 @@
         "size_bytes": 803900000,
         "prepared_at": "2026-11-11T08:12:00.885093+00:00",
         "relay_source_id": "30436273"
+      },
+      "claim": {
+        "worker_id": "15e050b323d64bd3b24325cc3e6051fc-shard-0",
+        "claimed_at": "2026-11-20T11:52:13.890866+00:00",
+        "lease_expires_at": "2026-11-20T17:52:13.890866+00:00",
+        "run_id": "44710524805"
       }
     },
     "12705": {
@@ -184283,7 +184289,7 @@
       "last_plan": {
         "source_id": "35072913",
         "display_name": "Arenas SD CZ Dabing",
-        "planned_at": "2026-11-20T11:52:09.426583+00:00"
+        "planned_at": "2026-11-20T11:52:13.073799+00:00"
       }
     },
     "8118": {
@@ -229940,5 +229946,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:52:09.426601+00:00"
+  "updated_at": "2026-11-20T11:52:14.738452+00:00"
 }
