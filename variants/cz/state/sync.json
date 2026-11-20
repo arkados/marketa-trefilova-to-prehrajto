@@ -113751,13 +113751,6 @@
           "source_id": "32044029",
           "target_video_id": "30984062",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:35:39.158199+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32044029",
-          "target_video_id": "30984062",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:42:32.611537+00:00"
         },
         {
@@ -113766,6 +113759,13 @@
           "target_video_id": "30984062",
           "permanent": false,
           "attempted_at": "2026-11-20T00:22:43.044420+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32044029",
+          "target_video_id": "30984062",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:01:06.999772+00:00"
         }
       ],
       "last_plan": {
@@ -132282,7 +132282,7 @@
       "last_plan": {
         "source_id": "35080468",
         "display_name": "Polská krev SD CZ Dabing",
-        "planned_at": "2026-11-20T00:22:41.677326+00:00"
+        "planned_at": "2026-11-20T02:01:05.426075+00:00"
       },
       "previous_target_id": "30987106",
       "prepared": {
@@ -132290,6 +132290,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:37:22.059612+00:00",
         "relay_source_id": "35080468"
+      },
+      "claim": {
+        "worker_id": "8761f2171c2045709d2dc97203fb302f-shard-0",
+        "claimed_at": "2026-11-20T02:01:06.622631+00:00",
+        "lease_expires_at": "2026-11-20T08:01:06.622631+00:00",
+        "run_id": "44620782751"
       }
     },
     "13773": {
@@ -182502,7 +182508,7 @@
       "last_plan": {
         "source_id": "34270992",
         "display_name": "The Killer (2023) 4K CZ Dabing",
-        "planned_at": "2026-11-20T02:01:02.282320+00:00"
+        "planned_at": "2026-11-20T02:01:05.827634+00:00"
       }
     },
     "3559": {
@@ -228402,5 +228408,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:01:02.630241+00:00"
+  "updated_at": "2026-11-20T02:01:06.999789+00:00"
 }
