@@ -120491,13 +120491,6 @@
           "source_id": "25263125",
           "target_video_id": "30985003",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:48:37.460326+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25263125",
-          "target_video_id": "30985003",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:39:35.153470+00:00"
         },
         {
@@ -120506,6 +120499,13 @@
           "target_video_id": "30985003",
           "permanent": false,
           "attempted_at": "2026-11-20T15:14:03.103513+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25263125",
+          "target_video_id": "30985003",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:50:39.185929+00:00"
         }
       ],
       "last_plan": {
@@ -120519,12 +120519,6 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T18:31:12.199895+00:00",
         "relay_source_id": "25263125"
-      },
-      "claim": {
-        "worker_id": "16c60d9c30e1403d99ff2fbd75078417-shard-0",
-        "claimed_at": "2026-11-20T16:50:34.954343+00:00",
-        "lease_expires_at": "2026-11-20T22:50:34.954343+00:00",
-        "run_id": "44745112284"
       }
     },
     "23119": {
@@ -168523,7 +168517,7 @@
       "last_plan": {
         "source_id": "28623659",
         "display_name": "Alois Nebel 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:14:03.396665+00:00"
+        "planned_at": "2026-11-20T16:50:38.262523+00:00"
       },
       "previous_target_id": "31118563",
       "prepared": {
@@ -186184,7 +186178,7 @@
       "last_plan": {
         "source_id": "7762074",
         "display_name": "Sherlock Holmes and the Case of the Silk Stocking SD CZ Dabing",
-        "planned_at": "2026-11-20T16:50:33.836538+00:00"
+        "planned_at": "2026-11-20T16:50:38.648609+00:00"
       }
     },
     "3640": {
@@ -186194,7 +186188,12 @@
       "attempts": []
     },
     "15236": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27360324",
+        "display_name": "Hotel Sinestra 720p CZ Dabing",
+        "planned_at": "2026-11-20T16:50:38.879259+00:00"
+      }
     },
     "20051": {
       "attempts": []
@@ -231511,5 +231510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:50:35.649744+00:00"
+  "updated_at": "2026-11-20T16:50:39.185951+00:00"
 }
