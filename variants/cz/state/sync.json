@@ -111737,13 +111737,6 @@
           "source_id": "34733928",
           "target_video_id": "30983808",
           "permanent": false,
-          "attempted_at": "2026-11-20T06:36:16.604134+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34733928",
-          "target_video_id": "30983808",
-          "permanent": false,
           "attempted_at": "2026-11-20T08:17:54.786303+00:00"
         },
         {
@@ -111752,6 +111745,13 @@
           "target_video_id": "30983808",
           "permanent": false,
           "attempted_at": "2026-11-20T10:10:38.339231+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34733928",
+          "target_video_id": "30983808",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:51:28.699541+00:00"
         }
       ],
       "last_plan": {
@@ -134642,7 +134642,7 @@
       "last_plan": {
         "source_id": "34676079",
         "display_name": "Madla z cihelny 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:10:40.944881+00:00"
+        "planned_at": "2026-11-20T11:51:26.813020+00:00"
       },
       "previous_target_id": "30987477",
       "prepared": {
@@ -134650,6 +134650,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:52:55.769930+00:00",
         "relay_source_id": "34676079"
+      },
+      "claim": {
+        "worker_id": "d8f5dc69a3e64afdb0d5d831721cbd3e-shard-0",
+        "claimed_at": "2026-11-20T11:51:28.282412+00:00",
+        "lease_expires_at": "2026-11-20T17:51:28.282412+00:00",
+        "run_id": "44710524805"
       }
     },
     "24448": {
@@ -184283,7 +184289,7 @@
       "last_plan": {
         "source_id": "35072913",
         "display_name": "Arenas SD CZ Dabing",
-        "planned_at": "2026-11-20T11:51:23.485402+00:00"
+        "planned_at": "2026-11-20T11:51:27.230080+00:00"
       }
     },
     "8118": {
@@ -229940,5 +229946,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:51:23.817446+00:00"
+  "updated_at": "2026-11-20T11:51:28.699559+00:00"
 }
