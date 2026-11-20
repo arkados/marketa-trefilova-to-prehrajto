@@ -139118,7 +139118,7 @@
       "last_plan": {
         "source_id": "34776105",
         "display_name": "Fallow (BRAK) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T09:08:51.823033+00:00"
+        "planned_at": "2026-11-20T11:04:18.039806+00:00"
       },
       "previous_target_id": "30987920",
       "prepared": {
@@ -139126,6 +139126,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:47:03.938439+00:00",
         "relay_source_id": "34776105"
+      },
+      "claim": {
+        "worker_id": "427ed687ad9d4daab179e29575ce71a4-shard-0",
+        "claimed_at": "2026-11-20T11:04:19.479372+00:00",
+        "lease_expires_at": "2026-11-20T17:04:19.479372+00:00",
+        "run_id": "44710524805"
       }
     },
     "26977": {
@@ -181538,13 +181544,6 @@
           "source_id": "11919025",
           "target_video_id": "31191067",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:48:02.498631+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11919025",
-          "target_video_id": "31191067",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:27:59.580163+00:00"
         },
         {
@@ -181553,6 +181552,13 @@
           "target_video_id": "31191067",
           "permanent": false,
           "attempted_at": "2026-11-20T09:08:53.659255+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11919025",
+          "target_video_id": "31191067",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:04:20.008890+00:00"
         }
       ],
       "last_plan": {
@@ -184092,11 +184098,22 @@
       "last_plan": {
         "source_id": "29473388",
         "display_name": "The Haunted Castle 720p CZ Dabing",
-        "planned_at": "2026-11-20T11:04:14.098958+00:00"
+        "planned_at": "2026-11-20T11:04:18.417892+00:00"
+      },
+      "claim": {
+        "worker_id": "308c62370d274c12b347baa825947288-shard-0",
+        "claimed_at": "2026-11-20T11:04:19.702904+00:00",
+        "lease_expires_at": "2026-11-20T17:04:19.702904+00:00",
+        "run_id": "44710524805"
       }
     },
     "12400": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31083172",
+        "display_name": "The Second Civil War 1080p CZ Dabing",
+        "planned_at": "2026-11-20T11:04:18.698547+00:00"
+      }
     },
     "31443": {
       "attempts": []
@@ -229779,5 +229796,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:04:14.401371+00:00"
+  "updated_at": "2026-11-20T11:04:20.008908+00:00"
 }
