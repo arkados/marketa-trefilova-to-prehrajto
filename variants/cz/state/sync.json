@@ -144766,7 +144766,7 @@
       "last_plan": {
         "source_id": "35418861",
         "display_name": "Murder in Aigues-Mortes (Crime à Aigues-Mortes) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:25:17.167235+00:00"
+        "planned_at": "2026-11-20T14:12:33.898242+00:00"
       },
       "previous_target_id": "30990016",
       "prepared": {
@@ -148307,6 +148307,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-13T16:56:47.941432+00:00",
         "relay_source_id": "34791759"
+      },
+      "claim": {
+        "worker_id": "24f020d3768b4a979b1c3ece9ad8f722-shard-0",
+        "claimed_at": "2026-11-20T14:12:33.605210+00:00",
+        "lease_expires_at": "2026-11-20T20:12:33.605210+00:00",
+        "run_id": "44745112284"
       }
     },
     "20915": {
@@ -184993,17 +184999,19 @@
       }
     },
     "17037": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695527",
+          "target_video_id": "31205963",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:12:34.708455+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695527",
         "display_name": "Lost Country (Izgubljena zemlja) 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:09:24.667685+00:00"
-      },
-      "claim": {
-        "worker_id": "1b9a776fa6d14a2795d76e53fa2ca6a0-shard-0",
-        "claimed_at": "2026-11-20T14:09:28.105138+00:00",
-        "lease_expires_at": "2026-11-20T20:09:28.105138+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31205963",
       "prepared": {
@@ -185024,7 +185032,7 @@
       "last_plan": {
         "source_id": "34694766",
         "display_name": "Wolfgang (Wolfgang (Extraordinari)) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:12:30.719312+00:00"
+        "planned_at": "2026-11-20T14:12:34.417050+00:00"
       }
     },
     "33688": {
@@ -230549,5 +230557,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:12:30.719330+00:00"
+  "updated_at": "2026-11-20T14:12:34.708478+00:00"
 }
