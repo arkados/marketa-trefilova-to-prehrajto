@@ -184804,17 +184804,19 @@
       }
     },
     "8983": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32264317",
+          "target_video_id": "31205526",
+          "permanent": false,
+          "attempted_at": "2026-11-20T13:49:31.920677+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32264317",
         "display_name": "Život je život 1080p CZ Dabing",
         "planned_at": "2026-11-20T13:42:01.581454+00:00"
-      },
-      "claim": {
-        "worker_id": "9188c49167e5402c8bb1eb3ff446fd56-shard-0",
-        "claimed_at": "2026-11-20T13:42:02.897757+00:00",
-        "lease_expires_at": "2026-11-20T19:42:02.897757+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31205526",
       "prepared": {
@@ -230416,5 +230418,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T13:49:29.433158+00:00"
+  "updated_at": "2026-11-20T13:49:31.920696+00:00"
 }
