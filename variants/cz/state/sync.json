@@ -134727,6 +134727,12 @@
         "size_bytes": 986500000,
         "prepared_at": "2026-11-11T04:56:40.021432+00:00",
         "relay_source_id": "28002899"
+      },
+      "claim": {
+        "worker_id": "939c80475489466bb7042f10ba92bd37-shard-0",
+        "claimed_at": "2026-11-20T22:22:03.805837+00:00",
+        "lease_expires_at": "2026-11-21T04:22:03.805837+00:00",
+        "run_id": "44817573093"
       }
     },
     "15210": {
@@ -138232,7 +138238,7 @@
       "last_plan": {
         "source_id": "32899046",
         "display_name": "The Right to Sin SD CZ Dabing",
-        "planned_at": "2026-11-20T17:02:00.673157+00:00"
+        "planned_at": "2026-11-20T22:22:04.080977+00:00"
       },
       "previous_target_id": "30987847",
       "prepared": {
@@ -138240,6 +138246,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T06:24:20.802315+00:00",
         "relay_source_id": "32899046"
+      },
+      "claim": {
+        "worker_id": "5a12ed3122ae4b56861186767eadd80d-shard-0",
+        "claimed_at": "2026-11-20T22:22:05.422110+00:00",
+        "lease_expires_at": "2026-11-21T04:22:05.422110+00:00",
+        "run_id": "44817573093"
       }
     },
     "33475": {
@@ -187040,17 +187052,19 @@
       }
     },
     "7045": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33035213",
+          "target_video_id": "31214339",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:22:05.744133+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33035213",
         "display_name": "The Velvet Murderers (Sametoví vrazi) 1080p CZ Dabing",
         "planned_at": "2026-11-20T22:15:36.671881+00:00"
-      },
-      "claim": {
-        "worker_id": "270a866f4c2b46239e9b150d5aa447ae-shard-0",
-        "claimed_at": "2026-11-20T22:15:40.059414+00:00",
-        "lease_expires_at": "2026-11-21T04:15:40.059414+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31214339",
       "prepared": {
@@ -187068,7 +187082,7 @@
       "last_plan": {
         "source_id": "22744990",
         "display_name": "Ivy + Bean 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:22:01.153625+00:00"
+        "planned_at": "2026-11-20T22:22:04.679823+00:00"
       }
     },
     "20431": {
@@ -232215,5 +232229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:22:01.153645+00:00"
+  "updated_at": "2026-11-20T22:22:05.744154+00:00"
 }
