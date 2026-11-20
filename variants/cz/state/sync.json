@@ -134545,13 +134545,6 @@
           "source_id": "25067531",
           "target_video_id": "30987457",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:52:08.795906+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25067531",
-          "target_video_id": "30987457",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:37:37.452707+00:00"
         },
         {
@@ -134560,6 +134553,13 @@
           "target_video_id": "30987457",
           "permanent": false,
           "attempted_at": "2026-11-20T13:19:52.099832+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25067531",
+          "target_video_id": "30987457",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:00:16.125858+00:00"
         }
       ],
       "last_plan": {
@@ -134573,12 +134573,6 @@
         "size_bytes": 696900000,
         "prepared_at": "2026-11-11T04:46:21.301776+00:00",
         "relay_source_id": "25067531"
-      },
-      "claim": {
-        "worker_id": "d40ff23604264f1f91c3e8eaf294216c-shard-0",
-        "claimed_at": "2026-11-20T15:00:07.095785+00:00",
-        "lease_expires_at": "2026-11-20T21:00:07.095785+00:00",
-        "run_id": "44745112284"
       }
     },
     "32433": {
@@ -141681,7 +141675,7 @@
       "last_plan": {
         "source_id": "32097224",
         "display_name": "The Great Dam (Velká přehrada) SD CZ Dabing",
-        "planned_at": "2026-11-20T13:19:49.990210+00:00"
+        "planned_at": "2026-11-20T15:00:10.659656+00:00"
       },
       "previous_target_id": "30988268",
       "prepared": {
@@ -141689,6 +141683,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T08:01:28.170041+00:00",
         "relay_source_id": "32097224"
+      },
+      "claim": {
+        "worker_id": "d36296dc993247fab622f8503c601e37-shard-0",
+        "claimed_at": "2026-11-20T15:00:11.783087+00:00",
+        "lease_expires_at": "2026-11-20T21:00:11.783087+00:00",
+        "run_id": "44745112284"
       }
     },
     "32940": {
@@ -185385,7 +185385,7 @@
       "last_plan": {
         "source_id": "34909880",
         "display_name": "Kika 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:00:06.393806+00:00"
+        "planned_at": "2026-11-20T15:00:11.081241+00:00"
       }
     },
     "15458": {
@@ -230856,5 +230856,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:00:08.421144+00:00"
+  "updated_at": "2026-11-20T15:00:16.125877+00:00"
 }
