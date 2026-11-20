@@ -125439,13 +125439,6 @@
           "source_id": "34296329",
           "target_video_id": "30985822",
           "permanent": false,
-          "attempted_at": "2026-11-19T19:54:33.824483+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34296329",
-          "target_video_id": "30985822",
-          "permanent": false,
           "attempted_at": "2026-11-19T21:56:33.816423+00:00"
         },
         {
@@ -125454,12 +125447,19 @@
           "target_video_id": "30985822",
           "permanent": false,
           "attempted_at": "2026-11-19T23:37:08.008313+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34296329",
+          "target_video_id": "30985822",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:17:15.514175+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34296329",
         "display_name": "Contra 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:14:14.077040+00:00"
+        "planned_at": "2026-11-20T01:17:12.196764+00:00"
       },
       "previous_target_id": "30985822",
       "prepared": {
@@ -182267,17 +182267,33 @@
       "last_plan": {
         "source_id": "29861179",
         "display_name": "Miss Peregrine's Home for Peculiar Children 4K CZ Dabing",
-        "planned_at": "2026-11-20T01:14:14.418152+00:00"
+        "planned_at": "2026-11-20T01:17:12.566433+00:00"
+      },
+      "claim": {
+        "worker_id": "f8b14b33473a4a9ca6dd398e8799f44e-shard-0",
+        "claimed_at": "2026-11-20T01:17:14.013500+00:00",
+        "lease_expires_at": "2026-11-20T07:17:14.013500+00:00",
+        "run_id": "44620782751"
       }
     },
     "12072": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32463391",
+        "display_name": "Demolition Man 4K CZ Dabing",
+        "planned_at": "2026-11-20T01:17:12.786244+00:00"
+      }
     },
     "16701": {
       "attempts": []
     },
     "3398": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34060152",
+        "display_name": "The Ninth Gate 4K CZ Dabing",
+        "planned_at": "2026-11-20T01:17:13.004159+00:00"
+      }
     },
     "3366": {
       "attempts": []
@@ -228197,5 +228213,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:16:18.960288+00:00"
+  "updated_at": "2026-11-20T01:17:15.514191+00:00"
 }
