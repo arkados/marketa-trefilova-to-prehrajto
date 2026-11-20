@@ -155258,13 +155258,6 @@
           "source_id": "19982845",
           "target_video_id": "31052284",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:24:11.928399+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19982845",
-          "target_video_id": "31052284",
-          "permanent": false,
           "attempted_at": "2026-11-20T06:57:55.499526+00:00"
         },
         {
@@ -155273,6 +155266,13 @@
           "target_video_id": "31052284",
           "permanent": false,
           "attempted_at": "2026-11-20T08:41:47.426764+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19982845",
+          "target_video_id": "31052284",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:34:53.500208+00:00"
         }
       ],
       "last_plan": {
@@ -155286,12 +155286,6 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-15T07:25:44.123410+00:00",
         "relay_source_id": "19982845"
-      },
-      "claim": {
-        "worker_id": "164463b578754760ad0b6f6793651899-shard-0",
-        "claimed_at": "2026-11-20T10:34:48.543261+00:00",
-        "lease_expires_at": "2026-11-20T16:34:48.543261+00:00",
-        "run_id": "44710524805"
       }
     },
     "35184": {
@@ -182973,7 +182967,7 @@
       "last_plan": {
         "source_id": "26695291",
         "display_name": "Love and Other Drugs (Love & Other Drugs) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T08:41:45.867794+00:00"
+        "planned_at": "2026-11-20T10:34:54.192120+00:00"
       },
       "previous_target_id": "31195677",
       "prepared": {
@@ -183949,17 +183943,19 @@
       }
     },
     "5615": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31624572",
+          "target_video_id": "31201951",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:34:54.473515+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31624572",
         "display_name": "Stuck with a Perfect Woman (Bezva ženská na krku) 1080p CZ Dabing",
         "planned_at": "2026-11-20T10:30:04.653246+00:00"
-      },
-      "claim": {
-        "worker_id": "5b7a6755e4bb48d1b3b86c633dda67e5-shard-0",
-        "claimed_at": "2026-11-20T10:30:08.677969+00:00",
-        "lease_expires_at": "2026-11-20T16:30:08.677969+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31201951",
       "prepared": {
@@ -229697,5 +229693,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:34:49.806408+00:00"
+  "updated_at": "2026-11-20T10:34:54.473535+00:00"
 }
