@@ -125667,13 +125667,6 @@
           "source_id": "34651052",
           "target_video_id": "30985868",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:49:32.710035+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34651052",
-          "target_video_id": "30985868",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:40:23.539725+00:00"
         },
         {
@@ -125682,12 +125675,19 @@
           "target_video_id": "30985868",
           "permanent": false,
           "attempted_at": "2026-11-20T15:14:51.951473+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34651052",
+          "target_video_id": "30985868",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:51:33.837908+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34651052",
         "display_name": "Safety 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:14:45.539846+00:00"
+        "planned_at": "2026-11-20T16:51:30.298452+00:00"
       },
       "previous_target_id": "30985868",
       "prepared": {
@@ -186211,7 +186211,13 @@
       "last_plan": {
         "source_id": "27360324",
         "display_name": "Hotel Sinestra 720p CZ Dabing",
-        "planned_at": "2026-11-20T16:51:23.986321+00:00"
+        "planned_at": "2026-11-20T16:51:30.712355+00:00"
+      },
+      "claim": {
+        "worker_id": "025f7b0fa03a42d5b303a098b555409e-shard-0",
+        "claimed_at": "2026-11-20T16:51:31.965316+00:00",
+        "lease_expires_at": "2026-11-20T22:51:31.965316+00:00",
+        "run_id": "44745112284"
       }
     },
     "20051": {
@@ -186221,7 +186227,12 @@
       "attempts": []
     },
     "24074": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32217413",
+        "display_name": "Hey There, It's Yogi Bear! 1080p CZ Dabing",
+        "planned_at": "2026-11-20T16:51:30.971648+00:00"
+      }
     },
     "16906": {
       "attempts": []
@@ -231529,5 +231540,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:51:26.068354+00:00"
+  "updated_at": "2026-11-20T16:51:33.837925+00:00"
 }
