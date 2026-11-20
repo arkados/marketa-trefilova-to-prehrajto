@@ -187555,17 +187555,19 @@
       "attempts": []
     },
     "16122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31969499",
+          "target_video_id": "31215420",
+          "permanent": false,
+          "attempted_at": "2026-11-20T23:35:11.862436+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31969499",
         "display_name": "Verano en diciembre 1080p CZ Dabing",
         "planned_at": "2026-11-20T23:29:27.605257+00:00"
-      },
-      "claim": {
-        "worker_id": "fe1c1f8001bc4782bd1d74a0e7a25af9-shard-0",
-        "claimed_at": "2026-11-20T23:29:28.702612+00:00",
-        "lease_expires_at": "2026-11-21T05:29:28.702612+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31215420",
       "prepared": {
@@ -232634,5 +232636,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T23:35:09.697174+00:00"
+  "updated_at": "2026-11-20T23:35:11.862457+00:00"
 }
