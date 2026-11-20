@@ -109058,13 +109058,6 @@
           "source_id": "22546836",
           "target_video_id": "30983603",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:16:22.410871+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22546836",
-          "target_video_id": "30983603",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:56:05.315688+00:00"
         },
         {
@@ -109073,6 +109066,13 @@
           "target_video_id": "30983603",
           "permanent": false,
           "attempted_at": "2026-11-20T13:46:40.475037+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22546836",
+          "target_video_id": "30983603",
+          "permanent": false,
+          "attempted_at": "2026-11-20T15:21:23.856881+00:00"
         }
       ],
       "last_plan": {
@@ -119210,7 +119210,7 @@
       "last_plan": {
         "source_id": "12049029",
         "display_name": "Tolkien 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:46:41.132116+00:00"
+        "planned_at": "2026-11-20T15:21:21.995556+00:00"
       },
       "previous_target_id": "30984886",
       "prepared": {
@@ -119218,6 +119218,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:03:27.140287+00:00",
         "relay_source_id": "12049029"
+      },
+      "claim": {
+        "worker_id": "8607d94719704225b8958a3959bc8d8b-shard-0",
+        "claimed_at": "2026-11-20T15:21:23.359117+00:00",
+        "lease_expires_at": "2026-11-20T21:21:23.359117+00:00",
+        "run_id": "44745112284"
       }
     },
     "11922": {
@@ -185560,6 +185566,12 @@
         "source_id": "32932670",
         "display_name": "Little Emma (Emma's Big Adventure) 1080p CZ Dabing",
         "planned_at": "2026-11-20T15:21:18.129078+00:00"
+      },
+      "claim": {
+        "worker_id": "a9618138c03a45c79aa5cb10bc11280b-shard-0",
+        "claimed_at": "2026-11-20T15:21:21.478708+00:00",
+        "lease_expires_at": "2026-11-20T21:21:21.478708+00:00",
+        "run_id": "44745112284"
       }
     },
     "15615": {
@@ -185567,7 +185579,7 @@
       "last_plan": {
         "source_id": "34881600",
         "display_name": "The Redemption (La deuda) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:21:18.678979+00:00"
+        "planned_at": "2026-11-20T15:21:22.410835+00:00"
       }
     },
     "27782": {
@@ -230987,5 +230999,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T15:21:18.678996+00:00"
+  "updated_at": "2026-11-20T15:21:23.856900+00:00"
 }
