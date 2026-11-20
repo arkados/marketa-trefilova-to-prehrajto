@@ -101182,13 +101182,6 @@
           "source_id": "11696652",
           "target_video_id": "30966458",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:10:51.642017+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11696652",
-          "target_video_id": "30966458",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:13:43.574040+00:00"
         },
         {
@@ -101197,6 +101190,13 @@
           "target_video_id": "30966458",
           "permanent": false,
           "attempted_at": "2026-11-19T23:56:00.599590+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11696652",
+          "target_video_id": "30966458",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:35:40.385187+00:00"
         }
       ],
       "last_plan": {
@@ -101210,12 +101210,6 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T06:11:47.158308+00:00",
         "relay_source_id": "11696652"
-      },
-      "claim": {
-        "worker_id": "9e9baa9bd3c24c128e70a93a4d8a11ad-shard-0",
-        "claimed_at": "2026-11-20T01:35:36.758580+00:00",
-        "lease_expires_at": "2026-11-20T07:35:36.758580+00:00",
-        "run_id": "44620782751"
       }
     },
     "31193": {
@@ -171621,7 +171615,7 @@
       "last_plan": {
         "source_id": "35185503",
         "display_name": "Land 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:55:58.757651+00:00"
+        "planned_at": "2026-11-20T01:35:40.952446+00:00"
       },
       "previous_target_id": "31130365",
       "prepared": {
@@ -182324,17 +182318,23 @@
       "attempts": []
     },
     "3398": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34060152",
+          "reason": "Source detail has no authenticated download link; source_id=34060152",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:35:41.582125+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34060152",
         "display_name": "The Ninth Gate 4K CZ Dabing",
         "planned_at": "2026-11-20T01:35:35.589332+00:00"
       },
-      "claim": {
-        "worker_id": "e5ab72d3884143b88859fcb42aa7e459-shard-0",
-        "claimed_at": "2026-11-20T01:35:36.973616+00:00",
-        "lease_expires_at": "2026-11-20T07:35:36.973616+00:00",
-        "run_id": "44620782751"
+      "source_repair_requested": {
+        "source_id": "34060152",
+        "requested_at": "2026-11-20T01:35:41.582106+00:00"
       }
     },
     "3366": {
@@ -182342,7 +182342,7 @@
       "last_plan": {
         "source_id": "31405510",
         "display_name": "The Old Guard 4K CZ Dabing",
-        "planned_at": "2026-11-20T01:35:35.860630+00:00"
+        "planned_at": "2026-11-20T01:35:41.327735+00:00"
       }
     },
     "3557": {
@@ -228260,5 +228260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:35:37.256688+00:00"
+  "updated_at": "2026-11-20T01:35:41.582134+00:00"
 }
