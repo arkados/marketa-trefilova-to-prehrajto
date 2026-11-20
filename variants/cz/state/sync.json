@@ -185846,17 +185846,19 @@
       }
     },
     "15643": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33616123",
+          "target_video_id": "31207952",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:07:40.822648+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33616123",
         "display_name": "Death of a Comedian (La muerte de un comediante) 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:00:55.018972+00:00"
-      },
-      "claim": {
-        "worker_id": "fd9f3a4415c94a228ed20f3ff2076ff7-shard-0",
-        "claimed_at": "2026-11-20T16:00:56.297111+00:00",
-        "lease_expires_at": "2026-11-20T22:00:56.297111+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31207952",
       "prepared": {
@@ -231243,5 +231245,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:07:38.671668+00:00"
+  "updated_at": "2026-11-20T16:07:40.822667+00:00"
 }
