@@ -126881,13 +126881,6 @@
           "source_id": "34788727",
           "target_video_id": "30986265",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:42:30.010556+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788727",
-          "target_video_id": "30986265",
-          "permanent": false,
           "attempted_at": "2026-11-20T15:16:44.473111+00:00"
         },
         {
@@ -126896,6 +126889,13 @@
           "target_video_id": "30986265",
           "permanent": false,
           "attempted_at": "2026-11-20T16:53:30.019908+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788727",
+          "target_video_id": "30986265",
+          "permanent": false,
+          "attempted_at": "2026-11-20T22:13:42.052623+00:00"
         }
       ],
       "last_plan": {
@@ -133638,7 +133638,7 @@
       "last_plan": {
         "source_id": "34710904",
         "display_name": "O Nesytovi 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:53:32.836727+00:00"
+        "planned_at": "2026-11-20T22:13:40.154642+00:00"
       },
       "previous_target_id": "30987301",
       "prepared": {
@@ -133646,6 +133646,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T04:13:03.584487+00:00",
         "relay_source_id": "34710904"
+      },
+      "claim": {
+        "worker_id": "ffe2a95418984807b8287f2c13ec777f-shard-0",
+        "claimed_at": "2026-11-20T22:13:41.268356+00:00",
+        "lease_expires_at": "2026-11-21T04:13:41.268356+00:00",
+        "run_id": "44817573093"
       }
     },
     "32273": {
@@ -187036,7 +187042,7 @@
       "last_plan": {
         "source_id": "33035213",
         "display_name": "The Velvet Murderers (Sametoví vrazi) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:13:36.919026+00:00"
+        "planned_at": "2026-11-20T22:13:40.543379+00:00"
       }
     },
     "21976": {
@@ -232189,5 +232195,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T22:13:37.223408+00:00"
+  "updated_at": "2026-11-20T22:13:42.052644+00:00"
 }
