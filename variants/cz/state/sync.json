@@ -43058,6 +43058,12 @@
         "size_bytes": 31200000000,
         "prepared_at": "2026-11-03T07:52:26.317997+00:00",
         "relay_source_id": "34357032"
+      },
+      "claim": {
+        "worker_id": "8d8961f841154d30956f1cd10dc9984e-shard-0",
+        "claimed_at": "2026-11-20T02:55:59.285514+00:00",
+        "lease_expires_at": "2026-11-20T08:55:59.285514+00:00",
+        "run_id": "44620782751"
       }
     },
     "1395": {
@@ -131003,13 +131009,6 @@
           "source_id": "34451524",
           "target_video_id": "30986945",
           "permanent": false,
-          "attempted_at": "2026-11-19T22:02:25.587975+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34451524",
-          "target_video_id": "30986945",
-          "permanent": false,
           "attempted_at": "2026-11-19T23:43:00.224958+00:00"
         },
         {
@@ -131018,12 +131017,19 @@
           "target_video_id": "30986945",
           "permanent": false,
           "attempted_at": "2026-11-20T01:25:15.671594+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34451524",
+          "target_video_id": "30986945",
+          "permanent": false,
+          "attempted_at": "2026-11-20T02:56:02.771944+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34451524",
         "display_name": "Circus Angel SD CZ Dabing",
-        "planned_at": "2026-11-20T01:25:10.332675+00:00"
+        "planned_at": "2026-11-20T02:55:59.576546+00:00"
       },
       "previous_target_id": "30986945",
       "prepared": {
@@ -182755,7 +182761,7 @@
       "last_plan": {
         "source_id": "34609339",
         "display_name": "Enola Holmes 4K CZ Dabing",
-        "planned_at": "2026-11-20T02:55:56.066401+00:00"
+        "planned_at": "2026-11-20T02:55:59.962093+00:00"
       }
     },
     "3537": {
@@ -228628,5 +228634,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T02:55:56.544037+00:00"
+  "updated_at": "2026-11-20T02:56:02.771965+00:00"
 }
