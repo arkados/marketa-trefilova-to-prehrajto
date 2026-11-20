@@ -113365,13 +113365,6 @@
           "source_id": "11544873",
           "target_video_id": "30984008",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:32:45.261762+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11544873",
-          "target_video_id": "30984008",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:15:09.440062+00:00"
         },
         {
@@ -113380,6 +113373,13 @@
           "target_video_id": "30984008",
           "permanent": false,
           "attempted_at": "2026-11-20T14:55:15.272052+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11544873",
+          "target_video_id": "30984008",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:32:06.764821+00:00"
         }
       ],
       "last_plan": {
@@ -135978,7 +135978,7 @@
       "last_plan": {
         "source_id": "29184927",
         "display_name": "Pára nad hrncem SD CZ Dabing",
-        "planned_at": "2026-11-20T14:55:14.822491+00:00"
+        "planned_at": "2026-11-20T16:32:05.059394+00:00"
       },
       "previous_target_id": "30987609",
       "prepared": {
@@ -135986,6 +135986,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:24:35.805876+00:00",
         "relay_source_id": "29184927"
+      },
+      "claim": {
+        "worker_id": "af50d2ee790e46a3b79265c20522d9fa-shard-0",
+        "claimed_at": "2026-11-20T16:32:06.384490+00:00",
+        "lease_expires_at": "2026-11-20T22:32:06.384490+00:00",
+        "run_id": "44745112284"
       }
     },
     "20468": {
@@ -186054,7 +186060,7 @@
       "last_plan": {
         "source_id": "34686253",
         "display_name": "Employee of the Month (L’Employée du mois) (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:32:01.404349+00:00"
+        "planned_at": "2026-11-20T16:32:05.490027+00:00"
       }
     },
     "15606": {
@@ -231393,5 +231399,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:32:02.336501+00:00"
+  "updated_at": "2026-11-20T16:32:06.764840+00:00"
 }
