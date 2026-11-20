@@ -27509,13 +27509,6 @@
           "source_id": "33392596",
           "target_video_id": "30714569",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:12:57.529756+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33392596",
-          "target_video_id": "30714569",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:46:32.240993+00:00"
         },
         {
@@ -27524,6 +27517,13 @@
           "target_video_id": "30714569",
           "permanent": false,
           "attempted_at": "2026-11-20T04:17:21.854276+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33392596",
+          "target_video_id": "30714569",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:53:06.935746+00:00"
         }
       ],
       "last_plan": {
@@ -29081,7 +29081,7 @@
       "last_plan": {
         "source_id": "26168393",
         "display_name": "42 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:17:20.098152+00:00"
+        "planned_at": "2026-11-20T05:53:05.025394+00:00"
       },
       "previous_target_id": "30721201",
       "prepared": {
@@ -29089,6 +29089,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-02T07:43:34.032473+00:00",
         "relay_source_id": "26168393"
+      },
+      "claim": {
+        "worker_id": "2c17a281a89a4306b6e384af8c254e66-shard-0",
+        "claimed_at": "2026-11-20T05:53:06.562240+00:00",
+        "lease_expires_at": "2026-11-20T11:53:06.562240+00:00",
+        "run_id": "44666964231"
       }
     },
     "23584": {
@@ -183250,7 +183256,7 @@
       "last_plan": {
         "source_id": "26235862",
         "display_name": "DodgeBall: A True Underdog Story 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:53:01.732895+00:00"
+        "planned_at": "2026-11-20T05:53:05.462995+00:00"
       }
     },
     "3477": {
@@ -229072,5 +229078,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:53:02.097564+00:00"
+  "updated_at": "2026-11-20T05:53:06.935766+00:00"
 }
