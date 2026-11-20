@@ -111229,13 +111229,6 @@
           "source_id": "34470295",
           "target_video_id": "30983785",
           "permanent": false,
-          "attempted_at": "2026-11-19T22:28:02.107962+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34470295",
-          "target_video_id": "30983785",
-          "permanent": false,
           "attempted_at": "2026-11-20T00:07:44.881743+00:00"
         },
         {
@@ -111244,6 +111237,13 @@
           "target_video_id": "30983785",
           "permanent": false,
           "attempted_at": "2026-11-20T01:46:19.402551+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34470295",
+          "target_video_id": "30983785",
+          "permanent": false,
+          "attempted_at": "2026-11-20T03:16:44.298454+00:00"
         }
       ],
       "last_plan": {
@@ -182464,7 +182464,7 @@
       "last_plan": {
         "source_id": "14915783",
         "display_name": "Hanna 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:42:32.299290+00:00"
+        "planned_at": "2026-11-20T03:16:42.662984+00:00"
       },
       "previous_target_id": "31194248",
       "prepared": {
@@ -182472,6 +182472,12 @@
         "size_bytes": 3198238405,
         "prepared_at": "2026-11-20T01:42:37.467857+00:00",
         "relay_source_id": "14915783"
+      },
+      "claim": {
+        "worker_id": "7314d4308d3b40689f52d54d850a2b37-shard-0",
+        "claimed_at": "2026-11-20T03:16:43.878949+00:00",
+        "lease_expires_at": "2026-11-20T09:16:43.878949+00:00",
+        "run_id": "44620782751"
       }
     },
     "13379": {
@@ -182819,7 +182825,7 @@
       "last_plan": {
         "source_id": "26695291",
         "display_name": "Love and Other Drugs (Love & Other Drugs) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T03:16:39.591932+00:00"
+        "planned_at": "2026-11-20T03:16:43.057808+00:00"
       }
     },
     "3189": {
@@ -228686,5 +228692,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T03:16:39.925222+00:00"
+  "updated_at": "2026-11-20T03:16:44.298471+00:00"
 }
