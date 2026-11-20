@@ -183237,17 +183237,19 @@
       "attempts": []
     },
     "3472": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33094104",
+          "target_video_id": "31197950",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:00:10.172416+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33094104",
         "display_name": "The A-Team 1080p CZ Dabing",
         "planned_at": "2026-11-20T05:52:46.099643+00:00"
-      },
-      "claim": {
-        "worker_id": "6ceff8cc4bf546bd96f7520dec6d7933-shard-0",
-        "claimed_at": "2026-11-20T05:52:49.477828+00:00",
-        "lease_expires_at": "2026-11-20T11:52:49.477828+00:00",
-        "run_id": "44666964231"
       },
       "previous_target_id": "31197950",
       "prepared": {
@@ -229084,5 +229086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:00:07.752524+00:00"
+  "updated_at": "2026-11-20T06:00:10.172436+00:00"
 }
