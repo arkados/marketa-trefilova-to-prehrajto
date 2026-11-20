@@ -111525,6 +111525,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T14:49:36.076059+00:00",
         "relay_source_id": "35113183"
+      },
+      "claim": {
+        "worker_id": "8a6ec3b6c99d479e9427821dbdc63efa-shard-0",
+        "claimed_at": "2026-11-20T06:27:31.146465+00:00",
+        "lease_expires_at": "2026-11-20T12:27:31.146465+00:00",
+        "run_id": "44666964231"
       }
     },
     "12734": {
@@ -130099,7 +130105,7 @@
       "last_plan": {
         "source_id": "27023916",
         "display_name": "Candidate (Kandidát) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T04:52:15.482593+00:00"
+        "planned_at": "2026-11-20T06:27:32.028910+00:00"
       },
       "previous_target_id": "30986878",
       "prepared": {
@@ -137793,13 +137799,6 @@
           "source_id": "35147319",
           "target_video_id": "30987807",
           "permanent": false,
-          "attempted_at": "2026-11-20T01:51:17.029201+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35147319",
-          "target_video_id": "30987807",
-          "permanent": false,
           "attempted_at": "2026-11-20T03:21:45.062345+00:00"
         },
         {
@@ -137808,6 +137807,13 @@
           "target_video_id": "30987807",
           "permanent": false,
           "attempted_at": "2026-11-20T04:52:12.772297+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35147319",
+          "target_video_id": "30987807",
+          "permanent": false,
+          "attempted_at": "2026-11-20T06:27:31.749736+00:00"
         }
       ],
       "last_plan": {
@@ -137821,12 +137827,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T06:11:39.974210+00:00",
         "relay_source_id": "35147319"
-      },
-      "claim": {
-        "worker_id": "b13493d9fb87456291f5c1488c704aeb-shard-0",
-        "claimed_at": "2026-11-20T06:27:26.716499+00:00",
-        "lease_expires_at": "2026-11-20T12:27:26.716499+00:00",
-        "run_id": "44666964231"
       }
     },
     "14434": {
@@ -183374,7 +183374,7 @@
       "last_plan": {
         "source_id": "32938725",
         "display_name": "Final Destination 4K CZ Dabing",
-        "planned_at": "2026-11-20T06:27:27.376275+00:00"
+        "planned_at": "2026-11-20T06:27:32.460297+00:00"
       }
     },
     "21914": {
@@ -229178,5 +229178,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T06:27:27.376294+00:00"
+  "updated_at": "2026-11-20T06:27:32.460315+00:00"
 }
