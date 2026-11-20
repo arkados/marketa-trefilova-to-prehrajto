@@ -122372,6 +122372,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T19:16:14.208315+00:00",
         "relay_source_id": "34076897"
+      },
+      "claim": {
+        "worker_id": "5b7460ed4c9d4f038bc635885a08f4eb-shard-0",
+        "claimed_at": "2026-11-20T07:11:17.783036+00:00",
+        "lease_expires_at": "2026-11-20T13:11:17.783036+00:00",
+        "run_id": "44666964231"
       }
     },
     "32695": {
@@ -135096,13 +135102,6 @@
           "source_id": "30649709",
           "target_video_id": "30987527",
           "permanent": false,
-          "attempted_at": "2026-11-20T02:34:11.197655+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30649709",
-          "target_video_id": "30987527",
-          "permanent": false,
           "attempted_at": "2026-11-20T04:03:25.799304+00:00"
         },
         {
@@ -135111,6 +135110,13 @@
           "target_video_id": "30987527",
           "permanent": false,
           "attempted_at": "2026-11-20T05:37:05.885131+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30649709",
+          "target_video_id": "30987527",
+          "permanent": false,
+          "attempted_at": "2026-11-20T07:11:18.519254+00:00"
         }
       ],
       "last_plan": {
@@ -135124,12 +135130,6 @@
         "size_bytes": 993800000,
         "prepared_at": "2026-11-11T05:06:50.512557+00:00",
         "relay_source_id": "30649709"
-      },
-      "claim": {
-        "worker_id": "f6a416c107b94e98ad73c2ff87a775ab-shard-0",
-        "claimed_at": "2026-11-20T07:11:13.790041+00:00",
-        "lease_expires_at": "2026-11-20T13:11:13.790041+00:00",
-        "run_id": "44666964231"
       }
     },
     "8366": {
@@ -138930,7 +138930,7 @@
       "last_plan": {
         "source_id": "34713935",
         "display_name": "Opera ve vinici 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:37:08.886011+00:00"
+        "planned_at": "2026-11-20T07:11:18.065511+00:00"
       },
       "previous_target_id": "30987900",
       "prepared": {
@@ -183463,7 +183463,7 @@
       "last_plan": {
         "source_id": "34908420",
         "display_name": "Kingsman: The Golden Circle 4K CZ Dabing",
-        "planned_at": "2026-11-20T07:11:14.452599+00:00"
+        "planned_at": "2026-11-20T07:11:18.798612+00:00"
       }
     },
     "3544": {
@@ -229258,5 +229258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:11:14.807831+00:00"
+  "updated_at": "2026-11-20T07:11:18.798630+00:00"
 }
