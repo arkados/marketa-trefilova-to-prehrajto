@@ -111343,13 +111343,6 @@
           "source_id": "34877008",
           "target_video_id": "30983790",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:39:49.163025+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877008",
-          "target_video_id": "30983790",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:21:58.701227+00:00"
         },
         {
@@ -111358,6 +111351,13 @@
           "target_video_id": "30983790",
           "permanent": false,
           "attempted_at": "2026-11-20T15:02:13.745756+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877008",
+          "target_video_id": "30983790",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:41:21.942892+00:00"
         }
       ],
       "last_plan": {
@@ -115466,7 +115466,7 @@
       "last_plan": {
         "source_id": "32925649",
         "display_name": "The Lake House 1080p CZ Dabing",
-        "planned_at": "2026-11-20T15:02:11.987669+00:00"
+        "planned_at": "2026-11-20T16:41:20.339736+00:00"
       },
       "previous_target_id": "30984584",
       "prepared": {
@@ -115474,6 +115474,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T16:54:29.152360+00:00",
         "relay_source_id": "32925649"
+      },
+      "claim": {
+        "worker_id": "49970c3e4bba405684740d1da3da14f5-shard-0",
+        "claimed_at": "2026-11-20T16:41:21.654670+00:00",
+        "lease_expires_at": "2026-11-20T22:41:21.654670+00:00",
+        "run_id": "44745112284"
       }
     },
     "2842": {
@@ -186121,6 +186127,12 @@
         "source_id": "34660019",
         "display_name": "Last Swim 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:41:15.544524+00:00"
+      },
+      "claim": {
+        "worker_id": "2bf611f63a8a479e8a56cb38a02771bf-shard-0",
+        "claimed_at": "2026-11-20T16:41:19.360840+00:00",
+        "lease_expires_at": "2026-11-20T22:41:19.360840+00:00",
+        "run_id": "44745112284"
       }
     },
     "3765": {
@@ -186128,7 +186140,7 @@
       "last_plan": {
         "source_id": "34857440",
         "display_name": "White Lie 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:41:16.022379+00:00"
+        "planned_at": "2026-11-20T16:41:20.787529+00:00"
       }
     },
     "25449": {
@@ -231458,5 +231470,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:41:16.022395+00:00"
+  "updated_at": "2026-11-20T16:41:21.942910+00:00"
 }
