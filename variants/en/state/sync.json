@@ -22722,7 +22722,7 @@
       "last_plan": {
         "source_id": "32154189",
         "display_name": "Ferry 720p CZ titulky",
-        "planned_at": "2026-11-20T03:18:03.789927+00:00"
+        "planned_at": "2026-11-20T03:48:13.773957+00:00"
       },
       "previous_target_id": "30987911",
       "prepared": {
@@ -22730,6 +22730,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:44:20.566204+00:00",
         "relay_source_id": "32154189"
+      },
+      "claim": {
+        "worker_id": "79b58ac4c8bb4c6397b975fc5a039866-shard-0",
+        "claimed_at": "2026-11-20T03:48:14.283884+00:00",
+        "lease_expires_at": "2026-11-20T09:48:14.283884+00:00",
+        "run_id": "44620782751"
       }
     },
     "21141": {
@@ -24829,13 +24835,6 @@
           "source_id": "33551012",
           "target_video_id": "31009004",
           "permanent": false,
-          "attempted_at": "2026-11-20T02:17:44.305741+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33551012",
-          "target_video_id": "31009004",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:47:54.201691+00:00"
         },
         {
@@ -24844,6 +24843,13 @@
           "target_video_id": "31009004",
           "permanent": false,
           "attempted_at": "2026-11-20T03:18:03.566441+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33551012",
+          "target_video_id": "31009004",
+          "permanent": false,
+          "attempted_at": "2026-11-20T03:48:14.547086+00:00"
         }
       ],
       "last_plan": {
@@ -100848,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T03:48:09.398389+00:00"
+  "updated_at": "2026-11-20T03:48:14.547105+00:00"
 }
