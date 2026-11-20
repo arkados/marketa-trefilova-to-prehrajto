@@ -130553,13 +130553,6 @@
           "source_id": "31267316",
           "target_video_id": "30986907",
           "permanent": false,
-          "attempted_at": "2026-11-20T00:45:24.516709+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31267316",
-          "target_video_id": "30986907",
-          "permanent": false,
           "attempted_at": "2026-11-20T02:22:47.320330+00:00"
         },
         {
@@ -130568,6 +130561,13 @@
           "target_video_id": "30986907",
           "permanent": false,
           "attempted_at": "2026-11-20T03:52:39.873994+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31267316",
+          "target_video_id": "30986907",
+          "permanent": false,
+          "attempted_at": "2026-11-20T05:26:10.436033+00:00"
         }
       ],
       "last_plan": {
@@ -131547,7 +131547,7 @@
       "last_plan": {
         "source_id": "32614966",
         "display_name": "Under the Grey Sky (Pod szarym niebem) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T03:52:38.205801+00:00"
+        "planned_at": "2026-11-20T05:26:08.668272+00:00"
       },
       "previous_target_id": "30986990",
       "prepared": {
@@ -131555,6 +131555,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:10:48.379016+00:00",
         "relay_source_id": "32614966"
+      },
+      "claim": {
+        "worker_id": "346e68cd7cb94cb580fa58ba80718fee-shard-0",
+        "claimed_at": "2026-11-20T05:26:09.888062+00:00",
+        "lease_expires_at": "2026-11-20T11:26:09.888062+00:00",
+        "run_id": "44666964231"
       }
     },
     "12675": {
@@ -183171,7 +183177,7 @@
       "last_plan": {
         "source_id": "31003721",
         "display_name": "Madagascar: Escape 2 Africa 1080p CZ Dabing",
-        "planned_at": "2026-11-20T05:26:05.017081+00:00"
+        "planned_at": "2026-11-20T05:26:09.057694+00:00"
       }
     },
     "3500": {
@@ -229005,5 +229011,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:26:05.361236+00:00"
+  "updated_at": "2026-11-20T05:26:10.436051+00:00"
 }
