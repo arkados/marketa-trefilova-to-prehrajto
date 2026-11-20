@@ -89910,13 +89910,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:14:30.137241+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:20:52.330791+00:00"
         },
         {
@@ -89925,6 +89918,13 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-19T23:59:47.984571+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:39:29.128183+00:00"
         }
       ],
       "last_plan": {
@@ -141598,7 +141598,7 @@
       "last_plan": {
         "source_id": "34694069",
         "display_name": "Na dvore je kun, séfe! (Na dvoře je kůň, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:59:46.327623+00:00"
+        "planned_at": "2026-11-20T01:39:27.377499+00:00"
       },
       "previous_target_id": "30988245",
       "prepared": {
@@ -141606,6 +141606,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:57:46.666018+00:00",
         "relay_source_id": "34694069"
+      },
+      "claim": {
+        "worker_id": "33f6b9a4a7684b1c8eb032ef0193510d-shard-0",
+        "claimed_at": "2026-11-20T01:39:28.605799+00:00",
+        "lease_expires_at": "2026-11-20T07:39:28.605799+00:00",
+        "run_id": "44620782751"
       }
     },
     "17285": {
@@ -182369,7 +182375,7 @@
       "last_plan": {
         "source_id": "14915783",
         "display_name": "Hanna 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:39:24.243214+00:00"
+        "planned_at": "2026-11-20T01:39:27.795376+00:00"
       }
     },
     "13379": {
@@ -228284,5 +228290,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:39:24.569779+00:00"
+  "updated_at": "2026-11-20T01:39:29.128201+00:00"
 }
