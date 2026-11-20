@@ -27443,13 +27443,6 @@
           "source_id": "29719575",
           "target_video_id": "30714314",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:33:56.309092+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29719575",
-          "target_video_id": "30714314",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:19:26.628801+00:00"
         },
         {
@@ -27458,6 +27451,13 @@
           "target_video_id": "30714314",
           "permanent": false,
           "attempted_at": "2026-11-20T13:04:17.682690+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29719575",
+          "target_video_id": "30714314",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:45:10.939301+00:00"
         }
       ],
       "last_plan": {
@@ -129878,7 +129878,7 @@
       "last_plan": {
         "source_id": "34774875",
         "display_name": "Waterboys 1080p CZ Dabing",
-        "planned_at": "2026-11-20T13:04:16.999000+00:00"
+        "planned_at": "2026-11-20T14:45:09.141391+00:00"
       },
       "previous_target_id": "30986837",
       "prepared": {
@@ -129886,6 +129886,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T02:18:35.871036+00:00",
         "relay_source_id": "34774875"
+      },
+      "claim": {
+        "worker_id": "a6d8a671f4fc4a699be2f111658f9e7f-shard-0",
+        "claimed_at": "2026-11-20T14:45:10.471551+00:00",
+        "lease_expires_at": "2026-11-20T20:45:10.471551+00:00",
+        "run_id": "44745112284"
       }
     },
     "22072": {
@@ -185272,7 +185278,7 @@
       "last_plan": {
         "source_id": "24104933",
         "display_name": "Raluca 720p CZ Dabing",
-        "planned_at": "2026-11-20T14:45:06.138364+00:00"
+        "planned_at": "2026-11-20T14:45:09.586162+00:00"
       }
     },
     "16865": {
@@ -230758,5 +230764,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:45:06.138381+00:00"
+  "updated_at": "2026-11-20T14:45:10.939319+00:00"
 }
