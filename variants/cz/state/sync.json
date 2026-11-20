@@ -186401,17 +186401,19 @@
       "attempts": []
     },
     "14805": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19846516",
+          "target_video_id": "31209531",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:44:58.227984+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19846516",
         "display_name": "The Land (kRAJ) 1080p CZ Dabing",
         "planned_at": "2026-11-20T17:13:57.969840+00:00"
-      },
-      "claim": {
-        "worker_id": "9b3d258155104d918ae92374762485d3-shard-0",
-        "claimed_at": "2026-11-20T17:13:59.769661+00:00",
-        "lease_expires_at": "2026-11-20T23:13:59.769661+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31209531",
       "prepared": {
@@ -231748,5 +231750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:34:49.889005+00:00"
+  "updated_at": "2026-11-20T17:44:58.228002+00:00"
 }
