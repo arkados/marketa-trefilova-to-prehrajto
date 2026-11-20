@@ -181976,17 +181976,19 @@
       }
     },
     "34852": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29833901",
+          "target_video_id": "31193028",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:16:39.567342+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29833901",
         "display_name": "Carambola's Philosophy: In the Right Pocket 1080p CZ Dabing",
         "planned_at": "2026-11-20T00:10:58.043311+00:00"
-      },
-      "claim": {
-        "worker_id": "f42f1c979b0f42ca9833c83724788f76-shard-0",
-        "claimed_at": "2026-11-20T00:11:01.179744+00:00",
-        "lease_expires_at": "2026-11-20T06:11:01.179744+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31193028",
       "prepared": {
@@ -227967,5 +227969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:16:36.646340+00:00"
+  "updated_at": "2026-11-20T00:16:39.567363+00:00"
 }
