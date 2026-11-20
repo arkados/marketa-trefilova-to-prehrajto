@@ -130627,13 +130627,6 @@
           "source_id": "27699157",
           "target_video_id": "30986910",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:21:23.197708+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27699157",
-          "target_video_id": "30986910",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:08:56.040499+00:00"
         },
         {
@@ -130642,12 +130635,19 @@
           "target_video_id": "30986910",
           "permanent": false,
           "attempted_at": "2026-11-20T15:45:31.070715+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27699157",
+          "target_video_id": "30986910",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:22:51.139902+00:00"
         }
       ],
       "last_plan": {
         "source_id": "27699157",
         "display_name": "Mickey and Friends Trick or Treats (Mickey and Friends: Trick or Treats) 720p CZ Dabing",
-        "planned_at": "2026-11-20T15:45:25.816658+00:00"
+        "planned_at": "2026-11-20T17:22:46.882779+00:00"
       },
       "previous_target_id": "30986910",
       "prepared": {
@@ -186416,15 +186416,32 @@
       }
     },
     "28899": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34841855",
+          "reason": "Source detail has no authenticated download link; source_id=34841855",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:22:51.416640+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34841855",
         "display_name": "Free Fall 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:22:41.958519+00:00"
+        "planned_at": "2026-11-20T17:22:47.289292+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34841855",
+        "requested_at": "2026-11-20T17:22:51.416623+00:00"
       }
     },
     "28317": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34864628",
+        "display_name": "The Don Juans 1080p CZ Dabing",
+        "planned_at": "2026-11-20T17:22:47.532542+00:00"
+      }
     },
     "29106": {
       "attempts": []
@@ -231705,5 +231722,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:22:44.284585+00:00"
+  "updated_at": "2026-11-20T17:22:51.416653+00:00"
 }
