@@ -121490,13 +121490,6 @@
           "source_id": "34176833",
           "target_video_id": "30985061",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:54:59.727649+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34176833",
-          "target_video_id": "30985061",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:39:22.755950+00:00"
         },
         {
@@ -121505,6 +121498,13 @@
           "target_video_id": "30985061",
           "permanent": false,
           "attempted_at": "2026-11-20T16:16:32.643886+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34176833",
+          "target_video_id": "30985061",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:31:55.694586+00:00"
         }
       ],
       "last_plan": {
@@ -137394,7 +137394,7 @@
       "last_plan": {
         "source_id": "29809619",
         "display_name": "Prodavac humoru (Prodavač humoru) SD CZ Dabing",
-        "planned_at": "2026-11-20T16:16:30.937426+00:00"
+        "planned_at": "2026-11-20T21:31:53.643260+00:00"
       },
       "previous_target_id": "30987769",
       "prepared": {
@@ -137402,6 +137402,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:59:07.598557+00:00",
         "relay_source_id": "29809619"
+      },
+      "claim": {
+        "worker_id": "bb1e5009eb12491899ceddf73463d110-shard-0",
+        "claimed_at": "2026-11-20T21:31:54.776563+00:00",
+        "lease_expires_at": "2026-11-21T03:31:54.776563+00:00",
+        "run_id": "44817573093"
       }
     },
     "37459": {
@@ -186643,7 +186649,7 @@
       "last_plan": {
         "source_id": "29125481",
         "display_name": "Nesmrtelná teta 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:31:50.456746+00:00"
+        "planned_at": "2026-11-20T21:31:54.035729+00:00"
       }
     },
     "31957": {
@@ -231898,5 +231904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:31:50.911085+00:00"
+  "updated_at": "2026-11-20T21:31:55.694608+00:00"
 }
