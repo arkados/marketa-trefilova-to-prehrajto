@@ -109840,13 +109840,6 @@
           "source_id": "34712454",
           "target_video_id": "30983676",
           "permanent": false,
-          "attempted_at": "2026-11-20T05:35:02.160027+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34712454",
-          "target_video_id": "30983676",
-          "permanent": false,
           "attempted_at": "2026-11-20T07:09:04.787078+00:00"
         },
         {
@@ -109855,6 +109848,13 @@
           "target_video_id": "30983676",
           "permanent": false,
           "attempted_at": "2026-11-20T08:55:37.162378+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34712454",
+          "target_video_id": "30983676",
+          "permanent": false,
+          "attempted_at": "2026-11-20T10:47:05.278124+00:00"
         }
       ],
       "last_plan": {
@@ -136843,7 +136843,7 @@
       "last_plan": {
         "source_id": "19686604",
         "display_name": "Volným pádem 1080p CZ Dabing",
-        "planned_at": "2026-11-20T08:55:35.080031+00:00"
+        "planned_at": "2026-11-20T10:47:03.029347+00:00"
       },
       "previous_target_id": "30987716",
       "prepared": {
@@ -136851,6 +136851,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
+      },
+      "claim": {
+        "worker_id": "6084d02511cf4162a683c56bc794aed6-shard-0",
+        "claimed_at": "2026-11-20T10:47:04.572729+00:00",
+        "lease_expires_at": "2026-11-20T16:47:04.572729+00:00",
+        "run_id": "44710524805"
       }
     },
     "31573": {
@@ -184020,6 +184026,12 @@
         "source_id": "33810236",
         "display_name": "The Devil Knows Why (Čert ví proč) 1080p CZ Dabing",
         "planned_at": "2026-11-20T10:46:58.206686+00:00"
+      },
+      "claim": {
+        "worker_id": "bc6a14559d474a0ea70931682297e83d-shard-0",
+        "claimed_at": "2026-11-20T10:47:02.539628+00:00",
+        "lease_expires_at": "2026-11-20T16:47:02.539628+00:00",
+        "run_id": "44710524805"
       }
     },
     "27074": {
@@ -184042,7 +184054,7 @@
       "last_plan": {
         "source_id": "28024943",
         "display_name": "Return to Paradise Lost (Návrat ztraceného ráje) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T10:46:58.942375+00:00"
+        "planned_at": "2026-11-20T10:47:03.454432+00:00"
       }
     },
     "13824": {
@@ -229738,5 +229750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:46:58.942387+00:00"
+  "updated_at": "2026-11-20T10:47:05.278141+00:00"
 }
