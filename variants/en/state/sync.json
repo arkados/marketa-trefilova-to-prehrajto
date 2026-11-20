@@ -22517,13 +22517,6 @@
           "source_id": "16607977",
           "target_video_id": "30987463",
           "permanent": false,
-          "attempted_at": "2026-11-19T23:46:18.091688+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16607977",
-          "target_video_id": "30987463",
-          "permanent": false,
           "attempted_at": "2026-11-20T00:16:24.330651+00:00"
         },
         {
@@ -22532,6 +22525,13 @@
           "target_video_id": "30987463",
           "permanent": false,
           "attempted_at": "2026-11-20T00:46:36.220444+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16607977",
+          "target_video_id": "30987463",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:18:17.678058+00:00"
         }
       ],
       "last_plan": {
@@ -22796,7 +22796,7 @@
       "last_plan": {
         "source_id": "23076909",
         "display_name": "Beavis and Butt-Head Do the Universe 1080p CZ titulky",
-        "planned_at": "2026-11-20T00:46:35.010104+00:00"
+        "planned_at": "2026-11-20T01:18:16.618110+00:00"
       },
       "previous_target_id": "30987932",
       "prepared": {
@@ -22804,6 +22804,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:52:35.333881+00:00",
         "relay_source_id": "23076909"
+      },
+      "claim": {
+        "worker_id": "c079d64896954305ba1178eb9c22265d-shard-0",
+        "claimed_at": "2026-11-20T01:18:17.193401+00:00",
+        "lease_expires_at": "2026-11-20T07:18:17.193401+00:00",
+        "run_id": "44620782751"
       }
     },
     "20937": {
@@ -100848,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:18:12.780079+00:00"
+  "updated_at": "2026-11-20T01:18:17.678075+00:00"
 }
