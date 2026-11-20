@@ -110379,13 +110379,6 @@
           "source_id": "35139243",
           "target_video_id": "30983706",
           "permanent": false,
-          "attempted_at": "2026-11-20T11:10:46.621331+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35139243",
-          "target_video_id": "30983706",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:52:28.616446+00:00"
         },
         {
@@ -110394,6 +110387,13 @@
           "target_video_id": "30983706",
           "permanent": false,
           "attempted_at": "2026-11-20T14:36:59.445915+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35139243",
+          "target_video_id": "30983706",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:14:16.495221+00:00"
         }
       ],
       "last_plan": {
@@ -144248,7 +144248,7 @@
       "last_plan": {
         "source_id": "30864267",
         "display_name": "Srdečný pozdrav ze zeměkoule 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:36:58.965461+00:00"
+        "planned_at": "2026-11-20T16:14:14.758284+00:00"
       },
       "previous_target_id": "30988779",
       "prepared": {
@@ -144256,6 +144256,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T09:56:19.579893+00:00",
         "relay_source_id": "30864267"
+      },
+      "claim": {
+        "worker_id": "4e1e82a10c5340c5bb3382656922a6d8-shard-0",
+        "claimed_at": "2026-11-20T16:14:15.943076+00:00",
+        "lease_expires_at": "2026-11-20T22:14:15.943076+00:00",
+        "run_id": "44745112284"
       }
     },
     "32807": {
@@ -185926,6 +185932,12 @@
         "source_id": "31649811",
         "display_name": "Pohádkár (Pohádkář) 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:14:10.279055+00:00"
+      },
+      "claim": {
+        "worker_id": "4ae6435aeacb472c82b2bfb324104c59-shard-0",
+        "claimed_at": "2026-11-20T16:14:13.423885+00:00",
+        "lease_expires_at": "2026-11-20T22:14:13.423885+00:00",
+        "run_id": "44745112284"
       }
     },
     "4876": {
@@ -185933,7 +185945,7 @@
       "last_plan": {
         "source_id": "34889085",
         "display_name": "Little Loves (Los pequeños amores) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:14:10.812455+00:00"
+        "planned_at": "2026-11-20T16:14:15.213766+00:00"
       }
     },
     "29850": {
@@ -231296,5 +231308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:14:10.812469+00:00"
+  "updated_at": "2026-11-20T16:14:16.495237+00:00"
 }
