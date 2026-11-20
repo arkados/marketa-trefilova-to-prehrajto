@@ -139489,13 +139489,6 @@
           "source_id": "34902657",
           "target_video_id": "30987945",
           "permanent": false,
-          "attempted_at": "2026-11-20T13:08:22.184791+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34902657",
-          "target_video_id": "30987945",
-          "permanent": false,
           "attempted_at": "2026-11-20T14:49:03.192349+00:00"
         },
         {
@@ -139504,12 +139497,19 @@
           "target_video_id": "30987945",
           "permanent": false,
           "attempted_at": "2026-11-20T16:25:59.245416+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34902657",
+          "target_video_id": "30987945",
+          "permanent": false,
+          "attempted_at": "2026-11-20T21:44:17.896099+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34902657",
         "display_name": "Auto Fairy Tales (Autopohádky) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:25:52.689017+00:00"
+        "planned_at": "2026-11-20T21:44:14.522459+00:00"
       },
       "previous_target_id": "30987945",
       "prepared": {
@@ -186737,7 +186737,13 @@
       "last_plan": {
         "source_id": "34673470",
         "display_name": "Corleone 1080p CZ Dabing",
-        "planned_at": "2026-11-20T21:44:09.774261+00:00"
+        "planned_at": "2026-11-20T21:44:14.905700+00:00"
+      },
+      "claim": {
+        "worker_id": "f9952f262e33461186a42ca5d94a9b83-shard-0",
+        "claimed_at": "2026-11-20T21:44:15.994244+00:00",
+        "lease_expires_at": "2026-11-21T03:44:15.994244+00:00",
+        "run_id": "44817573093"
       }
     },
     "29268": {
@@ -186774,7 +186780,12 @@
       "attempts": []
     },
     "37312": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34399126",
+        "display_name": "The Last Whale Singer 1080p CZ Dabing",
+        "planned_at": "2026-11-20T21:44:15.151900+00:00"
+      }
     },
     "3752": {
       "attempts": []
@@ -231977,5 +231988,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T21:44:11.573426+00:00"
+  "updated_at": "2026-11-20T21:44:17.896121+00:00"
 }
