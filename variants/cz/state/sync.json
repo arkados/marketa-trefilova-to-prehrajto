@@ -142101,13 +142101,6 @@
           "source_id": "27874374",
           "target_video_id": "30988406",
           "permanent": false,
-          "attempted_at": "2026-11-20T12:13:08.630863+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27874374",
-          "target_video_id": "30988406",
-          "permanent": false,
           "attempted_at": "2026-11-20T13:59:02.081502+00:00"
         },
         {
@@ -142116,12 +142109,19 @@
           "target_video_id": "30988406",
           "permanent": false,
           "attempted_at": "2026-11-20T15:36:25.357526+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27874374",
+          "target_video_id": "30988406",
+          "permanent": false,
+          "attempted_at": "2026-11-20T17:14:01.621218+00:00"
         }
       ],
       "last_plan": {
         "source_id": "27874374",
         "display_name": "Together (Spolu) (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-20T15:36:15.770198+00:00"
+        "planned_at": "2026-11-20T17:13:57.434690+00:00"
       },
       "previous_target_id": "30988406",
       "prepared": {
@@ -186385,11 +186385,22 @@
       "last_plan": {
         "source_id": "19846516",
         "display_name": "The Land (kRAJ) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T17:13:47.891463+00:00"
+        "planned_at": "2026-11-20T17:13:57.969840+00:00"
+      },
+      "claim": {
+        "worker_id": "9b3d258155104d918ae92374762485d3-shard-0",
+        "claimed_at": "2026-11-20T17:13:59.769661+00:00",
+        "lease_expires_at": "2026-11-20T23:13:59.769661+00:00",
+        "run_id": "44745112284"
       }
     },
     "28899": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34841855",
+        "display_name": "Free Fall 1080p CZ Dabing",
+        "planned_at": "2026-11-20T17:13:58.718689+00:00"
+      }
     },
     "28317": {
       "attempts": []
@@ -231673,5 +231684,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T17:13:54.659964+00:00"
+  "updated_at": "2026-11-20T17:14:01.621234+00:00"
 }
