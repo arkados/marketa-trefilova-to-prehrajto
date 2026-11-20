@@ -120263,13 +120263,6 @@
           "source_id": "28069174",
           "target_video_id": "30984994",
           "permanent": false,
-          "attempted_at": "2026-11-19T20:28:18.689845+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28069174",
-          "target_video_id": "30984994",
-          "permanent": false,
           "attempted_at": "2026-11-19T22:34:19.877797+00:00"
         },
         {
@@ -120278,6 +120271,13 @@
           "target_video_id": "30984994",
           "permanent": false,
           "attempted_at": "2026-11-20T00:12:49.061630+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28069174",
+          "target_video_id": "30984994",
+          "permanent": false,
+          "attempted_at": "2026-11-20T01:53:57.174020+00:00"
         }
       ],
       "last_plan": {
@@ -136132,7 +136132,7 @@
       "last_plan": {
         "source_id": "34720493",
         "display_name": "Prach 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:12:47.310448+00:00"
+        "planned_at": "2026-11-20T01:53:55.324825+00:00"
       },
       "previous_target_id": "30987629",
       "prepared": {
@@ -136140,6 +136140,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T05:29:45.860849+00:00",
         "relay_source_id": "34720493"
+      },
+      "claim": {
+        "worker_id": "0d348507872b4949bc1321b19f786e2c-shard-0",
+        "claimed_at": "2026-11-20T01:53:56.665968+00:00",
+        "lease_expires_at": "2026-11-20T07:53:56.665968+00:00",
+        "run_id": "44620782751"
       }
     },
     "28541": {
@@ -182452,11 +182458,22 @@
       "last_plan": {
         "source_id": "24122191",
         "display_name": "Pocahontas 1080p CZ Dabing",
-        "planned_at": "2026-11-20T01:53:51.864039+00:00"
+        "planned_at": "2026-11-20T01:53:55.692890+00:00"
+      },
+      "claim": {
+        "worker_id": "30f076b5738b4929bc6bd15e7499e11a-shard-0",
+        "claimed_at": "2026-11-20T01:53:56.880568+00:00",
+        "lease_expires_at": "2026-11-20T07:53:56.880568+00:00",
+        "run_id": "44620782751"
       }
     },
     "3428": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32837882",
+        "display_name": "Atomic Blonde 1080p CZ Dabing",
+        "planned_at": "2026-11-20T01:53:55.963035+00:00"
+      }
     },
     "3235": {
       "attempts": []
@@ -228358,5 +228375,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:53:52.164283+00:00"
+  "updated_at": "2026-11-20T01:53:57.174037+00:00"
 }
