@@ -16585,6 +16585,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-10-31T11:40:03.610759+00:00",
         "relay_source_id": "15668226"
+      },
+      "claim": {
+        "worker_id": "3c3dfc1a996243d78a8dfee7c2abfbdf-shard-0",
+        "claimed_at": "2026-11-20T00:43:01.110816+00:00",
+        "lease_expires_at": "2026-11-20T06:43:01.110816+00:00",
+        "run_id": "44616581853"
       }
     },
     "12843": {
@@ -166375,7 +166381,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-19T23:06:52.878777+00:00"
+        "planned_at": "2026-11-20T00:43:01.368420+00:00"
       },
       "previous_target_id": "31110885",
       "prepared": {
@@ -166383,6 +166389,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-17T06:22:26.054901+00:00",
         "relay_source_id": "19869106"
+      },
+      "claim": {
+        "worker_id": "bd7a18f34e6246ce854a1316b60b66b9-shard-0",
+        "claimed_at": "2026-11-20T00:43:02.355749+00:00",
+        "lease_expires_at": "2026-11-20T06:43:02.355749+00:00",
+        "run_id": "44616581853"
       }
     },
     "22145": {
@@ -182086,17 +182098,19 @@
       }
     },
     "2769": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34026417",
+          "target_video_id": "31193231",
+          "permanent": false,
+          "attempted_at": "2026-11-20T00:43:02.589270+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34026417",
         "display_name": "The Housemaid 4K CZ Dabing",
         "planned_at": "2026-11-20T00:28:36.632886+00:00"
-      },
-      "claim": {
-        "worker_id": "6cb14268845d49f6ac7c9e0087163ce9-shard-0",
-        "claimed_at": "2026-11-20T00:28:41.992536+00:00",
-        "lease_expires_at": "2026-11-20T06:28:41.992536+00:00",
-        "run_id": "44616581853"
       },
       "previous_target_id": "31193231",
       "prepared": {
@@ -182137,7 +182151,7 @@
       "last_plan": {
         "source_id": "29595730",
         "display_name": "No Time to Spy: A Loud House Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-20T00:42:58.458760+00:00"
+        "planned_at": "2026-11-20T00:43:01.691473+00:00"
       }
     },
     "30920": {
@@ -228082,5 +228096,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T00:42:58.458778+00:00"
+  "updated_at": "2026-11-20T00:43:02.589289+00:00"
 }
