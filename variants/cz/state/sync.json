@@ -112851,13 +112851,6 @@
           "source_id": "27516263",
           "target_video_id": "30983931",
           "permanent": false,
-          "attempted_at": "2026-11-20T09:06:11.504905+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27516263",
-          "target_video_id": "30983931",
-          "permanent": false,
           "attempted_at": "2026-11-20T11:01:27.355293+00:00"
         },
         {
@@ -112866,6 +112859,13 @@
           "target_video_id": "30983931",
           "permanent": false,
           "attempted_at": "2026-11-20T12:43:04.249243+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27516263",
+          "target_video_id": "30983931",
+          "permanent": false,
+          "attempted_at": "2026-11-20T14:25:42.321403+00:00"
         }
       ],
       "last_plan": {
@@ -139081,7 +139081,7 @@
       "last_plan": {
         "source_id": "35211860",
         "display_name": "The Little King Macius (Little King Macius) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T12:43:03.412623+00:00"
+        "planned_at": "2026-11-20T14:25:40.577306+00:00"
       },
       "previous_target_id": "30987913",
       "prepared": {
@@ -139089,6 +139089,12 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-11T06:45:15.963502+00:00",
         "relay_source_id": "35211860"
+      },
+      "claim": {
+        "worker_id": "36e50d2c1f494be6ab6d0d7746ad360c-shard-0",
+        "claimed_at": "2026-11-20T14:25:41.981651+00:00",
+        "lease_expires_at": "2026-11-20T20:25:41.981651+00:00",
+        "run_id": "44745112284"
       }
     },
     "16725": {
@@ -185100,6 +185106,12 @@
         "source_id": "19237683",
         "display_name": "Poly 1080p CZ Dabing",
         "planned_at": "2026-11-20T14:25:37.184378+00:00"
+      },
+      "claim": {
+        "worker_id": "a15fdc8998b34125b2e57f8c25566b3b-shard-0",
+        "claimed_at": "2026-11-20T14:25:40.078830+00:00",
+        "lease_expires_at": "2026-11-20T20:25:40.078830+00:00",
+        "run_id": "44745112284"
       }
     },
     "15333": {
@@ -185116,7 +185128,7 @@
       "last_plan": {
         "source_id": "17594648",
         "display_name": "The Promised Princess (Slíbená princezna) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T14:25:37.702834+00:00"
+        "planned_at": "2026-11-20T14:25:41.103489+00:00"
       }
     },
     "6891": {
@@ -230620,5 +230632,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T14:25:37.702850+00:00"
+  "updated_at": "2026-11-20T14:25:42.321420+00:00"
 }
