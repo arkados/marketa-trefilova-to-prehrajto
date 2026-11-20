@@ -118058,13 +118058,6 @@
           "source_id": "33409005",
           "target_video_id": "30984816",
           "permanent": false,
-          "attempted_at": "2026-11-20T10:56:19.615568+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33409005",
-          "target_video_id": "30984816",
-          "permanent": false,
           "attempted_at": "2026-11-20T12:41:01.328953+00:00"
         },
         {
@@ -118073,6 +118066,13 @@
           "target_video_id": "30984816",
           "permanent": false,
           "attempted_at": "2026-11-20T14:23:50.394992+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33409005",
+          "target_video_id": "30984816",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:00:29.755446+00:00"
         }
       ],
       "last_plan": {
@@ -118086,12 +118086,6 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T17:44:31.464677+00:00",
         "relay_source_id": "33409005"
-      },
-      "claim": {
-        "worker_id": "dc9c1efdfc6043cf8cd7a9ce567869c5-shard-0",
-        "claimed_at": "2026-11-20T16:00:13.357796+00:00",
-        "lease_expires_at": "2026-11-20T22:00:13.357796+00:00",
-        "run_id": "44745112284"
       }
     },
     "34177": {
@@ -126126,7 +126120,7 @@
       "last_plan": {
         "source_id": "31422476",
         "display_name": "The Brain (Le Cerveau) 4K CZ Dabing",
-        "planned_at": "2026-11-20T14:23:49.582390+00:00"
+        "planned_at": "2026-11-20T16:00:22.320208+00:00"
       },
       "previous_target_id": "30985924",
       "prepared": {
@@ -126134,6 +126128,12 @@
         "size_bytes": 6600000000,
         "prepared_at": "2026-11-10T22:35:50.077167+00:00",
         "relay_source_id": "31422476"
+      },
+      "claim": {
+        "worker_id": "572e425db6c34b44ae072cdf4ade0dea-shard-0",
+        "claimed_at": "2026-11-20T16:00:23.620291+00:00",
+        "lease_expires_at": "2026-11-20T22:00:23.620291+00:00",
+        "run_id": "44745112284"
       }
     },
     "10713": {
@@ -185842,7 +185842,7 @@
       "last_plan": {
         "source_id": "33616123",
         "display_name": "Death of a Comedian (La muerte de un comediante) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T16:00:12.601449+00:00"
+        "planned_at": "2026-11-20T16:00:22.846632+00:00"
       }
     },
     "16648": {
@@ -231217,5 +231217,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:00:18.488539+00:00"
+  "updated_at": "2026-11-20T16:00:29.755469+00:00"
 }
