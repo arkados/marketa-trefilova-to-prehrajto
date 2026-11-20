@@ -61874,6 +61874,12 @@
         "size_bytes": 6700000000,
         "prepared_at": "2026-11-05T04:52:04.099418+00:00",
         "relay_source_id": "31555891"
+      },
+      "claim": {
+        "worker_id": "c953c89273ce430c880c81b4e73fa91a-shard-0",
+        "claimed_at": "2026-11-20T16:21:20.091820+00:00",
+        "lease_expires_at": "2026-11-20T22:21:20.091820+00:00",
+        "run_id": "44745112284"
       }
     },
     "2079": {
@@ -185956,17 +185962,19 @@
       }
     },
     "4876": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34889085",
+          "target_video_id": "31208200",
+          "permanent": false,
+          "attempted_at": "2026-11-20T16:21:20.331382+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34889085",
         "display_name": "Little Loves (Los pequeños amores) 1080p CZ Dabing",
         "planned_at": "2026-11-20T16:17:33.006983+00:00"
-      },
-      "claim": {
-        "worker_id": "cae1c5635c4c4895806921f0c352f361-shard-0",
-        "claimed_at": "2026-11-20T16:17:34.153000+00:00",
-        "lease_expires_at": "2026-11-20T22:17:34.153000+00:00",
-        "run_id": "44745112284"
       },
       "previous_target_id": "31208200",
       "prepared": {
@@ -231341,5 +231349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:21:17.498452+00:00"
+  "updated_at": "2026-11-20T16:21:20.331400+00:00"
 }
