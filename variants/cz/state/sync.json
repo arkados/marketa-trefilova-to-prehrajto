@@ -137476,6 +137476,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T06:00:19.379476+00:00",
         "relay_source_id": "33708412"
+      },
+      "claim": {
+        "worker_id": "54dc924e41a642f99f762c74899a9a19-shard-0",
+        "claimed_at": "2026-11-20T11:15:48.974142+00:00",
+        "lease_expires_at": "2026-11-20T17:15:48.974142+00:00",
+        "run_id": "44710524805"
       }
     },
     "12203": {
@@ -184107,17 +184113,19 @@
       "attempts": []
     },
     "21604": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29473388",
+          "target_video_id": "31202587",
+          "permanent": false,
+          "attempted_at": "2026-11-20T11:15:49.206752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29473388",
         "display_name": "The Haunted Castle 720p CZ Dabing",
         "planned_at": "2026-11-20T11:04:18.417892+00:00"
-      },
-      "claim": {
-        "worker_id": "308c62370d274c12b347baa825947288-shard-0",
-        "claimed_at": "2026-11-20T11:04:19.702904+00:00",
-        "lease_expires_at": "2026-11-20T17:04:19.702904+00:00",
-        "run_id": "44710524805"
       },
       "previous_target_id": "31202587",
       "prepared": {
@@ -229816,5 +229824,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-20T11:15:46.046726+00:00"
+  "updated_at": "2026-11-20T11:15:49.206769+00:00"
 }
