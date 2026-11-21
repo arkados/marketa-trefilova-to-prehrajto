@@ -193883,17 +193883,19 @@
       "attempts": []
     },
     "7369": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32711230",
+          "target_video_id": "31230778",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:09:25.678763+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32711230",
         "display_name": "The Oddsockeaters (Lichožrouti) 4K CZ Dabing",
         "planned_at": "2026-11-21T14:59:25.750074+00:00"
-      },
-      "claim": {
-        "worker_id": "0bbdc60e47204b20bf133e0100556736-shard-0",
-        "claimed_at": "2026-11-21T14:59:27.126925+00:00",
-        "lease_expires_at": "2026-11-21T20:59:27.126925+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31230778",
       "prepared": {
@@ -237845,5 +237847,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:09:23.075493+00:00"
+  "updated_at": "2026-11-21T15:09:25.678780+00:00"
 }
