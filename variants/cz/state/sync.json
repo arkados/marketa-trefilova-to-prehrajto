@@ -135202,7 +135202,7 @@
       "last_plan": {
         "source_id": "6086029",
         "display_name": "Dopis psaný španělsky SD CZ Dabing",
-        "planned_at": "2026-11-21T18:18:06.037064+00:00"
+        "planned_at": "2026-11-21T19:56:16.924396+00:00"
       },
       "previous_target_id": "30987544",
       "prepared": {
@@ -135210,6 +135210,12 @@
         "size_bytes": 804400000,
         "prepared_at": "2026-11-11T05:10:01.382357+00:00",
         "relay_source_id": "6086029"
+      },
+      "claim": {
+        "worker_id": "522e7a0d42b64ec78ba1ce9944c2fafc-shard-0",
+        "claimed_at": "2026-11-21T19:56:17.977039+00:00",
+        "lease_expires_at": "2026-11-22T01:56:17.977039+00:00",
+        "run_id": "44930055910"
       }
     },
     "13037": {
@@ -196435,17 +196441,19 @@
       }
     },
     "15623": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694033",
+          "target_video_id": "31235475",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:56:23.058488+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694033",
         "display_name": "Salve Maria 1080p CZ Dabing",
         "planned_at": "2026-11-21T19:53:16.565773+00:00"
-      },
-      "claim": {
-        "worker_id": "219378d2f5314e89a7f4a3bbf4a4d99e-shard-0",
-        "claimed_at": "2026-11-21T19:53:17.828369+00:00",
-        "lease_expires_at": "2026-11-22T01:53:17.828369+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31235475",
       "prepared": {
@@ -196460,7 +196468,7 @@
       "last_plan": {
         "source_id": "32699846",
         "display_name": "Mimì: Prince of Darkness (Mimì - Il principe delle tenebre) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:56:12.989307+00:00"
+        "planned_at": "2026-11-21T19:56:17.357263+00:00"
       }
     },
     "32597": {
@@ -239860,5 +239868,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:56:13.852204+00:00"
+  "updated_at": "2026-11-21T19:56:23.058507+00:00"
 }
