@@ -10093,7 +10093,7 @@
       "last_plan": {
         "source_id": "19346570",
         "display_name": "Erin Brockovich 1080p CZ titulky",
-        "planned_at": "2026-11-21T23:06:33.287991+00:00"
+        "planned_at": "2026-11-21T23:36:43.971970+00:00"
       },
       "previous_target_id": "30715404",
       "prepared": {
@@ -10101,6 +10101,12 @@
         "size_bytes": 6200000000,
         "prepared_at": "2026-11-02T03:41:03.364348+00:00",
         "relay_source_id": "19346570"
+      },
+      "claim": {
+        "worker_id": "92c3b6742e5241aab4c60e18c06253d2-shard-0",
+        "claimed_at": "2026-11-21T23:36:44.467931+00:00",
+        "lease_expires_at": "2026-11-22T05:36:44.467931+00:00",
+        "run_id": "44959851294"
       }
     },
     "944": {
@@ -18173,13 +18179,6 @@
           "source_id": "25662574",
           "target_video_id": "30893092",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:31:33.318260+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25662574",
-          "target_video_id": "30893092",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:01:37.044989+00:00"
         },
         {
@@ -18188,6 +18187,13 @@
           "target_video_id": "30893092",
           "permanent": false,
           "attempted_at": "2026-11-21T23:06:32.899377+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25662574",
+          "target_video_id": "30893092",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:36:44.608467+00:00"
         }
       ],
       "last_plan": {
@@ -100851,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:36:40.585868+00:00"
+  "updated_at": "2026-11-21T23:36:44.608485+00:00"
 }
