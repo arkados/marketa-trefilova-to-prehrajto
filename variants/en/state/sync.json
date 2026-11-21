@@ -10093,7 +10093,7 @@
       "last_plan": {
         "source_id": "19346570",
         "display_name": "Erin Brockovich 1080p CZ titulky",
-        "planned_at": "2026-11-21T18:00:44.825008+00:00"
+        "planned_at": "2026-11-21T18:30:50.836208+00:00"
       },
       "previous_target_id": "30715404",
       "prepared": {
@@ -10101,6 +10101,12 @@
         "size_bytes": 6200000000,
         "prepared_at": "2026-11-02T03:41:03.364348+00:00",
         "relay_source_id": "19346570"
+      },
+      "claim": {
+        "worker_id": "f7674820c2a34d82aec1e5bff98d5495-shard-0",
+        "claimed_at": "2026-11-21T18:30:51.424063+00:00",
+        "lease_expires_at": "2026-11-22T00:30:51.424063+00:00",
+        "run_id": "44930055910"
       }
     },
     "944": {
@@ -18173,13 +18179,6 @@
           "source_id": "25662574",
           "target_video_id": "30893092",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:58:53.882960+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25662574",
-          "target_video_id": "30893092",
-          "permanent": false,
           "attempted_at": "2026-11-21T17:29:42.693056+00:00"
         },
         {
@@ -18188,6 +18187,13 @@
           "target_video_id": "30893092",
           "permanent": false,
           "attempted_at": "2026-11-21T18:00:45.191289+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25662574",
+          "target_video_id": "30893092",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:30:51.324475+00:00"
         }
       ],
       "last_plan": {
@@ -18201,12 +18207,6 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-07T14:59:11.292082+00:00",
         "relay_source_id": "25662574"
-      },
-      "claim": {
-        "worker_id": "334be589de374982a3dd3233212534c9-shard-0",
-        "claimed_at": "2026-11-21T18:30:47.071518+00:00",
-        "lease_expires_at": "2026-11-22T00:30:47.071518+00:00",
-        "run_id": "44930055910"
       }
     },
     "27154": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:30:47.312031+00:00"
+  "updated_at": "2026-11-21T18:30:51.424092+00:00"
 }
