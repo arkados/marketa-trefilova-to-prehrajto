@@ -190796,17 +190796,19 @@
       "attempts": []
     },
     "21602": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34182833",
+          "target_video_id": "31222892",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:37:13.038010+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34182833",
         "display_name": "La Princesse de Clèves (Princess of Cleves) 1080p CZ Dabing",
         "planned_at": "2026-11-21T07:31:55.355072+00:00"
-      },
-      "claim": {
-        "worker_id": "f68d918dd38648638320522f8fdfcb9e-shard-0",
-        "claimed_at": "2026-11-21T07:31:57.872624+00:00",
-        "lease_expires_at": "2026-11-21T13:31:57.872624+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31222892",
       "prepared": {
@@ -235322,5 +235324,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:37:11.096801+00:00"
+  "updated_at": "2026-11-21T07:37:13.038027+00:00"
 }
