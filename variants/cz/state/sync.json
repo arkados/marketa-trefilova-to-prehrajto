@@ -132022,13 +132022,6 @@
           "source_id": "33873521",
           "target_video_id": "30987048",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:32:39.224484+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33873521",
-          "target_video_id": "30987048",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:16:33.979876+00:00"
         },
         {
@@ -132037,12 +132030,19 @@
           "target_video_id": "30987048",
           "permanent": false,
           "attempted_at": "2026-11-21T03:00:41.161658+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33873521",
+          "target_video_id": "30987048",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:47:45.228829+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33873521",
         "display_name": "Nase bláznivá rodina (Naše bláznivá rodina) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:00:35.719785+00:00"
+        "planned_at": "2026-11-21T04:47:42.042838+00:00"
       },
       "previous_target_id": "30987048",
       "prepared": {
@@ -189512,14 +189512,25 @@
       "last_plan": {
         "source_id": "29566674",
         "display_name": "Neapolitan Mystery (Atrocious Tales of Love and Death) SD CZ Dabing",
-        "planned_at": "2026-11-21T04:47:31.400298+00:00"
+        "planned_at": "2026-11-21T04:47:42.420817+00:00"
+      },
+      "claim": {
+        "worker_id": "b06dc3aa79b1450991ca90f165e72053-shard-0",
+        "claimed_at": "2026-11-21T04:47:43.518520+00:00",
+        "lease_expires_at": "2026-11-21T10:47:43.518520+00:00",
+        "run_id": "44848457493"
       }
     },
     "30298": {
       "attempts": []
     },
     "14961": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26988291",
+        "display_name": "Chiara 720p CZ Dabing",
+        "planned_at": "2026-11-21T04:47:42.670394+00:00"
+      }
     },
     "14650": {
       "attempts": []
@@ -234253,5 +234264,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:47:39.046061+00:00"
+  "updated_at": "2026-11-21T04:47:45.228849+00:00"
 }
