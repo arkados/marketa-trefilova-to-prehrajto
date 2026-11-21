@@ -192301,17 +192301,19 @@
       }
     },
     "30230": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713252",
+          "target_video_id": "31226853",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:15:51.770162+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713252",
         "display_name": "The Three Musketeers (1953) 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:10:24.112839+00:00"
-      },
-      "claim": {
-        "worker_id": "66deee208d2446e98d21dec9458d8290-shard-0",
-        "claimed_at": "2026-11-21T11:10:27.576440+00:00",
-        "lease_expires_at": "2026-11-21T17:10:27.576440+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31226853",
       "prepared": {
@@ -236551,5 +236553,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:15:49.108028+00:00"
+  "updated_at": "2026-11-21T11:15:51.770184+00:00"
 }
