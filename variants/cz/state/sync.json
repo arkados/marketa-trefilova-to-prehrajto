@@ -129627,6 +129627,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T02:05:50.431055+00:00",
         "relay_source_id": "13254742"
+      },
+      "claim": {
+        "worker_id": "38ced574850c422898d03e9bfc486af4-shard-0",
+        "claimed_at": "2026-11-21T11:39:34.367333+00:00",
+        "lease_expires_at": "2026-11-21T17:39:34.367333+00:00",
+        "run_id": "44889191327"
       }
     },
     "22300": {
@@ -192527,17 +192533,19 @@
       "attempts": []
     },
     "14993": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30069252",
+          "target_video_id": "31227328",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:39:34.629284+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30069252",
         "display_name": "Alma and Oskar (Alma und Oskar) 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:35:17.083464+00:00"
-      },
-      "claim": {
-        "worker_id": "7d38fa7f43ba4c2e9977394929c6909c-shard-0",
-        "claimed_at": "2026-11-21T11:35:18.656350+00:00",
-        "lease_expires_at": "2026-11-21T17:35:18.656350+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31227328",
       "prepared": {
@@ -236720,5 +236728,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:39:31.716327+00:00"
+  "updated_at": "2026-11-21T11:39:34.629300+00:00"
 }
