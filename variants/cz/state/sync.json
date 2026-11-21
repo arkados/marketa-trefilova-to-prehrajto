@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "3a22aa6f5c324ba3bb4daf050da67965-shard-0",
+        "claimed_at": "2026-11-21T03:30:11.887586+00:00",
+        "lease_expires_at": "2026-11-21T09:30:11.887586+00:00",
+        "run_id": "44848457493"
       }
     },
     "12374": {
@@ -157201,13 +157207,6 @@
           "source_id": "26857794",
           "target_video_id": "31062647",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:23:13.499313+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26857794",
-          "target_video_id": "31062647",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:59:55.893433+00:00"
         },
         {
@@ -157216,12 +157215,19 @@
           "target_video_id": "31062647",
           "permanent": false,
           "attempted_at": "2026-11-21T01:46:34.850720+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26857794",
+          "target_video_id": "31062647",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:30:17.198946+00:00"
         }
       ],
       "last_plan": {
         "source_id": "26857794",
         "display_name": "Ein Sommer in Andalusien SD CZ Dabing",
-        "planned_at": "2026-11-21T01:46:26.120325+00:00"
+        "planned_at": "2026-11-21T03:30:13.473000+00:00"
       },
       "previous_target_id": "31062647",
       "prepared": {
@@ -189059,11 +189065,22 @@
       "last_plan": {
         "source_id": "32131280",
         "display_name": "Fireman Sam: The Great Fire of Pontypandy SD CZ Dabing",
-        "planned_at": "2026-11-21T03:30:07.952360+00:00"
+        "planned_at": "2026-11-21T03:30:13.845752+00:00"
+      },
+      "claim": {
+        "worker_id": "7593ff2206ca4e8b95f8d543966f491c-shard-0",
+        "claimed_at": "2026-11-21T03:30:15.470469+00:00",
+        "lease_expires_at": "2026-11-21T09:30:15.470469+00:00",
+        "run_id": "44848457493"
       }
     },
     "21933": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29279452",
+        "display_name": "Weiße Wölfe (White Wolves) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T03:30:14.196763+00:00"
+      }
     },
     "11007": {
       "attempts": []
@@ -233869,5 +233886,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:30:08.836995+00:00"
+  "updated_at": "2026-11-21T03:30:17.198967+00:00"
 }
