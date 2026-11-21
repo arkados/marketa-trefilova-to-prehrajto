@@ -120701,13 +120701,6 @@
           "source_id": "26917489",
           "target_video_id": "30985015",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:41:38.279956+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26917489",
-          "target_video_id": "30985015",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:21:04.654472+00:00"
         },
         {
@@ -120716,6 +120709,13 @@
           "target_video_id": "30985015",
           "permanent": false,
           "attempted_at": "2026-11-21T15:59:38.371903+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26917489",
+          "target_video_id": "30985015",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:37:28.786777+00:00"
         }
       ],
       "last_plan": {
@@ -194484,17 +194484,23 @@
           "attempted_at": "2026-11-21T15:59:42.372797+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "30455016",
-        "display_name": "Fire (Ogon') 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:52:43.458481+00:00"
-      },
       "previous_target_id": "31231714",
-      "prepared": {
+      "upload": {
         "target_video_id": "31231714",
-        "size_bytes": 3634455378,
-        "prepared_at": "2026-11-21T15:52:55.891847+00:00",
-        "relay_source_id": "30455016"
+        "display_name": "Fire (Ogon') 1080p CZ Dabing",
+        "source_id": "30455016",
+        "source_url": "https://sdilej.cz/30455016/zivel-ohen-konstantin-chabenskij-ivan-jankovskij-stasja-miloslavskaja-2020-akcni-drama-bdrip.-1080p.-cz-dabing.mov",
+        "source_filename": "Živel-Oheň (Konstantin Chabenskij,Ivan Jankovskij,Stasja Miloslavskaja-2020 Akční-Drama-Bdrip.-1080p.) Cz dabing.mov",
+        "size_bytes": 3600000000,
+        "width": 1920,
+        "height": 804,
+        "audio_language": "cs",
+        "language_probability": 0.8955422639846802,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/fire-ogon-1080p-cz-dabing-mov/8ca39bca309614d4",
+        "uploaded_at": "2026-11-21T17:37:29.507397+00:00"
       }
     },
     "10904": {
@@ -195086,7 +195092,7 @@
       "last_plan": {
         "source_id": "20341604",
         "display_name": "Someone, Somewhere (Deux moi) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:37:22.927316+00:00"
+        "planned_at": "2026-11-21T17:37:27.177349+00:00"
       }
     },
     "3567": {
@@ -238735,5 +238741,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:37:23.245333+00:00"
+  "updated_at": "2026-11-21T17:37:29.507416+00:00"
 }
