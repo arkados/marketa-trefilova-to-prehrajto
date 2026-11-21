@@ -109212,13 +109212,6 @@
           "source_id": "31983035",
           "target_video_id": "30983620",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:57:59.957488+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31983035",
-          "target_video_id": "30983620",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:35:59.783716+00:00"
         },
         {
@@ -109227,6 +109220,13 @@
           "target_video_id": "30983620",
           "permanent": false,
           "attempted_at": "2026-11-21T16:12:25.302086+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31983035",
+          "target_video_id": "30983620",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:50:24.687614+00:00"
         }
       ],
       "last_plan": {
@@ -123834,7 +123834,7 @@
       "last_plan": {
         "source_id": "22838327",
         "display_name": "The Comancheros SD CZ Dabing",
-        "planned_at": "2026-11-21T16:12:24.497974+00:00"
+        "planned_at": "2026-11-21T17:50:22.900152+00:00"
       },
       "previous_target_id": "30985596",
       "prepared": {
@@ -123842,6 +123842,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T20:38:45.079478+00:00",
         "relay_source_id": "22838327"
+      },
+      "claim": {
+        "worker_id": "59c7dbf414864060b2d6a3de31826155-shard-0",
+        "claimed_at": "2026-11-21T17:50:23.924429+00:00",
+        "lease_expires_at": "2026-11-21T23:50:23.924429+00:00",
+        "run_id": "44930055910"
       }
     },
     "19160": {
@@ -195179,7 +195185,7 @@
       "last_plan": {
         "source_id": "31596221",
         "display_name": "National Street (Národní třída) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:50:20.132651+00:00"
+        "planned_at": "2026-11-21T17:50:23.280689+00:00"
       }
     },
     "11548": {
@@ -238819,5 +238825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:50:20.132670+00:00"
+  "updated_at": "2026-11-21T17:50:24.687635+00:00"
 }
