@@ -111420,13 +111420,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:37:29.184311+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:22:15.294093+00:00"
         },
         {
@@ -111435,6 +111428,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-21T03:05:25.321472+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:52:42.486061+00:00"
         }
       ],
       "last_plan": {
@@ -125641,7 +125641,7 @@
       "last_plan": {
         "source_id": "34824290",
         "display_name": "Borsalino 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:05:25.018797+00:00"
+        "planned_at": "2026-11-21T04:52:40.301824+00:00"
       },
       "previous_target_id": "30985867",
       "prepared": {
@@ -125649,6 +125649,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T22:16:18.489755+00:00",
         "relay_source_id": "34824290"
+      },
+      "claim": {
+        "worker_id": "8fb1988ff9a04940b3c3fea8598e0a5c-shard-0",
+        "claimed_at": "2026-11-21T04:52:41.623515+00:00",
+        "lease_expires_at": "2026-11-21T10:52:41.623515+00:00",
+        "run_id": "44848457493"
       }
     },
     "19244": {
@@ -189544,7 +189550,7 @@
       "last_plan": {
         "source_id": "26988291",
         "display_name": "Chiara 720p CZ Dabing",
-        "planned_at": "2026-11-21T04:52:36.850791+00:00"
+        "planned_at": "2026-11-21T04:52:40.678444+00:00"
       }
     },
     "14650": {
@@ -234279,5 +234285,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:52:37.153024+00:00"
+  "updated_at": "2026-11-21T04:52:42.486084+00:00"
 }
