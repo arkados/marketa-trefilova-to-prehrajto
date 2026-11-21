@@ -134736,13 +134736,6 @@
           "source_id": "34689799",
           "target_video_id": "30987492",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:07:02.841138+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34689799",
-          "target_video_id": "30987492",
-          "permanent": false,
           "attempted_at": "2026-11-21T17:44:49.381903+00:00"
         },
         {
@@ -134751,12 +134744,19 @@
           "target_video_id": "30987492",
           "permanent": false,
           "attempted_at": "2026-11-21T19:24:21.901552+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34689799",
+          "target_video_id": "30987492",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:56:41.086297+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34689799",
         "display_name": "Černá sobota 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:24:19.587471+00:00"
+        "planned_at": "2026-11-21T20:56:38.585469+00:00"
       },
       "previous_target_id": "30987492",
       "prepared": {
@@ -196768,11 +196768,22 @@
       "last_plan": {
         "source_id": "33191123",
         "display_name": "MR 73 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:56:33.118977+00:00"
+        "planned_at": "2026-11-21T20:56:38.982829+00:00"
+      },
+      "claim": {
+        "worker_id": "91e500f08ac24a9da4869516e74b25d1-shard-0",
+        "claimed_at": "2026-11-21T20:56:40.080302+00:00",
+        "lease_expires_at": "2026-11-22T02:56:40.080302+00:00",
+        "run_id": "44930055910"
       }
     },
     "19190": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35316014",
+        "display_name": "The Prison (Peurizeun) SD CZ Dabing",
+        "planned_at": "2026-11-21T20:56:39.227682+00:00"
+      }
     },
     "15552": {
       "attempts": []
@@ -240138,5 +240149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:56:36.167121+00:00"
+  "updated_at": "2026-11-21T20:56:41.086319+00:00"
 }
