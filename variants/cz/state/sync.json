@@ -112511,7 +112511,7 @@
       "last_plan": {
         "source_id": "12261609",
         "display_name": "The Tricky Game of Love (Hry lásky šálivé) SD CZ Dabing",
-        "planned_at": "2026-11-21T06:59:41.361313+00:00"
+        "planned_at": "2026-11-21T08:16:46.097409+00:00"
       },
       "previous_target_id": "30983900",
       "prepared": {
@@ -112519,6 +112519,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T15:01:27.595214+00:00",
         "relay_source_id": "12261609"
+      },
+      "claim": {
+        "worker_id": "1759ed8793c14378bf5ffa39805797db-shard-0",
+        "claimed_at": "2026-11-21T08:16:47.137547+00:00",
+        "lease_expires_at": "2026-11-21T14:16:47.137547+00:00",
+        "run_id": "44855214731"
       }
     },
     "30376": {
@@ -132690,13 +132696,6 @@
           "source_id": "34676372",
           "target_video_id": "30987143",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:53:53.871333+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676372",
-          "target_video_id": "30987143",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:38:38.227574+00:00"
         },
         {
@@ -132705,6 +132704,13 @@
           "target_video_id": "30987143",
           "permanent": false,
           "attempted_at": "2026-11-21T06:59:42.646701+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676372",
+          "target_video_id": "30987143",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:16:47.666521+00:00"
         }
       ],
       "last_plan": {
@@ -132718,12 +132724,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T03:46:31.761216+00:00",
         "relay_source_id": "34676372"
-      },
-      "claim": {
-        "worker_id": "c7eff06594394917be42c78dd1c61c18-shard-0",
-        "claimed_at": "2026-11-21T08:16:40.953997+00:00",
-        "lease_expires_at": "2026-11-21T14:16:40.953997+00:00",
-        "run_id": "44855214731"
       }
     },
     "35743": {
@@ -191195,7 +191195,13 @@
       "last_plan": {
         "source_id": "34660934",
         "display_name": "The Robber Hotzenplotz (Der Räuber Hotzenplotz) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:16:40.534714+00:00"
+        "planned_at": "2026-11-21T08:16:46.362112+00:00"
+      },
+      "claim": {
+        "worker_id": "3669848aa5a94c2198a9ea16a2569505-shard-0",
+        "claimed_at": "2026-11-21T08:16:46.989756+00:00",
+        "lease_expires_at": "2026-11-21T14:16:46.989756+00:00",
+        "run_id": "44855214731"
       }
     },
     "10727": {
@@ -191211,7 +191217,12 @@
       "attempts": []
     },
     "15523": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30849621",
+        "display_name": "Kid Snow 1080p CZ Dabing",
+        "planned_at": "2026-11-21T08:16:46.618408+00:00"
+      }
     },
     "35381": {
       "attempts": []
@@ -235615,5 +235626,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:16:43.648666+00:00"
+  "updated_at": "2026-11-21T08:16:47.666536+00:00"
 }
