@@ -142554,13 +142554,6 @@
           "source_id": "28985383",
           "target_video_id": "30988518",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:27:29.386731+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28985383",
-          "target_video_id": "30988518",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:59:54.536107+00:00"
         },
         {
@@ -142569,12 +142562,19 @@
           "target_video_id": "30988518",
           "permanent": false,
           "attempted_at": "2026-11-21T11:40:41.079443+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28985383",
+          "target_video_id": "30988518",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:20:33.536085+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28985383",
         "display_name": "The Master (1980) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:40:30.849952+00:00"
+        "planned_at": "2026-11-21T13:20:29.880361+00:00"
       },
       "previous_target_id": "30988518",
       "prepared": {
@@ -193218,11 +193218,22 @@
       "last_plan": {
         "source_id": "24642011",
         "display_name": "All for Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:20:22.033042+00:00"
+        "planned_at": "2026-11-21T13:20:30.296638+00:00"
+      },
+      "claim": {
+        "worker_id": "bd5544254db6401ab459b78735687f32-shard-0",
+        "claimed_at": "2026-11-21T13:20:31.514056+00:00",
+        "lease_expires_at": "2026-11-21T19:20:31.514056+00:00",
+        "run_id": "44889191327"
       }
     },
     "14652": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33943146",
+        "display_name": "Solo una vez 1080p CZ Dabing",
+        "planned_at": "2026-11-21T13:20:30.549766+00:00"
+      }
     },
     "10942": {
       "attempts": []
@@ -237278,5 +237289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:20:27.179631+00:00"
+  "updated_at": "2026-11-21T13:20:33.536105+00:00"
 }
