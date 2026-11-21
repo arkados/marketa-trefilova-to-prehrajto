@@ -194862,17 +194862,19 @@
       "attempts": []
     },
     "16334": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33265607",
+          "target_video_id": "31232912",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:20:46.793870+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33265607",
         "display_name": "37: The Shadow and the Prey (37 : L'Ombre et la Proie) 1080p CZ Dabing",
         "planned_at": "2026-11-21T17:14:16.688352+00:00"
-      },
-      "claim": {
-        "worker_id": "9af6cd7c6bb24d92b18c087bf1a4c372-shard-0",
-        "claimed_at": "2026-11-21T17:14:18.021215+00:00",
-        "lease_expires_at": "2026-11-21T23:14:18.021215+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31232912",
       "prepared": {
@@ -238602,5 +238604,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:20:39.011603+00:00"
+  "updated_at": "2026-11-21T17:20:46.793894+00:00"
 }
