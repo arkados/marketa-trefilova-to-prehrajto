@@ -117376,13 +117376,6 @@
           "source_id": "33672383",
           "target_video_id": "30984763",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:09:16.272805+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33672383",
-          "target_video_id": "30984763",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:47:19.574433+00:00"
         },
         {
@@ -117391,12 +117384,19 @@
           "target_video_id": "30984763",
           "permanent": false,
           "attempted_at": "2026-11-21T16:22:59.744111+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33672383",
+          "target_video_id": "30984763",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:04:57.656612+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33672383",
         "display_name": "Caught Stealing 4K CZ Dabing",
-        "planned_at": "2026-11-21T16:22:53.502354+00:00"
+        "planned_at": "2026-11-21T18:04:54.896909+00:00"
       },
       "previous_target_id": "30984763",
       "prepared": {
@@ -129393,13 +129393,6 @@
           "source_id": "20637372",
           "target_video_id": "30986757",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:09:10.863603+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20637372",
-          "target_video_id": "30986757",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:47:13.756555+00:00"
         },
         {
@@ -129408,6 +129401,13 @@
           "target_video_id": "30986757",
           "permanent": false,
           "attempted_at": "2026-11-21T16:22:55.135641+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20637372",
+          "target_video_id": "30986757",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:04:57.411987+00:00"
         }
       ],
       "last_plan": {
@@ -195308,7 +195308,13 @@
       "last_plan": {
         "source_id": "34695313",
         "display_name": "The Fearless Hyena (Fearless Hyena) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:04:51.567822+00:00"
+        "planned_at": "2026-11-21T18:04:55.254312+00:00"
+      },
+      "claim": {
+        "worker_id": "583ebf2de82342958a467ca3c1519175-shard-0",
+        "claimed_at": "2026-11-21T18:04:56.311329+00:00",
+        "lease_expires_at": "2026-11-22T00:04:56.311329+00:00",
+        "run_id": "44930055910"
       }
     },
     "30724": {
@@ -195324,7 +195330,12 @@
       "attempts": []
     },
     "17556": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27076574",
+        "display_name": "Winter Castle SD CZ Dabing",
+        "planned_at": "2026-11-21T18:04:55.476313+00:00"
+      }
     },
     "17153": {
       "attempts": []
@@ -238933,5 +238944,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:04:51.863872+00:00"
+  "updated_at": "2026-11-21T18:04:57.656642+00:00"
 }
