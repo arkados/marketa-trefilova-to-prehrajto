@@ -109212,13 +109212,6 @@
           "source_id": "31983035",
           "target_video_id": "30983620",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:30:27.092889+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31983035",
-          "target_video_id": "30983620",
-          "permanent": false,
           "attempted_at": "2026-11-21T00:06:50.241888+00:00"
         },
         {
@@ -109227,6 +109220,13 @@
           "target_video_id": "30983620",
           "permanent": false,
           "attempted_at": "2026-11-21T01:53:42.351884+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31983035",
+          "target_video_id": "30983620",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:37:42.836553+00:00"
         }
       ],
       "last_plan": {
@@ -123834,7 +123834,7 @@
       "last_plan": {
         "source_id": "22838327",
         "display_name": "The Comancheros SD CZ Dabing",
-        "planned_at": "2026-11-21T01:53:40.302870+00:00"
+        "planned_at": "2026-11-21T03:37:40.937862+00:00"
       },
       "previous_target_id": "30985596",
       "prepared": {
@@ -123842,6 +123842,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T20:38:45.079478+00:00",
         "relay_source_id": "22838327"
+      },
+      "claim": {
+        "worker_id": "7d77e235aa2247f3b2e3d5788da25896-shard-0",
+        "claimed_at": "2026-11-21T03:37:41.994521+00:00",
+        "lease_expires_at": "2026-11-21T09:37:41.994521+00:00",
+        "run_id": "44848457493"
       }
     },
     "19160": {
@@ -189109,7 +189115,7 @@
       "last_plan": {
         "source_id": "24744760",
         "display_name": "The Stalking Moon SD CZ Dabing",
-        "planned_at": "2026-11-21T03:37:37.404985+00:00"
+        "planned_at": "2026-11-21T03:37:41.314242+00:00"
       }
     },
     "3572": {
@@ -233913,5 +233919,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:37:37.721091+00:00"
+  "updated_at": "2026-11-21T03:37:42.836575+00:00"
 }
