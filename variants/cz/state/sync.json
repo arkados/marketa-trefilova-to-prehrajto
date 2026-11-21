@@ -119545,13 +119545,6 @@
           "source_id": "35279557",
           "target_video_id": "30984930",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:42:47.477008+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35279557",
-          "target_video_id": "30984930",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:03:41.623513+00:00"
         },
         {
@@ -119560,6 +119553,13 @@
           "target_video_id": "30984930",
           "permanent": false,
           "attempted_at": "2026-11-21T08:22:47.887882+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35279557",
+          "target_video_id": "30984930",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:51:18.081192+00:00"
         }
       ],
       "last_plan": {
@@ -132842,7 +132842,7 @@
       "last_plan": {
         "source_id": "17465562",
         "display_name": "Daily Fables (De Fabeltjeskrant: de Grote Dierenbos-spelen) 720p CZ Dabing",
-        "planned_at": "2026-11-21T08:22:46.381760+00:00"
+        "planned_at": "2026-11-21T09:51:16.222660+00:00"
       },
       "previous_target_id": "30987160",
       "prepared": {
@@ -132850,6 +132850,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T03:49:28.697671+00:00",
         "relay_source_id": "17465562"
+      },
+      "claim": {
+        "worker_id": "66fdf5f0f59342f5998ac14b4a5abf62-shard-0",
+        "claimed_at": "2026-11-21T09:51:17.550866+00:00",
+        "lease_expires_at": "2026-11-21T15:51:17.550866+00:00",
+        "run_id": "44889191327"
       }
     },
     "24245": {
@@ -191801,7 +191807,7 @@
       "last_plan": {
         "source_id": "26689207",
         "display_name": "Bereft 720p CZ Dabing",
-        "planned_at": "2026-11-21T09:51:13.290129+00:00"
+        "planned_at": "2026-11-21T09:51:16.704755+00:00"
       }
     },
     "33033": {
@@ -236116,5 +236122,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:51:13.290147+00:00"
+  "updated_at": "2026-11-21T09:51:18.081216+00:00"
 }
