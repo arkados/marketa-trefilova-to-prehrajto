@@ -136766,7 +136766,7 @@
       "last_plan": {
         "source_id": "30864308",
         "display_name": "Florián SD CZ Dabing",
-        "planned_at": "2026-11-21T03:51:48.381465+00:00"
+        "planned_at": "2026-11-21T05:36:53.372027+00:00"
       },
       "previous_target_id": "30987706",
       "prepared": {
@@ -136774,6 +136774,12 @@
         "size_bytes": 881300000,
         "prepared_at": "2026-11-11T05:44:40.450348+00:00",
         "relay_source_id": "30864308"
+      },
+      "claim": {
+        "worker_id": "6799d0054d1b4293a9d383e79716d15d-shard-0",
+        "claimed_at": "2026-11-21T05:36:53.984576+00:00",
+        "lease_expires_at": "2026-11-21T11:36:53.984576+00:00",
+        "run_id": "44855214731"
       }
     },
     "31989": {
@@ -189299,17 +189305,23 @@
           "attempted_at": "2026-11-21T03:51:50.984887+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "33775202",
-        "display_name": "The Umbrella Coup (Le Coup du parapluie) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:36:50.363839+00:00"
-      },
       "previous_target_id": "31219349",
-      "prepared": {
+      "upload": {
         "target_video_id": "31219349",
-        "size_bytes": 2277807938,
-        "prepared_at": "2026-11-21T03:46:49.511883+00:00",
-        "relay_source_id": "33775202"
+        "display_name": "The Umbrella Coup (Le Coup du parapluie) 1080p CZ Dabing",
+        "source_id": "33775202",
+        "source_url": "https://sdilej.cz/33775202/rana-destnikem-1980-1080p-cz.mp4",
+        "source_filename": "Rána deštníkem (1980) 1080p, cz.mp4",
+        "size_bytes": 2300000000,
+        "width": 1804,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9872617125511169,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-umbrella-coup-le-coup-du-parapluie-1080p-cz-dabing-mp4/e3825c2710c4f261",
+        "uploaded_at": "2026-11-21T05:37:03.333093+00:00"
       }
     },
     "14847": {
@@ -189911,7 +189923,7 @@
       "last_plan": {
         "source_id": "28709833",
         "display_name": "Cloak and Dagger 720p CZ Dabing",
-        "planned_at": "2026-11-21T05:36:50.596897+00:00"
+        "planned_at": "2026-11-21T05:36:53.609124+00:00"
       }
     },
     "28828": {
@@ -234553,5 +234565,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:36:50.596927+00:00"
+  "updated_at": "2026-11-21T05:37:03.333112+00:00"
 }
