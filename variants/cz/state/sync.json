@@ -113365,13 +113365,6 @@
           "source_id": "11544873",
           "target_video_id": "30984008",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:57:48.826458+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11544873",
-          "target_video_id": "30984008",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:36:04.868752+00:00"
         },
         {
@@ -113380,6 +113373,13 @@
           "target_video_id": "30984008",
           "permanent": false,
           "attempted_at": "2026-11-21T12:17:31.335754+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11544873",
+          "target_video_id": "30984008",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:00:06.477477+00:00"
         }
       ],
       "last_plan": {
@@ -113393,12 +113393,6 @@
         "size_bytes": 22300000000,
         "prepared_at": "2026-11-10T15:14:40.239809+00:00",
         "relay_source_id": "11544873"
-      },
-      "claim": {
-        "worker_id": "3ccfb9367eb845d189123a3077a6cf4f-shard-0",
-        "claimed_at": "2026-11-21T14:00:01.440791+00:00",
-        "lease_expires_at": "2026-11-21T20:00:01.440791+00:00",
-        "run_id": "44897571814"
       }
     },
     "3074": {
@@ -135984,7 +135978,7 @@
       "last_plan": {
         "source_id": "29184927",
         "display_name": "Pára nad hrncem SD CZ Dabing",
-        "planned_at": "2026-11-21T12:17:30.623626+00:00"
+        "planned_at": "2026-11-21T14:00:04.019182+00:00"
       },
       "previous_target_id": "30987609",
       "prepared": {
@@ -135992,6 +135986,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:24:35.805876+00:00",
         "relay_source_id": "29184927"
+      },
+      "claim": {
+        "worker_id": "cf1d30de44754c13be5e2a1bc9c2ef7b-shard-0",
+        "claimed_at": "2026-11-21T14:00:05.069618+00:00",
+        "lease_expires_at": "2026-11-21T20:00:05.069618+00:00",
+        "run_id": "44897571814"
       }
     },
     "20468": {
@@ -193548,7 +193548,7 @@
       "last_plan": {
         "source_id": "26896024",
         "display_name": "Just Something Nice (Einfach mal was Schönes) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:00:00.578065+00:00"
+        "planned_at": "2026-11-21T14:00:04.432289+00:00"
       }
     },
     "30324": {
@@ -237539,5 +237539,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:00:01.802076+00:00"
+  "updated_at": "2026-11-21T14:00:06.477494+00:00"
 }
