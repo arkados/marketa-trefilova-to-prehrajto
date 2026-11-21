@@ -120578,6 +120578,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T18:32:49.827321+00:00",
         "relay_source_id": "14572727"
+      },
+      "claim": {
+        "worker_id": "4176040a723e4bb3ac53d82d92ac36c4-shard-0",
+        "claimed_at": "2026-11-21T05:05:48.412721+00:00",
+        "lease_expires_at": "2026-11-21T11:05:48.412721+00:00",
+        "run_id": "44848457493"
       }
     },
     "23188": {
@@ -124990,13 +124996,6 @@
           "source_id": "14593132",
           "target_video_id": "30985771",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:53:20.508256+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14593132",
-          "target_video_id": "30985771",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:35:51.533981+00:00"
         },
         {
@@ -125005,6 +125004,13 @@
           "target_video_id": "30985771",
           "permanent": false,
           "attempted_at": "2026-11-21T03:20:44.561690+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14593132",
+          "target_video_id": "30985771",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:05:48.148481+00:00"
         }
       ],
       "last_plan": {
@@ -125018,12 +125024,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T21:47:01.509241+00:00",
         "relay_source_id": "14593132"
-      },
-      "claim": {
-        "worker_id": "38176805a143466083b77bb46d39e8dd-shard-0",
-        "claimed_at": "2026-11-21T05:05:41.828629+00:00",
-        "lease_expires_at": "2026-11-21T11:05:41.828629+00:00",
-        "run_id": "44848457493"
       }
     },
     "3019": {
@@ -152666,7 +152666,7 @@
       "last_plan": {
         "source_id": "22312690",
         "display_name": "Cinderella (Aschenputtel) (2011) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:21:00.703862+00:00"
+        "planned_at": "2026-11-21T05:05:48.692159+00:00"
       },
       "previous_target_id": "31035934",
       "prepared": {
@@ -189654,7 +189654,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:05:45.289411+00:00"
+        "planned_at": "2026-11-21T05:05:49.050070+00:00"
       }
     },
     "25887": {
@@ -234365,5 +234365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:05:45.289440+00:00"
+  "updated_at": "2026-11-21T05:05:49.050090+00:00"
 }
