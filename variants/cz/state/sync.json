@@ -187856,17 +187856,19 @@
       "attempts": []
     },
     "5059": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15114621",
+          "target_video_id": "31216139",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:26:19.395718+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15114621",
         "display_name": "Relativity (Mein Ende. Dein Anfang.) 1080p CZ Dabing",
         "planned_at": "2026-11-21T00:21:58.987083+00:00"
-      },
-      "claim": {
-        "worker_id": "a3bb020334064dd187478fa4008356e3-shard-0",
-        "claimed_at": "2026-11-21T00:22:00.115820+00:00",
-        "lease_expires_at": "2026-11-21T06:22:00.115820+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216139",
       "prepared": {
@@ -232881,5 +232883,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:26:16.904748+00:00"
+  "updated_at": "2026-11-21T00:26:19.395739+00:00"
 }
