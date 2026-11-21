@@ -108023,13 +108023,6 @@
           "source_id": "31561997",
           "target_video_id": "30983461",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:19:45.828815+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31561997",
-          "target_video_id": "30983461",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:59:36.406467+00:00"
         },
         {
@@ -108038,6 +108031,13 @@
           "target_video_id": "30983461",
           "permanent": false,
           "attempted_at": "2026-11-21T07:17:38.632821+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31561997",
+          "target_video_id": "30983461",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:36:46.703645+00:00"
         }
       ],
       "last_plan": {
@@ -119753,7 +119753,7 @@
       "last_plan": {
         "source_id": "25411027",
         "display_name": "Anonymous SD CZ Dabing",
-        "planned_at": "2026-11-21T07:17:37.095148+00:00"
+        "planned_at": "2026-11-21T08:36:45.257337+00:00"
       },
       "previous_target_id": "30984957",
       "prepared": {
@@ -119761,6 +119761,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T18:18:25.279371+00:00",
         "relay_source_id": "25411027"
+      },
+      "claim": {
+        "worker_id": "cbacfde758744c5084eb487833527e26-shard-0",
+        "claimed_at": "2026-11-21T08:36:45.941647+00:00",
+        "lease_expires_at": "2026-11-21T14:36:45.941647+00:00",
+        "run_id": "44855214731"
       }
     },
     "23690": {
@@ -191319,7 +191325,7 @@
       "last_plan": {
         "source_id": "24800715",
         "display_name": "Chasing Wonders 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:36:42.501637+00:00"
+        "planned_at": "2026-11-21T08:36:45.505570+00:00"
       }
     },
     "29221": {
@@ -235712,5 +235718,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:36:42.942456+00:00"
+  "updated_at": "2026-11-21T08:36:46.703665+00:00"
 }
