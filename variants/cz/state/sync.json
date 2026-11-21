@@ -134434,13 +134434,6 @@
           "source_id": "25777021",
           "target_video_id": "30987424",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:17:45.178302+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25777021",
-          "target_video_id": "30987424",
-          "permanent": false,
           "attempted_at": "2026-11-21T00:56:09.020693+00:00"
         },
         {
@@ -134449,6 +134442,13 @@
           "target_video_id": "30987424",
           "permanent": false,
           "attempted_at": "2026-11-21T02:45:26.184597+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25777021",
+          "target_video_id": "30987424",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:29:25.579248+00:00"
         }
       ],
       "last_plan": {
@@ -134462,12 +134462,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:37:43.304180+00:00",
         "relay_source_id": "25777021"
-      },
-      "claim": {
-        "worker_id": "24627d2dc3994fe3bd42fdd40e8e7ce0-shard-0",
-        "claimed_at": "2026-11-21T04:29:20.896986+00:00",
-        "lease_expires_at": "2026-11-21T10:29:20.896986+00:00",
-        "run_id": "44848457493"
       }
     },
     "16650": {
@@ -139404,7 +139398,7 @@
       "last_plan": {
         "source_id": "30626219",
         "display_name": "The Comedian's Princess (Komediantská princezna) SD CZ Dabing",
-        "planned_at": "2026-11-21T02:45:25.425870+00:00"
+        "planned_at": "2026-11-21T04:29:23.749923+00:00"
       },
       "previous_target_id": "30987942",
       "prepared": {
@@ -139412,6 +139406,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T06:54:53.590347+00:00",
         "relay_source_id": "30626219"
+      },
+      "claim": {
+        "worker_id": "24a5c602426741f2b7e2c02cb1610796-shard-0",
+        "claimed_at": "2026-11-21T04:29:24.896333+00:00",
+        "lease_expires_at": "2026-11-21T10:29:24.896333+00:00",
+        "run_id": "44848457493"
       }
     },
     "35483": {
@@ -189387,7 +189387,7 @@
       "last_plan": {
         "source_id": "28762248",
         "display_name": "Quincannon, Frontier Scout SD CZ Dabing",
-        "planned_at": "2026-11-21T04:29:20.248366+00:00"
+        "planned_at": "2026-11-21T04:29:24.160733+00:00"
       }
     },
     "23453": {
@@ -234146,5 +234146,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:29:21.259418+00:00"
+  "updated_at": "2026-11-21T04:29:25.579268+00:00"
 }
