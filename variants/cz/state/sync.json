@@ -111249,7 +111249,7 @@
       "last_plan": {
         "source_id": "34470295",
         "display_name": "Poslední muž (The Last Man) 720p CZ Dabing",
-        "planned_at": "2026-11-21T06:22:50.313725+00:00"
+        "planned_at": "2026-11-21T07:41:48.382220+00:00"
       },
       "previous_target_id": "30983785",
       "prepared": {
@@ -111257,6 +111257,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:47:26.328157+00:00",
         "relay_source_id": "34470295"
+      },
+      "claim": {
+        "worker_id": "f6d4c0af46bf4d659ce9f9b52bdd8e4f-shard-0",
+        "claimed_at": "2026-11-21T07:41:49.002059+00:00",
+        "lease_expires_at": "2026-11-21T13:41:49.002059+00:00",
+        "run_id": "44855214731"
       }
     },
     "12599": {
@@ -190851,17 +190857,19 @@
       "attempts": []
     },
     "14391": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17764523",
+          "target_video_id": "31222998",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:41:49.514724+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17764523",
         "display_name": "Outside the Law (Hors-la-loi) SD CZ Dabing",
         "planned_at": "2026-11-21T07:38:07.870816+00:00"
-      },
-      "claim": {
-        "worker_id": "27dd42be90bc4d019e24c12590c6efc0-shard-0",
-        "claimed_at": "2026-11-21T07:38:10.870832+00:00",
-        "lease_expires_at": "2026-11-21T13:38:10.870832+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31222998",
       "prepared": {
@@ -190900,7 +190908,7 @@
       "last_plan": {
         "source_id": "29912857",
         "display_name": "Le rapace (Birds of Prey) SD CZ Dabing",
-        "planned_at": "2026-11-21T07:41:43.246119+00:00"
+        "planned_at": "2026-11-21T07:41:48.618106+00:00"
       }
     },
     "6787": {
@@ -235368,5 +235376,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:41:44.925260+00:00"
+  "updated_at": "2026-11-21T07:41:49.514738+00:00"
 }
