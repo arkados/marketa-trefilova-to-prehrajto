@@ -119545,13 +119545,6 @@
           "source_id": "35279557",
           "target_video_id": "30984930",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:30:54.337881+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35279557",
-          "target_video_id": "30984930",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:47:56.432756+00:00"
         },
         {
@@ -119560,6 +119553,13 @@
           "target_video_id": "30984930",
           "permanent": false,
           "attempted_at": "2026-11-21T00:26:11.594818+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35279557",
+          "target_video_id": "30984930",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:10:16.163302+00:00"
         }
       ],
       "last_plan": {
@@ -132842,7 +132842,7 @@
       "last_plan": {
         "source_id": "17465562",
         "display_name": "Daily Fables (De Fabeltjeskrant: de Grote Dierenbos-spelen) 720p CZ Dabing",
-        "planned_at": "2026-11-21T00:26:13.866190+00:00"
+        "planned_at": "2026-11-21T02:10:14.384296+00:00"
       },
       "previous_target_id": "30987160",
       "prepared": {
@@ -132850,6 +132850,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T03:49:28.697671+00:00",
         "relay_source_id": "17465562"
+      },
+      "claim": {
+        "worker_id": "4070e5d9f37e402d92a1c5bc52429f7a-shard-0",
+        "claimed_at": "2026-11-21T02:10:15.434826+00:00",
+        "lease_expires_at": "2026-11-21T08:10:15.434826+00:00",
+        "run_id": "44848457493"
       }
     },
     "24245": {
@@ -188565,7 +188571,7 @@
       "last_plan": {
         "source_id": "10317072",
         "display_name": "Schneider vs. Bax SD CZ Dabing",
-        "planned_at": "2026-11-21T02:10:11.509810+00:00"
+        "planned_at": "2026-11-21T02:10:14.764223+00:00"
       }
     },
     "23288": {
@@ -233456,5 +233462,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:10:11.509829+00:00"
+  "updated_at": "2026-11-21T02:10:16.163323+00:00"
 }
