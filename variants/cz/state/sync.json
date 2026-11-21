@@ -188494,17 +188494,19 @@
       "attempts": []
     },
     "31761": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714279",
+          "target_video_id": "31217814",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:07:41.541839+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714279",
         "display_name": "The Zany Adventures of Robin Hood SD CZ Dabing",
         "planned_at": "2026-11-21T02:05:51.536570+00:00"
-      },
-      "claim": {
-        "worker_id": "242945107c8347c3b831d167ee14298d-shard-0",
-        "claimed_at": "2026-11-21T02:05:52.709247+00:00",
-        "lease_expires_at": "2026-11-21T08:05:52.709247+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217814",
       "prepared": {
@@ -233425,5 +233427,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:07:39.014390+00:00"
+  "updated_at": "2026-11-21T02:07:41.541864+00:00"
 }
