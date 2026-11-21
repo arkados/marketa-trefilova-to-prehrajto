@@ -11565,13 +11565,6 @@
           "source_id": "33537783",
           "target_video_id": "30747251",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:12:47.450038+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33537783",
-          "target_video_id": "30747251",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:42:57.522014+00:00"
         },
         {
@@ -11580,6 +11573,13 @@
           "target_video_id": "30747251",
           "permanent": false,
           "attempted_at": "2026-11-21T00:13:06.617032+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33537783",
+          "target_video_id": "30747251",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:43:30.775937+00:00"
         }
       ],
       "last_plan": {
@@ -11593,12 +11593,6 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-11-03T01:38:25.775623+00:00",
         "relay_source_id": "33537783"
-      },
-      "claim": {
-        "worker_id": "4ee9855b93dd49ea9a71102ba193cb24-shard-0",
-        "claimed_at": "2026-11-21T00:43:26.117586+00:00",
-        "lease_expires_at": "2026-11-21T06:43:26.117586+00:00",
-        "run_id": "44817573093"
       }
     },
     "1171": {
@@ -22107,6 +22101,12 @@
         "size_bytes": 15000000000,
         "prepared_at": "2026-11-10T14:25:35.887136+00:00",
         "relay_source_id": "6563156"
+      },
+      "claim": {
+        "worker_id": "bc9ce818e57b476291941c8aa8a62de0-shard-0",
+        "claimed_at": "2026-11-21T00:43:29.952184+00:00",
+        "lease_expires_at": "2026-11-21T06:43:29.952184+00:00",
+        "run_id": "44817573093"
       }
     },
     "2196": {
@@ -22432,7 +22432,7 @@
       "last_plan": {
         "source_id": "35468703",
         "display_name": "The Great Hack 1080p CZ titulky",
-        "planned_at": "2026-11-21T00:13:10.450772+00:00"
+        "planned_at": "2026-11-21T00:43:30.892957+00:00"
       },
       "previous_target_id": "30986211",
       "prepared": {
@@ -100854,5 +100854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:43:27.215231+00:00"
+  "updated_at": "2026-11-21T00:43:30.892971+00:00"
 }
