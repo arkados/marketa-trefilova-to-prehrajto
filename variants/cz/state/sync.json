@@ -119696,13 +119696,6 @@
           "source_id": "33745553",
           "target_video_id": "30984953",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:16:14.226598+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33745553",
-          "target_video_id": "30984953",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:35:21.046673+00:00"
         },
         {
@@ -119711,12 +119704,19 @@
           "target_video_id": "30984953",
           "permanent": false,
           "attempted_at": "2026-11-21T10:10:20.421666+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33745553",
+          "target_video_id": "30984953",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:50:53.795116+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33745553",
         "display_name": "Romper Stomper 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:10:15.381028+00:00"
+        "planned_at": "2026-11-21T11:50:50.502790+00:00"
       },
       "previous_target_id": "30984953",
       "prepared": {
@@ -192631,11 +192631,22 @@
       "last_plan": {
         "source_id": "12656509",
         "display_name": "Scooby-Doo! Pirates Ahoy! SD CZ Dabing",
-        "planned_at": "2026-11-21T11:50:44.694420+00:00"
+        "planned_at": "2026-11-21T11:50:50.894083+00:00"
+      },
+      "claim": {
+        "worker_id": "12083b11f3b54afcae60e13eabda1d4a-shard-0",
+        "claimed_at": "2026-11-21T11:50:52.143183+00:00",
+        "lease_expires_at": "2026-11-21T17:50:52.143183+00:00",
+        "run_id": "44889191327"
       }
     },
     "5717": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34981103",
+        "display_name": "Colette (2013) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T11:50:51.133233+00:00"
+      }
     },
     "36669": {
       "attempts": []
@@ -236784,5 +236795,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:50:47.951749+00:00"
+  "updated_at": "2026-11-21T11:50:53.795137+00:00"
 }
