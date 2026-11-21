@@ -111229,13 +111229,6 @@
           "source_id": "34470295",
           "target_video_id": "30983785",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:50:44.379781+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34470295",
-          "target_video_id": "30983785",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:22:54.081150+00:00"
         },
         {
@@ -111244,6 +111237,13 @@
           "target_video_id": "30983785",
           "permanent": false,
           "attempted_at": "2026-11-21T07:41:52.108567+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34470295",
+          "target_video_id": "30983785",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:02:38.336469+00:00"
         }
       ],
       "last_plan": {
@@ -111257,12 +111257,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:47:26.328157+00:00",
         "relay_source_id": "34470295"
-      },
-      "claim": {
-        "worker_id": "3e7ddefc03ab4e0b8db8c6cd67dc0fd8-shard-0",
-        "claimed_at": "2026-11-21T09:02:35.397153+00:00",
-        "lease_expires_at": "2026-11-21T15:02:35.397153+00:00",
-        "run_id": "44855214731"
       }
     },
     "12599": {
@@ -122761,7 +122755,7 @@
       "last_plan": {
         "source_id": "34194238",
         "display_name": "Infernal Affairs III 720p CZ Dabing",
-        "planned_at": "2026-11-21T07:41:51.929172+00:00"
+        "planned_at": "2026-11-21T09:02:37.976013+00:00"
       },
       "previous_target_id": "30985468",
       "prepared": {
@@ -191462,17 +191456,19 @@
       "attempts": []
     },
     "7218": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25185242",
+          "target_video_id": "31224204",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:02:38.769566+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25185242",
         "display_name": "Lovely Boy 720p CZ Dabing",
         "planned_at": "2026-11-21T08:56:35.013865+00:00"
-      },
-      "claim": {
-        "worker_id": "5c34ee3d964e467cbb1c76868a17f175-shard-0",
-        "claimed_at": "2026-11-21T08:56:38.840124+00:00",
-        "lease_expires_at": "2026-11-21T14:56:38.840124+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31224204",
       "prepared": {
@@ -191487,7 +191483,7 @@
       "last_plan": {
         "source_id": "21662551",
         "display_name": "Women Is Losers 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:02:34.916476+00:00"
+        "planned_at": "2026-11-21T09:02:38.584092+00:00"
       }
     },
     "16134": {
@@ -235847,5 +235843,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:02:35.582804+00:00"
+  "updated_at": "2026-11-21T09:02:38.769595+00:00"
 }
