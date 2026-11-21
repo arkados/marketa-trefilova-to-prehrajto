@@ -113172,13 +113172,6 @@
           "source_id": "28004597",
           "target_video_id": "30983992",
           "permanent": false,
-          "attempted_at": "2026-11-21T02:55:51.439736+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004597",
-          "target_video_id": "30983992",
-          "permanent": false,
           "attempted_at": "2026-11-21T04:39:43.069648+00:00"
         },
         {
@@ -113187,12 +113180,19 @@
           "target_video_id": "30983992",
           "permanent": false,
           "attempted_at": "2026-11-21T06:15:03.409002+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004597",
+          "target_video_id": "30983992",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:34:50.059452+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28004597",
         "display_name": "Spring Song (Jarní píseň) SD CZ Dabing",
-        "planned_at": "2026-11-21T06:14:54.311344+00:00"
+        "planned_at": "2026-11-21T07:34:47.625869+00:00"
       },
       "previous_target_id": "30983992",
       "prepared": {
@@ -190821,14 +190821,25 @@
       "last_plan": {
         "source_id": "34659558",
         "display_name": "Hounds (Les Meutes) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:34:42.317880+00:00"
+        "planned_at": "2026-11-21T07:34:47.865977+00:00"
+      },
+      "claim": {
+        "worker_id": "8085edc64a0a4f32908ee866aa78f9ce-shard-0",
+        "claimed_at": "2026-11-21T07:34:48.521387+00:00",
+        "lease_expires_at": "2026-11-21T13:34:48.521387+00:00",
+        "run_id": "44855214731"
       }
     },
     "30719": {
       "attempts": []
     },
     "14391": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "17764523",
+        "display_name": "Outside the Law (Hors-la-loi) SD CZ Dabing",
+        "planned_at": "2026-11-21T07:34:48.012102+00:00"
+      }
     },
     "16268": {
       "attempts": []
@@ -235304,5 +235315,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:34:43.672298+00:00"
+  "updated_at": "2026-11-21T07:34:50.059467+00:00"
 }
