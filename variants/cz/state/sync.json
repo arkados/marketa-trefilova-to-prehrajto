@@ -113677,13 +113677,6 @@
           "source_id": "11995636",
           "target_video_id": "30984056",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:03:20.922108+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11995636",
-          "target_video_id": "30984056",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:33:00.712879+00:00"
         },
         {
@@ -113692,6 +113685,13 @@
           "target_video_id": "30984056",
           "permanent": false,
           "attempted_at": "2026-11-21T07:53:29.085967+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11995636",
+          "target_video_id": "30984056",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:12:42.623040+00:00"
         }
       ],
       "last_plan": {
@@ -132242,7 +132242,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-21T07:53:25.251722+00:00"
+        "planned_at": "2026-11-21T09:12:40.904294+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132250,6 +132250,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "0a680884e70f4f74bd48474f72ff6029-shard-0",
+        "claimed_at": "2026-11-21T09:12:41.647432+00:00",
+        "lease_expires_at": "2026-11-21T15:12:41.647432+00:00",
+        "run_id": "44855214731"
       }
     },
     "27054": {
@@ -191594,7 +191600,7 @@
       "last_plan": {
         "source_id": "25780807",
         "display_name": "Vyšehrad: Fylm 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:12:38.043293+00:00"
+        "planned_at": "2026-11-21T09:12:41.157503+00:00"
       }
     },
     "21967": {
@@ -235939,5 +235945,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:12:38.265002+00:00"
+  "updated_at": "2026-11-21T09:12:42.623062+00:00"
 }
