@@ -194182,17 +194182,19 @@
       "attempts": []
     },
     "10746": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30090821",
+          "target_video_id": "31231418",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:43:05.862706+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30090821",
         "display_name": "The Battle of the River Plate 1080p CZ Dabing",
         "planned_at": "2026-11-21T15:34:12.354011+00:00"
-      },
-      "claim": {
-        "worker_id": "ba8f3b3393a544d1a002d874889d4b92-shard-0",
-        "claimed_at": "2026-11-21T15:34:15.478704+00:00",
-        "lease_expires_at": "2026-11-21T21:34:15.478704+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31231418",
       "prepared": {
@@ -238116,5 +238118,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:43:03.709320+00:00"
+  "updated_at": "2026-11-21T15:43:05.862725+00:00"
 }
