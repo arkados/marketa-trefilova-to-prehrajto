@@ -124799,13 +124799,6 @@
           "source_id": "27755200",
           "target_video_id": "30985757",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:40:22.503792+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27755200",
-          "target_video_id": "30985757",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:01:17.871120+00:00"
         },
         {
@@ -124814,6 +124807,13 @@
           "target_video_id": "30985757",
           "permanent": false,
           "attempted_at": "2026-11-21T10:40:12.464728+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27755200",
+          "target_video_id": "30985757",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:21:41.701825+00:00"
         }
       ],
       "last_plan": {
@@ -148638,7 +148638,7 @@
       "last_plan": {
         "source_id": "11948507",
         "display_name": "Ein Sommer in Südfrankreich SD CZ Dabing",
-        "planned_at": "2026-11-21T10:40:10.748656+00:00"
+        "planned_at": "2026-11-21T12:21:40.022937+00:00"
       },
       "previous_target_id": "31016877",
       "prepared": {
@@ -148646,6 +148646,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-13T17:33:00.329718+00:00",
         "relay_source_id": "11948507"
+      },
+      "claim": {
+        "worker_id": "0a14380bd8b8491395c093f8a8fb296e-shard-0",
+        "claimed_at": "2026-11-21T12:21:41.361836+00:00",
+        "lease_expires_at": "2026-11-21T18:21:41.361836+00:00",
+        "run_id": "44889191327"
       }
     },
     "3241": {
@@ -192845,7 +192851,7 @@
       "last_plan": {
         "source_id": "32345697",
         "display_name": "Adieu l'ami 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:21:36.609420+00:00"
+        "planned_at": "2026-11-21T12:21:40.486566+00:00"
       }
     },
     "21494": {
@@ -236968,5 +236974,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:21:36.974343+00:00"
+  "updated_at": "2026-11-21T12:21:41.701845+00:00"
 }
