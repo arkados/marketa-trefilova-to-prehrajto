@@ -139301,13 +139301,6 @@
           "source_id": "32433843",
           "target_video_id": "30987933",
           "permanent": false,
-          "attempted_at": "2026-11-20T16:18:56.528272+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32433843",
-          "target_video_id": "30987933",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:34:27.454742+00:00"
         },
         {
@@ -139316,6 +139309,13 @@
           "target_video_id": "30987933",
           "permanent": false,
           "attempted_at": "2026-11-20T23:15:28.018610+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32433843",
+          "target_video_id": "30987933",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:54:01.052467+00:00"
         }
       ],
       "last_plan": {
@@ -141246,7 +141246,7 @@
       "last_plan": {
         "source_id": "34756339",
         "display_name": "Sweet Sixteen (Sextánka) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T23:15:26.131937+00:00"
+        "planned_at": "2026-11-21T00:53:59.096485+00:00"
       },
       "previous_target_id": "30988204",
       "prepared": {
@@ -141254,6 +141254,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T07:49:40.256776+00:00",
         "relay_source_id": "34756339"
+      },
+      "claim": {
+        "worker_id": "4d5a150f4faa468192ce26c1cbee0b2b-shard-0",
+        "claimed_at": "2026-11-21T00:54:00.151080+00:00",
+        "lease_expires_at": "2026-11-21T06:54:00.151080+00:00",
+        "run_id": "44817573093"
       }
     },
     "15512": {
@@ -188059,7 +188065,7 @@
       "last_plan": {
         "source_id": "26062889",
         "display_name": "A Killer in Prague (Poslední výkřik) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:53:56.127178+00:00"
+        "planned_at": "2026-11-21T00:53:59.473190+00:00"
       }
     },
     "5328": {
@@ -233014,5 +233020,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:53:56.127199+00:00"
+  "updated_at": "2026-11-21T00:54:01.052498+00:00"
 }
