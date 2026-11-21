@@ -115520,13 +115520,6 @@
           "source_id": "32115488",
           "target_video_id": "30984591",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:47:56.284252+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32115488",
-          "target_video_id": "30984591",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:08:31.317667+00:00"
         },
         {
@@ -115535,6 +115528,13 @@
           "target_video_id": "30984591",
           "permanent": false,
           "attempted_at": "2026-11-21T10:48:41.727313+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32115488",
+          "target_video_id": "30984591",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:33:01.979451+00:00"
         }
       ],
       "last_plan": {
@@ -137933,7 +137933,7 @@
       "last_plan": {
         "source_id": "33554657",
         "display_name": "Old-Timers (Staříci) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:48:39.960124+00:00"
+        "planned_at": "2026-11-21T12:32:59.760998+00:00"
       },
       "previous_target_id": "30987819",
       "prepared": {
@@ -137941,6 +137941,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T06:14:06.914609+00:00",
         "relay_source_id": "33554657"
+      },
+      "claim": {
+        "worker_id": "5ba02ea58ea045f7b5f7d1da6470f364-shard-0",
+        "claimed_at": "2026-11-21T12:33:01.014028+00:00",
+        "lease_expires_at": "2026-11-21T18:33:01.014028+00:00",
+        "run_id": "44889191327"
       }
     },
     "29359": {
@@ -192943,7 +192949,7 @@
       "last_plan": {
         "source_id": "11755816",
         "display_name": "Salting the Battlefield 720p CZ Dabing",
-        "planned_at": "2026-11-21T12:32:56.452379+00:00"
+        "planned_at": "2026-11-21T12:33:00.203941+00:00"
       }
     },
     "15629": {
@@ -237051,5 +237057,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:32:56.838145+00:00"
+  "updated_at": "2026-11-21T12:33:01.979471+00:00"
 }
