@@ -197282,17 +197282,19 @@
       "attempts": []
     },
     "15936": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31712757",
+          "target_video_id": "31238830",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:32:37.510011+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31712757",
         "display_name": "Saturn Return (Segundo premio) 1080p CZ Dabing",
         "planned_at": "2026-11-21T23:24:49.573996+00:00"
-      },
-      "claim": {
-        "worker_id": "18047aed962a45678579f9a10a74c550-shard-0",
-        "claimed_at": "2026-11-21T23:24:52.673172+00:00",
-        "lease_expires_at": "2026-11-22T05:24:52.673172+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31238830",
       "prepared": {
@@ -240539,5 +240541,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:32:34.825062+00:00"
+  "updated_at": "2026-11-21T23:32:37.510033+00:00"
 }
