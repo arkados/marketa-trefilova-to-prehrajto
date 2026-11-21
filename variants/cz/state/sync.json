@@ -106445,13 +106445,6 @@
           "source_id": "30045237",
           "target_video_id": "30978930",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:54:34.042375+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30045237",
-          "target_video_id": "30978930",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:11:40.627938+00:00"
         },
         {
@@ -106460,6 +106453,13 @@
           "target_video_id": "30978930",
           "permanent": false,
           "attempted_at": "2026-11-21T09:40:23.602736+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30045237",
+          "target_video_id": "30978930",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:19:55.222111+00:00"
         }
       ],
       "last_plan": {
@@ -108003,7 +108003,7 @@
       "last_plan": {
         "source_id": "30011381",
         "display_name": "Heaven (Nebe) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:40:21.883560+00:00"
+        "planned_at": "2026-11-21T11:19:53.343380+00:00"
       },
       "previous_target_id": "30983260",
       "prepared": {
@@ -108011,6 +108011,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T13:56:33.935100+00:00",
         "relay_source_id": "30011381"
+      },
+      "claim": {
+        "worker_id": "20881c48166f418b98471d97152b2b6f-shard-0",
+        "claimed_at": "2026-11-21T11:19:54.899407+00:00",
+        "lease_expires_at": "2026-11-21T17:19:54.899407+00:00",
+        "run_id": "44889191327"
       }
     },
     "16942": {
@@ -192367,6 +192373,12 @@
         "source_id": "31506902",
         "display_name": "Elli and the Ghostly Ghost Train (Elli - Ungeheuer Geheim) 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:19:49.497595+00:00"
+      },
+      "claim": {
+        "worker_id": "6e40bd6f7d1b4eb0b1c47a0f8de1392b-shard-0",
+        "claimed_at": "2026-11-21T11:19:53.056554+00:00",
+        "lease_expires_at": "2026-11-21T17:19:53.056554+00:00",
+        "run_id": "44889191327"
       }
     },
     "26489": {
@@ -192374,7 +192386,7 @@
       "last_plan": {
         "source_id": "32612358",
         "display_name": "Bukarest Fleisch SD CZ Dabing",
-        "planned_at": "2026-11-21T11:19:49.737096+00:00"
+        "planned_at": "2026-11-21T11:19:53.809196+00:00"
       }
     },
     "15103": {
@@ -236584,5 +236596,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:19:50.064302+00:00"
+  "updated_at": "2026-11-21T11:19:55.222133+00:00"
 }
