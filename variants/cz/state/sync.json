@@ -118752,13 +118752,6 @@
           "source_id": "27866187",
           "target_video_id": "30984865",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:47:42.527720+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27866187",
-          "target_video_id": "30984865",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:08:13.328531+00:00"
         },
         {
@@ -118767,6 +118760,13 @@
           "target_video_id": "30984865",
           "permanent": false,
           "attempted_at": "2026-11-21T10:48:21.618474+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27866187",
+          "target_video_id": "30984865",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:32:42.362536+00:00"
         }
       ],
       "last_plan": {
@@ -181213,7 +181213,7 @@
       "last_plan": {
         "source_id": "30193982",
         "display_name": "The Other Boleyn Girl 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:48:19.417293+00:00"
+        "planned_at": "2026-11-21T12:32:39.981966+00:00"
       },
       "previous_target_id": "31190187",
       "prepared": {
@@ -181221,6 +181221,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-19T20:25:23.643854+00:00",
         "relay_source_id": "30193982"
+      },
+      "claim": {
+        "worker_id": "4b0bce1ecbd746c78f3898bbf34aae79-shard-0",
+        "claimed_at": "2026-11-21T12:32:41.270415+00:00",
+        "lease_expires_at": "2026-11-21T18:32:41.270415+00:00",
+        "run_id": "44889191327"
       }
     },
     "25431": {
@@ -192923,6 +192929,12 @@
         "source_id": "32718787",
         "display_name": "Marvelous Angelique (Merveilleuse Angélique) 4K CZ Dabing",
         "planned_at": "2026-11-21T12:32:36.247425+00:00"
+      },
+      "claim": {
+        "worker_id": "b9c2db73836b4d9f9886da6df7c0be86-shard-0",
+        "claimed_at": "2026-11-21T12:32:39.690928+00:00",
+        "lease_expires_at": "2026-11-21T18:32:39.690928+00:00",
+        "run_id": "44889191327"
       }
     },
     "16061": {
@@ -192930,7 +192942,7 @@
       "last_plan": {
         "source_id": "11755816",
         "display_name": "Salting the Battlefield 720p CZ Dabing",
-        "planned_at": "2026-11-21T12:32:36.798089+00:00"
+        "planned_at": "2026-11-21T12:32:40.378459+00:00"
       }
     },
     "15629": {
@@ -237038,5 +237050,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:32:36.798108+00:00"
+  "updated_at": "2026-11-21T12:32:42.362554+00:00"
 }
