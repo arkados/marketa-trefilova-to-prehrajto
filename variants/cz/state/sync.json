@@ -133448,7 +133448,7 @@
       "last_plan": {
         "source_id": "29078551",
         "display_name": "The Comedy with Mr Klika (Komedie s Klikou) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:30:35.405636+00:00"
+        "planned_at": "2026-11-21T14:11:02.402742+00:00"
       },
       "previous_target_id": "30987286",
       "prepared": {
@@ -133456,6 +133456,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T04:10:06.485517+00:00",
         "relay_source_id": "29078551"
+      },
+      "claim": {
+        "worker_id": "19986458d64c4e21ac431c0b47a987df-shard-0",
+        "claimed_at": "2026-11-21T14:11:03.587792+00:00",
+        "lease_expires_at": "2026-11-21T20:11:03.587792+00:00",
+        "run_id": "44897571814"
       }
     },
     "13137": {
@@ -193012,17 +193018,23 @@
           "attempted_at": "2026-11-21T12:30:39.879609+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "32345697",
-        "display_name": "Adieu l'ami 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:10:58.723544+00:00"
-      },
       "previous_target_id": "31228198",
-      "prepared": {
+      "upload": {
         "target_video_id": "31228198",
-        "size_bytes": 3958485052,
-        "prepared_at": "2026-11-21T12:23:09.164582+00:00",
-        "relay_source_id": "32345697"
+        "display_name": "Adieu l'ami 1080p CZ Dabing",
+        "source_id": "32345697",
+        "source_url": "https://sdilej.cz/32345697/sbohem-priteli-1968-cz-.mp4",
+        "source_filename": "Sbohem příteli (1968)(CZ).mp4",
+        "size_bytes": 4000000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9757786393165588,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/adieu-l-ami-1080p-cz-dabing-mp4/29bfd1e3ba58bd82",
+        "uploaded_at": "2026-11-21T14:11:04.068122+00:00"
       }
     },
     "21494": {
@@ -193600,7 +193612,7 @@
       "last_plan": {
         "source_id": "33956427",
         "display_name": "Anti-Squat 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:10:59.219022+00:00"
+        "planned_at": "2026-11-21T14:11:02.832568+00:00"
       }
     },
     "32921": {
@@ -237585,5 +237597,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:10:59.526761+00:00"
+  "updated_at": "2026-11-21T14:11:04.068140+00:00"
 }
