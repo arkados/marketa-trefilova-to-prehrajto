@@ -112337,13 +112337,6 @@
           "source_id": "34877929",
           "target_video_id": "30983846",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:34:04.808379+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877929",
-          "target_video_id": "30983846",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:56:07.164175+00:00"
         },
         {
@@ -112352,6 +112345,13 @@
           "target_video_id": "30983846",
           "permanent": false,
           "attempted_at": "2026-11-21T08:13:13.144477+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877929",
+          "target_video_id": "30983846",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:42:20.152842+00:00"
         }
       ],
       "last_plan": {
@@ -112365,12 +112365,6 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T14:59:01.798607+00:00",
         "relay_source_id": "34877929"
-      },
-      "claim": {
-        "worker_id": "4904fbf177c44091896b678622844e90-shard-0",
-        "claimed_at": "2026-11-21T09:42:16.505003+00:00",
-        "lease_expires_at": "2026-11-21T15:42:16.505003+00:00",
-        "run_id": "44889191327"
       }
     },
     "13198": {
@@ -123889,7 +123883,7 @@
       "last_plan": {
         "source_id": "16256834",
         "display_name": "The Assignment (1997) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:13:13.326411+00:00"
+        "planned_at": "2026-11-21T09:42:19.843986+00:00"
       },
       "previous_target_id": "30985618",
       "prepared": {
@@ -191771,14 +191765,19 @@
       "last_plan": {
         "source_id": "26223310",
         "display_name": "Konec básníků v Čechách (Konec básníků v Čechách...) 4K CZ Dabing",
-        "planned_at": "2026-11-21T09:42:13.669874+00:00"
+        "planned_at": "2026-11-21T09:42:20.532982+00:00"
       }
     },
     "17044": {
       "attempts": []
     },
     "30170": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26689207",
+        "display_name": "Bereft 720p CZ Dabing",
+        "planned_at": "2026-11-21T09:42:20.767102+00:00"
+      }
     },
     "33033": {
       "attempts": []
@@ -236092,5 +236091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:42:16.505033+00:00"
+  "updated_at": "2026-11-21T09:42:20.767118+00:00"
 }
