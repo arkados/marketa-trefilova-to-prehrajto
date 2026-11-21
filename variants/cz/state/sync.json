@@ -195814,17 +195814,19 @@
       }
     },
     "9790": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34083095",
+          "target_video_id": "31234365",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:52:33.749097+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34083095",
         "display_name": "Joint Custody (Chlap na střídačku) 1080p CZ Dabing",
         "planned_at": "2026-11-21T18:49:45.418050+00:00"
-      },
-      "claim": {
-        "worker_id": "1cf0d8adaba5498882b40cea5c5a09d2-shard-0",
-        "claimed_at": "2026-11-21T18:49:46.519921+00:00",
-        "lease_expires_at": "2026-11-22T00:49:46.519921+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234365",
       "prepared": {
@@ -239356,5 +239358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:52:31.767875+00:00"
+  "updated_at": "2026-11-21T18:52:33.749115+00:00"
 }
