@@ -110487,6 +110487,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T14:39:44.579016+00:00",
         "relay_source_id": "34252297"
+      },
+      "claim": {
+        "worker_id": "93fdc2cdec7447bb8bf0a352e9a278fc-shard-0",
+        "claimed_at": "2026-11-21T04:33:20.778521+00:00",
+        "lease_expires_at": "2026-11-21T10:33:20.778521+00:00",
+        "run_id": "44848457493"
       }
     },
     "21368": {
@@ -121530,13 +121536,6 @@
           "source_id": "28731473",
           "target_video_id": "30985064",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:21:26.217511+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28731473",
-          "target_video_id": "30985064",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:00:30.326989+00:00"
         },
         {
@@ -121545,6 +121544,13 @@
           "target_video_id": "30985064",
           "permanent": false,
           "attempted_at": "2026-11-21T02:49:32.412150+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28731473",
+          "target_video_id": "30985064",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:33:21.781168+00:00"
         }
       ],
       "last_plan": {
@@ -121558,12 +121564,6 @@
         "size_bytes": 20800000000,
         "prepared_at": "2026-11-10T18:50:48.316510+00:00",
         "relay_source_id": "28731473"
-      },
-      "claim": {
-        "worker_id": "47e6e51f4dac41acb8b9ba1ba6a21ba1-shard-0",
-        "claimed_at": "2026-11-21T04:33:16.856492+00:00",
-        "lease_expires_at": "2026-11-21T10:33:16.856492+00:00",
-        "run_id": "44848457493"
       }
     },
     "13240": {
@@ -141444,7 +141444,7 @@
       "last_plan": {
         "source_id": "35113199",
         "display_name": "Cuckoo in a Dark Forest (Kukačka v temném lese) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:49:35.117819+00:00"
+        "planned_at": "2026-11-21T04:33:21.068896+00:00"
       },
       "previous_target_id": "30988222",
       "prepared": {
@@ -189402,7 +189402,7 @@
       "last_plan": {
         "source_id": "28762248",
         "display_name": "Quincannon, Frontier Scout SD CZ Dabing",
-        "planned_at": "2026-11-21T04:33:17.858112+00:00"
+        "planned_at": "2026-11-21T04:33:21.428531+00:00"
       }
     },
     "23453": {
@@ -234161,5 +234161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:33:17.858134+00:00"
+  "updated_at": "2026-11-21T04:33:21.781193+00:00"
 }
