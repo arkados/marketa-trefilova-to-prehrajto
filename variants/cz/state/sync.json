@@ -109954,13 +109954,6 @@
           "source_id": "34979725",
           "target_video_id": "30983683",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:26:13.598716+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34979725",
-          "target_video_id": "30983683",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:58:13.775434+00:00"
         },
         {
@@ -109969,6 +109962,13 @@
           "target_video_id": "30983683",
           "permanent": false,
           "attempted_at": "2026-11-21T11:39:02.008611+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34979725",
+          "target_video_id": "30983683",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:18:49.847860+00:00"
         }
       ],
       "last_plan": {
@@ -109982,12 +109982,6 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-10T14:33:44.113276+00:00",
         "relay_source_id": "34979725"
-      },
-      "claim": {
-        "worker_id": "c967c8b66c644f4c89e339c303199f6e-shard-0",
-        "claimed_at": "2026-11-21T13:18:46.074727+00:00",
-        "lease_expires_at": "2026-11-21T19:18:46.074727+00:00",
-        "run_id": "44889191327"
       }
     },
     "13851": {
@@ -138970,7 +138964,7 @@
       "last_plan": {
         "source_id": "33806385",
         "display_name": "Focus, Please! (Zaostřit prosím!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:39:00.235588+00:00"
+        "planned_at": "2026-11-21T13:18:49.524574+00:00"
       },
       "previous_target_id": "30987901",
       "prepared": {
@@ -193197,11 +193191,16 @@
       "last_plan": {
         "source_id": "34356391",
         "display_name": "Promises (Les Promesses) 720p CZ Dabing",
-        "planned_at": "2026-11-21T13:18:43.399461+00:00"
+        "planned_at": "2026-11-21T13:18:50.248007+00:00"
       }
     },
     "17134": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "24642011",
+        "display_name": "All for Love 1080p CZ Dabing",
+        "planned_at": "2026-11-21T13:18:50.491043+00:00"
+      }
     },
     "14652": {
       "attempts": []
@@ -237260,5 +237259,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:18:46.074761+00:00"
+  "updated_at": "2026-11-21T13:18:50.491059+00:00"
 }
