@@ -123920,7 +123920,7 @@
       "last_plan": {
         "source_id": "27021419",
         "display_name": "Ray Donovan: The Movie 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:35:07.971748+00:00"
+        "planned_at": "2026-11-21T13:14:34.739967+00:00"
       },
       "previous_target_id": "30985619",
       "prepared": {
@@ -123928,6 +123928,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T20:46:51.208874+00:00",
         "relay_source_id": "27021419"
+      },
+      "claim": {
+        "worker_id": "06fc21bd272e4193910215c82d913bb5-shard-0",
+        "claimed_at": "2026-11-21T13:14:36.068565+00:00",
+        "lease_expires_at": "2026-11-21T19:14:36.068565+00:00",
+        "run_id": "44889191327"
       }
     },
     "2868": {
@@ -192646,6 +192652,13 @@
           "target_video_id": "31227265",
           "permanent": false,
           "attempted_at": "2026-11-21T11:35:09.855831+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33062672",
+          "target_video_id": "31227265",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:14:36.408912+00:00"
         }
       ],
       "last_plan": {
@@ -192656,7 +192669,7 @@
       "previous_target_id": "31227265",
       "prepared": {
         "target_video_id": "31227265",
-        "size_bytes": 3076167158,
+        "size_bytes": 3100000000,
         "prepared_at": "2026-11-21T11:31:23.175581+00:00",
         "relay_source_id": "33062672"
       }
@@ -193182,7 +193195,7 @@
       "last_plan": {
         "source_id": "34356391",
         "display_name": "Promises (Les Promesses) 720p CZ Dabing",
-        "planned_at": "2026-11-21T13:14:31.220768+00:00"
+        "planned_at": "2026-11-21T13:14:35.154753+00:00"
       }
     },
     "17134": {
@@ -237245,5 +237258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:14:31.571454+00:00"
+  "updated_at": "2026-11-21T13:14:36.408931+00:00"
 }
