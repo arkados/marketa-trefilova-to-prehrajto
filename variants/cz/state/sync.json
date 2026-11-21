@@ -123303,6 +123303,12 @@
         "size_bytes": 5300000000,
         "prepared_at": "2026-11-10T20:08:53.441923+00:00",
         "relay_source_id": "22752658"
+      },
+      "claim": {
+        "worker_id": "29dd3958fcd84cfeb875cee2889ffc0a-shard-0",
+        "claimed_at": "2026-11-21T20:56:04.059945+00:00",
+        "lease_expires_at": "2026-11-22T02:56:04.059945+00:00",
+        "run_id": "44930055910"
       }
     },
     "26020": {
@@ -196717,17 +196723,19 @@
       }
     },
     "5927": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14592254",
+          "target_video_id": "31236349",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:56:04.991282+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14592254",
         "display_name": "A Bump Along the Way SD CZ Dabing",
         "planned_at": "2026-11-21T20:53:54.261197+00:00"
-      },
-      "claim": {
-        "worker_id": "0fd70c89b20e44bcaf25c1dd72046660-shard-0",
-        "claimed_at": "2026-11-21T20:53:57.293454+00:00",
-        "lease_expires_at": "2026-11-22T02:53:57.293454+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31236349",
       "prepared": {
@@ -240118,5 +240126,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:56:01.713399+00:00"
+  "updated_at": "2026-11-21T20:56:04.991302+00:00"
 }
