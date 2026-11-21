@@ -133946,7 +133946,7 @@
       "last_plan": {
         "source_id": "34705552",
         "display_name": "Objev na Střapaté hůrce SD CZ Dabing",
-        "planned_at": "2026-11-21T06:52:37.707369+00:00"
+        "planned_at": "2026-11-21T08:09:55.355753+00:00"
       },
       "previous_target_id": "30987337",
       "prepared": {
@@ -133954,6 +133954,12 @@
         "size_bytes": 619600000,
         "prepared_at": "2026-11-11T04:19:38.094228+00:00",
         "relay_source_id": "34705552"
+      },
+      "claim": {
+        "worker_id": "1f7f8388698e4176b8b20f47be4d51f6-shard-0",
+        "claimed_at": "2026-11-21T08:09:56.081489+00:00",
+        "lease_expires_at": "2026-11-21T14:09:56.081489+00:00",
+        "run_id": "44855214731"
       }
     },
     "12708": {
@@ -190627,17 +190633,23 @@
           "attempted_at": "2026-11-21T06:52:35.770199+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "28825946",
-        "display_name": "Gold Run (Gulltransporten) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:09:52.632279+00:00"
-      },
       "previous_target_id": "31222078",
-      "prepared": {
+      "upload": {
         "target_video_id": "31222078",
-        "size_bytes": 2714651861,
-        "prepared_at": "2026-11-21T06:46:47.406028+00:00",
-        "relay_source_id": "28825946"
+        "display_name": "Gold Run (Gulltransporten) 1080p CZ Dabing",
+        "source_id": "28825946",
+        "source_url": "https://sdilej.cz/28825946/zlaty-transport-gulltransporten-1080p-web.dl-x264-ac3-5.1-no-ac3-cz-2022.mkv",
+        "source_filename": "Zlatý transport Gulltransporten 1080p WEB.DL x264 AC3 5.1 NO AC3 CZ 2022.mkv",
+        "size_bytes": 2700000000,
+        "width": 1920,
+        "height": 804,
+        "audio_language": "cs",
+        "language_probability": 0.9399051070213318,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/gold-run-gulltransporten-1080p-cz-dabing-mkv/4d7098be04696305",
+        "uploaded_at": "2026-11-21T08:09:56.397016+00:00"
       }
     },
     "14133": {
@@ -191139,7 +191151,7 @@
       "last_plan": {
         "source_id": "20141450",
         "display_name": "Abulele 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:09:52.878188+00:00"
+        "planned_at": "2026-11-21T08:09:55.595093+00:00"
       }
     },
     "14050": {
@@ -235568,5 +235580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:09:52.878208+00:00"
+  "updated_at": "2026-11-21T08:09:56.397035+00:00"
 }
