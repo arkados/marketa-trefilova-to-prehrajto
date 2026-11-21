@@ -111720,7 +111720,7 @@
       "last_plan": {
         "source_id": "35073576",
         "display_name": "Řeka čaruje 720p CZ Dabing",
-        "planned_at": "2026-11-20T23:49:01.622009+00:00"
+        "planned_at": "2026-11-21T01:31:06.896545+00:00"
       },
       "previous_target_id": "30983807",
       "prepared": {
@@ -111728,6 +111728,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T14:51:07.924459+00:00",
         "relay_source_id": "35073576"
+      },
+      "claim": {
+        "worker_id": "c92ac02348a0461e86d41661aef0c88c-shard-0",
+        "claimed_at": "2026-11-21T01:31:08.063452+00:00",
+        "lease_expires_at": "2026-11-21T07:31:08.063452+00:00",
+        "run_id": "44848457493"
       }
     },
     "12571": {
@@ -117182,6 +117188,12 @@
         "size_bytes": 6600000000,
         "prepared_at": "2026-11-10T17:30:54.981439+00:00",
         "relay_source_id": "33853425"
+      },
+      "claim": {
+        "worker_id": "49cc6bc371754f8ea52b65bbc82c8623-shard-0",
+        "claimed_at": "2026-11-21T01:31:06.142196+00:00",
+        "lease_expires_at": "2026-11-21T07:31:06.142196+00:00",
+        "run_id": "44848457493"
       }
     },
     "11798": {
@@ -188292,7 +188304,7 @@
       "last_plan": {
         "source_id": "30061077",
         "display_name": "Le Miracle des loups (Blood on His Sword) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:31:02.387426+00:00"
+        "planned_at": "2026-11-21T01:31:07.275192+00:00"
       }
     },
     "33578": {
@@ -233207,17 +233219,19 @@
       "attempts": []
     },
     "10794": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28021260",
+          "target_video_id": "31217174",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:31:08.821686+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28021260",
         "display_name": "Prezil Jsem Svou Smit (Přežil jsem svou smrt) SD CZ Dabing",
         "planned_at": "2026-11-21T01:28:52.311049+00:00"
-      },
-      "claim": {
-        "worker_id": "cbef656d5d71401d957ae7366387c2af-shard-0",
-        "claimed_at": "2026-11-21T01:28:55.761571+00:00",
-        "lease_expires_at": "2026-11-21T07:28:55.761571+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217174",
       "prepared": {
@@ -233229,5 +233243,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:31:02.387456+00:00"
+  "updated_at": "2026-11-21T01:31:08.821706+00:00"
 }
