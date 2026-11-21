@@ -120607,7 +120607,7 @@
       "last_plan": {
         "source_id": "34285214",
         "display_name": "Dead Again 4K CZ Dabing",
-        "planned_at": "2026-11-21T15:55:38.872115+00:00"
+        "planned_at": "2026-11-21T17:36:21.774128+00:00"
       },
       "previous_target_id": "30985011",
       "prepared": {
@@ -120615,6 +120615,12 @@
         "size_bytes": 4800000000,
         "prepared_at": "2026-11-10T18:33:07.534490+00:00",
         "relay_source_id": "34285214"
+      },
+      "claim": {
+        "worker_id": "bd5bffdfdec74d6caa6f2ef85c6cd76f-shard-0",
+        "claimed_at": "2026-11-21T17:36:22.978483+00:00",
+        "lease_expires_at": "2026-11-21T23:36:22.978483+00:00",
+        "run_id": "44930055910"
       }
     },
     "11883": {
@@ -125824,13 +125830,6 @@
           "source_id": "27529281",
           "target_video_id": "30985893",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:40:29.138438+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27529281",
-          "target_video_id": "30985893",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:19:57.313443+00:00"
         },
         {
@@ -125839,6 +125838,13 @@
           "target_video_id": "30985893",
           "permanent": false,
           "attempted_at": "2026-11-21T15:55:40.397548+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27529281",
+          "target_video_id": "30985893",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:36:24.180483+00:00"
         }
       ],
       "last_plan": {
@@ -195065,11 +195071,22 @@
       "last_plan": {
         "source_id": "30656521",
         "display_name": "The Deep (Djúpið) (2012) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:36:18.529093+00:00"
+        "planned_at": "2026-11-21T17:36:22.128727+00:00"
+      },
+      "claim": {
+        "worker_id": "5a4ef9d7f19e44b39973631d31c49401-shard-0",
+        "claimed_at": "2026-11-21T17:36:23.439111+00:00",
+        "lease_expires_at": "2026-11-21T23:36:23.439111+00:00",
+        "run_id": "44930055910"
       }
     },
     "3718": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "20341604",
+        "display_name": "Someone, Somewhere (Deux moi) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T17:36:22.394359+00:00"
+      }
     },
     "3567": {
       "attempts": []
@@ -238717,5 +238734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:36:18.810692+00:00"
+  "updated_at": "2026-11-21T17:36:24.180503+00:00"
 }
