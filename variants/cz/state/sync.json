@@ -139264,13 +139264,6 @@
           "source_id": "34715447",
           "target_video_id": "30987931",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:51:14.246271+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715447",
-          "target_video_id": "30987931",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:35:23.501604+00:00"
         },
         {
@@ -139279,6 +139272,13 @@
           "target_video_id": "30987931",
           "permanent": false,
           "attempted_at": "2026-11-21T20:13:00.176945+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715447",
+          "target_video_id": "30987931",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:21:54.301449+00:00"
         }
       ],
       "last_plan": {
@@ -174655,7 +174655,7 @@
       "last_plan": {
         "source_id": "34528013",
         "display_name": "Signál 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:12:59.401762+00:00"
+        "planned_at": "2026-11-21T23:21:52.580027+00:00"
       },
       "previous_target_id": "31154894",
       "prepared": {
@@ -174663,6 +174663,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-18T15:59:07.494402+00:00",
         "relay_source_id": "34528013"
+      },
+      "claim": {
+        "worker_id": "fdf88c5238d14750be1ca0b61067bc45-shard-0",
+        "claimed_at": "2026-11-21T23:21:53.769988+00:00",
+        "lease_expires_at": "2026-11-22T05:21:53.769988+00:00",
+        "run_id": "44959851294"
       }
     },
     "11369": {
@@ -197284,7 +197290,7 @@
       "last_plan": {
         "source_id": "31712757",
         "display_name": "Saturn Return (Segundo premio) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:21:49.598565+00:00"
+        "planned_at": "2026-11-21T23:21:52.985863+00:00"
       }
     },
     "22702": {
@@ -240519,5 +240525,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:21:49.598585+00:00"
+  "updated_at": "2026-11-21T23:21:54.301470+00:00"
 }
