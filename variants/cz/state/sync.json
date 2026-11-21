@@ -118641,13 +118641,6 @@
           "source_id": "25787561",
           "target_video_id": "30984861",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:26:53.274779+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25787561",
-          "target_video_id": "30984861",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:46:28.128602+00:00"
         },
         {
@@ -118656,6 +118649,13 @@
           "target_video_id": "30984861",
           "permanent": false,
           "attempted_at": "2026-11-21T09:06:39.660395+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25787561",
+          "target_video_id": "30984861",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:46:50.613958+00:00"
         }
       ],
       "last_plan": {
@@ -118698,7 +118698,7 @@
       "last_plan": {
         "source_id": "33647002",
         "display_name": "Frantic 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:06:41.817518+00:00"
+        "planned_at": "2026-11-21T10:46:48.924816+00:00"
       },
       "previous_target_id": "30984863",
       "prepared": {
@@ -118706,6 +118706,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:57:35.530517+00:00",
         "relay_source_id": "33647002"
+      },
+      "claim": {
+        "worker_id": "729aafc31a5f48a595132a7980337376-shard-0",
+        "claimed_at": "2026-11-21T10:46:50.269862+00:00",
+        "lease_expires_at": "2026-11-21T16:46:50.269862+00:00",
+        "run_id": "44889191327"
       }
     },
     "17739": {
@@ -192131,7 +192137,7 @@
       "last_plan": {
         "source_id": "24638915",
         "display_name": "Emergency Situation (Mimořádná událost) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:46:45.430789+00:00"
+        "planned_at": "2026-11-21T10:46:49.378186+00:00"
       }
     },
     "19988": {
@@ -236392,5 +236398,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:46:45.430806+00:00"
+  "updated_at": "2026-11-21T10:46:50.613983+00:00"
 }
