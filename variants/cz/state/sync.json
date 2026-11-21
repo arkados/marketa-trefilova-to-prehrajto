@@ -107669,13 +107669,6 @@
           "source_id": "34720969",
           "target_video_id": "30983144",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:29:53.066526+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34720969",
-          "target_video_id": "30983144",
-          "permanent": false,
           "attempted_at": "2026-11-20T17:09:53.729059+00:00"
         },
         {
@@ -107684,6 +107677,13 @@
           "target_video_id": "30983144",
           "permanent": false,
           "attempted_at": "2026-11-20T22:27:22.724158+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34720969",
+          "target_video_id": "30983144",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:04:02.154333+00:00"
         }
       ],
       "last_plan": {
@@ -107726,7 +107726,7 @@
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:27:22.007903+00:00"
+        "planned_at": "2026-11-21T00:04:00.172936+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -107734,6 +107734,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T13:53:28.759441+00:00",
         "relay_source_id": "11951859"
+      },
+      "claim": {
+        "worker_id": "f9c3129caa6249f78766eca038f13659-shard-0",
+        "claimed_at": "2026-11-21T00:04:01.233998+00:00",
+        "lease_expires_at": "2026-11-21T06:04:01.233998+00:00",
+        "run_id": "44817573093"
       }
     },
     "21503": {
@@ -187740,7 +187746,7 @@
       "last_plan": {
         "source_id": "33852925",
         "display_name": "Rob Peace 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:03:57.041231+00:00"
+        "planned_at": "2026-11-21T00:04:00.550255+00:00"
       }
     },
     "16831": {
@@ -232770,5 +232776,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:03:57.041251+00:00"
+  "updated_at": "2026-11-21T00:04:02.154353+00:00"
 }
