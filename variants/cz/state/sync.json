@@ -110573,13 +110573,6 @@
           "source_id": "35184124",
           "target_video_id": "30983741",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:09:35.930900+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35184124",
-          "target_video_id": "30983741",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:52:41.690816+00:00"
         },
         {
@@ -110588,6 +110581,13 @@
           "target_video_id": "30983741",
           "permanent": false,
           "attempted_at": "2026-11-21T20:27:03.704072+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35184124",
+          "target_video_id": "30983741",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:38:22.280254+00:00"
         }
       ],
       "last_plan": {
@@ -116698,7 +116698,7 @@
       "last_plan": {
         "source_id": "14845493",
         "display_name": "Mank 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:27:02.989824+00:00"
+        "planned_at": "2026-11-21T23:38:20.805950+00:00"
       },
       "previous_target_id": "30984699",
       "prepared": {
@@ -116706,6 +116706,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:20:31.441781+00:00",
         "relay_source_id": "14845493"
+      },
+      "claim": {
+        "worker_id": "377433c01b1d471d9e04dc70d22f8d5b-shard-0",
+        "claimed_at": "2026-11-21T23:38:21.933524+00:00",
+        "lease_expires_at": "2026-11-22T05:38:21.933524+00:00",
+        "run_id": "44959851294"
       }
     },
     "2816": {
@@ -197366,7 +197372,7 @@
       "last_plan": {
         "source_id": "29487283",
         "display_name": "Spirit of Ecstasy (La Vénus d'argent) 720p CZ Dabing",
-        "planned_at": "2026-11-21T23:38:16.584483+00:00"
+        "planned_at": "2026-11-21T23:38:21.195376+00:00"
       }
     },
     "26864": {
@@ -240586,5 +240592,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:38:16.903370+00:00"
+  "updated_at": "2026-11-21T23:38:22.280273+00:00"
 }
