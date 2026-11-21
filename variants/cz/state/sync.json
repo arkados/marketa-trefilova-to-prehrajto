@@ -21806,6 +21806,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-01T08:34:36.996573+00:00",
         "relay_source_id": "30201467"
+      },
+      "claim": {
+        "worker_id": "33bf5e6ca2fd436db3fd3701a34381ad-shard-0",
+        "claimed_at": "2026-11-21T10:09:19.488220+00:00",
+        "lease_expires_at": "2026-11-21T16:09:19.488220+00:00",
+        "run_id": "44889191327"
       }
     },
     "677": {
@@ -137197,7 +137203,7 @@
       "last_plan": {
         "source_id": "31005194",
         "display_name": "Mord 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:34:32.968481+00:00"
+        "planned_at": "2026-11-21T10:09:20.004098+00:00"
       },
       "previous_target_id": "30987751",
       "prepared": {
@@ -175575,13 +175581,6 @@
           "source_id": "33575963",
           "target_video_id": "31156295",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:57:16.426521+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33575963",
-          "target_video_id": "31156295",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:15:22.326484+00:00"
         },
         {
@@ -175590,6 +175589,13 @@
           "target_video_id": "31156295",
           "permanent": false,
           "attempted_at": "2026-11-21T08:34:30.552101+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33575963",
+          "target_video_id": "31156295",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:09:19.720894+00:00"
         }
       ],
       "last_plan": {
@@ -175603,12 +175609,6 @@
         "size_bytes": 7700000000,
         "prepared_at": "2026-11-18T17:22:49.918183+00:00",
         "relay_source_id": "33575963"
-      },
-      "claim": {
-        "worker_id": "1498e8e88f0e4508838e71761f066bcc-shard-0",
-        "claimed_at": "2026-11-21T10:09:15.932092+00:00",
-        "lease_expires_at": "2026-11-21T16:09:15.932092+00:00",
-        "run_id": "44889191327"
       }
     },
     "11797": {
@@ -191893,7 +191893,7 @@
       "last_plan": {
         "source_id": "35376399",
         "display_name": "A Battle of Wits (Battle of the Warriors) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:09:16.606325+00:00"
+        "planned_at": "2026-11-21T10:09:20.456067+00:00"
       }
     },
     "14597": {
@@ -236196,5 +236196,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:09:16.606342+00:00"
+  "updated_at": "2026-11-21T10:09:20.456087+00:00"
 }
