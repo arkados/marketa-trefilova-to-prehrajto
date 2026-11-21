@@ -109840,13 +109840,6 @@
           "source_id": "34712454",
           "target_video_id": "30983676",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:51:02.360181+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34712454",
-          "target_video_id": "30983676",
-          "permanent": false,
           "attempted_at": "2026-11-21T11:34:52.624259+00:00"
         },
         {
@@ -109855,6 +109848,13 @@
           "target_video_id": "30983676",
           "permanent": false,
           "attempted_at": "2026-11-21T13:14:13.585027+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34712454",
+          "target_video_id": "30983676",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:52:06.870714+00:00"
         }
       ],
       "last_plan": {
@@ -136843,7 +136843,7 @@
       "last_plan": {
         "source_id": "19686604",
         "display_name": "Volným pádem 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:14:12.781565+00:00"
+        "planned_at": "2026-11-21T14:52:05.077760+00:00"
       },
       "previous_target_id": "30987716",
       "prepared": {
@@ -136851,6 +136851,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
+      },
+      "claim": {
+        "worker_id": "b4252400cf4349dfaf4074a62ebaa960-shard-0",
+        "claimed_at": "2026-11-21T14:52:06.432602+00:00",
+        "lease_expires_at": "2026-11-21T20:52:06.432602+00:00",
+        "run_id": "44897571814"
       }
     },
     "31573": {
@@ -193811,7 +193817,7 @@
       "last_plan": {
         "source_id": "34689899",
         "display_name": "Sleepless Night (Nuit blanche) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:52:01.585521+00:00"
+        "planned_at": "2026-11-21T14:52:05.524871+00:00"
       }
     },
     "35176": {
@@ -237760,5 +237766,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:52:02.137513+00:00"
+  "updated_at": "2026-11-21T14:52:06.870728+00:00"
 }
