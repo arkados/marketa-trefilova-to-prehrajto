@@ -191365,17 +191365,19 @@
       "attempts": []
     },
     "10724": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21042088",
+          "target_video_id": "31223901",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:47:39.408447+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21042088",
         "display_name": "Garden of Evil 1080p CZ Dabing",
         "planned_at": "2026-11-21T08:40:48.896460+00:00"
-      },
-      "claim": {
-        "worker_id": "e262f65d2cdd4978bbf9135a139e4a9a-shard-0",
-        "claimed_at": "2026-11-21T08:40:49.628201+00:00",
-        "lease_expires_at": "2026-11-21T14:40:49.628201+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31223901",
       "prepared": {
@@ -235768,5 +235770,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:47:37.418972+00:00"
+  "updated_at": "2026-11-21T08:47:39.408481+00:00"
 }
