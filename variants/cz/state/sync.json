@@ -140530,6 +140530,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T07:30:20.189234+00:00",
         "relay_source_id": "34519530"
+      },
+      "claim": {
+        "worker_id": "c35115a491614333b327c92636e5515b-shard-0",
+        "claimed_at": "2026-11-21T18:04:48.618880+00:00",
+        "lease_expires_at": "2026-11-22T00:04:48.618880+00:00",
+        "run_id": "44930055910"
       }
     },
     "11092": {
@@ -194656,23 +194662,23 @@
           "attempted_at": "2026-11-21T16:22:43.408281+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "29450888",
-        "display_name": "Sisi & I (Sisi & Ich) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:04:39.826984+00:00"
-      },
       "previous_target_id": "31232119",
-      "prepared": {
+      "upload": {
         "target_video_id": "31232119",
-        "size_bytes": 3053032560,
-        "prepared_at": "2026-11-21T16:18:34.688858+00:00",
-        "relay_source_id": "29450888"
-      },
-      "claim": {
-        "worker_id": "da03af4c8c6e4b01b4ed7b6f1e41072e-shard-0",
-        "claimed_at": "2026-11-21T18:04:45.018869+00:00",
-        "lease_expires_at": "2026-11-22T00:04:45.018869+00:00",
-        "run_id": "44930055910"
+        "display_name": "Sisi & I (Sisi & Ich) 1080p CZ Dabing",
+        "source_id": "29450888",
+        "source_url": "https://sdilej.cz/29450888/sisi-a-ja-cz-de.mkv",
+        "source_filename": "Sisi a Já CZ+DE.mkv",
+        "size_bytes": 3100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9764297008514404,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/sisi-i-sisi-ich-1080p-cz-dabing-mkv/e79a653e8cf974e8",
+        "uploaded_at": "2026-11-21T18:04:49.214291+00:00"
       }
     },
     "20697": {
@@ -238933,5 +238939,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:04:45.716222+00:00"
+  "updated_at": "2026-11-21T18:04:49.214316+00:00"
 }
