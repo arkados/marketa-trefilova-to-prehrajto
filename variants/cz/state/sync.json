@@ -192035,17 +192035,19 @@
       }
     },
     "15136": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19045151",
+          "target_video_id": "31226093",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:33:46.983632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19045151",
         "display_name": "Mixtape 1080p CZ Dabing",
         "planned_at": "2026-11-21T10:30:27.111994+00:00"
-      },
-      "claim": {
-        "worker_id": "ab62fc8be28840df81ba01effafc5482-shard-0",
-        "claimed_at": "2026-11-21T10:30:30.592595+00:00",
-        "lease_expires_at": "2026-11-21T16:30:30.592595+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31226093",
       "prepared": {
@@ -236333,5 +236335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:33:44.458240+00:00"
+  "updated_at": "2026-11-21T10:33:46.983650+00:00"
 }
