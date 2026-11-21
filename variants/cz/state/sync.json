@@ -125870,13 +125870,6 @@
           "source_id": "33203545",
           "target_video_id": "30985900",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:01:33.010435+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33203545",
-          "target_video_id": "30985900",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:21:34.961218+00:00"
         },
         {
@@ -125885,6 +125878,13 @@
           "target_video_id": "30985900",
           "permanent": false,
           "attempted_at": "2026-11-20T23:58:23.080995+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33203545",
+          "target_video_id": "30985900",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:44:56.966991+00:00"
         }
       ],
       "last_plan": {
@@ -131433,7 +131433,7 @@
       "last_plan": {
         "source_id": "26779825",
         "display_name": "Cekání na dést (Waiting for the Rain) SD CZ Dabing",
-        "planned_at": "2026-11-20T23:58:22.383086+00:00"
+        "planned_at": "2026-11-21T01:44:55.255363+00:00"
       },
       "previous_target_id": "30986978",
       "prepared": {
@@ -131441,6 +131441,12 @@
         "size_bytes": 767500000,
         "prepared_at": "2026-11-11T03:05:41.700464+00:00",
         "relay_source_id": "26779825"
+      },
+      "claim": {
+        "worker_id": "41cb9238985f47a496e9d3637cb64ec8-shard-0",
+        "claimed_at": "2026-11-21T01:44:56.406894+00:00",
+        "lease_expires_at": "2026-11-21T07:44:56.406894+00:00",
+        "run_id": "44848457493"
       }
     },
     "24134": {
@@ -188351,6 +188357,12 @@
         "source_id": "34715229",
         "display_name": "Convict Cowboy SD CZ Dabing",
         "planned_at": "2026-11-21T01:44:51.398324+00:00"
+      },
+      "claim": {
+        "worker_id": "1c24a45f4b7b45b7b711616484a5de15-shard-0",
+        "claimed_at": "2026-11-21T01:44:54.987926+00:00",
+        "lease_expires_at": "2026-11-21T07:44:54.987926+00:00",
+        "run_id": "44848457493"
       }
     },
     "12361": {
@@ -188358,7 +188370,7 @@
       "last_plan": {
         "source_id": "34784826",
         "display_name": "Cosmos (1996) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:44:51.626225+00:00"
+        "planned_at": "2026-11-21T01:44:55.660238+00:00"
       }
     },
     "16041": {
@@ -233282,5 +233294,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:44:51.900597+00:00"
+  "updated_at": "2026-11-21T01:44:56.967012+00:00"
 }
