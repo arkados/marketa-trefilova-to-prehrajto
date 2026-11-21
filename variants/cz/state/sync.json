@@ -114633,7 +114633,7 @@
       "last_plan": {
         "source_id": "34941731",
         "display_name": "Ghostbusters (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:17:00.521325+00:00"
+        "planned_at": "2026-11-21T04:02:24.885793+00:00"
       },
       "previous_target_id": "30984154",
       "prepared": {
@@ -114641,6 +114641,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T15:34:35.718025+00:00",
         "relay_source_id": "34941731"
+      },
+      "claim": {
+        "worker_id": "8423fd770cd643c4821a7bf2e6401bda-shard-0",
+        "claimed_at": "2026-11-21T04:02:25.926139+00:00",
+        "lease_expires_at": "2026-11-21T10:02:25.926139+00:00",
+        "run_id": "44848457493"
       }
     },
     "3135": {
@@ -188733,17 +188739,23 @@
           "attempted_at": "2026-11-21T02:17:05.185472+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "10317072",
-        "display_name": "Schneider vs. Bax SD CZ Dabing",
-        "planned_at": "2026-11-21T04:02:20.785257+00:00"
-      },
       "previous_target_id": "31217929",
-      "prepared": {
+      "upload": {
         "target_video_id": "31217929",
-        "size_bytes": 1380630882,
-        "prepared_at": "2026-11-21T02:15:02.366012+00:00",
-        "relay_source_id": "10317072"
+        "display_name": "Schneider vs. Bax SD CZ Dabing",
+        "source_id": "10317072",
+        "source_url": "https://sdilej.cz/10317072/schneider-vs.-bax-cz-dabing-2015-.avi",
+        "source_filename": "Schneider vs. Bax [CZ dabing, 2015].avi",
+        "size_bytes": 1400000000,
+        "width": 720,
+        "height": 304,
+        "audio_language": "cs",
+        "language_probability": 0.949251115322113,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/schneider-vs-bax-sd-cz-dabing-avi/9efe9108b6f4c9e1",
+        "uploaded_at": "2026-11-21T04:02:26.223561+00:00"
       }
     },
     "23288": {
@@ -189243,7 +189255,7 @@
       "last_plan": {
         "source_id": "34713167",
         "display_name": "The Outside Man 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:02:21.164028+00:00"
+        "planned_at": "2026-11-21T04:02:25.263729+00:00"
       }
     },
     "11688": {
@@ -234023,5 +234035,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:02:21.486470+00:00"
+  "updated_at": "2026-11-21T04:02:26.223582+00:00"
 }
