@@ -190282,17 +190282,19 @@
       "attempts": []
     },
     "22519": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33725753",
+          "target_video_id": "31221805",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:30:24.268160+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33725753",
         "display_name": "Loulou 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:26:36.482069+00:00"
-      },
-      "claim": {
-        "worker_id": "53d806784714477ba1cc94da1544895e-shard-0",
-        "claimed_at": "2026-11-21T06:26:37.191230+00:00",
-        "lease_expires_at": "2026-11-21T12:26:37.191230+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221805",
       "prepared": {
@@ -234883,5 +234885,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:30:22.039105+00:00"
+  "updated_at": "2026-11-21T06:30:24.268179+00:00"
 }
