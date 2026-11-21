@@ -131902,13 +131902,6 @@
           "source_id": "30410983",
           "target_video_id": "30987029",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:28:42.048332+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30410983",
-          "target_video_id": "30987029",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:47:54.300040+00:00"
         },
         {
@@ -131917,6 +131910,13 @@
           "target_video_id": "30987029",
           "permanent": false,
           "attempted_at": "2026-11-21T10:25:44.794904+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30410983",
+          "target_video_id": "30987029",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:08:02.033506+00:00"
         }
       ],
       "last_plan": {
@@ -143205,7 +143205,7 @@
       "last_plan": {
         "source_id": "35286089",
         "display_name": "Únos 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:25:48.878427+00:00"
+        "planned_at": "2026-11-21T12:08:00.171228+00:00"
       },
       "previous_target_id": "30988597",
       "prepared": {
@@ -143213,6 +143213,12 @@
         "size_bytes": 5100000000,
         "prepared_at": "2026-11-11T08:53:06.797535+00:00",
         "relay_source_id": "35286089"
+      },
+      "claim": {
+        "worker_id": "085f6c04d42c4790b352c3dec152fbfb-shard-0",
+        "claimed_at": "2026-11-21T12:08:01.685198+00:00",
+        "lease_expires_at": "2026-11-21T18:08:01.685198+00:00",
+        "run_id": "44889191327"
       }
     },
     "25024": {
@@ -192745,7 +192751,7 @@
       "last_plan": {
         "source_id": "23744003",
         "display_name": "Drift Away (Albatros) 720p CZ Dabing",
-        "planned_at": "2026-11-21T12:07:56.957773+00:00"
+        "planned_at": "2026-11-21T12:08:00.633709+00:00"
       }
     },
     "13460": {
@@ -236877,5 +236883,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:07:57.266299+00:00"
+  "updated_at": "2026-11-21T12:08:02.033525+00:00"
 }
