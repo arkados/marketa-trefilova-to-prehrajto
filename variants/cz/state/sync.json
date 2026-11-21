@@ -143671,13 +143671,6 @@
           "source_id": "30818266",
           "target_video_id": "30988649",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:03:59.994637+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30818266",
-          "target_video_id": "30988649",
-          "permanent": false,
           "attempted_at": "2026-11-21T04:51:18.619619+00:00"
         },
         {
@@ -143686,12 +143679,19 @@
           "target_video_id": "30988649",
           "permanent": false,
           "attempted_at": "2026-11-21T06:23:23.679377+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30818266",
+          "target_video_id": "30988649",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:42:15.246456+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30818266",
         "display_name": "Operation Bororo (Akce Bororo) SD CZ Dabing",
-        "planned_at": "2026-11-21T06:23:19.573210+00:00"
+        "planned_at": "2026-11-21T07:42:13.045187+00:00"
       },
       "previous_target_id": "30988649",
       "prepared": {
@@ -190902,11 +190902,22 @@
       "last_plan": {
         "source_id": "29912857",
         "display_name": "Le rapace (Birds of Prey) SD CZ Dabing",
-        "planned_at": "2026-11-21T07:42:08.756233+00:00"
+        "planned_at": "2026-11-21T07:42:13.288278+00:00"
+      },
+      "claim": {
+        "worker_id": "7c1b3608857b40ef92a8a36b3101df4b-shard-0",
+        "claimed_at": "2026-11-21T07:42:13.946828+00:00",
+        "lease_expires_at": "2026-11-21T13:42:13.946828+00:00",
+        "run_id": "44855214731"
       }
     },
     "6787": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30733598",
+        "display_name": "Emma and the Death's Head (Ema a smrtihlav) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T07:42:13.439154+00:00"
+      }
     },
     "13867": {
       "attempts": []
@@ -235370,5 +235381,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:42:10.621628+00:00"
+  "updated_at": "2026-11-21T07:42:15.246471+00:00"
 }
