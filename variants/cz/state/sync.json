@@ -30040,6 +30040,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-02T09:31:48.716182+00:00",
         "relay_source_id": "34850732"
+      },
+      "claim": {
+        "worker_id": "c65ac048885e452593bacc17ab2979fe-shard-0",
+        "claimed_at": "2026-11-21T23:16:50.583736+00:00",
+        "lease_expires_at": "2026-11-22T05:16:50.583736+00:00",
+        "run_id": "44959851294"
       }
     },
     "888": {
@@ -56254,13 +56260,6 @@
           "source_id": "32042477",
           "target_video_id": "30784526",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:46:44.369199+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32042477",
-          "target_video_id": "30784526",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:27:19.642236+00:00"
         },
         {
@@ -56269,6 +56268,13 @@
           "target_video_id": "30784526",
           "permanent": false,
           "attempted_at": "2026-11-21T20:08:42.196886+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32042477",
+          "target_video_id": "30784526",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:16:51.567314+00:00"
         }
       ],
       "last_plan": {
@@ -56282,12 +56288,6 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-04T11:23:58.909175+00:00",
         "relay_source_id": "32042477"
-      },
-      "claim": {
-        "worker_id": "87a674b4b1b94dd7b9147c3710d85196-shard-0",
-        "claimed_at": "2026-11-21T23:16:46.861565+00:00",
-        "lease_expires_at": "2026-11-22T05:16:46.861565+00:00",
-        "run_id": "44959851294"
       }
     },
     "24818": {
@@ -116503,7 +116503,7 @@
       "last_plan": {
         "source_id": "34095385",
         "display_name": "Candyman (1992) 4K CZ Dabing",
-        "planned_at": "2026-11-21T20:08:45.286545+00:00"
+        "planned_at": "2026-11-21T23:16:50.862211+00:00"
       },
       "previous_target_id": "30984680",
       "prepared": {
@@ -197189,7 +197189,7 @@
       "last_plan": {
         "source_id": "34666724",
         "display_name": "Signs of Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:16:47.761095+00:00"
+        "planned_at": "2026-11-21T23:16:51.273771+00:00"
       }
     },
     "13743": {
@@ -240460,5 +240460,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:16:48.423822+00:00"
+  "updated_at": "2026-11-21T23:16:51.567339+00:00"
 }
