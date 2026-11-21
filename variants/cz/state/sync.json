@@ -110656,13 +110656,6 @@
           "source_id": "34716525",
           "target_video_id": "30983747",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:56:51.883233+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716525",
-          "target_video_id": "30983747",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:34:50.362971+00:00"
         },
         {
@@ -110671,6 +110664,13 @@
           "target_video_id": "30983747",
           "permanent": false,
           "attempted_at": "2026-11-21T12:16:24.490863+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716525",
+          "target_video_id": "30983747",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:59:01.866352+00:00"
         }
       ],
       "last_plan": {
@@ -131962,7 +131962,7 @@
       "last_plan": {
         "source_id": "29956320",
         "display_name": "Dalskabáty, hrisna ves (Dalskabáty, hříšná ves aneb Zapomenutý čert) SD CZ Dabing",
-        "planned_at": "2026-11-21T12:16:22.032902+00:00"
+        "planned_at": "2026-11-21T13:59:00.128178+00:00"
       },
       "previous_target_id": "30987039",
       "prepared": {
@@ -131970,6 +131970,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T03:28:04.677666+00:00",
         "relay_source_id": "29956320"
+      },
+      "claim": {
+        "worker_id": "65f5dea0a882428ca93b9fe6c1886737-shard-0",
+        "claimed_at": "2026-11-21T13:59:01.475152+00:00",
+        "lease_expires_at": "2026-11-21T19:59:01.475152+00:00",
+        "run_id": "44897571814"
       }
     },
     "32432": {
@@ -193516,6 +193522,12 @@
         "source_id": "25988258",
         "display_name": "Supernova (2020) 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:58:56.675566+00:00"
+      },
+      "claim": {
+        "worker_id": "07924d11a4434eacb27eeb39bea8d89b-shard-0",
+        "claimed_at": "2026-11-21T13:58:59.609052+00:00",
+        "lease_expires_at": "2026-11-21T19:58:59.609052+00:00",
+        "run_id": "44897571814"
       }
     },
     "4954": {
@@ -193523,7 +193535,7 @@
       "last_plan": {
         "source_id": "26896024",
         "display_name": "Just Something Nice (Einfach mal was Schönes) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:58:57.228310+00:00"
+        "planned_at": "2026-11-21T13:59:00.653163+00:00"
       }
     },
     "30324": {
@@ -237514,5 +237526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:58:57.228326+00:00"
+  "updated_at": "2026-11-21T13:59:01.866371+00:00"
 }
