@@ -189921,17 +189921,19 @@
       "attempts": []
     },
     "21268": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28709833",
+          "target_video_id": "31221133",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:44:16.006413+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28709833",
         "display_name": "Cloak and Dagger 720p CZ Dabing",
         "planned_at": "2026-11-21T05:40:11.208649+00:00"
-      },
-      "claim": {
-        "worker_id": "d14b0fdc8b67497c87b92604961bfa3c-shard-0",
-        "claimed_at": "2026-11-21T05:40:11.935316+00:00",
-        "lease_expires_at": "2026-11-21T11:40:11.935316+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221133",
       "prepared": {
@@ -234605,5 +234607,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:44:13.476695+00:00"
+  "updated_at": "2026-11-21T05:44:16.006439+00:00"
 }
