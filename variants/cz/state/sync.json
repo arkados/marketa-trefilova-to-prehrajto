@@ -188836,17 +188836,19 @@
       }
     },
     "17978": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29495093",
+          "target_video_id": "31218483",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:02:25.959696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29495093",
         "display_name": "Louis van Beethoven 1080p CZ Dabing",
         "planned_at": "2026-11-21T02:51:06.793582+00:00"
-      },
-      "claim": {
-        "worker_id": "a1e96f16acd64a5d9c82b41aa002e173-shard-0",
-        "claimed_at": "2026-11-21T02:51:11.078742+00:00",
-        "lease_expires_at": "2026-11-21T08:51:11.078742+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31218483",
       "prepared": {
@@ -233698,5 +233700,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:02:22.853520+00:00"
+  "updated_at": "2026-11-21T03:02:25.959717+00:00"
 }
