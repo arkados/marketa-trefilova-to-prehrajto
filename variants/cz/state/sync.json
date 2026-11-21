@@ -120689,6 +120689,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T18:33:39.898861+00:00",
         "relay_source_id": "21443860"
+      },
+      "claim": {
+        "worker_id": "502fe34fdd094b879624c2bd65bb2d48-shard-0",
+        "claimed_at": "2026-11-21T14:20:48.081811+00:00",
+        "lease_expires_at": "2026-11-21T20:20:48.081811+00:00",
+        "run_id": "44897571814"
       }
     },
     "3001": {
@@ -136349,13 +136355,6 @@
           "source_id": "31451425",
           "target_video_id": "30987653",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:15:35.188218+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31451425",
-          "target_video_id": "30987653",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:59:14.070400+00:00"
         },
         {
@@ -136364,6 +136363,13 @@
           "target_video_id": "30987653",
           "permanent": false,
           "attempted_at": "2026-11-21T12:41:17.057517+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31451425",
+          "target_video_id": "30987653",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:20:49.146289+00:00"
         }
       ],
       "last_plan": {
@@ -136377,12 +136383,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T05:35:25.057645+00:00",
         "relay_source_id": "31451425"
-      },
-      "claim": {
-        "worker_id": "7e4b122541884f8a9dbfbf63366d77e4-shard-0",
-        "claimed_at": "2026-11-21T14:20:44.708962+00:00",
-        "lease_expires_at": "2026-11-21T20:20:44.708962+00:00",
-        "run_id": "44897571814"
       }
     },
     "12620": {
@@ -168592,7 +168592,7 @@
       "last_plan": {
         "source_id": "31624003",
         "display_name": "River Rascals (Špunti na vodě) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:41:19.472516+00:00"
+        "planned_at": "2026-11-21T14:20:48.378285+00:00"
       },
       "previous_target_id": "31118670",
       "prepared": {
@@ -193658,7 +193658,7 @@
       "last_plan": {
         "source_id": "13591436",
         "display_name": "Storm. Letter of fire (Storm: Letters van vuur) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:20:45.388341+00:00"
+        "planned_at": "2026-11-21T14:20:48.767508+00:00"
       }
     },
     "36905": {
@@ -237631,5 +237631,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:20:45.388359+00:00"
+  "updated_at": "2026-11-21T14:20:49.146310+00:00"
 }
