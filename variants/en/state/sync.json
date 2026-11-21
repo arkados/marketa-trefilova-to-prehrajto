@@ -22776,13 +22776,6 @@
           "source_id": "23076909",
           "target_video_id": "30987932",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:29:38.209238+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23076909",
-          "target_video_id": "30987932",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:59:44.937156+00:00"
         },
         {
@@ -22791,6 +22784,13 @@
           "target_video_id": "30987932",
           "permanent": false,
           "attempted_at": "2026-11-21T23:05:21.273182+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23076909",
+          "target_video_id": "30987932",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:35:29.493637+00:00"
         }
       ],
       "last_plan": {
@@ -22804,12 +22804,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:52:35.333881+00:00",
         "relay_source_id": "23076909"
-      },
-      "claim": {
-        "worker_id": "49ac0b3ac54f40cc992496449b9b751f-shard-0",
-        "claimed_at": "2026-11-21T23:35:23.989206+00:00",
-        "lease_expires_at": "2026-11-22T05:35:23.989206+00:00",
-        "run_id": "44959851294"
       }
     },
     "20937": {
@@ -22950,7 +22944,7 @@
       "last_plan": {
         "source_id": "32361142",
         "display_name": "Baramulla (baramula) 1080p CZ titulky",
-        "planned_at": "2026-11-21T23:05:19.582421+00:00"
+        "planned_at": "2026-11-21T23:35:27.727627+00:00"
       },
       "previous_target_id": "30988608",
       "prepared": {
@@ -22958,6 +22952,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T08:54:59.112446+00:00",
         "relay_source_id": "32361142"
+      },
+      "claim": {
+        "worker_id": "03eb0020ba284e0194fda011bc4c997f-shard-0",
+        "claimed_at": "2026-11-21T23:35:28.160941+00:00",
+        "lease_expires_at": "2026-11-22T05:35:28.160941+00:00",
+        "run_id": "44959851294"
       }
     },
     "19714": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:35:24.345013+00:00"
+  "updated_at": "2026-11-21T23:35:29.493663+00:00"
 }
