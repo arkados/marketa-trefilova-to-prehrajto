@@ -8699,13 +8699,6 @@
           "source_id": "17777440",
           "target_video_id": "30631282",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:43:22.198780+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17777440",
-          "target_video_id": "30631282",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:24:22.064302+00:00"
         },
         {
@@ -8714,6 +8707,13 @@
           "target_video_id": "30631282",
           "permanent": false,
           "attempted_at": "2026-11-21T20:05:39.593251+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17777440",
+          "target_video_id": "30631282",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:13:35.759842+00:00"
         }
       ],
       "last_plan": {
@@ -115392,7 +115392,7 @@
       "last_plan": {
         "source_id": "28364650",
         "display_name": "Jay and Silent Bob Strike Back 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:05:38.123854+00:00"
+        "planned_at": "2026-11-21T23:13:34.120826+00:00"
       },
       "previous_target_id": "30984531",
       "prepared": {
@@ -115400,6 +115400,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:42:37.453998+00:00",
         "relay_source_id": "28364650"
+      },
+      "claim": {
+        "worker_id": "928463c2ba914b78833f9ae2e2a5c170-shard-0",
+        "claimed_at": "2026-11-21T23:13:35.168894+00:00",
+        "lease_expires_at": "2026-11-22T05:13:35.168894+00:00",
+        "run_id": "44959851294"
       }
     },
     "2818": {
@@ -197155,7 +197161,7 @@
       "last_plan": {
         "source_id": "34695566",
         "display_name": "Stage Fright (2017) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:13:31.088572+00:00"
+        "planned_at": "2026-11-21T23:13:34.510365+00:00"
       }
     },
     "22173": {
@@ -240432,5 +240438,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:13:31.383232+00:00"
+  "updated_at": "2026-11-21T23:13:35.759862+00:00"
 }
