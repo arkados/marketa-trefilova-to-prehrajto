@@ -195067,17 +195067,19 @@
       "attempts": []
     },
     "18266": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30656521",
+          "target_video_id": "31233272",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:38:50.325528+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30656521",
         "display_name": "The Deep (Djúpið) (2012) 1080p CZ Dabing",
         "planned_at": "2026-11-21T17:36:22.128727+00:00"
-      },
-      "claim": {
-        "worker_id": "5a4ef9d7f19e44b39973631d31c49401-shard-0",
-        "claimed_at": "2026-11-21T17:36:23.439111+00:00",
-        "lease_expires_at": "2026-11-21T23:36:23.439111+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31233272",
       "prepared": {
@@ -238759,5 +238761,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:38:48.215498+00:00"
+  "updated_at": "2026-11-21T17:38:50.325549+00:00"
 }
