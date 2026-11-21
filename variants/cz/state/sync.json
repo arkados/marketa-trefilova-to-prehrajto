@@ -107543,13 +107543,6 @@
           "source_id": "30260482",
           "target_video_id": "30983120",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:02:47.785362+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30260482",
-          "target_video_id": "30983120",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:44:20.386701+00:00"
         },
         {
@@ -107558,6 +107551,13 @@
           "target_video_id": "30983120",
           "permanent": false,
           "attempted_at": "2026-11-21T14:23:27.742163+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30260482",
+          "target_video_id": "30983120",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:02:15.946071+00:00"
         }
       ],
       "last_plan": {
@@ -107571,12 +107571,6 @@
         "size_bytes": 945400000,
         "prepared_at": "2026-11-10T13:52:31.043797+00:00",
         "relay_source_id": "30260482"
-      },
-      "claim": {
-        "worker_id": "c02463c646ff437797e0fbe1d93582be-shard-0",
-        "claimed_at": "2026-11-21T16:02:11.968584+00:00",
-        "lease_expires_at": "2026-11-21T22:02:11.968584+00:00",
-        "run_id": "44897571814"
       }
     },
     "27006": {
@@ -136415,7 +136409,7 @@
       "last_plan": {
         "source_id": "34676204",
         "display_name": "Séfe, vrat se! (Šéfe, vrať se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:23:26.128198+00:00"
+        "planned_at": "2026-11-21T16:02:15.460349+00:00"
       },
       "previous_target_id": "30987655",
       "prepared": {
@@ -194392,7 +194386,7 @@
       "last_plan": {
         "source_id": "33236496",
         "display_name": "Dodgeball (Vybíjená) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:02:09.090165+00:00"
+        "planned_at": "2026-11-21T16:02:16.334538+00:00"
       }
     },
     "19235": {
@@ -194417,7 +194411,12 @@
       "attempts": []
     },
     "15942": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34694390",
+        "display_name": "U.S. Palmese 1080p CZ Dabing",
+        "planned_at": "2026-11-21T16:02:16.571540+00:00"
+      }
     },
     "17922": {
       "attempts": []
@@ -238224,5 +238223,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:02:11.968615+00:00"
+  "updated_at": "2026-11-21T16:02:16.571555+00:00"
 }
