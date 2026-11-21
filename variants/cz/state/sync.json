@@ -128795,6 +128795,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-13T02:50:25.413912+00:00",
         "relay_source_id": "26097672"
+      },
+      "claim": {
+        "worker_id": "44775e4e7fd74669861cdf24f543374b-shard-0",
+        "claimed_at": "2026-11-21T13:52:16.494639+00:00",
+        "lease_expires_at": "2026-11-21T19:52:16.494639+00:00",
+        "run_id": "44897571814"
       }
     },
     "16144": {
@@ -193447,17 +193453,19 @@
       }
     },
     "4134": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34435183",
+          "target_video_id": "31229665",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:52:17.618311+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34435183",
         "display_name": "Scooby-Doo! and the Gourmet Ghost 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:48:50.696887+00:00"
-      },
-      "claim": {
-        "worker_id": "7b0e4612b97447ab9c81e059ad5ac78b-shard-0",
-        "claimed_at": "2026-11-21T13:48:52.229941+00:00",
-        "lease_expires_at": "2026-11-21T19:48:52.229941+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31229665",
       "prepared": {
@@ -237487,5 +237495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:52:13.944768+00:00"
+  "updated_at": "2026-11-21T13:52:17.618325+00:00"
 }
