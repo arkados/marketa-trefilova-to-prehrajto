@@ -129710,13 +129710,6 @@
           "source_id": "34993388",
           "target_video_id": "30986791",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:34:04.416649+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34993388",
-          "target_video_id": "30986791",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:08:41.603489+00:00"
         },
         {
@@ -129725,6 +129718,13 @@
           "target_video_id": "30986791",
           "permanent": false,
           "attempted_at": "2026-11-21T11:49:14.719488+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34993388",
+          "target_video_id": "30986791",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:35:07.378448+00:00"
         }
       ],
       "last_plan": {
@@ -135408,7 +135408,7 @@
       "last_plan": {
         "source_id": "34683641",
         "display_name": "To byla svatba, strýcku (To byla svatba, strýčku) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:49:15.461666+00:00"
+        "planned_at": "2026-11-21T13:35:05.813741+00:00"
       },
       "previous_target_id": "30987565",
       "prepared": {
@@ -135416,6 +135416,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T05:13:29.218880+00:00",
         "relay_source_id": "34683641"
+      },
+      "claim": {
+        "worker_id": "fa8db52b8835429282d3efafb63b3f4f-shard-0",
+        "claimed_at": "2026-11-21T13:35:07.046286+00:00",
+        "lease_expires_at": "2026-11-21T19:35:07.046286+00:00",
+        "run_id": "44897571814"
       }
     },
     "13265": {
@@ -193300,17 +193306,19 @@
       "attempts": []
     },
     "8751": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35045260",
+          "target_video_id": "31229351",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:35:07.665205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35045260",
         "display_name": "Dragons: Rescue Riders: Hunt for the Golden Dragon 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:32:45.790349+00:00"
-      },
-      "claim": {
-        "worker_id": "f971f3cd94ea45969b642d69f97cd4da-shard-0",
-        "claimed_at": "2026-11-21T13:32:46.883839+00:00",
-        "lease_expires_at": "2026-11-21T19:32:46.883839+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31229351",
       "prepared": {
@@ -193328,7 +193336,7 @@
       "last_plan": {
         "source_id": "34709114",
         "display_name": "My Boyfriend's Back: Wedding March 5 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:35:02.435844+00:00"
+        "planned_at": "2026-11-21T13:35:06.204404+00:00"
       }
     },
     "32500": {
@@ -237364,5 +237372,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:35:02.801081+00:00"
+  "updated_at": "2026-11-21T13:35:07.665227+00:00"
 }
