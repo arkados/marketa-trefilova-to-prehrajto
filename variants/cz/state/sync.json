@@ -113751,13 +113751,6 @@
           "source_id": "32044029",
           "target_video_id": "30984062",
           "permanent": false,
-          "attempted_at": "2026-11-21T15:54:34.235483+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32044029",
-          "target_video_id": "30984062",
-          "permanent": false,
           "attempted_at": "2026-11-21T17:35:20.778569+00:00"
         },
         {
@@ -113766,6 +113759,13 @@
           "target_video_id": "30984062",
           "permanent": false,
           "attempted_at": "2026-11-21T19:15:08.796470+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32044029",
+          "target_video_id": "30984062",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:47:57.399284+00:00"
         }
       ],
       "last_plan": {
@@ -132282,7 +132282,7 @@
       "last_plan": {
         "source_id": "35080468",
         "display_name": "Polská krev SD CZ Dabing",
-        "planned_at": "2026-11-21T19:15:07.378365+00:00"
+        "planned_at": "2026-11-21T20:47:55.956122+00:00"
       },
       "previous_target_id": "30987106",
       "prepared": {
@@ -132290,6 +132290,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:37:22.059612+00:00",
         "relay_source_id": "35080468"
+      },
+      "claim": {
+        "worker_id": "65b90547ab11474c9e8461ff1f582c88-shard-0",
+        "claimed_at": "2026-11-21T20:47:57.090630+00:00",
+        "lease_expires_at": "2026-11-22T02:47:57.090630+00:00",
+        "run_id": "44930055910"
       }
     },
     "13773": {
@@ -196663,7 +196669,7 @@
       "last_plan": {
         "source_id": "31765407",
         "display_name": "Momo SD CZ Dabing",
-        "planned_at": "2026-11-21T20:47:52.838304+00:00"
+        "planned_at": "2026-11-21T20:47:56.384915+00:00"
       }
     },
     "27685": {
@@ -240051,5 +240057,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:47:53.159308+00:00"
+  "updated_at": "2026-11-21T20:47:57.399309+00:00"
 }
