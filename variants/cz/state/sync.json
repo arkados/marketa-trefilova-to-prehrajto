@@ -131607,13 +131607,6 @@
           "source_id": "34662434",
           "target_video_id": "30987005",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:12:34.524574+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34662434",
-          "target_video_id": "30987005",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:50:39.785349+00:00"
         },
         {
@@ -131622,12 +131615,19 @@
           "target_video_id": "30987005",
           "permanent": false,
           "attempted_at": "2026-11-21T16:26:03.704963+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34662434",
+          "target_video_id": "30987005",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:09:19.598755+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34662434",
         "display_name": "Silent Barricade (Němá barikáda) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:25:58.249748+00:00"
+        "planned_at": "2026-11-21T18:09:16.883773+00:00"
       },
       "previous_target_id": "30987005",
       "prepared": {
@@ -195413,14 +195413,25 @@
       "last_plan": {
         "source_id": "33867156",
         "display_name": "Band Aid 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:09:09.976059+00:00"
+        "planned_at": "2026-11-21T18:09:17.277297+00:00"
+      },
+      "claim": {
+        "worker_id": "be9f94fb6b6c44dd80f2771c0abf3784-shard-0",
+        "claimed_at": "2026-11-21T18:09:18.352074+00:00",
+        "lease_expires_at": "2026-11-22T00:09:18.352074+00:00",
+        "run_id": "44930055910"
       }
     },
     "25995": {
       "attempts": []
     },
     "14488": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "20728357",
+        "display_name": "Barbie & the Diamond Castle (Barbie and the Diamond Castle) SD CZ Dabing",
+        "planned_at": "2026-11-21T18:09:17.526287+00:00"
+      }
     },
     "31284": {
       "attempts": []
@@ -239011,5 +239022,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:09:14.172651+00:00"
+  "updated_at": "2026-11-21T18:09:19.598776+00:00"
 }
