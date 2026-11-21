@@ -125870,13 +125870,6 @@
           "source_id": "33203545",
           "target_video_id": "30985900",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:28:44.569579+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33203545",
-          "target_video_id": "30985900",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:21:59.517316+00:00"
         },
         {
@@ -125885,6 +125878,13 @@
           "target_video_id": "30985900",
           "permanent": false,
           "attempted_at": "2026-11-21T06:41:28.511678+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33203545",
+          "target_video_id": "30985900",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:00:15.953691+00:00"
         }
       ],
       "last_plan": {
@@ -131433,7 +131433,7 @@
       "last_plan": {
         "source_id": "26779825",
         "display_name": "Cekání na dést (Waiting for the Rain) SD CZ Dabing",
-        "planned_at": "2026-11-21T06:41:30.779123+00:00"
+        "planned_at": "2026-11-21T08:00:14.403583+00:00"
       },
       "previous_target_id": "30986978",
       "prepared": {
@@ -131441,6 +131441,12 @@
         "size_bytes": 767500000,
         "prepared_at": "2026-11-11T03:05:41.700464+00:00",
         "relay_source_id": "26779825"
+      },
+      "claim": {
+        "worker_id": "dcebc1c18e594bbebdaf62e39c85dc19-shard-0",
+        "claimed_at": "2026-11-21T08:00:15.191978+00:00",
+        "lease_expires_at": "2026-11-21T14:00:15.191978+00:00",
+        "run_id": "44855214731"
       }
     },
     "24134": {
@@ -191094,7 +191100,7 @@
       "last_plan": {
         "source_id": "20379560",
         "display_name": "Díra u Hanušovic 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:00:11.489504+00:00"
+        "planned_at": "2026-11-21T08:00:14.667430+00:00"
       }
     },
     "37270": {
@@ -235529,5 +235535,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:00:11.723436+00:00"
+  "updated_at": "2026-11-21T08:00:15.953715+00:00"
 }
