@@ -188416,17 +188416,19 @@
       }
     },
     "16041": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32919325",
+          "target_video_id": "31217561",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:58:03.432258+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32919325",
         "display_name": "A Million Minutes (Eine Million Minuten) 1080p CZ Dabing",
         "planned_at": "2026-11-21T01:50:48.629133+00:00"
-      },
-      "claim": {
-        "worker_id": "174676a3394a49de9cb521f7b506c973-shard-0",
-        "claimed_at": "2026-11-21T01:50:52.621200+00:00",
-        "lease_expires_at": "2026-11-21T07:50:52.621200+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217561",
       "prepared": {
@@ -233359,5 +233361,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:57:56.754066+00:00"
+  "updated_at": "2026-11-21T01:58:03.432287+00:00"
 }
