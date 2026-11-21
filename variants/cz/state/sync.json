@@ -107771,6 +107771,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T13:54:10.599756+00:00",
         "relay_source_id": "34913823"
+      },
+      "claim": {
+        "worker_id": "af729f41de9d4b69b577009a6fa35e86-shard-0",
+        "claimed_at": "2026-11-21T09:37:49.737813+00:00",
+        "lease_expires_at": "2026-11-21T15:37:49.737813+00:00",
+        "run_id": "44889191327"
       }
     },
     "2722": {
@@ -107837,7 +107843,7 @@
       "last_plan": {
         "source_id": "29142066",
         "display_name": "Craig Before the Creek 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:09:31.019258+00:00"
+        "planned_at": "2026-11-21T09:37:50.403915+00:00"
       },
       "previous_target_id": "30983174",
       "prepared": {
@@ -123426,13 +123432,6 @@
           "source_id": "12249060",
           "target_video_id": "30985547",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:29:47.759469+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12249060",
-          "target_video_id": "30985547",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:52:10.682898+00:00"
         },
         {
@@ -123441,6 +123440,13 @@
           "target_video_id": "30985547",
           "permanent": false,
           "attempted_at": "2026-11-21T08:09:28.967525+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12249060",
+          "target_video_id": "30985547",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:37:48.753244+00:00"
         }
       ],
       "last_plan": {
@@ -123454,12 +123460,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T20:14:04.406126+00:00",
         "relay_source_id": "12249060"
-      },
-      "claim": {
-        "worker_id": "0db735465b074cf9b28b06960a5a34fe-shard-0",
-        "claimed_at": "2026-11-21T09:37:45.381154+00:00",
-        "lease_expires_at": "2026-11-21T15:37:45.381154+00:00",
-        "run_id": "44889191327"
       }
     },
     "12678": {
@@ -191742,7 +191742,7 @@
       "last_plan": {
         "source_id": "22392644",
         "display_name": "Love In Bloom 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:37:46.062031+00:00"
+        "planned_at": "2026-11-21T09:37:50.796180+00:00"
       }
     },
     "12519": {
@@ -236066,5 +236066,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:37:46.062052+00:00"
+  "updated_at": "2026-11-21T09:37:50.796198+00:00"
 }
