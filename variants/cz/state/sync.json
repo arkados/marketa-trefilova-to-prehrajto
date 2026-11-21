@@ -121767,13 +121767,6 @@
           "source_id": "34874346",
           "target_video_id": "30985387",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:53:47.826327+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34874346",
-          "target_video_id": "30985387",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:36:33.563837+00:00"
         },
         {
@@ -121782,6 +121775,13 @@
           "target_video_id": "30985387",
           "permanent": false,
           "attempted_at": "2026-11-21T03:21:39.190268+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34874346",
+          "target_video_id": "30985387",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:06:14.321837+00:00"
         }
       ],
       "last_plan": {
@@ -121795,12 +121795,6 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T19:01:52.904730+00:00",
         "relay_source_id": "34874346"
-      },
-      "claim": {
-        "worker_id": "b0e6ea3400b347ecb13999ed343a9f07-shard-0",
-        "claimed_at": "2026-11-21T05:06:08.779045+00:00",
-        "lease_expires_at": "2026-11-21T11:06:08.779045+00:00",
-        "run_id": "44848457493"
       }
     },
     "20991": {
@@ -181182,7 +181176,7 @@
       "last_plan": {
         "source_id": "31366589",
         "display_name": "Hot Shots! 4K CZ Dabing",
-        "planned_at": "2026-11-21T03:20:13.734823+00:00"
+        "planned_at": "2026-11-21T05:06:13.634514+00:00"
       },
       "previous_target_id": "31190166",
       "prepared": {
@@ -189119,17 +189113,23 @@
           "attempted_at": "2026-11-21T03:21:44.236474+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34651944",
-        "display_name": "Misha and the Wolves 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:06:09.059339+00:00"
-      },
       "previous_target_id": "31218907",
-      "prepared": {
+      "upload": {
         "target_video_id": "31218907",
-        "size_bytes": 1992493226,
-        "prepared_at": "2026-11-21T03:16:57.944539+00:00",
-        "relay_source_id": "34651944"
+        "display_name": "Misha and the Wolves 1080p CZ Dabing",
+        "source_id": "34651944",
+        "source_url": "https://sdilej.cz/34651944/misha-a-jeji-vlci-2021-cz-dabing.mp4",
+        "source_filename": "Misha a její vlci (2021) CZ Dabing.mp4",
+        "size_bytes": 2000000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9504589438438416,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/misha-and-the-wolves-1080p-cz-dabing-mp4/a72e83b4909e1d5d",
+        "uploaded_at": "2026-11-21T05:06:14.877061+00:00"
       }
     },
     "36830": {
@@ -189654,7 +189654,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:06:09.416324+00:00"
+        "planned_at": "2026-11-21T05:06:13.990877+00:00"
       }
     },
     "25887": {
@@ -234365,5 +234365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:06:09.416345+00:00"
+  "updated_at": "2026-11-21T05:06:14.877082+00:00"
 }
