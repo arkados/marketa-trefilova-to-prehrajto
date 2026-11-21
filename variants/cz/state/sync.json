@@ -118197,13 +118197,6 @@
           "source_id": "30138435",
           "target_video_id": "30984838",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:59:16.817373+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30138435",
-          "target_video_id": "30984838",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:41:53.995557+00:00"
         },
         {
@@ -118212,6 +118205,13 @@
           "target_video_id": "30984838",
           "permanent": false,
           "attempted_at": "2026-11-21T15:15:45.077752+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30138435",
+          "target_video_id": "30984838",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:51:26.750078+00:00"
         }
       ],
       "last_plan": {
@@ -189481,7 +189481,7 @@
       "last_plan": {
         "source_id": "6058336",
         "display_name": "Hansel and Gretel 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:15:40.291655+00:00"
+        "planned_at": "2026-11-21T16:51:25.171297+00:00"
       },
       "previous_target_id": "31219730",
       "prepared": {
@@ -189489,6 +189489,12 @@
         "size_bytes": 7600000000,
         "prepared_at": "2026-11-21T04:11:09.285795+00:00",
         "relay_source_id": "6058336"
+      },
+      "claim": {
+        "worker_id": "ef4250b3d1f0473fa0a828de4c4fa544-shard-0",
+        "claimed_at": "2026-11-21T16:51:26.421336+00:00",
+        "lease_expires_at": "2026-11-21T22:51:26.421336+00:00",
+        "run_id": "44897571814"
       }
     },
     "4567": {
@@ -194707,7 +194713,7 @@
       "last_plan": {
         "source_id": "31716633",
         "display_name": "L'avare 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:51:20.392679+00:00"
+        "planned_at": "2026-11-21T16:51:25.619220+00:00"
       }
     },
     "28054": {
@@ -238464,5 +238470,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:51:21.027499+00:00"
+  "updated_at": "2026-11-21T16:51:26.750094+00:00"
 }
