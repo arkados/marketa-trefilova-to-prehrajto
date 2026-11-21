@@ -56435,6 +56435,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-04T11:30:22.230138+00:00",
         "relay_source_id": "31203013"
+      },
+      "claim": {
+        "worker_id": "81c4911637524125a2a76e8d62097edb-shard-0",
+        "claimed_at": "2026-11-21T07:17:16.856460+00:00",
+        "lease_expires_at": "2026-11-21T13:17:16.856460+00:00",
+        "run_id": "44855214731"
       }
     },
     "1377": {
@@ -124481,13 +124487,6 @@
           "source_id": "10827431",
           "target_video_id": "30985726",
           "permanent": false,
-          "attempted_at": "2026-11-21T02:31:08.115907+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "10827431",
-          "target_video_id": "30985726",
-          "permanent": false,
           "attempted_at": "2026-11-21T04:19:13.740180+00:00"
         },
         {
@@ -124496,6 +124495,13 @@
           "target_video_id": "30985726",
           "permanent": false,
           "attempted_at": "2026-11-21T05:59:10.492757+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "10827431",
+          "target_video_id": "30985726",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:17:17.461297+00:00"
         }
       ],
       "last_plan": {
@@ -124509,12 +124515,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:31:25.000011+00:00",
         "relay_source_id": "10827431"
-      },
-      "claim": {
-        "worker_id": "6abb01bdb6cf494186ae4dd255e1db7c-shard-0",
-        "claimed_at": "2026-11-21T07:17:13.465243+00:00",
-        "lease_expires_at": "2026-11-21T13:17:13.465243+00:00",
-        "run_id": "44855214731"
       }
     },
     "21072": {
@@ -125465,7 +125465,7 @@
       "last_plan": {
         "source_id": "34296329",
         "display_name": "Contra 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:59:13.617742+00:00"
+        "planned_at": "2026-11-21T07:17:17.041808+00:00"
       },
       "previous_target_id": "30985822",
       "prepared": {
@@ -190682,7 +190682,7 @@
       "last_plan": {
         "source_id": "27393162",
         "display_name": "Doktor Proktors tidsbadekar SD CZ Dabing",
-        "planned_at": "2026-11-21T07:17:14.155988+00:00"
+        "planned_at": "2026-11-21T07:17:17.278351+00:00"
       }
     },
     "31620": {
@@ -235186,5 +235186,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:17:14.156008+00:00"
+  "updated_at": "2026-11-21T07:17:17.461319+00:00"
 }
