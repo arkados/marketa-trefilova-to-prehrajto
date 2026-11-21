@@ -110459,13 +110459,6 @@
           "source_id": "34252297",
           "target_video_id": "30983719",
           "permanent": false,
-          "attempted_at": "2026-11-21T02:49:35.860461+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34252297",
-          "target_video_id": "30983719",
-          "permanent": false,
           "attempted_at": "2026-11-21T04:33:24.439604+00:00"
         },
         {
@@ -110474,6 +110467,13 @@
           "target_video_id": "30983719",
           "permanent": false,
           "attempted_at": "2026-11-21T06:10:13.143472+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34252297",
+          "target_video_id": "30983719",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:30:09.909290+00:00"
         }
       ],
       "last_plan": {
@@ -110487,12 +110487,6 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T14:39:44.579016+00:00",
         "relay_source_id": "34252297"
-      },
-      "claim": {
-        "worker_id": "cecc1b0bc3f4490d977c8d68f6f70739-shard-0",
-        "claimed_at": "2026-11-21T07:30:06.025992+00:00",
-        "lease_expires_at": "2026-11-21T13:30:06.025992+00:00",
-        "run_id": "44855214731"
       }
     },
     "21368": {
@@ -141444,7 +141438,7 @@
       "last_plan": {
         "source_id": "35113199",
         "display_name": "Cuckoo in a Dark Forest (Kukačka v temném lese) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:10:12.323599+00:00"
+        "planned_at": "2026-11-21T07:30:09.270587+00:00"
       },
       "previous_target_id": "30988222",
       "prepared": {
@@ -141452,6 +141446,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T07:53:48.968879+00:00",
         "relay_source_id": "35113199"
+      },
+      "claim": {
+        "worker_id": "2895c0d1ab734b9b8863c9054d17b14c-shard-0",
+        "claimed_at": "2026-11-21T07:30:10.064727+00:00",
+        "lease_expires_at": "2026-11-21T13:30:10.064727+00:00",
+        "run_id": "44855214731"
       }
     },
     "22412": {
@@ -190798,7 +190798,7 @@
       "last_plan": {
         "source_id": "34182833",
         "display_name": "La Princesse de Clèves (Princess of Cleves) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:30:05.626449+00:00"
+        "planned_at": "2026-11-21T07:30:09.504188+00:00"
       }
     },
     "4926": {
@@ -235284,5 +235284,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:30:06.907200+00:00"
+  "updated_at": "2026-11-21T07:30:10.064752+00:00"
 }
