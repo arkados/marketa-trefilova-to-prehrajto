@@ -115221,13 +115221,6 @@
           "source_id": "12492093",
           "target_video_id": "30984495",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:09:15.937251+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12492093",
-          "target_video_id": "30984495",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:49:32.029430+00:00"
         },
         {
@@ -115236,6 +115229,13 @@
           "target_video_id": "30984495",
           "permanent": false,
           "attempted_at": "2026-11-21T00:27:48.811403+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12492093",
+          "target_video_id": "30984495",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:14:53.795629+00:00"
         }
       ],
       "last_plan": {
@@ -115249,12 +115249,6 @@
         "size_bytes": 29600000000,
         "prepared_at": "2026-11-10T16:36:51.014450+00:00",
         "relay_source_id": "12492093"
-      },
-      "claim": {
-        "worker_id": "3a62434aad064169bb5dd46743aa4f47-shard-0",
-        "claimed_at": "2026-11-21T02:14:50.111449+00:00",
-        "lease_expires_at": "2026-11-21T08:14:50.111449+00:00",
-        "run_id": "44848457493"
       }
     },
     "34394": {
@@ -151782,7 +151776,7 @@
       "last_plan": {
         "source_id": "31379562",
         "display_name": "How Honza Almost Became a King (Honza málem králem) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:27:48.092220+00:00"
+        "planned_at": "2026-11-21T02:14:53.484741+00:00"
       },
       "previous_target_id": "31029839",
       "prepared": {
@@ -188585,11 +188579,16 @@
       "last_plan": {
         "source_id": "10317072",
         "display_name": "Schneider vs. Bax SD CZ Dabing",
-        "planned_at": "2026-11-21T02:14:47.246088+00:00"
+        "planned_at": "2026-11-21T02:14:54.147189+00:00"
       }
     },
     "23288": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "4725138",
+        "display_name": "Stranger in the House SD CZ Dabing",
+        "planned_at": "2026-11-21T02:14:54.368604+00:00"
+      }
     },
     "24929": {
       "attempts": []
@@ -233476,5 +233475,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:14:50.111485+00:00"
+  "updated_at": "2026-11-21T02:14:54.368623+00:00"
 }
