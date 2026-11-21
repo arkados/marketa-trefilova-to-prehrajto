@@ -131277,13 +131277,6 @@
           "source_id": "34714070",
           "target_video_id": "30986970",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:18:25.674990+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714070",
-          "target_video_id": "30986970",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:54:10.921143+00:00"
         },
         {
@@ -131292,6 +131285,13 @@
           "target_video_id": "30986970",
           "permanent": false,
           "attempted_at": "2026-11-21T17:34:56.198224+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714070",
+          "target_video_id": "30986970",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:14:46.250652+00:00"
         }
       ],
       "last_plan": {
@@ -141909,7 +141909,7 @@
       "last_plan": {
         "source_id": "30436273",
         "display_name": "Musíme se sejít SD CZ Dabing",
-        "planned_at": "2026-11-21T17:34:54.614410+00:00"
+        "planned_at": "2026-11-21T19:14:42.414801+00:00"
       },
       "previous_target_id": "30988335",
       "prepared": {
@@ -141917,6 +141917,12 @@
         "size_bytes": 803900000,
         "prepared_at": "2026-11-11T08:12:00.885093+00:00",
         "relay_source_id": "30436273"
+      },
+      "claim": {
+        "worker_id": "d4057446c2bb4126a2225bfe3f7a00f8-shard-0",
+        "claimed_at": "2026-11-21T19:14:43.388461+00:00",
+        "lease_expires_at": "2026-11-22T01:14:43.388461+00:00",
+        "run_id": "44930055910"
       }
     },
     "12705": {
@@ -196118,7 +196124,7 @@
       "last_plan": {
         "source_id": "31796171",
         "display_name": "Whisper 2 (Ostwind 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:14:39.676560+00:00"
+        "planned_at": "2026-11-21T19:14:42.792754+00:00"
       }
     },
     "10762": {
@@ -239563,5 +239569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:14:39.676588+00:00"
+  "updated_at": "2026-11-21T19:14:46.250672+00:00"
 }
