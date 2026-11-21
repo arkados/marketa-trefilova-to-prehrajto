@@ -12910,13 +12910,6 @@
           "source_id": "34846817",
           "target_video_id": "30649962",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:22:30.991615+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34846817",
-          "target_video_id": "30649962",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:00:38.857868+00:00"
         },
         {
@@ -12925,6 +12918,13 @@
           "target_video_id": "30649962",
           "permanent": false,
           "attempted_at": "2026-11-21T00:39:18.128119+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34846817",
+          "target_video_id": "30649962",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:26:21.241728+00:00"
         }
       ],
       "last_plan": {
@@ -144174,7 +144174,7 @@
       "last_plan": {
         "source_id": "7239474",
         "display_name": "Bílá spona SD CZ Dabing",
-        "planned_at": "2026-11-21T00:39:17.403801+00:00"
+        "planned_at": "2026-11-21T02:26:19.240859+00:00"
       },
       "previous_target_id": "30988750",
       "prepared": {
@@ -144182,6 +144182,12 @@
         "size_bytes": 756000000,
         "prepared_at": "2026-11-11T09:48:19.543124+00:00",
         "relay_source_id": "7239474"
+      },
+      "claim": {
+        "worker_id": "6a31729f223e44e88d26f9b2377d7913-shard-0",
+        "claimed_at": "2026-11-21T02:26:20.288529+00:00",
+        "lease_expires_at": "2026-11-21T08:26:20.288529+00:00",
+        "run_id": "44848457493"
       }
     },
     "17569": {
@@ -188693,7 +188699,7 @@
       "last_plan": {
         "source_id": "32676179",
         "display_name": "Boxer (Bokser) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:26:15.639683+00:00"
+        "planned_at": "2026-11-21T02:26:19.616140+00:00"
       }
     },
     "8400": {
@@ -233560,5 +233566,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:26:16.163047+00:00"
+  "updated_at": "2026-11-21T02:26:21.241750+00:00"
 }
