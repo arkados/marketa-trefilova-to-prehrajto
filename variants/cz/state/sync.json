@@ -118021,13 +118021,6 @@
           "source_id": "9734358",
           "target_video_id": "30984815",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:59:47.963378+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "9734358",
-          "target_video_id": "30984815",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:18:41.042317+00:00"
         },
         {
@@ -118036,12 +118029,19 @@
           "target_video_id": "30984815",
           "permanent": false,
           "attempted_at": "2026-11-20T22:56:28.566840+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "9734358",
+          "target_video_id": "30984815",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:35:08.330079+00:00"
         }
       ],
       "last_plan": {
         "source_id": "9734358",
         "display_name": "Harsh Times SD CZ Dabing",
-        "planned_at": "2026-11-20T22:56:22.621669+00:00"
+        "planned_at": "2026-11-21T00:35:05.582149+00:00"
       },
       "previous_target_id": "30984815",
       "prepared": {
@@ -187928,17 +187928,19 @@
       "attempts": []
     },
     "3763": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14940837",
+          "target_video_id": "31216293",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:35:08.627779+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14940837",
         "display_name": "Charm City Kings SD CZ Dabing",
         "planned_at": "2026-11-21T00:31:46.807770+00:00"
-      },
-      "claim": {
-        "worker_id": "ab08880398f14c97afdda1f8c7b06109-shard-0",
-        "claimed_at": "2026-11-21T00:31:50.271594+00:00",
-        "lease_expires_at": "2026-11-21T06:31:50.271594+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216293",
       "prepared": {
@@ -187983,7 +187985,7 @@
       "last_plan": {
         "source_id": "28344864",
         "display_name": "I Love You Heavenly (Miluji tě modře) SD CZ Dabing",
-        "planned_at": "2026-11-21T00:35:00.633031+00:00"
+        "planned_at": "2026-11-21T00:35:05.967511+00:00"
       }
     },
     "26487": {
@@ -232953,5 +232955,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:35:03.079449+00:00"
+  "updated_at": "2026-11-21T00:35:08.627806+00:00"
 }
