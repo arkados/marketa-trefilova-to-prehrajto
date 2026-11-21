@@ -118345,13 +118345,6 @@
           "source_id": "34651133",
           "target_video_id": "30984850",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:54:05.977096+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34651133",
-          "target_video_id": "30984850",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:31:36.669340+00:00"
         },
         {
@@ -118360,12 +118353,19 @@
           "target_video_id": "30984850",
           "permanent": false,
           "attempted_at": "2026-11-21T17:07:20.597358+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34651133",
+          "target_video_id": "30984850",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:49:48.488895+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34651133",
         "display_name": "Sinbad: Legend of the Seven Seas 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:07:15.063955+00:00"
+        "planned_at": "2026-11-21T18:49:45.035887+00:00"
       },
       "previous_target_id": "30984850",
       "prepared": {
@@ -195818,11 +195818,22 @@
       "last_plan": {
         "source_id": "34083095",
         "display_name": "Joint Custody (Chlap na střídačku) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:49:39.689835+00:00"
+        "planned_at": "2026-11-21T18:49:45.418050+00:00"
+      },
+      "claim": {
+        "worker_id": "1cf0d8adaba5498882b40cea5c5a09d2-shard-0",
+        "claimed_at": "2026-11-21T18:49:46.519921+00:00",
+        "lease_expires_at": "2026-11-22T00:49:46.519921+00:00",
+        "run_id": "44930055910"
       }
     },
     "4175": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34658009",
+        "display_name": "The Last Frontier (Podol'skie kursanty) 720p CZ Dabing",
+        "planned_at": "2026-11-21T18:49:45.663776+00:00"
+      }
     },
     "17539": {
       "attempts": []
@@ -239338,5 +239349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:49:42.507899+00:00"
+  "updated_at": "2026-11-21T18:49:48.488923+00:00"
 }
