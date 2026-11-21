@@ -14761,13 +14761,6 @@
           "source_id": "32500310",
           "target_video_id": "30657182",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:38:48.649919+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32500310",
-          "target_video_id": "30657182",
-          "permanent": false,
           "attempted_at": "2026-11-21T02:25:58.412337+00:00"
         },
         {
@@ -14776,6 +14769,13 @@
           "target_video_id": "30657182",
           "permanent": false,
           "attempted_at": "2026-11-21T04:10:56.462413+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32500310",
+          "target_video_id": "30657182",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:55:05.190092+00:00"
         }
       ],
       "last_plan": {
@@ -14789,12 +14789,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-10-31T06:23:14.737343+00:00",
         "relay_source_id": "32500310"
-      },
-      "claim": {
-        "worker_id": "6eead8bdbf9a4978817668fb3a6aef43-shard-0",
-        "claimed_at": "2026-11-21T05:55:02.400694+00:00",
-        "lease_expires_at": "2026-11-21T11:55:02.400694+00:00",
-        "run_id": "44855214731"
       }
     },
     "22177": {
@@ -141015,7 +141009,7 @@
       "last_plan": {
         "source_id": "32763044",
         "display_name": "Prázdniny pro psa 4K CZ Dabing",
-        "planned_at": "2026-11-21T04:10:55.927036+00:00"
+        "planned_at": "2026-11-21T05:55:04.602297+00:00"
       },
       "previous_target_id": "30988157",
       "prepared": {
@@ -190085,14 +190079,19 @@
       "last_plan": {
         "source_id": "30466391",
         "display_name": "The Tenderness (La ternura) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:55:00.176048+00:00"
+        "planned_at": "2026-11-21T05:55:04.856060+00:00"
       }
     },
     "32864": {
       "attempts": []
     },
     "16706": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28257165",
+        "display_name": "Crazy Kingdom (Řachanda) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T05:55:05.005680+00:00"
+      }
     },
     "5913": {
       "attempts": []
@@ -234691,5 +234690,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:55:02.400723+00:00"
+  "updated_at": "2026-11-21T05:55:05.190123+00:00"
 }
