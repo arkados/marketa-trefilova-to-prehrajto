@@ -91004,13 +91004,6 @@
           "source_id": "17098335",
           "target_video_id": "30926375",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:21:51.867813+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17098335",
-          "target_video_id": "30926375",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:00:59.176048+00:00"
         },
         {
@@ -91019,6 +91012,13 @@
           "target_video_id": "30926375",
           "permanent": false,
           "attempted_at": "2026-11-21T02:49:57.857231+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17098335",
+          "target_video_id": "30926375",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:33:46.209646+00:00"
         }
       ],
       "last_plan": {
@@ -188954,7 +188954,7 @@
       "last_plan": {
         "source_id": "21316164",
         "display_name": "The Shadow Hour (Schattenstunde) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:46:12.780780+00:00"
+        "planned_at": "2026-11-21T04:33:44.692166+00:00"
       },
       "previous_target_id": "31218398",
       "prepared": {
@@ -188962,6 +188962,12 @@
         "size_bytes": 2516409222,
         "prepared_at": "2026-11-21T02:46:21.170747+00:00",
         "relay_source_id": "21316164"
+      },
+      "claim": {
+        "worker_id": "dcc7006c04764f64b57452d22d945cd0-shard-0",
+        "claimed_at": "2026-11-21T04:33:45.848873+00:00",
+        "lease_expires_at": "2026-11-21T10:33:45.848873+00:00",
+        "run_id": "44848457493"
       }
     },
     "17978": {
@@ -189397,6 +189403,12 @@
         "source_id": "28762248",
         "display_name": "Quincannon, Frontier Scout SD CZ Dabing",
         "planned_at": "2026-11-21T04:33:40.648277+00:00"
+      },
+      "claim": {
+        "worker_id": "abc111304fee4317993ecbd8f08d9788-shard-0",
+        "claimed_at": "2026-11-21T04:33:44.418539+00:00",
+        "lease_expires_at": "2026-11-21T10:33:44.418539+00:00",
+        "run_id": "44848457493"
       }
     },
     "23453": {
@@ -189404,7 +189416,7 @@
       "last_plan": {
         "source_id": "33588904",
         "display_name": "Last Hero in China 720p CZ Dabing",
-        "planned_at": "2026-11-21T04:33:41.369604+00:00"
+        "planned_at": "2026-11-21T04:33:45.062244+00:00"
       }
     },
     "21349": {
@@ -234160,5 +234172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:33:41.369623+00:00"
+  "updated_at": "2026-11-21T04:33:46.209667+00:00"
 }
