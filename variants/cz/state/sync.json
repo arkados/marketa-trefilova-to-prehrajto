@@ -113869,6 +113869,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:22:38.900895+00:00",
         "relay_source_id": "33115659"
+      },
+      "claim": {
+        "worker_id": "2ff7bdcb815740f48e4e17fc6c47ad68-shard-0",
+        "claimed_at": "2026-11-21T05:05:31.120961+00:00",
+        "lease_expires_at": "2026-11-21T11:05:31.120961+00:00",
+        "run_id": "44848457493"
       }
     },
     "3042": {
@@ -119079,13 +119085,6 @@
           "source_id": "26076948",
           "target_video_id": "30984883",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:53:00.116979+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26076948",
-          "target_video_id": "30984883",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:34:20.438557+00:00"
         },
         {
@@ -119094,6 +119093,13 @@
           "target_video_id": "30984883",
           "permanent": false,
           "attempted_at": "2026-11-21T03:20:05.740634+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26076948",
+          "target_video_id": "30984883",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:05:32.105424+00:00"
         }
       ],
       "last_plan": {
@@ -119107,12 +119113,6 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T18:02:31.460552+00:00",
         "relay_source_id": "26076948"
-      },
-      "claim": {
-        "worker_id": "6c1cf22bda4d4107a4aceb8d9869a0f6-shard-0",
-        "claimed_at": "2026-11-21T05:05:27.081664+00:00",
-        "lease_expires_at": "2026-11-21T11:05:27.081664+00:00",
-        "run_id": "44848457493"
       }
     },
     "26164": {
@@ -128172,7 +128172,7 @@
       "last_plan": {
         "source_id": "33819340",
         "display_name": "The Girl with Nine Wigs (Heute bin ich blond) SD CZ Dabing",
-        "planned_at": "2026-11-21T03:20:09.370011+00:00"
+        "planned_at": "2026-11-21T05:05:31.422415+00:00"
       },
       "previous_target_id": "30986583",
       "prepared": {
@@ -189654,7 +189654,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:05:27.774771+00:00"
+        "planned_at": "2026-11-21T05:05:31.780894+00:00"
       }
     },
     "25887": {
@@ -234365,5 +234365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:05:28.107963+00:00"
+  "updated_at": "2026-11-21T05:05:32.105460+00:00"
 }
