@@ -193382,17 +193382,19 @@
       "attempts": []
     },
     "15704": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694121",
+          "target_video_id": "31229506",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:45:28.375332+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694121",
         "display_name": "Big City Greens the Movie: Spacecation 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:40:28.153177+00:00"
-      },
-      "claim": {
-        "worker_id": "f6516216416947719f0d2cfff6310927-shard-0",
-        "claimed_at": "2026-11-21T13:40:30.986940+00:00",
-        "lease_expires_at": "2026-11-21T19:40:30.986940+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31229506",
       "prepared": {
@@ -237434,5 +237436,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:45:25.874605+00:00"
+  "updated_at": "2026-11-21T13:45:28.375349+00:00"
 }
