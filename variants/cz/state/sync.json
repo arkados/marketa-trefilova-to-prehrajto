@@ -111192,13 +111192,6 @@
           "source_id": "35066715",
           "target_video_id": "30983782",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:56:17.361967+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066715",
-          "target_video_id": "30983782",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:35:04.245029+00:00"
         },
         {
@@ -111207,6 +111200,13 @@
           "target_video_id": "30983782",
           "permanent": false,
           "attempted_at": "2026-11-21T01:19:15.890809+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066715",
+          "target_video_id": "30983782",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:02:46.938423+00:00"
         }
       ],
       "last_plan": {
@@ -116825,7 +116825,7 @@
       "last_plan": {
         "source_id": "34190531",
         "display_name": "Christine (1983) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:19:19.344911+00:00"
+        "planned_at": "2026-11-21T03:02:44.737737+00:00"
       },
       "previous_target_id": "30984720",
       "prepared": {
@@ -116833,6 +116833,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:23:59.006056+00:00",
         "relay_source_id": "34190531"
+      },
+      "claim": {
+        "worker_id": "c9fbca8bdc1340e4a4f45f6bfb4ad7ab-shard-0",
+        "claimed_at": "2026-11-21T03:02:45.827392+00:00",
+        "lease_expires_at": "2026-11-21T09:02:45.827392+00:00",
+        "run_id": "44848457493"
       }
     },
     "2923": {
@@ -188864,6 +188870,12 @@
         "source_id": "34689462",
         "display_name": "A Good Jewish Boy (Le Dernier des Juifs) 1080p CZ Dabing",
         "planned_at": "2026-11-21T03:02:40.920775+00:00"
+      },
+      "claim": {
+        "worker_id": "71801bc9d847428a873656062a95d37a-shard-0",
+        "claimed_at": "2026-11-21T03:02:44.161576+00:00",
+        "lease_expires_at": "2026-11-21T09:02:44.161576+00:00",
+        "run_id": "44848457493"
       }
     },
     "31921": {
@@ -188874,7 +188886,7 @@
       "last_plan": {
         "source_id": "11985679",
         "display_name": "Man from Del Rio SD CZ Dabing",
-        "planned_at": "2026-11-21T03:02:41.434862+00:00"
+        "planned_at": "2026-11-21T03:02:45.131955+00:00"
       }
     },
     "35783": {
@@ -233705,5 +233717,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:02:41.434881+00:00"
+  "updated_at": "2026-11-21T03:02:46.938453+00:00"
 }
