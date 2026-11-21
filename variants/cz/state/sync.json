@@ -12499,13 +12499,6 @@
           "source_id": "32043793",
           "target_video_id": "30647758",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:38:36.604071+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32043793",
-          "target_video_id": "30647758",
-          "permanent": false,
           "attempted_at": "2026-11-21T02:25:45.187511+00:00"
         },
         {
@@ -12514,6 +12507,13 @@
           "target_video_id": "30647758",
           "permanent": false,
           "attempted_at": "2026-11-21T04:10:44.411326+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32043793",
+          "target_video_id": "30647758",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:54:47.956849+00:00"
         }
       ],
       "last_plan": {
@@ -135371,7 +135371,7 @@
       "last_plan": {
         "source_id": "35068765",
         "display_name": "Veronika, proste Nika (Veronika, prostě Nika) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:10:42.639441+00:00"
+        "planned_at": "2026-11-21T05:54:46.496494+00:00"
       },
       "previous_target_id": "30987562",
       "prepared": {
@@ -135379,6 +135379,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T05:12:28.986309+00:00",
         "relay_source_id": "35068765"
+      },
+      "claim": {
+        "worker_id": "d7124bcc172742b6acf36b25b8f6747d-shard-0",
+        "claimed_at": "2026-11-21T05:54:47.160432+00:00",
+        "lease_expires_at": "2026-11-21T11:54:47.160432+00:00",
+        "run_id": "44855214731"
       }
     },
     "13853": {
@@ -190071,7 +190077,7 @@
       "last_plan": {
         "source_id": "30466391",
         "display_name": "The Tenderness (La ternura) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:54:43.617475+00:00"
+        "planned_at": "2026-11-21T05:54:46.732848+00:00"
       }
     },
     "32864": {
@@ -234677,5 +234683,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:54:44.218572+00:00"
+  "updated_at": "2026-11-21T05:54:47.956869+00:00"
 }
