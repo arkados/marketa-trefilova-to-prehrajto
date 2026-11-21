@@ -190874,17 +190874,19 @@
       }
     },
     "16268": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694694",
+          "target_video_id": "31223005",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:42:47.395029+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694694",
         "display_name": "Kyuka: Before Summer's End (Kioyka: Prin to telos toy kalokairioy) 1080p CZ Dabing",
         "planned_at": "2026-11-21T07:38:48.888528+00:00"
-      },
-      "claim": {
-        "worker_id": "97bbcdf848ed4b69b08b14690d8d3510-shard-0",
-        "claimed_at": "2026-11-21T07:38:49.780698+00:00",
-        "lease_expires_at": "2026-11-21T13:38:49.780698+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31223005",
       "prepared": {
@@ -235388,5 +235390,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:42:44.986966+00:00"
+  "updated_at": "2026-11-21T07:42:47.395048+00:00"
 }
