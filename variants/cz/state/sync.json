@@ -191992,17 +191992,19 @@
       }
     },
     "15243": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13165617",
+          "target_video_id": "31226023",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:28:47.078532+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13165617",
         "display_name": "The Devil's Bride (Čertova nevěsta) 1080p CZ Dabing",
         "planned_at": "2026-11-21T10:26:20.516009+00:00"
-      },
-      "claim": {
-        "worker_id": "bb5bdfe5e4434919910543fa67ce2e63-shard-0",
-        "claimed_at": "2026-11-21T10:26:24.085947+00:00",
-        "lease_expires_at": "2026-11-21T16:26:24.085947+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31226023",
       "prepared": {
@@ -236299,5 +236301,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:28:41.000205+00:00"
+  "updated_at": "2026-11-21T10:28:47.078551+00:00"
 }
