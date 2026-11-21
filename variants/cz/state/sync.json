@@ -82749,7 +82749,7 @@
       "last_plan": {
         "source_id": "34668514",
         "display_name": "The Little Death 720p CZ Dabing",
-        "planned_at": "2026-11-21T17:03:10.884103+00:00"
+        "planned_at": "2026-11-21T18:45:42.582191+00:00"
       },
       "previous_target_id": "30908812",
       "prepared": {
@@ -82757,6 +82757,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-08T05:26:41.175531+00:00",
         "relay_source_id": "34668514"
+      },
+      "claim": {
+        "worker_id": "7c6fc90943454184be2f09adee341181-shard-0",
+        "claimed_at": "2026-11-21T18:45:43.655981+00:00",
+        "lease_expires_at": "2026-11-22T00:45:43.655981+00:00",
+        "run_id": "44930055910"
       }
     },
     "23317": {
@@ -195730,17 +195736,19 @@
       }
     },
     "24933": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34706546",
+          "target_video_id": "31234290",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:45:44.107301+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34706546",
         "display_name": "I'll Be There SD CZ Dabing",
         "planned_at": "2026-11-21T18:44:23.793339+00:00"
-      },
-      "claim": {
-        "worker_id": "758bebc4caa944659b5ece00d6b4355d-shard-0",
-        "claimed_at": "2026-11-21T18:44:24.951000+00:00",
-        "lease_expires_at": "2026-11-22T00:44:24.951000+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234290",
       "prepared": {
@@ -195779,7 +195787,7 @@
       "last_plan": {
         "source_id": "34983613",
         "display_name": "A White, White Day (Hvítur, Hvítur Dagur) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:45:37.723744+00:00"
+        "planned_at": "2026-11-21T18:45:42.992577+00:00"
       }
     },
     "9790": {
@@ -239302,5 +239310,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:45:40.345016+00:00"
+  "updated_at": "2026-11-21T18:45:44.107319+00:00"
 }
