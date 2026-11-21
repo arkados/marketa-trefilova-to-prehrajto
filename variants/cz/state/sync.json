@@ -135493,6 +135493,12 @@
         "size_bytes": 890400000,
         "prepared_at": "2026-11-11T05:14:37.324017+00:00",
         "relay_source_id": "29321867"
+      },
+      "claim": {
+        "worker_id": "77e0b8ecce794592be3278cfb946c260-shard-0",
+        "claimed_at": "2026-11-21T11:54:31.567317+00:00",
+        "lease_expires_at": "2026-11-21T17:54:31.567317+00:00",
+        "run_id": "44889191327"
       }
     },
     "12757": {
@@ -192606,25 +192612,22 @@
       "attempts": []
     },
     "8744": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "upload_failed",
+          "source_id": "34126316",
+          "reason": "PrehrajtoError",
+          "permanent": false,
+          "target_video_id": "31227570",
+          "attempted_at": "2026-11-21T11:54:31.806766+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34126316",
         "display_name": "3Grapes (3Bobule) 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:46:53.148495+00:00"
       },
-      "claim": {
-        "worker_id": "a1c33756789b4fe6a21c00953d7581c9-shard-0",
-        "claimed_at": "2026-11-21T11:46:56.614540+00:00",
-        "lease_expires_at": "2026-11-21T17:46:56.614540+00:00",
-        "run_id": "44889191327"
-      },
-      "previous_target_id": "31227570",
-      "prepared": {
-        "target_video_id": "31227570",
-        "size_bytes": 1980584076,
-        "prepared_at": "2026-11-21T11:47:01.451615+00:00",
-        "relay_source_id": "34126316"
-      }
+      "previous_target_id": "31227570"
     },
     "26017": {
       "attempts": [
@@ -236804,5 +236807,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:54:28.242865+00:00"
+  "updated_at": "2026-11-21T11:54:31.806785+00:00"
 }
