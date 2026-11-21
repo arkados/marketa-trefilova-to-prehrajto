@@ -108263,13 +108263,6 @@
           "source_id": "35152274",
           "target_video_id": "30983500",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:18:49.918256+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35152274",
-          "target_video_id": "30983500",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:01:43.700393+00:00"
         },
         {
@@ -108278,6 +108271,13 @@
           "target_video_id": "30983500",
           "permanent": false,
           "attempted_at": "2026-11-21T15:36:59.434145+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35152274",
+          "target_video_id": "30983500",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:13:13.916374+00:00"
         }
       ],
       "last_plan": {
@@ -124782,7 +124782,7 @@
       "last_plan": {
         "source_id": "34256336",
         "display_name": "The Great Waldo Pepper 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:36:58.651234+00:00"
+        "planned_at": "2026-11-21T17:13:12.196140+00:00"
       },
       "previous_target_id": "30985753",
       "prepared": {
@@ -124790,6 +124790,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T21:40:44.759168+00:00",
         "relay_source_id": "34256336"
+      },
+      "claim": {
+        "worker_id": "732111ead7494099ba9dbda5c259f7d7-shard-0",
+        "claimed_at": "2026-11-21T17:13:13.545476+00:00",
+        "lease_expires_at": "2026-11-21T23:13:13.545476+00:00",
+        "run_id": "44897571814"
       }
     },
     "14458": {
@@ -194744,17 +194750,19 @@
       "attempts": []
     },
     "11288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31716633",
+          "target_video_id": "31232601",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:13:14.264003+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31716633",
         "display_name": "L'avare 1080p CZ Dabing",
         "planned_at": "2026-11-21T16:52:15.619589+00:00"
-      },
-      "claim": {
-        "worker_id": "4d26bca989dc4b6880f9d71d90468777-shard-0",
-        "claimed_at": "2026-11-21T16:52:18.590594+00:00",
-        "lease_expires_at": "2026-11-21T22:52:18.590594+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31232601",
       "prepared": {
@@ -194810,7 +194818,7 @@
       "last_plan": {
         "source_id": "34189256",
         "display_name": "Frontiers (Frontières) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:13:09.044412+00:00"
+        "planned_at": "2026-11-21T17:13:12.619517+00:00"
       }
     },
     "31961": {
@@ -238543,5 +238551,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:13:09.044458+00:00"
+  "updated_at": "2026-11-21T17:13:14.264022+00:00"
 }
