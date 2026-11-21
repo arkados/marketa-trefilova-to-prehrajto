@@ -196170,17 +196170,19 @@
       }
     },
     "10762": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33776248",
+          "target_video_id": "31234933",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:29:54.817404+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33776248",
         "display_name": "Sissi – Fateful Years of an Empress (Sissi - Schicksalsjahre einer Kaiserin) 1080p CZ Dabing",
         "planned_at": "2026-11-21T19:26:12.164165+00:00"
-      },
-      "claim": {
-        "worker_id": "e324640df800476fb9a72a3f53875e58-shard-0",
-        "claimed_at": "2026-11-21T19:26:13.538281+00:00",
-        "lease_expires_at": "2026-11-22T01:26:13.538281+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234933",
       "prepared": {
@@ -239634,5 +239636,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:29:51.626824+00:00"
+  "updated_at": "2026-11-21T19:29:54.817429+00:00"
 }
