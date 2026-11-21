@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "4db3d2a90d784c5dbe27fd4f29cf9ca2-shard-0",
+        "claimed_at": "2026-11-21T14:30:09.631026+00:00",
+        "lease_expires_at": "2026-11-21T20:30:09.631026+00:00",
+        "run_id": "44897571814"
       }
     },
     "12374": {
@@ -123275,13 +123281,6 @@
           "source_id": "22752658",
           "target_video_id": "30985535",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:28:59.337346+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22752658",
-          "target_video_id": "30985535",
-          "permanent": false,
           "attempted_at": "2026-11-21T11:06:54.546856+00:00"
         },
         {
@@ -123290,12 +123289,19 @@
           "target_video_id": "30985535",
           "permanent": false,
           "attempted_at": "2026-11-21T12:48:26.011624+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22752658",
+          "target_video_id": "30985535",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:30:13.469946+00:00"
         }
       ],
       "last_plan": {
         "source_id": "22752658",
         "display_name": "Flashbacks of a Fool 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:48:20.807627+00:00"
+        "planned_at": "2026-11-21T14:30:09.935371+00:00"
       },
       "previous_target_id": "30985535",
       "prepared": {
@@ -193725,7 +193731,7 @@
       "last_plan": {
         "source_id": "34122039",
         "display_name": "Donbass (Donbas) (2018) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:30:07.042096+00:00"
+        "planned_at": "2026-11-21T14:30:10.341650+00:00"
       }
     },
     "4010": {
@@ -237694,5 +237700,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:30:07.042114+00:00"
+  "updated_at": "2026-11-21T14:30:13.469964+00:00"
 }
