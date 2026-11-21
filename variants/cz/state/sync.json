@@ -117873,13 +117873,6 @@
           "source_id": "33733528",
           "target_video_id": "30984809",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:42:05.737408+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33733528",
-          "target_video_id": "30984809",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:25:36.444434+00:00"
         },
         {
@@ -117888,6 +117881,13 @@
           "target_video_id": "30984809",
           "permanent": false,
           "attempted_at": "2026-11-21T15:02:19.761131+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33733528",
+          "target_video_id": "30984809",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:38:06.812748+00:00"
         }
       ],
       "last_plan": {
@@ -135248,7 +135248,7 @@
       "last_plan": {
         "source_id": "33443922",
         "display_name": "Voda co ma drzí nad vodou (Voda čo ma drží nad vodou) 720p CZ Dabing",
-        "planned_at": "2026-11-21T15:02:19.021124+00:00"
+        "planned_at": "2026-11-21T16:38:05.182260+00:00"
       },
       "previous_target_id": "30987547",
       "prepared": {
@@ -135256,6 +135256,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T05:10:23.147426+00:00",
         "relay_source_id": "33443922"
+      },
+      "claim": {
+        "worker_id": "825be84a2b9f48a6ad9b612178335e65-shard-0",
+        "claimed_at": "2026-11-21T16:38:06.485997+00:00",
+        "lease_expires_at": "2026-11-21T22:38:06.485997+00:00",
+        "run_id": "44897571814"
       }
     },
     "12482": {
@@ -194619,17 +194625,19 @@
       }
     },
     "7767": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31963435",
+          "target_video_id": "31232387",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:38:07.119182+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31963435",
         "display_name": "10 Rules (10 pravidel jak sbalit holku) 1080p CZ Dabing",
         "planned_at": "2026-11-21T16:35:11.387144+00:00"
-      },
-      "claim": {
-        "worker_id": "52b9bd7d47454a7481a5d75663e2309d-shard-0",
-        "claimed_at": "2026-11-21T16:35:15.703467+00:00",
-        "lease_expires_at": "2026-11-21T22:35:15.703467+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31232387",
       "prepared": {
@@ -194647,7 +194655,7 @@
       "last_plan": {
         "source_id": "27064637",
         "display_name": "Ordinary Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:38:01.924145+00:00"
+        "planned_at": "2026-11-21T16:38:05.583364+00:00"
       }
     },
     "6204": {
@@ -238419,5 +238427,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:38:02.282132+00:00"
+  "updated_at": "2026-11-21T16:38:07.119205+00:00"
 }
