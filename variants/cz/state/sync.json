@@ -115795,13 +115795,6 @@
           "source_id": "34506881",
           "target_video_id": "30984630",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:27:27.153684+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34506881",
-          "target_video_id": "30984630",
-          "permanent": false,
           "attempted_at": "2026-11-21T02:14:32.568695+00:00"
         },
         {
@@ -115810,12 +115803,19 @@
           "target_video_id": "30984630",
           "permanent": false,
           "attempted_at": "2026-11-21T03:59:49.063161+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34506881",
+          "target_video_id": "30984630",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:44:02.979566+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34506881",
         "display_name": "One Hour Photo 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:59:43.788653+00:00"
+        "planned_at": "2026-11-21T05:44:00.795334+00:00"
       },
       "previous_target_id": "30984630",
       "prepared": {
@@ -189945,17 +189945,19 @@
       "attempts": []
     },
     "3799": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12043020",
+          "target_video_id": "31221172",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:44:03.173277+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12043020",
         "display_name": "Blaze SD CZ Dabing",
         "planned_at": "2026-11-21T05:42:35.482344+00:00"
-      },
-      "claim": {
-        "worker_id": "f57aa63ff2b24e0897044933e114ff25-shard-0",
-        "claimed_at": "2026-11-21T05:42:36.187818+00:00",
-        "lease_expires_at": "2026-11-21T11:42:36.187818+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221172",
       "prepared": {
@@ -189988,7 +189990,7 @@
       "last_plan": {
         "source_id": "11847117",
         "display_name": "Pioneer Woman SD CZ Dabing",
-        "planned_at": "2026-11-21T05:43:56.484479+00:00"
+        "planned_at": "2026-11-21T05:44:01.038353+00:00"
       }
     },
     "15163": {
@@ -234603,5 +234605,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:43:58.448322+00:00"
+  "updated_at": "2026-11-21T05:44:03.173301+00:00"
 }
