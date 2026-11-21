@@ -127526,13 +127526,6 @@
           "source_id": "34703676",
           "target_video_id": "30986415",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:51:35.051605+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34703676",
-          "target_video_id": "30986415",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:10:46.464989+00:00"
         },
         {
@@ -127541,6 +127534,13 @@
           "target_video_id": "30986415",
           "permanent": false,
           "attempted_at": "2026-11-21T10:50:50.460663+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34703676",
+          "target_video_id": "30986415",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:35:18.289654+00:00"
         }
       ],
       "last_plan": {
@@ -145196,7 +145196,7 @@
       "last_plan": {
         "source_id": "35428706",
         "display_name": "Threat to Kermadec (Menace sur Kermadec) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:50:49.647349+00:00"
+        "planned_at": "2026-11-21T12:35:16.528984+00:00"
       },
       "previous_target_id": "30990467",
       "prepared": {
@@ -145204,6 +145204,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T13:33:55.032444+00:00",
         "relay_source_id": "35428706"
+      },
+      "claim": {
+        "worker_id": "61f9d9ca3ed8451f9a7b8a05dca30146-shard-0",
+        "claimed_at": "2026-11-21T12:35:17.928052+00:00",
+        "lease_expires_at": "2026-11-21T18:35:17.928052+00:00",
+        "run_id": "44889191327"
       }
     },
     "23397": {
@@ -192949,7 +192955,7 @@
       "last_plan": {
         "source_id": "11755816",
         "display_name": "Salting the Battlefield 720p CZ Dabing",
-        "planned_at": "2026-11-21T12:35:13.346455+00:00"
+        "planned_at": "2026-11-21T12:35:16.966835+00:00"
       }
     },
     "15629": {
@@ -237057,5 +237063,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:35:13.346475+00:00"
+  "updated_at": "2026-11-21T12:35:18.289674+00:00"
 }
