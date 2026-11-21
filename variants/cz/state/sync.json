@@ -189318,17 +189318,19 @@
       }
     },
     "4567": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22132277",
+          "target_video_id": "31219921",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:27:30.748764+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22132277",
         "display_name": "Servants (Služobníci) 720p CZ Dabing",
         "planned_at": "2026-11-21T04:23:47.061937+00:00"
-      },
-      "claim": {
-        "worker_id": "4c02522a990c48c2974eb8fa4855b6d2-shard-0",
-        "claimed_at": "2026-11-21T04:23:50.318958+00:00",
-        "lease_expires_at": "2026-11-21T10:23:50.318958+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31219921",
       "prepared": {
@@ -233940,6 +233942,12 @@
         "size_bytes": 14900000000,
         "prepared_at": "2026-11-10T18:20:07.517848+00:00",
         "relay_source_id": "22159844"
+      },
+      "claim": {
+        "worker_id": "57ee4ac690454950acc9bd1c98f159c8-shard-0",
+        "claimed_at": "2026-11-21T04:27:30.520596+00:00",
+        "lease_expires_at": "2026-11-21T10:27:30.520596+00:00",
+        "run_id": "44848457493"
       }
     },
     "28332": {
@@ -234114,5 +234122,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:27:27.654828+00:00"
+  "updated_at": "2026-11-21T04:27:30.748789+00:00"
 }
