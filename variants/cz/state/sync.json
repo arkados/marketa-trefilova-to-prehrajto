@@ -194783,17 +194783,19 @@
       "attempts": []
     },
     "30342": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18287336",
+          "target_video_id": "31232831",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:11:34.082740+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18287336",
         "display_name": "Madame (1961) SD CZ Dabing",
         "planned_at": "2026-11-21T17:09:40.055498+00:00"
-      },
-      "claim": {
-        "worker_id": "a539175a85bb4f9cbddbb6c040bf1b79-shard-0",
-        "claimed_at": "2026-11-21T17:09:41.287685+00:00",
-        "lease_expires_at": "2026-11-21T23:09:41.287685+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31232831",
       "prepared": {
@@ -238541,5 +238543,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:11:31.836304+00:00"
+  "updated_at": "2026-11-21T17:11:34.082764+00:00"
 }
