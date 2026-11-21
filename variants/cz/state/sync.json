@@ -11019,7 +11019,7 @@
       "last_plan": {
         "source_id": "32380403",
         "display_name": "The Sea Inside 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:26:55.095697+00:00"
+        "planned_at": "2026-11-21T13:07:03.190424+00:00"
       },
       "previous_target_id": "30642909",
       "prepared": {
@@ -11027,6 +11027,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-10-30T19:27:40.852355+00:00",
         "relay_source_id": "32380403"
+      },
+      "claim": {
+        "worker_id": "aaecd8a7d322457d9aca1c390d24e8dd-shard-0",
+        "claimed_at": "2026-11-21T13:07:04.544221+00:00",
+        "lease_expires_at": "2026-11-21T19:07:04.544221+00:00",
+        "run_id": "44889191327"
       }
     },
     "21748": {
@@ -181333,13 +181339,6 @@
           "source_id": "14428041",
           "target_video_id": "31190783",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:14:45.204596+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14428041",
-          "target_video_id": "31190783",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:44:26.178442+00:00"
         },
         {
@@ -181348,6 +181347,13 @@
           "target_video_id": "31190783",
           "permanent": false,
           "attempted_at": "2026-11-21T11:26:56.895163+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14428041",
+          "target_video_id": "31190783",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:07:04.901005+00:00"
         }
       ],
       "last_plan": {
@@ -193075,17 +193081,19 @@
       }
     },
     "11029": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30783659",
+          "target_video_id": "31228866",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:07:05.209066+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30783659",
         "display_name": "The McKenzie Break 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:04:15.321457+00:00"
-      },
-      "claim": {
-        "worker_id": "e36150afe37a4d2eb4523be7567d57af-shard-0",
-        "claimed_at": "2026-11-21T13:04:18.693209+00:00",
-        "lease_expires_at": "2026-11-21T19:04:18.693209+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31228866",
       "prepared": {
@@ -193100,7 +193108,7 @@
       "last_plan": {
         "source_id": "34580361",
         "display_name": "Miracles Still Happen 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:07:00.038167+00:00"
+        "planned_at": "2026-11-21T13:07:03.593635+00:00"
       }
     },
     "17207": {
@@ -237193,5 +237201,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:07:00.038186+00:00"
+  "updated_at": "2026-11-21T13:07:05.209087+00:00"
 }
