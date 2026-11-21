@@ -121208,7 +121208,7 @@
       "last_plan": {
         "source_id": "7542835",
         "display_name": "Denial SD CZ Dabing",
-        "planned_at": "2026-11-21T12:54:24.690142+00:00"
+        "planned_at": "2026-11-21T14:35:15.746435+00:00"
       },
       "previous_target_id": "30985047",
       "prepared": {
@@ -121216,6 +121216,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T18:39:48.775751+00:00",
         "relay_source_id": "7542835"
+      },
+      "claim": {
+        "worker_id": "ff13d78e64344d3abfb7bbf547e53288-shard-0",
+        "claimed_at": "2026-11-21T14:35:16.841022+00:00",
+        "lease_expires_at": "2026-11-21T20:35:16.841022+00:00",
+        "run_id": "44897571814"
       }
     },
     "22840": {
@@ -193154,17 +193160,23 @@
           "attempted_at": "2026-11-21T12:54:12.897983+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "27774864",
-        "display_name": "This Place 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:35:11.942373+00:00"
-      },
       "previous_target_id": "31228496",
-      "prepared": {
+      "upload": {
         "target_video_id": "31228496",
-        "size_bytes": 5553892247,
-        "prepared_at": "2026-11-21T12:43:02.023612+00:00",
-        "relay_source_id": "27774864"
+        "display_name": "This Place 1080p CZ Dabing",
+        "source_id": "27774864",
+        "source_url": "https://sdilej.cz/27774864/misto-k-zivotu-this-place-2022-hd-5.1-cz-dabing.mkv",
+        "source_filename": "Misto k zivotu This Place 2022 HD 5.1 CZ Dabing.mkv",
+        "size_bytes": 5600000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9557256698608398,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/this-place-1080p-cz-dabing-mkv/6b9fdde2f19dfcc5",
+        "uploaded_at": "2026-11-21T14:35:18.992753+00:00"
       }
     },
     "14541": {
@@ -193748,7 +193760,7 @@
       "last_plan": {
         "source_id": "34653846",
         "display_name": "The St. Valentine's Day Massacre 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:35:12.381765+00:00"
+        "planned_at": "2026-11-21T14:35:16.159046+00:00"
       }
     },
     "36872": {
@@ -237709,5 +237721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:35:12.714410+00:00"
+  "updated_at": "2026-11-21T14:35:18.992769+00:00"
 }
