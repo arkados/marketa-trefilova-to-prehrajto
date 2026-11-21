@@ -166100,13 +166100,6 @@
           "source_id": "18796618",
           "target_video_id": "31108850",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:10:00.427830+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18796618",
-          "target_video_id": "31108850",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:57:19.523129+00:00"
         },
         {
@@ -166115,12 +166108,19 @@
           "target_video_id": "31108850",
           "permanent": false,
           "attempted_at": "2026-11-21T03:40:56.982154+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18796618",
+          "target_video_id": "31108850",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:31:22.816742+00:00"
         }
       ],
       "last_plan": {
         "source_id": "18796618",
         "display_name": "Fort Apache, The Bronx SD CZ Dabing",
-        "planned_at": "2026-11-21T03:40:51.185734+00:00"
+        "planned_at": "2026-11-21T05:31:16.752217+00:00"
       },
       "previous_target_id": "31108850",
       "prepared": {
@@ -189838,11 +189838,22 @@
       "last_plan": {
         "source_id": "31885174",
         "display_name": "Labor Day (C'est la vie) (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:30:57.611758+00:00"
+        "planned_at": "2026-11-21T05:31:16.979640+00:00"
+      },
+      "claim": {
+        "worker_id": "cc94479cb446449781dfa97c1b23b9b7-shard-0",
+        "claimed_at": "2026-11-21T05:31:18.019785+00:00",
+        "lease_expires_at": "2026-11-21T11:31:18.019785+00:00",
+        "run_id": "44855214731"
       }
     },
     "37277": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34256066",
+        "display_name": "Outerlands 1080p CZ Dabing",
+        "planned_at": "2026-11-21T05:31:17.120908+00:00"
+      }
     },
     "11121": {
       "attempts": []
@@ -234501,5 +234512,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:31:14.367368+00:00"
+  "updated_at": "2026-11-21T05:31:22.816762+00:00"
 }
