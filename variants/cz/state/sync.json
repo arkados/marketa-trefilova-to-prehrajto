@@ -27509,13 +27509,6 @@
           "source_id": "33392596",
           "target_video_id": "30714569",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:16:07.749289+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33392596",
-          "target_video_id": "30714569",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:35:13.651869+00:00"
         },
         {
@@ -27524,12 +27517,19 @@
           "target_video_id": "30714569",
           "permanent": false,
           "attempted_at": "2026-11-21T10:10:12.766072+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33392596",
+          "target_video_id": "30714569",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:50:39.813747+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33392596",
         "display_name": "Promising Young Woman 4K CZ Dabing",
-        "planned_at": "2026-11-21T10:10:06.598049+00:00"
+        "planned_at": "2026-11-21T11:50:36.282899+00:00"
       },
       "previous_target_id": "30714569",
       "prepared": {
@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "170ba8e123094c0bb26d11086de34efa-shard-0",
+        "claimed_at": "2026-11-21T11:50:35.992840+00:00",
+        "lease_expires_at": "2026-11-21T17:50:35.992840+00:00",
+        "run_id": "44889191327"
       }
     },
     "32719": {
@@ -192631,7 +192637,7 @@
       "last_plan": {
         "source_id": "12656509",
         "display_name": "Scooby-Doo! Pirates Ahoy! SD CZ Dabing",
-        "planned_at": "2026-11-21T11:50:33.237990+00:00"
+        "planned_at": "2026-11-21T11:50:36.675664+00:00"
       }
     },
     "5717": {
@@ -236784,5 +236790,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:50:33.501237+00:00"
+  "updated_at": "2026-11-21T11:50:39.813767+00:00"
 }
