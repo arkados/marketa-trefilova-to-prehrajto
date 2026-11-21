@@ -130590,13 +130590,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:13:21.389012+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:42:30.829985+00:00"
         },
         {
@@ -130605,6 +130598,13 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-21T11:22:13.771043+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:05:02.937403+00:00"
         }
       ],
       "last_plan": {
@@ -140362,7 +140362,7 @@
       "last_plan": {
         "source_id": "34864473",
         "display_name": "Corpus Delicti 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:22:08.325644+00:00"
+        "planned_at": "2026-11-21T13:05:01.208944+00:00"
       },
       "previous_target_id": "30988077",
       "prepared": {
@@ -140370,6 +140370,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-11T07:27:44.810508+00:00",
         "relay_source_id": "34864473"
+      },
+      "claim": {
+        "worker_id": "0840ed248cc34db2969805e27c45a6a1-shard-0",
+        "claimed_at": "2026-11-21T13:05:02.568568+00:00",
+        "lease_expires_at": "2026-11-21T19:05:02.568568+00:00",
+        "run_id": "44889191327"
       }
     },
     "24211": {
@@ -193094,7 +193100,7 @@
       "last_plan": {
         "source_id": "34580361",
         "display_name": "Miracles Still Happen 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:04:57.812416+00:00"
+        "planned_at": "2026-11-21T13:05:01.668122+00:00"
       }
     },
     "17207": {
@@ -237187,5 +237193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:04:58.189829+00:00"
+  "updated_at": "2026-11-21T13:05:02.937431+00:00"
 }
