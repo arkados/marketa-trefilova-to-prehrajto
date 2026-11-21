@@ -117302,13 +117302,6 @@
           "source_id": "23542078",
           "target_video_id": "30984756",
           "permanent": false,
-          "attempted_at": "2026-11-21T01:56:11.381693+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23542078",
-          "target_video_id": "30984756",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:39:56.043880+00:00"
         },
         {
@@ -117317,6 +117310,13 @@
           "target_video_id": "30984756",
           "permanent": false,
           "attempted_at": "2026-11-21T05:30:20.807146+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23542078",
+          "target_video_id": "30984756",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:52:47.940704+00:00"
         }
       ],
       "last_plan": {
@@ -134873,7 +134873,7 @@
       "last_plan": {
         "source_id": "33712803",
         "display_name": "Séfe, to je vec! (Šéfe, to je věc!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:30:19.274374+00:00"
+        "planned_at": "2026-11-21T06:52:46.376234+00:00"
       },
       "previous_target_id": "30987501",
       "prepared": {
@@ -134881,6 +134881,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T05:00:48.593549+00:00",
         "relay_source_id": "33712803"
+      },
+      "claim": {
+        "worker_id": "cf83a1f25e5546a9a74cecabc08f0f59-shard-0",
+        "claimed_at": "2026-11-21T06:52:47.164802+00:00",
+        "lease_expires_at": "2026-11-21T12:52:47.164802+00:00",
+        "run_id": "44855214731"
       }
     },
     "36796": {
@@ -190507,6 +190513,12 @@
         "source_id": "34685752",
         "display_name": "A Change of Heart (Ils sont vivants) 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:52:43.289706+00:00"
+      },
+      "claim": {
+        "worker_id": "70a1492836be4fff8c1913a3201b1fab-shard-0",
+        "claimed_at": "2026-11-21T06:52:46.186109+00:00",
+        "lease_expires_at": "2026-11-21T12:52:46.186109+00:00",
+        "run_id": "44855214731"
       }
     },
     "15537": {
@@ -190514,7 +190526,7 @@
       "last_plan": {
         "source_id": "27210296",
         "display_name": "Párty Hárder: Summer Massacre 720p CZ Dabing",
-        "planned_at": "2026-11-21T06:52:43.435691+00:00"
+        "planned_at": "2026-11-21T06:52:46.621756+00:00"
       }
     },
     "25507": {
@@ -235036,5 +235048,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:52:43.620368+00:00"
+  "updated_at": "2026-11-21T06:52:47.940727+00:00"
 }
