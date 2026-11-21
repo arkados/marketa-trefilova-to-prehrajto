@@ -112365,6 +112365,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T14:59:01.798607+00:00",
         "relay_source_id": "34877929"
+      },
+      "claim": {
+        "worker_id": "ba06b6625a714eafbc29a00e9eee08f2-shard-0",
+        "claimed_at": "2026-11-21T11:21:59.512819+00:00",
+        "lease_expires_at": "2026-11-21T17:21:59.512819+00:00",
+        "run_id": "44889191327"
       }
     },
     "13198": {
@@ -123883,7 +123889,7 @@
       "last_plan": {
         "source_id": "16256834",
         "display_name": "The Assignment (1997) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:42:19.843986+00:00"
+        "planned_at": "2026-11-21T11:21:59.858700+00:00"
       },
       "previous_target_id": "30985618",
       "prepared": {
@@ -192368,17 +192374,19 @@
       "attempts": []
     },
     "9153": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31506902",
+          "target_video_id": "31227034",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:22:00.613069+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31506902",
         "display_name": "Elli and the Ghostly Ghost Train (Elli - Ungeheuer Geheim) 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:19:49.497595+00:00"
-      },
-      "claim": {
-        "worker_id": "6e40bd6f7d1b4eb0b1c47a0f8de1392b-shard-0",
-        "claimed_at": "2026-11-21T11:19:53.056554+00:00",
-        "lease_expires_at": "2026-11-21T17:19:53.056554+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31227034",
       "prepared": {
@@ -192393,7 +192401,7 @@
       "last_plan": {
         "source_id": "32612358",
         "display_name": "Bukarest Fleisch SD CZ Dabing",
-        "planned_at": "2026-11-21T11:21:56.847757+00:00"
+        "planned_at": "2026-11-21T11:22:00.283369+00:00"
       }
     },
     "15103": {
@@ -236603,5 +236611,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:21:56.847773+00:00"
+  "updated_at": "2026-11-21T11:22:00.613089+00:00"
 }
