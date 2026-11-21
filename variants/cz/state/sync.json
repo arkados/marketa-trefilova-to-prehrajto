@@ -121673,7 +121673,7 @@
       "last_plan": {
         "source_id": "30979384",
         "display_name": "Fantastic Voyage SD CZ Dabing",
-        "planned_at": "2026-11-21T07:48:05.647751+00:00"
+        "planned_at": "2026-11-21T09:08:47.385861+00:00"
       },
       "previous_target_id": "30985353",
       "prepared": {
@@ -121681,6 +121681,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T18:59:01.634983+00:00",
         "relay_source_id": "30979384"
+      },
+      "claim": {
+        "worker_id": "5bff545d35be4979bccf006f3902da90-shard-0",
+        "claimed_at": "2026-11-21T09:08:48.038413+00:00",
+        "lease_expires_at": "2026-11-21T15:08:48.038413+00:00",
+        "run_id": "44855214731"
       }
     },
     "11153": {
@@ -191498,17 +191504,19 @@
       }
     },
     "17498": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21662551",
+          "target_video_id": "31224306",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:08:49.301277+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21662551",
         "display_name": "Women Is Losers 1080p CZ Dabing",
         "planned_at": "2026-11-21T09:02:42.283422+00:00"
-      },
-      "claim": {
-        "worker_id": "1670ce25ca124f459fd6b4eb2282fac7-shard-0",
-        "claimed_at": "2026-11-21T09:02:43.362454+00:00",
-        "lease_expires_at": "2026-11-21T15:02:43.362454+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31224306",
       "prepared": {
@@ -191550,7 +191558,7 @@
       "last_plan": {
         "source_id": "29626932",
         "display_name": "Bony a klid 2 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:08:42.201468+00:00"
+        "planned_at": "2026-11-21T09:08:47.641002+00:00"
       }
     },
     "5412": {
@@ -235898,5 +235906,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:08:44.278607+00:00"
+  "updated_at": "2026-11-21T09:08:49.301295+00:00"
 }
