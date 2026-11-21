@@ -189411,17 +189411,19 @@
       "attempts": []
     },
     "21467": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28762248",
+          "target_video_id": "31220072",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:38:09.121063+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28762248",
         "display_name": "Quincannon, Frontier Scout SD CZ Dabing",
         "planned_at": "2026-11-21T04:33:40.648277+00:00"
-      },
-      "claim": {
-        "worker_id": "abc111304fee4317993ecbd8f08d9788-shard-0",
-        "claimed_at": "2026-11-21T04:33:44.418539+00:00",
-        "lease_expires_at": "2026-11-21T10:33:44.418539+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31220072",
       "prepared": {
@@ -234192,5 +234194,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:38:06.632986+00:00"
+  "updated_at": "2026-11-21T04:38:09.121084+00:00"
 }
