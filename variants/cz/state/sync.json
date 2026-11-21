@@ -191860,17 +191860,19 @@
       }
     },
     "22053": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33173354",
+          "target_video_id": "31225577",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:09:09.036449+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33173354",
         "display_name": "The Married Couple of the Year Two 1080p CZ Dabing",
         "planned_at": "2026-11-21T10:06:31.188476+00:00"
-      },
-      "claim": {
-        "worker_id": "c2a1ea816f69491abf6de57972ae6b21-shard-0",
-        "claimed_at": "2026-11-21T10:06:34.753673+00:00",
-        "lease_expires_at": "2026-11-21T16:06:34.753673+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31225577",
       "prepared": {
@@ -236188,5 +236190,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:09:02.206033+00:00"
+  "updated_at": "2026-11-21T10:09:09.036469+00:00"
 }
