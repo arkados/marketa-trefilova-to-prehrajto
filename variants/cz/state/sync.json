@@ -188381,17 +188381,19 @@
       }
     },
     "12361": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34784826",
+          "target_video_id": "31217497",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:50:40.413255+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34784826",
         "display_name": "Cosmos (1996) 1080p CZ Dabing",
         "planned_at": "2026-11-21T01:47:07.023173+00:00"
-      },
-      "claim": {
-        "worker_id": "f8cf11754f8d48039fde3df51770b4fe-shard-0",
-        "claimed_at": "2026-11-21T01:47:10.887254+00:00",
-        "lease_expires_at": "2026-11-21T07:47:10.887254+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217497",
       "prepared": {
@@ -233327,5 +233329,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:50:37.627506+00:00"
+  "updated_at": "2026-11-21T01:50:40.413278+00:00"
 }
