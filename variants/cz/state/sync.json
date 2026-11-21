@@ -122335,6 +122335,12 @@
         "size_bytes": 18600000000,
         "prepared_at": "2026-11-10T19:15:27.659735+00:00",
         "relay_source_id": "30647033"
+      },
+      "claim": {
+        "worker_id": "657a0d84608b4614a8acfa3d6d2fc426-shard-0",
+        "claimed_at": "2026-11-21T21:21:14.112113+00:00",
+        "lease_expires_at": "2026-11-22T03:21:14.112113+00:00",
+        "run_id": "44930055910"
       }
     },
     "11818": {
@@ -142380,7 +142386,7 @@
       "last_plan": {
         "source_id": "33960672",
         "display_name": "Banger (BANGER.) (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:49:03.738612+00:00"
+        "planned_at": "2026-11-21T21:21:14.416655+00:00"
       },
       "previous_target_id": "30988457",
       "prepared": {
@@ -196926,17 +196932,19 @@
       }
     },
     "3680": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25499918",
+          "target_video_id": "31236693",
+          "permanent": false,
+          "attempted_at": "2026-11-21T21:21:14.702180+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25499918",
         "display_name": "The Magician's Elephant 1080p CZ Dabing",
         "planned_at": "2026-11-21T21:18:30.503122+00:00"
-      },
-      "claim": {
-        "worker_id": "700c80fdfabf4095a25c28254540c2b0-shard-0",
-        "claimed_at": "2026-11-21T21:18:34.236834+00:00",
-        "lease_expires_at": "2026-11-22T03:18:34.236834+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31236693",
       "prepared": {
@@ -240300,5 +240308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:21:11.623521+00:00"
+  "updated_at": "2026-11-21T21:21:14.702206+00:00"
 }
