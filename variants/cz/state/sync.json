@@ -139264,13 +139264,6 @@
           "source_id": "34715447",
           "target_video_id": "30987931",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:50:45.069625+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715447",
-          "target_video_id": "30987931",
-          "permanent": false,
           "attempted_at": "2026-11-21T02:35:13.417459+00:00"
         },
         {
@@ -139279,6 +139272,13 @@
           "target_video_id": "30987931",
           "permanent": false,
           "attempted_at": "2026-11-21T04:23:26.251281+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715447",
+          "target_video_id": "30987931",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:02:25.456435+00:00"
         }
       ],
       "last_plan": {
@@ -174655,7 +174655,7 @@
       "last_plan": {
         "source_id": "34528013",
         "display_name": "Signál 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:23:24.217614+00:00"
+        "planned_at": "2026-11-21T06:02:24.206220+00:00"
       },
       "previous_target_id": "31154894",
       "prepared": {
@@ -174663,6 +174663,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-18T15:59:07.494402+00:00",
         "relay_source_id": "34528013"
+      },
+      "claim": {
+        "worker_id": "dd52efa83ac94bd2a16891a4932c96f3-shard-0",
+        "claimed_at": "2026-11-21T06:02:24.907661+00:00",
+        "lease_expires_at": "2026-11-21T12:02:24.907661+00:00",
+        "run_id": "44855214731"
       }
     },
     "11369": {
@@ -190126,7 +190132,7 @@
       "last_plan": {
         "source_id": "34686410",
         "display_name": "A Very Country Christmas: Homecoming (A Very Country Christmas Homecoming) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:02:20.557391+00:00"
+        "planned_at": "2026-11-21T06:02:24.445131+00:00"
       }
     },
     "14265": {
@@ -234723,5 +234729,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:02:20.557410+00:00"
+  "updated_at": "2026-11-21T06:02:25.456455+00:00"
 }
