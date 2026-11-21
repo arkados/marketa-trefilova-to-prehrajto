@@ -67244,13 +67244,6 @@
           "source_id": "25671141",
           "target_video_id": "30833110",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:01:46.391370+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25671141",
-          "target_video_id": "30833110",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:22:06.844536+00:00"
         },
         {
@@ -67259,6 +67252,13 @@
           "target_video_id": "30833110",
           "permanent": false,
           "attempted_at": "2026-11-21T08:39:04.236572+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25671141",
+          "target_video_id": "30833110",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:15:11.291889+00:00"
         }
       ],
       "last_plan": {
@@ -131802,7 +131802,7 @@
       "last_plan": {
         "source_id": "32647219",
         "display_name": "Mama (Máma) (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:39:03.650209+00:00"
+        "planned_at": "2026-11-21T10:15:08.511548+00:00"
       },
       "previous_target_id": "30987015",
       "prepared": {
@@ -131810,6 +131810,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T03:19:22.514356+00:00",
         "relay_source_id": "32647219"
+      },
+      "claim": {
+        "worker_id": "903b90ff45ea4d10aa51cc05e5a6980b-shard-0",
+        "claimed_at": "2026-11-21T10:15:09.861118+00:00",
+        "lease_expires_at": "2026-11-21T16:15:09.861118+00:00",
+        "run_id": "44889191327"
       }
     },
     "13290": {
@@ -191923,14 +191929,25 @@
       "last_plan": {
         "source_id": "29058073",
         "display_name": "Intimate Enemy (Dôverný nepriateľ) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:15:05.351851+00:00"
+        "planned_at": "2026-11-21T10:15:08.905184+00:00"
+      },
+      "claim": {
+        "worker_id": "8e756e7bdaa7487ebe3fdbaae884fa54-shard-0",
+        "claimed_at": "2026-11-21T10:15:10.176778+00:00",
+        "lease_expires_at": "2026-11-21T16:15:10.176778+00:00",
+        "run_id": "44889191327"
       }
     },
     "33681": {
       "attempts": []
     },
     "21756": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28453264",
+        "display_name": "The Hell of Manitoba (A Place Called Glory) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T10:15:09.138972+00:00"
+      }
     },
     "15243": {
       "attempts": []
@@ -236217,5 +236234,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:15:05.351870+00:00"
+  "updated_at": "2026-11-21T10:15:11.291905+00:00"
 }
