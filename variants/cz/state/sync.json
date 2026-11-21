@@ -120615,6 +120615,12 @@
         "size_bytes": 4800000000,
         "prepared_at": "2026-11-10T18:33:07.534490+00:00",
         "relay_source_id": "34285214"
+      },
+      "claim": {
+        "worker_id": "186b94c4208646298eab35ed18f40e41-shard-0",
+        "claimed_at": "2026-11-21T05:06:04.440476+00:00",
+        "lease_expires_at": "2026-11-21T11:06:04.440476+00:00",
+        "run_id": "44848457493"
       }
     },
     "11883": {
@@ -121787,7 +121793,7 @@
       "last_plan": {
         "source_id": "34874346",
         "display_name": "Night Train to Lisbon SD CZ Dabing",
-        "planned_at": "2026-11-21T03:21:34.411732+00:00"
+        "planned_at": "2026-11-21T05:06:04.722201+00:00"
       },
       "previous_target_id": "30985387",
       "prepared": {
@@ -125824,13 +125830,6 @@
           "source_id": "27529281",
           "target_video_id": "30985893",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:53:39.864632+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27529281",
-          "target_video_id": "30985893",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:36:19.899786+00:00"
         },
         {
@@ -125839,6 +125838,13 @@
           "target_video_id": "30985893",
           "permanent": false,
           "attempted_at": "2026-11-21T03:21:20.897000+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27529281",
+          "target_video_id": "30985893",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:06:05.045544+00:00"
         }
       ],
       "last_plan": {
@@ -125852,12 +125858,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T22:27:48.871952+00:00",
         "relay_source_id": "27529281"
-      },
-      "claim": {
-        "worker_id": "29af018360864f48a9bd2cc454dd9e4e-shard-0",
-        "claimed_at": "2026-11-21T05:06:00.665241+00:00",
-        "lease_expires_at": "2026-11-21T11:06:00.665241+00:00",
-        "run_id": "44848457493"
       }
     },
     "2916": {
@@ -189654,7 +189654,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:06:01.301253+00:00"
+        "planned_at": "2026-11-21T05:06:05.376296+00:00"
       }
     },
     "25887": {
@@ -234365,5 +234365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:06:01.798203+00:00"
+  "updated_at": "2026-11-21T05:06:05.376317+00:00"
 }
