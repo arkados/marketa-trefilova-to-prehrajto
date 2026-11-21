@@ -194249,17 +194249,19 @@
       }
     },
     "7927": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20459898",
+          "target_video_id": "31231546",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:45:42.803484+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20459898",
         "display_name": "Hidden Family Secrets 1080p CZ Dabing",
         "planned_at": "2026-11-21T15:42:03.485449+00:00"
-      },
-      "claim": {
-        "worker_id": "f9e58dc4b4b34a2ab404a3ef6c4c4423-shard-0",
-        "claimed_at": "2026-11-21T15:42:04.743849+00:00",
-        "lease_expires_at": "2026-11-21T21:42:04.743849+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31231546",
       "prepared": {
@@ -238124,5 +238126,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:45:40.424385+00:00"
+  "updated_at": "2026-11-21T15:45:42.803499+00:00"
 }
