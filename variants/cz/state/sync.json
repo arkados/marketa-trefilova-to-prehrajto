@@ -155278,7 +155278,7 @@
       "last_plan": {
         "source_id": "19982845",
         "display_name": "Ein Sommer in Kapstadt SD CZ Dabing",
-        "planned_at": "2026-11-21T03:41:14.502339+00:00"
+        "planned_at": "2026-11-21T05:31:49.441935+00:00"
       },
       "previous_target_id": "31052284",
       "prepared": {
@@ -155286,6 +155286,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-15T07:25:44.123410+00:00",
         "relay_source_id": "19982845"
+      },
+      "claim": {
+        "worker_id": "03e7b42fdfb64d6dbf1a80e121fab3aa-shard-0",
+        "claimed_at": "2026-11-21T05:31:50.107452+00:00",
+        "lease_expires_at": "2026-11-21T11:31:50.107452+00:00",
+        "run_id": "44855214731"
       }
     },
     "35184": {
@@ -189801,17 +189807,19 @@
       }
     },
     "11695": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26132101",
+          "target_video_id": "31220937",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:31:50.522427+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26132101",
         "display_name": "Yes, Madam (HuangJiaShiJie) 720p CZ Dabing",
         "planned_at": "2026-11-21T05:29:30.890944+00:00"
-      },
-      "claim": {
-        "worker_id": "3c318d667f7f405b9a929eb5766389b9-shard-0",
-        "claimed_at": "2026-11-21T05:29:31.581583+00:00",
-        "lease_expires_at": "2026-11-21T11:29:31.581583+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31220937",
       "prepared": {
@@ -189859,7 +189867,7 @@
       "last_plan": {
         "source_id": "34256066",
         "display_name": "Outerlands 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:31:44.095617+00:00"
+        "planned_at": "2026-11-21T05:31:49.681814+00:00"
       }
     },
     "11121": {
@@ -234519,5 +234527,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:31:46.342528+00:00"
+  "updated_at": "2026-11-21T05:31:50.522443+00:00"
 }
