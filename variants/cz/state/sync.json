@@ -130738,13 +130738,6 @@
           "source_id": "34680568",
           "target_video_id": "30986927",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:25:01.414389+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34680568",
-          "target_video_id": "30986927",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:56:50.301349+00:00"
         },
         {
@@ -130753,6 +130746,13 @@
           "target_video_id": "30986927",
           "permanent": false,
           "attempted_at": "2026-11-21T11:37:37.244953+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34680568",
+          "target_video_id": "30986927",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:17:14.565264+00:00"
         }
       ],
       "last_plan": {
@@ -144100,7 +144100,7 @@
       "last_plan": {
         "source_id": "33480789",
         "display_name": "Hong Gil-dong (Hong Kil-dong) 720p CZ Dabing",
-        "planned_at": "2026-11-21T11:37:35.479071+00:00"
+        "planned_at": "2026-11-21T13:17:12.823957+00:00"
       },
       "previous_target_id": "30988710",
       "prepared": {
@@ -144108,6 +144108,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-11T09:31:20.378523+00:00",
         "relay_source_id": "33480789"
+      },
+      "claim": {
+        "worker_id": "95a89ca720ae424483763827fd3a53af-shard-0",
+        "claimed_at": "2026-11-21T13:17:14.179161+00:00",
+        "lease_expires_at": "2026-11-21T19:17:14.179161+00:00",
+        "run_id": "44889191327"
       }
     },
     "17093": {
@@ -193189,7 +193195,7 @@
       "last_plan": {
         "source_id": "34356391",
         "display_name": "Promises (Les Promesses) 720p CZ Dabing",
-        "planned_at": "2026-11-21T13:17:09.334088+00:00"
+        "planned_at": "2026-11-21T13:17:13.270244+00:00"
       }
     },
     "17134": {
@@ -237252,5 +237258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:17:09.716532+00:00"
+  "updated_at": "2026-11-21T13:17:14.565285+00:00"
 }
