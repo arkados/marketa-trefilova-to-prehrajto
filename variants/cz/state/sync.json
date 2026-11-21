@@ -110903,13 +110903,6 @@
           "source_id": "35095604",
           "target_video_id": "30983770",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:38:21.747402+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35095604",
-          "target_video_id": "30983770",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:59:43.239758+00:00"
         },
         {
@@ -110918,6 +110911,13 @@
           "target_video_id": "30983770",
           "permanent": false,
           "attempted_at": "2026-11-21T10:38:12.002016+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35095604",
+          "target_video_id": "30983770",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:19:35.659602+00:00"
         }
       ],
       "last_plan": {
@@ -143580,7 +143580,7 @@
       "last_plan": {
         "source_id": "30256707",
         "display_name": "Tři chlapi v chalupě SD CZ Dabing",
-        "planned_at": "2026-11-21T10:38:16.535842+00:00"
+        "planned_at": "2026-11-21T12:19:34.031458+00:00"
       },
       "previous_target_id": "30988639",
       "prepared": {
@@ -143588,6 +143588,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T09:01:38.348451+00:00",
         "relay_source_id": "30256707"
+      },
+      "claim": {
+        "worker_id": "d2b15370824347b3a8ab532c36006b21-shard-0",
+        "claimed_at": "2026-11-21T12:19:35.324123+00:00",
+        "lease_expires_at": "2026-11-21T18:19:35.324123+00:00",
+        "run_id": "44889191327"
       }
     },
     "37450": {
@@ -192839,7 +192845,7 @@
       "last_plan": {
         "source_id": "32345697",
         "display_name": "Adieu l'ami 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:19:30.365860+00:00"
+        "planned_at": "2026-11-21T12:19:34.470296+00:00"
       }
     },
     "21494": {
@@ -236962,5 +236968,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:19:30.698750+00:00"
+  "updated_at": "2026-11-21T12:19:35.659624+00:00"
 }
