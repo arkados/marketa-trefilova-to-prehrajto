@@ -113624,13 +113624,6 @@
           "source_id": "33199372",
           "target_video_id": "30984053",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:32:23.834354+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33199372",
-          "target_video_id": "30984053",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:52:53.482370+00:00"
         },
         {
@@ -113639,6 +113632,13 @@
           "target_video_id": "30984053",
           "permanent": false,
           "attempted_at": "2026-11-21T09:12:01.075542+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33199372",
+          "target_video_id": "30984053",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:52:24.169122+00:00"
         }
       ],
       "last_plan": {
@@ -189750,7 +189750,7 @@
       "last_plan": {
         "source_id": "14360307",
         "display_name": "Bourák 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:12:01.274137+00:00"
+        "planned_at": "2026-11-21T10:52:22.513847+00:00"
       },
       "previous_target_id": "31220478",
       "prepared": {
@@ -189758,6 +189758,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-21T04:58:40.613169+00:00",
         "relay_source_id": "14360307"
+      },
+      "claim": {
+        "worker_id": "072b0a4df2b94b2fb6847c712f8cc02a-shard-0",
+        "claimed_at": "2026-11-21T10:52:23.831846+00:00",
+        "lease_expires_at": "2026-11-21T16:52:23.831846+00:00",
+        "run_id": "44889191327"
       }
     },
     "18946": {
@@ -192195,7 +192201,7 @@
       "last_plan": {
         "source_id": "30977734",
         "display_name": "Demetrius and the Gladiators 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:52:19.320738+00:00"
+        "planned_at": "2026-11-21T10:52:22.930285+00:00"
       }
     },
     "17418": {
@@ -236444,5 +236450,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:52:19.672729+00:00"
+  "updated_at": "2026-11-21T10:52:24.169139+00:00"
 }
