@@ -126395,13 +126395,6 @@
           "source_id": "34488867",
           "target_video_id": "30986177",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:59:08.468874+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34488867",
-          "target_video_id": "30986177",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:17:07.929102+00:00"
         },
         {
@@ -126410,6 +126403,13 @@
           "target_video_id": "30986177",
           "permanent": false,
           "attempted_at": "2026-11-21T08:36:15.823358+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34488867",
+          "target_video_id": "30986177",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:11:24.305401+00:00"
         }
       ],
       "last_plan": {
@@ -190813,7 +190813,7 @@
       "last_plan": {
         "source_id": "24263235",
         "display_name": "Adam (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:36:14.886002+00:00"
+        "planned_at": "2026-11-21T10:11:22.600103+00:00"
       },
       "previous_target_id": "31222473",
       "prepared": {
@@ -190821,6 +190821,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-21T07:10:27.555158+00:00",
         "relay_source_id": "24263235"
+      },
+      "claim": {
+        "worker_id": "13c8b80d407d4298b796f7f0cde93ab2-shard-0",
+        "claimed_at": "2026-11-21T10:11:23.889017+00:00",
+        "lease_expires_at": "2026-11-21T16:11:23.889017+00:00",
+        "run_id": "44889191327"
       }
     },
     "23985": {
@@ -191914,7 +191920,7 @@
       "last_plan": {
         "source_id": "29058073",
         "display_name": "Intimate Enemy (Dôverný nepriateľ) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:11:19.624743+00:00"
+        "planned_at": "2026-11-21T10:11:23.048843+00:00"
       }
     },
     "33681": {
@@ -236208,5 +236214,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:11:19.624762+00:00"
+  "updated_at": "2026-11-21T10:11:24.305418+00:00"
 }
