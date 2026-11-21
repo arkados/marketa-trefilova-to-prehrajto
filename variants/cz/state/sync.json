@@ -141889,13 +141889,6 @@
           "source_id": "30436273",
           "target_video_id": "30988335",
           "permanent": false,
-          "attempted_at": "2026-11-21T01:32:52.425235+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30436273",
-          "target_video_id": "30988335",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:19:06.113056+00:00"
         },
         {
@@ -141904,12 +141897,19 @@
           "target_video_id": "30988335",
           "permanent": false,
           "attempted_at": "2026-11-21T05:04:29.125683+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30436273",
+          "target_video_id": "30988335",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:33:55.740653+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30436273",
         "display_name": "Musíme se sejít SD CZ Dabing",
-        "planned_at": "2026-11-21T05:04:19.800813+00:00"
+        "planned_at": "2026-11-21T06:33:53.595888+00:00"
       },
       "previous_target_id": "30988335",
       "prepared": {
@@ -190345,14 +190345,25 @@
       "last_plan": {
         "source_id": "34118824",
         "display_name": "Sarah Bernhardt, La Divine (The Divine Sarah Bernhardt) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:33:49.207848+00:00"
+        "planned_at": "2026-11-21T06:33:53.825009+00:00"
+      },
+      "claim": {
+        "worker_id": "1be909551e604b17aae878c67b044d34-shard-0",
+        "claimed_at": "2026-11-21T06:33:54.513122+00:00",
+        "lease_expires_at": "2026-11-21T12:33:54.513122+00:00",
+        "run_id": "44855214731"
       }
     },
     "32594": {
       "attempts": []
     },
     "24068": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32094367",
+        "display_name": "Thunder in the Hills (V horách duní) SD CZ Dabing",
+        "planned_at": "2026-11-21T06:33:53.964147+00:00"
+      }
     },
     "29745": {
       "attempts": []
@@ -234918,5 +234929,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:33:50.642021+00:00"
+  "updated_at": "2026-11-21T06:33:55.740672+00:00"
 }
