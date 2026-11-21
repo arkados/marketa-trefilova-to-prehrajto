@@ -122556,13 +122556,6 @@
           "source_id": "12796812",
           "target_video_id": "30985447",
           "permanent": false,
-          "attempted_at": "2026-11-21T02:35:53.376924+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12796812",
-          "target_video_id": "30985447",
-          "permanent": false,
           "attempted_at": "2026-11-21T04:24:12.189020+00:00"
         },
         {
@@ -122571,6 +122564,13 @@
           "target_video_id": "30985447",
           "permanent": false,
           "attempted_at": "2026-11-21T06:02:59.312773+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12796812",
+          "target_video_id": "30985447",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:23:18.944362+00:00"
         }
       ],
       "last_plan": {
@@ -143014,7 +143014,7 @@
       "last_plan": {
         "source_id": "34953142",
         "display_name": "Les Mystères de la Chorale SD CZ Dabing",
-        "planned_at": "2026-11-21T06:02:58.452440+00:00"
+        "planned_at": "2026-11-21T07:23:17.541996+00:00"
       },
       "previous_target_id": "30988584",
       "prepared": {
@@ -143022,6 +143022,12 @@
         "size_bytes": 935200000,
         "prepared_at": "2026-11-11T08:48:27.618182+00:00",
         "relay_source_id": "34953142"
+      },
+      "claim": {
+        "worker_id": "71b19424586d426a87c58cd18f95d89c-shard-0",
+        "claimed_at": "2026-11-21T07:23:18.184474+00:00",
+        "lease_expires_at": "2026-11-21T13:23:18.184474+00:00",
+        "run_id": "44855214731"
       }
     },
     "24314": {
@@ -190708,17 +190714,19 @@
       }
     },
     "31620": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34083070",
+          "target_video_id": "31222718",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:23:19.115444+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34083070",
         "display_name": "Le courage d'aimer (The Courage to Love) SD CZ Dabing",
         "planned_at": "2026-11-21T07:21:24.281939+00:00"
-      },
-      "claim": {
-        "worker_id": "e71939fabd1b4cc6bc6731883ffd2e3a-shard-0",
-        "claimed_at": "2026-11-21T07:21:24.918880+00:00",
-        "lease_expires_at": "2026-11-21T13:21:24.918880+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31222718",
       "prepared": {
@@ -190733,7 +190741,7 @@
       "last_plan": {
         "source_id": "27028613",
         "display_name": "Dragons: Rescue Riders: Huttsgalor Holiday 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:23:14.018000+00:00"
+        "planned_at": "2026-11-21T07:23:17.782969+00:00"
       }
     },
     "24814": {
@@ -235231,5 +235239,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:23:14.018018+00:00"
+  "updated_at": "2026-11-21T07:23:19.115458+00:00"
 }
