@@ -39102,13 +39102,6 @@
           "source_id": "34784954",
           "target_video_id": "30745770",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:06:20.803811+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34784954",
-          "target_video_id": "30745770",
-          "permanent": false,
           "attempted_at": "2026-11-21T00:48:02.544169+00:00"
         },
         {
@@ -39117,6 +39110,13 @@
           "target_video_id": "30745770",
           "permanent": false,
           "attempted_at": "2026-11-21T02:32:32.674579+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34784954",
+          "target_video_id": "30745770",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:20:30.700732+00:00"
         }
       ],
       "last_plan": {
@@ -185381,7 +185381,7 @@
       "last_plan": {
         "source_id": "25834193",
         "display_name": "Shoky & Morthy: Last Big Thing (Shoky & Morthy: Poslední velká akce) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:32:31.933959+00:00"
+        "planned_at": "2026-11-21T04:20:28.905662+00:00"
       },
       "previous_target_id": "31206308",
       "prepared": {
@@ -185389,6 +185389,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-20T14:31:18.218759+00:00",
         "relay_source_id": "25834193"
+      },
+      "claim": {
+        "worker_id": "36f1831547324b93af04bc48c25cda87-shard-0",
+        "claimed_at": "2026-11-21T04:20:29.943874+00:00",
+        "lease_expires_at": "2026-11-21T10:20:29.943874+00:00",
+        "run_id": "44848457493"
       }
     },
     "27999": {
@@ -189314,7 +189320,7 @@
       "last_plan": {
         "source_id": "22132277",
         "display_name": "Servants (Služobníci) 720p CZ Dabing",
-        "planned_at": "2026-11-21T04:20:25.485020+00:00"
+        "planned_at": "2026-11-21T04:20:29.276510+00:00"
       }
     },
     "32614": {
@@ -234093,5 +234099,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:20:25.794740+00:00"
+  "updated_at": "2026-11-21T04:20:30.700753+00:00"
 }
