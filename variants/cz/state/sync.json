@@ -188910,17 +188910,19 @@
       "attempts": []
     },
     "32854": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11985679",
+          "target_video_id": "31218779",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:09:56.341486+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11985679",
         "display_name": "Man from Del Rio SD CZ Dabing",
         "planned_at": "2026-11-21T03:08:14.915481+00:00"
-      },
-      "claim": {
-        "worker_id": "bba2b998f34c4d92b8739c6aca2eeb09-shard-0",
-        "claimed_at": "2026-11-21T03:08:18.101873+00:00",
-        "lease_expires_at": "2026-11-21T09:08:18.101873+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31218779",
       "prepared": {
@@ -233763,5 +233765,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:09:53.811538+00:00"
+  "updated_at": "2026-11-21T03:09:56.341508+00:00"
 }
