@@ -109917,13 +109917,6 @@
           "source_id": "25985391",
           "target_video_id": "30983681",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:49:05.114260+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25985391",
-          "target_video_id": "30983681",
-          "permanent": false,
           "attempted_at": "2026-11-21T00:27:32.265177+00:00"
         },
         {
@@ -109932,6 +109925,13 @@
           "target_video_id": "30983681",
           "permanent": false,
           "attempted_at": "2026-11-21T02:14:37.661143+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25985391",
+          "target_video_id": "30983681",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:59:52.105724+00:00"
         }
       ],
       "last_plan": {
@@ -109945,12 +109945,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T14:33:23.958784+00:00",
         "relay_source_id": "25985391"
-      },
-      "claim": {
-        "worker_id": "55284db4308549a39b75ba0e63ca3326-shard-0",
-        "claimed_at": "2026-11-21T03:59:48.312636+00:00",
-        "lease_expires_at": "2026-11-21T09:59:48.312636+00:00",
-        "run_id": "44848457493"
       }
     },
     "10851": {
@@ -163899,7 +163893,7 @@
       "last_plan": {
         "source_id": "30294681",
         "display_name": "The Nest (2002) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:14:35.708081+00:00"
+        "planned_at": "2026-11-21T03:59:51.414228+00:00"
       },
       "previous_target_id": "31095446",
       "prepared": {
@@ -163907,6 +163901,12 @@
         "size_bytes": 12800000000,
         "prepared_at": "2026-11-16T17:34:53.721834+00:00",
         "relay_source_id": "30294681"
+      },
+      "claim": {
+        "worker_id": "2fb77b021ff341b59756ef03d38dc603-shard-0",
+        "claimed_at": "2026-11-21T03:59:52.726518+00:00",
+        "lease_expires_at": "2026-11-21T09:59:52.726518+00:00",
+        "run_id": "44848457493"
       }
     },
     "3308": {
@@ -189243,7 +189243,7 @@
       "last_plan": {
         "source_id": "34713167",
         "display_name": "The Outside Man 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:59:47.671990+00:00"
+        "planned_at": "2026-11-21T03:59:51.795981+00:00"
       }
     },
     "11688": {
@@ -234023,5 +234023,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:59:49.063181+00:00"
+  "updated_at": "2026-11-21T03:59:52.726544+00:00"
 }
