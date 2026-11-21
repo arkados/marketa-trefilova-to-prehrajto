@@ -119190,13 +119190,6 @@
           "source_id": "12049029",
           "target_video_id": "30984886",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:37:46.405984+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12049029",
-          "target_video_id": "30984886",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:57:35.611367+00:00"
         },
         {
@@ -119205,6 +119198,13 @@
           "target_video_id": "30984886",
           "permanent": false,
           "attempted_at": "2026-11-21T09:16:42.440901+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12049029",
+          "target_video_id": "30984886",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:00:33.459020+00:00"
         }
       ],
       "last_plan": {
@@ -191716,7 +191716,7 @@
       "last_plan": {
         "source_id": "25780807",
         "display_name": "Vyšehrad: Fylm 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:13:12.955555+00:00"
+        "planned_at": "2026-11-21T11:00:31.547594+00:00"
       },
       "previous_target_id": "31224493",
       "prepared": {
@@ -191724,6 +191724,12 @@
         "size_bytes": 2295310531,
         "prepared_at": "2026-11-21T09:13:20.267099+00:00",
         "relay_source_id": "25780807"
+      },
+      "claim": {
+        "worker_id": "36e6a02ace2c4f249e6143c843026e87-shard-0",
+        "claimed_at": "2026-11-21T11:00:32.905826+00:00",
+        "lease_expires_at": "2026-11-21T17:00:32.905826+00:00",
+        "run_id": "44889191327"
       }
     },
     "21967": {
@@ -192225,7 +192231,7 @@
       "last_plan": {
         "source_id": "34695993",
         "display_name": "Kouzelník Žito 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:00:28.492287+00:00"
+        "planned_at": "2026-11-21T11:00:32.003487+00:00"
       }
     },
     "32686": {
@@ -236471,5 +236477,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:00:28.492305+00:00"
+  "updated_at": "2026-11-21T11:00:33.459039+00:00"
 }
