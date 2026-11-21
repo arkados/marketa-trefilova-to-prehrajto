@@ -188752,17 +188752,19 @@
       "attempts": []
     },
     "16176": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32144558",
+          "target_video_id": "31218280",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:46:02.867474+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32144558",
         "display_name": "Icing (Zakázané uvolnění) 1080p CZ Dabing",
         "planned_at": "2026-11-21T02:39:29.885360+00:00"
-      },
-      "claim": {
-        "worker_id": "6981b3534f474bdeb26b1fcb62665484-shard-0",
-        "claimed_at": "2026-11-21T02:39:30.982052+00:00",
-        "lease_expires_at": "2026-11-21T08:39:30.982052+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31218280",
       "prepared": {
@@ -233632,5 +233634,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:46:00.246129+00:00"
+  "updated_at": "2026-11-21T02:46:02.867496+00:00"
 }
