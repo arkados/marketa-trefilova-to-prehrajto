@@ -110019,6 +110019,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T14:34:01.849055+00:00",
         "relay_source_id": "24035589"
+      },
+      "claim": {
+        "worker_id": "601ebcb07d95461a9da74c9955ea52aa-shard-0",
+        "claimed_at": "2026-11-21T02:17:12.076194+00:00",
+        "lease_expires_at": "2026-11-21T08:17:12.076194+00:00",
+        "run_id": "44848457493"
       }
     },
     "31206": {
@@ -112771,13 +112777,6 @@
           "source_id": "35074796",
           "target_video_id": "30983926",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:14:12.665652+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35074796",
-          "target_video_id": "30983926",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:51:49.575209+00:00"
         },
         {
@@ -112786,6 +112785,13 @@
           "target_video_id": "30983926",
           "permanent": false,
           "attempted_at": "2026-11-21T00:29:53.058968+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35074796",
+          "target_video_id": "30983926",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:17:13.046143+00:00"
         }
       ],
       "last_plan": {
@@ -112799,12 +112805,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:04:16.781769+00:00",
         "relay_source_id": "35074796"
-      },
-      "claim": {
-        "worker_id": "02de19db4762464297fd06f0a42bd207-shard-0",
-        "claimed_at": "2026-11-21T02:17:08.637664+00:00",
-        "lease_expires_at": "2026-11-21T08:17:08.637664+00:00",
-        "run_id": "44848457493"
       }
     },
     "14842": {
@@ -158172,7 +158172,7 @@
       "last_plan": {
         "source_id": "15349115",
         "display_name": "Das doppelte Lottchen 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:29:57.075807+00:00"
+        "planned_at": "2026-11-21T02:17:12.370304+00:00"
       },
       "previous_target_id": "31067880",
       "prepared": {
@@ -188608,7 +188608,7 @@
       "last_plan": {
         "source_id": "4725138",
         "display_name": "Stranger in the House SD CZ Dabing",
-        "planned_at": "2026-11-21T02:17:09.258322+00:00"
+        "planned_at": "2026-11-21T02:17:12.724515+00:00"
       }
     },
     "24929": {
@@ -233496,5 +233496,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:17:09.258343+00:00"
+  "updated_at": "2026-11-21T02:17:13.046169+00:00"
 }
