@@ -21778,13 +21778,6 @@
           "source_id": "30201467",
           "target_video_id": "30689742",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:15:28.736651+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30201467",
-          "target_video_id": "30689742",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:34:35.353444+00:00"
         },
         {
@@ -21793,6 +21786,13 @@
           "target_video_id": "30689742",
           "permanent": false,
           "attempted_at": "2026-11-21T10:09:23.227473+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30201467",
+          "target_video_id": "30689742",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:49:55.863677+00:00"
         }
       ],
       "last_plan": {
@@ -137197,7 +137197,7 @@
       "last_plan": {
         "source_id": "31005194",
         "display_name": "Mord 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:09:20.004098+00:00"
+        "planned_at": "2026-11-21T11:49:53.830093+00:00"
       },
       "previous_target_id": "30987751",
       "prepared": {
@@ -137205,6 +137205,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:55:02.328631+00:00",
         "relay_source_id": "31005194"
+      },
+      "claim": {
+        "worker_id": "de18fd7bdca349e88792338308be0a92-shard-0",
+        "claimed_at": "2026-11-21T11:49:55.062665+00:00",
+        "lease_expires_at": "2026-11-21T17:49:55.062665+00:00",
+        "run_id": "44889191327"
       }
     },
     "3365": {
@@ -192631,7 +192637,7 @@
       "last_plan": {
         "source_id": "12656509",
         "display_name": "Scooby-Doo! Pirates Ahoy! SD CZ Dabing",
-        "planned_at": "2026-11-21T11:49:50.929520+00:00"
+        "planned_at": "2026-11-21T11:49:54.223353+00:00"
       }
     },
     "5717": {
@@ -236784,5 +236790,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:49:50.929538+00:00"
+  "updated_at": "2026-11-21T11:49:55.863695+00:00"
 }
