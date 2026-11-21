@@ -108975,6 +108975,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T14:19:33.837165+00:00",
         "relay_source_id": "33495197"
+      },
+      "claim": {
+        "worker_id": "c8fd52c17cbb4821af2affdec40bfc73-shard-0",
+        "claimed_at": "2026-11-21T07:57:45.404413+00:00",
+        "lease_expires_at": "2026-11-21T13:57:45.404413+00:00",
+        "run_id": "44855214731"
       }
     },
     "2207": {
@@ -109095,13 +109101,6 @@
           "source_id": "34662419",
           "target_video_id": "30983604",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:25:14.151813+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34662419",
-          "target_video_id": "30983604",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:09:06.788043+00:00"
         },
         {
@@ -109110,6 +109109,13 @@
           "target_video_id": "30983604",
           "permanent": false,
           "attempted_at": "2026-11-21T06:37:52.954963+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34662419",
+          "target_video_id": "30983604",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:57:46.125761+00:00"
         }
       ],
       "last_plan": {
@@ -109123,12 +109129,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T14:21:41.213309+00:00",
         "relay_source_id": "34662419"
-      },
-      "claim": {
-        "worker_id": "86c1d1a3d81248f4a37fce70bc1c4f99-shard-0",
-        "claimed_at": "2026-11-21T07:57:42.428729+00:00",
-        "lease_expires_at": "2026-11-21T13:57:42.428729+00:00",
-        "run_id": "44855214731"
       }
     },
     "31848": {
@@ -129172,7 +129172,7 @@
       "last_plan": {
         "source_id": "34711999",
         "display_name": "Gourmet Detective: Eat, Drink, and Be Buried (Gourmet Detective: Eat, Drink and Be Buried) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:37:55.841268+00:00"
+        "planned_at": "2026-11-21T07:57:45.635148+00:00"
       },
       "previous_target_id": "30986733",
       "prepared": {
@@ -191066,7 +191066,7 @@
       "last_plan": {
         "source_id": "6665384",
         "display_name": "Bobby Jones: Stroke of Genius SD CZ Dabing",
-        "planned_at": "2026-11-21T07:57:42.885943+00:00"
+        "planned_at": "2026-11-21T07:57:45.879282+00:00"
       }
     },
     "29877": {
@@ -235510,5 +235510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:57:42.885967+00:00"
+  "updated_at": "2026-11-21T07:57:46.125797+00:00"
 }
