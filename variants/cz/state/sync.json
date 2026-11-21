@@ -113841,13 +113841,6 @@
           "source_id": "33115659",
           "target_video_id": "30984064",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:53:04.152578+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33115659",
-          "target_video_id": "30984064",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:34:26.967487+00:00"
         },
         {
@@ -113856,6 +113849,13 @@
           "target_video_id": "30984064",
           "permanent": false,
           "attempted_at": "2026-11-21T03:20:11.158221+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33115659",
+          "target_video_id": "30984064",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:05:37.233934+00:00"
         }
       ],
       "last_plan": {
@@ -113869,12 +113869,6 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:22:38.900895+00:00",
         "relay_source_id": "33115659"
-      },
-      "claim": {
-        "worker_id": "2ff7bdcb815740f48e4e17fc6c47ad68-shard-0",
-        "claimed_at": "2026-11-21T05:05:31.120961+00:00",
-        "lease_expires_at": "2026-11-21T11:05:31.120961+00:00",
-        "run_id": "44848457493"
       }
     },
     "3042": {
@@ -119142,7 +119136,7 @@
       "last_plan": {
         "source_id": "11130470",
         "display_name": "Fair Game (2010) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:20:22.527622+00:00"
+        "planned_at": "2026-11-21T05:05:35.222052+00:00"
       },
       "previous_target_id": "30984884",
       "prepared": {
@@ -119150,6 +119144,12 @@
         "size_bytes": 13800000000,
         "prepared_at": "2026-11-10T18:02:37.912861+00:00",
         "relay_source_id": "11130470"
+      },
+      "claim": {
+        "worker_id": "840a2aa67c594f0084f1be132385f25b-shard-0",
+        "claimed_at": "2026-11-21T05:05:36.177233+00:00",
+        "lease_expires_at": "2026-11-21T11:05:36.177233+00:00",
+        "run_id": "44848457493"
       }
     },
     "11623": {
@@ -128180,6 +128180,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T01:01:16.742865+00:00",
         "relay_source_id": "33819340"
+      },
+      "claim": {
+        "worker_id": "506acfb98b234111b2381df15ab05295-shard-0",
+        "claimed_at": "2026-11-21T05:05:34.914671+00:00",
+        "lease_expires_at": "2026-11-21T11:05:34.914671+00:00",
+        "run_id": "44848457493"
       }
     },
     "19104": {
@@ -189654,7 +189660,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:05:31.780894+00:00"
+        "planned_at": "2026-11-21T05:05:35.586524+00:00"
       }
     },
     "25887": {
@@ -234365,5 +234371,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:05:32.105460+00:00"
+  "updated_at": "2026-11-21T05:05:37.233955+00:00"
 }
