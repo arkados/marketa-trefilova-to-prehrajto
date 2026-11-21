@@ -115758,13 +115758,6 @@
           "source_id": "27423356",
           "target_video_id": "30984629",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:28:30.870059+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27423356",
-          "target_video_id": "30984629",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:46:08.896909+00:00"
         },
         {
@@ -115773,6 +115766,13 @@
           "target_video_id": "30984629",
           "permanent": false,
           "attempted_at": "2026-11-21T00:23:48.044561+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27423356",
+          "target_video_id": "30984629",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:08:08.535033+00:00"
         }
       ],
       "last_plan": {
@@ -138780,7 +138780,7 @@
       "last_plan": {
         "source_id": "34716543",
         "display_name": "Ukradnutý Stát (Ukradnutý štát) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:23:50.320027+00:00"
+        "planned_at": "2026-11-21T02:08:05.901068+00:00"
       },
       "previous_target_id": "30987889",
       "prepared": {
@@ -138788,6 +138788,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T06:37:21.744038+00:00",
         "relay_source_id": "34716543"
+      },
+      "claim": {
+        "worker_id": "6a56aa9e45de4946bfc52f24af92ad28-shard-0",
+        "claimed_at": "2026-11-21T02:08:07.195118+00:00",
+        "lease_expires_at": "2026-11-21T08:08:07.195118+00:00",
+        "run_id": "44848457493"
       }
     },
     "12832": {
@@ -188541,14 +188547,25 @@
       "last_plan": {
         "source_id": "32224350",
         "display_name": "Lykkelige omstændigheder 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:08:02.306576+00:00"
+        "planned_at": "2026-11-21T02:08:06.252017+00:00"
+      },
+      "claim": {
+        "worker_id": "58ead360fc4d4847b9104a1dc66cde43-shard-0",
+        "claimed_at": "2026-11-21T02:08:07.413475+00:00",
+        "lease_expires_at": "2026-11-21T08:08:07.413475+00:00",
+        "run_id": "44848457493"
       }
     },
     "8142": {
       "attempts": []
     },
     "32573": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "10317072",
+        "display_name": "Schneider vs. Bax SD CZ Dabing",
+        "planned_at": "2026-11-21T02:08:06.491803+00:00"
+      }
     },
     "23288": {
       "attempts": []
@@ -233438,5 +233455,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:08:02.585442+00:00"
+  "updated_at": "2026-11-21T02:08:08.535055+00:00"
 }
