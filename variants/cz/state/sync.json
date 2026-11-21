@@ -136706,13 +136706,6 @@
           "source_id": "34756332",
           "target_video_id": "30987705",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:49:33.796987+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34756332",
-          "target_video_id": "30987705",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:34:35.704374+00:00"
         },
         {
@@ -136721,6 +136714,13 @@
           "target_video_id": "30987705",
           "permanent": false,
           "attempted_at": "2026-11-21T06:56:34.058519+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34756332",
+          "target_video_id": "30987705",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:13:39.435485+00:00"
         }
       ],
       "last_plan": {
@@ -140402,7 +140402,7 @@
       "last_plan": {
         "source_id": "34789190",
         "display_name": "Lízin let do nebe 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:56:33.097698+00:00"
+        "planned_at": "2026-11-21T08:13:37.780906+00:00"
       },
       "previous_target_id": "30988078",
       "prepared": {
@@ -140410,6 +140410,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-11T07:28:05.394485+00:00",
         "relay_source_id": "34789190"
+      },
+      "claim": {
+        "worker_id": "bd34d1fd10e44610af48057be3dc2eb1-shard-0",
+        "claimed_at": "2026-11-21T08:13:38.369617+00:00",
+        "lease_expires_at": "2026-11-21T14:13:38.369617+00:00",
+        "run_id": "44855214731"
       }
     },
     "24824": {
@@ -191174,7 +191180,7 @@
       "last_plan": {
         "source_id": "34660934",
         "display_name": "The Robber Hotzenplotz (Der Räuber Hotzenplotz) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:13:34.000977+00:00"
+        "planned_at": "2026-11-21T08:13:38.010549+00:00"
       }
     },
     "10727": {
@@ -235594,5 +235600,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:13:34.365674+00:00"
+  "updated_at": "2026-11-21T08:13:39.435502+00:00"
 }
