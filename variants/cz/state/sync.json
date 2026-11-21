@@ -120550,13 +120550,6 @@
           "source_id": "14572727",
           "target_video_id": "30985009",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:19:46.628384+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14572727",
-          "target_video_id": "30985009",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:55:27.677530+00:00"
         },
         {
@@ -120565,6 +120558,13 @@
           "target_video_id": "30985009",
           "permanent": false,
           "attempted_at": "2026-11-21T17:36:09.709321+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14572727",
+          "target_video_id": "30985009",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:16:01.445211+00:00"
         }
       ],
       "last_plan": {
@@ -152660,7 +152660,7 @@
       "last_plan": {
         "source_id": "22312690",
         "display_name": "Cinderella (Aschenputtel) (2011) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:36:08.986063+00:00"
+        "planned_at": "2026-11-21T19:16:00.056577+00:00"
       },
       "previous_target_id": "31035934",
       "prepared": {
@@ -152668,6 +152668,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-14T17:46:20.842134+00:00",
         "relay_source_id": "22312690"
+      },
+      "claim": {
+        "worker_id": "da0805fc2f4b45ec8b334e95e702c79e-shard-0",
+        "claimed_at": "2026-11-21T19:16:01.164351+00:00",
+        "lease_expires_at": "2026-11-22T01:16:01.164351+00:00",
+        "run_id": "44930055910"
       }
     },
     "10323": {
@@ -196118,7 +196124,7 @@
       "last_plan": {
         "source_id": "31796171",
         "display_name": "Whisper 2 (Ostwind 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:15:57.115352+00:00"
+        "planned_at": "2026-11-21T19:16:00.436808+00:00"
       }
     },
     "10762": {
@@ -239563,5 +239569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:15:57.115370+00:00"
+  "updated_at": "2026-11-21T19:16:01.445245+00:00"
 }
