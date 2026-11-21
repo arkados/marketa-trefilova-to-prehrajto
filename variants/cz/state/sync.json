@@ -119835,6 +119835,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T18:19:44.973444+00:00",
         "relay_source_id": "32799273"
+      },
+      "claim": {
+        "worker_id": "07bb644463394e40b1a4b86d6b65004c-shard-0",
+        "claimed_at": "2026-11-21T15:18:33.457217+00:00",
+        "lease_expires_at": "2026-11-21T21:18:33.457217+00:00",
+        "run_id": "44897571814"
       }
     },
     "23650": {
@@ -134417,7 +134423,7 @@
       "last_plan": {
         "source_id": "23221863",
         "display_name": "Ten svetr si nesvlíkej 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:44:20.592883+00:00"
+        "planned_at": "2026-11-21T15:18:33.767471+00:00"
       },
       "previous_target_id": "30987417",
       "prepared": {
@@ -193992,17 +193998,19 @@
       "attempts": []
     },
     "27373": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31313069",
+          "target_video_id": "31231097",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:18:34.735823+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31313069",
         "display_name": "Cousinhood SD CZ Dabing",
         "planned_at": "2026-11-21T15:17:19.331723+00:00"
-      },
-      "claim": {
-        "worker_id": "0fefa06b19164ab8a271151cbe8685e8-shard-0",
-        "claimed_at": "2026-11-21T15:17:22.641696+00:00",
-        "lease_expires_at": "2026-11-21T21:17:22.641696+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31231097",
       "prepared": {
@@ -194023,7 +194031,7 @@
       "last_plan": {
         "source_id": "34884382",
         "display_name": "Šťastný nový rok 2: Dobro došli 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:18:30.516821+00:00"
+        "planned_at": "2026-11-21T15:18:34.269535+00:00"
       }
     },
     "21417": {
@@ -237924,5 +237932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:18:30.932576+00:00"
+  "updated_at": "2026-11-21T15:18:34.735842+00:00"
 }
