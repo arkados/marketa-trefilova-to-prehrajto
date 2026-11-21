@@ -195258,17 +195258,19 @@
       }
     },
     "18804": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31625425",
+          "target_video_id": "31233530",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:58:09.805935+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31625425",
         "display_name": "Stolen: Heist of the Century 1080p CZ Dabing",
         "planned_at": "2026-11-21T17:54:59.636446+00:00"
-      },
-      "claim": {
-        "worker_id": "31f5e583454c4c7dbe3532826d68aa91-shard-0",
-        "claimed_at": "2026-11-21T17:55:02.491884+00:00",
-        "lease_expires_at": "2026-11-21T23:55:02.491884+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31233530",
       "prepared": {
@@ -238911,5 +238913,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:57:59.387630+00:00"
+  "updated_at": "2026-11-21T17:58:09.805945+00:00"
 }
