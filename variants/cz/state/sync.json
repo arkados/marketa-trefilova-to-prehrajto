@@ -121262,13 +121262,6 @@
           "source_id": "34392768",
           "target_video_id": "30985051",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:17:41.015405+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34392768",
-          "target_video_id": "30985051",
-          "permanent": false,
           "attempted_at": "2026-11-21T17:55:34.879901+00:00"
         },
         {
@@ -121277,6 +121270,13 @@
           "target_video_id": "30985051",
           "permanent": false,
           "attempted_at": "2026-11-21T19:36:57.796522+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34392768",
+          "target_video_id": "30985051",
+          "permanent": false,
+          "attempted_at": "2026-11-21T21:10:15.050013+00:00"
         }
       ],
       "last_plan": {
@@ -138580,7 +138580,7 @@
       "last_plan": {
         "source_id": "34661718",
         "display_name": "Rukavička 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:37:00.981161+00:00"
+        "planned_at": "2026-11-21T21:10:12.967125+00:00"
       },
       "previous_target_id": "30987874",
       "prepared": {
@@ -138588,6 +138588,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-11-11T06:32:04.763146+00:00",
         "relay_source_id": "34661718"
+      },
+      "claim": {
+        "worker_id": "bb636f77e16f44bbb010e651af366305-shard-0",
+        "claimed_at": "2026-11-21T21:10:14.007026+00:00",
+        "lease_expires_at": "2026-11-22T03:10:14.007026+00:00",
+        "run_id": "44930055910"
       }
     },
     "12707": {
@@ -196844,7 +196850,7 @@
       "last_plan": {
         "source_id": "17612585",
         "display_name": "Today's Special 1080p CZ Dabing",
-        "planned_at": "2026-11-21T21:10:10.149213+00:00"
+        "planned_at": "2026-11-21T21:10:13.347435+00:00"
       }
     },
     "15789": {
@@ -240202,5 +240208,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:10:10.149233+00:00"
+  "updated_at": "2026-11-21T21:10:15.050034+00:00"
 }
