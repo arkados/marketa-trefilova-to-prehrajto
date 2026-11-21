@@ -120843,6 +120843,12 @@
         "size_bytes": 5500000000,
         "prepared_at": "2026-11-10T18:36:09.581586+00:00",
         "relay_source_id": "34453326"
+      },
+      "claim": {
+        "worker_id": "2de06e47b8bc4f8685fc91b8aa3e865b-shard-0",
+        "claimed_at": "2026-11-21T01:46:43.261769+00:00",
+        "lease_expires_at": "2026-11-21T07:46:43.261769+00:00",
+        "run_id": "44848457493"
       }
     },
     "3003": {
@@ -120872,7 +120878,7 @@
       "last_plan": {
         "source_id": "17805705",
         "display_name": "Ballerina (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:00:10.341751+00:00"
+        "planned_at": "2026-11-21T01:46:43.903204+00:00"
       },
       "previous_target_id": "30985024",
       "prepared": {
@@ -125953,13 +125959,6 @@
           "source_id": "32203611",
           "target_video_id": "30985914",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:03:15.358951+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32203611",
-          "target_video_id": "30985914",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:23:21.148140+00:00"
         },
         {
@@ -125968,6 +125967,13 @@
           "target_video_id": "30985914",
           "permanent": false,
           "attempted_at": "2026-11-21T00:00:07.514849+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32203611",
+          "target_video_id": "30985914",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:46:42.291549+00:00"
         }
       ],
       "last_plan": {
@@ -125981,12 +125987,6 @@
         "size_bytes": 18600000000,
         "prepared_at": "2026-11-10T22:31:37.248887+00:00",
         "relay_source_id": "32203611"
-      },
-      "claim": {
-        "worker_id": "afa3305f2c9f4f93a211bb504f2c8283-shard-0",
-        "claimed_at": "2026-11-21T01:46:38.469409+00:00",
-        "lease_expires_at": "2026-11-21T07:46:38.469409+00:00",
-        "run_id": "44848457493"
       }
     },
     "30263": {
@@ -188385,7 +188385,7 @@
       "last_plan": {
         "source_id": "34784826",
         "display_name": "Cosmos (1996) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:46:39.394311+00:00"
+        "planned_at": "2026-11-21T01:46:44.262386+00:00"
       }
     },
     "16041": {
@@ -233309,5 +233309,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:46:39.394331+00:00"
+  "updated_at": "2026-11-21T01:46:44.262405+00:00"
 }
