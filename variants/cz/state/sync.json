@@ -121510,7 +121510,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:16:46.272939+00:00"
+        "planned_at": "2026-11-21T16:52:04.473262+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -121518,6 +121518,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T18:46:56.543848+00:00",
         "relay_source_id": "34176833"
+      },
+      "claim": {
+        "worker_id": "35f7bb99090046a8a73cd19c47a0bee7-shard-0",
+        "claimed_at": "2026-11-21T16:52:05.485735+00:00",
+        "lease_expires_at": "2026-11-21T22:52:05.485735+00:00",
+        "run_id": "44897571814"
       }
     },
     "19133": {
@@ -144357,13 +144363,6 @@
           "source_id": "34716304",
           "target_video_id": "30988791",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:00:33.361817+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716304",
-          "target_video_id": "30988791",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:42:39.553782+00:00"
         },
         {
@@ -144372,6 +144371,13 @@
           "target_video_id": "30988791",
           "permanent": false,
           "attempted_at": "2026-11-21T15:16:46.807017+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716304",
+          "target_video_id": "30988791",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:52:07.032206+00:00"
         }
       ],
       "last_plan": {
@@ -194670,17 +194676,19 @@
       "attempts": []
     },
     "16945": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27064637",
+          "target_video_id": "31232421",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:52:07.655880+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27064637",
         "display_name": "Ordinary Love 1080p CZ Dabing",
         "planned_at": "2026-11-21T16:38:17.108996+00:00"
-      },
-      "claim": {
-        "worker_id": "4dab5ecde1534c299fe447bb89952c7c-shard-0",
-        "claimed_at": "2026-11-21T16:38:20.135468+00:00",
-        "lease_expires_at": "2026-11-21T22:38:20.135468+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31232421",
       "prepared": {
@@ -194707,7 +194715,7 @@
       "last_plan": {
         "source_id": "31716633",
         "display_name": "L'avare 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:52:00.238854+00:00"
+        "planned_at": "2026-11-21T16:52:04.859891+00:00"
       }
     },
     "28054": {
@@ -238464,5 +238472,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:52:00.550644+00:00"
+  "updated_at": "2026-11-21T16:52:07.655895+00:00"
 }
