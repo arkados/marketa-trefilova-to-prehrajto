@@ -137565,13 +137565,6 @@
           "source_id": "30647651",
           "target_video_id": "30987782",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:59:02.354706+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30647651",
-          "target_video_id": "30987782",
-          "permanent": false,
           "attempted_at": "2026-11-21T02:48:06.909180+00:00"
         },
         {
@@ -137580,6 +137573,13 @@
           "target_video_id": "30987782",
           "permanent": false,
           "attempted_at": "2026-11-21T04:32:03.682552+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30647651",
+          "target_video_id": "30987782",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:09:06.209041+00:00"
         }
       ],
       "last_plan": {
@@ -141401,7 +141401,7 @@
       "last_plan": {
         "source_id": "11736941",
         "display_name": "The Russian Job (Švéd v žigulíku) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:32:01.483958+00:00"
+        "planned_at": "2026-11-21T06:09:04.652488+00:00"
       },
       "previous_target_id": "30988215",
       "prepared": {
@@ -141409,6 +141409,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T07:52:44.166649+00:00",
         "relay_source_id": "11736941"
+      },
+      "claim": {
+        "worker_id": "e5fa16eaa97b4493ba877b244962131a-shard-0",
+        "claimed_at": "2026-11-21T06:09:05.414814+00:00",
+        "lease_expires_at": "2026-11-21T12:09:05.414814+00:00",
+        "run_id": "44855214731"
       }
     },
     "11634": {
@@ -190169,7 +190175,7 @@
       "last_plan": {
         "source_id": "13479372",
         "display_name": "Daria 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:09:00.149691+00:00"
+        "planned_at": "2026-11-21T06:09:04.915932+00:00"
       }
     },
     "3577": {
@@ -234763,5 +234769,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:09:02.505643+00:00"
+  "updated_at": "2026-11-21T06:09:06.209066+00:00"
 }
