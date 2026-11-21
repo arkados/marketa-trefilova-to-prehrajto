@@ -117644,13 +117644,6 @@
           "source_id": "23231991",
           "target_video_id": "30984802",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:16:26.445800+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23231991",
-          "target_video_id": "30984802",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:54:16.396430+00:00"
         },
         {
@@ -117659,6 +117652,13 @@
           "target_video_id": "30984802",
           "permanent": false,
           "attempted_at": "2026-11-21T00:32:24.780239+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23231991",
+          "target_video_id": "30984802",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:19:37.277238+00:00"
         }
       ],
       "last_plan": {
@@ -117672,12 +117672,6 @@
         "size_bytes": 20000000000,
         "prepared_at": "2026-11-10T17:41:26.301824+00:00",
         "relay_source_id": "23231991"
-      },
-      "claim": {
-        "worker_id": "83d24e7f2d97460dad80b56303179672-shard-0",
-        "claimed_at": "2026-11-21T02:19:32.121537+00:00",
-        "lease_expires_at": "2026-11-21T08:19:32.121537+00:00",
-        "run_id": "44848457493"
       }
     },
     "13503": {
@@ -188610,17 +188604,19 @@
       }
     },
     "23288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "4725138",
+          "target_video_id": "31217960",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:19:37.567274+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "4725138",
         "display_name": "Stranger in the House SD CZ Dabing",
         "planned_at": "2026-11-21T02:17:22.325110+00:00"
-      },
-      "claim": {
-        "worker_id": "58512e961bef406cb41aab4e7f24d9ff-shard-0",
-        "claimed_at": "2026-11-21T02:17:23.474444+00:00",
-        "lease_expires_at": "2026-11-21T08:17:23.474444+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217960",
       "prepared": {
@@ -233520,5 +233516,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:19:34.714808+00:00"
+  "updated_at": "2026-11-21T02:19:37.567302+00:00"
 }
