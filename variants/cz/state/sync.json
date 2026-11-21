@@ -188439,17 +188439,19 @@
       }
     },
     "11217": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30987529",
+          "target_video_id": "31217696",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:02:36.048349+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30987529",
         "display_name": "Aces High 1080p CZ Dabing",
         "planned_at": "2026-11-21T01:58:13.507619+00:00"
-      },
-      "claim": {
-        "worker_id": "36ea6e77c8e3475b9b2d40906999f5aa-shard-0",
-        "claimed_at": "2026-11-21T01:58:16.606553+00:00",
-        "lease_expires_at": "2026-11-21T07:58:16.606553+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217696",
       "prepared": {
@@ -233379,5 +233381,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:02:33.621881+00:00"
+  "updated_at": "2026-11-21T02:02:36.048379+00:00"
 }
