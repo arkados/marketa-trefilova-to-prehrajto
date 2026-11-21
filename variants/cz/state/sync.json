@@ -134756,7 +134756,7 @@
       "last_plan": {
         "source_id": "34689799",
         "display_name": "Černá sobota 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:31:43.247904+00:00"
+        "planned_at": "2026-11-21T05:24:09.090335+00:00"
       },
       "previous_target_id": "30987492",
       "prepared": {
@@ -134764,6 +134764,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T04:57:29.514686+00:00",
         "relay_source_id": "34689799"
+      },
+      "claim": {
+        "worker_id": "9a5aaddf09cf4c249483b6c684fe6d8b-shard-0",
+        "claimed_at": "2026-11-21T05:24:09.734466+00:00",
+        "lease_expires_at": "2026-11-21T11:24:09.734466+00:00",
+        "run_id": "44855214731"
       }
     },
     "36839": {
@@ -189212,17 +189218,23 @@
           "attempted_at": "2026-11-21T03:31:44.143496+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "32131280",
-        "display_name": "Fireman Sam: The Great Fire of Pontypandy SD CZ Dabing",
-        "planned_at": "2026-11-21T05:24:06.212455+00:00"
-      },
       "previous_target_id": "31219119",
-      "prepared": {
+      "upload": {
         "target_video_id": "31219119",
-        "size_bytes": 734101504,
-        "prepared_at": "2026-11-21T03:30:23.008963+00:00",
-        "relay_source_id": "32131280"
+        "display_name": "Fireman Sam: The Great Fire of Pontypandy SD CZ Dabing",
+        "source_id": "32131280",
+        "source_url": "https://sdilej.cz/32131280/poziarnik-sam-velky-poziar-v-pontypandy.avi",
+        "source_filename": "Požiarnik Sam Velky Požiar v Pontypandy.avi",
+        "size_bytes": 734100000,
+        "width": 720,
+        "height": 540,
+        "audio_language": "cs",
+        "language_probability": 0.9246132969856262,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/fireman-sam-the-great-fire-of-pontypandy-sd-cz-dabing-avi/3235afb23d57e670",
+        "uploaded_at": "2026-11-21T05:24:10.206741+00:00"
       }
     },
     "21933": {
@@ -189774,7 +189786,7 @@
       "last_plan": {
         "source_id": "6752869",
         "display_name": "My Little Pony: Twinkle Wish Adventure SD CZ Dabing",
-        "planned_at": "2026-11-21T05:24:06.459433+00:00"
+        "planned_at": "2026-11-21T05:24:09.326270+00:00"
       }
     },
     "11695": {
@@ -234455,5 +234467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:24:06.827377+00:00"
+  "updated_at": "2026-11-21T05:24:10.206760+00:00"
 }
