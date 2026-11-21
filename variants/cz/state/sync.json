@@ -131200,13 +131200,6 @@
           "source_id": "35147186",
           "target_video_id": "30986963",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:53:56.267563+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35147186",
-          "target_video_id": "30986963",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:25:13.249846+00:00"
         },
         {
@@ -131215,6 +131208,13 @@
           "target_video_id": "30986963",
           "permanent": false,
           "attempted_at": "2026-11-21T07:44:18.396352+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35147186",
+          "target_video_id": "30986963",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:05:09.083350+00:00"
         }
       ],
       "last_plan": {
@@ -131228,12 +131228,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T02:58:34.152788+00:00",
         "relay_source_id": "35147186"
-      },
-      "claim": {
-        "worker_id": "ab3c60541f1a4a15ba8fbe45044fe0b8-shard-0",
-        "claimed_at": "2026-11-21T09:05:05.821634+00:00",
-        "lease_expires_at": "2026-11-21T15:05:05.821634+00:00",
-        "run_id": "44855214731"
       }
     },
     "10712": {
@@ -147544,7 +147538,7 @@
       "last_plan": {
         "source_id": "19973532",
         "display_name": "Stárí není pro sraby (Stáří není pro sraby) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:44:17.742968+00:00"
+        "planned_at": "2026-11-21T09:05:08.206304+00:00"
       },
       "previous_target_id": "30998700",
       "prepared": {
@@ -147552,6 +147546,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-12T04:54:16.332507+00:00",
         "relay_source_id": "19973532"
+      },
+      "claim": {
+        "worker_id": "323329228faa45f9b420e6fcb1852c33-shard-0",
+        "claimed_at": "2026-11-21T09:05:08.885936+00:00",
+        "lease_expires_at": "2026-11-21T15:05:08.885936+00:00",
+        "run_id": "44855214731"
       }
     },
     "30971": {
@@ -191523,7 +191523,7 @@
       "last_plan": {
         "source_id": "14000195",
         "display_name": "My Summer in Provence (Avis de mistral) SD CZ Dabing",
-        "planned_at": "2026-11-21T09:05:05.402631+00:00"
+        "planned_at": "2026-11-21T09:05:08.450545+00:00"
       }
     },
     "24502": {
@@ -235880,5 +235880,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:05:05.997997+00:00"
+  "updated_at": "2026-11-21T09:05:09.083374+00:00"
 }
