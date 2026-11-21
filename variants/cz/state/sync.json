@@ -125547,13 +125547,6 @@
           "source_id": "4983288",
           "target_video_id": "30985832",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:39:31.172441+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "4983288",
-          "target_video_id": "30985832",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:15:37.693311+00:00"
         },
         {
@@ -125562,6 +125555,13 @@
           "target_video_id": "30985832",
           "permanent": false,
           "attempted_at": "2026-11-21T11:58:45.293836+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "4983288",
+          "target_video_id": "30985832",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:41:33.930185+00:00"
         }
       ],
       "last_plan": {
@@ -125575,12 +125575,6 @@
         "size_bytes": 908800000,
         "prepared_at": "2026-11-10T22:08:23.706259+00:00",
         "relay_source_id": "4983288"
-      },
-      "claim": {
-        "worker_id": "8aa544d497e94702aa69a49dc38b6b62-shard-0",
-        "claimed_at": "2026-11-21T13:41:30.030645+00:00",
-        "lease_expires_at": "2026-11-21T19:41:30.030645+00:00",
-        "run_id": "44897571814"
       }
     },
     "22024": {
@@ -142983,7 +142977,7 @@
       "last_plan": {
         "source_id": "34911160",
         "display_name": "Murders in Brouage (Les Mystères des majorettes) SD CZ Dabing",
-        "planned_at": "2026-11-21T11:58:48.965581+00:00"
+        "planned_at": "2026-11-21T13:41:32.496758+00:00"
       },
       "previous_target_id": "30988583",
       "prepared": {
@@ -142991,6 +142985,12 @@
         "size_bytes": 911400000,
         "prepared_at": "2026-11-11T08:47:33.336086+00:00",
         "relay_source_id": "34911160"
+      },
+      "claim": {
+        "worker_id": "4962e09867cc4cc78faada35b10b9fa6-shard-0",
+        "claimed_at": "2026-11-21T13:41:33.568839+00:00",
+        "lease_expires_at": "2026-11-21T19:41:33.568839+00:00",
+        "run_id": "44897571814"
       }
     },
     "14630": {
@@ -193407,7 +193407,7 @@
       "last_plan": {
         "source_id": "34851017",
         "display_name": "Le Père Noël 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:41:29.216250+00:00"
+        "planned_at": "2026-11-21T13:41:32.902856+00:00"
       }
     },
     "4134": {
@@ -237428,5 +237428,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:41:30.355582+00:00"
+  "updated_at": "2026-11-21T13:41:33.930213+00:00"
 }
