@@ -188080,17 +188080,19 @@
       }
     },
     "5328": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34916258",
+          "target_video_id": "31216720",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:02:29.149370+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34916258",
         "display_name": "Do the Mæth (Na plech) 1080p CZ Dabing",
         "planned_at": "2026-11-21T00:57:07.038151+00:00"
-      },
-      "claim": {
-        "worker_id": "478931c1858f4de9bcb4f29ae5a3a3ec-shard-0",
-        "claimed_at": "2026-11-21T00:57:08.145914+00:00",
-        "lease_expires_at": "2026-11-21T06:57:08.145914+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216720",
       "prepared": {
@@ -233054,5 +233056,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:02:26.535064+00:00"
+  "updated_at": "2026-11-21T01:02:29.149391+00:00"
 }
