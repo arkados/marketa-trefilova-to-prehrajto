@@ -188991,17 +188991,19 @@
       "attempts": []
     },
     "34032": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34716936",
+          "target_video_id": "31219010",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:26:15.734882+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34716936",
         "display_name": "Best Summer Ever 720p CZ Dabing",
         "planned_at": "2026-11-21T03:21:51.855091+00:00"
-      },
-      "claim": {
-        "worker_id": "25dc7fcac92645e7b04097248ea63747-shard-0",
-        "claimed_at": "2026-11-21T03:21:55.135699+00:00",
-        "lease_expires_at": "2026-11-21T09:21:55.135699+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31219010",
       "prepared": {
@@ -233835,5 +233837,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:26:13.171364+00:00"
+  "updated_at": "2026-11-21T03:26:15.734908+00:00"
 }
