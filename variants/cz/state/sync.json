@@ -115610,13 +115610,6 @@
           "source_id": "30985526",
           "target_video_id": "30984610",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:03:57.946771+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30985526",
-          "target_video_id": "30984610",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:45:36.117966+00:00"
         },
         {
@@ -115625,6 +115618,13 @@
           "target_video_id": "30984610",
           "permanent": false,
           "attempted_at": "2026-11-21T14:24:40.883620+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30985526",
+          "target_video_id": "30984610",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:03:15.764958+00:00"
         }
       ],
       "last_plan": {
@@ -181176,7 +181176,7 @@
       "last_plan": {
         "source_id": "31366589",
         "display_name": "Hot Shots! 4K CZ Dabing",
-        "planned_at": "2026-11-21T14:23:51.144265+00:00"
+        "planned_at": "2026-11-21T16:03:14.001505+00:00"
       },
       "previous_target_id": "31190166",
       "prepared": {
@@ -181184,6 +181184,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-19T20:23:36.726697+00:00",
         "relay_source_id": "31366589"
+      },
+      "claim": {
+        "worker_id": "eae9ddaaa4f14540829c0b228d3d3bff-shard-0",
+        "claimed_at": "2026-11-21T16:03:15.366872+00:00",
+        "lease_expires_at": "2026-11-21T22:03:15.366872+00:00",
+        "run_id": "44897571814"
       }
     },
     "19538": {
@@ -194428,7 +194434,7 @@
       "last_plan": {
         "source_id": "34694390",
         "display_name": "U.S. Palmese 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:03:10.895386+00:00"
+        "planned_at": "2026-11-21T16:03:14.443143+00:00"
       }
     },
     "17922": {
@@ -238236,5 +238242,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:03:10.895403+00:00"
+  "updated_at": "2026-11-21T16:03:15.764977+00:00"
 }
