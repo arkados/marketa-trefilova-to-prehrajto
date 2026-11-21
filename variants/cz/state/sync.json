@@ -187966,17 +187966,19 @@
       "attempts": []
     },
     "14560": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31034481",
+          "target_video_id": "31216318",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:42:02.069324+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31034481",
         "display_name": "Confessions of Felix Krull (Bekenntnisse des Hochstaplers Felix Krull) 1080p CZ Dabing",
         "planned_at": "2026-11-21T00:33:47.348964+00:00"
-      },
-      "claim": {
-        "worker_id": "f2eab74757164925a767985e8130a3fc-shard-0",
-        "claimed_at": "2026-11-21T00:33:48.447134+00:00",
-        "lease_expires_at": "2026-11-21T06:33:48.447134+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216318",
       "prepared": {
@@ -232967,5 +232969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:41:59.460015+00:00"
+  "updated_at": "2026-11-21T00:42:02.069347+00:00"
 }
