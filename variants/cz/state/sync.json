@@ -130590,13 +130590,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:19:24.290744+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-21T17:59:43.044614+00:00"
         },
         {
@@ -130605,12 +130598,19 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-21T19:39:57.498519+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-21T21:11:50.889810+00:00"
         }
       ],
       "last_plan": {
         "source_id": "27361344",
         "display_name": "The Very Late Afternoon of a Faun (Faunovo velmi pozdní odpoledne) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:39:53.664270+00:00"
+        "planned_at": "2026-11-21T21:11:47.937249+00:00"
       },
       "previous_target_id": "30986908",
       "prepared": {
@@ -196873,11 +196873,22 @@
       "last_plan": {
         "source_id": "33480334",
         "display_name": "Natatorium 1080p CZ Dabing",
-        "planned_at": "2026-11-21T21:11:43.495081+00:00"
+        "planned_at": "2026-11-21T21:11:48.349564+00:00"
+      },
+      "claim": {
+        "worker_id": "2ff1d01b4e7147b3ad288472eae49760-shard-0",
+        "claimed_at": "2026-11-21T21:11:49.489252+00:00",
+        "lease_expires_at": "2026-11-22T03:11:49.489252+00:00",
+        "run_id": "44930055910"
       }
     },
     "3680": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "25499918",
+        "display_name": "The Magician's Elephant 1080p CZ Dabing",
+        "planned_at": "2026-11-21T21:11:48.611655+00:00"
+      }
     },
     "17060": {
       "attempts": []
@@ -240228,5 +240239,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:11:45.191330+00:00"
+  "updated_at": "2026-11-21T21:11:50.889831+00:00"
 }
