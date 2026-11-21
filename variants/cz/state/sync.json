@@ -114633,7 +114633,7 @@
       "last_plan": {
         "source_id": "34941731",
         "display_name": "Ghostbusters (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:46:03.659600+00:00"
+        "planned_at": "2026-11-21T07:06:35.929822+00:00"
       },
       "previous_target_id": "30984154",
       "prepared": {
@@ -114641,6 +114641,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T15:34:35.718025+00:00",
         "relay_source_id": "34941731"
+      },
+      "claim": {
+        "worker_id": "6c1b26dbb22e487f925e4adb96f85609-shard-0",
+        "claimed_at": "2026-11-21T07:06:36.556140+00:00",
+        "lease_expires_at": "2026-11-21T13:06:36.556140+00:00",
+        "run_id": "44855214731"
       }
     },
     "3135": {
@@ -190152,17 +190158,23 @@
           "attempted_at": "2026-11-21T05:46:06.239496+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "11847117",
-        "display_name": "Pioneer Woman SD CZ Dabing",
-        "planned_at": "2026-11-21T07:06:33.424801+00:00"
-      },
       "previous_target_id": "31221212",
-      "prepared": {
+      "upload": {
         "target_video_id": "31221212",
-        "size_bytes": 984096260,
-        "prepared_at": "2026-11-21T05:44:40.558495+00:00",
-        "relay_source_id": "11847117"
+        "display_name": "Pioneer Woman SD CZ Dabing",
+        "source_id": "11847117",
+        "source_url": "https://sdilej.cz/11847117/prukopnice-1973-west-mgm-cz.avi",
+        "source_filename": "Průkopnice =1973-West-MGM-CZ.avi",
+        "size_bytes": 984100000,
+        "width": 864,
+        "height": 496,
+        "audio_language": "cs",
+        "language_probability": 0.9609577655792236,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/pioneer-woman-sd-cz-dabing-avi/dac1ddf6b1e64b24",
+        "uploaded_at": "2026-11-21T07:06:36.984903+00:00"
       }
     },
     "15163": {
@@ -190630,7 +190642,7 @@
       "last_plan": {
         "source_id": "24263235",
         "display_name": "Adam (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:06:33.657930+00:00"
+        "planned_at": "2026-11-21T07:06:36.161683+00:00"
       }
     },
     "23985": {
@@ -235140,5 +235152,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:06:33.657947+00:00"
+  "updated_at": "2026-11-21T07:06:36.984929+00:00"
 }
