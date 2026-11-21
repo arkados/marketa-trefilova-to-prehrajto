@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "dc20be8b5ebe4d908c75babb6b9d6775-shard-0",
+        "claimed_at": "2026-11-21T06:42:57.633453+00:00",
+        "lease_expires_at": "2026-11-21T12:42:57.633453+00:00",
+        "run_id": "44855214731"
       }
     },
     "12374": {
@@ -189859,17 +189865,23 @@
           "attempted_at": "2026-11-21T05:23:22.875773+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "11905860",
-        "display_name": "Eel Squad (Úhoři mají nabito) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:18:00.998768+00:00"
-      },
       "previous_target_id": "31220776",
-      "prepared": {
+      "upload": {
         "target_video_id": "31220776",
-        "size_bytes": 2108510283,
-        "prepared_at": "2026-11-21T05:18:05.901392+00:00",
-        "relay_source_id": "11905860"
+        "display_name": "Eel Squad (Úhoři mají nabito) 1080p CZ Dabing",
+        "source_id": "11905860",
+        "source_url": "https://sdilej.cz/11905860/uhori-maji-nabito-cz-2019-.mkv",
+        "source_filename": "Uhori maji nabito_cz(2019).mkv",
+        "size_bytes": 2100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9465749859809875,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/eel-squad-uhori-maji-nabito-1080p-cz-dabing-mkv/9e844847d2b307ee",
+        "uploaded_at": "2026-11-21T06:42:59.979433+00:00"
       }
     },
     "17568": {
@@ -190437,7 +190449,7 @@
       "last_plan": {
         "source_id": "21499469",
         "display_name": "Une comédie romantique 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:42:55.374033+00:00"
+        "planned_at": "2026-11-21T06:42:58.047854+00:00"
       }
     },
     "27186": {
@@ -234971,5 +234983,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:42:55.374054+00:00"
+  "updated_at": "2026-11-21T06:42:59.979452+00:00"
 }
