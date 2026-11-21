@@ -109338,13 +109338,6 @@
           "source_id": "33810503",
           "target_video_id": "30983627",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:32:40.543533+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33810503",
-          "target_video_id": "30983627",
-          "permanent": false,
           "attempted_at": "2026-11-20T17:12:37.154507+00:00"
         },
         {
@@ -109353,6 +109346,13 @@
           "target_video_id": "30983627",
           "permanent": false,
           "attempted_at": "2026-11-20T22:30:17.232733+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33810503",
+          "target_video_id": "30983627",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:06:42.387220+00:00"
         }
       ],
       "last_plan": {
@@ -134833,7 +134833,7 @@
       "last_plan": {
         "source_id": "32363401",
         "display_name": "I'll Be Good, Old Man! („Já už budu hodný, dědečku!“) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:30:15.210446+00:00"
+        "planned_at": "2026-11-21T00:06:40.420849+00:00"
       },
       "previous_target_id": "30987499",
       "prepared": {
@@ -134841,6 +134841,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-11T04:59:44.589461+00:00",
         "relay_source_id": "32363401"
+      },
+      "claim": {
+        "worker_id": "412e101649f74c2cae74a311a83b03c0-shard-0",
+        "claimed_at": "2026-11-21T00:06:41.486856+00:00",
+        "lease_expires_at": "2026-11-21T06:06:41.486856+00:00",
+        "run_id": "44817573093"
       }
     },
     "31818": {
@@ -187746,7 +187752,7 @@
       "last_plan": {
         "source_id": "33852925",
         "display_name": "Rob Peace 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:06:37.531161+00:00"
+        "planned_at": "2026-11-21T00:06:40.817481+00:00"
       }
     },
     "16831": {
@@ -232776,5 +232782,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:06:37.531180+00:00"
+  "updated_at": "2026-11-21T00:06:42.387242+00:00"
 }
