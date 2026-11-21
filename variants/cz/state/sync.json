@@ -112451,13 +112451,6 @@
           "source_id": "34705144",
           "target_video_id": "30983853",
           "permanent": false,
-          "attempted_at": "2026-11-21T02:04:22.741615+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34705144",
-          "target_video_id": "30983853",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:52:55.469905+00:00"
         },
         {
@@ -112466,6 +112459,13 @@
           "target_video_id": "30983853",
           "permanent": false,
           "attempted_at": "2026-11-21T05:37:44.463176+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34705144",
+          "target_video_id": "30983853",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:58:48.718179+00:00"
         }
       ],
       "last_plan": {
@@ -112479,12 +112479,6 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T14:59:53.270734+00:00",
         "relay_source_id": "34705144"
-      },
-      "claim": {
-        "worker_id": "ae0c8b00d7bb4e3fac2988de09567854-shard-0",
-        "claimed_at": "2026-11-21T06:58:45.081006+00:00",
-        "lease_expires_at": "2026-11-21T12:58:45.081006+00:00",
-        "run_id": "44855214731"
       }
     },
     "15232": {
@@ -142312,7 +142306,7 @@
       "last_plan": {
         "source_id": "23685410",
         "display_name": "Prípad dvou básníku (Případ dvou básníků) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:37:42.746468+00:00"
+        "planned_at": "2026-11-21T06:58:48.900975+00:00"
       },
       "previous_target_id": "30988442",
       "prepared": {
@@ -190521,17 +190515,19 @@
       }
     },
     "14133": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34685752",
+          "target_video_id": "31222159",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:58:49.403260+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34685752",
         "display_name": "A Change of Heart (Ils sont vivants) 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:52:43.289706+00:00"
-      },
-      "claim": {
-        "worker_id": "70a1492836be4fff8c1913a3201b1fab-shard-0",
-        "claimed_at": "2026-11-21T06:52:46.186109+00:00",
-        "lease_expires_at": "2026-11-21T12:52:46.186109+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31222159",
       "prepared": {
@@ -190546,7 +190542,7 @@
       "last_plan": {
         "source_id": "27210296",
         "display_name": "Párty Hárder: Summer Massacre 720p CZ Dabing",
-        "planned_at": "2026-11-21T06:58:44.613006+00:00"
+        "planned_at": "2026-11-21T06:58:49.133357+00:00"
       }
     },
     "25507": {
@@ -235068,5 +235064,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:58:46.642979+00:00"
+  "updated_at": "2026-11-21T06:58:49.403280+00:00"
 }
