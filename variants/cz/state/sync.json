@@ -196644,17 +196644,19 @@
       }
     },
     "11439": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34673903",
+          "target_video_id": "31236232",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:48:55.868896+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34673903",
         "display_name": "Légitime violence 1080p CZ Dabing",
         "planned_at": "2026-11-21T20:44:37.106429+00:00"
-      },
-      "claim": {
-        "worker_id": "45f2356a9326465a8ea3a54043d1c9fb-shard-0",
-        "claimed_at": "2026-11-21T20:44:42.978029+00:00",
-        "lease_expires_at": "2026-11-22T02:44:42.978029+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31236232",
       "prepared": {
@@ -240057,5 +240059,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:48:52.781343+00:00"
+  "updated_at": "2026-11-21T20:48:55.868919+00:00"
 }
