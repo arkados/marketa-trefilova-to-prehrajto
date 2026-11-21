@@ -106445,13 +106445,6 @@
           "source_id": "30045237",
           "target_video_id": "30978930",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:17:51.344666+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30045237",
-          "target_video_id": "30978930",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:34:34.088972+00:00"
         },
         {
@@ -106460,6 +106453,13 @@
           "target_video_id": "30978930",
           "permanent": false,
           "attempted_at": "2026-11-21T00:13:50.746903+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30045237",
+          "target_video_id": "30978930",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:58:36.644535+00:00"
         }
       ],
       "last_plan": {
@@ -134916,7 +134916,7 @@
       "last_plan": {
         "source_id": "33494979",
         "display_name": "A Foolish Girl (Bláhové děvče) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:13:50.509550+00:00"
+        "planned_at": "2026-11-21T01:58:34.617472+00:00"
       },
       "previous_target_id": "30987504",
       "prepared": {
@@ -134924,6 +134924,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T05:01:41.646370+00:00",
         "relay_source_id": "33494979"
+      },
+      "claim": {
+        "worker_id": "e9f9d33e5161446e8a9267fe5b04d30b-shard-0",
+        "claimed_at": "2026-11-21T01:58:35.690345+00:00",
+        "lease_expires_at": "2026-11-21T07:58:35.690345+00:00",
+        "run_id": "44848457493"
       }
     },
     "11032": {
@@ -188458,7 +188464,7 @@
       "last_plan": {
         "source_id": "10056523",
         "display_name": "Jackpot (Arme Riddere) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:58:31.314569+00:00"
+        "planned_at": "2026-11-21T01:58:34.998468+00:00"
       }
     },
     "33456": {
@@ -233373,5 +233379,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:58:31.314589+00:00"
+  "updated_at": "2026-11-21T01:58:36.644557+00:00"
 }
