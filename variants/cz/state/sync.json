@@ -89910,13 +89910,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-21T10:34:05.069464+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:15:44.100528+00:00"
         },
         {
@@ -89925,6 +89918,13 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-21T13:57:10.004643+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:33:46.105730+00:00"
         }
       ],
       "last_plan": {
@@ -141598,7 +141598,7 @@
       "last_plan": {
         "source_id": "34694069",
         "display_name": "Na dvore je kun, séfe! (Na dvoře je kůň, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:57:13.483971+00:00"
+        "planned_at": "2026-11-21T15:33:44.486405+00:00"
       },
       "previous_target_id": "30988245",
       "prepared": {
@@ -141606,6 +141606,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:57:46.666018+00:00",
         "relay_source_id": "34694069"
+      },
+      "claim": {
+        "worker_id": "ef03a58ffc9b44dfb5c73420206eeedc-shard-0",
+        "claimed_at": "2026-11-21T15:33:45.741064+00:00",
+        "lease_expires_at": "2026-11-21T21:33:45.741064+00:00",
+        "run_id": "44897571814"
       }
     },
     "17285": {
@@ -194178,7 +194184,7 @@
       "last_plan": {
         "source_id": "30090821",
         "display_name": "The Battle of the River Plate 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:33:41.241655+00:00"
+        "planned_at": "2026-11-21T15:33:44.925324+00:00"
       }
     },
     "10991": {
@@ -238052,5 +238058,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:33:41.552760+00:00"
+  "updated_at": "2026-11-21T15:33:46.105746+00:00"
 }
