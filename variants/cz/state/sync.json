@@ -114079,13 +114079,6 @@
           "source_id": "34355461",
           "target_video_id": "30984084",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:48:03.072833+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34355461",
-          "target_video_id": "30984084",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:07:51.173604+00:00"
         },
         {
@@ -114094,6 +114087,13 @@
           "target_video_id": "30984084",
           "permanent": false,
           "attempted_at": "2026-11-21T09:35:55.174752+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34355461",
+          "target_video_id": "30984084",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:15:09.722930+00:00"
         }
       ],
       "last_plan": {
@@ -172148,7 +172148,7 @@
       "last_plan": {
         "source_id": "32999709",
         "display_name": "Vecne tvá neverná (Věčně tvá nevěrná) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:35:54.444175+00:00"
+        "planned_at": "2026-11-21T11:15:08.057833+00:00"
       },
       "previous_target_id": "31133866",
       "prepared": {
@@ -172156,6 +172156,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-18T00:00:46.830452+00:00",
         "relay_source_id": "32999709"
+      },
+      "claim": {
+        "worker_id": "2e414101d8d4483ab0c01b65912a7e69-shard-0",
+        "claimed_at": "2026-11-21T11:15:09.377398+00:00",
+        "lease_expires_at": "2026-11-21T17:15:09.377398+00:00",
+        "run_id": "44889191327"
       }
     },
     "13183": {
@@ -192329,7 +192335,7 @@
       "last_plan": {
         "source_id": "30159189",
         "display_name": "Fatima 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:15:04.387746+00:00"
+        "planned_at": "2026-11-21T11:15:08.482784+00:00"
       }
     },
     "26572": {
@@ -236551,5 +236557,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:15:04.981847+00:00"
+  "updated_at": "2026-11-21T11:15:09.722952+00:00"
 }
