@@ -139951,13 +139951,6 @@
           "source_id": "15665884",
           "target_video_id": "30988003",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:18:42.711374+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15665884",
-          "target_video_id": "30988003",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:54:26.223691+00:00"
         },
         {
@@ -139966,6 +139959,13 @@
           "target_video_id": "30988003",
           "permanent": false,
           "attempted_at": "2026-11-21T17:35:12.715400+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15665884",
+          "target_video_id": "30988003",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:15:01.639279+00:00"
         }
       ],
       "last_plan": {
@@ -155209,7 +155209,7 @@
       "last_plan": {
         "source_id": "31963280",
         "display_name": "Terezín (Le Terme di Terezín) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:35:11.327614+00:00"
+        "planned_at": "2026-11-21T19:14:59.985705+00:00"
       },
       "previous_target_id": "31052044",
       "prepared": {
@@ -155217,6 +155217,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-15T07:16:11.092952+00:00",
         "relay_source_id": "31963280"
+      },
+      "claim": {
+        "worker_id": "f00a8e8495b94da393e55db8d430ece9-shard-0",
+        "claimed_at": "2026-11-21T19:15:01.025238+00:00",
+        "lease_expires_at": "2026-11-22T01:15:01.025238+00:00",
+        "run_id": "44930055910"
       }
     },
     "12345": {
@@ -196118,7 +196124,7 @@
       "last_plan": {
         "source_id": "31796171",
         "display_name": "Whisper 2 (Ostwind 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:14:57.278959+00:00"
+        "planned_at": "2026-11-21T19:15:00.377093+00:00"
       }
     },
     "10762": {
@@ -239563,5 +239569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:14:57.278978+00:00"
+  "updated_at": "2026-11-21T19:15:01.639300+00:00"
 }
