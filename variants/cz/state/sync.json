@@ -118669,6 +118669,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:25.250689+00:00",
         "relay_source_id": "25787561"
+      },
+      "claim": {
+        "worker_id": "6b4b48d49f14410db01fd30538b1f8b4-shard-0",
+        "claimed_at": "2026-11-21T23:49:26.881291+00:00",
+        "lease_expires_at": "2026-11-22T05:49:26.881291+00:00",
+        "run_id": "44959851294"
       }
     },
     "11749": {
@@ -118698,7 +118704,7 @@
       "last_plan": {
         "source_id": "33647002",
         "display_name": "Frantic 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:40:54.884123+00:00"
+        "planned_at": "2026-11-21T23:49:27.164726+00:00"
       },
       "previous_target_id": "30984863",
       "prepared": {
@@ -133480,13 +133486,6 @@
           "source_id": "30864230",
           "target_video_id": "30987287",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:23:25.437918+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30864230",
-          "target_video_id": "30987287",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:07:59.642100+00:00"
         },
         {
@@ -133495,6 +133494,13 @@
           "target_video_id": "30987287",
           "permanent": false,
           "attempted_at": "2026-11-21T20:40:51.626568+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30864230",
+          "target_video_id": "30987287",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:49:26.649586+00:00"
         }
       ],
       "last_plan": {
@@ -133508,12 +133514,6 @@
         "size_bytes": 912100000,
         "prepared_at": "2026-11-11T04:10:15.307743+00:00",
         "relay_source_id": "30864230"
-      },
-      "claim": {
-        "worker_id": "28ecc4981a2244489e3d2a44d8e9ac24-shard-0",
-        "claimed_at": "2026-11-21T23:49:23.316288+00:00",
-        "lease_expires_at": "2026-11-22T05:49:23.316288+00:00",
-        "run_id": "44959851294"
       }
     },
     "31705": {
@@ -197452,7 +197452,7 @@
       "last_plan": {
         "source_id": "34886019",
         "display_name": "Women at the Peak (Ženská na vrcholu) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:49:24.070178+00:00"
+        "planned_at": "2026-11-21T23:49:27.539457+00:00"
       }
     },
     "22128": {
@@ -240654,5 +240654,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:49:24.070197+00:00"
+  "updated_at": "2026-11-21T23:49:27.539475+00:00"
 }
