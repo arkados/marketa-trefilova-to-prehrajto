@@ -190226,17 +190226,19 @@
       }
     },
     "3577": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32148201",
+          "target_video_id": "31221734",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:25:59.971021+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32148201",
         "display_name": "She Walks in Darkness (Un fantasma en la batalla) 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:20:58.695529+00:00"
-      },
-      "claim": {
-        "worker_id": "4518fb8c59604c3881eb1848c739830d-shard-0",
-        "claimed_at": "2026-11-21T06:20:59.606152+00:00",
-        "lease_expires_at": "2026-11-21T12:20:59.606152+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221734",
       "prepared": {
@@ -234839,5 +234841,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:25:57.771660+00:00"
+  "updated_at": "2026-11-21T06:25:59.971046+00:00"
 }
