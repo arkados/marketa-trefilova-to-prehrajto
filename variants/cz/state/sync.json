@@ -197097,17 +197097,19 @@
       "attempts": []
     },
     "7771": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30245977",
+          "target_video_id": "31238540",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:09:31.073761+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30245977",
         "display_name": "My Dog Killer (Môj pes Killer) SD CZ Dabing",
         "planned_at": "2026-11-21T23:07:21.708796+00:00"
-      },
-      "claim": {
-        "worker_id": "c27d359202454111aa5f7597b9e4ed3a-shard-0",
-        "claimed_at": "2026-11-21T23:07:22.851607+00:00",
-        "lease_expires_at": "2026-11-22T05:07:22.851607+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31238540",
       "prepared": {
@@ -240423,5 +240425,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:09:28.957835+00:00"
+  "updated_at": "2026-11-21T23:09:31.073779+00:00"
 }
