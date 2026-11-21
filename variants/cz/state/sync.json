@@ -195972,17 +195972,19 @@
       "attempts": []
     },
     "30237": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31278289",
+          "target_video_id": "31234568",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:05:43.904970+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31278289",
         "display_name": "The Gift (Bankers Also Have Souls) (1982) SD CZ Dabing",
         "planned_at": "2026-11-21T19:03:49.182277+00:00"
-      },
-      "claim": {
-        "worker_id": "5f0738a447e6438bbac41c311d193610-shard-0",
-        "claimed_at": "2026-11-21T19:03:53.019930+00:00",
-        "lease_expires_at": "2026-11-22T01:03:53.019930+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234568",
       "prepared": {
@@ -239475,5 +239477,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:05:41.402616+00:00"
+  "updated_at": "2026-11-21T19:05:43.904997+00:00"
 }
