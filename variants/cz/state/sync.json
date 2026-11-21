@@ -93421,13 +93421,6 @@
           "source_id": "34296350",
           "target_video_id": "30942671",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:33:27.503499+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34296350",
-          "target_video_id": "30942671",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:55:06.707555+00:00"
         },
         {
@@ -93436,6 +93429,13 @@
           "target_video_id": "30942671",
           "permanent": false,
           "attempted_at": "2026-11-21T10:32:26.157900+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34296350",
+          "target_video_id": "30942671",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:14:26.096297+00:00"
         }
       ],
       "last_plan": {
@@ -121590,7 +121590,7 @@
       "last_plan": {
         "source_id": "35117462",
         "display_name": "Simon Birch 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:32:24.455519+00:00"
+        "planned_at": "2026-11-21T12:14:24.220521+00:00"
       },
       "previous_target_id": "30985082",
       "prepared": {
@@ -121598,6 +121598,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T18:53:09.599430+00:00",
         "relay_source_id": "35117462"
+      },
+      "claim": {
+        "worker_id": "99ffc5e8c35147d3a94a6eaf5bafb61f-shard-0",
+        "claimed_at": "2026-11-21T12:14:25.732963+00:00",
+        "lease_expires_at": "2026-11-21T18:14:25.732963+00:00",
+        "run_id": "44889191327"
       }
     },
     "3085": {
@@ -192781,7 +192787,7 @@
       "last_plan": {
         "source_id": "34681106",
         "display_name": "Popeye's Voyage: The Quest for Pappy SD CZ Dabing",
-        "planned_at": "2026-11-21T12:14:20.907712+00:00"
+        "planned_at": "2026-11-21T12:14:24.635399+00:00"
       }
     },
     "34433": {
@@ -236910,5 +236916,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:14:21.414903+00:00"
+  "updated_at": "2026-11-21T12:14:26.096315+00:00"
 }
