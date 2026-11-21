@@ -189650,17 +189650,19 @@
       "attempts": []
     },
     "11202": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34712238",
+          "target_video_id": "31220614",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:17:10.837614+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
         "planned_at": "2026-11-21T05:06:20.350074+00:00"
-      },
-      "claim": {
-        "worker_id": "6ed7c63e321e4a5b90a1edb31b2ade0f-shard-0",
-        "claimed_at": "2026-11-21T05:06:21.550521+00:00",
-        "lease_expires_at": "2026-11-21T11:06:21.550521+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31220614",
       "prepared": {
@@ -234403,5 +234405,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:13:00.566312+00:00"
+  "updated_at": "2026-11-21T05:17:10.837636+00:00"
 }
