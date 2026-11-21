@@ -120798,7 +120798,7 @@
       "last_plan": {
         "source_id": "33649267",
         "display_name": "Devil in a Blue Dress 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:45:43.857968+00:00"
+        "planned_at": "2026-11-21T14:24:54.285830+00:00"
       },
       "previous_target_id": "30985020",
       "prepared": {
@@ -120806,6 +120806,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T18:35:03.703985+00:00",
         "relay_source_id": "33649267"
+      },
+      "claim": {
+        "worker_id": "96344f0cbbd545bd9d8f86d7332cdf29-shard-0",
+        "claimed_at": "2026-11-21T14:24:55.722130+00:00",
+        "lease_expires_at": "2026-11-21T20:24:55.722130+00:00",
+        "run_id": "44897571814"
       }
     },
     "2919": {
@@ -125916,13 +125922,6 @@
           "source_id": "18316767",
           "target_video_id": "30985901",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:26:20.063277+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18316767",
-          "target_video_id": "30985901",
-          "permanent": false,
           "attempted_at": "2026-11-21T11:04:06.029957+00:00"
         },
         {
@@ -125931,6 +125930,13 @@
           "target_video_id": "30985901",
           "permanent": false,
           "attempted_at": "2026-11-21T12:45:45.458354+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18316767",
+          "target_video_id": "30985901",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:24:56.268473+00:00"
         }
       ],
       "last_plan": {
@@ -193681,11 +193687,22 @@
       "last_plan": {
         "source_id": "29053125",
         "display_name": "A Cat's Life (Mon chat et moi, la grande aventure de Rroû) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:24:50.922233+00:00"
+        "planned_at": "2026-11-21T14:24:54.678539+00:00"
+      },
+      "claim": {
+        "worker_id": "316257f4ee74479fa16be16ffa48e8d1-shard-0",
+        "claimed_at": "2026-11-21T14:24:55.966235+00:00",
+        "lease_expires_at": "2026-11-21T20:24:55.966235+00:00",
+        "run_id": "44897571814"
       }
     },
     "5989": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "24515330",
+        "display_name": "Insects (Hmyz) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T14:24:54.964257+00:00"
+      }
     },
     "3798": {
       "attempts": []
@@ -237651,5 +237668,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:24:51.245602+00:00"
+  "updated_at": "2026-11-21T14:24:56.268494+00:00"
 }
