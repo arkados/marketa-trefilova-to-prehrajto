@@ -196767,17 +196767,19 @@
       "attempts": []
     },
     "31583": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35309486",
+          "target_video_id": "31236388",
+          "permanent": false,
+          "attempted_at": "2026-11-21T21:07:28.907149+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35309486",
         "display_name": "Ed McBain's 87th Precinct: Lightning 1080p CZ Dabing",
         "planned_at": "2026-11-21T20:56:13.252260+00:00"
-      },
-      "claim": {
-        "worker_id": "4be06eff69c04803a8900b7d0789b6a9-shard-0",
-        "claimed_at": "2026-11-21T20:56:16.380450+00:00",
-        "lease_expires_at": "2026-11-22T02:56:16.380450+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31236388",
       "prepared": {
@@ -240182,5 +240184,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:07:25.496712+00:00"
+  "updated_at": "2026-11-21T21:07:28.907178+00:00"
 }
