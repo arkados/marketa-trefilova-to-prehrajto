@@ -142277,6 +142277,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T08:25:31.893484+00:00",
         "relay_source_id": "28380593"
+      },
+      "claim": {
+        "worker_id": "9ae9fc3758794fb3a1265120fe918033-shard-0",
+        "claimed_at": "2026-11-21T09:42:10.842971+00:00",
+        "lease_expires_at": "2026-11-21T15:42:10.842971+00:00",
+        "run_id": "44889191327"
       }
     },
     "17630": {
@@ -191738,17 +191744,19 @@
       }
     },
     "14950": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22392644",
+          "target_video_id": "31224971",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:42:11.141691+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22392644",
         "display_name": "Love In Bloom 1080p CZ Dabing",
         "planned_at": "2026-11-21T09:38:39.473096+00:00"
-      },
-      "claim": {
-        "worker_id": "5615fe048c5549f18ad94e066993be61-shard-0",
-        "claimed_at": "2026-11-21T09:38:42.996833+00:00",
-        "lease_expires_at": "2026-11-21T15:38:42.996833+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31224971",
       "prepared": {
@@ -236084,5 +236092,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:42:08.223745+00:00"
+  "updated_at": "2026-11-21T09:42:11.141710+00:00"
 }
