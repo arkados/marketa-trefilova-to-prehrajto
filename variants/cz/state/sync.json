@@ -120394,7 +120394,7 @@
       "last_plan": {
         "source_id": "12171968",
         "display_name": "The Diary of a Teenage Girl SD CZ Dabing",
-        "planned_at": "2026-11-21T07:50:02.376287+00:00"
+        "planned_at": "2026-11-21T09:10:09.994904+00:00"
       },
       "previous_target_id": "30984999",
       "prepared": {
@@ -120402,6 +120402,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T18:30:07.931969+00:00",
         "relay_source_id": "12171968"
+      },
+      "claim": {
+        "worker_id": "ef703fb3357c4e2ba62db6cfbfa194f8-shard-0",
+        "claimed_at": "2026-11-21T09:10:10.690398+00:00",
+        "lease_expires_at": "2026-11-21T15:10:10.690398+00:00",
+        "run_id": "44855214731"
       }
     },
     "23710": {
@@ -191527,17 +191533,19 @@
       }
     },
     "16134": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14000195",
+          "target_video_id": "31224372",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:10:11.327397+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14000195",
         "display_name": "My Summer in Provence (Avis de mistral) SD CZ Dabing",
         "planned_at": "2026-11-21T09:06:37.433949+00:00"
-      },
-      "claim": {
-        "worker_id": "822d2558234e447c8ddedc69acbcd0f3-shard-0",
-        "claimed_at": "2026-11-21T09:06:38.176640+00:00",
-        "lease_expires_at": "2026-11-21T15:06:38.176640+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31224372",
       "prepared": {
@@ -191579,7 +191587,7 @@
       "last_plan": {
         "source_id": "25780807",
         "display_name": "Vyšehrad: Fylm 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:10:05.761929+00:00"
+        "planned_at": "2026-11-21T09:10:10.263235+00:00"
       }
     },
     "21967": {
@@ -235924,5 +235932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:10:07.416136+00:00"
+  "updated_at": "2026-11-21T09:10:11.327415+00:00"
 }
