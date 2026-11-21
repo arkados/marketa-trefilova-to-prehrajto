@@ -112257,13 +112257,6 @@
           "source_id": "33855360",
           "target_video_id": "30983838",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:19:13.389826+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33855360",
-          "target_video_id": "30983838",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:35:31.938602+00:00"
         },
         {
@@ -112272,6 +112265,13 @@
           "target_video_id": "30983838",
           "permanent": false,
           "attempted_at": "2026-11-21T00:14:52.404182+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33855360",
+          "target_video_id": "30983838",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:59:43.595577+00:00"
         }
       ],
       "last_plan": {
@@ -114334,7 +114334,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-21T00:14:55.370360+00:00"
+        "planned_at": "2026-11-21T01:59:41.737937+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -114342,6 +114342,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:29:05.818325+00:00",
         "relay_source_id": "31982080"
+      },
+      "claim": {
+        "worker_id": "9b87577992e94800be13bb3e23cecd05-shard-0",
+        "claimed_at": "2026-11-21T01:59:42.846723+00:00",
+        "lease_expires_at": "2026-11-21T07:59:42.846723+00:00",
+        "run_id": "44848457493"
       }
     },
     "2796": {
@@ -188458,7 +188464,7 @@
       "last_plan": {
         "source_id": "10056523",
         "display_name": "Jackpot (Arme Riddere) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:59:38.089557+00:00"
+        "planned_at": "2026-11-21T01:59:42.147284+00:00"
       }
     },
     "33456": {
@@ -233373,5 +233379,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:59:38.400806+00:00"
+  "updated_at": "2026-11-21T01:59:43.595599+00:00"
 }
