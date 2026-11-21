@@ -193216,17 +193216,19 @@
       }
     },
     "17134": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24642011",
+          "target_video_id": "31229138",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:24:45.650574+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24642011",
         "display_name": "All for Love 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:20:30.296638+00:00"
-      },
-      "claim": {
-        "worker_id": "bd5544254db6401ab459b78735687f32-shard-0",
-        "claimed_at": "2026-11-21T13:20:31.514056+00:00",
-        "lease_expires_at": "2026-11-21T19:20:31.514056+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31229138",
       "prepared": {
@@ -237298,5 +237300,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:24:10.548817+00:00"
+  "updated_at": "2026-11-21T13:24:45.650590+00:00"
 }
