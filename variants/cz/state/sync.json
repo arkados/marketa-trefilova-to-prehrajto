@@ -119733,13 +119733,6 @@
           "source_id": "25411027",
           "target_video_id": "30984957",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:38:35.221843+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25411027",
-          "target_video_id": "30984957",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:12:14.368767+00:00"
         },
         {
@@ -119748,6 +119741,13 @@
           "target_video_id": "30984957",
           "permanent": false,
           "attempted_at": "2026-11-21T16:47:57.573142+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25411027",
+          "target_video_id": "30984957",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:31:54.469894+00:00"
         }
       ],
       "last_plan": {
@@ -142900,7 +142900,7 @@
       "last_plan": {
         "source_id": "34920710",
         "display_name": "Murder in the Basque Country (Maddy Etcheban) SD CZ Dabing",
-        "planned_at": "2026-11-21T16:47:58.485672+00:00"
+        "planned_at": "2026-11-21T18:31:52.627148+00:00"
       },
       "previous_target_id": "30988565",
       "prepared": {
@@ -142908,6 +142908,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T08:45:11.281145+00:00",
         "relay_source_id": "34920710"
+      },
+      "claim": {
+        "worker_id": "4510aa790d094ee4bace75a77b017274-shard-0",
+        "claimed_at": "2026-11-21T18:31:53.627496+00:00",
+        "lease_expires_at": "2026-11-22T00:31:53.627496+00:00",
+        "run_id": "44930055910"
       }
     },
     "22966": {
@@ -195602,17 +195608,19 @@
       }
     },
     "14122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7993041",
+          "target_video_id": "31234067",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:31:54.719830+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7993041",
         "display_name": "Barbie as the Island Princess SD CZ Dabing",
         "planned_at": "2026-11-21T18:30:31.601986+00:00"
-      },
-      "claim": {
-        "worker_id": "a0907ed973d84964b3672325b9dd05dc-shard-0",
-        "claimed_at": "2026-11-21T18:30:34.465889+00:00",
-        "lease_expires_at": "2026-11-22T00:30:34.465889+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234067",
       "prepared": {
@@ -195633,7 +195641,7 @@
       "last_plan": {
         "source_id": "30752578",
         "display_name": "Ein Fest fürs Leben 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:31:49.514954+00:00"
+        "planned_at": "2026-11-21T18:31:52.987036+00:00"
       }
     },
     "31503": {
@@ -239192,5 +239200,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:31:49.829353+00:00"
+  "updated_at": "2026-11-21T18:31:54.719849+00:00"
 }
