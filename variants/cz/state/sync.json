@@ -140008,7 +140008,7 @@
       "last_plan": {
         "source_id": "30220774",
         "display_name": "Jak chutnà láska (Jak chutná láska) 720p CZ Dabing",
-        "planned_at": "2026-11-21T09:16:44.899471+00:00"
+        "planned_at": "2026-11-21T11:00:40.436082+00:00"
       },
       "previous_target_id": "30988015",
       "prepared": {
@@ -140016,6 +140016,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T07:15:16.689200+00:00",
         "relay_source_id": "30220774"
+      },
+      "claim": {
+        "worker_id": "81222cdd9c124d64a5cca85a889f1190-shard-0",
+        "claimed_at": "2026-11-21T11:00:41.661146+00:00",
+        "lease_expires_at": "2026-11-21T17:00:41.661146+00:00",
+        "run_id": "44889191327"
       }
     },
     "13550": {
@@ -191711,6 +191717,14 @@
           "target_video_id": "31224493",
           "permanent": false,
           "attempted_at": "2026-11-21T09:16:46.267708+00:00"
+        },
+        {
+          "status": "target_requires_review",
+          "source_id": "25780807",
+          "target_video_id": "31224493",
+          "reason": "Prepared video is absent from uploaded listing",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:00:42.808072+00:00"
         }
       ],
       "last_plan": {
@@ -191718,19 +191732,7 @@
         "display_name": "Vyšehrad: Fylm 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:00:31.547594+00:00"
       },
-      "previous_target_id": "31224493",
-      "prepared": {
-        "target_video_id": "31224493",
-        "size_bytes": 2295310531,
-        "prepared_at": "2026-11-21T09:13:20.267099+00:00",
-        "relay_source_id": "25780807"
-      },
-      "claim": {
-        "worker_id": "36e6a02ace2c4f249e6143c843026e87-shard-0",
-        "claimed_at": "2026-11-21T11:00:32.905826+00:00",
-        "lease_expires_at": "2026-11-21T17:00:32.905826+00:00",
-        "run_id": "44889191327"
-      }
+      "previous_target_id": "31224493"
     },
     "21967": {
       "attempts": []
@@ -192231,7 +192233,7 @@
       "last_plan": {
         "source_id": "34695993",
         "display_name": "Kouzelník Žito 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:00:32.003487+00:00"
+        "planned_at": "2026-11-21T11:00:40.891316+00:00"
       }
     },
     "32686": {
@@ -236477,5 +236479,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:00:33.459039+00:00"
+  "updated_at": "2026-11-21T11:00:42.808092+00:00"
 }
