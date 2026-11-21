@@ -111871,7 +111871,7 @@
       "last_plan": {
         "source_id": "34786946",
         "display_name": "Snake's Venom (Hadí jed) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:37:31.087727+00:00"
+        "planned_at": "2026-11-21T07:57:16.422104+00:00"
       },
       "previous_target_id": "30983812",
       "prepared": {
@@ -111879,6 +111879,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T14:52:08.850845+00:00",
         "relay_source_id": "34786946"
+      },
+      "claim": {
+        "worker_id": "2a3ff8390f5846ecb27ae7592f526760-shard-0",
+        "claimed_at": "2026-11-21T07:57:17.402004+00:00",
+        "lease_expires_at": "2026-11-21T13:57:17.402004+00:00",
+        "run_id": "44855214731"
       }
     },
     "12683": {
@@ -191039,17 +191045,19 @@
       "attempts": []
     },
     "22835": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34703669",
+          "target_video_id": "31223266",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:57:18.117428+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34703669",
         "display_name": "Three Men and a Cradle 1080p CZ Dabing",
         "planned_at": "2026-11-21T07:53:42.594789+00:00"
-      },
-      "claim": {
-        "worker_id": "8cfa27530d2742a7b86e3a57469cdfd2-shard-0",
-        "claimed_at": "2026-11-21T07:53:43.235809+00:00",
-        "lease_expires_at": "2026-11-21T13:53:43.235809+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31223266",
       "prepared": {
@@ -191064,7 +191072,7 @@
       "last_plan": {
         "source_id": "6665384",
         "display_name": "Bobby Jones: Stroke of Genius SD CZ Dabing",
-        "planned_at": "2026-11-21T07:57:10.181717+00:00"
+        "planned_at": "2026-11-21T07:57:16.676694+00:00"
       }
     },
     "29877": {
@@ -235508,5 +235516,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:57:12.610283+00:00"
+  "updated_at": "2026-11-21T07:57:18.117451+00:00"
 }
