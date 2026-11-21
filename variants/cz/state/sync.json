@@ -114334,7 +114334,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-20T22:35:31.252283+00:00"
+        "planned_at": "2026-11-21T00:14:55.370360+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -114342,6 +114342,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:29:05.818325+00:00",
         "relay_source_id": "31982080"
+      },
+      "claim": {
+        "worker_id": "bb05ef1c99ab4435a07d9f291c7bdb96-shard-0",
+        "claimed_at": "2026-11-21T00:14:56.636712+00:00",
+        "lease_expires_at": "2026-11-21T06:14:56.636712+00:00",
+        "run_id": "44817573093"
       }
     },
     "2796": {
@@ -187349,17 +187355,23 @@
           "attempted_at": "2026-11-20T22:35:36.770210+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "29107081",
-        "display_name": "Eliska ma rada divocinu (Eliška Likes It Hot) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:14:51.723030+00:00"
-      },
       "previous_target_id": "31214570",
-      "prepared": {
+      "upload": {
         "target_video_id": "31214570",
-        "size_bytes": 3597988088,
-        "prepared_at": "2026-11-20T22:30:19.784336+00:00",
-        "relay_source_id": "29107081"
+        "display_name": "Eliska ma rada divocinu (Eliška Likes It Hot) 1080p CZ Dabing",
+        "source_id": "29107081",
+        "source_url": "https://sdilej.cz/29107081/eliska-ma-rada-divocinu-1999-cs-film.avi",
+        "source_filename": "Eliška má ráda divočinu-1999 CS film.avi",
+        "size_bytes": 3600000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9787807464599609,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/eliska-ma-rada-divocinu-eliska-likes-it-hot-1080p-cz-dabing-avi/a9eaf96af26a3f2a",
+        "uploaded_at": "2026-11-21T00:14:56.925619+00:00"
       }
     },
     "13873": {
@@ -187798,7 +187810,7 @@
       "last_plan": {
         "source_id": "29208646",
         "display_name": "Teddy Bear (Medvídek) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:14:52.099699+00:00"
+        "planned_at": "2026-11-21T00:14:55.747554+00:00"
       }
     },
     "36867": {
@@ -232813,5 +232825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:14:52.404212+00:00"
+  "updated_at": "2026-11-21T00:14:56.925641+00:00"
 }
