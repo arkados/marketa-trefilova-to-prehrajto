@@ -190156,17 +190156,19 @@
       }
     },
     "5913": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686410",
+          "target_video_id": "31221569",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:14:57.007726+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686410",
         "display_name": "A Very Country Christmas: Homecoming (A Very Country Christmas Homecoming) 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:08:52.771824+00:00"
-      },
-      "claim": {
-        "worker_id": "a38c518abda842e280216701f1a26372-shard-0",
-        "claimed_at": "2026-11-21T06:08:53.898785+00:00",
-        "lease_expires_at": "2026-11-21T12:08:53.898785+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221569",
       "prepared": {
@@ -234775,5 +234777,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:14:54.919312+00:00"
+  "updated_at": "2026-11-21T06:14:57.007740+00:00"
 }
