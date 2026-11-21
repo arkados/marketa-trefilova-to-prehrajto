@@ -10815,13 +10815,6 @@
           "source_id": "33222569",
           "target_video_id": "30735890",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:13:44.404721+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33222569",
-          "target_video_id": "30735890",
-          "permanent": false,
           "attempted_at": "2026-11-21T04:43:51.604654+00:00"
         },
         {
@@ -10830,6 +10823,13 @@
           "target_video_id": "30735890",
           "permanent": false,
           "attempted_at": "2026-11-21T05:19:19.694979+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33222569",
+          "target_video_id": "30735890",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:49:31.660561+00:00"
         }
       ],
       "last_plan": {
@@ -22870,7 +22870,7 @@
       "last_plan": {
         "source_id": "26365359",
         "display_name": "The Night of the 12th (La Nuit du 12) 1080p CZ titulky",
-        "planned_at": "2026-11-21T05:19:19.526273+00:00"
+        "planned_at": "2026-11-21T05:49:30.938163+00:00"
       },
       "previous_target_id": "30988430",
       "prepared": {
@@ -22878,6 +22878,12 @@
         "size_bytes": 13500000000,
         "prepared_at": "2026-11-11T08:26:55.170536+00:00",
         "relay_source_id": "26365359"
+      },
+      "claim": {
+        "worker_id": "40dd6348eb594ad88cb94fb252f64833-shard-0",
+        "claimed_at": "2026-11-21T05:49:31.220957+00:00",
+        "lease_expires_at": "2026-11-21T11:49:31.220957+00:00",
+        "run_id": "44855214731"
       }
     },
     "27052": {
@@ -100851,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:49:27.585129+00:00"
+  "updated_at": "2026-11-21T05:49:31.660581+00:00"
 }
