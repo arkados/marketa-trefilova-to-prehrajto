@@ -67244,13 +67244,6 @@
           "source_id": "25671141",
           "target_video_id": "30833110",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:50:33.876693+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25671141",
-          "target_video_id": "30833110",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:34:32.504131+00:00"
         },
         {
@@ -67259,12 +67252,19 @@
           "target_video_id": "30833110",
           "permanent": false,
           "attempted_at": "2026-11-21T20:12:24.560381+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25671141",
+          "target_video_id": "30833110",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:20:59.562370+00:00"
         }
       ],
       "last_plan": {
         "source_id": "25671141",
         "display_name": "The Blind Man Who Did Not Want to See Titanic (Sokea mies joka ei halunnut nähdä Titanicia) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:12:19.042371+00:00"
+        "planned_at": "2026-11-21T23:20:56.796304+00:00"
       },
       "previous_target_id": "30833110",
       "prepared": {
@@ -197237,7 +197237,13 @@
       "last_plan": {
         "source_id": "34189687",
         "display_name": "Norwegian Dream 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:20:34.733181+00:00"
+        "planned_at": "2026-11-21T23:20:57.167038+00:00"
+      },
+      "claim": {
+        "worker_id": "40c7fbf3ad804978b1669cde94c53d17-shard-0",
+        "claimed_at": "2026-11-21T23:20:58.240845+00:00",
+        "lease_expires_at": "2026-11-22T05:20:58.240845+00:00",
+        "run_id": "44959851294"
       }
     },
     "35203": {
@@ -197265,7 +197271,12 @@
       "attempts": []
     },
     "15936": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31712757",
+        "display_name": "Saturn Return (Segundo premio) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T23:20:57.400512+00:00"
+      }
     },
     "22702": {
       "attempts": []
@@ -240499,5 +240510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:20:54.420251+00:00"
+  "updated_at": "2026-11-21T23:20:59.562390+00:00"
 }
