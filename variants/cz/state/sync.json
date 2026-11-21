@@ -120729,6 +120729,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T18:33:48.985609+00:00",
         "relay_source_id": "26917489"
+      },
+      "claim": {
+        "worker_id": "599f728654f84a688351ce7d8c911f96-shard-0",
+        "claimed_at": "2026-11-21T14:21:01.265646+00:00",
+        "lease_expires_at": "2026-11-21T20:21:01.265646+00:00",
+        "run_id": "44897571814"
       }
     },
     "36717": {
@@ -126918,13 +126924,6 @@
           "source_id": "19694363",
           "target_video_id": "30986270",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:15:44.942798+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19694363",
-          "target_video_id": "30986270",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:59:26.927378+00:00"
         },
         {
@@ -126933,6 +126932,13 @@
           "target_video_id": "30986270",
           "permanent": false,
           "attempted_at": "2026-11-21T12:41:35.021726+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19694363",
+          "target_video_id": "30986270",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:21:01.028025+00:00"
         }
       ],
       "last_plan": {
@@ -126946,12 +126952,6 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T23:49:32.122844+00:00",
         "relay_source_id": "19694363"
-      },
-      "claim": {
-        "worker_id": "8bc2e24b083949818c1e357b324a4789-shard-0",
-        "claimed_at": "2026-11-21T14:20:57.165285+00:00",
-        "lease_expires_at": "2026-11-21T20:20:57.165285+00:00",
-        "run_id": "44897571814"
       }
     },
     "21742": {
@@ -143894,7 +143894,7 @@
       "last_plan": {
         "source_id": "32032449",
         "display_name": "The Most Beautiful Age (Nejkrásnější věk) SD CZ Dabing",
-        "planned_at": "2026-11-21T12:41:37.464536+00:00"
+        "planned_at": "2026-11-21T14:21:01.556325+00:00"
       },
       "previous_target_id": "30988678",
       "prepared": {
@@ -193658,7 +193658,7 @@
       "last_plan": {
         "source_id": "13591436",
         "display_name": "Storm. Letter of fire (Storm: Letters van vuur) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:20:57.855139+00:00"
+        "planned_at": "2026-11-21T14:21:01.953360+00:00"
       }
     },
     "36905": {
@@ -237631,5 +237631,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:20:58.232008+00:00"
+  "updated_at": "2026-11-21T14:21:01.953376+00:00"
 }
