@@ -133580,7 +133580,7 @@
       "last_plan": {
         "source_id": "34634312",
         "display_name": "Advokát chudých (Lawyer of the Poor) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:01:28.086374+00:00"
+        "planned_at": "2026-11-21T06:31:36.774655+00:00"
       },
       "previous_target_id": "30987300",
       "prepared": {
@@ -147896,6 +147896,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-13T05:48:00.829748+00:00",
         "relay_source_id": "12674209"
+      },
+      "claim": {
+        "worker_id": "eb8885dbd6a840bbb6810d58cc65a7d0-shard-0",
+        "claimed_at": "2026-11-21T06:31:36.103397+00:00",
+        "lease_expires_at": "2026-11-21T12:31:36.103397+00:00",
+        "run_id": "44855214731"
       }
     },
     "24225": {
@@ -190255,17 +190261,19 @@
       }
     },
     "21783": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23216621",
+          "target_video_id": "31221804",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:31:36.937293+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23216621",
         "display_name": "The War Lord 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:26:18.236592+00:00"
-      },
-      "claim": {
-        "worker_id": "3a6c83bf93e543e8a3a23cb119704655-shard-0",
-        "claimed_at": "2026-11-21T06:26:20.792374+00:00",
-        "lease_expires_at": "2026-11-21T12:26:20.792374+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221804",
       "prepared": {
@@ -234885,5 +234893,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:31:32.997698+00:00"
+  "updated_at": "2026-11-21T06:31:36.937317+00:00"
 }
