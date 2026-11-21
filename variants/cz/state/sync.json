@@ -120815,13 +120815,6 @@
           "source_id": "34453326",
           "target_video_id": "30985025",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:47:44.659638+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34453326",
-          "target_video_id": "30985025",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:29:41.815787+00:00"
         },
         {
@@ -120830,6 +120823,13 @@
           "target_video_id": "30985025",
           "permanent": false,
           "attempted_at": "2026-11-21T16:05:46.630493+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34453326",
+          "target_video_id": "30985025",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:43:41.992036+00:00"
         }
       ],
       "last_plan": {
@@ -120872,7 +120872,7 @@
       "last_plan": {
         "source_id": "17805705",
         "display_name": "Ballerina (2016) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:05:46.145691+00:00"
+        "planned_at": "2026-11-21T17:43:40.225862+00:00"
       },
       "previous_target_id": "30985024",
       "prepared": {
@@ -120880,6 +120880,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T18:36:07.983562+00:00",
         "relay_source_id": "17805705"
+      },
+      "claim": {
+        "worker_id": "3f8e8ce5a75b4a328ca6e7898fc20c74-shard-0",
+        "claimed_at": "2026-11-21T17:43:41.345377+00:00",
+        "lease_expires_at": "2026-11-21T23:43:41.345377+00:00",
+        "run_id": "44930055910"
       }
     },
     "21367": {
@@ -195124,6 +195130,12 @@
         "source_id": "34651622",
         "display_name": "The Big Fake (Il falsario) 1080p CZ Dabing",
         "planned_at": "2026-11-21T17:43:36.685529+00:00"
+      },
+      "claim": {
+        "worker_id": "2ce3cdc217364c288442fb1cfa458422-shard-0",
+        "claimed_at": "2026-11-21T17:43:39.664955+00:00",
+        "lease_expires_at": "2026-11-21T23:43:39.664955+00:00",
+        "run_id": "44930055910"
       }
     },
     "13917": {
@@ -195131,7 +195143,7 @@
       "last_plan": {
         "source_id": "21457327",
         "display_name": "Salt-N-Pepa 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:43:37.195521+00:00"
+        "planned_at": "2026-11-21T17:43:40.682214+00:00"
       }
     },
     "7290": {
@@ -238774,5 +238786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:43:37.195540+00:00"
+  "updated_at": "2026-11-21T17:43:41.992056+00:00"
 }
