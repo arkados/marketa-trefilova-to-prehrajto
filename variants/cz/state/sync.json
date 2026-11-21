@@ -132425,13 +132425,6 @@
           "source_id": "25018592",
           "target_video_id": "30987121",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:50:06.841323+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25018592",
-          "target_video_id": "30987121",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:31:56.622858+00:00"
         },
         {
@@ -132440,6 +132433,13 @@
           "target_video_id": "30987121",
           "permanent": false,
           "attempted_at": "2026-11-21T16:08:23.647710+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25018592",
+          "target_video_id": "30987121",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:46:05.582873+00:00"
         }
       ],
       "last_plan": {
@@ -166329,7 +166329,7 @@
       "last_plan": {
         "source_id": "34847633",
         "display_name": "Secret Name (La Place d'une autre) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:08:21.628584+00:00"
+        "planned_at": "2026-11-21T17:46:03.631226+00:00"
       },
       "previous_target_id": "31110339",
       "prepared": {
@@ -166337,6 +166337,12 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-11-17T05:58:14.226533+00:00",
         "relay_source_id": "34847633"
+      },
+      "claim": {
+        "worker_id": "927d0fd0a348433984127b7c5df2aa01-shard-0",
+        "claimed_at": "2026-11-21T17:46:04.648816+00:00",
+        "lease_expires_at": "2026-11-21T23:46:04.648816+00:00",
+        "run_id": "44930055910"
       }
     },
     "10752": {
@@ -195150,7 +195156,7 @@
       "last_plan": {
         "source_id": "21457327",
         "display_name": "Salt-N-Pepa 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:46:00.522018+00:00"
+        "planned_at": "2026-11-21T17:46:04.009686+00:00"
       }
     },
     "7290": {
@@ -238793,5 +238799,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:46:00.808023+00:00"
+  "updated_at": "2026-11-21T17:46:05.582894+00:00"
 }
