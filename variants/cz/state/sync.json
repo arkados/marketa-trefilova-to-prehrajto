@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "4ed6940a7ecb46f19e2939b8ef96bbde-shard-0",
+        "claimed_at": "2026-11-21T17:44:21.632931+00:00",
+        "lease_expires_at": "2026-11-21T23:44:21.632931+00:00",
+        "run_id": "44930055910"
       }
     },
     "12374": {
@@ -120966,13 +120972,6 @@
           "source_id": "19734096",
           "target_video_id": "30985029",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:48:36.644488+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19734096",
-          "target_video_id": "30985029",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:30:32.388295+00:00"
         },
         {
@@ -120981,12 +120980,19 @@
           "target_video_id": "30985029",
           "permanent": false,
           "attempted_at": "2026-11-21T16:06:45.730378+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19734096",
+          "target_video_id": "30985029",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:44:25.448283+00:00"
         }
       ],
       "last_plan": {
         "source_id": "19734096",
         "display_name": "The House (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:06:39.758154+00:00"
+        "planned_at": "2026-11-21T17:44:21.995828+00:00"
       },
       "previous_target_id": "30985029",
       "prepared": {
@@ -195144,7 +195150,7 @@
       "last_plan": {
         "source_id": "21457327",
         "display_name": "Salt-N-Pepa 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:44:19.203467+00:00"
+        "planned_at": "2026-11-21T17:44:22.397422+00:00"
       }
     },
     "7290": {
@@ -238787,5 +238793,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:44:19.203486+00:00"
+  "updated_at": "2026-11-21T17:44:25.448303+00:00"
 }
