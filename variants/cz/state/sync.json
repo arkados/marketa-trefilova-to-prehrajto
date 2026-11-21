@@ -118735,7 +118735,7 @@
       "last_plan": {
         "source_id": "29278547",
         "display_name": "Life (1999) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:46:14.793667+00:00"
+        "planned_at": "2026-11-21T03:30:07.587113+00:00"
       },
       "previous_target_id": "30984864",
       "prepared": {
@@ -140111,13 +140111,6 @@
           "source_id": "34676284",
           "target_video_id": "30988031",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:23:07.476955+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676284",
-          "target_video_id": "30988031",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:59:52.170660+00:00"
         },
         {
@@ -140126,6 +140119,13 @@
           "target_video_id": "30988031",
           "permanent": false,
           "attempted_at": "2026-11-21T01:46:22.418921+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676284",
+          "target_video_id": "30988031",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:30:08.285802+00:00"
         }
       ],
       "last_plan": {
@@ -140139,12 +140139,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T07:18:56.338737+00:00",
         "relay_source_id": "34676284"
-      },
-      "claim": {
-        "worker_id": "bed831ab2c3b44da97787cb096600b78-shard-0",
-        "claimed_at": "2026-11-21T03:30:03.353624+00:00",
-        "lease_expires_at": "2026-11-21T09:30:03.353624+00:00",
-        "run_id": "44848457493"
       }
     },
     "15370": {
@@ -188504,17 +188498,23 @@
           "attempted_at": "2026-11-21T01:46:26.904061+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34715229",
-        "display_name": "Convict Cowboy SD CZ Dabing",
-        "planned_at": "2026-11-21T03:30:03.641265+00:00"
-      },
       "previous_target_id": "31217457",
-      "prepared": {
+      "upload": {
         "target_video_id": "31217457",
-        "size_bytes": 904979236,
-        "prepared_at": "2026-11-21T01:44:59.854494+00:00",
-        "relay_source_id": "34715229"
+        "display_name": "Convict Cowboy SD CZ Dabing",
+        "source_id": "34715229",
+        "source_url": "https://sdilej.cz/34715229/convict-cowboy-1995-cz.mp4",
+        "source_filename": "Convict Cowboy (1995) CZ.mp4",
+        "size_bytes": 905000000,
+        "width": 586,
+        "height": 480,
+        "audio_language": "cs",
+        "language_probability": 0.8223157525062561,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/convict-cowboy-sd-cz-dabing-mp4/eb0445dfb11bf9f0",
+        "uploaded_at": "2026-11-21T03:30:08.836974+00:00"
       }
     },
     "12361": {
@@ -189059,7 +189059,7 @@
       "last_plan": {
         "source_id": "32131280",
         "display_name": "Fireman Sam: The Great Fire of Pontypandy SD CZ Dabing",
-        "planned_at": "2026-11-21T03:30:04.012016+00:00"
+        "planned_at": "2026-11-21T03:30:07.952360+00:00"
       }
     },
     "21933": {
@@ -233869,5 +233869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:30:04.012038+00:00"
+  "updated_at": "2026-11-21T03:30:08.836995+00:00"
 }
