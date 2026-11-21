@@ -135228,13 +135228,6 @@
           "source_id": "33443922",
           "target_video_id": "30987547",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:06:25.882203+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33443922",
-          "target_video_id": "30987547",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:51:34.213942+00:00"
         },
         {
@@ -135243,6 +135236,13 @@
           "target_video_id": "30987547",
           "permanent": false,
           "attempted_at": "2026-11-21T07:09:44.241792+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33443922",
+          "target_video_id": "30987547",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:28:35.875472+00:00"
         }
       ],
       "last_plan": {
@@ -162770,7 +162770,7 @@
       "last_plan": {
         "source_id": "31554666",
         "display_name": "Parta hic 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:09:42.653220+00:00"
+        "planned_at": "2026-11-21T08:28:34.302833+00:00"
       },
       "previous_target_id": "31092003",
       "prepared": {
@@ -162778,6 +162778,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-16T13:36:30.465165+00:00",
         "relay_source_id": "31554666"
+      },
+      "claim": {
+        "worker_id": "701c29e1646f40499bcbce172bd469a3-shard-0",
+        "claimed_at": "2026-11-21T08:28:34.973899+00:00",
+        "lease_expires_at": "2026-11-21T14:28:34.973899+00:00",
+        "run_id": "44855214731"
       }
     },
     "15311": {
@@ -191257,7 +191263,7 @@
       "last_plan": {
         "source_id": "34720461",
         "display_name": "Foreign Body SD CZ Dabing",
-        "planned_at": "2026-11-21T08:28:30.737700+00:00"
+        "planned_at": "2026-11-21T08:28:34.559470+00:00"
       }
     },
     "10838": {
@@ -235659,5 +235665,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:28:30.929612+00:00"
+  "updated_at": "2026-11-21T08:28:35.875488+00:00"
 }
