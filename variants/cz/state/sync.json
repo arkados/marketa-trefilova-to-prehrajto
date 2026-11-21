@@ -110379,13 +110379,6 @@
           "source_id": "35139243",
           "target_video_id": "30983706",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:49:52.918460+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35139243",
-          "target_video_id": "30983706",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:33:47.340632+00:00"
         },
         {
@@ -110394,6 +110387,13 @@
           "target_video_id": "30983706",
           "permanent": false,
           "attempted_at": "2026-11-21T20:11:45.557717+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35139243",
+          "target_video_id": "30983706",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:19:46.022199+00:00"
         }
       ],
       "last_plan": {
@@ -144248,7 +144248,7 @@
       "last_plan": {
         "source_id": "30864267",
         "display_name": "Srdečný pozdrav ze zeměkoule 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:11:45.228316+00:00"
+        "planned_at": "2026-11-21T23:19:44.619897+00:00"
       },
       "previous_target_id": "30988779",
       "prepared": {
@@ -144256,6 +144256,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T09:56:19.579893+00:00",
         "relay_source_id": "30864267"
+      },
+      "claim": {
+        "worker_id": "d2fabb1021be4676baa5373a85bf2d7f-shard-0",
+        "claimed_at": "2026-11-21T23:19:45.762302+00:00",
+        "lease_expires_at": "2026-11-22T05:19:45.762302+00:00",
+        "run_id": "44959851294"
       }
     },
     "32807": {
@@ -197211,7 +197217,7 @@
       "last_plan": {
         "source_id": "14370586",
         "display_name": "My Best Friend (Mon meilleur ami) (2006) SD CZ Dabing",
-        "planned_at": "2026-11-21T23:19:41.490550+00:00"
+        "planned_at": "2026-11-21T23:19:45.016221+00:00"
       }
     },
     "33181": {
@@ -240479,5 +240485,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:19:41.800275+00:00"
+  "updated_at": "2026-11-21T23:19:46.022220+00:00"
 }
