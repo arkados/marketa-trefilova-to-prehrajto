@@ -127791,13 +127791,6 @@
           "source_id": "24587871",
           "target_video_id": "30986461",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:50:45.056059+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24587871",
-          "target_video_id": "30986461",
-          "permanent": false,
           "attempted_at": "2026-11-21T11:34:35.535702+00:00"
         },
         {
@@ -127806,6 +127799,13 @@
           "target_video_id": "30986461",
           "permanent": false,
           "attempted_at": "2026-11-21T13:13:53.257431+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24587871",
+          "target_video_id": "30986461",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:51:46.896747+00:00"
         }
       ],
       "last_plan": {
@@ -127819,12 +127819,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T00:34:44.422441+00:00",
         "relay_source_id": "24587871"
-      },
-      "claim": {
-        "worker_id": "60d88755a7f043288768f89324ef064d-shard-0",
-        "claimed_at": "2026-11-21T14:51:43.922967+00:00",
-        "lease_expires_at": "2026-11-21T20:51:43.922967+00:00",
-        "run_id": "44897571814"
       }
     },
     "2929": {
@@ -138832,7 +138826,7 @@
       "last_plan": {
         "source_id": "34185549",
         "display_name": "Watchdogs (Tady hlídáme my) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:13:52.354987+00:00"
+        "planned_at": "2026-11-21T14:51:46.193324+00:00"
       },
       "previous_target_id": "30987891",
       "prepared": {
@@ -193787,7 +193781,7 @@
       "last_plan": {
         "source_id": "34653846",
         "display_name": "The St. Valentine's Day Massacre 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:51:41.389348+00:00"
+        "planned_at": "2026-11-21T14:51:46.581677+00:00"
       }
     },
     "36872": {
@@ -193800,7 +193794,12 @@
       "attempts": []
     },
     "15221": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34689899",
+        "display_name": "Sleepless Night (Nuit blanche) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T14:51:47.128309+00:00"
+      }
     },
     "35176": {
       "attempts": []
@@ -237748,5 +237747,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:51:43.922990+00:00"
+  "updated_at": "2026-11-21T14:51:47.128323+00:00"
 }
