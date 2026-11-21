@@ -130590,13 +130590,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:42:54.290713+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-20T17:20:28.139938+00:00"
         },
         {
@@ -130605,6 +130598,13 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-20T22:36:41.438844+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:15:59.670155+00:00"
         }
       ],
       "last_plan": {
@@ -140362,7 +140362,7 @@
       "last_plan": {
         "source_id": "34864473",
         "display_name": "Corpus Delicti 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:36:41.731567+00:00"
+        "planned_at": "2026-11-21T00:15:57.712810+00:00"
       },
       "previous_target_id": "30988077",
       "prepared": {
@@ -140370,6 +140370,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-11T07:27:44.810508+00:00",
         "relay_source_id": "34864473"
+      },
+      "claim": {
+        "worker_id": "922782fddf784662bb742418d8219e97-shard-0",
+        "claimed_at": "2026-11-21T00:15:58.769357+00:00",
+        "lease_expires_at": "2026-11-21T06:15:58.769357+00:00",
+        "run_id": "44817573093"
       }
     },
     "24211": {
@@ -187804,7 +187810,7 @@
       "last_plan": {
         "source_id": "29208646",
         "display_name": "Teddy Bear (Medvídek) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:15:54.737894+00:00"
+        "planned_at": "2026-11-21T00:15:58.092532+00:00"
       }
     },
     "36867": {
@@ -232819,5 +232825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:15:54.737913+00:00"
+  "updated_at": "2026-11-21T00:15:59.670179+00:00"
 }
