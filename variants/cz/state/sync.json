@@ -137959,13 +137959,6 @@
           "source_id": "30246061",
           "target_video_id": "30987831",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:45:59.599196+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30246061",
-          "target_video_id": "30987831",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:28:03.954202+00:00"
         },
         {
@@ -137974,12 +137967,19 @@
           "target_video_id": "30987831",
           "permanent": false,
           "attempted_at": "2026-11-21T03:11:38.279348+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30246061",
+          "target_video_id": "30987831",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:58:37.544241+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30246061",
         "display_name": "Na Svatém Kopečku SD CZ Dabing",
-        "planned_at": "2026-11-21T03:11:31.140791+00:00"
+        "planned_at": "2026-11-21T04:58:34.447678+00:00"
       },
       "previous_target_id": "30987831",
       "prepared": {
@@ -189587,11 +189587,28 @@
       "last_plan": {
         "source_id": "14360307",
         "display_name": "Bourák 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:58:24.203281+00:00"
+        "planned_at": "2026-11-21T04:58:34.818548+00:00"
+      },
+      "claim": {
+        "worker_id": "6c9c3f9b847344c59a2930f69306cba4-shard-0",
+        "claimed_at": "2026-11-21T04:58:36.075410+00:00",
+        "lease_expires_at": "2026-11-21T10:58:36.075410+00:00",
+        "run_id": "44848457493"
       }
     },
     "18946": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34431137",
+        "display_name": "Egon Schiele: Death and the Maiden (Egon Schiele: Tod und Mädchen) 720p CZ Dabing",
+        "planned_at": "2026-11-21T04:58:35.049443+00:00"
+      },
+      "claim": {
+        "worker_id": "8295458dbdf74cae84cac50736ae63b2-shard-0",
+        "claimed_at": "2026-11-21T04:58:36.305098+00:00",
+        "lease_expires_at": "2026-11-21T10:58:36.305098+00:00",
+        "run_id": "44848457493"
+      }
     },
     "8198": {
       "attempts": []
@@ -189603,7 +189620,12 @@
       "attempts": []
     },
     "11202": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34712238",
+        "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
+        "planned_at": "2026-11-21T04:58:35.273851+00:00"
+      }
     },
     "25887": {
       "attempts": []
@@ -234313,5 +234335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:58:30.353599+00:00"
+  "updated_at": "2026-11-21T04:58:37.544262+00:00"
 }
