@@ -116833,6 +116833,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:23:59.006056+00:00",
         "relay_source_id": "34190531"
+      },
+      "claim": {
+        "worker_id": "512d9e2a4a2448b8ac27e18c78918e5e-shard-0",
+        "claimed_at": "2026-11-21T12:22:41.009296+00:00",
+        "lease_expires_at": "2026-11-21T18:22:41.009296+00:00",
+        "run_id": "44889191327"
       }
     },
     "2923": {
@@ -139777,7 +139783,7 @@
       "last_plan": {
         "source_id": "30845649",
         "display_name": "Meurtres sur la Côte Fleurie SD CZ Dabing",
-        "planned_at": "2026-11-21T10:41:14.318894+00:00"
+        "planned_at": "2026-11-21T12:22:41.335714+00:00"
       },
       "previous_target_id": "30987970",
       "prepared": {
@@ -192820,17 +192826,19 @@
       }
     },
     "34433": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34063493",
+          "target_video_id": "31228123",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:22:42.164681+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34063493",
         "display_name": "The Doll (La Poupée) (2026) 1080p CZ Dabing",
         "planned_at": "2026-11-21T12:18:25.275034+00:00"
-      },
-      "claim": {
-        "worker_id": "6832695381d84788987a56fa1f98e897-shard-0",
-        "claimed_at": "2026-11-21T12:18:26.566050+00:00",
-        "lease_expires_at": "2026-11-21T18:18:26.566050+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31228123",
       "prepared": {
@@ -192845,7 +192853,7 @@
       "last_plan": {
         "source_id": "32345697",
         "display_name": "Adieu l'ami 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:22:37.811622+00:00"
+        "planned_at": "2026-11-21T12:22:41.868470+00:00"
       }
     },
     "21494": {
@@ -236968,5 +236976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:22:38.303019+00:00"
+  "updated_at": "2026-11-21T12:22:42.164705+00:00"
 }
