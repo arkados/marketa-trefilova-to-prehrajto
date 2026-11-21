@@ -195889,17 +195889,19 @@
       "attempts": []
     },
     "21151": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34486829",
+          "target_video_id": "31234470",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:02:27.442164+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34486829",
         "display_name": "Winners & Sinners (Winners and Sinners) 1080p CZ Dabing",
         "planned_at": "2026-11-21T18:57:10.546557+00:00"
-      },
-      "claim": {
-        "worker_id": "f347a95d2ea446dab85ab8ae0efd9ac9-shard-0",
-        "claimed_at": "2026-11-21T18:57:11.734687+00:00",
-        "lease_expires_at": "2026-11-22T00:57:11.734687+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234470",
       "prepared": {
@@ -239434,5 +239436,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:02:25.385342+00:00"
+  "updated_at": "2026-11-21T19:02:27.442183+00:00"
 }
