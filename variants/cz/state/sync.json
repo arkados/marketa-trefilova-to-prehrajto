@@ -118641,13 +118641,6 @@
           "source_id": "25787561",
           "target_video_id": "30984861",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:55:54.929395+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25787561",
-          "target_video_id": "30984861",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:26:53.274779+00:00"
         },
         {
@@ -118656,12 +118649,19 @@
           "target_video_id": "30984861",
           "permanent": false,
           "attempted_at": "2026-11-21T07:46:28.128602+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25787561",
+          "target_video_id": "30984861",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:06:39.660395+00:00"
         }
       ],
       "last_plan": {
         "source_id": "25787561",
         "display_name": "Florence Foster Jenkins 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:46:25.684166+00:00"
+        "planned_at": "2026-11-21T09:06:37.179997+00:00"
       },
       "previous_target_id": "30984861",
       "prepared": {
@@ -191517,7 +191517,13 @@
       "last_plan": {
         "source_id": "14000195",
         "display_name": "My Summer in Provence (Avis de mistral) SD CZ Dabing",
-        "planned_at": "2026-11-21T09:06:30.097748+00:00"
+        "planned_at": "2026-11-21T09:06:37.433949+00:00"
+      },
+      "claim": {
+        "worker_id": "822d2558234e447c8ddedc69acbcd0f3-shard-0",
+        "claimed_at": "2026-11-21T09:06:38.176640+00:00",
+        "lease_expires_at": "2026-11-21T15:06:38.176640+00:00",
+        "run_id": "44855214731"
       }
     },
     "24502": {
@@ -191527,7 +191533,12 @@
       "attempts": []
     },
     "28691": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29626932",
+        "display_name": "Bony a klid 2 1080p CZ Dabing",
+        "planned_at": "2026-11-21T09:06:37.597419+00:00"
+      }
     },
     "5412": {
       "attempts": []
@@ -235874,5 +235885,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:06:33.687110+00:00"
+  "updated_at": "2026-11-21T09:06:39.660417+00:00"
 }
