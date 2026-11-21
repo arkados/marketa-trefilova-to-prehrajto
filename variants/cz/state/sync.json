@@ -188300,17 +188300,19 @@
       "attempts": []
     },
     "21634": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30061077",
+          "target_video_id": "31217219",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:40:27.657127+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30061077",
         "display_name": "Le Miracle des loups (Blood on His Sword) 1080p CZ Dabing",
         "planned_at": "2026-11-21T01:31:15.537983+00:00"
-      },
-      "claim": {
-        "worker_id": "3696704b8c2943da99579de03b450d72-shard-0",
-        "claimed_at": "2026-11-21T01:31:18.896781+00:00",
-        "lease_expires_at": "2026-11-21T07:31:18.896781+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31217219",
       "prepared": {
@@ -233261,5 +233263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:40:25.230265+00:00"
+  "updated_at": "2026-11-21T01:40:27.657150+00:00"
 }
