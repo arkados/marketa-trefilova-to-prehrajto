@@ -194534,17 +194534,19 @@
       "attempts": []
     },
     "34297": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34526911",
+          "target_video_id": "31232181",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:31:08.065359+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34526911",
         "display_name": "Comandante 1080p CZ Dabing",
         "planned_at": "2026-11-21T16:22:48.707007+00:00"
-      },
-      "claim": {
-        "worker_id": "35cd58b51e17415398c1df3c06ec421d-shard-0",
-        "claimed_at": "2026-11-21T16:22:53.210522+00:00",
-        "lease_expires_at": "2026-11-21T22:22:53.210522+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31232181",
       "prepared": {
@@ -238346,5 +238348,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:31:05.751302+00:00"
+  "updated_at": "2026-11-21T16:31:08.065375+00:00"
 }
