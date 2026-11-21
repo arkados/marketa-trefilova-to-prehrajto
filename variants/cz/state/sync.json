@@ -112257,13 +112257,6 @@
           "source_id": "33855360",
           "target_video_id": "30983838",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:21:02.671124+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33855360",
-          "target_video_id": "30983838",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:03:51.006660+00:00"
         },
         {
@@ -112272,6 +112265,13 @@
           "target_video_id": "30983838",
           "permanent": false,
           "attempted_at": "2026-11-21T14:42:40.280872+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33855360",
+          "target_video_id": "30983838",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:18:25.033724+00:00"
         }
       ],
       "last_plan": {
@@ -112285,12 +112285,6 @@
         "size_bytes": 8900000000,
         "prepared_at": "2026-11-10T14:56:59.066784+00:00",
         "relay_source_id": "33855360"
-      },
-      "claim": {
-        "worker_id": "c6d372d7410c46849c74cca2985eba3e-shard-0",
-        "claimed_at": "2026-11-21T16:18:22.253497+00:00",
-        "lease_expires_at": "2026-11-21T22:18:22.253497+00:00",
-        "run_id": "44897571814"
       }
     },
     "32996": {
@@ -114340,7 +114334,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-21T14:42:38.747829+00:00"
+        "planned_at": "2026-11-21T16:18:24.335559+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -194506,14 +194500,19 @@
       "last_plan": {
         "source_id": "29450888",
         "display_name": "Sisi & I (Sisi & Ich) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:18:18.824759+00:00"
+        "planned_at": "2026-11-21T16:18:24.756361+00:00"
       }
     },
     "20697": {
       "attempts": []
     },
     "34297": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34526911",
+        "display_name": "Comandante 1080p CZ Dabing",
+        "planned_at": "2026-11-21T16:18:25.266598+00:00"
+      }
     },
     "25722": {
       "attempts": []
@@ -238302,5 +238301,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:18:22.253522+00:00"
+  "updated_at": "2026-11-21T16:18:25.266614+00:00"
 }
