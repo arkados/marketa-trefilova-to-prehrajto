@@ -89910,13 +89910,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:26:54.628896+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:05:55.821118+00:00"
         },
         {
@@ -89925,6 +89918,13 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-21T02:55:24.670058+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:39:21.742793+00:00"
         }
       ],
       "last_plan": {
@@ -141598,7 +141598,7 @@
       "last_plan": {
         "source_id": "34694069",
         "display_name": "Na dvore je kun, séfe! (Na dvoře je kůň, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:55:22.983537+00:00"
+        "planned_at": "2026-11-21T04:39:19.788899+00:00"
       },
       "previous_target_id": "30988245",
       "prepared": {
@@ -141606,6 +141606,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:57:46.666018+00:00",
         "relay_source_id": "34694069"
+      },
+      "claim": {
+        "worker_id": "8160c055d53b4c28b522465944a98d54-shard-0",
+        "claimed_at": "2026-11-21T04:39:20.814309+00:00",
+        "lease_expires_at": "2026-11-21T10:39:20.814309+00:00",
+        "run_id": "44848457493"
       }
     },
     "17285": {
@@ -189459,7 +189465,7 @@
       "last_plan": {
         "source_id": "30060670",
         "display_name": "The Police War (La Guerre des polices) SD CZ Dabing",
-        "planned_at": "2026-11-21T04:39:16.274519+00:00"
+        "planned_at": "2026-11-21T04:39:20.165799+00:00"
       }
     },
     "12396": {
@@ -234206,5 +234212,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:39:16.571814+00:00"
+  "updated_at": "2026-11-21T04:39:21.742815+00:00"
 }
