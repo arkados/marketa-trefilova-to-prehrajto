@@ -107669,13 +107669,6 @@
           "source_id": "34720969",
           "target_video_id": "30983144",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:51:37.465876+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34720969",
-          "target_video_id": "30983144",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:33:18.662988+00:00"
         },
         {
@@ -107684,6 +107677,13 @@
           "target_video_id": "30983144",
           "permanent": false,
           "attempted_at": "2026-11-21T16:09:44.930400+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34720969",
+          "target_video_id": "30983144",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:47:34.485219+00:00"
         }
       ],
       "last_plan": {
@@ -107726,7 +107726,7 @@
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:09:44.111781+00:00"
+        "planned_at": "2026-11-21T17:47:32.421777+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -107734,6 +107734,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T13:53:28.759441+00:00",
         "relay_source_id": "11951859"
+      },
+      "claim": {
+        "worker_id": "50308dd179c34f068d63db6580b587a7-shard-0",
+        "claimed_at": "2026-11-21T17:47:33.550550+00:00",
+        "lease_expires_at": "2026-11-21T23:47:33.550550+00:00",
+        "run_id": "44930055910"
       }
     },
     "21503": {
@@ -195173,7 +195179,7 @@
       "last_plan": {
         "source_id": "31596221",
         "display_name": "National Street (Národní třída) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:47:29.748685+00:00"
+        "planned_at": "2026-11-21T17:47:32.808416+00:00"
       }
     },
     "11548": {
@@ -238813,5 +238819,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:47:29.748709+00:00"
+  "updated_at": "2026-11-21T17:47:34.485239+00:00"
 }
