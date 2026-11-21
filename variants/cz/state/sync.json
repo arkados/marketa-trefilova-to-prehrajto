@@ -141169,7 +141169,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:12:50.842375+00:00"
+        "planned_at": "2026-11-21T23:21:43.588032+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -141177,6 +141177,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-11T07:47:20.017281+00:00",
         "relay_source_id": "34791481"
+      },
+      "claim": {
+        "worker_id": "58d6e02ff13c44f49e46496d80dffe77-shard-0",
+        "claimed_at": "2026-11-21T23:21:44.756866+00:00",
+        "lease_expires_at": "2026-11-22T05:21:44.756866+00:00",
+        "run_id": "44959851294"
       }
     },
     "28296": {
@@ -197209,17 +197215,19 @@
       }
     },
     "13743": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14370586",
+          "target_video_id": "31238764",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:21:45.393929+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14370586",
         "display_name": "My Best Friend (Mon meilleur ami) (2006) SD CZ Dabing",
         "planned_at": "2026-11-21T23:20:34.499786+00:00"
-      },
-      "claim": {
-        "worker_id": "16f28505381c412e82a7eb23492c97ef-shard-0",
-        "claimed_at": "2026-11-21T23:20:35.327231+00:00",
-        "lease_expires_at": "2026-11-22T05:20:35.327231+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31238764",
       "prepared": {
@@ -197282,7 +197290,7 @@
       "last_plan": {
         "source_id": "31712757",
         "display_name": "Saturn Return (Segundo premio) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:21:39.171113+00:00"
+        "planned_at": "2026-11-21T23:21:44.072481+00:00"
       }
     },
     "22702": {
@@ -240517,5 +240525,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:21:41.384435+00:00"
+  "updated_at": "2026-11-21T23:21:45.393949+00:00"
 }
