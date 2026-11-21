@@ -21778,13 +21778,6 @@
           "source_id": "30201467",
           "target_video_id": "30689742",
           "permanent": false,
-          "attempted_at": "2026-11-21T15:09:34.059450+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30201467",
-          "target_video_id": "30689742",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:45:09.744021+00:00"
         },
         {
@@ -21793,6 +21786,13 @@
           "target_video_id": "30689742",
           "permanent": false,
           "attempted_at": "2026-11-21T18:25:56.648842+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30201467",
+          "target_video_id": "30689742",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:07:15.356166+00:00"
         }
       ],
       "last_plan": {
@@ -137197,7 +137197,7 @@
       "last_plan": {
         "source_id": "31005194",
         "display_name": "Mord 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:25:55.948039+00:00"
+        "planned_at": "2026-11-21T20:07:13.812134+00:00"
       },
       "previous_target_id": "30987751",
       "prepared": {
@@ -137205,6 +137205,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:55:02.328631+00:00",
         "relay_source_id": "31005194"
+      },
+      "claim": {
+        "worker_id": "38be9d291d1049269a881e80c1e4f6bb-shard-0",
+        "claimed_at": "2026-11-21T20:07:14.963381+00:00",
+        "lease_expires_at": "2026-11-22T02:07:14.963381+00:00",
+        "run_id": "44930055910"
       }
     },
     "3365": {
@@ -196515,7 +196521,7 @@
       "last_plan": {
         "source_id": "34673903",
         "display_name": "Légitime violence 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:07:10.739861+00:00"
+        "planned_at": "2026-11-21T20:07:14.210345+00:00"
       }
     },
     "22869": {
@@ -239911,5 +239917,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:07:10.739880+00:00"
+  "updated_at": "2026-11-21T20:07:15.356187+00:00"
 }
