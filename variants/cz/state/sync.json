@@ -138987,13 +138987,6 @@
           "source_id": "34479491",
           "target_video_id": "30987906",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:50:47.534390+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34479491",
-          "target_video_id": "30987906",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:08:55.649647+00:00"
         },
         {
@@ -139002,12 +138995,19 @@
           "target_video_id": "30987906",
           "permanent": false,
           "attempted_at": "2026-11-21T08:27:48.787720+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34479491",
+          "target_video_id": "30987906",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:00:20.696435+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34479491",
         "display_name": "Deti (Children) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:27:44.903638+00:00"
+        "planned_at": "2026-11-21T10:00:17.283314+00:00"
       },
       "previous_target_id": "30987906",
       "prepared": {
@@ -191801,14 +191801,25 @@
       "last_plan": {
         "source_id": "26689207",
         "display_name": "Bereft 720p CZ Dabing",
-        "planned_at": "2026-11-21T10:00:10.487291+00:00"
+        "planned_at": "2026-11-21T10:00:17.728578+00:00"
+      },
+      "claim": {
+        "worker_id": "3b91df670a95487e92a46fa08ff5b503-shard-0",
+        "claimed_at": "2026-11-21T10:00:19.026082+00:00",
+        "lease_expires_at": "2026-11-21T16:00:19.026082+00:00",
+        "run_id": "44889191327"
       }
     },
     "33033": {
       "attempts": []
     },
     "11151": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32580809",
+        "display_name": "The Return of the Tall Blond Man with One Black Shoe (Le Retour du Grand Blond) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T10:00:18.007918+00:00"
+      }
     },
     "22053": {
       "attempts": []
@@ -236116,5 +236127,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:00:14.593219+00:00"
+  "updated_at": "2026-11-21T10:00:20.696455+00:00"
 }
