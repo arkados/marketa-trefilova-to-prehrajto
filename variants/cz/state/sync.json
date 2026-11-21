@@ -139301,13 +139301,6 @@
           "source_id": "32433843",
           "target_video_id": "30987933",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:25:24.714085+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32433843",
-          "target_video_id": "30987933",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:43:11.688243+00:00"
         },
         {
@@ -139316,6 +139309,13 @@
           "target_video_id": "30987933",
           "permanent": false,
           "attempted_at": "2026-11-21T10:19:21.729655+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32433843",
+          "target_video_id": "30987933",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:03:23.299209+00:00"
         }
       ],
       "last_plan": {
@@ -192049,7 +192049,7 @@
       "last_plan": {
         "source_id": "29058073",
         "display_name": "Intimate Enemy (Dôverný nepriateľ) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:15:08.905184+00:00"
+        "planned_at": "2026-11-21T12:03:20.823225+00:00"
       },
       "previous_target_id": "31225809",
       "prepared": {
@@ -192057,6 +192057,12 @@
         "size_bytes": 3750212708,
         "prepared_at": "2026-11-21T10:15:17.161101+00:00",
         "relay_source_id": "29058073"
+      },
+      "claim": {
+        "worker_id": "eb99e6b5842c47109bb9f109b4b21a7e-shard-0",
+        "claimed_at": "2026-11-21T12:03:22.859551+00:00",
+        "lease_expires_at": "2026-11-21T18:03:22.859551+00:00",
+        "run_id": "44889191327"
       }
     },
     "33681": {
@@ -192733,7 +192739,7 @@
       "last_plan": {
         "source_id": "23744003",
         "display_name": "Drift Away (Albatros) 720p CZ Dabing",
-        "planned_at": "2026-11-21T12:03:16.739893+00:00"
+        "planned_at": "2026-11-21T12:03:21.872901+00:00"
       }
     },
     "13460": {
@@ -236865,5 +236871,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:03:16.739911+00:00"
+  "updated_at": "2026-11-21T12:03:23.299229+00:00"
 }
