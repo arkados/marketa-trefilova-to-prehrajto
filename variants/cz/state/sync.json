@@ -191709,17 +191709,19 @@
       }
     },
     "15617": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34176885",
+          "target_video_id": "31224800",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:37:43.263114+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34176885",
         "display_name": "Foremost by Night (Sobre todo de noche) 1080p CZ Dabing",
         "planned_at": "2026-11-21T09:29:55.871183+00:00"
-      },
-      "claim": {
-        "worker_id": "fd8c5faebb2946bab9334be158981973-shard-0",
-        "claimed_at": "2026-11-21T09:29:58.935730+00:00",
-        "lease_expires_at": "2026-11-21T15:29:58.935730+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31224800",
       "prepared": {
@@ -236058,5 +236060,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:37:40.658310+00:00"
+  "updated_at": "2026-11-21T09:37:43.263135+00:00"
 }
