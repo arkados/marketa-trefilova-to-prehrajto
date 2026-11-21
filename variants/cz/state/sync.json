@@ -115540,7 +115540,7 @@
       "last_plan": {
         "source_id": "32115488",
         "display_name": "Ballerina (2025) 4K CZ Dabing",
-        "planned_at": "2026-11-21T01:26:59.230775+00:00"
+        "planned_at": "2026-11-21T03:10:04.070115+00:00"
       },
       "previous_target_id": "30984591",
       "prepared": {
@@ -115548,6 +115548,12 @@
         "size_bytes": 5300000000,
         "prepared_at": "2026-11-10T16:56:11.661945+00:00",
         "relay_source_id": "32115488"
+      },
+      "claim": {
+        "worker_id": "fa1909d3aa504c70b1e40d463bc201ab-shard-0",
+        "claimed_at": "2026-11-21T03:10:05.618961+00:00",
+        "lease_expires_at": "2026-11-21T09:10:05.618961+00:00",
+        "run_id": "44848457493"
       }
     },
     "3147": {
@@ -122883,13 +122889,6 @@
           "source_id": "26657066",
           "target_video_id": "30985478",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:03:24.532841+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26657066",
-          "target_video_id": "30985478",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:45:01.814201+00:00"
         },
         {
@@ -122898,6 +122897,13 @@
           "target_video_id": "30985478",
           "permanent": false,
           "attempted_at": "2026-11-21T01:27:00.974867+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26657066",
+          "target_video_id": "30985478",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:10:05.903190+00:00"
         }
       ],
       "last_plan": {
@@ -188931,11 +188937,22 @@
       "last_plan": {
         "source_id": "34869722",
         "display_name": "Rapunzel 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:10:00.569853+00:00"
+        "planned_at": "2026-11-21T03:10:04.433871+00:00"
+      },
+      "claim": {
+        "worker_id": "c6a5f88a065243bba3621c8ebd8513ea-shard-0",
+        "claimed_at": "2026-11-21T03:10:05.390833+00:00",
+        "lease_expires_at": "2026-11-21T09:10:05.390833+00:00",
+        "run_id": "44848457493"
       }
     },
     "3738": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34651944",
+        "display_name": "Misha and the Wolves 1080p CZ Dabing",
+        "planned_at": "2026-11-21T03:10:04.706577+00:00"
+      }
     },
     "36830": {
       "attempts": []
@@ -233759,5 +233776,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:10:00.569876+00:00"
+  "updated_at": "2026-11-21T03:10:05.903216+00:00"
 }
