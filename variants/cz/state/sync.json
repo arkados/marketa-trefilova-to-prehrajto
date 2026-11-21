@@ -141917,6 +141917,12 @@
         "size_bytes": 803900000,
         "prepared_at": "2026-11-11T08:12:00.885093+00:00",
         "relay_source_id": "30436273"
+      },
+      "claim": {
+        "worker_id": "3acc95b8cf1240a8b4cc730457915f2e-shard-0",
+        "claimed_at": "2026-11-21T05:04:23.355514+00:00",
+        "lease_expires_at": "2026-11-21T11:04:23.355514+00:00",
+        "run_id": "44848457493"
       }
     },
     "12705": {
@@ -143765,7 +143771,7 @@
       "last_plan": {
         "source_id": "31011202",
         "display_name": "The Christening Party (Křtiny) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:19:04.365866+00:00"
+        "planned_at": "2026-11-21T05:04:23.721543+00:00"
       },
       "previous_target_id": "30988658",
       "prepared": {
@@ -189612,17 +189618,19 @@
       }
     },
     "18946": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34431137",
+          "target_video_id": "31220479",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:04:24.839093+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34431137",
         "display_name": "Egon Schiele: Death and the Maiden (Egon Schiele: Tod und Mädchen) 720p CZ Dabing",
         "planned_at": "2026-11-21T04:58:35.049443+00:00"
-      },
-      "claim": {
-        "worker_id": "8295458dbdf74cae84cac50736ae63b2-shard-0",
-        "claimed_at": "2026-11-21T04:58:36.305098+00:00",
-        "lease_expires_at": "2026-11-21T10:58:36.305098+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31220479",
       "prepared": {
@@ -189646,7 +189654,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:04:20.191225+00:00"
+        "planned_at": "2026-11-21T05:04:24.108660+00:00"
       }
     },
     "25887": {
@@ -234357,5 +234365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:04:20.490946+00:00"
+  "updated_at": "2026-11-21T05:04:24.839115+00:00"
 }
