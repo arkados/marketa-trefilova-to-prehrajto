@@ -188110,17 +188110,19 @@
       }
     },
     "5318": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34453333",
+          "target_video_id": "31216805",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:09:19.498451+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34453333",
         "display_name": "The Holes (Les Gaspards) 1080p CZ Dabing",
         "planned_at": "2026-11-21T01:02:40.947780+00:00"
-      },
-      "claim": {
-        "worker_id": "62d12944bc63454a881a976dd4a13e28-shard-0",
-        "claimed_at": "2026-11-21T01:02:42.024787+00:00",
-        "lease_expires_at": "2026-11-21T07:02:42.024787+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216805",
       "prepared": {
@@ -233101,5 +233103,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:09:04.266553+00:00"
+  "updated_at": "2026-11-21T01:09:19.498473+00:00"
 }
