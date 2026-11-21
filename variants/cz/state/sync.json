@@ -115363,6 +115363,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:41:21.772544+00:00",
         "relay_source_id": "26253538"
+      },
+      "claim": {
+        "worker_id": "d33b083380824f309c7699b849a79553-shard-0",
+        "claimed_at": "2026-11-21T10:03:44.725939+00:00",
+        "lease_expires_at": "2026-11-21T16:03:44.725939+00:00",
+        "run_id": "44889191327"
       }
     },
     "17763": {
@@ -191805,17 +191811,19 @@
       "attempts": []
     },
     "30170": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26689207",
+          "target_video_id": "31225442",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:03:44.954242+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26689207",
         "display_name": "Bereft 720p CZ Dabing",
         "planned_at": "2026-11-21T10:00:17.728578+00:00"
-      },
-      "claim": {
-        "worker_id": "3b91df670a95487e92a46fa08ff5b503-shard-0",
-        "claimed_at": "2026-11-21T10:00:19.026082+00:00",
-        "lease_expires_at": "2026-11-21T16:00:19.026082+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31225442",
       "prepared": {
@@ -236142,5 +236150,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:03:41.970738+00:00"
+  "updated_at": "2026-11-21T10:03:44.954268+00:00"
 }
