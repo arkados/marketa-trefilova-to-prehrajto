@@ -101182,13 +101182,6 @@
           "source_id": "11696652",
           "target_video_id": "30966458",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:52:56.499871+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11696652",
-          "target_video_id": "30966458",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:29:52.965420+00:00"
         },
         {
@@ -101197,6 +101190,13 @@
           "target_video_id": "30966458",
           "permanent": false,
           "attempted_at": "2026-11-21T12:11:36.958524+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11696652",
+          "target_video_id": "30966458",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:52:29.667279+00:00"
         }
       ],
       "last_plan": {
@@ -171615,7 +171615,7 @@
       "last_plan": {
         "source_id": "35185503",
         "display_name": "Land 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:11:35.096914+00:00"
+        "planned_at": "2026-11-21T13:52:27.793064+00:00"
       },
       "previous_target_id": "31130365",
       "prepared": {
@@ -171623,6 +171623,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-17T21:59:34.850913+00:00",
         "relay_source_id": "35185503"
+      },
+      "claim": {
+        "worker_id": "9a20615c960d4e3ba032541a7774ee5a-shard-0",
+        "claimed_at": "2026-11-21T13:52:29.157360+00:00",
+        "lease_expires_at": "2026-11-21T19:52:29.157360+00:00",
+        "run_id": "44897571814"
       }
     },
     "15275": {
@@ -193478,6 +193484,12 @@
         "source_id": "6528362",
         "display_name": "Robinson Crusoe (1954) 720p CZ Dabing",
         "planned_at": "2026-11-21T13:52:24.251159+00:00"
+      },
+      "claim": {
+        "worker_id": "87c7f3b2bc8a4084b524db7174df8ab8-shard-0",
+        "claimed_at": "2026-11-21T13:52:27.289132+00:00",
+        "lease_expires_at": "2026-11-21T19:52:27.289132+00:00",
+        "run_id": "44897571814"
       }
     },
     "6229": {
@@ -193500,7 +193512,7 @@
       "last_plan": {
         "source_id": "25988258",
         "display_name": "Supernova (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:52:24.539838+00:00"
+        "planned_at": "2026-11-21T13:52:28.243578+00:00"
       }
     },
     "4954": {
@@ -237494,5 +237506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:52:25.285217+00:00"
+  "updated_at": "2026-11-21T13:52:29.667298+00:00"
 }
