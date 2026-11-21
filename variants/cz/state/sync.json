@@ -195857,17 +195857,19 @@
       }
     },
     "4175": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34658009",
+          "target_video_id": "31234419",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:57:03.520700+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34658009",
         "display_name": "The Last Frontier (Podol'skie kursanty) 720p CZ Dabing",
         "planned_at": "2026-11-21T18:53:33.136995+00:00"
-      },
-      "claim": {
-        "worker_id": "d8c1c5618ed9459e8ba9b1f94cb84ba4-shard-0",
-        "claimed_at": "2026-11-21T18:53:34.240244+00:00",
-        "lease_expires_at": "2026-11-22T00:53:34.240244+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234419",
       "prepared": {
@@ -239396,5 +239398,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:57:01.459640+00:00"
+  "updated_at": "2026-11-21T18:57:03.520724+00:00"
 }
