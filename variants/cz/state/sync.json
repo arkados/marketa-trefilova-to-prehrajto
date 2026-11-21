@@ -118299,6 +118299,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T17:49:38.685015+00:00",
         "relay_source_id": "22310180"
+      },
+      "claim": {
+        "worker_id": "782f165e023a44bca736d5d4bebc963e-shard-0",
+        "claimed_at": "2026-11-21T10:22:44.015776+00:00",
+        "lease_expires_at": "2026-11-21T16:22:44.015776+00:00",
+        "run_id": "44889191327"
       }
     },
     "3112": {
@@ -123663,13 +123669,6 @@
           "source_id": "34710602",
           "target_video_id": "30985582",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:07:47.328725+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34710602",
-          "target_video_id": "30985582",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:27:59.920435+00:00"
         },
         {
@@ -123678,6 +123677,13 @@
           "target_video_id": "30985582",
           "permanent": false,
           "attempted_at": "2026-11-21T08:46:52.706590+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34710602",
+          "target_video_id": "30985582",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:22:43.763950+00:00"
         }
       ],
       "last_plan": {
@@ -123691,12 +123697,6 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-10T20:31:16.679359+00:00",
         "relay_source_id": "34710602"
-      },
-      "claim": {
-        "worker_id": "f19bb56af32c4b68b78e3575147f070e-shard-0",
-        "claimed_at": "2026-11-21T10:22:39.461939+00:00",
-        "lease_expires_at": "2026-11-21T16:22:39.461939+00:00",
-        "run_id": "44889191327"
       }
     },
     "14376": {
@@ -131885,7 +131885,7 @@
       "last_plan": {
         "source_id": "30618554",
         "display_name": "Hvězda zvaná Pelyněk SD CZ Dabing",
-        "planned_at": "2026-11-21T08:47:00.251451+00:00"
+        "planned_at": "2026-11-21T10:22:44.498988+00:00"
       },
       "previous_target_id": "30987025",
       "prepared": {
@@ -191984,7 +191984,7 @@
       "last_plan": {
         "source_id": "13165617",
         "display_name": "The Devil's Bride (Čertova nevěsta) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:22:40.161671+00:00"
+        "planned_at": "2026-11-21T10:22:45.170193+00:00"
       }
     },
     "17113": {
@@ -236269,5 +236269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:22:40.161688+00:00"
+  "updated_at": "2026-11-21T10:22:45.170211+00:00"
 }
