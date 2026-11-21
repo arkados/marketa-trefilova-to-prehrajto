@@ -113273,13 +113273,6 @@
           "source_id": "32962420",
           "target_video_id": "30984000",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:36:11.625125+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32962420",
-          "target_video_id": "30984000",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:57:41.471162+00:00"
         },
         {
@@ -113288,6 +113281,13 @@
           "target_video_id": "30984000",
           "permanent": false,
           "attempted_at": "2026-11-21T10:35:51.183945+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32962420",
+          "target_video_id": "30984000",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:17:22.094655+00:00"
         }
       ],
       "last_plan": {
@@ -113301,12 +113301,6 @@
         "size_bytes": 5500000000,
         "prepared_at": "2026-11-10T15:13:52.996789+00:00",
         "relay_source_id": "32962420"
-      },
-      "claim": {
-        "worker_id": "c091cb2e1b904342970d8161d4c2090c-shard-0",
-        "claimed_at": "2026-11-21T12:17:19.080678+00:00",
-        "lease_expires_at": "2026-11-21T18:17:19.080678+00:00",
-        "run_id": "44889191327"
       }
     },
     "2980": {
@@ -156987,7 +156981,7 @@
       "last_plan": {
         "source_id": "35183108",
         "display_name": "Mamas & Papas 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:35:49.264906+00:00"
+        "planned_at": "2026-11-21T12:17:21.383074+00:00"
       },
       "previous_target_id": "31061848",
       "prepared": {
@@ -192801,11 +192795,16 @@
       "last_plan": {
         "source_id": "34681106",
         "display_name": "Popeye's Voyage: The Quest for Pappy SD CZ Dabing",
-        "planned_at": "2026-11-21T12:17:16.155333+00:00"
+        "planned_at": "2026-11-21T12:17:21.827606+00:00"
       }
     },
     "34433": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34063493",
+        "display_name": "The Doll (La Poupée) (2026) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T12:17:22.327836+00:00"
+      }
     },
     "10951": {
       "attempts": []
@@ -236930,5 +236929,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:17:19.080707+00:00"
+  "updated_at": "2026-11-21T12:17:22.327853+00:00"
 }
