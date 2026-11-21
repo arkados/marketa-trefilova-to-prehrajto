@@ -109609,13 +109609,6 @@
           "source_id": "34716695",
           "target_video_id": "30983668",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:38:28.889707+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716695",
-          "target_video_id": "30983668",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:59:35.077407+00:00"
         },
         {
@@ -109624,6 +109617,13 @@
           "target_video_id": "30983668",
           "permanent": false,
           "attempted_at": "2026-11-21T08:16:37.538879+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716695",
+          "target_video_id": "30983668",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:46:44.898511+00:00"
         }
       ],
       "last_plan": {
@@ -191305,7 +191305,7 @@
       "last_plan": {
         "source_id": "20141450",
         "display_name": "Abulele 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:10:22.511249+00:00"
+        "planned_at": "2026-11-21T09:46:43.205133+00:00"
       },
       "previous_target_id": "31223487",
       "prepared": {
@@ -191313,6 +191313,12 @@
         "size_bytes": 2753402437,
         "prepared_at": "2026-11-21T08:10:29.223200+00:00",
         "relay_source_id": "20141450"
+      },
+      "claim": {
+        "worker_id": "927c551cd04747ed9a27e57652fe67e9-shard-0",
+        "claimed_at": "2026-11-21T09:46:44.553277+00:00",
+        "lease_expires_at": "2026-11-21T15:46:44.553277+00:00",
+        "run_id": "44889191327"
       }
     },
     "14050": {
@@ -191789,7 +191795,7 @@
       "last_plan": {
         "source_id": "26689207",
         "display_name": "Bereft 720p CZ Dabing",
-        "planned_at": "2026-11-21T09:46:39.956337+00:00"
+        "planned_at": "2026-11-21T09:46:43.695800+00:00"
       }
     },
     "33033": {
@@ -236104,5 +236110,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:46:40.300519+00:00"
+  "updated_at": "2026-11-21T09:46:44.898533+00:00"
 }
