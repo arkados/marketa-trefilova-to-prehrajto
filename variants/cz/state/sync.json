@@ -80575,13 +80575,6 @@
           "source_id": "28771706",
           "target_video_id": "30899097",
           "permanent": false,
-          "attempted_at": "2026-11-21T15:08:02.233344+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28771706",
-          "target_video_id": "30899097",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:43:38.419136+00:00"
         },
         {
@@ -80590,6 +80583,13 @@
           "target_video_id": "30899097",
           "permanent": false,
           "attempted_at": "2026-11-21T18:24:35.862427+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28771706",
+          "target_video_id": "30899097",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:05:55.883247+00:00"
         }
       ],
       "last_plan": {
@@ -181564,7 +181564,7 @@
       "last_plan": {
         "source_id": "11919025",
         "display_name": "Ransom (1996) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:24:32.556005+00:00"
+        "planned_at": "2026-11-21T20:05:54.210000+00:00"
       },
       "previous_target_id": "31191067",
       "prepared": {
@@ -181572,6 +181572,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-19T21:49:16.920631+00:00",
         "relay_source_id": "11919025"
+      },
+      "claim": {
+        "worker_id": "2150aa78c31d4cfc9b9739965077b20b-shard-0",
+        "claimed_at": "2026-11-21T20:05:55.385832+00:00",
+        "lease_expires_at": "2026-11-22T02:05:55.385832+00:00",
+        "run_id": "44930055910"
       }
     },
     "19515": {
@@ -196515,7 +196521,7 @@
       "last_plan": {
         "source_id": "34673903",
         "display_name": "Légitime violence 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:05:50.291607+00:00"
+        "planned_at": "2026-11-21T20:05:54.649620+00:00"
       }
     },
     "22869": {
@@ -239911,5 +239917,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:05:50.554500+00:00"
+  "updated_at": "2026-11-21T20:05:55.883274+00:00"
 }
