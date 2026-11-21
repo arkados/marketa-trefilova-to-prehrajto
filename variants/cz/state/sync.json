@@ -128346,13 +128346,6 @@
           "source_id": "33885910",
           "target_video_id": "30986630",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:08:00.666264+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33885910",
-          "target_video_id": "30986630",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:55:09.498356+00:00"
         },
         {
@@ -128361,6 +128354,13 @@
           "target_video_id": "30986630",
           "permanent": false,
           "attempted_at": "2026-11-21T03:38:55.955645+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33885910",
+          "target_video_id": "30986630",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:29:32.304701+00:00"
         }
       ],
       "last_plan": {
@@ -142121,7 +142121,7 @@
       "last_plan": {
         "source_id": "27874374",
         "display_name": "Together (Spolu) (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-21T03:38:53.982600+00:00"
+        "planned_at": "2026-11-21T05:29:30.668266+00:00"
       },
       "previous_target_id": "30988406",
       "prepared": {
@@ -142129,6 +142129,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T08:20:53.674997+00:00",
         "relay_source_id": "27874374"
+      },
+      "claim": {
+        "worker_id": "efbc9321ab6b4234b01bdfed02f31de6-shard-0",
+        "claimed_at": "2026-11-21T05:29:31.436554+00:00",
+        "lease_expires_at": "2026-11-21T11:29:31.436554+00:00",
+        "run_id": "44855214731"
       }
     },
     "33115": {
@@ -189805,7 +189811,13 @@
       "last_plan": {
         "source_id": "26132101",
         "display_name": "Yes, Madam (HuangJiaShiJie) 720p CZ Dabing",
-        "planned_at": "2026-11-21T05:29:27.689323+00:00"
+        "planned_at": "2026-11-21T05:29:30.890944+00:00"
+      },
+      "claim": {
+        "worker_id": "3c318d667f7f405b9a929eb5766389b9-shard-0",
+        "claimed_at": "2026-11-21T05:29:31.581583+00:00",
+        "lease_expires_at": "2026-11-21T11:29:31.581583+00:00",
+        "run_id": "44855214731"
       }
     },
     "33577": {
@@ -189821,7 +189833,12 @@
       "attempts": []
     },
     "7209": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31885174",
+        "display_name": "Labor Day (C'est la vie) (2020) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T05:29:31.033061+00:00"
+      }
     },
     "37277": {
       "attempts": []
@@ -234483,5 +234500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:29:27.947084+00:00"
+  "updated_at": "2026-11-21T05:29:32.304719+00:00"
 }
