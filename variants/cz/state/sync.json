@@ -114042,13 +114042,6 @@
           "source_id": "22159459",
           "target_video_id": "30984081",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:05:18.327282+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22159459",
-          "target_video_id": "30984081",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:52:09.218399+00:00"
         },
         {
@@ -114057,6 +114050,13 @@
           "target_video_id": "30984081",
           "permanent": false,
           "attempted_at": "2026-11-21T03:36:16.488920+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22159459",
+          "target_video_id": "30984081",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:27:18.896666+00:00"
         }
       ],
       "last_plan": {
@@ -182716,7 +182716,7 @@
       "last_plan": {
         "source_id": "30074010",
         "display_name": "The Equalizer 2 4K CZ Dabing",
-        "planned_at": "2026-11-21T03:36:14.483246+00:00"
+        "planned_at": "2026-11-21T05:27:17.269536+00:00"
       },
       "previous_target_id": "31194516",
       "prepared": {
@@ -182724,6 +182724,12 @@
         "size_bytes": 5500000000,
         "prepared_at": "2026-11-20T02:06:05.836278+00:00",
         "relay_source_id": "30074010"
+      },
+      "claim": {
+        "worker_id": "77d09414a76348338716557e2169dcfa-shard-0",
+        "claimed_at": "2026-11-21T05:27:17.904522+00:00",
+        "lease_expires_at": "2026-11-21T11:27:17.904522+00:00",
+        "run_id": "44855214731"
       }
     },
     "3522": {
@@ -189780,7 +189786,7 @@
       "last_plan": {
         "source_id": "6752869",
         "display_name": "My Little Pony: Twinkle Wish Adventure SD CZ Dabing",
-        "planned_at": "2026-11-21T05:27:14.931899+00:00"
+        "planned_at": "2026-11-21T05:27:17.494214+00:00"
       }
     },
     "11695": {
@@ -234461,5 +234467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:27:14.931926+00:00"
+  "updated_at": "2026-11-21T05:27:18.896687+00:00"
 }
