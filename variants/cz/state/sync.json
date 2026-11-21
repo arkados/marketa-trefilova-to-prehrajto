@@ -130553,13 +130553,6 @@
           "source_id": "31267316",
           "target_video_id": "30986907",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:41:55.748278+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31267316",
-          "target_video_id": "30986907",
-          "permanent": false,
           "attempted_at": "2026-11-20T17:19:41.050085+00:00"
         },
         {
@@ -130568,6 +130561,13 @@
           "target_video_id": "30986907",
           "permanent": false,
           "attempted_at": "2026-11-20T22:36:01.906106+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31267316",
+          "target_video_id": "30986907",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:15:15.077421+00:00"
         }
       ],
       "last_plan": {
@@ -131547,7 +131547,7 @@
       "last_plan": {
         "source_id": "32614966",
         "display_name": "Under the Grey Sky (Pod szarym niebem) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:36:00.030170+00:00"
+        "planned_at": "2026-11-21T00:15:13.105638+00:00"
       },
       "previous_target_id": "30986990",
       "prepared": {
@@ -131555,6 +131555,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:10:48.379016+00:00",
         "relay_source_id": "32614966"
+      },
+      "claim": {
+        "worker_id": "782cfd3c06d7405e81558ef6c71ddcb2-shard-0",
+        "claimed_at": "2026-11-21T00:15:14.251097+00:00",
+        "lease_expires_at": "2026-11-21T06:15:14.251097+00:00",
+        "run_id": "44817573093"
       }
     },
     "12675": {
@@ -187804,7 +187810,7 @@
       "last_plan": {
         "source_id": "29208646",
         "display_name": "Teddy Bear (Medvídek) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:15:09.527803+00:00"
+        "planned_at": "2026-11-21T00:15:13.483895+00:00"
       }
     },
     "36867": {
@@ -232819,5 +232825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:15:09.829843+00:00"
+  "updated_at": "2026-11-21T00:15:15.077444+00:00"
 }
