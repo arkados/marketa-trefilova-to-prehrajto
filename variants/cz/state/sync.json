@@ -123332,7 +123332,7 @@
       "last_plan": {
         "source_id": "33589689",
         "display_name": "Paris 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:29:22.195778+00:00"
+        "planned_at": "2026-11-21T06:51:47.492674+00:00"
       },
       "previous_target_id": "30985541",
       "prepared": {
@@ -123340,6 +123340,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T20:10:08.286827+00:00",
         "relay_source_id": "33589689"
+      },
+      "claim": {
+        "worker_id": "2b80a71805184cc280c352d23994ee68-shard-0",
+        "claimed_at": "2026-11-21T06:51:48.190543+00:00",
+        "lease_expires_at": "2026-11-21T12:51:48.190543+00:00",
+        "run_id": "44855214731"
       }
     },
     "27916": {
@@ -189929,17 +189935,23 @@
           "attempted_at": "2026-11-21T05:29:25.061460+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "6752869",
-        "display_name": "My Little Pony: Twinkle Wish Adventure SD CZ Dabing",
-        "planned_at": "2026-11-21T06:51:44.487415+00:00"
-      },
       "previous_target_id": "31220916",
-      "prepared": {
+      "upload": {
         "target_video_id": "31220916",
-        "size_bytes": 730211726,
-        "prepared_at": "2026-11-21T05:28:16.617015+00:00",
-        "relay_source_id": "6752869"
+        "display_name": "My Little Pony: Twinkle Wish Adventure SD CZ Dabing",
+        "source_id": "6752869",
+        "source_url": "https://sdilej.cz/6752869/my-little-pony-tajna-prani-video-film-2009-cz.avi",
+        "source_filename": "My Little Pony Tajna Prani Video Film 2009 Cz.avi",
+        "size_bytes": 730200000,
+        "width": 720,
+        "height": 412,
+        "audio_language": "cs",
+        "language_probability": 0.9741756319999695,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/my-little-pony-twinkle-wish-adventure-sd-cz-dabing-avi/69540a5a5780c707",
+        "uploaded_at": "2026-11-21T06:51:48.820167+00:00"
       }
     },
     "11695": {
@@ -190498,7 +190510,7 @@
       "last_plan": {
         "source_id": "34685752",
         "display_name": "A Change of Heart (Ils sont vivants) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:51:44.737239+00:00"
+        "planned_at": "2026-11-21T06:51:47.736434+00:00"
       }
     },
     "15537": {
@@ -235023,5 +235035,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:51:45.070997+00:00"
+  "updated_at": "2026-11-21T06:51:48.820188+00:00"
 }
