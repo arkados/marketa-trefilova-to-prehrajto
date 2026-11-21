@@ -8622,13 +8622,6 @@
           "source_id": "28293597",
           "target_video_id": "30631236",
           "permanent": false,
-          "attempted_at": "2026-11-20T16:50:35.415710+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28293597",
-          "target_video_id": "30631236",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:09:01.490037+00:00"
         },
         {
@@ -8637,6 +8630,13 @@
           "target_video_id": "30631236",
           "permanent": false,
           "attempted_at": "2026-11-20T23:52:11.418840+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28293597",
+          "target_video_id": "30631236",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:37:00.340696+00:00"
         }
       ],
       "last_plan": {
@@ -8650,12 +8650,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
-      },
-      "claim": {
-        "worker_id": "d517fa8fdd1f409885a5b0f6ec22e5e6-shard-0",
-        "claimed_at": "2026-11-21T01:33:15.524321+00:00",
-        "lease_expires_at": "2026-11-21T07:33:15.524321+00:00",
-        "run_id": "44848457493"
       }
     },
     "29922": {
@@ -132337,7 +132331,7 @@
       "last_plan": {
         "source_id": "28004386",
         "display_name": "Veselá bída SD CZ Dabing",
-        "planned_at": "2026-11-20T23:54:00.500187+00:00"
+        "planned_at": "2026-11-21T01:36:57.506675+00:00"
       },
       "previous_target_id": "30987113",
       "prepared": {
@@ -132345,6 +132339,12 @@
         "size_bytes": 873000000,
         "prepared_at": "2026-11-11T03:38:13.878412+00:00",
         "relay_source_id": "28004386"
+      },
+      "claim": {
+        "worker_id": "1d939cd0d6324dd094f1f635ee8df2e4-shard-0",
+        "claimed_at": "2026-11-21T01:36:59.169680+00:00",
+        "lease_expires_at": "2026-11-21T07:36:59.169680+00:00",
+        "run_id": "44848457493"
       }
     },
     "14917": {
@@ -188331,7 +188331,7 @@
       "last_plan": {
         "source_id": "30529714",
         "display_name": "La extorsión 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:36:51.981539+00:00"
+        "planned_at": "2026-11-21T01:36:58.139947+00:00"
       }
     },
     "32393": {
@@ -233261,5 +233261,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:36:54.549771+00:00"
+  "updated_at": "2026-11-21T01:37:00.340718+00:00"
 }
