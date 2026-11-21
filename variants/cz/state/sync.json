@@ -115548,6 +115548,12 @@
         "size_bytes": 5300000000,
         "prepared_at": "2026-11-10T16:56:11.661945+00:00",
         "relay_source_id": "32115488"
+      },
+      "claim": {
+        "worker_id": "e94a4565b54a497daa2823fae7aaab2d-shard-0",
+        "claimed_at": "2026-11-21T04:57:36.754451+00:00",
+        "lease_expires_at": "2026-11-21T10:57:36.754451+00:00",
+        "run_id": "44848457493"
       }
     },
     "3147": {
@@ -122883,13 +122889,6 @@
           "source_id": "26657066",
           "target_video_id": "30985478",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:45:01.814201+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26657066",
-          "target_video_id": "30985478",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:27:00.974867+00:00"
         },
         {
@@ -122898,6 +122897,13 @@
           "target_video_id": "30985478",
           "permanent": false,
           "attempted_at": "2026-11-21T03:10:05.903190+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26657066",
+          "target_video_id": "30985478",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:57:35.844532+00:00"
         }
       ],
       "last_plan": {
@@ -122911,12 +122917,6 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T19:32:49.986212+00:00",
         "relay_source_id": "26657066"
-      },
-      "claim": {
-        "worker_id": "d9a8bca264254f009c9db03c5abd9760-shard-0",
-        "claimed_at": "2026-11-21T04:57:31.755987+00:00",
-        "lease_expires_at": "2026-11-21T10:57:31.755987+00:00",
-        "run_id": "44848457493"
       }
     },
     "3105": {
@@ -137939,7 +137939,7 @@
       "last_plan": {
         "source_id": "33554657",
         "display_name": "Old-Timers (Staříci) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:10:08.480447+00:00"
+        "planned_at": "2026-11-21T04:57:37.392271+00:00"
       },
       "previous_target_id": "30987819",
       "prepared": {
@@ -189593,7 +189593,7 @@
       "last_plan": {
         "source_id": "14360307",
         "display_name": "Bourák 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:57:32.465565+00:00"
+        "planned_at": "2026-11-21T04:57:37.752180+00:00"
       }
     },
     "18946": {
@@ -234319,5 +234319,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:57:32.784102+00:00"
+  "updated_at": "2026-11-21T04:57:37.752200+00:00"
 }
