@@ -109338,13 +109338,6 @@
           "source_id": "33810503",
           "target_video_id": "30983627",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:35:50.085188+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33810503",
-          "target_video_id": "30983627",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:12:16.542733+00:00"
         },
         {
@@ -109353,6 +109346,13 @@
           "target_video_id": "30983627",
           "permanent": false,
           "attempted_at": "2026-11-21T17:50:16.097391+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33810503",
+          "target_video_id": "30983627",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:32:10.289751+00:00"
         }
       ],
       "last_plan": {
@@ -134833,7 +134833,7 @@
       "last_plan": {
         "source_id": "32363401",
         "display_name": "I'll Be Good, Old Man! („Já už budu hodný, dědečku!“) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:50:13.957854+00:00"
+        "planned_at": "2026-11-21T19:32:08.867285+00:00"
       },
       "previous_target_id": "30987499",
       "prepared": {
@@ -134841,6 +134841,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-11T04:59:44.589461+00:00",
         "relay_source_id": "32363401"
+      },
+      "claim": {
+        "worker_id": "4e0fe7ee5a084938bc0807ad59215961-shard-0",
+        "claimed_at": "2026-11-21T19:32:09.993056+00:00",
+        "lease_expires_at": "2026-11-22T01:32:09.993056+00:00",
+        "run_id": "44930055910"
       }
     },
     "31818": {
@@ -196224,7 +196230,7 @@
       "last_plan": {
         "source_id": "34694460",
         "display_name": "Madu 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:32:06.095298+00:00"
+        "planned_at": "2026-11-21T19:32:09.264062+00:00"
       }
     },
     "6291": {
@@ -239654,5 +239660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:32:06.095318+00:00"
+  "updated_at": "2026-11-21T19:32:10.289770+00:00"
 }
