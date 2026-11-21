@@ -47277,13 +47277,6 @@
           "source_id": "35147292",
           "target_video_id": "30771541",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:51:01.601226+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35147292",
-          "target_video_id": "30771541",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:36:53.100285+00:00"
         },
         {
@@ -47292,12 +47285,19 @@
           "target_video_id": "30771541",
           "permanent": false,
           "attempted_at": "2026-11-21T15:10:31.336530+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35147292",
+          "target_video_id": "30771541",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:45:59.476607+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35147292",
         "display_name": "Macbeth (1948) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:10:25.094599+00:00"
+        "planned_at": "2026-11-21T16:45:55.984392+00:00"
       },
       "previous_target_id": "30771541",
       "prepared": {
@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "a23e6dea50a3419bae690c8a1c328865-shard-0",
+        "claimed_at": "2026-11-21T16:45:55.682797+00:00",
+        "lease_expires_at": "2026-11-21T22:45:55.682797+00:00",
+        "run_id": "44897571814"
       }
     },
     "32719": {
@@ -194695,7 +194701,7 @@
       "last_plan": {
         "source_id": "31716633",
         "display_name": "L'avare 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:45:52.716100+00:00"
+        "planned_at": "2026-11-21T16:45:56.389485+00:00"
       }
     },
     "28054": {
@@ -238452,5 +238458,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:45:52.991412+00:00"
+  "updated_at": "2026-11-21T16:45:59.476624+00:00"
 }
