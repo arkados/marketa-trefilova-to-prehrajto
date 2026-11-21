@@ -111192,13 +111192,6 @@
           "source_id": "35066715",
           "target_video_id": "30983782",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:17:40.055540+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35066715",
-          "target_video_id": "30983782",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:02:38.343360+00:00"
         },
         {
@@ -111207,6 +111200,13 @@
           "target_video_id": "30983782",
           "permanent": false,
           "attempted_at": "2026-11-21T20:35:49.637231+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35066715",
+          "target_video_id": "30983782",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:44:26.548333+00:00"
         }
       ],
       "last_plan": {
@@ -116825,7 +116825,7 @@
       "last_plan": {
         "source_id": "34190531",
         "display_name": "Christine (1983) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:35:49.313844+00:00"
+        "planned_at": "2026-11-21T23:44:24.286693+00:00"
       },
       "previous_target_id": "30984720",
       "prepared": {
@@ -116833,6 +116833,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T17:23:59.006056+00:00",
         "relay_source_id": "34190531"
+      },
+      "claim": {
+        "worker_id": "6543d7564a27430e93ac3dfa7d7ed463-shard-0",
+        "claimed_at": "2026-11-21T23:44:25.715618+00:00",
+        "lease_expires_at": "2026-11-22T05:44:25.715618+00:00",
+        "run_id": "44959851294"
       }
     },
     "2923": {
@@ -197392,6 +197398,12 @@
         "source_id": "30162271",
         "display_name": "Mulan (Mulan: Rise of a Warrior) (2009) 720p CZ Dabing",
         "planned_at": "2026-11-21T23:44:20.711844+00:00"
+      },
+      "claim": {
+        "worker_id": "9176fcf38ccc4043a2366a6cf358e16b-shard-0",
+        "claimed_at": "2026-11-21T23:44:23.701263+00:00",
+        "lease_expires_at": "2026-11-22T05:44:23.701263+00:00",
+        "run_id": "44959851294"
       }
     },
     "5481": {
@@ -197399,7 +197411,7 @@
       "last_plan": {
         "source_id": "14645572",
         "display_name": "The Division (A Divisão) SD CZ Dabing",
-        "planned_at": "2026-11-21T23:44:21.244060+00:00"
+        "planned_at": "2026-11-21T23:44:24.776304+00:00"
       }
     },
     "14661": {
@@ -240613,5 +240625,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:44:21.244080+00:00"
+  "updated_at": "2026-11-21T23:44:26.548353+00:00"
 }
