@@ -197410,17 +197410,19 @@
       }
     },
     "5481": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14645572",
+          "target_video_id": "31239170",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:49:21.425914+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14645572",
         "display_name": "The Division (A Divisão) SD CZ Dabing",
         "planned_at": "2026-11-21T23:46:59.116753+00:00"
-      },
-      "claim": {
-        "worker_id": "fcc5d1103d9d43fe9b06858b22b4f1e5-shard-0",
-        "claimed_at": "2026-11-21T23:47:03.414181+00:00",
-        "lease_expires_at": "2026-11-22T05:47:03.414181+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239170",
       "prepared": {
@@ -240646,5 +240648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:49:18.308862+00:00"
+  "updated_at": "2026-11-21T23:49:21.425935+00:00"
 }
