@@ -88273,13 +88273,6 @@
           "source_id": "31439276",
           "target_video_id": "30924533",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:55:38.927284+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31439276",
-          "target_video_id": "30924533",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:33:09.665729+00:00"
         },
         {
@@ -88288,6 +88281,13 @@
           "target_video_id": "30924533",
           "permanent": false,
           "attempted_at": "2026-11-21T12:15:02.140525+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31439276",
+          "target_video_id": "30924533",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:55:27.970567+00:00"
         }
       ],
       "last_plan": {
@@ -163434,7 +163434,7 @@
       "last_plan": {
         "source_id": "26060946",
         "display_name": "Snow White and the Magic of the Dwarves (Schneewittchen und der Zauber der Zwerge) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:15:01.386877+00:00"
+        "planned_at": "2026-11-21T13:55:26.340030+00:00"
       },
       "previous_target_id": "31094047",
       "prepared": {
@@ -163442,6 +163442,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-16T16:12:31.667794+00:00",
         "relay_source_id": "26060946"
+      },
+      "claim": {
+        "worker_id": "e7c5b4919d444e50ac14f5bfe1909938-shard-0",
+        "claimed_at": "2026-11-21T13:55:27.613720+00:00",
+        "lease_expires_at": "2026-11-21T19:55:27.613720+00:00",
+        "run_id": "44897571814"
       }
     },
     "32605": {
@@ -193513,7 +193519,7 @@
       "last_plan": {
         "source_id": "25988258",
         "display_name": "Supernova (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:55:21.751321+00:00"
+        "planned_at": "2026-11-21T13:55:26.807596+00:00"
       }
     },
     "4954": {
@@ -237507,5 +237513,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:55:22.094692+00:00"
+  "updated_at": "2026-11-21T13:55:27.970584+00:00"
 }
