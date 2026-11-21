@@ -117450,13 +117450,6 @@
           "source_id": "35331022",
           "target_video_id": "30984777",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:50:48.330812+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35331022",
-          "target_video_id": "30984777",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:26:12.576727+00:00"
         },
         {
@@ -117465,6 +117458,13 @@
           "target_video_id": "30984777",
           "permanent": false,
           "attempted_at": "2026-11-21T18:09:32.467954+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35331022",
+          "target_video_id": "30984777",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:48:58.502135+00:00"
         }
       ],
       "last_plan": {
@@ -117478,12 +117478,6 @@
         "size_bytes": 9400000000,
         "prepared_at": "2026-11-10T17:39:02.793712+00:00",
         "relay_source_id": "35331022"
-      },
-      "claim": {
-        "worker_id": "7a5bc1394d264d02a39c0b579ac6cfe5-shard-0",
-        "claimed_at": "2026-11-21T19:48:54.849099+00:00",
-        "lease_expires_at": "2026-11-22T01:48:54.849099+00:00",
-        "run_id": "44930055910"
       }
     },
     "13250": {
@@ -122333,7 +122327,7 @@
       "last_plan": {
         "source_id": "30647033",
         "display_name": "Battle of the Bulge 4K CZ Dabing",
-        "planned_at": "2026-11-21T18:09:31.511311+00:00"
+        "planned_at": "2026-11-21T19:48:57.778567+00:00"
       },
       "previous_target_id": "30985429",
       "prepared": {
@@ -196339,17 +196333,19 @@
       "attempts": []
     },
     "14462": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34846534",
+          "target_video_id": "31235250",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:48:58.739458+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34846534",
         "display_name": "Romantic Guide to Lost Places (Guida romantica a posti perduti) 1080p CZ Dabing",
         "planned_at": "2026-11-21T19:42:20.464079+00:00"
-      },
-      "claim": {
-        "worker_id": "1422e5db0c274a9cb0b38b20e8030d79-shard-0",
-        "claimed_at": "2026-11-21T19:42:23.938604+00:00",
-        "lease_expires_at": "2026-11-22T01:42:23.938604+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31235250",
       "prepared": {
@@ -196396,7 +196392,7 @@
       "last_plan": {
         "source_id": "32950134",
         "display_name": "Masha 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:48:54.155535+00:00"
+        "planned_at": "2026-11-21T19:48:58.176669+00:00"
       }
     },
     "15623": {
@@ -239802,5 +239798,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:48:55.551763+00:00"
+  "updated_at": "2026-11-21T19:48:58.739483+00:00"
 }
