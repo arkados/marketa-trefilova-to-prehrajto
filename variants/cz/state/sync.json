@@ -111023,13 +111023,6 @@
           "source_id": "35067260",
           "target_video_id": "30983776",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:21:12.812459+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35067260",
-          "target_video_id": "30983776",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:39:39.583305+00:00"
         },
         {
@@ -111038,6 +111031,13 @@
           "target_video_id": "30983776",
           "permanent": false,
           "attempted_at": "2026-11-21T09:00:44.550237+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35067260",
+          "target_video_id": "30983776",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:39:29.926908+00:00"
         }
       ],
       "last_plan": {
@@ -111083,7 +111083,7 @@
       "last_plan": {
         "source_id": "25235773",
         "display_name": "Karel and I (Karel a já) SD CZ Dabing",
-        "planned_at": "2026-11-21T09:00:43.628279+00:00"
+        "planned_at": "2026-11-21T10:39:27.655615+00:00"
       },
       "previous_target_id": "30983777",
       "prepared": {
@@ -111091,6 +111091,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T14:46:00.062913+00:00",
         "relay_source_id": "25235773"
+      },
+      "claim": {
+        "worker_id": "a9b6e8cd2eee48369db1107b348c53f5-shard-0",
+        "claimed_at": "2026-11-21T10:39:28.820988+00:00",
+        "lease_expires_at": "2026-11-21T16:39:28.820988+00:00",
+        "run_id": "44889191327"
       }
     },
     "12876": {
@@ -192064,17 +192070,19 @@
       }
     },
     "4104": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34602615",
+          "target_video_id": "31226152",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:39:30.282536+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34602615",
         "display_name": "The Great Seduction (La gran seducción) 1080p CZ Dabing",
         "planned_at": "2026-11-21T10:34:18.024744+00:00"
-      },
-      "claim": {
-        "worker_id": "19bc8bedafb642b3a6c00e8a5ed21edf-shard-0",
-        "claimed_at": "2026-11-21T10:34:25.070294+00:00",
-        "lease_expires_at": "2026-11-21T16:34:25.070294+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31226152",
       "prepared": {
@@ -192092,7 +192100,7 @@
       "last_plan": {
         "source_id": "34479597",
         "display_name": "Like Sheep Among Wolves (Come pecore in mezzo ai lupi) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:39:24.718124+00:00"
+        "planned_at": "2026-11-21T10:39:28.049848+00:00"
       }
     },
     "24467": {
@@ -236359,5 +236367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:39:24.718141+00:00"
+  "updated_at": "2026-11-21T10:39:30.282557+00:00"
 }
