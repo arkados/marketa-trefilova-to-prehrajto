@@ -196005,17 +196005,19 @@
       "attempts": []
     },
     "22234": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33602014",
+          "target_video_id": "31234608",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:07:32.611944+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33602014",
         "display_name": "Bite the Bullet SD CZ Dabing",
         "planned_at": "2026-11-21T19:05:52.570982+00:00"
-      },
-      "claim": {
-        "worker_id": "135bcd961d1749e49c5f1f63107910a5-shard-0",
-        "claimed_at": "2026-11-21T19:05:55.667353+00:00",
-        "lease_expires_at": "2026-11-22T01:05:55.667353+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31234608",
       "prepared": {
@@ -239496,5 +239498,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:07:30.429157+00:00"
+  "updated_at": "2026-11-21T19:07:32.611967+00:00"
 }
