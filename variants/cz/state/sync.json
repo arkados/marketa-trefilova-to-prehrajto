@@ -1058,13 +1058,6 @@
           "source_id": "31918348",
           "target_video_id": "30578228",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:32:41.997788+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31918348",
-          "target_video_id": "30578228",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:06:53.997306+00:00"
         },
         {
@@ -1073,6 +1066,13 @@
           "target_video_id": "30578228",
           "permanent": false,
           "attempted_at": "2026-11-21T16:42:31.797437+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31918348",
+          "target_video_id": "30578228",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:23:24.611515+00:00"
         }
       ],
       "last_plan": {
@@ -132968,7 +132968,7 @@
       "last_plan": {
         "source_id": "26568103",
         "display_name": "Záku Kasíku, nezen se! (Žáku Kašíku, nežeň se!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:42:30.699845+00:00"
+        "planned_at": "2026-11-21T18:23:22.459498+00:00"
       },
       "previous_target_id": "30987180",
       "prepared": {
@@ -132976,6 +132976,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T03:52:43.832583+00:00",
         "relay_source_id": "26568103"
+      },
+      "claim": {
+        "worker_id": "d5bfb0a20c924237b48d8354b48e0e10-shard-0",
+        "claimed_at": "2026-11-21T18:23:23.512880+00:00",
+        "lease_expires_at": "2026-11-22T00:23:23.512880+00:00",
+        "run_id": "44930055910"
       }
     },
     "32524": {
@@ -195558,7 +195564,7 @@
       "last_plan": {
         "source_id": "30413605",
         "display_name": "Operation Crossbow 720p CZ Dabing",
-        "planned_at": "2026-11-21T18:23:19.462685+00:00"
+        "planned_at": "2026-11-21T18:23:22.851160+00:00"
       }
     },
     "17512": {
@@ -239132,5 +239138,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:23:19.749424+00:00"
+  "updated_at": "2026-11-21T18:23:24.611536+00:00"
 }
