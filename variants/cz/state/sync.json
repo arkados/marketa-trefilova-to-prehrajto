@@ -134853,13 +134853,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:32:36.969601+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-21T00:09:01.428053+00:00"
         },
         {
@@ -134868,6 +134861,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-21T01:56:15.007551+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:40:02.095605+00:00"
         }
       ],
       "last_plan": {
@@ -140288,7 +140288,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-21T01:56:15.738086+00:00"
+        "planned_at": "2026-11-21T03:40:00.167685+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140296,6 +140296,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "b16fab8778fa4289ae4b9b2236d0b9f3-shard-0",
+        "claimed_at": "2026-11-21T03:40:01.180006+00:00",
+        "lease_expires_at": "2026-11-21T09:40:01.180006+00:00",
+        "run_id": "44848457493"
       }
     },
     "12711": {
@@ -189109,7 +189115,7 @@
       "last_plan": {
         "source_id": "24744760",
         "display_name": "The Stalking Moon SD CZ Dabing",
-        "planned_at": "2026-11-21T03:39:56.862500+00:00"
+        "planned_at": "2026-11-21T03:40:00.538693+00:00"
       }
     },
     "3572": {
@@ -233913,5 +233919,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:39:56.862522+00:00"
+  "updated_at": "2026-11-21T03:40:02.095627+00:00"
 }
