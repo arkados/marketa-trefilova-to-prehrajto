@@ -189177,17 +189177,19 @@
       }
     },
     "14847": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22967720",
+          "target_video_id": "31219434",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:58:13.424715+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22967720",
         "display_name": "With or Without You (Una relazione) 720p CZ Dabing",
         "planned_at": "2026-11-21T03:52:15.089896+00:00"
-      },
-      "claim": {
-        "worker_id": "04eee9bbf21b49fba56e963fd59aa82a-shard-0",
-        "claimed_at": "2026-11-21T03:52:18.476792+00:00",
-        "lease_expires_at": "2026-11-21T09:52:18.476792+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31219434",
       "prepared": {
@@ -233997,5 +233999,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:58:10.796159+00:00"
+  "updated_at": "2026-11-21T03:58:13.424736+00:00"
 }
