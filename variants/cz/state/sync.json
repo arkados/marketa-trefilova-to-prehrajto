@@ -123957,7 +123957,7 @@
       "last_plan": {
         "source_id": "26801976",
         "display_name": "Emily 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:08:33.272051+00:00"
+        "planned_at": "2026-11-21T23:16:38.716894+00:00"
       },
       "previous_target_id": "30985628",
       "prepared": {
@@ -123965,6 +123965,12 @@
         "size_bytes": 11700000000,
         "prepared_at": "2026-11-10T20:51:31.818246+00:00",
         "relay_source_id": "26801976"
+      },
+      "claim": {
+        "worker_id": "7b754e1bdff343799e84a4e977858f22-shard-0",
+        "claimed_at": "2026-11-21T23:16:40.136203+00:00",
+        "lease_expires_at": "2026-11-22T05:16:40.136203+00:00",
+        "run_id": "44959851294"
       }
     },
     "29773": {
@@ -197159,17 +197165,19 @@
       "attempts": []
     },
     "17080": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695566",
+          "target_video_id": "31238671",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:16:40.602426+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695566",
         "display_name": "Stage Fright (2017) 1080p CZ Dabing",
         "planned_at": "2026-11-21T23:14:13.846049+00:00"
-      },
-      "claim": {
-        "worker_id": "dabf1a4dd53c431f8aa1af25b3c1adb0-shard-0",
-        "claimed_at": "2026-11-21T23:14:16.827646+00:00",
-        "lease_expires_at": "2026-11-22T05:14:16.827646+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31238671",
       "prepared": {
@@ -197187,7 +197195,7 @@
       "last_plan": {
         "source_id": "34666724",
         "display_name": "Signs of Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:16:34.237422+00:00"
+        "planned_at": "2026-11-21T23:16:39.096577+00:00"
       }
     },
     "13743": {
@@ -240458,5 +240466,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:16:35.311051+00:00"
+  "updated_at": "2026-11-21T23:16:40.602445+00:00"
 }
