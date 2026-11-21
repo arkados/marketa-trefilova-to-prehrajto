@@ -140761,13 +140761,6 @@
           "source_id": "11128209",
           "target_video_id": "30988127",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:17:36.152306+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11128209",
-          "target_video_id": "30988127",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:55:07.705235+00:00"
         },
         {
@@ -140776,12 +140769,19 @@
           "target_video_id": "30988127",
           "permanent": false,
           "attempted_at": "2026-11-21T16:33:39.623005+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11128209",
+          "target_video_id": "30988127",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:14:21.222624+00:00"
         }
       ],
       "last_plan": {
         "source_id": "11128209",
         "display_name": "Prípad dvou sester (Případ dvou sester) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:33:33.387003+00:00"
+        "planned_at": "2026-11-21T18:14:17.969433+00:00"
       },
       "previous_target_id": "30988127",
       "prepared": {
@@ -195497,14 +195497,25 @@
       "last_plan": {
         "source_id": "34719846",
         "display_name": "Ho! (Ho !) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:14:11.136000+00:00"
+        "planned_at": "2026-11-21T18:14:18.353739+00:00"
+      },
+      "claim": {
+        "worker_id": "4c885129bcc046f29abe255d85fe7f6d-shard-0",
+        "claimed_at": "2026-11-21T18:14:19.427089+00:00",
+        "lease_expires_at": "2026-11-22T00:14:19.427089+00:00",
+        "run_id": "44930055910"
       }
     },
     "23740": {
       "attempts": []
     },
     "11602": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29912378",
+        "display_name": "Wolf's Hole (Vlčí bouda) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T18:14:18.604997+00:00"
+      }
     },
     "21766": {
       "attempts": []
@@ -239080,5 +239091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:14:15.586514+00:00"
+  "updated_at": "2026-11-21T18:14:21.222643+00:00"
 }
