@@ -10843,6 +10843,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-02T16:05:44.247867+00:00",
         "relay_source_id": "33222569"
+      },
+      "claim": {
+        "worker_id": "8eeea9c92cc648dfb1549c0a4a022a0a-shard-0",
+        "claimed_at": "2026-11-21T13:57:26.933711+00:00",
+        "lease_expires_at": "2026-11-21T19:57:26.933711+00:00",
+        "run_id": "44897571814"
       }
     },
     "32466": {
@@ -22813,13 +22819,6 @@
           "source_id": "9657833",
           "target_video_id": "30988255",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:25:17.396940+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "9657833",
-          "target_video_id": "30988255",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:55:31.835375+00:00"
         },
         {
@@ -22828,6 +22827,13 @@
           "target_video_id": "30988255",
           "permanent": false,
           "attempted_at": "2026-11-21T13:27:05.860880+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "9657833",
+          "target_video_id": "30988255",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:57:26.832598+00:00"
         }
       ],
       "last_plan": {
@@ -22841,12 +22847,6 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T07:59:47.278610+00:00",
         "relay_source_id": "9657833"
-      },
-      "claim": {
-        "worker_id": "c14685cfaee741328315e4e5851a5dc5-shard-0",
-        "claimed_at": "2026-11-21T13:57:23.113049+00:00",
-        "lease_expires_at": "2026-11-21T19:57:23.113049+00:00",
-        "run_id": "44897571814"
       }
     },
     "2220": {
@@ -22876,7 +22876,7 @@
       "last_plan": {
         "source_id": "26365359",
         "display_name": "The Night of the 12th (La Nuit du 12) 1080p CZ titulky",
-        "planned_at": "2026-11-21T13:27:09.597741+00:00"
+        "planned_at": "2026-11-21T13:57:27.817646+00:00"
       },
       "previous_target_id": "30988430",
       "prepared": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:57:23.983217+00:00"
+  "updated_at": "2026-11-21T13:57:27.817658+00:00"
 }
