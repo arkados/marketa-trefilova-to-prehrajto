@@ -193149,17 +193149,19 @@
       "attempts": []
     },
     "14704": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31330841",
+          "target_video_id": "31229017",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:18:40.552581+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31330841",
         "display_name": "Puan 1080p CZ Dabing",
         "planned_at": "2026-11-21T13:12:34.194717+00:00"
-      },
-      "claim": {
-        "worker_id": "ad52556415c94ad19944867e937b3e6d-shard-0",
-        "claimed_at": "2026-11-21T13:12:37.673235+00:00",
-        "lease_expires_at": "2026-11-21T19:12:37.673235+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31229017",
       "prepared": {
@@ -237258,5 +237260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:18:38.190997+00:00"
+  "updated_at": "2026-11-21T13:18:40.552599+00:00"
 }
