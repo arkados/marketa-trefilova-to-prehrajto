@@ -56274,7 +56274,7 @@
       "last_plan": {
         "source_id": "32042477",
         "display_name": "The Physician 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:51:47.319705+00:00"
+        "planned_at": "2026-11-21T13:37:24.512619+00:00"
       },
       "previous_target_id": "30784526",
       "prepared": {
@@ -56282,6 +56282,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-04T11:23:58.909175+00:00",
         "relay_source_id": "32042477"
+      },
+      "claim": {
+        "worker_id": "b20f3315820c4b4fb9bdee63d0a15631-shard-0",
+        "claimed_at": "2026-11-21T13:37:25.596311+00:00",
+        "lease_expires_at": "2026-11-21T19:37:25.596311+00:00",
+        "run_id": "44897571814"
       }
     },
     "24818": {
@@ -192793,17 +192799,23 @@
           "attempted_at": "2026-11-21T11:51:45.233478+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "12656509",
-        "display_name": "Scooby-Doo! Pirates Ahoy! SD CZ Dabing",
-        "planned_at": "2026-11-21T13:37:20.906243+00:00"
-      },
       "previous_target_id": "31227644",
-      "prepared": {
+      "upload": {
         "target_video_id": "31227644",
-        "size_bytes": 703082496,
-        "prepared_at": "2026-11-21T11:50:56.607575+00:00",
-        "relay_source_id": "12656509"
+        "display_name": "Scooby-Doo! Pirates Ahoy! SD CZ Dabing",
+        "source_id": "12656509",
+        "source_url": "https://sdilej.cz/12656509/scooby-doo-a-pirati-2006-animovany-komedie-cz.avi",
+        "source_filename": "Scooby-Doo a piráti (2006) Animovaný, Komedie Cz.avi",
+        "size_bytes": 703100000,
+        "width": 576,
+        "height": 432,
+        "audio_language": "cs",
+        "language_probability": 0.9689139723777771,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/scooby-doo-pirates-ahoy-sd-cz-dabing-avi/d1608354309f88d4",
+        "uploaded_at": "2026-11-21T13:37:25.891569+00:00"
       }
     },
     "5717": {
@@ -193366,7 +193378,7 @@
       "last_plan": {
         "source_id": "34694121",
         "display_name": "Big City Greens the Movie: Spacecation 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:37:21.359466+00:00"
+        "planned_at": "2026-11-21T13:37:24.909664+00:00"
       }
     },
     "6773": {
@@ -237396,5 +237408,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:37:21.800805+00:00"
+  "updated_at": "2026-11-21T13:37:25.891584+00:00"
 }
