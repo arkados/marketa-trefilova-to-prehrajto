@@ -140462,13 +140462,6 @@
           "source_id": "31285766",
           "target_video_id": "30988093",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:45:34.001469+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31285766",
-          "target_video_id": "30988093",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:21:16.882853+00:00"
         },
         {
@@ -140477,12 +140470,19 @@
           "target_video_id": "30988093",
           "permanent": false,
           "attempted_at": "2026-11-21T18:03:02.057812+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31285766",
+          "target_video_id": "30988093",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:42:37.676854+00:00"
         }
       ],
       "last_plan": {
         "source_id": "31285766",
         "display_name": "Helimadoe 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:02:57.451829+00:00"
+        "planned_at": "2026-11-21T19:42:35.197678+00:00"
       },
       "previous_target_id": "30988093",
       "prepared": {
@@ -196335,11 +196335,22 @@
       "last_plan": {
         "source_id": "30286189",
         "display_name": "Pouic-Pouic (Squeak-squeak) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:42:29.009937+00:00"
+        "planned_at": "2026-11-21T19:42:35.605447+00:00"
+      },
+      "claim": {
+        "worker_id": "b3cf0b8d63a443a182894d01fd1d8038-shard-0",
+        "claimed_at": "2026-11-21T19:42:36.715893+00:00",
+        "lease_expires_at": "2026-11-22T01:42:36.715893+00:00",
+        "run_id": "44930055910"
       }
     },
     "7252": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32950134",
+        "display_name": "Masha 1080p CZ Dabing",
+        "planned_at": "2026-11-21T19:42:35.849652+00:00"
+      }
     },
     "15623": {
       "attempts": []
@@ -239744,5 +239755,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:42:32.782020+00:00"
+  "updated_at": "2026-11-21T19:42:37.676872+00:00"
 }
