@@ -189470,17 +189470,19 @@
       "attempts": []
     },
     "36698": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30060670",
+          "target_video_id": "31220241",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:45:49.895341+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30060670",
         "display_name": "The Police War (La Guerre des polices) SD CZ Dabing",
         "planned_at": "2026-11-21T04:44:06.753114+00:00"
-      },
-      "claim": {
-        "worker_id": "8c72b315c79c4112940fdb5cd2044adc-shard-0",
-        "claimed_at": "2026-11-21T04:44:07.900794+00:00",
-        "lease_expires_at": "2026-11-21T10:44:07.900794+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31220241",
       "prepared": {
@@ -234239,5 +234241,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:45:46.083475+00:00"
+  "updated_at": "2026-11-21T04:45:49.895363+00:00"
 }
