@@ -195409,17 +195409,23 @@
       }
     },
     "3814": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33867156",
+          "reason": "Source detail has no authenticated download link; source_id=33867156",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:09:21.635578+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33867156",
         "display_name": "Band Aid 1080p CZ Dabing",
         "planned_at": "2026-11-21T18:09:17.277297+00:00"
       },
-      "claim": {
-        "worker_id": "be9f94fb6b6c44dd80f2771c0abf3784-shard-0",
-        "claimed_at": "2026-11-21T18:09:18.352074+00:00",
-        "lease_expires_at": "2026-11-22T00:09:18.352074+00:00",
-        "run_id": "44930055910"
+      "source_repair_requested": {
+        "source_id": "33867156",
+        "requested_at": "2026-11-21T18:09:21.635558+00:00"
       }
     },
     "25995": {
@@ -239022,5 +239028,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:09:19.598776+00:00"
+  "updated_at": "2026-11-21T18:09:21.635610+00:00"
 }
