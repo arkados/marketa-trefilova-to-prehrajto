@@ -12499,13 +12499,6 @@
           "source_id": "32043793",
           "target_video_id": "30647758",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:12:59.027410+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32043793",
-          "target_video_id": "30647758",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:32:11.060076+00:00"
         },
         {
@@ -12514,6 +12507,13 @@
           "target_video_id": "30647758",
           "permanent": false,
           "attempted_at": "2026-11-21T10:06:05.513569+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32043793",
+          "target_video_id": "30647758",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:46:39.874404+00:00"
         }
       ],
       "last_plan": {
@@ -135371,7 +135371,7 @@
       "last_plan": {
         "source_id": "35068765",
         "display_name": "Veronika, proste Nika (Veronika, prostě Nika) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:06:04.765185+00:00"
+        "planned_at": "2026-11-21T11:46:38.260253+00:00"
       },
       "previous_target_id": "30987562",
       "prepared": {
@@ -135379,6 +135379,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T05:12:28.986309+00:00",
         "relay_source_id": "35068765"
+      },
+      "claim": {
+        "worker_id": "70e6e0b65220452f943c080b56499553-shard-0",
+        "claimed_at": "2026-11-21T11:46:39.561153+00:00",
+        "lease_expires_at": "2026-11-21T17:46:39.561153+00:00",
+        "run_id": "44889191327"
       }
     },
     "13853": {
@@ -192565,17 +192571,19 @@
       "attempts": []
     },
     "14872": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32147032",
+          "target_video_id": "31227407",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:46:40.164836+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32147032",
         "display_name": "Io e Angela 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:39:42.644765+00:00"
-      },
-      "claim": {
-        "worker_id": "bacc1a7b9faf4410b95e60fc4dc29905-shard-0",
-        "claimed_at": "2026-11-21T11:39:45.696429+00:00",
-        "lease_expires_at": "2026-11-21T17:39:45.696429+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31227407",
       "prepared": {
@@ -192596,7 +192604,7 @@
       "last_plan": {
         "source_id": "34126316",
         "display_name": "3Grapes (3Bobule) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:46:34.695342+00:00"
+        "planned_at": "2026-11-21T11:46:38.652412+00:00"
       }
     },
     "26017": {
@@ -236752,5 +236760,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:46:35.067798+00:00"
+  "updated_at": "2026-11-21T11:46:40.164855+00:00"
 }
