@@ -142009,13 +142009,6 @@
           "source_id": "32763852",
           "target_video_id": "30988393",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:32:31.693215+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32763852",
-          "target_video_id": "30988393",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:08:58.879332+00:00"
         },
         {
@@ -142024,6 +142017,13 @@
           "target_video_id": "30988393",
           "permanent": false,
           "attempted_at": "2026-11-21T17:46:32.752861+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32763852",
+          "target_video_id": "30988393",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:26:13.082253+00:00"
         }
       ],
       "last_plan": {
@@ -168661,7 +168661,7 @@
       "last_plan": {
         "source_id": "12139621",
         "display_name": "Breakheart Pass 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:46:32.276809+00:00"
+        "planned_at": "2026-11-21T19:26:11.790959+00:00"
       },
       "previous_target_id": "31118765",
       "prepared": {
@@ -168669,6 +168669,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-17T12:57:40.565798+00:00",
         "relay_source_id": "12139621"
+      },
+      "claim": {
+        "worker_id": "ea7bc88da0f94a9b85cdbaff6d4d3277-shard-0",
+        "claimed_at": "2026-11-21T19:26:13.309501+00:00",
+        "lease_expires_at": "2026-11-22T01:26:13.309501+00:00",
+        "run_id": "44930055910"
       }
     },
     "14611": {
@@ -196168,14 +196174,25 @@
       "last_plan": {
         "source_id": "33776248",
         "display_name": "Sissi – Fateful Years of an Empress (Sissi - Schicksalsjahre einer Kaiserin) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:26:08.660773+00:00"
+        "planned_at": "2026-11-21T19:26:12.164165+00:00"
+      },
+      "claim": {
+        "worker_id": "e324640df800476fb9a72a3f53875e58-shard-0",
+        "claimed_at": "2026-11-21T19:26:13.538281+00:00",
+        "lease_expires_at": "2026-11-22T01:26:13.538281+00:00",
+        "run_id": "44930055910"
       }
     },
     "19659": {
       "attempts": []
     },
     "30226": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28708841",
+        "display_name": "The Cockleshell Heroes 720p CZ Dabing",
+        "planned_at": "2026-11-21T19:26:12.425885+00:00"
+      }
     },
     "5827": {
       "attempts": []
@@ -239610,5 +239627,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:26:08.660793+00:00"
+  "updated_at": "2026-11-21T19:26:13.538312+00:00"
 }
