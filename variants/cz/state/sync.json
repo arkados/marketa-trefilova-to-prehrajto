@@ -132462,13 +132462,6 @@
           "source_id": "33767536",
           "target_video_id": "30987126",
           "permanent": false,
-          "attempted_at": "2026-11-21T09:31:55.782375+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767536",
-          "target_video_id": "30987126",
-          "permanent": false,
           "attempted_at": "2026-11-21T11:10:04.659191+00:00"
         },
         {
@@ -132477,6 +132470,13 @@
           "target_video_id": "30987126",
           "permanent": false,
           "attempted_at": "2026-11-21T12:50:37.032351+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767536",
+          "target_video_id": "30987126",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:32:28.201155+00:00"
         }
       ],
       "last_plan": {
@@ -142029,7 +142029,7 @@
       "last_plan": {
         "source_id": "32763852",
         "display_name": "Šviháci 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:50:35.454698+00:00"
+        "planned_at": "2026-11-21T14:32:26.560011+00:00"
       },
       "previous_target_id": "30988393",
       "prepared": {
@@ -142037,6 +142037,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T08:19:06.905333+00:00",
         "relay_source_id": "32763852"
+      },
+      "claim": {
+        "worker_id": "a10db6be5f6f45c5884d17830c7f0404-shard-0",
+        "claimed_at": "2026-11-21T14:32:27.834129+00:00",
+        "lease_expires_at": "2026-11-21T20:32:27.834129+00:00",
+        "run_id": "44897571814"
       }
     },
     "27827": {
@@ -193748,7 +193754,7 @@
       "last_plan": {
         "source_id": "34653846",
         "display_name": "The St. Valentine's Day Massacre 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:32:23.441093+00:00"
+        "planned_at": "2026-11-21T14:32:26.983203+00:00"
       }
     },
     "36872": {
@@ -237709,5 +237715,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:32:23.759901+00:00"
+  "updated_at": "2026-11-21T14:32:28.201171+00:00"
 }
