@@ -114005,13 +114005,6 @@
           "source_id": "29053406",
           "target_video_id": "30984080",
           "permanent": false,
-          "attempted_at": "2026-11-21T01:51:22.887409+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29053406",
-          "target_video_id": "30984080",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:35:33.174681+00:00"
         },
         {
@@ -114020,6 +114013,13 @@
           "target_video_id": "30984080",
           "permanent": false,
           "attempted_at": "2026-11-21T05:26:47.044925+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29053406",
+          "target_video_id": "30984080",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:46:32.530227+00:00"
         }
       ],
       "last_plan": {
@@ -115704,7 +115704,7 @@
       "last_plan": {
         "source_id": "33694760",
         "display_name": "The Score 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:26:47.541690+00:00"
+        "planned_at": "2026-11-21T06:46:31.209398+00:00"
       },
       "previous_target_id": "30984616",
       "prepared": {
@@ -115712,6 +115712,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T17:04:35.290411+00:00",
         "relay_source_id": "33694760"
+      },
+      "claim": {
+        "worker_id": "039286075e8a4f948bcca31a96d921e9-shard-0",
+        "claimed_at": "2026-11-21T06:46:31.948260+00:00",
+        "lease_expires_at": "2026-11-21T12:46:31.948260+00:00",
+        "run_id": "44855214731"
       }
     },
     "2770": {
@@ -190441,17 +190447,19 @@
       "attempts": []
     },
     "7832": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21499469",
+          "target_video_id": "31222031",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:46:32.722743+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21499469",
         "display_name": "Une comédie romantique 1080p CZ Dabing",
         "planned_at": "2026-11-21T06:43:35.583396+00:00"
-      },
-      "claim": {
-        "worker_id": "4bf5719242e94ab587aa3f3d5bb6e102-shard-0",
-        "claimed_at": "2026-11-21T06:43:36.230248+00:00",
-        "lease_expires_at": "2026-11-21T12:43:36.230248+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31222031",
       "prepared": {
@@ -190469,7 +190477,7 @@
       "last_plan": {
         "source_id": "28825946",
         "display_name": "Gold Run (Gulltransporten) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:46:27.951660+00:00"
+        "planned_at": "2026-11-21T06:46:31.554886+00:00"
       }
     },
     "14133": {
@@ -234997,5 +235005,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:46:27.951680+00:00"
+  "updated_at": "2026-11-21T06:46:32.722766+00:00"
 }
