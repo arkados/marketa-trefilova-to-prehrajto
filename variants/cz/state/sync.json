@@ -111448,6 +111448,12 @@
         "size_bytes": 807200000,
         "prepared_at": "2026-11-10T14:49:12.511698+00:00",
         "relay_source_id": "28004879"
+      },
+      "claim": {
+        "worker_id": "8c27292e11bd46f5b8affeb7fceb814a-shard-0",
+        "claimed_at": "2026-11-21T01:22:07.930812+00:00",
+        "lease_expires_at": "2026-11-21T07:22:07.930812+00:00",
+        "run_id": "44848457493"
       }
     },
     "13136": {
@@ -111480,7 +111486,7 @@
       "last_plan": {
         "source_id": "26697838",
         "display_name": "Smích se lepí na paty 1080p CZ Dabing",
-        "planned_at": "2026-11-20T23:37:27.284428+00:00"
+        "planned_at": "2026-11-21T01:22:08.193470+00:00"
       },
       "previous_target_id": "30983795",
       "prepared": {
@@ -111488,6 +111494,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T14:49:23.310628+00:00",
         "relay_source_id": "26697838"
+      },
+      "claim": {
+        "worker_id": "72192b02b98d49e9a1459bdca5fa88f3-shard-0",
+        "claimed_at": "2026-11-21T01:22:09.117196+00:00",
+        "lease_expires_at": "2026-11-21T07:22:09.117196+00:00",
+        "run_id": "44848457493"
       }
     },
     "33771": {
@@ -113513,13 +113525,6 @@
           "source_id": "34357641",
           "target_video_id": "30984036",
           "permanent": false,
-          "attempted_at": "2026-11-20T16:42:03.848811+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34357641",
-          "target_video_id": "30984036",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:58:32.093797+00:00"
         },
         {
@@ -113528,6 +113533,13 @@
           "target_video_id": "30984036",
           "permanent": false,
           "attempted_at": "2026-11-20T23:37:23.775607+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34357641",
+          "target_video_id": "30984036",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:22:10.242951+00:00"
         }
       ],
       "last_plan": {
@@ -113541,12 +113553,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T15:18:28.360690+00:00",
         "relay_source_id": "34357641"
-      },
-      "claim": {
-        "worker_id": "c15fe59c63794c7c88ab671fcef000e1-shard-0",
-        "claimed_at": "2026-11-21T01:22:04.151031+00:00",
-        "lease_expires_at": "2026-11-21T07:22:04.151031+00:00",
-        "run_id": "44848457493"
       }
     },
     "2991": {
@@ -188259,7 +188265,7 @@
       "last_plan": {
         "source_id": "34781568",
         "display_name": "Wild Sing 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:22:04.804232+00:00"
+        "planned_at": "2026-11-21T01:22:08.558115+00:00"
       }
     },
     "31050": {
@@ -233181,5 +233187,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:22:05.082115+00:00"
+  "updated_at": "2026-11-21T01:22:10.242972+00:00"
 }
