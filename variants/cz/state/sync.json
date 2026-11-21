@@ -122307,13 +122307,6 @@
           "source_id": "30647033",
           "target_video_id": "30985429",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:50:53.348912+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30647033",
-          "target_video_id": "30985429",
-          "permanent": false,
           "attempted_at": "2026-11-21T16:26:22.069648+00:00"
         },
         {
@@ -122322,6 +122315,13 @@
           "target_video_id": "30985429",
           "permanent": false,
           "attempted_at": "2026-11-21T18:09:36.442823+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30647033",
+          "target_video_id": "30985429",
+          "permanent": false,
+          "attempted_at": "2026-11-21T19:49:04.152543+00:00"
         }
       ],
       "last_plan": {
@@ -122335,12 +122335,6 @@
         "size_bytes": 18600000000,
         "prepared_at": "2026-11-10T19:15:27.659735+00:00",
         "relay_source_id": "30647033"
-      },
-      "claim": {
-        "worker_id": "8b66b2d933ca4ba4bbb2e46d26f5665a-shard-0",
-        "claimed_at": "2026-11-21T19:49:01.299301+00:00",
-        "lease_expires_at": "2026-11-22T01:49:01.299301+00:00",
-        "run_id": "44930055910"
       }
     },
     "11818": {
@@ -142386,7 +142380,7 @@
       "last_plan": {
         "source_id": "33960672",
         "display_name": "Banger (BANGER.) (2022) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:09:35.033835+00:00"
+        "planned_at": "2026-11-21T19:49:03.738612+00:00"
       },
       "previous_target_id": "30988457",
       "prepared": {
@@ -196398,11 +196392,16 @@
       "last_plan": {
         "source_id": "32950134",
         "display_name": "Masha 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:48:58.176669+00:00"
+        "planned_at": "2026-11-21T19:49:04.422933+00:00"
       }
     },
     "15623": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34694033",
+        "display_name": "Salve Maria 1080p CZ Dabing",
+        "planned_at": "2026-11-21T19:49:04.655546+00:00"
+      }
     },
     "15944": {
       "attempts": []
@@ -239804,5 +239803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:49:01.299328+00:00"
+  "updated_at": "2026-11-21T19:49:04.655564+00:00"
 }
