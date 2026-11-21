@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "23c9398b7286480790845310d8f01d92-shard-0",
+        "claimed_at": "2026-11-21T00:44:24.216012+00:00",
+        "lease_expires_at": "2026-11-21T06:44:24.216012+00:00",
+        "run_id": "44817573093"
       }
     },
     "32719": {
@@ -153205,13 +153211,6 @@
           "source_id": "35428812",
           "target_video_id": "31037711",
           "permanent": false,
-          "attempted_at": "2026-11-20T16:09:19.653622+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35428812",
-          "target_video_id": "31037711",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:24:55.870273+00:00"
         },
         {
@@ -153220,12 +153219,19 @@
           "target_video_id": "31037711",
           "permanent": false,
           "attempted_at": "2026-11-20T23:02:56.663273+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35428812",
+          "target_video_id": "31037711",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:44:27.745748+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35428812",
         "display_name": "Lame de fond 1080p CZ Dabing",
-        "planned_at": "2026-11-20T23:02:51.297653+00:00"
+        "planned_at": "2026-11-21T00:44:24.519401+00:00"
       },
       "previous_target_id": "31037711",
       "prepared": {
@@ -188026,7 +188032,7 @@
       "last_plan": {
         "source_id": "34847835",
         "display_name": "The Midnight Man (1974) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:44:21.357961+00:00"
+        "planned_at": "2026-11-21T00:44:24.901609+00:00"
       }
     },
     "29726": {
@@ -232987,5 +232993,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:44:21.675837+00:00"
+  "updated_at": "2026-11-21T00:44:27.745769+00:00"
 }
