@@ -120140,13 +120140,6 @@
           "source_id": "15342199",
           "target_video_id": "30984988",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:01:38.528950+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15342199",
-          "target_video_id": "30984988",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:43:17.508358+00:00"
         },
         {
@@ -120155,6 +120148,13 @@
           "target_video_id": "30984988",
           "permanent": false,
           "attempted_at": "2026-11-21T01:25:12.241860+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15342199",
+          "target_video_id": "30984988",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:08:07.480184+00:00"
         }
       ],
       "last_plan": {
@@ -120168,12 +120168,6 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T18:27:44.097179+00:00",
         "relay_source_id": "15342199"
-      },
-      "claim": {
-        "worker_id": "dd106bc852cb49c99a8d16f5fa65515f-shard-0",
-        "claimed_at": "2026-11-21T03:08:03.140954+00:00",
-        "lease_expires_at": "2026-11-21T09:08:03.140954+00:00",
-        "run_id": "44848457493"
       }
     },
     "22451": {
@@ -127509,7 +127503,7 @@
       "last_plan": {
         "source_id": "6308804",
         "display_name": "The Ogre (Der Unhold) SD CZ Dabing",
-        "planned_at": "2026-11-21T01:25:10.309372+00:00"
+        "planned_at": "2026-11-21T03:08:08.195855+00:00"
       },
       "previous_target_id": "30986400",
       "prepared": {
@@ -188884,17 +188878,19 @@
       }
     },
     "15161": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689462",
+          "target_video_id": "31218686",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:08:09.208573+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689462",
         "display_name": "A Good Jewish Boy (Le Dernier des Juifs) 1080p CZ Dabing",
         "planned_at": "2026-11-21T03:02:40.920775+00:00"
-      },
-      "claim": {
-        "worker_id": "71801bc9d847428a873656062a95d37a-shard-0",
-        "claimed_at": "2026-11-21T03:02:44.161576+00:00",
-        "lease_expires_at": "2026-11-21T09:02:44.161576+00:00",
-        "run_id": "44848457493"
       },
       "previous_target_id": "31218686",
       "prepared": {
@@ -188912,7 +188908,7 @@
       "last_plan": {
         "source_id": "11985679",
         "display_name": "Man from Del Rio SD CZ Dabing",
-        "planned_at": "2026-11-21T03:08:02.458702+00:00"
+        "planned_at": "2026-11-21T03:08:08.577653+00:00"
       }
     },
     "35783": {
@@ -233743,5 +233739,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:08:04.070539+00:00"
+  "updated_at": "2026-11-21T03:08:09.208594+00:00"
 }
