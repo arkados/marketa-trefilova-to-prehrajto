@@ -113476,13 +113476,6 @@
           "source_id": "31063467",
           "target_video_id": "30984035",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:25:32.775660+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31063467",
-          "target_video_id": "30984035",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:44:35.333577+00:00"
         },
         {
@@ -113491,6 +113484,13 @@
           "target_video_id": "30984035",
           "permanent": false,
           "attempted_at": "2026-11-21T09:05:26.836979+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31063467",
+          "target_video_id": "30984035",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:45:12.581630+00:00"
         }
       ],
       "last_plan": {
@@ -136095,7 +136095,7 @@
       "last_plan": {
         "source_id": "30696489",
         "display_name": "Bláhový sen 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:05:25.398909+00:00"
+        "planned_at": "2026-11-21T10:45:10.926934+00:00"
       },
       "previous_target_id": "30987624",
       "prepared": {
@@ -136103,6 +136103,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T05:28:50.385454+00:00",
         "relay_source_id": "30696489"
+      },
+      "claim": {
+        "worker_id": "481962dcee9442b5a8e66dce80c6827d-shard-0",
+        "claimed_at": "2026-11-21T10:45:12.248388+00:00",
+        "lease_expires_at": "2026-11-21T16:45:12.248388+00:00",
+        "run_id": "44889191327"
       }
     },
     "35394": {
@@ -192131,7 +192137,7 @@
       "last_plan": {
         "source_id": "24638915",
         "display_name": "Emergency Situation (Mimořádná událost) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:45:07.468354+00:00"
+        "planned_at": "2026-11-21T10:45:11.373564+00:00"
       }
     },
     "19988": {
@@ -236392,5 +236398,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:45:07.815572+00:00"
+  "updated_at": "2026-11-21T10:45:12.581653+00:00"
 }
