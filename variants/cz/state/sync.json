@@ -14761,13 +14761,6 @@
           "source_id": "32500310",
           "target_video_id": "30657182",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:13:14.150358+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32500310",
-          "target_video_id": "30657182",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:32:21.515266+00:00"
         },
         {
@@ -14776,6 +14769,13 @@
           "target_video_id": "30657182",
           "permanent": false,
           "attempted_at": "2026-11-21T10:06:19.585390+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32500310",
+          "target_video_id": "30657182",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:46:57.691940+00:00"
         }
       ],
       "last_plan": {
@@ -14789,12 +14789,6 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-10-31T06:23:14.737343+00:00",
         "relay_source_id": "32500310"
-      },
-      "claim": {
-        "worker_id": "527fff12c88a4a03b1ec9a0d6900f3eb-shard-0",
-        "claimed_at": "2026-11-21T11:46:54.493156+00:00",
-        "lease_expires_at": "2026-11-21T17:46:54.493156+00:00",
-        "run_id": "44889191327"
       }
     },
     "22177": {
@@ -191962,7 +191956,7 @@
       "last_plan": {
         "source_id": "32580809",
         "display_name": "The Return of the Tall Blond Man with One Black Shoe (Le Retour du Grand Blond) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:03:52.838727+00:00"
+        "planned_at": "2026-11-21T11:46:56.914987+00:00"
       },
       "previous_target_id": "31225500",
       "prepared": {
@@ -192605,6 +192599,12 @@
         "source_id": "34126316",
         "display_name": "3Grapes (3Bobule) 1080p CZ Dabing",
         "planned_at": "2026-11-21T11:46:53.148495+00:00"
+      },
+      "claim": {
+        "worker_id": "a1c33756789b4fe6a21c00953d7581c9-shard-0",
+        "claimed_at": "2026-11-21T11:46:56.614540+00:00",
+        "lease_expires_at": "2026-11-21T17:46:56.614540+00:00",
+        "run_id": "44889191327"
       }
     },
     "26017": {
@@ -192612,7 +192612,7 @@
       "last_plan": {
         "source_id": "12656509",
         "display_name": "Scooby-Doo! Pirates Ahoy! SD CZ Dabing",
-        "planned_at": "2026-11-21T11:46:53.433883+00:00"
+        "planned_at": "2026-11-21T11:46:57.307909+00:00"
       }
     },
     "5717": {
@@ -236765,5 +236765,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:46:54.493179+00:00"
+  "updated_at": "2026-11-21T11:46:57.691968+00:00"
 }
