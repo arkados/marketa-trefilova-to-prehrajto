@@ -27529,7 +27529,7 @@
       "last_plan": {
         "source_id": "33392596",
         "display_name": "Promising Young Woman 4K CZ Dabing",
-        "planned_at": "2026-11-20T23:03:38.585476+00:00"
+        "planned_at": "2026-11-21T00:45:26.044941+00:00"
       },
       "previous_target_id": "30714569",
       "prepared": {
@@ -110241,13 +110241,6 @@
           "source_id": "33708286",
           "target_video_id": "30983694",
           "permanent": false,
-          "attempted_at": "2026-11-20T16:10:03.302444+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33708286",
-          "target_video_id": "30983694",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:25:38.795527+00:00"
         },
         {
@@ -110256,6 +110249,13 @@
           "target_video_id": "30983694",
           "permanent": false,
           "attempted_at": "2026-11-20T23:03:40.467635+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33708286",
+          "target_video_id": "30983694",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:45:26.370757+00:00"
         }
       ],
       "last_plan": {
@@ -110269,12 +110269,6 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T14:36:10.697920+00:00",
         "relay_source_id": "33708286"
-      },
-      "claim": {
-        "worker_id": "51ea7aabaf5243e9987381e79aabb065-shard-0",
-        "claimed_at": "2026-11-21T00:45:15.168075+00:00",
-        "lease_expires_at": "2026-11-21T06:45:15.168075+00:00",
-        "run_id": "44817573093"
       }
     },
     "35753": {
@@ -188001,17 +187995,19 @@
       "attempts": []
     },
     "16882": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28344864",
+          "target_video_id": "31216456",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:45:26.964907+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28344864",
         "display_name": "I Love You Heavenly (Miluji tě modře) SD CZ Dabing",
         "planned_at": "2026-11-21T00:43:39.752961+00:00"
-      },
-      "claim": {
-        "worker_id": "2504593fb8d34c438c530d88c9e0daea-shard-0",
-        "claimed_at": "2026-11-21T00:43:40.846610+00:00",
-        "lease_expires_at": "2026-11-21T06:43:40.846610+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216456",
       "prepared": {
@@ -188032,7 +188028,7 @@
       "last_plan": {
         "source_id": "34847835",
         "display_name": "The Midnight Man (1974) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:45:14.538878+00:00"
+        "planned_at": "2026-11-21T00:45:26.691732+00:00"
       }
     },
     "29726": {
@@ -232993,5 +232989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:45:22.447117+00:00"
+  "updated_at": "2026-11-21T00:45:26.964934+00:00"
 }
