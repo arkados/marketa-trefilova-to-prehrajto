@@ -152640,13 +152640,6 @@
           "source_id": "22312690",
           "target_video_id": "31035934",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:36:15.348766+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22312690",
-          "target_video_id": "31035934",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:16:04.348942+00:00"
         },
         {
@@ -152655,6 +152648,13 @@
           "target_video_id": "31035934",
           "permanent": false,
           "attempted_at": "2026-11-21T20:49:05.615992+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22312690",
+          "target_video_id": "31035934",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:57:50.352877+00:00"
         }
       ],
       "last_plan": {
@@ -195230,7 +195230,7 @@
       "last_plan": {
         "source_id": "29700181",
         "display_name": "Spartacus (2004) SD CZ Dabing",
-        "planned_at": "2026-11-21T20:49:03.721217+00:00"
+        "planned_at": "2026-11-21T23:57:48.489473+00:00"
       },
       "previous_target_id": "31233224",
       "prepared": {
@@ -195238,6 +195238,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-21T17:33:42.809512+00:00",
         "relay_source_id": "29700181"
+      },
+      "claim": {
+        "worker_id": "4f4ab60c6f6044d7a2b4a022e8611d5d-shard-0",
+        "claimed_at": "2026-11-21T23:57:49.783661+00:00",
+        "lease_expires_at": "2026-11-22T05:57:49.783661+00:00",
+        "run_id": "44959851294"
       }
     },
     "3706": {
@@ -197508,6 +197514,12 @@
         "source_id": "29541575",
         "display_name": "A High Wind in Jamaica 1080p CZ Dabing",
         "planned_at": "2026-11-21T23:57:44.802569+00:00"
+      },
+      "claim": {
+        "worker_id": "671ddb5a24f44316b99cb8d273f082ca-shard-0",
+        "claimed_at": "2026-11-21T23:57:48.199160+00:00",
+        "lease_expires_at": "2026-11-22T05:57:48.199160+00:00",
+        "run_id": "44959851294"
       }
     },
     "13712": {
@@ -197524,7 +197536,7 @@
       "last_plan": {
         "source_id": "21634073",
         "display_name": "Juggernaut SD CZ Dabing",
-        "planned_at": "2026-11-21T23:57:45.039912+00:00"
+        "planned_at": "2026-11-21T23:57:48.963070+00:00"
       }
     },
     "3649": {
@@ -240705,5 +240717,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:57:45.039929+00:00"
+  "updated_at": "2026-11-21T23:57:50.352900+00:00"
 }
