@@ -112694,13 +112694,6 @@
           "source_id": "35186010",
           "target_video_id": "30983918",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:52:36.048874+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35186010",
-          "target_video_id": "30983918",
-          "permanent": false,
           "attempted_at": "2026-11-20T17:32:01.017510+00:00"
         },
         {
@@ -112709,6 +112702,13 @@
           "target_video_id": "30983918",
           "permanent": false,
           "attempted_at": "2026-11-20T22:48:47.854315+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35186010",
+          "target_video_id": "30983918",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:27:11.529465+00:00"
         }
       ],
       "last_plan": {
@@ -140744,7 +140744,7 @@
       "last_plan": {
         "source_id": "33856306",
         "display_name": "Long Story Short (Feste & Freunde - Ein Hoch auf uns!) (2024) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:48:47.549624+00:00"
+        "planned_at": "2026-11-21T00:27:09.781201+00:00"
       },
       "previous_target_id": "30988120",
       "prepared": {
@@ -140752,6 +140752,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T07:34:53.722798+00:00",
         "relay_source_id": "33856306"
+      },
+      "claim": {
+        "worker_id": "f77ba01eb352453e827ccb12e1a3ffe6-shard-0",
+        "claimed_at": "2026-11-21T00:27:10.801326+00:00",
+        "lease_expires_at": "2026-11-21T06:27:10.801326+00:00",
+        "run_id": "44817573093"
       }
     },
     "7305": {
@@ -187826,17 +187832,19 @@
       "attempts": []
     },
     "14214": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29208646",
+          "target_video_id": "31216091",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:27:11.821512+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29208646",
         "display_name": "Teddy Bear (Medvídek) 1080p CZ Dabing",
         "planned_at": "2026-11-21T00:20:12.536302+00:00"
-      },
-      "claim": {
-        "worker_id": "619cea1b7e654f7fabfc8a73a5563e25-shard-0",
-        "claimed_at": "2026-11-21T00:20:14.277362+00:00",
-        "lease_expires_at": "2026-11-21T06:20:14.277362+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216091",
       "prepared": {
@@ -187883,7 +187891,7 @@
       "last_plan": {
         "source_id": "24180555",
         "display_name": "The Code of Silence (Una femmina) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:27:06.695263+00:00"
+        "planned_at": "2026-11-21T00:27:10.147870+00:00"
       }
     },
     "32762": {
@@ -232883,5 +232891,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:27:07.003630+00:00"
+  "updated_at": "2026-11-21T00:27:11.821533+00:00"
 }
