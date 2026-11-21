@@ -111343,13 +111343,6 @@
           "source_id": "34877008",
           "target_video_id": "30983790",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:57:57.289642+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877008",
-          "target_video_id": "30983790",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:36:41.205760+00:00"
         },
         {
@@ -111358,6 +111351,13 @@
           "target_video_id": "30983790",
           "permanent": false,
           "attempted_at": "2026-11-21T01:21:22.175523+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877008",
+          "target_video_id": "30983790",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:04:23.615163+00:00"
         }
       ],
       "last_plan": {
@@ -188369,7 +188369,7 @@
       "last_plan": {
         "source_id": "34675292",
         "display_name": "Against the Wall 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:15:06.715571+00:00"
+        "planned_at": "2026-11-21T03:04:21.682186+00:00"
       },
       "previous_target_id": "31216983",
       "prepared": {
@@ -188377,6 +188377,12 @@
         "size_bytes": 3989928172,
         "prepared_at": "2026-11-21T01:15:12.890100+00:00",
         "relay_source_id": "34675292"
+      },
+      "claim": {
+        "worker_id": "7aab9ed77a5541039e6c9a6410ad4e26-shard-0",
+        "claimed_at": "2026-11-21T03:04:22.738051+00:00",
+        "lease_expires_at": "2026-11-21T09:04:22.738051+00:00",
+        "run_id": "44848457493"
       }
     },
     "37476": {
@@ -188893,7 +188899,7 @@
       "last_plan": {
         "source_id": "11985679",
         "display_name": "Man from Del Rio SD CZ Dabing",
-        "planned_at": "2026-11-21T03:04:18.138585+00:00"
+        "planned_at": "2026-11-21T03:04:22.074138+00:00"
       }
     },
     "35783": {
@@ -233724,5 +233730,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:04:18.441119+00:00"
+  "updated_at": "2026-11-21T03:04:23.620408+00:00"
 }
