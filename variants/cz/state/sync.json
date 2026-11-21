@@ -123028,6 +123028,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T19:35:50.526627+00:00",
         "relay_source_id": "34237700"
+      },
+      "claim": {
+        "worker_id": "931716b673614a4686a0a629b3dd507f-shard-0",
+        "claimed_at": "2026-11-21T21:11:11.976435+00:00",
+        "lease_expires_at": "2026-11-22T03:11:11.976435+00:00",
+        "run_id": "44930055910"
       }
     },
     "21110": {
@@ -196813,17 +196819,19 @@
       }
     },
     "19190": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35316014",
+          "target_video_id": "31236542",
+          "permanent": false,
+          "attempted_at": "2026-11-21T21:11:12.252857+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35316014",
         "display_name": "The Prison (Peurizeun) SD CZ Dabing",
         "planned_at": "2026-11-21T21:07:37.580250+00:00"
-      },
-      "claim": {
-        "worker_id": "a18b7d438aea40a1b12492fc496d8436-shard-0",
-        "claimed_at": "2026-11-21T21:07:40.558418+00:00",
-        "lease_expires_at": "2026-11-22T03:07:40.558418+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31236542",
       "prepared": {
@@ -240202,5 +240210,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T21:11:09.636049+00:00"
+  "updated_at": "2026-11-21T21:11:12.252882+00:00"
 }
