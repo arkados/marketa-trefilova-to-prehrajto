@@ -109917,13 +109917,6 @@
           "source_id": "25985391",
           "target_video_id": "30983681",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:23:49.625684+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25985391",
-          "target_video_id": "30983681",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:52:29.337619+00:00"
         },
         {
@@ -109932,6 +109925,13 @@
           "target_video_id": "30983681",
           "permanent": false,
           "attempted_at": "2026-11-21T11:36:11.231864+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25985391",
+          "target_video_id": "30983681",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:15:37.687658+00:00"
         }
       ],
       "last_plan": {
@@ -163893,7 +163893,7 @@
       "last_plan": {
         "source_id": "30294681",
         "display_name": "The Nest (2002) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:36:09.426975+00:00"
+        "planned_at": "2026-11-21T13:15:36.006700+00:00"
       },
       "previous_target_id": "31095446",
       "prepared": {
@@ -163901,6 +163901,12 @@
         "size_bytes": 12800000000,
         "prepared_at": "2026-11-16T17:34:53.721834+00:00",
         "relay_source_id": "30294681"
+      },
+      "claim": {
+        "worker_id": "32a14665dff9443097f7b3c98fccca45-shard-0",
+        "claimed_at": "2026-11-21T13:15:37.316208+00:00",
+        "lease_expires_at": "2026-11-21T19:15:37.316208+00:00",
+        "run_id": "44889191327"
       }
     },
     "3308": {
@@ -193189,7 +193195,7 @@
       "last_plan": {
         "source_id": "34356391",
         "display_name": "Promises (Les Promesses) 720p CZ Dabing",
-        "planned_at": "2026-11-21T13:15:33.106438+00:00"
+        "planned_at": "2026-11-21T13:15:36.462962+00:00"
       }
     },
     "17134": {
@@ -237252,5 +237258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:15:33.106455+00:00"
+  "updated_at": "2026-11-21T13:15:37.687682+00:00"
 }
