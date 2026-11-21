@@ -191843,17 +191843,19 @@
       "attempts": []
     },
     "11151": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32580809",
+          "target_video_id": "31225500",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:06:21.825645+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32580809",
         "display_name": "The Return of the Tall Blond Man with One Black Shoe (Le Retour du Grand Blond) 1080p CZ Dabing",
         "planned_at": "2026-11-21T10:03:52.838727+00:00"
-      },
-      "claim": {
-        "worker_id": "dfae7d66626540e39af27cbe886634a4-shard-0",
-        "claimed_at": "2026-11-21T10:03:54.196446+00:00",
-        "lease_expires_at": "2026-11-21T16:03:54.196446+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31225500",
       "prepared": {
@@ -236174,5 +236176,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:06:19.585410+00:00"
+  "updated_at": "2026-11-21T10:06:21.825663+00:00"
 }
