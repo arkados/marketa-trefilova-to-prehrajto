@@ -134622,13 +134622,6 @@
           "source_id": "34676079",
           "target_video_id": "30987477",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:03:42.209512+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676079",
-          "target_video_id": "30987477",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:33:17.092751+00:00"
         },
         {
@@ -134637,6 +134630,13 @@
           "target_video_id": "30987477",
           "permanent": false,
           "attempted_at": "2026-11-21T07:53:43.781109+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676079",
+          "target_video_id": "30987477",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:13:03.953359+00:00"
         }
       ],
       "last_plan": {
@@ -134650,12 +134650,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:52:55.769930+00:00",
         "relay_source_id": "34676079"
-      },
-      "claim": {
-        "worker_id": "c6b8d2b276e0422dac370eeae9ed5764-shard-0",
-        "claimed_at": "2026-11-21T09:13:00.520180+00:00",
-        "lease_expires_at": "2026-11-21T15:13:00.520180+00:00",
-        "run_id": "44855214731"
       }
     },
     "24448": {
@@ -136335,7 +136329,7 @@
       "last_plan": {
         "source_id": "34528200",
         "display_name": "Stín smrtihlava 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:53:46.152518+00:00"
+        "planned_at": "2026-11-21T09:13:03.491266+00:00"
       },
       "previous_target_id": "30987645",
       "prepared": {
@@ -138049,6 +138043,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-11T06:19:56.772073+00:00",
         "relay_source_id": "33884267"
+      },
+      "claim": {
+        "worker_id": "56a87412edef47b0902a196b857d794d-shard-0",
+        "claimed_at": "2026-11-21T09:13:03.303836+00:00",
+        "lease_expires_at": "2026-11-21T15:13:03.303836+00:00",
+        "run_id": "44855214731"
       }
     },
     "5777": {
@@ -191602,7 +191602,7 @@
       "last_plan": {
         "source_id": "25780807",
         "display_name": "Vyšehrad: Fylm 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:13:00.948068+00:00"
+        "planned_at": "2026-11-21T09:13:03.735552+00:00"
       }
     },
     "21967": {
@@ -235947,5 +235947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:13:00.948086+00:00"
+  "updated_at": "2026-11-21T09:13:03.953378+00:00"
 }
