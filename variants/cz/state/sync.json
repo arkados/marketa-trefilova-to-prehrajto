@@ -116960,6 +116960,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T17:26:28.031408+00:00",
         "relay_source_id": "15937877"
+      },
+      "claim": {
+        "worker_id": "9e0b2b8a05b24e9691458c61469b502b-shard-0",
+        "claimed_at": "2026-11-21T06:31:50.399017+00:00",
+        "lease_expires_at": "2026-11-21T12:31:50.399017+00:00",
+        "run_id": "44855214731"
       }
     },
     "3005": {
@@ -125667,13 +125673,6 @@
           "source_id": "34651052",
           "target_video_id": "30985868",
           "permanent": false,
-          "attempted_at": "2026-11-21T01:30:26.932591+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34651052",
-          "target_video_id": "30985868",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:16:40.257481+00:00"
         },
         {
@@ -125682,6 +125681,13 @@
           "target_video_id": "30985868",
           "permanent": false,
           "attempted_at": "2026-11-21T05:01:43.761357+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34651052",
+          "target_video_id": "30985868",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:31:55.759702+00:00"
         }
       ],
       "last_plan": {
@@ -125695,12 +125701,6 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T22:16:53.211077+00:00",
         "relay_source_id": "34651052"
-      },
-      "claim": {
-        "worker_id": "bdf790accda84ede9c564a4b3a8412ae-shard-0",
-        "claimed_at": "2026-11-21T06:31:47.202405+00:00",
-        "lease_expires_at": "2026-11-21T12:31:47.202405+00:00",
-        "run_id": "44855214731"
       }
     },
     "21822": {
@@ -130182,7 +130182,7 @@
       "last_plan": {
         "source_id": "15144262",
         "display_name": "The Salt Prince (Soľ nad zlato) SD CZ Dabing",
-        "planned_at": "2026-11-21T05:02:04.587761+00:00"
+        "planned_at": "2026-11-21T06:31:50.589368+00:00"
       },
       "previous_target_id": "30986885",
       "prepared": {
@@ -130190,6 +130190,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T02:28:30.636459+00:00",
         "relay_source_id": "15144262"
+      },
+      "claim": {
+        "worker_id": "0d8db198cf964d2f8562c0c98795a3c4-shard-0",
+        "claimed_at": "2026-11-21T06:31:51.210206+00:00",
+        "lease_expires_at": "2026-11-21T12:31:51.210206+00:00",
+        "run_id": "44855214731"
       }
     },
     "14824": {
@@ -190317,7 +190323,7 @@
       "last_plan": {
         "source_id": "34651824",
         "display_name": "Unknown: The Lost Pyramid 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:31:47.672726+00:00"
+        "planned_at": "2026-11-21T06:31:50.817101+00:00"
       }
     },
     "31673": {
@@ -234893,5 +234899,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:31:47.875537+00:00"
+  "updated_at": "2026-11-21T06:31:55.759724+00:00"
 }
