@@ -113677,13 +113677,6 @@
           "source_id": "11995636",
           "target_video_id": "30984056",
           "permanent": false,
-          "attempted_at": "2026-11-21T15:53:09.128494+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11995636",
-          "target_video_id": "30984056",
-          "permanent": false,
           "attempted_at": "2026-11-21T17:33:58.337992+00:00"
         },
         {
@@ -113692,6 +113685,13 @@
           "target_video_id": "30984056",
           "permanent": false,
           "attempted_at": "2026-11-21T19:13:45.567617+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11995636",
+          "target_video_id": "30984056",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:46:36.250174+00:00"
         }
       ],
       "last_plan": {
@@ -132242,7 +132242,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-21T19:13:45.845862+00:00"
+        "planned_at": "2026-11-21T20:46:34.628603+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132250,6 +132250,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "b2aec352b5b34746b42cee3962a88d81-shard-0",
+        "claimed_at": "2026-11-21T20:46:35.919084+00:00",
+        "lease_expires_at": "2026-11-22T02:46:35.919084+00:00",
+        "run_id": "44930055910"
       }
     },
     "27054": {
@@ -196663,7 +196669,7 @@
       "last_plan": {
         "source_id": "31765407",
         "display_name": "Momo SD CZ Dabing",
-        "planned_at": "2026-11-21T20:46:31.523954+00:00"
+        "planned_at": "2026-11-21T20:46:35.025231+00:00"
       }
     },
     "27685": {
@@ -240051,5 +240057,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:46:31.845159+00:00"
+  "updated_at": "2026-11-21T20:46:36.250195+00:00"
 }
