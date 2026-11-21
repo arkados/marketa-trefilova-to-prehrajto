@@ -121863,13 +121863,6 @@
           "source_id": "18059712",
           "target_video_id": "30985391",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:40:50.415601+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18059712",
-          "target_video_id": "30985391",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:20:18.863146+00:00"
         },
         {
@@ -121878,6 +121871,13 @@
           "target_video_id": "30985391",
           "permanent": false,
           "attempted_at": "2026-11-21T15:55:59.963672+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18059712",
+          "target_video_id": "30985391",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:36:47.008529+00:00"
         }
       ],
       "last_plan": {
@@ -132331,7 +132331,7 @@
       "last_plan": {
         "source_id": "28004386",
         "display_name": "Veselá bída SD CZ Dabing",
-        "planned_at": "2026-11-21T15:56:01.541639+00:00"
+        "planned_at": "2026-11-21T17:36:45.341143+00:00"
       },
       "previous_target_id": "30987113",
       "prepared": {
@@ -132339,6 +132339,12 @@
         "size_bytes": 873000000,
         "prepared_at": "2026-11-11T03:38:13.878412+00:00",
         "relay_source_id": "28004386"
+      },
+      "claim": {
+        "worker_id": "4a35765a497a4fa4b88176cea874c226-shard-0",
+        "claimed_at": "2026-11-21T17:36:46.328494+00:00",
+        "lease_expires_at": "2026-11-21T23:36:46.328494+00:00",
+        "run_id": "44930055910"
       }
     },
     "14917": {
@@ -195086,7 +195092,7 @@
       "last_plan": {
         "source_id": "20341604",
         "display_name": "Someone, Somewhere (Deux moi) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:36:42.479311+00:00"
+        "planned_at": "2026-11-21T17:36:45.723121+00:00"
       }
     },
     "3567": {
@@ -238735,5 +238741,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:36:42.479330+00:00"
+  "updated_at": "2026-11-21T17:36:47.008551+00:00"
 }
