@@ -141798,7 +141798,7 @@
       "last_plan": {
         "source_id": "34757832",
         "display_name": "Escape to Budapest (Útek do Budína) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:46:27.035634+00:00"
+        "planned_at": "2026-11-21T12:30:39.589153+00:00"
       },
       "previous_target_id": "30988300",
       "prepared": {
@@ -192849,17 +192849,19 @@
       }
     },
     "10951": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32345697",
+          "target_video_id": "31228198",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:30:39.879609+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32345697",
         "display_name": "Adieu l'ami 1080p CZ Dabing",
         "planned_at": "2026-11-21T12:22:59.760994+00:00"
-      },
-      "claim": {
-        "worker_id": "a98eda8be38f4e548cfb5e58a5b8c5c7-shard-0",
-        "claimed_at": "2026-11-21T12:23:03.409255+00:00",
-        "lease_expires_at": "2026-11-21T18:23:03.409255+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31228198",
       "prepared": {
@@ -236994,5 +236996,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:30:37.212551+00:00"
+  "updated_at": "2026-11-21T12:30:39.879629+00:00"
 }
