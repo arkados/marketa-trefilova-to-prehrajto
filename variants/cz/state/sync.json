@@ -132822,13 +132822,6 @@
           "source_id": "17465562",
           "target_video_id": "30987160",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:14:28.425408+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17465562",
-          "target_video_id": "30987160",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:52:18.462357+00:00"
         },
         {
@@ -132837,6 +132830,13 @@
           "target_video_id": "30987160",
           "permanent": false,
           "attempted_at": "2026-11-21T16:30:32.128337+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17465562",
+          "target_video_id": "30987160",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:11:23.441180+00:00"
         }
       ],
       "last_plan": {
@@ -134137,7 +134137,7 @@
       "last_plan": {
         "source_id": "26710573",
         "display_name": "Requiem 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:30:29.847905+00:00"
+        "planned_at": "2026-11-21T18:11:22.007482+00:00"
       },
       "previous_target_id": "30987368",
       "prepared": {
@@ -134145,6 +134145,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T04:26:03.641359+00:00",
         "relay_source_id": "26710573"
+      },
+      "claim": {
+        "worker_id": "5422fb34d030477298aecbb495910afc-shard-0",
+        "claimed_at": "2026-11-21T18:11:23.116686+00:00",
+        "lease_expires_at": "2026-11-22T00:11:23.116686+00:00",
+        "run_id": "44930055910"
       }
     },
     "32779": {
@@ -195462,7 +195468,7 @@
       "last_plan": {
         "source_id": "34696069",
         "display_name": "The Last Cop (Der letzte Bulle) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:11:19.090759+00:00"
+        "planned_at": "2026-11-21T18:11:22.393979+00:00"
       }
     },
     "34748": {
@@ -239048,5 +239054,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:11:19.090778+00:00"
+  "updated_at": "2026-11-21T18:11:23.441199+00:00"
 }
