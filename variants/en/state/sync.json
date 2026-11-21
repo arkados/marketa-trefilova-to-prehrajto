@@ -22073,13 +22073,6 @@
           "source_id": "6563156",
           "target_video_id": "30983632",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:26:48.737141+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "6563156",
-          "target_video_id": "30983632",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:57:23.139422+00:00"
         },
         {
@@ -22088,6 +22081,13 @@
           "target_video_id": "30983632",
           "permanent": false,
           "attempted_at": "2026-11-21T13:28:21.077324+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "6563156",
+          "target_video_id": "30983632",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:58:45.902366+00:00"
         }
       ],
       "last_plan": {
@@ -22101,12 +22101,6 @@
         "size_bytes": 15000000000,
         "prepared_at": "2026-11-10T14:25:35.887136+00:00",
         "relay_source_id": "6563156"
-      },
-      "claim": {
-        "worker_id": "88f5589969114bf2923a4431b084b9f0-shard-0",
-        "claimed_at": "2026-11-21T13:58:41.316411+00:00",
-        "lease_expires_at": "2026-11-21T19:58:41.316411+00:00",
-        "run_id": "44897571814"
       }
     },
     "2196": {
@@ -22321,7 +22315,7 @@
       "last_plan": {
         "source_id": "7004752",
         "display_name": "I Am Bolt SD CZ titulky",
-        "planned_at": "2026-11-21T13:28:24.866314+00:00"
+        "planned_at": "2026-11-21T13:58:46.030975+00:00"
       },
       "previous_target_id": "30984744",
       "prepared": {
@@ -22440,6 +22434,12 @@
         "size_bytes": 7000000000,
         "prepared_at": "2026-11-10T23:36:41.333188+00:00",
         "relay_source_id": "35468703"
+      },
+      "claim": {
+        "worker_id": "6d77b4ce1083456884adcd1046f621aa-shard-0",
+        "claimed_at": "2026-11-21T13:58:45.010199+00:00",
+        "lease_expires_at": "2026-11-21T19:58:45.010199+00:00",
+        "run_id": "44897571814"
       }
     },
     "28024": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:58:42.376412+00:00"
+  "updated_at": "2026-11-21T13:58:46.030985+00:00"
 }
