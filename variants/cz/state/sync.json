@@ -190623,17 +190623,19 @@
       }
     },
     "3576": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32836987",
+          "target_video_id": "31222286",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:10:14.778454+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32836987",
         "display_name": "Good News (GusNyuSeu) 1080p CZ Dabing",
         "planned_at": "2026-11-21T07:02:48.184070+00:00"
-      },
-      "claim": {
-        "worker_id": "2d81c22ad1164686b6e38d2f583bd025-shard-0",
-        "claimed_at": "2026-11-21T07:02:48.904740+00:00",
-        "lease_expires_at": "2026-11-21T13:02:48.904740+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31222286",
       "prepared": {
@@ -235158,5 +235160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:10:12.520501+00:00"
+  "updated_at": "2026-11-21T07:10:14.778472+00:00"
 }
