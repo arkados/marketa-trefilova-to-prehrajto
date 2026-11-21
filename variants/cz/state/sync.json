@@ -194063,17 +194063,23 @@
       }
     },
     "21417": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34040578",
+          "reason": "Source detail has no authenticated download link; source_id=34040578",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:25:27.670752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34040578",
         "display_name": "A March for the Emperor (Die Deutschmeister) 720p CZ Dabing",
         "planned_at": "2026-11-21T15:25:20.151525+00:00"
       },
-      "claim": {
-        "worker_id": "c523d6f9927040029e60d990b5058b04-shard-0",
-        "claimed_at": "2026-11-21T15:25:23.420285+00:00",
-        "lease_expires_at": "2026-11-21T21:25:23.420285+00:00",
-        "run_id": "44897571814"
+      "source_repair_requested": {
+        "source_id": "34040578",
+        "requested_at": "2026-11-21T15:25:27.670731+00:00"
       }
     },
     "31586": {
@@ -237976,5 +237982,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:25:25.356517+00:00"
+  "updated_at": "2026-11-21T15:25:27.670765+00:00"
 }
