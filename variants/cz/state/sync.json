@@ -117873,13 +117873,6 @@
           "source_id": "33733528",
           "target_video_id": "30984809",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:09:39.849833+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33733528",
-          "target_video_id": "30984809",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:28:30.929594+00:00"
         },
         {
@@ -117888,6 +117881,13 @@
           "target_video_id": "30984809",
           "permanent": false,
           "attempted_at": "2026-11-21T10:01:33.084850+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33733528",
+          "target_video_id": "30984809",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:42:05.737408+00:00"
         }
       ],
       "last_plan": {
@@ -135248,7 +135248,7 @@
       "last_plan": {
         "source_id": "33443922",
         "display_name": "Voda co ma drzí nad vodou (Voda čo ma drží nad vodou) 720p CZ Dabing",
-        "planned_at": "2026-11-21T10:01:31.404041+00:00"
+        "planned_at": "2026-11-21T11:42:04.136047+00:00"
       },
       "previous_target_id": "30987547",
       "prepared": {
@@ -135256,6 +135256,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T05:10:23.147426+00:00",
         "relay_source_id": "33443922"
+      },
+      "claim": {
+        "worker_id": "ad643e2185f440979b15407a70117509-shard-0",
+        "claimed_at": "2026-11-21T11:42:05.422365+00:00",
+        "lease_expires_at": "2026-11-21T17:42:05.422365+00:00",
+        "run_id": "44889191327"
       }
     },
     "12482": {
@@ -192590,7 +192596,7 @@
       "last_plan": {
         "source_id": "34126316",
         "display_name": "3Grapes (3Bobule) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:41:59.729174+00:00"
+        "planned_at": "2026-11-21T11:42:04.552217+00:00"
       }
     },
     "26017": {
@@ -236746,5 +236752,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:42:00.066518+00:00"
+  "updated_at": "2026-11-21T11:42:05.737424+00:00"
 }
