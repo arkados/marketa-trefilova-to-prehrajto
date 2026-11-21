@@ -117154,13 +117154,6 @@
           "source_id": "33853425",
           "target_video_id": "30984743",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:37:07.758298+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33853425",
-          "target_video_id": "30984743",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:16:51.673215+00:00"
         },
         {
@@ -117169,6 +117162,13 @@
           "target_video_id": "30984743",
           "permanent": false,
           "attempted_at": "2026-11-21T15:52:39.144404+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33853425",
+          "target_video_id": "30984743",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:33:27.219308+00:00"
         }
       ],
       "last_plan": {
@@ -117182,12 +117182,6 @@
         "size_bytes": 6600000000,
         "prepared_at": "2026-11-10T17:30:54.981439+00:00",
         "relay_source_id": "33853425"
-      },
-      "claim": {
-        "worker_id": "992906e78511416195b1d2a6ddd9bbce-shard-0",
-        "claimed_at": "2026-11-21T17:33:23.063699+00:00",
-        "lease_expires_at": "2026-11-21T23:33:23.063699+00:00",
-        "run_id": "44930055910"
       }
     },
     "11798": {
@@ -194461,17 +194455,23 @@
           "attempted_at": "2026-11-21T15:52:39.696103+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "30130738",
-        "display_name": "The Nun (La Religieuse) (2013) SD CZ Dabing",
-        "planned_at": "2026-11-21T17:33:23.331683+00:00"
-      },
       "previous_target_id": "31231659",
-      "prepared": {
+      "upload": {
         "target_video_id": "31231659",
-        "size_bytes": 1741594385,
-        "prepared_at": "2026-11-21T15:50:34.635401+00:00",
-        "relay_source_id": "30130738"
+        "display_name": "The Nun (La Religieuse) (2013) SD CZ Dabing",
+        "source_id": "30130738",
+        "source_url": "https://sdilej.cz/30130738/jeptiska-2013-cz-dabing.mkv",
+        "source_filename": "Jeptiska(2013) CZ dabing.mkv",
+        "size_bytes": 1700000000,
+        "width": 720,
+        "height": 464,
+        "audio_language": "cs",
+        "language_probability": 0.9112374782562256,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-nun-la-religieuse-2013-sd-cz-dabing-mkv/084f01876d1b2781",
+        "uploaded_at": "2026-11-21T17:33:27.816646+00:00"
       }
     },
     "4176": {
@@ -238697,5 +238697,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:33:23.688382+00:00"
+  "updated_at": "2026-11-21T17:33:27.816669+00:00"
 }
