@@ -130627,13 +130627,6 @@
           "source_id": "27699157",
           "target_video_id": "30986910",
           "permanent": false,
-          "attempted_at": "2026-11-21T11:27:37.691914+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27699157",
-          "target_video_id": "30986910",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:07:55.781651+00:00"
         },
         {
@@ -130642,6 +130635,13 @@
           "target_video_id": "30986910",
           "permanent": false,
           "attempted_at": "2026-11-21T14:46:04.423514+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27699157",
+          "target_video_id": "30986910",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:21:46.136252+00:00"
         }
       ],
       "last_plan": {
@@ -136766,7 +136766,7 @@
       "last_plan": {
         "source_id": "30864308",
         "display_name": "Florián SD CZ Dabing",
-        "planned_at": "2026-11-21T14:46:02.024994+00:00"
+        "planned_at": "2026-11-21T16:21:44.509207+00:00"
       },
       "previous_target_id": "30987706",
       "prepared": {
@@ -136774,6 +136774,12 @@
         "size_bytes": 881300000,
         "prepared_at": "2026-11-11T05:44:40.450348+00:00",
         "relay_source_id": "30864308"
+      },
+      "claim": {
+        "worker_id": "765d9cdffcd7420e8be5fc1af27bcc17-shard-0",
+        "claimed_at": "2026-11-21T16:21:45.786611+00:00",
+        "lease_expires_at": "2026-11-21T22:21:45.786611+00:00",
+        "run_id": "44897571814"
       }
     },
     "31989": {
@@ -194524,7 +194530,7 @@
       "last_plan": {
         "source_id": "34526911",
         "display_name": "Comandante 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:21:41.655820+00:00"
+        "planned_at": "2026-11-21T16:21:44.932317+00:00"
       }
     },
     "25722": {
@@ -238314,5 +238320,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:21:41.655836+00:00"
+  "updated_at": "2026-11-21T16:21:46.136276+00:00"
 }
