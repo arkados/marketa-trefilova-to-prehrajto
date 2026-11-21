@@ -16557,13 +16557,6 @@
           "source_id": "15668226",
           "target_video_id": "30664494",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:13:32.876800+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15668226",
-          "target_video_id": "30664494",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:58:13.144696+00:00"
         },
         {
@@ -16572,6 +16565,13 @@
           "target_video_id": "30664494",
           "permanent": false,
           "attempted_at": "2026-11-21T03:45:45.548135+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15668226",
+          "target_video_id": "30664494",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:32:18.351318+00:00"
         }
       ],
       "last_plan": {
@@ -166375,7 +166375,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T03:45:44.841575+00:00"
+        "planned_at": "2026-11-21T05:32:16.879068+00:00"
       },
       "previous_target_id": "31110885",
       "prepared": {
@@ -166383,6 +166383,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-17T06:22:26.054901+00:00",
         "relay_source_id": "19869106"
+      },
+      "claim": {
+        "worker_id": "09bfde84f26e42988d13dfb318133a16-shard-0",
+        "claimed_at": "2026-11-21T05:32:17.549621+00:00",
+        "lease_expires_at": "2026-11-21T11:32:17.549621+00:00",
+        "run_id": "44855214731"
       }
     },
     "22145": {
@@ -189867,7 +189873,7 @@
       "last_plan": {
         "source_id": "34256066",
         "display_name": "Outerlands 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:32:14.496047+00:00"
+        "planned_at": "2026-11-21T05:32:17.112684+00:00"
       }
     },
     "11121": {
@@ -234527,5 +234533,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:32:14.496068+00:00"
+  "updated_at": "2026-11-21T05:32:18.351339+00:00"
 }
