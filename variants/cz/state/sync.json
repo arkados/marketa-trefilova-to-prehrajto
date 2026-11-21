@@ -128656,13 +128656,6 @@
           "source_id": "7866512",
           "target_video_id": "30986655",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:08:23.806179+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7866512",
-          "target_video_id": "30986655",
-          "permanent": false,
           "attempted_at": "2026-11-21T08:27:25.110038+00:00"
         },
         {
@@ -128671,6 +128664,13 @@
           "target_video_id": "30986655",
           "permanent": false,
           "attempted_at": "2026-11-21T09:59:47.791751+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7866512",
+          "target_video_id": "30986655",
+          "permanent": false,
+          "attempted_at": "2026-11-21T11:40:33.119692+00:00"
         }
       ],
       "last_plan": {
@@ -142574,7 +142574,7 @@
       "last_plan": {
         "source_id": "28985383",
         "display_name": "The Master (1980) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:59:49.496899+00:00"
+        "planned_at": "2026-11-21T11:40:30.849952+00:00"
       },
       "previous_target_id": "30988518",
       "prepared": {
@@ -142582,6 +142582,12 @@
         "size_bytes": 6500000000,
         "prepared_at": "2026-11-11T08:37:11.035402+00:00",
         "relay_source_id": "28985383"
+      },
+      "claim": {
+        "worker_id": "20d7aa93fefe4de8ae89d3682afb0cc2-shard-0",
+        "claimed_at": "2026-11-21T11:40:32.054872+00:00",
+        "lease_expires_at": "2026-11-21T17:40:32.054872+00:00",
+        "run_id": "44889191327"
       }
     },
     "26163": {
@@ -192584,7 +192590,7 @@
       "last_plan": {
         "source_id": "34126316",
         "display_name": "3Grapes (3Bobule) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T11:40:27.330187+00:00"
+        "planned_at": "2026-11-21T11:40:31.270015+00:00"
       }
     },
     "26017": {
@@ -236740,5 +236746,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T11:40:27.913431+00:00"
+  "updated_at": "2026-11-21T11:40:33.119710+00:00"
 }
