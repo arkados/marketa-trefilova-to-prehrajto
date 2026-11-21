@@ -111962,6 +111962,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T14:53:22.210250+00:00",
         "relay_source_id": "29161095"
+      },
+      "claim": {
+        "worker_id": "6193028ebf1a4753a9819a34a7fd7527-shard-0",
+        "claimed_at": "2026-11-21T20:53:46.040999+00:00",
+        "lease_expires_at": "2026-11-22T02:53:46.040999+00:00",
+        "run_id": "44930055910"
       }
     },
     "2673": {
@@ -196694,17 +196700,19 @@
       "attempts": []
     },
     "30241": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713269",
+          "target_video_id": "31236316",
+          "permanent": false,
+          "attempted_at": "2026-11-21T20:53:46.363343+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713269",
         "display_name": "L'africain (The African) 720p CZ Dabing",
         "planned_at": "2026-11-21T20:51:03.377478+00:00"
-      },
-      "claim": {
-        "worker_id": "dae0132492f44849a39b3e04947e6025-shard-0",
-        "claimed_at": "2026-11-21T20:51:07.284270+00:00",
-        "lease_expires_at": "2026-11-22T02:51:07.284270+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31236316",
       "prepared": {
@@ -240098,5 +240106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:53:43.632652+00:00"
+  "updated_at": "2026-11-21T20:53:46.363365+00:00"
 }
