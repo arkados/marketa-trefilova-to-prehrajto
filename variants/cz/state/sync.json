@@ -111534,13 +111534,6 @@
           "source_id": "34470304",
           "target_video_id": "30983801",
           "permanent": false,
-          "attempted_at": "2026-11-21T01:24:29.965669+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34470304",
-          "target_video_id": "30983801",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:07:31.299173+00:00"
         },
         {
@@ -111549,6 +111542,13 @@
           "target_video_id": "30983801",
           "permanent": false,
           "attempted_at": "2026-11-21T04:55:01.900919+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34470304",
+          "target_video_id": "30983801",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:26:09.697453+00:00"
         }
       ],
       "last_plan": {
@@ -111562,12 +111562,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:49:56.897260+00:00",
         "relay_source_id": "34470304"
-      },
-      "claim": {
-        "worker_id": "04a781fd6afe4f8a9711010b8a735400-shard-0",
-        "claimed_at": "2026-11-21T06:26:04.782485+00:00",
-        "lease_expires_at": "2026-11-21T12:26:04.782485+00:00",
-        "run_id": "44855214731"
       }
     },
     "12710": {
@@ -111611,6 +111605,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:50:04.632161+00:00",
         "relay_source_id": "34710916"
+      },
+      "claim": {
+        "worker_id": "c0db5bd81e794aefb20c9133ce0ad3fb-shard-0",
+        "claimed_at": "2026-11-21T06:26:07.625768+00:00",
+        "lease_expires_at": "2026-11-21T12:26:07.625768+00:00",
+        "run_id": "44855214731"
       }
     },
     "21346": {
@@ -124865,7 +124865,7 @@
       "last_plan": {
         "source_id": "31149109",
         "display_name": "Hope Gap 720p CZ Dabing",
-        "planned_at": "2026-11-21T04:55:04.808500+00:00"
+        "planned_at": "2026-11-21T06:26:07.810871+00:00"
       },
       "previous_target_id": "30985758",
       "prepared": {
@@ -124873,6 +124873,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T21:43:04.204698+00:00",
         "relay_source_id": "31149109"
+      },
+      "claim": {
+        "worker_id": "81aec8eaf9de4a4284aed24ab6c6d5f2-shard-0",
+        "claimed_at": "2026-11-21T06:26:08.425406+00:00",
+        "lease_expires_at": "2026-11-21T12:26:08.425406+00:00",
+        "run_id": "44855214731"
       }
     },
     "21281": {
@@ -190259,7 +190265,7 @@
       "last_plan": {
         "source_id": "23216621",
         "display_name": "The War Lord 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:26:05.173494+00:00"
+        "planned_at": "2026-11-21T06:26:08.049582+00:00"
       }
     },
     "32663": {
@@ -234847,5 +234853,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:26:05.353262+00:00"
+  "updated_at": "2026-11-21T06:26:09.697468+00:00"
 }
