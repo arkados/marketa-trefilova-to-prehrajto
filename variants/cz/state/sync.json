@@ -189848,17 +189848,19 @@
       "attempts": []
     },
     "7209": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31885174",
+          "target_video_id": "31220967",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:36:40.804971+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31885174",
         "display_name": "Labor Day (C'est la vie) (2020) 1080p CZ Dabing",
         "planned_at": "2026-11-21T05:31:16.979640+00:00"
-      },
-      "claim": {
-        "worker_id": "cc94479cb446449781dfa97c1b23b9b7-shard-0",
-        "claimed_at": "2026-11-21T05:31:18.019785+00:00",
-        "lease_expires_at": "2026-11-21T11:31:18.019785+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31220967",
       "prepared": {
@@ -234551,5 +234553,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:36:38.568893+00:00"
+  "updated_at": "2026-11-21T05:36:40.804997+00:00"
 }
