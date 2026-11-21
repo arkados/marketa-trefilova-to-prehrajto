@@ -193040,17 +193040,19 @@
       }
     },
     "14541": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35096060",
+          "target_video_id": "31228775",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:03:32.245576+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35096060",
         "display_name": "The Wedding on Battle Field (Svatba na bitevním poli) 1080p CZ Dabing",
         "planned_at": "2026-11-21T12:58:40.160063+00:00"
-      },
-      "claim": {
-        "worker_id": "e4080983e96045848271d9156be25164-shard-0",
-        "claimed_at": "2026-11-21T12:58:43.109352+00:00",
-        "lease_expires_at": "2026-11-21T18:58:43.109352+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31228775",
       "prepared": {
@@ -237161,5 +237163,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:03:28.923888+00:00"
+  "updated_at": "2026-11-21T13:03:32.245603+00:00"
 }
