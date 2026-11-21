@@ -124487,13 +124487,6 @@
           "source_id": "10827431",
           "target_video_id": "30985726",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:47:22.223074+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "10827431",
-          "target_video_id": "30985726",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:30:32.114273+00:00"
         },
         {
@@ -124502,6 +124495,13 @@
           "target_video_id": "30985726",
           "permanent": false,
           "attempted_at": "2026-11-21T20:09:27.186084+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "10827431",
+          "target_video_id": "30985726",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:17:26.996363+00:00"
         }
       ],
       "last_plan": {
@@ -124515,12 +124515,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T21:31:25.000011+00:00",
         "relay_source_id": "10827431"
-      },
-      "claim": {
-        "worker_id": "2c48cd2d59624b358e67d10b2909dbe6-shard-0",
-        "claimed_at": "2026-11-21T23:17:21.170649+00:00",
-        "lease_expires_at": "2026-11-22T05:17:21.170649+00:00",
-        "run_id": "44959851294"
       }
     },
     "21072": {
@@ -125471,7 +125465,7 @@
       "last_plan": {
         "source_id": "34296329",
         "display_name": "Contra 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:09:29.424894+00:00"
+        "planned_at": "2026-11-21T23:17:24.952460+00:00"
       },
       "previous_target_id": "30985822",
       "prepared": {
@@ -125479,6 +125473,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T22:05:34.736105+00:00",
         "relay_source_id": "34296329"
+      },
+      "claim": {
+        "worker_id": "d45467cb17de4e6eb2ccde32ea733a53-shard-0",
+        "claimed_at": "2026-11-21T23:17:25.907023+00:00",
+        "lease_expires_at": "2026-11-22T05:17:25.907023+00:00",
+        "run_id": "44959851294"
       }
     },
     "27073": {
@@ -197202,7 +197202,7 @@
       "last_plan": {
         "source_id": "34666724",
         "display_name": "Signs of Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:17:21.816299+00:00"
+        "planned_at": "2026-11-21T23:17:25.323179+00:00"
       }
     },
     "13743": {
@@ -240473,5 +240473,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:17:22.845370+00:00"
+  "updated_at": "2026-11-21T23:17:26.996383+00:00"
 }
