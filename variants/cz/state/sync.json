@@ -74432,7 +74432,7 @@
       "last_plan": {
         "source_id": "14853845",
         "display_name": "Lassie Come Home (1943) SD CZ Dabing",
-        "planned_at": "2026-11-21T08:43:24.309523+00:00"
+        "planned_at": "2026-11-21T10:19:30.328720+00:00"
       },
       "previous_target_id": "30882940",
       "prepared": {
@@ -74440,6 +74440,12 @@
         "size_bytes": 895300000,
         "prepared_at": "2026-11-07T06:18:13.380632+00:00",
         "relay_source_id": "14853845"
+      },
+      "claim": {
+        "worker_id": "cc1175ea3337489ca52b95d646d8dc64-shard-0",
+        "claimed_at": "2026-11-21T10:19:31.763728+00:00",
+        "lease_expires_at": "2026-11-21T16:19:31.763728+00:00",
+        "run_id": "44889191327"
       }
     },
     "35276": {
@@ -74874,13 +74880,6 @@
           "source_id": "31379501",
           "target_video_id": "30885416",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:05:09.951387+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31379501",
-          "target_video_id": "30885416",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:25:31.187909+00:00"
         },
         {
@@ -74889,6 +74888,13 @@
           "target_video_id": "30885416",
           "permanent": false,
           "attempted_at": "2026-11-21T08:43:22.327148+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31379501",
+          "target_video_id": "30885416",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:19:32.071977+00:00"
         }
       ],
       "last_plan": {
@@ -191955,11 +191961,22 @@
       "last_plan": {
         "source_id": "28453264",
         "display_name": "The Hell of Manitoba (A Place Called Glory) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:19:26.937831+00:00"
+        "planned_at": "2026-11-21T10:19:30.718373+00:00"
+      },
+      "claim": {
+        "worker_id": "6a510118f8264d2c8a9e24ad410ab166-shard-0",
+        "claimed_at": "2026-11-21T10:19:32.303090+00:00",
+        "lease_expires_at": "2026-11-21T16:19:32.303090+00:00",
+        "run_id": "44889191327"
       }
     },
     "15243": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13165617",
+        "display_name": "The Devil's Bride (Čertova nevěsta) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T10:19:31.000029+00:00"
+      }
     },
     "17113": {
       "attempts": []
@@ -236243,5 +236260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:19:26.937850+00:00"
+  "updated_at": "2026-11-21T10:19:32.303122+00:00"
 }
