@@ -88273,13 +88273,6 @@
           "source_id": "31439276",
           "target_video_id": "30924533",
           "permanent": false,
-          "attempted_at": "2026-11-21T10:33:09.665729+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31439276",
-          "target_video_id": "30924533",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:15:02.140525+00:00"
         },
         {
@@ -88288,6 +88281,13 @@
           "target_video_id": "30924533",
           "permanent": false,
           "attempted_at": "2026-11-21T13:55:27.970567+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31439276",
+          "target_video_id": "30924533",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:33:03.310153+00:00"
         }
       ],
       "last_plan": {
@@ -163434,7 +163434,7 @@
       "last_plan": {
         "source_id": "26060946",
         "display_name": "Snow White and the Magic of the Dwarves (Schneewittchen und der Zauber der Zwerge) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:55:26.340030+00:00"
+        "planned_at": "2026-11-21T15:33:01.550537+00:00"
       },
       "previous_target_id": "31094047",
       "prepared": {
@@ -163442,6 +163442,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-16T16:12:31.667794+00:00",
         "relay_source_id": "26060946"
+      },
+      "claim": {
+        "worker_id": "548dcb7aa533457d8fa0691262484e5c-shard-0",
+        "claimed_at": "2026-11-21T15:33:02.861713+00:00",
+        "lease_expires_at": "2026-11-21T21:33:02.861713+00:00",
+        "run_id": "44897571814"
       }
     },
     "32605": {
@@ -194172,7 +194178,7 @@
       "last_plan": {
         "source_id": "30090821",
         "display_name": "The Battle of the River Plate 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:32:57.215827+00:00"
+        "planned_at": "2026-11-21T15:33:01.995325+00:00"
       }
     },
     "10991": {
@@ -238046,5 +238052,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:32:57.546409+00:00"
+  "updated_at": "2026-11-21T15:33:03.310171+00:00"
 }
