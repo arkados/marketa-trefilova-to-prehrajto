@@ -118641,13 +118641,6 @@
           "source_id": "25787561",
           "target_video_id": "30984861",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:46:28.128602+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25787561",
-          "target_video_id": "30984861",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:06:39.660395+00:00"
         },
         {
@@ -118656,6 +118649,13 @@
           "target_video_id": "30984861",
           "permanent": false,
           "attempted_at": "2026-11-21T10:46:50.613958+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25787561",
+          "target_video_id": "30984861",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:31:07.201903+00:00"
         }
       ],
       "last_plan": {
@@ -118698,7 +118698,7 @@
       "last_plan": {
         "source_id": "33647002",
         "display_name": "Frantic 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:46:48.924816+00:00"
+        "planned_at": "2026-11-21T12:31:05.309084+00:00"
       },
       "previous_target_id": "30984863",
       "prepared": {
@@ -118706,6 +118706,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:57:35.530517+00:00",
         "relay_source_id": "33647002"
+      },
+      "claim": {
+        "worker_id": "abc7f4fa4081468c9d1eec807c5b478d-shard-0",
+        "claimed_at": "2026-11-21T12:31:06.709656+00:00",
+        "lease_expires_at": "2026-11-21T18:31:06.709656+00:00",
+        "run_id": "44889191327"
       }
     },
     "17739": {
@@ -192891,7 +192897,7 @@
       "last_plan": {
         "source_id": "31102791",
         "display_name": "Kvaska 1080p CZ Dabing",
-        "planned_at": "2026-11-21T12:31:01.980785+00:00"
+        "planned_at": "2026-11-21T12:31:05.836843+00:00"
       }
     },
     "18531": {
@@ -237008,5 +237014,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:31:02.336337+00:00"
+  "updated_at": "2026-11-21T12:31:07.201922+00:00"
 }
