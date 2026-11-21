@@ -16557,13 +16557,6 @@
           "source_id": "15668226",
           "target_video_id": "30664494",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:17:26.152695+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15668226",
-          "target_video_id": "30664494",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:34:17.454847+00:00"
         },
         {
@@ -16572,6 +16565,13 @@
           "target_video_id": "30664494",
           "permanent": false,
           "attempted_at": "2026-11-21T00:13:32.876800+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15668226",
+          "target_video_id": "30664494",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:58:13.144696+00:00"
         }
       ],
       "last_plan": {
@@ -16585,12 +16585,6 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-10-31T11:40:03.610759+00:00",
         "relay_source_id": "15668226"
-      },
-      "claim": {
-        "worker_id": "c4360fbecfbe4e7ea503e0caa0470052-shard-0",
-        "claimed_at": "2026-11-21T01:58:09.172403+00:00",
-        "lease_expires_at": "2026-11-21T07:58:09.172403+00:00",
-        "run_id": "44848457493"
       }
     },
     "12843": {
@@ -166381,7 +166375,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:13:32.580087+00:00"
+        "planned_at": "2026-11-21T01:58:12.854569+00:00"
       },
       "previous_target_id": "31110885",
       "prepared": {
@@ -188443,11 +188437,16 @@
       "last_plan": {
         "source_id": "30987529",
         "display_name": "Aces High 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:58:06.439081+00:00"
+        "planned_at": "2026-11-21T01:58:13.507619+00:00"
       }
     },
     "3805": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "10056523",
+        "display_name": "Jackpot (Arme Riddere) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T01:58:13.733032+00:00"
+      }
     },
     "33456": {
       "attempts": []
@@ -233361,5 +233360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:58:09.172429+00:00"
+  "updated_at": "2026-11-21T01:58:13.733050+00:00"
 }
