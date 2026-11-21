@@ -197448,17 +197448,19 @@
       "attempts": []
     },
     "9891": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34886019",
+          "target_video_id": "31239213",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:55:04.769217+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34886019",
         "display_name": "Women at the Peak (Ženská na vrcholu) 1080p CZ Dabing",
         "planned_at": "2026-11-21T23:50:00.817344+00:00"
-      },
-      "claim": {
-        "worker_id": "b9379a2d441346208ed14ea87dfa8e36-shard-0",
-        "claimed_at": "2026-11-21T23:50:03.951428+00:00",
-        "lease_expires_at": "2026-11-22T05:50:03.951428+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239213",
       "prepared": {
@@ -240672,5 +240674,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:55:02.460456+00:00"
+  "updated_at": "2026-11-21T23:55:04.769240+00:00"
 }
