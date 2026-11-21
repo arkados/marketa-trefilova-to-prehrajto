@@ -56407,13 +56407,6 @@
           "source_id": "31203013",
           "target_video_id": "30784627",
           "permanent": false,
-          "attempted_at": "2026-11-21T00:46:54.037064+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31203013",
-          "target_video_id": "30784627",
-          "permanent": false,
           "attempted_at": "2026-11-21T02:31:11.304552+00:00"
         },
         {
@@ -56422,6 +56415,13 @@
           "target_video_id": "30784627",
           "permanent": false,
           "attempted_at": "2026-11-21T04:19:18.653882+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31203013",
+          "target_video_id": "30784627",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:59:15.069625+00:00"
         }
       ],
       "last_plan": {
@@ -125459,7 +125459,7 @@
       "last_plan": {
         "source_id": "34296329",
         "display_name": "Contra 1080p CZ Dabing",
-        "planned_at": "2026-11-21T04:19:16.835307+00:00"
+        "planned_at": "2026-11-21T05:59:13.617742+00:00"
       },
       "previous_target_id": "30985822",
       "prepared": {
@@ -125467,6 +125467,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T22:05:34.736105+00:00",
         "relay_source_id": "34296329"
+      },
+      "claim": {
+        "worker_id": "10ddc3aa98c34c69b9c0dfb1788aad1d-shard-0",
+        "claimed_at": "2026-11-21T05:59:14.290537+00:00",
+        "lease_expires_at": "2026-11-21T11:59:14.290537+00:00",
+        "run_id": "44855214731"
       }
     },
     "27073": {
@@ -190103,7 +190109,7 @@
       "last_plan": {
         "source_id": "28257165",
         "display_name": "Crazy Kingdom (Řachanda) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:59:10.925698+00:00"
+        "planned_at": "2026-11-21T05:59:13.849261+00:00"
       }
     },
     "5913": {
@@ -234703,5 +234709,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:59:10.925718+00:00"
+  "updated_at": "2026-11-21T05:59:15.069646+00:00"
 }
