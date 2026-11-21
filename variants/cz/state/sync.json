@@ -127621,13 +127621,6 @@
           "source_id": "30676301",
           "target_video_id": "30986424",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:39:47.003563+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30676301",
-          "target_video_id": "30986424",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:19:16.840543+00:00"
         },
         {
@@ -127636,6 +127629,13 @@
           "target_video_id": "30986424",
           "permanent": false,
           "attempted_at": "2026-11-21T15:54:59.191962+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30676301",
+          "target_video_id": "30986424",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:35:42.939341+00:00"
         }
       ],
       "last_plan": {
@@ -138072,7 +138072,7 @@
       "last_plan": {
         "source_id": "29979237",
         "display_name": "Smetana 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:54:58.453292+00:00"
+        "planned_at": "2026-11-21T17:35:41.402010+00:00"
       },
       "previous_target_id": "30987839",
       "prepared": {
@@ -138080,6 +138080,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T06:20:47.389772+00:00",
         "relay_source_id": "29979237"
+      },
+      "claim": {
+        "worker_id": "ef647c3c52814270a1d760d57e933098-shard-0",
+        "claimed_at": "2026-11-21T17:35:42.476259+00:00",
+        "lease_expires_at": "2026-11-21T23:35:42.476259+00:00",
+        "run_id": "44930055910"
       }
     },
     "10741": {
@@ -195063,7 +195069,7 @@
       "last_plan": {
         "source_id": "30656521",
         "display_name": "The Deep (Djúpið) (2012) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:35:38.681680+00:00"
+        "planned_at": "2026-11-21T17:35:41.808534+00:00"
       }
     },
     "3718": {
@@ -238715,5 +238721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:35:38.681699+00:00"
+  "updated_at": "2026-11-21T17:35:42.939360+00:00"
 }
