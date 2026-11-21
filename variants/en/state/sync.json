@@ -22110,13 +22110,6 @@
           "source_id": "28930526",
           "target_video_id": "30984204",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:57:26.449541+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28930526",
-          "target_video_id": "30984204",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:27:33.921660+00:00"
         },
         {
@@ -22125,6 +22118,13 @@
           "target_video_id": "30984204",
           "permanent": false,
           "attempted_at": "2026-11-21T15:57:43.756693+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28930526",
+          "target_video_id": "30984204",
+          "permanent": false,
+          "attempted_at": "2026-11-21T16:27:49.265799+00:00"
         }
       ],
       "last_plan": {
@@ -22648,7 +22648,7 @@
       "last_plan": {
         "source_id": "27648883",
         "display_name": "The Most Dangerous Game 1080p CZ titulky",
-        "planned_at": "2026-11-21T15:57:43.001804+00:00"
+        "planned_at": "2026-11-21T16:27:48.614358+00:00"
       },
       "previous_target_id": "30987757",
       "prepared": {
@@ -22656,6 +22656,12 @@
         "size_bytes": 4800000000,
         "prepared_at": "2026-11-11T05:56:20.471775+00:00",
         "relay_source_id": "27648883"
+      },
+      "claim": {
+        "worker_id": "23e217c3d8ec4790b84c7125a6a1afc6-shard-0",
+        "claimed_at": "2026-11-21T16:27:49.383326+00:00",
+        "lease_expires_at": "2026-11-21T22:27:49.383326+00:00",
+        "run_id": "44897571814"
       }
     },
     "2378": {
@@ -100851,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T16:27:45.019845+00:00"
+  "updated_at": "2026-11-21T16:27:49.383348+00:00"
 }
