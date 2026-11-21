@@ -188037,17 +188037,19 @@
       "attempts": []
     },
     "11146": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34847835",
+          "target_video_id": "31216491",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:55:54.108704+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34847835",
         "display_name": "The Midnight Man (1974) 1080p CZ Dabing",
         "planned_at": "2026-11-21T00:45:31.446440+00:00"
-      },
-      "claim": {
-        "worker_id": "73332ff784a340259c38413475f532d6-shard-0",
-        "claimed_at": "2026-11-21T00:45:32.619402+00:00",
-        "lease_expires_at": "2026-11-21T06:45:32.619402+00:00",
-        "run_id": "44817573093"
       },
       "previous_target_id": "31216491",
       "prepared": {
@@ -233020,5 +233022,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:55:51.862346+00:00"
+  "updated_at": "2026-11-21T00:55:54.108725+00:00"
 }
