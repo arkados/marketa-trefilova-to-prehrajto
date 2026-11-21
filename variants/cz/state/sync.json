@@ -129313,13 +129313,6 @@
           "source_id": "29878083",
           "target_video_id": "30986749",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:17:15.082853+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29878083",
-          "target_video_id": "30986749",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:34:08.913111+00:00"
         },
         {
@@ -129328,6 +129321,13 @@
           "target_video_id": "30986749",
           "permanent": false,
           "attempted_at": "2026-11-21T00:13:24.000582+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29878083",
+          "target_video_id": "30986749",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:57:56.754047+00:00"
         }
       ],
       "last_plan": {
@@ -138543,7 +138543,7 @@
       "last_plan": {
         "source_id": "34694371",
         "display_name": "Misericordia 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:13:23.314531+00:00"
+        "planned_at": "2026-11-21T01:57:54.786213+00:00"
       },
       "previous_target_id": "30987871",
       "prepared": {
@@ -138551,6 +138551,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-11T06:31:19.313862+00:00",
         "relay_source_id": "34694371"
+      },
+      "claim": {
+        "worker_id": "16f54f3350484b74be629cb4d19fbec4-shard-0",
+        "claimed_at": "2026-11-21T01:57:55.786979+00:00",
+        "lease_expires_at": "2026-11-21T07:57:55.786979+00:00",
+        "run_id": "44848457493"
       }
     },
     "12593": {
@@ -188435,7 +188441,7 @@
       "last_plan": {
         "source_id": "30987529",
         "display_name": "Aces High 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:57:51.534643+00:00"
+        "planned_at": "2026-11-21T01:57:55.152179+00:00"
       }
     },
     "3805": {
@@ -233353,5 +233359,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:57:51.534663+00:00"
+  "updated_at": "2026-11-21T01:57:56.754066+00:00"
 }
