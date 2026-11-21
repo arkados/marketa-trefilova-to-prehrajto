@@ -130245,13 +130245,6 @@
           "source_id": "34255923",
           "target_video_id": "30986889",
           "permanent": false,
-          "attempted_at": "2026-11-20T22:14:37.797019+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34255923",
-          "target_video_id": "30986889",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:51:58.926955+00:00"
         },
         {
@@ -130260,6 +130253,13 @@
           "target_video_id": "30986889",
           "permanent": false,
           "attempted_at": "2026-11-21T01:33:07.201439+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34255923",
+          "target_video_id": "30986889",
+          "permanent": false,
+          "attempted_at": "2026-11-21T03:19:16.283977+00:00"
         }
       ],
       "last_plan": {
@@ -139971,7 +139971,7 @@
       "last_plan": {
         "source_id": "15665884",
         "display_name": "Parallel Worlds 720p CZ Dabing",
-        "planned_at": "2026-11-21T01:33:05.207081+00:00"
+        "planned_at": "2026-11-21T03:19:14.265780+00:00"
       },
       "previous_target_id": "30988003",
       "prepared": {
@@ -139979,6 +139979,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-11-11T07:14:11.290986+00:00",
         "relay_source_id": "15665884"
+      },
+      "claim": {
+        "worker_id": "886a2343771b494298770aee58a42764-shard-0",
+        "claimed_at": "2026-11-21T03:19:15.344780+00:00",
+        "lease_expires_at": "2026-11-21T09:19:15.344780+00:00",
+        "run_id": "44848457493"
       }
     },
     "25668": {
@@ -188987,7 +188993,7 @@
       "last_plan": {
         "source_id": "34716936",
         "display_name": "Best Summer Ever 720p CZ Dabing",
-        "planned_at": "2026-11-21T03:19:10.806166+00:00"
+        "planned_at": "2026-11-21T03:19:14.654482+00:00"
       }
     },
     "22648": {
@@ -233809,5 +233815,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T03:19:10.806186+00:00"
+  "updated_at": "2026-11-21T03:19:16.283999+00:00"
 }
