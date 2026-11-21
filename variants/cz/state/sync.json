@@ -119255,6 +119255,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-10T18:04:17.321994+00:00",
         "relay_source_id": "13046628"
+      },
+      "claim": {
+        "worker_id": "fde3fe7ed4fc476da189e17593c9ba61-shard-0",
+        "claimed_at": "2026-11-21T01:46:34.542279+00:00",
+        "lease_expires_at": "2026-11-21T07:46:34.542279+00:00",
+        "run_id": "44848457493"
       }
     },
     "2922": {
@@ -125973,7 +125979,7 @@
       "last_plan": {
         "source_id": "32203611",
         "display_name": "Apache Gold (Winnetou 1. Teil) 4K CZ Dabing",
-        "planned_at": "2026-11-21T00:00:00.960321+00:00"
+        "planned_at": "2026-11-21T01:46:35.127846+00:00"
       },
       "previous_target_id": "30985914",
       "prepared": {
@@ -157201,13 +157207,6 @@
           "source_id": "26857794",
           "target_video_id": "31062647",
           "permanent": false,
-          "attempted_at": "2026-11-20T17:03:05.834502+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26857794",
-          "target_video_id": "31062647",
-          "permanent": false,
           "attempted_at": "2026-11-20T22:23:13.499313+00:00"
         },
         {
@@ -157216,6 +157215,13 @@
           "target_video_id": "31062647",
           "permanent": false,
           "attempted_at": "2026-11-20T23:59:55.893433+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26857794",
+          "target_video_id": "31062647",
+          "permanent": false,
+          "attempted_at": "2026-11-21T01:46:34.850720+00:00"
         }
       ],
       "last_plan": {
@@ -157229,12 +157235,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-15T13:28:28.473859+00:00",
         "relay_source_id": "26857794"
-      },
-      "claim": {
-        "worker_id": "addcebcf94a44f248c4bf10b4921d521-shard-0",
-        "claimed_at": "2026-11-21T01:46:30.777684+00:00",
-        "lease_expires_at": "2026-11-21T07:46:30.777684+00:00",
-        "run_id": "44848457493"
       }
     },
     "23151": {
@@ -188385,7 +188385,7 @@
       "last_plan": {
         "source_id": "34784826",
         "display_name": "Cosmos (1996) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T01:46:31.686698+00:00"
+        "planned_at": "2026-11-21T01:46:35.532424+00:00"
       }
     },
     "16041": {
@@ -233309,5 +233309,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T01:46:31.686719+00:00"
+  "updated_at": "2026-11-21T01:46:35.532464+00:00"
 }
