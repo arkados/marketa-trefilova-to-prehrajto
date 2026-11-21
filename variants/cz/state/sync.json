@@ -7204,13 +7204,6 @@
           "source_id": "26239565",
           "target_video_id": "30627346",
           "permanent": false,
-          "attempted_at": "2026-11-20T21:42:24.764682+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26239565",
-          "target_video_id": "30627346",
-          "permanent": false,
           "attempted_at": "2026-11-20T23:20:46.545572+00:00"
         },
         {
@@ -7219,6 +7212,13 @@
           "target_video_id": "30627346",
           "permanent": false,
           "attempted_at": "2026-11-21T00:59:47.072886+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26239565",
+          "target_video_id": "30627346",
+          "permanent": false,
+          "attempted_at": "2026-11-21T02:48:45.320686+00:00"
         }
       ],
       "last_plan": {
@@ -188181,7 +188181,7 @@
       "last_plan": {
         "source_id": "26062889",
         "display_name": "A Killer in Prague (Poslední výkřik) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:56:03.296640+00:00"
+        "planned_at": "2026-11-21T02:48:43.576378+00:00"
       },
       "previous_target_id": "31216697",
       "prepared": {
@@ -188189,6 +188189,12 @@
         "size_bytes": 1721093759,
         "prepared_at": "2026-11-21T00:56:11.767745+00:00",
         "relay_source_id": "26062889"
+      },
+      "claim": {
+        "worker_id": "51a83b35993449638a96d1c44525afb2-shard-0",
+        "claimed_at": "2026-11-21T02:48:44.599795+00:00",
+        "lease_expires_at": "2026-11-21T08:48:44.599795+00:00",
+        "run_id": "44848457493"
       }
     },
     "5328": {
@@ -188806,7 +188812,7 @@
       "last_plan": {
         "source_id": "29495093",
         "display_name": "Louis van Beethoven 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:48:40.067865+00:00"
+        "planned_at": "2026-11-21T02:48:43.953439+00:00"
       }
     },
     "15161": {
@@ -233646,5 +233652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T02:48:40.361130+00:00"
+  "updated_at": "2026-11-21T02:48:45.320707+00:00"
 }
