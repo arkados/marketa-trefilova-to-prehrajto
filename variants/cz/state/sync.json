@@ -117873,13 +117873,6 @@
           "source_id": "33733528",
           "target_video_id": "30984809",
           "permanent": false,
-          "attempted_at": "2026-11-21T08:28:30.929594+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33733528",
-          "target_video_id": "30984809",
-          "permanent": false,
           "attempted_at": "2026-11-21T10:01:33.084850+00:00"
         },
         {
@@ -117888,12 +117881,19 @@
           "target_video_id": "30984809",
           "permanent": false,
           "attempted_at": "2026-11-21T11:42:05.737408+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33733528",
+          "target_video_id": "30984809",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:25:36.444434+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33733528",
         "display_name": "Storks 4K CZ Dabing",
-        "planned_at": "2026-11-21T11:41:59.324949+00:00"
+        "planned_at": "2026-11-21T13:25:33.086445+00:00"
       },
       "previous_target_id": "30984809",
       "prepared": {
@@ -193243,7 +193243,13 @@
       "last_plan": {
         "source_id": "33943146",
         "display_name": "Solo una vez 1080p CZ Dabing",
-        "planned_at": "2026-11-21T13:22:11.339115+00:00"
+        "planned_at": "2026-11-21T13:25:33.468460+00:00"
+      },
+      "claim": {
+        "worker_id": "ac79da74309a4a6aaf177d15ef2b36d6-shard-0",
+        "claimed_at": "2026-11-21T13:25:34.960993+00:00",
+        "lease_expires_at": "2026-11-21T19:25:34.960993+00:00",
+        "run_id": "44897571814"
       }
     },
     "10942": {
@@ -193253,13 +193259,23 @@
       "attempts": []
     },
     "4238": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "11858941",
+        "display_name": "Nanga Parbat 1080p CZ Dabing",
+        "planned_at": "2026-11-21T13:25:33.698168+00:00"
+      }
     },
     "35571": {
       "attempts": []
     },
     "8751": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35045260",
+        "display_name": "Dragons: Rescue Riders: Hunt for the Golden Dragon 1080p CZ Dabing",
+        "planned_at": "2026-11-21T13:25:33.925052+00:00"
+      }
     },
     "31315": {
       "attempts": []
@@ -237300,5 +237316,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:24:45.650590+00:00"
+  "updated_at": "2026-11-21T13:25:36.444452+00:00"
 }
