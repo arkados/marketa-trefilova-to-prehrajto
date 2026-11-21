@@ -193473,17 +193473,19 @@
       "attempts": []
     },
     "21342": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6528362",
+          "target_video_id": "31229722",
+          "permanent": false,
+          "attempted_at": "2026-11-21T13:56:23.164406+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6528362",
         "display_name": "Robinson Crusoe (1954) 720p CZ Dabing",
         "planned_at": "2026-11-21T13:52:24.251159+00:00"
-      },
-      "claim": {
-        "worker_id": "87c7f3b2bc8a4084b524db7174df8ab8-shard-0",
-        "claimed_at": "2026-11-21T13:52:27.289132+00:00",
-        "lease_expires_at": "2026-11-21T19:52:27.289132+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31229722",
       "prepared": {
@@ -237507,5 +237509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T13:56:17.242673+00:00"
+  "updated_at": "2026-11-21T13:56:23.164436+00:00"
 }
