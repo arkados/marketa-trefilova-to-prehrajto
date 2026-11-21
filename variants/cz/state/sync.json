@@ -134434,13 +134434,6 @@
           "source_id": "25777021",
           "target_video_id": "30987424",
           "permanent": false,
-          "attempted_at": "2026-11-20T16:21:09.553870+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25777021",
-          "target_video_id": "30987424",
-          "permanent": false,
           "attempted_at": "2026-11-20T21:36:33.883561+00:00"
         },
         {
@@ -134449,6 +134442,13 @@
           "target_video_id": "30987424",
           "permanent": false,
           "attempted_at": "2026-11-20T23:17:45.178302+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25777021",
+          "target_video_id": "30987424",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:56:09.020693+00:00"
         }
       ],
       "last_plan": {
@@ -139398,7 +139398,7 @@
       "last_plan": {
         "source_id": "30626219",
         "display_name": "The Comedian's Princess (Komediantská princezna) SD CZ Dabing",
-        "planned_at": "2026-11-20T23:17:44.871818+00:00"
+        "planned_at": "2026-11-21T00:56:06.861346+00:00"
       },
       "previous_target_id": "30987942",
       "prepared": {
@@ -139406,6 +139406,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T06:54:53.590347+00:00",
         "relay_source_id": "30626219"
+      },
+      "claim": {
+        "worker_id": "573b87b9d0a34d9989eae9dc6910b8f7-shard-0",
+        "claimed_at": "2026-11-21T00:56:08.122519+00:00",
+        "lease_expires_at": "2026-11-21T06:56:08.122519+00:00",
+        "run_id": "44817573093"
       }
     },
     "35483": {
@@ -188062,6 +188068,12 @@
         "source_id": "26062889",
         "display_name": "A Killer in Prague (Poslední výkřik) 1080p CZ Dabing",
         "planned_at": "2026-11-21T00:56:03.296640+00:00"
+      },
+      "claim": {
+        "worker_id": "e125f537ba6941b9a48fe3c7501744a5-shard-0",
+        "claimed_at": "2026-11-21T00:56:06.588084+00:00",
+        "lease_expires_at": "2026-11-21T06:56:06.588084+00:00",
+        "run_id": "44817573093"
       }
     },
     "5328": {
@@ -188069,7 +188081,7 @@
       "last_plan": {
         "source_id": "34916258",
         "display_name": "Do the Mæth (Na plech) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:56:03.797145+00:00"
+        "planned_at": "2026-11-21T00:56:07.224238+00:00"
       }
     },
     "5318": {
@@ -233021,5 +233033,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:56:03.797165+00:00"
+  "updated_at": "2026-11-21T00:56:09.020717+00:00"
 }
