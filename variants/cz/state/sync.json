@@ -117910,13 +117910,6 @@
           "source_id": "33856555",
           "target_video_id": "30984811",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:53:08.095862+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33856555",
-          "target_video_id": "30984811",
-          "permanent": false,
           "attempted_at": "2026-11-21T07:11:24.397966+00:00"
         },
         {
@@ -117925,6 +117918,13 @@
           "target_video_id": "30984811",
           "permanent": false,
           "attempted_at": "2026-11-21T08:30:21.717980+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33856555",
+          "target_video_id": "30984811",
+          "permanent": false,
+          "attempted_at": "2026-11-21T10:03:54.425015+00:00"
         }
       ],
       "last_plan": {
@@ -142697,7 +142697,7 @@
       "last_plan": {
         "source_id": "28465128",
         "display_name": "The Miracle of Berlin (Das Wunder von Berlin) SD CZ Dabing",
-        "planned_at": "2026-11-21T08:30:23.109654+00:00"
+        "planned_at": "2026-11-21T10:03:52.440081+00:00"
       },
       "previous_target_id": "30988535",
       "prepared": {
@@ -142705,6 +142705,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-11T08:39:32.865853+00:00",
         "relay_source_id": "28465128"
+      },
+      "claim": {
+        "worker_id": "738e0f63e0fa4af7860cb6098413c7f1-shard-0",
+        "claimed_at": "2026-11-21T10:03:53.898574+00:00",
+        "lease_expires_at": "2026-11-21T16:03:53.898574+00:00",
+        "run_id": "44889191327"
       }
     },
     "33550": {
@@ -191835,11 +191841,22 @@
       "last_plan": {
         "source_id": "32580809",
         "display_name": "The Return of the Tall Blond Man with One Black Shoe (Le Retour du Grand Blond) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T10:03:49.189936+00:00"
+        "planned_at": "2026-11-21T10:03:52.838727+00:00"
+      },
+      "claim": {
+        "worker_id": "dfae7d66626540e39af27cbe886634a4-shard-0",
+        "claimed_at": "2026-11-21T10:03:54.196446+00:00",
+        "lease_expires_at": "2026-11-21T16:03:54.196446+00:00",
+        "run_id": "44889191327"
       }
     },
     "22053": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33173354",
+        "display_name": "The Married Couple of the Year Two 1080p CZ Dabing",
+        "planned_at": "2026-11-21T10:03:53.126107+00:00"
+      }
     },
     "25742": {
       "attempts": []
@@ -236144,5 +236161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T10:03:49.189956+00:00"
+  "updated_at": "2026-11-21T10:03:54.425036+00:00"
 }
