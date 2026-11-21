@@ -113365,13 +113365,6 @@
           "source_id": "11544873",
           "target_video_id": "30984008",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:11:55.207459+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11544873",
-          "target_video_id": "30984008",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:54:31.132927+00:00"
         },
         {
@@ -113380,6 +113373,13 @@
           "target_video_id": "30984008",
           "permanent": false,
           "attempted_at": "2026-11-21T20:29:07.296132+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11544873",
+          "target_video_id": "30984008",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:39:48.124679+00:00"
         }
       ],
       "last_plan": {
@@ -135978,7 +135978,7 @@
       "last_plan": {
         "source_id": "29184927",
         "display_name": "Pára nad hrncem SD CZ Dabing",
-        "planned_at": "2026-11-21T20:29:46.356356+00:00"
+        "planned_at": "2026-11-21T23:39:46.407120+00:00"
       },
       "previous_target_id": "30987609",
       "prepared": {
@@ -135986,6 +135986,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:24:35.805876+00:00",
         "relay_source_id": "29184927"
+      },
+      "claim": {
+        "worker_id": "4beb713c8e5c46dabd662870bba6cd88-shard-0",
+        "claimed_at": "2026-11-21T23:39:47.830656+00:00",
+        "lease_expires_at": "2026-11-22T05:39:47.830656+00:00",
+        "run_id": "44959851294"
       }
     },
     "20468": {
@@ -197369,6 +197375,12 @@
         "source_id": "29487283",
         "display_name": "Spirit of Ecstasy (La Vénus d'argent) 720p CZ Dabing",
         "planned_at": "2026-11-21T23:39:42.862660+00:00"
+      },
+      "claim": {
+        "worker_id": "c81aabb3bed64356908329f0a4a8c970-shard-0",
+        "claimed_at": "2026-11-21T23:39:46.127565+00:00",
+        "lease_expires_at": "2026-11-22T05:39:46.127565+00:00",
+        "run_id": "44959851294"
       }
     },
     "26864": {
@@ -197376,7 +197388,7 @@
       "last_plan": {
         "source_id": "30162271",
         "display_name": "Mulan (Mulan: Rise of a Warrior) (2009) 720p CZ Dabing",
-        "planned_at": "2026-11-21T23:39:43.390521+00:00"
+        "planned_at": "2026-11-21T23:39:47.057703+00:00"
       }
     },
     "5481": {
@@ -240593,5 +240605,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:39:43.390539+00:00"
+  "updated_at": "2026-11-21T23:39:48.124705+00:00"
 }
