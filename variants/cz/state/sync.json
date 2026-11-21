@@ -111577,13 +111577,6 @@
           "source_id": "34710916",
           "target_video_id": "30983802",
           "permanent": false,
-          "attempted_at": "2026-11-21T07:45:31.824421+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34710916",
-          "target_video_id": "30983802",
-          "permanent": false,
           "attempted_at": "2026-11-21T09:06:03.054155+00:00"
         },
         {
@@ -111592,6 +111585,13 @@
           "target_video_id": "30983802",
           "permanent": false,
           "attempted_at": "2026-11-21T10:46:01.617836+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34710916",
+          "target_video_id": "30983802",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:30:18.562747+00:00"
         }
       ],
       "last_plan": {
@@ -124859,7 +124859,7 @@
       "last_plan": {
         "source_id": "31149109",
         "display_name": "Hope Gap 720p CZ Dabing",
-        "planned_at": "2026-11-21T10:45:59.901026+00:00"
+        "planned_at": "2026-11-21T12:30:16.889525+00:00"
       },
       "previous_target_id": "30985758",
       "prepared": {
@@ -124867,6 +124867,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T21:43:04.204698+00:00",
         "relay_source_id": "31149109"
+      },
+      "claim": {
+        "worker_id": "8d2effe482944dcb8cea7d5dc8c7fa39-shard-0",
+        "claimed_at": "2026-11-21T12:30:18.207580+00:00",
+        "lease_expires_at": "2026-11-21T18:30:18.207580+00:00",
+        "run_id": "44889191327"
       }
     },
     "21281": {
@@ -192868,7 +192874,7 @@
       "last_plan": {
         "source_id": "27383545",
         "display_name": "Night Passage SD CZ Dabing",
-        "planned_at": "2026-11-21T12:30:13.854077+00:00"
+        "planned_at": "2026-11-21T12:30:17.306362+00:00"
       }
     },
     "26102": {
@@ -236988,5 +236994,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:30:13.854094+00:00"
+  "updated_at": "2026-11-21T12:30:18.562765+00:00"
 }
