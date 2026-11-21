@@ -1816,7 +1816,7 @@
       "last_plan": {
         "source_id": "22817696",
         "display_name": "Requiem for a Dream 1080p CZ titulky",
-        "planned_at": "2026-11-21T07:20:29.401695+00:00"
+        "planned_at": "2026-11-21T07:50:39.233311+00:00"
       },
       "previous_target_id": "30676098",
       "prepared": {
@@ -1824,6 +1824,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-10-31T19:23:37.195550+00:00",
         "relay_source_id": "22817696"
+      },
+      "claim": {
+        "worker_id": "6d3288485a824d85aeb363e89c7c45fb-shard-0",
+        "claimed_at": "2026-11-21T07:50:39.575380+00:00",
+        "lease_expires_at": "2026-11-21T13:50:39.575380+00:00",
+        "run_id": "44855214731"
       }
     },
     "107": {
@@ -6807,13 +6813,6 @@
           "source_id": "29667772",
           "target_video_id": "30661597",
           "permanent": false,
-          "attempted_at": "2026-11-21T06:20:04.028944+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29667772",
-          "target_video_id": "30661597",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:50:13.263676+00:00"
         },
         {
@@ -6822,6 +6821,13 @@
           "target_video_id": "30661597",
           "permanent": false,
           "attempted_at": "2026-11-21T07:20:29.663711+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29667772",
+          "target_video_id": "30661597",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:50:40.258162+00:00"
         }
       ],
       "last_plan": {
@@ -100851,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:50:35.749577+00:00"
+  "updated_at": "2026-11-21T07:50:40.258180+00:00"
 }
