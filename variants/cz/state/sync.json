@@ -140601,13 +140601,6 @@
           "source_id": "34676095",
           "target_video_id": "30988109",
           "permanent": false,
-          "attempted_at": "2026-11-21T02:07:56.882853+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676095",
-          "target_video_id": "30988109",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:56:30.436532+00:00"
         },
         {
@@ -140616,6 +140609,13 @@
           "target_video_id": "30988109",
           "permanent": false,
           "attempted_at": "2026-11-21T05:40:38.793279+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676095",
+          "target_video_id": "30988109",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:01:28.489682+00:00"
         }
       ],
       "last_plan": {
@@ -190029,17 +190029,23 @@
           "attempted_at": "2026-11-21T05:40:43.401655+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34256066",
-        "display_name": "Outerlands 1080p CZ Dabing",
-        "planned_at": "2026-11-21T05:34:49.472077+00:00"
-      },
       "previous_target_id": "31221025",
-      "prepared": {
+      "upload": {
         "target_video_id": "31221025",
-        "size_bytes": 3832777772,
-        "prepared_at": "2026-11-21T05:34:55.170493+00:00",
-        "relay_source_id": "34256066"
+        "display_name": "Outerlands 1080p CZ Dabing",
+        "source_id": "34256066",
+        "source_url": "https://sdilej.cz/34256066/outerlands-hd-2025.-cz-.mkv",
+        "source_filename": "Outerlands HD 2025. (cz).mkv",
+        "size_bytes": 3800000000,
+        "width": 1620,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9325777888298035,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/outerlands-1080p-cz-dabing-mkv/40bab53f1be05a04",
+        "uploaded_at": "2026-11-21T07:01:28.642606+00:00"
       }
     },
     "11121": {
@@ -190566,7 +190572,7 @@
       "last_plan": {
         "source_id": "34711844",
         "display_name": "Flower Shop Mystery: Dearly Depotted 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:01:24.294102+00:00"
+        "planned_at": "2026-11-21T07:01:26.917833+00:00"
       }
     },
     "3576": {
@@ -235082,5 +235088,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:01:24.294122+00:00"
+  "updated_at": "2026-11-21T07:01:28.642624+00:00"
 }
