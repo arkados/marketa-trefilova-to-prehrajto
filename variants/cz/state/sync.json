@@ -124235,13 +124235,6 @@
           "source_id": "30548877",
           "target_video_id": "30985657",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:08:17.146102+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30548877",
-          "target_video_id": "30985657",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:37:13.766050+00:00"
         },
         {
@@ -124250,6 +124243,13 @@
           "target_video_id": "30985657",
           "permanent": false,
           "attempted_at": "2026-11-21T07:56:47.986295+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30548877",
+          "target_video_id": "30985657",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:16:04.516002+00:00"
         }
       ],
       "last_plan": {
@@ -127678,7 +127678,7 @@
       "last_plan": {
         "source_id": "34651344",
         "display_name": "Gigi & Nate 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:56:50.024741+00:00"
+        "planned_at": "2026-11-21T09:16:02.622160+00:00"
       },
       "previous_target_id": "30986432",
       "prepared": {
@@ -127686,6 +127686,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T00:27:57.652347+00:00",
         "relay_source_id": "34651344"
+      },
+      "claim": {
+        "worker_id": "ba41dedd257047edaabbb828848f3268-shard-0",
+        "claimed_at": "2026-11-21T09:16:03.285333+00:00",
+        "lease_expires_at": "2026-11-21T15:16:03.285333+00:00",
+        "run_id": "44855214731"
       }
     },
     "23824": {
@@ -191620,7 +191626,7 @@
       "last_plan": {
         "source_id": "30541087",
         "display_name": "Kenau 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:15:59.766159+00:00"
+        "planned_at": "2026-11-21T09:16:02.872390+00:00"
       }
     },
     "16521": {
@@ -235959,5 +235965,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:16:00.076703+00:00"
+  "updated_at": "2026-11-21T09:16:04.516022+00:00"
 }
