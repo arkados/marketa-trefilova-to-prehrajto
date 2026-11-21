@@ -119545,13 +119545,6 @@
           "source_id": "35279557",
           "target_video_id": "30984930",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:58:39.742282+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35279557",
-          "target_video_id": "30984930",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:42:47.477008+00:00"
         },
         {
@@ -119560,6 +119553,13 @@
           "target_video_id": "30984930",
           "permanent": false,
           "attempted_at": "2026-11-21T07:03:41.623513+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35279557",
+          "target_video_id": "30984930",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:22:47.887882+00:00"
         }
       ],
       "last_plan": {
@@ -132842,7 +132842,7 @@
       "last_plan": {
         "source_id": "17465562",
         "display_name": "Daily Fables (De Fabeltjeskrant: de Grote Dierenbos-spelen) 720p CZ Dabing",
-        "planned_at": "2026-11-21T07:03:44.550367+00:00"
+        "planned_at": "2026-11-21T08:22:46.381760+00:00"
       },
       "previous_target_id": "30987160",
       "prepared": {
@@ -132850,6 +132850,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T03:49:28.697671+00:00",
         "relay_source_id": "17465562"
+      },
+      "claim": {
+        "worker_id": "d7fb0c3e88794f48bd888a67709a9368-shard-0",
+        "claimed_at": "2026-11-21T08:22:47.276484+00:00",
+        "lease_expires_at": "2026-11-21T14:22:47.276484+00:00",
+        "run_id": "44855214731"
       }
     },
     "24245": {
@@ -191230,11 +191236,22 @@
       "last_plan": {
         "source_id": "30849621",
         "display_name": "Kid Snow 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:22:43.236236+00:00"
+        "planned_at": "2026-11-21T08:22:46.617667+00:00"
+      },
+      "claim": {
+        "worker_id": "8b69ae898c2d43e1b21c3f0b3ea4435a-shard-0",
+        "claimed_at": "2026-11-21T08:22:47.135145+00:00",
+        "lease_expires_at": "2026-11-21T14:22:47.135145+00:00",
+        "run_id": "44855214731"
       }
     },
     "35381": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34720461",
+        "display_name": "Foreign Body SD CZ Dabing",
+        "planned_at": "2026-11-21T08:22:46.757705+00:00"
+      }
     },
     "10838": {
       "attempts": []
@@ -235635,5 +235652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:22:43.236257+00:00"
+  "updated_at": "2026-11-21T08:22:47.887898+00:00"
 }
