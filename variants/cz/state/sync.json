@@ -126718,13 +126718,6 @@
           "source_id": "10328836",
           "target_video_id": "30986239",
           "permanent": false,
-          "attempted_at": "2026-11-21T14:03:42.415715+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "10328836",
-          "target_video_id": "30986239",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:38:46.824886+00:00"
         },
         {
@@ -126733,6 +126726,13 @@
           "target_video_id": "30986239",
           "permanent": false,
           "attempted_at": "2026-11-21T17:15:06.267716+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "10328836",
+          "target_video_id": "30986239",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:57:11.960965+00:00"
         }
       ],
       "last_plan": {
@@ -132042,7 +132042,7 @@
       "last_plan": {
         "source_id": "33873521",
         "display_name": "Nase bláznivá rodina (Naše bláznivá rodina) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:15:08.787468+00:00"
+        "planned_at": "2026-11-21T18:57:10.188618+00:00"
       },
       "previous_target_id": "30987048",
       "prepared": {
@@ -132050,6 +132050,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T03:29:43.954992+00:00",
         "relay_source_id": "33873521"
+      },
+      "claim": {
+        "worker_id": "b00b84cf825e4f1a91b73cb0f6d2d21f-shard-0",
+        "claimed_at": "2026-11-21T18:57:11.444806+00:00",
+        "lease_expires_at": "2026-11-22T00:57:11.444806+00:00",
+        "run_id": "44930055910"
       }
     },
     "12646": {
@@ -195887,7 +195893,13 @@
       "last_plan": {
         "source_id": "34486829",
         "display_name": "Winners & Sinners (Winners and Sinners) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:57:07.072760+00:00"
+        "planned_at": "2026-11-21T18:57:10.546557+00:00"
+      },
+      "claim": {
+        "worker_id": "f347a95d2ea446dab85ab8ae0efd9ac9-shard-0",
+        "claimed_at": "2026-11-21T18:57:11.734687+00:00",
+        "lease_expires_at": "2026-11-22T00:57:11.734687+00:00",
+        "run_id": "44930055910"
       }
     },
     "32177": {
@@ -195906,7 +195918,12 @@
       "attempts": []
     },
     "20313": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "17482630",
+        "display_name": "Wolf Totem (Le dernier loup) SD CZ Dabing",
+        "planned_at": "2026-11-21T18:57:10.817238+00:00"
+      }
     },
     "26853": {
       "attempts": []
@@ -239392,5 +239409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:57:07.593326+00:00"
+  "updated_at": "2026-11-21T18:57:11.960989+00:00"
 }
