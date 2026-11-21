@@ -113550,13 +113550,6 @@
           "source_id": "31008000",
           "target_video_id": "30984042",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:28:48.373392+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31008000",
-          "target_video_id": "30984042",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:09:15.543226+00:00"
         },
         {
@@ -113565,6 +113558,13 @@
           "target_video_id": "30984042",
           "permanent": false,
           "attempted_at": "2026-11-21T15:44:45.503294+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31008000",
+          "target_video_id": "30984042",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:20:57.131447+00:00"
         }
       ],
       "last_plan": {
@@ -133411,7 +133411,7 @@
       "last_plan": {
         "source_id": "13939613",
         "display_name": "Dům ztracených duší (The House of Lost Souls) SD CZ Dabing",
-        "planned_at": "2026-11-21T15:44:44.773501+00:00"
+        "planned_at": "2026-11-21T17:20:53.451850+00:00"
       },
       "previous_target_id": "30987257",
       "prepared": {
@@ -133419,6 +133419,12 @@
         "size_bytes": 955300000,
         "prepared_at": "2026-11-11T04:04:21.001639+00:00",
         "relay_source_id": "13939613"
+      },
+      "claim": {
+        "worker_id": "030bd3628c8949beaf672f3d16bdcd98-shard-0",
+        "claimed_at": "2026-11-21T17:20:54.821299+00:00",
+        "lease_expires_at": "2026-11-21T23:20:54.821299+00:00",
+        "run_id": "44897571814"
       }
     },
     "21726": {
@@ -194883,11 +194889,22 @@
       "last_plan": {
         "source_id": "31919659",
         "display_name": "Boonie Bears: Blast Into the Past (XiongChuMei-YuanShiShiDai) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:20:49.796560+00:00"
+        "planned_at": "2026-11-21T17:20:53.846087+00:00"
+      },
+      "claim": {
+        "worker_id": "0c0adcf3817e4b45ba5d7331622f7c58-shard-0",
+        "claimed_at": "2026-11-21T17:20:55.065375+00:00",
+        "lease_expires_at": "2026-11-21T23:20:55.065375+00:00",
+        "run_id": "44897571814"
       }
     },
     "13055": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26899561",
+        "display_name": "Alvin and the Chipmunks Meet the Wolfman SD CZ Dabing",
+        "planned_at": "2026-11-21T17:20:54.084376+00:00"
+      }
     },
     "21619": {
       "attempts": []
@@ -238598,5 +238615,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:20:50.126844+00:00"
+  "updated_at": "2026-11-21T17:20:57.131469+00:00"
 }
