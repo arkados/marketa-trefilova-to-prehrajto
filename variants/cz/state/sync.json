@@ -190058,17 +190058,19 @@
       }
     },
     "10936": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32718767",
+          "target_video_id": "31221327",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:54:56.186271+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32718767",
         "display_name": "Untamable Angelique (Indomptable Angélique) 4K CZ Dabing",
         "planned_at": "2026-11-21T05:50:42.956212+00:00"
-      },
-      "claim": {
-        "worker_id": "e7326fea28254106a5a303246bc0e0e5-shard-0",
-        "claimed_at": "2026-11-21T05:50:45.984721+00:00",
-        "lease_expires_at": "2026-11-21T11:50:45.984721+00:00",
-        "run_id": "44855214731"
       },
       "previous_target_id": "31221327",
       "prepared": {
@@ -234689,5 +234691,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:54:54.165046+00:00"
+  "updated_at": "2026-11-21T05:54:56.186289+00:00"
 }
