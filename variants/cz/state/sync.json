@@ -108226,13 +108226,6 @@
           "source_id": "30612511",
           "target_video_id": "30983498",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:19:01.917973+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30612511",
-          "target_video_id": "30983498",
-          "permanent": false,
           "attempted_at": "2026-11-21T14:01:54.385863+00:00"
         },
         {
@@ -108241,6 +108234,13 @@
           "target_video_id": "30983498",
           "permanent": false,
           "attempted_at": "2026-11-21T15:37:08.102874+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30612511",
+          "target_video_id": "30983498",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:13:23.698219+00:00"
         }
       ],
       "last_plan": {
@@ -108323,7 +108323,7 @@
       "last_plan": {
         "source_id": "27903517",
         "display_name": "Capek's Tales (Čapkovy povídky) SD CZ Dabing",
-        "planned_at": "2026-11-21T15:37:08.439214+00:00"
+        "planned_at": "2026-11-21T17:13:20.903590+00:00"
       },
       "previous_target_id": "30983504",
       "prepared": {
@@ -108331,6 +108331,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T14:13:29.787826+00:00",
         "relay_source_id": "27903517"
+      },
+      "claim": {
+        "worker_id": "88df4cb848fa4a7683d3bac43645435e-shard-0",
+        "claimed_at": "2026-11-21T17:13:22.295211+00:00",
+        "lease_expires_at": "2026-11-21T23:13:22.295211+00:00",
+        "run_id": "44897571814"
       }
     },
     "14663": {
@@ -194812,7 +194818,13 @@
       "last_plan": {
         "source_id": "34189256",
         "display_name": "Frontiers (Frontières) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:13:17.315162+00:00"
+        "planned_at": "2026-11-21T17:13:21.299448+00:00"
+      },
+      "claim": {
+        "worker_id": "86c226ea8e9d41be93af45a0713a23ef-shard-0",
+        "claimed_at": "2026-11-21T17:13:22.629459+00:00",
+        "lease_expires_at": "2026-11-21T23:13:22.629459+00:00",
+        "run_id": "44897571814"
       }
     },
     "31961": {
@@ -194828,7 +194840,12 @@
       "attempts": []
     },
     "16334": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33265607",
+        "display_name": "37: The Shadow and the Prey (37 : L'Ombre et la Proie) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T17:13:21.595691+00:00"
+      }
     },
     "13955": {
       "attempts": []
@@ -238545,5 +238562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:13:17.631188+00:00"
+  "updated_at": "2026-11-21T17:13:23.698238+00:00"
 }
