@@ -122002,6 +122002,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T19:08:13.927102+00:00",
         "relay_source_id": "29857790"
+      },
+      "claim": {
+        "worker_id": "65e0e63ef79847cb867be9a4f5a3013f-shard-0",
+        "claimed_at": "2026-11-21T08:04:07.741028+00:00",
+        "lease_expires_at": "2026-11-21T14:04:07.741028+00:00",
+        "run_id": "44855214731"
       }
     },
     "2808": {
@@ -138326,13 +138332,6 @@
           "source_id": "34883563",
           "target_video_id": "30987855",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:32:51.710716+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34883563",
-          "target_video_id": "30987855",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:24:46.891086+00:00"
         },
         {
@@ -138341,6 +138340,13 @@
           "target_video_id": "30987855",
           "permanent": false,
           "attempted_at": "2026-11-21T06:44:31.399318+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34883563",
+          "target_video_id": "30987855",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:04:08.479295+00:00"
         }
       ],
       "last_plan": {
@@ -138354,12 +138360,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T06:26:13.034616+00:00",
         "relay_source_id": "34883563"
-      },
-      "claim": {
-        "worker_id": "35402415c4514eeb983d06c6880f5cd6-shard-0",
-        "claimed_at": "2026-11-21T08:04:04.624894+00:00",
-        "lease_expires_at": "2026-11-21T14:04:04.624894+00:00",
-        "run_id": "44855214731"
       }
     },
     "22315": {
@@ -181293,7 +181293,7 @@
       "last_plan": {
         "source_id": "34973061",
         "display_name": "If I Stay 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:44:33.758989+00:00"
+        "planned_at": "2026-11-21T08:04:07.936435+00:00"
       },
       "previous_target_id": "31190281",
       "prepared": {
@@ -191115,7 +191115,7 @@
       "last_plan": {
         "source_id": "20379560",
         "display_name": "Díra u Hanušovic 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:04:05.092794+00:00"
+        "planned_at": "2026-11-21T08:04:08.185553+00:00"
       }
     },
     "37270": {
@@ -235550,5 +235550,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:04:05.092815+00:00"
+  "updated_at": "2026-11-21T08:04:08.479327+00:00"
 }
