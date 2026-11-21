@@ -111682,6 +111682,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T14:51:02.683791+00:00",
         "relay_source_id": "34952768"
+      },
+      "claim": {
+        "worker_id": "5dccfa88c8814eaaaadd8b0b978758f1-shard-0",
+        "claimed_at": "2026-11-21T20:46:15.714833+00:00",
+        "lease_expires_at": "2026-11-22T02:46:15.714833+00:00",
+        "run_id": "44930055910"
       }
     },
     "13010": {
@@ -196309,17 +196315,23 @@
           "attempted_at": "2026-11-21T19:13:30.504131+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34879515",
-        "display_name": "Little Baby Jesus (Přijde letos Ježíšek?) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T19:08:07.409262+00:00"
-      },
       "previous_target_id": "31234654",
-      "prepared": {
+      "upload": {
         "target_video_id": "31234654",
-        "size_bytes": 4463746356,
-        "prepared_at": "2026-11-21T19:08:16.459224+00:00",
-        "relay_source_id": "34879515"
+        "display_name": "Little Baby Jesus (Přijde letos Ježíšek?) 1080p CZ Dabing",
+        "source_id": "34879515",
+        "source_url": "https://sdilej.cz/34879515/prijde-letos-jezisek-2013-cz-dabing-1080p-fhd.mkv",
+        "source_filename": "Přijde letos Ježíšek 2013 CZ dabing 1080p FHD.mkv",
+        "size_bytes": 4500000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.972663938999176,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/little-baby-jesus-prijde-letos-jezisek-1080p-cz-dabing-mkv/dbdd1b78dcca7680",
+        "uploaded_at": "2026-11-21T20:46:18.825427+00:00"
       }
     },
     "35364": {
@@ -196657,7 +196669,7 @@
       "last_plan": {
         "source_id": "31765407",
         "display_name": "Momo SD CZ Dabing",
-        "planned_at": "2026-11-21T20:46:13.159955+00:00"
+        "planned_at": "2026-11-21T20:46:16.546447+00:00"
       }
     },
     "27685": {
@@ -240045,5 +240057,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T20:46:13.159974+00:00"
+  "updated_at": "2026-11-21T20:46:18.825447+00:00"
 }
