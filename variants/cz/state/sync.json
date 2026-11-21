@@ -124195,13 +124195,6 @@
           "source_id": "33873702",
           "target_video_id": "30985656",
           "permanent": false,
-          "attempted_at": "2026-11-21T05:08:26.206922+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33873702",
-          "target_video_id": "30985656",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:37:20.839591+00:00"
         },
         {
@@ -124210,6 +124203,13 @@
           "target_video_id": "30985656",
           "permanent": false,
           "attempted_at": "2026-11-21T07:56:58.908483+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33873702",
+          "target_video_id": "30985656",
+          "permanent": false,
+          "attempted_at": "2026-11-21T09:16:12.321284+00:00"
         }
       ],
       "last_plan": {
@@ -172452,7 +172452,7 @@
       "last_plan": {
         "source_id": "34749651",
         "display_name": "The Entity 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:57:00.955287+00:00"
+        "planned_at": "2026-11-21T09:16:10.877137+00:00"
       },
       "previous_target_id": "31136100",
       "prepared": {
@@ -172460,6 +172460,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-18T01:32:50.015518+00:00",
         "relay_source_id": "34749651"
+      },
+      "claim": {
+        "worker_id": "96e49c1354684863a3f0485dd54e26dc-shard-0",
+        "claimed_at": "2026-11-21T09:16:11.541898+00:00",
+        "lease_expires_at": "2026-11-21T15:16:11.541898+00:00",
+        "run_id": "44855214731"
       }
     },
     "33097": {
@@ -191620,7 +191626,7 @@
       "last_plan": {
         "source_id": "30541087",
         "display_name": "Kenau 1080p CZ Dabing",
-        "planned_at": "2026-11-21T09:16:08.131543+00:00"
+        "planned_at": "2026-11-21T09:16:11.121153+00:00"
       }
     },
     "16521": {
@@ -235959,5 +235965,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T09:16:08.339616+00:00"
+  "updated_at": "2026-11-21T09:16:12.321307+00:00"
 }
