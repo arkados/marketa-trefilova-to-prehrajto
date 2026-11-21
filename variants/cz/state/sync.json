@@ -121863,13 +121863,6 @@
           "source_id": "18059712",
           "target_video_id": "30985391",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:36:47.008529+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18059712",
-          "target_video_id": "30985391",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:16:40.672980+00:00"
         },
         {
@@ -121878,6 +121871,13 @@
           "target_video_id": "30985391",
           "permanent": false,
           "attempted_at": "2026-11-21T20:49:39.005618+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18059712",
+          "target_video_id": "30985391",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:58:24.115350+00:00"
         }
       ],
       "last_plan": {
@@ -132331,7 +132331,7 @@
       "last_plan": {
         "source_id": "28004386",
         "display_name": "Veselá bída SD CZ Dabing",
-        "planned_at": "2026-11-21T20:49:37.556686+00:00"
+        "planned_at": "2026-11-21T23:58:22.464366+00:00"
       },
       "previous_target_id": "30987113",
       "prepared": {
@@ -132339,6 +132339,12 @@
         "size_bytes": 873000000,
         "prepared_at": "2026-11-11T03:38:13.878412+00:00",
         "relay_source_id": "28004386"
+      },
+      "claim": {
+        "worker_id": "b4e18d6e7fb84a608e16accda4e47154-shard-0",
+        "claimed_at": "2026-11-21T23:58:23.830152+00:00",
+        "lease_expires_at": "2026-11-22T05:58:23.830152+00:00",
+        "run_id": "44959851294"
       }
     },
     "14917": {
@@ -197537,7 +197543,7 @@
       "last_plan": {
         "source_id": "21634073",
         "display_name": "Juggernaut SD CZ Dabing",
-        "planned_at": "2026-11-21T23:58:18.356163+00:00"
+        "planned_at": "2026-11-21T23:58:22.917641+00:00"
       }
     },
     "3649": {
@@ -240718,5 +240724,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:58:18.718337+00:00"
+  "updated_at": "2026-11-21T23:58:24.115370+00:00"
 }
