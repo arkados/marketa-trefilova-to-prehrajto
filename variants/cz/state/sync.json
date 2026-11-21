@@ -113705,6 +113705,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T15:21:28.871383+00:00",
         "relay_source_id": "11995636"
+      },
+      "claim": {
+        "worker_id": "098dc5375e0543329f07063f0dfd0a43-shard-0",
+        "claimed_at": "2026-11-21T07:53:24.924472+00:00",
+        "lease_expires_at": "2026-11-21T13:53:24.924472+00:00",
+        "run_id": "44855214731"
       }
     },
     "2768": {
@@ -132242,7 +132248,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-21T06:32:59.199270+00:00"
+        "planned_at": "2026-11-21T07:53:25.251722+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -141849,13 +141855,6 @@
           "source_id": "28418103",
           "target_video_id": "30988328",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:17:52.828491+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28418103",
-          "target_video_id": "30988328",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:03:14.193979+00:00"
         },
         {
@@ -141864,6 +141863,13 @@
           "target_video_id": "30988328",
           "permanent": false,
           "attempted_at": "2026-11-21T06:32:56.617592+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28418103",
+          "target_video_id": "30988328",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:53:25.074914+00:00"
         }
       ],
       "last_plan": {
@@ -141877,12 +141883,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T08:10:41.173966+00:00",
         "relay_source_id": "28418103"
-      },
-      "claim": {
-        "worker_id": "596db0693a64401c8ca2416b36e7874d-shard-0",
-        "claimed_at": "2026-11-21T07:53:21.033374+00:00",
-        "lease_expires_at": "2026-11-21T13:53:21.033374+00:00",
-        "run_id": "44855214731"
       }
     },
     "16559": {
@@ -191037,7 +191037,7 @@
       "last_plan": {
         "source_id": "34703669",
         "display_name": "Three Men and a Cradle 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:53:22.755557+00:00"
+        "planned_at": "2026-11-21T07:53:25.471764+00:00"
       }
     },
     "25171": {
@@ -235484,5 +235484,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:53:22.755574+00:00"
+  "updated_at": "2026-11-21T07:53:25.471781+00:00"
 }
