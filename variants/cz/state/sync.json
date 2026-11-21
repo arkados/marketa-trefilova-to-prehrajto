@@ -197192,17 +197192,19 @@
       "attempts": []
     },
     "7546": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34666724",
+          "target_video_id": "31238713",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:20:28.435088+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34666724",
         "display_name": "Signs of Love 1080p CZ Dabing",
         "planned_at": "2026-11-21T23:17:36.275828+00:00"
-      },
-      "claim": {
-        "worker_id": "47b7d57a27d34b4481345d2ff238b27e-shard-0",
-        "claimed_at": "2026-11-21T23:17:37.460439+00:00",
-        "lease_expires_at": "2026-11-22T05:17:37.460439+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31238713",
       "prepared": {
@@ -240485,5 +240487,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:20:25.965472+00:00"
+  "updated_at": "2026-11-21T23:20:28.435108+00:00"
 }
