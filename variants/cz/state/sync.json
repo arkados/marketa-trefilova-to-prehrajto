@@ -114593,7 +114593,7 @@
       "last_plan": {
         "source_id": "29766668",
         "display_name": "The Fall Guy 4K CZ Dabing",
-        "planned_at": "2026-11-21T16:25:54.405913+00:00"
+        "planned_at": "2026-11-21T18:09:09.529775+00:00"
       },
       "previous_target_id": "30984145",
       "prepared": {
@@ -114601,6 +114601,12 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-11-10T15:33:19.620672+00:00",
         "relay_source_id": "29766668"
+      },
+      "claim": {
+        "worker_id": "9655e3a8c95845d1811cb0325ca4dee7-shard-0",
+        "claimed_at": "2026-11-21T18:09:10.560571+00:00",
+        "lease_expires_at": "2026-11-22T00:09:10.560571+00:00",
+        "run_id": "44930055910"
       }
     },
     "2964": {
@@ -195304,17 +195310,19 @@
       }
     },
     "22468": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695313",
+          "target_video_id": "31233678",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:09:12.230009+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695313",
         "display_name": "The Fearless Hyena (Fearless Hyena) 1080p CZ Dabing",
         "planned_at": "2026-11-21T18:04:55.254312+00:00"
-      },
-      "claim": {
-        "worker_id": "583ebf2de82342958a467ca3c1519175-shard-0",
-        "claimed_at": "2026-11-21T18:04:56.311329+00:00",
-        "lease_expires_at": "2026-11-22T00:04:56.311329+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31233678",
       "prepared": {
@@ -195411,7 +195419,7 @@
       "last_plan": {
         "source_id": "33867156",
         "display_name": "Band Aid 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:09:05.423807+00:00"
+        "planned_at": "2026-11-21T18:09:09.976059+00:00"
       }
     },
     "25995": {
@@ -239009,5 +239017,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:09:07.466766+00:00"
+  "updated_at": "2026-11-21T18:09:12.230029+00:00"
 }
