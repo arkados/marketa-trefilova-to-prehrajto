@@ -192774,17 +192774,19 @@
       }
     },
     "14311": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23744003",
+          "target_video_id": "31227950",
+          "permanent": false,
+          "attempted_at": "2026-11-21T12:17:13.725538+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23744003",
         "display_name": "Drift Away (Albatros) 720p CZ Dabing",
         "planned_at": "2026-11-21T12:08:28.995452+00:00"
-      },
-      "claim": {
-        "worker_id": "2070283b68cc4b53800947c04f92b529-shard-0",
-        "claimed_at": "2026-11-21T12:08:32.469042+00:00",
-        "lease_expires_at": "2026-11-21T18:08:32.469042+00:00",
-        "run_id": "44889191327"
       },
       "previous_target_id": "31227950",
       "prepared": {
@@ -236928,5 +236930,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T12:17:11.437160+00:00"
+  "updated_at": "2026-11-21T12:17:13.725562+00:00"
 }
