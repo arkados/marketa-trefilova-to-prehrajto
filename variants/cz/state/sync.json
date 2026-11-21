@@ -193822,17 +193822,19 @@
       "attempts": []
     },
     "15221": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689899",
+          "target_video_id": "31230710",
+          "permanent": false,
+          "attempted_at": "2026-11-21T14:58:56.539848+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689899",
         "display_name": "Sleepless Night (Nuit blanche) 1080p CZ Dabing",
         "planned_at": "2026-11-21T14:55:29.353607+00:00"
-      },
-      "claim": {
-        "worker_id": "26e511fe50cb4c9b8305cf86c085ffb8-shard-0",
-        "claimed_at": "2026-11-21T14:55:30.655178+00:00",
-        "lease_expires_at": "2026-11-21T20:55:30.655178+00:00",
-        "run_id": "44897571814"
       },
       "previous_target_id": "31230710",
       "prepared": {
@@ -237793,5 +237795,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T14:58:53.036155+00:00"
+  "updated_at": "2026-11-21T14:58:56.539863+00:00"
 }
