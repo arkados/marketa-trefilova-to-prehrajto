@@ -126423,6 +126423,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T23:31:50.973355+00:00",
         "relay_source_id": "34488867"
+      },
+      "claim": {
+        "worker_id": "b746ead164da471a9d0c2701d87894c2-shard-0",
+        "claimed_at": "2026-11-21T23:17:13.300871+00:00",
+        "lease_expires_at": "2026-11-22T05:17:13.300871+00:00",
+        "run_id": "44959851294"
       }
     },
     "29116": {
@@ -190868,7 +190874,7 @@
       "last_plan": {
         "source_id": "24263235",
         "display_name": "Adam (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:09:12.105516+00:00"
+        "planned_at": "2026-11-21T23:17:14.205075+00:00"
       },
       "previous_target_id": "31222473",
       "prepared": {
@@ -195861,6 +195867,13 @@
           "target_video_id": "31234022",
           "permanent": false,
           "attempted_at": "2026-11-21T20:09:08.792457+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33021584",
+          "target_video_id": "31234022",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:17:14.910099+00:00"
         }
       ],
       "last_plan": {
@@ -195874,12 +195887,6 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-21T18:27:34.775355+00:00",
         "relay_source_id": "33021584"
-      },
-      "claim": {
-        "worker_id": "f634c4ff9ee64c53b483d92bad5e34b0-shard-0",
-        "claimed_at": "2026-11-21T23:17:09.545418+00:00",
-        "lease_expires_at": "2026-11-22T05:17:09.545418+00:00",
-        "run_id": "44959851294"
       }
     },
     "14122": {
@@ -197189,7 +197196,7 @@
       "last_plan": {
         "source_id": "34666724",
         "display_name": "Signs of Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:17:10.244282+00:00"
+        "planned_at": "2026-11-21T23:17:14.582545+00:00"
       }
     },
     "13743": {
@@ -240460,5 +240467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:17:10.244303+00:00"
+  "updated_at": "2026-11-21T23:17:14.910125+00:00"
 }
