@@ -117901,6 +117901,12 @@
         "size_bytes": 45300000000,
         "prepared_at": "2026-11-10T17:42:53.934475+00:00",
         "relay_source_id": "33733528"
+      },
+      "claim": {
+        "worker_id": "1d7a5bb69e0f41369cf94219eddb86f7-shard-0",
+        "claimed_at": "2026-11-21T18:19:02.119093+00:00",
+        "lease_expires_at": "2026-11-22T00:19:02.119093+00:00",
+        "run_id": "44930055910"
       }
     },
     "3148": {
@@ -193369,13 +193375,6 @@
           "source_id": "24642011",
           "target_video_id": "31229138",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:24:45.650574+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24642011",
-          "target_video_id": "31229138",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:02:16.943767+00:00"
         },
         {
@@ -193384,6 +193383,13 @@
           "target_video_id": "31229138",
           "permanent": false,
           "attempted_at": "2026-11-21T16:38:02.282104+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24642011",
+          "target_video_id": "31229138",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:19:01.887503+00:00"
         }
       ],
       "last_plan": {
@@ -193397,12 +193403,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-21T13:20:36.062113+00:00",
         "relay_source_id": "24642011"
-      },
-      "claim": {
-        "worker_id": "4a08be95371347c4b9bab310b084855f-shard-0",
-        "claimed_at": "2026-11-21T18:18:54.518072+00:00",
-        "lease_expires_at": "2026-11-22T00:18:54.518072+00:00",
-        "run_id": "44930055910"
       }
     },
     "14652": {
@@ -194787,7 +194787,7 @@
       "last_plan": {
         "source_id": "31963435",
         "display_name": "10 Rules (10 pravidel jak sbalit holku) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:35:11.387144+00:00"
+        "planned_at": "2026-11-21T18:19:02.392595+00:00"
       },
       "previous_target_id": "31232387",
       "prepared": {
@@ -195537,7 +195537,7 @@
       "last_plan": {
         "source_id": "29912378",
         "display_name": "Wolf's Hole (Vlčí bouda) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:18:59.467212+00:00"
+        "planned_at": "2026-11-21T18:19:02.754185+00:00"
       }
     },
     "21766": {
@@ -239114,5 +239114,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:18:59.467233+00:00"
+  "updated_at": "2026-11-21T18:19:02.754206+00:00"
 }
