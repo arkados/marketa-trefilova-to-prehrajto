@@ -36342,13 +36342,6 @@
           "source_id": "11952213",
           "target_video_id": "30742444",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:37:42.537311+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11952213",
-          "target_video_id": "30742444",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:11:18.604172+00:00"
         },
         {
@@ -36357,12 +36350,19 @@
           "target_video_id": "30742444",
           "permanent": false,
           "attempted_at": "2026-11-21T16:47:01.909297+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11952213",
+          "target_video_id": "30742444",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:27:32.286356+00:00"
         }
       ],
       "last_plan": {
         "source_id": "11952213",
         "display_name": "Blow Out 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:46:54.996065+00:00"
+        "planned_at": "2026-11-21T18:27:29.099072+00:00"
       },
       "previous_target_id": "30742444",
       "prepared": {
@@ -195581,11 +195581,22 @@
       "last_plan": {
         "source_id": "33021584",
         "display_name": "Your Family or Your Life 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:27:22.805886+00:00"
+        "planned_at": "2026-11-21T18:27:29.479405+00:00"
+      },
+      "claim": {
+        "worker_id": "146affc980654cc39fb5e2aff96ab992-shard-0",
+        "claimed_at": "2026-11-21T18:27:30.572494+00:00",
+        "lease_expires_at": "2026-11-22T00:27:30.572494+00:00",
+        "run_id": "44930055910"
       }
     },
     "14122": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "7993041",
+        "display_name": "Barbie as the Island Princess SD CZ Dabing",
+        "planned_at": "2026-11-21T18:27:29.722783+00:00"
+      }
     },
     "32923": {
       "attempts": []
@@ -239152,5 +239163,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:27:25.428108+00:00"
+  "updated_at": "2026-11-21T18:27:32.286375+00:00"
 }
