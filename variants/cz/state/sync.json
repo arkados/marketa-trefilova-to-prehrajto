@@ -113624,13 +113624,6 @@
           "source_id": "33199372",
           "target_video_id": "30984053",
           "permanent": false,
-          "attempted_at": "2026-11-21T10:52:24.169122+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33199372",
-          "target_video_id": "30984053",
-          "permanent": false,
           "attempted_at": "2026-11-21T12:36:53.562071+00:00"
         },
         {
@@ -113639,6 +113632,13 @@
           "target_video_id": "30984053",
           "permanent": false,
           "attempted_at": "2026-11-21T14:16:39.151924+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33199372",
+          "target_video_id": "30984053",
+          "permanent": false,
+          "attempted_at": "2026-11-21T15:52:26.963249+00:00"
         }
       ],
       "last_plan": {
@@ -189774,7 +189774,7 @@
       "last_plan": {
         "source_id": "14360307",
         "display_name": "Bourák 1080p CZ Dabing",
-        "planned_at": "2026-11-21T14:16:38.408308+00:00"
+        "planned_at": "2026-11-21T15:52:24.684098+00:00"
       },
       "previous_target_id": "31220478",
       "prepared": {
@@ -189782,6 +189782,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-21T04:58:40.613169+00:00",
         "relay_source_id": "14360307"
+      },
+      "claim": {
+        "worker_id": "39150c8dc4614142bdf8fbf67f656a5c-shard-0",
+        "claimed_at": "2026-11-21T15:52:26.004217+00:00",
+        "lease_expires_at": "2026-11-21T21:52:26.004217+00:00",
+        "run_id": "44897571814"
       }
     },
     "18946": {
@@ -194332,7 +194338,7 @@
       "last_plan": {
         "source_id": "30455016",
         "display_name": "Fire (Ogon') 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:52:21.616022+00:00"
+        "planned_at": "2026-11-21T15:52:25.128441+00:00"
       }
     },
     "10904": {
@@ -238170,5 +238176,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T15:52:21.616040+00:00"
+  "updated_at": "2026-11-21T15:52:26.963267+00:00"
 }
