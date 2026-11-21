@@ -169634,13 +169634,6 @@
           "source_id": "25585197",
           "target_video_id": "31122892",
           "permanent": false,
-          "attempted_at": "2026-11-21T04:24:38.863340+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25585197",
-          "target_video_id": "31122892",
-          "permanent": false,
           "attempted_at": "2026-11-21T06:03:19.969628+00:00"
         },
         {
@@ -169649,12 +169642,19 @@
           "target_video_id": "31122892",
           "permanent": false,
           "attempted_at": "2026-11-21T07:23:44.072379+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25585197",
+          "target_video_id": "31122892",
+          "permanent": false,
+          "attempted_at": "2026-11-21T08:40:50.825537+00:00"
         }
       ],
       "last_plan": {
         "source_id": "25585197",
         "display_name": "Cooking with Love SD CZ Dabing",
-        "planned_at": "2026-11-21T07:23:39.451298+00:00"
+        "planned_at": "2026-11-21T08:40:48.641123+00:00"
       },
       "previous_target_id": "31122892",
       "prepared": {
@@ -191363,11 +191363,22 @@
       "last_plan": {
         "source_id": "21042088",
         "display_name": "Garden of Evil 1080p CZ Dabing",
-        "planned_at": "2026-11-21T08:40:42.760591+00:00"
+        "planned_at": "2026-11-21T08:40:48.896460+00:00"
+      },
+      "claim": {
+        "worker_id": "e262f65d2cdd4978bbf9135a139e4a9a-shard-0",
+        "claimed_at": "2026-11-21T08:40:49.628201+00:00",
+        "lease_expires_at": "2026-11-21T14:40:49.628201+00:00",
+        "run_id": "44855214731"
       }
     },
     "19304": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29659627",
+        "display_name": "Fire Will Come (O que arde) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T08:40:49.049121+00:00"
+      }
     },
     "37198": {
       "attempts": []
@@ -235744,5 +235755,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T08:40:45.985509+00:00"
+  "updated_at": "2026-11-21T08:40:50.825559+00:00"
 }
