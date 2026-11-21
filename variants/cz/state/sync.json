@@ -36370,6 +36370,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-02T21:13:53.287139+00:00",
         "relay_source_id": "11952213"
+      },
+      "claim": {
+        "worker_id": "f4ce5503c68441e89af710076f88a6f2-shard-0",
+        "claimed_at": "2026-11-21T23:16:58.727301+00:00",
+        "lease_expires_at": "2026-11-22T05:16:58.727301+00:00",
+        "run_id": "44959851294"
       }
     },
     "10749": {
@@ -116477,13 +116483,6 @@
           "source_id": "34095385",
           "target_video_id": "30984680",
           "permanent": false,
-          "attempted_at": "2026-11-21T16:46:56.939167+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34095385",
-          "target_video_id": "30984680",
-          "permanent": false,
           "attempted_at": "2026-11-21T18:27:25.428084+00:00"
         },
         {
@@ -116492,6 +116491,13 @@
           "target_video_id": "30984680",
           "permanent": false,
           "attempted_at": "2026-11-21T20:08:49.594140+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34095385",
+          "target_video_id": "30984680",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:16:59.029273+00:00"
         }
       ],
       "last_plan": {
@@ -116505,12 +116511,6 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T17:16:45.308242+00:00",
         "relay_source_id": "34095385"
-      },
-      "claim": {
-        "worker_id": "9dfb91dc9c7044fb8879b6b6f4df0d68-shard-0",
-        "claimed_at": "2026-11-21T23:16:55.042309+00:00",
-        "lease_expires_at": "2026-11-22T05:16:55.042309+00:00",
-        "run_id": "44959851294"
       }
     },
     "3023": {
@@ -133011,7 +133011,7 @@
       "last_plan": {
         "source_id": "34715394",
         "display_name": "Káta a krokodýl (Káťa a krokodýl) SD CZ Dabing",
-        "planned_at": "2026-11-21T20:08:52.655174+00:00"
+        "planned_at": "2026-11-21T23:16:59.303769+00:00"
       },
       "previous_target_id": "30987202",
       "prepared": {
@@ -197189,7 +197189,7 @@
       "last_plan": {
         "source_id": "34666724",
         "display_name": "Signs of Love 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:16:56.270421+00:00"
+        "planned_at": "2026-11-21T23:16:59.719185+00:00"
       }
     },
     "13743": {
@@ -240460,5 +240460,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:16:56.270442+00:00"
+  "updated_at": "2026-11-21T23:16:59.719207+00:00"
 }
