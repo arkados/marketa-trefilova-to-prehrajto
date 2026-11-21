@@ -116678,13 +116678,6 @@
           "source_id": "14845493",
           "target_video_id": "30984699",
           "permanent": false,
-          "attempted_at": "2026-11-21T12:15:57.296335+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14845493",
-          "target_video_id": "30984699",
-          "permanent": false,
           "attempted_at": "2026-11-21T13:57:54.745945+00:00"
         },
         {
@@ -116693,12 +116686,19 @@
           "target_video_id": "30984699",
           "permanent": false,
           "attempted_at": "2026-11-21T15:34:00.429458+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14845493",
+          "target_video_id": "30984699",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:09:43.124536+00:00"
         }
       ],
       "last_plan": {
         "source_id": "14845493",
         "display_name": "Mank 1080p CZ Dabing",
-        "planned_at": "2026-11-21T15:33:53.244638+00:00"
+        "planned_at": "2026-11-21T17:09:39.634188+00:00"
       },
       "previous_target_id": "30984699",
       "prepared": {
@@ -194781,11 +194781,22 @@
       "last_plan": {
         "source_id": "18287336",
         "display_name": "Madame (1961) SD CZ Dabing",
-        "planned_at": "2026-11-21T17:09:32.973558+00:00"
+        "planned_at": "2026-11-21T17:09:40.055498+00:00"
+      },
+      "claim": {
+        "worker_id": "a539175a85bb4f9cbddbb6c040bf1b79-shard-0",
+        "claimed_at": "2026-11-21T17:09:41.287685+00:00",
+        "lease_expires_at": "2026-11-21T23:09:41.287685+00:00",
+        "run_id": "44897571814"
       }
     },
     "15795": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34189256",
+        "display_name": "Frontiers (Frontières) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T17:09:40.311943+00:00"
+      }
     },
     "31961": {
       "attempts": []
@@ -238517,5 +238528,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:09:35.930920+00:00"
+  "updated_at": "2026-11-21T17:09:43.124560+00:00"
 }
