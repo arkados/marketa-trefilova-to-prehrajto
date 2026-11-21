@@ -111169,7 +111169,7 @@
       "last_plan": {
         "source_id": "8555407",
         "display_name": "Podnájemníci SD CZ Dabing",
-        "planned_at": "2026-11-21T04:48:59.075739+00:00"
+        "planned_at": "2026-11-21T06:21:38.804826+00:00"
       },
       "previous_target_id": "30983781",
       "prepared": {
@@ -111177,6 +111177,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T14:46:42.056772+00:00",
         "relay_source_id": "8555407"
+      },
+      "claim": {
+        "worker_id": "4f8b99d2b61f472b8b36ec28e2acf6ee-shard-0",
+        "claimed_at": "2026-11-21T06:21:39.454038+00:00",
+        "lease_expires_at": "2026-11-21T12:21:39.454038+00:00",
+        "run_id": "44855214731"
       }
     },
     "12726": {
@@ -189630,17 +189636,23 @@
           "attempted_at": "2026-11-21T04:48:59.752489+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34675646",
-        "display_name": "The Firebird (Pták Ohnivák) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:21:36.018632+00:00"
-      },
       "previous_target_id": "31220270",
-      "prepared": {
+      "upload": {
         "target_video_id": "31220270",
-        "size_bytes": 1946101911,
-        "prepared_at": "2026-11-21T04:46:05.900476+00:00",
-        "relay_source_id": "34675646"
+        "display_name": "The Firebird (Pták Ohnivák) 1080p CZ Dabing",
+        "source_id": "34675646",
+        "source_url": "https://sdilej.cz/34675646/ptak-ohnivak-1997-cz.mp4",
+        "source_filename": "Pták Ohnivák (1997) CZ.mp4",
+        "size_bytes": 1900000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9368361830711365,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-firebird-ptak-ohnivak-1080p-cz-dabing-mp4/45c3eee635fff549",
+        "uploaded_at": "2026-11-21T06:21:39.955453+00:00"
       }
     },
     "34744": {
@@ -190239,7 +190251,7 @@
       "last_plan": {
         "source_id": "23216621",
         "display_name": "The War Lord 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:21:36.257990+00:00"
+        "planned_at": "2026-11-21T06:21:39.045705+00:00"
       }
     },
     "32663": {
@@ -234827,5 +234839,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:21:36.601964+00:00"
+  "updated_at": "2026-11-21T06:21:39.955469+00:00"
 }
