@@ -117873,13 +117873,6 @@
           "source_id": "33733528",
           "target_video_id": "30984809",
           "permanent": false,
-          "attempted_at": "2026-11-21T13:25:36.444434+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33733528",
-          "target_video_id": "30984809",
-          "permanent": false,
           "attempted_at": "2026-11-21T15:02:19.761131+00:00"
         },
         {
@@ -117888,6 +117881,13 @@
           "target_video_id": "30984809",
           "permanent": false,
           "attempted_at": "2026-11-21T16:38:06.812748+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33733528",
+          "target_video_id": "30984809",
+          "permanent": false,
+          "attempted_at": "2026-11-21T18:19:06.573449+00:00"
         }
       ],
       "last_plan": {
@@ -117901,12 +117901,6 @@
         "size_bytes": 45300000000,
         "prepared_at": "2026-11-10T17:42:53.934475+00:00",
         "relay_source_id": "33733528"
-      },
-      "claim": {
-        "worker_id": "1d7a5bb69e0f41369cf94219eddb86f7-shard-0",
-        "claimed_at": "2026-11-21T18:19:02.119093+00:00",
-        "lease_expires_at": "2026-11-22T00:19:02.119093+00:00",
-        "run_id": "44930055910"
       }
     },
     "3148": {
@@ -135254,7 +135248,7 @@
       "last_plan": {
         "source_id": "33443922",
         "display_name": "Voda co ma drzí nad vodou (Voda čo ma drží nad vodou) 720p CZ Dabing",
-        "planned_at": "2026-11-21T16:38:05.182260+00:00"
+        "planned_at": "2026-11-21T18:19:05.679773+00:00"
       },
       "previous_target_id": "30987547",
       "prepared": {
@@ -194784,17 +194778,23 @@
           "attempted_at": "2026-11-21T16:38:07.119182+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "31963435",
-        "display_name": "10 Rules (10 pravidel jak sbalit holku) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:19:02.392595+00:00"
-      },
       "previous_target_id": "31232387",
-      "prepared": {
+      "upload": {
         "target_video_id": "31232387",
-        "size_bytes": 1900611520,
-        "prepared_at": "2026-11-21T16:35:20.080930+00:00",
-        "relay_source_id": "31963435"
+        "display_name": "10 Rules (10 pravidel jak sbalit holku) 1080p CZ Dabing",
+        "source_id": "31963435",
+        "source_url": "https://sdilej.cz/31963435/10-pravidel-jak-sbalit-holku-2014-fhd-cz.mkv",
+        "source_filename": "10 pravidel jak sbalit holku (2014) FHD cz.mkv",
+        "size_bytes": 1900000000,
+        "width": 1920,
+        "height": 804,
+        "audio_language": "cs",
+        "language_probability": 0.9486186504364014,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/10-rules-10-pravidel-jak-sbalit-holku-1080p-cz-dabing-mkv/9998f423bbdfc90e",
+        "uploaded_at": "2026-11-21T18:19:06.845067+00:00"
       }
     },
     "34983": {
@@ -195537,7 +195537,7 @@
       "last_plan": {
         "source_id": "29912378",
         "display_name": "Wolf's Hole (Vlčí bouda) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T18:19:02.754185+00:00"
+        "planned_at": "2026-11-21T18:19:06.046856+00:00"
       }
     },
     "21766": {
@@ -239114,5 +239114,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T18:19:02.754206+00:00"
+  "updated_at": "2026-11-21T18:19:06.845091+00:00"
 }
