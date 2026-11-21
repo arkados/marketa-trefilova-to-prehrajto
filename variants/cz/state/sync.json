@@ -120550,13 +120550,6 @@
           "source_id": "14572727",
           "target_video_id": "30985009",
           "permanent": false,
-          "attempted_at": "2026-11-21T17:36:09.709321+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14572727",
-          "target_video_id": "30985009",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:16:01.445211+00:00"
         },
         {
@@ -120565,6 +120558,13 @@
           "target_video_id": "30985009",
           "permanent": false,
           "attempted_at": "2026-11-21T20:48:59.184129+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14572727",
+          "target_video_id": "30985009",
+          "permanent": false,
+          "attempted_at": "2026-11-21T23:57:44.423006+00:00"
         }
       ],
       "last_plan": {
@@ -120578,12 +120578,6 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-10T18:32:49.827321+00:00",
         "relay_source_id": "14572727"
-      },
-      "claim": {
-        "worker_id": "68f0ba43864741b2ade54d9c2f795eb1-shard-0",
-        "claimed_at": "2026-11-21T23:57:40.792756+00:00",
-        "lease_expires_at": "2026-11-22T05:57:40.792756+00:00",
-        "run_id": "44959851294"
       }
     },
     "23188": {
@@ -152666,7 +152660,7 @@
       "last_plan": {
         "source_id": "22312690",
         "display_name": "Cinderella (Aschenputtel) (2011) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:48:58.476101+00:00"
+        "planned_at": "2026-11-21T23:57:44.129985+00:00"
       },
       "previous_target_id": "31035934",
       "prepared": {
@@ -197513,7 +197507,7 @@
       "last_plan": {
         "source_id": "29541575",
         "display_name": "A High Wind in Jamaica 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:57:38.036965+00:00"
+        "planned_at": "2026-11-21T23:57:44.802569+00:00"
       }
     },
     "13712": {
@@ -197526,7 +197520,12 @@
       "attempts": []
     },
     "11143": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "21634073",
+        "display_name": "Juggernaut SD CZ Dabing",
+        "planned_at": "2026-11-21T23:57:45.039912+00:00"
+      }
     },
     "3649": {
       "attempts": []
@@ -240706,5 +240705,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T23:57:40.792781+00:00"
+  "updated_at": "2026-11-21T23:57:45.039929+00:00"
 }
