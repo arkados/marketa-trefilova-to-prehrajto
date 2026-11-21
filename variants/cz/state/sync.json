@@ -166375,7 +166375,7 @@
       "last_plan": {
         "source_id": "19869106",
         "display_name": "Maelstrom (Maelström) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T16:16:43.680599+00:00"
+        "planned_at": "2026-11-21T17:54:52.252246+00:00"
       },
       "previous_target_id": "31110885",
       "prepared": {
@@ -166383,6 +166383,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-17T06:22:26.054901+00:00",
         "relay_source_id": "19869106"
+      },
+      "claim": {
+        "worker_id": "71be0512f8c942d48c174ace2728dddf-shard-0",
+        "claimed_at": "2026-11-21T17:54:53.332180+00:00",
+        "lease_expires_at": "2026-11-21T23:54:53.332180+00:00",
+        "run_id": "44930055910"
       }
     },
     "22145": {
@@ -192520,6 +192526,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-21T11:16:24.585955+00:00",
         "relay_source_id": "30159189"
+      },
+      "claim": {
+        "worker_id": "02317a7964314c3da36fa56af8444f85-shard-0",
+        "claimed_at": "2026-11-21T17:54:51.982274+00:00",
+        "lease_expires_at": "2026-11-21T23:54:51.982274+00:00",
+        "run_id": "44930055910"
       }
     },
     "26572": {
@@ -195206,17 +195218,19 @@
       }
     },
     "11548": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33553888",
+          "target_video_id": "31233509",
+          "permanent": false,
+          "attempted_at": "2026-11-21T17:54:53.599284+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33553888",
         "display_name": "Les Spécialistes SD CZ Dabing",
         "planned_at": "2026-11-21T17:53:58.657860+00:00"
-      },
-      "claim": {
-        "worker_id": "bab3ab5a648344878eff29c2f4008780-shard-0",
-        "claimed_at": "2026-11-21T17:53:59.879248+00:00",
-        "lease_expires_at": "2026-11-21T23:53:59.879248+00:00",
-        "run_id": "44930055910"
       },
       "previous_target_id": "31233509",
       "prepared": {
@@ -195254,7 +195268,7 @@
       "last_plan": {
         "source_id": "31625425",
         "display_name": "Stolen: Heist of the Century 1080p CZ Dabing",
-        "planned_at": "2026-11-21T17:54:49.637860+00:00"
+        "planned_at": "2026-11-21T17:54:52.616574+00:00"
       }
     },
     "19965": {
@@ -238885,5 +238899,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T17:54:49.637879+00:00"
+  "updated_at": "2026-11-21T17:54:53.599336+00:00"
 }
