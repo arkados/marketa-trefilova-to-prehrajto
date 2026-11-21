@@ -134622,13 +134622,6 @@
           "source_id": "34676079",
           "target_video_id": "30987477",
           "permanent": false,
-          "attempted_at": "2026-11-21T03:18:20.938867+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676079",
-          "target_video_id": "30987477",
-          "permanent": false,
           "attempted_at": "2026-11-21T05:03:42.209512+00:00"
         },
         {
@@ -134637,6 +134630,13 @@
           "target_video_id": "30987477",
           "permanent": false,
           "attempted_at": "2026-11-21T06:33:17.092751+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676079",
+          "target_video_id": "30987477",
+          "permanent": false,
+          "attempted_at": "2026-11-21T07:53:43.781109+00:00"
         }
       ],
       "last_plan": {
@@ -138035,7 +138035,7 @@
       "last_plan": {
         "source_id": "33884267",
         "display_name": "Rodinné trampoty oficiála Tříšky 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:33:16.573688+00:00"
+        "planned_at": "2026-11-21T07:53:42.364139+00:00"
       },
       "previous_target_id": "30987838",
       "prepared": {
@@ -138043,6 +138043,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-11T06:19:56.772073+00:00",
         "relay_source_id": "33884267"
+      },
+      "claim": {
+        "worker_id": "e3245fe40d66465f827d64a45a350588-shard-0",
+        "claimed_at": "2026-11-21T07:53:43.100482+00:00",
+        "lease_expires_at": "2026-11-21T13:53:43.100482+00:00",
+        "run_id": "44855214731"
       }
     },
     "5777": {
@@ -191031,11 +191037,22 @@
       "last_plan": {
         "source_id": "34703669",
         "display_name": "Three Men and a Cradle 1080p CZ Dabing",
-        "planned_at": "2026-11-21T07:53:39.343625+00:00"
+        "planned_at": "2026-11-21T07:53:42.594789+00:00"
+      },
+      "claim": {
+        "worker_id": "8cfa27530d2742a7b86e3a57469cdfd2-shard-0",
+        "claimed_at": "2026-11-21T07:53:43.235809+00:00",
+        "lease_expires_at": "2026-11-21T13:53:43.235809+00:00",
+        "run_id": "44855214731"
       }
     },
     "25171": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "6665384",
+        "display_name": "Bobby Jones: Stroke of Genius SD CZ Dabing",
+        "planned_at": "2026-11-21T07:53:42.736706+00:00"
+      }
     },
     "29877": {
       "attempts": []
@@ -235478,5 +235495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:53:39.643999+00:00"
+  "updated_at": "2026-11-21T07:53:43.781126+00:00"
 }
