@@ -113816,6 +113816,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-10T15:22:31.052844+00:00",
         "relay_source_id": "23220418"
+      },
+      "claim": {
+        "worker_id": "fea34f9a81fc4fd1a7390df321e7b95f-shard-0",
+        "claimed_at": "2026-11-21T05:05:10.090873+00:00",
+        "lease_expires_at": "2026-11-21T11:05:10.090873+00:00",
+        "run_id": "44848457493"
       }
     },
     "3100": {
@@ -133655,13 +133661,6 @@
           "source_id": "27909373",
           "target_video_id": "30987304",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:52:30.258906+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27909373",
-          "target_video_id": "30987304",
-          "permanent": false,
           "attempted_at": "2026-11-21T01:33:44.642890+00:00"
         },
         {
@@ -133670,6 +133669,13 @@
           "target_video_id": "30987304",
           "permanent": false,
           "attempted_at": "2026-11-21T03:19:43.319559+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27909373",
+          "target_video_id": "30987304",
+          "permanent": false,
+          "attempted_at": "2026-11-21T05:05:11.301970+00:00"
         }
       ],
       "last_plan": {
@@ -133683,12 +133689,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T04:13:31.305805+00:00",
         "relay_source_id": "27909373"
-      },
-      "claim": {
-        "worker_id": "6b95b1159ce44e329a74ed2582224ac1-shard-0",
-        "claimed_at": "2026-11-21T05:05:06.586303+00:00",
-        "lease_expires_at": "2026-11-21T11:05:06.586303+00:00",
-        "run_id": "44848457493"
       }
     },
     "11365": {
@@ -181256,7 +181256,7 @@
       "last_plan": {
         "source_id": "34901168",
         "display_name": "Just like Heaven 4K CZ Dabing",
-        "planned_at": "2026-11-21T03:19:46.983156+00:00"
+        "planned_at": "2026-11-21T05:05:10.393520+00:00"
       },
       "previous_target_id": "31190256",
       "prepared": {
@@ -189654,7 +189654,7 @@
       "last_plan": {
         "source_id": "34712238",
         "display_name": "The Man in the Iron Mask (1977) 4K CZ Dabing",
-        "planned_at": "2026-11-21T05:05:07.239252+00:00"
+        "planned_at": "2026-11-21T05:05:10.762841+00:00"
       }
     },
     "25887": {
@@ -234365,5 +234365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:05:07.239274+00:00"
+  "updated_at": "2026-11-21T05:05:11.301999+00:00"
 }
