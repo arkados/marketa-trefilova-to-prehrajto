@@ -139144,13 +139144,6 @@
           "source_id": "34898047",
           "target_video_id": "30987922",
           "permanent": false,
-          "attempted_at": "2026-11-20T23:03:32.067348+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34898047",
-          "target_video_id": "30987922",
-          "permanent": false,
           "attempted_at": "2026-11-21T00:45:11.777552+00:00"
         },
         {
@@ -139159,6 +139152,13 @@
           "target_video_id": "30987922",
           "permanent": false,
           "attempted_at": "2026-11-21T02:29:22.999173+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34898047",
+          "target_video_id": "30987922",
+          "permanent": false,
+          "attempted_at": "2026-11-21T04:17:30.741770+00:00"
         }
       ],
       "last_plan": {
@@ -142860,7 +142860,7 @@
       "last_plan": {
         "source_id": "29645616",
         "display_name": "Broken Promise 1080p CZ Dabing",
-        "planned_at": "2026-11-21T02:29:22.235626+00:00"
+        "planned_at": "2026-11-21T04:17:28.497282+00:00"
       },
       "previous_target_id": "30988560",
       "prepared": {
@@ -142868,6 +142868,12 @@
         "size_bytes": 15100000000,
         "prepared_at": "2026-11-11T08:43:22.098273+00:00",
         "relay_source_id": "29645616"
+      },
+      "claim": {
+        "worker_id": "be0741d4201a41eebd47301be1e215d4-shard-0",
+        "claimed_at": "2026-11-21T04:17:29.568346+00:00",
+        "lease_expires_at": "2026-11-21T10:17:29.568346+00:00",
+        "run_id": "44848457493"
       }
     },
     "36843": {
@@ -189307,7 +189313,7 @@
       "last_plan": {
         "source_id": "22132277",
         "display_name": "Servants (Služobníci) 720p CZ Dabing",
-        "planned_at": "2026-11-21T04:17:25.208523+00:00"
+        "planned_at": "2026-11-21T04:17:28.888473+00:00"
       }
     },
     "32614": {
@@ -234086,5 +234092,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T04:17:25.540557+00:00"
+  "updated_at": "2026-11-21T04:17:30.741791+00:00"
 }
