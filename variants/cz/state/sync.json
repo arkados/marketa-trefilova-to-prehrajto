@@ -132690,13 +132690,6 @@
           "source_id": "34676372",
           "target_video_id": "30987143",
           "permanent": false,
-          "attempted_at": "2026-11-20T15:47:12.442969+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676372",
-          "target_video_id": "30987143",
-          "permanent": false,
           "attempted_at": "2026-11-20T17:25:07.465548+00:00"
         },
         {
@@ -132705,12 +132698,19 @@
           "target_video_id": "30987143",
           "permanent": false,
           "attempted_at": "2026-11-20T22:43:33.669901+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676372",
+          "target_video_id": "30987143",
+          "permanent": false,
+          "attempted_at": "2026-11-21T00:20:18.228385+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34676372",
         "display_name": "Fly, Bird, Fly! (Leť, ptáku leť!) 1080p CZ Dabing",
-        "planned_at": "2026-11-20T22:43:24.328105+00:00"
+        "planned_at": "2026-11-21T00:20:11.970082+00:00"
       },
       "previous_target_id": "30987143",
       "prepared": {
@@ -187822,7 +187822,13 @@
       "last_plan": {
         "source_id": "29208646",
         "display_name": "Teddy Bear (Medvídek) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T00:20:05.422528+00:00"
+        "planned_at": "2026-11-21T00:20:12.536302+00:00"
+      },
+      "claim": {
+        "worker_id": "619cea1b7e654f7fabfc8a73a5563e25-shard-0",
+        "claimed_at": "2026-11-21T00:20:14.277362+00:00",
+        "lease_expires_at": "2026-11-21T06:20:14.277362+00:00",
+        "run_id": "44817573093"
       }
     },
     "36867": {
@@ -187835,7 +187841,12 @@
       "attempts": []
     },
     "5059": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "15114621",
+        "display_name": "Relativity (Mein Ende. Dein Anfang.) 1080p CZ Dabing",
+        "planned_at": "2026-11-21T00:20:12.794365+00:00"
+      }
     },
     "15009": {
       "attempts": []
@@ -232837,5 +232848,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T00:20:08.886712+00:00"
+  "updated_at": "2026-11-21T00:20:18.228407+00:00"
 }
