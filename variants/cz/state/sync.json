@@ -118530,13 +118530,6 @@
           "source_id": "27358348",
           "target_video_id": "30984858",
           "permanent": false,
-          "attempted_at": "2026-11-21T01:24:44.782758+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27358348",
-          "target_video_id": "30984858",
-          "permanent": false,
           "attempted_at": "2026-11-21T03:07:45.558958+00:00"
         },
         {
@@ -118545,6 +118538,13 @@
           "target_video_id": "30984858",
           "permanent": false,
           "attempted_at": "2026-11-21T04:55:14.274082+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27358348",
+          "target_video_id": "30984858",
+          "permanent": false,
+          "attempted_at": "2026-11-21T06:26:18.385766+00:00"
         }
       ],
       "last_plan": {
@@ -118558,12 +118558,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T17:56:37.863450+00:00",
         "relay_source_id": "27358348"
-      },
-      "claim": {
-        "worker_id": "73718969e7194781a51339bb708ef31b-shard-0",
-        "claimed_at": "2026-11-21T06:26:14.748824+00:00",
-        "lease_expires_at": "2026-11-21T12:26:14.748824+00:00",
-        "run_id": "44855214731"
       }
     },
     "22172": {
@@ -118630,7 +118624,7 @@
       "last_plan": {
         "source_id": "13038862",
         "display_name": "Odd Thomas 720p CZ Dabing",
-        "planned_at": "2026-11-21T04:55:13.963931+00:00"
+        "planned_at": "2026-11-21T06:26:17.978085+00:00"
       },
       "previous_target_id": "30984859",
       "prepared": {
@@ -190259,7 +190253,7 @@
       "last_plan": {
         "source_id": "23216621",
         "display_name": "The War Lord 1080p CZ Dabing",
-        "planned_at": "2026-11-21T06:26:12.082000+00:00"
+        "planned_at": "2026-11-21T06:26:18.236592+00:00"
       }
     },
     "32663": {
@@ -190269,7 +190263,12 @@
       "attempts": []
     },
     "22519": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33725753",
+        "display_name": "Loulou 1080p CZ Dabing",
+        "planned_at": "2026-11-21T06:26:18.526242+00:00"
+      }
     },
     "3668": {
       "attempts": []
@@ -234847,5 +234846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-21T06:26:14.748851+00:00"
+  "updated_at": "2026-11-21T06:26:18.526259+00:00"
 }
