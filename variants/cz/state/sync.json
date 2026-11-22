@@ -127843,13 +127843,6 @@
           "source_id": "32484287",
           "target_video_id": "30986499",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:25:33.340905+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32484287",
-          "target_video_id": "30986499",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:06:43.720778+00:00"
         },
         {
@@ -127858,6 +127851,13 @@
           "target_video_id": "30986499",
           "permanent": false,
           "attempted_at": "2026-11-22T20:28:29.965082+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32484287",
+          "target_video_id": "30986499",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:12:45.448521+00:00"
         }
       ],
       "last_plan": {
@@ -141046,7 +141046,7 @@
       "last_plan": {
         "source_id": "34720000",
         "display_name": "Hasici (Hasiči) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:28:32.706915+00:00"
+        "planned_at": "2026-11-22T22:12:43.729099+00:00"
       },
       "previous_target_id": "30988159",
       "prepared": {
@@ -141054,6 +141054,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T07:43:08.881258+00:00",
         "relay_source_id": "34720000"
+      },
+      "claim": {
+        "worker_id": "ecf17b1b1af5414ca6cd45635012911b-shard-0",
+        "claimed_at": "2026-11-22T22:12:45.134484+00:00",
+        "lease_expires_at": "2026-11-23T04:12:45.134484+00:00",
+        "run_id": "45063988883"
       }
     },
     "24478": {
@@ -205184,6 +205190,12 @@
         "source_id": "11847321",
         "display_name": "Young Hearts (2020) SD CZ Dabing",
         "planned_at": "2026-11-22T22:12:40.238864+00:00"
+      },
+      "claim": {
+        "worker_id": "2ab734dee5ce4638833cfad80aeb6b72-shard-0",
+        "claimed_at": "2026-11-22T22:12:43.428172+00:00",
+        "lease_expires_at": "2026-11-23T04:12:43.428172+00:00",
+        "run_id": "45063988883"
       }
     },
     "3727": {
@@ -205194,7 +205206,7 @@
       "last_plan": {
         "source_id": "34488468",
         "display_name": "Three Tigers Against Three Tigers SD CZ Dabing",
-        "planned_at": "2026-11-22T22:12:40.746737+00:00"
+        "planned_at": "2026-11-22T22:12:44.193183+00:00"
       }
     },
     "27937": {
@@ -246995,5 +247007,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:12:40.746752+00:00"
+  "updated_at": "2026-11-22T22:12:45.448538+00:00"
 }
