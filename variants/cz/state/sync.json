@@ -136112,13 +136112,6 @@
           "source_id": "34720493",
           "target_video_id": "30987629",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:22:37.710310+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34720493",
-          "target_video_id": "30987629",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:54:46.066252+00:00"
         },
         {
@@ -136127,6 +136120,13 @@
           "target_video_id": "30987629",
           "permanent": false,
           "attempted_at": "2026-11-22T04:40:57.843918+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34720493",
+          "target_video_id": "30987629",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:21:23.416047+00:00"
         }
       ],
       "last_plan": {
@@ -136140,12 +136140,6 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T05:29:45.860849+00:00",
         "relay_source_id": "34720493"
-      },
-      "claim": {
-        "worker_id": "6510bd626088429fbafef9376b4c564f-shard-0",
-        "claimed_at": "2026-11-22T06:21:20.010477+00:00",
-        "lease_expires_at": "2026-11-22T12:21:20.010477+00:00",
-        "run_id": "44961318741"
       }
     },
     "28541": {
@@ -200204,25 +200198,22 @@
       }
     },
     "15777": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "upload_failed",
+          "source_id": "32366923",
+          "reason": "PrehrajtoError",
+          "permanent": false,
+          "target_video_id": "31245547",
+          "attempted_at": "2026-11-22T06:21:23.632243+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32366923",
         "display_name": "Líbáš jako ďábel 1080p CZ Dabing",
         "planned_at": "2026-11-22T06:08:50.719153+00:00"
       },
-      "claim": {
-        "worker_id": "0e767b96f62040c79829ea81d71c3c4b-shard-0",
-        "claimed_at": "2026-11-22T06:08:53.907345+00:00",
-        "lease_expires_at": "2026-11-22T12:08:53.907345+00:00",
-        "run_id": "44961318741"
-      },
-      "previous_target_id": "31245547",
-      "prepared": {
-        "target_video_id": "31245547",
-        "size_bytes": 4191022015,
-        "prepared_at": "2026-11-22T06:08:58.249309+00:00",
-        "relay_source_id": "32366923"
-      }
+      "previous_target_id": "31245547"
     },
     "30848": {
       "attempts": []
@@ -242938,5 +242929,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:21:20.836806+00:00"
+  "updated_at": "2026-11-22T06:21:23.632266+00:00"
 }
