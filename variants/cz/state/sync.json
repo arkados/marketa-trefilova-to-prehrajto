@@ -61846,13 +61846,6 @@
           "source_id": "31555891",
           "target_video_id": "30804386",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:55:56.413082+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31555891",
-          "target_video_id": "30804386",
-          "permanent": false,
           "attempted_at": "2026-11-22T07:39:08.580688+00:00"
         },
         {
@@ -61861,6 +61854,13 @@
           "target_video_id": "30804386",
           "permanent": false,
           "attempted_at": "2026-11-22T09:15:50.452836+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31555891",
+          "target_video_id": "30804386",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:54:47.587323+00:00"
         }
       ],
       "last_plan": {
@@ -61874,12 +61874,6 @@
         "size_bytes": 6700000000,
         "prepared_at": "2026-11-05T04:52:04.099418+00:00",
         "relay_source_id": "31555891"
-      },
-      "claim": {
-        "worker_id": "ce6f4c0cf05b47819012942abd7aad0d-shard-0",
-        "claimed_at": "2026-11-22T10:54:43.049891+00:00",
-        "lease_expires_at": "2026-11-22T16:54:43.049891+00:00",
-        "run_id": "44995678765"
       }
     },
     "2079": {
@@ -200267,7 +200261,7 @@
       "last_plan": {
         "source_id": "26299887",
         "display_name": "Fatal Following 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:15:48.887559+00:00"
+        "planned_at": "2026-11-22T10:54:45.387984+00:00"
       },
       "previous_target_id": "31245304",
       "prepared": {
@@ -200275,6 +200269,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-22T05:53:20.867020+00:00",
         "relay_source_id": "26299887"
+      },
+      "claim": {
+        "worker_id": "f6fa65993b3e47e6a808dd9592ca785e-shard-0",
+        "claimed_at": "2026-11-22T10:54:46.709477+00:00",
+        "lease_expires_at": "2026-11-22T16:54:46.709477+00:00",
+        "run_id": "44995678765"
       }
     },
     "27610": {
@@ -201868,11 +201868,22 @@
       "last_plan": {
         "source_id": "34866905",
         "display_name": "Bastardi II (Bastardi 2) 720p CZ Dabing",
-        "planned_at": "2026-11-22T10:54:39.261071+00:00"
+        "planned_at": "2026-11-22T10:54:45.822075+00:00"
+      },
+      "claim": {
+        "worker_id": "9ec92c97bf0441b5a99a0f3515e2b15b-shard-0",
+        "claimed_at": "2026-11-22T10:54:46.937113+00:00",
+        "lease_expires_at": "2026-11-22T16:54:46.937113+00:00",
+        "run_id": "44995678765"
       }
     },
     "33317": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "12108746",
+        "display_name": "A Case of Honor SD CZ Dabing",
+        "planned_at": "2026-11-22T10:54:46.069607+00:00"
+      }
     },
     "15032": {
       "attempts": []
@@ -244278,5 +244289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:54:43.049920+00:00"
+  "updated_at": "2026-11-22T10:54:47.587340+00:00"
 }
