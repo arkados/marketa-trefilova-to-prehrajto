@@ -197690,17 +197690,19 @@
       "attempts": []
     },
     "10994": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33493704",
+          "target_video_id": "31239640",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:19:08.872171+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33493704",
         "display_name": "Hibernatus 1080p CZ Dabing",
         "planned_at": "2026-11-22T00:17:28.773867+00:00"
-      },
-      "claim": {
-        "worker_id": "61c5e069355a4bc5a97b50474d1f6c73-shard-0",
-        "claimed_at": "2026-11-22T00:17:31.989733+00:00",
-        "lease_expires_at": "2026-11-22T06:17:31.989733+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239640",
       "prepared": {
@@ -240878,5 +240880,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:19:06.679937+00:00"
+  "updated_at": "2026-11-22T00:19:08.872194+00:00"
 }
