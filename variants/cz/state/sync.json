@@ -109840,13 +109840,6 @@
           "source_id": "34712454",
           "target_video_id": "30983676",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:05:09.868636+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34712454",
-          "target_video_id": "30983676",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:44:01.017745+00:00"
         },
         {
@@ -109855,6 +109848,13 @@
           "target_video_id": "30983676",
           "permanent": false,
           "attempted_at": "2026-11-22T10:21:36.585500+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34712454",
+          "target_video_id": "30983676",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:07:17.717399+00:00"
         }
       ],
       "last_plan": {
@@ -136843,7 +136843,7 @@
       "last_plan": {
         "source_id": "19686604",
         "display_name": "Volným pádem 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:21:48.017035+00:00"
+        "planned_at": "2026-11-22T12:07:15.870443+00:00"
       },
       "previous_target_id": "30987716",
       "prepared": {
@@ -136851,6 +136851,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
+      },
+      "claim": {
+        "worker_id": "92a3a1b931f2493f9667329d48a991c6-shard-0",
+        "claimed_at": "2026-11-22T12:07:17.166117+00:00",
+        "lease_expires_at": "2026-11-22T18:07:17.166117+00:00",
+        "run_id": "45016772727"
       }
     },
     "31573": {
@@ -202539,7 +202545,7 @@
       "last_plan": {
         "source_id": "24777557",
         "display_name": "Plaza Suite SD CZ Dabing",
-        "planned_at": "2026-11-22T12:07:12.109785+00:00"
+        "planned_at": "2026-11-22T12:07:16.332270+00:00"
       }
     },
     "21872": {
@@ -244814,5 +244820,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:07:12.789235+00:00"
+  "updated_at": "2026-11-22T12:07:17.717416+00:00"
 }
