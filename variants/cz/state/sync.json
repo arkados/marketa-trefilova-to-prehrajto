@@ -121518,6 +121518,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T18:46:56.543848+00:00",
         "relay_source_id": "34176833"
+      },
+      "claim": {
+        "worker_id": "b8e27fc8b3144151a2ce81b11c5d8919-shard-0",
+        "claimed_at": "2026-11-22T09:10:24.776250+00:00",
+        "lease_expires_at": "2026-11-22T15:10:24.776250+00:00",
+        "run_id": "44995678765"
       }
     },
     "19133": {
@@ -124538,7 +124544,7 @@
       "last_plan": {
         "source_id": "33977403",
         "display_name": "Farinelli SD CZ Dabing",
-        "planned_at": "2026-11-22T07:34:07.324889+00:00"
+        "planned_at": "2026-11-22T09:10:25.060151+00:00"
       },
       "previous_target_id": "30985736",
       "prepared": {
@@ -124546,6 +124552,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T21:33:37.516001+00:00",
         "relay_source_id": "33977403"
+      },
+      "claim": {
+        "worker_id": "1ad77108951f49ba91d74db86bc6dbc7-shard-0",
+        "claimed_at": "2026-11-22T09:10:26.335805+00:00",
+        "lease_expires_at": "2026-11-22T15:10:26.335805+00:00",
+        "run_id": "44995678765"
       }
     },
     "22100": {
@@ -201097,17 +201109,19 @@
       "previous_target_id": "31248231"
     },
     "19492": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34561456",
+          "target_video_id": "31248355",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:10:26.595980+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34561456",
         "display_name": "Dark Kingdom: The Dragon King (Ring of the Nibelungs) SD CZ Dabing",
         "planned_at": "2026-11-22T09:05:15.095502+00:00"
-      },
-      "claim": {
-        "worker_id": "d9f4fac0ea3143498ef5b88836505bfd-shard-0",
-        "claimed_at": "2026-11-22T09:05:16.501296+00:00",
-        "lease_expires_at": "2026-11-22T15:05:16.501296+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31248355",
       "prepared": {
@@ -201125,7 +201139,7 @@
       "last_plan": {
         "source_id": "34720714",
         "display_name": "Power 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:10:21.812493+00:00"
+        "planned_at": "2026-11-22T09:10:25.491883+00:00"
       }
     },
     "23999": {
@@ -243682,5 +243696,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:10:22.124854+00:00"
+  "updated_at": "2026-11-22T09:10:26.596003+00:00"
 }
