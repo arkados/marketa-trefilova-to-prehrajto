@@ -139264,13 +139264,6 @@
           "source_id": "34715447",
           "target_video_id": "30987931",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:13:00.176945+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715447",
-          "target_video_id": "30987931",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:21:54.301449+00:00"
         },
         {
@@ -139279,6 +139272,13 @@
           "target_video_id": "30987931",
           "permanent": false,
           "attempted_at": "2026-11-22T00:52:01.260147+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715447",
+          "target_video_id": "30987931",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:24:39.151117+00:00"
         }
       ],
       "last_plan": {
@@ -174655,7 +174655,7 @@
       "last_plan": {
         "source_id": "34528013",
         "display_name": "Signál 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:52:00.508559+00:00"
+        "planned_at": "2026-11-22T02:24:37.081131+00:00"
       },
       "previous_target_id": "31154894",
       "prepared": {
@@ -174663,6 +174663,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-18T15:59:07.494402+00:00",
         "relay_source_id": "34528013"
+      },
+      "claim": {
+        "worker_id": "b2113014f3cf4fd19c48517d1635ce0a-shard-0",
+        "claimed_at": "2026-11-22T02:24:38.223190+00:00",
+        "lease_expires_at": "2026-11-22T08:24:38.223190+00:00",
+        "run_id": "44959851294"
       }
     },
     "11369": {
@@ -198814,7 +198820,7 @@
       "last_plan": {
         "source_id": "35418565",
         "display_name": "All the Way, Boys (...più forte ragazzi!) 1440p CZ Dabing",
-        "planned_at": "2026-11-22T02:24:34.299498+00:00"
+        "planned_at": "2026-11-22T02:24:37.502935+00:00"
       }
     },
     "33872": {
@@ -241755,5 +241761,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:24:34.299518+00:00"
+  "updated_at": "2026-11-22T02:24:39.151138+00:00"
 }
