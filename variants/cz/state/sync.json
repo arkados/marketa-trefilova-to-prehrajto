@@ -205966,17 +205966,19 @@
       "attempts": []
     },
     "25640": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30409381",
+          "target_video_id": "31265122",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:53:06.178258+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30409381",
         "display_name": "Life Hits SD CZ Dabing",
         "planned_at": "2026-11-22T23:51:53.391175+00:00"
-      },
-      "claim": {
-        "worker_id": "b5efd6a81d714cde9482930fdf1a37ed-shard-0",
-        "claimed_at": "2026-11-22T23:51:56.576364+00:00",
-        "lease_expires_at": "2026-11-23T05:51:56.576364+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31265122",
       "prepared": {
@@ -247636,5 +247638,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:53:03.660717+00:00"
+  "updated_at": "2026-11-22T23:53:06.178276+00:00"
 }
