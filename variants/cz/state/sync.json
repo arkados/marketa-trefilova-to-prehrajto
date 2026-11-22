@@ -203699,17 +203699,19 @@
       }
     },
     "18740": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34853744",
+          "target_video_id": "31254486",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:43:26.431435+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34853744",
         "display_name": "Fasten Your Seatbelts (Allacciate le cinture) SD CZ Dabing",
         "planned_at": "2026-11-22T14:41:04.136364+00:00"
-      },
-      "claim": {
-        "worker_id": "884d53df1dfb4cd8a30990bd8242ab70-shard-0",
-        "claimed_at": "2026-11-22T14:41:08.306522+00:00",
-        "lease_expires_at": "2026-11-22T20:41:08.306522+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31254486",
       "prepared": {
@@ -245774,5 +245776,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:43:23.953692+00:00"
+  "updated_at": "2026-11-22T14:43:26.431456+00:00"
 }
