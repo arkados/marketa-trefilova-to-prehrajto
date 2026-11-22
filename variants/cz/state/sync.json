@@ -205295,17 +205295,19 @@
       }
     },
     "28669": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30810409",
+          "target_video_id": "31263039",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:34:26.270265+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30810409",
         "display_name": "Bambi: A Tale of Life in the Woods 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:30:08.596706+00:00"
-      },
-      "claim": {
-        "worker_id": "26a54a4caae74c5e99a5c7bfc6eb5de1-shard-0",
-        "claimed_at": "2026-11-22T22:30:11.987832+00:00",
-        "lease_expires_at": "2026-11-23T04:30:11.987832+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31263039",
       "prepared": {
@@ -247106,5 +247108,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:34:23.360569+00:00"
+  "updated_at": "2026-11-22T22:34:26.270282+00:00"
 }
