@@ -108713,13 +108713,6 @@
           "source_id": "34715818",
           "target_video_id": "30983577",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:15:22.098290+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34715818",
-          "target_video_id": "30983577",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:59:59.783454+00:00"
         },
         {
@@ -108728,6 +108721,13 @@
           "target_video_id": "30983577",
           "permanent": false,
           "attempted_at": "2026-11-22T14:41:26.299614+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34715818",
+          "target_video_id": "30983577",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:06:06.372416+00:00"
         }
       ],
       "last_plan": {
@@ -139814,7 +139814,7 @@
       "last_plan": {
         "source_id": "32326508",
         "display_name": "Where Butterflies Don't Fly (Kam motýli nelétají) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:41:25.896693+00:00"
+        "planned_at": "2026-11-22T21:06:04.634491+00:00"
       },
       "previous_target_id": "30987972",
       "prepared": {
@@ -139822,6 +139822,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-11T07:06:56.311315+00:00",
         "relay_source_id": "32326508"
+      },
+      "claim": {
+        "worker_id": "b61720742f374e5b98ac88a4bf6cc28a-shard-0",
+        "claimed_at": "2026-11-22T21:06:06.091483+00:00",
+        "lease_expires_at": "2026-11-23T03:06:06.091483+00:00",
+        "run_id": "45063988883"
       }
     },
     "24287": {
@@ -204560,6 +204566,12 @@
         "source_id": "30069934",
         "display_name": "Animal Factory 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:06:00.454562+00:00"
+      },
+      "claim": {
+        "worker_id": "c09634b7d7734ce5876672b8fd6dbd8b-shard-0",
+        "claimed_at": "2026-11-22T21:06:04.333533+00:00",
+        "lease_expires_at": "2026-11-23T03:06:04.333533+00:00",
+        "run_id": "45063988883"
       }
     },
     "4044": {
@@ -204567,7 +204579,7 @@
       "last_plan": {
         "source_id": "31068827",
         "display_name": "Alienoid 2 (OeGye+In 2Bu) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:06:00.864284+00:00"
+        "planned_at": "2026-11-22T21:06:05.176134+00:00"
       }
     },
     "13555": {
@@ -246479,5 +246491,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:06:00.864301+00:00"
+  "updated_at": "2026-11-22T21:06:06.372434+00:00"
 }
