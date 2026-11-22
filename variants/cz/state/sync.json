@@ -107706,13 +107706,6 @@
           "source_id": "11951859",
           "target_video_id": "30983145",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:27:08.533947+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11951859",
-          "target_video_id": "30983145",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:03:22.786025+00:00"
         },
         {
@@ -107721,6 +107714,13 @@
           "target_video_id": "30983145",
           "permanent": false,
           "attempted_at": "2026-11-22T00:10:54.332198+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11951859",
+          "target_video_id": "30983145",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:44:02.987494+00:00"
         }
       ],
       "last_plan": {
@@ -113988,7 +113988,7 @@
       "last_plan": {
         "source_id": "34697411",
         "display_name": "Bridesmaids 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:10:53.170407+00:00"
+        "planned_at": "2026-11-22T01:44:01.549621+00:00"
       },
       "previous_target_id": "30984075",
       "prepared": {
@@ -113996,6 +113996,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-10T15:24:26.060535+00:00",
         "relay_source_id": "34697411"
+      },
+      "claim": {
+        "worker_id": "59476c1ad7d24a758b422a777d30101d-shard-0",
+        "claimed_at": "2026-11-22T01:44:02.692423+00:00",
+        "lease_expires_at": "2026-11-22T07:44:02.692423+00:00",
+        "run_id": "44959851294"
       }
     },
     "2875": {
@@ -198545,6 +198551,12 @@
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:43:56.924503+00:00"
+      },
+      "claim": {
+        "worker_id": "069a78645e1a4f8eb811df81b6f4ae56-shard-0",
+        "claimed_at": "2026-11-22T01:43:59.853649+00:00",
+        "lease_expires_at": "2026-11-22T07:43:59.853649+00:00",
+        "run_id": "44959851294"
       }
     },
     "21757": {
@@ -198558,7 +198570,7 @@
       "last_plan": {
         "source_id": "34720154",
         "display_name": "Yamato 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:43:57.472818+00:00"
+        "planned_at": "2026-11-22T01:44:01.959619+00:00"
       }
     },
     "24707": {
@@ -241526,5 +241538,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:43:57.472838+00:00"
+  "updated_at": "2026-11-22T01:44:02.987518+00:00"
 }
