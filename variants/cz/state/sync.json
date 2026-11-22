@@ -115520,13 +115520,6 @@
           "source_id": "32115488",
           "target_video_id": "30984591",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:22:47.124394+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32115488",
-          "target_video_id": "30984591",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:05:02.720810+00:00"
         },
         {
@@ -115535,6 +115528,13 @@
           "target_video_id": "30984591",
           "permanent": false,
           "attempted_at": "2026-11-22T09:41:50.425385+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32115488",
+          "target_video_id": "30984591",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:26:05.414104+00:00"
         }
       ],
       "last_plan": {
@@ -137933,7 +137933,7 @@
       "last_plan": {
         "source_id": "33554657",
         "display_name": "Old-Timers (Staříci) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:41:48.327092+00:00"
+        "planned_at": "2026-11-22T11:26:03.353538+00:00"
       },
       "previous_target_id": "30987819",
       "prepared": {
@@ -137941,6 +137941,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T06:14:06.914609+00:00",
         "relay_source_id": "33554657"
+      },
+      "claim": {
+        "worker_id": "b35e323278694c2797e8b5d1bb20ae29-shard-0",
+        "claimed_at": "2026-11-22T11:26:04.529485+00:00",
+        "lease_expires_at": "2026-11-22T17:26:04.529485+00:00",
+        "run_id": "45016772727"
       }
     },
     "29359": {
@@ -202159,7 +202165,7 @@
       "last_plan": {
         "source_id": "32312701",
         "display_name": "The Case of the Dead Deadman (Případ mrtvého nebožtíka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:26:00.460347+00:00"
+        "planned_at": "2026-11-22T11:26:03.774883+00:00"
       }
     },
     "15767": {
@@ -244506,5 +244512,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:26:00.460365+00:00"
+  "updated_at": "2026-11-22T11:26:05.414129+00:00"
 }
