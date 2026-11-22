@@ -203096,17 +203096,19 @@
       }
     },
     "7557": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23681455",
+          "target_video_id": "31253276",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:30:03.210792+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23681455",
         "display_name": "Robust (Robuste) 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:26:45.396156+00:00"
-      },
-      "claim": {
-        "worker_id": "32b7f99b34544efc92a10912800d38d9-shard-0",
-        "claimed_at": "2026-11-22T13:26:48.442132+00:00",
-        "lease_expires_at": "2026-11-22T19:26:48.442132+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31253276",
       "prepared": {
@@ -245306,5 +245308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:30:00.896601+00:00"
+  "updated_at": "2026-11-22T13:30:03.210811+00:00"
 }
