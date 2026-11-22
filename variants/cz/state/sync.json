@@ -131117,13 +131117,6 @@
           "source_id": "33705422",
           "target_video_id": "30986954",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:31:28.129671+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33705422",
-          "target_video_id": "30986954",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:10:12.563306+00:00"
         },
         {
@@ -131132,6 +131125,13 @@
           "target_video_id": "30986954",
           "permanent": false,
           "attempted_at": "2026-11-22T12:55:18.618785+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33705422",
+          "target_video_id": "30986954",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:36:36.238876+00:00"
         }
       ],
       "last_plan": {
@@ -139700,7 +139700,7 @@
       "last_plan": {
         "source_id": "34788754",
         "display_name": "Against All (Proti všem) SD CZ Dabing",
-        "planned_at": "2026-11-22T12:55:23.094262+00:00"
+        "planned_at": "2026-11-22T14:36:34.257278+00:00"
       },
       "previous_target_id": "30987965",
       "prepared": {
@@ -139708,6 +139708,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T07:04:06.174209+00:00",
         "relay_source_id": "34788754"
+      },
+      "claim": {
+        "worker_id": "d74e2b2698d441a58179bbfd3152bf72-shard-0",
+        "claimed_at": "2026-11-22T14:36:35.709129+00:00",
+        "lease_expires_at": "2026-11-22T20:36:35.709129+00:00",
+        "run_id": "45016772727"
       }
     },
     "37157": {
@@ -203668,11 +203674,22 @@
       "last_plan": {
         "source_id": "26259471",
         "display_name": "Sublime 720p CZ Dabing",
-        "planned_at": "2026-11-22T14:36:30.326332+00:00"
+        "planned_at": "2026-11-22T14:36:34.658226+00:00"
+      },
+      "claim": {
+        "worker_id": "e683a4cd25de4938b1af91a35f57b74b-shard-0",
+        "claimed_at": "2026-11-22T14:36:35.994737+00:00",
+        "lease_expires_at": "2026-11-22T20:36:35.994737+00:00",
+        "run_id": "45016772727"
       }
     },
     "18740": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34853744",
+        "display_name": "Fasten Your Seatbelts (Allacciate le cinture) SD CZ Dabing",
+        "planned_at": "2026-11-22T14:36:34.953788+00:00"
+      }
     },
     "17011": {
       "attempts": []
@@ -245724,5 +245741,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:36:30.575871+00:00"
+  "updated_at": "2026-11-22T14:36:36.238892+00:00"
 }
