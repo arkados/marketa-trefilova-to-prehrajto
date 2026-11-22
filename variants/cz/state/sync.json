@@ -204318,17 +204318,19 @@
       }
     },
     "7973": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25411563",
+          "target_video_id": "31260169",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:24:31.457244+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25411563",
         "display_name": "The Last Aristocrat (Poslední aristokratka) 1080p CZ Dabing",
         "planned_at": "2026-11-22T20:21:50.463250+00:00"
-      },
-      "claim": {
-        "worker_id": "90724b0647c64d6eab2d2e69f2668e18-shard-0",
-        "claimed_at": "2026-11-22T20:21:52.025555+00:00",
-        "lease_expires_at": "2026-11-23T02:21:52.025555+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31260169",
       "prepared": {
@@ -246288,5 +246290,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:24:29.034452+00:00"
+  "updated_at": "2026-11-22T20:24:31.457261+00:00"
 }
