@@ -198685,17 +198685,19 @@
       }
     },
     "3732": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18254324",
+          "target_video_id": "31241268",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:10:53.301175+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18254324",
         "display_name": "Everybody's Talking About Jamie 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:57:50.632241+00:00"
-      },
-      "claim": {
-        "worker_id": "489f28ec6aa64fd0b818e440020b85e1-shard-0",
-        "claimed_at": "2026-11-22T01:57:52.138814+00:00",
-        "lease_expires_at": "2026-11-22T07:57:52.138814+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31241268",
       "prepared": {
@@ -241663,5 +241665,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:10:50.800150+00:00"
+  "updated_at": "2026-11-22T02:10:53.301199+00:00"
 }
