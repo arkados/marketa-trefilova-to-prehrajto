@@ -43871,6 +43871,12 @@
         "size_bytes": 5800000000,
         "prepared_at": "2026-11-03T09:34:30.038588+00:00",
         "relay_source_id": "34841408"
+      },
+      "claim": {
+        "worker_id": "3330cf56f58244fa81f1898037277d43-shard-0",
+        "claimed_at": "2026-11-22T05:46:36.209436+00:00",
+        "lease_expires_at": "2026-11-22T11:46:36.209436+00:00",
+        "run_id": "44961318741"
       }
     },
     "1077": {
@@ -125510,13 +125516,6 @@
           "source_id": "24613759",
           "target_video_id": "30985828",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:51:35.249226+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24613759",
-          "target_video_id": "30985828",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:24:16.929265+00:00"
         },
         {
@@ -125525,6 +125524,13 @@
           "target_video_id": "30985828",
           "permanent": false,
           "attempted_at": "2026-11-22T04:10:15.612379+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24613759",
+          "target_video_id": "30985828",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:46:35.994226+00:00"
         }
       ],
       "last_plan": {
@@ -125538,12 +125544,6 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T22:08:01.579756+00:00",
         "relay_source_id": "24613759"
-      },
-      "claim": {
-        "worker_id": "6de9fb7eda7a4930b77c727d19783b1b-shard-0",
-        "claimed_at": "2026-11-22T05:46:32.163091+00:00",
-        "lease_expires_at": "2026-11-22T11:46:32.163091+00:00",
-        "run_id": "44961318741"
       }
     },
     "25908": {
@@ -125573,7 +125573,7 @@
       "last_plan": {
         "source_id": "4983288",
         "display_name": "Jar City SD CZ Dabing",
-        "planned_at": "2026-11-22T04:10:18.004178+00:00"
+        "planned_at": "2026-11-22T05:46:36.474067+00:00"
       },
       "previous_target_id": "30985832",
       "prepared": {
@@ -200002,7 +200002,7 @@
       "last_plan": {
         "source_id": "17018695",
         "display_name": "Same Kind of Different as Me 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:46:32.838576+00:00"
+        "planned_at": "2026-11-22T05:46:36.811897+00:00"
       }
     },
     "19639": {
@@ -242745,5 +242745,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:46:33.126656+00:00"
+  "updated_at": "2026-11-22T05:46:36.811915+00:00"
 }
