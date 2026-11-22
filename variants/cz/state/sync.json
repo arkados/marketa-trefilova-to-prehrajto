@@ -126644,13 +126644,6 @@
           "source_id": "23530383",
           "target_video_id": "30986223",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:26:32.457389+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23530383",
-          "target_video_id": "30986223",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:03:53.664649+00:00"
         },
         {
@@ -126659,6 +126652,13 @@
           "target_video_id": "30986223",
           "permanent": false,
           "attempted_at": "2026-11-22T12:47:33.137604+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23530383",
+          "target_video_id": "30986223",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:31:23.683017+00:00"
         }
       ],
       "last_plan": {
@@ -202870,7 +202870,7 @@
       "last_plan": {
         "source_id": "24730630",
         "display_name": "Deadly Radio Romance 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:38:11.517904+00:00"
+        "planned_at": "2026-11-22T14:31:22.004108+00:00"
       },
       "previous_target_id": "31252386",
       "prepared": {
@@ -202878,6 +202878,12 @@
         "size_bytes": 6481057632,
         "prepared_at": "2026-11-22T12:38:20.053553+00:00",
         "relay_source_id": "24730630"
+      },
+      "claim": {
+        "worker_id": "40d094aefb094377b41f260f39afb7fd-shard-0",
+        "claimed_at": "2026-11-22T14:31:23.326234+00:00",
+        "lease_expires_at": "2026-11-22T20:31:23.326234+00:00",
+        "run_id": "45016772727"
       }
     },
     "7909": {
@@ -203646,7 +203652,7 @@
       "last_plan": {
         "source_id": "26259471",
         "display_name": "Sublime 720p CZ Dabing",
-        "planned_at": "2026-11-22T14:31:18.451876+00:00"
+        "planned_at": "2026-11-22T14:31:22.482809+00:00"
       }
     },
     "18740": {
@@ -245702,5 +245708,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:31:18.988796+00:00"
+  "updated_at": "2026-11-22T14:31:23.683035+00:00"
 }
