@@ -109552,7 +109552,7 @@
       "last_plan": {
         "source_id": "24370736",
         "display_name": "Na druhý pohled 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:47:44.640902+00:00"
+        "planned_at": "2026-11-22T23:31:59.101727+00:00"
       },
       "previous_target_id": "30983666",
       "prepared": {
@@ -109560,6 +109560,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T14:30:29.974007+00:00",
         "relay_source_id": "24370736"
+      },
+      "claim": {
+        "worker_id": "d66d77e4fc5941aaa6c31c48c75f7e74-shard-0",
+        "claimed_at": "2026-11-22T23:32:00.315774+00:00",
+        "lease_expires_at": "2026-11-23T05:32:00.315774+00:00",
+        "run_id": "45063988883"
       }
     },
     "24062": {
@@ -164729,13 +164735,6 @@
           "source_id": "35124112",
           "target_video_id": "31101208",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:42:17.148969+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35124112",
-          "target_video_id": "31101208",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:07:33.329439+00:00"
         },
         {
@@ -164744,6 +164743,13 @@
           "target_video_id": "31101208",
           "permanent": false,
           "attempted_at": "2026-11-22T21:47:46.576164+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35124112",
+          "target_video_id": "31101208",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:32:01.590437+00:00"
         }
       ],
       "last_plan": {
@@ -205816,6 +205822,12 @@
         "source_id": "27633938",
         "display_name": "Shrink 720p CZ Dabing",
         "planned_at": "2026-11-22T23:31:55.462875+00:00"
+      },
+      "claim": {
+        "worker_id": "716b21d4577d4dfaa563edba8177a3ae-shard-0",
+        "claimed_at": "2026-11-22T23:31:58.787350+00:00",
+        "lease_expires_at": "2026-11-23T05:31:58.787350+00:00",
+        "run_id": "45063988883"
       }
     },
     "3724": {
@@ -205823,7 +205835,7 @@
       "last_plan": {
         "source_id": "19025291",
         "display_name": "Respect 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:31:56.030843+00:00"
+        "planned_at": "2026-11-22T23:31:59.510611+00:00"
       }
     },
     "29062": {
@@ -247495,5 +247507,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:31:56.030863+00:00"
+  "updated_at": "2026-11-22T23:32:01.590454+00:00"
 }
