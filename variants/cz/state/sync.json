@@ -126644,13 +126644,6 @@
           "source_id": "23530383",
           "target_video_id": "30986223",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:04:28.397591+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23530383",
-          "target_video_id": "30986223",
-          "permanent": false,
           "attempted_at": "2026-11-22T07:47:22.492816+00:00"
         },
         {
@@ -126659,12 +126652,19 @@
           "target_video_id": "30986223",
           "permanent": false,
           "attempted_at": "2026-11-22T09:26:32.457389+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23530383",
+          "target_video_id": "30986223",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:03:53.664649+00:00"
         }
       ],
       "last_plan": {
         "source_id": "23530383",
         "display_name": "The Siege of Firebase Gloria 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:26:27.636981+00:00"
+        "planned_at": "2026-11-22T11:03:50.244460+00:00"
       },
       "previous_target_id": "30986223",
       "prepared": {
@@ -201982,7 +201982,13 @@
       "last_plan": {
         "source_id": "22520185",
         "display_name": "Paris 36 (Faubourg 36) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:03:43.356325+00:00"
+        "planned_at": "2026-11-22T11:03:50.644247+00:00"
+      },
+      "claim": {
+        "worker_id": "8bd3711065b844598e9c5a7f951c831d-shard-0",
+        "claimed_at": "2026-11-22T11:03:51.550683+00:00",
+        "lease_expires_at": "2026-11-22T17:03:51.550683+00:00",
+        "run_id": "44995678765"
       }
     },
     "17200": {
@@ -202001,7 +202007,12 @@
       "attempts": []
     },
     "17506": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34696200",
+        "display_name": "The Elfkins – Baking a Difference (Die Heinzels - Rückkehr der Heinzelmännchen) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T11:03:50.880575+00:00"
+      }
     },
     "37338": {
       "attempts": []
@@ -244368,5 +244379,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:03:47.648238+00:00"
+  "updated_at": "2026-11-22T11:03:53.664666+00:00"
 }
