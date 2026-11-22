@@ -22147,13 +22147,6 @@
           "source_id": "11267704",
           "target_video_id": "30984466",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:18:11.324326+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11267704",
-          "target_video_id": "30984466",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:48:23.991257+00:00"
         },
         {
@@ -22162,6 +22155,13 @@
           "target_video_id": "30984466",
           "permanent": false,
           "attempted_at": "2026-11-22T07:19:50.868848+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11267704",
+          "target_video_id": "30984466",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:50:03.429590+00:00"
         }
       ],
       "last_plan": {
@@ -22981,7 +22981,7 @@
       "last_plan": {
         "source_id": "23240065",
         "display_name": "Paris, 13th District (Les Olympiades, Paris 13e) 1080p CZ titulky",
-        "planned_at": "2026-11-22T07:19:52.076002+00:00"
+        "planned_at": "2026-11-22T07:50:02.547632+00:00"
       },
       "previous_target_id": "30988745",
       "prepared": {
@@ -22989,6 +22989,12 @@
         "size_bytes": 8199999999,
         "prepared_at": "2026-11-11T09:46:13.396689+00:00",
         "relay_source_id": "23240065"
+      },
+      "claim": {
+        "worker_id": "75fc1f2222cb4009aab3ba2370915e1a-shard-0",
+        "claimed_at": "2026-11-22T07:50:03.120063+00:00",
+        "lease_expires_at": "2026-11-22T13:50:03.120063+00:00",
+        "run_id": "44995678765"
       }
     },
     "10731": {
@@ -100851,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:49:58.638000+00:00"
+  "updated_at": "2026-11-22T07:50:03.429611+00:00"
 }
