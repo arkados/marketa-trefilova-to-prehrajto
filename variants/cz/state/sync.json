@@ -110339,13 +110339,6 @@
           "source_id": "34634766",
           "target_video_id": "30983705",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:31:34.338886+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34634766",
-          "target_video_id": "30983705",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:07:47.152338+00:00"
         },
         {
@@ -110354,6 +110347,13 @@
           "target_video_id": "30983705",
           "permanent": false,
           "attempted_at": "2026-11-22T10:44:04.888065+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34634766",
+          "target_video_id": "30983705",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:31:39.543252+00:00"
         }
       ],
       "last_plan": {
@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:44:04.010029+00:00"
+        "planned_at": "2026-11-22T12:31:36.916793+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -184751,6 +184751,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-20T12:45:59.029491+00:00",
         "relay_source_id": "33707550"
+      },
+      "claim": {
+        "worker_id": "45b81a057adc462ea10d3f3cee365d0e-shard-0",
+        "claimed_at": "2026-11-22T12:31:38.965949+00:00",
+        "lease_expires_at": "2026-11-22T18:31:38.965949+00:00",
+        "run_id": "45016772727"
       }
     },
     "33591": {
@@ -202638,7 +202644,7 @@
       "last_plan": {
         "source_id": "29393755",
         "display_name": "The Upper Hand 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:31:33.299462+00:00"
+        "planned_at": "2026-11-22T12:31:37.350436+00:00"
       }
     },
     "9345": {
@@ -244892,5 +244898,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:31:33.299480+00:00"
+  "updated_at": "2026-11-22T12:31:39.543270+00:00"
 }
