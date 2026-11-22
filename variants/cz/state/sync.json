@@ -43058,6 +43058,12 @@
         "size_bytes": 31200000000,
         "prepared_at": "2026-11-03T07:52:26.317997+00:00",
         "relay_source_id": "34357032"
+      },
+      "claim": {
+        "worker_id": "b08d7a9b4f5e4d7fbba2474074647118-shard-0",
+        "claimed_at": "2026-11-22T20:41:33.214869+00:00",
+        "lease_expires_at": "2026-11-23T02:41:33.214869+00:00",
+        "run_id": "45063988883"
       }
     },
     "1395": {
@@ -143074,13 +143080,6 @@
           "source_id": "26751022",
           "target_video_id": "30988588",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:48:44.201064+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26751022",
-          "target_video_id": "30988588",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:36:13.216645+00:00"
         },
         {
@@ -143089,12 +143088,19 @@
           "target_video_id": "30988588",
           "permanent": false,
           "attempted_at": "2026-11-22T14:17:20.913962+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26751022",
+          "target_video_id": "30988588",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:41:36.631769+00:00"
         }
       ],
       "last_plan": {
         "source_id": "26751022",
         "display_name": "Garbage, the City and Death (Odpad město smrt) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:17:12.163283+00:00"
+        "planned_at": "2026-11-22T20:41:33.517115+00:00"
       },
       "previous_target_id": "30988588",
       "prepared": {
@@ -204427,7 +204433,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:41:30.410642+00:00"
+        "planned_at": "2026-11-22T20:41:33.930584+00:00"
       }
     },
     "3710": {
@@ -246360,5 +246366,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:41:30.701600+00:00"
+  "updated_at": "2026-11-22T20:41:36.631786+00:00"
 }
