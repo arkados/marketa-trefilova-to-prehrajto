@@ -50251,6 +50251,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-04T00:02:22.495709+00:00",
         "relay_source_id": "11203350"
+      },
+      "claim": {
+        "worker_id": "007d883c4d4146c7b1f44bcf0df77253-shard-0",
+        "claimed_at": "2026-11-22T20:35:42.809550+00:00",
+        "lease_expires_at": "2026-11-23T02:35:42.809550+00:00",
+        "run_id": "45063988883"
       }
     },
     "30131": {
@@ -108080,7 +108086,7 @@
       "last_plan": {
         "source_id": "32711232",
         "display_name": "On the Roof (Na střeše) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:11:01.989159+00:00"
+        "planned_at": "2026-11-22T20:35:43.100838+00:00"
       },
       "previous_target_id": "30983462",
       "prepared": {
@@ -134320,13 +134326,6 @@
           "source_id": "34694077",
           "target_video_id": "30987405",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:42:30.619202+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34694077",
-          "target_video_id": "30987405",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:30:00.187841+00:00"
         },
         {
@@ -134335,6 +134334,13 @@
           "target_video_id": "30987405",
           "permanent": false,
           "attempted_at": "2026-11-22T14:10:59.657279+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34694077",
+          "target_video_id": "30987405",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:35:42.568621+00:00"
         }
       ],
       "last_plan": {
@@ -134348,12 +134354,6 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T04:33:04.944396+00:00",
         "relay_source_id": "34694077"
-      },
-      "claim": {
-        "worker_id": "8f1cacee84e8444b88e7b78d417ac80f-shard-0",
-        "claimed_at": "2026-11-22T20:35:38.967873+00:00",
-        "lease_expires_at": "2026-11-23T02:35:38.967873+00:00",
-        "run_id": "45063988883"
       }
     },
     "32945": {
@@ -204397,7 +204397,7 @@
       "last_plan": {
         "source_id": "25410421",
         "display_name": "Something New 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:35:39.968973+00:00"
+        "planned_at": "2026-11-22T20:35:43.743490+00:00"
       }
     },
     "32622": {
@@ -246341,5 +246341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:35:39.968991+00:00"
+  "updated_at": "2026-11-22T20:35:43.743506+00:00"
 }
