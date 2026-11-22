@@ -29813,13 +29813,6 @@
           "source_id": "21165095",
           "target_video_id": "30722559",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:59:15.777967+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "21165095",
-          "target_video_id": "30722559",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:30:29.752345+00:00"
         },
         {
@@ -29828,6 +29821,13 @@
           "target_video_id": "30722559",
           "permanent": false,
           "attempted_at": "2026-11-22T04:17:08.878704+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "21165095",
+          "target_video_id": "30722559",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:56:18.351084+00:00"
         }
       ],
       "last_plan": {
@@ -188970,7 +188970,7 @@
       "last_plan": {
         "source_id": "32144558",
         "display_name": "Icing (Zakázané uvolnění) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:17:32.814569+00:00"
+        "planned_at": "2026-11-22T05:56:16.768859+00:00"
       },
       "previous_target_id": "31218280",
       "prepared": {
@@ -188978,6 +188978,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-21T02:39:35.820124+00:00",
         "relay_source_id": "32144558"
+      },
+      "claim": {
+        "worker_id": "b59dfd81b3cf48b58b764fc302d3952b-shard-0",
+        "claimed_at": "2026-11-22T05:56:17.874803+00:00",
+        "lease_expires_at": "2026-11-22T11:56:17.874803+00:00",
+        "run_id": "44961318741"
       }
     },
     "16094": {
@@ -200091,6 +200097,12 @@
         "source_id": "31586871",
         "display_name": "The Sword and the Rose SD CZ Dabing",
         "planned_at": "2026-11-22T05:56:13.263840+00:00"
+      },
+      "claim": {
+        "worker_id": "eb45a3ec4534447ea23af5d3197bb06d-shard-0",
+        "claimed_at": "2026-11-22T05:56:16.507026+00:00",
+        "lease_expires_at": "2026-11-22T11:56:16.507026+00:00",
+        "run_id": "44961318741"
       }
     },
     "24171": {
@@ -200101,7 +200113,7 @@
       "last_plan": {
         "source_id": "31329988",
         "display_name": "Posse (1975) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:56:13.752343+00:00"
+        "planned_at": "2026-11-22T05:56:17.146552+00:00"
       }
     },
     "17604": {
@@ -242817,5 +242829,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:56:13.752361+00:00"
+  "updated_at": "2026-11-22T05:56:18.351105+00:00"
 }
