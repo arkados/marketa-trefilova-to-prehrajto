@@ -115610,13 +115610,6 @@
           "source_id": "30985526",
           "target_video_id": "30984610",
           "permanent": false,
-          "attempted_at": "2026-11-22T03:22:37.763856+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30985526",
-          "target_video_id": "30984610",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:57:15.865396+00:00"
         },
         {
@@ -115625,6 +115618,13 @@
           "target_video_id": "30984610",
           "permanent": false,
           "attempted_at": "2026-11-22T06:35:31.746813+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30985526",
+          "target_video_id": "30984610",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:17:01.307935+00:00"
         }
       ],
       "last_plan": {
@@ -130302,7 +130302,7 @@
       "last_plan": {
         "source_id": "25438208",
         "display_name": "Story of a Godfather (Příběh kmotra) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:35:34.036440+00:00"
+        "planned_at": "2026-11-22T08:16:59.546270+00:00"
       },
       "previous_target_id": "30986891",
       "prepared": {
@@ -130310,6 +130310,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T02:31:10.546394+00:00",
         "relay_source_id": "25438208"
+      },
+      "claim": {
+        "worker_id": "3774500753f34c52a382d31c3faf1d27-shard-0",
+        "claimed_at": "2026-11-22T08:17:00.822719+00:00",
+        "lease_expires_at": "2026-11-22T14:17:00.822719+00:00",
+        "run_id": "44995678765"
       }
     },
     "3121": {
@@ -200949,6 +200955,12 @@
         "source_id": "34694478",
         "display_name": "Beautiful Rebel (Sei nell'anima) 1080p CZ Dabing",
         "planned_at": "2026-11-22T08:16:55.636639+00:00"
+      },
+      "claim": {
+        "worker_id": "268f539406484611979715c65b7457ec-shard-0",
+        "claimed_at": "2026-11-22T08:16:59.278793+00:00",
+        "lease_expires_at": "2026-11-22T14:16:59.278793+00:00",
+        "run_id": "44995678765"
       }
     },
     "11301": {
@@ -200956,7 +200968,7 @@
       "last_plan": {
         "source_id": "35172758",
         "display_name": "Io sto con gli ippopotami 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:16:56.134845+00:00"
+        "planned_at": "2026-11-22T08:16:59.968385+00:00"
       }
     },
     "7974": {
@@ -243525,5 +243537,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:16:56.134863+00:00"
+  "updated_at": "2026-11-22T08:17:01.307953+00:00"
 }
