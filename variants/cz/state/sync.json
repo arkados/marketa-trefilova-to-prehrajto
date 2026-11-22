@@ -112673,6 +112673,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T15:02:25.707411+00:00",
         "relay_source_id": "30230963"
+      },
+      "claim": {
+        "worker_id": "188956c203444584818ce33286443f0a-shard-0",
+        "claimed_at": "2026-11-22T20:11:31.509806+00:00",
+        "lease_expires_at": "2026-11-23T02:11:31.509806+00:00",
+        "run_id": "45063988883"
       }
     },
     "13006": {
@@ -204127,17 +204133,19 @@
       "attempts": []
     },
     "10814": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25236826",
+          "target_video_id": "31259931",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:11:31.749953+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25236826",
         "display_name": "Cartouche 1080p CZ Dabing",
         "planned_at": "2026-11-22T20:08:47.823718+00:00"
-      },
-      "claim": {
-        "worker_id": "ff936059d2a24aed925e07cf26bb213f-shard-0",
-        "claimed_at": "2026-11-22T20:08:51.264574+00:00",
-        "lease_expires_at": "2026-11-23T02:08:51.264574+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31259931",
       "prepared": {
@@ -246127,5 +246135,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:11:28.777703+00:00"
+  "updated_at": "2026-11-22T20:11:31.749970+00:00"
 }
