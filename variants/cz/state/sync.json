@@ -202619,17 +202619,19 @@
       "attempts": []
     },
     "8583": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34876843",
+          "target_video_id": "31252094",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:34:36.530072+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34876843",
         "display_name": "Fifty (Padesátka) 1080p CZ Dabing",
         "planned_at": "2026-11-22T12:26:38.200523+00:00"
-      },
-      "claim": {
-        "worker_id": "a90e4e89ab0648eca0f15e8c1686dd4c-shard-0",
-        "claimed_at": "2026-11-22T12:26:41.549470+00:00",
-        "lease_expires_at": "2026-11-22T18:26:41.549470+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31252094",
       "prepared": {
@@ -244904,5 +244906,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:34:34.290762+00:00"
+  "updated_at": "2026-11-22T12:34:36.530090+00:00"
 }
