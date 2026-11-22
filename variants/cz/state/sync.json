@@ -116164,7 +116164,7 @@
       "last_plan": {
         "source_id": "34191543",
         "display_name": "While You Were Sleeping 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:14:23.792900+00:00"
+        "planned_at": "2026-11-22T08:56:06.056269+00:00"
       },
       "previous_target_id": "30984649",
       "prepared": {
@@ -116172,6 +116172,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T17:13:22.540935+00:00",
         "relay_source_id": "34191543"
+      },
+      "claim": {
+        "worker_id": "fd807fa0c5584d1a939d5904078c7e7f-shard-0",
+        "claimed_at": "2026-11-22T08:56:07.236349+00:00",
+        "lease_expires_at": "2026-11-22T14:56:07.236349+00:00",
+        "run_id": "44995678765"
       }
     },
     "2876": {
@@ -139052,6 +139058,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T06:43:26.691914+00:00",
         "relay_source_id": "31912060"
+      },
+      "claim": {
+        "worker_id": "364ea27f243e459db1f338a8dd0e8873-shard-0",
+        "claimed_at": "2026-11-22T08:56:05.777417+00:00",
+        "lease_expires_at": "2026-11-22T14:56:05.777417+00:00",
+        "run_id": "44995678765"
       }
     },
     "26385": {
@@ -201023,17 +201035,19 @@
       }
     },
     "11301": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35172758",
+          "target_video_id": "31247721",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:56:07.765410+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35172758",
         "display_name": "Io sto con gli ippopotami 1080p CZ Dabing",
         "planned_at": "2026-11-22T08:22:24.573564+00:00"
-      },
-      "claim": {
-        "worker_id": "d6dd8084bc76411698115a706242c2b1-shard-0",
-        "claimed_at": "2026-11-22T08:22:28.336094+00:00",
-        "lease_expires_at": "2026-11-22T14:22:28.336094+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31247721",
       "prepared": {
@@ -201048,7 +201062,7 @@
       "last_plan": {
         "source_id": "31624184",
         "display_name": "Přes prsty 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:56:03.209240+00:00"
+        "planned_at": "2026-11-22T08:56:06.448132+00:00"
       }
     },
     "19492": {
@@ -243614,5 +243628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:56:03.209256+00:00"
+  "updated_at": "2026-11-22T08:56:07.765453+00:00"
 }
