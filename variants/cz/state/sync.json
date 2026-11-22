@@ -204063,6 +204063,12 @@
         "size_bytes": 2634595378,
         "prepared_at": "2026-11-22T14:59:51.207869+00:00",
         "relay_source_id": "25980697"
+      },
+      "claim": {
+        "worker_id": "42301dd6b3f04aed91bdaa20815912dc-shard-0",
+        "claimed_at": "2026-11-22T21:25:19.687597+00:00",
+        "lease_expires_at": "2026-11-23T03:25:19.687597+00:00",
+        "run_id": "45063988883"
       }
     },
     "14870": {
@@ -204672,17 +204678,19 @@
       "attempts": []
     },
     "37340": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34473324",
+          "target_video_id": "31261285",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:25:19.987978+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34473324",
         "display_name": "Duse 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:19:31.292301+00:00"
-      },
-      "claim": {
-        "worker_id": "1233a75644964571a8e4b98c503e4ff9-shard-0",
-        "claimed_at": "2026-11-22T21:19:35.489694+00:00",
-        "lease_expires_at": "2026-11-23T03:19:35.489694+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31261285",
       "prepared": {
@@ -246594,5 +246602,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:25:17.180093+00:00"
+  "updated_at": "2026-11-22T21:25:19.987997+00:00"
 }
