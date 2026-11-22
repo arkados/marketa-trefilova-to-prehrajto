@@ -133348,13 +133348,6 @@
           "source_id": "32876939",
           "target_video_id": "30987247",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:26:15.798711+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32876939",
-          "target_video_id": "30987247",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:03:27.526811+00:00"
         },
         {
@@ -133363,6 +133356,13 @@
           "target_video_id": "30987247",
           "permanent": false,
           "attempted_at": "2026-11-22T07:46:21.928996+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32876939",
+          "target_video_id": "30987247",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:25:27.484267+00:00"
         }
       ],
       "last_plan": {
@@ -133376,12 +133376,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T04:03:02.993627+00:00",
         "relay_source_id": "32876939"
-      },
-      "claim": {
-        "worker_id": "486057a4c7f74d02b0e90244d4d53780-shard-0",
-        "claimed_at": "2026-11-22T09:25:23.679196+00:00",
-        "lease_expires_at": "2026-11-22T15:25:23.679196+00:00",
-        "run_id": "44995678765"
       }
     },
     "24161": {
@@ -201241,17 +201235,19 @@
       }
     },
     "29947": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21615817",
+          "target_video_id": "31248671",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:25:28.168841+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21615817",
         "display_name": "The Lady Banker SD CZ Dabing",
         "planned_at": "2026-11-22T09:23:32.118398+00:00"
-      },
-      "claim": {
-        "worker_id": "ef01cb0da4e44d0f862767b26ab22814-shard-0",
-        "claimed_at": "2026-11-22T09:23:35.440548+00:00",
-        "lease_expires_at": "2026-11-22T15:23:35.440548+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31248671",
       "prepared": {
@@ -243802,5 +243798,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:25:24.299403+00:00"
+  "updated_at": "2026-11-22T09:25:28.168860+00:00"
 }
