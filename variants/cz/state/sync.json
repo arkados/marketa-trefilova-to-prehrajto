@@ -131564,13 +131564,6 @@
           "source_id": "34860819",
           "target_video_id": "30986996",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:02:45.990982+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34860819",
-          "target_video_id": "30986996",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:43:52.430214+00:00"
         },
         {
@@ -131579,6 +131572,13 @@
           "target_video_id": "30986996",
           "permanent": false,
           "attempted_at": "2026-11-22T20:09:03.978333+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34860819",
+          "target_video_id": "30986996",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:49:25.331773+00:00"
         }
       ],
       "last_plan": {
@@ -131592,12 +131592,6 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T03:11:45.728295+00:00",
         "relay_source_id": "34860819"
-      },
-      "claim": {
-        "worker_id": "532f95648428460b8b2b55b9002925a6-shard-0",
-        "claimed_at": "2026-11-22T21:49:22.408926+00:00",
-        "lease_expires_at": "2026-11-23T03:49:22.408926+00:00",
-        "run_id": "45063988883"
       }
     },
     "32881": {
@@ -132716,7 +132710,7 @@
       "last_plan": {
         "source_id": "34676372",
         "display_name": "Fly, Bird, Fly! (Leť, ptáku leť!) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:09:02.263567+00:00"
+        "planned_at": "2026-11-22T21:49:24.589029+00:00"
       },
       "previous_target_id": "30987143",
       "prepared": {
@@ -204977,14 +204971,19 @@
       "last_plan": {
         "source_id": "13660383",
         "display_name": "Light of My Life 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:49:17.192476+00:00"
+        "planned_at": "2026-11-22T21:49:25.029714+00:00"
       }
     },
     "35643": {
       "attempts": []
     },
     "3804": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35153060",
+        "display_name": "Thank You for Your Service 1080p CZ Dabing",
+        "planned_at": "2026-11-22T21:49:25.573458+00:00"
+      }
     },
     "35173": {
       "attempts": []
@@ -246814,5 +246813,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:49:22.408956+00:00"
+  "updated_at": "2026-11-22T21:49:25.573474+00:00"
 }
