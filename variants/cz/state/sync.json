@@ -128593,7 +128593,7 @@
       "last_plan": {
         "source_id": "24508454",
         "display_name": "Sin (Il peccato) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:28:36.915744+00:00"
+        "planned_at": "2026-11-22T09:05:14.726276+00:00"
       },
       "previous_target_id": "30986651",
       "prepared": {
@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "35d3b354ad07456eb458a637ce9de468-shard-0",
+        "claimed_at": "2026-11-22T09:05:16.192607+00:00",
+        "lease_expires_at": "2026-11-22T15:05:16.192607+00:00",
+        "run_id": "44995678765"
       }
     },
     "32719": {
@@ -190854,13 +190860,6 @@
           "source_id": "24263235",
           "target_video_id": "31222473",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:06:31.701441+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24263235",
-          "target_video_id": "31222473",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:42:44.884774+00:00"
         },
         {
@@ -190869,6 +190868,13 @@
           "target_video_id": "31222473",
           "permanent": false,
           "attempted_at": "2026-11-22T07:28:52.157534+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24263235",
+          "target_video_id": "31222473",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:05:17.669496+00:00"
         }
       ],
       "last_plan": {
@@ -201101,14 +201107,25 @@
       "last_plan": {
         "source_id": "34561456",
         "display_name": "Dark Kingdom: The Dragon King (Ring of the Nibelungs) SD CZ Dabing",
-        "planned_at": "2026-11-22T09:05:11.006393+00:00"
+        "planned_at": "2026-11-22T09:05:15.095502+00:00"
+      },
+      "claim": {
+        "worker_id": "d9f4fac0ea3143498ef5b88836505bfd-shard-0",
+        "claimed_at": "2026-11-22T09:05:16.501296+00:00",
+        "lease_expires_at": "2026-11-22T15:05:16.501296+00:00",
+        "run_id": "44995678765"
       }
     },
     "35452": {
       "attempts": []
     },
     "35766": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34720714",
+        "display_name": "Power 1080p CZ Dabing",
+        "planned_at": "2026-11-22T09:05:15.445572+00:00"
+      }
     },
     "23999": {
       "attempts": []
@@ -243664,5 +243681,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:05:11.301997+00:00"
+  "updated_at": "2026-11-22T09:05:17.669517+00:00"
 }
