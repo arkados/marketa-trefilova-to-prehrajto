@@ -63802,13 +63802,6 @@
           "source_id": "34095247",
           "target_video_id": "30817480",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:17:44.599461+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34095247",
-          "target_video_id": "30817480",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:26:48.545905+00:00"
         },
         {
@@ -63817,6 +63810,13 @@
           "target_video_id": "30817480",
           "permanent": false,
           "attempted_at": "2026-11-22T00:58:47.783142+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34095247",
+          "target_video_id": "30817480",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:30:03.135584+00:00"
         }
       ],
       "last_plan": {
@@ -134454,7 +134454,7 @@
       "last_plan": {
         "source_id": "25777021",
         "display_name": "Every Million Comes Handy (Každý milion dobrý) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:58:45.889173+00:00"
+        "planned_at": "2026-11-22T02:30:01.441858+00:00"
       },
       "previous_target_id": "30987424",
       "prepared": {
@@ -134462,6 +134462,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T04:37:43.304180+00:00",
         "relay_source_id": "25777021"
+      },
+      "claim": {
+        "worker_id": "0914f68aba10400f93dda67390c5e340-shard-0",
+        "claimed_at": "2026-11-22T02:30:02.845577+00:00",
+        "lease_expires_at": "2026-11-22T08:30:02.845577+00:00",
+        "run_id": "44959851294"
       }
     },
     "16650": {
@@ -198864,7 +198870,7 @@
       "last_plan": {
         "source_id": "31631346",
         "display_name": "Elbow (Ellbogen) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:29:58.456954+00:00"
+        "planned_at": "2026-11-22T02:30:01.845244+00:00"
       }
     },
     "18776": {
@@ -241799,5 +241805,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:29:58.456975+00:00"
+  "updated_at": "2026-11-22T02:30:03.135607+00:00"
 }
