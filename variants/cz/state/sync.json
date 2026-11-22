@@ -137602,13 +137602,6 @@
           "source_id": "34820686",
           "target_video_id": "30987787",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:00:54.697032+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34820686",
-          "target_video_id": "30987787",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:45:19.606229+00:00"
         },
         {
@@ -137617,6 +137610,13 @@
           "target_video_id": "30987787",
           "permanent": false,
           "attempted_at": "2026-11-22T14:29:14.531206+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34820686",
+          "target_video_id": "30987787",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:50:23.079151+00:00"
         }
       ],
       "last_plan": {
@@ -203759,7 +203759,7 @@
       "last_plan": {
         "source_id": "33393903",
         "display_name": "Fugue (Fuga) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:26:18.693863+00:00"
+        "planned_at": "2026-11-22T20:50:21.426767+00:00"
       },
       "previous_target_id": "31254253",
       "prepared": {
@@ -203767,6 +203767,12 @@
         "size_bytes": 2261321394,
         "prepared_at": "2026-11-22T14:26:26.279389+00:00",
         "relay_source_id": "33393903"
+      },
+      "claim": {
+        "worker_id": "d1a466bc4a524711bcbc669308f92ce7-shard-0",
+        "claimed_at": "2026-11-22T20:50:22.723127+00:00",
+        "lease_expires_at": "2026-11-23T02:50:22.723127+00:00",
+        "run_id": "45063988883"
       }
     },
     "14810": {
@@ -204476,7 +204482,7 @@
       "last_plan": {
         "source_id": "30588020",
         "display_name": "Destination Gobi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:50:18.610441+00:00"
+        "planned_at": "2026-11-22T20:50:21.922064+00:00"
       }
     },
     "13988": {
@@ -246400,5 +246406,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:50:18.610455+00:00"
+  "updated_at": "2026-11-22T20:50:23.079168+00:00"
 }
