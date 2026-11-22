@@ -118328,7 +118328,7 @@
       "last_plan": {
         "source_id": "20970259",
         "display_name": "Stonehearst Asylum 4K CZ Dabing",
-        "planned_at": "2026-11-22T01:02:35.991057+00:00"
+        "planned_at": "2026-11-22T02:33:51.360864+00:00"
       },
       "previous_target_id": "30984849",
       "prepared": {
@@ -118336,6 +118336,12 @@
         "size_bytes": 14800000000,
         "prepared_at": "2026-11-10T17:50:28.248425+00:00",
         "relay_source_id": "20970259"
+      },
+      "claim": {
+        "worker_id": "c88d215393554665b01538a97c332957-shard-0",
+        "claimed_at": "2026-11-22T02:33:52.721409+00:00",
+        "lease_expires_at": "2026-11-22T08:33:52.721409+00:00",
+        "run_id": "44959851294"
       }
     },
     "3050": {
@@ -128882,13 +128888,6 @@
           "source_id": "32306071",
           "target_video_id": "30986691",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:21:55.531639+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32306071",
-          "target_video_id": "30986691",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:30:34.281649+00:00"
         },
         {
@@ -128897,6 +128896,13 @@
           "target_video_id": "30986691",
           "permanent": false,
           "attempted_at": "2026-11-22T01:02:37.485982+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32306071",
+          "target_video_id": "30986691",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:33:53.151382+00:00"
         }
       ],
       "last_plan": {
@@ -198836,17 +198842,19 @@
       }
     },
     "11087": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35418565",
+          "target_video_id": "31241776",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:33:53.410142+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35418565",
         "display_name": "All the Way, Boys (...più forte ragazzi!) 1440p CZ Dabing",
         "planned_at": "2026-11-22T02:27:51.151594+00:00"
-      },
-      "claim": {
-        "worker_id": "efb8263c959243af92c536c72b8bc3f2-shard-0",
-        "claimed_at": "2026-11-22T02:27:54.408398+00:00",
-        "lease_expires_at": "2026-11-22T08:27:54.408398+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31241776",
       "prepared": {
@@ -198864,7 +198872,7 @@
       "last_plan": {
         "source_id": "31631346",
         "display_name": "Elbow (Ellbogen) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:33:48.438236+00:00"
+        "planned_at": "2026-11-22T02:33:51.741465+00:00"
       }
     },
     "18776": {
@@ -241799,5 +241807,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:33:48.438255+00:00"
+  "updated_at": "2026-11-22T02:33:53.410163+00:00"
 }
