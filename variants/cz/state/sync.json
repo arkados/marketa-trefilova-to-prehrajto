@@ -116731,13 +116731,6 @@
           "source_id": "33767290",
           "target_video_id": "30984707",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:31:16.142915+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33767290",
-          "target_video_id": "30984707",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:40:29.977919+00:00"
         },
         {
@@ -116746,6 +116739,13 @@
           "target_video_id": "30984707",
           "permanent": false,
           "attempted_at": "2026-11-22T01:12:39.623670+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33767290",
+          "target_video_id": "30984707",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:44:13.966466+00:00"
         }
       ],
       "last_plan": {
@@ -134491,7 +134491,7 @@
       "last_plan": {
         "source_id": "35418778",
         "display_name": "Murder in the Somme (Le Vagabond de la Baie de Somme) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:12:38.129476+00:00"
+        "planned_at": "2026-11-22T02:44:12.354258+00:00"
       },
       "previous_target_id": "30987434",
       "prepared": {
@@ -134499,6 +134499,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T04:39:13.477091+00:00",
         "relay_source_id": "35418778"
+      },
+      "claim": {
+        "worker_id": "e57736450f0d4f73a0c77c2fc3d1caae-shard-0",
+        "claimed_at": "2026-11-22T02:44:13.673165+00:00",
+        "lease_expires_at": "2026-11-22T08:44:13.673165+00:00",
+        "run_id": "44959851294"
       }
     },
     "31845": {
@@ -198942,7 +198948,13 @@
       "last_plan": {
         "source_id": "34971574",
         "display_name": "Bratz: Fashion Pixiez SD CZ Dabing",
-        "planned_at": "2026-11-22T02:44:08.821689+00:00"
+        "planned_at": "2026-11-22T02:44:12.732954+00:00"
+      },
+      "claim": {
+        "worker_id": "ae08f43b7a18410b848350872289d4b8-shard-0",
+        "claimed_at": "2026-11-22T02:44:14.205484+00:00",
+        "lease_expires_at": "2026-11-22T08:44:14.205484+00:00",
+        "run_id": "44959851294"
       }
     },
     "25182": {
@@ -198952,7 +198964,12 @@
       "attempts": []
     },
     "18642": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31069738",
+        "display_name": "Bardejov 1080p CZ Dabing",
+        "planned_at": "2026-11-22T02:44:13.016675+00:00"
+      }
     },
     "13140": {
       "attempts": []
@@ -241865,5 +241882,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:44:09.266862+00:00"
+  "updated_at": "2026-11-22T02:44:14.205522+00:00"
 }
