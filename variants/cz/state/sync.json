@@ -202879,17 +202879,19 @@
       }
     },
     "3611": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34651725",
+          "target_video_id": "31252984",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:10:18.774926+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34651725",
         "display_name": "Polite Society 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:07:03.964076+00:00"
-      },
-      "claim": {
-        "worker_id": "4dfa5ed680b543c796db95b4121703eb-shard-0",
-        "claimed_at": "2026-11-22T13:07:05.524521+00:00",
-        "lease_expires_at": "2026-11-22T19:07:05.524521+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31252984",
       "prepared": {
@@ -245116,5 +245118,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:10:16.576571+00:00"
+  "updated_at": "2026-11-22T13:10:18.774941+00:00"
 }
