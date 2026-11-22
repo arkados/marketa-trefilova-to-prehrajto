@@ -111420,13 +111420,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:16:45.301964+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:01:22.311496+00:00"
         },
         {
@@ -111435,6 +111428,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-22T14:42:54.723631+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:07:21.303044+00:00"
         }
       ],
       "last_plan": {
@@ -125641,7 +125641,7 @@
       "last_plan": {
         "source_id": "34824290",
         "display_name": "Borsalino 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:42:53.859853+00:00"
+        "planned_at": "2026-11-22T21:07:19.337779+00:00"
       },
       "previous_target_id": "30985867",
       "prepared": {
@@ -125649,6 +125649,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T22:16:18.489755+00:00",
         "relay_source_id": "34824290"
+      },
+      "claim": {
+        "worker_id": "fcf060f4b21f4b9699672087f559a5b0-shard-0",
+        "claimed_at": "2026-11-22T21:07:20.722934+00:00",
+        "lease_expires_at": "2026-11-23T03:07:20.722934+00:00",
+        "run_id": "45063988883"
       }
     },
     "19244": {
@@ -204580,7 +204586,7 @@
       "last_plan": {
         "source_id": "31068827",
         "display_name": "Alienoid 2 (OeGye+In 2Bu) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:07:15.903276+00:00"
+        "planned_at": "2026-11-22T21:07:19.805120+00:00"
       }
     },
     "13555": {
@@ -246492,5 +246498,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:07:16.282038+00:00"
+  "updated_at": "2026-11-22T21:07:21.303063+00:00"
 }
