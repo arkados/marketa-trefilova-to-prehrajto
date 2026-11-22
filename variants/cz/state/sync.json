@@ -8682,7 +8682,7 @@
       "last_plan": {
         "source_id": "21842659",
         "display_name": "Song of the Sea 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:11:36.045596+00:00"
+        "planned_at": "2026-11-22T23:53:12.389605+00:00"
       },
       "previous_target_id": "30631275",
       "prepared": {
@@ -8690,6 +8690,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-10-30T10:45:24.686874+00:00",
         "relay_source_id": "21842659"
+      },
+      "claim": {
+        "worker_id": "be446ec733a84e51b540266216e00e4c-shard-0",
+        "claimed_at": "2026-11-22T23:53:13.937026+00:00",
+        "lease_expires_at": "2026-11-23T05:53:13.937026+00:00",
+        "run_id": "45063988883"
       }
     },
     "270": {
@@ -17016,13 +17022,6 @@
           "source_id": "33402050",
           "target_video_id": "30665578",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:05:39.245819+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33402050",
-          "target_video_id": "30665578",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:26:47.723361+00:00"
         },
         {
@@ -17031,6 +17030,13 @@
           "target_video_id": "30665578",
           "permanent": false,
           "attempted_at": "2026-11-22T22:11:37.787850+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33402050",
+          "target_video_id": "30665578",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:53:14.223040+00:00"
         }
       ],
       "last_plan": {
@@ -205987,7 +205993,13 @@
       "last_plan": {
         "source_id": "6846459",
         "display_name": "A Boyfriend for Christmas SD CZ Dabing",
-        "planned_at": "2026-11-22T23:53:08.922759+00:00"
+        "planned_at": "2026-11-22T23:53:12.804005+00:00"
+      },
+      "claim": {
+        "worker_id": "7524a6bed12a49d09d5e78c44cc416ee-shard-0",
+        "claimed_at": "2026-11-22T23:53:14.485394+00:00",
+        "lease_expires_at": "2026-11-23T05:53:14.485394+00:00",
+        "run_id": "45063988883"
       }
     },
     "21842": {
@@ -205997,7 +206009,12 @@
       "attempts": []
     },
     "3787": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "13761438",
+        "display_name": "Plus One 1080p CZ Dabing",
+        "planned_at": "2026-11-22T23:53:13.110290+00:00"
+      }
     },
     "4381": {
       "attempts": []
@@ -247632,5 +247649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:53:08.922777+00:00"
+  "updated_at": "2026-11-22T23:53:14.485426+00:00"
 }
