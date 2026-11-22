@@ -110105,13 +110105,6 @@
           "source_id": "35067153",
           "target_video_id": "30983691",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:42:53.427450+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35067153",
-          "target_video_id": "30983691",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:16:00.162968+00:00"
         },
         {
@@ -110120,6 +110113,13 @@
           "target_video_id": "30983691",
           "permanent": false,
           "attempted_at": "2026-11-22T04:01:12.573472+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35067153",
+          "target_video_id": "30983691",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:36:59.094415+00:00"
         }
       ],
       "last_plan": {
@@ -134260,7 +134260,7 @@
       "last_plan": {
         "source_id": "34902528",
         "display_name": "Lisáci-Mysáci a Sibenicák (Lišáci – Myšáci a Šibeničák) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:01:10.752103+00:00"
+        "planned_at": "2026-11-22T05:36:56.115344+00:00"
       },
       "previous_target_id": "30987386",
       "prepared": {
@@ -134268,6 +134268,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T04:28:24.558373+00:00",
         "relay_source_id": "34902528"
+      },
+      "claim": {
+        "worker_id": "eb08684d037b49ac94c48f246cc9db19-shard-0",
+        "claimed_at": "2026-11-22T05:36:57.848157+00:00",
+        "lease_expires_at": "2026-11-22T11:36:57.848157+00:00",
+        "run_id": "44961318741"
       }
     },
     "30560": {
@@ -199894,7 +199900,7 @@
       "last_plan": {
         "source_id": "11690197",
         "display_name": "Icebox SD CZ Dabing",
-        "planned_at": "2026-11-22T05:36:53.062314+00:00"
+        "planned_at": "2026-11-22T05:36:57.092428+00:00"
       }
     },
     "11133": {
@@ -242658,5 +242664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:36:53.062334+00:00"
+  "updated_at": "2026-11-22T05:36:59.094436+00:00"
 }
