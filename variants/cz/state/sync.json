@@ -108833,13 +108833,6 @@
           "source_id": "34783018",
           "target_video_id": "30983586",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:19:04.774563+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34783018",
-          "target_video_id": "30983586",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:51:27.131886+00:00"
         },
         {
@@ -108848,6 +108841,13 @@
           "target_video_id": "30983586",
           "permanent": false,
           "attempted_at": "2026-11-22T04:37:36.371495+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34783018",
+          "target_video_id": "30983586",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:14:59.400251+00:00"
         }
       ],
       "last_plan": {
@@ -122792,7 +122792,7 @@
       "last_plan": {
         "source_id": "35374576",
         "display_name": "The Wild Geese 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:37:34.104964+00:00"
+        "planned_at": "2026-11-22T06:14:57.665735+00:00"
       },
       "previous_target_id": "30985473",
       "prepared": {
@@ -122800,6 +122800,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T19:30:18.003095+00:00",
         "relay_source_id": "35374576"
+      },
+      "claim": {
+        "worker_id": "85d0cefbfc7e42219ae61ce0af39327c-shard-0",
+        "claimed_at": "2026-11-22T06:14:59.000152+00:00",
+        "lease_expires_at": "2026-11-22T12:14:59.000152+00:00",
+        "run_id": "44961318741"
       }
     },
     "22415": {
@@ -200226,7 +200232,7 @@
       "last_plan": {
         "source_id": "35231605",
         "display_name": "The Purple Plain 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:14:54.900102+00:00"
+        "planned_at": "2026-11-22T06:14:58.248689+00:00"
       }
     },
     "31685": {
@@ -242927,5 +242933,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:14:54.900121+00:00"
+  "updated_at": "2026-11-22T06:14:59.400270+00:00"
 }
