@@ -126881,13 +126881,6 @@
           "source_id": "34788727",
           "target_video_id": "30986265",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:29:10.962548+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788727",
-          "target_video_id": "30986265",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:00:56.179542+00:00"
         },
         {
@@ -126896,6 +126889,13 @@
           "target_video_id": "30986265",
           "permanent": false,
           "attempted_at": "2026-11-22T04:48:18.399667+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788727",
+          "target_video_id": "30986265",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:27:59.447038+00:00"
         }
       ],
       "last_plan": {
@@ -126909,12 +126909,6 @@
         "size_bytes": 741800000,
         "prepared_at": "2026-11-10T23:48:08.590355+00:00",
         "relay_source_id": "34788727"
-      },
-      "claim": {
-        "worker_id": "b2cce75e3fab434d9d5ffc4ae32ffa80-shard-0",
-        "claimed_at": "2026-11-22T06:27:54.456628+00:00",
-        "lease_expires_at": "2026-11-22T12:27:54.456628+00:00",
-        "run_id": "44961318741"
       }
     },
     "13340": {
@@ -133644,7 +133638,7 @@
       "last_plan": {
         "source_id": "34710904",
         "display_name": "O Nesytovi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:48:16.087361+00:00"
+        "planned_at": "2026-11-22T06:27:59.046153+00:00"
       },
       "previous_target_id": "30987301",
       "prepared": {
@@ -200269,17 +200263,19 @@
       "attempts": []
     },
     "15262": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34691742",
+          "target_video_id": "31245783",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:28:00.075685+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34691742",
         "display_name": "Headwinds (Des vents contraires) 1080p CZ Dabing",
         "planned_at": "2026-11-22T06:24:15.197134+00:00"
-      },
-      "claim": {
-        "worker_id": "946e6bf330bc45f7a409a11dea366a3d-shard-0",
-        "claimed_at": "2026-11-22T06:24:18.553384+00:00",
-        "lease_expires_at": "2026-11-22T12:24:18.553384+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31245783",
       "prepared": {
@@ -200300,7 +200296,7 @@
       "last_plan": {
         "source_id": "33956172",
         "display_name": "Barbie of Swan Lake 720p CZ Dabing",
-        "planned_at": "2026-11-22T06:27:53.630716+00:00"
+        "planned_at": "2026-11-22T06:27:59.813260+00:00"
       }
     },
     "14905": {
@@ -242980,5 +242976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:27:55.390946+00:00"
+  "updated_at": "2026-11-22T06:28:00.075709+00:00"
 }
