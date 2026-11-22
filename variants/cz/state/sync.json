@@ -106754,13 +106754,6 @@
           "source_id": "34882942",
           "target_video_id": "30979783",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:32:13.031086+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34882942",
-          "target_video_id": "30979783",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:12:01.918849+00:00"
         },
         {
@@ -106769,6 +106762,13 @@
           "target_video_id": "30979783",
           "permanent": false,
           "attempted_at": "2026-11-22T14:56:07.657867+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34882942",
+          "target_video_id": "30979783",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:18:15.930016+00:00"
         }
       ],
       "last_plan": {
@@ -125764,7 +125764,7 @@
       "last_plan": {
         "source_id": "34185758",
         "display_name": "I Like Movies 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:56:05.682676+00:00"
+        "planned_at": "2026-11-22T21:18:14.198488+00:00"
       },
       "previous_target_id": "30985889",
       "prepared": {
@@ -125772,6 +125772,12 @@
         "size_bytes": 6400000000,
         "prepared_at": "2026-11-10T22:27:01.361256+00:00",
         "relay_source_id": "34185758"
+      },
+      "claim": {
+        "worker_id": "9c070033eb3d49d6b2d63ad54b8f2164-shard-0",
+        "claimed_at": "2026-11-22T21:18:15.562202+00:00",
+        "lease_expires_at": "2026-11-23T03:18:15.562202+00:00",
+        "run_id": "45063988883"
       }
     },
     "28226": {
@@ -204656,7 +204662,7 @@
       "last_plan": {
         "source_id": "34473324",
         "display_name": "Duse 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:18:10.577290+00:00"
+        "planned_at": "2026-11-22T21:18:14.681460+00:00"
       }
     },
     "28263": {
@@ -246556,5 +246562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:18:10.953102+00:00"
+  "updated_at": "2026-11-22T21:18:15.930033+00:00"
 }
