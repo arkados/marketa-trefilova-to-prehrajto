@@ -110693,13 +110693,6 @@
           "source_id": "34788913",
           "target_video_id": "30983748",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:11:17.870220+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788913",
-          "target_video_id": "30983748",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:42:55.734730+00:00"
         },
         {
@@ -110708,6 +110701,13 @@
           "target_video_id": "30983748",
           "permanent": false,
           "attempted_at": "2026-11-22T04:29:46.792795+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788913",
+          "target_video_id": "30983748",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:07:06.135174+00:00"
         }
       ],
       "last_plan": {
@@ -135938,7 +135938,7 @@
       "last_plan": {
         "source_id": "34515639",
         "display_name": "Runaway (Útěk) (2025) 4K CZ Dabing",
-        "planned_at": "2026-11-22T04:29:46.168913+00:00"
+        "planned_at": "2026-11-22T06:07:04.173643+00:00"
       },
       "previous_target_id": "30987605",
       "prepared": {
@@ -135946,6 +135946,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T05:23:51.134886+00:00",
         "relay_source_id": "34515639"
+      },
+      "claim": {
+        "worker_id": "6be6e2b4dfcb41e58967ea2c11fbd979-shard-0",
+        "claimed_at": "2026-11-22T06:07:05.590740+00:00",
+        "lease_expires_at": "2026-11-22T12:07:05.590740+00:00",
+        "run_id": "44961318741"
       }
     },
     "25125": {
@@ -200181,7 +200187,7 @@
       "last_plan": {
         "source_id": "32366923",
         "display_name": "Líbáš jako ďábel 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:07:01.139763+00:00"
+        "planned_at": "2026-11-22T06:07:04.539265+00:00"
       }
     },
     "30848": {
@@ -242888,5 +242894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:07:01.139782+00:00"
+  "updated_at": "2026-11-22T06:07:06.135194+00:00"
 }
