@@ -198032,17 +198032,19 @@
       "attempts": []
     },
     "29744": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12912247",
+          "target_video_id": "31240252",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:58:16.021841+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12912247",
         "display_name": "Wedding March 4: Something Old, Something New SD CZ Dabing",
         "planned_at": "2026-11-22T00:56:26.673124+00:00"
-      },
-      "claim": {
-        "worker_id": "ab7a8dec7f5b430e8bc6be0608aee021-shard-0",
-        "claimed_at": "2026-11-22T00:56:27.858195+00:00",
-        "lease_expires_at": "2026-11-22T06:56:27.858195+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240252",
       "prepared": {
@@ -241124,5 +241126,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:58:12.531028+00:00"
+  "updated_at": "2026-11-22T00:58:16.021866+00:00"
 }
