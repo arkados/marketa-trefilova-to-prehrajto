@@ -111700,13 +111700,6 @@
           "source_id": "35073576",
           "target_video_id": "30983807",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:30:36.476592+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35073576",
-          "target_video_id": "30983807",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:10:20.976295+00:00"
         },
         {
@@ -111715,6 +111708,13 @@
           "target_video_id": "30983807",
           "permanent": false,
           "attempted_at": "2026-11-22T14:51:44.502856+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35073576",
+          "target_video_id": "30983807",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:16:44.431997+00:00"
         }
       ],
       "last_plan": {
@@ -136292,7 +136292,7 @@
       "last_plan": {
         "source_id": "34865840",
         "display_name": "Holka nebo kluk (Holka nebo kluk?) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:51:49.387588+00:00"
+        "planned_at": "2026-11-22T21:16:42.757170+00:00"
       },
       "previous_target_id": "30987641",
       "prepared": {
@@ -136300,6 +136300,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-11T05:32:42.655357+00:00",
         "relay_source_id": "34865840"
+      },
+      "claim": {
+        "worker_id": "51509653c46d4ae3850c00a924f7e1c6-shard-0",
+        "claimed_at": "2026-11-22T21:16:44.087928+00:00",
+        "lease_expires_at": "2026-11-23T03:16:44.087928+00:00",
+        "run_id": "45063988883"
       }
     },
     "14067": {
@@ -204650,7 +204656,7 @@
       "last_plan": {
         "source_id": "34473324",
         "display_name": "Duse 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:16:39.895895+00:00"
+        "planned_at": "2026-11-22T21:16:43.254907+00:00"
       }
     },
     "28263": {
@@ -246550,5 +246556,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:16:39.895912+00:00"
+  "updated_at": "2026-11-22T21:16:44.432013+00:00"
 }
