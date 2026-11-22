@@ -132156,7 +132156,7 @@
       "last_plan": {
         "source_id": "34746816",
         "display_name": "Krok do tmy (A Step into the Darkness) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:13:15.645909+00:00"
+        "planned_at": "2026-11-22T22:55:41.699601+00:00"
       },
       "previous_target_id": "30987081",
       "prepared": {
@@ -132164,6 +132164,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T03:35:16.197359+00:00",
         "relay_source_id": "34746816"
+      },
+      "claim": {
+        "worker_id": "cc8d472dfe024dfa9c623aea664a509b-shard-0",
+        "claimed_at": "2026-11-22T22:55:43.198889+00:00",
+        "lease_expires_at": "2026-11-23T04:55:43.198889+00:00",
+        "run_id": "45063988883"
       }
     },
     "21501": {
@@ -136149,13 +136155,6 @@
           "source_id": "33812946",
           "target_video_id": "30987632",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:06:49.993443+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33812946",
-          "target_video_id": "30987632",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:48:09.364861+00:00"
         },
         {
@@ -136164,6 +136163,13 @@
           "target_video_id": "30987632",
           "permanent": false,
           "attempted_at": "2026-11-22T21:13:16.979729+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33812946",
+          "target_video_id": "30987632",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:55:43.583988+00:00"
         }
       ],
       "last_plan": {
@@ -205501,17 +205507,19 @@
       }
     },
     "22296": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34493589",
+          "target_video_id": "31263498",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:55:43.827318+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34493589",
         "display_name": "From Noon till Three 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:52:25.712212+00:00"
-      },
-      "claim": {
-        "worker_id": "d7c8d08b14e34a9ba149eddb85e98198-shard-0",
-        "claimed_at": "2026-11-22T22:52:28.915268+00:00",
-        "lease_expires_at": "2026-11-23T04:52:28.915268+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31263498",
       "prepared": {
@@ -205532,7 +205540,7 @@
       "last_plan": {
         "source_id": "30835887",
         "display_name": "Mosley 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:55:38.830872+00:00"
+        "planned_at": "2026-11-22T22:55:42.113161+00:00"
       }
     },
     "29693": {
@@ -247267,5 +247275,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:55:38.830888+00:00"
+  "updated_at": "2026-11-22T22:55:43.827334+00:00"
 }
