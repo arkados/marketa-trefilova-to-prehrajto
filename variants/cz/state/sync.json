@@ -169634,13 +169634,6 @@
           "source_id": "25585197",
           "target_video_id": "31122892",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:11:50.388400+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25585197",
-          "target_video_id": "31122892",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:49:48.145579+00:00"
         },
         {
@@ -169649,12 +169642,19 @@
           "target_video_id": "31122892",
           "permanent": false,
           "attempted_at": "2026-11-22T07:34:18.697837+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25585197",
+          "target_video_id": "31122892",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:10:38.634046+00:00"
         }
       ],
       "last_plan": {
         "source_id": "25585197",
         "display_name": "Cooking with Love SD CZ Dabing",
-        "planned_at": "2026-11-22T07:34:12.961268+00:00"
+        "planned_at": "2026-11-22T09:10:35.547323+00:00"
       },
       "previous_target_id": "31122892",
       "prepared": {
@@ -201127,20 +201127,42 @@
       "last_plan": {
         "source_id": "34720714",
         "display_name": "Power 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:10:25.491883+00:00"
+        "planned_at": "2026-11-22T09:10:35.916779+00:00"
+      },
+      "claim": {
+        "worker_id": "d612dcc63573442ea20acf5695172d5d-shard-0",
+        "claimed_at": "2026-11-22T09:10:37.208302+00:00",
+        "lease_expires_at": "2026-11-22T15:10:37.208302+00:00",
+        "run_id": "44995678765"
       }
     },
     "23999": {
       "attempts": []
     },
     "30133": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29528129",
+        "display_name": "Restoration SD CZ Dabing",
+        "planned_at": "2026-11-22T09:10:36.134446+00:00"
+      },
+      "claim": {
+        "worker_id": "3bdaab45440b4079a866d1516c20c7c7-shard-0",
+        "claimed_at": "2026-11-22T09:10:37.430888+00:00",
+        "lease_expires_at": "2026-11-22T15:10:37.430888+00:00",
+        "run_id": "44995678765"
+      }
     },
     "11597": {
       "attempts": []
     },
     "14300": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34686084",
+        "display_name": "Love in Harmony Valley 1080p CZ Dabing",
+        "planned_at": "2026-11-22T09:10:36.352158+00:00"
+      }
     },
     "30632": {
       "attempts": []
@@ -243684,5 +243706,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:10:31.282906+00:00"
+  "updated_at": "2026-11-22T09:10:38.634066+00:00"
 }
