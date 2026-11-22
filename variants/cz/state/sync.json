@@ -203076,17 +203076,23 @@
       }
     },
     "27100": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31950649",
+          "reason": "Source detail has no authenticated download link; source_id=31950649",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:26:32.466956+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31950649",
         "display_name": "Madam President SD CZ Dabing",
         "planned_at": "2026-11-22T13:26:24.585309+00:00"
       },
-      "claim": {
-        "worker_id": "7c2945d895604b94a647c335c792e094-shard-0",
-        "claimed_at": "2026-11-22T13:26:27.706244+00:00",
-        "lease_expires_at": "2026-11-22T19:26:27.706244+00:00",
-        "run_id": "45016772727"
+      "source_repair_requested": {
+        "source_id": "31950649",
+        "requested_at": "2026-11-22T13:26:32.466940+00:00"
       }
     },
     "7557": {
@@ -245282,5 +245288,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:26:29.852382+00:00"
+  "updated_at": "2026-11-22T13:26:32.466964+00:00"
 }
