@@ -204561,17 +204561,19 @@
       "attempts": []
     },
     "24380": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30069934",
+          "target_video_id": "31261007",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:10:35.570713+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30069934",
         "display_name": "Animal Factory 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:06:00.454562+00:00"
-      },
-      "claim": {
-        "worker_id": "c09634b7d7734ce5876672b8fd6dbd8b-shard-0",
-        "claimed_at": "2026-11-22T21:06:04.333533+00:00",
-        "lease_expires_at": "2026-11-23T03:06:04.333533+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31261007",
       "prepared": {
@@ -246498,5 +246500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:10:33.053654+00:00"
+  "updated_at": "2026-11-22T21:10:35.570734+00:00"
 }
