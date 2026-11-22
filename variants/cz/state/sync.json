@@ -34377,13 +34377,6 @@
           "source_id": "35087204",
           "target_video_id": "30738724",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:42:07.047537+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35087204",
-          "target_video_id": "30738724",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:18:34.169721+00:00"
         },
         {
@@ -34392,6 +34385,13 @@
           "target_video_id": "30738724",
           "permanent": false,
           "attempted_at": "2026-11-22T10:57:33.366813+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35087204",
+          "target_video_id": "30738724",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:42:15.862804+00:00"
         }
       ],
       "last_plan": {
@@ -165935,7 +165935,7 @@
       "last_plan": {
         "source_id": "30715681",
         "display_name": "Beyond Outrage SD CZ Dabing",
-        "planned_at": "2026-11-22T10:57:33.037998+00:00"
+        "planned_at": "2026-11-22T12:42:14.208342+00:00"
       },
       "previous_target_id": "31107943",
       "prepared": {
@@ -165943,6 +165943,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-17T04:17:12.201947+00:00",
         "relay_source_id": "30715681"
+      },
+      "claim": {
+        "worker_id": "455d545e934a4222a29670e713d66c7d-shard-0",
+        "claimed_at": "2026-11-22T12:42:15.517546+00:00",
+        "lease_expires_at": "2026-11-22T18:42:15.517546+00:00",
+        "run_id": "45016772727"
       }
     },
     "28641": {
@@ -202702,7 +202708,7 @@
       "last_plan": {
         "source_id": "22548299",
         "display_name": "Koati SD CZ Dabing",
-        "planned_at": "2026-11-22T12:42:11.171171+00:00"
+        "planned_at": "2026-11-22T12:42:14.653647+00:00"
       }
     },
     "15131": {
@@ -244950,5 +244956,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:42:11.171189+00:00"
+  "updated_at": "2026-11-22T12:42:15.862822+00:00"
 }
