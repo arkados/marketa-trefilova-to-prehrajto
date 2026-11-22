@@ -123863,13 +123863,6 @@
           "source_id": "16256834",
           "target_video_id": "30985618",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:12:43.050890+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16256834",
-          "target_video_id": "30985618",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:54:35.791961+00:00"
         },
         {
@@ -123878,6 +123871,13 @@
           "target_video_id": "30985618",
           "permanent": false,
           "attempted_at": "2026-11-22T08:35:06.471696+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16256834",
+          "target_video_id": "30985618",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:11:50.013106+00:00"
         }
       ],
       "last_plan": {
@@ -130610,7 +130610,7 @@
       "last_plan": {
         "source_id": "27361344",
         "display_name": "The Very Late Afternoon of a Faun (Faunovo velmi pozdní odpoledne) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:35:06.130821+00:00"
+        "planned_at": "2026-11-22T10:11:47.797866+00:00"
       },
       "previous_target_id": "30986908",
       "prepared": {
@@ -130618,6 +130618,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T02:38:37.729548+00:00",
         "relay_source_id": "27361344"
+      },
+      "claim": {
+        "worker_id": "cdf7e24abf2a42e4bc2385836359fac7-shard-0",
+        "claimed_at": "2026-11-22T10:11:49.124701+00:00",
+        "lease_expires_at": "2026-11-22T16:11:49.124701+00:00",
+        "run_id": "44995678765"
       }
     },
     "2834": {
@@ -201619,7 +201625,7 @@
       "last_plan": {
         "source_id": "31011778",
         "display_name": "Nobody Likes Me (Nikdo mě nemá rád) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:11:44.538102+00:00"
+        "planned_at": "2026-11-22T10:11:48.181433+00:00"
       }
     },
     "22122": {
@@ -244065,5 +244071,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:11:45.091108+00:00"
+  "updated_at": "2026-11-22T10:11:50.013124+00:00"
 }
