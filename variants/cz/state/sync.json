@@ -54050,6 +54050,12 @@
         "size_bytes": 5400000000,
         "prepared_at": "2026-11-04T06:13:57.574294+00:00",
         "relay_source_id": "33925810"
+      },
+      "claim": {
+        "worker_id": "cd3ffcf05b09414190efd9dd395fe034-shard-0",
+        "claimed_at": "2026-11-22T20:35:35.671000+00:00",
+        "lease_expires_at": "2026-11-23T02:35:35.671000+00:00",
+        "run_id": "45063988883"
       }
     },
     "1790": {
@@ -134340,7 +134346,7 @@
       "last_plan": {
         "source_id": "34694077",
         "display_name": "V tomhle zámku strasí, séfe! (V tomhle zámku straší, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:10:53.976382+00:00"
+        "planned_at": "2026-11-22T20:35:35.964657+00:00"
       },
       "previous_target_id": "30987405",
       "prepared": {
@@ -142880,13 +142886,6 @@
           "source_id": "34920710",
           "target_video_id": "30988565",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:42:21.745421+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34920710",
-          "target_video_id": "30988565",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:29:51.612824+00:00"
         },
         {
@@ -142895,6 +142894,13 @@
           "target_video_id": "30988565",
           "permanent": false,
           "attempted_at": "2026-11-22T14:10:50.369959+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34920710",
+          "target_video_id": "30988565",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:35:35.428870+00:00"
         }
       ],
       "last_plan": {
@@ -142908,12 +142914,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T08:45:11.281145+00:00",
         "relay_source_id": "34920710"
-      },
-      "claim": {
-        "worker_id": "65c0607ed47f46f59a49233bf9cb19cb-shard-0",
-        "claimed_at": "2026-11-22T20:35:30.993879+00:00",
-        "lease_expires_at": "2026-11-23T02:35:30.993879+00:00",
-        "run_id": "45063988883"
       }
     },
     "22966": {
@@ -204397,7 +204397,7 @@
       "last_plan": {
         "source_id": "25410421",
         "display_name": "Something New 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:35:32.376860+00:00"
+        "planned_at": "2026-11-22T20:35:36.404072+00:00"
       }
     },
     "32622": {
@@ -246341,5 +246341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:35:32.376877+00:00"
+  "updated_at": "2026-11-22T20:35:36.404087+00:00"
 }
