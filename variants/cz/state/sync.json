@@ -121060,7 +121060,7 @@
       "last_plan": {
         "source_id": "23806861",
         "display_name": "Athena 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:08:50.954584+00:00"
+        "planned_at": "2026-11-22T01:41:56.781595+00:00"
       },
       "previous_target_id": "30985032",
       "prepared": {
@@ -121068,17 +121068,16 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T18:37:53.303604+00:00",
         "relay_source_id": "23806861"
+      },
+      "claim": {
+        "worker_id": "66b9ace1c9984adcb49d7e7ac45633f6-shard-0",
+        "claimed_at": "2026-11-22T01:41:57.965026+00:00",
+        "lease_expires_at": "2026-11-22T07:41:57.965026+00:00",
+        "run_id": "44959851294"
       }
     },
     "21120": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "34011156",
-          "target_video_id": "30985031",
-          "permanent": false,
-          "attempted_at": "2026-11-21T19:25:00.542175+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "34011156",
@@ -121092,6 +121091,13 @@
           "target_video_id": "30985031",
           "permanent": false,
           "attempted_at": "2026-11-22T00:08:52.448005+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34011156",
+          "target_video_id": "30985031",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:41:58.279281+00:00"
         }
       ],
       "last_plan": {
@@ -198536,7 +198542,7 @@
       "last_plan": {
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:41:53.804614+00:00"
+        "planned_at": "2026-11-22T01:41:57.209717+00:00"
       }
     },
     "21757": {
@@ -241513,5 +241519,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:41:53.804633+00:00"
+  "updated_at": "2026-11-22T01:41:58.279307+00:00"
 }
