@@ -47277,13 +47277,6 @@
           "source_id": "35147292",
           "target_video_id": "30771541",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:46:57.834743+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35147292",
-          "target_video_id": "30771541",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:19:54.073519+00:00"
         },
         {
@@ -47292,6 +47285,13 @@
           "target_video_id": "30771541",
           "permanent": false,
           "attempted_at": "2026-11-22T04:05:19.557579+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35147292",
+          "target_video_id": "30771541",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:41:31.830742+00:00"
         }
       ],
       "last_plan": {
@@ -118174,7 +118174,7 @@
       "last_plan": {
         "source_id": "34966653",
         "display_name": "City Slickers 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:05:17.438549+00:00"
+        "planned_at": "2026-11-22T05:41:30.157850+00:00"
       },
       "previous_target_id": "30984828",
       "prepared": {
@@ -118182,6 +118182,12 @@
         "size_bytes": 6100000000,
         "prepared_at": "2026-11-10T17:46:29.376787+00:00",
         "relay_source_id": "34966653"
+      },
+      "claim": {
+        "worker_id": "a4472a4ced4f44e4b2ef376357b6e49b-shard-0",
+        "claimed_at": "2026-11-22T05:41:31.318957+00:00",
+        "lease_expires_at": "2026-11-22T11:41:31.318957+00:00",
+        "run_id": "44961318741"
       }
     },
     "33216": {
@@ -199939,6 +199945,12 @@
         "source_id": "32575002",
         "display_name": "Teddy's Christmas (Teddybjørnens Jul) 1080p CZ Dabing",
         "planned_at": "2026-11-22T05:41:26.746554+00:00"
+      },
+      "claim": {
+        "worker_id": "4b016c9cbf9f45ff8761c91bcdb05cf4-shard-0",
+        "claimed_at": "2026-11-22T05:41:29.830259+00:00",
+        "lease_expires_at": "2026-11-22T11:41:29.830259+00:00",
+        "run_id": "44961318741"
       }
     },
     "22218": {
@@ -199952,7 +199964,7 @@
       "last_plan": {
         "source_id": "13693354",
         "display_name": "The Wedding March SD CZ Dabing",
-        "planned_at": "2026-11-22T05:41:26.965930+00:00"
+        "planned_at": "2026-11-22T05:41:30.560309+00:00"
       }
     },
     "3858": {
@@ -242698,5 +242710,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:41:26.965947+00:00"
+  "updated_at": "2026-11-22T05:41:31.830763+00:00"
 }
