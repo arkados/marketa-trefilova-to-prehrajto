@@ -19084,7 +19084,7 @@
       "last_plan": {
         "source_id": "30770919",
         "display_name": "Red River 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:21:34.824772+00:00"
+        "planned_at": "2026-11-22T01:54:41.569529+00:00"
       },
       "previous_target_id": "30675401",
       "prepared": {
@@ -197910,6 +197910,12 @@
         "size_bytes": 2899414869,
         "prepared_at": "2026-11-22T00:18:39.383144+00:00",
         "relay_source_id": "29858975"
+      },
+      "claim": {
+        "worker_id": "aa3b521cf3564bd5b008459972465b1a-shard-0",
+        "claimed_at": "2026-11-22T01:54:41.206051+00:00",
+        "lease_expires_at": "2026-11-22T07:54:41.206051+00:00",
+        "run_id": "44959851294"
       }
     },
     "12096": {
@@ -198613,17 +198619,19 @@
       "attempts": []
     },
     "4366": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20806597",
+          "target_video_id": "31241151",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:54:42.294689+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20806597",
         "display_name": "Conversations with God 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:51:02.614414+00:00"
-      },
-      "claim": {
-        "worker_id": "f2db235f8e7c46d4af656fa37a8de98b-shard-0",
-        "claimed_at": "2026-11-22T01:51:03.743325+00:00",
-        "lease_expires_at": "2026-11-22T07:51:03.743325+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31241151",
       "prepared": {
@@ -198638,7 +198646,7 @@
       "last_plan": {
         "source_id": "34687340",
         "display_name": "Sons of Ramses (Goutte d’Or) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:54:38.557416+00:00"
+        "planned_at": "2026-11-22T01:54:41.996146+00:00"
       }
     },
     "3732": {
@@ -241597,5 +241605,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:54:38.557434+00:00"
+  "updated_at": "2026-11-22T01:54:42.294735+00:00"
 }
