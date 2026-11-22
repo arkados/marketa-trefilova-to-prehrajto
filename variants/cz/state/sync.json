@@ -126294,6 +126294,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-10T23:16:23.373138+00:00",
         "relay_source_id": "12259425"
+      },
+      "claim": {
+        "worker_id": "931fc65eb06d44bbb2e36ef792fc9edf-shard-0",
+        "claimed_at": "2026-11-22T10:16:48.544903+00:00",
+        "lease_expires_at": "2026-11-22T16:16:48.544903+00:00",
+        "run_id": "44995678765"
       }
     },
     "2815": {
@@ -138723,13 +138729,6 @@
           "source_id": "34232902",
           "target_video_id": "30987888",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:19:12.713344+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34232902",
-          "target_video_id": "30987888",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:59:56.415095+00:00"
         },
         {
@@ -138738,6 +138737,13 @@
           "target_video_id": "30987888",
           "permanent": false,
           "attempted_at": "2026-11-22T08:40:11.758814+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34232902",
+          "target_video_id": "30987888",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:16:49.745389+00:00"
         }
       ],
       "last_plan": {
@@ -138751,12 +138757,6 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T06:36:30.381445+00:00",
         "relay_source_id": "34232902"
-      },
-      "claim": {
-        "worker_id": "0b476e2fd6474363994edb2b8ad4b3db-shard-0",
-        "claimed_at": "2026-11-22T10:16:45.128443+00:00",
-        "lease_expires_at": "2026-11-22T16:16:45.128443+00:00",
-        "run_id": "44995678765"
       }
     },
     "33517": {
@@ -195649,7 +195649,7 @@
       "last_plan": {
         "source_id": "27076574",
         "display_name": "Winter Castle SD CZ Dabing",
-        "planned_at": "2026-11-22T08:40:14.057119+00:00"
+        "planned_at": "2026-11-22T10:16:48.845469+00:00"
       },
       "previous_target_id": "31233679",
       "prepared": {
@@ -201662,7 +201662,7 @@
       "last_plan": {
         "source_id": "34658489",
         "display_name": "A Royal in Paradise (A Prince in Paradise) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:16:45.781734+00:00"
+        "planned_at": "2026-11-22T10:16:49.217141+00:00"
       }
     },
     "25844": {
@@ -244093,5 +244093,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:16:45.781752+00:00"
+  "updated_at": "2026-11-22T10:16:49.745413+00:00"
 }
