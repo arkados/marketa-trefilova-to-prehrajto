@@ -156357,13 +156357,6 @@
           "source_id": "30107992",
           "target_video_id": "31058652",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:42:10.291619+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30107992",
-          "target_video_id": "31058652",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:07:29.606289+00:00"
         },
         {
@@ -156372,6 +156365,13 @@
           "target_video_id": "31058652",
           "permanent": false,
           "attempted_at": "2026-11-22T21:47:40.544123+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30107992",
+          "target_video_id": "31058652",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:31:55.789759+00:00"
         }
       ],
       "last_plan": {
@@ -156385,12 +156385,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-15T11:04:30.659432+00:00",
         "relay_source_id": "30107992"
-      },
-      "claim": {
-        "worker_id": "8419493d68e84c2b9bbb3f1a4fa12799-shard-0",
-        "claimed_at": "2026-11-22T23:31:52.849965+00:00",
-        "lease_expires_at": "2026-11-23T05:31:52.849965+00:00",
-        "run_id": "45063988883"
       }
     },
     "14502": {
@@ -164755,7 +164749,7 @@
       "last_plan": {
         "source_id": "35124112",
         "display_name": "Martin a Venuse (Martin a Venuše) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:47:41.288169+00:00"
+        "planned_at": "2026-11-22T23:31:55.047810+00:00"
       },
       "previous_target_id": "31101208",
       "prepared": {
@@ -205821,11 +205815,16 @@
       "last_plan": {
         "source_id": "27633938",
         "display_name": "Shrink 720p CZ Dabing",
-        "planned_at": "2026-11-22T23:31:50.074532+00:00"
+        "planned_at": "2026-11-22T23:31:55.462875+00:00"
       }
     },
     "3724": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "19025291",
+        "display_name": "Respect 1080p CZ Dabing",
+        "planned_at": "2026-11-22T23:31:56.030843+00:00"
+      }
     },
     "29062": {
       "attempts": []
@@ -247496,5 +247495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:31:52.849987+00:00"
+  "updated_at": "2026-11-22T23:31:56.030863+00:00"
 }
