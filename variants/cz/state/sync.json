@@ -151756,13 +151756,6 @@
           "source_id": "31379562",
           "target_video_id": "31029839",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:08:56.473878+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31379562",
-          "target_video_id": "31029839",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:49:55.338742+00:00"
         },
         {
@@ -151771,12 +151764,19 @@
           "target_video_id": "31029839",
           "permanent": false,
           "attempted_at": "2026-11-22T20:15:20.149182+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31379562",
+          "target_video_id": "31029839",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:56:28.723450+00:00"
         }
       ],
       "last_plan": {
         "source_id": "31379562",
         "display_name": "How Honza Almost Became a King (Honza málem králem) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:15:15.223291+00:00"
+        "planned_at": "2026-11-22T21:56:25.755212+00:00"
       },
       "previous_target_id": "31029839",
       "prepared": {
@@ -205042,11 +205042,22 @@
       "last_plan": {
         "source_id": "33693929",
         "display_name": "Yentl 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:56:18.463048+00:00"
+        "planned_at": "2026-11-22T21:56:26.184090+00:00"
+      },
+      "claim": {
+        "worker_id": "85bcdf6503154ed0aac7a81e1c48606e-shard-0",
+        "claimed_at": "2026-11-22T21:56:27.414384+00:00",
+        "lease_expires_at": "2026-11-23T03:56:27.414384+00:00",
+        "run_id": "45063988883"
       }
     },
     "23951": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34783745",
+        "display_name": "Paulie 1080p CZ Dabing",
+        "planned_at": "2026-11-22T21:56:26.447084+00:00"
+      }
     },
     "18736": {
       "attempts": []
@@ -246864,5 +246875,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:56:23.293721+00:00"
+  "updated_at": "2026-11-22T21:56:28.723467+00:00"
 }
