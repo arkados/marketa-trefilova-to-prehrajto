@@ -205989,17 +205989,19 @@
       }
     },
     "34812": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6846459",
+          "target_video_id": "31265152",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:55:54.404386+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6846459",
         "display_name": "A Boyfriend for Christmas SD CZ Dabing",
         "planned_at": "2026-11-22T23:53:12.804005+00:00"
-      },
-      "claim": {
-        "worker_id": "7524a6bed12a49d09d5e78c44cc416ee-shard-0",
-        "claimed_at": "2026-11-22T23:53:14.485394+00:00",
-        "lease_expires_at": "2026-11-23T05:53:14.485394+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31265152",
       "prepared": {
@@ -247674,5 +247676,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:55:52.189896+00:00"
+  "updated_at": "2026-11-22T23:55:54.404402+00:00"
 }
