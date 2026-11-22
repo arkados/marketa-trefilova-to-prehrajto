@@ -107543,13 +107543,6 @@
           "source_id": "30260482",
           "target_video_id": "30983120",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:16:00.988709+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30260482",
-          "target_video_id": "30983120",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:55:36.289360+00:00"
         },
         {
@@ -107558,12 +107551,19 @@
           "target_video_id": "30983120",
           "permanent": false,
           "attempted_at": "2026-11-22T11:37:54.853153+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30260482",
+          "target_video_id": "30983120",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:17:51.499534+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30260482",
         "display_name": "The High Wall SD CZ Dabing",
-        "planned_at": "2026-11-22T11:37:49.527439+00:00"
+        "planned_at": "2026-11-22T13:17:48.113160+00:00"
       },
       "previous_target_id": "30983120",
       "prepared": {
@@ -202964,17 +202964,39 @@
       "last_plan": {
         "source_id": "34849030",
         "display_name": "Helene 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:17:38.095000+00:00"
+        "planned_at": "2026-11-22T13:17:48.517461+00:00"
+      },
+      "claim": {
+        "worker_id": "b8d7a8e4cd6647b3bcc0e5e2a32e83bb-shard-0",
+        "claimed_at": "2026-11-22T13:17:49.861886+00:00",
+        "lease_expires_at": "2026-11-22T19:17:49.861886+00:00",
+        "run_id": "45016772727"
       }
     },
     "25309": {
       "attempts": []
     },
     "16563": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34695001",
+        "display_name": "27 Nights (27 noches) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T13:17:48.759829+00:00"
+      },
+      "claim": {
+        "worker_id": "156f840e456d4d4aa3026433b7c0529d-shard-0",
+        "claimed_at": "2026-11-22T13:17:50.096067+00:00",
+        "lease_expires_at": "2026-11-22T19:17:50.096067+00:00",
+        "run_id": "45016772727"
+      }
     },
     "15964": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30624615",
+        "display_name": "The Hypnosis (Hypnosen) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T13:17:49.000441+00:00"
+      }
     },
     "16761": {
       "attempts": []
@@ -245170,5 +245192,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:17:43.987213+00:00"
+  "updated_at": "2026-11-22T13:17:51.499551+00:00"
 }
