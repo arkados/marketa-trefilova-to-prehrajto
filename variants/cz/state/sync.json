@@ -112491,13 +112491,6 @@
           "source_id": "12261609",
           "target_video_id": "30983900",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:43:28.315491+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12261609",
-          "target_video_id": "30983900",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:08:43.239348+00:00"
         },
         {
@@ -112506,6 +112499,13 @@
           "target_video_id": "30983900",
           "permanent": false,
           "attempted_at": "2026-11-22T21:48:58.832095+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12261609",
+          "target_video_id": "30983900",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:33:17.741949+00:00"
         }
       ],
       "last_plan": {
@@ -112519,12 +112519,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T15:01:27.595214+00:00",
         "relay_source_id": "12261609"
-      },
-      "claim": {
-        "worker_id": "5cf1b566eb3445da96656c44a8e2fa41-shard-0",
-        "claimed_at": "2026-11-22T23:33:12.570393+00:00",
-        "lease_expires_at": "2026-11-23T05:33:12.570393+00:00",
-        "run_id": "45063988883"
       }
     },
     "30376": {
@@ -203461,7 +203455,7 @@
       "last_plan": {
         "source_id": "6298132",
         "display_name": "Andělská tvář SD CZ Dabing",
-        "planned_at": "2026-11-22T21:49:03.134745+00:00"
+        "planned_at": "2026-11-22T23:33:15.288485+00:00"
       },
       "previous_target_id": "31253535",
       "prepared": {
@@ -203469,6 +203463,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-22T13:42:00.545381+00:00",
         "relay_source_id": "6298132"
+      },
+      "claim": {
+        "worker_id": "9387bb48000d47d0a41a3557c7376319-shard-0",
+        "claimed_at": "2026-11-22T23:33:16.796886+00:00",
+        "lease_expires_at": "2026-11-23T05:33:16.796886+00:00",
+        "run_id": "45063988883"
       }
     },
     "29107": {
@@ -205842,7 +205842,7 @@
       "last_plan": {
         "source_id": "19025291",
         "display_name": "Respect 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:33:11.809735+00:00"
+        "planned_at": "2026-11-22T23:33:15.778740+00:00"
       }
     },
     "29062": {
@@ -247514,5 +247514,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:33:13.122947+00:00"
+  "updated_at": "2026-11-22T23:33:17.741964+00:00"
 }
