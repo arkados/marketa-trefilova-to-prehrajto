@@ -110339,13 +110339,6 @@
           "source_id": "34634766",
           "target_video_id": "30983705",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:23:13.243452+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34634766",
-          "target_video_id": "30983705",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:09:08.639667+00:00"
         },
         {
@@ -110354,6 +110347,13 @@
           "target_video_id": "30983705",
           "permanent": false,
           "attempted_at": "2026-11-22T05:45:19.804182+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34634766",
+          "target_video_id": "30983705",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:31:34.338886+00:00"
         }
       ],
       "last_plan": {
@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:45:20.067984+00:00"
+        "planned_at": "2026-11-22T07:31:32.081235+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -184751,6 +184751,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-20T12:45:59.029491+00:00",
         "relay_source_id": "33707550"
+      },
+      "claim": {
+        "worker_id": "bc1b310995a94366842b6ffccffd74ee-shard-0",
+        "claimed_at": "2026-11-22T07:31:33.205612+00:00",
+        "lease_expires_at": "2026-11-22T13:31:33.205612+00:00",
+        "run_id": "44995678765"
       }
     },
     "33591": {
@@ -200715,7 +200721,7 @@
       "last_plan": {
         "source_id": "23115609",
         "display_name": "Iron Will 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:31:28.928322+00:00"
+        "planned_at": "2026-11-22T07:31:32.481893+00:00"
       }
     },
     "28587": {
@@ -243317,5 +243323,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:31:29.249388+00:00"
+  "updated_at": "2026-11-22T07:31:34.338904+00:00"
 }
