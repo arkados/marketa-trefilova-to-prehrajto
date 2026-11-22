@@ -143819,6 +143819,12 @@
         "size_bytes": 3600000000,
         "prepared_at": "2026-11-11T09:09:57.760866+00:00",
         "relay_source_id": "17325368"
+      },
+      "claim": {
+        "worker_id": "a5338df7e6d1494eabcb1f270b3d8efd-shard-0",
+        "claimed_at": "2026-11-22T01:24:27.932204+00:00",
+        "lease_expires_at": "2026-11-22T07:24:27.932204+00:00",
+        "run_id": "44959851294"
       }
     },
     "33665": {
@@ -195167,7 +195173,7 @@
       "last_plan": {
         "source_id": "34527907",
         "display_name": "Sezn@mka 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:51:48.613958+00:00"
+        "planned_at": "2026-11-22T01:24:28.235168+00:00"
       },
       "previous_target_id": "31233132",
       "prepared": {
@@ -198327,17 +198333,19 @@
       }
     },
     "19946": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11360810",
+          "target_video_id": "31240655",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:24:29.365614+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11360810",
         "display_name": "The Young Karl Marx (Le jeune Karl Marx) SD CZ Dabing",
         "planned_at": "2026-11-22T01:23:14.865293+00:00"
-      },
-      "claim": {
-        "worker_id": "93cfb17d831940f7bd810da46d583a59-shard-0",
-        "claimed_at": "2026-11-22T01:23:17.991887+00:00",
-        "lease_expires_at": "2026-11-22T07:23:17.991887+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240655",
       "prepared": {
@@ -198358,7 +198366,7 @@
       "last_plan": {
         "source_id": "34359676",
         "display_name": "The Berlin File (BeLeulLin) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:24:25.452612+00:00"
+        "planned_at": "2026-11-22T01:24:28.678065+00:00"
       }
     },
     "21672": {
@@ -241362,5 +241370,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:24:25.452632+00:00"
+  "updated_at": "2026-11-22T01:24:29.365636+00:00"
 }
