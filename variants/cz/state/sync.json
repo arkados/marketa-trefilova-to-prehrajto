@@ -202403,17 +202403,19 @@
       }
     },
     "26070": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34024151",
+          "target_video_id": "31251437",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:55:37.543078+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34024151",
         "display_name": "The Robber Bride SD CZ Dabing",
         "planned_at": "2026-11-22T11:54:24.820690+00:00"
-      },
-      "claim": {
-        "worker_id": "9c26135c259b4c78924886d889879e01-shard-0",
-        "claimed_at": "2026-11-22T11:54:26.394399+00:00",
-        "lease_expires_at": "2026-11-22T17:54:26.394399+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31251437",
       "prepared": {
@@ -244748,5 +244750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:55:34.480823+00:00"
+  "updated_at": "2026-11-22T11:55:37.543100+00:00"
 }
