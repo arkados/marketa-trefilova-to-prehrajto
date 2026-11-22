@@ -117285,7 +117285,7 @@
       "last_plan": {
         "source_id": "34711260",
         "display_name": "The Mandalorian and Grogu 4K CZ Dabing",
-        "planned_at": "2026-11-22T21:35:16.243555+00:00"
+        "planned_at": "2026-11-22T21:35:20.549621+00:00"
       },
       "previous_target_id": "30984755",
       "prepared": {
@@ -204791,17 +204791,19 @@
       }
     },
     "4001": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34418685",
+          "target_video_id": "31261564",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:35:21.217929+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34418685",
         "display_name": "The Pirate Fairy (Tinker Bell and the Pirate Fairy) 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:31:53.714452+00:00"
-      },
-      "claim": {
-        "worker_id": "b95276f563cd4df09ef58c102c9583e5-shard-0",
-        "claimed_at": "2026-11-22T21:31:57.448617+00:00",
-        "lease_expires_at": "2026-11-23T03:31:57.448617+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31261564",
       "prepared": {
@@ -246695,5 +246697,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:35:16.799070+00:00"
+  "updated_at": "2026-11-22T21:35:21.217952+00:00"
 }
