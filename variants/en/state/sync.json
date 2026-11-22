@@ -1787,6 +1787,12 @@
         "size_bytes": 35700000000,
         "prepared_at": "2026-10-28T23:45:04.154960+00:00",
         "relay_source_id": "33013175"
+      },
+      "claim": {
+        "worker_id": "dc186cd6ba514df0b012a0b72accd290-shard-0",
+        "claimed_at": "2026-11-22T08:21:14.115499+00:00",
+        "lease_expires_at": "2026-11-22T14:21:14.115499+00:00",
+        "run_id": "44995678765"
       }
     },
     "125": {
@@ -7280,7 +7286,7 @@
       "last_plan": {
         "source_id": "28240998",
         "display_name": "Poor Things 1080p CZ titulky",
-        "planned_at": "2026-11-22T07:51:00.163605+00:00"
+        "planned_at": "2026-11-22T08:21:14.940739+00:00"
       },
       "previous_target_id": "30664033",
       "prepared": {
@@ -11370,13 +11376,6 @@
           "source_id": "13881903",
           "target_video_id": "30745166",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:49:46.250596+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13881903",
-          "target_video_id": "30745166",
-          "permanent": false,
           "attempted_at": "2026-11-22T07:20:43.215038+00:00"
         },
         {
@@ -11385,6 +11384,13 @@
           "target_video_id": "30745166",
           "permanent": false,
           "attempted_at": "2026-11-22T07:50:56.460558+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13881903",
+          "target_video_id": "30745166",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:21:14.024182+00:00"
         }
       ],
       "last_plan": {
@@ -11398,12 +11404,6 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-02T23:48:48.234894+00:00",
         "relay_source_id": "13881903"
-      },
-      "claim": {
-        "worker_id": "8b62b28e3c22426f8df88606caa09051-shard-0",
-        "claimed_at": "2026-11-22T08:21:10.171533+00:00",
-        "lease_expires_at": "2026-11-22T14:21:10.171533+00:00",
-        "run_id": "44995678765"
       }
     },
     "938": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:21:10.998042+00:00"
+  "updated_at": "2026-11-22T08:21:14.940752+00:00"
 }
