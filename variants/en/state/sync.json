@@ -1779,7 +1779,7 @@
       "last_plan": {
         "source_id": "33013175",
         "display_name": "Braveheart 4K CZ titulky",
-        "planned_at": "2026-11-21T23:36:12.872589+00:00"
+        "planned_at": "2026-11-22T00:06:21.617528+00:00"
       },
       "previous_target_id": "30597835",
       "prepared": {
@@ -11398,6 +11398,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-02T23:48:48.234894+00:00",
         "relay_source_id": "13881903"
+      },
+      "claim": {
+        "worker_id": "d2d115e0172e4193956f035008cb64d2-shard-0",
+        "claimed_at": "2026-11-22T00:06:20.622425+00:00",
+        "lease_expires_at": "2026-11-22T06:06:20.622425+00:00",
+        "run_id": "44959851294"
       }
     },
     "938": {
@@ -22850,13 +22856,6 @@
           "source_id": "26365359",
           "target_video_id": "30988430",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:00:43.083277+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26365359",
-          "target_video_id": "30988430",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:05:55.761799+00:00"
         },
         {
@@ -22865,6 +22864,13 @@
           "target_video_id": "30988430",
           "permanent": false,
           "attempted_at": "2026-11-21T23:36:03.584737+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26365359",
+          "target_video_id": "30988430",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:06:21.103017+00:00"
         }
       ],
       "last_plan": {
@@ -22878,12 +22884,6 @@
         "size_bytes": 13500000000,
         "prepared_at": "2026-11-11T08:26:55.170536+00:00",
         "relay_source_id": "26365359"
-      },
-      "claim": {
-        "worker_id": "9c056a28926b43bc8e80db7c0bd2b33d-shard-0",
-        "claimed_at": "2026-11-22T00:06:17.083263+00:00",
-        "lease_expires_at": "2026-11-22T06:06:17.083263+00:00",
-        "run_id": "44959851294"
       }
     },
     "27052": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:06:17.922911+00:00"
+  "updated_at": "2026-11-22T00:06:21.617542+00:00"
 }
