@@ -122988,6 +122988,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T19:35:48.490593+00:00",
         "relay_source_id": "32965631"
+      },
+      "claim": {
+        "worker_id": "edf30e35c40a4c41a904ff110b3de1f4-shard-0",
+        "claimed_at": "2026-11-22T06:54:16.028740+00:00",
+        "lease_expires_at": "2026-11-22T12:54:16.028740+00:00",
+        "run_id": "44961318741"
       }
     },
     "32312": {
@@ -132673,7 +132679,7 @@
       "last_plan": {
         "source_id": "34715074",
         "display_name": "Grandpa, Kylian and I (Dědeček, Kyliján a já) SD CZ Dabing",
-        "planned_at": "2026-11-22T05:12:23.790119+00:00"
+        "planned_at": "2026-11-22T06:54:16.302214+00:00"
       },
       "previous_target_id": "30987142",
       "prepared": {
@@ -138646,13 +138652,6 @@
           "source_id": "34399715",
           "target_video_id": "30987880",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:52:26.754522+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34399715",
-          "target_video_id": "30987880",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:37:36.198203+00:00"
         },
         {
@@ -138661,6 +138660,13 @@
           "target_video_id": "30987880",
           "permanent": false,
           "attempted_at": "2026-11-22T05:12:19.929369+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34399715",
+          "target_video_id": "30987880",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:54:16.962196+00:00"
         }
       ],
       "last_plan": {
@@ -138674,12 +138680,6 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T06:32:54.593013+00:00",
         "relay_source_id": "34399715"
-      },
-      "claim": {
-        "worker_id": "c01d3a4b8c5f42b2937fa3d0377518ab-shard-0",
-        "claimed_at": "2026-11-22T06:54:12.383474+00:00",
-        "lease_expires_at": "2026-11-22T12:54:12.383474+00:00",
-        "run_id": "44961318741"
       }
     },
     "15438": {
@@ -200467,7 +200467,7 @@
       "last_plan": {
         "source_id": "33393819",
         "display_name": "Monster High: Ghouls Rule 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:54:13.010895+00:00"
+        "planned_at": "2026-11-22T06:54:16.652232+00:00"
       }
     },
     "22281": {
@@ -243120,5 +243120,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:54:13.010916+00:00"
+  "updated_at": "2026-11-22T06:54:16.962228+00:00"
 }
