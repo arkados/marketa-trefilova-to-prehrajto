@@ -114966,7 +114966,7 @@
       "last_plan": {
         "source_id": "31650158",
         "display_name": "Cruel Intentions 4K CZ Dabing",
-        "planned_at": "2026-11-22T13:51:08.926145+00:00"
+        "planned_at": "2026-11-22T20:16:33.807393+00:00"
       },
       "previous_target_id": "30984298",
       "prepared": {
@@ -144108,6 +144108,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-11T09:31:20.378523+00:00",
         "relay_source_id": "33480789"
+      },
+      "claim": {
+        "worker_id": "79c1b7c91481496288ef8781a877a075-shard-0",
+        "claimed_at": "2026-11-22T20:16:33.513419+00:00",
+        "lease_expires_at": "2026-11-23T02:16:33.513419+00:00",
+        "run_id": "45063988883"
       }
     },
     "17093": {
@@ -204237,17 +204243,19 @@
       }
     },
     "20496": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7260126",
+          "target_video_id": "31260065",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:16:35.057773+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7260126",
         "display_name": "The Hollars SD CZ Dabing",
         "planned_at": "2026-11-22T20:15:00.923934+00:00"
-      },
-      "claim": {
-        "worker_id": "d676d5c4955142b49d50a5ca380442b6-shard-0",
-        "claimed_at": "2026-11-22T20:15:04.908015+00:00",
-        "lease_expires_at": "2026-11-23T02:15:04.908015+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31260065",
       "prepared": {
@@ -204262,7 +204270,7 @@
       "last_plan": {
         "source_id": "30810266",
         "display_name": "Carbon (Carbone) SD CZ Dabing",
-        "planned_at": "2026-11-22T20:16:30.865592+00:00"
+        "planned_at": "2026-11-22T20:16:34.232805+00:00"
       }
     },
     "15075": {
@@ -246216,5 +246224,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:16:30.865607+00:00"
+  "updated_at": "2026-11-22T20:16:35.057789+00:00"
 }
