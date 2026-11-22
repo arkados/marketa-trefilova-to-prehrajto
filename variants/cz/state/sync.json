@@ -117947,13 +117947,6 @@
           "source_id": "28241125",
           "target_video_id": "30984812",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:59:09.844463+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28241125",
-          "target_video_id": "30984812",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:21:46.852859+00:00"
         },
         {
@@ -117962,6 +117955,13 @@
           "target_video_id": "30984812",
           "permanent": false,
           "attempted_at": "2026-11-22T22:06:44.266422+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28241125",
+          "target_video_id": "30984812",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:48:26.566349+00:00"
         }
       ],
       "last_plan": {
@@ -117975,12 +117975,6 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T17:43:36.279407+00:00",
         "relay_source_id": "28241125"
-      },
-      "claim": {
-        "worker_id": "c1c740a7c93d43df8ddeaf898701229b-shard-0",
-        "claimed_at": "2026-11-22T23:48:20.539400+00:00",
-        "lease_expires_at": "2026-11-23T05:48:20.539400+00:00",
-        "run_id": "45063988883"
       }
     },
     "3103": {
@@ -205902,17 +205896,19 @@
       "attempts": []
     },
     "4287": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34521534",
+          "target_video_id": "31264955",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:48:26.833006+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34521534",
         "display_name": "Hold-Up 1080p CZ Dabing",
         "planned_at": "2026-11-22T23:44:57.397833+00:00"
-      },
-      "claim": {
-        "worker_id": "fd7e4150c2a94666b13f3c6f7208475a-shard-0",
-        "claimed_at": "2026-11-22T23:45:00.936917+00:00",
-        "lease_expires_at": "2026-11-23T05:45:00.936917+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31264955",
       "prepared": {
@@ -247584,5 +247580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:48:24.262565+00:00"
+  "updated_at": "2026-11-22T23:48:26.833029+00:00"
 }
