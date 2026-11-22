@@ -113009,6 +113009,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T15:05:48.048860+00:00",
         "relay_source_id": "33709201"
+      },
+      "claim": {
+        "worker_id": "4588bb590e5e41c3a5eb8a7cb3371c11-shard-0",
+        "claimed_at": "2026-11-22T23:51:21.886424+00:00",
+        "lease_expires_at": "2026-11-23T05:51:21.886424+00:00",
+        "run_id": "45063988883"
       }
     },
     "28909": {
@@ -131762,7 +131768,7 @@
       "last_plan": {
         "source_id": "34696372",
         "display_name": "Pat a Mat again in action (Pat & Mat znovu v akci) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:09:48.698884+00:00"
+        "planned_at": "2026-11-22T23:51:22.201446+00:00"
       },
       "previous_target_id": "30987013",
       "prepared": {
@@ -139061,13 +139067,6 @@
           "source_id": "35211860",
           "target_video_id": "30987913",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:02:41.835077+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35211860",
-          "target_video_id": "30987913",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:24:46.191527+00:00"
         },
         {
@@ -139076,6 +139075,13 @@
           "target_video_id": "30987913",
           "permanent": false,
           "attempted_at": "2026-11-22T22:09:46.080153+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35211860",
+          "target_video_id": "30987913",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:51:21.643580+00:00"
         }
       ],
       "last_plan": {
@@ -139089,12 +139095,6 @@
         "size_bytes": 3700000000,
         "prepared_at": "2026-11-11T06:45:15.963502+00:00",
         "relay_source_id": "35211860"
-      },
-      "claim": {
-        "worker_id": "6aed2d215c2a494eaee66935edbc8a6f-shard-0",
-        "claimed_at": "2026-11-22T23:51:18.100857+00:00",
-        "lease_expires_at": "2026-11-23T05:51:18.100857+00:00",
-        "run_id": "45063988883"
       }
     },
     "16725": {
@@ -205964,7 +205964,7 @@
       "last_plan": {
         "source_id": "30409381",
         "display_name": "Life Hits SD CZ Dabing",
-        "planned_at": "2026-11-22T23:51:18.818130+00:00"
+        "planned_at": "2026-11-22T23:51:22.611745+00:00"
       }
     },
     "34812": {
@@ -247612,5 +247612,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:51:18.818145+00:00"
+  "updated_at": "2026-11-22T23:51:22.611759+00:00"
 }
