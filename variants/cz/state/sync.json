@@ -109495,13 +109495,6 @@
           "source_id": "35072913",
           "target_video_id": "30983665",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:16:52.287416+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35072913",
-          "target_video_id": "30983665",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:22:29.279349+00:00"
         },
         {
@@ -109510,6 +109503,13 @@
           "target_video_id": "30983665",
           "permanent": false,
           "attempted_at": "2026-11-22T01:55:39.223055+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35072913",
+          "target_video_id": "30983665",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:40:45.063924+00:00"
         }
       ],
       "last_plan": {
@@ -156377,7 +156377,7 @@
       "last_plan": {
         "source_id": "30107992",
         "display_name": "Dreamers (Zoufalci) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:55:38.403148+00:00"
+        "planned_at": "2026-11-22T03:40:43.063553+00:00"
       },
       "previous_target_id": "31058652",
       "prepared": {
@@ -156385,6 +156385,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-15T11:04:30.659432+00:00",
         "relay_source_id": "30107992"
+      },
+      "claim": {
+        "worker_id": "1fe3d7cd01ce4c0f830928d7294dd933-shard-0",
+        "claimed_at": "2026-11-22T03:40:44.009407+00:00",
+        "lease_expires_at": "2026-11-22T09:40:44.009407+00:00",
+        "run_id": "44961318741"
       }
     },
     "14502": {
@@ -199321,7 +199327,7 @@
       "last_plan": {
         "source_id": "12603217",
         "display_name": "ACAB – All Cops Are Bastards (A.C.A.B. - All Cops Are Bastards) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:40:39.683671+00:00"
+        "planned_at": "2026-11-22T03:40:43.431430+00:00"
       }
     },
     "10913": {
@@ -242181,5 +242187,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:40:39.958754+00:00"
+  "updated_at": "2026-11-22T03:40:45.063942+00:00"
 }
