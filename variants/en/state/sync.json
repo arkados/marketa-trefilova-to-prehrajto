@@ -1759,13 +1759,6 @@
           "source_id": "33013175",
           "target_video_id": "30597835",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:51:03.272461+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33013175",
-          "target_video_id": "30597835",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:21:18.957871+00:00"
         },
         {
@@ -1774,6 +1767,13 @@
           "target_video_id": "30597835",
           "permanent": false,
           "attempted_at": "2026-11-22T08:51:58.677935+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33013175",
+          "target_video_id": "30597835",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:22:08.789166+00:00"
         }
       ],
       "last_plan": {
@@ -1787,12 +1787,6 @@
         "size_bytes": 35700000000,
         "prepared_at": "2026-10-28T23:45:04.154960+00:00",
         "relay_source_id": "33013175"
-      },
-      "claim": {
-        "worker_id": "62f310f82a4f4a54bd29f9b16b6741fc-shard-0",
-        "claimed_at": "2026-11-22T09:22:03.556800+00:00",
-        "lease_expires_at": "2026-11-22T15:22:03.556800+00:00",
-        "run_id": "44995678765"
       }
     },
     "125": {
@@ -6833,7 +6827,7 @@
       "last_plan": {
         "source_id": "29667772",
         "display_name": "Star Wars: Episode III – Revenge of the Sith (Star Wars: Episode III - Revenge of the Sith) 1080p CZ titulky",
-        "planned_at": "2026-11-22T08:52:03.237655+00:00"
+        "planned_at": "2026-11-22T09:22:07.963149+00:00"
       },
       "previous_target_id": "30661597",
       "prepared": {
@@ -6841,6 +6835,12 @@
         "size_bytes": 8700000000,
         "prepared_at": "2026-10-31T08:34:47.262597+00:00",
         "relay_source_id": "29667772"
+      },
+      "claim": {
+        "worker_id": "0fdce5b321154f658423f07bbf589261-shard-0",
+        "claimed_at": "2026-11-22T09:22:08.551472+00:00",
+        "lease_expires_at": "2026-11-22T15:22:08.551472+00:00",
+        "run_id": "44995678765"
       }
     },
     "655": {
@@ -7294,6 +7294,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-10-31T11:06:21.476853+00:00",
         "relay_source_id": "28240998"
+      },
+      "claim": {
+        "worker_id": "5c30ae1241034c348d3f6800a3f1b6a5-shard-0",
+        "claimed_at": "2026-11-22T09:22:07.183876+00:00",
+        "lease_expires_at": "2026-11-22T15:22:07.183876+00:00",
+        "run_id": "44995678765"
       }
     },
     "606": {
@@ -100857,5 +100863,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:22:04.394017+00:00"
+  "updated_at": "2026-11-22T09:22:08.789185+00:00"
 }
