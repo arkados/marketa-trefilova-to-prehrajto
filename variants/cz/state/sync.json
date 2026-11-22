@@ -133480,13 +133480,6 @@
           "source_id": "30864230",
           "target_video_id": "30987287",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:04:30.936431+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30864230",
-          "target_video_id": "30987287",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:45:51.367861+00:00"
         },
         {
@@ -133495,6 +133488,13 @@
           "target_video_id": "30987287",
           "permanent": false,
           "attempted_at": "2026-11-22T21:10:32.683634+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30864230",
+          "target_video_id": "30987287",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:53:20.974094+00:00"
         }
       ],
       "last_plan": {
@@ -204742,7 +204742,7 @@
       "last_plan": {
         "source_id": "30069934",
         "display_name": "Animal Factory 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:06:00.454562+00:00"
+        "planned_at": "2026-11-22T22:53:18.603942+00:00"
       },
       "previous_target_id": "31261007",
       "prepared": {
@@ -204750,6 +204750,12 @@
         "size_bytes": 4476384044,
         "prepared_at": "2026-11-22T21:06:08.653880+00:00",
         "relay_source_id": "30069934"
+      },
+      "claim": {
+        "worker_id": "d42dbefb8d1840af861b079e3bd55ef7-shard-0",
+        "claimed_at": "2026-11-22T22:53:21.362876+00:00",
+        "lease_expires_at": "2026-11-23T04:53:21.362876+00:00",
+        "run_id": "45063988883"
       }
     },
     "4044": {
@@ -205526,7 +205532,7 @@
       "last_plan": {
         "source_id": "30835887",
         "display_name": "Mosley 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:53:14.936801+00:00"
+        "planned_at": "2026-11-22T22:53:19.352017+00:00"
       }
     },
     "29693": {
@@ -247261,5 +247267,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:53:14.936833+00:00"
+  "updated_at": "2026-11-22T22:53:21.362904+00:00"
 }
