@@ -122576,7 +122576,7 @@
       "last_plan": {
         "source_id": "12796812",
         "display_name": "T-34 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:22:23.233683+00:00"
+        "planned_at": "2026-11-22T00:52:33.201293+00:00"
       },
       "previous_target_id": "30985447",
       "prepared": {
@@ -122584,6 +122584,12 @@
         "size_bytes": 4800000000,
         "prepared_at": "2026-11-10T19:21:11.920073+00:00",
         "relay_source_id": "12796812"
+      },
+      "claim": {
+        "worker_id": "86f48a445560405cbe876bca2b475db1-shard-0",
+        "claimed_at": "2026-11-22T00:52:34.291846+00:00",
+        "lease_expires_at": "2026-11-22T06:52:34.291846+00:00",
+        "run_id": "44959851294"
       }
     },
     "23448": {
@@ -124146,6 +124152,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T20:58:28.408510+00:00",
         "relay_source_id": "32499158"
+      },
+      "claim": {
+        "worker_id": "4d0462b70b624a15b3b4a5a763e5ec62-shard-0",
+        "claimed_at": "2026-11-22T00:52:32.870909+00:00",
+        "lease_expires_at": "2026-11-22T06:52:32.870909+00:00",
+        "run_id": "44959851294"
       }
     },
     "2981": {
@@ -197944,17 +197956,19 @@
       "attempts": []
     },
     "23410": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27047112",
+          "target_video_id": "31240036",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:52:34.888293+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27047112",
         "display_name": "Only the Strong 1080p CZ Dabing",
         "planned_at": "2026-11-22T00:42:56.847947+00:00"
-      },
-      "claim": {
-        "worker_id": "b885388c66764cc2a70e65da92596a9e-shard-0",
-        "claimed_at": "2026-11-22T00:42:58.348922+00:00",
-        "lease_expires_at": "2026-11-22T06:42:58.348922+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240036",
       "prepared": {
@@ -197975,7 +197989,7 @@
       "last_plan": {
         "source_id": "24513483",
         "display_name": "Drive (1997) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:52:30.152206+00:00"
+        "planned_at": "2026-11-22T00:52:33.635140+00:00"
       }
     },
     "4561": {
@@ -241060,5 +241074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:52:30.470400+00:00"
+  "updated_at": "2026-11-22T00:52:34.888314+00:00"
 }
