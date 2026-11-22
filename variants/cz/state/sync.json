@@ -107611,6 +107611,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T13:52:34.466559+00:00",
         "relay_source_id": "34883971"
+      },
+      "claim": {
+        "worker_id": "fb099f70d0da483689683b7e6efc652b-shard-0",
+        "claimed_at": "2026-11-22T11:38:35.811487+00:00",
+        "lease_expires_at": "2026-11-22T17:38:35.811487+00:00",
+        "run_id": "45016772727"
       }
     },
     "30300": {
@@ -132408,7 +132414,7 @@
       "last_plan": {
         "source_id": "34734279",
         "display_name": "Její pastorkyně 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:56:25.135090+00:00"
+        "planned_at": "2026-11-22T11:38:36.097613+00:00"
       },
       "previous_target_id": "30987118",
       "prepared": {
@@ -202260,17 +202266,19 @@
       }
     },
     "15307": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29799963",
+          "target_video_id": "31251103",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:38:36.395908+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29799963",
         "display_name": "CBGB 1080p CZ Dabing",
         "planned_at": "2026-11-22T11:35:15.790802+00:00"
-      },
-      "claim": {
-        "worker_id": "3b043f21cc8e4707b83c7177b86c5f99-shard-0",
-        "claimed_at": "2026-11-22T11:35:16.975179+00:00",
-        "lease_expires_at": "2026-11-22T17:35:16.975179+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31251103",
       "prepared": {
@@ -244617,5 +244625,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:38:33.340700+00:00"
+  "updated_at": "2026-11-22T11:38:36.395926+00:00"
 }
