@@ -200810,17 +200810,19 @@
       "attempts": []
     },
     "9792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31514006",
+          "target_video_id": "31247177",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:55:22.196203+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31514006",
         "display_name": "Far Too Personal (Príliš osobná známosť) 1080p CZ Dabing",
         "planned_at": "2026-11-22T07:52:15.044393+00:00"
-      },
-      "claim": {
-        "worker_id": "3202096006684bddb64246a40773841c-shard-0",
-        "claimed_at": "2026-11-22T07:52:18.714006+00:00",
-        "lease_expires_at": "2026-11-22T13:52:18.714006+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31247177",
       "prepared": {
@@ -243425,5 +243427,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:55:19.028063+00:00"
+  "updated_at": "2026-11-22T07:55:22.196227+00:00"
 }
