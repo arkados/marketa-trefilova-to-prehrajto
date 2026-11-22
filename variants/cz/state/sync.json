@@ -119884,13 +119884,6 @@
           "source_id": "24662573",
           "target_video_id": "30984966",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:59:11.896840+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24662573",
-          "target_video_id": "30984966",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:43:53.334183+00:00"
         },
         {
@@ -119899,6 +119892,13 @@
           "target_video_id": "30984966",
           "permanent": false,
           "attempted_at": "2026-11-22T14:27:54.118964+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24662573",
+          "target_video_id": "30984966",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:49:03.134039+00:00"
         }
       ],
       "last_plan": {
@@ -129841,7 +129841,7 @@
       "last_plan": {
         "source_id": "30726013",
         "display_name": "Solitude (Einvera) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:27:53.207736+00:00"
+        "planned_at": "2026-11-22T20:49:01.149474+00:00"
       },
       "previous_target_id": "30986834",
       "prepared": {
@@ -129849,6 +129849,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T02:17:39.609117+00:00",
         "relay_source_id": "30726013"
+      },
+      "claim": {
+        "worker_id": "e6a82b1c41a0409c9604485ec83cc58d-shard-0",
+        "claimed_at": "2026-11-22T20:49:02.734767+00:00",
+        "lease_expires_at": "2026-11-23T02:49:02.734767+00:00",
+        "run_id": "45063988883"
       }
     },
     "18985": {
@@ -204449,7 +204455,13 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:48:58.043547+00:00"
+        "planned_at": "2026-11-22T20:49:01.554052+00:00"
+      },
+      "claim": {
+        "worker_id": "f752aad89f21499d8226545fef74260e-shard-0",
+        "claimed_at": "2026-11-22T20:49:03.378070+00:00",
+        "lease_expires_at": "2026-11-23T02:49:03.378070+00:00",
+        "run_id": "45063988883"
       }
     },
     "3710": {
@@ -204459,7 +204471,12 @@
       "attempts": []
     },
     "32718": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30588020",
+        "display_name": "Destination Gobi 1080p CZ Dabing",
+        "planned_at": "2026-11-22T20:49:01.906231+00:00"
+      }
     },
     "13988": {
       "attempts": []
@@ -246382,5 +246399,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:48:58.043564+00:00"
+  "updated_at": "2026-11-22T20:49:03.378098+00:00"
 }
