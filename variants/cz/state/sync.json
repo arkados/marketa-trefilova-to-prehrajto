@@ -111063,13 +111063,6 @@
           "source_id": "25235773",
           "target_video_id": "30983777",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:15:32.238365+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25235773",
-          "target_video_id": "30983777",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:47:08.156756+00:00"
         },
         {
@@ -111078,6 +111071,13 @@
           "target_video_id": "30983777",
           "permanent": false,
           "attempted_at": "2026-11-22T04:33:59.208292+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25235773",
+          "target_video_id": "30983777",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:11:26.447145+00:00"
         }
       ],
       "last_plan": {
@@ -149728,7 +149728,7 @@
       "last_plan": {
         "source_id": "35428437",
         "display_name": "Péril blanc 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:33:58.363685+00:00"
+        "planned_at": "2026-11-22T06:11:24.571693+00:00"
       },
       "previous_target_id": "31020067",
       "prepared": {
@@ -149736,6 +149736,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-13T22:19:40.902331+00:00",
         "relay_source_id": "35428437"
+      },
+      "claim": {
+        "worker_id": "c058cd1d3ad14e6b821bc99238230b70-shard-0",
+        "claimed_at": "2026-11-22T06:11:25.684223+00:00",
+        "lease_expires_at": "2026-11-22T12:11:25.684223+00:00",
+        "run_id": "44961318741"
       }
     },
     "23213": {
@@ -200213,7 +200219,7 @@
       "last_plan": {
         "source_id": "35231605",
         "display_name": "The Purple Plain 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:11:21.797120+00:00"
+        "planned_at": "2026-11-22T06:11:24.942972+00:00"
       }
     },
     "31685": {
@@ -242914,5 +242920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:11:21.797139+00:00"
+  "updated_at": "2026-11-22T06:11:26.447163+00:00"
 }
