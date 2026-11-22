@@ -131117,13 +131117,6 @@
           "source_id": "33705422",
           "target_video_id": "30986954",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:54:53.393647+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33705422",
-          "target_video_id": "30986954",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:31:28.129671+00:00"
         },
         {
@@ -131132,6 +131125,13 @@
           "target_video_id": "30986954",
           "permanent": false,
           "attempted_at": "2026-11-22T11:10:12.563306+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33705422",
+          "target_video_id": "30986954",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:55:18.618785+00:00"
         }
       ],
       "last_plan": {
@@ -202138,7 +202138,7 @@
       "last_plan": {
         "source_id": "22520185",
         "display_name": "Paris 36 (Faubourg 36) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:03:50.644247+00:00"
+        "planned_at": "2026-11-22T12:55:16.621397+00:00"
       },
       "previous_target_id": "31250585",
       "prepared": {
@@ -202146,6 +202146,12 @@
         "size_bytes": 3791793706,
         "prepared_at": "2026-11-22T11:03:56.242759+00:00",
         "relay_source_id": "22520185"
+      },
+      "claim": {
+        "worker_id": "470e12d91cbd42efa952d4faf4585e3a-shard-0",
+        "claimed_at": "2026-11-22T12:55:18.067959+00:00",
+        "lease_expires_at": "2026-11-22T18:55:18.067959+00:00",
+        "run_id": "45016772727"
       }
     },
     "17200": {
@@ -202792,7 +202798,13 @@
       "last_plan": {
         "source_id": "33478515",
         "display_name": "Je suis timide mais je me soigne (Je suis timide... mais je me soigne) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:55:13.276284+00:00"
+        "planned_at": "2026-11-22T12:55:17.020535+00:00"
+      },
+      "claim": {
+        "worker_id": "8752c636a31047b586fb418588e2c13b-shard-0",
+        "claimed_at": "2026-11-22T12:55:18.373259+00:00",
+        "lease_expires_at": "2026-11-22T18:55:18.373259+00:00",
+        "run_id": "45016772727"
       }
     },
     "15156": {
@@ -202803,7 +202815,7 @@
       "last_plan": {
         "source_id": "35074245",
         "display_name": "Suspect 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:54:32.339929+00:00"
+        "planned_at": "2026-11-22T12:55:17.314565+00:00"
       }
     },
     "3611": {
@@ -245021,5 +245033,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:55:13.276300+00:00"
+  "updated_at": "2026-11-22T12:55:18.618801+00:00"
 }
