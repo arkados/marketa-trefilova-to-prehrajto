@@ -166337,6 +166337,12 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-11-17T05:58:14.226533+00:00",
         "relay_source_id": "34847633"
+      },
+      "claim": {
+        "worker_id": "dc36d7a9fe96470d802f56e70983425b-shard-0",
+        "claimed_at": "2026-11-22T01:42:44.501341+00:00",
+        "lease_expires_at": "2026-11-22T07:42:44.501341+00:00",
+        "run_id": "44959851294"
       }
     },
     "10752": {
@@ -184491,7 +184497,7 @@
       "last_plan": {
         "source_id": "35184481",
         "display_name": "State of Emergency (Výjimečný stav) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:09:38.318349+00:00"
+        "planned_at": "2026-11-22T01:42:45.247838+00:00"
       },
       "previous_target_id": "31203819",
       "prepared": {
@@ -198511,17 +198517,19 @@
       }
     },
     "21478": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34823184",
+          "target_video_id": "31240939",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:42:45.938531+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34823184",
         "display_name": "La Tour, prends garde ! (King on Horseback) 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:38:23.273891+00:00"
-      },
-      "claim": {
-        "worker_id": "18262917cef049358cb9fc63daff775e-shard-0",
-        "claimed_at": "2026-11-22T01:38:26.535571+00:00",
-        "lease_expires_at": "2026-11-22T07:38:26.535571+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240939",
       "prepared": {
@@ -198536,7 +198544,7 @@
       "last_plan": {
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:42:41.224945+00:00"
+        "planned_at": "2026-11-22T01:42:45.645230+00:00"
       }
     },
     "21757": {
@@ -241513,5 +241521,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:42:41.224965+00:00"
+  "updated_at": "2026-11-22T01:42:45.938553+00:00"
 }
