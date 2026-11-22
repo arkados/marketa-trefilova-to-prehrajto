@@ -120491,13 +120491,6 @@
           "source_id": "25263125",
           "target_video_id": "30985003",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:25:16.379594+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25263125",
-          "target_video_id": "30985003",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:07:34.390537+00:00"
         },
         {
@@ -120506,6 +120499,13 @@
           "target_video_id": "30985003",
           "permanent": false,
           "attempted_at": "2026-11-22T09:44:19.249927+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25263125",
+          "target_video_id": "30985003",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:28:28.141528+00:00"
         }
       ],
       "last_plan": {
@@ -201487,17 +201487,23 @@
           "attempted_at": "2026-11-22T09:44:21.768877+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34782274",
-        "display_name": "Ciało 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:41:18.407379+00:00"
-      },
       "previous_target_id": "31248970",
-      "prepared": {
+      "upload": {
         "target_video_id": "31248970",
-        "size_bytes": 2097124559,
-        "prepared_at": "2026-11-22T09:41:26.156737+00:00",
-        "relay_source_id": "34782274"
+        "display_name": "Ciało 1080p CZ Dabing",
+        "source_id": "34782274",
+        "source_url": "https://sdilej.cz/34782274/telo-2003-.mp4",
+        "source_filename": "Tělo (2003).mp4",
+        "size_bytes": 2100000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9903882145881653,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/cialo-1080p-cz-dabing-mp4/43e571e72bbe5d98",
+        "uploaded_at": "2026-11-22T11:28:28.426406+00:00"
       }
     },
     "14255": {
@@ -202161,11 +202167,22 @@
       "last_plan": {
         "source_id": "32312701",
         "display_name": "The Case of the Dead Deadman (Případ mrtvého nebožtíka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:28:22.409084+00:00"
+        "planned_at": "2026-11-22T11:28:25.992737+00:00"
+      },
+      "claim": {
+        "worker_id": "5106193dc76841619af5c3b9163d6262-shard-0",
+        "claimed_at": "2026-11-22T11:28:27.145922+00:00",
+        "lease_expires_at": "2026-11-22T17:28:27.145922+00:00",
+        "run_id": "45016772727"
       }
     },
     "15767": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34879723",
+        "display_name": "Words and Pictures SD CZ Dabing",
+        "planned_at": "2026-11-22T11:28:26.234738+00:00"
+      }
     },
     "32397": {
       "attempts": []
@@ -244508,5 +244525,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:28:22.409101+00:00"
+  "updated_at": "2026-11-22T11:28:28.426423+00:00"
 }
