@@ -110379,13 +110379,6 @@
           "source_id": "35139243",
           "target_video_id": "30983706",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:19:46.022199+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35139243",
-          "target_video_id": "30983706",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:50:33.977630+00:00"
         },
         {
@@ -110394,6 +110387,13 @@
           "target_video_id": "30983706",
           "permanent": false,
           "attempted_at": "2026-11-22T02:23:21.310627+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35139243",
+          "target_video_id": "30983706",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:09:16.380419+00:00"
         }
       ],
       "last_plan": {
@@ -144248,7 +144248,7 @@
       "last_plan": {
         "source_id": "30864267",
         "display_name": "Srdečný pozdrav ze zeměkoule 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:23:22.069397+00:00"
+        "planned_at": "2026-11-22T04:09:14.740414+00:00"
       },
       "previous_target_id": "30988779",
       "prepared": {
@@ -144256,6 +144256,12 @@
         "size_bytes": 3000000000,
         "prepared_at": "2026-11-11T09:56:19.579893+00:00",
         "relay_source_id": "30864267"
+      },
+      "claim": {
+        "worker_id": "64970b1b08b44f4888ce0c224d450b8b-shard-0",
+        "claimed_at": "2026-11-22T04:09:15.696227+00:00",
+        "lease_expires_at": "2026-11-22T10:09:15.696227+00:00",
+        "run_id": "44961318741"
       }
     },
     "32807": {
@@ -199437,7 +199443,7 @@
       "last_plan": {
         "source_id": "21817964",
         "display_name": "Blue Miracle 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:09:11.181418+00:00"
+        "planned_at": "2026-11-22T04:09:15.102787+00:00"
       }
     },
     "34761": {
@@ -242279,5 +242285,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:09:11.462944+00:00"
+  "updated_at": "2026-11-22T04:09:16.380436+00:00"
 }
