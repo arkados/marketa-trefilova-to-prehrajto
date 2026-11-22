@@ -107543,13 +107543,6 @@
           "source_id": "30260482",
           "target_video_id": "30983120",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:34:36.853648+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30260482",
-          "target_video_id": "30983120",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:21:34.512080+00:00"
         },
         {
@@ -107558,12 +107551,19 @@
           "target_video_id": "30983120",
           "permanent": false,
           "attempted_at": "2026-11-22T04:56:10.256089+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30260482",
+          "target_video_id": "30983120",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:34:04.341566+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30260482",
         "display_name": "The High Wall SD CZ Dabing",
-        "planned_at": "2026-11-22T04:56:05.603232+00:00"
+        "planned_at": "2026-11-22T06:34:00.870407+00:00"
       },
       "previous_target_id": "30983120",
       "prepared": {
@@ -200337,14 +200337,25 @@
       "last_plan": {
         "source_id": "29955764",
         "display_name": "Remote Danger (Secrets in the Wilderness) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:33:51.397061+00:00"
+        "planned_at": "2026-11-22T06:34:01.292821+00:00"
+      },
+      "claim": {
+        "worker_id": "78849852ea814f359deeeb170a140d17-shard-0",
+        "claimed_at": "2026-11-22T06:34:02.329280+00:00",
+        "lease_expires_at": "2026-11-22T12:34:02.329280+00:00",
+        "run_id": "44961318741"
       }
     },
     "34620": {
       "attempts": []
     },
     "21778": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28518613",
+        "display_name": "Tjorven och Skrållan (Tjorven and Skrallan) SD CZ Dabing",
+        "planned_at": "2026-11-22T06:34:01.664580+00:00"
+      }
     },
     "29720": {
       "attempts": []
@@ -243014,5 +243025,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:33:57.884004+00:00"
+  "updated_at": "2026-11-22T06:34:04.341584+00:00"
 }
