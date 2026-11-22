@@ -135807,13 +135807,6 @@
           "source_id": "34660671",
           "target_video_id": "30987601",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:46:56.056898+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34660671",
-          "target_video_id": "30987601",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:26:06.875008+00:00"
         },
         {
@@ -135822,6 +135815,13 @@
           "target_video_id": "30987601",
           "permanent": false,
           "attempted_at": "2026-11-22T11:03:10.865878+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34660671",
+          "target_video_id": "30987601",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:47:01.135029+00:00"
         }
       ],
       "last_plan": {
@@ -143417,7 +143417,7 @@
       "last_plan": {
         "source_id": "34945151",
         "display_name": "Warriors of Faith 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:03:19.015763+00:00"
+        "planned_at": "2026-11-22T12:46:58.966274+00:00"
       },
       "previous_target_id": "30988616",
       "prepared": {
@@ -143425,6 +143425,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T08:57:29.900122+00:00",
         "relay_source_id": "34945151"
+      },
+      "claim": {
+        "worker_id": "63ee19fb082e43e694414f4ca0001dad-shard-0",
+        "claimed_at": "2026-11-22T12:47:00.227113+00:00",
+        "lease_expires_at": "2026-11-22T18:47:00.227113+00:00",
+        "run_id": "45016772727"
       }
     },
     "12778": {
@@ -202714,7 +202720,7 @@
       "last_plan": {
         "source_id": "22548299",
         "display_name": "Koati SD CZ Dabing",
-        "planned_at": "2026-11-22T12:46:55.786992+00:00"
+        "planned_at": "2026-11-22T12:46:59.396402+00:00"
       }
     },
     "15131": {
@@ -244962,5 +244968,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:46:55.787008+00:00"
+  "updated_at": "2026-11-22T12:47:01.135068+00:00"
 }
