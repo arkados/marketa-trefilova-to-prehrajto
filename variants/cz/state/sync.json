@@ -123977,13 +123977,6 @@
           "source_id": "29575212",
           "target_video_id": "30985633",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:40:29.415509+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29575212",
-          "target_video_id": "30985633",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:28:01.856463+00:00"
         },
         {
@@ -123992,6 +123985,13 @@
           "target_video_id": "30985633",
           "permanent": false,
           "attempted_at": "2026-11-22T14:09:03.865697+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29575212",
+          "target_video_id": "30985633",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:31:21.621650+00:00"
         }
       ],
       "last_plan": {
@@ -134377,7 +134377,7 @@
       "last_plan": {
         "source_id": "30626666",
         "display_name": "Konec cesty SD CZ Dabing",
-        "planned_at": "2026-11-22T14:09:02.188283+00:00"
+        "planned_at": "2026-11-22T20:31:19.924854+00:00"
       },
       "previous_target_id": "30987409",
       "prepared": {
@@ -134385,6 +134385,12 @@
         "size_bytes": 986400000,
         "prepared_at": "2026-11-11T04:33:42.133116+00:00",
         "relay_source_id": "30626666"
+      },
+      "claim": {
+        "worker_id": "c1aa937ed5f2457f917f66349c3dfc51-shard-0",
+        "claimed_at": "2026-11-22T20:31:21.287722+00:00",
+        "lease_expires_at": "2026-11-23T02:31:21.287722+00:00",
+        "run_id": "45063988883"
       }
     },
     "16221": {
@@ -204383,7 +204389,7 @@
       "last_plan": {
         "source_id": "25410421",
         "display_name": "Something New 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:31:16.978454+00:00"
+        "planned_at": "2026-11-22T20:31:20.407151+00:00"
       }
     },
     "32622": {
@@ -246322,5 +246328,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:31:16.978474+00:00"
+  "updated_at": "2026-11-22T20:31:21.621668+00:00"
 }
