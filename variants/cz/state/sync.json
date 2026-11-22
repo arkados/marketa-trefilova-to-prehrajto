@@ -110886,7 +110886,7 @@
       "last_plan": {
         "source_id": "32367221",
         "display_name": "Oznamuje se láskám vasim (Oznamuje se láskám vašim) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:53:31.574508+00:00"
+        "planned_at": "2026-11-22T12:53:35.451750+00:00"
       },
       "previous_target_id": "30983754",
       "prepared": {
@@ -110894,6 +110894,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T14:44:13.701234+00:00",
         "relay_source_id": "32367221"
+      },
+      "claim": {
+        "worker_id": "62810e7dc2ef448d801dcc323351f5fe-shard-0",
+        "claimed_at": "2026-11-22T12:53:36.692718+00:00",
+        "lease_expires_at": "2026-11-22T18:53:36.692718+00:00",
+        "run_id": "45016772727"
       }
     },
     "16531": {
@@ -202762,17 +202768,19 @@
       "attempts": []
     },
     "17025": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19551789",
+          "target_video_id": "31252661",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:53:37.991701+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19551789",
         "display_name": "Love Locks 1080p CZ Dabing",
         "planned_at": "2026-11-22T12:50:42.468259+00:00"
-      },
-      "claim": {
-        "worker_id": "888fc1db8c5d44fa8ff7f9274dff78c0-shard-0",
-        "claimed_at": "2026-11-22T12:50:45.780872+00:00",
-        "lease_expires_at": "2026-11-22T18:50:45.780872+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31252661",
       "prepared": {
@@ -202790,7 +202798,7 @@
       "last_plan": {
         "source_id": "33478515",
         "display_name": "Je suis timide mais je me soigne (Je suis timide... mais je me soigne) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:53:32.037312+00:00"
+        "planned_at": "2026-11-22T12:53:35.852736+00:00"
       }
     },
     "15156": {
@@ -245014,5 +245022,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:53:32.037329+00:00"
+  "updated_at": "2026-11-22T12:53:37.991719+00:00"
 }
