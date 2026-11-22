@@ -121965,6 +121965,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-10T19:07:07.102095+00:00",
         "relay_source_id": "28233220"
+      },
+      "claim": {
+        "worker_id": "067cd57eb067494ca4e4c09ba294c475-shard-0",
+        "claimed_at": "2026-11-22T13:25:49.483330+00:00",
+        "lease_expires_at": "2026-11-22T19:25:49.483330+00:00",
+        "run_id": "45016772727"
       }
     },
     "3082": {
@@ -134756,7 +134762,7 @@
       "last_plan": {
         "source_id": "34689799",
         "display_name": "Černá sobota 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:42:01.334079+00:00"
+        "planned_at": "2026-11-22T13:25:49.776067+00:00"
       },
       "previous_target_id": "30987492",
       "prepared": {
@@ -136478,13 +136484,6 @@
           "source_id": "31576573",
           "target_video_id": "30987678",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:22:51.201872+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31576573",
-          "target_video_id": "30987678",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:59:32.139453+00:00"
         },
         {
@@ -136493,6 +136492,13 @@
           "target_video_id": "30987678",
           "permanent": false,
           "attempted_at": "2026-11-22T11:41:53.135095+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31576573",
+          "target_video_id": "30987678",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:25:49.245509+00:00"
         }
       ],
       "last_plan": {
@@ -136506,12 +136512,6 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T05:38:28.572475+00:00",
         "relay_source_id": "31576573"
-      },
-      "claim": {
-        "worker_id": "b6fb963a4e8a4ceab5f3b5714051ae27-shard-0",
-        "claimed_at": "2026-11-22T13:25:44.974873+00:00",
-        "lease_expires_at": "2026-11-22T19:25:44.974873+00:00",
-        "run_id": "45016772727"
       }
     },
     "24177": {
@@ -203054,7 +203054,7 @@
       "last_plan": {
         "source_id": "30135308",
         "display_name": "Just in Time for Christmas 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:25:46.597500+00:00"
+        "planned_at": "2026-11-22T13:25:50.175529+00:00"
       }
     },
     "27100": {
@@ -245253,5 +245253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:25:46.597515+00:00"
+  "updated_at": "2026-11-22T13:25:50.175544+00:00"
 }
