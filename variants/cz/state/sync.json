@@ -8650,6 +8650,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "27ccffc59b0842389240bcc9a1dcdffd-shard-0",
+        "claimed_at": "2026-11-22T12:15:27.661409+00:00",
+        "lease_expires_at": "2026-11-22T18:15:27.661409+00:00",
+        "run_id": "45016772727"
       }
     },
     "29922": {
@@ -139024,13 +139030,6 @@
           "source_id": "31912060",
           "target_video_id": "30987909",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:14:24.472245+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31912060",
-          "target_video_id": "30987909",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:56:09.976832+00:00"
         },
         {
@@ -139039,12 +139038,19 @@
           "target_video_id": "30987909",
           "permanent": false,
           "attempted_at": "2026-11-22T10:32:21.677613+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31912060",
+          "target_video_id": "30987909",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:15:32.834354+00:00"
         }
       ],
       "last_plan": {
         "source_id": "31912060",
         "display_name": "Dry Season (Sucho) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:32:14.634112+00:00"
+        "planned_at": "2026-11-22T12:15:27.969932+00:00"
       },
       "previous_target_id": "30987909",
       "prepared": {
@@ -202551,7 +202557,7 @@
       "last_plan": {
         "source_id": "24777557",
         "display_name": "Plaza Suite SD CZ Dabing",
-        "planned_at": "2026-11-22T12:15:24.375908+00:00"
+        "planned_at": "2026-11-22T12:15:28.398857+00:00"
       }
     },
     "21872": {
@@ -244826,5 +244832,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:15:24.763715+00:00"
+  "updated_at": "2026-11-22T12:15:32.834372+00:00"
 }
