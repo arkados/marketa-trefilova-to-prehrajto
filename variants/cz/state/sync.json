@@ -110903,13 +110903,6 @@
           "source_id": "35095604",
           "target_video_id": "30983770",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:32:39.900259+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35095604",
-          "target_video_id": "30983770",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:10:00.199432+00:00"
         },
         {
@@ -110918,6 +110911,13 @@
           "target_video_id": "30983770",
           "permanent": false,
           "attempted_at": "2026-11-22T07:55:14.039063+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35095604",
+          "target_video_id": "30983770",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:31:47.811362+00:00"
         }
       ],
       "last_plan": {
@@ -110931,12 +110931,6 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:45:08.279822+00:00",
         "relay_source_id": "35095604"
-      },
-      "claim": {
-        "worker_id": "e19bc63110ce41818dc8fea60b52fd6e-shard-0",
-        "claimed_at": "2026-11-22T09:31:44.579364+00:00",
-        "lease_expires_at": "2026-11-22T15:31:44.579364+00:00",
-        "run_id": "44995678765"
       }
     },
     "2154": {
@@ -143586,7 +143580,7 @@
       "last_plan": {
         "source_id": "30256707",
         "display_name": "Tři chlapi v chalupě SD CZ Dabing",
-        "planned_at": "2026-11-22T07:55:13.362530+00:00"
+        "planned_at": "2026-11-22T09:31:47.090875+00:00"
       },
       "previous_target_id": "30988639",
       "prepared": {
@@ -201305,17 +201299,19 @@
       "attempts": []
     },
     "9685": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12119955",
+          "target_video_id": "31248747",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:31:48.372093+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12119955",
         "display_name": "The Swan Princess: Kingdom of Music 1080p CZ Dabing",
         "planned_at": "2026-11-22T09:27:59.800946+00:00"
-      },
-      "claim": {
-        "worker_id": "8df03dc580fa4611a4f7f531241131c2-shard-0",
-        "claimed_at": "2026-11-22T09:28:00.791730+00:00",
-        "lease_expires_at": "2026-11-22T15:28:00.791730+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31248747",
       "prepared": {
@@ -201336,7 +201332,7 @@
       "last_plan": {
         "source_id": "30799675",
         "display_name": "Le Battant 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:31:43.776431+00:00"
+        "planned_at": "2026-11-22T09:31:47.476013+00:00"
       }
     },
     "24129": {
@@ -243854,5 +243850,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:31:44.880852+00:00"
+  "updated_at": "2026-11-22T09:31:48.372110+00:00"
 }
