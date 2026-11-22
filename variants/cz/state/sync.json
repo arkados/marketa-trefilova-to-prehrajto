@@ -128601,6 +128601,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-11T01:21:27.931935+00:00",
         "relay_source_id": "24508454"
+      },
+      "claim": {
+        "worker_id": "4a8d3f030aa248b7858b88fa06da5fcc-shard-0",
+        "claimed_at": "2026-11-22T12:29:15.989843+00:00",
+        "lease_expires_at": "2026-11-22T18:29:15.989843+00:00",
+        "run_id": "45016772727"
       }
     },
     "32719": {
@@ -139181,13 +139187,6 @@
           "source_id": "26750455",
           "target_video_id": "30987927",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:29:15.583049+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26750455",
-          "target_video_id": "30987927",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:05:42.221407+00:00"
         },
         {
@@ -139196,12 +139195,19 @@
           "target_video_id": "30987927",
           "permanent": false,
           "attempted_at": "2026-11-22T10:41:55.800922+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26750455",
+          "target_video_id": "30987927",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:29:19.542231+00:00"
         }
       ],
       "last_plan": {
         "source_id": "26750455",
         "display_name": "The Ideal Schoolmaster (Kantor ideál) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:41:50.810872+00:00"
+        "planned_at": "2026-11-22T12:29:16.328478+00:00"
       },
       "previous_target_id": "30987927",
       "prepared": {
@@ -202638,7 +202644,7 @@
       "last_plan": {
         "source_id": "29393755",
         "display_name": "The Upper Hand 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:29:12.862435+00:00"
+        "planned_at": "2026-11-22T12:29:16.769668+00:00"
       }
     },
     "9345": {
@@ -244892,5 +244898,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:29:13.211456+00:00"
+  "updated_at": "2026-11-22T12:29:19.542248+00:00"
 }
