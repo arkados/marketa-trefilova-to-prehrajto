@@ -113751,13 +113751,6 @@
           "source_id": "32044029",
           "target_video_id": "30984062",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:56:43.848443+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32044029",
-          "target_video_id": "30984062",
-          "permanent": false,
           "attempted_at": "2026-11-22T01:29:59.341468+00:00"
         },
         {
@@ -113766,6 +113759,13 @@
           "target_video_id": "30984062",
           "permanent": false,
           "attempted_at": "2026-11-22T03:01:47.372880+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32044029",
+          "target_video_id": "30984062",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:51:22.875192+00:00"
         }
       ],
       "last_plan": {
@@ -132282,7 +132282,7 @@
       "last_plan": {
         "source_id": "35080468",
         "display_name": "Polská krev SD CZ Dabing",
-        "planned_at": "2026-11-22T03:01:45.455285+00:00"
+        "planned_at": "2026-11-22T04:51:21.446640+00:00"
       },
       "previous_target_id": "30987106",
       "prepared": {
@@ -132290,6 +132290,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:37:22.059612+00:00",
         "relay_source_id": "35080468"
+      },
+      "claim": {
+        "worker_id": "e24a74ace9774d36b355a33bd3686ff1-shard-0",
+        "claimed_at": "2026-11-22T04:51:22.550383+00:00",
+        "lease_expires_at": "2026-11-22T10:51:22.550383+00:00",
+        "run_id": "44961318741"
       }
     },
     "13773": {
@@ -199701,7 +199707,7 @@
       "last_plan": {
         "source_id": "34686836",
         "display_name": "Holly 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:51:18.447454+00:00"
+        "planned_at": "2026-11-22T04:51:21.819195+00:00"
       }
     },
     "14155": {
@@ -242495,5 +242501,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:51:18.447476+00:00"
+  "updated_at": "2026-11-22T04:51:22.875216+00:00"
 }
