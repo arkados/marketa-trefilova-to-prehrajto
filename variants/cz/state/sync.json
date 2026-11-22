@@ -119545,13 +119545,6 @@
           "source_id": "35279557",
           "target_video_id": "30984930",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:22:14.132363+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35279557",
-          "target_video_id": "30984930",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:07:25.622102+00:00"
         },
         {
@@ -119560,6 +119553,13 @@
           "target_video_id": "30984930",
           "permanent": false,
           "attempted_at": "2026-11-22T13:48:21.579390+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35279557",
+          "target_video_id": "30984930",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:13:36.867613+00:00"
         }
       ],
       "last_plan": {
@@ -132842,7 +132842,7 @@
       "last_plan": {
         "source_id": "17465562",
         "display_name": "Daily Fables (De Fabeltjeskrant: de Grote Dierenbos-spelen) 720p CZ Dabing",
-        "planned_at": "2026-11-22T13:48:20.753560+00:00"
+        "planned_at": "2026-11-22T20:13:35.136359+00:00"
       },
       "previous_target_id": "30987160",
       "prepared": {
@@ -132850,6 +132850,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T03:49:28.697671+00:00",
         "relay_source_id": "17465562"
+      },
+      "claim": {
+        "worker_id": "fe5b00660e6b4b6a9445a02007ebd2ed-shard-0",
+        "claimed_at": "2026-11-22T20:13:36.551685+00:00",
+        "lease_expires_at": "2026-11-23T02:13:36.551685+00:00",
+        "run_id": "45063988883"
       }
     },
     "24245": {
@@ -204213,7 +204219,7 @@
       "last_plan": {
         "source_id": "30197887",
         "display_name": "Batman: Mystery of the Batwoman SD CZ Dabing",
-        "planned_at": "2026-11-22T20:13:32.263969+00:00"
+        "planned_at": "2026-11-22T20:13:35.658807+00:00"
       }
     },
     "20496": {
@@ -246173,5 +246179,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:13:32.263985+00:00"
+  "updated_at": "2026-11-22T20:13:36.867631+00:00"
 }
