@@ -199531,17 +199531,19 @@
       }
     },
     "30477": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11415280",
+          "target_video_id": "31243838",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:27:51.103885+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11415280",
         "display_name": "The Man (2017) SD CZ Dabing",
         "planned_at": "2026-11-22T04:25:08.786538+00:00"
-      },
-      "claim": {
-        "worker_id": "a93bc61f3bc846faa50466db96bd9086-shard-0",
-        "claimed_at": "2026-11-22T04:25:12.176986+00:00",
-        "lease_expires_at": "2026-11-22T10:25:12.176986+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31243838",
       "prepared": {
@@ -242377,5 +242379,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:27:48.539468+00:00"
+  "updated_at": "2026-11-22T04:27:51.103907+00:00"
 }
