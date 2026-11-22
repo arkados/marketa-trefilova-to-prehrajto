@@ -113677,13 +113677,6 @@
           "source_id": "11995636",
           "target_video_id": "30984056",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:09:24.813228+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11995636",
-          "target_video_id": "30984056",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:46:13.557001+00:00"
         },
         {
@@ -113692,6 +113685,13 @@
           "target_video_id": "30984056",
           "permanent": false,
           "attempted_at": "2026-11-22T11:31:03.069307+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11995636",
+          "target_video_id": "30984056",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:10:55.739996+00:00"
         }
       ],
       "last_plan": {
@@ -132242,7 +132242,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-22T11:31:02.515693+00:00"
+        "planned_at": "2026-11-22T13:10:53.201963+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132250,6 +132250,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "6d49b141bd5e4ba6b148c89031f599bb-shard-0",
+        "claimed_at": "2026-11-22T13:10:54.825059+00:00",
+        "lease_expires_at": "2026-11-22T19:10:54.825059+00:00",
+        "run_id": "45016772727"
       }
     },
     "27054": {
@@ -202927,7 +202933,7 @@
       "last_plan": {
         "source_id": "31101816",
         "display_name": "Asterix the Gaul (Astérix le Gaulois) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:10:49.779079+00:00"
+        "planned_at": "2026-11-22T13:10:53.649975+00:00"
       }
     },
     "5399": {
@@ -245136,5 +245142,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:10:50.143513+00:00"
+  "updated_at": "2026-11-22T13:10:55.740013+00:00"
 }
