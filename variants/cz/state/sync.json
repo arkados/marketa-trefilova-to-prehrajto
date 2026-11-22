@@ -136272,13 +136272,6 @@
           "source_id": "34865840",
           "target_video_id": "30987641",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:09:04.519747+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34865840",
-          "target_video_id": "30987641",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:45:55.697133+00:00"
         },
         {
@@ -136287,6 +136280,13 @@
           "target_video_id": "30987641",
           "permanent": false,
           "attempted_at": "2026-11-22T11:30:42.134103+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34865840",
+          "target_video_id": "30987641",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:10:26.988828+00:00"
         }
       ],
       "last_plan": {
@@ -202356,7 +202356,7 @@
       "last_plan": {
         "source_id": "34879723",
         "display_name": "Words and Pictures SD CZ Dabing",
-        "planned_at": "2026-11-22T11:28:31.800230+00:00"
+        "planned_at": "2026-11-22T13:10:25.015538+00:00"
       },
       "previous_target_id": "31250982",
       "prepared": {
@@ -202364,6 +202364,12 @@
         "size_bytes": 1389146980,
         "prepared_at": "2026-11-22T11:28:39.133379+00:00",
         "relay_source_id": "34879723"
+      },
+      "claim": {
+        "worker_id": "98e62fc408644d0a87747f04cfc6e63c-shard-0",
+        "claimed_at": "2026-11-22T13:10:26.420221+00:00",
+        "lease_expires_at": "2026-11-22T19:10:26.420221+00:00",
+        "run_id": "45016772727"
       }
     },
     "32397": {
@@ -202900,11 +202906,22 @@
       "last_plan": {
         "source_id": "12834355",
         "display_name": "Day of the Falcon (Black Gold) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:10:21.677772+00:00"
+        "planned_at": "2026-11-22T13:10:25.414543+00:00"
+      },
+      "claim": {
+        "worker_id": "d24d2dd477e54d3c9498fe38b9c601f6-shard-0",
+        "claimed_at": "2026-11-22T13:10:26.743678+00:00",
+        "lease_expires_at": "2026-11-22T19:10:26.743678+00:00",
+        "run_id": "45016772727"
       }
     },
     "10918": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31101816",
+        "display_name": "Asterix the Gaul (Astérix le Gaulois) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T13:10:25.711315+00:00"
+      }
     },
     "5399": {
       "attempts": []
@@ -245112,5 +245129,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:10:21.677788+00:00"
+  "updated_at": "2026-11-22T13:10:26.988846+00:00"
 }
