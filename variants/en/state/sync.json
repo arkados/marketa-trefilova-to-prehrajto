@@ -10815,13 +10815,6 @@
           "source_id": "33222569",
           "target_video_id": "30735890",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:00:38.057316+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33222569",
-          "target_video_id": "30735890",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:05:52.411869+00:00"
         },
         {
@@ -10830,6 +10823,13 @@
           "target_video_id": "30735890",
           "permanent": false,
           "attempted_at": "2026-11-21T23:35:58.469472+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33222569",
+          "target_video_id": "30735890",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:06:16.990289+00:00"
         }
       ],
       "last_plan": {
@@ -10843,12 +10843,6 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-02T16:05:44.247867+00:00",
         "relay_source_id": "33222569"
-      },
-      "claim": {
-        "worker_id": "f3ff8f76f1ba4e7aa482710b1b773ff0-shard-0",
-        "claimed_at": "2026-11-22T00:06:13.315957+00:00",
-        "lease_expires_at": "2026-11-22T06:06:13.315957+00:00",
-        "run_id": "44959851294"
       }
     },
     "32466": {
@@ -11396,7 +11390,7 @@
       "last_plan": {
         "source_id": "13881903",
         "display_name": "Volhynia (Wołyń) 720p CZ titulky",
-        "planned_at": "2026-11-21T23:36:02.822461+00:00"
+        "planned_at": "2026-11-22T00:06:17.922896+00:00"
       },
       "previous_target_id": "30745166",
       "prepared": {
@@ -22884,6 +22878,12 @@
         "size_bytes": 13500000000,
         "prepared_at": "2026-11-11T08:26:55.170536+00:00",
         "relay_source_id": "26365359"
+      },
+      "claim": {
+        "worker_id": "9c056a28926b43bc8e80db7c0bd2b33d-shard-0",
+        "claimed_at": "2026-11-22T00:06:17.083263+00:00",
+        "lease_expires_at": "2026-11-22T06:06:17.083263+00:00",
+        "run_id": "44959851294"
       }
     },
     "27052": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:06:14.144864+00:00"
+  "updated_at": "2026-11-22T00:06:17.922911+00:00"
 }
