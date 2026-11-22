@@ -112365,6 +112365,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T14:59:01.798607+00:00",
         "relay_source_id": "34877929"
+      },
+      "claim": {
+        "worker_id": "3a94a33ef1a8490582ee299c28f46940-shard-0",
+        "claimed_at": "2026-11-22T06:54:28.394886+00:00",
+        "lease_expires_at": "2026-11-22T12:54:28.394886+00:00",
+        "run_id": "44961318741"
       }
     },
     "13198": {
@@ -123883,7 +123889,7 @@
       "last_plan": {
         "source_id": "16256834",
         "display_name": "The Assignment (1997) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:12:37.445292+00:00"
+        "planned_at": "2026-11-22T06:54:28.668926+00:00"
       },
       "previous_target_id": "30985618",
       "prepared": {
@@ -142249,13 +142255,6 @@
           "source_id": "28380593",
           "target_video_id": "30988425",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:52:38.624519+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28380593",
-          "target_video_id": "30988425",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:37:49.521020+00:00"
         },
         {
@@ -142264,6 +142263,13 @@
           "target_video_id": "30988425",
           "permanent": false,
           "attempted_at": "2026-11-22T05:12:33.496307+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28380593",
+          "target_video_id": "30988425",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:54:28.183428+00:00"
         }
       ],
       "last_plan": {
@@ -142277,12 +142283,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T08:25:31.893484+00:00",
         "relay_source_id": "28380593"
-      },
-      "claim": {
-        "worker_id": "f6e4ed0c35a34e47a44a7ff3783d6ab7-shard-0",
-        "claimed_at": "2026-11-22T06:54:24.130715+00:00",
-        "lease_expires_at": "2026-11-22T12:54:24.130715+00:00",
-        "run_id": "44961318741"
       }
     },
     "17630": {
@@ -200467,7 +200467,7 @@
       "last_plan": {
         "source_id": "33393819",
         "display_name": "Monster High: Ghouls Rule 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:54:25.149856+00:00"
+        "planned_at": "2026-11-22T06:54:29.149040+00:00"
       }
     },
     "22281": {
@@ -243120,5 +243120,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:54:25.458508+00:00"
+  "updated_at": "2026-11-22T06:54:29.149061+00:00"
 }
