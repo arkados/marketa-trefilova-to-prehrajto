@@ -136706,13 +136706,6 @@
           "source_id": "34756332",
           "target_video_id": "30987705",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:20:01.001010+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34756332",
-          "target_video_id": "30987705",
-          "permanent": false,
           "attempted_at": "2026-11-22T01:53:10.669701+00:00"
         },
         {
@@ -136721,6 +136714,13 @@
           "target_video_id": "30987705",
           "permanent": false,
           "attempted_at": "2026-11-22T03:38:21.927879+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34756332",
+          "target_video_id": "30987705",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:13:09.856621+00:00"
         }
       ],
       "last_plan": {
@@ -140402,7 +140402,7 @@
       "last_plan": {
         "source_id": "34789190",
         "display_name": "Lízin let do nebe 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:38:20.301622+00:00"
+        "planned_at": "2026-11-22T05:13:07.930717+00:00"
       },
       "previous_target_id": "30988078",
       "prepared": {
@@ -140410,6 +140410,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-11T07:28:05.394485+00:00",
         "relay_source_id": "34789190"
+      },
+      "claim": {
+        "worker_id": "926934c668704a38af066e5b90e42434-shard-0",
+        "claimed_at": "2026-11-22T05:13:08.939663+00:00",
+        "lease_expires_at": "2026-11-22T11:13:08.939663+00:00",
+        "run_id": "44961318741"
       }
     },
     "24824": {
@@ -199852,7 +199858,7 @@
       "last_plan": {
         "source_id": "33071425",
         "display_name": "Drift (2023) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:13:04.849666+00:00"
+        "planned_at": "2026-11-22T05:13:08.306685+00:00"
       }
     },
     "5513": {
@@ -242619,5 +242625,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:13:04.849685+00:00"
+  "updated_at": "2026-11-22T05:13:09.856643+00:00"
 }
