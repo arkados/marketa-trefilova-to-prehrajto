@@ -45782,13 +45782,6 @@
           "source_id": "20443534",
           "target_video_id": "30871258",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:53:52.152837+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20443534",
-          "target_video_id": "30871258",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:38:31.553310+00:00"
         },
         {
@@ -45797,6 +45790,13 @@
           "target_video_id": "30871258",
           "permanent": false,
           "attempted_at": "2026-11-22T14:19:33.867627+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20443534",
+          "target_video_id": "30871258",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:43:55.732388+00:00"
         }
       ],
       "last_plan": {
@@ -133162,7 +133162,7 @@
       "last_plan": {
         "source_id": "31712414",
         "display_name": "O svatební krajce SD CZ Dabing",
-        "planned_at": "2026-11-22T14:19:32.137019+00:00"
+        "planned_at": "2026-11-22T20:43:54.178972+00:00"
       },
       "previous_target_id": "30987222",
       "prepared": {
@@ -133170,6 +133170,12 @@
         "size_bytes": 734400000,
         "prepared_at": "2026-11-11T03:59:21.896022+00:00",
         "relay_source_id": "31712414"
+      },
+      "claim": {
+        "worker_id": "1b75ea7a60854396b3cfee2f27c83fa4-shard-0",
+        "claimed_at": "2026-11-22T20:43:55.406735+00:00",
+        "lease_expires_at": "2026-11-23T02:43:55.406735+00:00",
+        "run_id": "45063988883"
       }
     },
     "32106": {
@@ -204433,7 +204439,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:43:51.369462+00:00"
+        "planned_at": "2026-11-22T20:43:54.615431+00:00"
       }
     },
     "3710": {
@@ -246366,5 +246372,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:43:51.369478+00:00"
+  "updated_at": "2026-11-22T20:43:55.732405+00:00"
 }
