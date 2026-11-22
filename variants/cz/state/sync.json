@@ -118641,13 +118641,6 @@
           "source_id": "25787561",
           "target_video_id": "30984861",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:20:18.008903+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25787561",
-          "target_video_id": "30984861",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:03:22.801103+00:00"
         },
         {
@@ -118656,6 +118649,13 @@
           "target_video_id": "30984861",
           "permanent": false,
           "attempted_at": "2026-11-22T09:40:01.515507+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25787561",
+          "target_video_id": "30984861",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:24:18.049072+00:00"
         }
       ],
       "last_plan": {
@@ -118669,12 +118669,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:25.250689+00:00",
         "relay_source_id": "25787561"
-      },
-      "claim": {
-        "worker_id": "51cab75436ef4360be20f8ee3644467a-shard-0",
-        "claimed_at": "2026-11-22T11:24:13.780772+00:00",
-        "lease_expires_at": "2026-11-22T17:24:13.780772+00:00",
-        "run_id": "45016772727"
       }
     },
     "11749": {
@@ -118712,6 +118706,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-10T17:57:35.530517+00:00",
         "relay_source_id": "33647002"
+      },
+      "claim": {
+        "worker_id": "c1a7d7140fd14ec9a637f32c59a71eda-shard-0",
+        "claimed_at": "2026-11-22T11:24:18.284198+00:00",
+        "lease_expires_at": "2026-11-22T17:24:18.284198+00:00",
+        "run_id": "45016772727"
       }
     },
     "17739": {
@@ -132125,7 +132125,7 @@
       "last_plan": {
         "source_id": "34676090",
         "display_name": "The House in the Suburbs (Dům na předměstí) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:40:05.535325+00:00"
+        "planned_at": "2026-11-22T11:24:18.562980+00:00"
       },
       "previous_target_id": "30987054",
       "prepared": {
@@ -202135,7 +202135,7 @@
       "last_plan": {
         "source_id": "33679667",
         "display_name": "Gladiator (1992) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:24:14.540643+00:00"
+        "planned_at": "2026-11-22T11:24:18.952525+00:00"
       }
     },
     "32465": {
@@ -244493,5 +244493,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:24:14.540657+00:00"
+  "updated_at": "2026-11-22T11:24:18.952542+00:00"
 }
