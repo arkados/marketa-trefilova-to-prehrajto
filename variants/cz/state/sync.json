@@ -205272,17 +205272,19 @@
       "attempts": []
     },
     "8888": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34773449",
+          "target_video_id": "31262969",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:30:01.880102+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34773449",
         "display_name": "Expectant 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:27:06.987499+00:00"
-      },
-      "claim": {
-        "worker_id": "e9896e4d3186430dabc3d997410a7e54-shard-0",
-        "claimed_at": "2026-11-22T22:27:12.076049+00:00",
-        "lease_expires_at": "2026-11-23T04:27:12.076049+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31262969",
       "prepared": {
@@ -247086,5 +247088,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:29:59.100095+00:00"
+  "updated_at": "2026-11-22T22:30:01.880127+00:00"
 }
