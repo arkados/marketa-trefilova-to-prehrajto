@@ -43331,13 +43331,6 @@
           "source_id": "34146117",
           "target_video_id": "30756113",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:09:52.946280+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34146117",
-          "target_video_id": "30756113",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:46:13.516793+00:00"
         },
         {
@@ -43346,6 +43339,13 @@
           "target_video_id": "30756113",
           "permanent": false,
           "attempted_at": "2026-11-22T07:32:22.222935+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34146117",
+          "target_video_id": "30756113",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:08:35.121677+00:00"
         }
       ],
       "last_plan": {
@@ -67264,7 +67264,7 @@
       "last_plan": {
         "source_id": "25671141",
         "display_name": "The Blind Man Who Did Not Want to See Titanic (Sokea mies joka ei halunnut nähdä Titanicia) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:32:21.312774+00:00"
+        "planned_at": "2026-11-22T09:08:33.576553+00:00"
       },
       "previous_target_id": "30833110",
       "prepared": {
@@ -67272,6 +67272,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-05T21:37:33.645650+00:00",
         "relay_source_id": "25671141"
+      },
+      "claim": {
+        "worker_id": "36d6ccb00f354800b7abaebb89e8930b-shard-0",
+        "claimed_at": "2026-11-22T09:08:34.831354+00:00",
+        "lease_expires_at": "2026-11-22T15:08:34.831354+00:00",
+        "run_id": "44995678765"
       }
     },
     "1933": {
@@ -201125,7 +201131,7 @@
       "last_plan": {
         "source_id": "34720714",
         "display_name": "Power 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:08:30.106187+00:00"
+        "planned_at": "2026-11-22T09:08:33.997525+00:00"
       }
     },
     "23999": {
@@ -243682,5 +243688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:08:30.439479+00:00"
+  "updated_at": "2026-11-22T09:08:35.121697+00:00"
 }
