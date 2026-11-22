@@ -27591,13 +27591,6 @@
           "source_id": "32448687",
           "target_video_id": "30714914",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:36:27.012116+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32448687",
-          "target_video_id": "30714914",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:17:34.818500+00:00"
         },
         {
@@ -27606,6 +27599,13 @@
           "target_video_id": "30714914",
           "permanent": false,
           "attempted_at": "2026-11-22T20:41:52.882307+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32448687",
+          "target_video_id": "30714914",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:25:08.858059+00:00"
         }
       ],
       "last_plan": {
@@ -74534,7 +74534,7 @@
       "last_plan": {
         "source_id": "24984582",
         "display_name": "Christmas by Starlight 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:41:51.336106+00:00"
+        "planned_at": "2026-11-22T22:25:07.443544+00:00"
       },
       "previous_target_id": "30883462",
       "prepared": {
@@ -74542,6 +74542,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-07T06:42:27.663683+00:00",
         "relay_source_id": "24984582"
+      },
+      "claim": {
+        "worker_id": "a9890d76960e4750922d05fb34e3808f-shard-0",
+        "claimed_at": "2026-11-22T22:25:09.142761+00:00",
+        "lease_expires_at": "2026-11-23T04:25:09.142761+00:00",
+        "run_id": "45063988883"
       }
     },
     "21479": {
@@ -205245,6 +205251,12 @@
         "source_id": "30669585",
         "display_name": "The Best Man Holiday SD CZ Dabing",
         "planned_at": "2026-11-22T22:25:03.830536+00:00"
+      },
+      "claim": {
+        "worker_id": "4bc498de00d440789c741513ddfcc9a5-shard-0",
+        "claimed_at": "2026-11-22T22:25:07.145631+00:00",
+        "lease_expires_at": "2026-11-23T04:25:07.145631+00:00",
+        "run_id": "45063988883"
       }
     },
     "21486": {
@@ -205255,7 +205267,7 @@
       "last_plan": {
         "source_id": "34773449",
         "display_name": "Expectant 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:25:04.331225+00:00"
+        "planned_at": "2026-11-22T22:25:07.972950+00:00"
       }
     },
     "28669": {
@@ -247047,5 +247059,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:25:04.331240+00:00"
+  "updated_at": "2026-11-22T22:25:09.142797+00:00"
 }
