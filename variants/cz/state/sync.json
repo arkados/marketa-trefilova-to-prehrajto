@@ -110792,13 +110792,6 @@
           "source_id": "34661767",
           "target_video_id": "30983751",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:07:50.654075+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34661767",
-          "target_video_id": "30983751",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:50:35.669194+00:00"
         },
         {
@@ -110807,6 +110800,13 @@
           "target_video_id": "30983751",
           "permanent": false,
           "attempted_at": "2026-11-22T14:34:36.294072+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34661767",
+          "target_video_id": "30983751",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:55:47.750502+00:00"
         }
       ],
       "last_plan": {
@@ -129019,7 +129019,7 @@
       "last_plan": {
         "source_id": "12402129",
         "display_name": "Dilili in Paris (Dilili à Paris) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:34:34.582205+00:00"
+        "planned_at": "2026-11-22T20:55:45.983492+00:00"
       },
       "previous_target_id": "30986707",
       "prepared": {
@@ -129027,6 +129027,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T01:40:52.011583+00:00",
         "relay_source_id": "12402129"
+      },
+      "claim": {
+        "worker_id": "c6824a33e1d54fe4a7d3fb0a220a613a-shard-0",
+        "claimed_at": "2026-11-22T20:55:47.380534+00:00",
+        "lease_expires_at": "2026-11-23T02:55:47.380534+00:00",
+        "run_id": "45063988883"
       }
     },
     "15620": {
@@ -204489,7 +204495,7 @@
       "last_plan": {
         "source_id": "30588020",
         "display_name": "Destination Gobi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:55:42.667835+00:00"
+        "planned_at": "2026-11-22T20:55:46.453007+00:00"
       }
     },
     "13988": {
@@ -246413,5 +246419,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:55:43.061234+00:00"
+  "updated_at": "2026-11-22T20:55:47.750520+00:00"
 }
