@@ -199266,17 +199266,19 @@
       }
     },
     "14898": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29785962",
+          "target_video_id": "31243002",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:39:11.476517+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29785962",
         "display_name": "The Counsel (L'Avocat) SD CZ Dabing",
         "planned_at": "2026-11-22T03:37:02.040740+00:00"
-      },
-      "claim": {
-        "worker_id": "507519b42ffd4a0ab0fcd18c40e1f6f5-shard-0",
-        "claimed_at": "2026-11-22T03:37:07.225345+00:00",
-        "lease_expires_at": "2026-11-22T09:37:07.225345+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31243002",
       "prepared": {
@@ -242154,5 +242156,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:39:08.999832+00:00"
+  "updated_at": "2026-11-22T03:39:11.476536+00:00"
 }
