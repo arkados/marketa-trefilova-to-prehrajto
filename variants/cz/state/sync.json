@@ -132539,13 +132539,6 @@
           "source_id": "24221714",
           "target_video_id": "30987133",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:33:04.230153+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24221714",
-          "target_video_id": "30987133",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:06:30.067297+00:00"
         },
         {
@@ -132554,6 +132547,13 @@
           "target_video_id": "30987133",
           "permanent": false,
           "attempted_at": "2026-11-22T00:14:03.507918+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24221714",
+          "target_video_id": "30987133",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:47:26.827058+00:00"
         }
       ],
       "last_plan": {
@@ -138469,7 +138469,7 @@
       "last_plan": {
         "source_id": "35068840",
         "display_name": "Jak se tocí Rozmaryny (Jak se točí Rozmarýny) SD CZ Dabing",
-        "planned_at": "2026-11-22T00:14:01.663378+00:00"
+        "planned_at": "2026-11-22T01:47:24.627543+00:00"
       },
       "previous_target_id": "30987861",
       "prepared": {
@@ -138477,6 +138477,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T06:29:19.776162+00:00",
         "relay_source_id": "35068840"
+      },
+      "claim": {
+        "worker_id": "136022d1f2194a7ab29392fd0ef2165b-shard-0",
+        "claimed_at": "2026-11-22T01:47:25.638816+00:00",
+        "lease_expires_at": "2026-11-22T07:47:25.638816+00:00",
+        "run_id": "44959851294"
       }
     },
     "11005": {
@@ -198540,17 +198546,19 @@
       }
     },
     "12900": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34676573",
+          "target_video_id": "31241025",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:47:27.110489+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:43:56.924503+00:00"
-      },
-      "claim": {
-        "worker_id": "069a78645e1a4f8eb811df81b6f4ae56-shard-0",
-        "claimed_at": "2026-11-22T01:43:59.853649+00:00",
-        "lease_expires_at": "2026-11-22T07:43:59.853649+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31241025",
       "prepared": {
@@ -198571,7 +198579,7 @@
       "last_plan": {
         "source_id": "34720154",
         "display_name": "Yamato 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:47:21.815182+00:00"
+        "planned_at": "2026-11-22T01:47:25.008045+00:00"
       }
     },
     "24707": {
@@ -241539,5 +241547,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:47:21.815202+00:00"
+  "updated_at": "2026-11-22T01:47:27.110514+00:00"
 }
