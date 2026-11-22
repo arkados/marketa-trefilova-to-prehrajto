@@ -12910,13 +12910,6 @@
           "source_id": "34846817",
           "target_video_id": "30649962",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:36:47.223923+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34846817",
-          "target_video_id": "30649962",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:21:53.522301+00:00"
         },
         {
@@ -12925,6 +12918,13 @@
           "target_video_id": "30649962",
           "permanent": false,
           "attempted_at": "2026-11-22T14:05:14.483301+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34846817",
+          "target_video_id": "30649962",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:26:22.540012+00:00"
         }
       ],
       "last_plan": {
@@ -144174,7 +144174,7 @@
       "last_plan": {
         "source_id": "7239474",
         "display_name": "Bílá spona SD CZ Dabing",
-        "planned_at": "2026-11-22T14:05:18.651230+00:00"
+        "planned_at": "2026-11-22T20:26:20.749195+00:00"
       },
       "previous_target_id": "30988750",
       "prepared": {
@@ -144182,6 +144182,12 @@
         "size_bytes": 756000000,
         "prepared_at": "2026-11-11T09:48:19.543124+00:00",
         "relay_source_id": "7239474"
+      },
+      "claim": {
+        "worker_id": "c225c153773046a2b5840ceff8a690b6-shard-0",
+        "claimed_at": "2026-11-22T20:26:22.127915+00:00",
+        "lease_expires_at": "2026-11-23T02:26:22.127915+00:00",
+        "run_id": "45063988883"
       }
     },
     "17569": {
@@ -204360,7 +204366,7 @@
       "last_plan": {
         "source_id": "21687693",
         "display_name": "Savage Messiah SD CZ Dabing",
-        "planned_at": "2026-11-22T20:26:17.775275+00:00"
+        "planned_at": "2026-11-22T20:26:21.273107+00:00"
       }
     },
     "25498": {
@@ -246302,5 +246308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:26:17.775293+00:00"
+  "updated_at": "2026-11-22T20:26:22.540029+00:00"
 }
