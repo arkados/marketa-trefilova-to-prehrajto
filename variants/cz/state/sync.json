@@ -202990,17 +202990,19 @@
       "attempts": []
     },
     "16563": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695001",
+          "target_video_id": "31253146",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:20:27.501124+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695001",
         "display_name": "27 Nights (27 noches) 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:17:48.759829+00:00"
-      },
-      "claim": {
-        "worker_id": "156f840e456d4d4aa3026433b7c0529d-shard-0",
-        "claimed_at": "2026-11-22T13:17:50.096067+00:00",
-        "lease_expires_at": "2026-11-22T19:17:50.096067+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31253146",
       "prepared": {
@@ -245212,5 +245214,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:20:23.938335+00:00"
+  "updated_at": "2026-11-22T13:20:27.501141+00:00"
 }
