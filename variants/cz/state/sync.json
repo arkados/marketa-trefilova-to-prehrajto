@@ -110339,13 +110339,6 @@
           "source_id": "34634766",
           "target_video_id": "30983705",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:07:47.152338+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34634766",
-          "target_video_id": "30983705",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:44:04.888065+00:00"
         },
         {
@@ -110354,6 +110347,13 @@
           "target_video_id": "30983705",
           "permanent": false,
           "attempted_at": "2026-11-22T12:31:39.543252+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34634766",
+          "target_video_id": "30983705",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:12:41.024285+00:00"
         }
       ],
       "last_plan": {
@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:31:36.916793+00:00"
+        "planned_at": "2026-11-22T14:12:39.323324+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -184751,6 +184751,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-20T12:45:59.029491+00:00",
         "relay_source_id": "33707550"
+      },
+      "claim": {
+        "worker_id": "c972329b47964bd2ab823ed3d7c6b1fc-shard-0",
+        "claimed_at": "2026-11-22T14:12:40.566581+00:00",
+        "lease_expires_at": "2026-11-22T20:12:40.566581+00:00",
+        "run_id": "45016772727"
       }
     },
     "33591": {
@@ -203466,7 +203472,7 @@
       "last_plan": {
         "source_id": "34671839",
         "display_name": "River of No Return 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:12:36.078194+00:00"
+        "planned_at": "2026-11-22T14:12:39.743609+00:00"
       }
     },
     "26672": {
@@ -245570,5 +245576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:12:36.435637+00:00"
+  "updated_at": "2026-11-22T14:12:41.024301+00:00"
 }
