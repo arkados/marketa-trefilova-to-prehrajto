@@ -8650,6 +8650,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "3751c97b5c0a43f09ea8e94000e4636c-shard-0",
+        "claimed_at": "2026-11-22T20:26:29.468469+00:00",
+        "lease_expires_at": "2026-11-23T02:26:29.468469+00:00",
+        "run_id": "45063988883"
       }
     },
     "29922": {
@@ -118117,13 +118123,6 @@
           "source_id": "34879557",
           "target_video_id": "30984821",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:36:56.231144+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34879557",
-          "target_video_id": "30984821",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:22:12.703714+00:00"
         },
         {
@@ -118132,12 +118131,19 @@
           "target_video_id": "30984821",
           "permanent": false,
           "attempted_at": "2026-11-22T14:05:30.704514+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34879557",
+          "target_video_id": "30984821",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:26:33.384391+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34879557",
         "display_name": "Working Girl 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:05:25.705883+00:00"
+        "planned_at": "2026-11-22T20:26:29.828341+00:00"
       },
       "previous_target_id": "30984821",
       "prepared": {
@@ -204360,7 +204366,7 @@
       "last_plan": {
         "source_id": "21687693",
         "display_name": "Savage Messiah SD CZ Dabing",
-        "planned_at": "2026-11-22T20:26:26.838057+00:00"
+        "planned_at": "2026-11-22T20:26:30.465122+00:00"
       }
     },
     "25498": {
@@ -246302,5 +246308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:26:26.838074+00:00"
+  "updated_at": "2026-11-22T20:26:33.384407+00:00"
 }
