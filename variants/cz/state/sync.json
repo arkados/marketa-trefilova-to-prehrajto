@@ -101468,6 +101468,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T06:46:06.993808+00:00",
         "relay_source_id": "34968104"
+      },
+      "claim": {
+        "worker_id": "4382ed0094b241f0bf03f04d62b0668b-shard-0",
+        "claimed_at": "2026-11-22T14:29:23.774505+00:00",
+        "lease_expires_at": "2026-11-22T20:29:23.774505+00:00",
+        "run_id": "45016772727"
       }
     },
     "35562": {
@@ -101838,7 +101844,7 @@
       "last_plan": {
         "source_id": "13450050",
         "display_name": "Garage Sale Mystery: Guilty Until Proven Innocent 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:45:28.080116+00:00"
+        "planned_at": "2026-11-22T14:29:24.069939+00:00"
       },
       "previous_target_id": "30969076",
       "prepared": {
@@ -143262,13 +143268,6 @@
           "source_id": "30610125",
           "target_video_id": "30988610",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:24:29.047599+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30610125",
-          "target_video_id": "30988610",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:01:00.976331+00:00"
         },
         {
@@ -143277,6 +143276,13 @@
           "target_video_id": "30988610",
           "permanent": false,
           "attempted_at": "2026-11-22T12:45:24.328682+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30610125",
+          "target_video_id": "30988610",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:29:23.529742+00:00"
         }
       ],
       "last_plan": {
@@ -143290,12 +143296,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T08:55:52.627286+00:00",
         "relay_source_id": "30610125"
-      },
-      "claim": {
-        "worker_id": "3fd4ddc41cba4bfdab96b4d8f5c8d2a2-shard-0",
-        "claimed_at": "2026-11-22T14:29:20.039007+00:00",
-        "lease_expires_at": "2026-11-22T20:29:20.039007+00:00",
-        "run_id": "45016772727"
       }
     },
     "28498": {
@@ -203619,7 +203619,7 @@
       "last_plan": {
         "source_id": "33664516",
         "display_name": "The Neon Highway 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:29:20.747180+00:00"
+        "planned_at": "2026-11-22T14:29:24.472104+00:00"
       }
     },
     "14305": {
@@ -245690,5 +245690,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:29:20.747194+00:00"
+  "updated_at": "2026-11-22T14:29:24.472121+00:00"
 }
