@@ -74440,6 +74440,12 @@
         "size_bytes": 895300000,
         "prepared_at": "2026-11-07T06:18:13.380632+00:00",
         "relay_source_id": "14853845"
+      },
+      "claim": {
+        "worker_id": "dbb81897061e466196c009e6dca9c971-shard-0",
+        "claimed_at": "2026-11-22T05:53:01.476667+00:00",
+        "lease_expires_at": "2026-11-22T11:53:01.476667+00:00",
+        "run_id": "44961318741"
       }
     },
     "35276": {
@@ -135639,7 +135645,7 @@
       "last_plan": {
         "source_id": "24480171",
         "display_name": "Sweet Troubles (Sladké starosti) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:14:12.870123+00:00"
+        "planned_at": "2026-11-22T05:53:01.985066+00:00"
       },
       "previous_target_id": "30987584",
       "prepared": {
@@ -135647,6 +135653,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-11T05:18:04.024948+00:00",
         "relay_source_id": "24480171"
+      },
+      "claim": {
+        "worker_id": "ba018c887f8744519749bc0a2a33bebe-shard-0",
+        "claimed_at": "2026-11-22T05:53:02.923599+00:00",
+        "lease_expires_at": "2026-11-22T11:53:02.923599+00:00",
+        "run_id": "44961318741"
       }
     },
     "26886": {
@@ -199999,17 +200011,19 @@
       }
     },
     "3858": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17018695",
+          "target_video_id": "31245240",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:53:03.740073+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17018695",
         "display_name": "Same Kind of Different as Me 1080p CZ Dabing",
         "planned_at": "2026-11-22T05:48:30.294841+00:00"
-      },
-      "claim": {
-        "worker_id": "706643d02d7040f9a6f1d5f495d975d9-shard-0",
-        "claimed_at": "2026-11-22T05:48:33.575549+00:00",
-        "lease_expires_at": "2026-11-22T11:48:33.575549+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31245240",
       "prepared": {
@@ -200030,7 +200044,7 @@
       "last_plan": {
         "source_id": "34442840",
         "display_name": "The Door (2012) SD CZ Dabing",
-        "planned_at": "2026-11-22T05:52:58.363639+00:00"
+        "planned_at": "2026-11-22T05:53:02.332405+00:00"
       }
     },
     "35531": {
@@ -242764,5 +242778,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:52:58.885092+00:00"
+  "updated_at": "2026-11-22T05:53:03.740090+00:00"
 }
