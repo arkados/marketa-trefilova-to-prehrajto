@@ -113135,13 +113135,6 @@
           "source_id": "35068482",
           "target_video_id": "30983988",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:24:21.410517+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35068482",
-          "target_video_id": "30983988",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:32:59.187995+00:00"
         },
         {
@@ -113150,6 +113143,13 @@
           "target_video_id": "30983988",
           "permanent": false,
           "attempted_at": "2026-11-22T01:06:37.826189+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35068482",
+          "target_video_id": "30983988",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:39:17.651503+00:00"
         }
       ],
       "last_plan": {
@@ -143319,7 +143319,7 @@
       "last_plan": {
         "source_id": "34850592",
         "display_name": "Like Never Before (Jako nikdy) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:06:36.330341+00:00"
+        "planned_at": "2026-11-22T02:39:16.008654+00:00"
       },
       "previous_target_id": "30988612",
       "prepared": {
@@ -143327,6 +143327,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T08:56:41.131345+00:00",
         "relay_source_id": "34850592"
+      },
+      "claim": {
+        "worker_id": "128fde0a39c24784aaafc127a8a4831d-shard-0",
+        "claimed_at": "2026-11-22T02:39:17.404619+00:00",
+        "lease_expires_at": "2026-11-22T08:39:17.404619+00:00",
+        "run_id": "44959851294"
       }
     },
     "32891": {
@@ -198907,11 +198913,22 @@
       "last_plan": {
         "source_id": "34493323",
         "display_name": "The Undefeated 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:39:13.022611+00:00"
+        "planned_at": "2026-11-22T02:39:16.390824+00:00"
+      },
+      "claim": {
+        "worker_id": "3fb5538820b54b2caa9acff780b27f58-shard-0",
+        "claimed_at": "2026-11-22T02:39:17.893750+00:00",
+        "lease_expires_at": "2026-11-22T08:39:17.893750+00:00",
+        "run_id": "44959851294"
       }
     },
     "33077": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34971574",
+        "display_name": "Bratz: Fashion Pixiez SD CZ Dabing",
+        "planned_at": "2026-11-22T02:39:16.668826+00:00"
+      }
     },
     "25182": {
       "attempts": []
@@ -241833,5 +241850,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:39:13.022631+00:00"
+  "updated_at": "2026-11-22T02:39:17.893791+00:00"
 }
