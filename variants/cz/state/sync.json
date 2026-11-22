@@ -124839,13 +124839,6 @@
           "source_id": "31149109",
           "target_video_id": "30985758",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:18:29.180696+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31149109",
-          "target_video_id": "30985758",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:02:46.796664+00:00"
         },
         {
@@ -124854,12 +124847,19 @@
           "target_video_id": "30985758",
           "permanent": false,
           "attempted_at": "2026-11-22T09:39:19.417148+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31149109",
+          "target_video_id": "30985758",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:20:59.189519+00:00"
         }
       ],
       "last_plan": {
         "source_id": "31149109",
         "display_name": "Hope Gap 720p CZ Dabing",
-        "planned_at": "2026-11-22T11:18:53.041841+00:00"
+        "planned_at": "2026-11-22T11:20:55.624710+00:00"
       },
       "previous_target_id": "30985758",
       "prepared": {
@@ -202106,17 +202106,33 @@
       "last_plan": {
         "source_id": "34711628",
         "display_name": "The Scandalous Lady W SD CZ Dabing",
-        "planned_at": "2026-11-22T11:18:53.478071+00:00"
+        "planned_at": "2026-11-22T11:20:56.022153+00:00"
+      },
+      "claim": {
+        "worker_id": "986c9a0330be461381f3c4c379f427f5-shard-0",
+        "claimed_at": "2026-11-22T11:20:57.328664+00:00",
+        "lease_expires_at": "2026-11-22T17:20:57.328664+00:00",
+        "run_id": "45016772727"
       }
     },
     "23283": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33679667",
+        "display_name": "Gladiator (1992) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T11:20:56.260476+00:00"
+      }
     },
     "32465": {
       "attempts": []
     },
     "9538": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32312701",
+        "display_name": "The Case of the Dead Deadman (Případ mrtvého nebožtíka) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T11:20:56.499860+00:00"
+      }
     },
     "15767": {
       "attempts": []
@@ -244462,5 +244478,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:19:34.426513+00:00"
+  "updated_at": "2026-11-22T11:20:59.189537+00:00"
 }
