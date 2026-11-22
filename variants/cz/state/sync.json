@@ -201212,17 +201212,19 @@
       }
     },
     "30632": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34696270",
+          "target_video_id": "31248570",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:21:13.717490+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34696270",
         "display_name": "Clara (2019) 1080p CZ Dabing",
         "planned_at": "2026-11-22T09:18:04.836577+00:00"
-      },
-      "claim": {
-        "worker_id": "5973a63f56a44d3e92be4c2dac3d15f4-shard-0",
-        "claimed_at": "2026-11-22T09:18:06.231458+00:00",
-        "lease_expires_at": "2026-11-22T15:18:06.231458+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31248570",
       "prepared": {
@@ -243776,5 +243778,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:21:09.606244+00:00"
+  "updated_at": "2026-11-22T09:21:13.717520+00:00"
 }
