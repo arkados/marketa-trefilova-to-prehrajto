@@ -107689,7 +107689,7 @@
       "last_plan": {
         "source_id": "34720969",
         "display_name": "Wild Prague (Planeta Praha) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:10:45.468340+00:00"
+        "planned_at": "2026-11-22T01:43:50.776873+00:00"
       },
       "previous_target_id": "30983144",
       "prepared": {
@@ -158528,13 +158528,6 @@
           "source_id": "13899901",
           "target_video_id": "31069681",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:27:00.953101+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13899901",
-          "target_video_id": "31069681",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:03:15.211019+00:00"
         },
         {
@@ -158543,6 +158536,13 @@
           "target_video_id": "31069681",
           "permanent": false,
           "attempted_at": "2026-11-22T00:10:46.006080+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13899901",
+          "target_video_id": "31069681",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:43:50.485989+00:00"
         }
       ],
       "last_plan": {
@@ -158556,12 +158556,6 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-15T17:25:07.386473+00:00",
         "relay_source_id": "13899901"
-      },
-      "claim": {
-        "worker_id": "351474c904374291b2b38bc941acb380-shard-0",
-        "claimed_at": "2026-11-22T01:43:46.654301+00:00",
-        "lease_expires_at": "2026-11-22T07:43:46.654301+00:00",
-        "run_id": "44959851294"
       }
     },
     "11144": {
@@ -197797,17 +197791,23 @@
           "attempted_at": "2026-11-22T00:10:50.040772+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "33770411",
-        "display_name": "Warsaw 44 (Miasto 44) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:43:46.958355+00:00"
-      },
       "previous_target_id": "31239513",
-      "prepared": {
+      "upload": {
         "target_video_id": "31239513",
-        "size_bytes": 3005959010,
-        "prepared_at": "2026-11-22T00:07:33.499478+00:00",
-        "relay_source_id": "33770411"
+        "display_name": "Warsaw 44 (Miasto 44) 1080p CZ Dabing",
+        "source_id": "33770411",
+        "source_url": "https://sdilej.cz/33770411/mesto-44-2014-1080p-cz.mp4",
+        "source_filename": "Město 44 (2014) 1080p, cz.mp4",
+        "size_bytes": 3000000000,
+        "width": 1920,
+        "height": 804,
+        "audio_language": "cs",
+        "language_probability": 0.9933724403381348,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/warsaw-44-miasto-44-1080p-cz-dabing-mp4/402e3e03d4acc50f",
+        "uploaded_at": "2026-11-22T01:43:51.488085+00:00"
       }
     },
     "30492": {
@@ -198544,7 +198544,7 @@
       "last_plan": {
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:43:47.336386+00:00"
+        "planned_at": "2026-11-22T01:43:51.204372+00:00"
       }
     },
     "21757": {
@@ -241521,5 +241521,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:43:47.681398+00:00"
+  "updated_at": "2026-11-22T01:43:51.488106+00:00"
 }
