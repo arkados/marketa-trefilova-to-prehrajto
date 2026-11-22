@@ -205817,17 +205817,19 @@
       "attempts": []
     },
     "36636": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27633938",
+          "target_video_id": "31264687",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:35:34.774179+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27633938",
         "display_name": "Shrink 720p CZ Dabing",
         "planned_at": "2026-11-22T23:31:55.462875+00:00"
-      },
-      "claim": {
-        "worker_id": "716b21d4577d4dfaa563edba8177a3ae-shard-0",
-        "claimed_at": "2026-11-22T23:31:58.787350+00:00",
-        "lease_expires_at": "2026-11-23T05:31:58.787350+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31264687",
       "prepared": {
@@ -247514,5 +247516,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:35:32.381993+00:00"
+  "updated_at": "2026-11-22T23:35:34.774199+00:00"
 }
