@@ -108984,13 +108984,6 @@
           "source_id": "35058620",
           "target_video_id": "30983591",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:27:02.158448+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35058620",
-          "target_video_id": "30983591",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:09:20.713475+00:00"
         },
         {
@@ -108999,6 +108992,13 @@
           "target_video_id": "30983591",
           "permanent": false,
           "attempted_at": "2026-11-22T09:46:08.415101+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35058620",
+          "target_video_id": "30983591",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:30:59.730991+00:00"
         }
       ],
       "last_plan": {
@@ -113697,7 +113697,7 @@
       "last_plan": {
         "source_id": "11995636",
         "display_name": "Us SD CZ Dabing",
-        "planned_at": "2026-11-22T09:46:07.632247+00:00"
+        "planned_at": "2026-11-22T11:30:58.044263+00:00"
       },
       "previous_target_id": "30984056",
       "prepared": {
@@ -113705,6 +113705,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-10T15:21:28.871383+00:00",
         "relay_source_id": "11995636"
+      },
+      "claim": {
+        "worker_id": "18e6cf1b8ab7462eae5a2b8ddd5f848e-shard-0",
+        "claimed_at": "2026-11-22T11:30:59.298936+00:00",
+        "lease_expires_at": "2026-11-22T17:30:59.298936+00:00",
+        "run_id": "45016772727"
       }
     },
     "2768": {
@@ -202214,7 +202220,7 @@
       "last_plan": {
         "source_id": "28141337",
         "display_name": "First Monday in October SD CZ Dabing",
-        "planned_at": "2026-11-22T11:30:55.293417+00:00"
+        "planned_at": "2026-11-22T11:30:58.478655+00:00"
       }
     },
     "15307": {
@@ -244552,5 +244558,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:30:55.293433+00:00"
+  "updated_at": "2026-11-22T11:30:59.731008+00:00"
 }
