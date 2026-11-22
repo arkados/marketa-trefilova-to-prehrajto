@@ -118382,13 +118382,6 @@
           "source_id": "33745493",
           "target_video_id": "30984851",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:06:59.908595+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33745493",
-          "target_video_id": "30984851",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:49:52.403906+00:00"
         },
         {
@@ -118397,6 +118390,13 @@
           "target_video_id": "30984851",
           "permanent": false,
           "attempted_at": "2026-11-22T14:33:55.356758+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33745493",
+          "target_video_id": "30984851",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:55:13.248143+00:00"
         }
       ],
       "last_plan": {
@@ -143503,7 +143503,7 @@
       "last_plan": {
         "source_id": "34683567",
         "display_name": "Sisterhood 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:33:54.523873+00:00"
+        "planned_at": "2026-11-22T20:55:11.447392+00:00"
       },
       "previous_target_id": "30988629",
       "prepared": {
@@ -143511,6 +143511,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T08:59:43.149288+00:00",
         "relay_source_id": "34683567"
+      },
+      "claim": {
+        "worker_id": "73f7f72974ec44ea86b2bf154d4beb85-shard-0",
+        "claimed_at": "2026-11-22T20:55:12.813114+00:00",
+        "lease_expires_at": "2026-11-23T02:55:12.813114+00:00",
+        "run_id": "45063988883"
       }
     },
     "32639": {
@@ -204489,7 +204495,7 @@
       "last_plan": {
         "source_id": "30588020",
         "display_name": "Destination Gobi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:55:03.844755+00:00"
+        "planned_at": "2026-11-22T20:55:11.886252+00:00"
       }
     },
     "13988": {
@@ -246413,5 +246419,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:55:03.844772+00:00"
+  "updated_at": "2026-11-22T20:55:13.248163+00:00"
 }
