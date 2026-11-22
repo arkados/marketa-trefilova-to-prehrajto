@@ -117339,13 +117339,6 @@
           "source_id": "20668639",
           "target_video_id": "30984762",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:55:56.923419+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "20668639",
-          "target_video_id": "30984762",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:36:28.464793+00:00"
         },
         {
@@ -117354,6 +117347,13 @@
           "target_video_id": "30984762",
           "permanent": false,
           "attempted_at": "2026-11-22T10:13:14.851774+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "20668639",
+          "target_video_id": "30984762",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:58:32.685495+00:00"
         }
       ],
       "last_plan": {
@@ -117367,12 +117367,6 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T17:37:09.879264+00:00",
         "relay_source_id": "20668639"
-      },
-      "claim": {
-        "worker_id": "ee5f9b4df1ba4c78b5b40ed05fb4ac48-shard-0",
-        "claimed_at": "2026-11-22T11:58:28.997058+00:00",
-        "lease_expires_at": "2026-11-22T17:58:28.997058+00:00",
-        "run_id": "45016772727"
       }
     },
     "2766": {
@@ -134999,7 +134993,7 @@
       "last_plan": {
         "source_id": "29733010",
         "display_name": "O stestí a kráse (O štěstí a kráse) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:13:15.124524+00:00"
+        "planned_at": "2026-11-22T11:58:33.424125+00:00"
       },
       "previous_target_id": "30987510",
       "prepared": {
@@ -202447,17 +202441,19 @@
       "attempts": []
     },
     "16799": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695269",
+          "target_video_id": "31251455",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:58:33.862588+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695269",
         "display_name": "Vampire Sisters 3: Journey to Transylvania (Die Vampirschwestern 3 - Reise nach Transsilvanien) 1080p CZ Dabing",
         "planned_at": "2026-11-22T11:55:17.915151+00:00"
-      },
-      "claim": {
-        "worker_id": "08b6f83fabf246959f20b8e0956046df-shard-0",
-        "claimed_at": "2026-11-22T11:55:19.190218+00:00",
-        "lease_expires_at": "2026-11-22T17:55:19.190218+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31251455",
       "prepared": {
@@ -244768,5 +244764,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:58:29.563522+00:00"
+  "updated_at": "2026-11-22T11:58:33.862605+00:00"
 }
