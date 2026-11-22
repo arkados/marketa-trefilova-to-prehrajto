@@ -128656,13 +128656,6 @@
           "source_id": "7866512",
           "target_video_id": "30986655",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:05:25.000653+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "7866512",
-          "target_video_id": "30986655",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:36:22.620286+00:00"
         },
         {
@@ -128671,6 +128664,13 @@
           "target_video_id": "30986655",
           "permanent": false,
           "attempted_at": "2026-11-22T02:10:41.612689+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "7866512",
+          "target_video_id": "30986655",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:55:50.661287+00:00"
         }
       ],
       "last_plan": {
@@ -142574,7 +142574,7 @@
       "last_plan": {
         "source_id": "28985383",
         "display_name": "The Master (1980) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:10:43.186327+00:00"
+        "planned_at": "2026-11-22T03:55:48.787989+00:00"
       },
       "previous_target_id": "30988518",
       "prepared": {
@@ -142582,6 +142582,12 @@
         "size_bytes": 6500000000,
         "prepared_at": "2026-11-11T08:37:11.035402+00:00",
         "relay_source_id": "28985383"
+      },
+      "claim": {
+        "worker_id": "e3c90d2a9a9c4243a33f2b5c6b6aa48c-shard-0",
+        "claimed_at": "2026-11-22T03:55:49.775075+00:00",
+        "lease_expires_at": "2026-11-22T09:55:49.775075+00:00",
+        "run_id": "44961318741"
       }
     },
     "26163": {
@@ -199363,7 +199369,7 @@
       "last_plan": {
         "source_id": "30865074",
         "display_name": "The Roundup: No Way Out (BeomJoeDoSi 3) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:55:45.917502+00:00"
+        "planned_at": "2026-11-22T03:55:49.144140+00:00"
       }
     },
     "3768": {
@@ -242214,5 +242220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:55:45.917522+00:00"
+  "updated_at": "2026-11-22T03:55:50.661307+00:00"
 }
