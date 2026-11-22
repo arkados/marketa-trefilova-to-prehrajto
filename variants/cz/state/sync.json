@@ -110379,13 +110379,6 @@
           "source_id": "35139243",
           "target_video_id": "30983706",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:44:14.142495+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35139243",
-          "target_video_id": "30983706",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:31:48.415889+00:00"
         },
         {
@@ -110394,6 +110387,13 @@
           "target_video_id": "30983706",
           "permanent": false,
           "attempted_at": "2026-11-22T14:12:50.491425+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35139243",
+          "target_video_id": "30983706",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:37:27.960502+00:00"
         }
       ],
       "last_plan": {
@@ -203588,7 +203588,7 @@
       "last_plan": {
         "source_id": "15195766",
         "display_name": "The One and Only Ivan 4K CZ Dabing",
-        "planned_at": "2026-11-22T13:54:04.006300+00:00"
+        "planned_at": "2026-11-22T20:37:26.402179+00:00"
       },
       "previous_target_id": "31253720",
       "prepared": {
@@ -203596,6 +203596,12 @@
         "size_bytes": 11792053712,
         "prepared_at": "2026-11-22T13:54:12.297420+00:00",
         "relay_source_id": "15195766"
+      },
+      "claim": {
+        "worker_id": "869efae82cd740bbb1cfd3fc32b00145-shard-0",
+        "claimed_at": "2026-11-22T20:37:27.634744+00:00",
+        "lease_expires_at": "2026-11-23T02:37:27.634744+00:00",
+        "run_id": "45063988883"
       }
     },
     "25364": {
@@ -204415,7 +204421,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:37:23.558727+00:00"
+        "planned_at": "2026-11-22T20:37:26.809045+00:00"
       }
     },
     "3710": {
@@ -246348,5 +246354,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:37:23.558744+00:00"
+  "updated_at": "2026-11-22T20:37:27.960519+00:00"
 }
