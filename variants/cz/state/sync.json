@@ -198101,17 +198101,19 @@
       "attempts": []
     },
     "31528": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714023",
+          "target_video_id": "31240377",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:05:45.610399+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714023",
         "display_name": "Prep & Landing: The Snowball Protocol 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:04:47.686568+00:00"
-      },
-      "claim": {
-        "worker_id": "b65ba73b73b14998a03bbd388864d69b-shard-0",
-        "claimed_at": "2026-11-22T01:04:49.254330+00:00",
-        "lease_expires_at": "2026-11-22T07:04:49.254330+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240377",
       "prepared": {
@@ -241172,5 +241174,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:05:42.292585+00:00"
+  "updated_at": "2026-11-22T01:05:45.610419+00:00"
 }
