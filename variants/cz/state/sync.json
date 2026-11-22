@@ -131277,13 +131277,6 @@
           "source_id": "34714070",
           "target_video_id": "30986970",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:50:47.151390+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714070",
-          "target_video_id": "30986970",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:28:30.125796+00:00"
         },
         {
@@ -131292,6 +131285,13 @@
           "target_video_id": "30986970",
           "permanent": false,
           "attempted_at": "2026-11-22T08:10:42.170260+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714070",
+          "target_video_id": "30986970",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:47:17.189450+00:00"
         }
       ],
       "last_plan": {
@@ -131305,12 +131305,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T03:01:05.296421+00:00",
         "relay_source_id": "34714070"
-      },
-      "claim": {
-        "worker_id": "f6e0dcdac86f406db91f76f74ece71e9-shard-0",
-        "claimed_at": "2026-11-22T09:47:13.704290+00:00",
-        "lease_expires_at": "2026-11-22T15:47:13.704290+00:00",
-        "run_id": "44995678765"
       }
     },
     "34095": {
@@ -141915,7 +141909,7 @@
       "last_plan": {
         "source_id": "30436273",
         "display_name": "Musíme se sejít SD CZ Dabing",
-        "planned_at": "2026-11-22T08:10:39.936740+00:00"
+        "planned_at": "2026-11-22T09:47:16.410798+00:00"
       },
       "previous_target_id": "30988335",
       "prepared": {
@@ -141923,6 +141917,12 @@
         "size_bytes": 803900000,
         "prepared_at": "2026-11-11T08:12:00.885093+00:00",
         "relay_source_id": "30436273"
+      },
+      "claim": {
+        "worker_id": "4476514a4ced4c0cafd33fc51a4fb5c4-shard-0",
+        "claimed_at": "2026-11-22T09:47:17.884925+00:00",
+        "lease_expires_at": "2026-11-22T15:47:17.884925+00:00",
+        "run_id": "44995678765"
       }
     },
     "12705": {
@@ -201435,7 +201435,7 @@
       "last_plan": {
         "source_id": "25782782",
         "display_name": "Fatal Frenemies 720p CZ Dabing",
-        "planned_at": "2026-11-22T09:47:12.741771+00:00"
+        "planned_at": "2026-11-22T09:47:16.839204+00:00"
       }
     },
     "24664": {
@@ -243932,5 +243932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:47:14.018705+00:00"
+  "updated_at": "2026-11-22T09:47:17.884955+00:00"
 }
