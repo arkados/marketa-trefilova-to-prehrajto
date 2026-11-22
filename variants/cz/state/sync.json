@@ -205223,17 +205223,19 @@
       "attempts": []
     },
     "22376": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34488468",
+          "target_video_id": "31262690",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:24:55.568565+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34488468",
         "display_name": "Three Tigers Against Three Tigers SD CZ Dabing",
         "planned_at": "2026-11-22T22:18:28.043201+00:00"
-      },
-      "claim": {
-        "worker_id": "d931b8a315e944c1bef0c0d2c5dcce76-shard-0",
-        "claimed_at": "2026-11-22T22:18:32.122439+00:00",
-        "lease_expires_at": "2026-11-23T04:18:32.122439+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31262690",
       "prepared": {
@@ -247046,5 +247048,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:24:53.335384+00:00"
+  "updated_at": "2026-11-22T22:24:55.568582+00:00"
 }
