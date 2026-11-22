@@ -119807,13 +119807,6 @@
           "source_id": "32799273",
           "target_video_id": "30984959",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:48:25.934733+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32799273",
-          "target_video_id": "30984959",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:35:55.546971+00:00"
         },
         {
@@ -119822,6 +119815,13 @@
           "target_video_id": "30984959",
           "permanent": false,
           "attempted_at": "2026-11-22T14:16:57.358295+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32799273",
+          "target_video_id": "30984959",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:41:17.190791+00:00"
         }
       ],
       "last_plan": {
@@ -203623,7 +203623,7 @@
       "last_plan": {
         "source_id": "34671839",
         "display_name": "River of No Return 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:12:59.049539+00:00"
+        "planned_at": "2026-11-22T20:41:15.437366+00:00"
       },
       "previous_target_id": "31254026",
       "prepared": {
@@ -203631,6 +203631,12 @@
         "size_bytes": 3124490586,
         "prepared_at": "2026-11-22T14:13:07.675610+00:00",
         "relay_source_id": "34671839"
+      },
+      "claim": {
+        "worker_id": "023dcebf61be4a53a2bbe0630994e239-shard-0",
+        "claimed_at": "2026-11-22T20:41:16.850877+00:00",
+        "lease_expires_at": "2026-11-23T02:41:16.850877+00:00",
+        "run_id": "45063988883"
       }
     },
     "26672": {
@@ -204421,7 +204427,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:41:12.258937+00:00"
+        "planned_at": "2026-11-22T20:41:15.845132+00:00"
       }
     },
     "3710": {
@@ -246354,5 +246360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:41:12.606323+00:00"
+  "updated_at": "2026-11-22T20:41:17.190810+00:00"
 }
