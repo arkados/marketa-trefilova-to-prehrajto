@@ -118940,13 +118940,6 @@
           "source_id": "14091913",
           "target_video_id": "30984870",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:11:51.725554+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14091913",
-          "target_video_id": "30984870",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:44:36.098102+00:00"
         },
         {
@@ -118955,12 +118948,19 @@
           "target_video_id": "30984870",
           "permanent": false,
           "attempted_at": "2026-11-21T23:53:21.102042+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14091913",
+          "target_video_id": "30984870",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:26:14.797602+00:00"
         }
       ],
       "last_plan": {
         "source_id": "14091913",
         "display_name": "Judy (2019) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:53:12.330665+00:00"
+        "planned_at": "2026-11-22T01:26:11.903904+00:00"
       },
       "previous_target_id": "30984870",
       "prepared": {
@@ -198381,14 +198381,25 @@
       "last_plan": {
         "source_id": "29878038",
         "display_name": "Pontius Pilate SD CZ Dabing",
-        "planned_at": "2026-11-22T01:26:05.028556+00:00"
+        "planned_at": "2026-11-22T01:26:12.314828+00:00"
+      },
+      "claim": {
+        "worker_id": "ca06ed64d07f4a24a4b78f05e2ba2dcb-shard-0",
+        "claimed_at": "2026-11-22T01:26:13.438914+00:00",
+        "lease_expires_at": "2026-11-22T07:26:13.438914+00:00",
+        "run_id": "44959851294"
       }
     },
     "35273": {
       "attempts": []
     },
     "23794": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29299676",
+        "display_name": "The Call of the Wild: Dog of the Yukon 1080p CZ Dabing",
+        "planned_at": "2026-11-22T01:26:12.575402+00:00"
+      }
     },
     "26036": {
       "attempts": []
@@ -241382,5 +241393,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:26:09.399955+00:00"
+  "updated_at": "2026-11-22T01:26:14.797623+00:00"
 }
