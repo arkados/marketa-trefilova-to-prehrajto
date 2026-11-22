@@ -127621,13 +127621,6 @@
           "source_id": "30676301",
           "target_video_id": "30986424",
           "permanent": false,
-          "attempted_at": "2026-11-22T03:02:16.626281+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30676301",
-          "target_video_id": "30986424",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:51:48.125548+00:00"
         },
         {
@@ -127636,6 +127629,13 @@
           "target_video_id": "30986424",
           "permanent": false,
           "attempted_at": "2026-11-22T06:29:32.226316+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30676301",
+          "target_video_id": "30986424",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:11:34.125457+00:00"
         }
       ],
       "last_plan": {
@@ -138072,7 +138072,7 @@
       "last_plan": {
         "source_id": "29979237",
         "display_name": "Smetana 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:29:29.911566+00:00"
+        "planned_at": "2026-11-22T08:11:32.629682+00:00"
       },
       "previous_target_id": "30987839",
       "prepared": {
@@ -138080,6 +138080,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-11T06:20:47.389772+00:00",
         "relay_source_id": "29979237"
+      },
+      "claim": {
+        "worker_id": "ca831e8b879d477d8d09652dba518ae7-shard-0",
+        "claimed_at": "2026-11-22T08:11:33.827875+00:00",
+        "lease_expires_at": "2026-11-22T14:11:33.827875+00:00",
+        "run_id": "44995678765"
       }
     },
     "10741": {
@@ -200920,7 +200926,7 @@
       "last_plan": {
         "source_id": "33686547",
         "display_name": "Honkytonk Man 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:11:29.716764+00:00"
+        "planned_at": "2026-11-22T08:11:33.013548+00:00"
       }
     },
     "25886": {
@@ -243498,5 +243504,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:11:29.716781+00:00"
+  "updated_at": "2026-11-22T08:11:34.125474+00:00"
 }
