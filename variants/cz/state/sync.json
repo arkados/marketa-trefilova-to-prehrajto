@@ -108134,13 +108134,6 @@
           "source_id": "35084607",
           "target_video_id": "30983475",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:10:48.238600+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35084607",
-          "target_video_id": "30983475",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:47:07.324591+00:00"
         },
         {
@@ -108149,6 +108142,13 @@
           "target_video_id": "30983475",
           "permanent": false,
           "attempted_at": "2026-11-22T12:34:34.290747+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35084607",
+          "target_video_id": "30983475",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:15:34.143788+00:00"
         }
       ],
       "last_plan": {
@@ -202806,7 +202806,7 @@
       "last_plan": {
         "source_id": "34876843",
         "display_name": "Fifty (Padesátka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:26:38.200523+00:00"
+        "planned_at": "2026-11-22T14:15:31.508239+00:00"
       },
       "previous_target_id": "31252094",
       "prepared": {
@@ -202814,6 +202814,12 @@
         "size_bytes": 4183822080,
         "prepared_at": "2026-11-22T12:26:45.991749+00:00",
         "relay_source_id": "34876843"
+      },
+      "claim": {
+        "worker_id": "db751de2b2a84b90985ee42634d4c307-shard-0",
+        "claimed_at": "2026-11-22T14:15:32.720511+00:00",
+        "lease_expires_at": "2026-11-22T20:15:32.720511+00:00",
+        "run_id": "45016772727"
       }
     },
     "32120": {
@@ -203489,7 +203495,7 @@
       "last_plan": {
         "source_id": "13433688",
         "display_name": "Tinker Bell and the Lost Treasure 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:15:28.214846+00:00"
+        "planned_at": "2026-11-22T14:15:31.968555+00:00"
       }
     },
     "4791": {
@@ -245590,5 +245596,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:15:28.534951+00:00"
+  "updated_at": "2026-11-22T14:15:34.143805+00:00"
 }
