@@ -199044,17 +199044,19 @@
       }
     },
     "13140": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30131304",
+          "target_video_id": "31242066",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:15:00.075553+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30131304",
         "display_name": "Nudity for Sale (Nahota na prodej) 720p CZ Dabing",
         "planned_at": "2026-11-22T02:46:06.503761+00:00"
-      },
-      "claim": {
-        "worker_id": "04f5a80d75ac483f8a55024c9f5c6936-shard-0",
-        "claimed_at": "2026-11-22T02:46:07.618226+00:00",
-        "lease_expires_at": "2026-11-22T08:46:07.618226+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31242066",
       "prepared": {
@@ -241977,5 +241979,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:04:07.863538+00:00"
+  "updated_at": "2026-11-22T03:15:00.075575+00:00"
 }
