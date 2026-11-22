@@ -180814,7 +180814,7 @@
       "last_plan": {
         "source_id": "31626861",
         "display_name": "Doubles (Dvojníci) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:18:08.050085+00:00"
+        "planned_at": "2026-11-22T01:51:30.263172+00:00"
       },
       "previous_target_id": "31189496",
       "prepared": {
@@ -180822,6 +180822,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-19T19:23:56.838415+00:00",
         "relay_source_id": "31626861"
+      },
+      "claim": {
+        "worker_id": "cbe698c42601405985151a682a428f5a-shard-0",
+        "claimed_at": "2026-11-22T01:51:31.385262+00:00",
+        "lease_expires_at": "2026-11-22T07:51:31.385262+00:00",
+        "run_id": "44959851294"
       }
     },
     "21722": {
@@ -198581,17 +198587,19 @@
       "attempts": []
     },
     "34977": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34720154",
+          "target_video_id": "31241090",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:51:32.085388+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34720154",
         "display_name": "Yamato 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:47:36.657643+00:00"
-      },
-      "claim": {
-        "worker_id": "6a186e91bbeb497ab515c6c8ae9cc5d0-shard-0",
-        "claimed_at": "2026-11-22T01:47:39.996014+00:00",
-        "lease_expires_at": "2026-11-22T07:47:39.996014+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31241090",
       "prepared": {
@@ -198630,7 +198638,7 @@
       "last_plan": {
         "source_id": "34687340",
         "display_name": "Sons of Ramses (Goutte d’Or) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:51:25.859156+00:00"
+        "planned_at": "2026-11-22T01:51:30.724870+00:00"
       }
     },
     "3732": {
@@ -241589,5 +241597,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:51:28.068544+00:00"
+  "updated_at": "2026-11-22T01:51:32.085409+00:00"
 }
