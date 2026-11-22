@@ -205414,17 +205414,19 @@
       "attempts": []
     },
     "6904": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17633352",
+          "target_video_id": "31263220",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:44:58.366867+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17633352",
         "display_name": "Pirates Down the Street (De Piraten van Hiernaast) 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:40:28.014967+00:00"
-      },
-      "claim": {
-        "worker_id": "9b263fda54844171bdc5b63a9764e84a-shard-0",
-        "claimed_at": "2026-11-22T22:40:29.606599+00:00",
-        "lease_expires_at": "2026-11-23T04:40:29.606599+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31263220",
       "prepared": {
@@ -247195,5 +247197,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:44:56.295369+00:00"
+  "updated_at": "2026-11-22T22:44:58.366885+00:00"
 }
