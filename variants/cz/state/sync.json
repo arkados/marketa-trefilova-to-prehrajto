@@ -111774,13 +111774,6 @@
           "source_id": "34714367",
           "target_video_id": "30983810",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:31:15.401406+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34714367",
-          "target_video_id": "30983810",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:02:57.451830+00:00"
         },
         {
@@ -111789,6 +111782,13 @@
           "target_video_id": "30983810",
           "permanent": false,
           "attempted_at": "2026-11-22T04:52:32.135341+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34714367",
+          "target_video_id": "30983810",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:30:12.386644+00:00"
         }
       ],
       "last_plan": {
@@ -125844,7 +125844,7 @@
       "last_plan": {
         "source_id": "27529281",
         "display_name": "Danny Deckchair 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:52:30.567745+00:00"
+        "planned_at": "2026-11-22T06:30:10.719982+00:00"
       },
       "previous_target_id": "30985893",
       "prepared": {
@@ -125852,6 +125852,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T22:27:48.871952+00:00",
         "relay_source_id": "27529281"
+      },
+      "claim": {
+        "worker_id": "83d6245855f4440587516d275e7b0b95-shard-0",
+        "claimed_at": "2026-11-22T06:30:11.692347+00:00",
+        "lease_expires_at": "2026-11-22T12:30:11.692347+00:00",
+        "run_id": "44961318741"
       }
     },
     "2916": {
@@ -200317,7 +200323,7 @@
       "last_plan": {
         "source_id": "29955764",
         "display_name": "Remote Danger (Secrets in the Wilderness) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:30:07.645660+00:00"
+        "planned_at": "2026-11-22T06:30:11.082895+00:00"
       }
     },
     "34620": {
@@ -242994,5 +243000,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:30:07.988891+00:00"
+  "updated_at": "2026-11-22T06:30:12.386667+00:00"
 }
