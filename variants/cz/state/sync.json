@@ -149728,7 +149728,7 @@
       "last_plan": {
         "source_id": "35428437",
         "display_name": "Péril blanc 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:43:02.491579+00:00"
+        "planned_at": "2026-11-22T01:15:34.589802+00:00"
       },
       "previous_target_id": "31020067",
       "prepared": {
@@ -149736,6 +149736,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-13T22:19:40.902331+00:00",
         "relay_source_id": "35428437"
+      },
+      "claim": {
+        "worker_id": "f10a7b8e794a4ce5958b4e91a08d1c9a-shard-0",
+        "claimed_at": "2026-11-22T01:15:35.684765+00:00",
+        "lease_expires_at": "2026-11-22T07:15:35.684765+00:00",
+        "run_id": "44959851294"
       }
     },
     "23213": {
@@ -198208,17 +198214,19 @@
       "attempts": []
     },
     "7196": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26840942",
+          "target_video_id": "31240500",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:15:35.978536+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26840942",
         "display_name": "Neon Spring (Neona pavasaris) 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:13:02.249437+00:00"
-      },
-      "claim": {
-        "worker_id": "aa969798d2c7477dbed88ad297a27974-shard-0",
-        "claimed_at": "2026-11-22T01:13:05.142432+00:00",
-        "lease_expires_at": "2026-11-22T07:13:05.142432+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240500",
       "prepared": {
@@ -198257,7 +198265,7 @@
       "last_plan": {
         "source_id": "26228894",
         "display_name": "Novel for Men (Román pro muže) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:15:27.995690+00:00"
+        "planned_at": "2026-11-22T01:15:35.046924+00:00"
       }
     },
     "16956": {
@@ -241282,5 +241290,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:15:32.238386+00:00"
+  "updated_at": "2026-11-22T01:15:35.978556+00:00"
 }
