@@ -68210,7 +68210,7 @@
       "last_plan": {
         "source_id": "28778728",
         "display_name": "White Oleander SD CZ Dabing",
-        "planned_at": "2026-11-21T23:26:27.771586+00:00"
+        "planned_at": "2026-11-22T00:58:21.885194+00:00"
       },
       "previous_target_id": "30854802",
       "prepared": {
@@ -68218,6 +68218,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-06T08:53:21.282274+00:00",
         "relay_source_id": "28778728"
+      },
+      "claim": {
+        "worker_id": "aab4dfa28758478a9adcc69118638d87-shard-0",
+        "claimed_at": "2026-11-22T00:58:23.081211+00:00",
+        "lease_expires_at": "2026-11-22T06:58:23.081211+00:00",
+        "run_id": "44959851294"
       }
     },
     "1982": {
@@ -143148,13 +143154,6 @@
           "source_id": "32111003",
           "target_video_id": "30988596",
           "permanent": false,
-          "attempted_at": "2026-11-21T18:40:56.394393+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32111003",
-          "target_video_id": "30988596",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:17:26.523963+00:00"
         },
         {
@@ -143163,6 +143162,13 @@
           "target_video_id": "30988596",
           "permanent": false,
           "attempted_at": "2026-11-21T23:26:28.099492+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32111003",
+          "target_video_id": "30988596",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:58:23.339608+00:00"
         }
       ],
       "last_plan": {
@@ -197979,17 +197985,19 @@
       "attempts": []
     },
     "23697": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24513483",
+          "target_video_id": "31240192",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:58:23.693417+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24513483",
         "display_name": "Drive (1997) 1080p CZ Dabing",
         "planned_at": "2026-11-22T00:52:42.210454+00:00"
-      },
-      "claim": {
-        "worker_id": "f984cfe1969a4f6790bc835343d72ac1-shard-0",
-        "claimed_at": "2026-11-22T00:52:43.500341+00:00",
-        "lease_expires_at": "2026-11-22T06:52:43.500341+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240192",
       "prepared": {
@@ -198068,7 +198076,7 @@
       "last_plan": {
         "source_id": "27649851",
         "display_name": "When Granny Meets Grandpa (C'est quoi ce papy ?!) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:58:18.907606+00:00"
+        "planned_at": "2026-11-22T00:58:22.282961+00:00"
       }
     },
     "32438": {
@@ -241126,5 +241134,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:58:18.907627+00:00"
+  "updated_at": "2026-11-22T00:58:23.693446+00:00"
 }
