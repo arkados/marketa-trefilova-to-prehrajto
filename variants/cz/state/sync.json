@@ -118271,13 +118271,6 @@
           "source_id": "22310180",
           "target_video_id": "30984848",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:16:52.725660+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "22310180",
-          "target_video_id": "30984848",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:55:51.023171+00:00"
         },
         {
@@ -118286,6 +118279,13 @@
           "target_video_id": "30984848",
           "permanent": false,
           "attempted_at": "2026-11-22T12:40:29.527544+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "22310180",
+          "target_video_id": "30984848",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:21:32.434020+00:00"
         }
       ],
       "last_plan": {
@@ -131879,7 +131879,7 @@
       "last_plan": {
         "source_id": "30618554",
         "display_name": "Hvězda zvaná Pelyněk SD CZ Dabing",
-        "planned_at": "2026-11-22T12:40:27.212591+00:00"
+        "planned_at": "2026-11-22T14:21:30.588605+00:00"
       },
       "previous_target_id": "30987025",
       "prepared": {
@@ -131887,6 +131887,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T03:23:12.749258+00:00",
         "relay_source_id": "30618554"
+      },
+      "claim": {
+        "worker_id": "1554072e094b4e4e89c2fe5e2369e90e-shard-0",
+        "claimed_at": "2026-11-22T14:21:31.943893+00:00",
+        "lease_expires_at": "2026-11-22T20:21:31.943893+00:00",
+        "run_id": "45016772727"
       }
     },
     "32958": {
@@ -203562,6 +203568,12 @@
         "source_id": "32043756",
         "display_name": "Discopríbeh (Discopříběh) 4K CZ Dabing",
         "planned_at": "2026-11-22T14:21:26.911721+00:00"
+      },
+      "claim": {
+        "worker_id": "ad4ee54730ad4e78a38815bce36f3f87-shard-0",
+        "claimed_at": "2026-11-22T14:21:30.296925+00:00",
+        "lease_expires_at": "2026-11-22T20:21:30.296925+00:00",
+        "run_id": "45016772727"
       }
     },
     "28664": {
@@ -203575,7 +203587,7 @@
       "last_plan": {
         "source_id": "33393903",
         "display_name": "Fugue (Fuga) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:21:27.460844+00:00"
+        "planned_at": "2026-11-22T14:21:31.067779+00:00"
       }
     },
     "14810": {
@@ -245649,5 +245661,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:21:27.460858+00:00"
+  "updated_at": "2026-11-22T14:21:32.434037+00:00"
 }
