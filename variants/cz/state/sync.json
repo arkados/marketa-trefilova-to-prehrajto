@@ -112491,13 +112491,6 @@
           "source_id": "12261609",
           "target_video_id": "30983900",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:16:09.059877+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12261609",
-          "target_video_id": "30983900",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:02:21.592136+00:00"
         },
         {
@@ -112506,6 +112499,13 @@
           "target_video_id": "30983900",
           "permanent": false,
           "attempted_at": "2026-11-22T13:43:28.315491+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12261609",
+          "target_video_id": "30983900",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:08:43.239348+00:00"
         }
       ],
       "last_plan": {
@@ -112519,12 +112519,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T15:01:27.595214+00:00",
         "relay_source_id": "12261609"
-      },
-      "claim": {
-        "worker_id": "65398a8240424d22a3074a495d5e564e-shard-0",
-        "claimed_at": "2026-11-22T20:08:39.139334+00:00",
-        "lease_expires_at": "2026-11-23T02:08:39.139334+00:00",
-        "run_id": "45063988883"
       }
     },
     "30376": {
@@ -203409,7 +203403,7 @@
       "last_plan": {
         "source_id": "6298132",
         "display_name": "Andělská tvář SD CZ Dabing",
-        "planned_at": "2026-11-22T13:41:49.186285+00:00"
+        "planned_at": "2026-11-22T20:08:42.893926+00:00"
       },
       "previous_target_id": "31253535",
       "prepared": {
@@ -204091,17 +204085,19 @@
       }
     },
     "37382": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34479851",
+          "target_video_id": "31259776",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:08:44.009240+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34479851",
         "display_name": "Happy Single 1080p CZ Dabing",
         "planned_at": "2026-11-22T20:02:13.644744+00:00"
-      },
-      "claim": {
-        "worker_id": "c7fba0df6c58490dbe74b2e056f2e829-shard-0",
-        "claimed_at": "2026-11-22T20:02:15.209359+00:00",
-        "lease_expires_at": "2026-11-23T02:02:15.209359+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31259776",
       "prepared": {
@@ -204122,7 +204118,7 @@
       "last_plan": {
         "source_id": "25236826",
         "display_name": "Cartouche 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:08:38.341869+00:00"
+        "planned_at": "2026-11-22T20:08:43.706059+00:00"
       }
     },
     "25991": {
@@ -246105,5 +246101,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:08:39.518578+00:00"
+  "updated_at": "2026-11-22T20:08:44.009262+00:00"
 }
