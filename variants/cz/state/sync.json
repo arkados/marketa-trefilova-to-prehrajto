@@ -124629,13 +124629,6 @@
           "source_id": "30800295",
           "target_video_id": "30985748",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:21:17.188661+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30800295",
-          "target_video_id": "30985748",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:58:30.724793+00:00"
         },
         {
@@ -124644,6 +124637,13 @@
           "target_video_id": "30985748",
           "permanent": false,
           "attempted_at": "2026-11-22T07:41:32.875346+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30800295",
+          "target_video_id": "30985748",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:17:56.428108+00:00"
         }
       ],
       "last_plan": {
@@ -190358,7 +190358,7 @@
       "last_plan": {
         "source_id": "28257165",
         "display_name": "Crazy Kingdom (Řachanda) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:41:32.168217+00:00"
+        "planned_at": "2026-11-22T09:17:54.241872+00:00"
       },
       "previous_target_id": "31221483",
       "prepared": {
@@ -190366,6 +190366,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-21T06:02:04.957871+00:00",
         "relay_source_id": "28257165"
+      },
+      "claim": {
+        "worker_id": "7107263b2a8946d6aa70634d3fa91733-shard-0",
+        "claimed_at": "2026-11-22T09:17:55.341257+00:00",
+        "lease_expires_at": "2026-11-22T15:17:55.341257+00:00",
+        "run_id": "44995678765"
       }
     },
     "5913": {
@@ -201189,17 +201195,19 @@
       "attempts": []
     },
     "14300": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686084",
+          "target_video_id": "31248516",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:17:56.731242+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686084",
         "display_name": "Love in Harmony Valley 1080p CZ Dabing",
         "planned_at": "2026-11-22T09:15:07.663875+00:00"
-      },
-      "claim": {
-        "worker_id": "760ed7ab65f24a37b9c1842438b3e0ea-shard-0",
-        "claimed_at": "2026-11-22T09:15:11.097974+00:00",
-        "lease_expires_at": "2026-11-22T15:15:11.097974+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31248516",
       "prepared": {
@@ -201214,7 +201222,7 @@
       "last_plan": {
         "source_id": "34696270",
         "display_name": "Clara (2019) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:17:50.970717+00:00"
+        "planned_at": "2026-11-22T09:17:54.621497+00:00"
       }
     },
     "29947": {
@@ -243756,5 +243764,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:17:51.272113+00:00"
+  "updated_at": "2026-11-22T09:17:56.731265+00:00"
 }
