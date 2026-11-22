@@ -129710,13 +129710,6 @@
           "source_id": "34993388",
           "target_video_id": "30986791",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:14:49.338016+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34993388",
-          "target_video_id": "30986791",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:45:42.624034+00:00"
         },
         {
@@ -129725,6 +129718,13 @@
           "target_video_id": "30986791",
           "permanent": false,
           "attempted_at": "2026-11-22T02:18:33.170387+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34993388",
+          "target_video_id": "30986791",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:03:51.204535+00:00"
         }
       ],
       "last_plan": {
@@ -129738,12 +129738,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-11T02:10:01.122902+00:00",
         "relay_source_id": "34993388"
-      },
-      "claim": {
-        "worker_id": "52a083be2cc74d48a59b002de51e2678-shard-0",
-        "claimed_at": "2026-11-22T04:03:48.268577+00:00",
-        "lease_expires_at": "2026-11-22T10:03:48.268577+00:00",
-        "run_id": "44961318741"
       }
     },
     "14540": {
@@ -198932,7 +198926,7 @@
       "last_plan": {
         "source_id": "21707066",
         "display_name": "A Good Doctor (Docteur ?) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:14:33.987490+00:00"
+        "planned_at": "2026-11-22T04:03:50.591301+00:00"
       },
       "previous_target_id": "31241548",
       "prepared": {
@@ -199383,11 +199377,16 @@
       "last_plan": {
         "source_id": "30865074",
         "display_name": "The Roundup: No Way Out (BeomJoeDoSi 3) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:03:44.886376+00:00"
+        "planned_at": "2026-11-22T04:03:50.933967+00:00"
       }
     },
     "3768": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35178312",
+        "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T04:03:51.436878+00:00"
+      }
     },
     "29367": {
       "attempts": []
@@ -242234,5 +242233,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:03:48.268602+00:00"
+  "updated_at": "2026-11-22T04:03:51.436895+00:00"
 }
