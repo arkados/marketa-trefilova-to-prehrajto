@@ -204364,17 +204364,19 @@
       }
     },
     "24826": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21687693",
+          "target_video_id": "31260311",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:33:54.235811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21687693",
         "display_name": "Savage Messiah SD CZ Dabing",
         "planned_at": "2026-11-22T20:30:18.656491+00:00"
-      },
-      "claim": {
-        "worker_id": "c0460347d3aa4f53aa86c96fe0a01fac-shard-0",
-        "claimed_at": "2026-11-22T20:30:22.993126+00:00",
-        "lease_expires_at": "2026-11-23T02:30:22.993126+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31260311",
       "prepared": {
@@ -246328,5 +246330,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:33:50.775281+00:00"
+  "updated_at": "2026-11-22T20:33:54.235841+00:00"
 }
