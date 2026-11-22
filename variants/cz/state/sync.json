@@ -129812,6 +129812,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T02:14:22.452892+00:00",
         "relay_source_id": "34796896"
+      },
+      "claim": {
+        "worker_id": "96fe86a4a7fa408da58d6d544cb16597-shard-0",
+        "claimed_at": "2026-11-22T02:22:28.893226+00:00",
+        "lease_expires_at": "2026-11-22T08:22:28.893226+00:00",
+        "run_id": "44959851294"
       }
     },
     "15845": {
@@ -130944,13 +130950,6 @@
           "source_id": "30624932",
           "target_video_id": "30986943",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:10:56.426472+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30624932",
-          "target_video_id": "30986943",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:18:52.769860+00:00"
         },
         {
@@ -130959,6 +130958,13 @@
           "target_video_id": "30986943",
           "permanent": false,
           "attempted_at": "2026-11-22T00:49:38.622755+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30624932",
+          "target_video_id": "30986943",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:22:28.586340+00:00"
         }
       ],
       "last_plan": {
@@ -130972,12 +130978,6 @@
         "size_bytes": 971300000,
         "prepared_at": "2026-11-11T02:47:37.595965+00:00",
         "relay_source_id": "30624932"
-      },
-      "claim": {
-        "worker_id": "dbf56f38501343728d2c50978541a68e-shard-0",
-        "claimed_at": "2026-11-22T02:22:25.002531+00:00",
-        "lease_expires_at": "2026-11-22T08:22:25.002531+00:00",
-        "run_id": "44959851294"
       }
     },
     "20748": {
@@ -137277,7 +137277,7 @@
       "last_plan": {
         "source_id": "33063567",
         "display_name": "Anny 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:49:40.864431+00:00"
+        "planned_at": "2026-11-22T02:22:29.182487+00:00"
       },
       "previous_target_id": "30987763",
       "prepared": {
@@ -198799,7 +198799,7 @@
       "last_plan": {
         "source_id": "29387268",
         "display_name": "Sometimes I Think About Dying 720p CZ Dabing",
-        "planned_at": "2026-11-22T02:22:26.020511+00:00"
+        "planned_at": "2026-11-22T02:22:29.560207+00:00"
       }
     },
     "11087": {
@@ -241743,5 +241743,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:22:26.020531+00:00"
+  "updated_at": "2026-11-22T02:22:29.560226+00:00"
 }
