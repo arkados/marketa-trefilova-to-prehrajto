@@ -61846,13 +61846,6 @@
           "source_id": "31555891",
           "target_video_id": "30804386",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:39:08.580688+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31555891",
-          "target_video_id": "30804386",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:15:50.452836+00:00"
         },
         {
@@ -61861,6 +61854,13 @@
           "target_video_id": "30804386",
           "permanent": false,
           "attempted_at": "2026-11-22T10:54:47.587323+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31555891",
+          "target_video_id": "30804386",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:39:24.462549+00:00"
         }
       ],
       "last_plan": {
@@ -200261,7 +200261,7 @@
       "last_plan": {
         "source_id": "26299887",
         "display_name": "Fatal Following 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:54:45.387984+00:00"
+        "planned_at": "2026-11-22T12:39:22.843478+00:00"
       },
       "previous_target_id": "31245304",
       "prepared": {
@@ -200269,6 +200269,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-22T05:53:20.867020+00:00",
         "relay_source_id": "26299887"
+      },
+      "claim": {
+        "worker_id": "8880d7e68efa4db3b32156587ff424e4-shard-0",
+        "claimed_at": "2026-11-22T12:39:24.125326+00:00",
+        "lease_expires_at": "2026-11-22T18:39:24.125326+00:00",
+        "run_id": "45016772727"
       }
     },
     "27610": {
@@ -202702,7 +202708,7 @@
       "last_plan": {
         "source_id": "22548299",
         "display_name": "Koati SD CZ Dabing",
-        "planned_at": "2026-11-22T12:39:19.780395+00:00"
+        "planned_at": "2026-11-22T12:39:23.292777+00:00"
       }
     },
     "15131": {
@@ -244950,5 +244956,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:39:19.780411+00:00"
+  "updated_at": "2026-11-22T12:39:24.462565+00:00"
 }
