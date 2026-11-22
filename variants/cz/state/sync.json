@@ -112491,13 +112491,6 @@
           "source_id": "12261609",
           "target_video_id": "30983900",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:56:54.136670+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12261609",
-          "target_video_id": "30983900",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:41:58.583306+00:00"
         },
         {
@@ -112506,12 +112499,19 @@
           "target_video_id": "30983900",
           "permanent": false,
           "attempted_at": "2026-11-22T05:17:21.871676+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12261609",
+          "target_video_id": "30983900",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:58:59.342580+00:00"
         }
       ],
       "last_plan": {
         "source_id": "12261609",
         "display_name": "The Tricky Game of Love (Hry lásky šálivé) SD CZ Dabing",
-        "planned_at": "2026-11-22T05:17:16.666832+00:00"
+        "planned_at": "2026-11-22T06:58:55.853891+00:00"
       },
       "previous_target_id": "30983900",
       "prepared": {
@@ -200487,7 +200487,13 @@
       "last_plan": {
         "source_id": "21803107",
         "display_name": "The Replacement (El sustituto) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:58:46.307218+00:00"
+        "planned_at": "2026-11-22T06:58:56.302280+00:00"
+      },
+      "claim": {
+        "worker_id": "e8d0091da84c4d6b8d8e5329620dd5e0-shard-0",
+        "claimed_at": "2026-11-22T06:58:57.392487+00:00",
+        "lease_expires_at": "2026-11-22T12:58:57.392487+00:00",
+        "run_id": "44961318741"
       }
     },
     "37274": {
@@ -200506,13 +200512,29 @@
       "attempts": []
     },
     "11973": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34675004",
+        "display_name": "La note bleue 1080p CZ Dabing",
+        "planned_at": "2026-11-22T06:58:56.532488+00:00"
+      },
+      "claim": {
+        "worker_id": "1cfc9a6f96a7404e8f5bf46a1e281784-shard-0",
+        "claimed_at": "2026-11-22T06:58:57.642921+00:00",
+        "lease_expires_at": "2026-11-22T12:58:57.642921+00:00",
+        "run_id": "44961318741"
+      }
     },
     "35353": {
       "attempts": []
     },
     "16766": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34969085",
+        "display_name": "Shiverstone Castle (Burg Schreckenstein) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T06:58:56.756244+00:00"
+      }
     },
     "16881": {
       "attempts": []
@@ -243134,5 +243156,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:58:51.954301+00:00"
+  "updated_at": "2026-11-22T06:58:59.342601+00:00"
 }
