@@ -112754,7 +112754,7 @@
       "last_plan": {
         "source_id": "34715290",
         "display_name": "Lion With a White Mane (Lev s bílou hřívou) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:53:52.634903+00:00"
+        "planned_at": "2026-11-22T20:17:45.922175+00:00"
       },
       "previous_target_id": "30983927",
       "prepared": {
@@ -203555,6 +203555,12 @@
         "size_bytes": 3346592127,
         "prepared_at": "2026-11-22T13:49:27.701576+00:00",
         "relay_source_id": "32144821"
+      },
+      "claim": {
+        "worker_id": "6063b22dc6ce49aab362ef7ad0444d78-shard-0",
+        "claimed_at": "2026-11-22T20:17:45.605716+00:00",
+        "lease_expires_at": "2026-11-23T02:17:45.605716+00:00",
+        "run_id": "45063988883"
       }
     },
     "33044": {
@@ -204260,17 +204266,19 @@
       }
     },
     "4197": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30810266",
+          "target_video_id": "31260095",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:17:46.218238+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30810266",
         "display_name": "Carbon (Carbone) SD CZ Dabing",
         "planned_at": "2026-11-22T20:16:40.437275+00:00"
-      },
-      "claim": {
-        "worker_id": "fdb334abb6024331b1f7cb641ec4b9a8-shard-0",
-        "claimed_at": "2026-11-22T20:16:42.005506+00:00",
-        "lease_expires_at": "2026-11-23T02:16:42.005506+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31260095",
       "prepared": {
@@ -246236,5 +246244,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:17:42.952877+00:00"
+  "updated_at": "2026-11-22T20:17:46.218257+00:00"
 }
