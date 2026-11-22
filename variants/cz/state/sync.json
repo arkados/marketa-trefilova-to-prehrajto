@@ -109458,13 +109458,6 @@
           "source_id": "30219473",
           "target_video_id": "30983642",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:52:58.907000+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30219473",
-          "target_video_id": "30983642",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:38:08.960617+00:00"
         },
         {
@@ -109473,6 +109466,13 @@
           "target_video_id": "30983642",
           "permanent": false,
           "attempted_at": "2026-11-22T05:12:55.520857+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30219473",
+          "target_video_id": "30983642",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:54:47.855900+00:00"
         }
       ],
       "last_plan": {
@@ -134953,7 +134953,7 @@
       "last_plan": {
         "source_id": "30160695",
         "display_name": "Burglar and Umbrella (Pěnička a Paraplíčko) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:12:56.150487+00:00"
+        "planned_at": "2026-11-22T06:54:46.125830+00:00"
       },
       "previous_target_id": "30987505",
       "prepared": {
@@ -134961,6 +134961,12 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T05:02:30.309521+00:00",
         "relay_source_id": "30160695"
+      },
+      "claim": {
+        "worker_id": "2ea4f083aa21407495eb8bc8ce31b590-shard-0",
+        "claimed_at": "2026-11-22T06:54:47.369797+00:00",
+        "lease_expires_at": "2026-11-22T12:54:47.369797+00:00",
+        "run_id": "44961318741"
       }
     },
     "28890": {
@@ -200461,14 +200467,25 @@
       "last_plan": {
         "source_id": "33393819",
         "display_name": "Monster High: Ghouls Rule 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:54:41.836676+00:00"
+        "planned_at": "2026-11-22T06:54:46.466041+00:00"
+      },
+      "claim": {
+        "worker_id": "c7999179c5ad48fca8127ce0d9860e01-shard-0",
+        "claimed_at": "2026-11-22T06:54:47.592589+00:00",
+        "lease_expires_at": "2026-11-22T12:54:47.592589+00:00",
+        "run_id": "44961318741"
       }
     },
     "22281": {
       "attempts": []
     },
     "4556": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "21803107",
+        "display_name": "The Replacement (El sustituto) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T06:54:46.723963+00:00"
+      }
     },
     "37274": {
       "attempts": []
@@ -243114,5 +243131,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:54:42.108693+00:00"
+  "updated_at": "2026-11-22T06:54:47.855921+00:00"
 }
