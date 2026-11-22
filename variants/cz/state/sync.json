@@ -131584,7 +131584,7 @@
       "last_plan": {
         "source_id": "34860819",
         "display_name": "Guard 13 (13. revír) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:08:55.354862+00:00"
+        "planned_at": "2026-11-22T21:49:16.534206+00:00"
       },
       "previous_target_id": "30986996",
       "prepared": {
@@ -145869,6 +145869,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T17:44:37.675166+00:00",
         "relay_source_id": "35418947"
+      },
+      "claim": {
+        "worker_id": "4574e94fce6046e68384a6405dd26fab-shard-0",
+        "claimed_at": "2026-11-22T21:49:16.236978+00:00",
+        "lease_expires_at": "2026-11-23T03:49:16.236978+00:00",
+        "run_id": "45063988883"
       }
     },
     "12639": {
@@ -204938,17 +204944,19 @@
       "attempts": []
     },
     "5902": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17916376",
+          "target_video_id": "31261842",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:49:17.905556+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17916376",
         "display_name": "Baumbacher Syndrome 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:45:14.605118+00:00"
-      },
-      "claim": {
-        "worker_id": "dd64af2efea6402fbf50f4b636a7565c-shard-0",
-        "claimed_at": "2026-11-22T21:45:20.712431+00:00",
-        "lease_expires_at": "2026-11-23T03:45:20.712431+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31261842",
       "prepared": {
@@ -204969,7 +204977,7 @@
       "last_plan": {
         "source_id": "13660383",
         "display_name": "Light of My Life 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:49:13.472946+00:00"
+        "planned_at": "2026-11-22T21:49:17.192476+00:00"
       }
     },
     "35643": {
@@ -246806,5 +246814,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:49:13.472963+00:00"
+  "updated_at": "2026-11-22T21:49:17.905572+00:00"
 }
