@@ -139720,13 +139720,6 @@
           "source_id": "34877899",
           "target_video_id": "30987968",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:11:36.163985+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877899",
-          "target_video_id": "30987968",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:56:34.980904+00:00"
         },
         {
@@ -139735,12 +139728,19 @@
           "target_video_id": "30987968",
           "permanent": false,
           "attempted_at": "2026-11-22T14:37:59.140882+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877899",
+          "target_video_id": "30987968",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:59:15.240452+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34877899",
         "display_name": "Poslední propadne peklu (The Last One Will Go to Hell) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:37:53.813496+00:00"
+        "planned_at": "2026-11-22T20:59:12.211878+00:00"
       },
       "previous_target_id": "30987968",
       "prepared": {
@@ -204525,14 +204525,25 @@
       "last_plan": {
         "source_id": "34684714",
         "display_name": "Four Good Days 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:59:06.192567+00:00"
+        "planned_at": "2026-11-22T20:59:12.696101+00:00"
+      },
+      "claim": {
+        "worker_id": "c2534a0e4ba74e2aac7e3c593d0a8d39-shard-0",
+        "claimed_at": "2026-11-22T20:59:14.069121+00:00",
+        "lease_expires_at": "2026-11-23T02:59:14.069121+00:00",
+        "run_id": "45063988883"
       }
     },
     "15175": {
       "attempts": []
     },
     "24380": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30069934",
+        "display_name": "Animal Factory 1080p CZ Dabing",
+        "planned_at": "2026-11-22T20:59:13.026668+00:00"
+      }
     },
     "4044": {
       "attempts": []
@@ -246446,5 +246457,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:59:09.466381+00:00"
+  "updated_at": "2026-11-22T20:59:15.240474+00:00"
 }
