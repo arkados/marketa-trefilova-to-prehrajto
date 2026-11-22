@@ -50223,13 +50223,6 @@
           "source_id": "11203350",
           "target_video_id": "30775439",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:30:00.307376+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11203350",
-          "target_video_id": "30775439",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:06:19.451559+00:00"
         },
         {
@@ -50238,6 +50231,13 @@
           "target_video_id": "30775439",
           "permanent": false,
           "attempted_at": "2026-11-22T10:42:33.650439+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11203350",
+          "target_video_id": "30775439",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:30:05.712331+00:00"
         }
       ],
       "last_plan": {
@@ -108080,7 +108080,7 @@
       "last_plan": {
         "source_id": "32711232",
         "display_name": "On the Roof (Na střeše) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:42:32.948553+00:00"
+        "planned_at": "2026-11-22T12:30:03.590993+00:00"
       },
       "previous_target_id": "30983462",
       "prepared": {
@@ -108088,6 +108088,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:05:43.545596+00:00",
         "relay_source_id": "32711232"
+      },
+      "claim": {
+        "worker_id": "ae273d44a5054d9fa9d3e8ac9798d47d-shard-0",
+        "claimed_at": "2026-11-22T12:30:04.731776+00:00",
+        "lease_expires_at": "2026-11-22T18:30:04.731776+00:00",
+        "run_id": "45016772727"
       }
     },
     "12717": {
@@ -202638,7 +202644,7 @@
       "last_plan": {
         "source_id": "29393755",
         "display_name": "The Upper Hand 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:30:00.613607+00:00"
+        "planned_at": "2026-11-22T12:30:04.008148+00:00"
       }
     },
     "9345": {
@@ -244892,5 +244898,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:30:00.613623+00:00"
+  "updated_at": "2026-11-22T12:30:05.712347+00:00"
 }
