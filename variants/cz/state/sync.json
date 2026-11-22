@@ -118940,13 +118940,6 @@
           "source_id": "14091913",
           "target_video_id": "30984870",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:25:14.074121+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14091913",
-          "target_video_id": "30984870",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:07:30.964792+00:00"
         },
         {
@@ -118955,6 +118948,13 @@
           "target_video_id": "30984870",
           "permanent": false,
           "attempted_at": "2026-11-22T09:44:14.344390+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14091913",
+          "target_video_id": "30984870",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:28:19.033928+00:00"
         }
       ],
       "last_plan": {
@@ -118968,12 +118968,6 @@
         "size_bytes": 6200000000,
         "prepared_at": "2026-11-10T17:59:53.843118+00:00",
         "relay_source_id": "14091913"
-      },
-      "claim": {
-        "worker_id": "83cc9e250f4f497eb36e966cf343d99a-shard-0",
-        "claimed_at": "2026-11-22T11:28:15.500238+00:00",
-        "lease_expires_at": "2026-11-22T17:28:15.500238+00:00",
-        "run_id": "45016772727"
       }
     },
     "22616": {
@@ -202137,17 +202131,19 @@
       }
     },
     "23283": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33679667",
+          "target_video_id": "31250918",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:28:19.895909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33679667",
         "display_name": "Gladiator (1992) 1080p CZ Dabing",
         "planned_at": "2026-11-22T11:24:44.139533+00:00"
-      },
-      "claim": {
-        "worker_id": "29513b981b7444658a1f14bcad82b46e-shard-0",
-        "claimed_at": "2026-11-22T11:24:47.560486+00:00",
-        "lease_expires_at": "2026-11-22T17:24:47.560486+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31250918",
       "prepared": {
@@ -244512,5 +244508,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:28:15.847749+00:00"
+  "updated_at": "2026-11-22T11:28:19.895927+00:00"
 }
