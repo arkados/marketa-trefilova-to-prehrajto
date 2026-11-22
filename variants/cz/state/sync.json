@@ -201870,17 +201870,19 @@
       }
     },
     "15436": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34866905",
+          "target_video_id": "31250410",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:58:22.646468+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34866905",
         "display_name": "Bastardi II (Bastardi 2) 720p CZ Dabing",
         "planned_at": "2026-11-22T10:54:45.822075+00:00"
-      },
-      "claim": {
-        "worker_id": "9ec92c97bf0441b5a99a0f3515e2b15b-shard-0",
-        "claimed_at": "2026-11-22T10:54:46.937113+00:00",
-        "lease_expires_at": "2026-11-22T16:54:46.937113+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31250410",
       "prepared": {
@@ -244302,5 +244304,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:58:20.441697+00:00"
+  "updated_at": "2026-11-22T10:58:22.646486+00:00"
 }
