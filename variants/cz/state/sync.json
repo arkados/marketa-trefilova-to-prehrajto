@@ -111343,13 +111343,6 @@
           "source_id": "34877008",
           "target_video_id": "30983790",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:59:33.199474+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34877008",
-          "target_video_id": "30983790",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:36:07.586005+00:00"
         },
         {
@@ -111358,6 +111351,13 @@
           "target_video_id": "30983790",
           "permanent": false,
           "attempted_at": "2026-11-22T11:15:39.576629+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34877008",
+          "target_video_id": "30983790",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:00:13.601723+00:00"
         }
       ],
       "last_plan": {
@@ -111371,12 +111371,6 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T14:48:35.963240+00:00",
         "relay_source_id": "34877008"
-      },
-      "claim": {
-        "worker_id": "be2b5bb2d2d243a798956ffd3cb6deed-shard-0",
-        "claimed_at": "2026-11-22T13:00:08.708936+00:00",
-        "lease_expires_at": "2026-11-22T19:00:08.708936+00:00",
-        "run_id": "45016772727"
       }
     },
     "24061": {
@@ -115472,7 +115466,7 @@
       "last_plan": {
         "source_id": "32925649",
         "display_name": "The Lake House 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:15:43.290468+00:00"
+        "planned_at": "2026-11-22T13:00:12.115127+00:00"
       },
       "previous_target_id": "30984584",
       "prepared": {
@@ -115480,6 +115474,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T16:54:29.152360+00:00",
         "relay_source_id": "32925649"
+      },
+      "claim": {
+        "worker_id": "f959222e9d1d4fc3b305fc14197d4c9b-shard-0",
+        "claimed_at": "2026-11-22T13:00:13.290860+00:00",
+        "lease_expires_at": "2026-11-22T19:00:13.290860+00:00",
+        "run_id": "45016772727"
       }
     },
     "2842": {
@@ -202857,7 +202857,7 @@
       "last_plan": {
         "source_id": "34651725",
         "display_name": "Polite Society 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:00:07.945336+00:00"
+        "planned_at": "2026-11-22T13:00:12.566602+00:00"
       }
     },
     "27543": {
@@ -245072,5 +245072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:00:09.695406+00:00"
+  "updated_at": "2026-11-22T13:00:13.601741+00:00"
 }
