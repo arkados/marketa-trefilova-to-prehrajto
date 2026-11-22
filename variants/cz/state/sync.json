@@ -111811,13 +111811,6 @@
           "source_id": "34716815",
           "target_video_id": "30983811",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:50:25.665378+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716815",
-          "target_video_id": "30983811",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:59:11.248778+00:00"
         },
         {
@@ -111826,12 +111819,19 @@
           "target_video_id": "30983811",
           "permanent": false,
           "attempted_at": "2026-11-22T01:32:30.549080+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716815",
+          "target_video_id": "30983811",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:16:16.238687+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34716815",
         "display_name": "Karel Kryl - Kdo jsem (Karel Kryl – kto som?) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:04:07.047566+00:00"
+        "planned_at": "2026-11-22T03:16:12.933316+00:00"
       },
       "previous_target_id": "30983811",
       "prepared": {
@@ -199071,14 +199071,30 @@
       "last_plan": {
         "source_id": "35169447",
         "display_name": "Bastardi 3 (Bastardi III) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:04:07.863517+00:00"
+        "planned_at": "2026-11-22T03:16:13.284559+00:00"
+      },
+      "claim": {
+        "worker_id": "a138721e85fa4e61b90e7229e4709846-shard-0",
+        "claimed_at": "2026-11-22T03:16:14.556252+00:00",
+        "lease_expires_at": "2026-11-22T09:16:14.556252+00:00",
+        "run_id": "44961318741"
       }
     },
     "13210": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34435591",
+        "display_name": "So Close (XiYangTianShi) SD CZ Dabing",
+        "planned_at": "2026-11-22T03:16:13.512110+00:00"
+      }
     },
     "26650": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33817243",
+        "display_name": "Avalanche (Die Jahrhundertlawine) (2008) SD CZ Dabing",
+        "planned_at": "2026-11-22T03:16:13.727302+00:00"
+      }
     },
     "30788": {
       "attempts": []
@@ -241979,5 +241995,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:15:00.075575+00:00"
+  "updated_at": "2026-11-22T03:16:16.238708+00:00"
 }
