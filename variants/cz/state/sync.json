@@ -125090,7 +125090,7 @@
       "last_plan": {
         "source_id": "31751650",
         "display_name": "David (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T20:52:04.925155+00:00"
+        "planned_at": "2026-11-22T00:01:06.745881+00:00"
       },
       "previous_target_id": "30985776",
       "prepared": {
@@ -125098,6 +125098,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T21:49:34.186907+00:00",
         "relay_source_id": "31751650"
+      },
+      "claim": {
+        "worker_id": "03437530e91c43108db03ea80848bc36-shard-0",
+        "claimed_at": "2026-11-22T00:01:07.915516+00:00",
+        "lease_expires_at": "2026-11-22T06:01:07.915516+00:00",
+        "run_id": "44959851294"
       }
     },
     "35395": {
@@ -197515,17 +197521,19 @@
       "attempts": []
     },
     "10877": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29541575",
+          "target_video_id": "31239370",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:01:08.231120+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29541575",
         "display_name": "A High Wind in Jamaica 1080p CZ Dabing",
         "planned_at": "2026-11-21T23:57:44.802569+00:00"
-      },
-      "claim": {
-        "worker_id": "671ddb5a24f44316b99cb8d273f082ca-shard-0",
-        "claimed_at": "2026-11-21T23:57:48.199160+00:00",
-        "lease_expires_at": "2026-11-22T05:57:48.199160+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239370",
       "prepared": {
@@ -197570,7 +197578,7 @@
       "last_plan": {
         "source_id": "32300863",
         "display_name": "Mavka: The Forest Song (Mavka: Lisova pisnya) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:01:01.208903+00:00"
+        "planned_at": "2026-11-22T00:01:07.261200+00:00"
       }
     },
     "13631": {
@@ -240748,5 +240756,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:01:03.151134+00:00"
+  "updated_at": "2026-11-22T00:01:08.231140+00:00"
 }
