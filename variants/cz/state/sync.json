@@ -134397,13 +134397,6 @@
           "source_id": "23221863",
           "target_video_id": "30987417",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:27:12.824171+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23221863",
-          "target_video_id": "30987417",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:13:15.155255+00:00"
         },
         {
@@ -134412,6 +134405,13 @@
           "target_video_id": "30987417",
           "permanent": false,
           "attempted_at": "2026-11-22T05:52:10.718417+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23221863",
+          "target_video_id": "30987417",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:35:43.828313+00:00"
         }
       ],
       "last_plan": {
@@ -144288,7 +144288,7 @@
       "last_plan": {
         "source_id": "34679715",
         "display_name": "Milan Rastislav Štefánik 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:52:10.073760+00:00"
+        "planned_at": "2026-11-22T07:35:42.260878+00:00"
       },
       "previous_target_id": "30988789",
       "prepared": {
@@ -144296,6 +144296,12 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-11T10:01:18.033034+00:00",
         "relay_source_id": "34679715"
+      },
+      "claim": {
+        "worker_id": "178521c49b834e35994bd631c636b859-shard-0",
+        "claimed_at": "2026-11-22T07:35:43.486226+00:00",
+        "lease_expires_at": "2026-11-22T13:35:43.486226+00:00",
+        "run_id": "44995678765"
       }
     },
     "15443": {
@@ -200728,7 +200734,7 @@
       "last_plan": {
         "source_id": "23115609",
         "display_name": "Iron Will 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:35:38.858099+00:00"
+        "planned_at": "2026-11-22T07:35:42.666110+00:00"
       }
     },
     "28587": {
@@ -243330,5 +243336,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:35:39.156105+00:00"
+  "updated_at": "2026-11-22T07:35:43.828332+00:00"
 }
