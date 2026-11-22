@@ -133376,6 +133376,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T04:03:02.993627+00:00",
         "relay_source_id": "32876939"
+      },
+      "claim": {
+        "worker_id": "175be09d89024d2ab425465d699db7fe-shard-0",
+        "claimed_at": "2026-11-22T14:30:17.673725+00:00",
+        "lease_expires_at": "2026-11-22T20:30:17.673725+00:00",
+        "run_id": "45016772727"
       }
     },
     "24161": {
@@ -135770,13 +135776,6 @@
           "source_id": "34701460",
           "target_video_id": "30987598",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:25:24.299384+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34701460",
-          "target_video_id": "30987598",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:02:15.495536+00:00"
         },
         {
@@ -135785,6 +135784,13 @@
           "target_video_id": "30987598",
           "permanent": false,
           "attempted_at": "2026-11-22T12:46:19.980150+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34701460",
+          "target_video_id": "30987598",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:30:17.436178+00:00"
         }
       ],
       "last_plan": {
@@ -135798,12 +135804,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:21:57.085563+00:00",
         "relay_source_id": "34701460"
-      },
-      "claim": {
-        "worker_id": "e6d24b90ddb44a8eb0e58284dadf7bab-shard-0",
-        "claimed_at": "2026-11-22T14:30:13.660935+00:00",
-        "lease_expires_at": "2026-11-22T20:30:13.660935+00:00",
-        "run_id": "45016772727"
       }
     },
     "24046": {
@@ -141521,7 +141521,7 @@
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:46:23.411233+00:00"
+        "planned_at": "2026-11-22T14:30:17.967524+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -203619,7 +203619,7 @@
       "last_plan": {
         "source_id": "33664516",
         "display_name": "The Neon Highway 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:30:14.656329+00:00"
+        "planned_at": "2026-11-22T14:30:18.366853+00:00"
       }
     },
     "14305": {
@@ -245690,5 +245690,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:30:14.656345+00:00"
+  "updated_at": "2026-11-22T14:30:18.366868+00:00"
 }
