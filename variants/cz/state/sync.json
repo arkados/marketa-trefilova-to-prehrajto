@@ -88273,13 +88273,6 @@
           "source_id": "31439276",
           "target_video_id": "30924533",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:05:00.551395+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31439276",
-          "target_video_id": "30924533",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:48:24.824371+00:00"
         },
         {
@@ -88288,6 +88281,13 @@
           "target_video_id": "30924533",
           "permanent": false,
           "attempted_at": "2026-11-22T14:32:27.634698+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31439276",
+          "target_video_id": "30924533",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:53:39.918991+00:00"
         }
       ],
       "last_plan": {
@@ -163434,7 +163434,7 @@
       "last_plan": {
         "source_id": "26060946",
         "display_name": "Snow White and the Magic of the Dwarves (Schneewittchen und der Zauber der Zwerge) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:32:25.615160+00:00"
+        "planned_at": "2026-11-22T20:53:38.090744+00:00"
       },
       "previous_target_id": "31094047",
       "prepared": {
@@ -163442,6 +163442,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-16T16:12:31.667794+00:00",
         "relay_source_id": "26060946"
+      },
+      "claim": {
+        "worker_id": "7c3fe682326842fca40ea2d793ce327e-shard-0",
+        "claimed_at": "2026-11-22T20:53:39.372354+00:00",
+        "lease_expires_at": "2026-11-23T02:53:39.372354+00:00",
+        "run_id": "45063988883"
       }
     },
     "32605": {
@@ -204489,7 +204495,7 @@
       "last_plan": {
         "source_id": "30588020",
         "display_name": "Destination Gobi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:53:30.290527+00:00"
+        "planned_at": "2026-11-22T20:53:38.517739+00:00"
       }
     },
     "13988": {
@@ -246413,5 +246419,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:53:30.600459+00:00"
+  "updated_at": "2026-11-22T20:53:39.919008+00:00"
 }
