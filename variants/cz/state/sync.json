@@ -122427,13 +122427,6 @@
           "source_id": "30394887",
           "target_video_id": "30985435",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:40:17.539854+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30394887",
-          "target_video_id": "30985435",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:13:13.776594+00:00"
         },
         {
@@ -122442,6 +122435,13 @@
           "target_video_id": "30985435",
           "permanent": false,
           "attempted_at": "2026-11-22T03:58:29.111484+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30394887",
+          "target_video_id": "30985435",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:34:14.445810+00:00"
         }
       ],
       "last_plan": {
@@ -137077,7 +137077,7 @@
       "last_plan": {
         "source_id": "32941007",
         "display_name": "The Websters Movie (Websterovci vo filme) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:58:27.303827+00:00"
+        "planned_at": "2026-11-22T05:34:12.808448+00:00"
       },
       "previous_target_id": "30987743",
       "prepared": {
@@ -137085,6 +137085,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T05:52:17.271606+00:00",
         "relay_source_id": "32941007"
+      },
+      "claim": {
+        "worker_id": "1fdf87decdbf422181a738365dc57604-shard-0",
+        "claimed_at": "2026-11-22T05:34:13.736234+00:00",
+        "lease_expires_at": "2026-11-22T11:34:13.736234+00:00",
+        "run_id": "44961318741"
       }
     },
     "30381": {
@@ -199871,7 +199877,7 @@
       "last_plan": {
         "source_id": "33071425",
         "display_name": "Drift (2023) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:34:09.299719+00:00"
+        "planned_at": "2026-11-22T05:34:13.145098+00:00"
       }
     },
     "5513": {
@@ -242638,5 +242644,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:34:09.560844+00:00"
+  "updated_at": "2026-11-22T05:34:14.445830+00:00"
 }
