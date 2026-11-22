@@ -203774,17 +203774,19 @@
       }
     },
     "26025": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27293657",
+          "target_video_id": "31254642",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:52:50.105449+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27293657",
         "display_name": "Passe-passe (Off and Running) 720p CZ Dabing",
         "planned_at": "2026-11-22T14:50:02.157414+00:00"
-      },
-      "claim": {
-        "worker_id": "0ed823cece964e90b7969c4af61e4abf-shard-0",
-        "claimed_at": "2026-11-22T14:50:03.482312+00:00",
-        "lease_expires_at": "2026-11-22T20:50:03.482312+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31254642",
       "prepared": {
@@ -245840,5 +245842,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:52:46.454641+00:00"
+  "updated_at": "2026-11-22T14:52:50.105463+00:00"
 }
