@@ -118382,13 +118382,6 @@
           "source_id": "33745493",
           "target_video_id": "30984851",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:11:05.430984+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33745493",
-          "target_video_id": "30984851",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:42:44.514053+00:00"
         },
         {
@@ -118397,6 +118390,13 @@
           "target_video_id": "30984851",
           "permanent": false,
           "attempted_at": "2026-11-22T04:29:35.350856+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33745493",
+          "target_video_id": "30984851",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:06:48.587427+00:00"
         }
       ],
       "last_plan": {
@@ -143503,7 +143503,7 @@
       "last_plan": {
         "source_id": "34683567",
         "display_name": "Sisterhood 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:29:33.367577+00:00"
+        "planned_at": "2026-11-22T06:06:46.754668+00:00"
       },
       "previous_target_id": "30988629",
       "prepared": {
@@ -143511,6 +143511,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T08:59:43.149288+00:00",
         "relay_source_id": "34683567"
+      },
+      "claim": {
+        "worker_id": "c6bb40757ecd4cfc89db1a8c055a1bb7-shard-0",
+        "claimed_at": "2026-11-22T06:06:47.753556+00:00",
+        "lease_expires_at": "2026-11-22T12:06:47.753556+00:00",
+        "run_id": "44961318741"
       }
     },
     "32639": {
@@ -200181,7 +200187,7 @@
       "last_plan": {
         "source_id": "32366923",
         "display_name": "Líbáš jako ďábel 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:06:44.069810+00:00"
+        "planned_at": "2026-11-22T06:06:47.127903+00:00"
       }
     },
     "30848": {
@@ -242888,5 +242894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:06:44.069829+00:00"
+  "updated_at": "2026-11-22T06:06:48.587446+00:00"
 }
