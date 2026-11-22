@@ -113751,13 +113751,6 @@
           "source_id": "32044029",
           "target_video_id": "30984062",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:47:44.802648+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32044029",
-          "target_video_id": "30984062",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:32:54.150579+00:00"
         },
         {
@@ -113766,6 +113759,13 @@
           "target_video_id": "30984062",
           "permanent": false,
           "attempted_at": "2026-11-22T13:12:40.109679+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32044029",
+          "target_video_id": "30984062",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:56:42.228481+00:00"
         }
       ],
       "last_plan": {
@@ -132282,7 +132282,7 @@
       "last_plan": {
         "source_id": "35080468",
         "display_name": "Polská krev SD CZ Dabing",
-        "planned_at": "2026-11-22T13:12:39.285294+00:00"
+        "planned_at": "2026-11-22T14:56:40.545881+00:00"
       },
       "previous_target_id": "30987106",
       "prepared": {
@@ -132290,6 +132290,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:37:22.059612+00:00",
         "relay_source_id": "35080468"
+      },
+      "claim": {
+        "worker_id": "9cc1173123984787a3b78086668a541c-shard-0",
+        "claimed_at": "2026-11-22T14:56:41.863175+00:00",
+        "lease_expires_at": "2026-11-22T20:56:41.863175+00:00",
+        "run_id": "45016772727"
       }
     },
     "13773": {
@@ -203825,7 +203831,7 @@
       "last_plan": {
         "source_id": "29556669",
         "display_name": "Jungle Bunch: Operation Meltdown (Les As de la jungle 2 : Opération tour du monde) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:56:37.470866+00:00"
+        "planned_at": "2026-11-22T14:56:41.054234+00:00"
       }
     },
     "3673": {
@@ -245860,5 +245866,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:56:37.470883+00:00"
+  "updated_at": "2026-11-22T14:56:42.228505+00:00"
 }
