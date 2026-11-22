@@ -107669,13 +107669,6 @@
           "source_id": "34720969",
           "target_video_id": "30983144",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:27:03.512053+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34720969",
-          "target_video_id": "30983144",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:03:18.254306+00:00"
         },
         {
@@ -107684,6 +107677,13 @@
           "target_video_id": "30983144",
           "permanent": false,
           "attempted_at": "2026-11-22T00:10:52.876876+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34720969",
+          "target_video_id": "30983144",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:43:57.233727+00:00"
         }
       ],
       "last_plan": {
@@ -107697,12 +107697,6 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-10T13:53:26.625682+00:00",
         "relay_source_id": "34720969"
-      },
-      "claim": {
-        "worker_id": "fa5724465ac741fba37e6e68379a0fdb-shard-0",
-        "claimed_at": "2026-11-22T01:43:54.281394+00:00",
-        "lease_expires_at": "2026-11-22T07:43:54.281394+00:00",
-        "run_id": "44959851294"
       }
     },
     "33348": {
@@ -107732,7 +107726,7 @@
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:10:49.118920+00:00"
+        "planned_at": "2026-11-22T01:43:56.467947+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -198550,7 +198544,7 @@
       "last_plan": {
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:43:51.204372+00:00"
+        "planned_at": "2026-11-22T01:43:56.924503+00:00"
       }
     },
     "21757": {
@@ -198560,7 +198554,12 @@
       "attempts": []
     },
     "34977": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34720154",
+        "display_name": "Yamato 1080p CZ Dabing",
+        "planned_at": "2026-11-22T01:43:57.472818+00:00"
+      }
     },
     "24707": {
       "attempts": []
@@ -241527,5 +241526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:43:54.281427+00:00"
+  "updated_at": "2026-11-22T01:43:57.472838+00:00"
 }
