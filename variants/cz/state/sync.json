@@ -14781,7 +14781,7 @@
       "last_plan": {
         "source_id": "32500310",
         "display_name": "Guess Who's Coming to Dinner 720p CZ Dabing",
-        "planned_at": "2026-11-22T05:37:32.745299+00:00"
+        "planned_at": "2026-11-22T07:23:48.118846+00:00"
       },
       "previous_target_id": "30657182",
       "prepared": {
@@ -14789,6 +14789,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-10-31T06:23:14.737343+00:00",
         "relay_source_id": "32500310"
+      },
+      "claim": {
+        "worker_id": "e8bc931891904465976c1d99d1d21309-shard-0",
+        "claimed_at": "2026-11-22T07:23:49.226760+00:00",
+        "lease_expires_at": "2026-11-22T13:23:49.226760+00:00",
+        "run_id": "44995678765"
       }
     },
     "22177": {
@@ -119656,13 +119662,6 @@
           "source_id": "34864462",
           "target_video_id": "30984947",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:16:27.998854+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34864462",
-          "target_video_id": "30984947",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:01:41.042314+00:00"
         },
         {
@@ -119671,6 +119670,13 @@
           "target_video_id": "30984947",
           "permanent": false,
           "attempted_at": "2026-11-22T05:37:33.362098+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34864462",
+          "target_video_id": "30984947",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:23:49.974764+00:00"
         }
       ],
       "last_plan": {
@@ -200622,17 +200628,19 @@
       }
     },
     "21591": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29612892",
+          "target_video_id": "31246736",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:23:50.287796+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29612892",
         "display_name": "The Brides of Dracula SD CZ Dabing",
         "planned_at": "2026-11-22T07:22:29.068949+00:00"
-      },
-      "claim": {
-        "worker_id": "6b22967d4d3e48fa94c7aaaa4c066074-shard-0",
-        "claimed_at": "2026-11-22T07:22:30.316673+00:00",
-        "lease_expires_at": "2026-11-22T13:22:30.316673+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31246736",
       "prepared": {
@@ -200650,7 +200658,7 @@
       "last_plan": {
         "source_id": "31772239",
         "display_name": "The Prague Orgy (Pražské orgie) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:23:45.224669+00:00"
+        "planned_at": "2026-11-22T07:23:48.503448+00:00"
       }
     },
     "3776": {
@@ -243258,5 +243266,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:23:45.224687+00:00"
+  "updated_at": "2026-11-22T07:23:50.287821+00:00"
 }
