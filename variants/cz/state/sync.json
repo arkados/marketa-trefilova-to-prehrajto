@@ -203441,17 +203441,19 @@
       "attempts": []
     },
     "3762": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15195766",
+          "target_video_id": "31253720",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:12:52.732881+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15195766",
         "display_name": "The One and Only Ivan 4K CZ Dabing",
         "planned_at": "2026-11-22T13:54:04.006300+00:00"
-      },
-      "claim": {
-        "worker_id": "418b4c40798c437fb1e3fb51117099b3-shard-0",
-        "claimed_at": "2026-11-22T13:54:05.484196+00:00",
-        "lease_expires_at": "2026-11-22T19:54:05.484196+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31253720",
       "prepared": {
@@ -245576,5 +245578,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:12:50.491441+00:00"
+  "updated_at": "2026-11-22T14:12:52.732896+00:00"
 }
