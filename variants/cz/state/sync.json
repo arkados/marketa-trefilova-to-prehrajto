@@ -118743,6 +118743,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:57:42.011415+00:00",
         "relay_source_id": "29278547"
+      },
+      "claim": {
+        "worker_id": "fe00ca7731124342b4115e82beecca01-shard-0",
+        "claimed_at": "2026-11-22T11:42:28.008490+00:00",
+        "lease_expires_at": "2026-11-22T17:42:28.008490+00:00",
+        "run_id": "45016772727"
       }
     },
     "12374": {
@@ -122031,7 +122037,7 @@
       "last_plan": {
         "source_id": "34650910",
         "display_name": "That Christmas 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:00:14.430573+00:00"
+        "planned_at": "2026-11-22T11:42:28.293244+00:00"
       },
       "previous_target_id": "30985403",
       "prepared": {
@@ -129183,13 +129189,6 @@
           "source_id": "32146424",
           "target_video_id": "30986739",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:39:39.119206+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32146424",
-          "target_video_id": "30986739",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:23:26.169422+00:00"
         },
         {
@@ -129198,6 +129197,13 @@
           "target_video_id": "30986739",
           "permanent": false,
           "attempted_at": "2026-11-22T10:00:11.438801+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32146424",
+          "target_video_id": "30986739",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:42:27.764791+00:00"
         }
       ],
       "last_plan": {
@@ -129211,12 +129217,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T01:52:00.606947+00:00",
         "relay_source_id": "32146424"
-      },
-      "claim": {
-        "worker_id": "ffef548bdb4341f681760d5e3ef1ea32-shard-0",
-        "claimed_at": "2026-11-22T11:42:24.116382+00:00",
-        "lease_expires_at": "2026-11-22T17:42:24.116382+00:00",
-        "run_id": "45016772727"
       }
     },
     "2802": {
@@ -202328,7 +202328,7 @@
       "last_plan": {
         "source_id": "35308935",
         "display_name": "The Shape of Things 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:42:25.087162+00:00"
+        "planned_at": "2026-11-22T11:42:28.691470+00:00"
       }
     },
     "27411": {
@@ -244651,5 +244651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:42:25.087180+00:00"
+  "updated_at": "2026-11-22T11:42:28.691487+00:00"
 }
