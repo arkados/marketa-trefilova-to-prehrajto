@@ -56407,13 +56407,6 @@
           "source_id": "31203013",
           "target_video_id": "30784627",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:17:29.166240+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31203013",
-          "target_video_id": "30784627",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:48:19.471849+00:00"
         },
         {
@@ -56422,6 +56415,13 @@
           "target_video_id": "30784627",
           "permanent": false,
           "attempted_at": "2026-11-22T02:21:11.175642+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31203013",
+          "target_video_id": "30784627",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:06:41.970131+00:00"
         }
       ],
       "last_plan": {
@@ -125459,7 +125459,7 @@
       "last_plan": {
         "source_id": "34296329",
         "display_name": "Contra 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:21:09.753626+00:00"
+        "planned_at": "2026-11-22T04:06:39.755132+00:00"
       },
       "previous_target_id": "30985822",
       "prepared": {
@@ -125467,6 +125467,12 @@
         "size_bytes": 3300000000,
         "prepared_at": "2026-11-10T22:05:34.736105+00:00",
         "relay_source_id": "34296329"
+      },
+      "claim": {
+        "worker_id": "3beea192ad2445b7b5f2891ce307660e-shard-0",
+        "claimed_at": "2026-11-22T04:06:41.004784+00:00",
+        "lease_expires_at": "2026-11-22T10:06:41.004784+00:00",
+        "run_id": "44961318741"
       }
     },
     "27073": {
@@ -199405,7 +199411,7 @@
       "last_plan": {
         "source_id": "35178312",
         "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:06:36.314305+00:00"
+        "planned_at": "2026-11-22T04:06:40.312617+00:00"
       }
     },
     "29367": {
@@ -242253,5 +242259,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:06:36.314323+00:00"
+  "updated_at": "2026-11-22T04:06:41.970149+00:00"
 }
