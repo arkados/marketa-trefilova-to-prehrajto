@@ -118854,6 +118854,12 @@
         "size_bytes": 7100000000,
         "prepared_at": "2026-11-10T17:58:25.417113+00:00",
         "relay_source_id": "33873663"
+      },
+      "claim": {
+        "worker_id": "b3204532873549b3bc4d64793223f617-shard-0",
+        "claimed_at": "2026-11-22T01:22:56.902543+00:00",
+        "lease_expires_at": "2026-11-22T07:22:56.902543+00:00",
+        "run_id": "44959851294"
       }
     },
     "3098": {
@@ -120300,13 +120306,6 @@
           "source_id": "14652595",
           "target_video_id": "30984996",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:08:55.721768+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14652595",
-          "target_video_id": "30984996",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:41:38.750399+00:00"
         },
         {
@@ -120315,6 +120314,13 @@
           "target_video_id": "30984996",
           "permanent": false,
           "attempted_at": "2026-11-21T23:50:15.750382+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14652595",
+          "target_video_id": "30984996",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:22:56.626410+00:00"
         }
       ],
       "last_plan": {
@@ -120328,12 +120334,6 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T18:28:45.684654+00:00",
         "relay_source_id": "14652595"
-      },
-      "claim": {
-        "worker_id": "5908e9700b804ec5a9b6864bac1e0e3c-shard-0",
-        "claimed_at": "2026-11-22T01:22:53.424412+00:00",
-        "lease_expires_at": "2026-11-22T07:22:53.424412+00:00",
-        "run_id": "44959851294"
       }
     },
     "23324": {
@@ -137899,7 +137899,7 @@
       "last_plan": {
         "source_id": "27912463",
         "display_name": "Lízino štěstí 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:50:18.455020+00:00"
+        "planned_at": "2026-11-22T01:22:57.192406+00:00"
       },
       "previous_target_id": "30987815",
       "prepared": {
@@ -198337,7 +198337,7 @@
       "last_plan": {
         "source_id": "11360810",
         "display_name": "The Young Karl Marx (Le jeune Karl Marx) SD CZ Dabing",
-        "planned_at": "2026-11-22T01:22:54.101867+00:00"
+        "planned_at": "2026-11-22T01:22:57.572918+00:00"
       }
     },
     "15241": {
@@ -241350,5 +241350,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:22:54.101885+00:00"
+  "updated_at": "2026-11-22T01:22:57.572938+00:00"
 }
