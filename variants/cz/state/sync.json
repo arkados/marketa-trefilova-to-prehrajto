@@ -114946,13 +114946,6 @@
           "source_id": "31650158",
           "target_video_id": "30984298",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:26:19.256024+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31650158",
-          "target_video_id": "30984298",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:10:17.118715+00:00"
         },
         {
@@ -114961,6 +114954,13 @@
           "target_video_id": "30984298",
           "permanent": false,
           "attempted_at": "2026-11-22T13:51:14.112843+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31650158",
+          "target_video_id": "30984298",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:16:41.770259+00:00"
         }
       ],
       "last_plan": {
@@ -142491,7 +142491,7 @@
       "last_plan": {
         "source_id": "11413310",
         "display_name": "Prípad dvou manzelek (Případ dvou manželek) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:51:12.249826+00:00"
+        "planned_at": "2026-11-22T20:16:40.034555+00:00"
       },
       "previous_target_id": "30988502",
       "prepared": {
@@ -142499,6 +142499,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T08:35:10.296083+00:00",
         "relay_source_id": "11413310"
+      },
+      "claim": {
+        "worker_id": "27d47684fcfb4553b508937329bc6c7b-shard-0",
+        "claimed_at": "2026-11-22T20:16:41.471039+00:00",
+        "lease_expires_at": "2026-11-23T02:16:41.471039+00:00",
+        "run_id": "45063988883"
       }
     },
     "37384": {
@@ -204264,11 +204270,22 @@
       "last_plan": {
         "source_id": "30810266",
         "display_name": "Carbon (Carbone) SD CZ Dabing",
-        "planned_at": "2026-11-22T20:16:34.232805+00:00"
+        "planned_at": "2026-11-22T20:16:40.437275+00:00"
+      },
+      "claim": {
+        "worker_id": "fdb334abb6024331b1f7cb641ec4b9a8-shard-0",
+        "claimed_at": "2026-11-22T20:16:42.005506+00:00",
+        "lease_expires_at": "2026-11-23T02:16:42.005506+00:00",
+        "run_id": "45063988883"
       }
     },
     "15075": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32147721",
+        "display_name": "Escape Room: La pel·lícula 1080p CZ Dabing",
+        "planned_at": "2026-11-22T20:16:40.730681+00:00"
+      }
     },
     "7973": {
       "attempts": []
@@ -246218,5 +246235,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:16:37.150671+00:00"
+  "updated_at": "2026-11-22T20:16:42.005535+00:00"
 }
