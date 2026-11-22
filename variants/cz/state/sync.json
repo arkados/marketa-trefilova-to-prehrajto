@@ -120994,17 +120994,16 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-10T18:37:05.778706+00:00",
         "relay_source_id": "19734096"
+      },
+      "claim": {
+        "worker_id": "22b779e5d050471194e8fb5489aa8947-shard-0",
+        "claimed_at": "2026-11-22T13:25:40.247306+00:00",
+        "lease_expires_at": "2026-11-22T19:25:40.247306+00:00",
+        "run_id": "45016772727"
       }
     },
     "24697": {
       "attempts": [
-        {
-          "status": "target_processing",
-          "source_id": "34453145",
-          "target_video_id": "30985030",
-          "permanent": false,
-          "attempted_at": "2026-11-22T08:22:42.610388+00:00"
-        },
         {
           "status": "target_processing",
           "source_id": "34453145",
@@ -121018,6 +121017,13 @@
           "target_video_id": "30985030",
           "permanent": false,
           "attempted_at": "2026-11-22T11:41:44.794511+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34453145",
+          "target_video_id": "30985030",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:25:40.004425+00:00"
         }
       ],
       "last_plan": {
@@ -121031,12 +121037,6 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-10T18:37:07.535949+00:00",
         "relay_source_id": "34453145"
-      },
-      "claim": {
-        "worker_id": "281f8f194d124a4fae42c0702c0ee2b1-shard-0",
-        "claimed_at": "2026-11-22T13:25:36.575193+00:00",
-        "lease_expires_at": "2026-11-22T19:25:36.575193+00:00",
-        "run_id": "45016772727"
       }
     },
     "2882": {
@@ -136504,7 +136504,7 @@
       "last_plan": {
         "source_id": "31576573",
         "display_name": "Beautiful Ride (Spanilá jízda) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:41:47.488447+00:00"
+        "planned_at": "2026-11-22T13:25:40.540927+00:00"
       },
       "previous_target_id": "30987678",
       "prepared": {
@@ -203054,7 +203054,7 @@
       "last_plan": {
         "source_id": "30135308",
         "display_name": "Just in Time for Christmas 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:25:37.278251+00:00"
+        "planned_at": "2026-11-22T13:25:40.937463+00:00"
       }
     },
     "27100": {
@@ -245253,5 +245253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:25:37.278269+00:00"
+  "updated_at": "2026-11-22T13:25:40.937479+00:00"
 }
