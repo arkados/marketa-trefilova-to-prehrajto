@@ -120374,13 +120374,6 @@
           "source_id": "12171968",
           "target_video_id": "30984999",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:24:20.327455+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12171968",
-          "target_video_id": "30984999",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:06:34.654408+00:00"
         },
         {
@@ -120389,6 +120382,13 @@
           "target_video_id": "30984999",
           "permanent": false,
           "attempted_at": "2026-11-22T09:43:16.566752+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12171968",
+          "target_video_id": "30984999",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:27:30.203096+00:00"
         }
       ],
       "last_plan": {
@@ -139888,7 +139888,7 @@
       "last_plan": {
         "source_id": "30326245",
         "display_name": "Ľalie poľné SD CZ Dabing",
-        "planned_at": "2026-11-22T09:43:14.613004+00:00"
+        "planned_at": "2026-11-22T11:27:28.598352+00:00"
       },
       "previous_target_id": "30987991",
       "prepared": {
@@ -139896,6 +139896,12 @@
         "size_bytes": 734000000,
         "prepared_at": "2026-11-11T07:11:18.758095+00:00",
         "relay_source_id": "30326245"
+      },
+      "claim": {
+        "worker_id": "1cf31a7500344221a2b2cb868dd32537-shard-0",
+        "claimed_at": "2026-11-22T11:27:29.844671+00:00",
+        "lease_expires_at": "2026-11-22T17:27:29.844671+00:00",
+        "run_id": "45016772727"
       }
     },
     "21125": {
@@ -202159,7 +202165,7 @@
       "last_plan": {
         "source_id": "32312701",
         "display_name": "The Case of the Dead Deadman (Případ mrtvého nebožtíka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:27:25.711296+00:00"
+        "planned_at": "2026-11-22T11:27:29.019129+00:00"
       }
     },
     "15767": {
@@ -244506,5 +244512,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:27:25.711313+00:00"
+  "updated_at": "2026-11-22T11:27:30.203115+00:00"
 }
