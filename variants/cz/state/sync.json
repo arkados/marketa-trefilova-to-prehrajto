@@ -110656,13 +110656,6 @@
           "source_id": "34716525",
           "target_video_id": "30983747",
           "permanent": false,
-          "attempted_at": "2026-11-21T18:53:13.244170+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716525",
-          "target_video_id": "30983747",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:27:31.901719+00:00"
         },
         {
@@ -110671,6 +110664,13 @@
           "target_video_id": "30983747",
           "permanent": false,
           "attempted_at": "2026-11-21T23:38:48.735774+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716525",
+          "target_video_id": "30983747",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:10:57.305149+00:00"
         }
       ],
       "last_plan": {
@@ -131962,7 +131962,7 @@
       "last_plan": {
         "source_id": "29956320",
         "display_name": "Dalskabáty, hrisna ves (Dalskabáty, hříšná ves aneb Zapomenutý čert) SD CZ Dabing",
-        "planned_at": "2026-11-21T23:38:48.243925+00:00"
+        "planned_at": "2026-11-22T01:10:55.466454+00:00"
       },
       "previous_target_id": "30987039",
       "prepared": {
@@ -131970,6 +131970,12 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T03:28:04.677666+00:00",
         "relay_source_id": "29956320"
+      },
+      "claim": {
+        "worker_id": "010fc2e6e94648738ae3067403fbbcf5-shard-0",
+        "claimed_at": "2026-11-22T01:10:56.767587+00:00",
+        "lease_expires_at": "2026-11-22T07:10:56.767587+00:00",
+        "run_id": "44959851294"
       }
     },
     "32432": {
@@ -198180,14 +198186,25 @@
       "last_plan": {
         "source_id": "32940950",
         "display_name": "The Big Store (Le Grand Bazar) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:10:51.929147+00:00"
+        "planned_at": "2026-11-22T01:10:55.841390+00:00"
+      },
+      "claim": {
+        "worker_id": "83739127915e42bea0b955a527533041-shard-0",
+        "claimed_at": "2026-11-22T01:10:57.071249+00:00",
+        "lease_expires_at": "2026-11-22T07:10:57.071249+00:00",
+        "run_id": "44959851294"
       }
     },
     "21837": {
       "attempts": []
     },
     "7196": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26840942",
+        "display_name": "Neon Spring (Neona pavasaris) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T01:10:56.123452+00:00"
+      }
     },
     "3707": {
       "attempts": []
@@ -241220,5 +241237,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:10:52.183123+00:00"
+  "updated_at": "2026-11-22T01:10:57.305176+00:00"
 }
