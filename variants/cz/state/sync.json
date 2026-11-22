@@ -115355,7 +115355,7 @@
       "last_plan": {
         "source_id": "26253538",
         "display_name": "The Autopsy of Jane Doe 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:08:01.847314+00:00"
+        "planned_at": "2026-11-22T23:49:55.190123+00:00"
       },
       "previous_target_id": "30984524",
       "prepared": {
@@ -115363,6 +115363,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:41:21.772544+00:00",
         "relay_source_id": "26253538"
+      },
+      "claim": {
+        "worker_id": "48f8599aa19e4dd08b52d07fadb3e61e-shard-0",
+        "claimed_at": "2026-11-22T23:49:56.407085+00:00",
+        "lease_expires_at": "2026-11-23T05:49:56.407085+00:00",
+        "run_id": "45063988883"
       }
     },
     "17763": {
@@ -205252,17 +205258,23 @@
           "attempted_at": "2026-11-22T22:08:05.866026+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34697660",
-        "display_name": "Oddball 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:49:51.758350+00:00"
-      },
       "previous_target_id": "31262266",
-      "prepared": {
+      "upload": {
         "target_video_id": "31262266",
-        "size_bytes": 1909086281,
-        "prepared_at": "2026-11-22T22:06:02.224632+00:00",
-        "relay_source_id": "34697660"
+        "display_name": "Oddball 1080p CZ Dabing",
+        "source_id": "34697660",
+        "source_url": "https://sdilej.cz/34697660/oddball-a-tucnaci-2015-cz-dabing.mp4",
+        "source_filename": "Oddball a tučňáci (2015) CZ Dabing.mp4",
+        "size_bytes": 1900000000,
+        "width": 1920,
+        "height": 1056,
+        "audio_language": "cs",
+        "language_probability": 0.8904396295547485,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/oddball-1080p-cz-dabing-mp4/9792d6c8aeae70d9",
+        "uploaded_at": "2026-11-22T23:49:56.905132+00:00"
       }
     },
     "20143": {
@@ -205950,7 +205962,7 @@
       "last_plan": {
         "source_id": "30409381",
         "display_name": "Life Hits SD CZ Dabing",
-        "planned_at": "2026-11-22T23:49:52.194633+00:00"
+        "planned_at": "2026-11-22T23:49:55.641176+00:00"
       }
     },
     "34812": {
@@ -247598,5 +247610,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:49:52.194649+00:00"
+  "updated_at": "2026-11-22T23:49:56.905148+00:00"
 }
