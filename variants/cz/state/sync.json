@@ -111720,7 +111720,7 @@
       "last_plan": {
         "source_id": "35073576",
         "display_name": "Řeka čaruje 720p CZ Dabing",
-        "planned_at": "2026-11-22T13:10:14.088116+00:00"
+        "planned_at": "2026-11-22T14:51:39.563425+00:00"
       },
       "previous_target_id": "30983807",
       "prepared": {
@@ -111728,6 +111728,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T14:51:07.924459+00:00",
         "relay_source_id": "35073576"
+      },
+      "claim": {
+        "worker_id": "98a7bddc418b4e33ba775cec5ba5ea3a-shard-0",
+        "claimed_at": "2026-11-22T14:51:40.785824+00:00",
+        "lease_expires_at": "2026-11-22T20:51:40.785824+00:00",
+        "run_id": "45016772727"
       }
     },
     "12571": {
@@ -203035,17 +203041,23 @@
           "attempted_at": "2026-11-22T13:10:18.774926+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34651725",
-        "display_name": "Polite Society 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:51:35.509169+00:00"
-      },
       "previous_target_id": "31252984",
-      "prepared": {
+      "upload": {
         "target_video_id": "31252984",
-        "size_bytes": 2519695491,
-        "prepared_at": "2026-11-22T13:07:12.508737+00:00",
-        "relay_source_id": "34651725"
+        "display_name": "Polite Society 1080p CZ Dabing",
+        "source_id": "34651725",
+        "source_url": "https://sdilej.cz/34651725/slusna-spolecnost-2023-cz-dabing.mp4",
+        "source_filename": "Slušná společnost (2023) CZ Dabing.mp4",
+        "size_bytes": 2500000000,
+        "width": 1920,
+        "height": 1080,
+        "audio_language": "cs",
+        "language_probability": 0.9607724547386169,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/polite-society-1080p-cz-dabing-mp4/298d9a1d90455865",
+        "uploaded_at": "2026-11-22T14:51:41.122800+00:00"
       }
     },
     "27543": {
@@ -203793,7 +203805,7 @@
       "last_plan": {
         "source_id": "34681114",
         "display_name": "Jak básníci neztrácejí naději 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:51:35.952400+00:00"
+        "planned_at": "2026-11-22T14:51:40.005414+00:00"
       }
     },
     "19158": {
@@ -245834,5 +245846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:51:36.532568+00:00"
+  "updated_at": "2026-11-22T14:51:41.122814+00:00"
 }
