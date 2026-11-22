@@ -122710,6 +122710,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T19:26:20.062444+00:00",
         "relay_source_id": "28510712"
+      },
+      "claim": {
+        "worker_id": "0211b5b01a42400c8cf7a98b99e4ede0-shard-0",
+        "claimed_at": "2026-11-22T04:34:40.895985+00:00",
+        "lease_expires_at": "2026-11-22T10:34:40.895985+00:00",
+        "run_id": "44961318741"
       }
     },
     "12443": {
@@ -128077,7 +128083,7 @@
       "last_plan": {
         "source_id": "34847608",
         "display_name": "Dead Over Heels: An Aurora Teagarden Mystery 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:48:12.542771+00:00"
+        "planned_at": "2026-11-22T04:34:41.153412+00:00"
       },
       "previous_target_id": "30986566",
       "prepared": {
@@ -128094,13 +128100,6 @@
           "source_id": "34502346",
           "target_video_id": "30986567",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:43:43.898759+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34502346",
-          "target_video_id": "30986567",
-          "permanent": false,
           "attempted_at": "2026-11-22T01:16:16.260682+00:00"
         },
         {
@@ -128109,6 +128108,13 @@
           "target_video_id": "30986567",
           "permanent": false,
           "attempted_at": "2026-11-22T02:48:05.562114+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34502346",
+          "target_video_id": "30986567",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:34:40.679492+00:00"
         }
       ],
       "last_plan": {
@@ -128122,12 +128128,6 @@
         "size_bytes": 1200000000,
         "prepared_at": "2026-11-11T00:54:51.180948+00:00",
         "relay_source_id": "34502346"
-      },
-      "claim": {
-        "worker_id": "9652368bcd5d4c908b50427df7c9c43e-shard-0",
-        "claimed_at": "2026-11-22T04:34:36.840367+00:00",
-        "lease_expires_at": "2026-11-22T10:34:36.840367+00:00",
-        "run_id": "44961318741"
       }
     },
     "24321": {
@@ -199628,7 +199628,7 @@
       "last_plan": {
         "source_id": "33483388",
         "display_name": "The Goldsmith's Secret (El secreto del orfebre) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:34:37.528662+00:00"
+        "planned_at": "2026-11-22T04:34:41.494842+00:00"
       }
     },
     "15048": {
@@ -242437,5 +242437,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:34:37.827293+00:00"
+  "updated_at": "2026-11-22T04:34:41.494861+00:00"
 }
