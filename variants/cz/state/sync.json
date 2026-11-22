@@ -201510,17 +201510,19 @@
       "attempts": []
     },
     "4644": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12471901",
+          "target_video_id": "31249270",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:59:39.667343+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12471901",
         "display_name": "X - The eXploited (X – A rendszerből törölve) 1080p CZ Dabing",
         "planned_at": "2026-11-22T09:55:01.400892+00:00"
-      },
-      "claim": {
-        "worker_id": "0bce094e8ed046078b258972931ff1fc-shard-0",
-        "claimed_at": "2026-11-22T09:55:04.481945+00:00",
-        "lease_expires_at": "2026-11-22T15:55:04.481945+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31249270",
       "prepared": {
@@ -244011,5 +244013,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:59:37.140988+00:00"
+  "updated_at": "2026-11-22T09:59:39.667371+00:00"
 }
