@@ -195082,13 +195082,6 @@
           "source_id": "31919659",
           "target_video_id": "31233026",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:22:04.143828+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31919659",
-          "target_video_id": "31233026",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:04:22.673334+00:00"
         },
         {
@@ -195097,6 +195090,13 @@
           "target_video_id": "31233026",
           "permanent": false,
           "attempted_at": "2026-11-22T09:41:06.630525+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31919659",
+          "target_video_id": "31233026",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:25:17.777546+00:00"
         }
       ],
       "last_plan": {
@@ -201452,7 +201452,7 @@
       "last_plan": {
         "source_id": "30799675",
         "display_name": "Le Battant 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:31:53.748139+00:00"
+        "planned_at": "2026-11-22T11:25:15.998950+00:00"
       },
       "previous_target_id": "31248816",
       "prepared": {
@@ -201460,6 +201460,12 @@
         "size_bytes": 5418514619,
         "prepared_at": "2026-11-22T09:32:01.058777+00:00",
         "relay_source_id": "30799675"
+      },
+      "claim": {
+        "worker_id": "79c1b386a4db4645a224360fef82d426-shard-0",
+        "claimed_at": "2026-11-22T11:25:17.291364+00:00",
+        "lease_expires_at": "2026-11-22T17:25:17.291364+00:00",
+        "run_id": "45016772727"
       }
     },
     "24129": {
@@ -202153,7 +202159,7 @@
       "last_plan": {
         "source_id": "32312701",
         "display_name": "The Case of the Dead Deadman (Případ mrtvého nebožtíka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:25:12.874695+00:00"
+        "planned_at": "2026-11-22T11:25:16.460120+00:00"
       }
     },
     "15767": {
@@ -244500,5 +244506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:25:12.874712+00:00"
+  "updated_at": "2026-11-22T11:25:17.777562+00:00"
 }
