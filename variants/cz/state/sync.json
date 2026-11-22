@@ -111420,13 +111420,6 @@
           "source_id": "28004879",
           "target_video_id": "30983794",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:04:59.062203+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28004879",
-          "target_video_id": "30983794",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:38:03.212186+00:00"
         },
         {
@@ -111435,6 +111428,13 @@
           "target_video_id": "30983794",
           "permanent": false,
           "attempted_at": "2026-11-21T23:46:48.461530+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28004879",
+          "target_video_id": "30983794",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:19:22.965127+00:00"
         }
       ],
       "last_plan": {
@@ -111448,12 +111448,6 @@
         "size_bytes": 807200000,
         "prepared_at": "2026-11-10T14:49:12.511698+00:00",
         "relay_source_id": "28004879"
-      },
-      "claim": {
-        "worker_id": "410072aeebd5452eb067be8e24241a18-shard-0",
-        "claimed_at": "2026-11-22T01:19:19.677496+00:00",
-        "lease_expires_at": "2026-11-22T07:19:19.677496+00:00",
-        "run_id": "44959851294"
       }
     },
     "13136": {
@@ -125647,7 +125641,7 @@
       "last_plan": {
         "source_id": "34824290",
         "display_name": "Borsalino 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:46:47.747306+00:00"
+        "planned_at": "2026-11-22T01:19:24.709327+00:00"
       },
       "previous_target_id": "30985867",
       "prepared": {
@@ -197566,17 +197560,23 @@
           "attempted_at": "2026-11-21T23:46:51.525410+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "30162271",
-        "display_name": "Mulan (Mulan: Rise of a Warrior) (2009) 720p CZ Dabing",
-        "planned_at": "2026-11-22T01:19:20.040309+00:00"
-      },
       "previous_target_id": "31239124",
-      "prepared": {
+      "upload": {
         "target_video_id": "31239124",
-        "size_bytes": 1371377438,
-        "prepared_at": "2026-11-21T23:44:28.976947+00:00",
-        "relay_source_id": "30162271"
+        "display_name": "Mulan (Mulan: Rise of a Warrior) (2009) 720p CZ Dabing",
+        "source_id": "30162271",
+        "source_url": "https://sdilej.cz/30162271/mulan-2009-.cz.webrip.720p.10b.hevc.c4u.mkv",
+        "source_filename": "Mulan (2009).CZ.WebRip.720p.10b.HEVC.C4U.mkv",
+        "size_bytes": 1400000000,
+        "width": 1280,
+        "height": 720,
+        "audio_language": "cs",
+        "language_probability": 0.9716253280639648,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/mulan-mulan-rise-of-a-warrior-2009-720p-cz-dabing-mkv/970a9fda959d3a93",
+        "uploaded_at": "2026-11-22T01:19:25.715970+00:00"
       }
     },
     "5481": {
@@ -198302,7 +198302,7 @@
       "last_plan": {
         "source_id": "28232720",
         "display_name": "The Chapel 720p CZ Dabing",
-        "planned_at": "2026-11-22T01:19:20.421876+00:00"
+        "planned_at": "2026-11-22T01:19:25.086833+00:00"
       }
     },
     "19946": {
@@ -241318,5 +241318,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:19:20.421895+00:00"
+  "updated_at": "2026-11-22T01:19:25.715991+00:00"
 }
