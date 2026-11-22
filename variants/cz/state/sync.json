@@ -43843,13 +43843,6 @@
           "source_id": "34841408",
           "target_video_id": "30757982",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:10:18.637791+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34841408",
-          "target_video_id": "30757982",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:46:40.467177+00:00"
         },
         {
@@ -43858,6 +43851,13 @@
           "target_video_id": "30757982",
           "permanent": false,
           "attempted_at": "2026-11-22T07:32:53.040398+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34841408",
+          "target_video_id": "30757982",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:09:01.902015+00:00"
         }
       ],
       "last_plan": {
@@ -125567,7 +125567,7 @@
       "last_plan": {
         "source_id": "4983288",
         "display_name": "Jar City SD CZ Dabing",
-        "planned_at": "2026-11-22T07:32:51.049778+00:00"
+        "planned_at": "2026-11-22T09:09:00.342141+00:00"
       },
       "previous_target_id": "30985832",
       "prepared": {
@@ -125575,6 +125575,12 @@
         "size_bytes": 908800000,
         "prepared_at": "2026-11-10T22:08:23.706259+00:00",
         "relay_source_id": "4983288"
+      },
+      "claim": {
+        "worker_id": "88e9edfe0dfe4e069646823daa94212b-shard-0",
+        "claimed_at": "2026-11-22T09:09:01.577881+00:00",
+        "lease_expires_at": "2026-11-22T15:09:01.577881+00:00",
+        "run_id": "44995678765"
       }
     },
     "22024": {
@@ -201125,7 +201131,7 @@
       "last_plan": {
         "source_id": "34720714",
         "display_name": "Power 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:08:57.334309+00:00"
+        "planned_at": "2026-11-22T09:09:00.745202+00:00"
       }
     },
     "23999": {
@@ -243682,5 +243688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:08:57.334327+00:00"
+  "updated_at": "2026-11-22T09:09:01.902035+00:00"
 }
