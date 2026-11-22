@@ -110829,13 +110829,6 @@
           "source_id": "30715852",
           "target_video_id": "30983753",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:30:24.666216+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30715852",
-          "target_video_id": "30983753",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:08:47.218094+00:00"
         },
         {
@@ -110844,6 +110837,13 @@
           "target_video_id": "30983753",
           "permanent": false,
           "attempted_at": "2026-11-22T12:51:20.005211+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30715852",
+          "target_video_id": "30983753",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:35:22.150441+00:00"
         }
       ],
       "last_plan": {
@@ -188340,7 +188340,7 @@
       "last_plan": {
         "source_id": "30860656",
         "display_name": "Deadly Mom Retreat 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:51:23.156138+00:00"
+        "planned_at": "2026-11-22T14:35:19.734947+00:00"
       },
       "previous_target_id": "31216850",
       "prepared": {
@@ -188348,6 +188348,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-21T01:06:07.415651+00:00",
         "relay_source_id": "30860656"
+      },
+      "claim": {
+        "worker_id": "de8c4402f715414c924c24f70248f66b-shard-0",
+        "claimed_at": "2026-11-22T14:35:20.952013+00:00",
+        "lease_expires_at": "2026-11-22T20:35:20.952013+00:00",
+        "run_id": "45016772727"
       }
     },
     "31506": {
@@ -203659,7 +203665,7 @@
       "last_plan": {
         "source_id": "26259471",
         "display_name": "Sublime 720p CZ Dabing",
-        "planned_at": "2026-11-22T14:35:16.644730+00:00"
+        "planned_at": "2026-11-22T14:35:20.180263+00:00"
       }
     },
     "18740": {
@@ -245715,5 +245721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:35:16.644747+00:00"
+  "updated_at": "2026-11-22T14:35:22.150455+00:00"
 }
