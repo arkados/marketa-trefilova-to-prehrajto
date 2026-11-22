@@ -117487,13 +117487,6 @@
           "source_id": "33810806",
           "target_video_id": "30984784",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:20:07.498357+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33810806",
-          "target_video_id": "30984784",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:06:42.467353+00:00"
         },
         {
@@ -117502,6 +117495,13 @@
           "target_video_id": "30984784",
           "permanent": false,
           "attempted_at": "2026-11-22T13:47:43.420629+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33810806",
+          "target_video_id": "30984784",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:12:49.639008+00:00"
         }
       ],
       "last_plan": {
@@ -117515,12 +117515,6 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T17:39:14.747083+00:00",
         "relay_source_id": "33810806"
-      },
-      "claim": {
-        "worker_id": "57b0154166fe4a7e868ec575d73565ec-shard-0",
-        "claimed_at": "2026-11-22T20:12:46.377215+00:00",
-        "lease_expires_at": "2026-11-23T02:12:46.377215+00:00",
-        "run_id": "45063988883"
       }
     },
     "3146": {
@@ -140710,7 +140704,7 @@
       "last_plan": {
         "source_id": "33522646",
         "display_name": "Olivia and the Invisible Earthquake (L'Olívia i el terratrèmol invisible) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:47:40.964479+00:00"
+        "planned_at": "2026-11-22T20:12:49.224983+00:00"
       },
       "previous_target_id": "30988116",
       "prepared": {
@@ -204162,17 +204156,19 @@
       }
     },
     "25991": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28467926",
+          "target_video_id": "31259993",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:12:51.294530+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28467926",
         "display_name": "Battle in Seattle SD CZ Dabing",
         "planned_at": "2026-11-22T20:11:39.377948+00:00"
-      },
-      "claim": {
-        "worker_id": "301f8cb17c0c435787dcbce114b3723c-shard-0",
-        "claimed_at": "2026-11-22T20:11:42.857306+00:00",
-        "lease_expires_at": "2026-11-23T02:11:42.857306+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31259993",
       "prepared": {
@@ -204193,7 +204189,7 @@
       "last_plan": {
         "source_id": "21141442",
         "display_name": "Factotum SD CZ Dabing",
-        "planned_at": "2026-11-22T20:12:44.225106+00:00"
+        "planned_at": "2026-11-22T20:12:50.802459+00:00"
       }
     },
     "24029": {
@@ -246159,5 +246155,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:12:46.377238+00:00"
+  "updated_at": "2026-11-22T20:12:51.294546+00:00"
 }
