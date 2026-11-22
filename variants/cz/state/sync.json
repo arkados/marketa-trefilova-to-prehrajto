@@ -130590,13 +130590,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:57:11.922657+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:38:57.706439+00:00"
         },
         {
@@ -130605,6 +130598,13 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-22T15:20:19.671195+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:44:27.189809+00:00"
         }
       ],
       "last_plan": {
@@ -140362,7 +140362,7 @@
       "last_plan": {
         "source_id": "34864473",
         "display_name": "Corpus Delicti 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:20:19.304066+00:00"
+        "planned_at": "2026-11-22T21:44:25.379192+00:00"
       },
       "previous_target_id": "30988077",
       "prepared": {
@@ -140370,6 +140370,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-11T07:27:44.810508+00:00",
         "relay_source_id": "34864473"
+      },
+      "claim": {
+        "worker_id": "5a696a7808a04e18b78fcb1430991df7-shard-0",
+        "claimed_at": "2026-11-22T21:44:26.800333+00:00",
+        "lease_expires_at": "2026-11-23T03:44:26.800333+00:00",
+        "run_id": "45063988883"
       }
     },
     "24211": {
@@ -204921,7 +204927,7 @@
       "last_plan": {
         "source_id": "17916376",
         "display_name": "Baumbacher Syndrome 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:44:22.320222+00:00"
+        "planned_at": "2026-11-22T21:44:25.936189+00:00"
       }
     },
     "30302": {
@@ -246767,5 +246773,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:44:22.320239+00:00"
+  "updated_at": "2026-11-22T21:44:27.189846+00:00"
 }
