@@ -203056,17 +203056,23 @@
       }
     },
     "16761": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30135308",
+          "reason": "Source detail has no authenticated download link; source_id=30135308",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:26:14.813348+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30135308",
         "display_name": "Just in Time for Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:26:07.307709+00:00"
       },
-      "claim": {
-        "worker_id": "258ac97eb41a432fa9dfd2d462dc127b-shard-0",
-        "claimed_at": "2026-11-22T13:26:10.678360+00:00",
-        "lease_expires_at": "2026-11-22T19:26:10.678360+00:00",
-        "run_id": "45016772727"
+      "source_repair_requested": {
+        "source_id": "30135308",
+        "requested_at": "2026-11-22T13:26:14.813332+00:00"
       }
     },
     "27100": {
@@ -245265,5 +245271,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:26:12.635504+00:00"
+  "updated_at": "2026-11-22T13:26:14.813356+00:00"
 }
