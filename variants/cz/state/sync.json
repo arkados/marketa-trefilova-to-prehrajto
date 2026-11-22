@@ -115610,13 +115610,6 @@
           "source_id": "30985526",
           "target_video_id": "30984610",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:38:54.766337+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30985526",
-          "target_video_id": "30984610",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:19:21.377644+00:00"
         },
         {
@@ -115625,6 +115618,13 @@
           "target_video_id": "30984610",
           "permanent": false,
           "attempted_at": "2026-11-22T15:03:18.187740+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30985526",
+          "target_video_id": "30984610",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:25:30.884422+00:00"
         }
       ],
       "last_plan": {
@@ -115638,12 +115638,6 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-10T17:03:08.281172+00:00",
         "relay_source_id": "30985526"
-      },
-      "claim": {
-        "worker_id": "88da6a73462f406fa8f1e59811e8888d-shard-0",
-        "claimed_at": "2026-11-22T21:25:27.331908+00:00",
-        "lease_expires_at": "2026-11-23T03:25:27.331908+00:00",
-        "run_id": "45063988883"
       }
     },
     "3006": {
@@ -130308,7 +130302,7 @@
       "last_plan": {
         "source_id": "25438208",
         "display_name": "Story of a Godfather (Příběh kmotra) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:03:16.103591+00:00"
+        "planned_at": "2026-11-22T21:25:31.183416+00:00"
       },
       "previous_target_id": "30986891",
       "prepared": {
@@ -204711,7 +204705,7 @@
       "last_plan": {
         "source_id": "30135136",
         "display_name": "The Christmas Heart 720p CZ Dabing",
-        "planned_at": "2026-11-22T21:25:24.746589+00:00"
+        "planned_at": "2026-11-22T21:25:31.592367+00:00"
       }
     },
     "31960": {
@@ -204721,7 +204715,12 @@
       "attempts": []
     },
     "9207": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32208263",
+        "display_name": "Three Tigers in the Movie: Jackpot (Tři Tygři ve filmu: JACKPOT) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T21:25:31.840924+00:00"
+      }
     },
     "12011": {
       "attempts": []
@@ -246608,5 +246607,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:25:27.331932+00:00"
+  "updated_at": "2026-11-22T21:25:31.840939+00:00"
 }
