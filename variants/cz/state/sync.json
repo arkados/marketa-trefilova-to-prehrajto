@@ -123150,7 +123150,7 @@
       "last_plan": {
         "source_id": "10214556",
         "display_name": "Rooster Cogburn SD CZ Dabing",
-        "planned_at": "2026-11-22T13:49:22.715063+00:00"
+        "planned_at": "2026-11-22T20:14:38.050032+00:00"
       },
       "previous_target_id": "30985503",
       "prepared": {
@@ -140752,6 +140752,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-11T07:34:53.722798+00:00",
         "relay_source_id": "33856306"
+      },
+      "claim": {
+        "worker_id": "0fe3b095bc2947518c4e5ef9bd3b75e2-shard-0",
+        "claimed_at": "2026-11-22T20:14:37.765003+00:00",
+        "lease_expires_at": "2026-11-23T02:14:37.765003+00:00",
+        "run_id": "45063988883"
       }
     },
     "7305": {
@@ -204191,17 +204197,19 @@
       "attempts": []
     },
     "13515": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21141442",
+          "target_video_id": "31260019",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:14:39.276757+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21141442",
         "display_name": "Factotum SD CZ Dabing",
         "planned_at": "2026-11-22T20:12:59.210939+00:00"
-      },
-      "claim": {
-        "worker_id": "06809874644c4eacb734838a090f4d9f-shard-0",
-        "claimed_at": "2026-11-22T20:13:03.159358+00:00",
-        "lease_expires_at": "2026-11-23T02:13:03.159358+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31260019",
       "prepared": {
@@ -204219,7 +204227,7 @@
       "last_plan": {
         "source_id": "30197887",
         "display_name": "Batman: Mystery of the Batwoman SD CZ Dabing",
-        "planned_at": "2026-11-22T20:14:35.193928+00:00"
+        "planned_at": "2026-11-22T20:14:38.477784+00:00"
       }
     },
     "20496": {
@@ -246179,5 +246187,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:14:35.193944+00:00"
+  "updated_at": "2026-11-22T20:14:39.276773+00:00"
 }
