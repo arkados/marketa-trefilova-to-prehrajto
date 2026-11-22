@@ -107903,13 +107903,6 @@
           "source_id": "34713446",
           "target_video_id": "30983246",
           "permanent": false,
-          "attempted_at": "2026-11-22T03:34:49.785493+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34713446",
-          "target_video_id": "30983246",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:09:34.987481+00:00"
         },
         {
@@ -107918,6 +107911,13 @@
           "target_video_id": "30983246",
           "permanent": false,
           "attempted_at": "2026-11-22T06:51:33.506063+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34713446",
+          "target_video_id": "30983246",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:32:06.726522+00:00"
         }
       ],
       "last_plan": {
@@ -107963,7 +107963,7 @@
       "last_plan": {
         "source_id": "34883521",
         "display_name": "Vera 68 (Věra 68) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:51:31.889220+00:00"
+        "planned_at": "2026-11-22T08:32:05.133904+00:00"
       },
       "previous_target_id": "30983259",
       "prepared": {
@@ -107971,6 +107971,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-11-10T13:56:32.195971+00:00",
         "relay_source_id": "34883521"
+      },
+      "claim": {
+        "worker_id": "d282f8aa2bbb4a82a21a877cb5109dfa-shard-0",
+        "claimed_at": "2026-11-22T08:32:06.418366+00:00",
+        "lease_expires_at": "2026-11-22T14:32:06.418366+00:00",
+        "run_id": "44995678765"
       }
     },
     "26105": {
@@ -201012,7 +201018,7 @@
       "last_plan": {
         "source_id": "31624184",
         "display_name": "Přes prsty 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:32:01.837548+00:00"
+        "planned_at": "2026-11-22T08:32:05.547067+00:00"
       }
     },
     "19492": {
@@ -243578,5 +243584,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:32:02.151457+00:00"
+  "updated_at": "2026-11-22T08:32:06.726539+00:00"
 }
