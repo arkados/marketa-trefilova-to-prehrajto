@@ -74894,7 +74894,7 @@
       "last_plan": {
         "source_id": "31379501",
         "display_name": "Long Live Ghosts! (Ať žijí duchové!) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:25:03.577087+00:00"
+        "planned_at": "2026-11-22T00:56:18.784826+00:00"
       },
       "previous_target_id": "30885416",
       "prepared": {
@@ -74902,6 +74902,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-07T08:02:43.047319+00:00",
         "relay_source_id": "31379501"
+      },
+      "claim": {
+        "worker_id": "e763682b10ff46b388b67f8036e5e757-shard-0",
+        "claimed_at": "2026-11-22T00:56:20.007627+00:00",
+        "lease_expires_at": "2026-11-22T06:56:20.007627+00:00",
+        "run_id": "44959851294"
       }
     },
     "25458": {
@@ -198000,17 +198006,19 @@
       }
     },
     "4561": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21417875",
+          "target_video_id": "31240191",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:56:21.413289+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21417875",
         "display_name": "Persona Non Grata (Hvor kragerne vender) 720p CZ Dabing",
         "planned_at": "2026-11-22T00:52:42.444053+00:00"
-      },
-      "claim": {
-        "worker_id": "acfd6f211d23407eb0c5ff2b0bf527c1-shard-0",
-        "claimed_at": "2026-11-22T00:52:43.735241+00:00",
-        "lease_expires_at": "2026-11-22T06:52:43.735241+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240191",
       "prepared": {
@@ -198034,7 +198042,7 @@
       "last_plan": {
         "source_id": "12912247",
         "display_name": "Wedding March 4: Something Old, Something New SD CZ Dabing",
-        "planned_at": "2026-11-22T00:56:12.784641+00:00"
+        "planned_at": "2026-11-22T00:56:19.344320+00:00"
       }
     },
     "27452": {
@@ -241104,5 +241112,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:56:15.111798+00:00"
+  "updated_at": "2026-11-22T00:56:21.413309+00:00"
 }
