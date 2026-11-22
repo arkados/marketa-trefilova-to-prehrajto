@@ -129599,13 +129599,6 @@
           "source_id": "13254742",
           "target_video_id": "30986777",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:54:53.626033+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13254742",
-          "target_video_id": "30986777",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:27:02.273449+00:00"
         },
         {
@@ -129614,6 +129607,13 @@
           "target_video_id": "30986777",
           "permanent": false,
           "attempted_at": "2026-11-22T00:33:58.853654+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13254742",
+          "target_video_id": "30986777",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:09:43.802581+00:00"
         }
       ],
       "last_plan": {
@@ -197973,7 +197973,7 @@
       "last_plan": {
         "source_id": "32145778",
         "display_name": "La situation est grave… mais pas désespérée 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:25:55.005592+00:00"
+        "planned_at": "2026-11-22T02:09:42.315451+00:00"
       },
       "previous_target_id": "31239775",
       "prepared": {
@@ -197981,6 +197981,12 @@
         "size_bytes": 7450189731,
         "prepared_at": "2026-11-22T00:26:02.436615+00:00",
         "relay_source_id": "32145778"
+      },
+      "claim": {
+        "worker_id": "3bed5df443d246848234a89b843e9f02-shard-0",
+        "claimed_at": "2026-11-22T02:09:43.481608+00:00",
+        "lease_expires_at": "2026-11-22T08:09:43.481608+00:00",
+        "run_id": "44959851294"
       }
     },
     "30158": {
@@ -198697,7 +198703,7 @@
       "last_plan": {
         "source_id": "34786060",
         "display_name": "Q & A 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:09:39.565725+00:00"
+        "planned_at": "2026-11-22T02:09:42.742412+00:00"
       }
     },
     "14157": {
@@ -241650,5 +241656,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:09:39.565745+00:00"
+  "updated_at": "2026-11-22T02:09:43.802604+00:00"
 }
