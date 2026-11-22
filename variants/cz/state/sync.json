@@ -140781,7 +140781,7 @@
       "last_plan": {
         "source_id": "11128209",
         "display_name": "Prípad dvou sester (Případ dvou sester) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:58:13.916136+00:00"
+        "planned_at": "2026-11-22T23:43:09.071711+00:00"
       },
       "previous_target_id": "30988127",
       "prepared": {
@@ -140789,6 +140789,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:36:35.936835+00:00",
         "relay_source_id": "11128209"
+      },
+      "claim": {
+        "worker_id": "b112d62464c24d59840ea75a794f120f-shard-0",
+        "claimed_at": "2026-11-22T23:43:10.277393+00:00",
+        "lease_expires_at": "2026-11-23T05:43:10.277393+00:00",
+        "run_id": "45063988883"
       }
     },
     "32069": {
@@ -142471,13 +142477,6 @@
           "source_id": "11413310",
           "target_video_id": "30988502",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:51:17.313094+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11413310",
-          "target_video_id": "30988502",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:16:45.248980+00:00"
         },
         {
@@ -142486,6 +142485,13 @@
           "target_video_id": "30988502",
           "permanent": false,
           "attempted_at": "2026-11-22T21:58:15.872298+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11413310",
+          "target_video_id": "30988502",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:43:11.656125+00:00"
         }
       ],
       "last_plan": {
@@ -142499,12 +142505,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T08:35:10.296083+00:00",
         "relay_source_id": "11413310"
-      },
-      "claim": {
-        "worker_id": "90847244a3134554b9d802218c2df03f-shard-0",
-        "claimed_at": "2026-11-22T23:43:05.938649+00:00",
-        "lease_expires_at": "2026-11-23T05:43:05.938649+00:00",
-        "run_id": "45063988883"
       }
     },
     "37384": {
@@ -205892,7 +205892,7 @@
       "last_plan": {
         "source_id": "34521534",
         "display_name": "Hold-Up 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:43:05.260385+00:00"
+        "planned_at": "2026-11-22T23:43:09.495713+00:00"
       }
     },
     "13404": {
@@ -247552,5 +247552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:43:06.923977+00:00"
+  "updated_at": "2026-11-22T23:43:11.656141+00:00"
 }
