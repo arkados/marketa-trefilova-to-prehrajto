@@ -125936,7 +125936,7 @@
       "last_plan": {
         "source_id": "18316767",
         "display_name": "My Little Pony: A New Generation 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:03:21.933275+00:00"
+        "planned_at": "2026-11-22T21:25:35.182572+00:00"
       },
       "previous_target_id": "30985901",
       "prepared": {
@@ -125944,6 +125944,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-10T22:29:45.966384+00:00",
         "relay_source_id": "18316767"
+      },
+      "claim": {
+        "worker_id": "642622bea56848b5a6496fe8a21414ad-shard-0",
+        "claimed_at": "2026-11-22T21:25:36.574288+00:00",
+        "lease_expires_at": "2026-11-23T03:25:36.574288+00:00",
+        "run_id": "45063988883"
       }
     },
     "10846": {
@@ -130282,13 +130288,6 @@
           "source_id": "25438208",
           "target_video_id": "30986891",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:39:00.339103+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25438208",
-          "target_video_id": "30986891",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:19:27.561430+00:00"
         },
         {
@@ -130297,6 +130296,13 @@
           "target_video_id": "30986891",
           "permanent": false,
           "attempted_at": "2026-11-22T15:03:22.514660+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25438208",
+          "target_video_id": "30986891",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:25:36.906277+00:00"
         }
       ],
       "last_plan": {
@@ -204701,11 +204707,23 @@
       }
     },
     "28263": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30135136",
+          "reason": "Source detail has no authenticated download link; source_id=30135136",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:25:37.170340+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30135136",
         "display_name": "The Christmas Heart 720p CZ Dabing",
         "planned_at": "2026-11-22T21:25:31.592367+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30135136",
+        "requested_at": "2026-11-22T21:25:37.170322+00:00"
       }
     },
     "31960": {
@@ -204719,7 +204737,7 @@
       "last_plan": {
         "source_id": "32208263",
         "display_name": "Three Tigers in the Movie: Jackpot (Tři Tygři ve filmu: JACKPOT) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:25:31.840924+00:00"
+        "planned_at": "2026-11-22T21:25:35.725270+00:00"
       }
     },
     "12011": {
@@ -246607,5 +246625,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:25:31.840939+00:00"
+  "updated_at": "2026-11-22T21:25:37.170348+00:00"
 }
