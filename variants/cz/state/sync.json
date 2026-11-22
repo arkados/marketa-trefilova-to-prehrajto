@@ -111851,13 +111851,6 @@
           "source_id": "34786946",
           "target_video_id": "30983812",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:18:02.713612+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34786946",
-          "target_video_id": "30983812",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:50:57.387733+00:00"
         },
         {
@@ -111866,6 +111859,13 @@
           "target_video_id": "30983812",
           "permanent": false,
           "attempted_at": "2026-11-21T23:59:41.353575+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34786946",
+          "target_video_id": "30983812",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:33:05.215473+00:00"
         }
       ],
       "last_plan": {
@@ -132371,7 +132371,7 @@
       "last_plan": {
         "source_id": "34720992",
         "display_name": "The World According to My Dad (Jiříkovo vidění) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:59:44.420480+00:00"
+        "planned_at": "2026-11-22T01:33:03.475201+00:00"
       },
       "previous_target_id": "30987116",
       "prepared": {
@@ -132379,6 +132379,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:38:59.210885+00:00",
         "relay_source_id": "34720992"
+      },
+      "claim": {
+        "worker_id": "bf59acc9992f4e01b9c8c7a54a26ef4f-shard-0",
+        "claimed_at": "2026-11-22T01:33:04.913066+00:00",
+        "lease_expires_at": "2026-11-22T07:33:04.913066+00:00",
+        "run_id": "44959851294"
       }
     },
     "24172": {
@@ -198474,6 +198480,12 @@
         "source_id": "23290459",
         "display_name": "Paulette 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:32:59.954046+00:00"
+      },
+      "claim": {
+        "worker_id": "d2aaf88637424842a6faab4fd8cc2128-shard-0",
+        "claimed_at": "2026-11-22T01:33:03.187057+00:00",
+        "lease_expires_at": "2026-11-22T07:33:03.187057+00:00",
+        "run_id": "44959851294"
       }
     },
     "21478": {
@@ -198481,7 +198493,7 @@
       "last_plan": {
         "source_id": "34823184",
         "display_name": "La Tour, prends garde ! (King on Horseback) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:33:00.190672+00:00"
+        "planned_at": "2026-11-22T01:33:03.895921+00:00"
       }
     },
     "12900": {
@@ -241461,5 +241473,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:33:00.490634+00:00"
+  "updated_at": "2026-11-22T01:33:05.215497+00:00"
 }
