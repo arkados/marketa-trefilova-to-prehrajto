@@ -199940,17 +199940,19 @@
       "attempts": []
     },
     "5821": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32575002",
+          "target_video_id": "31245149",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:44:20.005214+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32575002",
         "display_name": "Teddy's Christmas (Teddybjørnens Jul) 1080p CZ Dabing",
         "planned_at": "2026-11-22T05:41:26.746554+00:00"
-      },
-      "claim": {
-        "worker_id": "4b016c9cbf9f45ff8761c91bcdb05cf4-shard-0",
-        "claimed_at": "2026-11-22T05:41:29.830259+00:00",
-        "lease_expires_at": "2026-11-22T11:41:29.830259+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31245149",
       "prepared": {
@@ -242717,5 +242719,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:44:17.419964+00:00"
+  "updated_at": "2026-11-22T05:44:20.005234+00:00"
 }
