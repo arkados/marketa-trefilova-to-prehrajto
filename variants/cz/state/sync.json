@@ -113402,13 +113402,6 @@
           "source_id": "34274611",
           "target_video_id": "30984010",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:30:04.677247+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34274611",
-          "target_video_id": "30984010",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:08:24.524300+00:00"
         },
         {
@@ -113417,6 +113410,13 @@
           "target_video_id": "30984010",
           "permanent": false,
           "attempted_at": "2026-11-22T12:51:02.780650+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34274611",
+          "target_video_id": "30984010",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:35:04.143912+00:00"
         }
       ],
       "last_plan": {
@@ -134528,7 +134528,7 @@
       "last_plan": {
         "source_id": "32097453",
         "display_name": "Veselý souboj SD CZ Dabing",
-        "planned_at": "2026-11-22T12:51:01.078862+00:00"
+        "planned_at": "2026-11-22T14:35:02.459163+00:00"
       },
       "previous_target_id": "30987443",
       "prepared": {
@@ -134536,6 +134536,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T04:42:03.188301+00:00",
         "relay_source_id": "32097453"
+      },
+      "claim": {
+        "worker_id": "acb95862631a4c7eabe6f06671c2ee67-shard-0",
+        "claimed_at": "2026-11-22T14:35:03.796526+00:00",
+        "lease_expires_at": "2026-11-22T20:35:03.796526+00:00",
+        "run_id": "45016772727"
       }
     },
     "12579": {
@@ -203659,7 +203665,7 @@
       "last_plan": {
         "source_id": "26259471",
         "display_name": "Sublime 720p CZ Dabing",
-        "planned_at": "2026-11-22T14:34:58.888084+00:00"
+        "planned_at": "2026-11-22T14:35:02.910786+00:00"
       }
     },
     "18740": {
@@ -245715,5 +245721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:34:58.888100+00:00"
+  "updated_at": "2026-11-22T14:35:04.143930+00:00"
 }
