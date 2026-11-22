@@ -57337,13 +57337,6 @@
           "source_id": "33383467",
           "target_video_id": "30785708",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:17:47.133593+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33383467",
-          "target_video_id": "30785708",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:48:34.192230+00:00"
         },
         {
@@ -57352,6 +57345,13 @@
           "target_video_id": "30785708",
           "permanent": false,
           "attempted_at": "2026-11-22T02:21:28.081810+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33383467",
+          "target_video_id": "30785708",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:07:09.246087+00:00"
         }
       ],
       "last_plan": {
@@ -57365,12 +57365,6 @@
         "size_bytes": 8400000000,
         "prepared_at": "2026-11-04T12:47:15.136003+00:00",
         "relay_source_id": "33383467"
-      },
-      "claim": {
-        "worker_id": "ccb19ae6776845cdb6f9031792cf3e27-shard-0",
-        "claimed_at": "2026-11-22T04:07:05.721317+00:00",
-        "lease_expires_at": "2026-11-22T10:07:05.721317+00:00",
-        "run_id": "44961318741"
       }
     },
     "31733": {
@@ -141089,7 +141083,7 @@
       "last_plan": {
         "source_id": "33505803",
         "display_name": "Kde alibi nestací (Where an Alibi Is Not Everything) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:21:24.294434+00:00"
+        "planned_at": "2026-11-22T04:07:09.505405+00:00"
       },
       "previous_target_id": "30988160",
       "prepared": {
@@ -199419,14 +199413,19 @@
       "last_plan": {
         "source_id": "35178312",
         "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:07:01.763561+00:00"
+        "planned_at": "2026-11-22T04:07:11.211428+00:00"
       }
     },
     "29367": {
       "attempts": []
     },
     "3745": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "21817964",
+        "display_name": "Blue Miracle 1080p CZ Dabing",
+        "planned_at": "2026-11-22T04:07:11.431997+00:00"
+      }
     },
     "34761": {
       "attempts": []
@@ -242267,5 +242266,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:07:05.721346+00:00"
+  "updated_at": "2026-11-22T04:07:11.432014+00:00"
 }
