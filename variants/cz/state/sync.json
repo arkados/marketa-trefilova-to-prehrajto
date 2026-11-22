@@ -19084,7 +19084,7 @@
       "last_plan": {
         "source_id": "30770919",
         "display_name": "Red River 1080p CZ Dabing",
-        "planned_at": "2026-11-21T21:15:43.932134+00:00"
+        "planned_at": "2026-11-22T00:21:34.824772+00:00"
       },
       "previous_target_id": "30675401",
       "prepared": {
@@ -140462,13 +140462,6 @@
           "source_id": "31285766",
           "target_video_id": "30988093",
           "permanent": false,
-          "attempted_at": "2026-11-21T18:03:02.057812+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31285766",
-          "target_video_id": "30988093",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:42:37.676854+00:00"
         },
         {
@@ -140477,6 +140470,13 @@
           "target_video_id": "30988093",
           "permanent": false,
           "attempted_at": "2026-11-21T21:15:41.183060+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31285766",
+          "target_video_id": "30988093",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:21:35.169985+00:00"
         }
       ],
       "last_plan": {
@@ -140490,12 +140490,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T07:29:24.233787+00:00",
         "relay_source_id": "31285766"
-      },
-      "claim": {
-        "worker_id": "7c397dbbb9b94d1f8cbf6a5c39b7cd27-shard-0",
-        "claimed_at": "2026-11-22T00:21:30.619998+00:00",
-        "lease_expires_at": "2026-11-22T06:21:30.619998+00:00",
-        "run_id": "44959851294"
       }
     },
     "13318": {
@@ -197725,17 +197719,19 @@
       }
     },
     "3609": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29858975",
+          "target_video_id": "31239658",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:21:35.998105+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29858975",
         "display_name": "Uprising (Jeon,Lan) (2024) 1080p CZ Dabing",
         "planned_at": "2026-11-22T00:18:33.838165+00:00"
-      },
-      "claim": {
-        "worker_id": "5ce7c34f7f1c46fbb91f0f91f9eec539-shard-0",
-        "claimed_at": "2026-11-22T00:18:34.946232+00:00",
-        "lease_expires_at": "2026-11-22T06:18:34.946232+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239658",
       "prepared": {
@@ -197759,7 +197755,7 @@
       "last_plan": {
         "source_id": "32761903",
         "display_name": "Perinbaba: Two Realms (Perinbaba a dva svety) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:21:29.845849+00:00"
+        "planned_at": "2026-11-22T00:21:35.549051+00:00"
       }
     },
     "31228": {
@@ -240892,5 +240888,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:21:31.072828+00:00"
+  "updated_at": "2026-11-22T00:21:35.998126+00:00"
 }
