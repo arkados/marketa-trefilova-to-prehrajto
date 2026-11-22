@@ -120587,13 +120587,6 @@
           "source_id": "34285214",
           "target_video_id": "30985011",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:31:23.429751+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34285214",
-          "target_video_id": "30985011",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:03:06.386881+00:00"
         },
         {
@@ -120602,6 +120595,13 @@
           "target_video_id": "30985011",
           "permanent": false,
           "attempted_at": "2026-11-22T04:52:40.414680+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34285214",
+          "target_video_id": "30985011",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:30:19.834733+00:00"
         }
       ],
       "last_plan": {
@@ -121787,7 +121787,7 @@
       "last_plan": {
         "source_id": "34874346",
         "display_name": "Night Train to Lisbon SD CZ Dabing",
-        "planned_at": "2026-11-22T04:52:39.068775+00:00"
+        "planned_at": "2026-11-22T06:30:18.245266+00:00"
       },
       "previous_target_id": "30985387",
       "prepared": {
@@ -121795,6 +121795,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T19:01:52.904730+00:00",
         "relay_source_id": "34874346"
+      },
+      "claim": {
+        "worker_id": "35f7ef9ed5a34b248ff391e84cf54141-shard-0",
+        "claimed_at": "2026-11-22T06:30:19.211694+00:00",
+        "lease_expires_at": "2026-11-22T12:30:19.211694+00:00",
+        "run_id": "44961318741"
       }
     },
     "20991": {
@@ -200317,7 +200323,7 @@
       "last_plan": {
         "source_id": "29955764",
         "display_name": "Remote Danger (Secrets in the Wilderness) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:30:15.213693+00:00"
+        "planned_at": "2026-11-22T06:30:18.602874+00:00"
       }
     },
     "34620": {
@@ -242994,5 +243000,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:30:15.498937+00:00"
+  "updated_at": "2026-11-22T06:30:19.834752+00:00"
 }
