@@ -30012,13 +30012,6 @@
           "source_id": "34850732",
           "target_video_id": "30723078",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:20:26.147745+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34850732",
-          "target_video_id": "30723078",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:05:53.946282+00:00"
         },
         {
@@ -30027,6 +30020,13 @@
           "target_video_id": "30723078",
           "permanent": false,
           "attempted_at": "2026-11-22T05:42:07.521245+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34850732",
+          "target_video_id": "30723078",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:28:14.333786+00:00"
         }
       ],
       "last_plan": {
@@ -116497,7 +116497,7 @@
       "last_plan": {
         "source_id": "34095385",
         "display_name": "Candyman (1992) 4K CZ Dabing",
-        "planned_at": "2026-11-22T05:42:05.733367+00:00"
+        "planned_at": "2026-11-22T07:28:12.713266+00:00"
       },
       "previous_target_id": "30984680",
       "prepared": {
@@ -116505,6 +116505,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T17:16:45.308242+00:00",
         "relay_source_id": "34095385"
+      },
+      "claim": {
+        "worker_id": "bbe521f712104d71984887daf99cc816-shard-0",
+        "claimed_at": "2026-11-22T07:28:14.056612+00:00",
+        "lease_expires_at": "2026-11-22T13:28:14.056612+00:00",
+        "run_id": "44995678765"
       }
     },
     "3023": {
@@ -200688,11 +200694,22 @@
       "last_plan": {
         "source_id": "22658933",
         "display_name": "Resistance (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:28:09.089798+00:00"
+        "planned_at": "2026-11-22T07:28:13.080555+00:00"
+      },
+      "claim": {
+        "worker_id": "7b49f76b746b43b0b00ce588fcf5cba6-shard-0",
+        "claimed_at": "2026-11-22T07:28:14.548086+00:00",
+        "lease_expires_at": "2026-11-22T13:28:14.548086+00:00",
+        "run_id": "44995678765"
       }
     },
     "19415": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "23115609",
+        "display_name": "Iron Will 1080p CZ Dabing",
+        "planned_at": "2026-11-22T07:28:13.346927+00:00"
+      }
     },
     "28587": {
       "attempts": []
@@ -243293,5 +243310,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:28:09.372485+00:00"
+  "updated_at": "2026-11-22T07:28:14.548120+00:00"
 }
