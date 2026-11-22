@@ -111634,7 +111634,7 @@
       "last_plan": {
         "source_id": "28586856",
         "display_name": "Haškovy povídky ze starého mocnářství (Hasek’s Tales from the Old Monarchy) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:09:24.647665+00:00"
+        "planned_at": "2026-11-22T22:52:17.907561+00:00"
       },
       "previous_target_id": "30983803",
       "prepared": {
@@ -126761,13 +126761,6 @@
           "source_id": "13097673",
           "target_video_id": "30986257",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:03:26.942029+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13097673",
-          "target_video_id": "30986257",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:44:57.585184+00:00"
         },
         {
@@ -126776,6 +126769,13 @@
           "target_video_id": "30986257",
           "permanent": false,
           "attempted_at": "2026-11-22T21:09:25.051243+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13097673",
+          "target_video_id": "30986257",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:52:18.287316+00:00"
         }
       ],
       "last_plan": {
@@ -126789,12 +126789,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-10T23:45:13.323539+00:00",
         "relay_source_id": "13097673"
-      },
-      "claim": {
-        "worker_id": "6ecaa4a649ad4714b047b0b97a785285-shard-0",
-        "claimed_at": "2026-11-22T22:52:13.833707+00:00",
-        "lease_expires_at": "2026-11-23T04:52:13.833707+00:00",
-        "run_id": "45063988883"
       }
     },
     "23170": {
@@ -205478,17 +205472,19 @@
       }
     },
     "36660": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29833852",
+          "target_video_id": "31263331",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:52:18.550321+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29833852",
         "display_name": "Hijos del viento 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:46:05.468632+00:00"
-      },
-      "claim": {
-        "worker_id": "6458716b1a3c4acb8e346df27f948d48-shard-0",
-        "claimed_at": "2026-11-22T22:46:06.782613+00:00",
-        "lease_expires_at": "2026-11-23T04:46:06.782613+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31263331",
       "prepared": {
@@ -247247,5 +247243,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:52:14.208739+00:00"
+  "updated_at": "2026-11-22T22:52:18.550340+00:00"
 }
