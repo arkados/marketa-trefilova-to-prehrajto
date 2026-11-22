@@ -132242,7 +132242,7 @@
       "last_plan": {
         "source_id": "28179744",
         "display_name": "Počkám, až zabiješ SD CZ Dabing",
-        "planned_at": "2026-11-22T14:52:58.865206+00:00"
+        "planned_at": "2026-11-22T21:17:12.660879+00:00"
       },
       "previous_target_id": "30987105",
       "prepared": {
@@ -132250,6 +132250,12 @@
         "size_bytes": 831400000,
         "prepared_at": "2026-11-11T03:36:52.512130+00:00",
         "relay_source_id": "28179744"
+      },
+      "claim": {
+        "worker_id": "49c1cdb784ec499c8dd78fbe853f222d-shard-0",
+        "claimed_at": "2026-11-22T21:17:13.963009+00:00",
+        "lease_expires_at": "2026-11-23T03:17:13.963009+00:00",
+        "run_id": "45063988883"
       }
     },
     "27054": {
@@ -203956,17 +203962,23 @@
           "attempted_at": "2026-11-22T14:52:50.105449+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "27293657",
-        "display_name": "Passe-passe (Off and Running) 720p CZ Dabing",
-        "planned_at": "2026-11-22T21:17:08.890650+00:00"
-      },
       "previous_target_id": "31254642",
-      "prepared": {
+      "upload": {
         "target_video_id": "31254642",
-        "size_bytes": 2082417810,
-        "prepared_at": "2026-11-22T14:50:09.763566+00:00",
-        "relay_source_id": "27293657"
+        "display_name": "Passe-passe (Off and Running) 720p CZ Dabing",
+        "source_id": "27293657",
+        "source_url": "https://sdilej.cz/27293657/prachy-v-prachu-2008-komedie-dvdrip.-cz-dabing-partner-23637728.avi",
+        "source_filename": "Prachy v prachu (2008 Komédie-Dvdrip.) Cz dabing-partner=23637728.avi",
+        "size_bytes": 2100000000,
+        "width": 1280,
+        "height": 720,
+        "audio_language": "cs",
+        "language_probability": 0.9625437259674072,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/passe-passe-off-and-running-720p-cz-dabing-avi/10805c1a4bae2373",
+        "uploaded_at": "2026-11-22T21:17:14.350774+00:00"
       }
     },
     "13457": {
@@ -204650,7 +204662,7 @@
       "last_plan": {
         "source_id": "34473324",
         "display_name": "Duse 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:17:09.407065+00:00"
+        "planned_at": "2026-11-22T21:17:13.133226+00:00"
       }
     },
     "28263": {
@@ -246550,5 +246562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:17:09.721700+00:00"
+  "updated_at": "2026-11-22T21:17:14.350788+00:00"
 }
