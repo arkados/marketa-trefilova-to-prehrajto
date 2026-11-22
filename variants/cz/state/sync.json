@@ -205641,17 +205641,19 @@
       }
     },
     "3587": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20163326",
+          "target_video_id": "31263949",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:11:57.933200+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20163326",
         "display_name": "The Chef (Comme un chef) 1080p CZ Dabing",
         "planned_at": "2026-11-22T23:07:37.539991+00:00"
-      },
-      "claim": {
-        "worker_id": "88ecf24330344698850efbcc46b21d2b-shard-0",
-        "claimed_at": "2026-11-22T23:07:38.853983+00:00",
-        "lease_expires_at": "2026-11-23T05:07:38.853983+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31263949",
       "prepared": {
@@ -247371,5 +247373,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:11:55.682709+00:00"
+  "updated_at": "2026-11-22T23:11:57.933218+00:00"
 }
