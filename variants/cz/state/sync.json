@@ -113046,6 +113046,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T15:06:52.143201+00:00",
         "relay_source_id": "29707305"
+      },
+      "claim": {
+        "worker_id": "585a6e149cbd47969c6defb1f72636b5-shard-0",
+        "claimed_at": "2026-11-22T02:18:49.668601+00:00",
+        "lease_expires_at": "2026-11-22T08:18:49.668601+00:00",
+        "run_id": "44959851294"
       }
     },
     "36907": {
@@ -153225,7 +153231,7 @@
       "last_plan": {
         "source_id": "35428812",
         "display_name": "Lame de fond 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:45:57.343926+00:00"
+        "planned_at": "2026-11-22T02:18:49.963178+00:00"
       },
       "previous_target_id": "31037711",
       "prepared": {
@@ -169247,13 +169253,6 @@
           "source_id": "14265293",
           "target_video_id": "31120598",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:06:54.299038+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "14265293",
-          "target_video_id": "31120598",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:15:06.731351+00:00"
         },
         {
@@ -169262,6 +169261,13 @@
           "target_video_id": "31120598",
           "permanent": false,
           "attempted_at": "2026-11-22T00:45:54.182514+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "14265293",
+          "target_video_id": "31120598",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:18:49.386070+00:00"
         }
       ],
       "last_plan": {
@@ -169275,12 +169281,6 @@
         "size_bytes": 7100000000,
         "prepared_at": "2026-11-17T14:33:37.478499+00:00",
         "relay_source_id": "14265293"
-      },
-      "claim": {
-        "worker_id": "8c2971bd6ce8430480f132612b33dbee-shard-0",
-        "claimed_at": "2026-11-22T02:18:46.051552+00:00",
-        "lease_expires_at": "2026-11-22T08:18:46.051552+00:00",
-        "run_id": "44959851294"
       }
     },
     "20152": {
@@ -198776,7 +198776,7 @@
       "last_plan": {
         "source_id": "34881675",
         "display_name": "Jeff 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:18:46.727038+00:00"
+        "planned_at": "2026-11-22T02:18:50.387382+00:00"
       }
     },
     "3635": {
@@ -241723,5 +241723,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:18:46.727059+00:00"
+  "updated_at": "2026-11-22T02:18:50.387403+00:00"
 }
