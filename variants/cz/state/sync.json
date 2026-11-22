@@ -120417,13 +120417,6 @@
           "source_id": "12287408",
           "target_video_id": "30985001",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:27:54.122032+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12287408",
-          "target_video_id": "30985001",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:08:16.058419+00:00"
         },
         {
@@ -120432,6 +120425,13 @@
           "target_video_id": "30985001",
           "permanent": false,
           "attempted_at": "2026-11-22T14:49:38.081330+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12287408",
+          "target_video_id": "30985001",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:14:39.782076+00:00"
         }
       ],
       "last_plan": {
@@ -141829,7 +141829,7 @@
       "last_plan": {
         "source_id": "29213944",
         "display_name": "Robinson Girl (Robinsonka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:49:38.795804+00:00"
+        "planned_at": "2026-11-22T21:14:38.051001+00:00"
       },
       "previous_target_id": "30988322",
       "prepared": {
@@ -141837,6 +141837,12 @@
         "size_bytes": 2300000000,
         "prepared_at": "2026-11-11T08:09:47.750378+00:00",
         "relay_source_id": "29213944"
+      },
+      "claim": {
+        "worker_id": "a0d7c19edca24d7b817503fcea6396bd-shard-0",
+        "claimed_at": "2026-11-22T21:14:39.400639+00:00",
+        "lease_expires_at": "2026-11-23T03:14:39.400639+00:00",
+        "run_id": "45063988883"
       }
     },
     "13080": {
@@ -204618,7 +204624,7 @@
       "last_plan": {
         "source_id": "21266768",
         "display_name": "Luce 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:14:35.197172+00:00"
+        "planned_at": "2026-11-22T21:14:38.548524+00:00"
       }
     },
     "21966": {
@@ -246524,5 +246530,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:14:35.197188+00:00"
+  "updated_at": "2026-11-22T21:14:39.782094+00:00"
 }
