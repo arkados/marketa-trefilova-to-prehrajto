@@ -136389,13 +136389,6 @@
           "source_id": "34676204",
           "target_video_id": "30987655",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:18:01.116170+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34676204",
-          "target_video_id": "30987655",
-          "permanent": false,
           "attempted_at": "2026-11-22T15:02:18.769205+00:00"
         },
         {
@@ -136404,6 +136397,13 @@
           "target_video_id": "30987655",
           "permanent": false,
           "attempted_at": "2026-11-22T21:24:31.048148+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34676204",
+          "target_video_id": "30987655",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:09:52.335665+00:00"
         }
       ],
       "last_plan": {
@@ -136417,12 +136417,6 @@
         "size_bytes": 1700000000,
         "prepared_at": "2026-11-11T05:36:18.226786+00:00",
         "relay_source_id": "34676204"
-      },
-      "claim": {
-        "worker_id": "441d257ef59c480b892e2c1b1eaa28c7-shard-0",
-        "claimed_at": "2026-11-22T23:09:47.637807+00:00",
-        "lease_expires_at": "2026-11-23T05:09:47.637807+00:00",
-        "run_id": "45063988883"
       }
     },
     "12565": {
@@ -166015,7 +166009,7 @@
       "last_plan": {
         "source_id": "34510186",
         "display_name": "Eleanor the Great 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:24:29.093011+00:00"
+        "planned_at": "2026-11-22T23:09:50.455517+00:00"
       },
       "previous_target_id": "31108439",
       "prepared": {
@@ -166023,6 +166017,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-11-17T04:39:16.288767+00:00",
         "relay_source_id": "34510186"
+      },
+      "claim": {
+        "worker_id": "a0096af8e3f24df79218cac011768166-shard-0",
+        "claimed_at": "2026-11-22T23:09:51.663413+00:00",
+        "lease_expires_at": "2026-11-23T05:09:51.663413+00:00",
+        "run_id": "45063988883"
       }
     },
     "32546": {
@@ -205666,7 +205666,7 @@
       "last_plan": {
         "source_id": "34693050",
         "display_name": "Love Under the Lemon Tree 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:09:46.718630+00:00"
+        "planned_at": "2026-11-22T23:09:50.917621+00:00"
       }
     },
     "32287": {
@@ -247365,5 +247365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:09:48.110363+00:00"
+  "updated_at": "2026-11-22T23:09:52.335684+00:00"
 }
