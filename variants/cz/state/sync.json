@@ -109255,13 +109255,6 @@
           "source_id": "34789117",
           "target_video_id": "30983623",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:57:28.759157+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34789117",
-          "target_video_id": "30983623",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:39:45.091480+00:00"
         },
         {
@@ -109270,6 +109263,13 @@
           "target_video_id": "30983623",
           "permanent": false,
           "attempted_at": "2026-11-22T13:20:47.148212+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34789117",
+          "target_video_id": "30983623",
+          "permanent": false,
+          "attempted_at": "2026-11-22T15:04:14.983903+00:00"
         }
       ],
       "last_plan": {
@@ -203125,7 +203125,7 @@
       "last_plan": {
         "source_id": "34849030",
         "display_name": "Helene 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:17:48.517461+00:00"
+        "planned_at": "2026-11-22T15:04:13.051629+00:00"
       },
       "previous_target_id": "31253145",
       "prepared": {
@@ -203133,6 +203133,12 @@
         "size_bytes": 2670772093,
         "prepared_at": "2026-11-22T13:17:53.985021+00:00",
         "relay_source_id": "34849030"
+      },
+      "claim": {
+        "worker_id": "0a4a25843c054778a9359b264ecad364-shard-0",
+        "claimed_at": "2026-11-22T15:04:14.390783+00:00",
+        "lease_expires_at": "2026-11-22T21:04:14.390783+00:00",
+        "run_id": "45016772727"
       }
     },
     "25309": {
@@ -203915,7 +203921,7 @@
       "last_plan": {
         "source_id": "17400473",
         "display_name": "Dirty War 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:04:09.330842+00:00"
+        "planned_at": "2026-11-22T15:04:13.512986+00:00"
       }
     },
     "30817": {
@@ -245938,5 +245944,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:04:09.698679+00:00"
+  "updated_at": "2026-11-22T15:04:14.983922+00:00"
 }
