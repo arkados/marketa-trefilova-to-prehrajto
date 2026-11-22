@@ -134699,13 +134699,6 @@
           "source_id": "28002899",
           "target_video_id": "30987491",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:17:54.786231+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28002899",
-          "target_video_id": "30987491",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:57:31.846157+00:00"
         },
         {
@@ -134714,6 +134707,13 @@
           "target_video_id": "30987491",
           "permanent": false,
           "attempted_at": "2026-11-22T11:39:48.147948+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28002899",
+          "target_video_id": "30987491",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:20:55.997749+00:00"
         }
       ],
       "last_plan": {
@@ -138232,7 +138232,7 @@
       "last_plan": {
         "source_id": "32899046",
         "display_name": "The Right to Sin SD CZ Dabing",
-        "planned_at": "2026-11-22T11:39:49.060457+00:00"
+        "planned_at": "2026-11-22T13:20:53.591778+00:00"
       },
       "previous_target_id": "30987847",
       "prepared": {
@@ -138240,6 +138240,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T06:24:20.802315+00:00",
         "relay_source_id": "32899046"
+      },
+      "claim": {
+        "worker_id": "f514b249e31f442085e333bfe363e9a6-shard-0",
+        "claimed_at": "2026-11-22T13:20:55.012374+00:00",
+        "lease_expires_at": "2026-11-22T19:20:55.012374+00:00",
+        "run_id": "45016772727"
       }
     },
     "33475": {
@@ -203019,11 +203025,22 @@
       "last_plan": {
         "source_id": "30624615",
         "display_name": "The Hypnosis (Hypnosen) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:20:50.273097+00:00"
+        "planned_at": "2026-11-22T13:20:53.990411+00:00"
+      },
+      "claim": {
+        "worker_id": "0380b3587dce4fb198a9e135175f6352-shard-0",
+        "claimed_at": "2026-11-22T13:20:55.248527+00:00",
+        "lease_expires_at": "2026-11-22T19:20:55.248527+00:00",
+        "run_id": "45016772727"
       }
     },
     "16761": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30135308",
+        "display_name": "Just in Time for Christmas 1080p CZ Dabing",
+        "planned_at": "2026-11-22T13:20:54.280136+00:00"
+      }
     },
     "27100": {
       "attempts": []
@@ -245216,5 +245233,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:20:50.273110+00:00"
+  "updated_at": "2026-11-22T13:20:55.997765+00:00"
 }
