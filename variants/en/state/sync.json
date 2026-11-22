@@ -16559,13 +16559,6 @@
           "source_id": "34220031",
           "target_video_id": "30859204",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:37:36.314315+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34220031",
-          "target_video_id": "30859204",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:18:17.725379+00:00"
         },
         {
@@ -16574,6 +16567,13 @@
           "target_video_id": "30859204",
           "permanent": false,
           "attempted_at": "2026-11-22T03:49:11.129079+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34220031",
+          "target_video_id": "30859204",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:19:33.686369+00:00"
         }
       ],
       "last_plan": {
@@ -16587,12 +16587,6 @@
         "size_bytes": 11800000000,
         "prepared_at": "2026-11-06T12:37:47.237046+00:00",
         "relay_source_id": "34220031"
-      },
-      "claim": {
-        "worker_id": "629d444b67db470bbe433d2d8bf437b0-shard-0",
-        "claimed_at": "2026-11-22T04:19:30.322600+00:00",
-        "lease_expires_at": "2026-11-22T10:19:30.322600+00:00",
-        "run_id": "44961318741"
       }
     },
     "1744": {
@@ -18675,7 +18669,7 @@
       "last_plan": {
         "source_id": "25583722",
         "display_name": "Glass Onion: A Knives Out Mystery 1080p CZ titulky",
-        "planned_at": "2026-11-22T03:49:09.929278+00:00"
+        "planned_at": "2026-11-22T04:19:32.883138+00:00"
       },
       "previous_target_id": "30903877",
       "prepared": {
@@ -18683,6 +18677,12 @@
         "size_bytes": 3200000000,
         "prepared_at": "2026-11-08T01:33:25.661957+00:00",
         "relay_source_id": "25583722"
+      },
+      "claim": {
+        "worker_id": "5effd2378c23415d92b49c04e9beef21-shard-0",
+        "claimed_at": "2026-11-22T04:19:33.274185+00:00",
+        "lease_expires_at": "2026-11-22T10:19:33.274185+00:00",
+        "run_id": "44961318741"
       }
     },
     "1721": {
@@ -100857,5 +100857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:19:30.322628+00:00"
+  "updated_at": "2026-11-22T04:19:33.686391+00:00"
 }
