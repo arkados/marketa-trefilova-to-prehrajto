@@ -123863,13 +123863,6 @@
           "source_id": "16256834",
           "target_video_id": "30985618",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:11:44.937286+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "16256834",
-          "target_video_id": "30985618",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:19:36.656057+00:00"
         },
         {
@@ -123878,6 +123871,13 @@
           "target_video_id": "30985618",
           "permanent": false,
           "attempted_at": "2026-11-22T01:52:47.083709+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "16256834",
+          "target_video_id": "30985618",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:37:58.290758+00:00"
         }
       ],
       "last_plan": {
@@ -130610,7 +130610,7 @@
       "last_plan": {
         "source_id": "27361344",
         "display_name": "The Very Late Afternoon of a Faun (Faunovo velmi pozdní odpoledne) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:52:46.357991+00:00"
+        "planned_at": "2026-11-22T03:37:56.262246+00:00"
       },
       "previous_target_id": "30986908",
       "prepared": {
@@ -130618,6 +130618,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T02:38:37.729548+00:00",
         "relay_source_id": "27361344"
+      },
+      "claim": {
+        "worker_id": "bac56509a29f4971adc8fb44550109e2-shard-0",
+        "claimed_at": "2026-11-22T03:37:57.232670+00:00",
+        "lease_expires_at": "2026-11-22T09:37:57.232670+00:00",
+        "run_id": "44961318741"
       }
     },
     "2834": {
@@ -199291,7 +199297,7 @@
       "last_plan": {
         "source_id": "15339442",
         "display_name": "Operation Red Sea (HongHaiXingDong) 720p CZ Dabing",
-        "planned_at": "2026-11-22T03:37:53.528477+00:00"
+        "planned_at": "2026-11-22T03:37:56.635295+00:00"
       }
     },
     "20024": {
@@ -242154,5 +242160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:37:53.528494+00:00"
+  "updated_at": "2026-11-22T03:37:58.290779+00:00"
 }
