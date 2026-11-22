@@ -134853,13 +134853,6 @@
           "source_id": "33712803",
           "target_video_id": "30987501",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:31:11.417448+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33712803",
-          "target_video_id": "30987501",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:07:47.971401+00:00"
         },
         {
@@ -134868,6 +134861,13 @@
           "target_video_id": "30987501",
           "permanent": false,
           "attempted_at": "2026-11-22T11:50:23.282217+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33712803",
+          "target_video_id": "30987501",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:34:40.006341+00:00"
         }
       ],
       "last_plan": {
@@ -140288,7 +140288,7 @@
       "last_plan": {
         "source_id": "30652094",
         "display_name": "Temno SD CZ Dabing",
-        "planned_at": "2026-11-22T11:50:21.544198+00:00"
+        "planned_at": "2026-11-22T13:34:38.050665+00:00"
       },
       "previous_target_id": "30988054",
       "prepared": {
@@ -140296,6 +140296,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
+      },
+      "claim": {
+        "worker_id": "3bff73b05c244257bfd4bb354d67a0dc-shard-0",
+        "claimed_at": "2026-11-22T13:34:39.516548+00:00",
+        "lease_expires_at": "2026-11-22T19:34:39.516548+00:00",
+        "run_id": "45016772727"
       }
     },
     "12711": {
@@ -203163,7 +203169,7 @@
       "last_plan": {
         "source_id": "19138705",
         "display_name": "The Greatest Story Ever Told SD CZ Dabing",
-        "planned_at": "2026-11-22T13:34:34.684450+00:00"
+        "planned_at": "2026-11-22T13:34:38.487828+00:00"
       }
     },
     "21548": {
@@ -245339,5 +245345,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:34:35.297944+00:00"
+  "updated_at": "2026-11-22T13:34:40.006358+00:00"
 }
