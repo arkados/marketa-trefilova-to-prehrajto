@@ -136132,7 +136132,7 @@
       "last_plan": {
         "source_id": "34720493",
         "display_name": "Prach 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:22:30.369838+00:00"
+        "planned_at": "2026-11-22T02:54:41.535042+00:00"
       },
       "previous_target_id": "30987629",
       "prepared": {
@@ -136140,6 +136140,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T05:29:45.860849+00:00",
         "relay_source_id": "34720493"
+      },
+      "claim": {
+        "worker_id": "92c3d4b4b7bc411eb2720aebdd3d9d48-shard-0",
+        "claimed_at": "2026-11-22T02:54:42.598539+00:00",
+        "lease_expires_at": "2026-11-22T08:54:42.598539+00:00",
+        "run_id": "44959851294"
       }
     },
     "28541": {
@@ -198478,17 +198484,23 @@
           "attempted_at": "2026-11-22T01:22:34.779262+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "28232720",
-        "display_name": "The Chapel 720p CZ Dabing",
-        "planned_at": "2026-11-22T02:54:38.104151+00:00"
-      },
       "previous_target_id": "31240594",
-      "prepared": {
+      "upload": {
         "target_video_id": "31240594",
-        "size_bytes": 3027621688,
-        "prepared_at": "2026-11-22T01:19:36.250700+00:00",
-        "relay_source_id": "28232720"
+        "display_name": "The Chapel 720p CZ Dabing",
+        "source_id": "28232720",
+        "source_url": "https://sdilej.cz/28232720/kaple.-2023-cz-dab.mkv",
+        "source_filename": "Kaple. 2023_CZ-Dab.mkv",
+        "size_bytes": 3000000000,
+        "width": 1280,
+        "height": 720,
+        "audio_language": "cs",
+        "language_probability": 0.6574044227600098,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/the-chapel-720p-cz-dabing-mkv/042bd990fbbee894",
+        "uploaded_at": "2026-11-22T02:54:43.224785+00:00"
       }
     },
     "19946": {
@@ -199039,7 +199051,7 @@
       "last_plan": {
         "source_id": "35169447",
         "display_name": "Bastardi 3 (Bastardi III) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:54:38.803733+00:00"
+        "planned_at": "2026-11-22T02:54:41.956122+00:00"
       }
     },
     "13210": {
@@ -241947,5 +241959,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:54:38.803765+00:00"
+  "updated_at": "2026-11-22T02:54:43.224804+00:00"
 }
