@@ -113624,13 +113624,6 @@
           "source_id": "33199372",
           "target_video_id": "30984053",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:13:06.683761+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33199372",
-          "target_video_id": "30984053",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:45:53.677310+00:00"
         },
         {
@@ -113639,6 +113632,13 @@
           "target_video_id": "30984053",
           "permanent": false,
           "attempted_at": "2026-11-21T23:54:31.657962+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33199372",
+          "target_video_id": "30984053",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:27:51.169359+00:00"
         }
       ],
       "last_plan": {
@@ -113652,12 +113652,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T15:21:11.415854+00:00",
         "relay_source_id": "33199372"
-      },
-      "claim": {
-        "worker_id": "e4fe5878466c4f7cbdc9eca681c3762c-shard-0",
-        "claimed_at": "2026-11-22T01:27:47.514690+00:00",
-        "lease_expires_at": "2026-11-22T07:27:47.514690+00:00",
-        "run_id": "44959851294"
       }
     },
     "3067": {
@@ -189786,7 +189780,7 @@
       "last_plan": {
         "source_id": "14360307",
         "display_name": "Bourák 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:54:29.544797+00:00"
+        "planned_at": "2026-11-22T01:27:50.878399+00:00"
       },
       "previous_target_id": "31220478",
       "prepared": {
@@ -198415,7 +198409,7 @@
       "last_plan": {
         "source_id": "29299676",
         "display_name": "The Call of the Wild: Dog of the Yukon 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:27:44.783672+00:00"
+        "planned_at": "2026-11-22T01:27:51.549409+00:00"
       }
     },
     "26036": {
@@ -198425,7 +198419,12 @@
       "attempts": []
     },
     "6468": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34662118",
+        "display_name": "My Freaky Family 1080p CZ Dabing",
+        "planned_at": "2026-11-22T01:27:51.786812+00:00"
+      }
     },
     "18425": {
       "attempts": []
@@ -241410,5 +241409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:27:47.514731+00:00"
+  "updated_at": "2026-11-22T01:27:51.786829+00:00"
 }
