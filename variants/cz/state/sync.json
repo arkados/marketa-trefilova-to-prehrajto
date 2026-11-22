@@ -113402,13 +113402,6 @@
           "source_id": "34274611",
           "target_video_id": "30984010",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:53:26.190289+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34274611",
-          "target_video_id": "30984010",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:30:04.677247+00:00"
         },
         {
@@ -113417,6 +113410,13 @@
           "target_video_id": "30984010",
           "permanent": false,
           "attempted_at": "2026-11-22T11:08:24.524300+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34274611",
+          "target_video_id": "30984010",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:51:02.780650+00:00"
         }
       ],
       "last_plan": {
@@ -134528,7 +134528,7 @@
       "last_plan": {
         "source_id": "32097453",
         "display_name": "Veselý souboj SD CZ Dabing",
-        "planned_at": "2026-11-22T11:08:27.008569+00:00"
+        "planned_at": "2026-11-22T12:51:01.078862+00:00"
       },
       "previous_target_id": "30987443",
       "prepared": {
@@ -134536,6 +134536,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-11T04:42:03.188301+00:00",
         "relay_source_id": "32097453"
+      },
+      "claim": {
+        "worker_id": "ff24abe10a7140a09701d01193f20e79-shard-0",
+        "claimed_at": "2026-11-22T12:51:02.419419+00:00",
+        "lease_expires_at": "2026-11-22T18:51:02.419419+00:00",
+        "run_id": "45016772727"
       }
     },
     "12579": {
@@ -202784,7 +202790,7 @@
       "last_plan": {
         "source_id": "33478515",
         "display_name": "Je suis timide mais je me soigne (Je suis timide... mais je me soigne) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:50:57.951121+00:00"
+        "planned_at": "2026-11-22T12:51:01.563843+00:00"
       }
     },
     "15156": {
@@ -245008,5 +245014,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:50:57.951137+00:00"
+  "updated_at": "2026-11-22T12:51:02.780671+00:00"
 }
