@@ -91004,13 +91004,6 @@
           "source_id": "17098335",
           "target_video_id": "30926375",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:43:44.285674+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17098335",
-          "target_video_id": "30926375",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:27:45.501161+00:00"
         },
         {
@@ -91019,6 +91012,13 @@
           "target_video_id": "30926375",
           "permanent": false,
           "attempted_at": "2026-11-22T20:48:52.764502+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17098335",
+          "target_video_id": "30926375",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:32:13.899356+00:00"
         }
       ],
       "last_plan": {
@@ -204614,7 +204614,7 @@
       "last_plan": {
         "source_id": "25410421",
         "display_name": "Something New 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:35:57.903950+00:00"
+        "planned_at": "2026-11-22T22:32:12.265414+00:00"
       },
       "previous_target_id": "31260410",
       "prepared": {
@@ -204622,6 +204622,12 @@
         "size_bytes": 6141910584,
         "prepared_at": "2026-11-22T20:36:05.122610+00:00",
         "relay_source_id": "25410421"
+      },
+      "claim": {
+        "worker_id": "778faebfb88d404085f2c59f95abc531-shard-0",
+        "claimed_at": "2026-11-22T22:32:13.555544+00:00",
+        "lease_expires_at": "2026-11-23T04:32:13.555544+00:00",
+        "run_id": "45063988883"
       }
     },
     "32622": {
@@ -205314,7 +205320,7 @@
       "last_plan": {
         "source_id": "34980017",
         "display_name": "Not Without My Daughter SD CZ Dabing",
-        "planned_at": "2026-11-22T22:32:09.398647+00:00"
+        "planned_at": "2026-11-22T22:32:12.722415+00:00"
       }
     },
     "30305": {
@@ -247100,5 +247106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:32:09.398662+00:00"
+  "updated_at": "2026-11-22T22:32:13.899379+00:00"
 }
