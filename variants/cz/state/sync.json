@@ -107669,13 +107669,6 @@
           "source_id": "34720969",
           "target_video_id": "30983144",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:28:50.291617+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34720969",
-          "target_video_id": "30983144",
-          "permanent": false,
           "attempted_at": "2026-11-22T15:10:15.610603+00:00"
         },
         {
@@ -107684,6 +107677,13 @@
           "target_video_id": "30983144",
           "permanent": false,
           "attempted_at": "2026-11-22T21:31:44.130611+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34720969",
+          "target_video_id": "30983144",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:18:30.361440+00:00"
         }
       ],
       "last_plan": {
@@ -107726,7 +107726,7 @@
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:31:40.907755+00:00"
+        "planned_at": "2026-11-22T23:18:27.315985+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -107734,6 +107734,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T13:53:28.759441+00:00",
         "relay_source_id": "11951859"
+      },
+      "claim": {
+        "worker_id": "33f053fd025c4714b4a7205bbfaacbd9-shard-0",
+        "claimed_at": "2026-11-22T23:18:28.514213+00:00",
+        "lease_expires_at": "2026-11-23T05:18:28.514213+00:00",
+        "run_id": "45063988883"
       }
     },
     "21503": {
@@ -205751,7 +205757,7 @@
       "last_plan": {
         "source_id": "25569584",
         "display_name": "Jacquou le Croquant SD CZ Dabing",
-        "planned_at": "2026-11-22T23:18:24.491965+00:00"
+        "planned_at": "2026-11-22T23:18:27.746934+00:00"
       }
     },
     "22516": {
@@ -247438,5 +247444,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:18:24.491982+00:00"
+  "updated_at": "2026-11-22T23:18:30.361459+00:00"
 }
