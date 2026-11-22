@@ -107706,13 +107706,6 @@
           "source_id": "11951859",
           "target_video_id": "30983145",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:26:13.458228+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "11951859",
-          "target_video_id": "30983145",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:03:05.051147+00:00"
         },
         {
@@ -107721,12 +107714,19 @@
           "target_video_id": "30983145",
           "permanent": false,
           "attempted_at": "2026-11-22T11:45:24.385075+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "11951859",
+          "target_video_id": "30983145",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:28:59.162028+00:00"
         }
       ],
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:45:18.901544+00:00"
+        "planned_at": "2026-11-22T13:28:54.694057+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -181184,6 +181184,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-19T20:23:36.726697+00:00",
         "relay_source_id": "31366589"
+      },
+      "claim": {
+        "worker_id": "8231db2877734f62b002cb44b5032e33-shard-0",
+        "claimed_at": "2026-11-22T13:28:54.373996+00:00",
+        "lease_expires_at": "2026-11-22T19:28:54.373996+00:00",
+        "run_id": "45016772727"
       }
     },
     "19538": {
@@ -203115,7 +203121,7 @@
       "last_plan": {
         "source_id": "35332762",
         "display_name": "The Boss of It All 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:28:51.666076+00:00"
+        "planned_at": "2026-11-22T13:28:55.163548+00:00"
       }
     },
     "30360": {
@@ -245300,5 +245306,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:28:51.666092+00:00"
+  "updated_at": "2026-11-22T13:28:59.162057+00:00"
 }
