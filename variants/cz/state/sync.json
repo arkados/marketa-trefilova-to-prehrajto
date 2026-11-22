@@ -8690,6 +8690,12 @@
         "size_bytes": 3900000000,
         "prepared_at": "2026-10-30T10:45:24.686874+00:00",
         "relay_source_id": "21842659"
+      },
+      "claim": {
+        "worker_id": "5d08bf157f7d442d8348923d625eeb07-shard-0",
+        "claimed_at": "2026-11-22T12:22:31.155435+00:00",
+        "lease_expires_at": "2026-11-22T18:22:31.155435+00:00",
+        "run_id": "45016772727"
       }
     },
     "270": {
@@ -17016,13 +17022,6 @@
           "source_id": "33402050",
           "target_video_id": "30665578",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:24:35.260305+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33402050",
-          "target_video_id": "30665578",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:01:07.126346+00:00"
         },
         {
@@ -17031,6 +17030,13 @@
           "target_video_id": "30665578",
           "permanent": false,
           "attempted_at": "2026-11-22T10:37:03.926238+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33402050",
+          "target_video_id": "30665578",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:22:30.165296+00:00"
         }
       ],
       "last_plan": {
@@ -17044,12 +17050,6 @@
         "size_bytes": 5600000000,
         "prepared_at": "2026-10-31T12:40:19.412143+00:00",
         "relay_source_id": "33402050"
-      },
-      "claim": {
-        "worker_id": "2ea3ec85ae4b443abafcb7c552fee0fd-shard-0",
-        "claimed_at": "2026-11-22T12:22:26.243176+00:00",
-        "lease_expires_at": "2026-11-22T18:22:26.243176+00:00",
-        "run_id": "45016772727"
       }
     },
     "614": {
@@ -22436,7 +22436,7 @@
       "last_plan": {
         "source_id": "18074667",
         "display_name": "The Florida Project 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:37:07.897439+00:00"
+        "planned_at": "2026-11-22T12:22:31.824338+00:00"
       },
       "previous_target_id": "30692683",
       "prepared": {
@@ -202582,7 +202582,7 @@
       "last_plan": {
         "source_id": "34788314",
         "display_name": "Rough Night in Jericho SD CZ Dabing",
-        "planned_at": "2026-11-22T12:22:26.923650+00:00"
+        "planned_at": "2026-11-22T12:22:32.231722+00:00"
       }
     },
     "14446": {
@@ -244859,5 +244859,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:22:26.923667+00:00"
+  "updated_at": "2026-11-22T12:22:32.231743+00:00"
 }
