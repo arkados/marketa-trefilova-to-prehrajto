@@ -198356,17 +198356,19 @@
       "attempts": []
     },
     "3725": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34359676",
+          "target_video_id": "31240673",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:27:24.173775+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34359676",
         "display_name": "The Berlin File (BeLeulLin) 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:24:38.403739+00:00"
-      },
-      "claim": {
-        "worker_id": "dc95e4a85c85466eb782a3fd5bec21c2-shard-0",
-        "claimed_at": "2026-11-22T01:24:39.877099+00:00",
-        "lease_expires_at": "2026-11-22T07:24:39.877099+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240673",
       "prepared": {
@@ -241400,5 +241402,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:27:21.793797+00:00"
+  "updated_at": "2026-11-22T01:27:24.173798+00:00"
 }
