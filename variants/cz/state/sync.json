@@ -110619,13 +110619,6 @@
           "source_id": "12788271",
           "target_video_id": "30983746",
           "permanent": false,
-          "attempted_at": "2026-11-21T18:53:09.548477+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12788271",
-          "target_video_id": "30983746",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:27:28.418987+00:00"
         },
         {
@@ -110634,6 +110627,13 @@
           "target_video_id": "30983746",
           "permanent": false,
           "attempted_at": "2026-11-21T23:38:45.942901+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12788271",
+          "target_video_id": "30983746",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:10:51.535981+00:00"
         }
       ],
       "last_plan": {
@@ -110647,12 +110647,6 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T14:42:01.640343+00:00",
         "relay_source_id": "12788271"
-      },
-      "claim": {
-        "worker_id": "bfa2526eacef4e21ae789ef3bb8bf06e-shard-0",
-        "claimed_at": "2026-11-22T01:10:46.598452+00:00",
-        "lease_expires_at": "2026-11-22T07:10:46.598452+00:00",
-        "run_id": "44959851294"
       }
     },
     "33466": {
@@ -110682,7 +110676,7 @@
       "last_plan": {
         "source_id": "34716525",
         "display_name": "Lady Ninja: A Blue Shadow (LADY NINJA ~ aoi kage ~) 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:38:44.418060+00:00"
+        "planned_at": "2026-11-22T01:10:51.169926+00:00"
       },
       "previous_target_id": "30983747",
       "prepared": {
@@ -198159,17 +198153,19 @@
       }
     },
     "11266": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11581865",
+          "target_video_id": "31240451",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:10:52.183101+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11581865",
         "display_name": "Hurra - Die Schwedinnen sind da (Hurra, die Schwedinnen sind da) SD CZ Dabing",
         "planned_at": "2026-11-22T01:09:53.892745+00:00"
-      },
-      "claim": {
-        "worker_id": "00f81b796fc04f7db1d2ca54f6702975-shard-0",
-        "claimed_at": "2026-11-22T01:09:57.271515+00:00",
-        "lease_expires_at": "2026-11-22T07:09:57.271515+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240451",
       "prepared": {
@@ -198184,7 +198180,7 @@
       "last_plan": {
         "source_id": "32940950",
         "display_name": "The Big Store (Le Grand Bazar) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:10:45.916763+00:00"
+        "planned_at": "2026-11-22T01:10:51.929147+00:00"
       }
     },
     "21837": {
@@ -241224,5 +241220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:10:47.563258+00:00"
+  "updated_at": "2026-11-22T01:10:52.183123+00:00"
 }
