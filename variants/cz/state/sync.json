@@ -129784,13 +129784,6 @@
           "source_id": "34796896",
           "target_video_id": "30986820",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:22:32.456902+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34796896",
-          "target_video_id": "30986820",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:08:24.102979+00:00"
         },
         {
@@ -129799,6 +129792,13 @@
           "target_video_id": "30986820",
           "permanent": false,
           "attempted_at": "2026-11-22T05:44:34.815463+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34796896",
+          "target_video_id": "30986820",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:30:50.933109+00:00"
         }
       ],
       "last_plan": {
@@ -137271,7 +137271,7 @@
       "last_plan": {
         "source_id": "33063567",
         "display_name": "Anny 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:44:33.255195+00:00"
+        "planned_at": "2026-11-22T07:30:48.959854+00:00"
       },
       "previous_target_id": "30987763",
       "prepared": {
@@ -137279,6 +137279,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T05:57:30.506123+00:00",
         "relay_source_id": "33063567"
+      },
+      "claim": {
+        "worker_id": "c0cad12a70ab4139a98ed055bde877d9-shard-0",
+        "claimed_at": "2026-11-22T07:30:50.166572+00:00",
+        "lease_expires_at": "2026-11-22T13:30:50.166572+00:00",
+        "run_id": "44995678765"
       }
     },
     "15334": {
@@ -200715,7 +200721,7 @@
       "last_plan": {
         "source_id": "23115609",
         "display_name": "Iron Will 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:30:45.994664+00:00"
+        "planned_at": "2026-11-22T07:30:49.365601+00:00"
       }
     },
     "28587": {
@@ -243317,5 +243323,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:30:45.994681+00:00"
+  "updated_at": "2026-11-22T07:30:50.933126+00:00"
 }
