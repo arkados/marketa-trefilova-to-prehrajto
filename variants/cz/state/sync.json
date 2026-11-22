@@ -136649,7 +136649,7 @@
       "last_plan": {
         "source_id": "34676679",
         "display_name": "Stop SD CZ Dabing",
-        "planned_at": "2026-11-22T11:50:25.736548+00:00"
+        "planned_at": "2026-11-22T13:34:42.339334+00:00"
       },
       "previous_target_id": "30987696",
       "prepared": {
@@ -140268,13 +140268,6 @@
           "source_id": "30652094",
           "target_video_id": "30988054",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:31:14.532137+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30652094",
-          "target_video_id": "30988054",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:07:52.498036+00:00"
         },
         {
@@ -140283,6 +140276,13 @@
           "target_video_id": "30988054",
           "permanent": false,
           "attempted_at": "2026-11-22T11:50:26.539230+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30652094",
+          "target_video_id": "30988054",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:34:43.111824+00:00"
         }
       ],
       "last_plan": {
@@ -140296,12 +140296,6 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T07:23:41.573058+00:00",
         "relay_source_id": "30652094"
-      },
-      "claim": {
-        "worker_id": "3bff73b05c244257bfd4bb354d67a0dc-shard-0",
-        "claimed_at": "2026-11-22T13:34:39.516548+00:00",
-        "lease_expires_at": "2026-11-22T19:34:39.516548+00:00",
-        "run_id": "45016772727"
       }
     },
     "12711": {
@@ -203138,17 +203132,19 @@
       }
     },
     "25658": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35332762",
+          "target_video_id": "31253331",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:34:43.353589+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35332762",
         "display_name": "The Boss of It All 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:30:09.864763+00:00"
-      },
-      "claim": {
-        "worker_id": "cf43afb8f52a456ab2bd17dcc05abca6-shard-0",
-        "claimed_at": "2026-11-22T13:30:13.668211+00:00",
-        "lease_expires_at": "2026-11-22T19:30:13.668211+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31253331",
       "prepared": {
@@ -203169,7 +203165,7 @@
       "last_plan": {
         "source_id": "19138705",
         "display_name": "The Greatest Story Ever Told SD CZ Dabing",
-        "planned_at": "2026-11-22T13:34:38.487828+00:00"
+        "planned_at": "2026-11-22T13:34:42.742294+00:00"
       }
     },
     "21548": {
@@ -245345,5 +245341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:34:40.006358+00:00"
+  "updated_at": "2026-11-22T13:34:43.353607+00:00"
 }
