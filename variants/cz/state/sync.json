@@ -109880,13 +109880,6 @@
           "source_id": "34671725",
           "target_video_id": "30983679",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:44:32.676060+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34671725",
-          "target_video_id": "30983679",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:23:50.928150+00:00"
         },
         {
@@ -109895,6 +109888,13 @@
           "target_video_id": "30983679",
           "permanent": false,
           "attempted_at": "2026-11-22T12:07:51.474243+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34671725",
+          "target_video_id": "30983679",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:48:44.478078+00:00"
         }
       ],
       "last_plan": {
@@ -130721,7 +130721,7 @@
       "last_plan": {
         "source_id": "34672037",
         "display_name": "A Bagful of Fleas (Pytel blech) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:07:50.663029+00:00"
+        "planned_at": "2026-11-22T13:48:42.651055+00:00"
       },
       "previous_target_id": "30986926",
       "prepared": {
@@ -130729,6 +130729,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-11T02:41:46.201833+00:00",
         "relay_source_id": "34672037"
+      },
+      "claim": {
+        "worker_id": "752d3c9a2f5e4d3cb6574d899ec79a97-shard-0",
+        "claimed_at": "2026-11-22T13:48:43.966687+00:00",
+        "lease_expires_at": "2026-11-22T19:48:43.966687+00:00",
+        "run_id": "45016772727"
       }
     },
     "13201": {
@@ -203384,7 +203390,7 @@
       "last_plan": {
         "source_id": "32144821",
         "display_name": "Imaginary Crimes 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:48:39.250912+00:00"
+        "planned_at": "2026-11-22T13:48:43.113826+00:00"
       }
     },
     "33044": {
@@ -245506,5 +245512,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:48:39.656576+00:00"
+  "updated_at": "2026-11-22T13:48:44.478094+00:00"
 }
