@@ -113968,13 +113968,6 @@
           "source_id": "34697411",
           "target_video_id": "30984075",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:44:08.180943+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34697411",
-          "target_video_id": "30984075",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:29:07.425996+00:00"
         },
         {
@@ -113983,6 +113976,13 @@
           "target_video_id": "30984075",
           "permanent": false,
           "attempted_at": "2026-11-22T05:03:46.102560+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34697411",
+          "target_video_id": "30984075",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:43:05.605181+00:00"
         }
       ],
       "last_plan": {
@@ -114855,7 +114855,7 @@
       "last_plan": {
         "source_id": "29864977",
         "display_name": "Enemy 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:03:45.455262+00:00"
+        "planned_at": "2026-11-22T06:43:03.786675+00:00"
       },
       "previous_target_id": "30984235",
       "prepared": {
@@ -114863,6 +114863,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:51:44.958648+00:00",
         "relay_source_id": "29864977"
+      },
+      "claim": {
+        "worker_id": "3983dd94daee4396ba3ce18e90cff743-shard-0",
+        "claimed_at": "2026-11-22T06:43:04.807261+00:00",
+        "lease_expires_at": "2026-11-22T12:43:04.807261+00:00",
+        "run_id": "44961318741"
       }
     },
     "3126": {
@@ -200401,7 +200407,7 @@
       "last_plan": {
         "source_id": "28112306",
         "display_name": "The Wolf at the Door SD CZ Dabing",
-        "planned_at": "2026-11-22T06:42:59.210919+00:00"
+        "planned_at": "2026-11-22T06:43:04.140355+00:00"
       }
     },
     "25790": {
@@ -243066,5 +243072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:42:59.626662+00:00"
+  "updated_at": "2026-11-22T06:43:05.605200+00:00"
 }
