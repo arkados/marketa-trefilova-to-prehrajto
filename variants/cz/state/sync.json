@@ -117975,6 +117975,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T17:43:36.279407+00:00",
         "relay_source_id": "28241125"
+      },
+      "claim": {
+        "worker_id": "2a60f74b8ebb4b5d9ceabdf3e9676a19-shard-0",
+        "claimed_at": "2026-11-22T20:21:42.473017+00:00",
+        "lease_expires_at": "2026-11-23T02:21:42.473017+00:00",
+        "run_id": "45063988883"
       }
     },
     "3103": {
@@ -204289,17 +204295,19 @@
       }
     },
     "15075": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32147721",
+          "target_video_id": "31260113",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:21:43.384491+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32147721",
         "display_name": "Escape Room: La pel·lícula 1080p CZ Dabing",
         "planned_at": "2026-11-22T20:17:53.996327+00:00"
-      },
-      "claim": {
-        "worker_id": "ef867d94403a4458a010367742e8625e-shard-0",
-        "claimed_at": "2026-11-22T20:17:55.350216+00:00",
-        "lease_expires_at": "2026-11-23T02:17:55.350216+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31260113",
       "prepared": {
@@ -246262,5 +246270,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:21:39.832452+00:00"
+  "updated_at": "2026-11-22T20:21:43.384513+00:00"
 }
