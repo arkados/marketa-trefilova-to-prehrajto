@@ -205075,17 +205075,19 @@
       }
     },
     "23951": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34783745",
+          "target_video_id": "31262177",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:05:24.633288+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34783745",
         "display_name": "Paulie 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:01:02.174238+00:00"
-      },
-      "claim": {
-        "worker_id": "3fe7d3e1df664463ba4faab64b275a7d-shard-0",
-        "claimed_at": "2026-11-22T22:01:05.173645+00:00",
-        "lease_expires_at": "2026-11-23T04:01:05.173645+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31262177",
       "prepared": {
@@ -246916,5 +246918,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:05:20.916274+00:00"
+  "updated_at": "2026-11-22T22:05:24.633310+00:00"
 }
