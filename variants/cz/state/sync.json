@@ -61846,13 +61846,6 @@
           "source_id": "31555891",
           "target_video_id": "30804386",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:54:47.587323+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31555891",
-          "target_video_id": "30804386",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:39:24.462549+00:00"
         },
         {
@@ -61861,6 +61854,13 @@
           "target_video_id": "30804386",
           "permanent": false,
           "attempted_at": "2026-11-22T14:20:28.502617+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31555891",
+          "target_video_id": "30804386",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:44:47.898853+00:00"
         }
       ],
       "last_plan": {
@@ -200279,7 +200279,7 @@
       "last_plan": {
         "source_id": "26299887",
         "display_name": "Fatal Following 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:20:26.110835+00:00"
+        "planned_at": "2026-11-22T20:44:46.360248+00:00"
       },
       "previous_target_id": "31245304",
       "prepared": {
@@ -200287,6 +200287,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-22T05:53:20.867020+00:00",
         "relay_source_id": "26299887"
+      },
+      "claim": {
+        "worker_id": "c10951e509ba4a7bb929b80ed481a359-shard-0",
+        "claimed_at": "2026-11-22T20:44:47.579758+00:00",
+        "lease_expires_at": "2026-11-23T02:44:47.579758+00:00",
+        "run_id": "45063988883"
       }
     },
     "27610": {
@@ -204435,7 +204441,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:44:41.767086+00:00"
+        "planned_at": "2026-11-22T20:44:46.768928+00:00"
       }
     },
     "3710": {
@@ -246368,5 +246374,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:44:42.100638+00:00"
+  "updated_at": "2026-11-22T20:44:47.898869+00:00"
 }
