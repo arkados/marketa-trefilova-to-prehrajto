@@ -112981,13 +112981,6 @@
           "source_id": "33709201",
           "target_video_id": "30983937",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:42:30.613199+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33709201",
-          "target_video_id": "30983937",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:15:23.676655+00:00"
         },
         {
@@ -112996,6 +112989,13 @@
           "target_video_id": "30983937",
           "permanent": false,
           "attempted_at": "2026-11-22T04:00:42.729468+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33709201",
+          "target_video_id": "30983937",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:36:32.022051+00:00"
         }
       ],
       "last_plan": {
@@ -131762,7 +131762,7 @@
       "last_plan": {
         "source_id": "34696372",
         "display_name": "Pat a Mat again in action (Pat & Mat znovu v akci) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:00:42.419253+00:00"
+        "planned_at": "2026-11-22T05:36:29.831650+00:00"
       },
       "previous_target_id": "30987013",
       "prepared": {
@@ -131770,6 +131770,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T03:17:04.132000+00:00",
         "relay_source_id": "34696372"
+      },
+      "claim": {
+        "worker_id": "dd2e1bcc65314484b2d61c8ff60818d5-shard-0",
+        "claimed_at": "2026-11-22T05:36:30.772429+00:00",
+        "lease_expires_at": "2026-11-22T11:36:30.772429+00:00",
+        "run_id": "44961318741"
       }
     },
     "29094": {
@@ -199894,7 +199900,7 @@
       "last_plan": {
         "source_id": "11690197",
         "display_name": "Icebox SD CZ Dabing",
-        "planned_at": "2026-11-22T05:36:26.858822+00:00"
+        "planned_at": "2026-11-22T05:36:30.171540+00:00"
       }
     },
     "11133": {
@@ -242658,5 +242664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:36:27.133742+00:00"
+  "updated_at": "2026-11-22T05:36:32.022070+00:00"
 }
