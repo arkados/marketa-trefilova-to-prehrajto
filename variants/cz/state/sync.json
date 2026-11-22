@@ -120721,7 +120721,7 @@
       "last_plan": {
         "source_id": "26917489",
         "display_name": "Poison (2023) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:51:13.593533+00:00"
+        "planned_at": "2026-11-22T11:35:15.393097+00:00"
       },
       "previous_target_id": "30985015",
       "prepared": {
@@ -120729,6 +120729,12 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-10T18:33:48.985609+00:00",
         "relay_source_id": "26917489"
+      },
+      "claim": {
+        "worker_id": "9c86939a3e254d25927738a0865cbc56-shard-0",
+        "claimed_at": "2026-11-22T11:35:16.741602+00:00",
+        "lease_expires_at": "2026-11-22T17:35:16.741602+00:00",
+        "run_id": "45016772727"
       }
     },
     "36717": {
@@ -126918,13 +126924,6 @@
           "source_id": "19694363",
           "target_video_id": "30986270",
           "permanent": false,
-          "attempted_at": "2026-11-22T06:31:22.941530+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "19694363",
-          "target_video_id": "30986270",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:13:25.767950+00:00"
         },
         {
@@ -126933,6 +126932,13 @@
           "target_video_id": "30986270",
           "permanent": false,
           "attempted_at": "2026-11-22T09:51:14.249697+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "19694363",
+          "target_video_id": "30986270",
+          "permanent": false,
+          "attempted_at": "2026-11-22T11:35:19.327439+00:00"
         }
       ],
       "last_plan": {
@@ -126946,12 +126952,6 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T23:49:32.122844+00:00",
         "relay_source_id": "19694363"
-      },
-      "claim": {
-        "worker_id": "9197ec739f5d40088b701a3ed92903a3-shard-0",
-        "claimed_at": "2026-11-22T11:35:11.813875+00:00",
-        "lease_expires_at": "2026-11-22T17:35:11.813875+00:00",
-        "run_id": "45016772727"
       }
     },
     "21742": {
@@ -202264,14 +202264,25 @@
       "last_plan": {
         "source_id": "29799963",
         "display_name": "CBGB 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:35:11.169582+00:00"
+        "planned_at": "2026-11-22T11:35:15.790802+00:00"
+      },
+      "claim": {
+        "worker_id": "3b043f21cc8e4707b83c7177b86c5f99-shard-0",
+        "claimed_at": "2026-11-22T11:35:16.975179+00:00",
+        "lease_expires_at": "2026-11-22T17:35:16.975179+00:00",
+        "run_id": "45016772727"
       }
     },
     "4159": {
       "attempts": []
     },
     "11910": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "23023340",
+        "display_name": "Narrow Margin 1080p CZ Dabing",
+        "planned_at": "2026-11-22T11:35:16.029913+00:00"
+      }
     },
     "30400": {
       "attempts": []
@@ -244599,5 +244610,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T11:35:12.636003+00:00"
+  "updated_at": "2026-11-22T11:35:19.327455+00:00"
 }
