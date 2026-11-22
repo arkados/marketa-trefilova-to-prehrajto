@@ -199464,17 +199464,19 @@
       }
     },
     "34761": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32952447",
+          "target_video_id": "31243655",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:18:55.368184+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32952447",
         "display_name": "Love, Bubbles & Crystal Cove 1080p CZ Dabing",
         "planned_at": "2026-11-22T04:15:15.391510+00:00"
-      },
-      "claim": {
-        "worker_id": "ddf289da8f164165b5ba9f1a82d2f719-shard-0",
-        "claimed_at": "2026-11-22T04:15:18.374462+00:00",
-        "lease_expires_at": "2026-11-22T10:15:18.374462+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31243655",
       "prepared": {
@@ -242325,5 +242327,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:18:52.349166+00:00"
+  "updated_at": "2026-11-22T04:18:55.368207+00:00"
 }
