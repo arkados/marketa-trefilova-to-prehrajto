@@ -127299,13 +127299,6 @@
           "source_id": "34453688",
           "target_video_id": "30986375",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:20:49.659252+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34453688",
-          "target_video_id": "30986375",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:29:28.865646+00:00"
         },
         {
@@ -127314,6 +127307,13 @@
           "target_video_id": "30986375",
           "permanent": false,
           "attempted_at": "2026-11-22T01:01:32.987056+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34453688",
+          "target_video_id": "30986375",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:32:46.838677+00:00"
         }
       ],
       "last_plan": {
@@ -135713,7 +135713,7 @@
       "last_plan": {
         "source_id": "11994914",
         "display_name": "Bankrot SD CZ Dabing",
-        "planned_at": "2026-11-22T01:01:31.369732+00:00"
+        "planned_at": "2026-11-22T02:32:45.336974+00:00"
       },
       "previous_target_id": "30987591",
       "prepared": {
@@ -135721,6 +135721,12 @@
         "size_bytes": 975100000,
         "prepared_at": "2026-11-11T05:20:01.782170+00:00",
         "relay_source_id": "11994914"
+      },
+      "claim": {
+        "worker_id": "038f319980f74b67b3f3ffd3c68a6ad2-shard-0",
+        "claimed_at": "2026-11-22T02:32:46.524855+00:00",
+        "lease_expires_at": "2026-11-22T08:32:46.524855+00:00",
+        "run_id": "44959851294"
       }
     },
     "24145": {
@@ -198864,7 +198870,7 @@
       "last_plan": {
         "source_id": "31631346",
         "display_name": "Elbow (Ellbogen) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:32:41.974119+00:00"
+        "planned_at": "2026-11-22T02:32:45.743280+00:00"
       }
     },
     "18776": {
@@ -241799,5 +241805,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:32:41.974138+00:00"
+  "updated_at": "2026-11-22T02:32:46.838703+00:00"
 }
