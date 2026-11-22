@@ -126395,13 +126395,6 @@
           "source_id": "34488867",
           "target_video_id": "30986177",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:41:24.835949+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34488867",
-          "target_video_id": "30986177",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:28:54.777354+00:00"
         },
         {
@@ -126410,6 +126403,13 @@
           "target_video_id": "30986177",
           "permanent": false,
           "attempted_at": "2026-11-22T14:09:52.299198+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34488867",
+          "target_video_id": "30986177",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:32:07.390115+00:00"
         }
       ],
       "last_plan": {
@@ -190874,7 +190874,7 @@
       "last_plan": {
         "source_id": "24263235",
         "display_name": "Adam (2020) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:09:51.536385+00:00"
+        "planned_at": "2026-11-22T20:32:05.753967+00:00"
       },
       "previous_target_id": "31222473",
       "prepared": {
@@ -190882,6 +190882,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-21T07:10:27.555158+00:00",
         "relay_source_id": "24263235"
+      },
+      "claim": {
+        "worker_id": "7e33bf1dbd5743e4ae45cf970915e918-shard-0",
+        "claimed_at": "2026-11-22T20:32:07.024196+00:00",
+        "lease_expires_at": "2026-11-23T02:32:07.024196+00:00",
+        "run_id": "45063988883"
       }
     },
     "23985": {
@@ -204389,7 +204395,7 @@
       "last_plan": {
         "source_id": "25410421",
         "display_name": "Something New 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:32:01.347913+00:00"
+        "planned_at": "2026-11-22T20:32:06.235970+00:00"
       }
     },
     "32622": {
@@ -246328,5 +246334,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:32:01.633196+00:00"
+  "updated_at": "2026-11-22T20:32:07.390133+00:00"
 }
