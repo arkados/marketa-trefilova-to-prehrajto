@@ -119255,6 +119255,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-10T18:04:17.321994+00:00",
         "relay_source_id": "13046628"
+      },
+      "claim": {
+        "worker_id": "97e996cf775146dd98a12403886e7a4b-shard-0",
+        "claimed_at": "2026-11-22T03:24:19.616169+00:00",
+        "lease_expires_at": "2026-11-22T09:24:19.616169+00:00",
+        "run_id": "44961318741"
       }
     },
     "2922": {
@@ -125973,7 +125979,7 @@
       "last_plan": {
         "source_id": "32203611",
         "display_name": "Apache Gold (Winnetou 1. Teil) 4K CZ Dabing",
-        "planned_at": "2026-11-22T01:39:53.410193+00:00"
+        "planned_at": "2026-11-22T03:24:19.871710+00:00"
       },
       "previous_target_id": "30985914",
       "prepared": {
@@ -157201,13 +157207,6 @@
           "source_id": "26857794",
           "target_video_id": "31062647",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:55:17.331905+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "26857794",
-          "target_video_id": "31062647",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:04:12.759209+00:00"
         },
         {
@@ -157216,6 +157215,13 @@
           "target_video_id": "31062647",
           "permanent": false,
           "attempted_at": "2026-11-22T01:39:49.149550+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "26857794",
+          "target_video_id": "31062647",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:24:19.405607+00:00"
         }
       ],
       "last_plan": {
@@ -157229,12 +157235,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-15T13:28:28.473859+00:00",
         "relay_source_id": "26857794"
-      },
-      "claim": {
-        "worker_id": "8287bd8048a34ee49a4e823929d6d16f-shard-0",
-        "claimed_at": "2026-11-22T03:24:15.586632+00:00",
-        "lease_expires_at": "2026-11-22T09:24:15.586632+00:00",
-        "run_id": "44961318741"
       }
     },
     "23151": {
@@ -199161,7 +199161,7 @@
       "last_plan": {
         "source_id": "30925094",
         "display_name": "Through the Night (Quitter la nuit) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:24:16.185394+00:00"
+        "planned_at": "2026-11-22T03:24:20.207785+00:00"
       }
     },
     "30410": {
@@ -242057,5 +242057,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:24:16.523157+00:00"
+  "updated_at": "2026-11-22T03:24:20.207805+00:00"
 }
