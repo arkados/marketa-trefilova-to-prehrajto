@@ -107669,13 +107669,6 @@
           "source_id": "34720969",
           "target_video_id": "30983144",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:03:37.118198+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34720969",
-          "target_video_id": "30983144",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:42:56.522800+00:00"
         },
         {
@@ -107684,6 +107677,13 @@
           "target_video_id": "30983144",
           "permanent": false,
           "attempted_at": "2026-11-22T08:26:10.358740+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34720969",
+          "target_video_id": "30983144",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:03:01.876915+00:00"
         }
       ],
       "last_plan": {
@@ -107726,7 +107726,7 @@
       "last_plan": {
         "source_id": "11951859",
         "display_name": "Probuzení 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:26:08.295766+00:00"
+        "planned_at": "2026-11-22T10:02:59.837710+00:00"
       },
       "previous_target_id": "30983145",
       "prepared": {
@@ -107734,6 +107734,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-10T13:53:28.759441+00:00",
         "relay_source_id": "11951859"
+      },
+      "claim": {
+        "worker_id": "dd4ac9d6d25144a2834073e1bbcda265-shard-0",
+        "claimed_at": "2026-11-22T10:03:01.013085+00:00",
+        "lease_expires_at": "2026-11-22T16:03:01.013085+00:00",
+        "run_id": "44995678765"
       }
     },
     "21503": {
@@ -201564,7 +201570,7 @@
       "last_plan": {
         "source_id": "33393903",
         "display_name": "La Carapate 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:02:56.334465+00:00"
+        "planned_at": "2026-11-22T10:03:00.223039+00:00"
       }
     },
     "17255": {
@@ -244025,5 +244031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:02:56.666833+00:00"
+  "updated_at": "2026-11-22T10:03:01.876934+00:00"
 }
