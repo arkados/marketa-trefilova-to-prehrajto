@@ -136786,13 +136786,6 @@
           "source_id": "34788778",
           "target_video_id": "30987713",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:05:08.939948+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788778",
-          "target_video_id": "30987713",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:46:03.554711+00:00"
         },
         {
@@ -136801,12 +136794,19 @@
           "target_video_id": "30987713",
           "permanent": false,
           "attempted_at": "2026-11-22T20:11:02.815135+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788778",
+          "target_video_id": "30987713",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:51:29.543045+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34788778",
         "display_name": "Florenc 13,30 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:10:58.037391+00:00"
+        "planned_at": "2026-11-22T21:51:26.513149+00:00"
       },
       "previous_target_id": "30987713",
       "prepared": {
@@ -204995,7 +204995,13 @@
       "last_plan": {
         "source_id": "35153060",
         "display_name": "Thank You for Your Service 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:51:17.925777+00:00"
+        "planned_at": "2026-11-22T21:51:26.969241+00:00"
+      },
+      "claim": {
+        "worker_id": "f40531646ded46a798ae6a38e17233f5-shard-0",
+        "claimed_at": "2026-11-22T21:51:28.264907+00:00",
+        "lease_expires_at": "2026-11-23T03:51:28.264907+00:00",
+        "run_id": "45063988883"
       }
     },
     "35173": {
@@ -205005,7 +205011,12 @@
       "attempts": []
     },
     "22721": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33693929",
+        "display_name": "Yentl 1080p CZ Dabing",
+        "planned_at": "2026-11-22T21:51:27.257740+00:00"
+      }
     },
     "23951": {
       "attempts": []
@@ -246826,5 +246837,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:51:23.866713+00:00"
+  "updated_at": "2026-11-22T21:51:29.543061+00:00"
 }
