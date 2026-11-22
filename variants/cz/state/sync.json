@@ -140567,6 +140567,12 @@
         "size_bytes": 815900000,
         "prepared_at": "2026-11-11T07:31:11.935393+00:00",
         "relay_source_id": "34673105"
+      },
+      "claim": {
+        "worker_id": "5714cc38ff0848bfae3b63fb52076bd1-shard-0",
+        "claimed_at": "2026-11-22T10:16:57.194899+00:00",
+        "lease_expires_at": "2026-11-22T16:16:57.194899+00:00",
+        "run_id": "44995678765"
       }
     },
     "15573": {
@@ -146979,7 +146985,7 @@
       "last_plan": {
         "source_id": "33856066",
         "display_name": "Jan Palach 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:40:22.590106+00:00"
+        "planned_at": "2026-11-22T10:16:57.502132+00:00"
       },
       "previous_target_id": "30995059",
       "prepared": {
@@ -195623,13 +195629,6 @@
           "source_id": "27076574",
           "target_video_id": "31233679",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:20:05.072576+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27076574",
-          "target_video_id": "31233679",
-          "permanent": false,
           "attempted_at": "2026-11-22T07:00:09.746304+00:00"
         },
         {
@@ -195638,6 +195637,13 @@
           "target_video_id": "31233679",
           "permanent": false,
           "attempted_at": "2026-11-22T08:40:20.106370+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27076574",
+          "target_video_id": "31233679",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:16:58.262404+00:00"
         }
       ],
       "last_plan": {
@@ -195651,12 +195657,6 @@
         "size_bytes": 1100000000,
         "prepared_at": "2026-11-21T18:05:07.299819+00:00",
         "relay_source_id": "27076574"
-      },
-      "claim": {
-        "worker_id": "e0b41392c5d34b7293cc4a779ca3e892-shard-0",
-        "claimed_at": "2026-11-22T10:16:53.471763+00:00",
-        "lease_expires_at": "2026-11-22T16:16:53.471763+00:00",
-        "run_id": "44995678765"
       }
     },
     "17153": {
@@ -201662,7 +201662,7 @@
       "last_plan": {
         "source_id": "34658489",
         "display_name": "A Royal in Paradise (A Prince in Paradise) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:16:54.482768+00:00"
+        "planned_at": "2026-11-22T10:16:57.872138+00:00"
       }
     },
     "25844": {
@@ -244093,5 +244093,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:16:54.482784+00:00"
+  "updated_at": "2026-11-22T10:16:58.262456+00:00"
 }
