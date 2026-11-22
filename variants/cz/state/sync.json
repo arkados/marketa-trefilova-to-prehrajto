@@ -112694,13 +112694,6 @@
           "source_id": "35186010",
           "target_video_id": "30983918",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:45:02.487499+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35186010",
-          "target_video_id": "30983918",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:24:25.143524+00:00"
         },
         {
@@ -112709,6 +112702,13 @@
           "target_video_id": "30983918",
           "permanent": false,
           "attempted_at": "2026-11-22T12:08:22.447561+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35186010",
+          "target_video_id": "30983918",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:49:18.001740+00:00"
         }
       ],
       "last_plan": {
@@ -112722,12 +112722,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-10T15:02:33.300774+00:00",
         "relay_source_id": "35186010"
-      },
-      "claim": {
-        "worker_id": "b3ab721cb2654d1aab05a4aadca4ef77-shard-0",
-        "claimed_at": "2026-11-22T13:49:14.910805+00:00",
-        "lease_expires_at": "2026-11-22T19:49:14.910805+00:00",
-        "run_id": "45016772727"
       }
     },
     "14888": {
@@ -140750,7 +140744,7 @@
       "last_plan": {
         "source_id": "33856306",
         "display_name": "Long Story Short (Feste & Freunde - Ein Hoch auf uns!) (2024) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:08:22.107981+00:00"
+        "planned_at": "2026-11-22T13:49:17.291717+00:00"
       },
       "previous_target_id": "30988120",
       "prepared": {
@@ -203392,7 +203386,7 @@
       "last_plan": {
         "source_id": "32144821",
         "display_name": "Imaginary Crimes 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:49:11.987060+00:00"
+        "planned_at": "2026-11-22T13:49:17.696277+00:00"
       }
     },
     "33044": {
@@ -203402,7 +203396,12 @@
       "attempts": []
     },
     "3762": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "15195766",
+        "display_name": "The One and Only Ivan 4K CZ Dabing",
+        "planned_at": "2026-11-22T13:49:18.239216+00:00"
+      }
     },
     "25364": {
       "attempts": []
@@ -245514,5 +245513,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:49:14.910836+00:00"
+  "updated_at": "2026-11-22T13:49:18.239230+00:00"
 }
