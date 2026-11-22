@@ -159614,13 +159614,6 @@
           "source_id": "32350932",
           "target_video_id": "31072996",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:56:42.706744+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32350932",
-          "target_video_id": "31072996",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:28:20.679997+00:00"
         },
         {
@@ -159629,12 +159622,19 @@
           "target_video_id": "31072996",
           "permanent": false,
           "attempted_at": "2026-11-22T04:14:24.687849+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32350932",
+          "target_video_id": "31072996",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:53:15.616005+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32350932",
         "display_name": "Za humny je drak 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:14:18.535758+00:00"
+        "planned_at": "2026-11-22T05:53:12.499841+00:00"
       },
       "previous_target_id": "31072996",
       "prepared": {
@@ -200032,20 +200032,42 @@
       "last_plan": {
         "source_id": "34442840",
         "display_name": "The Door (2012) SD CZ Dabing",
-        "planned_at": "2026-11-22T05:53:02.332405+00:00"
+        "planned_at": "2026-11-22T05:53:12.841485+00:00"
+      },
+      "claim": {
+        "worker_id": "227f43c6a7bd4a289ee0cd66db9af2d4-shard-0",
+        "claimed_at": "2026-11-22T05:53:14.064114+00:00",
+        "lease_expires_at": "2026-11-22T11:53:14.064114+00:00",
+        "run_id": "44961318741"
       }
     },
     "35531": {
       "attempts": []
     },
     "14813": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "26299887",
+        "display_name": "Fatal Following 1080p CZ Dabing",
+        "planned_at": "2026-11-22T05:53:13.063505+00:00"
+      },
+      "claim": {
+        "worker_id": "b5c03753df9b4c04bdd9853e6ae15bf7-shard-0",
+        "claimed_at": "2026-11-22T05:53:14.449026+00:00",
+        "lease_expires_at": "2026-11-22T11:53:14.449026+00:00",
+        "run_id": "44961318741"
+      }
     },
     "27610": {
       "attempts": []
     },
     "30223": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31586871",
+        "display_name": "The Sword and the Rose SD CZ Dabing",
+        "planned_at": "2026-11-22T05:53:13.284096+00:00"
+      }
     },
     "24171": {
       "attempts": []
@@ -242766,5 +242788,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:53:08.631415+00:00"
+  "updated_at": "2026-11-22T05:53:15.616026+00:00"
 }
