@@ -132822,13 +132822,6 @@
           "source_id": "17465562",
           "target_video_id": "30987160",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:22:37.381946+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "17465562",
-          "target_video_id": "30987160",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:29:21.881953+00:00"
         },
         {
@@ -132837,6 +132830,13 @@
           "target_video_id": "30987160",
           "permanent": false,
           "attempted_at": "2026-11-22T02:02:40.377864+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "17465562",
+          "target_video_id": "30987160",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:50:33.398468+00:00"
         }
       ],
       "last_plan": {
@@ -134137,7 +134137,7 @@
       "last_plan": {
         "source_id": "26710573",
         "display_name": "Requiem 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:02:40.059645+00:00"
+        "planned_at": "2026-11-22T03:50:31.309660+00:00"
       },
       "previous_target_id": "30987368",
       "prepared": {
@@ -134145,6 +134145,12 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-11T04:26:03.641359+00:00",
         "relay_source_id": "26710573"
+      },
+      "claim": {
+        "worker_id": "ca03a71c3f044f70b978b8fd147455ec-shard-0",
+        "claimed_at": "2026-11-22T03:50:32.432314+00:00",
+        "lease_expires_at": "2026-11-22T09:50:32.432314+00:00",
+        "run_id": "44961318741"
       }
     },
     "32779": {
@@ -199363,7 +199369,7 @@
       "last_plan": {
         "source_id": "30865074",
         "display_name": "The Roundup: No Way Out (BeomJoeDoSi 3) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:50:27.868953+00:00"
+        "planned_at": "2026-11-22T03:50:31.855144+00:00"
       }
     },
     "3768": {
@@ -242214,5 +242220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:50:28.619224+00:00"
+  "updated_at": "2026-11-22T03:50:33.398487+00:00"
 }
