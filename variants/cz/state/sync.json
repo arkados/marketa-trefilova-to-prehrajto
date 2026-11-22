@@ -122988,6 +122988,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T19:35:48.490593+00:00",
         "relay_source_id": "32965631"
+      },
+      "claim": {
+        "worker_id": "9c18cdf0d64f4c989db7be7f93673d3f-shard-0",
+        "claimed_at": "2026-11-22T21:43:58.695056+00:00",
+        "lease_expires_at": "2026-11-23T03:43:58.695056+00:00",
+        "run_id": "45063988883"
       }
     },
     "32312": {
@@ -132673,7 +132679,7 @@
       "last_plan": {
         "source_id": "34715074",
         "display_name": "Grandpa, Kylian and I (Dědeček, Kyliján a já) SD CZ Dabing",
-        "planned_at": "2026-11-22T15:19:54.308454+00:00"
+        "planned_at": "2026-11-22T21:43:58.995902+00:00"
       },
       "previous_target_id": "30987142",
       "prepared": {
@@ -204864,17 +204870,19 @@
       }
     },
     "3677": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25652432",
+          "target_video_id": "31261756",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:44:00.207850+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25652432",
         "display_name": "Kill Boksoon (GilBogSun) 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:40:43.810614+00:00"
-      },
-      "claim": {
-        "worker_id": "227fab4b2e1a47bfac8982e1b71a4ef7-shard-0",
-        "claimed_at": "2026-11-22T21:40:45.225664+00:00",
-        "lease_expires_at": "2026-11-23T03:40:45.225664+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31261756",
       "prepared": {
@@ -204892,7 +204900,7 @@
       "last_plan": {
         "source_id": "34785351",
         "display_name": "Nexus 2.431 SD CZ Dabing",
-        "planned_at": "2026-11-22T21:43:55.895156+00:00"
+        "planned_at": "2026-11-22T21:43:59.474123+00:00"
       }
     },
     "19843": {
@@ -246747,5 +246755,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:43:55.895173+00:00"
+  "updated_at": "2026-11-22T21:44:00.207868+00:00"
 }
