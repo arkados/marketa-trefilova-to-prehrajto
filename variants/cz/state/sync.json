@@ -123303,6 +123303,12 @@
         "size_bytes": 5300000000,
         "prepared_at": "2026-11-10T20:08:53.441923+00:00",
         "relay_source_id": "22752658"
+      },
+      "claim": {
+        "worker_id": "b9e5aeaa07bc4ea391d52fd9738d6a90-shard-0",
+        "claimed_at": "2026-11-22T21:28:06.217253+00:00",
+        "lease_expires_at": "2026-11-23T03:28:06.217253+00:00",
+        "run_id": "45063988883"
       }
     },
     "26020": {
@@ -138309,7 +138315,7 @@
       "last_plan": {
         "source_id": "27786413",
         "display_name": "The Little Pet (Mazlíček) SD CZ Dabing",
-        "planned_at": "2026-11-22T15:06:42.164266+00:00"
+        "planned_at": "2026-11-22T21:28:06.535963+00:00"
       },
       "previous_target_id": "30987853",
       "prepared": {
@@ -204733,17 +204739,19 @@
       "attempts": []
     },
     "9207": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32208263",
+          "target_video_id": "31261415",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:28:07.459662+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32208263",
         "display_name": "Three Tigers in the Movie: Jackpot (Tři Tygři ve filmu: JACKPOT) 1080p CZ Dabing",
         "planned_at": "2026-11-22T21:25:40.400892+00:00"
-      },
-      "claim": {
-        "worker_id": "478874007313455a9ecc9ee44a873d24-shard-0",
-        "claimed_at": "2026-11-22T21:25:43.565340+00:00",
-        "lease_expires_at": "2026-11-23T03:25:43.565340+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31261415",
       "prepared": {
@@ -204758,7 +204766,7 @@
       "last_plan": {
         "source_id": "33647923",
         "display_name": "Emily Brontë's Wuthering Heights (Wuthering Heights) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:28:03.636435+00:00"
+        "planned_at": "2026-11-22T21:28:07.074442+00:00"
       }
     },
     "4001": {
@@ -246643,5 +246651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:28:03.636453+00:00"
+  "updated_at": "2026-11-22T21:28:07.459691+00:00"
 }
