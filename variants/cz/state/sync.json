@@ -201533,17 +201533,19 @@
       "attempts": []
     },
     "3767": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32023648",
+          "target_video_id": "31249364",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:06:43.246762+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32023648",
         "display_name": "The Balkan Line (Balkanskiy rubezh) 1080p CZ Dabing",
         "planned_at": "2026-11-22T09:59:48.922155+00:00"
-      },
-      "claim": {
-        "worker_id": "016e7b4346c340fab8406cff57e082bc-shard-0",
-        "claimed_at": "2026-11-22T09:59:53.023385+00:00",
-        "lease_expires_at": "2026-11-22T15:59:53.023385+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31249364",
       "prepared": {
@@ -244025,5 +244027,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:06:40.462402+00:00"
+  "updated_at": "2026-11-22T10:06:43.246786+00:00"
 }
