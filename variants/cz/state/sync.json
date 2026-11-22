@@ -114351,13 +114351,6 @@
           "source_id": "32941800",
           "target_video_id": "30984118",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:12:32.624293+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32941800",
-          "target_video_id": "30984118",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:57:49.223968+00:00"
         },
         {
@@ -114366,12 +114359,19 @@
           "target_video_id": "30984118",
           "permanent": false,
           "attempted_at": "2026-11-22T13:39:36.114956+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32941800",
+          "target_video_id": "30984118",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:02:16.466106+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32941800",
         "display_name": "Bridget Jones's Diary 4K CZ Dabing",
-        "planned_at": "2026-11-22T15:20:53.978708+00:00"
+        "planned_at": "2026-11-22T20:02:13.239266+00:00"
       },
       "previous_target_id": "30984118",
       "prepared": {
@@ -204083,7 +204083,13 @@
       "last_plan": {
         "source_id": "34479851",
         "display_name": "Happy Single 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:20:54.808162+00:00"
+        "planned_at": "2026-11-22T20:02:13.644744+00:00"
+      },
+      "claim": {
+        "worker_id": "c7fba0df6c58490dbe74b2e056f2e829-shard-0",
+        "claimed_at": "2026-11-22T20:02:15.209359+00:00",
+        "lease_expires_at": "2026-11-23T02:02:15.209359+00:00",
+        "run_id": "45063988883"
       }
     },
     "24465": {
@@ -204093,10 +204099,20 @@
       "attempts": []
     },
     "10814": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "25236826",
+        "display_name": "Cartouche 1080p CZ Dabing",
+        "planned_at": "2026-11-22T20:02:13.888246+00:00"
+      }
     },
     "25991": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "28467926",
+        "display_name": "Battle in Seattle SD CZ Dabing",
+        "planned_at": "2026-11-22T20:02:14.132961+00:00"
+      }
     },
     "13697": {
       "attempts": []
@@ -246070,5 +246086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:21:43.945616+00:00"
+  "updated_at": "2026-11-22T20:02:16.466124+00:00"
 }
