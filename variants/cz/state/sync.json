@@ -198481,17 +198481,19 @@
       }
     },
     "18425": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23290459",
+          "target_video_id": "31240824",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:36:53.281548+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23290459",
         "display_name": "Paulette 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:32:59.954046+00:00"
-      },
-      "claim": {
-        "worker_id": "d2aaf88637424842a6faab4fd8cc2128-shard-0",
-        "claimed_at": "2026-11-22T01:33:03.187057+00:00",
-        "lease_expires_at": "2026-11-22T07:33:03.187057+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240824",
       "prepared": {
@@ -241486,5 +241488,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:36:50.055870+00:00"
+  "updated_at": "2026-11-22T01:36:53.281594+00:00"
 }
