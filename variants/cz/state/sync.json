@@ -137394,7 +137394,7 @@
       "last_plan": {
         "source_id": "29809619",
         "display_name": "Prodavac humoru (Prodavač humoru) SD CZ Dabing",
-        "planned_at": "2026-11-22T02:25:29.456588+00:00"
+        "planned_at": "2026-11-22T04:11:28.905936+00:00"
       },
       "previous_target_id": "30987769",
       "prepared": {
@@ -137402,6 +137402,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T05:59:07.598557+00:00",
         "relay_source_id": "29809619"
+      },
+      "claim": {
+        "worker_id": "b6fc8f62cbb642ed925d7dee13c44a85-shard-0",
+        "claimed_at": "2026-11-22T04:11:30.045046+00:00",
+        "lease_expires_at": "2026-11-22T10:11:30.045046+00:00",
+        "run_id": "44961318741"
       }
     },
     "37459": {
@@ -144357,13 +144363,6 @@
           "source_id": "34716304",
           "target_video_id": "30988791",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:22:35.792529+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716304",
-          "target_video_id": "30988791",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:52:57.893828+00:00"
         },
         {
@@ -144372,6 +144371,13 @@
           "target_video_id": "30988791",
           "permanent": false,
           "attempted_at": "2026-11-22T02:25:30.839048+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716304",
+          "target_video_id": "30988791",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:11:31.283065+00:00"
         }
       ],
       "last_plan": {
@@ -199439,11 +199445,22 @@
       "last_plan": {
         "source_id": "21817964",
         "display_name": "Blue Miracle 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:11:25.636916+00:00"
+        "planned_at": "2026-11-22T04:11:29.246321+00:00"
+      },
+      "claim": {
+        "worker_id": "475b3792662747e4b4593b4aa58d033f-shard-0",
+        "claimed_at": "2026-11-22T04:11:30.535527+00:00",
+        "lease_expires_at": "2026-11-22T10:11:30.535527+00:00",
+        "run_id": "44961318741"
       }
     },
     "34761": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32952447",
+        "display_name": "Love, Bubbles & Crystal Cove 1080p CZ Dabing",
+        "planned_at": "2026-11-22T04:11:29.461357+00:00"
+      }
     },
     "16027": {
       "attempts": []
@@ -242281,5 +242298,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:11:25.636937+00:00"
+  "updated_at": "2026-11-22T04:11:31.283085+00:00"
 }
