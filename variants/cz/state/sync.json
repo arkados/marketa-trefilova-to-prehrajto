@@ -127102,13 +127102,6 @@
           "source_id": "34698812",
           "target_video_id": "30986288",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:52:00.737216+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34698812",
-          "target_video_id": "30986288",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:37:15.367809+00:00"
         },
         {
@@ -127117,6 +127110,13 @@
           "target_video_id": "30986288",
           "permanent": false,
           "attempted_at": "2026-11-22T05:11:59.413612+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34698812",
+          "target_video_id": "30986288",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:53:56.609958+00:00"
         }
       ],
       "last_plan": {
@@ -127130,12 +127130,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T23:53:34.306215+00:00",
         "relay_source_id": "34698812"
-      },
-      "claim": {
-        "worker_id": "cbadfc727feb47b5a28620c98a8dcd31-shard-0",
-        "claimed_at": "2026-11-22T06:53:53.267250+00:00",
-        "lease_expires_at": "2026-11-22T12:53:53.267250+00:00",
-        "run_id": "44961318741"
       }
     },
     "24288": {
@@ -130587,6 +130581,12 @@
         "size_bytes": 2500000000,
         "prepared_at": "2026-11-11T02:38:17.835924+00:00",
         "relay_source_id": "31267316"
+      },
+      "claim": {
+        "worker_id": "385a251619964adb93f16a9fe7bddac7-shard-0",
+        "claimed_at": "2026-11-22T06:53:56.823247+00:00",
+        "lease_expires_at": "2026-11-22T12:53:56.823247+00:00",
+        "run_id": "44961318741"
       }
     },
     "11467": {
@@ -131553,7 +131553,7 @@
       "last_plan": {
         "source_id": "32614966",
         "display_name": "Under the Grey Sky (Pod szarym niebem) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:12:03.235751+00:00"
+        "planned_at": "2026-11-22T06:53:57.093173+00:00"
       },
       "previous_target_id": "30986990",
       "prepared": {
@@ -200467,7 +200467,7 @@
       "last_plan": {
         "source_id": "33393819",
         "display_name": "Monster High: Ghouls Rule 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:53:53.907487+00:00"
+        "planned_at": "2026-11-22T06:53:57.442995+00:00"
       }
     },
     "22281": {
@@ -243120,5 +243120,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:53:53.907507+00:00"
+  "updated_at": "2026-11-22T06:53:57.443016+00:00"
 }
