@@ -112851,13 +112851,6 @@
           "source_id": "27516263",
           "target_video_id": "30983931",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:35:12.374329+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27516263",
-          "target_video_id": "30983931",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:19:54.357991+00:00"
         },
         {
@@ -112866,6 +112859,13 @@
           "target_video_id": "30983931",
           "permanent": false,
           "attempted_at": "2026-11-22T14:02:35.816425+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27516263",
+          "target_video_id": "30983931",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:24:40.743690+00:00"
         }
       ],
       "last_plan": {
@@ -112879,12 +112879,6 @@
         "size_bytes": 4200000000,
         "prepared_at": "2026-11-10T15:05:02.440102+00:00",
         "relay_source_id": "27516263"
-      },
-      "claim": {
-        "worker_id": "4f3276696f29428d9864ffc068f6954e-shard-0",
-        "claimed_at": "2026-11-22T20:24:36.966624+00:00",
-        "lease_expires_at": "2026-11-23T02:24:36.966624+00:00",
-        "run_id": "45063988883"
       }
     },
     "17320": {
@@ -139087,7 +139081,7 @@
       "last_plan": {
         "source_id": "35211860",
         "display_name": "The Little King Macius (Little King Macius) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:02:38.076831+00:00"
+        "planned_at": "2026-11-22T20:24:40.397887+00:00"
       },
       "previous_target_id": "30987913",
       "prepared": {
@@ -204345,11 +204339,16 @@
       "last_plan": {
         "source_id": "29786884",
         "display_name": "The Magnificent Sinner (Katia) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:24:34.160886+00:00"
+        "planned_at": "2026-11-22T20:24:41.138356+00:00"
       }
     },
     "24826": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "21687693",
+        "display_name": "Savage Messiah SD CZ Dabing",
+        "planned_at": "2026-11-22T20:24:41.385589+00:00"
+      }
     },
     "25498": {
       "attempts": []
@@ -246290,5 +246289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:24:36.966649+00:00"
+  "updated_at": "2026-11-22T20:24:41.385604+00:00"
 }
