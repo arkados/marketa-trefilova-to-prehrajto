@@ -125604,7 +125604,7 @@
       "last_plan": {
         "source_id": "34788112",
         "display_name": "There Was a Crooked Man... SD CZ Dabing",
-        "planned_at": "2026-11-22T07:46:25.755997+00:00"
+        "planned_at": "2026-11-22T09:25:33.867486+00:00"
       },
       "previous_target_id": "30985851",
       "prepared": {
@@ -125612,6 +125612,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-10T22:11:21.871926+00:00",
         "relay_source_id": "34788112"
+      },
+      "claim": {
+        "worker_id": "c0d822e029284846b9f4765a63879608-shard-0",
+        "claimed_at": "2026-11-22T09:25:35.220195+00:00",
+        "lease_expires_at": "2026-11-22T15:25:35.220195+00:00",
+        "run_id": "44995678765"
       }
     },
     "11015": {
@@ -141495,13 +141501,6 @@
           "source_id": "34693961",
           "target_video_id": "30988228",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:26:19.301211+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34693961",
-          "target_video_id": "30988228",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:03:31.377689+00:00"
         },
         {
@@ -141510,6 +141509,13 @@
           "target_video_id": "30988228",
           "permanent": false,
           "attempted_at": "2026-11-22T07:46:25.083082+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34693961",
+          "target_video_id": "30988228",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:25:35.717357+00:00"
         }
       ],
       "last_plan": {
@@ -201262,7 +201268,13 @@
       "last_plan": {
         "source_id": "11135275",
         "display_name": "Meet My Valentine SD CZ Dabing",
-        "planned_at": "2026-11-22T09:25:30.692872+00:00"
+        "planned_at": "2026-11-22T09:25:34.235740+00:00"
+      },
+      "claim": {
+        "worker_id": "ea1000e3af66445495cd5a0ff6827c66-shard-0",
+        "claimed_at": "2026-11-22T09:25:35.496730+00:00",
+        "lease_expires_at": "2026-11-22T15:25:35.496730+00:00",
+        "run_id": "44995678765"
       }
     },
     "35748": {
@@ -201272,7 +201284,12 @@
       "attempts": []
     },
     "9685": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "12119955",
+        "display_name": "The Swan Princess: Kingdom of Music 1080p CZ Dabing",
+        "planned_at": "2026-11-22T09:25:34.503557+00:00"
+      }
     },
     "27933": {
       "attempts": []
@@ -243798,5 +243815,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:25:30.692891+00:00"
+  "updated_at": "2026-11-22T09:25:35.717381+00:00"
 }
