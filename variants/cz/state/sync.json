@@ -123377,6 +123377,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T20:10:28.853005+00:00",
         "relay_source_id": "35438981"
+      },
+      "claim": {
+        "worker_id": "19ad2a0cf8954172846bfe5d0c8c9409-shard-0",
+        "claimed_at": "2026-11-22T01:43:18.746042+00:00",
+        "lease_expires_at": "2026-11-22T07:43:18.746042+00:00",
+        "run_id": "44959851294"
       }
     },
     "35384": {
@@ -126180,13 +126186,6 @@
           "source_id": "34905544",
           "target_video_id": "30985955",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:26:29.075128+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34905544",
-          "target_video_id": "30985955",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:02:45.101452+00:00"
         },
         {
@@ -126195,6 +126194,13 @@
           "target_video_id": "30985955",
           "permanent": false,
           "attempted_at": "2026-11-22T00:10:15.259896+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34905544",
+          "target_video_id": "30985955",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:43:19.882890+00:00"
         }
       ],
       "last_plan": {
@@ -126208,12 +126214,6 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-10T22:46:41.743538+00:00",
         "relay_source_id": "34905544"
-      },
-      "claim": {
-        "worker_id": "3f9a9cffa4de42cd80e7507d9f4e50d8-shard-0",
-        "claimed_at": "2026-11-22T01:43:15.483881+00:00",
-        "lease_expires_at": "2026-11-22T07:43:15.483881+00:00",
-        "run_id": "44959851294"
       }
     },
     "27240": {
@@ -126252,7 +126252,7 @@
       "last_plan": {
         "source_id": "34700408",
         "display_name": "Firecreek 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:10:18.998450+00:00"
+        "planned_at": "2026-11-22T01:43:19.130167+00:00"
       },
       "previous_target_id": "30986040",
       "prepared": {
@@ -198544,7 +198544,7 @@
       "last_plan": {
         "source_id": "34676573",
         "display_name": "The Fountain for Zuzana 2 (Fontána pre Zuzanu 2) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:43:16.153070+00:00"
+        "planned_at": "2026-11-22T01:43:19.508157+00:00"
       }
     },
     "21757": {
@@ -241521,5 +241521,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:43:16.153092+00:00"
+  "updated_at": "2026-11-22T01:43:19.882917+00:00"
 }
