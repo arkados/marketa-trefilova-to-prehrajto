@@ -130590,13 +130590,6 @@
           "source_id": "27361344",
           "target_video_id": "30986908",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:39:57.498519+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27361344",
-          "target_video_id": "30986908",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:11:50.889810+00:00"
         },
         {
@@ -130605,6 +130598,13 @@
           "target_video_id": "30986908",
           "permanent": false,
           "attempted_at": "2026-11-22T00:19:39.681527+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27361344",
+          "target_video_id": "30986908",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:52:51.506195+00:00"
         }
       ],
       "last_plan": {
@@ -140362,7 +140362,7 @@
       "last_plan": {
         "source_id": "34864473",
         "display_name": "Corpus Delicti 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:19:38.939890+00:00"
+        "planned_at": "2026-11-22T01:52:49.921855+00:00"
       },
       "previous_target_id": "30988077",
       "prepared": {
@@ -140370,6 +140370,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-11T07:27:44.810508+00:00",
         "relay_source_id": "34864473"
+      },
+      "claim": {
+        "worker_id": "0af654e023284cf5bdf6735fa1bf80c4-shard-0",
+        "claimed_at": "2026-11-22T01:52:51.122955+00:00",
+        "lease_expires_at": "2026-11-22T07:52:51.122955+00:00",
+        "run_id": "44959851294"
       }
     },
     "24211": {
@@ -198638,7 +198644,7 @@
       "last_plan": {
         "source_id": "34687340",
         "display_name": "Sons of Ramses (Goutte d’Or) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:52:46.772774+00:00"
+        "planned_at": "2026-11-22T01:52:50.349091+00:00"
       }
     },
     "3732": {
@@ -241597,5 +241603,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:52:47.083754+00:00"
+  "updated_at": "2026-11-22T01:52:51.506215+00:00"
 }
