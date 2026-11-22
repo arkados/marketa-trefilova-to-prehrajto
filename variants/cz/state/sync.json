@@ -198985,17 +198985,19 @@
       "attempts": []
     },
     "18642": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31069738",
+          "target_video_id": "31242053",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:50:49.202231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31069738",
         "display_name": "Bardejov 1080p CZ Dabing",
         "planned_at": "2026-11-22T02:45:36.054235+00:00"
-      },
-      "claim": {
-        "worker_id": "c4d4cfabb3574e5fb17cb0c7284039de-shard-0",
-        "claimed_at": "2026-11-22T02:45:40.416886+00:00",
-        "lease_expires_at": "2026-11-22T08:45:40.416886+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31242053",
       "prepared": {
@@ -241939,5 +241941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:50:47.162129+00:00"
+  "updated_at": "2026-11-22T02:50:49.202254+00:00"
 }
