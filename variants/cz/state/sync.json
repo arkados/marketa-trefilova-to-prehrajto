@@ -198417,17 +198417,19 @@
       "attempts": []
     },
     "23794": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29299676",
+          "target_video_id": "31240732",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:30:22.252168+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29299676",
         "display_name": "The Call of the Wild: Dog of the Yukon 1080p CZ Dabing",
         "planned_at": "2026-11-22T01:27:51.549409+00:00"
-      },
-      "claim": {
-        "worker_id": "f2e14cba71204f0989501975cba222d6-shard-0",
-        "claimed_at": "2026-11-22T01:27:54.425910+00:00",
-        "lease_expires_at": "2026-11-22T07:27:54.425910+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31240732",
       "prepared": {
@@ -241434,5 +241436,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:30:20.124282+00:00"
+  "updated_at": "2026-11-22T01:30:22.252190+00:00"
 }
