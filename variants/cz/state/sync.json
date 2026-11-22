@@ -199852,17 +199852,19 @@
       "attempts": []
     },
     "3631": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28850802",
+          "target_video_id": "31244634",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:34:18.698991+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28850802",
         "display_name": "Turtles All the Way Down 4K CZ Dabing",
         "planned_at": "2026-11-22T05:10:16.315828+00:00"
-      },
-      "claim": {
-        "worker_id": "f03013c8aecf4a8987723cf5d92ef1f7-shard-0",
-        "claimed_at": "2026-11-22T05:10:19.644028+00:00",
-        "lease_expires_at": "2026-11-22T11:10:19.644028+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31244634",
       "prepared": {
@@ -242644,5 +242646,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:34:14.445830+00:00"
+  "updated_at": "2026-11-22T05:34:18.699006+00:00"
 }
