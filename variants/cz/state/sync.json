@@ -200483,17 +200483,19 @@
       "attempts": []
     },
     "4556": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21803107",
+          "target_video_id": "31246331",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:04:03.005301+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21803107",
         "display_name": "The Replacement (El sustituto) 1080p CZ Dabing",
         "planned_at": "2026-11-22T06:58:56.302280+00:00"
-      },
-      "claim": {
-        "worker_id": "e8d0091da84c4d6b8d8e5329620dd5e0-shard-0",
-        "claimed_at": "2026-11-22T06:58:57.392487+00:00",
-        "lease_expires_at": "2026-11-22T12:58:57.392487+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31246331",
       "prepared": {
@@ -243190,5 +243192,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:04:00.723008+00:00"
+  "updated_at": "2026-11-22T07:04:03.005321+00:00"
 }
