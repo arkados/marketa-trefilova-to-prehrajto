@@ -131240,13 +131240,6 @@
           "source_id": "32958300",
           "target_video_id": "30986964",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:24:20.555613+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32958300",
-          "target_video_id": "30986964",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:56:43.709923+00:00"
         },
         {
@@ -131255,6 +131248,13 @@
           "target_video_id": "30986964",
           "permanent": false,
           "attempted_at": "2026-11-22T04:42:51.132693+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32958300",
+          "target_video_id": "30986964",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:23:27.814483+00:00"
         }
       ],
       "last_plan": {
@@ -165972,7 +165972,7 @@
       "last_plan": {
         "source_id": "31000919",
         "display_name": "SPL II (SPL 2: A Time for Consequences) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:42:50.835346+00:00"
+        "planned_at": "2026-11-22T06:23:26.075159+00:00"
       },
       "previous_target_id": "31108013",
       "prepared": {
@@ -165980,6 +165980,12 @@
         "size_bytes": 4700000000,
         "prepared_at": "2026-11-17T04:21:29.782716+00:00",
         "relay_source_id": "31000919"
+      },
+      "claim": {
+        "worker_id": "a7ed084e5eb14411b1f5419d450e21d4-shard-0",
+        "claimed_at": "2026-11-22T06:23:27.491250+00:00",
+        "lease_expires_at": "2026-11-22T12:23:27.491250+00:00",
+        "run_id": "44961318741"
       }
     },
     "3573": {
@@ -200259,7 +200265,7 @@
       "last_plan": {
         "source_id": "34691742",
         "display_name": "Headwinds (Des vents contraires) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:23:22.829229+00:00"
+        "planned_at": "2026-11-22T06:23:26.555494+00:00"
       }
     },
     "16985": {
@@ -242948,5 +242954,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:23:23.117995+00:00"
+  "updated_at": "2026-11-22T06:23:27.814504+00:00"
 }
