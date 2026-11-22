@@ -136968,6 +136968,12 @@
         "size_bytes": 950300000,
         "prepared_at": "2026-11-11T05:50:38.507752+00:00",
         "relay_source_id": "34788921"
+      },
+      "claim": {
+        "worker_id": "22eac7444fd74df6afb6e5cf2fbbe252-shard-0",
+        "claimed_at": "2026-11-22T00:34:01.792171+00:00",
+        "lease_expires_at": "2026-11-22T06:34:01.792171+00:00",
+        "run_id": "44959851294"
       }
     },
     "32842": {
@@ -197807,17 +197813,19 @@
       "attempts": []
     },
     "12605": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32145778",
+          "target_video_id": "31239775",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:34:02.034222+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32145778",
         "display_name": "La situation est grave… mais pas désespérée 1080p CZ Dabing",
         "planned_at": "2026-11-22T00:25:55.005592+00:00"
-      },
-      "claim": {
-        "worker_id": "dd706c336c51441893c506239da393c5-shard-0",
-        "claimed_at": "2026-11-22T00:25:58.243510+00:00",
-        "lease_expires_at": "2026-11-22T06:25:58.243510+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239775",
       "prepared": {
@@ -240956,5 +240964,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:33:59.117134+00:00"
+  "updated_at": "2026-11-22T00:34:02.034248+00:00"
 }
