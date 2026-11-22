@@ -124195,13 +124195,6 @@
           "source_id": "33873702",
           "target_video_id": "30985656",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:53:35.978787+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33873702",
-          "target_video_id": "30985656",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:35:55.488459+00:00"
         },
         {
@@ -124210,6 +124203,13 @@
           "target_video_id": "30985656",
           "permanent": false,
           "attempted_at": "2026-11-22T13:15:39.844222+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33873702",
+          "target_video_id": "30985656",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:59:48.422089+00:00"
         }
       ],
       "last_plan": {
@@ -172452,7 +172452,7 @@
       "last_plan": {
         "source_id": "34749651",
         "display_name": "The Entity 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:15:40.550245+00:00"
+        "planned_at": "2026-11-22T14:59:46.668721+00:00"
       },
       "previous_target_id": "31136100",
       "prepared": {
@@ -172460,6 +172460,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-18T01:32:50.015518+00:00",
         "relay_source_id": "34749651"
+      },
+      "claim": {
+        "worker_id": "edec0bfdcd3d4eb39ed5e159475c1ed7-shard-0",
+        "claimed_at": "2026-11-22T14:59:48.068670+00:00",
+        "lease_expires_at": "2026-11-22T20:59:48.068670+00:00",
+        "run_id": "45016772727"
       }
     },
     "33097": {
@@ -203851,6 +203857,12 @@
         "source_id": "25980697",
         "display_name": "AKA 1080p CZ Dabing",
         "planned_at": "2026-11-22T14:59:42.909604+00:00"
+      },
+      "claim": {
+        "worker_id": "483055deddd34396b88534183b788d30-shard-0",
+        "claimed_at": "2026-11-22T14:59:46.365490+00:00",
+        "lease_expires_at": "2026-11-22T20:59:46.365490+00:00",
+        "run_id": "45016772727"
       }
     },
     "14870": {
@@ -203858,7 +203870,7 @@
       "last_plan": {
         "source_id": "34818641",
         "display_name": "Blackout Love SD CZ Dabing",
-        "planned_at": "2026-11-22T14:59:43.456775+00:00"
+        "planned_at": "2026-11-22T14:59:47.138860+00:00"
       }
     },
     "3750": {
@@ -245887,5 +245899,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:59:43.456793+00:00"
+  "updated_at": "2026-11-22T14:59:48.422106+00:00"
 }
