@@ -111534,13 +111534,6 @@
           "source_id": "34470304",
           "target_video_id": "30983801",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:39:10.103514+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34470304",
-          "target_video_id": "30983801",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:18:49.796884+00:00"
         },
         {
@@ -111549,6 +111542,13 @@
           "target_video_id": "30983801",
           "permanent": false,
           "attempted_at": "2026-11-22T13:03:35.759459+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34470304",
+          "target_video_id": "30983801",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:45:05.639597+00:00"
         }
       ],
       "last_plan": {
@@ -111597,7 +111597,7 @@
       "last_plan": {
         "source_id": "34710916",
         "display_name": "The Great Nothing 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:03:35.369556+00:00"
+        "planned_at": "2026-11-22T14:45:03.946369+00:00"
       },
       "previous_target_id": "30983802",
       "prepared": {
@@ -111605,6 +111605,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T14:50:04.632161+00:00",
         "relay_source_id": "34710916"
+      },
+      "claim": {
+        "worker_id": "d9df87a8132f46ae90b26c0feddab16b-shard-0",
+        "claimed_at": "2026-11-22T14:45:05.292485+00:00",
+        "lease_expires_at": "2026-11-22T20:45:05.292485+00:00",
+        "run_id": "45016772727"
       }
     },
     "21346": {
@@ -203741,7 +203747,7 @@
       "last_plan": {
         "source_id": "30581062",
         "display_name": "Police SD CZ Dabing",
-        "planned_at": "2026-11-22T14:45:00.481142+00:00"
+        "planned_at": "2026-11-22T14:45:04.437026+00:00"
       }
     },
     "26025": {
@@ -245788,5 +245794,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:45:00.844590+00:00"
+  "updated_at": "2026-11-22T14:45:05.639616+00:00"
 }
