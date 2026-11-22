@@ -113163,6 +113163,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T15:11:34.285471+00:00",
         "relay_source_id": "35068482"
+      },
+      "claim": {
+        "worker_id": "b5e20374b4124f75b50cfb97cf615661-shard-0",
+        "claimed_at": "2026-11-22T14:30:04.514530+00:00",
+        "lease_expires_at": "2026-11-22T20:30:04.514530+00:00",
+        "run_id": "45016772727"
       }
     },
     "24730": {
@@ -127348,13 +127354,6 @@
           "source_id": "30853709",
           "target_video_id": "30986389",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:25:10.291643+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30853709",
-          "target_video_id": "30986389",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:01:56.757974+00:00"
         },
         {
@@ -127363,6 +127362,13 @@
           "target_video_id": "30986389",
           "permanent": false,
           "attempted_at": "2026-11-22T12:46:07.938083+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30853709",
+          "target_video_id": "30986389",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:30:05.112249+00:00"
         }
       ],
       "last_plan": {
@@ -127376,12 +127382,6 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-11T00:16:03.909965+00:00",
         "relay_source_id": "30853709"
-      },
-      "claim": {
-        "worker_id": "b770588f8ffb41c78b403cdccdebfed2-shard-0",
-        "claimed_at": "2026-11-22T14:30:00.960722+00:00",
-        "lease_expires_at": "2026-11-22T20:30:00.960722+00:00",
-        "run_id": "45016772727"
       }
     },
     "17039": {
@@ -143325,7 +143325,7 @@
       "last_plan": {
         "source_id": "34850592",
         "display_name": "Like Never Before (Jako nikdy) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:46:10.195976+00:00"
+        "planned_at": "2026-11-22T14:30:04.805065+00:00"
       },
       "previous_target_id": "30988612",
       "prepared": {
@@ -203619,7 +203619,7 @@
       "last_plan": {
         "source_id": "33664516",
         "display_name": "The Neon Highway 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:30:01.660495+00:00"
+        "planned_at": "2026-11-22T14:30:05.569343+00:00"
       }
     },
     "14305": {
@@ -245690,5 +245690,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:30:01.660509+00:00"
+  "updated_at": "2026-11-22T14:30:05.569361+00:00"
 }
