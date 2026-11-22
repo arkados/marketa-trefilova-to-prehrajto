@@ -139338,13 +139338,6 @@
           "source_id": "34856824",
           "target_video_id": "30987939",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:54:13.453643+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34856824",
-          "target_video_id": "30987939",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:38:47.885874+00:00"
         },
         {
@@ -139353,12 +139346,19 @@
           "target_video_id": "30987939",
           "permanent": false,
           "attempted_at": "2026-11-22T14:19:53.080590+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34856824",
+          "target_video_id": "30987939",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:44:13.075211+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34856824",
         "display_name": "Long Live the Family! (Rodina je základ státu) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:19:45.891376+00:00"
+        "planned_at": "2026-11-22T20:44:10.333294+00:00"
       },
       "previous_target_id": "30987939",
       "prepared": {
@@ -203666,6 +203666,12 @@
         "size_bytes": 2035979524,
         "prepared_at": "2026-11-22T14:17:16.811096+00:00",
         "relay_source_id": "13433688"
+      },
+      "claim": {
+        "worker_id": "9b0c68077c61446999d6d78353a5f54c-shard-0",
+        "claimed_at": "2026-11-22T20:44:10.044422+00:00",
+        "lease_expires_at": "2026-11-23T02:44:10.044422+00:00",
+        "run_id": "45063988883"
       }
     },
     "4791": {
@@ -204433,7 +204439,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:44:07.515937+00:00"
+        "planned_at": "2026-11-22T20:44:10.975389+00:00"
       }
     },
     "3710": {
@@ -246366,5 +246372,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:44:07.515954+00:00"
+  "updated_at": "2026-11-22T20:44:13.075229+00:00"
 }
