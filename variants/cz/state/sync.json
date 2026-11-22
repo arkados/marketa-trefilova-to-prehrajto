@@ -109338,13 +109338,6 @@
           "source_id": "33810503",
           "target_video_id": "30983627",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:28:41.992192+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33810503",
-          "target_video_id": "30983627",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:05:28.802070+00:00"
         },
         {
@@ -109353,6 +109346,13 @@
           "target_video_id": "30983627",
           "permanent": false,
           "attempted_at": "2026-11-22T11:47:50.718294+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33810503",
+          "target_video_id": "30983627",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:32:06.009632+00:00"
         }
       ],
       "last_plan": {
@@ -134833,7 +134833,7 @@
       "last_plan": {
         "source_id": "32363401",
         "display_name": "I'll Be Good, Old Man! („Já už budu hodný, dědečku!“) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T11:47:48.941281+00:00"
+        "planned_at": "2026-11-22T13:32:04.038860+00:00"
       },
       "previous_target_id": "30987499",
       "prepared": {
@@ -134841,6 +134841,12 @@
         "size_bytes": 3800000000,
         "prepared_at": "2026-11-11T04:59:44.589461+00:00",
         "relay_source_id": "32363401"
+      },
+      "claim": {
+        "worker_id": "579f71aee60f44e9b782dc4382dccf50-shard-0",
+        "claimed_at": "2026-11-22T13:32:05.625167+00:00",
+        "lease_expires_at": "2026-11-22T19:32:05.625167+00:00",
+        "run_id": "45016772727"
       }
     },
     "31818": {
@@ -203150,7 +203156,7 @@
       "last_plan": {
         "source_id": "19138705",
         "display_name": "The Greatest Story Ever Told SD CZ Dabing",
-        "planned_at": "2026-11-22T13:32:00.206081+00:00"
+        "planned_at": "2026-11-22T13:32:04.806744+00:00"
       }
     },
     "21548": {
@@ -245326,5 +245332,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:32:00.206097+00:00"
+  "updated_at": "2026-11-22T13:32:06.009650+00:00"
 }
