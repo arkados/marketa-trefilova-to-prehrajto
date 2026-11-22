@@ -200339,17 +200339,19 @@
       }
     },
     "14905": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29955764",
+          "target_video_id": "31245924",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:38:10.970614+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29955764",
         "display_name": "Remote Danger (Secrets in the Wilderness) 1080p CZ Dabing",
         "planned_at": "2026-11-22T06:34:01.292821+00:00"
-      },
-      "claim": {
-        "worker_id": "78849852ea814f359deeeb170a140d17-shard-0",
-        "claimed_at": "2026-11-22T06:34:02.329280+00:00",
-        "lease_expires_at": "2026-11-22T12:34:02.329280+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31245924",
       "prepared": {
@@ -243038,5 +243040,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:38:08.715057+00:00"
+  "updated_at": "2026-11-22T06:38:10.970631+00:00"
 }
