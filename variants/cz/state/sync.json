@@ -200519,17 +200519,19 @@
       "attempts": []
     },
     "11973": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34675004",
+          "target_video_id": "31246332",
+          "permanent": false,
+          "attempted_at": "2026-11-22T07:02:33.265480+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34675004",
         "display_name": "La note bleue 1080p CZ Dabing",
         "planned_at": "2026-11-22T06:58:56.532488+00:00"
-      },
-      "claim": {
-        "worker_id": "1cfc9a6f96a7404e8f5bf46a1e281784-shard-0",
-        "claimed_at": "2026-11-22T06:58:57.642921+00:00",
-        "lease_expires_at": "2026-11-22T12:58:57.642921+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31246332",
       "prepared": {
@@ -243170,5 +243172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:02:31.086284+00:00"
+  "updated_at": "2026-11-22T07:02:33.265502+00:00"
 }
