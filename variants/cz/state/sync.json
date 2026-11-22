@@ -119099,7 +119099,7 @@
       "last_plan": {
         "source_id": "26076948",
         "display_name": "Joe 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:19:30.818324+00:00"
+        "planned_at": "2026-11-22T23:01:57.341026+00:00"
       },
       "previous_target_id": "30984883",
       "prepared": {
@@ -119107,6 +119107,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-10T18:02:31.460552+00:00",
         "relay_source_id": "26076948"
+      },
+      "claim": {
+        "worker_id": "c130388fb61a43ef80303fcba76e6fc2-shard-0",
+        "claimed_at": "2026-11-22T23:01:58.573848+00:00",
+        "lease_expires_at": "2026-11-23T05:01:58.573848+00:00",
+        "run_id": "45063988883"
       }
     },
     "26164": {
@@ -201091,13 +201097,6 @@
           "source_id": "34083908",
           "target_video_id": "31247461",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:13:15.095994+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34083908",
-          "target_video_id": "31247461",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:57:21.683115+00:00"
         },
         {
@@ -201106,6 +201105,13 @@
           "target_video_id": "31247461",
           "permanent": false,
           "attempted_at": "2026-11-22T21:19:31.553891+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34083908",
+          "target_video_id": "31247461",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:01:59.779528+00:00"
         }
       ],
       "last_plan": {
@@ -201119,12 +201125,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-22T08:07:12.866225+00:00",
         "relay_source_id": "34083908"
-      },
-      "claim": {
-        "worker_id": "22009781cfba4a798eaee9ab723f5169-shard-0",
-        "claimed_at": "2026-11-22T23:01:53.707900+00:00",
-        "lease_expires_at": "2026-11-23T05:01:53.707900+00:00",
-        "run_id": "45063988883"
       }
     },
     "22630": {
@@ -205614,7 +205614,7 @@
       "last_plan": {
         "source_id": "26569147",
         "display_name": "The Realtor (Ruthless Realtor) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:01:52.848472+00:00"
+        "planned_at": "2026-11-22T23:01:57.816874+00:00"
       }
     },
     "3587": {
@@ -247325,5 +247325,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:01:54.945097+00:00"
+  "updated_at": "2026-11-22T23:01:59.779546+00:00"
 }
