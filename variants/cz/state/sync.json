@@ -115363,6 +115363,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-10T16:41:21.772544+00:00",
         "relay_source_id": "26253538"
+      },
+      "claim": {
+        "worker_id": "5f183556be8a40a4910025d2b07a31cf-shard-0",
+        "claimed_at": "2026-11-22T22:08:04.750493+00:00",
+        "lease_expires_at": "2026-11-23T04:08:04.750493+00:00",
+        "run_id": "45063988883"
       }
     },
     "17763": {
@@ -117930,7 +117936,7 @@
       "last_plan": {
         "source_id": "33856555",
         "display_name": "Trouble with the Curve 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:23:23.797337+00:00"
+        "planned_at": "2026-11-22T22:08:05.088010+00:00"
       },
       "previous_target_id": "30984811",
       "prepared": {
@@ -205104,17 +205110,19 @@
       }
     },
     "18736": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34697660",
+          "target_video_id": "31262266",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:08:05.866026+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34697660",
         "display_name": "Oddball 1080p CZ Dabing",
         "planned_at": "2026-11-22T22:05:51.037482+00:00"
-      },
-      "claim": {
-        "worker_id": "4e9d6de77a5042719fe2ceb5595a4daf-shard-0",
-        "claimed_at": "2026-11-22T22:05:55.524419+00:00",
-        "lease_expires_at": "2026-11-23T04:05:55.524419+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31262266",
       "prepared": {
@@ -205129,7 +205137,7 @@
       "last_plan": {
         "source_id": "22365901",
         "display_name": "When the Game Stands Tall SD CZ Dabing",
-        "planned_at": "2026-11-22T22:08:02.269936+00:00"
+        "planned_at": "2026-11-22T22:08:05.504795+00:00"
       }
     },
     "31797": {
@@ -246942,5 +246950,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:08:02.269955+00:00"
+  "updated_at": "2026-11-22T22:08:05.866048+00:00"
 }
