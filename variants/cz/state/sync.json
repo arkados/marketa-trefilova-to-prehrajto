@@ -205139,17 +205139,19 @@
       }
     },
     "20143": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22365901",
+          "target_video_id": "31262350",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:10:38.223917+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22365901",
         "display_name": "When the Game Stands Tall SD CZ Dabing",
         "planned_at": "2026-11-22T22:08:26.495480+00:00"
-      },
-      "claim": {
-        "worker_id": "5c2cfc3f4c6840118f488f03a761bf55-shard-0",
-        "claimed_at": "2026-11-22T22:08:27.823431+00:00",
-        "lease_expires_at": "2026-11-23T04:08:27.823431+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31262350",
       "prepared": {
@@ -246974,5 +246976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:10:36.025622+00:00"
+  "updated_at": "2026-11-22T22:10:38.223935+00:00"
 }
