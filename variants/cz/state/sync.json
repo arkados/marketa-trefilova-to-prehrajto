@@ -117723,7 +117723,7 @@
       "last_plan": {
         "source_id": "15096224",
         "display_name": "I See You 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:53:48.621872+00:00"
+        "planned_at": "2026-11-22T10:29:24.280600+00:00"
       },
       "previous_target_id": "30984803",
       "prepared": {
@@ -117731,6 +117731,12 @@
         "size_bytes": 8600000000,
         "prepared_at": "2026-11-10T17:41:40.528718+00:00",
         "relay_source_id": "15096224"
+      },
+      "claim": {
+        "worker_id": "a58c799ba3324ac69ce16c370ba0332a-shard-0",
+        "claimed_at": "2026-11-22T10:29:25.817738+00:00",
+        "lease_expires_at": "2026-11-22T16:29:25.817738+00:00",
+        "run_id": "44995678765"
       }
     },
     "26009": {
@@ -201704,17 +201710,19 @@
       }
     },
     "6147": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33810847",
+          "target_video_id": "31249778",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:29:26.855824+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33810847",
         "display_name": "The Watermill Princess (Princezna ze mlejna) 1080p CZ Dabing",
         "planned_at": "2026-11-22T10:23:49.411838+00:00"
-      },
-      "claim": {
-        "worker_id": "590a31aa28904e0da06ab0290d3fcf32-shard-0",
-        "claimed_at": "2026-11-22T10:23:50.633713+00:00",
-        "lease_expires_at": "2026-11-22T16:23:50.633713+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31249778",
       "prepared": {
@@ -201729,7 +201737,7 @@
       "last_plan": {
         "source_id": "29135525",
         "display_name": "Without Apparent Motive 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:29:17.362525+00:00"
+        "planned_at": "2026-11-22T10:29:24.835315+00:00"
       }
     },
     "22946": {
@@ -244151,5 +244159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:29:20.180810+00:00"
+  "updated_at": "2026-11-22T10:29:26.855843+00:00"
 }
