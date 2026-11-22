@@ -143985,13 +143985,6 @@
           "source_id": "34661764",
           "target_video_id": "30988695",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:32:39.995566+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34661764",
-          "target_video_id": "30988695",
-          "permanent": false,
           "attempted_at": "2026-11-21T21:06:06.159624+00:00"
         },
         {
@@ -144000,6 +143993,13 @@
           "target_video_id": "30988695",
           "permanent": false,
           "attempted_at": "2026-11-22T00:13:38.704672+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34661764",
+          "target_video_id": "30988695",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:47:02.855123+00:00"
         }
       ],
       "last_plan": {
@@ -146197,7 +146197,7 @@
       "last_plan": {
         "source_id": "11812226",
         "display_name": "Čas pracuje pro vraha 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:13:38.210266+00:00"
+        "planned_at": "2026-11-22T01:47:00.962153+00:00"
       },
       "previous_target_id": "30993033",
       "prepared": {
@@ -146205,6 +146205,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-11T18:51:32.596945+00:00",
         "relay_source_id": "11812226"
+      },
+      "claim": {
+        "worker_id": "5b8ba41072e54a41a2ebc7dd0adc41f9-shard-0",
+        "claimed_at": "2026-11-22T01:47:02.034458+00:00",
+        "lease_expires_at": "2026-11-22T07:47:02.034458+00:00",
+        "run_id": "44959851294"
       }
     },
     "13050": {
@@ -198571,7 +198577,7 @@
       "last_plan": {
         "source_id": "34720154",
         "display_name": "Yamato 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:46:58.021034+00:00"
+        "planned_at": "2026-11-22T01:47:01.369322+00:00"
       }
     },
     "24707": {
@@ -241539,5 +241545,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:46:58.021054+00:00"
+  "updated_at": "2026-11-22T01:47:02.855144+00:00"
 }
