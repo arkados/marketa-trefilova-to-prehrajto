@@ -200034,17 +200034,19 @@
       "attempts": []
     },
     "26617": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34442840",
+          "target_video_id": "31245303",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:55:58.686206+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34442840",
         "display_name": "The Door (2012) SD CZ Dabing",
         "planned_at": "2026-11-22T05:53:12.841485+00:00"
-      },
-      "claim": {
-        "worker_id": "227f43c6a7bd4a289ee0cd66db9af2d4-shard-0",
-        "claimed_at": "2026-11-22T05:53:14.064114+00:00",
-        "lease_expires_at": "2026-11-22T11:53:14.064114+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31245303",
       "prepared": {
@@ -242808,5 +242810,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:55:56.413105+00:00"
+  "updated_at": "2026-11-22T05:55:58.686228+00:00"
 }
