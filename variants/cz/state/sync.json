@@ -111100,13 +111100,6 @@
           "source_id": "30618439",
           "target_video_id": "30983779",
           "permanent": false,
-          "attempted_at": "2026-11-22T12:57:19.034562+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30618439",
-          "target_video_id": "30983779",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:38:43.187627+00:00"
         },
         {
@@ -111115,12 +111108,19 @@
           "target_video_id": "30983779",
           "permanent": false,
           "attempted_at": "2026-11-22T21:00:31.241116+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30618439",
+          "target_video_id": "30983779",
+          "permanent": false,
+          "attempted_at": "2026-11-22T22:46:08.131553+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30618439",
         "display_name": "Men Don't Age (Muži nestárnou) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:00:27.400291+00:00"
+        "planned_at": "2026-11-22T22:46:05.005474+00:00"
       },
       "previous_target_id": "30983779",
       "prepared": {
@@ -205462,11 +205462,22 @@
       "last_plan": {
         "source_id": "29833852",
         "display_name": "Hijos del viento 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:45:58.449898+00:00"
+        "planned_at": "2026-11-22T22:46:05.468632+00:00"
+      },
+      "claim": {
+        "worker_id": "6458716b1a3c4acb8e346df27f948d48-shard-0",
+        "claimed_at": "2026-11-22T22:46:06.782613+00:00",
+        "lease_expires_at": "2026-11-23T04:46:06.782613+00:00",
+        "run_id": "45063988883"
       }
     },
     "22296": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34493589",
+        "display_name": "From Noon till Three 1080p CZ Dabing",
+        "planned_at": "2026-11-22T22:46:05.754216+00:00"
+      }
     },
     "18073": {
       "attempts": []
@@ -247209,5 +247220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T22:46:02.267378+00:00"
+  "updated_at": "2026-11-22T22:46:08.131571+00:00"
 }
