@@ -132425,13 +132425,6 @@
           "source_id": "25018592",
           "target_video_id": "30987121",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:43:35.214521+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "25018592",
-          "target_video_id": "30987121",
-          "permanent": false,
           "attempted_at": "2026-11-22T13:27:29.761831+00:00"
         },
         {
@@ -132440,6 +132433,13 @@
           "target_video_id": "30987121",
           "permanent": false,
           "attempted_at": "2026-11-22T15:08:54.999304+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "25018592",
+          "target_video_id": "30987121",
+          "permanent": false,
+          "attempted_at": "2026-11-22T21:30:22.864596+00:00"
         }
       ],
       "last_plan": {
@@ -166329,7 +166329,7 @@
       "last_plan": {
         "source_id": "34847633",
         "display_name": "Secret Name (La Place d'une autre) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:08:54.154918+00:00"
+        "planned_at": "2026-11-22T21:30:20.389181+00:00"
       },
       "previous_target_id": "31110339",
       "prepared": {
@@ -166337,6 +166337,12 @@
         "size_bytes": 7300000000,
         "prepared_at": "2026-11-17T05:58:14.226533+00:00",
         "relay_source_id": "34847633"
+      },
+      "claim": {
+        "worker_id": "791104744ff649d29538e66666c322cc-shard-0",
+        "claimed_at": "2026-11-22T21:30:21.693286+00:00",
+        "lease_expires_at": "2026-11-23T03:30:21.693286+00:00",
+        "run_id": "45063988883"
       }
     },
     "10752": {
@@ -204787,7 +204793,7 @@
       "last_plan": {
         "source_id": "34418685",
         "display_name": "The Pirate Fairy (Tinker Bell and the Pirate Fairy) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:30:17.410688+00:00"
+        "planned_at": "2026-11-22T21:30:20.871030+00:00"
       }
     },
     "22207": {
@@ -246669,5 +246675,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:30:17.410706+00:00"
+  "updated_at": "2026-11-22T21:30:22.864614+00:00"
 }
