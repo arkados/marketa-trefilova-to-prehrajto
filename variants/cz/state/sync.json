@@ -197763,17 +197763,19 @@
       "attempts": []
     },
     "10333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32761903",
+          "target_video_id": "31239704",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:24:31.967956+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32761903",
         "display_name": "Perinbaba: Two Realms (Perinbaba a dva svety) 1080p CZ Dabing",
         "planned_at": "2026-11-22T00:21:41.124834+00:00"
-      },
-      "claim": {
-        "worker_id": "d3b085e7a6754448a977366590d0f641-shard-0",
-        "claimed_at": "2026-11-22T00:21:44.353359+00:00",
-        "lease_expires_at": "2026-11-22T06:21:44.353359+00:00",
-        "run_id": "44959851294"
       },
       "previous_target_id": "31239704",
       "prepared": {
@@ -240918,5 +240920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:24:29.687265+00:00"
+  "updated_at": "2026-11-22T00:24:31.967982+00:00"
 }
