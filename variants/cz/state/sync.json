@@ -108134,13 +108134,6 @@
           "source_id": "35084607",
           "target_video_id": "30983475",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:34:21.731355+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35084607",
-          "target_video_id": "30983475",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:10:48.238600+00:00"
         },
         {
@@ -108149,6 +108142,13 @@
           "target_video_id": "30983475",
           "permanent": false,
           "attempted_at": "2026-11-22T10:47:07.324591+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35084607",
+          "target_video_id": "30983475",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:34:34.290747+00:00"
         }
       ],
       "last_plan": {
@@ -124575,7 +124575,7 @@
       "last_plan": {
         "source_id": "34503356",
         "display_name": "The Hot Rock 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:47:05.658932+00:00"
+        "planned_at": "2026-11-22T12:34:32.728997+00:00"
       },
       "previous_target_id": "30985739",
       "prepared": {
@@ -124583,6 +124583,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T21:34:47.747240+00:00",
         "relay_source_id": "34503356"
+      },
+      "claim": {
+        "worker_id": "90501f0a921141e4937ed53651551395-shard-0",
+        "claimed_at": "2026-11-22T12:34:33.986154+00:00",
+        "lease_expires_at": "2026-11-22T18:34:33.986154+00:00",
+        "run_id": "45016772727"
       }
     },
     "11306": {
@@ -202644,7 +202650,7 @@
       "last_plan": {
         "source_id": "29393755",
         "display_name": "The Upper Hand 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:34:29.644853+00:00"
+        "planned_at": "2026-11-22T12:34:33.141512+00:00"
       }
     },
     "9345": {
@@ -244898,5 +244904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:34:29.644869+00:00"
+  "updated_at": "2026-11-22T12:34:34.290762+00:00"
 }
