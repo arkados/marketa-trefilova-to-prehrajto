@@ -139951,13 +139951,6 @@
           "source_id": "15665884",
           "target_video_id": "30988003",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:56:36.378042+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "15665884",
-          "target_video_id": "30988003",
-          "permanent": false,
           "attempted_at": "2026-11-22T01:29:51.283807+00:00"
         },
         {
@@ -139966,6 +139959,13 @@
           "target_video_id": "30988003",
           "permanent": false,
           "attempted_at": "2026-11-22T03:01:39.200249+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "15665884",
+          "target_video_id": "30988003",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:51:13.769485+00:00"
         }
       ],
       "last_plan": {
@@ -155209,7 +155209,7 @@
       "last_plan": {
         "source_id": "31963280",
         "display_name": "Terezín (Le Terme di Terezín) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T03:01:37.665409+00:00"
+        "planned_at": "2026-11-22T04:51:11.806022+00:00"
       },
       "previous_target_id": "31052044",
       "prepared": {
@@ -155217,6 +155217,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-15T07:16:11.092952+00:00",
         "relay_source_id": "31963280"
+      },
+      "claim": {
+        "worker_id": "27bc35a97afc4b67b8ca627df5f71155-shard-0",
+        "claimed_at": "2026-11-22T04:51:12.869855+00:00",
+        "lease_expires_at": "2026-11-22T10:51:12.869855+00:00",
+        "run_id": "44961318741"
       }
     },
     "12345": {
@@ -199701,7 +199707,7 @@
       "last_plan": {
         "source_id": "34686836",
         "display_name": "Holly 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:51:08.485759+00:00"
+        "planned_at": "2026-11-22T04:51:12.178971+00:00"
       }
     },
     "14155": {
@@ -242495,5 +242501,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:51:08.793194+00:00"
+  "updated_at": "2026-11-22T04:51:13.769507+00:00"
 }
