@@ -112257,13 +112257,6 @@
           "source_id": "33855360",
           "target_video_id": "30983838",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:10:47.004699+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33855360",
-          "target_video_id": "30983838",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:18:24.980110+00:00"
         },
         {
@@ -112272,6 +112265,13 @@
           "target_video_id": "30983838",
           "permanent": false,
           "attempted_at": "2026-11-22T01:51:48.421943+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33855360",
+          "target_video_id": "30983838",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:36:53.922788+00:00"
         }
       ],
       "last_plan": {
@@ -112285,12 +112285,6 @@
         "size_bytes": 8900000000,
         "prepared_at": "2026-11-10T14:56:59.066784+00:00",
         "relay_source_id": "33855360"
-      },
-      "claim": {
-        "worker_id": "fa3a775414d9460a828e78690c738e57-shard-0",
-        "claimed_at": "2026-11-22T03:36:49.086419+00:00",
-        "lease_expires_at": "2026-11-22T09:36:49.086419+00:00",
-        "run_id": "44961318741"
       }
     },
     "32996": {
@@ -114340,7 +114334,7 @@
       "last_plan": {
         "source_id": "31982080",
         "display_name": "Extraction (2020) 4K CZ Dabing",
-        "planned_at": "2026-11-22T01:51:46.718291+00:00"
+        "planned_at": "2026-11-22T03:36:52.351573+00:00"
       },
       "previous_target_id": "30984113",
       "prepared": {
@@ -199249,17 +199243,19 @@
       }
     },
     "16040": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26087628",
+          "target_video_id": "31242918",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:36:54.169552+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26087628",
         "display_name": "Mortadelo and Filemon: Mission Implausible (Mortadelo y Filemón contra Jimmy el Cachondo) 1080p CZ Dabing",
         "planned_at": "2026-11-22T03:32:22.416840+00:00"
-      },
-      "claim": {
-        "worker_id": "9ab77202271146918328cde350e98e2c-shard-0",
-        "claimed_at": "2026-11-22T03:32:25.701715+00:00",
-        "lease_expires_at": "2026-11-22T09:32:25.701715+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31242918",
       "prepared": {
@@ -199274,7 +199270,7 @@
       "last_plan": {
         "source_id": "29785962",
         "display_name": "The Counsel (L'Avocat) SD CZ Dabing",
-        "planned_at": "2026-11-22T03:36:48.274999+00:00"
+        "planned_at": "2026-11-22T03:36:53.292971+00:00"
       }
     },
     "3800": {
@@ -242140,5 +242136,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:36:49.425533+00:00"
+  "updated_at": "2026-11-22T03:36:54.169575+00:00"
 }
