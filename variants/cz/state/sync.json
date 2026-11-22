@@ -111851,13 +111851,6 @@
           "source_id": "34786946",
           "target_video_id": "30983812",
           "permanent": false,
-          "attempted_at": "2026-11-22T09:53:56.391531+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34786946",
-          "target_video_id": "30983812",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:36:15.741120+00:00"
         },
         {
@@ -111866,6 +111859,13 @@
           "target_video_id": "30983812",
           "permanent": false,
           "attempted_at": "2026-11-22T13:16:06.327660+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34786946",
+          "target_video_id": "30983812",
+          "permanent": false,
+          "attempted_at": "2026-11-22T15:00:27.198256+00:00"
         }
       ],
       "last_plan": {
@@ -111879,12 +111879,6 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-10T14:52:08.850845+00:00",
         "relay_source_id": "34786946"
-      },
-      "claim": {
-        "worker_id": "08381945e861461084a1069cdb698cda-shard-0",
-        "claimed_at": "2026-11-22T15:00:12.837368+00:00",
-        "lease_expires_at": "2026-11-22T21:00:12.837368+00:00",
-        "run_id": "45016772727"
       }
     },
     "12683": {
@@ -132377,7 +132371,7 @@
       "last_plan": {
         "source_id": "34720992",
         "display_name": "The World According to My Dad (Jiříkovo vidění) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:16:05.596227+00:00"
+        "planned_at": "2026-11-22T15:00:20.891177+00:00"
       },
       "previous_target_id": "30987116",
       "prepared": {
@@ -132385,6 +132379,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T03:38:59.210885+00:00",
         "relay_source_id": "34720992"
+      },
+      "claim": {
+        "worker_id": "265ec40610cc4fd79c88570a43591d0c-shard-0",
+        "claimed_at": "2026-11-22T15:00:22.049274+00:00",
+        "lease_expires_at": "2026-11-22T21:00:22.049274+00:00",
+        "run_id": "45016772727"
       }
     },
     "24172": {
@@ -203883,7 +203883,7 @@
       "last_plan": {
         "source_id": "34818641",
         "display_name": "Blackout Love SD CZ Dabing",
-        "planned_at": "2026-11-22T15:00:12.103734+00:00"
+        "planned_at": "2026-11-22T15:00:21.340306+00:00"
       }
     },
     "3750": {
@@ -245912,5 +245912,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:00:17.299714+00:00"
+  "updated_at": "2026-11-22T15:00:27.198273+00:00"
 }
