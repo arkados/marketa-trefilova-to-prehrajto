@@ -124612,7 +124612,7 @@
       "last_plan": {
         "source_id": "33000024",
         "display_name": "Murder by Decree 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:41:41.567311+00:00"
+        "planned_at": "2026-11-22T09:18:04.465932+00:00"
       },
       "previous_target_id": "30985746",
       "prepared": {
@@ -124620,6 +124620,12 @@
         "size_bytes": 4300000000,
         "prepared_at": "2026-11-10T21:35:47.734549+00:00",
         "relay_source_id": "33000024"
+      },
+      "claim": {
+        "worker_id": "256aedd0481b474a8fe121621052a616-shard-0",
+        "claimed_at": "2026-11-22T09:18:06.009116+00:00",
+        "lease_expires_at": "2026-11-22T15:18:06.009116+00:00",
+        "run_id": "44995678765"
       }
     },
     "2798": {
@@ -139415,13 +139421,6 @@
           "source_id": "33822104",
           "target_video_id": "30987943",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:21:25.426058+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33822104",
-          "target_video_id": "30987943",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:58:38.762008+00:00"
         },
         {
@@ -139430,6 +139429,13 @@
           "target_video_id": "30987943",
           "permanent": false,
           "attempted_at": "2026-11-22T07:41:40.935068+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33822104",
+          "target_video_id": "30987943",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:18:06.527885+00:00"
         }
       ],
       "last_plan": {
@@ -201216,11 +201222,22 @@
       "last_plan": {
         "source_id": "34696270",
         "display_name": "Clara (2019) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:18:01.115821+00:00"
+        "planned_at": "2026-11-22T09:18:04.836577+00:00"
+      },
+      "claim": {
+        "worker_id": "5973a63f56a44d3e92be4c2dac3d15f4-shard-0",
+        "claimed_at": "2026-11-22T09:18:06.231458+00:00",
+        "lease_expires_at": "2026-11-22T15:18:06.231458+00:00",
+        "run_id": "44995678765"
       }
     },
     "29947": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "21615817",
+        "display_name": "The Lady Banker SD CZ Dabing",
+        "planned_at": "2026-11-22T09:18:05.106590+00:00"
+      }
     },
     "16646": {
       "attempts": []
@@ -243758,5 +243775,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:18:01.115837+00:00"
+  "updated_at": "2026-11-22T09:18:06.527909+00:00"
 }
