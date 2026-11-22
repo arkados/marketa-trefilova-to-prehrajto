@@ -131592,6 +131592,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T03:11:45.728295+00:00",
         "relay_source_id": "34860819"
+      },
+      "claim": {
+        "worker_id": "c99e40bf63354f34b2c93ee033d19be9-shard-0",
+        "claimed_at": "2026-11-22T13:43:46.563418+00:00",
+        "lease_expires_at": "2026-11-22T19:43:46.563418+00:00",
+        "run_id": "45016772727"
       }
     },
     "32881": {
@@ -132710,7 +132716,7 @@
       "last_plan": {
         "source_id": "34676372",
         "display_name": "Fly, Bird, Fly! (Leť, ptáku leť!) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:02:48.418314+00:00"
+        "planned_at": "2026-11-22T13:43:46.881504+00:00"
       },
       "previous_target_id": "30987143",
       "prepared": {
@@ -145841,13 +145847,6 @@
           "source_id": "35418947",
           "target_video_id": "30992496",
           "permanent": false,
-          "attempted_at": "2026-11-22T08:39:37.328994+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35418947",
-          "target_video_id": "30992496",
-          "permanent": false,
           "attempted_at": "2026-11-22T10:16:20.956859+00:00"
         },
         {
@@ -145856,6 +145855,13 @@
           "target_video_id": "30992496",
           "permanent": false,
           "attempted_at": "2026-11-22T12:02:39.307786+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35418947",
+          "target_video_id": "30992496",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:43:46.310900+00:00"
         }
       ],
       "last_plan": {
@@ -145869,12 +145875,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T17:44:37.675166+00:00",
         "relay_source_id": "35418947"
-      },
-      "claim": {
-        "worker_id": "0c087b4f833d484e8f7dcf71b6d363e5-shard-0",
-        "claimed_at": "2026-11-22T13:43:43.022722+00:00",
-        "lease_expires_at": "2026-11-22T19:43:43.022722+00:00",
-        "run_id": "45016772727"
       }
     },
     "12639": {
@@ -203293,7 +203293,7 @@
       "last_plan": {
         "source_id": "6155842",
         "display_name": "Ultimate Avengers (Ultimate Avengers: The Movie) SD CZ Dabing",
-        "planned_at": "2026-11-22T13:43:43.715514+00:00"
+        "planned_at": "2026-11-22T13:43:47.289255+00:00"
       }
     },
     "14023": {
@@ -245448,5 +245448,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:43:43.715530+00:00"
+  "updated_at": "2026-11-22T13:43:47.289270+00:00"
 }
