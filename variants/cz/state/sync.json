@@ -121863,13 +121863,6 @@
           "source_id": "18059712",
           "target_video_id": "30985391",
           "permanent": false,
-          "attempted_at": "2026-11-22T03:03:22.644361+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "18059712",
-          "target_video_id": "30985391",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:52:59.404443+00:00"
         },
         {
@@ -121878,6 +121871,13 @@
           "target_video_id": "30985391",
           "permanent": false,
           "attempted_at": "2026-11-22T06:30:38.461852+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "18059712",
+          "target_video_id": "30985391",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:12:47.455165+00:00"
         }
       ],
       "last_plan": {
@@ -132331,7 +132331,7 @@
       "last_plan": {
         "source_id": "28004386",
         "display_name": "Veselá bída SD CZ Dabing",
-        "planned_at": "2026-11-22T06:30:36.351080+00:00"
+        "planned_at": "2026-11-22T08:12:45.849218+00:00"
       },
       "previous_target_id": "30987113",
       "prepared": {
@@ -132339,6 +132339,12 @@
         "size_bytes": 873000000,
         "prepared_at": "2026-11-11T03:38:13.878412+00:00",
         "relay_source_id": "28004386"
+      },
+      "claim": {
+        "worker_id": "49cd40dcdbc84390888b19b30ffa025e-shard-0",
+        "claimed_at": "2026-11-22T08:12:47.038448+00:00",
+        "lease_expires_at": "2026-11-22T14:12:47.038448+00:00",
+        "run_id": "44995678765"
       }
     },
     "14917": {
@@ -200946,7 +200952,7 @@
       "last_plan": {
         "source_id": "34694478",
         "display_name": "Beautiful Rebel (Sei nell'anima) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:12:42.562165+00:00"
+        "planned_at": "2026-11-22T08:12:46.230317+00:00"
       }
     },
     "11301": {
@@ -243518,5 +243524,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:12:42.866554+00:00"
+  "updated_at": "2026-11-22T08:12:47.455183+00:00"
 }
