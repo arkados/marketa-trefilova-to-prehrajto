@@ -200324,17 +200324,19 @@
       "attempts": []
     },
     "13422": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33956172",
+          "target_video_id": "31245845",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:44:43.845709+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33956172",
         "display_name": "Barbie of Swan Lake 720p CZ Dabing",
         "planned_at": "2026-11-22T06:28:05.839877+00:00"
-      },
-      "claim": {
-        "worker_id": "6bc1bc3f635e4422809751b6ba0d0a3c-shard-0",
-        "claimed_at": "2026-11-22T06:28:09.315652+00:00",
-        "lease_expires_at": "2026-11-22T12:28:09.315652+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31245845",
       "prepared": {
@@ -243066,5 +243068,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:44:41.149151+00:00"
+  "updated_at": "2026-11-22T06:44:43.845753+00:00"
 }
