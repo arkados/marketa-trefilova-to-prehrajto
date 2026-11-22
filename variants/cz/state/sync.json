@@ -128693,13 +128693,6 @@
           "source_id": "29545278",
           "target_video_id": "30986656",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:14:02.920049+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29545278",
-          "target_video_id": "30986656",
-          "permanent": false,
           "attempted_at": "2026-11-22T08:55:51.006183+00:00"
         },
         {
@@ -128708,6 +128701,13 @@
           "target_video_id": "30986656",
           "permanent": false,
           "attempted_at": "2026-11-22T10:31:53.594996+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29545278",
+          "target_video_id": "30986656",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:15:12.592929+00:00"
         }
       ],
       "last_plan": {
@@ -140895,7 +140895,7 @@
       "last_plan": {
         "source_id": "30863959",
         "display_name": "A 105 p.c. Alibi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:31:52.512654+00:00"
+        "planned_at": "2026-11-22T12:15:10.475482+00:00"
       },
       "previous_target_id": "30988142",
       "prepared": {
@@ -140903,6 +140903,12 @@
         "size_bytes": 2200000000,
         "prepared_at": "2026-11-11T07:39:26.787645+00:00",
         "relay_source_id": "30863959"
+      },
+      "claim": {
+        "worker_id": "d9c643c794ad457b959b5ec36291ae6c-shard-0",
+        "claimed_at": "2026-11-22T12:15:11.719313+00:00",
+        "lease_expires_at": "2026-11-22T18:15:11.719313+00:00",
+        "run_id": "45016772727"
       }
     },
     "21784": {
@@ -202551,7 +202557,7 @@
       "last_plan": {
         "source_id": "24777557",
         "display_name": "Plaza Suite SD CZ Dabing",
-        "planned_at": "2026-11-22T12:15:06.969674+00:00"
+        "planned_at": "2026-11-22T12:15:10.896677+00:00"
       }
     },
     "21872": {
@@ -244826,5 +244832,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:15:07.333109+00:00"
+  "updated_at": "2026-11-22T12:15:12.592945+00:00"
 }
