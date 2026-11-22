@@ -133348,13 +133348,6 @@
           "source_id": "32876939",
           "target_video_id": "30987247",
           "permanent": false,
-          "attempted_at": "2026-11-22T11:02:20.676341+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32876939",
-          "target_video_id": "30987247",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:46:25.665231+00:00"
         },
         {
@@ -133363,6 +133356,13 @@
           "target_video_id": "30987247",
           "permanent": false,
           "attempted_at": "2026-11-22T14:30:21.053081+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32876939",
+          "target_video_id": "30987247",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:51:29.426774+00:00"
         }
       ],
       "last_plan": {
@@ -141515,7 +141515,7 @@
       "last_plan": {
         "source_id": "34693961",
         "display_name": "S písní v tísni 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:30:17.967524+00:00"
+        "planned_at": "2026-11-22T20:51:27.705771+00:00"
       },
       "previous_target_id": "30988228",
       "prepared": {
@@ -141523,6 +141523,12 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T07:55:40.231369+00:00",
         "relay_source_id": "34693961"
+      },
+      "claim": {
+        "worker_id": "bee91948c55f4eec96fd860eeb36dd89-shard-0",
+        "claimed_at": "2026-11-22T20:51:29.047344+00:00",
+        "lease_expires_at": "2026-11-23T02:51:29.047344+00:00",
+        "run_id": "45063988883"
       }
     },
     "15440": {
@@ -204482,7 +204488,7 @@
       "last_plan": {
         "source_id": "30588020",
         "display_name": "Destination Gobi 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:51:23.126004+00:00"
+        "planned_at": "2026-11-22T20:51:28.194097+00:00"
       }
     },
     "13988": {
@@ -246406,5 +246412,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:51:23.457437+00:00"
+  "updated_at": "2026-11-22T20:51:29.426791+00:00"
 }
