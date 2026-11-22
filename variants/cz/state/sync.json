@@ -120926,13 +120926,6 @@
           "source_id": "28192094",
           "target_video_id": "30985028",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:25:05.303428+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28192094",
-          "target_video_id": "30985028",
-          "permanent": false,
           "attempted_at": "2026-11-22T15:06:27.056284+00:00"
         },
         {
@@ -120941,12 +120934,19 @@
           "target_video_id": "30985028",
           "permanent": false,
           "attempted_at": "2026-11-22T21:28:00.069602+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28192094",
+          "target_video_id": "30985028",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:13:28.927330+00:00"
         }
       ],
       "last_plan": {
         "source_id": "28192094",
         "display_name": "Dolphin Tale 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:27:54.608320+00:00"
+        "planned_at": "2026-11-22T23:13:22.911660+00:00"
       },
       "previous_target_id": "30985028",
       "prepared": {
@@ -205689,11 +205689,22 @@
       "last_plan": {
         "source_id": "33767370",
         "display_name": "Soapdish 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:13:10.811414+00:00"
+        "planned_at": "2026-11-22T23:13:23.399298+00:00"
+      },
+      "claim": {
+        "worker_id": "32d5b69276db422682be818422a8896a-shard-0",
+        "claimed_at": "2026-11-22T23:13:25.703519+00:00",
+        "lease_expires_at": "2026-11-23T05:13:25.703519+00:00",
+        "run_id": "45063988883"
       }
     },
     "10765": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30437898",
+        "display_name": "War Drums SD CZ Dabing",
+        "planned_at": "2026-11-22T23:13:23.969384+00:00"
+      }
     },
     "35257": {
       "attempts": []
@@ -247385,5 +247396,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:13:18.613974+00:00"
+  "updated_at": "2026-11-22T23:13:28.927345+00:00"
 }
