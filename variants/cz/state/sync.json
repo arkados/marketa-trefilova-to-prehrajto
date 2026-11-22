@@ -123000,13 +123000,6 @@
           "source_id": "34237700",
           "target_video_id": "30985483",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:11:15.133389+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34237700",
-          "target_video_id": "30985483",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:19:06.679916+00:00"
         },
         {
@@ -123015,6 +123008,13 @@
           "target_video_id": "30985483",
           "permanent": false,
           "attempted_at": "2026-11-22T01:52:17.445199+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34237700",
+          "target_video_id": "30985483",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:37:33.199864+00:00"
         }
       ],
       "last_plan": {
@@ -138666,7 +138666,7 @@
       "last_plan": {
         "source_id": "34399715",
         "display_name": "Koloběžka první (Ruffiano and Sweeteeth) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:52:21.612335+00:00"
+        "planned_at": "2026-11-22T03:37:31.351250+00:00"
       },
       "previous_target_id": "30987880",
       "prepared": {
@@ -138674,6 +138674,12 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T06:32:54.593013+00:00",
         "relay_source_id": "34399715"
+      },
+      "claim": {
+        "worker_id": "9deb0e5e21a5453aa43411f303a4beab-shard-0",
+        "claimed_at": "2026-11-22T03:37:32.279343+00:00",
+        "lease_expires_at": "2026-11-22T09:37:32.279343+00:00",
+        "run_id": "44961318741"
       }
     },
     "15438": {
@@ -199291,7 +199297,7 @@
       "last_plan": {
         "source_id": "15339442",
         "display_name": "Operation Red Sea (HongHaiXingDong) 720p CZ Dabing",
-        "planned_at": "2026-11-22T03:37:28.424792+00:00"
+        "planned_at": "2026-11-22T03:37:31.689870+00:00"
       }
     },
     "20024": {
@@ -242154,5 +242160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:37:28.708828+00:00"
+  "updated_at": "2026-11-22T03:37:33.199883+00:00"
 }
