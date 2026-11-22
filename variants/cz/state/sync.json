@@ -108023,13 +108023,6 @@
           "source_id": "31561997",
           "target_video_id": "30983461",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:07:23.223275+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "31561997",
-          "target_video_id": "30983461",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:43:27.064031+00:00"
         },
         {
@@ -108038,6 +108031,13 @@
           "target_video_id": "30983461",
           "permanent": false,
           "attempted_at": "2026-11-22T07:29:34.642845+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "31561997",
+          "target_video_id": "30983461",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:05:58.841142+00:00"
         }
       ],
       "last_plan": {
@@ -119753,7 +119753,7 @@
       "last_plan": {
         "source_id": "25411027",
         "display_name": "Anonymous SD CZ Dabing",
-        "planned_at": "2026-11-22T07:29:33.452900+00:00"
+        "planned_at": "2026-11-22T09:05:57.325766+00:00"
       },
       "previous_target_id": "30984957",
       "prepared": {
@@ -119761,6 +119761,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T18:18:25.279371+00:00",
         "relay_source_id": "25411027"
+      },
+      "claim": {
+        "worker_id": "89842a4b628e49488dba2e14a5775a14-shard-0",
+        "claimed_at": "2026-11-22T09:05:58.528037+00:00",
+        "lease_expires_at": "2026-11-22T15:05:58.528037+00:00",
+        "run_id": "44995678765"
       }
     },
     "23690": {
@@ -201125,7 +201131,7 @@
       "last_plan": {
         "source_id": "34720714",
         "display_name": "Power 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:05:54.017468+00:00"
+        "planned_at": "2026-11-22T09:05:57.718028+00:00"
       }
     },
     "23999": {
@@ -243682,5 +243688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:05:54.350149+00:00"
+  "updated_at": "2026-11-22T09:05:58.841162+00:00"
 }
