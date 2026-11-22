@@ -109592,7 +109592,7 @@
       "last_plan": {
         "source_id": "35068853",
         "display_name": "Jako kníže Rohan SD CZ Dabing",
-        "planned_at": "2026-11-22T05:17:04.644092+00:00"
+        "planned_at": "2026-11-22T06:58:45.947674+00:00"
       },
       "previous_target_id": "30983667",
       "prepared": {
@@ -109600,6 +109600,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-10T14:30:38.513966+00:00",
         "relay_source_id": "35068853"
+      },
+      "claim": {
+        "worker_id": "7823b61480ce473e840a61d418334784-shard-0",
+        "claimed_at": "2026-11-22T06:58:47.027768+00:00",
+        "lease_expires_at": "2026-11-22T12:58:47.027768+00:00",
+        "run_id": "44961318741"
       }
     },
     "33779": {
@@ -109637,6 +109643,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T14:30:57.208597+00:00",
         "relay_source_id": "34716695"
+      },
+      "claim": {
+        "worker_id": "359deb61b73d453ab60c62f8b35c0e0e-shard-0",
+        "claimed_at": "2026-11-22T06:58:45.666606+00:00",
+        "lease_expires_at": "2026-11-22T12:58:45.666606+00:00",
+        "run_id": "44961318741"
       }
     },
     "24311": {
@@ -200457,17 +200469,19 @@
       "attempts": []
     },
     "28278": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33393819",
+          "target_video_id": "31246255",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:58:47.292656+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33393819",
         "display_name": "Monster High: Ghouls Rule 1080p CZ Dabing",
         "planned_at": "2026-11-22T06:54:46.466041+00:00"
-      },
-      "claim": {
-        "worker_id": "c7999179c5ad48fca8127ce0d9860e01-shard-0",
-        "claimed_at": "2026-11-22T06:54:47.592589+00:00",
-        "lease_expires_at": "2026-11-22T12:54:47.592589+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31246255",
       "prepared": {
@@ -200485,7 +200499,7 @@
       "last_plan": {
         "source_id": "21803107",
         "display_name": "The Replacement (El sustituto) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:58:42.430792+00:00"
+        "planned_at": "2026-11-22T06:58:46.307218+00:00"
       }
     },
     "37274": {
@@ -243132,5 +243146,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:58:43.037446+00:00"
+  "updated_at": "2026-11-22T06:58:47.292677+00:00"
 }
