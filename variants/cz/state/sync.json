@@ -43058,6 +43058,12 @@
         "size_bytes": 31200000000,
         "prepared_at": "2026-11-03T07:52:26.317997+00:00",
         "relay_source_id": "34357032"
+      },
+      "claim": {
+        "worker_id": "a4bc2fe4bc174c448a6713162faa6482-shard-0",
+        "claimed_at": "2026-11-22T09:12:31.881644+00:00",
+        "lease_expires_at": "2026-11-22T15:12:31.881644+00:00",
+        "run_id": "44995678765"
       }
     },
     "1395": {
@@ -134397,13 +134403,6 @@
           "source_id": "23221863",
           "target_video_id": "30987417",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:13:15.155255+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "23221863",
-          "target_video_id": "30987417",
-          "permanent": false,
           "attempted_at": "2026-11-22T05:52:10.718417+00:00"
         },
         {
@@ -134412,12 +134411,19 @@
           "target_video_id": "30987417",
           "permanent": false,
           "attempted_at": "2026-11-22T07:35:43.828313+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "23221863",
+          "target_video_id": "30987417",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:12:36.575712+00:00"
         }
       ],
       "last_plan": {
         "source_id": "23221863",
         "display_name": "Ten svetr si nesvlíkej 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:35:38.108922+00:00"
+        "planned_at": "2026-11-22T09:12:32.185104+00:00"
       },
       "previous_target_id": "30987417",
       "prepared": {
@@ -201177,7 +201183,7 @@
       "last_plan": {
         "source_id": "34686084",
         "display_name": "Love in Harmony Valley 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:12:28.691975+00:00"
+        "planned_at": "2026-11-22T09:12:32.582597+00:00"
       }
     },
     "30632": {
@@ -243722,5 +243728,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:12:29.014363+00:00"
+  "updated_at": "2026-11-22T09:12:36.575731+00:00"
 }
