@@ -108003,7 +108003,7 @@
       "last_plan": {
         "source_id": "30011381",
         "display_name": "Heaven (Nebe) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:36:53.102928+00:00"
+        "planned_at": "2026-11-22T15:18:16.792519+00:00"
       },
       "previous_target_id": "30983260",
       "prepared": {
@@ -133963,13 +133963,6 @@
           "source_id": "24359415",
           "target_video_id": "30987345",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:09:54.640866+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24359415",
-          "target_video_id": "30987345",
-          "permanent": false,
           "attempted_at": "2026-11-22T11:55:06.304519+00:00"
         },
         {
@@ -133978,6 +133971,13 @@
           "target_video_id": "30987345",
           "permanent": false,
           "attempted_at": "2026-11-22T13:36:55.533390+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24359415",
+          "target_video_id": "30987345",
+          "permanent": false,
+          "attempted_at": "2026-11-22T15:18:17.652600+00:00"
         }
       ],
       "last_plan": {
@@ -133991,12 +133991,6 @@
         "size_bytes": 1300000000,
         "prepared_at": "2026-11-11T04:21:19.566129+00:00",
         "relay_source_id": "24359415"
-      },
-      "claim": {
-        "worker_id": "dc7d7b31949d41afb54c01dcfa391566-shard-0",
-        "claimed_at": "2026-11-22T15:18:14.063468+00:00",
-        "lease_expires_at": "2026-11-22T21:18:14.063468+00:00",
-        "run_id": "45016772727"
       }
     },
     "32584": {
@@ -204030,17 +204024,19 @@
       "attempts": []
     },
     "36893": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29556683",
+          "target_video_id": "31255042",
+          "permanent": false,
+          "attempted_at": "2026-11-22T15:18:17.900902+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29556683",
         "display_name": "Giants of la Mancha (Gigantes, una Aventura extraordinaria) 1080p CZ Dabing",
         "planned_at": "2026-11-22T15:16:11.729467+00:00"
-      },
-      "claim": {
-        "worker_id": "ad827cd9b6be4c21b56ae64e5da90f6f-shard-0",
-        "claimed_at": "2026-11-22T15:16:14.779763+00:00",
-        "lease_expires_at": "2026-11-22T21:16:14.779763+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31255042",
       "prepared": {
@@ -204058,7 +204054,7 @@
       "last_plan": {
         "source_id": "30547645",
         "display_name": "Geronimo: An American Legend 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:18:13.212737+00:00"
+        "planned_at": "2026-11-22T15:18:17.267721+00:00"
       }
     },
     "37382": {
@@ -246048,5 +246044,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:18:14.409455+00:00"
+  "updated_at": "2026-11-22T15:18:17.900919+00:00"
 }
