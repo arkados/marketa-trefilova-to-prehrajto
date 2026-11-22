@@ -34377,13 +34377,6 @@
           "source_id": "35087204",
           "target_video_id": "30738724",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:29:21.083767+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35087204",
-          "target_video_id": "30738724",
-          "permanent": false,
           "attempted_at": "2026-11-22T01:01:23.831020+00:00"
         },
         {
@@ -34392,6 +34385,13 @@
           "target_video_id": "30738724",
           "permanent": false,
           "attempted_at": "2026-11-22T02:32:37.996491+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35087204",
+          "target_video_id": "30738724",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:21:52.404270+00:00"
         }
       ],
       "last_plan": {
@@ -165935,7 +165935,7 @@
       "last_plan": {
         "source_id": "30715681",
         "display_name": "Beyond Outrage SD CZ Dabing",
-        "planned_at": "2026-11-22T02:32:36.534893+00:00"
+        "planned_at": "2026-11-22T04:21:50.677265+00:00"
       },
       "previous_target_id": "31107943",
       "prepared": {
@@ -165943,6 +165943,12 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-17T04:17:12.201947+00:00",
         "relay_source_id": "30715681"
+      },
+      "claim": {
+        "worker_id": "ce049ea22a884788928bc3e0e267b067-shard-0",
+        "claimed_at": "2026-11-22T04:21:52.038134+00:00",
+        "lease_expires_at": "2026-11-22T10:21:52.038134+00:00",
+        "run_id": "44961318741"
       }
     },
     "28641": {
@@ -199521,7 +199527,7 @@
       "last_plan": {
         "source_id": "11415280",
         "display_name": "The Man (2017) SD CZ Dabing",
-        "planned_at": "2026-11-22T04:21:47.817702+00:00"
+        "planned_at": "2026-11-22T04:21:51.037481+00:00"
       }
     },
     "28973": {
@@ -242345,5 +242351,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:21:47.817720+00:00"
+  "updated_at": "2026-11-22T04:21:52.404290+00:00"
 }
