@@ -112754,7 +112754,7 @@
       "last_plan": {
         "source_id": "34715290",
         "display_name": "Lion With a White Mane (Lev s bílou hřívou) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T13:53:48.825503+00:00"
+        "planned_at": "2026-11-22T13:53:52.634903+00:00"
       },
       "previous_target_id": "30983927",
       "prepared": {
@@ -112762,6 +112762,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-10T15:04:18.410499+00:00",
         "relay_source_id": "34715290"
+      },
+      "claim": {
+        "worker_id": "ec9df2caf014413f9a73e1fd58930a42-shard-0",
+        "claimed_at": "2026-11-22T13:53:53.766117+00:00",
+        "lease_expires_at": "2026-11-22T19:53:53.766117+00:00",
+        "run_id": "45016772727"
       }
     },
     "32416": {
@@ -203382,17 +203388,19 @@
       "attempts": []
     },
     "12157": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32144821",
+          "target_video_id": "31253657",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:53:54.881607+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32144821",
         "display_name": "Imaginary Crimes 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:49:17.696277+00:00"
-      },
-      "claim": {
-        "worker_id": "63993e0f83414672987e949972329158-shard-0",
-        "claimed_at": "2026-11-22T13:49:22.422789+00:00",
-        "lease_expires_at": "2026-11-22T19:49:22.422789+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31253657",
       "prepared": {
@@ -203413,7 +203421,7 @@
       "last_plan": {
         "source_id": "15195766",
         "display_name": "The One and Only Ivan 4K CZ Dabing",
-        "planned_at": "2026-11-22T13:53:49.268547+00:00"
+        "planned_at": "2026-11-22T13:53:53.047356+00:00"
       }
     },
     "25364": {
@@ -245526,5 +245534,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:53:49.268562+00:00"
+  "updated_at": "2026-11-22T13:53:54.881624+00:00"
 }
