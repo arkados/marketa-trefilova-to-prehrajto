@@ -128346,13 +128346,6 @@
           "source_id": "33885910",
           "target_video_id": "30986630",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:33:32.583015+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33885910",
-          "target_video_id": "30986630",
-          "permanent": false,
           "attempted_at": "2026-11-22T15:14:55.240961+00:00"
         },
         {
@@ -128361,6 +128354,13 @@
           "target_video_id": "30986630",
           "permanent": false,
           "attempted_at": "2026-11-22T21:39:00.474199+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33885910",
+          "target_video_id": "30986630",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:23:33.760370+00:00"
         }
       ],
       "last_plan": {
@@ -142121,7 +142121,7 @@
       "last_plan": {
         "source_id": "27874374",
         "display_name": "Together (Spolu) (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-22T21:38:59.911486+00:00"
+        "planned_at": "2026-11-22T23:23:31.517089+00:00"
       },
       "previous_target_id": "30988406",
       "prepared": {
@@ -142129,6 +142129,12 @@
         "size_bytes": 4400000000,
         "prepared_at": "2026-11-11T08:20:53.674997+00:00",
         "relay_source_id": "27874374"
+      },
+      "claim": {
+        "worker_id": "ba2d91cb275848c48f8dc35ac4104e97-shard-0",
+        "claimed_at": "2026-11-22T23:23:33.425990+00:00",
+        "lease_expires_at": "2026-11-23T05:23:33.425990+00:00",
+        "run_id": "45063988883"
       }
     },
     "33115": {
@@ -205795,7 +205801,7 @@
       "last_plan": {
         "source_id": "27633938",
         "display_name": "Shrink 720p CZ Dabing",
-        "planned_at": "2026-11-22T23:23:28.121424+00:00"
+        "planned_at": "2026-11-22T23:23:31.996300+00:00"
       }
     },
     "3724": {
@@ -247470,5 +247476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:23:28.121440+00:00"
+  "updated_at": "2026-11-22T23:23:33.760395+00:00"
 }
