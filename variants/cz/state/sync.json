@@ -203225,17 +203225,19 @@
       "attempts": []
     },
     "31154": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713765",
+          "target_video_id": "31253476",
+          "permanent": false,
+          "attempted_at": "2026-11-22T13:41:16.410070+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713765",
         "display_name": "The Grump: In Search of an Escort 1080p CZ Dabing",
         "planned_at": "2026-11-22T13:37:44.862229+00:00"
-      },
-      "claim": {
-        "worker_id": "44b6c16fb0374b9191e4d10d5b57efa7-shard-0",
-        "claimed_at": "2026-11-22T13:37:48.310497+00:00",
-        "lease_expires_at": "2026-11-22T19:37:48.310497+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31253476",
       "prepared": {
@@ -245414,5 +245416,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:41:13.736328+00:00"
+  "updated_at": "2026-11-22T13:41:16.410091+00:00"
 }
