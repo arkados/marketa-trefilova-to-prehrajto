@@ -118154,13 +118154,6 @@
           "source_id": "34966653",
           "target_video_id": "30984828",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:40:11.736172+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34966653",
-          "target_video_id": "30984828",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:27:42.854500+00:00"
         },
         {
@@ -118169,6 +118162,13 @@
           "target_video_id": "30984828",
           "permanent": false,
           "attempted_at": "2026-11-22T14:08:50.759860+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34966653",
+          "target_video_id": "30984828",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:31:08.971542+00:00"
         }
       ],
       "last_plan": {
@@ -129767,7 +129767,7 @@
       "last_plan": {
         "source_id": "29223001",
         "display_name": "La maternal 720p CZ Dabing",
-        "planned_at": "2026-11-22T14:08:50.407545+00:00"
+        "planned_at": "2026-11-22T20:31:07.386736+00:00"
       },
       "previous_target_id": "30986795",
       "prepared": {
@@ -129775,6 +129775,12 @@
         "size_bytes": 3500000000,
         "prepared_at": "2026-11-11T02:10:55.260411+00:00",
         "relay_source_id": "29223001"
+      },
+      "claim": {
+        "worker_id": "dacd145ef6414d9d8cce0d3c28b1e450-shard-0",
+        "claimed_at": "2026-11-22T20:31:08.629052+00:00",
+        "lease_expires_at": "2026-11-23T02:31:08.629052+00:00",
+        "run_id": "45063988883"
       }
     },
     "11031": {
@@ -204383,7 +204389,7 @@
       "last_plan": {
         "source_id": "25410421",
         "display_name": "Something New 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:31:04.223519+00:00"
+        "planned_at": "2026-11-22T20:31:07.854783+00:00"
       }
     },
     "32622": {
@@ -246322,5 +246328,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:31:04.512241+00:00"
+  "updated_at": "2026-11-22T20:31:08.971559+00:00"
 }
