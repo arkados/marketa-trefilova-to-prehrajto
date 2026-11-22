@@ -127299,13 +127299,6 @@
           "source_id": "34453688",
           "target_video_id": "30986375",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:42:15.979716+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34453688",
-          "target_video_id": "30986375",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:18:43.734506+00:00"
         },
         {
@@ -127314,6 +127307,13 @@
           "target_video_id": "30986375",
           "permanent": false,
           "attempted_at": "2026-11-22T10:57:42.096728+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34453688",
+          "target_video_id": "30986375",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:42:23.780506+00:00"
         }
       ],
       "last_plan": {
@@ -135713,7 +135713,7 @@
       "last_plan": {
         "source_id": "11994914",
         "display_name": "Bankrot SD CZ Dabing",
-        "planned_at": "2026-11-22T10:57:41.393857+00:00"
+        "planned_at": "2026-11-22T12:42:22.187418+00:00"
       },
       "previous_target_id": "30987591",
       "prepared": {
@@ -135721,6 +135721,12 @@
         "size_bytes": 975100000,
         "prepared_at": "2026-11-11T05:20:01.782170+00:00",
         "relay_source_id": "11994914"
+      },
+      "claim": {
+        "worker_id": "089a63d2cb634ad49500c5d9fe9373f4-shard-0",
+        "claimed_at": "2026-11-22T12:42:23.443262+00:00",
+        "lease_expires_at": "2026-11-22T18:42:23.443262+00:00",
+        "run_id": "45016772727"
       }
     },
     "24145": {
@@ -202702,7 +202708,7 @@
       "last_plan": {
         "source_id": "22548299",
         "display_name": "Koati SD CZ Dabing",
-        "planned_at": "2026-11-22T12:42:18.992923+00:00"
+        "planned_at": "2026-11-22T12:42:22.602956+00:00"
       }
     },
     "15131": {
@@ -244950,5 +244956,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:42:19.309520+00:00"
+  "updated_at": "2026-11-22T12:42:23.780523+00:00"
 }
