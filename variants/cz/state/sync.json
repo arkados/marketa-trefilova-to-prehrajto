@@ -203751,17 +203751,19 @@
       }
     },
     "29955": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30581062",
+          "target_video_id": "31254608",
+          "permanent": false,
+          "attempted_at": "2026-11-22T14:49:54.506585+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30581062",
         "display_name": "Police SD CZ Dabing",
         "planned_at": "2026-11-22T14:48:14.566061+00:00"
-      },
-      "claim": {
-        "worker_id": "82cb6ae27f11462ba48fa07a46b193bb-shard-0",
-        "claimed_at": "2026-11-22T14:48:18.164191+00:00",
-        "lease_expires_at": "2026-11-22T20:48:18.164191+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31254608",
       "prepared": {
@@ -245820,5 +245822,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T14:49:52.224498+00:00"
+  "updated_at": "2026-11-22T14:49:54.506599+00:00"
 }
