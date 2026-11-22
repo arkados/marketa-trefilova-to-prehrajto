@@ -262,6 +262,32 @@ def test_processing_reconciliation_is_not_starved_by_fresh_films(tmp_path):
     assert [row["film"]["cr_film_id"] for _,row in plans]==[10,1]
 
 
+def test_continuous_single_slot_alternates_fresh_transfers_and_reconciliation(tmp_path, monkeypatch):
+    pipeline, first = seed_source(tmp_path, "cz", 1, candidate(language="cs"))
+    films = [replace(first, cr_film_id=i, priority_rank=i) for i in range(1, 5)]
+    pipeline.name_builder = lambda film, _: f"Film {film.cr_film_id} CZ Dabing"
+    for film in films[1:]:
+        source = candidate(str(film.cr_film_id), language="cs")
+        pipeline._record_verified_source(film, source, "Film CZ Dabing")
+        if film.cr_film_id >= 3:
+            pipeline.state.record_plan(film.cr_film_id, {
+                "selected": {"source_id": source.source_id}, "display_name": "Film CZ Dabing",
+            })
+            pipeline.state.record_prepared(film.cr_film_id, str(700 + film.cr_film_id), 100)
+
+    calls = []
+
+    def execute(plan):
+        film_id = plan[0]["film"]["cr_film_id"]
+        pipeline.state.record_success(film_id, {"target_video_id": str(700 + film_id)})
+        calls.append(film_id)
+
+    monkeypatch.setattr(pipeline, "execute", execute)
+    drain_queue(tmp_path, {"cz": pipeline}, films, limit=1, runtime_minutes=1,
+                continuous=True, clock=lambda: 60 if len(calls) == 3 else 0)
+    assert calls == [1, 3, 2]
+
+
 @pytest.mark.parametrize("english,original,expected", [
     ("The Shawshank Redemption", "The Shawshank Redemption", "The Shawshank Redemption"),
     ("Goodfellas", "GoodFellas", "Goodfellas"),

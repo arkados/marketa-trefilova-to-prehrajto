@@ -15,6 +15,7 @@ from typing import Any, Callable
 import requests
 from bs4 import BeautifulSoup
 
+from .http_recovery import request as http_request
 from .matching import classify_candidate
 from .models import Candidate, Film, LanguageTier, MatchTier
 from .ranking import (
@@ -251,17 +252,19 @@ def login(
         raise SdilejError("SDILEJ_EMAIL and SDILEJ_PASSWORD are required")
     client = session or requests.Session()
     client.headers.update({"User-Agent": USER_AGENT})
-    prime = client.get(LOGIN_PAGE, timeout=30)
+    prime = http_request(lambda: client.get(LOGIN_PAGE, timeout=30),
+                         phase="source_login_page", retry_safe=True)
     prime.raise_for_status()
-    response = client.post(
+    response = http_request(lambda: client.post(
         LOGIN_URL,
         data={"login": email, "heslo": password},
         headers={"Referer": LOGIN_PAGE},
         allow_redirects=True,
         timeout=30,
-    )
+    ), phase="source_login_submit")
     response.raise_for_status()
-    profile = client.get(f"{BASE_URL}/nastaveni", allow_redirects=False, timeout=30)
+    profile = http_request(lambda: client.get(f"{BASE_URL}/nastaveni", allow_redirects=False, timeout=30),
+                           phase="source_login_verify", retry_safe=True)
     if profile.status_code != 200 or "SDILEJ" not in client.cookies:
         raise SdilejError("Sdilej.cz login verification failed")
     return client

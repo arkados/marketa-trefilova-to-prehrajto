@@ -38,4 +38,4 @@ jobs:
             exit 0
           fi
           echo "No active upload run; resuming the continuous uploader"
-          gh workflow run continuous.yml --repo "$GITHUB_REPOSITORY"
+          gh workflow run continuous.yml --repo "$GITHUB_REPOSITORY" --ref main -f automatic=true

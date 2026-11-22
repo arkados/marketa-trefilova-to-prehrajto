@@ -7,6 +7,7 @@ import requests
 
 from marketa_sync.media import http_recovery
 from marketa_sync.media.prehrajto import PrehrajtoError, login
+from marketa_sync.media.sdilej import login as source_login
 
 
 def response(status, retry_after=None):
@@ -125,6 +126,31 @@ def test_source_failure_diagnostics_omit_secrets(capsys):
     error = requests.HTTPError("PRIVATE_PASSWORD", response=response(403))
     http_recovery.log_failure("source_login", error)
     assert capsys.readouterr().out == "http_failure phase=source_login status=403 error=HTTPError\n"
+
+
+def test_source_login_retries_transient_reads(sleep, capsys):
+    session = Mock(headers={}, cookies={"SDILEJ": "fixture"})
+    session.get.side_effect = [response(503), response(200), response(502), response(200)]
+    session.post.return_value = response(200)
+    assert source_login(EXPECTED_EMAIL, "PRIVATE_PASSWORD", session=session) is session
+    assert session.get.call_count == 4
+    session.post.assert_called_once()
+    assert sleep.call_count == 2
+    log = capsys.readouterr().out
+    assert "phase=source_login_page status=503" in log
+    assert "phase=source_login_verify status=502" in log
+    assert "PRIVATE" not in log
+
+
+def test_source_login_forbidden_does_not_submit_credentials(sleep, capsys):
+    session = Mock(headers={})
+    session.get.return_value = response(403)
+    with pytest.raises(requests.HTTPError):
+        source_login(EXPECTED_EMAIL, "PRIVATE_PASSWORD", session=session)
+    session.get.assert_called_once()
+    session.post.assert_not_called()
+    sleep.assert_not_called()
+    assert "phase=source_login_page status=403" in capsys.readouterr().out
 
 
 def test_login_verification_redirect_is_logged_without_retry(capsys, sleep):

@@ -60,23 +60,26 @@ def make_pipeline(root, variant, names, source=None, target=None, provider=None,
     )
 
 
-def ordered_plans(pipelines, films, limit, *, excluded=()):
-    plans = []
+def ordered_plans(pipelines, films, limit, *, excluded=(), prefer_fresh=False):
+    pending_plans = []
+    fresh_plans = []
     for variant, pipeline in pipelines.items():
         available = [film for film in films if (variant, film.cr_film_id) not in excluded]
         pending = [film for film in available if pipeline.state.pending_prepared(film.cr_film_id)]
         pending_ids = {film.cr_film_id for film in pending}
         fresh = [film for film in available if film.cr_film_id not in pending_ids]
-        # Reserve one due reconciliation per lane so subtitle work does not
-        # wait behind thousands of films that have never been transferred.
-        rows = pipeline.build_plan(pending, 1, verified_only=True)
-        rows += pipeline.build_plan(fresh, limit, verified_only=True)
-        for row in rows:
-            plans.append((variant, row))
-    plans.sort(key=lambda item: (
-        not pipelines[item[0]].state.pending_prepared(item[1]["film"]["cr_film_id"]),
-        item[1]["film"].get("priority_rank") or 10**9, item[0] != "cz"))
-    return plans[:limit]
+        pending_plans.extend((variant, row) for row in pipeline.build_plan(pending, 1, verified_only=True))
+        fresh_plans.extend((variant, row) for row in pipeline.build_plan(fresh, limit, verified_only=True))
+
+    def priority(item):
+        variant, row = item
+        return row["film"].get("priority_rank") or 10**9, variant != "cz"
+
+    pending_plans.sort(key=priority)
+    fresh_plans.sort(key=priority)
+    if prefer_fresh and fresh_plans:
+        return [fresh_plans[0], *pending_plans, *fresh_plans[1:]][:limit]
+    return (pending_plans + fresh_plans)[:limit]
 
 
 def prepare(root, films, names, limit, persist, runtime_minutes):
@@ -273,6 +276,7 @@ def drain_queue(root, pipelines, films, *, limit, runtime_minutes, persist=None,
     next_refresh = clock()
     next_subtitles = clock()
     subtitle_future = None
+    prefer_fresh = True
     print(f"upload_workers={len(pairs)}", flush=True)
 
     def execute(variant, row, slot):
@@ -319,7 +323,13 @@ def drain_queue(root, pipelines, films, *, limit, runtime_minutes, persist=None,
                 remaining = limit if continuous else max(0, limit - counts["planned"] - len(pending))
                 capacity = min(len(free_slots), remaining)
                 if capacity:
-                    plans = ordered_plans(pipelines, films, capacity, excluded=reserved)
+                    # With multiple slots, leave room for both kinds of work.
+                    # When slots free up one at a time, alternate priorities.
+                    plans = ordered_plans(pipelines, films, capacity, excluded=reserved,
+                                          prefer_fresh=continuous and (capacity > 1 or prefer_fresh))
+                if continuous and plans:
+                    variant, row = plans[0]
+                    prefer_fresh = pipelines[variant].state.pending_prepared(row["film"]["cr_film_id"])
                 for variant, row in plans:
                     if clock() >= deadline:
                         break
