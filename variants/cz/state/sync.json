@@ -109840,13 +109840,6 @@
           "source_id": "34712454",
           "target_video_id": "30983676",
           "permanent": false,
-          "attempted_at": "2026-11-21T18:11:03.325532+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34712454",
-          "target_video_id": "30983676",
-          "permanent": false,
           "attempted_at": "2026-11-21T19:50:11.410919+00:00"
         },
         {
@@ -109855,6 +109848,13 @@
           "target_video_id": "30983676",
           "permanent": false,
           "attempted_at": "2026-11-21T21:22:26.899264+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34712454",
+          "target_video_id": "30983676",
+          "permanent": false,
+          "attempted_at": "2026-11-22T00:29:10.732570+00:00"
         }
       ],
       "last_plan": {
@@ -136843,7 +136843,7 @@
       "last_plan": {
         "source_id": "19686604",
         "display_name": "Volným pádem 1080p CZ Dabing",
-        "planned_at": "2026-11-21T21:22:25.269505+00:00"
+        "planned_at": "2026-11-22T00:29:09.164837+00:00"
       },
       "previous_target_id": "30987716",
       "prepared": {
@@ -136851,6 +136851,12 @@
         "size_bytes": 1900000000,
         "prepared_at": "2026-11-11T05:48:01.035162+00:00",
         "relay_source_id": "19686604"
+      },
+      "claim": {
+        "worker_id": "709beeec19474e789ec804f70869b767-shard-0",
+        "claimed_at": "2026-11-22T00:29:10.363594+00:00",
+        "lease_expires_at": "2026-11-22T06:29:10.363594+00:00",
+        "run_id": "44959851294"
       }
     },
     "31573": {
@@ -197820,7 +197826,7 @@
       "last_plan": {
         "source_id": "29918438",
         "display_name": "The Seventh Target (La 7ème cible) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:29:02.680993+00:00"
+        "planned_at": "2026-11-22T00:29:09.595481+00:00"
       }
     },
     "16828": {
@@ -240938,5 +240944,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T00:29:02.681013+00:00"
+  "updated_at": "2026-11-22T00:29:10.732591+00:00"
 }
