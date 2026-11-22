@@ -127073,7 +127073,7 @@
       "last_plan": {
         "source_id": "29549918",
         "display_name": "Tsar SD CZ Dabing",
-        "planned_at": "2026-11-22T13:21:27.743707+00:00"
+        "planned_at": "2026-11-22T15:04:50.380873+00:00"
       },
       "previous_target_id": "30986280",
       "prepared": {
@@ -127081,6 +127081,12 @@
         "size_bytes": 1400000000,
         "prepared_at": "2026-11-10T23:52:40.570565+00:00",
         "relay_source_id": "29549918"
+      },
+      "claim": {
+        "worker_id": "24d1e4cb0f854439837c817149656cf3-shard-0",
+        "claimed_at": "2026-11-22T15:04:51.601030+00:00",
+        "lease_expires_at": "2026-11-22T21:04:51.601030+00:00",
+        "run_id": "45016772727"
       }
     },
     "31175": {
@@ -159876,6 +159882,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-15T20:57:06.595687+00:00",
         "relay_source_id": "26692246"
+      },
+      "claim": {
+        "worker_id": "b9548b429f9e4368a2f89f18245b227b-shard-0",
+        "claimed_at": "2026-11-22T15:04:50.082271+00:00",
+        "lease_expires_at": "2026-11-22T21:04:50.082271+00:00",
+        "run_id": "45016772727"
       }
     },
     "16966": {
@@ -203893,17 +203905,19 @@
       }
     },
     "14870": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34818641",
+          "target_video_id": "31254857",
+          "permanent": false,
+          "attempted_at": "2026-11-22T15:04:52.161181+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34818641",
         "display_name": "Blackout Love SD CZ Dabing",
         "planned_at": "2026-11-22T15:03:16.519457+00:00"
-      },
-      "claim": {
-        "worker_id": "07263361fe314c029e80db997c03dbf5-shard-0",
-        "claimed_at": "2026-11-22T15:03:17.945710+00:00",
-        "lease_expires_at": "2026-11-22T21:03:17.945710+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31254857",
       "prepared": {
@@ -203921,7 +203935,7 @@
       "last_plan": {
         "source_id": "17400473",
         "display_name": "Dirty War 1080p CZ Dabing",
-        "planned_at": "2026-11-22T15:04:47.391547+00:00"
+        "planned_at": "2026-11-22T15:04:50.781909+00:00"
       }
     },
     "30817": {
@@ -245944,5 +245958,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:04:47.391562+00:00"
+  "updated_at": "2026-11-22T15:04:52.161199+00:00"
 }
