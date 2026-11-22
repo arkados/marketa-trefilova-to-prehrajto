@@ -129599,13 +129599,6 @@
           "source_id": "13254742",
           "target_video_id": "30986777",
           "permanent": false,
-          "attempted_at": "2026-11-22T00:33:58.853654+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "13254742",
-          "target_video_id": "30986777",
-          "permanent": false,
           "attempted_at": "2026-11-22T02:09:43.802581+00:00"
         },
         {
@@ -129614,6 +129607,13 @@
           "target_video_id": "30986777",
           "permanent": false,
           "attempted_at": "2026-11-22T03:54:56.598033+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "13254742",
+          "target_video_id": "30986777",
+          "permanent": false,
+          "attempted_at": "2026-11-22T05:30:36.815533+00:00"
         }
       ],
       "last_plan": {
@@ -136960,7 +136960,7 @@
       "last_plan": {
         "source_id": "34788921",
         "display_name": "Frona SD CZ Dabing",
-        "planned_at": "2026-11-22T03:54:54.974431+00:00"
+        "planned_at": "2026-11-22T05:30:34.909976+00:00"
       },
       "previous_target_id": "30987732",
       "prepared": {
@@ -136968,6 +136968,12 @@
         "size_bytes": 950300000,
         "prepared_at": "2026-11-11T05:50:38.507752+00:00",
         "relay_source_id": "34788921"
+      },
+      "claim": {
+        "worker_id": "eb3685efeb784ab8bbfe5c2487c09bb8-shard-0",
+        "claimed_at": "2026-11-22T05:30:35.881870+00:00",
+        "lease_expires_at": "2026-11-22T11:30:35.881870+00:00",
+        "run_id": "44961318741"
       }
     },
     "32842": {
@@ -199871,7 +199877,7 @@
       "last_plan": {
         "source_id": "33071425",
         "display_name": "Drift (2023) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T05:30:31.926677+00:00"
+        "planned_at": "2026-11-22T05:30:35.269542+00:00"
       }
     },
     "5513": {
@@ -242638,5 +242644,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T05:30:31.926695+00:00"
+  "updated_at": "2026-11-22T05:30:36.815554+00:00"
 }
