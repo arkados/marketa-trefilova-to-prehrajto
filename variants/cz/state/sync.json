@@ -121356,7 +121356,7 @@
       "last_plan": {
         "source_id": "33745590",
         "display_name": "Quick Change 1080p CZ Dabing",
-        "planned_at": "2026-11-22T21:46:10.936838+00:00"
+        "planned_at": "2026-11-22T23:30:25.151615+00:00"
       },
       "previous_target_id": "30985055",
       "prepared": {
@@ -121364,6 +121364,12 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-10T18:42:19.166641+00:00",
         "relay_source_id": "33745590"
+      },
+      "claim": {
+        "worker_id": "d1f8e26f82bc4f23bf5d351b80dac58f-shard-0",
+        "claimed_at": "2026-11-22T23:30:26.621225+00:00",
+        "lease_expires_at": "2026-11-23T05:30:26.621225+00:00",
+        "run_id": "45063988883"
       }
     },
     "13361": {
@@ -122174,13 +122180,6 @@
           "source_id": "30988446",
           "target_video_id": "30985416",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:40:27.499428+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30988446",
-          "target_video_id": "30985416",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:06:01.308801+00:00"
         },
         {
@@ -122189,6 +122188,13 @@
           "target_video_id": "30985416",
           "permanent": false,
           "attempted_at": "2026-11-22T21:46:10.189428+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30988446",
+          "target_video_id": "30985416",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:30:27.389387+00:00"
         }
       ],
       "last_plan": {
@@ -205813,7 +205819,7 @@
       "last_plan": {
         "source_id": "27633938",
         "display_name": "Shrink 720p CZ Dabing",
-        "planned_at": "2026-11-22T23:30:22.280101+00:00"
+        "planned_at": "2026-11-22T23:30:25.646332+00:00"
       }
     },
     "3724": {
@@ -247488,5 +247494,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:30:22.280117+00:00"
+  "updated_at": "2026-11-22T23:30:27.389404+00:00"
 }
