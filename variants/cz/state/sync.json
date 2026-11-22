@@ -200371,17 +200371,19 @@
       "attempts": []
     },
     "21778": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28518613",
+          "target_video_id": "31246009",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:42:49.210921+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28518613",
         "display_name": "Tjorven och Skrållan (Tjorven and Skrallan) SD CZ Dabing",
         "planned_at": "2026-11-22T06:41:33.141432+00:00"
-      },
-      "claim": {
-        "worker_id": "d663b84a0fc845e186fc94bd1a64fa80-shard-0",
-        "claimed_at": "2026-11-22T06:41:34.625425+00:00",
-        "lease_expires_at": "2026-11-22T12:41:34.625425+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31246009",
       "prepared": {
@@ -243064,5 +243066,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:42:46.996774+00:00"
+  "updated_at": "2026-11-22T06:42:49.210939+00:00"
 }
