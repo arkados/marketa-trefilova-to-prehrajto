@@ -113734,7 +113734,7 @@
       "last_plan": {
         "source_id": "33349929",
         "display_name": "Annihilation 4K CZ Dabing",
-        "planned_at": "2026-11-22T21:17:55.679064+00:00"
+        "planned_at": "2026-11-22T23:00:17.422909+00:00"
       },
       "previous_target_id": "30984057",
       "prepared": {
@@ -113742,6 +113742,12 @@
         "size_bytes": 4500000000,
         "prepared_at": "2026-11-10T15:21:37.042919+00:00",
         "relay_source_id": "33349929"
+      },
+      "claim": {
+        "worker_id": "ec84837d9f984f9faa972f7a5efd41ed-shard-0",
+        "claimed_at": "2026-11-22T23:00:18.622059+00:00",
+        "lease_expires_at": "2026-11-23T05:00:18.622059+00:00",
+        "run_id": "45063988883"
       }
     },
     "3094": {
@@ -133618,13 +133624,6 @@
           "source_id": "34710904",
           "target_video_id": "30987301",
           "permanent": false,
-          "attempted_at": "2026-11-22T13:11:39.403750+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34710904",
-          "target_video_id": "30987301",
-          "permanent": false,
           "attempted_at": "2026-11-22T14:55:53.713920+00:00"
         },
         {
@@ -133633,6 +133632,13 @@
           "target_video_id": "30987301",
           "permanent": false,
           "attempted_at": "2026-11-22T21:17:59.688395+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34710904",
+          "target_video_id": "30987301",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:00:26.209709+00:00"
         }
       ],
       "last_plan": {
@@ -133646,12 +133652,6 @@
         "size_bytes": 2900000000,
         "prepared_at": "2026-11-11T04:13:03.584487+00:00",
         "relay_source_id": "34710904"
-      },
-      "claim": {
-        "worker_id": "1a34fe4ae05e4589bdbb1872c5a6ba68-shard-0",
-        "claimed_at": "2026-11-22T23:00:12.747988+00:00",
-        "lease_expires_at": "2026-11-23T05:00:12.747988+00:00",
-        "run_id": "45063988883"
       }
     },
     "32273": {
@@ -205579,7 +205579,7 @@
       "last_plan": {
         "source_id": "29472307",
         "display_name": "Hoard 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:00:12.049384+00:00"
+        "planned_at": "2026-11-22T23:00:17.870169+00:00"
       }
     },
     "37143": {
@@ -247299,5 +247299,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:00:15.192069+00:00"
+  "updated_at": "2026-11-22T23:00:26.209731+00:00"
 }
