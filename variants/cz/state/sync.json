@@ -8650,6 +8650,12 @@
         "size_bytes": 4099999999,
         "prepared_at": "2026-10-30T10:42:16.949236+00:00",
         "relay_source_id": "28293597"
+      },
+      "claim": {
+        "worker_id": "e2d8ce5e126a4cc59e98aeae771b7b79-shard-0",
+        "claimed_at": "2026-11-22T10:28:15.637797+00:00",
+        "lease_expires_at": "2026-11-22T16:28:15.637797+00:00",
+        "run_id": "44995678765"
       }
     },
     "29922": {
@@ -136940,13 +136946,6 @@
           "source_id": "34788921",
           "target_video_id": "30987732",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:30:40.665076+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34788921",
-          "target_video_id": "30987732",
-          "permanent": false,
           "attempted_at": "2026-11-22T07:11:25.950232+00:00"
         },
         {
@@ -136955,12 +136954,19 @@
           "target_video_id": "30987732",
           "permanent": false,
           "attempted_at": "2026-11-22T08:53:11.897589+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34788921",
+          "target_video_id": "30987732",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:28:19.293354+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34788921",
         "display_name": "Frona SD CZ Dabing",
-        "planned_at": "2026-11-22T08:53:06.053276+00:00"
+        "planned_at": "2026-11-22T10:28:15.937809+00:00"
       },
       "previous_target_id": "30987732",
       "prepared": {
@@ -201723,7 +201729,7 @@
       "last_plan": {
         "source_id": "29135525",
         "display_name": "Without Apparent Motive 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:28:12.643714+00:00"
+        "planned_at": "2026-11-22T10:28:16.333615+00:00"
       }
     },
     "22946": {
@@ -244145,5 +244151,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:28:12.958876+00:00"
+  "updated_at": "2026-11-22T10:28:19.293371+00:00"
 }
