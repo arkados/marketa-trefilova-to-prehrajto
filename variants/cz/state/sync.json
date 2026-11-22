@@ -131819,13 +131819,6 @@
           "source_id": "24028358",
           "target_video_id": "30987024",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:34:29.461546+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "24028358",
-          "target_video_id": "30987024",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:10:59.759119+00:00"
         },
         {
@@ -131834,6 +131827,13 @@
           "target_video_id": "30987024",
           "permanent": false,
           "attempted_at": "2026-11-22T10:47:17.321450+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "24028358",
+          "target_video_id": "30987024",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:34:45.167064+00:00"
         }
       ],
       "last_plan": {
@@ -131847,12 +131847,6 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T03:22:23.552899+00:00",
         "relay_source_id": "24028358"
-      },
-      "claim": {
-        "worker_id": "171dd54c8c2c44dfb64cfb93649fb08e-shard-0",
-        "claimed_at": "2026-11-22T12:34:42.163801+00:00",
-        "lease_expires_at": "2026-11-22T18:34:42.163801+00:00",
-        "run_id": "45016772727"
       }
     },
     "32082": {
@@ -163986,7 +163980,7 @@
       "last_plan": {
         "source_id": "33734079",
         "display_name": "True Believer 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:47:14.611264+00:00"
+        "planned_at": "2026-11-22T12:34:46.067564+00:00"
       },
       "previous_target_id": "31095813",
       "prepared": {
@@ -202652,11 +202646,16 @@
       "last_plan": {
         "source_id": "29393755",
         "display_name": "The Upper Hand 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:34:39.221490+00:00"
+        "planned_at": "2026-11-22T12:34:46.471637+00:00"
       }
     },
     "9345": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "24730630",
+        "display_name": "Deadly Radio Romance 1080p CZ Dabing",
+        "planned_at": "2026-11-22T12:34:46.712269+00:00"
+      }
     },
     "7909": {
       "attempts": []
@@ -244906,5 +244905,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:34:42.163822+00:00"
+  "updated_at": "2026-11-22T12:34:46.712282+00:00"
 }
