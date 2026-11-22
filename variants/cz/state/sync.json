@@ -113968,13 +113968,6 @@
           "source_id": "34697411",
           "target_video_id": "30984075",
           "permanent": false,
-          "attempted_at": "2026-11-21T21:03:27.356737+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34697411",
-          "target_video_id": "30984075",
-          "permanent": false,
           "attempted_at": "2026-11-22T00:10:58.630154+00:00"
         },
         {
@@ -113983,6 +113976,13 @@
           "target_video_id": "30984075",
           "permanent": false,
           "attempted_at": "2026-11-22T01:44:08.180943+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34697411",
+          "target_video_id": "30984075",
+          "permanent": false,
+          "attempted_at": "2026-11-22T03:29:07.425996+00:00"
         }
       ],
       "last_plan": {
@@ -114855,7 +114855,7 @@
       "last_plan": {
         "source_id": "29864977",
         "display_name": "Enemy 1080p CZ Dabing",
-        "planned_at": "2026-11-22T01:44:07.456249+00:00"
+        "planned_at": "2026-11-22T03:29:05.759854+00:00"
       },
       "previous_target_id": "30984235",
       "prepared": {
@@ -114863,6 +114863,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-10T15:51:44.958648+00:00",
         "relay_source_id": "29864977"
+      },
+      "claim": {
+        "worker_id": "eb8a758df11d48b3b0548be44c0b4aed-shard-0",
+        "claimed_at": "2026-11-22T03:29:06.734653+00:00",
+        "lease_expires_at": "2026-11-22T09:29:06.734653+00:00",
+        "run_id": "44961318741"
       }
     },
     "3126": {
@@ -199210,7 +199216,7 @@
       "last_plan": {
         "source_id": "18920932",
         "display_name": "Along Came Jones SD CZ Dabing",
-        "planned_at": "2026-11-22T03:29:02.705379+00:00"
+        "planned_at": "2026-11-22T03:29:06.120787+00:00"
       }
     },
     "16040": {
@@ -242082,5 +242088,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T03:29:02.993720+00:00"
+  "updated_at": "2026-11-22T03:29:07.426015+00:00"
 }
