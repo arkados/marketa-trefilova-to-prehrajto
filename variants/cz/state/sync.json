@@ -204056,17 +204056,19 @@
       "attempts": []
     },
     "23385": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30547645",
+          "target_video_id": "31255080",
+          "permanent": false,
+          "attempted_at": "2026-11-22T15:21:43.945600+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30547645",
         "display_name": "Geronimo: An American Legend 1080p CZ Dabing",
         "planned_at": "2026-11-22T15:18:23.550215+00:00"
-      },
-      "claim": {
-        "worker_id": "9933bc49bcf5420594d4396a39fd1d97-shard-0",
-        "claimed_at": "2026-11-22T15:18:28.257552+00:00",
-        "lease_expires_at": "2026-11-22T21:18:28.257552+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31255080",
       "prepared": {
@@ -246068,5 +246070,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T15:20:54.808184+00:00"
+  "updated_at": "2026-11-22T15:21:43.945616+00:00"
 }
