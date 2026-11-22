@@ -113624,13 +113624,6 @@
           "source_id": "33199372",
           "target_video_id": "30984053",
           "permanent": false,
-          "attempted_at": "2026-11-21T23:54:31.657962+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33199372",
-          "target_video_id": "30984053",
-          "permanent": false,
           "attempted_at": "2026-11-22T01:27:51.169359+00:00"
         },
         {
@@ -113639,6 +113632,13 @@
           "target_video_id": "30984053",
           "permanent": false,
           "attempted_at": "2026-11-22T02:59:41.896460+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33199372",
+          "target_video_id": "30984053",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:45:41.588464+00:00"
         }
       ],
       "last_plan": {
@@ -189780,7 +189780,7 @@
       "last_plan": {
         "source_id": "14360307",
         "display_name": "Bourák 1080p CZ Dabing",
-        "planned_at": "2026-11-22T02:59:41.388268+00:00"
+        "planned_at": "2026-11-22T04:45:39.445649+00:00"
       },
       "previous_target_id": "31220478",
       "prepared": {
@@ -189788,6 +189788,12 @@
         "size_bytes": 2600000000,
         "prepared_at": "2026-11-21T04:58:40.613169+00:00",
         "relay_source_id": "14360307"
+      },
+      "claim": {
+        "worker_id": "dbae3f58d2024c60ba10743eb002d439-shard-0",
+        "claimed_at": "2026-11-22T04:45:40.420374+00:00",
+        "lease_expires_at": "2026-11-22T10:45:40.420374+00:00",
+        "run_id": "44961318741"
       }
     },
     "18946": {
@@ -199672,7 +199678,7 @@
       "last_plan": {
         "source_id": "28357633",
         "display_name": "Frontera 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:45:36.434156+00:00"
+        "planned_at": "2026-11-22T04:45:39.790051+00:00"
       }
     },
     "30478": {
@@ -242475,5 +242481,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:45:36.434175+00:00"
+  "updated_at": "2026-11-22T04:45:41.588485+00:00"
 }
