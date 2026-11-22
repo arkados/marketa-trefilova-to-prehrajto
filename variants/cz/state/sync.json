@@ -122492,6 +122492,12 @@
         "size_bytes": 3400000000,
         "prepared_at": "2026-11-10T19:19:26.698407+00:00",
         "relay_source_id": "30248781"
+      },
+      "claim": {
+        "worker_id": "32491b97a2cc49448806a1e00769e55a-shard-0",
+        "claimed_at": "2026-11-22T23:51:30.738972+00:00",
+        "lease_expires_at": "2026-11-23T05:51:30.738972+00:00",
+        "run_id": "45063988883"
       }
     },
     "28595": {
@@ -131742,13 +131748,6 @@
           "source_id": "34696372",
           "target_video_id": "30987013",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:02:56.865599+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34696372",
-          "target_video_id": "30987013",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:24:56.171000+00:00"
         },
         {
@@ -131757,6 +131756,13 @@
           "target_video_id": "30987013",
           "permanent": false,
           "attempted_at": "2026-11-22T22:09:56.485969+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34696372",
+          "target_video_id": "30987013",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:51:30.499444+00:00"
         }
       ],
       "last_plan": {
@@ -131770,12 +131776,6 @@
         "size_bytes": 2100000000,
         "prepared_at": "2026-11-11T03:17:04.132000+00:00",
         "relay_source_id": "34696372"
-      },
-      "claim": {
-        "worker_id": "96da97de1c814e19aecc00085a9d9fd8-shard-0",
-        "claimed_at": "2026-11-22T23:51:25.422485+00:00",
-        "lease_expires_at": "2026-11-23T05:51:25.422485+00:00",
-        "run_id": "45063988883"
       }
     },
     "29094": {
@@ -137126,7 +137126,7 @@
       "last_plan": {
         "source_id": "29399903",
         "display_name": "Murder in Angoulême (Le Prix de la trahison) SD CZ Dabing",
-        "planned_at": "2026-11-22T22:09:58.898020+00:00"
+        "planned_at": "2026-11-22T23:51:31.035865+00:00"
       },
       "previous_target_id": "30987744",
       "prepared": {
@@ -205964,7 +205964,7 @@
       "last_plan": {
         "source_id": "30409381",
         "display_name": "Life Hits SD CZ Dabing",
-        "planned_at": "2026-11-22T23:51:27.883942+00:00"
+        "planned_at": "2026-11-22T23:51:31.449241+00:00"
       }
     },
     "34812": {
@@ -247612,5 +247612,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:51:27.883959+00:00"
+  "updated_at": "2026-11-22T23:51:31.449256+00:00"
 }
