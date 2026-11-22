@@ -89910,13 +89910,6 @@
           "source_id": "34880122",
           "target_video_id": "30925382",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:28:45.159949+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34880122",
-          "target_video_id": "30925382",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:05:57.238547+00:00"
         },
         {
@@ -89925,6 +89918,13 @@
           "target_video_id": "30925382",
           "permanent": false,
           "attempted_at": "2026-11-22T07:48:48.354418+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34880122",
+          "target_video_id": "30925382",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:28:01.288813+00:00"
         }
       ],
       "last_plan": {
@@ -141598,7 +141598,7 @@
       "last_plan": {
         "source_id": "34694069",
         "display_name": "Na dvore je kun, séfe! (Na dvoře je kůň, šéfe!) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:48:46.800827+00:00"
+        "planned_at": "2026-11-22T09:27:59.423764+00:00"
       },
       "previous_target_id": "30988245",
       "prepared": {
@@ -141606,6 +141606,12 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T07:57:46.666018+00:00",
         "relay_source_id": "34694069"
+      },
+      "claim": {
+        "worker_id": "91bea80034fd42838858f3042735fe41-shard-0",
+        "claimed_at": "2026-11-22T09:28:01.010639+00:00",
+        "lease_expires_at": "2026-11-22T15:28:01.010639+00:00",
+        "run_id": "44995678765"
       }
     },
     "17285": {
@@ -201291,7 +201297,13 @@
       "last_plan": {
         "source_id": "12119955",
         "display_name": "The Swan Princess: Kingdom of Music 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:27:55.804049+00:00"
+        "planned_at": "2026-11-22T09:27:59.800946+00:00"
+      },
+      "claim": {
+        "worker_id": "8df03dc580fa4611a4f7f531241131c2-shard-0",
+        "claimed_at": "2026-11-22T09:28:00.791730+00:00",
+        "lease_expires_at": "2026-11-22T15:28:00.791730+00:00",
+        "run_id": "44995678765"
       }
     },
     "27933": {
@@ -201301,7 +201313,12 @@
       "attempts": []
     },
     "35205": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30799675",
+        "display_name": "Le Battant 1080p CZ Dabing",
+        "planned_at": "2026-11-22T09:28:00.072302+00:00"
+      }
     },
     "24129": {
       "attempts": []
@@ -243818,5 +243835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:27:56.094838+00:00"
+  "updated_at": "2026-11-22T09:28:01.288831+00:00"
 }
