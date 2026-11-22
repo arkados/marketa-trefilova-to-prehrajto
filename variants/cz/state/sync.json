@@ -145913,13 +145913,6 @@
           "source_id": "30629482",
           "target_video_id": "30992604",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:06:30.022255+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "30629482",
-          "target_video_id": "30992604",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:28:09.857201+00:00"
         },
         {
@@ -145928,12 +145921,19 @@
           "target_video_id": "30992604",
           "permanent": false,
           "attempted_at": "2026-11-22T22:12:30.496147+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "30629482",
+          "target_video_id": "30992604",
+          "permanent": false,
+          "attempted_at": "2026-11-22T23:54:20.641027+00:00"
         }
       ],
       "last_plan": {
         "source_id": "30629482",
         "display_name": "Little Fatty (Metráček) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:12:24.176974+00:00"
+        "planned_at": "2026-11-22T23:54:15.233637+00:00"
       },
       "previous_target_id": "30992604",
       "prepared": {
@@ -206014,11 +206014,22 @@
       "last_plan": {
         "source_id": "13761438",
         "display_name": "Plus One 1080p CZ Dabing",
-        "planned_at": "2026-11-22T23:54:06.430107+00:00"
+        "planned_at": "2026-11-22T23:54:15.669936+00:00"
+      },
+      "claim": {
+        "worker_id": "87109bd0c40d40c78e6c1432dd2eca0d-shard-0",
+        "claimed_at": "2026-11-22T23:54:16.641299+00:00",
+        "lease_expires_at": "2026-11-23T05:54:16.641299+00:00",
+        "run_id": "45063988883"
       }
     },
     "4381": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33646845",
+        "display_name": "Man of the East (E poi lo chiamarono il magnifico) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T23:54:15.931278+00:00"
+      }
     },
     "3770": {
       "attempts": []
@@ -247650,5 +247661,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T23:54:11.747761+00:00"
+  "updated_at": "2026-11-22T23:54:20.641045+00:00"
 }
