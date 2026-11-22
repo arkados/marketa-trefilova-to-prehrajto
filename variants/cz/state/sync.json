@@ -120084,13 +120084,6 @@
           "source_id": "33677451",
           "target_video_id": "30984982",
           "permanent": false,
-          "attempted_at": "2026-11-22T02:51:55.081587+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33677451",
-          "target_video_id": "30984982",
-          "permanent": false,
           "attempted_at": "2026-11-22T04:38:01.329959+00:00"
         },
         {
@@ -120099,6 +120092,13 @@
           "target_video_id": "30984982",
           "permanent": false,
           "attempted_at": "2026-11-22T06:15:23.487835+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33677451",
+          "target_video_id": "30984982",
+          "permanent": false,
+          "attempted_at": "2026-11-22T08:00:43.520644+00:00"
         }
       ],
       "last_plan": {
@@ -143728,7 +143728,7 @@
       "last_plan": {
         "source_id": "30863894",
         "display_name": "The Pilgrimage to the Holy Virgin SD CZ Dabing",
-        "planned_at": "2026-11-22T06:15:22.026574+00:00"
+        "planned_at": "2026-11-22T08:00:41.408542+00:00"
       },
       "previous_target_id": "30988657",
       "prepared": {
@@ -143736,6 +143736,12 @@
         "size_bytes": 1000000000,
         "prepared_at": "2026-11-11T09:06:16.913258+00:00",
         "relay_source_id": "30863894"
+      },
+      "claim": {
+        "worker_id": "1b8885406d454f5c869c5c35766d67cd-shard-0",
+        "claimed_at": "2026-11-22T08:00:42.734999+00:00",
+        "lease_expires_at": "2026-11-22T14:00:42.734999+00:00",
+        "run_id": "44995678765"
       }
     },
     "12663": {
@@ -200864,11 +200870,22 @@
       "last_plan": {
         "source_id": "32325018",
         "display_name": "Julie Keeps Quiet (Julie zwijgt) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:00:37.348752+00:00"
+        "planned_at": "2026-11-22T08:00:41.775912+00:00"
+      },
+      "claim": {
+        "worker_id": "8c0f544632984d73b59445a471988ec6-shard-0",
+        "claimed_at": "2026-11-22T08:00:42.975264+00:00",
+        "lease_expires_at": "2026-11-22T14:00:42.975264+00:00",
+        "run_id": "44995678765"
       }
     },
     "13242": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34083908",
+        "display_name": "Barbie as Rapunzel 720p CZ Dabing",
+        "planned_at": "2026-11-22T08:00:42.040811+00:00"
+      }
     },
     "22630": {
       "attempts": []
@@ -243448,5 +243465,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T08:00:37.624495+00:00"
+  "updated_at": "2026-11-22T08:00:43.520662+00:00"
 }
