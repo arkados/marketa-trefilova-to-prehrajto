@@ -201893,17 +201893,19 @@
       }
     },
     "33317": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12108746",
+          "target_video_id": "31250493",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:59:55.467120+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12108746",
         "display_name": "A Case of Honor SD CZ Dabing",
         "planned_at": "2026-11-22T10:58:30.052656+00:00"
-      },
-      "claim": {
-        "worker_id": "05e63c3bb0b14de181b76bd89fcacbe2-shard-0",
-        "claimed_at": "2026-11-22T10:58:31.456635+00:00",
-        "lease_expires_at": "2026-11-22T16:58:31.456635+00:00",
-        "run_id": "44995678765"
       },
       "previous_target_id": "31250493",
       "prepared": {
@@ -244322,5 +244324,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:59:52.818407+00:00"
+  "updated_at": "2026-11-22T10:59:55.467138+00:00"
 }
