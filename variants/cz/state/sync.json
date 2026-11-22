@@ -133050,6 +133050,12 @@
         "size_bytes": 1500000000,
         "prepared_at": "2026-11-11T03:56:55.465680+00:00",
         "relay_source_id": "30251989"
+      },
+      "claim": {
+        "worker_id": "74ff1fdef0a84ff5b6be68bbce2cd06b-shard-0",
+        "claimed_at": "2026-11-22T02:22:36.179545+00:00",
+        "lease_expires_at": "2026-11-22T08:22:36.179545+00:00",
+        "run_id": "44959851294"
       }
     },
     "31944": {
@@ -137251,13 +137257,6 @@
           "source_id": "33063567",
           "target_video_id": "30987763",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:11:03.619656+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33063567",
-          "target_video_id": "30987763",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:19:00.269878+00:00"
         },
         {
@@ -137266,6 +137265,13 @@
           "target_video_id": "30987763",
           "permanent": false,
           "attempted_at": "2026-11-22T00:49:46.145326+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33063567",
+          "target_video_id": "30987763",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:22:35.876881+00:00"
         }
       ],
       "last_plan": {
@@ -137279,12 +137285,6 @@
         "size_bytes": 1800000000,
         "prepared_at": "2026-11-11T05:57:30.506123+00:00",
         "relay_source_id": "33063567"
-      },
-      "claim": {
-        "worker_id": "60312a8ab07c47c1936c0596d48a53df-shard-0",
-        "claimed_at": "2026-11-22T02:22:32.690121+00:00",
-        "lease_expires_at": "2026-11-22T08:22:32.690121+00:00",
-        "run_id": "44959851294"
       }
     },
     "15334": {
@@ -142943,7 +142943,7 @@
       "last_plan": {
         "source_id": "33810961",
         "display_name": "Die Geschichte von der Gänseprinzessin und ihrem treuen Pferd Falada (The Goose Princess) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:49:49.379015+00:00"
+        "planned_at": "2026-11-22T02:22:36.469297+00:00"
       },
       "previous_target_id": "30988570",
       "prepared": {
@@ -198799,7 +198799,7 @@
       "last_plan": {
         "source_id": "29387268",
         "display_name": "Sometimes I Think About Dying 720p CZ Dabing",
-        "planned_at": "2026-11-22T02:22:33.356952+00:00"
+        "planned_at": "2026-11-22T02:22:36.847179+00:00"
       }
     },
     "11087": {
@@ -241743,5 +241743,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:22:33.356972+00:00"
+  "updated_at": "2026-11-22T02:22:36.847197+00:00"
 }
