@@ -39130,6 +39130,12 @@
         "size_bytes": 5000000000,
         "prepared_at": "2026-11-03T00:24:04.738396+00:00",
         "relay_source_id": "34784954"
+      },
+      "claim": {
+        "worker_id": "fe35cccec8564f23a517bffbb128a456-shard-0",
+        "claimed_at": "2026-11-22T02:22:10.064132+00:00",
+        "lease_expires_at": "2026-11-22T08:22:10.064132+00:00",
+        "run_id": "44959851294"
       }
     },
     "17605": {
@@ -110287,13 +110293,6 @@
           "source_id": "29985485",
           "target_video_id": "30983701",
           "permanent": false,
-          "attempted_at": "2026-11-21T20:10:37.427549+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "29985485",
-          "target_video_id": "30983701",
-          "permanent": false,
           "attempted_at": "2026-11-21T23:18:30.463831+00:00"
         },
         {
@@ -110302,6 +110301,13 @@
           "target_video_id": "30983701",
           "permanent": false,
           "attempted_at": "2026-11-22T00:49:17.727182+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "29985485",
+          "target_video_id": "30983701",
+          "permanent": false,
+          "attempted_at": "2026-11-22T02:22:09.819955+00:00"
         }
       ],
       "last_plan": {
@@ -110315,12 +110321,6 @@
         "size_bytes": 3100000000,
         "prepared_at": "2026-11-10T14:37:01.008970+00:00",
         "relay_source_id": "29985485"
-      },
-      "claim": {
-        "worker_id": "7212bb015e8e49499f24db4103f73ca0-shard-0",
-        "claimed_at": "2026-11-22T02:22:06.228116+00:00",
-        "lease_expires_at": "2026-11-22T08:22:06.228116+00:00",
-        "run_id": "44959851294"
       }
     },
     "27191": {
@@ -185387,7 +185387,7 @@
       "last_plan": {
         "source_id": "25834193",
         "display_name": "Shoky & Morthy: Last Big Thing (Shoky & Morthy: Poslední velká akce) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T00:49:20.950925+00:00"
+        "planned_at": "2026-11-22T02:22:10.358213+00:00"
       },
       "previous_target_id": "31206308",
       "prepared": {
@@ -198799,7 +198799,7 @@
       "last_plan": {
         "source_id": "29387268",
         "display_name": "Sometimes I Think About Dying 720p CZ Dabing",
-        "planned_at": "2026-11-22T02:22:07.239984+00:00"
+        "planned_at": "2026-11-22T02:22:10.734141+00:00"
       }
     },
     "11087": {
@@ -241743,5 +241743,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T02:22:07.240004+00:00"
+  "updated_at": "2026-11-22T02:22:10.734161+00:00"
 }
