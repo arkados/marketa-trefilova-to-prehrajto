@@ -107457,13 +107457,6 @@
           "source_id": "34709346",
           "target_video_id": "30983103",
           "permanent": false,
-          "attempted_at": "2026-11-22T04:55:36.949202+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34709346",
-          "target_video_id": "30983103",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:33:14.416380+00:00"
         },
         {
@@ -107472,6 +107465,13 @@
           "target_video_id": "30983103",
           "permanent": false,
           "attempted_at": "2026-11-22T08:15:26.325521+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34709346",
+          "target_video_id": "30983103",
+          "permanent": false,
+          "attempted_at": "2026-11-22T09:55:00.782571+00:00"
         }
       ],
       "last_plan": {
@@ -107485,12 +107485,6 @@
         "size_bytes": 1600000000,
         "prepared_at": "2026-11-10T13:51:43.579952+00:00",
         "relay_source_id": "34709346"
-      },
-      "claim": {
-        "worker_id": "d6d988ea029445e6a43681d8c2826213-shard-0",
-        "claimed_at": "2026-11-22T09:54:57.106121+00:00",
-        "lease_expires_at": "2026-11-22T15:54:57.106121+00:00",
-        "run_id": "44995678765"
       }
     },
     "31325": {
@@ -125148,7 +125142,7 @@
       "last_plan": {
         "source_id": "26655410",
         "display_name": "Tom of Finland 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:15:24.338143+00:00"
+        "planned_at": "2026-11-22T09:55:01.031206+00:00"
       },
       "previous_target_id": "30985777",
       "prepared": {
@@ -201502,7 +201496,7 @@
       "last_plan": {
         "source_id": "12471901",
         "display_name": "X - The eXploited (X – A rendszerből törölve) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:54:54.181320+00:00"
+        "planned_at": "2026-11-22T09:55:01.400892+00:00"
       }
     },
     "13357": {
@@ -201512,7 +201506,12 @@
       "attempts": []
     },
     "3767": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32023648",
+        "display_name": "The Balkan Line (Balkanskiy rubezh) 1080p CZ Dabing",
+        "planned_at": "2026-11-22T09:55:01.622087+00:00"
+      }
     },
     "35313": {
       "attempts": []
@@ -243981,5 +243980,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:54:57.106155+00:00"
+  "updated_at": "2026-11-22T09:55:01.622103+00:00"
 }
