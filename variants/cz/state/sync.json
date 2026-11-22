@@ -74894,7 +74894,7 @@
       "last_plan": {
         "source_id": "31379501",
         "display_name": "Long Live Ghosts! (Ať žijí duchové!) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:13:26.242992+00:00"
+        "planned_at": "2026-11-22T10:49:23.143172+00:00"
       },
       "previous_target_id": "30885416",
       "prepared": {
@@ -74902,6 +74902,12 @@
         "size_bytes": 2000000000,
         "prepared_at": "2026-11-07T08:02:43.047319+00:00",
         "relay_source_id": "31379501"
+      },
+      "claim": {
+        "worker_id": "afc279f6ca444d6ba51005f90ee5cf8a-shard-0",
+        "claimed_at": "2026-11-22T10:49:24.503992+00:00",
+        "lease_expires_at": "2026-11-22T16:49:24.503992+00:00",
+        "run_id": "44995678765"
       }
     },
     "25458": {
@@ -141226,13 +141232,6 @@
           "source_id": "34756339",
           "target_video_id": "30988204",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:52:55.551473+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34756339",
-          "target_video_id": "30988204",
-          "permanent": false,
           "attempted_at": "2026-11-22T07:36:27.925723+00:00"
         },
         {
@@ -141241,6 +141240,13 @@
           "target_video_id": "30988204",
           "permanent": false,
           "attempted_at": "2026-11-22T09:13:28.199624+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34756339",
+          "target_video_id": "30988204",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:49:25.020154+00:00"
         }
       ],
       "last_plan": {
@@ -201833,11 +201839,22 @@
       "last_plan": {
         "source_id": "34935956",
         "display_name": "Black Beauty (1994) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:49:16.529750+00:00"
+        "planned_at": "2026-11-22T10:49:23.519537+00:00"
+      },
+      "claim": {
+        "worker_id": "defeb2f55a6647a288f8eaa86b321608-shard-0",
+        "claimed_at": "2026-11-22T10:49:24.726599+00:00",
+        "lease_expires_at": "2026-11-22T16:49:24.726599+00:00",
+        "run_id": "44995678765"
       }
     },
     "15436": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34866905",
+        "display_name": "Bastardi II (Bastardi 2) 720p CZ Dabing",
+        "planned_at": "2026-11-22T10:49:23.785688+00:00"
+      }
     },
     "33317": {
       "attempts": []
@@ -244246,5 +244263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:49:20.287773+00:00"
+  "updated_at": "2026-11-22T10:49:25.020179+00:00"
 }
