@@ -80575,13 +80575,6 @@
           "source_id": "28771706",
           "target_video_id": "30899097",
           "permanent": false,
-          "attempted_at": "2026-11-22T07:25:11.879242+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "28771706",
-          "target_video_id": "30899097",
-          "permanent": false,
           "attempted_at": "2026-11-22T09:01:44.499818+00:00"
         },
         {
@@ -80590,6 +80583,13 @@
           "target_video_id": "30899097",
           "permanent": false,
           "attempted_at": "2026-11-22T10:37:41.392966+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "28771706",
+          "target_video_id": "30899097",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:25:05.556598+00:00"
         }
       ],
       "last_plan": {
@@ -181564,7 +181564,7 @@
       "last_plan": {
         "source_id": "11919025",
         "display_name": "Ransom (1996) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:37:42.065188+00:00"
+        "planned_at": "2026-11-22T12:25:03.806899+00:00"
       },
       "previous_target_id": "31191067",
       "prepared": {
@@ -181572,6 +181572,12 @@
         "size_bytes": 2700000000,
         "prepared_at": "2026-11-19T21:49:16.920631+00:00",
         "relay_source_id": "11919025"
+      },
+      "claim": {
+        "worker_id": "4feb4f90e9254b2f99c8225ad57f8176-shard-0",
+        "claimed_at": "2026-11-22T12:25:05.260987+00:00",
+        "lease_expires_at": "2026-11-22T18:25:05.260987+00:00",
+        "run_id": "45016772727"
       }
     },
     "19515": {
@@ -202576,7 +202582,13 @@
       "last_plan": {
         "source_id": "34788314",
         "display_name": "Rough Night in Jericho SD CZ Dabing",
-        "planned_at": "2026-11-22T12:25:00.241895+00:00"
+        "planned_at": "2026-11-22T12:25:04.203521+00:00"
+      },
+      "claim": {
+        "worker_id": "89df5ee65f2440e7952b095f48feeb18-shard-0",
+        "claimed_at": "2026-11-22T12:25:05.791936+00:00",
+        "lease_expires_at": "2026-11-22T18:25:05.791936+00:00",
+        "run_id": "45016772727"
       }
     },
     "14446": {
@@ -202590,7 +202602,7 @@
       "last_plan": {
         "source_id": "34876843",
         "display_name": "Fifty (Padesátka) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T12:24:45.941034+00:00"
+        "planned_at": "2026-11-22T12:25:04.496410+00:00"
       }
     },
     "32120": {
@@ -244853,5 +244865,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:25:00.241912+00:00"
+  "updated_at": "2026-11-22T12:25:05.791965+00:00"
 }
