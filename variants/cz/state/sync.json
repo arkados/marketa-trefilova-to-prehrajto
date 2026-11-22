@@ -199380,17 +199380,19 @@
       "attempts": []
     },
     "3648": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30865074",
+          "target_video_id": "31243411",
+          "permanent": false,
+          "attempted_at": "2026-11-22T04:06:58.100618+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30865074",
         "display_name": "The Roundup: No Way Out (BeomJoeDoSi 3) 1080p CZ Dabing",
         "planned_at": "2026-11-22T04:03:50.933967+00:00"
-      },
-      "claim": {
-        "worker_id": "c6f44788ad114f34b3692f57366b3dc9-shard-0",
-        "claimed_at": "2026-11-22T04:03:53.971904+00:00",
-        "lease_expires_at": "2026-11-22T10:03:53.971904+00:00",
-        "run_id": "44961318741"
       },
       "previous_target_id": "31243411",
       "prepared": {
@@ -242253,5 +242255,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T04:06:55.182130+00:00"
+  "updated_at": "2026-11-22T04:06:58.100640+00:00"
 }
