@@ -142742,6 +142742,12 @@
         "size_bytes": 4900000000,
         "prepared_at": "2026-11-11T08:39:49.629793+00:00",
         "relay_source_id": "35210758"
+      },
+      "claim": {
+        "worker_id": "f0f708fc82894d07a526227df485353f-shard-0",
+        "claimed_at": "2026-11-22T12:19:22.729850+00:00",
+        "lease_expires_at": "2026-11-22T18:19:22.729850+00:00",
+        "run_id": "45016772727"
       }
     },
     "18078": {
@@ -202491,17 +202497,19 @@
       "attempts": []
     },
     "34092": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12786502",
+          "target_video_id": "31251506",
+          "permanent": false,
+          "attempted_at": "2026-11-22T12:19:24.128745+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12786502",
         "display_name": "Debbie Macomber's Dashing Through the Snow 4K CZ Dabing",
         "planned_at": "2026-11-22T11:58:41.145895+00:00"
-      },
-      "claim": {
-        "worker_id": "fe6e6b52c3a546b9bd1d3547e499e1d0-shard-0",
-        "claimed_at": "2026-11-22T11:58:44.486782+00:00",
-        "lease_expires_at": "2026-11-22T17:58:44.486782+00:00",
-        "run_id": "45016772727"
       },
       "previous_target_id": "31251506",
       "prepared": {
@@ -244826,5 +244834,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T12:19:19.986610+00:00"
+  "updated_at": "2026-11-22T12:19:24.128770+00:00"
 }
