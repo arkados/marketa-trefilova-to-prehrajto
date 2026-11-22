@@ -110593,7 +110593,7 @@
       "last_plan": {
         "source_id": "35184124",
         "display_name": "Ticket to the Memorial 1080p CZ Dabing",
-        "planned_at": "2026-11-22T07:48:54.705016+00:00"
+        "planned_at": "2026-11-22T09:28:10.501062+00:00"
       },
       "previous_target_id": "30983741",
       "prepared": {
@@ -110601,6 +110601,12 @@
         "size_bytes": 4000000000,
         "prepared_at": "2026-11-10T14:41:32.659404+00:00",
         "relay_source_id": "35184124"
+      },
+      "claim": {
+        "worker_id": "fd3a56d1c12a44969f0087effabfe232-shard-0",
+        "claimed_at": "2026-11-22T09:28:11.596820+00:00",
+        "lease_expires_at": "2026-11-22T15:28:11.596820+00:00",
+        "run_id": "44995678765"
       }
     },
     "35511": {
@@ -196179,17 +196185,23 @@
           "attempted_at": "2026-11-22T07:48:56.350034+00:00"
         }
       ],
-      "last_plan": {
-        "source_id": "34083095",
-        "display_name": "Joint Custody (Chlap na střídačku) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:28:03.571450+00:00"
-      },
       "previous_target_id": "31234365",
-      "prepared": {
+      "upload": {
         "target_video_id": "31234365",
+        "display_name": "Joint Custody (Chlap na střídačku) 1080p CZ Dabing",
+        "source_id": "34083095",
+        "source_url": "https://sdilej.cz/34083095/2020-chlap-na-stridacku-komedie-49-.mkv",
+        "source_filename": "2020 - Chlap na střídačku - Komedie - 49%.mkv",
         "size_bytes": 2400000000,
-        "prepared_at": "2026-11-21T18:49:51.575251+00:00",
-        "relay_source_id": "34083095"
+        "width": 1916,
+        "height": 1076,
+        "audio_language": "cs",
+        "language_probability": 0.9228557348251343,
+        "language_tier": "czech_audio",
+        "needs_czech_subtitles": false,
+        "completion_evidence": "reconciled_owned_prepared",
+        "detail_url": "https://prehraj.to/joint-custody-chlap-na-stridacku-1080p-cz-dabing-mkv/0ff46c43b2e1ad3c",
+        "uploaded_at": "2026-11-22T09:28:11.868918+00:00"
       }
     },
     "4175": {
@@ -201318,7 +201330,7 @@
       "last_plan": {
         "source_id": "30799675",
         "display_name": "Le Battant 1080p CZ Dabing",
-        "planned_at": "2026-11-22T09:28:03.945623+00:00"
+        "planned_at": "2026-11-22T09:28:10.877884+00:00"
       }
     },
     "24129": {
@@ -243836,5 +243848,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T09:28:06.989832+00:00"
+  "updated_at": "2026-11-22T09:28:11.868932+00:00"
 }
