@@ -82729,13 +82729,6 @@
           "source_id": "34668514",
           "target_video_id": "30908812",
           "permanent": false,
-          "attempted_at": "2026-11-22T10:58:12.545506+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34668514",
-          "target_video_id": "30908812",
-          "permanent": false,
           "attempted_at": "2026-11-22T12:42:54.618530+00:00"
         },
         {
@@ -82744,6 +82737,13 @@
           "target_video_id": "30908812",
           "permanent": false,
           "attempted_at": "2026-11-22T14:27:01.611847+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34668514",
+          "target_video_id": "30908812",
+          "permanent": false,
+          "attempted_at": "2026-11-22T20:48:10.357908+00:00"
         }
       ],
       "last_plan": {
@@ -84005,7 +84005,7 @@
       "last_plan": {
         "source_id": "30859189",
         "display_name": "Snack Shack 1080p CZ Dabing",
-        "planned_at": "2026-11-22T14:27:00.790516+00:00"
+        "planned_at": "2026-11-22T20:48:08.688281+00:00"
       },
       "previous_target_id": "30915737",
       "prepared": {
@@ -84013,6 +84013,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-08T11:13:22.427450+00:00",
         "relay_source_id": "30859189"
+      },
+      "claim": {
+        "worker_id": "501eeb83f86642b182f0bbad0c792da2-shard-0",
+        "claimed_at": "2026-11-22T20:48:09.993845+00:00",
+        "lease_expires_at": "2026-11-23T02:48:09.993845+00:00",
+        "run_id": "45063988883"
       }
     },
     "2309": {
@@ -204447,7 +204453,7 @@
       "last_plan": {
         "source_id": "32957610",
         "display_name": "Paint It Gold (Un coup de maître) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T20:48:05.318237+00:00"
+        "planned_at": "2026-11-22T20:48:09.133710+00:00"
       }
     },
     "3710": {
@@ -246380,5 +246386,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T20:48:05.892155+00:00"
+  "updated_at": "2026-11-22T20:48:10.357925+00:00"
 }
