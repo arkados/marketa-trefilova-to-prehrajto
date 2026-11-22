@@ -133889,13 +133889,6 @@
           "source_id": "27788170",
           "target_video_id": "30987333",
           "permanent": false,
-          "attempted_at": "2026-11-22T05:03:54.493277+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "27788170",
-          "target_video_id": "30987333",
-          "permanent": false,
           "attempted_at": "2026-11-22T06:43:13.598634+00:00"
         },
         {
@@ -133904,6 +133897,13 @@
           "target_video_id": "30987333",
           "permanent": false,
           "attempted_at": "2026-11-22T08:26:26.029462+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "27788170",
+          "target_video_id": "30987333",
+          "permanent": false,
+          "attempted_at": "2026-11-22T10:03:18.855407+00:00"
         }
       ],
       "last_plan": {
@@ -140214,7 +140214,7 @@
       "last_plan": {
         "source_id": "34668881",
         "display_name": "D2: Train to the End of the World (D2 – Vlakem až na konec světa) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T08:26:25.347157+00:00"
+        "planned_at": "2026-11-22T10:03:16.897905+00:00"
       },
       "previous_target_id": "30988044",
       "prepared": {
@@ -140222,6 +140222,12 @@
         "size_bytes": 2800000000,
         "prepared_at": "2026-11-11T07:21:06.525556+00:00",
         "relay_source_id": "34668881"
+      },
+      "claim": {
+        "worker_id": "ef8b1b4508c04b5d90462cfc8d731043-shard-0",
+        "claimed_at": "2026-11-22T10:03:18.013313+00:00",
+        "lease_expires_at": "2026-11-22T16:03:18.013313+00:00",
+        "run_id": "44995678765"
       }
     },
     "33968": {
@@ -201564,7 +201570,7 @@
       "last_plan": {
         "source_id": "33393903",
         "display_name": "La Carapate 1080p CZ Dabing",
-        "planned_at": "2026-11-22T10:03:13.403219+00:00"
+        "planned_at": "2026-11-22T10:03:17.279019+00:00"
       }
     },
     "17255": {
@@ -244025,5 +244031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:03:13.711287+00:00"
+  "updated_at": "2026-11-22T10:03:18.855438+00:00"
 }
