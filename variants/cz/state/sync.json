@@ -124195,13 +124195,6 @@
           "source_id": "33873702",
           "target_video_id": "30985656",
           "permanent": false,
-          "attempted_at": "2026-11-22T01:32:46.559477+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33873702",
-          "target_video_id": "30985656",
-          "permanent": false,
           "attempted_at": "2026-11-22T03:19:36.890070+00:00"
         },
         {
@@ -124210,6 +124203,13 @@
           "target_video_id": "30985656",
           "permanent": false,
           "attempted_at": "2026-11-22T04:54:18.721407+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33873702",
+          "target_video_id": "30985656",
+          "permanent": false,
+          "attempted_at": "2026-11-22T06:31:58.795155+00:00"
         }
       ],
       "last_plan": {
@@ -172452,7 +172452,7 @@
       "last_plan": {
         "source_id": "34749651",
         "display_name": "The Entity 1080p CZ Dabing",
-        "planned_at": "2026-11-22T04:54:19.348686+00:00"
+        "planned_at": "2026-11-22T06:31:56.734465+00:00"
       },
       "previous_target_id": "31136100",
       "prepared": {
@@ -172460,6 +172460,12 @@
         "size_bytes": 2400000000,
         "prepared_at": "2026-11-18T01:32:50.015518+00:00",
         "relay_source_id": "34749651"
+      },
+      "claim": {
+        "worker_id": "15c06ec8e5d240f78c8753326cdf75be-shard-0",
+        "claimed_at": "2026-11-22T06:31:57.675689+00:00",
+        "lease_expires_at": "2026-11-22T12:31:57.675689+00:00",
+        "run_id": "44961318741"
       }
     },
     "33097": {
@@ -200330,7 +200336,7 @@
       "last_plan": {
         "source_id": "29955764",
         "display_name": "Remote Danger (Secrets in the Wilderness) 1080p CZ Dabing",
-        "planned_at": "2026-11-22T06:31:53.288507+00:00"
+        "planned_at": "2026-11-22T06:31:57.083998+00:00"
       }
     },
     "34620": {
@@ -243007,5 +243013,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:31:53.288525+00:00"
+  "updated_at": "2026-11-22T06:31:58.795175+00:00"
 }
