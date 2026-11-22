@@ -108833,13 +108833,6 @@
           "source_id": "34783018",
           "target_video_id": "30983586",
           "permanent": false,
-          "attempted_at": "2026-11-21T19:04:42.854381+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34783018",
-          "target_video_id": "30983586",
-          "permanent": false,
           "attempted_at": "2026-11-21T20:37:47.737299+00:00"
         },
         {
@@ -108848,6 +108841,13 @@
           "target_video_id": "30983586",
           "permanent": false,
           "attempted_at": "2026-11-21T23:46:32.048910+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34783018",
+          "target_video_id": "30983586",
+          "permanent": false,
+          "attempted_at": "2026-11-22T01:19:04.774563+00:00"
         }
       ],
       "last_plan": {
@@ -122792,7 +122792,7 @@
       "last_plan": {
         "source_id": "35374576",
         "display_name": "The Wild Geese 1080p CZ Dabing",
-        "planned_at": "2026-11-21T23:46:31.696979+00:00"
+        "planned_at": "2026-11-22T01:19:03.141789+00:00"
       },
       "previous_target_id": "30985473",
       "prepared": {
@@ -122800,6 +122800,12 @@
         "size_bytes": 4600000000,
         "prepared_at": "2026-11-10T19:30:18.003095+00:00",
         "relay_source_id": "35374576"
+      },
+      "claim": {
+        "worker_id": "4f7b9aff1b914824883ee2b12b939323-shard-0",
+        "claimed_at": "2026-11-22T01:19:04.317655+00:00",
+        "lease_expires_at": "2026-11-22T07:19:04.317655+00:00",
+        "run_id": "44959851294"
       }
     },
     "22415": {
@@ -198294,7 +198300,7 @@
       "last_plan": {
         "source_id": "28232720",
         "display_name": "The Chapel 720p CZ Dabing",
-        "planned_at": "2026-11-22T01:18:58.681375+00:00"
+        "planned_at": "2026-11-22T01:19:03.557176+00:00"
       }
     },
     "19946": {
@@ -241310,5 +241316,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-22T01:18:59.012414+00:00"
+  "updated_at": "2026-11-22T01:19:04.774584+00:00"
 }
