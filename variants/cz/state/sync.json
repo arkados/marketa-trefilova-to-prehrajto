@@ -213414,17 +213414,19 @@
       }
     },
     "3688": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32941480",
+          "target_video_id": "31283221",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:24:16.494642+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32941480",
         "display_name": "The Pale Blue Eye 4K CZ Dabing",
         "planned_at": "2026-11-23T11:14:51.430144+00:00"
-      },
-      "claim": {
-        "worker_id": "7309abab906e4c4a8dbc3bcfea5b0db7-shard-0",
-        "claimed_at": "2026-11-23T11:14:52.314446+00:00",
-        "lease_expires_at": "2026-11-23T17:14:52.314446+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283221",
       "prepared": {
@@ -253667,5 +253669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:22:54.003153+00:00"
+  "updated_at": "2026-11-23T11:24:16.494657+00:00"
 }
