@@ -211029,17 +211029,19 @@
       "attempts": []
     },
     "16887": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13054070",
+          "target_video_id": "31274219",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:04:45.656781+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13054070",
         "display_name": "Moglie e marito 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:57:11.747265+00:00"
-      },
-      "claim": {
-        "worker_id": "cb0571ba87b748bb8c702d3a300e2a98-shard-0",
-        "claimed_at": "2026-11-23T05:57:12.177385+00:00",
-        "lease_expires_at": "2026-11-23T11:57:12.177385+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274219",
       "prepared": {
@@ -251646,5 +251648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:03:48.616949+00:00"
+  "updated_at": "2026-11-23T06:04:45.656800+00:00"
 }
