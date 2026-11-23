@@ -220681,17 +220681,19 @@
       "attempts": []
     },
     "10229": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31501302",
+          "target_video_id": "31306771",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:21:26.717873+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31501302",
         "display_name": "Spindl (Špindl) 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:18:32.755261+00:00"
-      },
-      "claim": {
-        "worker_id": "8212809a7e124d85a8fbad1287d1edd2-shard-0",
-        "claimed_at": "2026-11-23T21:18:33.977271+00:00",
-        "lease_expires_at": "2026-11-24T03:18:33.977271+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306771",
       "prepared": {
@@ -259307,5 +259309,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:18:37.915379+00:00"
+  "updated_at": "2026-11-23T21:21:26.717890+00:00"
 }
