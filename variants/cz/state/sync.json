@@ -221772,17 +221772,19 @@
       }
     },
     "16288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34105129",
+          "target_video_id": "31309712",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:13:32.685293+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34105129",
         "display_name": "Pimp My Bride (L'heureuse élue) 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:08:22.427408+00:00"
-      },
-      "claim": {
-        "worker_id": "a3f8b7ed965241909141511617a52abb-shard-0",
-        "claimed_at": "2026-11-23T23:08:22.869505+00:00",
-        "lease_expires_at": "2026-11-24T05:08:22.869505+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31309712",
       "prepared": {
@@ -260184,5 +260186,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:13:16.665027+00:00"
+  "updated_at": "2026-11-23T23:13:32.685312+00:00"
 }
