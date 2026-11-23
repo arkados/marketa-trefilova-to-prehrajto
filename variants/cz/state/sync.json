@@ -220828,17 +220828,19 @@
       "attempts": []
     },
     "9483": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28659712",
+          "target_video_id": "31307063",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:31:20.562133+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28659712",
         "display_name": "ONEMANSHOW: The Movie 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:26:25.422243+00:00"
-      },
-      "claim": {
-        "worker_id": "753aa2b8c47b4423938c54b5d1c29023-shard-0",
-        "claimed_at": "2026-11-23T21:26:26.230206+00:00",
-        "lease_expires_at": "2026-11-24T03:26:26.230206+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31307063",
       "prepared": {
@@ -259427,5 +259429,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:26:31.204168+00:00"
+  "updated_at": "2026-11-23T21:31:20.562150+00:00"
 }
