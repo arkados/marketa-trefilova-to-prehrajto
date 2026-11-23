@@ -221215,17 +221215,19 @@
       "attempts": []
     },
     "4551": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22651054",
+          "target_video_id": "31307879",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:08:25.698155+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22651054",
         "display_name": "Notre-Dame on Fire (Notre-Dame brûle) 1080p CZ Dabing",
         "planned_at": "2026-11-23T22:03:01.339604+00:00"
-      },
-      "claim": {
-        "worker_id": "f6395d2ff6fe4c95b467cd066862d323-shard-0",
-        "claimed_at": "2026-11-23T22:03:02.018239+00:00",
-        "lease_expires_at": "2026-11-24T04:03:02.018239+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31307879",
       "prepared": {
@@ -259727,5 +259729,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:03:25.200885+00:00"
+  "updated_at": "2026-11-23T22:08:25.698176+00:00"
 }
