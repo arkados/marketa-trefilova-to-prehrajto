@@ -208287,17 +208287,19 @@
       }
     },
     "35549": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34449718",
+          "target_video_id": "31269955",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:03:20.133766+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34449718",
         "display_name": "Mr. Mom 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:57:23.298579+00:00"
-      },
-      "claim": {
-        "worker_id": "4550b37c001f4847a8e8f47745cca89c-shard-0",
-        "claimed_at": "2026-11-23T02:57:24.099547+00:00",
-        "lease_expires_at": "2026-11-23T08:57:24.099547+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269955",
       "prepared": {
@@ -249550,5 +249552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:01:36.503456+00:00"
+  "updated_at": "2026-11-23T03:03:20.133782+00:00"
 }
