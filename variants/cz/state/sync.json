@@ -216541,17 +216541,19 @@
       }
     },
     "23900": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20615212",
+          "target_video_id": "31293539",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:10:08.856978+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20615212",
         "display_name": "Living Out Loud 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:02:46.383847+00:00"
-      },
-      "claim": {
-        "worker_id": "883d750a35304465a6d61705271478fc-shard-0",
-        "claimed_at": "2026-11-23T17:02:47.000495+00:00",
-        "lease_expires_at": "2026-11-23T23:02:47.000495+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31293539",
       "prepared": {
@@ -256207,5 +256209,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:10:03.800614+00:00"
+  "updated_at": "2026-11-23T17:10:08.856996+00:00"
 }
