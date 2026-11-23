@@ -217865,17 +217865,19 @@
       "attempts": []
     },
     "17235": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31631685",
+          "target_video_id": "31296123",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:29:23.972579+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31631685",
         "display_name": "The Tiger's Nest 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:23:54.046247+00:00"
-      },
-      "claim": {
-        "worker_id": "51524025fcc643889e7ae3639e2a6510-shard-0",
-        "claimed_at": "2026-11-23T18:23:54.829529+00:00",
-        "lease_expires_at": "2026-11-24T00:23:54.829529+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296123",
       "prepared": {
@@ -257232,5 +257234,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:27:55.829010+00:00"
+  "updated_at": "2026-11-23T18:29:23.972596+00:00"
 }
