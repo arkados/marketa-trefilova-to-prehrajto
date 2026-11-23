@@ -218292,17 +218292,19 @@
       }
     },
     "23073": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767135",
+          "target_video_id": "31296902",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:56:47.772851+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767135",
         "display_name": "Scandal 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:52:21.071882+00:00"
-      },
-      "claim": {
-        "worker_id": "94be73d858254da3a45f3367ada905fc-shard-0",
-        "claimed_at": "2026-11-23T18:52:21.855902+00:00",
-        "lease_expires_at": "2026-11-24T00:52:21.855902+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296902",
       "prepared": {
@@ -257572,5 +257574,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:55:43.559988+00:00"
+  "updated_at": "2026-11-23T18:56:47.772870+00:00"
 }
