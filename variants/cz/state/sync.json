@@ -212341,17 +212341,19 @@
       "attempts": []
     },
     "3824": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32953001",
+          "target_video_id": "31278320",
+          "permanent": false,
+          "attempted_at": "2026-11-23T08:23:41.641652+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32953001",
         "display_name": "Flatliners (1990) 4K CZ Dabing",
         "planned_at": "2026-11-23T08:14:45.754342+00:00"
-      },
-      "claim": {
-        "worker_id": "8442d2035521451da50f25c23084cf6d-shard-0",
-        "claimed_at": "2026-11-23T08:14:46.236018+00:00",
-        "lease_expires_at": "2026-11-23T14:14:46.236018+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31278320",
       "prepared": {
@@ -252713,5 +252715,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T08:17:29.432306+00:00"
+  "updated_at": "2026-11-23T08:23:41.641667+00:00"
 }
