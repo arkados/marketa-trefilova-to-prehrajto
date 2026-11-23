@@ -206731,17 +206731,19 @@
       }
     },
     "30575": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10192590",
+          "target_video_id": "31266870",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:51:25.752390+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10192590",
         "display_name": "Tangled: Before Ever After 720p CZ Dabing",
         "planned_at": "2026-11-23T00:49:10.048538+00:00"
-      },
-      "claim": {
-        "worker_id": "43e201b4707b4e39b266b1cc81919559-shard-0",
-        "claimed_at": "2026-11-23T00:49:10.953672+00:00",
-        "lease_expires_at": "2026-11-23T06:49:10.953672+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266870",
       "prepared": {
@@ -248207,5 +248209,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:49:15.087460+00:00"
+  "updated_at": "2026-11-23T00:51:25.752407+00:00"
 }
