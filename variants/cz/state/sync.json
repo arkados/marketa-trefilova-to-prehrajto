@@ -206882,17 +206882,19 @@
       }
     },
     "3801": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14157224",
+          "target_video_id": "31267204",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:08:57.828942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14157224",
         "display_name": "Kursk 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:01:59.344854+00:00"
-      },
-      "claim": {
-        "worker_id": "d8b7edfed5c849af9062066aeb9f628b-shard-0",
-        "claimed_at": "2026-11-23T01:02:00.168399+00:00",
-        "lease_expires_at": "2026-11-23T07:02:00.168399+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267204",
       "prepared": {
@@ -248387,5 +248389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:05:27.455694+00:00"
+  "updated_at": "2026-11-23T01:08:57.828958+00:00"
 }
