@@ -207989,17 +207989,19 @@
       "attempts": []
     },
     "6007": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30668312",
+          "target_video_id": "31269648",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:45:22.004398+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30668312",
         "display_name": "Whisper 3 (Ostwind 3 - Aufbruch nach Ora) SD CZ Dabing",
         "planned_at": "2026-11-23T02:43:10.410776+00:00"
-      },
-      "claim": {
-        "worker_id": "017f924e6164418b88b03870e0552122-shard-0",
-        "claimed_at": "2026-11-23T02:43:11.211355+00:00",
-        "lease_expires_at": "2026-11-23T08:43:11.211355+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269648",
       "prepared": {
@@ -249219,5 +249221,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:43:16.495937+00:00"
+  "updated_at": "2026-11-23T02:45:22.004416+00:00"
 }
