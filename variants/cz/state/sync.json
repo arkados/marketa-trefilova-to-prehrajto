@@ -219832,17 +219832,19 @@
       }
     },
     "4118": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34748267",
+          "target_video_id": "31301435",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:27:12.498646+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34748267",
         "display_name": "Raging Fire (NuHuo) 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:21:44.974263+00:00"
-      },
-      "claim": {
-        "worker_id": "b3aa1a3da31c488387985077522c9dba-shard-0",
-        "claimed_at": "2026-11-23T20:21:48.237709+00:00",
-        "lease_expires_at": "2026-11-24T02:21:48.237709+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31301435",
       "prepared": {
@@ -258747,5 +258749,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:26:55.290013+00:00"
+  "updated_at": "2026-11-23T20:27:12.498664+00:00"
 }
