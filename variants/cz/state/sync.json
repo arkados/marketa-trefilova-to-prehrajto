@@ -211523,17 +211523,23 @@
       }
     },
     "3569": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33040464",
+          "reason": "Source detail has no authenticated download link; source_id=33040464",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:45:57.026098+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33040464",
         "display_name": "Wicked: For Good 4K CZ Dabing",
         "planned_at": "2026-11-23T06:45:52.336809+00:00"
       },
-      "claim": {
-        "worker_id": "a41b1cfc2e5845669e35d3e76f8ab3a7-shard-0",
-        "claimed_at": "2026-11-23T06:45:52.964856+00:00",
-        "lease_expires_at": "2026-11-23T12:45:52.964856+00:00",
-        "run_id": "45102278157"
+      "source_repair_requested": {
+        "source_id": "33040464",
+        "requested_at": "2026-11-23T06:45:57.026076+00:00"
       }
     },
     "25569": {
@@ -252019,5 +252025,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:45:52.964884+00:00"
+  "updated_at": "2026-11-23T06:45:57.026106+00:00"
 }
