@@ -209076,17 +209076,19 @@
       "attempts": []
     },
     "3828": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6537565",
+          "target_video_id": "31270781",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:39:56.983097+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6537565",
         "display_name": "The Homesman 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:32:38.607688+00:00"
-      },
-      "claim": {
-        "worker_id": "985b2e843ccd4943bcbbf62ce3ff61bb-shard-0",
-        "claimed_at": "2026-11-23T03:32:39.455115+00:00",
-        "lease_expires_at": "2026-11-23T09:32:39.455115+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270781",
       "prepared": {
@@ -250107,5 +250109,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:39:18.514360+00:00"
+  "updated_at": "2026-11-23T03:39:56.983114+00:00"
 }
