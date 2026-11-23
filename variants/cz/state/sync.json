@@ -209118,17 +209118,19 @@
       }
     },
     "3588": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33152186",
+          "target_video_id": "31270842",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:38:58.432951+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33152186",
         "display_name": "Last Breath 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:35:33.033715+00:00"
-      },
-      "claim": {
-        "worker_id": "bfc3f6aac9c64989ae29cab04d7a1b50-shard-0",
-        "claimed_at": "2026-11-23T03:35:33.952220+00:00",
-        "lease_expires_at": "2026-11-23T09:35:33.952220+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270842",
       "prepared": {
@@ -250087,5 +250089,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:35:41.597238+00:00"
+  "updated_at": "2026-11-23T03:38:58.432967+00:00"
 }
