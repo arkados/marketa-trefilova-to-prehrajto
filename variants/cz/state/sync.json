@@ -209666,17 +209666,19 @@
       "attempts": []
     },
     "30328": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35328498",
+          "target_video_id": "31271755",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:20:19.873591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35328498",
         "display_name": "Heroes in Hell SD CZ Dabing",
         "planned_at": "2026-11-23T04:13:03.868199+00:00"
-      },
-      "claim": {
-        "worker_id": "801cb7091a604c2e95f2acc0abbcb224-shard-0",
-        "claimed_at": "2026-11-23T04:13:04.663977+00:00",
-        "lease_expires_at": "2026-11-23T10:13:04.663977+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271755",
       "prepared": {
@@ -250503,5 +250505,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:15:00.270440+00:00"
+  "updated_at": "2026-11-23T04:20:19.873607+00:00"
 }
