@@ -210000,17 +210000,19 @@
       "attempts": []
     },
     "3653": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23899096",
+          "target_video_id": "31272576",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:47:56.572049+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23899096",
         "display_name": "The Wonder 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:42:06.983997+00:00"
-      },
-      "claim": {
-        "worker_id": "ed86600b58f34561b85166dc5f050c8a-shard-0",
-        "claimed_at": "2026-11-23T04:42:07.819732+00:00",
-        "lease_expires_at": "2026-11-23T10:42:07.819732+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272576",
       "prepared": {
@@ -250832,5 +250834,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:44:01.587364+00:00"
+  "updated_at": "2026-11-23T04:47:56.572070+00:00"
 }
