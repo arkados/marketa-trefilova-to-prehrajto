@@ -137317,7 +137317,7 @@
       "last_plan": {
         "source_id": "26154128",
         "display_name": "Falling Tears (Když prší slzy) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T15:42:08.018592+00:00"
+        "planned_at": "2026-11-23T15:42:15.111969+00:00"
       },
       "previous_target_id": "30987766",
       "prepared": {
@@ -215741,11 +215741,23 @@
       }
     },
     "18324": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33823107",
+          "reason": "Source detail has no authenticated download link; source_id=33823107",
+          "permanent": false,
+          "attempted_at": "2026-11-23T15:42:18.642316+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33823107",
         "display_name": "The Hunger Games: Mockingjay – Part 1 (The Hunger Games: Mockingjay - Part 1) 4K CZ Dabing",
-        "planned_at": "2026-11-23T15:42:08.856222+00:00"
+        "planned_at": "2026-11-23T15:42:15.788658+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33823107",
+        "requested_at": "2026-11-23T15:42:18.642301+00:00"
       }
     },
     "3912": {
@@ -255542,5 +255554,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T15:42:08.856239+00:00"
+  "updated_at": "2026-11-23T15:42:18.642321+00:00"
 }
