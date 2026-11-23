@@ -216708,17 +216708,19 @@
       }
     },
     "19134": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16979289",
+          "target_video_id": "31294058",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:28:01.722010+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16979289",
         "display_name": "God of War (Dang kou feng yun) 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:19:54.835387+00:00"
-      },
-      "claim": {
-        "worker_id": "90f25b5f7251494bad2e95992576e434-shard-0",
-        "claimed_at": "2026-11-23T17:19:55.561550+00:00",
-        "lease_expires_at": "2026-11-23T23:19:55.561550+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31294058",
       "prepared": {
@@ -256357,5 +256359,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:26:18.141319+00:00"
+  "updated_at": "2026-11-23T17:28:01.722028+00:00"
 }
