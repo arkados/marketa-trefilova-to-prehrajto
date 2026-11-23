@@ -216658,17 +216658,19 @@
       "attempts": []
     },
     "26436": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26254418",
+          "target_video_id": "31293916",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:16:01.913012+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26254418",
         "display_name": "Tom and Jerry: A Nutcracker Tale SD CZ Dabing",
         "planned_at": "2026-11-23T17:15:02.580924+00:00"
-      },
-      "claim": {
-        "worker_id": "6b026a807478444082317e315d93c0e2-shard-0",
-        "claimed_at": "2026-11-23T17:15:03.307683+00:00",
-        "lease_expires_at": "2026-11-23T23:15:03.307683+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31293916",
       "prepared": {
@@ -256277,5 +256279,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:15:08.821599+00:00"
+  "updated_at": "2026-11-23T17:16:01.913029+00:00"
 }
