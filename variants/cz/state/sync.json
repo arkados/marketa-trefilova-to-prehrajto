@@ -110399,7 +110399,7 @@
       "last_plan": {
         "source_id": "35139243",
         "display_name": "Christmas with Elisabeth 720p CZ Dabing",
-        "planned_at": "2026-11-23T06:24:00.858323+00:00"
+        "planned_at": "2026-11-23T06:24:05.332907+00:00"
       },
       "previous_target_id": "30983706",
       "prepared": {
@@ -211292,17 +211292,19 @@
       "attempts": []
     },
     "3592": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20615212",
+          "target_video_id": "31274858",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:24:07.900467+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20615212",
         "display_name": "Kiss of the Dragon 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:17:37.504647+00:00"
-      },
-      "claim": {
-        "worker_id": "d056d9d6fa6a41498929c08c0cb08234-shard-0",
-        "claimed_at": "2026-11-23T06:17:37.959382+00:00",
-        "lease_expires_at": "2026-11-23T12:17:37.959382+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274858",
       "prepared": {
@@ -211387,7 +211389,13 @@
       "last_plan": {
         "source_id": "29515681",
         "display_name": "Half Baked 1080p CZ Dabing",
-        "planned_at": "2026-11-23T06:24:01.202359+00:00"
+        "planned_at": "2026-11-23T06:24:05.570108+00:00"
+      },
+      "claim": {
+        "worker_id": "c846f2c8a2f84770aaaac0d59cdedab6-shard-0",
+        "claimed_at": "2026-11-23T06:24:06.000271+00:00",
+        "lease_expires_at": "2026-11-23T12:24:06.000271+00:00",
+        "run_id": "45102278157"
       }
     },
     "23209": {
@@ -251886,5 +251894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:24:01.202384+00:00"
+  "updated_at": "2026-11-23T06:24:07.900484+00:00"
 }
