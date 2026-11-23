@@ -211498,17 +211498,19 @@
       }
     },
     "23280": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32969515",
+          "target_video_id": "31275494",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:45:42.636467+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32969515",
         "display_name": "Far and Away 4K CZ Dabing",
         "planned_at": "2026-11-23T06:37:57.868534+00:00"
-      },
-      "claim": {
-        "worker_id": "3124ec169c82476eac2a379cb0d2c356-shard-0",
-        "claimed_at": "2026-11-23T06:37:58.400344+00:00",
-        "lease_expires_at": "2026-11-23T12:37:58.400344+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275494",
       "prepared": {
@@ -251999,5 +252001,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:38:02.456789+00:00"
+  "updated_at": "2026-11-23T06:45:42.636487+00:00"
 }
