@@ -222337,17 +222337,19 @@
       "attempts": []
     },
     "22672": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33623015",
+          "target_video_id": "31311246",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:54:15.617544+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33623015",
         "display_name": "Dark Habits SD CZ Dabing",
         "planned_at": "2026-11-23T23:51:53.947801+00:00"
-      },
-      "claim": {
-        "worker_id": "5210f194c4804fd288f36d3c29d78c8a-shard-0",
-        "claimed_at": "2026-11-23T23:51:54.458446+00:00",
-        "lease_expires_at": "2026-11-24T05:51:54.458446+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311246",
       "prepared": {
@@ -260594,5 +260596,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:53:41.231295+00:00"
+  "updated_at": "2026-11-23T23:54:15.617561+00:00"
 }
