@@ -209511,17 +209511,19 @@
       }
     },
     "30239": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34900693",
+          "target_video_id": "31271469",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:06:15.944426+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34900693",
         "display_name": "Salome's Last Dance SD CZ Dabing",
         "planned_at": "2026-11-23T04:04:07.250757+00:00"
-      },
-      "claim": {
-        "worker_id": "dbbc952fe8574156958095eaa972f939-shard-0",
-        "claimed_at": "2026-11-23T04:04:08.090282+00:00",
-        "lease_expires_at": "2026-11-23T10:04:08.090282+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271469",
       "prepared": {
@@ -250399,5 +250401,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:04:31.077367+00:00"
+  "updated_at": "2026-11-23T04:06:15.944442+00:00"
 }
