@@ -206106,17 +206106,19 @@
       "attempts": []
     },
     "17764": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35008420",
+          "target_video_id": "31265746",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:20:52.806370+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35008420",
         "display_name": "Ripley's Game 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:13:48.738740+00:00"
-      },
-      "claim": {
-        "worker_id": "2e60999da9c0407ea84bbe2d94ac1eaf-shard-0",
-        "claimed_at": "2026-11-23T00:13:52.275747+00:00",
-        "lease_expires_at": "2026-11-23T06:13:52.275747+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31265746",
       "prepared": {
@@ -247773,5 +247775,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:20:30.949117+00:00"
+  "updated_at": "2026-11-23T00:20:52.806387+00:00"
 }
