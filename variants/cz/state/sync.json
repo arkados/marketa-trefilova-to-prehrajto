@@ -214965,17 +214965,19 @@
       }
     },
     "14260": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34375345",
+          "target_video_id": "31287769",
+          "permanent": false,
+          "attempted_at": "2026-11-23T13:56:14.673125+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34375345",
         "display_name": "Párty Hárd 1080p CZ Dabing",
         "planned_at": "2026-11-23T13:51:40.819669+00:00"
-      },
-      "claim": {
-        "worker_id": "0470b03e424d4d68a92ec3a5595bfb1c-shard-0",
-        "claimed_at": "2026-11-23T13:51:41.932720+00:00",
-        "lease_expires_at": "2026-11-23T19:51:41.932720+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31287769",
       "prepared": {
@@ -254914,5 +254916,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T13:53:21.886762+00:00"
+  "updated_at": "2026-11-23T13:56:14.673147+00:00"
 }
