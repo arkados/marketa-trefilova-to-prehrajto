@@ -220066,17 +220066,19 @@
       }
     },
     "34290": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34719359",
+          "target_video_id": "31305346",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:36:15.213636+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34719359",
         "display_name": "Django Defies Sartana (Django sfida Sartana) 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:32:32.323219+00:00"
-      },
-      "claim": {
-        "worker_id": "4c40c8880c87470bab6998a60203be5b-shard-0",
-        "claimed_at": "2026-11-23T20:32:33.102740+00:00",
-        "lease_expires_at": "2026-11-24T02:32:33.102740+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305346",
       "prepared": {
@@ -258887,5 +258889,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:33:56.312948+00:00"
+  "updated_at": "2026-11-23T20:36:15.213654+00:00"
 }
