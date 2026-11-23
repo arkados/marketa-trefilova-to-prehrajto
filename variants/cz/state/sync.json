@@ -207583,17 +207583,19 @@
       }
     },
     "31681": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13069801",
+          "target_video_id": "31268912",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:28:31.783750+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13069801",
         "display_name": "Brain on Fire 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:14:17.778701+00:00"
-      },
-      "claim": {
-        "worker_id": "5711809b05704379956b92a967eecf5f-shard-0",
-        "claimed_at": "2026-11-23T02:14:18.581656+00:00",
-        "lease_expires_at": "2026-11-23T08:14:18.581656+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268912",
       "prepared": {
@@ -249059,5 +249061,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:27:18.598260+00:00"
+  "updated_at": "2026-11-23T02:28:31.783766+00:00"
 }
