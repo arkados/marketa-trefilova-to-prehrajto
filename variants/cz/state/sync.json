@@ -137317,7 +137317,7 @@
       "last_plan": {
         "source_id": "26154128",
         "display_name": "Falling Tears (Když prší slzy) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T14:23:56.292180+00:00"
+        "planned_at": "2026-11-23T14:24:02.313022+00:00"
       },
       "previous_target_id": "30987766",
       "prepared": {
@@ -215327,11 +215327,23 @@
       }
     },
     "3796": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31763917",
+          "reason": "Source detail has no authenticated download link; source_id=31763917",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:24:09.106814+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31763917",
         "display_name": "Glass 4K CZ Dabing",
-        "planned_at": "2026-11-23T14:23:56.640668+00:00"
+        "planned_at": "2026-11-23T14:24:02.708236+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31763917",
+        "requested_at": "2026-11-23T14:24:09.106798+00:00"
       }
     },
     "3993": {
@@ -255191,5 +255203,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:23:56.640684+00:00"
+  "updated_at": "2026-11-23T14:24:09.106820+00:00"
 }
