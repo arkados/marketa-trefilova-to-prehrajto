@@ -208660,17 +208660,19 @@
       }
     },
     "12254": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17641128",
+          "target_video_id": "31270343",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:22:02.734046+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17641128",
         "display_name": "Powder 720p CZ Dabing",
         "planned_at": "2026-11-23T03:14:37.844253+00:00"
-      },
-      "claim": {
-        "worker_id": "ee54cba4f7244ace8a7774dd79a12538-shard-0",
-        "claimed_at": "2026-11-23T03:14:38.710230+00:00",
-        "lease_expires_at": "2026-11-23T09:14:38.710230+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270343",
       "prepared": {
@@ -249847,5 +249849,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:19:57.444135+00:00"
+  "updated_at": "2026-11-23T03:22:02.734071+00:00"
 }
