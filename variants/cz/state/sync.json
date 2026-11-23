@@ -221680,17 +221680,19 @@
       }
     },
     "30287": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34900786",
+          "target_video_id": "31309296",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:00:01.176986+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34900786",
         "display_name": "Caged Women SD CZ Dabing",
         "planned_at": "2026-11-23T22:56:58.858378+00:00"
-      },
-      "claim": {
-        "worker_id": "b8a7d06b8d7744ddacc775abbc1122e7-shard-0",
-        "claimed_at": "2026-11-23T22:56:59.347166+00:00",
-        "lease_expires_at": "2026-11-24T04:56:59.347166+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31309296",
       "prepared": {
@@ -260084,5 +260086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:59:39.405561+00:00"
+  "updated_at": "2026-11-23T23:00:01.177003+00:00"
 }
