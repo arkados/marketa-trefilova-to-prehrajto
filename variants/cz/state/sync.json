@@ -215654,17 +215654,19 @@
       }
     },
     "3731": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850198",
+          "target_video_id": "31290274",
+          "permanent": false,
+          "attempted_at": "2026-11-23T15:32:10.837195+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850198",
         "display_name": "Black Widow (2021) 4K CZ Dabing",
         "planned_at": "2026-11-23T15:11:30.440692+00:00"
-      },
-      "claim": {
-        "worker_id": "369b90ce4160480d8514127607861410-shard-0",
-        "claimed_at": "2026-11-23T15:11:31.100318+00:00",
-        "lease_expires_at": "2026-11-23T21:11:31.100318+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31290274",
       "prepared": {
@@ -255498,5 +255500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T15:28:23.444890+00:00"
+  "updated_at": "2026-11-23T15:32:10.837216+00:00"
 }
