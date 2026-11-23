@@ -214234,17 +214234,19 @@
       }
     },
     "3840": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31688324",
+          "target_video_id": "31284950",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:20:29.019415+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31688324",
         "display_name": "RED 2 4K CZ Dabing",
         "planned_at": "2026-11-23T12:08:54.389937+00:00"
-      },
-      "claim": {
-        "worker_id": "7a567912e1804ae5901e29600764623c-shard-0",
-        "claimed_at": "2026-11-23T12:08:55.344986+00:00",
-        "lease_expires_at": "2026-11-23T18:08:55.344986+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31284950",
       "prepared": {
@@ -254361,5 +254363,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:20:11.416344+00:00"
+  "updated_at": "2026-11-23T12:20:29.019431+00:00"
 }
