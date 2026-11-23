@@ -221268,17 +221268,19 @@
       "attempts": []
     },
     "20182": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11740263",
+          "target_video_id": "31308034",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:11:26.240791+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11740263",
         "display_name": "Paterno SD CZ Dabing",
         "planned_at": "2026-11-23T22:08:42.001321+00:00"
-      },
-      "claim": {
-        "worker_id": "204bbe8f06304dd49be48ac52deb2412-shard-0",
-        "claimed_at": "2026-11-23T22:08:42.507495+00:00",
-        "lease_expires_at": "2026-11-24T04:08:42.507495+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31308034",
       "prepared": {
@@ -259747,5 +259749,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:08:51.780969+00:00"
+  "updated_at": "2026-11-23T22:11:26.240809+00:00"
 }
