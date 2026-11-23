@@ -211191,17 +211191,19 @@
       "attempts": []
     },
     "15144": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689434",
+          "target_video_id": "31274747",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:19:56.520623+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689434",
         "display_name": "The Princess of Montpensier (La Princesse de Montpensier) 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:12:40.149308+00:00"
-      },
-      "claim": {
-        "worker_id": "2c1d44a05b544983b51131f5ee2f72cb-shard-0",
-        "claimed_at": "2026-11-23T06:12:40.939112+00:00",
-        "lease_expires_at": "2026-11-23T12:12:40.939112+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274747",
       "prepared": {
@@ -251839,5 +251841,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:18:19.542325+00:00"
+  "updated_at": "2026-11-23T06:19:56.520637+00:00"
 }
