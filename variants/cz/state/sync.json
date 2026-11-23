@@ -209154,17 +209154,19 @@
       "attempts": []
     },
     "29985": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32940807",
+          "target_video_id": "31270901",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:42:03.196634+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32940807",
         "display_name": "Batteries Not Included (*batteries not included) 720p CZ Dabing",
         "planned_at": "2026-11-23T03:39:07.042897+00:00"
-      },
-      "claim": {
-        "worker_id": "64225d34c3ae4a2cb3eb18e2d805ccf5-shard-0",
-        "claimed_at": "2026-11-23T03:39:07.888678+00:00",
-        "lease_expires_at": "2026-11-23T09:39:07.888678+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270901",
       "prepared": {
@@ -250147,5 +250149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:40:35.349407+00:00"
+  "updated_at": "2026-11-23T03:42:03.196655+00:00"
 }
