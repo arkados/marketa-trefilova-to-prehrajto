@@ -222217,17 +222217,19 @@
       "attempts": []
     },
     "30245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11176335",
+          "target_video_id": "31311022",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:49:11.108330+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11176335",
         "display_name": "The Hunt for the Amber Room SD CZ Dabing",
         "planned_at": "2026-11-23T23:44:04.568936+00:00"
-      },
-      "claim": {
-        "worker_id": "e732abcb8c154a418518407ed3db4088-shard-0",
-        "claimed_at": "2026-11-23T23:44:05.112218+00:00",
-        "lease_expires_at": "2026-11-24T05:44:05.112218+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311022",
       "prepared": {
@@ -260534,5 +260536,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:48:24.860984+00:00"
+  "updated_at": "2026-11-23T23:49:11.108350+00:00"
 }
