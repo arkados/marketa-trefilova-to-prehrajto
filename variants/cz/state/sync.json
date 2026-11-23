@@ -213340,17 +213340,19 @@
       }
     },
     "19687": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28282013",
+          "target_video_id": "31283106",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:13:35.712777+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28282013",
         "display_name": "Last Vegas 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:10:22.979256+00:00"
-      },
-      "claim": {
-        "worker_id": "cb7c666a199449e597263ed1e416c153-shard-0",
-        "claimed_at": "2026-11-23T11:10:23.913040+00:00",
-        "lease_expires_at": "2026-11-23T17:10:23.913040+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283106",
       "prepared": {
@@ -253547,5 +253549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:11:46.948628+00:00"
+  "updated_at": "2026-11-23T11:13:35.712801+00:00"
 }
