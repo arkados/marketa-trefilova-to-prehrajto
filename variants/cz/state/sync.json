@@ -209306,17 +209306,19 @@
       "attempts": []
     },
     "23955": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34140066",
+          "target_video_id": "31271193",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:56:33.042485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34140066",
         "display_name": "For Love of the Game 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:52:47.249805+00:00"
-      },
-      "claim": {
-        "worker_id": "fc2c59e7cc7a4a6f8f441664e0fc35aa-shard-0",
-        "claimed_at": "2026-11-23T03:52:50.309628+00:00",
-        "lease_expires_at": "2026-11-23T09:52:50.309628+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271193",
       "prepared": {
@@ -250262,5 +250264,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:56:07.626613+00:00"
+  "updated_at": "2026-11-23T03:56:33.042501+00:00"
 }
