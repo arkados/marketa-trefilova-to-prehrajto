@@ -218490,17 +218490,19 @@
       }
     },
     "5531": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11744637",
+          "target_video_id": "31297227",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:06:34.015357+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11744637",
         "display_name": "The Incredible Story of the Giant Pear (Den utrolige historie om den kæmpestore pære) SD CZ Dabing",
         "planned_at": "2026-11-23T19:04:50.439018+00:00"
-      },
-      "claim": {
-        "worker_id": "813ab542d81e459ba55c5bc74291eb38-shard-0",
-        "claimed_at": "2026-11-23T19:04:51.208229+00:00",
-        "lease_expires_at": "2026-11-24T01:04:51.208229+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297227",
       "prepared": {
@@ -257674,5 +257676,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:06:31.582642+00:00"
+  "updated_at": "2026-11-23T19:06:34.015380+00:00"
 }
