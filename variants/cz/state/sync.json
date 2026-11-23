@@ -221847,17 +221847,19 @@
       }
     },
     "15888": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694325",
+          "target_video_id": "31309855",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:17:35.274176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694325",
         "display_name": "My New Friends (Les Gens d'à côté) 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:13:40.846276+00:00"
-      },
-      "claim": {
-        "worker_id": "0ce00cbde29c4061bd08ab3230b94293-shard-0",
-        "claimed_at": "2026-11-23T23:13:41.341362+00:00",
-        "lease_expires_at": "2026-11-24T05:13:41.341362+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31309855",
       "prepared": {
@@ -260224,5 +260226,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:16:42.889931+00:00"
+  "updated_at": "2026-11-23T23:17:35.274196+00:00"
 }
