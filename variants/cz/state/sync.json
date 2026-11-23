@@ -209050,17 +209050,19 @@
       "attempts": []
     },
     "14143": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34685765",
+          "target_video_id": "31270763",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:35:17.799390+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34685765",
         "display_name": "Grounded for Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:31:23.183918+00:00"
-      },
-      "claim": {
-        "worker_id": "a38ac89687df480587c50e681ee3ed3d-shard-0",
-        "claimed_at": "2026-11-23T03:31:24.054160+00:00",
-        "lease_expires_at": "2026-11-23T09:31:24.054160+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270763",
       "prepared": {
@@ -250054,5 +250056,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:35:12.754488+00:00"
+  "updated_at": "2026-11-23T03:35:17.799409+00:00"
 }
