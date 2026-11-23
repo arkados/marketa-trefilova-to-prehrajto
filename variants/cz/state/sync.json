@@ -207708,17 +207708,19 @@
       }
     },
     "5457": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660159",
+          "target_video_id": "31269105",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:24:16.740601+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660159",
         "display_name": "New Life (2016) 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:21:11.482092+00:00"
-      },
-      "claim": {
-        "worker_id": "1f88e7e05ca74f44b9023a32f31474a5-shard-0",
-        "claimed_at": "2026-11-23T02:21:12.397701+00:00",
-        "lease_expires_at": "2026-11-23T08:21:12.397701+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269105",
       "prepared": {
@@ -249019,5 +249021,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:23:52.299522+00:00"
+  "updated_at": "2026-11-23T02:24:16.740618+00:00"
 }
