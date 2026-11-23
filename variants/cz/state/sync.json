@@ -214731,17 +214731,19 @@
       "attempts": []
     },
     "3704": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33114431",
+          "target_video_id": "31286487",
+          "permanent": false,
+          "attempted_at": "2026-11-23T13:35:15.963517+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33114431",
         "display_name": "Drag Me to Hell 4K CZ Dabing",
         "planned_at": "2026-11-23T12:59:25.204594+00:00"
-      },
-      "claim": {
-        "worker_id": "85c909b0af5a4435ad61e0bc9182405b-shard-0",
-        "claimed_at": "2026-11-23T12:59:26.214522+00:00",
-        "lease_expires_at": "2026-11-23T18:59:26.214522+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31286487",
       "prepared": {
@@ -254758,5 +254760,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T13:21:23.464138+00:00"
+  "updated_at": "2026-11-23T13:35:15.963534+00:00"
 }
