@@ -213952,17 +213952,19 @@
       }
     },
     "22534": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33732404",
+          "target_video_id": "31284121",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:55:26.382116+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33732404",
         "display_name": "The Under-Gifted 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:53:02.528739+00:00"
-      },
-      "claim": {
-        "worker_id": "e9859a47e4e04bafb69007eea3743384-shard-0",
-        "claimed_at": "2026-11-23T11:53:03.441347+00:00",
-        "lease_expires_at": "2026-11-23T17:53:03.441347+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31284121",
       "prepared": {
@@ -254084,5 +254086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:55:10.079335+00:00"
+  "updated_at": "2026-11-23T11:55:26.382132+00:00"
 }
