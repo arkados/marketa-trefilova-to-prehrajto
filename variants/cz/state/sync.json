@@ -206198,17 +206198,19 @@
       }
     },
     "22561": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34471433",
+          "target_video_id": "31266042",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:26:10.275956+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34471433",
         "display_name": "Dragonslayer 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:22:15.264609+00:00"
-      },
-      "claim": {
-        "worker_id": "d04af6fa2c6240c28c7578cb8113e29c-shard-0",
-        "claimed_at": "2026-11-23T00:22:16.103556+00:00",
-        "lease_expires_at": "2026-11-23T06:22:16.103556+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266042",
       "prepared": {
@@ -247853,5 +247855,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:24:24.912429+00:00"
+  "updated_at": "2026-11-23T00:26:10.275972+00:00"
 }
