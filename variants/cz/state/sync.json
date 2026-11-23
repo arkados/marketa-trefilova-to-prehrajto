@@ -110399,7 +110399,7 @@
       "last_plan": {
         "source_id": "35139243",
         "display_name": "Christmas with Elisabeth 720p CZ Dabing",
-        "planned_at": "2026-11-23T06:11:10.075731+00:00"
+        "planned_at": "2026-11-23T06:11:17.299511+00:00"
       },
       "previous_target_id": "30983706",
       "prepared": {
@@ -211124,17 +211124,19 @@
       "attempts": []
     },
     "3808": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30676325",
+          "target_video_id": "31274609",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:12:10.686147+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30676325",
         "display_name": "Adrift 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:07:21.774945+00:00"
-      },
-      "claim": {
-        "worker_id": "a4f6e3162c04484d9fa3f8f2bad3653e-shard-0",
-        "claimed_at": "2026-11-23T06:07:22.214873+00:00",
-        "lease_expires_at": "2026-11-23T12:07:22.214873+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274609",
       "prepared": {
@@ -211149,7 +211151,13 @@
       "last_plan": {
         "source_id": "34782995",
         "display_name": "Titan A.E. 1080p CZ Dabing",
-        "planned_at": "2026-11-23T06:11:10.334145+00:00"
+        "planned_at": "2026-11-23T06:11:17.557286+00:00"
+      },
+      "claim": {
+        "worker_id": "beabf4102af2434db049185bac6aa8ba-shard-0",
+        "claimed_at": "2026-11-23T06:11:18.060194+00:00",
+        "lease_expires_at": "2026-11-23T12:11:18.060194+00:00",
+        "run_id": "45102278157"
       }
     },
     "5142": {
@@ -251693,5 +251701,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:11:10.334166+00:00"
+  "updated_at": "2026-11-23T06:12:10.686164+00:00"
 }
