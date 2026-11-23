@@ -221530,17 +221530,19 @@
       "attempts": []
     },
     "20372": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23763014",
+          "target_video_id": "31308642",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:59:21.921703+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23763014",
         "display_name": "The Nightmare (Der Nachtmahr) 1080p CZ Dabing",
         "planned_at": "2026-11-23T22:32:05.664043+00:00"
-      },
-      "claim": {
-        "worker_id": "444cd4b3cb82448f9eef3fe451d98076-shard-0",
-        "claimed_at": "2026-11-23T22:32:06.242507+00:00",
-        "lease_expires_at": "2026-11-24T04:32:06.242507+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31308642",
       "prepared": {
@@ -260064,5 +260066,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:57:04.145567+00:00"
+  "updated_at": "2026-11-23T22:59:21.921722+00:00"
 }
