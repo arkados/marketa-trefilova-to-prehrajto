@@ -216180,17 +216180,19 @@
       }
     },
     "4075": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34656522",
+          "target_video_id": "31292560",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:40:17.672371+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34656522",
         "display_name": "I Used to Be Funny 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:31:33.676831+00:00"
-      },
-      "claim": {
-        "worker_id": "6fe9e37347ea4b2d8e8fa92d69c8b765-shard-0",
-        "claimed_at": "2026-11-23T16:31:34.308613+00:00",
-        "lease_expires_at": "2026-11-23T22:31:34.308613+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292560",
       "prepared": {
@@ -256000,5 +256002,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:39:50.684636+00:00"
+  "updated_at": "2026-11-23T16:40:17.672393+00:00"
 }
