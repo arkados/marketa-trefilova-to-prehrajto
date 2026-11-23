@@ -210185,17 +210185,19 @@
       "attempts": []
     },
     "11492": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33731183",
+          "target_video_id": "31272767",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:50:51.242439+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33731183",
         "display_name": "Sudden Impact 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:50:41.712264+00:00"
-      },
-      "claim": {
-        "worker_id": "14fbdc6a4ee54bd99d7e43474e5e49ab-shard-0",
-        "claimed_at": "2026-11-23T04:50:42.151822+00:00",
-        "lease_expires_at": "2026-11-23T10:50:42.151822+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272767",
       "prepared": {
@@ -250932,5 +250934,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:50:46.058544+00:00"
+  "updated_at": "2026-11-23T04:50:51.242452+00:00"
 }
