@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T00:39:22.418771+00:00"
+        "planned_at": "2026-11-23T00:39:28.376651+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -206584,11 +206584,23 @@
       }
     },
     "13664": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "29500998",
+          "reason": "Source detail has no authenticated download link; source_id=29500998",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:39:32.004676+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29500998",
         "display_name": "Gympl 1080p CZ Dabing",
-        "planned_at": "2026-11-23T00:39:22.937624+00:00"
+        "planned_at": "2026-11-23T00:39:28.851989+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "29500998",
+        "requested_at": "2026-11-23T00:39:32.004659+00:00"
       }
     },
     "32473": {
@@ -248077,5 +248089,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:39:22.937723+00:00"
+  "updated_at": "2026-11-23T00:39:32.004683+00:00"
 }
