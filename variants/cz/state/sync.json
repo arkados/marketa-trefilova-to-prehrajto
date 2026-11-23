@@ -207027,17 +207027,19 @@
       }
     },
     "4113": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25780676",
+          "target_video_id": "31267514",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:18:19.650528+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25780676",
         "display_name": "Palm Trees and Power Lines 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:12:13.215698+00:00"
-      },
-      "claim": {
-        "worker_id": "fc7ba8beb37a4c988916f553c56863fa-shard-0",
-        "claimed_at": "2026-11-23T01:12:14.028271+00:00",
-        "lease_expires_at": "2026-11-23T07:12:14.028271+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267514",
       "prepared": {
@@ -248449,5 +248451,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:18:16.737531+00:00"
+  "updated_at": "2026-11-23T01:18:19.650546+00:00"
 }
