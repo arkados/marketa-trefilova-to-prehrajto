@@ -208998,17 +208998,19 @@
       "attempts": []
     },
     "3837": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30431765",
+          "target_video_id": "31270719",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:32:29.796240+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30431765",
         "display_name": "22 Bullets (L'Immortel) 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:29:13.909847+00:00"
-      },
-      "claim": {
-        "worker_id": "25b26f32b28743ce8132c16b3e66ac07-shard-0",
-        "claimed_at": "2026-11-23T03:29:14.754407+00:00",
-        "lease_expires_at": "2026-11-23T09:29:14.754407+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270719",
       "prepared": {
@@ -250027,5 +250029,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:31:27.919707+00:00"
+  "updated_at": "2026-11-23T03:32:29.796259+00:00"
 }
