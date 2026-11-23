@@ -137317,7 +137317,7 @@
       "last_plan": {
         "source_id": "26154128",
         "display_name": "Falling Tears (Když prší slzy) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T17:14:43.251601+00:00"
+        "planned_at": "2026-11-23T17:14:48.343776+00:00"
       },
       "previous_target_id": "30987766",
       "prepared": {
@@ -216635,11 +216635,23 @@
       }
     },
     "17017": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34695522",
+          "reason": "Request failed for https://sdilej.cz/34695522/ti-posledni-2020-cz-dabing.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:14:51.834626+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695522",
         "display_name": "The Last Ones (Viimeiset) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T17:14:43.595802+00:00"
+        "planned_at": "2026-11-23T17:14:48.701231+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34695522",
+        "requested_at": "2026-11-23T17:14:51.834613+00:00"
       }
     },
     "31281": {
@@ -256247,5 +256259,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:14:43.595819+00:00"
+  "updated_at": "2026-11-23T17:14:51.834631+00:00"
 }
