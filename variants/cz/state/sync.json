@@ -219561,17 +219561,19 @@
       }
     },
     "30496": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31633643",
+          "target_video_id": "31299197",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:06:50.150466+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31633643",
         "display_name": "Golden Years SD CZ Dabing",
         "planned_at": "2026-11-23T20:05:21.544623+00:00"
-      },
-      "claim": {
-        "worker_id": "c5ea053b5efa4ab89aa3c0176f6da1d1-shard-0",
-        "claimed_at": "2026-11-23T20:05:22.359452+00:00",
-        "lease_expires_at": "2026-11-24T02:05:22.359452+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31299197",
       "prepared": {
@@ -258454,5 +258456,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:05:26.697580+00:00"
+  "updated_at": "2026-11-23T20:06:50.150488+00:00"
 }
