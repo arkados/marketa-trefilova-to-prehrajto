@@ -213319,17 +213319,19 @@
       }
     },
     "12422": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31182168",
+          "target_video_id": "31283070",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:15:10.128451+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31182168",
         "display_name": "The 13th Warrior 4K CZ Dabing",
         "planned_at": "2026-11-23T11:09:30.013037+00:00"
-      },
-      "claim": {
-        "worker_id": "1644a71fbe044273a724258765eb1f86-shard-0",
-        "claimed_at": "2026-11-23T11:09:31.334950+00:00",
-        "lease_expires_at": "2026-11-23T17:09:31.334950+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283070",
       "prepared": {
@@ -253587,5 +253589,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:14:56.064867+00:00"
+  "updated_at": "2026-11-23T11:15:10.128468+00:00"
 }
