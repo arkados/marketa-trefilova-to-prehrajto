@@ -210361,17 +210361,19 @@
       "attempts": []
     },
     "26587": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27934254",
+          "target_video_id": "31272983",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:05:30.037959+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27934254",
         "display_name": "The Divine Weapon SD CZ Dabing",
         "planned_at": "2026-11-23T05:02:29.552582+00:00"
-      },
-      "claim": {
-        "worker_id": "31ba263ee1ec48138fc420c0e4fb5e2e-shard-0",
-        "claimed_at": "2026-11-23T05:02:30.103582+00:00",
-        "lease_expires_at": "2026-11-23T11:02:30.103582+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272983",
       "prepared": {
@@ -251072,5 +251074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:02:33.399017+00:00"
+  "updated_at": "2026-11-23T05:05:30.037979+00:00"
 }
