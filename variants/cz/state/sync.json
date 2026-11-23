@@ -221876,17 +221876,19 @@
       "attempts": []
     },
     "17810": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850539",
+          "target_video_id": "31309988",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:23:04.596737+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850539",
         "display_name": "Anthony Zimmer 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:16:37.230343+00:00"
-      },
-      "claim": {
-        "worker_id": "618eca00b0d24027bddfb03f13907752-shard-0",
-        "claimed_at": "2026-11-23T23:16:37.680816+00:00",
-        "lease_expires_at": "2026-11-24T05:16:37.680816+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31309988",
       "prepared": {
@@ -260264,5 +260266,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:22:27.283083+00:00"
+  "updated_at": "2026-11-23T23:23:04.596751+00:00"
 }
