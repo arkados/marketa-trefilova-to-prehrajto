@@ -213852,17 +213852,19 @@
       }
     },
     "13650": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26035267",
+          "target_video_id": "31283921",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:49:08.425324+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26035267",
         "display_name": "Shoot 'Em Up 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:46:52.831691+00:00"
-      },
-      "claim": {
-        "worker_id": "3b2a4b56a63a4786b6e5ddc3c5deefc9-shard-0",
-        "claimed_at": "2026-11-23T11:46:53.672260+00:00",
-        "lease_expires_at": "2026-11-23T17:46:53.672260+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283921",
       "prepared": {
@@ -253984,5 +253986,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:47:31.798305+00:00"
+  "updated_at": "2026-11-23T11:49:08.425339+00:00"
 }
