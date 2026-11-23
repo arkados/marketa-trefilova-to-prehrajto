@@ -207097,17 +207097,19 @@
       "attempts": []
     },
     "15791": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33394615",
+          "target_video_id": "31267711",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:19:01.191171+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33394615",
         "display_name": "Mythica: Stormbound (Mythica Stormbound) 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:18:50.265572+00:00"
-      },
-      "claim": {
-        "worker_id": "7ffe77b6d0ad4d10b4d6868e1934159a-shard-0",
-        "claimed_at": "2026-11-23T01:18:51.141136+00:00",
-        "lease_expires_at": "2026-11-23T07:18:51.141136+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267711",
       "prepared": {
@@ -248507,5 +248509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:18:55.728518+00:00"
+  "updated_at": "2026-11-23T01:19:01.191189+00:00"
 }
