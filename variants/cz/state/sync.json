@@ -213804,17 +213804,19 @@
       }
     },
     "3948": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7325625",
+          "target_video_id": "31283836",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:46:31.410490+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7325625",
         "display_name": "Vantage Point 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:43:56.881410+00:00"
-      },
-      "claim": {
-        "worker_id": "d7f06183b2e44529962f10bdb803ea61-shard-0",
-        "claimed_at": "2026-11-23T11:43:57.752796+00:00",
-        "lease_expires_at": "2026-11-23T17:43:57.752796+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283836",
       "prepared": {
@@ -253924,5 +253926,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:44:01.554108+00:00"
+  "updated_at": "2026-11-23T11:46:31.410506+00:00"
 }
