@@ -220252,17 +220252,19 @@
       "attempts": []
     },
     "25221": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24710863",
+          "target_video_id": "31305825",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:52:12.889869+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24710863",
         "display_name": "The White Countess 720p CZ Dabing",
         "planned_at": "2026-11-23T20:48:05.915863+00:00"
-      },
-      "claim": {
-        "worker_id": "4bee799c93f24668a0af0df1c97520db-shard-0",
-        "claimed_at": "2026-11-23T20:48:07.274178+00:00",
-        "lease_expires_at": "2026-11-24T02:48:07.274178+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305825",
       "prepared": {
@@ -259007,5 +259009,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:48:35.116942+00:00"
+  "updated_at": "2026-11-23T20:52:12.889887+00:00"
 }
