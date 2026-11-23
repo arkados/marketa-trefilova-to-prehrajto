@@ -213927,17 +213927,19 @@
       }
     },
     "3748": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30864012",
+          "target_video_id": "31284071",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:54:19.679431+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30864012",
         "display_name": "Borat Subsequent Moviefilm (Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan) 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:51:43.890675+00:00"
-      },
-      "claim": {
-        "worker_id": "ae7eddecf2a54c28a61319ed80858276-shard-0",
-        "claimed_at": "2026-11-23T11:51:44.749778+00:00",
-        "lease_expires_at": "2026-11-23T17:51:44.749778+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31284071",
       "prepared": {
@@ -254044,5 +254046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:53:07.259856+00:00"
+  "updated_at": "2026-11-23T11:54:19.679448+00:00"
 }
