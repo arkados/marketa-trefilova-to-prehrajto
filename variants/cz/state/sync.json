@@ -213785,17 +213785,19 @@
       }
     },
     "3566": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33598661",
+          "target_video_id": "31283805",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:47:17.240485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33598661",
         "display_name": "The Hunt (2020) 4K CZ Dabing",
         "planned_at": "2026-11-23T11:43:06.560824+00:00"
-      },
-      "claim": {
-        "worker_id": "f8cce07aacab4f2c9ff0175d142731d2-shard-0",
-        "claimed_at": "2026-11-23T11:43:07.498895+00:00",
-        "lease_expires_at": "2026-11-23T17:43:07.498895+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283805",
       "prepared": {
@@ -253964,5 +253966,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:46:57.024055+00:00"
+  "updated_at": "2026-11-23T11:47:17.240501+00:00"
 }
