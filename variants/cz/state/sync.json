@@ -207318,17 +207318,19 @@
       }
     },
     "15473": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29628821",
+          "target_video_id": "31268325",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:49:58.137293+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29628821",
         "display_name": "Cora Bora 720p CZ Dabing",
         "planned_at": "2026-11-23T01:43:28.486389+00:00"
-      },
-      "claim": {
-        "worker_id": "150abbbf19e8475e9604326306062519-shard-0",
-        "claimed_at": "2026-11-23T01:43:29.294924+00:00",
-        "lease_expires_at": "2026-11-23T07:43:29.294924+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268325",
       "prepared": {
@@ -248724,5 +248726,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:48:38.048752+00:00"
+  "updated_at": "2026-11-23T01:49:58.137311+00:00"
 }
