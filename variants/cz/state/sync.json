@@ -221191,17 +221191,19 @@
       }
     },
     "11023": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32453495",
+          "target_video_id": "31307794",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:12:31.265982+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32453495",
         "display_name": "Le Gendarme en balade 4K CZ Dabing",
         "planned_at": "2026-11-23T21:57:36.231716+00:00"
-      },
-      "claim": {
-        "worker_id": "2f8ea58c01674eada25f899afc813337-shard-0",
-        "claimed_at": "2026-11-23T21:57:36.735543+00:00",
-        "lease_expires_at": "2026-11-24T03:57:36.735543+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31307794",
       "prepared": {
@@ -259767,5 +259769,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:11:43.778233+00:00"
+  "updated_at": "2026-11-23T22:12:31.266002+00:00"
 }
