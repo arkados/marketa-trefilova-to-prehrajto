@@ -218070,17 +218070,19 @@
       "attempts": []
     },
     "5066": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659713",
+          "target_video_id": "31296423",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:40:22.610234+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659713",
         "display_name": "Take Me Somewhere Nice 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:36:44.298064+00:00"
-      },
-      "claim": {
-        "worker_id": "5a0e4cb649684d2baab05861775b7f3e-shard-0",
-        "claimed_at": "2026-11-23T18:36:45.144738+00:00",
-        "lease_expires_at": "2026-11-24T00:36:45.144738+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296423",
       "prepared": {
@@ -257392,5 +257394,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:37:42.717424+00:00"
+  "updated_at": "2026-11-23T18:40:22.610251+00:00"
 }
