@@ -211954,17 +211954,19 @@
       }
     },
     "3594": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30695114",
+          "target_video_id": "31276348",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:55:08.744848+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30695114",
         "display_name": "Mufasa: The Lion King 4K CZ Dabing",
         "planned_at": "2026-11-23T07:09:56.915401+00:00"
-      },
-      "claim": {
-        "worker_id": "c1379ebc166a465bb382b70406e4ca8e-shard-0",
-        "claimed_at": "2026-11-23T07:09:57.451676+00:00",
-        "lease_expires_at": "2026-11-23T13:09:57.451676+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31276348",
       "prepared": {
@@ -252573,5 +252575,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:54:57.766885+00:00"
+  "updated_at": "2026-11-23T07:55:08.744865+00:00"
 }
