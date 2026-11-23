@@ -215854,17 +215854,19 @@
       }
     },
     "3820": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31104751",
+          "target_video_id": "31291537",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:17:09.660133+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31104751",
         "display_name": "Venom (2018) 4K CZ Dabing",
         "planned_at": "2026-11-23T15:58:38.624147+00:00"
-      },
-      "claim": {
-        "worker_id": "5e167d3f37304932bd77b199f5631ad6-shard-0",
-        "claimed_at": "2026-11-23T15:58:39.281004+00:00",
-        "lease_expires_at": "2026-11-23T21:58:39.281004+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31291537",
       "prepared": {
@@ -255726,5 +255728,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:16:25.174873+00:00"
+  "updated_at": "2026-11-23T16:17:09.660150+00:00"
 }
