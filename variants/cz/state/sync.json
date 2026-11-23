@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T03:05:50.425073+00:00"
+        "planned_at": "2026-11-23T03:05:57.033360+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -208435,17 +208435,19 @@
       }
     },
     "3619": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34189806",
+          "target_video_id": "31270059",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:06:30.556108+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34189806",
         "display_name": "Devotion 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:01:32.123927+00:00"
-      },
-      "claim": {
-        "worker_id": "cdac79295ed848dcb9375d2d823a6553-shard-0",
-        "claimed_at": "2026-11-23T03:01:32.943827+00:00",
-        "lease_expires_at": "2026-11-23T09:01:32.943827+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270059",
       "prepared": {
@@ -208513,7 +208515,13 @@
       "last_plan": {
         "source_id": "24837107",
         "display_name": "In a World... SD CZ Dabing",
-        "planned_at": "2026-11-23T03:05:50.923958+00:00"
+        "planned_at": "2026-11-23T03:05:57.546713+00:00"
+      },
+      "claim": {
+        "worker_id": "739153701e5640ffbe82444a2054ba51-shard-0",
+        "claimed_at": "2026-11-23T03:05:58.452545+00:00",
+        "lease_expires_at": "2026-11-23T09:05:58.452545+00:00",
+        "run_id": "45074101768"
       }
     },
     "16023": {
@@ -249597,5 +249605,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:05:50.923974+00:00"
+  "updated_at": "2026-11-23T03:06:30.556124+00:00"
 }
