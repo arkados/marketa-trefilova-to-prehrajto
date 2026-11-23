@@ -207448,17 +207448,19 @@
       }
     },
     "22347": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27924582",
+          "target_video_id": "31268579",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:59:26.329097+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27924582",
         "display_name": "High Anxiety 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:55:03.784840+00:00"
-      },
-      "claim": {
-        "worker_id": "6c66d737227441d481d4dee86ca04902-shard-0",
-        "claimed_at": "2026-11-23T01:55:04.834911+00:00",
-        "lease_expires_at": "2026-11-23T07:55:04.834911+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268579",
       "prepared": {
@@ -248804,5 +248806,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:57:31.262338+00:00"
+  "updated_at": "2026-11-23T01:59:26.329114+00:00"
 }
