@@ -214076,17 +214076,19 @@
       }
     },
     "3986": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35098977",
+          "target_video_id": "31284293",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:08:31.535062+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35098977",
         "display_name": "Lethal Weapon 4 4K CZ Dabing",
         "planned_at": "2026-11-23T11:59:30.706333+00:00"
-      },
-      "claim": {
-        "worker_id": "9018b92e74bf46bda7df7f6b2e193fca-shard-0",
-        "claimed_at": "2026-11-23T11:59:31.585669+00:00",
-        "lease_expires_at": "2026-11-23T17:59:31.585669+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31284293",
       "prepared": {
@@ -254244,5 +254246,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:07:18.420601+00:00"
+  "updated_at": "2026-11-23T12:08:31.535078+00:00"
 }
