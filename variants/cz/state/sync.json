@@ -216056,17 +216056,19 @@
       }
     },
     "7469": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30891641",
+          "target_video_id": "31292256",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:30:10.214602+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30891641",
         "display_name": "Veni Vidi Vici 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:21:42.377849+00:00"
-      },
-      "claim": {
-        "worker_id": "a48a734ed19b4e50ae0df3e012d89503-shard-0",
-        "claimed_at": "2026-11-23T16:21:43.146730+00:00",
-        "lease_expires_at": "2026-11-23T22:21:43.146730+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292256",
       "prepared": {
@@ -255863,5 +255865,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:27:54.344526+00:00"
+  "updated_at": "2026-11-23T16:30:10.214618+00:00"
 }
