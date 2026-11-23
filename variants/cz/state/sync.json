@@ -212761,17 +212761,19 @@
       }
     },
     "3601": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33743175",
+          "target_video_id": "31281219",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:54:55.443260+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33743175",
         "display_name": "Jackass: The Movie SD CZ Dabing",
         "planned_at": "2026-11-23T09:54:08.438632+00:00"
-      },
-      "claim": {
-        "worker_id": "78f8a9287749404c8cd99722f5aa8652-shard-0",
-        "claimed_at": "2026-11-23T09:54:09.322101+00:00",
-        "lease_expires_at": "2026-11-23T15:54:09.322101+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281219",
       "prepared": {
@@ -253052,5 +253054,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:54:50.892116+00:00"
+  "updated_at": "2026-11-23T09:54:55.443278+00:00"
 }
