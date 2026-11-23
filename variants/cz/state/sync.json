@@ -219540,17 +219540,19 @@
       "attempts": []
     },
     "17042": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13605453",
+          "target_video_id": "31299136",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:07:14.700536+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13605453",
         "display_name": "The Parting Glass 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:02:12.959209+00:00"
-      },
-      "claim": {
-        "worker_id": "49f11e8f62eb415ea2691b6845d706a3-shard-0",
-        "claimed_at": "2026-11-23T20:02:13.710784+00:00",
-        "lease_expires_at": "2026-11-24T02:02:13.710784+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31299136",
       "prepared": {
@@ -258474,5 +258476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:07:03.668269+00:00"
+  "updated_at": "2026-11-23T20:07:14.700562+00:00"
 }
