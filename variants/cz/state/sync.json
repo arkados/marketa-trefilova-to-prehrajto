@@ -215878,17 +215878,19 @@
       "attempts": []
     },
     "21802": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34499695",
+          "target_video_id": "31291779",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:16:09.948279+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34499695",
         "display_name": "Duel at Diablo 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:06:17.783433+00:00"
-      },
-      "claim": {
-        "worker_id": "0ecf3125943b444596f43d4910aa9166-shard-0",
-        "claimed_at": "2026-11-23T16:06:18.420403+00:00",
-        "lease_expires_at": "2026-11-23T22:06:18.420403+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31291779",
       "prepared": {
@@ -255706,5 +255708,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:15:01.756689+00:00"
+  "updated_at": "2026-11-23T16:16:09.948297+00:00"
 }
