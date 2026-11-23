@@ -206834,17 +206834,19 @@
       }
     },
     "15298": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13735156",
+          "target_video_id": "31267016",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:02:44.279442+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13735156",
         "display_name": "The Snitch Cartel (El cártel de los sapos) 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:55:22.610793+00:00"
-      },
-      "claim": {
-        "worker_id": "11ff2e64a5db41cda7f77b94b1e2e854-shard-0",
-        "claimed_at": "2026-11-23T00:55:23.384815+00:00",
-        "lease_expires_at": "2026-11-23T06:55:23.384815+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267016",
       "prepared": {
@@ -248327,5 +248329,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:02:03.796042+00:00"
+  "updated_at": "2026-11-23T01:02:44.279459+00:00"
 }
