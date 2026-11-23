@@ -208460,17 +208460,19 @@
       "attempts": []
     },
     "30017": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28049743",
+          "target_video_id": "31270116",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:03:44.598312+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28049743",
         "display_name": "Heavyweights 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:03:30.957547+00:00"
-      },
-      "claim": {
-        "worker_id": "16bfa7e60d4d48fb873a16dfdf6176a3-shard-0",
-        "claimed_at": "2026-11-23T03:03:31.833711+00:00",
-        "lease_expires_at": "2026-11-23T09:03:31.833711+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270116",
       "prepared": {
@@ -249570,5 +249572,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:03:38.745711+00:00"
+  "updated_at": "2026-11-23T03:03:44.598328+00:00"
 }
