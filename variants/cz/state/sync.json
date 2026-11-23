@@ -212810,17 +212810,19 @@
       }
     },
     "3958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34832173",
+          "target_video_id": "31281247",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:25:47.402283+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34832173",
         "display_name": "Never Back Down 4K CZ Dabing",
         "planned_at": "2026-11-23T09:55:12.793665+00:00"
-      },
-      "claim": {
-        "worker_id": "6170957ccf004dd1ac950b06807ff5bd-shard-0",
-        "claimed_at": "2026-11-23T09:55:13.729279+00:00",
-        "lease_expires_at": "2026-11-23T15:55:13.729279+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281247",
       "prepared": {
@@ -253210,5 +253212,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:23:01.381396+00:00"
+  "updated_at": "2026-11-23T10:25:47.402298+00:00"
 }
