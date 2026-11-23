@@ -218614,17 +218614,19 @@
       "attempts": []
     },
     "13158": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34194265",
+          "target_video_id": "31297663",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:21:34.517944+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34194265",
         "display_name": "Behind the Red Door 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:14:15.128132+00:00"
-      },
-      "claim": {
-        "worker_id": "3ae67510f9024e6e9f4c8b7180a1b5ea-shard-0",
-        "claimed_at": "2026-11-23T19:14:15.932725+00:00",
-        "lease_expires_at": "2026-11-24T01:14:15.932725+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297663",
       "prepared": {
@@ -257812,5 +257814,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:18:51.173610+00:00"
+  "updated_at": "2026-11-23T19:21:34.517972+00:00"
 }
