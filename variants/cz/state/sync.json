@@ -219711,17 +219711,19 @@
       "attempts": []
     },
     "16304": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32912070",
+          "target_video_id": "31299398",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:17:20.431684+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32912070",
         "display_name": "Doux Jésus 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:13:45.055637+00:00"
-      },
-      "claim": {
-        "worker_id": "268329ddbcc447cfb5d9730e6dc767ab-shard-0",
-        "claimed_at": "2026-11-23T20:13:45.812959+00:00",
-        "lease_expires_at": "2026-11-24T02:13:45.812959+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31299398",
       "prepared": {
@@ -258574,5 +258576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:13:50.880729+00:00"
+  "updated_at": "2026-11-23T20:17:20.431701+00:00"
 }
