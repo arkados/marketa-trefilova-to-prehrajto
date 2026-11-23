@@ -216591,17 +216591,19 @@
       "attempts": []
     },
     "13792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34683284",
+          "target_video_id": "31293746",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:19:43.853518+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34683284",
         "display_name": "The Bitch's Diary (Bestiář) 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:10:12.955245+00:00"
-      },
-      "claim": {
-        "worker_id": "6f9ac5d24176417c8cbf7f0d0b18b49c-shard-0",
-        "claimed_at": "2026-11-23T17:10:16.386370+00:00",
-        "lease_expires_at": "2026-11-23T23:10:16.386370+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31293746",
       "prepared": {
@@ -256297,5 +256299,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:16:16.868573+00:00"
+  "updated_at": "2026-11-23T17:19:43.853534+00:00"
 }
