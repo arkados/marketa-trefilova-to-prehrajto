@@ -208380,17 +208380,19 @@
       "attempts": []
     },
     "22677": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24567157",
+          "target_video_id": "31269983",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:05:46.669180+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24567157",
         "display_name": "The Hunger 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:58:21.206147+00:00"
-      },
-      "claim": {
-        "worker_id": "71b034d258b94a1590fa0f1ebac78af5-shard-0",
-        "claimed_at": "2026-11-23T02:58:22.029944+00:00",
-        "lease_expires_at": "2026-11-23T08:58:22.029944+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269983",
       "prepared": {
@@ -249590,5 +249592,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:03:58.708702+00:00"
+  "updated_at": "2026-11-23T03:05:46.669195+00:00"
 }
