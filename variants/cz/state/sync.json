@@ -221113,17 +221113,19 @@
       "attempts": []
     },
     "27920": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "5086765",
+          "target_video_id": "31307727",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:57:27.579625+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "5086765",
         "display_name": "Quest for Zhu 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:53:11.671269+00:00"
-      },
-      "claim": {
-        "worker_id": "af476d9ade0b4391a184141180e7013b-shard-0",
-        "claimed_at": "2026-11-23T21:53:12.291559+00:00",
-        "lease_expires_at": "2026-11-24T03:53:12.291559+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31307727",
       "prepared": {
@@ -259667,5 +259669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:57:11.356774+00:00"
+  "updated_at": "2026-11-23T21:57:27.579641+00:00"
 }
