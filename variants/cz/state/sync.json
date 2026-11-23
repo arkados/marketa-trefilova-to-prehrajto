@@ -217252,17 +217252,19 @@
       }
     },
     "5857": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29956854",
+          "target_video_id": "31295389",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:00:36.899917+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29956854",
         "display_name": "Christmas Au Pair (Snowed in for Christmas) 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:58:46.241354+00:00"
-      },
-      "claim": {
-        "worker_id": "019dfa00e2e94b108e81ef3c931db7f6-shard-0",
-        "claimed_at": "2026-11-23T17:58:47.013576+00:00",
-        "lease_expires_at": "2026-11-23T23:58:47.013576+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295389",
       "prepared": {
@@ -256757,5 +256759,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:00:33.395168+00:00"
+  "updated_at": "2026-11-23T18:00:36.899933+00:00"
 }
