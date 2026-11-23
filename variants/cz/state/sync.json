@@ -217758,17 +217758,19 @@
       }
     },
     "16877": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30677636",
+          "target_video_id": "31296055",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:26:11.950014+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30677636",
         "display_name": "Robbi, Tobbi und das Fliewatüüt 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:21:19.332095+00:00"
-      },
-      "claim": {
-        "worker_id": "a8dfdb83585f4046a2e9cffc8858356e-shard-0",
-        "claimed_at": "2026-11-23T18:21:20.200576+00:00",
-        "lease_expires_at": "2026-11-24T00:21:20.200576+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296055",
       "prepared": {
@@ -257192,5 +257194,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:23:58.343796+00:00"
+  "updated_at": "2026-11-23T18:26:11.950034+00:00"
 }
