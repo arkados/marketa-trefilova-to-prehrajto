@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T02:49:17.198029+00:00"
+        "planned_at": "2026-11-23T02:49:22.856477+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -208096,11 +208096,23 @@
       }
     },
     "22782": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34059482",
+          "reason": "Source detail has no authenticated download link; source_id=34059482",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:49:26.104115+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34059482",
         "display_name": "Demons 4K CZ Dabing",
-        "planned_at": "2026-11-23T02:49:17.646549+00:00"
+        "planned_at": "2026-11-23T02:49:23.311949+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34059482",
+        "requested_at": "2026-11-23T02:49:26.104099+00:00"
       }
     },
     "11170": {
@@ -249286,5 +249298,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:49:17.646565+00:00"
+  "updated_at": "2026-11-23T02:49:26.104121+00:00"
 }
