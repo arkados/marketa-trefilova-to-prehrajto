@@ -209692,17 +209692,19 @@
       "attempts": []
     },
     "11310": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25891019",
+          "target_video_id": "31272048",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:26:49.605443+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25891019",
         "display_name": "Phantasm 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:21:36.765507+00:00"
-      },
-      "claim": {
-        "worker_id": "0787f481519140cbb66d655186bc6e7f-shard-0",
-        "claimed_at": "2026-11-23T04:21:37.472214+00:00",
-        "lease_expires_at": "2026-11-23T10:21:37.472214+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272048",
       "prepared": {
@@ -250599,5 +250601,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:25:31.290877+00:00"
+  "updated_at": "2026-11-23T04:26:49.605461+00:00"
 }
