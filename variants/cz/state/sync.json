@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T01:48:13.832247+00:00"
+        "planned_at": "2026-11-23T01:48:19.479406+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -207342,11 +207342,23 @@
       "attempts": []
     },
     "27620": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "12999464",
+          "reason": "Source detail has no authenticated download link; source_id=12999464",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:48:23.502389+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12999464",
         "display_name": "Jackass 3.5 SD CZ Dabing",
-        "planned_at": "2026-11-23T01:48:14.293273+00:00"
+        "planned_at": "2026-11-23T01:48:19.952646+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "12999464",
+        "requested_at": "2026-11-23T01:48:23.502373+00:00"
       }
     },
     "28636": {
@@ -248694,5 +248706,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:48:14.293290+00:00"
+  "updated_at": "2026-11-23T01:48:23.502394+00:00"
 }
