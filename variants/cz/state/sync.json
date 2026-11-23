@@ -216437,17 +216437,19 @@
       "attempts": []
     },
     "10764": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32790637",
+          "target_video_id": "31293196",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:02:35.859612+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32790637",
         "display_name": "Une Parisienne 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:49:38.101138+00:00"
-      },
-      "claim": {
-        "worker_id": "332465c8c061414495aa583f1f48169f-shard-0",
-        "claimed_at": "2026-11-23T16:49:38.719853+00:00",
-        "lease_expires_at": "2026-11-23T22:49:38.719853+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31293196",
       "prepared": {
@@ -256160,5 +256162,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:57:54.887557+00:00"
+  "updated_at": "2026-11-23T17:02:35.859628+00:00"
 }
