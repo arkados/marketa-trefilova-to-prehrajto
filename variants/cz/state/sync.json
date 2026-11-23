@@ -206047,17 +206047,19 @@
       }
     },
     "4381": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33646845",
+          "target_video_id": "31265728",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:30:09.156298+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33646845",
         "display_name": "Man of the East (E poi lo chiamarono il magnifico) 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:13:18.200693+00:00"
-      },
-      "claim": {
-        "worker_id": "9e25b5d9237242b5a7af10a12c9f69ba-shard-0",
-        "claimed_at": "2026-11-23T00:13:19.523618+00:00",
-        "lease_expires_at": "2026-11-23T06:13:19.523618+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31265728",
       "prepared": {
@@ -247893,5 +247895,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:29:51.393797+00:00"
+  "updated_at": "2026-11-23T00:30:09.156314+00:00"
 }
