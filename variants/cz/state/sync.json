@@ -216244,17 +216244,19 @@
       }
     },
     "31999": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12261563",
+          "target_video_id": "31292691",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:39:36.251190+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12261563",
         "display_name": "50 to 1 SD CZ Dabing",
         "planned_at": "2026-11-23T16:35:59.239354+00:00"
-      },
-      "claim": {
-        "worker_id": "47dda37078a14c00bee03937718c659e-shard-0",
-        "claimed_at": "2026-11-23T16:35:59.880008+00:00",
-        "lease_expires_at": "2026-11-23T22:35:59.880008+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292691",
       "prepared": {
@@ -255980,5 +255982,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:37:08.915250+00:00"
+  "updated_at": "2026-11-23T16:39:36.251207+00:00"
 }
