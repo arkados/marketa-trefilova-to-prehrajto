@@ -214579,17 +214579,19 @@
       }
     },
     "34327": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28771460",
+          "target_video_id": "31285991",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:43:40.955211+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28771460",
         "display_name": "Talladega Nights: The Ballad of Ricky Bobby 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:41:10.827388+00:00"
-      },
-      "claim": {
-        "worker_id": "454dd05ef57741b680006f94da0946a7-shard-0",
-        "claimed_at": "2026-11-23T12:41:11.683182+00:00",
-        "lease_expires_at": "2026-11-23T18:41:11.683182+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285991",
       "prepared": {
@@ -254594,5 +254596,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:43:36.125444+00:00"
+  "updated_at": "2026-11-23T12:43:40.955227+00:00"
 }
