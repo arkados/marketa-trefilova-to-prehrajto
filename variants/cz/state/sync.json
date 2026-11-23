@@ -212929,17 +212929,19 @@
       "attempts": []
     },
     "3964": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34346658",
+          "target_video_id": "31281842",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:22:47.644364+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34346658",
         "display_name": "Run All Night 1080p CZ Dabing",
         "planned_at": "2026-11-23T10:17:42.403721+00:00"
-      },
-      "claim": {
-        "worker_id": "be9db9e23cda44c0944598a49227e51b-shard-0",
-        "claimed_at": "2026-11-23T10:17:43.276096+00:00",
-        "lease_expires_at": "2026-11-23T16:17:43.276096+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281842",
       "prepared": {
@@ -253190,5 +253192,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:17:46.840237+00:00"
+  "updated_at": "2026-11-23T10:22:47.644382+00:00"
 }
