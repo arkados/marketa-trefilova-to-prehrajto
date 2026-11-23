@@ -210836,17 +210836,19 @@
       "attempts": []
     },
     "3614": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29561763",
+          "target_video_id": "31273731",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:49:03.309322+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29561763",
         "display_name": "Land of Bad 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:39:24.636565+00:00"
-      },
-      "claim": {
-        "worker_id": "4dbef1d78aff4c038f4c596dcb4e69fb-shard-0",
-        "claimed_at": "2026-11-23T05:39:25.088348+00:00",
-        "lease_expires_at": "2026-11-23T11:39:25.088348+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273731",
       "prepared": {
@@ -251469,5 +251471,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:39:29.027382+00:00"
+  "updated_at": "2026-11-23T05:49:03.309340+00:00"
 }
