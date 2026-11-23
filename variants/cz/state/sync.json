@@ -211408,17 +211408,19 @@
       }
     },
     "23209": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29546112",
+          "target_video_id": "31275054",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:27:11.877331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29546112",
         "display_name": "Tiger Cage 3 (Tiger Cage III) 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:24:18.083094+00:00"
-      },
-      "claim": {
-        "worker_id": "ebd4c8495b0f420aa037bd80f898466c-shard-0",
-        "claimed_at": "2026-11-23T06:24:18.513476+00:00",
-        "lease_expires_at": "2026-11-23T12:24:18.513476+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275054",
       "prepared": {
@@ -251939,5 +251941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:25:13.966228+00:00"
+  "updated_at": "2026-11-23T06:27:11.877348+00:00"
 }
