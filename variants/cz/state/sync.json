@@ -218710,17 +218710,19 @@
       "attempts": []
     },
     "27126": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28127201",
+          "target_video_id": "31297964",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:26:37.736572+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28127201",
         "display_name": "Ritueel (Ritual) 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:21:43.160535+00:00"
-      },
-      "claim": {
-        "worker_id": "6f6ec9cee1ca4ef8b56770e820091ffc-shard-0",
-        "claimed_at": "2026-11-23T19:21:43.984820+00:00",
-        "lease_expires_at": "2026-11-24T01:21:43.984820+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297964",
       "prepared": {
@@ -257852,5 +257854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:22:11.825997+00:00"
+  "updated_at": "2026-11-23T19:26:37.736589+00:00"
 }
