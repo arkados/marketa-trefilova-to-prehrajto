@@ -211098,17 +211098,19 @@
       }
     },
     "3941": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28310094",
+          "target_video_id": "31274513",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:11:07.714952+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28310094",
         "display_name": "Pride and Glory 720p CZ Dabing",
         "planned_at": "2026-11-23T06:04:53.641757+00:00"
-      },
-      "claim": {
-        "worker_id": "468f2ee94ae241d4bbb114d08ba35c0f-shard-0",
-        "claimed_at": "2026-11-23T06:04:54.108442+00:00",
-        "lease_expires_at": "2026-11-23T12:04:54.108442+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274513",
       "prepared": {
@@ -251686,5 +251688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:07:27.061073+00:00"
+  "updated_at": "2026-11-23T06:11:07.714972+00:00"
 }
