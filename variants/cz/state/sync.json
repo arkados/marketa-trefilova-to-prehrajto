@@ -222066,17 +222066,19 @@
       }
     },
     "29033": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34711593",
+          "target_video_id": "31310542",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:37:14.201019+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34711593",
         "display_name": "The Taking of Tiger Mountain 720p CZ Dabing",
         "planned_at": "2026-11-23T23:31:50.956685+00:00"
-      },
-      "claim": {
-        "worker_id": "b4c7e53eea2743cc869d6a935a262b97-shard-0",
-        "claimed_at": "2026-11-23T23:31:51.400238+00:00",
-        "lease_expires_at": "2026-11-24T05:31:51.400238+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31310542",
       "prepared": {
@@ -260424,5 +260426,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:36:23.003597+00:00"
+  "updated_at": "2026-11-23T23:37:14.201038+00:00"
 }
