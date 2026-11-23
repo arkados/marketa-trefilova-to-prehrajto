@@ -210617,17 +210617,19 @@
       }
     },
     "10068": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35053655",
+          "target_video_id": "31273423",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:25:42.679597+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35053655",
         "display_name": "The Swan Princess: A Royal MyZtery SD CZ Dabing",
         "planned_at": "2026-11-23T05:24:32.488997+00:00"
-      },
-      "claim": {
-        "worker_id": "1d14a2de53fd47c29070d8ddb41742cf-shard-0",
-        "claimed_at": "2026-11-23T05:24:32.938768+00:00",
-        "lease_expires_at": "2026-11-23T11:24:32.938768+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273423",
       "prepared": {
@@ -251292,5 +251294,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:24:36.362502+00:00"
+  "updated_at": "2026-11-23T05:25:42.679618+00:00"
 }
