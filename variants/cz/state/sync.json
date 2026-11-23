@@ -210457,17 +210457,19 @@
       }
     },
     "16528": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694949",
+          "target_video_id": "31273174",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:15:21.120292+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694949",
         "display_name": "Shooting Stars 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:09:24.366136+00:00"
-      },
-      "claim": {
-        "worker_id": "d3f945fb41854973b5f3c25b006b5de1-shard-0",
-        "claimed_at": "2026-11-23T05:09:24.833613+00:00",
-        "lease_expires_at": "2026-11-23T11:09:24.833613+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273174",
       "prepared": {
@@ -251192,5 +251194,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:14:19.721098+00:00"
+  "updated_at": "2026-11-23T05:15:21.120313+00:00"
 }
