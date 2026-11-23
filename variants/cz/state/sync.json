@@ -216033,17 +216033,19 @@
       }
     },
     "14637": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27559931",
+          "target_video_id": "31292253",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:25:08.061212+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27559931",
         "display_name": "Jockey SD CZ Dabing",
         "planned_at": "2026-11-23T16:21:29.782019+00:00"
-      },
-      "claim": {
-        "worker_id": "eae4a2989bab408e91be676cdcff6aab-shard-0",
-        "claimed_at": "2026-11-23T16:21:33.153937+00:00",
-        "lease_expires_at": "2026-11-23T22:21:33.153937+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292253",
       "prepared": {
@@ -255823,5 +255825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:24:48.520443+00:00"
+  "updated_at": "2026-11-23T16:25:08.061229+00:00"
 }
