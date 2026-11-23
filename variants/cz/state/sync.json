@@ -217583,17 +217583,19 @@
       "attempts": []
     },
     "4244": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10953177",
+          "target_video_id": "31295770",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:13:47.686150+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10953177",
         "display_name": "Rolling to You (Tout le monde debout) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:11:49.098940+00:00"
-      },
-      "claim": {
-        "worker_id": "c21d6aae82244703b5f140c863452818-shard-0",
-        "claimed_at": "2026-11-23T18:11:49.881890+00:00",
-        "lease_expires_at": "2026-11-24T00:11:49.881890+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295770",
       "prepared": {
@@ -256977,5 +256979,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:11:53.515163+00:00"
+  "updated_at": "2026-11-23T18:13:47.686166+00:00"
 }
