@@ -213296,17 +213296,19 @@
       }
     },
     "3830": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16504392",
+          "target_video_id": "31283062",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:11:31.071038+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16504392",
         "display_name": "16 Blocks 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:09:14.048371+00:00"
-      },
-      "claim": {
-        "worker_id": "39d329b028fb4dd881bb45ddd5d431b9-shard-0",
-        "claimed_at": "2026-11-23T11:09:18.416658+00:00",
-        "lease_expires_at": "2026-11-23T17:09:18.416658+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283062",
       "prepared": {
@@ -253527,5 +253529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:10:27.515741+00:00"
+  "updated_at": "2026-11-23T11:11:31.071054+00:00"
 }
