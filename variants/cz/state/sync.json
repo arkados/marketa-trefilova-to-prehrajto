@@ -222043,17 +222043,19 @@
       }
     },
     "5865": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31916600",
+          "target_video_id": "31310440",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:34:34.865176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31916600",
         "display_name": "Pil's Adventures (Pil) 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:28:46.809121+00:00"
-      },
-      "claim": {
-        "worker_id": "c7871b37ad224882b4cd669ad1a1ce95-shard-0",
-        "claimed_at": "2026-11-23T23:28:47.316644+00:00",
-        "lease_expires_at": "2026-11-24T05:28:47.316644+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31310440",
       "prepared": {
@@ -260384,5 +260386,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:32:20.571453+00:00"
+  "updated_at": "2026-11-23T23:34:34.865195+00:00"
 }
