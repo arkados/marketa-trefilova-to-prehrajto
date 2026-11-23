@@ -211239,17 +211239,19 @@
       "attempts": []
     },
     "15109": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689322",
+          "target_video_id": "31274811",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:15:45.361231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689322",
         "display_name": "All the Wrong Reasons 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:15:36.319463+00:00"
-      },
-      "claim": {
-        "worker_id": "e96ff9fb1f15401fbadf729e39327632-shard-0",
-        "claimed_at": "2026-11-23T06:15:36.738671+00:00",
-        "lease_expires_at": "2026-11-23T12:15:36.738671+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274811",
       "prepared": {
@@ -251779,5 +251781,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:15:40.157124+00:00"
+  "updated_at": "2026-11-23T06:15:45.361252+00:00"
 }
