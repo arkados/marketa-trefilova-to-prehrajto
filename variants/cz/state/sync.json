@@ -210411,17 +210411,19 @@
       }
     },
     "17224": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19560291",
+          "target_video_id": "31273104",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:10:44.730810+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19560291",
         "display_name": "I Am Elizabeth Smart 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:06:38.099364+00:00"
-      },
-      "claim": {
-        "worker_id": "cfcb996571204368b2fcb33692dc423b-shard-0",
-        "claimed_at": "2026-11-23T05:06:38.581496+00:00",
-        "lease_expires_at": "2026-11-23T11:06:38.581496+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273104",
       "prepared": {
@@ -251152,5 +251154,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:09:29.230955+00:00"
+  "updated_at": "2026-11-23T05:10:44.730830+00:00"
 }
