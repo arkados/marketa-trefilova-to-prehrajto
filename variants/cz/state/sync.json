@@ -206374,17 +206374,19 @@
       }
     },
     "3797": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34283197",
+          "target_video_id": "31266367",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:35:54.991483+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34283197",
         "display_name": "Next Gen 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:30:55.643607+00:00"
-      },
-      "claim": {
-        "worker_id": "a48638da1a6b4234b8ad4fffa035cf33-shard-0",
-        "claimed_at": "2026-11-23T00:30:56.409447+00:00",
-        "lease_expires_at": "2026-11-23T06:30:56.409447+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266367",
       "prepared": {
@@ -247993,5 +247995,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:35:13.757425+00:00"
+  "updated_at": "2026-11-23T00:35:54.991499+00:00"
 }
