@@ -206708,17 +206708,19 @@
       }
     },
     "11745": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33669885",
+          "target_video_id": "31266866",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:48:59.687108+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33669885",
         "display_name": "Elvira, Mistress of the Dark (Elvira: Mistress of the Dark) 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:48:49.451356+00:00"
-      },
-      "claim": {
-        "worker_id": "8999362ea3d34f8083b4780fc50ab488-shard-0",
-        "claimed_at": "2026-11-23T00:48:50.313935+00:00",
-        "lease_expires_at": "2026-11-23T06:48:50.313935+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266866",
       "prepared": {
@@ -248187,5 +248189,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:48:54.095453+00:00"
+  "updated_at": "2026-11-23T00:48:59.687125+00:00"
 }
