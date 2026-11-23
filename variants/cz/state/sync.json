@@ -221325,17 +221325,19 @@
       "attempts": []
     },
     "16666": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34856605",
+          "target_video_id": "31308147",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:18:22.508868+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34856605",
         "display_name": "The Spirit of Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-23T22:12:39.138397+00:00"
-      },
-      "claim": {
-        "worker_id": "b99714c5b2d04ca58a963c16708767a2-shard-0",
-        "claimed_at": "2026-11-23T22:12:39.629903+00:00",
-        "lease_expires_at": "2026-11-24T04:12:39.629903+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31308147",
       "prepared": {
@@ -259807,5 +259809,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:16:13.260525+00:00"
+  "updated_at": "2026-11-23T22:18:22.508889+00:00"
 }
