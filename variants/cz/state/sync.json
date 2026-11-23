@@ -220552,17 +220552,19 @@
       "attempts": []
     },
     "32962": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34174061",
+          "target_video_id": "31306441",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:23:48.207807+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34174061",
         "display_name": "The Gentleman from Epsom (Le Gentleman d'Epsom) 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:09:46.542074+00:00"
-      },
-      "claim": {
-        "worker_id": "47c5f13266c04e0980b7dffade0a38b5-shard-0",
-        "claimed_at": "2026-11-23T21:09:50.316158+00:00",
-        "lease_expires_at": "2026-11-24T03:09:50.316158+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306441",
       "prepared": {
@@ -259347,5 +259349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:23:40.982858+00:00"
+  "updated_at": "2026-11-23T21:23:48.207824+00:00"
 }
