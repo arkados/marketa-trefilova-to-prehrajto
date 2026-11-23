@@ -213435,17 +213435,19 @@
       }
     },
     "3944": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20920016",
+          "target_video_id": "31283235",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:22:39.573841+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20920016",
         "display_name": "Burnt 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:15:18.927054+00:00"
-      },
-      "claim": {
-        "worker_id": "de68d9905df64a65afd5cbcdc63928f6-shard-0",
-        "claimed_at": "2026-11-23T11:15:19.788964+00:00",
-        "lease_expires_at": "2026-11-23T17:15:19.788964+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283235",
       "prepared": {
@@ -253647,5 +253649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:22:33.810874+00:00"
+  "updated_at": "2026-11-23T11:22:39.573857+00:00"
 }
