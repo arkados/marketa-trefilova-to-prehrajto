@@ -215464,17 +215464,19 @@
       }
     },
     "3945": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28725559",
+          "target_video_id": "31289412",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:45:14.002683+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28725559",
         "display_name": "Hitch 1080p CZ Dabing",
         "planned_at": "2026-11-23T14:40:52.241801+00:00"
-      },
-      "claim": {
-        "worker_id": "955682db9a9f442d86f839e4e3712e3e-shard-0",
-        "claimed_at": "2026-11-23T14:40:52.876437+00:00",
-        "lease_expires_at": "2026-11-23T20:40:52.876437+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31289412",
       "prepared": {
@@ -255358,5 +255360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:43:11.635931+00:00"
+  "updated_at": "2026-11-23T14:45:14.002704+00:00"
 }
