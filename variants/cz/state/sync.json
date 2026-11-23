@@ -212552,17 +212552,19 @@
       }
     },
     "3852": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17632444",
+          "target_video_id": "31280474",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:31:05.129059+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17632444",
         "display_name": "Edge of Darkness 1080p CZ Dabing",
         "planned_at": "2026-11-23T09:27:59.269215+00:00"
-      },
-      "claim": {
-        "worker_id": "ced3ff78cdb342e296d0408d5dc14164-shard-0",
-        "claimed_at": "2026-11-23T09:28:00.620530+00:00",
-        "lease_expires_at": "2026-11-23T15:28:00.620530+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31280474",
       "prepared": {
@@ -252873,5 +252875,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:28:05.099161+00:00"
+  "updated_at": "2026-11-23T09:31:05.129075+00:00"
 }
