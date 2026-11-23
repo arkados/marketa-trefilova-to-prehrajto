@@ -219376,17 +219376,19 @@
       "attempts": []
     },
     "7810": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30472537",
+          "target_video_id": "31298964",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:00:39.748222+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30472537",
         "display_name": "Almost dead (Casi muerta) (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:55:58.256537+00:00"
-      },
-      "claim": {
-        "worker_id": "91c858141ba64d979607f456d4f979af-shard-0",
-        "claimed_at": "2026-11-23T19:56:02.060321+00:00",
-        "lease_expires_at": "2026-11-24T01:56:02.060321+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31298964",
       "prepared": {
@@ -258399,5 +258401,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:59:00.346888+00:00"
+  "updated_at": "2026-11-23T20:00:39.748241+00:00"
 }
