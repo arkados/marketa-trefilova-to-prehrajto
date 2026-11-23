@@ -222189,17 +222189,19 @@
       "attempts": []
     },
     "37553": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34912048",
+          "target_video_id": "31310837",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:43:53.242498+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34912048",
         "display_name": "The Last Sunrise 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:38:31.465010+00:00"
-      },
-      "claim": {
-        "worker_id": "4bfeb4217e0041449c87965912753cf3-shard-0",
-        "claimed_at": "2026-11-23T23:38:31.930215+00:00",
-        "lease_expires_at": "2026-11-24T05:38:31.930215+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31310837",
       "prepared": {
@@ -260464,5 +260466,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:38:44.911771+00:00"
+  "updated_at": "2026-11-23T23:43:53.242519+00:00"
 }
