@@ -220752,17 +220752,19 @@
       }
     },
     "11277": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34150766",
+          "target_video_id": "31306965",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:25:32.060465+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34150766",
         "display_name": "Snake & Crane Arts of Shaolin (SheHeBaBu) SD CZ Dabing",
         "planned_at": "2026-11-23T21:23:59.106199+00:00"
-      },
-      "claim": {
-        "worker_id": "149ba86533e843398cd12cb7bac72aaf-shard-0",
-        "claimed_at": "2026-11-23T21:23:59.949610+00:00",
-        "lease_expires_at": "2026-11-24T03:23:59.949610+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306965",
       "prepared": {
@@ -259387,5 +259389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:24:21.198597+00:00"
+  "updated_at": "2026-11-23T21:25:32.060492+00:00"
 }
