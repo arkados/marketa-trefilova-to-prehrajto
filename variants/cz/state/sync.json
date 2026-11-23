@@ -218980,17 +218980,19 @@
       }
     },
     "4227": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33853196",
+          "target_video_id": "31298438",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:43:35.584541+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33853196",
         "display_name": "Romulus & Remus: The First King (Il primo re) 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:36:38.442140+00:00"
-      },
-      "claim": {
-        "worker_id": "b77ad00d98cf40a29f25fa8a04a02657-shard-0",
-        "claimed_at": "2026-11-23T19:36:39.262668+00:00",
-        "lease_expires_at": "2026-11-24T01:36:39.262668+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31298438",
       "prepared": {
@@ -258082,5 +258084,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:42:27.484510+00:00"
+  "updated_at": "2026-11-23T19:43:35.584559+00:00"
 }
