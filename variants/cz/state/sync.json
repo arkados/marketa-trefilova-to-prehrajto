@@ -207370,17 +207370,19 @@
       "attempts": []
     },
     "17283": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21211367",
+          "target_video_id": "31268428",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:57:14.901307+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21211367",
         "display_name": "Adoration 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:48:33.421162+00:00"
-      },
-      "claim": {
-        "worker_id": "0641d35a52dd43a6accf4db1b5a2c1e8-shard-0",
-        "claimed_at": "2026-11-23T01:48:34.278104+00:00",
-        "lease_expires_at": "2026-11-23T07:48:34.278104+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268428",
       "prepared": {
@@ -248784,5 +248786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:55:11.952842+00:00"
+  "updated_at": "2026-11-23T01:57:14.901323+00:00"
 }
