@@ -209972,17 +209972,19 @@
       }
     },
     "3847": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19091127",
+          "target_video_id": "31272487",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:41:59.173328+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19091127",
         "display_name": "Thoroughbreds SD CZ Dabing",
         "planned_at": "2026-11-23T04:37:28.030552+00:00"
-      },
-      "claim": {
-        "worker_id": "e3183572d99140dd9c257b06714dfc38-shard-0",
-        "claimed_at": "2026-11-23T04:37:28.488189+00:00",
-        "lease_expires_at": "2026-11-23T10:37:28.488189+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272487",
       "prepared": {
@@ -250752,5 +250754,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:37:32.181819+00:00"
+  "updated_at": "2026-11-23T04:41:59.173345+00:00"
 }
