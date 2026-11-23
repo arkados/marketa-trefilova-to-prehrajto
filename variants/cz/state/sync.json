@@ -214826,17 +214826,19 @@
       "attempts": []
     },
     "13335": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32551048",
+          "target_video_id": "31287406",
+          "permanent": false,
+          "attempted_at": "2026-11-23T13:40:41.004883+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32551048",
         "display_name": "EuroTrip 1080p CZ Dabing",
         "planned_at": "2026-11-23T13:36:21.799609+00:00"
-      },
-      "claim": {
-        "worker_id": "3842ccd7570843038befabe0d684b928-shard-0",
-        "claimed_at": "2026-11-23T13:36:23.163754+00:00",
-        "lease_expires_at": "2026-11-23T19:36:23.163754+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31287406",
       "prepared": {
@@ -254814,5 +254816,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T13:36:55.088773+00:00"
+  "updated_at": "2026-11-23T13:40:41.004899+00:00"
 }
