@@ -214604,17 +214604,19 @@
       }
     },
     "3827": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32464846",
+          "target_video_id": "31286076",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:51:31.762625+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32464846",
         "display_name": "Event Horizon 4K CZ Dabing",
         "planned_at": "2026-11-23T12:43:31.174565+00:00"
-      },
-      "claim": {
-        "worker_id": "e96dbaccdba44bbcb6bb4375f204d74c-shard-0",
-        "claimed_at": "2026-11-23T12:43:32.112041+00:00",
-        "lease_expires_at": "2026-11-23T18:43:32.112041+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31286076",
       "prepared": {
@@ -254634,5 +254636,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:44:14.762392+00:00"
+  "updated_at": "2026-11-23T12:51:31.762642+00:00"
 }
