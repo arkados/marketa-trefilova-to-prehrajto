@@ -212225,17 +212225,19 @@
       "attempts": []
     },
     "12193": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34265131",
+          "target_video_id": "31277728",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:13:37.191853+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34265131",
         "display_name": "Star Trek Generations (Star Trek: Generations) 4K CZ Dabing",
         "planned_at": "2026-11-23T07:55:20.600223+00:00"
-      },
-      "claim": {
-        "worker_id": "dcc7f630492e4115a5fc9c7a289f35e2-shard-0",
-        "claimed_at": "2026-11-23T07:55:21.040332+00:00",
-        "lease_expires_at": "2026-11-23T13:55:21.040332+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31277728",
       "prepared": {
@@ -252717,5 +252719,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T08:23:52.633582+00:00"
+  "updated_at": "2026-11-23T09:13:37.191874+00:00"
 }
