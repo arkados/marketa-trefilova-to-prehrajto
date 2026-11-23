@@ -207295,17 +207295,19 @@
       }
     },
     "13573": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27705531",
+          "target_video_id": "31268276",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:48:06.620063+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27705531",
         "display_name": "The Rain Makers 720p CZ Dabing",
         "planned_at": "2026-11-23T01:40:23.838652+00:00"
-      },
-      "claim": {
-        "worker_id": "84df16251bef46bbb1359971e904dc68-shard-0",
-        "claimed_at": "2026-11-23T01:40:24.763870+00:00",
-        "lease_expires_at": "2026-11-23T07:40:24.763870+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268276",
       "prepared": {
@@ -248687,5 +248689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:43:33.375970+00:00"
+  "updated_at": "2026-11-23T01:48:06.620080+00:00"
 }
