@@ -210136,17 +210136,19 @@
       }
     },
     "14923": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23455858",
+          "target_video_id": "31272743",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:49:55.636511+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23455858",
         "display_name": "Christmas with a Prince: The Royal Baby 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:49:42.837956+00:00"
-      },
-      "claim": {
-        "worker_id": "2f7b7d9541c04c4e884e8afef264bf4a-shard-0",
-        "claimed_at": "2026-11-23T04:49:43.259318+00:00",
-        "lease_expires_at": "2026-11-23T10:49:43.259318+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272743",
       "prepared": {
@@ -250892,5 +250894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:49:46.836127+00:00"
+  "updated_at": "2026-11-23T04:49:55.636531+00:00"
 }
