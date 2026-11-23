@@ -211212,17 +211212,19 @@
       }
     },
     "3637": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34126345",
+          "target_video_id": "31274788",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:18:05.534321+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34126345",
         "display_name": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:14:46.006526+00:00"
-      },
-      "claim": {
-        "worker_id": "a3e97ecc225a4cea8e8ae68e44a31230-shard-0",
-        "claimed_at": "2026-11-23T06:14:46.436471+00:00",
-        "lease_expires_at": "2026-11-23T12:14:46.436471+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274788",
       "prepared": {
@@ -251819,5 +251821,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:17:41.971689+00:00"
+  "updated_at": "2026-11-23T06:18:05.534339+00:00"
 }
