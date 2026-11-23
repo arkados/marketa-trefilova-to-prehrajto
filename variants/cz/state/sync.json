@@ -212313,17 +212313,19 @@
       }
     },
     "26167": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28525572",
+          "target_video_id": "31278178",
+          "permanent": false,
+          "attempted_at": "2026-11-23T08:14:32.440518+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28525572",
         "display_name": "Nick and Norah's Infinite Playlist 1080p CZ Dabing",
         "planned_at": "2026-11-23T08:10:43.208952+00:00"
-      },
-      "claim": {
-        "worker_id": "7815c2db8450486a8ba8cbbbd6704dcb-shard-0",
-        "claimed_at": "2026-11-23T08:10:43.640157+00:00",
-        "lease_expires_at": "2026-11-23T14:10:43.640157+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31278178",
       "prepared": {
@@ -252673,5 +252675,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T08:10:47.696141+00:00"
+  "updated_at": "2026-11-23T08:14:32.440538+00:00"
 }
