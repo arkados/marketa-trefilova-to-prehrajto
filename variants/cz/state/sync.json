@@ -144248,7 +144248,7 @@
       "last_plan": {
         "source_id": "30864267",
         "display_name": "Srdečný pozdrav ze zeměkoule 1080p CZ Dabing",
-        "planned_at": "2026-11-23T12:23:07.681642+00:00"
+        "planned_at": "2026-11-23T12:23:13.020402+00:00"
       },
       "previous_target_id": "30988779",
       "prepared": {
@@ -214324,17 +214324,19 @@
       }
     },
     "14559": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686568",
+          "target_video_id": "31285307",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:23:18.388225+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686568",
         "display_name": "Addio al nubilato 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:20:06.643293+00:00"
-      },
-      "claim": {
-        "worker_id": "c73e2a2a58a34465978d13dd4975fa1e-shard-0",
-        "claimed_at": "2026-11-23T12:20:07.571043+00:00",
-        "lease_expires_at": "2026-11-23T18:20:07.571043+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285307",
       "prepared": {
@@ -214378,7 +214380,13 @@
       "last_plan": {
         "source_id": "33177418",
         "display_name": "Eagle Eye 4K CZ Dabing",
-        "planned_at": "2026-11-23T12:23:08.141718+00:00"
+        "planned_at": "2026-11-23T12:23:13.520340+00:00"
+      },
+      "claim": {
+        "worker_id": "39ba7140b97c4155a3b835f0dd44ef6f-shard-0",
+        "claimed_at": "2026-11-23T12:23:14.409120+00:00",
+        "lease_expires_at": "2026-11-23T18:23:14.409120+00:00",
+        "run_id": "45145591522"
       }
     },
     "4005": {
@@ -254388,5 +254396,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:23:08.141735+00:00"
+  "updated_at": "2026-11-23T12:23:18.388241+00:00"
 }
