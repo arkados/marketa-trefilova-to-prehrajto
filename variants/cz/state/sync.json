@@ -218733,17 +218733,19 @@
       }
     },
     "4066": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34642068",
+          "target_video_id": "31297979",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:27:40.553507+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34642068",
         "display_name": "Small Engine Repair 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:22:07.184948+00:00"
-      },
-      "claim": {
-        "worker_id": "2911e4ab2b8c4e3d91af302541b17073-shard-0",
-        "claimed_at": "2026-11-23T19:22:07.991197+00:00",
-        "lease_expires_at": "2026-11-24T01:22:07.991197+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297979",
       "prepared": {
@@ -257872,5 +257874,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:26:52.416346+00:00"
+  "updated_at": "2026-11-23T19:27:40.553525+00:00"
 }
