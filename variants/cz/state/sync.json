@@ -218562,17 +218562,19 @@
       "attempts": []
     },
     "16805": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695270",
+          "target_video_id": "31297522",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:15:58.807132+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695270",
         "display_name": "Bastardi a mano armata 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:11:15.224971+00:00"
-      },
-      "claim": {
-        "worker_id": "c32cbc8aa9be41289f705e5561c53b3e-shard-0",
-        "claimed_at": "2026-11-23T19:11:16.054740+00:00",
-        "lease_expires_at": "2026-11-24T01:11:16.054740+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297522",
       "prepared": {
@@ -257772,5 +257774,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:14:20.659780+00:00"
+  "updated_at": "2026-11-23T19:15:58.807149+00:00"
 }
