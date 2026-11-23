@@ -209411,17 +209411,19 @@
       "attempts": []
     },
     "11384": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30571614",
+          "target_video_id": "31271332",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:00:43.989484+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30571614",
         "display_name": "Heavy Metal SD CZ Dabing",
         "planned_at": "2026-11-23T03:59:09.841956+00:00"
-      },
-      "claim": {
-        "worker_id": "25637762b12e461bbaead13949c0e30b-shard-0",
-        "claimed_at": "2026-11-23T03:59:10.785319+00:00",
-        "lease_expires_at": "2026-11-23T09:59:10.785319+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271332",
       "prepared": {
@@ -250302,5 +250304,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:59:14.758640+00:00"
+  "updated_at": "2026-11-23T04:00:43.989500+00:00"
 }
