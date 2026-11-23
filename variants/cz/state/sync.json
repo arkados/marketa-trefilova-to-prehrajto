@@ -212389,17 +212389,19 @@
       }
     },
     "24343": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13169239",
+          "target_video_id": "31280155",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:20:20.614806+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13169239",
         "display_name": "Naked Violence SD CZ Dabing",
         "planned_at": "2026-11-23T09:17:50.397934+00:00"
-      },
-      "claim": {
-        "worker_id": "748fdf85bdcb4aeb9e27aface36a5698-shard-0",
-        "claimed_at": "2026-11-23T09:17:51.715313+00:00",
-        "lease_expires_at": "2026-11-23T15:17:51.715313+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31280155",
       "prepared": {
@@ -252773,5 +252775,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:18:23.913852+00:00"
+  "updated_at": "2026-11-23T09:20:20.614821+00:00"
 }
