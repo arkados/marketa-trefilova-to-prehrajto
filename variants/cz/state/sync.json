@@ -137317,7 +137317,7 @@
       "last_plan": {
         "source_id": "26154128",
         "display_name": "Falling Tears (Když prší slzy) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T15:58:14.302263+00:00"
+        "planned_at": "2026-11-23T15:58:21.445038+00:00"
       },
       "previous_target_id": "30987766",
       "prepared": {
@@ -215830,11 +215830,23 @@
       }
     },
     "3989": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33348694",
+          "reason": "Source detail has no authenticated download link; source_id=33348694",
+          "permanent": false,
+          "attempted_at": "2026-11-23T15:58:25.637944+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33348694",
         "display_name": "Pirates of the Caribbean: On Stranger Tides 4K CZ Dabing",
-        "planned_at": "2026-11-23T15:58:14.804363+00:00"
+        "planned_at": "2026-11-23T15:58:21.806439+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33348694",
+        "requested_at": "2026-11-23T15:58:25.637928+00:00"
       }
     },
     "3820": {
@@ -255619,5 +255631,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T15:58:14.804379+00:00"
+  "updated_at": "2026-11-23T15:58:25.637950+00:00"
 }
