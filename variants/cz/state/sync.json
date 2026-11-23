@@ -218586,17 +218586,19 @@
       "attempts": []
     },
     "25455": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27522421",
+          "target_video_id": "31297534",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:14:04.752864+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27522421",
         "display_name": "The First After God 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:11:29.351964+00:00"
-      },
-      "claim": {
-        "worker_id": "abeca2ca0d8349d1bac7631a45cd7856-shard-0",
-        "claimed_at": "2026-11-23T19:11:30.194507+00:00",
-        "lease_expires_at": "2026-11-24T01:11:30.194507+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297534",
       "prepared": {
@@ -257752,5 +257754,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:11:33.985246+00:00"
+  "updated_at": "2026-11-23T19:14:04.752882+00:00"
 }
