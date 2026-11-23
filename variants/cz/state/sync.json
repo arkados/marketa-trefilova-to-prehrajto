@@ -211001,17 +211001,19 @@
       "attempts": []
     },
     "3722": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34284140",
+          "target_video_id": "31274202",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:57:03.766483+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34284140",
         "display_name": "Stillwater 4K CZ Dabing",
         "planned_at": "2026-11-23T05:56:51.441072+00:00"
-      },
-      "claim": {
-        "worker_id": "4a8de2d1b1f640c5b4ed1c07880ad1e2-shard-0",
-        "claimed_at": "2026-11-23T05:56:51.872285+00:00",
-        "lease_expires_at": "2026-11-23T11:56:51.872285+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274202",
       "prepared": {
@@ -251586,5 +251588,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:56:55.515412+00:00"
+  "updated_at": "2026-11-23T05:57:03.766501+00:00"
 }
