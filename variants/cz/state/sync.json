@@ -207178,17 +207178,19 @@
       "attempts": []
     },
     "16905": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695403",
+          "target_video_id": "31267924",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:30:21.910797+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695403",
         "display_name": "Tabaluga 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:25:50.232082+00:00"
-      },
-      "claim": {
-        "worker_id": "1f05f259e87e4f7daa77a52b12485b6f-shard-0",
-        "claimed_at": "2026-11-23T01:25:51.123703+00:00",
-        "lease_expires_at": "2026-11-23T07:25:51.123703+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267924",
       "prepared": {
@@ -248567,5 +248569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:26:03.397582+00:00"
+  "updated_at": "2026-11-23T01:30:21.910814+00:00"
 }
