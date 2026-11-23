@@ -219615,17 +219615,19 @@
       "attempts": []
     },
     "5075": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34840217",
+          "target_video_id": "31299243",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:12:29.228919+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34840217",
         "display_name": "The Ash Lad: In Search of the Golden Castle (Askeladden - I Soria Moria slott) 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:07:27.320213+00:00"
-      },
-      "claim": {
-        "worker_id": "874059c9e2ec47e288d6c7269ade4ff1-shard-0",
-        "claimed_at": "2026-11-23T20:07:31.255998+00:00",
-        "lease_expires_at": "2026-11-24T02:07:31.255998+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31299243",
       "prepared": {
@@ -258534,5 +258536,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:12:24.665093+00:00"
+  "updated_at": "2026-11-23T20:12:29.228937+00:00"
 }
