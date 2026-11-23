@@ -209467,17 +209467,19 @@
       }
     },
     "4969": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25531632",
+          "target_video_id": "31271383",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:15:00.270422+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25531632",
         "display_name": "Kitchen Brigade (La Brigade) 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:01:10.225621+00:00"
-      },
-      "claim": {
-        "worker_id": "a1dee7c47f474d949939cd701d54a9ed-shard-0",
-        "claimed_at": "2026-11-23T04:01:11.068451+00:00",
-        "lease_expires_at": "2026-11-23T10:01:11.068451+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271383",
       "prepared": {
@@ -250501,5 +250503,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:14:51.403144+00:00"
+  "updated_at": "2026-11-23T04:15:00.270440+00:00"
 }
