@@ -135522,7 +135522,7 @@
       "last_plan": {
         "source_id": "34676280",
         "display_name": "Stop Mewling, Squirrel! (Nefňukej, veverko!) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T19:33:08.783036+00:00"
+        "planned_at": "2026-11-23T19:33:16.372714+00:00"
       },
       "previous_target_id": "30987576",
       "prepared": {
@@ -218857,17 +218857,19 @@
       }
     },
     "21888": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "31604890",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-23T19:33:20.259963+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31604890",
         "display_name": "Bandolero! 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:32:10.917365+00:00"
-      },
-      "claim": {
-        "worker_id": "717f727d76b64cef8e75093603d15058-shard-0",
-        "claimed_at": "2026-11-23T19:32:14.326856+00:00",
-        "lease_expires_at": "2026-11-24T01:32:14.326856+00:00",
-        "run_id": "45230846843"
       }
     },
     "4180": {
@@ -218902,7 +218904,13 @@
       "last_plan": {
         "source_id": "25335189",
         "display_name": "10 Days of a Good Man (İyi Adamın 10 Günü) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T19:33:09.204885+00:00"
+        "planned_at": "2026-11-23T19:33:16.944941+00:00"
+      },
+      "claim": {
+        "worker_id": "77e7314d489c494ab0a281499610be22-shard-0",
+        "claimed_at": "2026-11-23T19:33:17.944925+00:00",
+        "lease_expires_at": "2026-11-24T01:33:17.944925+00:00",
+        "run_id": "45230846843"
       }
     },
     "22465": {
@@ -257952,5 +257960,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:33:09.204902+00:00"
+  "updated_at": "2026-11-23T19:33:20.259983+00:00"
 }
