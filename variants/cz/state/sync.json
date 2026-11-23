@@ -210550,17 +210550,19 @@
       }
     },
     "12232": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34419365",
+          "target_video_id": "31273291",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:21:32.998126+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34419365",
         "display_name": "French Kiss 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:16:23.346205+00:00"
-      },
-      "claim": {
-        "worker_id": "1e89fcb19fca47b0b53e267956d21190-shard-0",
-        "claimed_at": "2026-11-23T05:16:23.866115+00:00",
-        "lease_expires_at": "2026-11-23T11:16:23.866115+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273291",
       "prepared": {
@@ -251252,5 +251254,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:21:15.610339+00:00"
+  "updated_at": "2026-11-23T05:21:32.998146+00:00"
 }
