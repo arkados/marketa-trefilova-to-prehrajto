@@ -207052,17 +207052,19 @@
       }
     },
     "29316": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12304191",
+          "target_video_id": "31267701",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:23:54.380058+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12304191",
         "display_name": "Flower Shop Mystery: Mum's the Word SD CZ Dabing",
         "planned_at": "2026-11-23T01:18:22.984365+00:00"
-      },
-      "claim": {
-        "worker_id": "1b2c08c91f7c4262906e07e47633a874-shard-0",
-        "claimed_at": "2026-11-23T01:18:24.043832+00:00",
-        "lease_expires_at": "2026-11-23T07:18:24.043832+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267701",
       "prepared": {
@@ -248527,5 +248529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:19:16.122372+00:00"
+  "updated_at": "2026-11-23T01:23:54.380075+00:00"
 }
