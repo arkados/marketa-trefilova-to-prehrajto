@@ -218242,17 +218242,19 @@
       "attempts": []
     },
     "23266": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34785833",
+          "target_video_id": "31296772",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:48:50.918968+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34785833",
         "display_name": "City of Joy SD CZ Dabing",
         "planned_at": "2026-11-23T18:46:26.343727+00:00"
-      },
-      "claim": {
-        "worker_id": "f7bd42a1d8f24dbf9661e33fddfdfa7a-shard-0",
-        "claimed_at": "2026-11-23T18:46:27.697126+00:00",
-        "lease_expires_at": "2026-11-24T00:46:27.697126+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296772",
       "prepared": {
@@ -257492,5 +257494,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:46:31.536755+00:00"
+  "updated_at": "2026-11-23T18:48:50.918989+00:00"
 }
