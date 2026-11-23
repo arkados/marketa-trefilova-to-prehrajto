@@ -217144,17 +217144,19 @@
       }
     },
     "17500": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12800688",
+          "target_video_id": "31295282",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:58:18.297514+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12800688",
         "display_name": "Christmas at Grand Valley 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:54:51.366124+00:00"
-      },
-      "claim": {
-        "worker_id": "79b906d7208e4032b1018b7bcc5e5154-shard-0",
-        "claimed_at": "2026-11-23T17:54:52.209317+00:00",
-        "lease_expires_at": "2026-11-23T23:54:52.209317+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295282",
       "prepared": {
@@ -256697,5 +256699,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:56:47.456060+00:00"
+  "updated_at": "2026-11-23T17:58:18.297532+00:00"
 }
