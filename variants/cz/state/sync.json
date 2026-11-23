@@ -214351,17 +214351,19 @@
       "attempts": []
     },
     "11164": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34673263",
+          "target_video_id": "31285318",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:23:04.853566+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34673263",
         "display_name": "What's Your Sign? (Di che segno sei?) SD CZ Dabing",
         "planned_at": "2026-11-23T12:20:40.327078+00:00"
-      },
-      "claim": {
-        "worker_id": "5e206b0eca9b469bb75d224fa39c0e50-shard-0",
-        "claimed_at": "2026-11-23T12:20:41.353063+00:00",
-        "lease_expires_at": "2026-11-23T18:20:41.353063+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285318",
       "prepared": {
@@ -254381,5 +254383,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:20:45.415677+00:00"
+  "updated_at": "2026-11-23T12:23:04.853592+00:00"
 }
