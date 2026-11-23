@@ -215443,17 +215443,19 @@
       "attempts": []
     },
     "3996": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32155048",
+          "target_video_id": "31289266",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:51:58.618100+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32155048",
         "display_name": "The Expendables 2 4K CZ Dabing",
         "planned_at": "2026-11-23T14:38:50.584748+00:00"
-      },
-      "claim": {
-        "worker_id": "61958225acb14628a1ab4d8578413690-shard-0",
-        "claimed_at": "2026-11-23T14:38:51.370474+00:00",
-        "lease_expires_at": "2026-11-23T20:38:51.370474+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31289266",
       "prepared": {
@@ -255398,5 +255400,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:51:40.689346+00:00"
+  "updated_at": "2026-11-23T14:51:58.618116+00:00"
 }
