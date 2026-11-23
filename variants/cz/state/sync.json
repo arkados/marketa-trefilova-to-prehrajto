@@ -210284,17 +210284,19 @@
       }
     },
     "3841": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10171106",
+          "target_video_id": "31272897",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:02:18.676297+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10171106",
         "display_name": "Peter Rabbit 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:57:14.260585+00:00"
-      },
-      "claim": {
-        "worker_id": "45051c7301b947458a277ac22630b8cd-shard-0",
-        "claimed_at": "2026-11-23T04:57:14.764447+00:00",
-        "lease_expires_at": "2026-11-23T10:57:14.764447+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272897",
       "prepared": {
@@ -251052,5 +251054,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:00:53.358302+00:00"
+  "updated_at": "2026-11-23T05:02:18.676316+00:00"
 }
