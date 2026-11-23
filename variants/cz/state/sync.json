@@ -210573,17 +210573,19 @@
       }
     },
     "13896": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34470334",
+          "target_video_id": "31273373",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:24:24.162597+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34470334",
         "display_name": "May (Máj) (2008) 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:21:10.541679+00:00"
-      },
-      "claim": {
-        "worker_id": "7554aadb26a740adb4f0db4d4feff0cf-shard-0",
-        "claimed_at": "2026-11-23T05:21:11.050551+00:00",
-        "lease_expires_at": "2026-11-23T11:21:11.050551+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273373",
       "prepared": {
@@ -251272,5 +251274,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:21:44.470266+00:00"
+  "updated_at": "2026-11-23T05:24:24.162617+00:00"
 }
