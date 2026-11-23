@@ -207075,17 +207075,19 @@
       }
     },
     "3766": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12136921",
+          "target_video_id": "31267708",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:13:56.900082+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12136921",
         "display_name": "Avengement 4K CZ Dabing",
         "planned_at": "2026-11-23T01:18:38.363358+00:00"
-      },
-      "claim": {
-        "worker_id": "c5a27d739c4c407a81d58429d3e9f6fa-shard-0",
-        "claimed_at": "2026-11-23T01:18:39.355664+00:00",
-        "lease_expires_at": "2026-11-23T07:18:39.355664+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267708",
       "prepared": {
@@ -248884,5 +248886,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:08:48.817106+00:00"
+  "updated_at": "2026-11-23T02:13:56.900098+00:00"
 }
