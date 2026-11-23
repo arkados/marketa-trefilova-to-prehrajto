@@ -219156,17 +219156,19 @@
       "attempts": []
     },
     "16665": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26699662",
+          "target_video_id": "31298655",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:51:23.936602+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26699662",
         "display_name": "Red Shoes and the Seven Dwarfs (LeDeuSyuJeu) 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:47:10.153129+00:00"
-      },
-      "claim": {
-        "worker_id": "ba7df7d2edd045b29a36fd2e426d9f33-shard-0",
-        "claimed_at": "2026-11-23T19:47:11.184561+00:00",
-        "lease_expires_at": "2026-11-24T01:47:11.184561+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31298655",
       "prepared": {
@@ -258222,5 +258224,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:51:00.059000+00:00"
+  "updated_at": "2026-11-23T19:51:23.936618+00:00"
 }
