@@ -206764,17 +206764,19 @@
       "attempts": []
     },
     "25913": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33151161",
+          "target_video_id": "31266929",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:55:14.057244+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33151161",
         "display_name": "Easy Virtue 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:51:36.030392+00:00"
-      },
-      "claim": {
-        "worker_id": "558adf6c66244ccfb3b076c56585f58a-shard-0",
-        "claimed_at": "2026-11-23T00:51:36.873104+00:00",
-        "lease_expires_at": "2026-11-23T06:51:36.873104+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266929",
       "prepared": {
@@ -248267,5 +248269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:54:24.470192+00:00"
+  "updated_at": "2026-11-23T00:55:14.057261+00:00"
 }
