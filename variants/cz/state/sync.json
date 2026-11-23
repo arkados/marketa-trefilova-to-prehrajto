@@ -218269,17 +218269,19 @@
       }
     },
     "12833": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13255254",
+          "target_video_id": "31296836",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:55:28.908502+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13255254",
         "display_name": "Playgirls SD CZ Dabing",
         "planned_at": "2026-11-23T18:48:59.752098+00:00"
-      },
-      "claim": {
-        "worker_id": "2caf1c0316dd4d2892c193be5f0dbf63-shard-0",
-        "claimed_at": "2026-11-23T18:49:00.523587+00:00",
-        "lease_expires_at": "2026-11-24T00:49:00.523587+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296836",
       "prepared": {
@@ -257552,5 +257554,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:52:44.541989+00:00"
+  "updated_at": "2026-11-23T18:55:28.908520+00:00"
 }
