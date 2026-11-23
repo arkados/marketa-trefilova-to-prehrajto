@@ -210113,17 +210113,19 @@
       }
     },
     "10471": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32312058",
+          "target_video_id": "31272731",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:49:35.403501+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32312058",
         "display_name": "Kdyz draka boli hlava (Když draka bolí hlava) 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:49:19.377865+00:00"
-      },
-      "claim": {
-        "worker_id": "4e68d56b53e3409282c416ddf4cb2c27-shard-0",
-        "claimed_at": "2026-11-23T04:49:19.810490+00:00",
-        "lease_expires_at": "2026-11-23T10:49:19.810490+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272731",
       "prepared": {
@@ -250872,5 +250874,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:49:29.280261+00:00"
+  "updated_at": "2026-11-23T04:49:35.403525+00:00"
 }
