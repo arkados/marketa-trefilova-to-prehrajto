@@ -212575,17 +212575,19 @@
       }
     },
     "3973": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34523946",
+          "target_video_id": "31280569",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:35:16.823768+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34523946",
         "display_name": "I Love You Phillip Morris 1080p CZ Dabing",
         "planned_at": "2026-11-23T09:31:14.983127+00:00"
-      },
-      "claim": {
-        "worker_id": "e015e64e5c3b434d8cf57398cbf51040-shard-0",
-        "claimed_at": "2026-11-23T09:31:15.869400+00:00",
-        "lease_expires_at": "2026-11-23T15:31:15.869400+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31280569",
       "prepared": {
@@ -252893,5 +252895,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:31:19.918567+00:00"
+  "updated_at": "2026-11-23T09:35:16.823783+00:00"
 }
