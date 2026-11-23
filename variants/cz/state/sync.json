@@ -214530,17 +214530,19 @@
       }
     },
     "27851": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33785001",
+          "target_video_id": "31285902",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:40:58.451818+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33785001",
         "display_name": "A Happy Event 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:37:28.057693+00:00"
-      },
-      "claim": {
-        "worker_id": "708966b7cdc141bdb11d155885babd77-shard-0",
-        "claimed_at": "2026-11-23T12:37:28.968380+00:00",
-        "lease_expires_at": "2026-11-23T18:37:28.968380+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285902",
       "prepared": {
@@ -254554,5 +254556,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:38:49.256308+00:00"
+  "updated_at": "2026-11-23T12:40:58.451835+00:00"
 }
