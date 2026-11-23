@@ -206611,17 +206611,19 @@
       "attempts": []
     },
     "16694": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12938233",
+          "target_video_id": "31266613",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:54:04.709807+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12938233",
         "display_name": "Lords of Chaos 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:39:42.990607+00:00"
-      },
-      "claim": {
-        "worker_id": "11f7f37dc54e4ae5bed1e5febe229e7c-shard-0",
-        "claimed_at": "2026-11-23T00:39:43.888788+00:00",
-        "lease_expires_at": "2026-11-23T06:39:43.888788+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266613",
       "prepared": {
@@ -248247,5 +248249,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:53:04.292832+00:00"
+  "updated_at": "2026-11-23T00:54:04.709830+00:00"
 }
