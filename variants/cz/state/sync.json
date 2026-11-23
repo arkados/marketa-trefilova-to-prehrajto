@@ -210090,17 +210090,19 @@
       }
     },
     "18068": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27447443",
+          "target_video_id": "31272710",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:49:12.023620+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27447443",
         "display_name": "The Beaver SD CZ Dabing",
         "planned_at": "2026-11-23T04:48:03.497600+00:00"
-      },
-      "claim": {
-        "worker_id": "ad2ce861483949849c437cf1256b4e33-shard-0",
-        "claimed_at": "2026-11-23T04:48:03.981228+00:00",
-        "lease_expires_at": "2026-11-23T10:48:03.981228+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272710",
       "prepared": {
@@ -250852,5 +250854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:48:07.921232+00:00"
+  "updated_at": "2026-11-23T04:49:12.023637+00:00"
 }
