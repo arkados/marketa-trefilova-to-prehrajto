@@ -220092,17 +220092,19 @@
       "attempts": []
     },
     "30110": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35044409",
+          "target_video_id": "31305361",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:40:58.148913+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35044409",
         "display_name": "Blindman 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:33:12.808138+00:00"
-      },
-      "claim": {
-        "worker_id": "7bf3a3ac0c3e42329f9893c39ac2f279-shard-0",
-        "claimed_at": "2026-11-23T20:33:13.662349+00:00",
-        "lease_expires_at": "2026-11-24T02:33:13.662349+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305361",
       "prepared": {
@@ -258907,5 +258909,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:36:29.167502+00:00"
+  "updated_at": "2026-11-23T20:40:58.148932+00:00"
 }
