@@ -210876,17 +210876,19 @@
       "attempts": []
     },
     "29098": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32574861",
+          "target_video_id": "31273932",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:51:58.102438+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32574861",
         "display_name": "Christmas at Cartwright's SD CZ Dabing",
         "planned_at": "2026-11-23T05:49:11.078659+00:00"
-      },
-      "claim": {
-        "worker_id": "1d3a5e08000141a7be20d1ab7c10f574-shard-0",
-        "claimed_at": "2026-11-23T05:49:11.501821+00:00",
-        "lease_expires_at": "2026-11-23T11:49:11.501821+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273932",
       "prepared": {
@@ -251526,5 +251528,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:50:29.474815+00:00"
+  "updated_at": "2026-11-23T05:51:58.102457+00:00"
 }
