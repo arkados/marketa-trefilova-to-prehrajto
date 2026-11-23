@@ -214921,17 +214921,19 @@
       "attempts": []
     },
     "3742": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17430748",
+          "target_video_id": "31287673",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:11:02.008946+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17430748",
         "display_name": "The Tomorrow War 4K CZ Dabing",
         "planned_at": "2026-11-23T13:47:37.029060+00:00"
-      },
-      "claim": {
-        "worker_id": "4b027f98ee054eb2bd5ed3edd340cd5d-shard-0",
-        "claimed_at": "2026-11-23T13:47:37.948029+00:00",
-        "lease_expires_at": "2026-11-23T19:47:37.948029+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31287673",
       "prepared": {
@@ -255044,5 +255046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:08:50.657679+00:00"
+  "updated_at": "2026-11-23T14:11:02.008962+00:00"
 }
