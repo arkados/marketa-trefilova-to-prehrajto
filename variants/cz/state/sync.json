@@ -208534,17 +208534,19 @@
       "attempts": []
     },
     "10792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32764004",
+          "target_video_id": "31270174",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:10:13.683413+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32764004",
         "display_name": "Captain Fracasse (Le Capitaine Fracasse) 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:06:45.204784+00:00"
-      },
-      "claim": {
-        "worker_id": "692175cbca214317876a5b6ed8773eb2-shard-0",
-        "claimed_at": "2026-11-23T03:06:46.257614+00:00",
-        "lease_expires_at": "2026-11-23T09:06:46.257614+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270174",
       "prepared": {
@@ -249647,5 +249649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:07:41.121783+00:00"
+  "updated_at": "2026-11-23T03:10:13.683428+00:00"
 }
