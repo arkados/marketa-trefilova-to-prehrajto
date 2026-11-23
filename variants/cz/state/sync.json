@@ -222020,17 +222020,19 @@
       "attempts": []
     },
     "5016": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28175860",
+          "target_video_id": "31310357",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:32:02.294167+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28175860",
         "display_name": "The Pilot. A Battle for Survival (Letchik) 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:25:40.781604+00:00"
-      },
-      "claim": {
-        "worker_id": "f394d649f11b49ba948c509ad351aa0c-shard-0",
-        "claimed_at": "2026-11-23T23:25:41.229731+00:00",
-        "lease_expires_at": "2026-11-24T05:25:41.229731+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31310357",
       "prepared": {
@@ -260364,5 +260366,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:31:56.044809+00:00"
+  "updated_at": "2026-11-23T23:32:02.294181+00:00"
 }
