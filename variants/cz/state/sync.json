@@ -144248,7 +144248,7 @@
       "last_plan": {
         "source_id": "30864267",
         "display_name": "Srdečný pozdrav ze zeměkoule 1080p CZ Dabing",
-        "planned_at": "2026-11-23T09:53:49.873801+00:00"
+        "planned_at": "2026-11-23T09:53:56.265674+00:00"
       },
       "previous_target_id": "30988779",
       "prepared": {
@@ -212739,11 +212739,23 @@
       }
     },
     "3890": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34526944",
+          "reason": "Source detail has no authenticated download link; source_id=34526944",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:53:59.888511+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34526944",
         "display_name": "The Lost City of Z SD CZ Dabing",
-        "planned_at": "2026-11-23T09:53:50.358520+00:00"
+        "planned_at": "2026-11-23T09:53:56.775697+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34526944",
+        "requested_at": "2026-11-23T09:53:59.888494+00:00"
       }
     },
     "3601": {
@@ -253020,5 +253032,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:53:50.358536+00:00"
+  "updated_at": "2026-11-23T09:53:59.888517+00:00"
 }
