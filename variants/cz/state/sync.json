@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T00:38:48.614305+00:00"
+        "planned_at": "2026-11-23T00:38:55.268240+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -206541,11 +206541,23 @@
       "attempts": []
     },
     "18438": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "35180344",
+          "reason": "Source detail has no authenticated download link; source_id=35180344",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:38:59.208743+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35180344",
         "display_name": "Hunger (2023) 4K CZ Dabing",
-        "planned_at": "2026-11-23T00:38:49.054504+00:00"
+        "planned_at": "2026-11-23T00:38:55.765759+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "35180344",
+        "requested_at": "2026-11-23T00:38:59.208727+00:00"
       }
     },
     "20573": {
@@ -248040,5 +248052,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:38:49.054521+00:00"
+  "updated_at": "2026-11-23T00:38:59.208749+00:00"
 }
