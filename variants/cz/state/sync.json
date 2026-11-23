@@ -208921,17 +208921,19 @@
       }
     },
     "11976": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31419437",
+          "target_video_id": "31270599",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:25:57.109650+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31419437",
         "display_name": "Oscar (1991) 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:23:51.037228+00:00"
-      },
-      "claim": {
-        "worker_id": "2561c570dd294a0eb4f4a0268ebe1fcb-shard-0",
-        "claimed_at": "2026-11-23T03:23:51.900342+00:00",
-        "lease_expires_at": "2026-11-23T09:23:51.900342+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270599",
       "prepared": {
@@ -249947,5 +249949,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:24:47.830794+00:00"
+  "updated_at": "2026-11-23T03:25:57.109666+00:00"
 }
