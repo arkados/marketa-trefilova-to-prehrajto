@@ -214556,17 +214556,19 @@
       "attempts": []
     },
     "3952": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11355188",
+          "target_video_id": "31285927",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:43:22.400431+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11355188",
         "display_name": "Puss in Boots 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:38:43.104789+00:00"
-      },
-      "claim": {
-        "worker_id": "8920572f9e9e4af7b06f5be213c9170e-shard-0",
-        "claimed_at": "2026-11-23T12:38:44.022176+00:00",
-        "lease_expires_at": "2026-11-23T18:38:44.022176+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285927",
       "prepared": {
@@ -254574,5 +254576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:41:15.148727+00:00"
+  "updated_at": "2026-11-23T12:43:22.400446+00:00"
 }
