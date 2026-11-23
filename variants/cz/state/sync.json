@@ -210337,17 +210337,19 @@
       "attempts": []
     },
     "6727": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33707191",
+          "target_video_id": "31272947",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:06:27.472607+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33707191",
         "display_name": "ROMing 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:00:49.401133+00:00"
-      },
-      "claim": {
-        "worker_id": "84b20f82a35946ebaf595535c94021b2-shard-0",
-        "claimed_at": "2026-11-23T05:00:49.879269+00:00",
-        "lease_expires_at": "2026-11-23T11:00:49.879269+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272947",
       "prepared": {
@@ -251092,5 +251094,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:05:43.586321+00:00"
+  "updated_at": "2026-11-23T05:06:27.472628+00:00"
 }
