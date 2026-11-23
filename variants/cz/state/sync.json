@@ -219805,17 +219805,19 @@
       "attempts": []
     },
     "4452": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29759364",
+          "target_video_id": "31299967",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:21:33.563259+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29759364",
         "display_name": "Rez Ball 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:19:04.297821+00:00"
-      },
-      "claim": {
-        "worker_id": "72a6660b46e7452eb23a7384c44aa794-shard-0",
-        "claimed_at": "2026-11-23T20:19:05.088857+00:00",
-        "lease_expires_at": "2026-11-24T02:19:05.088857+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31299967",
       "prepared": {
@@ -258647,5 +258649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:19:09.278538+00:00"
+  "updated_at": "2026-11-23T20:21:33.563276+00:00"
 }
