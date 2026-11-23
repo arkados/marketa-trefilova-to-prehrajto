@@ -216761,17 +216761,19 @@
       "attempts": []
     },
     "25918": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30854007",
+          "target_video_id": "31294249",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:33:09.556307+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30854007",
         "display_name": "Tom and Jerry: Shiver Me Whiskers 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:26:12.159384+00:00"
-      },
-      "claim": {
-        "worker_id": "8f1567be17b74b188bbae249c5290185-shard-0",
-        "claimed_at": "2026-11-23T17:26:12.835369+00:00",
-        "lease_expires_at": "2026-11-23T23:26:12.835369+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31294249",
       "prepared": {
@@ -256397,5 +256399,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:31:44.813674+00:00"
+  "updated_at": "2026-11-23T17:33:09.556323+00:00"
 }
