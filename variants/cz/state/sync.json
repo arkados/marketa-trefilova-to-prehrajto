@@ -219741,17 +219741,19 @@
       "attempts": []
     },
     "30426": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "34713506",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-23T20:18:55.724380+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713506",
         "display_name": "Chic! 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:17:29.006626+00:00"
-      },
-      "claim": {
-        "worker_id": "2cbbc37224704cd6a46e16420edf28d4-shard-0",
-        "claimed_at": "2026-11-23T20:17:33.179262+00:00",
-        "lease_expires_at": "2026-11-24T02:17:33.179262+00:00",
-        "run_id": "45230846843"
       }
     },
     "32599": {
@@ -258627,5 +258629,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:18:26.367512+00:00"
+  "updated_at": "2026-11-23T20:18:55.724401+00:00"
 }
