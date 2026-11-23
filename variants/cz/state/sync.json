@@ -208749,17 +208749,19 @@
       "attempts": []
     },
     "11397": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32282210",
+          "target_video_id": "31270416",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:17:48.245420+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32282210",
         "display_name": "Outland 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:17:38.286704+00:00"
-      },
-      "claim": {
-        "worker_id": "47b74b1d4ad44ea197568a23d8b8e0c6-shard-0",
-        "claimed_at": "2026-11-23T03:17:39.149003+00:00",
-        "lease_expires_at": "2026-11-23T09:17:39.149003+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270416",
       "prepared": {
@@ -249787,5 +249789,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:17:42.573253+00:00"
+  "updated_at": "2026-11-23T03:17:48.245436+00:00"
 }
