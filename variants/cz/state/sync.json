@@ -216464,17 +216464,19 @@
       "attempts": []
     },
     "37379": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34472782",
+          "target_video_id": "31293198",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:57:39.477481+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34472782",
         "display_name": "Barren Land 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:49:51.593388+00:00"
-      },
-      "claim": {
-        "worker_id": "8ba93c9ac1d44cf999c071b61f4a9999-shard-0",
-        "claimed_at": "2026-11-23T16:49:52.204309+00:00",
-        "lease_expires_at": "2026-11-23T22:49:52.204309+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31293198",
       "prepared": {
@@ -256140,5 +256142,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:55:14.404924+00:00"
+  "updated_at": "2026-11-23T16:57:39.477497+00:00"
 }
