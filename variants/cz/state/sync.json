@@ -207002,17 +207002,19 @@
       "attempts": []
     },
     "12311": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34521668",
+          "target_video_id": "31267504",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:12:03.777994+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34521668",
         "display_name": "First Strike (JingChaGuShi4ZhiJianDanRenWu) 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:11:53.661456+00:00"
-      },
-      "claim": {
-        "worker_id": "005228e4844a4bfaa6afed9063d9800a-shard-0",
-        "claimed_at": "2026-11-23T01:11:54.547444+00:00",
-        "lease_expires_at": "2026-11-23T07:11:54.547444+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267504",
       "prepared": {
@@ -248427,5 +248429,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:11:57.995085+00:00"
+  "updated_at": "2026-11-23T01:12:03.778010+00:00"
 }
