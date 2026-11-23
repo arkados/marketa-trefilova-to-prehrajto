@@ -217524,17 +217524,19 @@
       }
     },
     "28938": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34711445",
+          "target_video_id": "31295723",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:11:39.061361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34711445",
         "display_name": "Latin Lover SD CZ Dabing",
         "planned_at": "2026-11-23T18:10:00.673911+00:00"
-      },
-      "claim": {
-        "worker_id": "ef62b1db62d14da4b5b14ef5e8627d7a-shard-0",
-        "claimed_at": "2026-11-23T18:10:01.481762+00:00",
-        "lease_expires_at": "2026-11-24T00:10:01.481762+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295723",
       "prepared": {
@@ -256957,5 +256959,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:10:41.960248+00:00"
+  "updated_at": "2026-11-23T18:11:39.061377+00:00"
 }
