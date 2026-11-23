@@ -208772,17 +208772,19 @@
       }
     },
     "11617": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7010344",
+          "target_video_id": "31270422",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:19:18.025687+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7010344",
         "display_name": "From Beyond SD CZ Dabing",
         "planned_at": "2026-11-23T03:17:58.327103+00:00"
-      },
-      "claim": {
-        "worker_id": "440f954d19474e519e70d842bde769e8-shard-0",
-        "claimed_at": "2026-11-23T03:17:59.145542+00:00",
-        "lease_expires_at": "2026-11-23T09:17:59.145542+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270422",
       "prepared": {
@@ -249807,5 +249809,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:18:02.781966+00:00"
+  "updated_at": "2026-11-23T03:19:18.025703+00:00"
 }
