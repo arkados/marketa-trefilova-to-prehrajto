@@ -216098,17 +216098,19 @@
       }
     },
     "10827": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10459414",
+          "target_video_id": "31292379",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:27:38.571918+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10459414",
         "display_name": "Planeta Bur (Planeta bur') SD CZ Dabing",
         "planned_at": "2026-11-23T16:25:18.212873+00:00"
-      },
-      "claim": {
-        "worker_id": "7ae605b447ff42a1976b8fc853814fa6-shard-0",
-        "claimed_at": "2026-11-23T16:25:18.842237+00:00",
-        "lease_expires_at": "2026-11-23T22:25:18.842237+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292379",
       "prepared": {
@@ -255843,5 +255845,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:25:23.891078+00:00"
+  "updated_at": "2026-11-23T16:27:38.571934+00:00"
 }
