@@ -219988,17 +219988,19 @@
       }
     },
     "17812": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34013896",
+          "target_video_id": "31305249",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:33:42.197399+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34013896",
         "display_name": "Neverwas 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:29:00.659458+00:00"
-      },
-      "claim": {
-        "worker_id": "667d49738cf340e79bd22815644d2d10-shard-0",
-        "claimed_at": "2026-11-23T20:29:04.038509+00:00",
-        "lease_expires_at": "2026-11-24T02:29:04.038509+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305249",
       "prepared": {
@@ -258867,5 +258869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:33:17.789502+00:00"
+  "updated_at": "2026-11-23T20:33:42.197416+00:00"
 }
