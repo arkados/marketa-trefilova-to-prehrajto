@@ -221348,17 +221348,19 @@
       }
     },
     "32907": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31643694",
+          "target_video_id": "31308243",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:19:04.247276+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31643694",
         "display_name": "14 Hours SD CZ Dabing",
         "planned_at": "2026-11-23T22:16:07.263181+00:00"
-      },
-      "claim": {
-        "worker_id": "064b1eb282344f2b9cedcc3bbd82fbcf-shard-0",
-        "claimed_at": "2026-11-23T22:16:07.754729+00:00",
-        "lease_expires_at": "2026-11-24T04:16:07.754729+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31308243",
       "prepared": {
@@ -259827,5 +259829,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:18:42.143031+00:00"
+  "updated_at": "2026-11-23T22:19:04.247297+00:00"
 }
