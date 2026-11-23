@@ -220355,17 +220355,19 @@
       "attempts": []
     },
     "21244": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34454947",
+          "target_video_id": "31306008",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:07:23.960247+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34454947",
         "display_name": "Sherlock Holmes and the Secret Weapon 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:54:21.880425+00:00"
-      },
-      "claim": {
-        "worker_id": "4379c2a4cd9147749ed66cd91f4b37d6-shard-0",
-        "claimed_at": "2026-11-23T20:54:22.682823+00:00",
-        "lease_expires_at": "2026-11-24T02:54:22.682823+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306008",
       "prepared": {
@@ -259167,5 +259169,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:05:28.010649+00:00"
+  "updated_at": "2026-11-23T21:07:23.960263+00:00"
 }
