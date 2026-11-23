@@ -222138,17 +222138,19 @@
       }
     },
     "10876": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30775028",
+          "target_video_id": "31310753",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:46:23.054358+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30775028",
         "display_name": "The Heroes of Telemark 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:36:18.594781+00:00"
-      },
-      "claim": {
-        "worker_id": "42e8d5b71f594aae9fd59c964babe7a7-shard-0",
-        "claimed_at": "2026-11-23T23:36:19.073574+00:00",
-        "lease_expires_at": "2026-11-24T05:36:19.073574+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31310753",
       "prepared": {
@@ -260484,5 +260486,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:44:09.806134+00:00"
+  "updated_at": "2026-11-23T23:46:23.054378+00:00"
 }
