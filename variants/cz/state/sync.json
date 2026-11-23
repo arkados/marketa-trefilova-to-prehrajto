@@ -220464,17 +220464,19 @@
       "attempts": []
     },
     "13817": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34683556",
+          "target_video_id": "31306182",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:05:10.454930+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34683556",
         "display_name": "Détrompez-vous 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:01:19.258013+00:00"
-      },
-      "claim": {
-        "worker_id": "94ee7cd2c4714a8b8ad9d958bfa0892f-shard-0",
-        "claimed_at": "2026-11-23T21:01:20.020264+00:00",
-        "lease_expires_at": "2026-11-24T03:01:20.020264+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306182",
       "prepared": {
@@ -259147,5 +259149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:01:24.873155+00:00"
+  "updated_at": "2026-11-23T21:05:10.454948+00:00"
 }
