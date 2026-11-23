@@ -213000,17 +213000,19 @@
       }
     },
     "23922": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28145946",
+          "target_video_id": "31282120",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:33:22.493321+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28145946",
         "display_name": "U.S. Marshals 1080p CZ Dabing",
         "planned_at": "2026-11-23T10:30:19.126725+00:00"
-      },
-      "claim": {
-        "worker_id": "ac8238e64d494ab9bf9a158400ba472f-shard-0",
-        "claimed_at": "2026-11-23T10:30:20.009602+00:00",
-        "lease_expires_at": "2026-11-23T16:30:20.009602+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31282120",
       "prepared": {
@@ -253287,5 +253289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:31:52.279655+00:00"
+  "updated_at": "2026-11-23T10:33:22.493336+00:00"
 }
