@@ -208823,17 +208823,19 @@
       }
     },
     "3593": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33809377",
+          "target_video_id": "31270481",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:23:02.714804+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33809377",
         "display_name": "Paddington in Peru 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:19:52.720047+00:00"
-      },
-      "claim": {
-        "worker_id": "b21cd67751df4d2a901f4eb260fec342-shard-0",
-        "claimed_at": "2026-11-23T03:19:53.613203+00:00",
-        "lease_expires_at": "2026-11-23T09:19:53.613203+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270481",
       "prepared": {
@@ -249867,5 +249869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:22:16.752084+00:00"
+  "updated_at": "2026-11-23T03:23:02.714821+00:00"
 }
