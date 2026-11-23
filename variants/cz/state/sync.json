@@ -207604,17 +207604,19 @@
       }
     },
     "13297": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27067907",
+          "target_video_id": "31268914",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:20:12.980683+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27067907",
         "display_name": "And Starring Pancho Villa as Himself 720p CZ Dabing",
         "planned_at": "2026-11-23T02:14:35.184189+00:00"
-      },
-      "claim": {
-        "worker_id": "fa58716067be4c1f9b8dfaff49a0dfbc-shard-0",
-        "claimed_at": "2026-11-23T02:14:36.045494+00:00",
-        "lease_expires_at": "2026-11-23T08:14:36.045494+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268914",
       "prepared": {
@@ -248939,5 +248941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:16:08.850650+00:00"
+  "updated_at": "2026-11-23T02:20:12.980696+00:00"
 }
