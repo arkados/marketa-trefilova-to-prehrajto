@@ -211927,17 +211927,19 @@
       }
     },
     "22046": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30760336",
+          "target_video_id": "31276323",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:09:48.235248+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30760336",
         "display_name": "A Gunfight SD CZ Dabing",
         "planned_at": "2026-11-23T07:08:32.966627+00:00"
-      },
-      "claim": {
-        "worker_id": "7d053c753cd4417b89554301501094b1-shard-0",
-        "claimed_at": "2026-11-23T07:08:33.523284+00:00",
-        "lease_expires_at": "2026-11-23T13:08:33.523284+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31276323",
       "prepared": {
@@ -252356,5 +252358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:08:37.471428+00:00"
+  "updated_at": "2026-11-23T07:09:48.235268+00:00"
 }
