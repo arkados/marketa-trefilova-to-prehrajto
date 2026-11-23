@@ -217888,17 +217888,19 @@
       }
     },
     "12603": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34644278",
+          "target_video_id": "31296174",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:29:44.519019+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34644278",
         "display_name": "The Restroom Robbery (C'est pas parce qu'on a rien à dire qu'il faut fermer sa gueule...) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:26:21.237154+00:00"
-      },
-      "claim": {
-        "worker_id": "37c523fd41dd4a4693512a03239d7910-shard-0",
-        "claimed_at": "2026-11-23T18:26:22.032400+00:00",
-        "lease_expires_at": "2026-11-24T00:26:22.032400+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296174",
       "prepared": {
@@ -257252,5 +257254,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:29:38.416263+00:00"
+  "updated_at": "2026-11-23T18:29:44.519036+00:00"
 }
