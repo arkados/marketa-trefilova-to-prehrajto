@@ -220329,17 +220329,19 @@
       }
     },
     "15822": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26256519",
+          "target_video_id": "31305985",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:56:31.557934+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26256519",
         "display_name": "The Tower (TaWo) 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:53:05.384752+00:00"
-      },
-      "claim": {
-        "worker_id": "8c9617dbd03c47d5ab21b315b089d09f-shard-0",
-        "claimed_at": "2026-11-23T20:53:06.165577+00:00",
-        "lease_expires_at": "2026-11-24T02:53:06.165577+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305985",
       "prepared": {
@@ -259074,5 +259076,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:56:25.712212+00:00"
+  "updated_at": "2026-11-23T20:56:31.557959+00:00"
 }
