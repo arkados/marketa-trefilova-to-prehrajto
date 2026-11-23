@@ -135522,7 +135522,7 @@
       "last_plan": {
         "source_id": "34676280",
         "display_name": "Stop Mewling, Squirrel! (Nefňukej, veverko!) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T19:11:06.757916+00:00"
+        "planned_at": "2026-11-23T19:11:14.799563+00:00"
       },
       "previous_target_id": "30987576",
       "prepared": {
@@ -218536,17 +218536,19 @@
       }
     },
     "5034": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18016448",
+          "target_video_id": "31297314",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:11:17.720894+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18016448",
         "display_name": "The Rest of Us 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:06:55.125659+00:00"
-      },
-      "claim": {
-        "worker_id": "4095d09f6bb54f2ab4e6923fb825e6c2-shard-0",
-        "claimed_at": "2026-11-23T19:06:56.150711+00:00",
-        "lease_expires_at": "2026-11-24T01:06:56.150711+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297314",
       "prepared": {
@@ -218564,7 +218566,13 @@
       "last_plan": {
         "source_id": "34695270",
         "display_name": "Bastardi a mano armata 1080p CZ Dabing",
-        "planned_at": "2026-11-23T19:11:07.215601+00:00"
+        "planned_at": "2026-11-23T19:11:15.224971+00:00"
+      },
+      "claim": {
+        "worker_id": "c32cbc8aa9be41289f705e5561c53b3e-shard-0",
+        "claimed_at": "2026-11-23T19:11:16.054740+00:00",
+        "lease_expires_at": "2026-11-24T01:11:16.054740+00:00",
+        "run_id": "45230846843"
       }
     },
     "13215": {
@@ -257719,5 +257727,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:11:07.215618+00:00"
+  "updated_at": "2026-11-23T19:11:17.720911+00:00"
 }
