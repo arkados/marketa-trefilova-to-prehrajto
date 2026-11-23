@@ -209884,17 +209884,19 @@
       }
     },
     "3579": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31755360",
+          "target_video_id": "31272278",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:36:55.481015+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31755360",
         "display_name": "Elio 4K CZ Dabing",
         "planned_at": "2026-11-23T04:28:59.236942+00:00"
-      },
-      "claim": {
-        "worker_id": "f9948b4003bd417484aaf59286249fdd-shard-0",
-        "claimed_at": "2026-11-23T04:28:59.719472+00:00",
-        "lease_expires_at": "2026-11-23T10:28:59.719472+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272278",
       "prepared": {
@@ -250712,5 +250714,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:32:47.486205+00:00"
+  "updated_at": "2026-11-23T04:36:55.481032+00:00"
 }
