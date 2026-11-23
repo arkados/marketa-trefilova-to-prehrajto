@@ -208241,17 +208241,19 @@
       "attempts": []
     },
     "16104": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694535",
+          "target_video_id": "31269935",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:01:06.477926+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694535",
         "display_name": "Dražen 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:56:52.955564+00:00"
-      },
-      "claim": {
-        "worker_id": "d99c96cea91a457a86a811b0a22be397-shard-0",
-        "claimed_at": "2026-11-23T02:56:53.749363+00:00",
-        "lease_expires_at": "2026-11-23T08:56:53.749363+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269935",
       "prepared": {
@@ -249513,5 +249515,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:58:25.650043+00:00"
+  "updated_at": "2026-11-23T03:01:06.477942+00:00"
 }
