@@ -207423,17 +207423,19 @@
       "attempts": []
     },
     "13132": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28565891",
+          "target_video_id": "31268558",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:54:51.421809+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28565891",
         "display_name": "Dark Blue 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:54:39.277377+00:00"
-      },
-      "claim": {
-        "worker_id": "083f69f3d9774f6084ff391133ec1630-shard-0",
-        "claimed_at": "2026-11-23T01:54:40.327421+00:00",
-        "lease_expires_at": "2026-11-23T07:54:40.327421+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268558",
       "prepared": {
@@ -248764,5 +248766,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:54:45.074113+00:00"
+  "updated_at": "2026-11-23T01:54:51.421825+00:00"
 }
