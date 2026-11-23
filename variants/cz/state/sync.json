@@ -215370,17 +215370,19 @@
       }
     },
     "3789": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34835641",
+          "target_video_id": "31288693",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:34:05.374791+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34835641",
         "display_name": "Jumanji: The Next Level 4K CZ Dabing",
         "planned_at": "2026-11-23T14:25:08.507319+00:00"
-      },
-      "claim": {
-        "worker_id": "4e78b9970d5e40b2813b446e00e7edf4-shard-0",
-        "claimed_at": "2026-11-23T14:25:09.242724+00:00",
-        "lease_expires_at": "2026-11-23T20:25:09.242724+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31288693",
       "prepared": {
@@ -255241,5 +255243,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:25:13.764207+00:00"
+  "updated_at": "2026-11-23T14:34:05.374810+00:00"
 }
