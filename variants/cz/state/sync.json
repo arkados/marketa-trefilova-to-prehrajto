@@ -209742,17 +209742,19 @@
       }
     },
     "3586": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31982042",
+          "target_video_id": "31272072",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:25:19.530435+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31982042",
         "display_name": "Wasabi 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:22:06.704241+00:00"
-      },
-      "claim": {
-        "worker_id": "3a2d4bbb561a47d7a975a69cb40d0a61-shard-0",
-        "claimed_at": "2026-11-23T04:22:07.493571+00:00",
-        "lease_expires_at": "2026-11-23T10:22:07.493571+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272072",
       "prepared": {
@@ -250579,5 +250581,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:25:07.997201+00:00"
+  "updated_at": "2026-11-23T04:25:19.530463+00:00"
 }
