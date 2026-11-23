@@ -217911,17 +217911,19 @@
       }
     },
     "27183": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27724187",
+          "target_video_id": "31296212",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:32:13.700031+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27724187",
         "display_name": "Love Crime 720p CZ Dabing",
         "planned_at": "2026-11-23T18:27:51.285782+00:00"
-      },
-      "claim": {
-        "worker_id": "d7533b1f58a844478013698fdce98a6b-shard-0",
-        "claimed_at": "2026-11-23T18:27:52.061875+00:00",
-        "lease_expires_at": "2026-11-24T00:27:52.061875+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296212",
       "prepared": {
@@ -257272,5 +257274,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:30:02.489926+00:00"
+  "updated_at": "2026-11-23T18:32:13.700046+00:00"
 }
