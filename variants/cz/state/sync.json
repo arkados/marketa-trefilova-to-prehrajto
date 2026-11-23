@@ -209560,17 +209560,19 @@
       }
     },
     "19504": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34898133",
+          "target_video_id": "31271527",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:14:51.403128+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34898133",
         "display_name": "Last Holiday 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:06:25.967697+00:00"
-      },
-      "claim": {
-        "worker_id": "9472c2cd90234f1e82c1575d93ea664b-shard-0",
-        "claimed_at": "2026-11-23T04:06:27.108476+00:00",
-        "lease_expires_at": "2026-11-23T10:06:27.108476+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271527",
       "prepared": {
@@ -250499,5 +250501,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:13:21.477837+00:00"
+  "updated_at": "2026-11-23T04:14:51.403144+00:00"
 }
