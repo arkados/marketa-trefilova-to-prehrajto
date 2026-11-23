@@ -220626,17 +220626,19 @@
       "attempts": []
     },
     "5747": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32943531",
+          "target_video_id": "31306620",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:17:42.608515+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32943531",
         "display_name": "Carom Shots (Carambolages) 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:14:35.040568+00:00"
-      },
-      "claim": {
-        "worker_id": "b3bacc55409f44cab1ce9843c4a4ba1a-shard-0",
-        "claimed_at": "2026-11-23T21:14:35.852283+00:00",
-        "lease_expires_at": "2026-11-24T03:14:35.852283+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306620",
       "prepared": {
@@ -259267,5 +259269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:14:39.848560+00:00"
+  "updated_at": "2026-11-23T21:17:42.608533+00:00"
 }
