@@ -209636,17 +209636,19 @@
       "attempts": []
     },
     "31558": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32573465",
+          "target_video_id": "31271735",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:12:54.436331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32573465",
         "display_name": "Emma (1996) [ID 31558] 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:12:44.039912+00:00"
-      },
-      "claim": {
-        "worker_id": "bf097a76be3e4cd79ef6d60f37e6d5fd-shard-0",
-        "claimed_at": "2026-11-23T04:12:44.863258+00:00",
-        "lease_expires_at": "2026-11-23T10:12:44.863258+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271735",
       "prepared": {
@@ -250479,5 +250481,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:12:48.787459+00:00"
+  "updated_at": "2026-11-23T04:12:54.436349+00:00"
 }
