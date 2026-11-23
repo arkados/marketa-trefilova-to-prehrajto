@@ -221139,17 +221139,19 @@
       "attempts": []
     },
     "37398": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34513574",
+          "target_video_id": "31307773",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:02:51.570505+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34513574",
         "display_name": "Dear Paris 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:56:45.359513+00:00"
-      },
-      "claim": {
-        "worker_id": "0d9ea87b31dc46c096cd8934af0be57f-shard-0",
-        "claimed_at": "2026-11-23T21:56:45.876766+00:00",
-        "lease_expires_at": "2026-11-24T03:56:45.876766+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31307773",
       "prepared": {
@@ -259687,5 +259689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:57:40.809116+00:00"
+  "updated_at": "2026-11-23T22:02:51.570525+00:00"
 }
