@@ -212269,17 +212269,19 @@
       }
     },
     "12539": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34400087",
+          "target_video_id": "31277850",
+          "permanent": false,
+          "attempted_at": "2026-11-23T08:10:36.000673+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34400087",
         "display_name": "U-571 4K CZ Dabing",
         "planned_at": "2026-11-23T07:58:50.708434+00:00"
-      },
-      "claim": {
-        "worker_id": "ce4e91916f0f480cab515df018be56e3-shard-0",
-        "claimed_at": "2026-11-23T07:58:51.158075+00:00",
-        "lease_expires_at": "2026-11-23T13:58:51.158075+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31277850",
       "prepared": {
@@ -252653,5 +252655,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T08:00:48.644681+00:00"
+  "updated_at": "2026-11-23T08:10:36.000695+00:00"
 }
