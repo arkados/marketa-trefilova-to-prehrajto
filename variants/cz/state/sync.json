@@ -213391,17 +213391,19 @@
       "attempts": []
     },
     "12824": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34022375",
+          "target_video_id": "31283205",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:18:34.084156+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34022375",
         "display_name": "Shanghai Noon 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:13:44.956221+00:00"
-      },
-      "claim": {
-        "worker_id": "bff88d4a46f9487999f6234c42baf69f-shard-0",
-        "claimed_at": "2026-11-23T11:13:45.851831+00:00",
-        "lease_expires_at": "2026-11-23T17:13:45.851831+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283205",
       "prepared": {
@@ -253607,5 +253609,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:15:23.794980+00:00"
+  "updated_at": "2026-11-23T11:18:34.084172+00:00"
 }
