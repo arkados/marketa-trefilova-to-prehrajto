@@ -216997,17 +216997,19 @@
       }
     },
     "4081": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27541290",
+          "target_video_id": "31295159",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:50:50.351455+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27541290",
         "display_name": "The Arctic Convoy (Konvoi) SD CZ Dabing",
         "planned_at": "2026-11-23T17:49:27.618722+00:00"
-      },
-      "claim": {
-        "worker_id": "6783df1b115e4a95b796c939c38d80ad-shard-0",
-        "claimed_at": "2026-11-23T17:49:28.428521+00:00",
-        "lease_expires_at": "2026-11-23T23:49:28.428521+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295159",
       "prepared": {
@@ -256557,5 +256559,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:50:45.252750+00:00"
+  "updated_at": "2026-11-23T17:50:50.351487+00:00"
 }
