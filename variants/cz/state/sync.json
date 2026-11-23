@@ -216916,17 +216916,19 @@
       }
     },
     "12861": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32940938",
+          "target_video_id": "31295035",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:50:32.649248+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32940938",
         "display_name": "Stadium Nuts (Les Fous du stade) 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:45:06.900666+00:00"
-      },
-      "claim": {
-        "worker_id": "407666430edb4e11bf6d206303b64069-shard-0",
-        "claimed_at": "2026-11-23T17:45:07.718707+00:00",
-        "lease_expires_at": "2026-11-23T23:45:07.718707+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295035",
       "prepared": {
@@ -256537,5 +256539,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:49:33.177928+00:00"
+  "updated_at": "2026-11-23T17:50:32.649265+00:00"
 }
