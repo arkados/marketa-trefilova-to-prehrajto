@@ -216788,17 +216788,19 @@
       "attempts": []
     },
     "25543": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24357471",
+          "target_video_id": "31294317",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:31:31.195617+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24357471",
         "display_name": "Two Weeks SD CZ Dabing",
         "planned_at": "2026-11-23T17:28:11.352941+00:00"
-      },
-      "claim": {
-        "worker_id": "47b5cd92db04466fb98c6f40c791ab9e-shard-0",
-        "claimed_at": "2026-11-23T17:28:11.987934+00:00",
-        "lease_expires_at": "2026-11-23T23:28:11.987934+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31294317",
       "prepared": {
@@ -256377,5 +256379,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:28:17.246770+00:00"
+  "updated_at": "2026-11-23T17:31:31.195633+00:00"
 }
