@@ -211594,17 +211594,19 @@
       }
     },
     "4155": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19000269",
+          "target_video_id": "31275857",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:52:51.927710+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19000269",
         "display_name": "My Donkey, My Lover & I (Antoinette dans les Cévennes) 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:50:08.398961+00:00"
-      },
-      "claim": {
-        "worker_id": "483e393f8ffd4a8993c122fff808fe2b-shard-0",
-        "claimed_at": "2026-11-23T06:50:08.894683+00:00",
-        "lease_expires_at": "2026-11-23T12:50:08.894683+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275857",
       "prepared": {
@@ -252116,5 +252118,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:52:36.997841+00:00"
+  "updated_at": "2026-11-23T06:52:51.927731+00:00"
 }
