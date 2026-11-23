@@ -211765,17 +211765,19 @@
       }
     },
     "25288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32334541",
+          "target_video_id": "31276036",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:58:32.877335+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32334541",
         "display_name": "Derailed (2005) SD CZ Dabing",
         "planned_at": "2026-11-23T06:56:54.708369+00:00"
-      },
-      "claim": {
-        "worker_id": "8d953e7007a7464fbea46c88f90b56d5-shard-0",
-        "claimed_at": "2026-11-23T06:56:55.281804+00:00",
-        "lease_expires_at": "2026-11-23T12:56:55.281804+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31276036",
       "prepared": {
@@ -252236,5 +252238,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:58:29.489937+00:00"
+  "updated_at": "2026-11-23T06:58:32.877355+00:00"
 }
