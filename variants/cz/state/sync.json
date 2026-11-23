@@ -206980,17 +206980,19 @@
       }
     },
     "36956": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33050608",
+          "target_video_id": "31267423",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:18:30.394620+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33050608",
         "display_name": "Super Charlie 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:09:06.514317+00:00"
-      },
-      "claim": {
-        "worker_id": "71f88fe9d8f54fdf96745ccd99986764-shard-0",
-        "claimed_at": "2026-11-23T01:09:07.352551+00:00",
-        "lease_expires_at": "2026-11-23T07:09:07.352551+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267423",
       "prepared": {
@@ -248474,5 +248476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:18:28.228836+00:00"
+  "updated_at": "2026-11-23T01:18:30.394650+00:00"
 }
