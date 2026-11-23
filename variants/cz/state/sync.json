@@ -220656,17 +220656,19 @@
       "attempts": []
     },
     "4558": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28479344",
+          "target_video_id": "31306737",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:24:07.002171+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28479344",
         "display_name": "Better Nate Than Ever 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:17:52.239597+00:00"
-      },
-      "claim": {
-        "worker_id": "b88da17e82664d00a8f5f29303ed4ba6-shard-0",
-        "claimed_at": "2026-11-23T21:17:53.021980+00:00",
-        "lease_expires_at": "2026-11-24T03:17:53.021980+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306737",
       "prepared": {
@@ -259367,5 +259369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:24:04.221243+00:00"
+  "updated_at": "2026-11-23T21:24:07.002191+00:00"
 }
