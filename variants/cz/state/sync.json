@@ -213125,17 +213125,19 @@
       "attempts": []
     },
     "3784": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27784794",
+          "target_video_id": "31282251",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:41:00.396183+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27784794",
         "display_name": "Maleficent: Mistress of Evil 1080p CZ Dabing",
         "planned_at": "2026-11-23T10:37:48.972757+00:00"
-      },
-      "claim": {
-        "worker_id": "665ff2371dd34600b01e4b8ef71a7e0a-shard-0",
-        "claimed_at": "2026-11-23T10:37:49.896030+00:00",
-        "lease_expires_at": "2026-11-23T16:37:49.896030+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31282251",
       "prepared": {
@@ -253347,5 +253349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:37:53.832785+00:00"
+  "updated_at": "2026-11-23T10:41:00.396199+00:00"
 }
