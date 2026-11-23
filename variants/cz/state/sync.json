@@ -206222,17 +206222,19 @@
       "attempts": []
     },
     "22333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32733562",
+          "target_video_id": "31266112",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:24:10.428631+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32733562",
         "display_name": "Animal (1977) 4K CZ Dabing",
         "planned_at": "2026-11-23T00:23:56.356309+00:00"
-      },
-      "claim": {
-        "worker_id": "1b22a68635d540e38ad78242cfcb6c8d-shard-0",
-        "claimed_at": "2026-11-23T00:23:57.282544+00:00",
-        "lease_expires_at": "2026-11-23T06:23:57.282544+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266112",
       "prepared": {
@@ -247833,5 +247835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:24:05.161860+00:00"
+  "updated_at": "2026-11-23T00:24:10.428648+00:00"
 }
