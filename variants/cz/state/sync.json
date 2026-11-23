@@ -210480,17 +210480,19 @@
       }
     },
     "15921": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694351",
+          "target_video_id": "31273200",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:16:15.001660+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694351",
         "display_name": "Zero to Hero (Rodeio Rock) (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:10:51.601074+00:00"
-      },
-      "claim": {
-        "worker_id": "ab8b3b704d20436cb4996451905a96b1-shard-0",
-        "claimed_at": "2026-11-23T05:10:52.058189+00:00",
-        "lease_expires_at": "2026-11-23T11:10:52.058189+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273200",
       "prepared": {
@@ -251212,5 +251214,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:15:34.998311+00:00"
+  "updated_at": "2026-11-23T05:16:15.001682+00:00"
 }
