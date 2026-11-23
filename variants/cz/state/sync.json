@@ -211666,17 +211666,19 @@
       }
     },
     "3740": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17515039",
+          "target_video_id": "31275932",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:56:13.966981+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17515039",
         "display_name": "Fear Street Part 3: 1666 (Fear Street: 1666) 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:52:59.289066+00:00"
-      },
-      "claim": {
-        "worker_id": "877880c51bc64fadbf1c436fa3a03a7a-shard-0",
-        "claimed_at": "2026-11-23T06:52:59.783283+00:00",
-        "lease_expires_at": "2026-11-23T12:52:59.783283+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275932",
       "prepared": {
@@ -252176,5 +252178,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:55:24.590342+00:00"
+  "updated_at": "2026-11-23T06:56:13.967003+00:00"
 }
