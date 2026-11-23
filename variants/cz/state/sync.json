@@ -221449,17 +221449,19 @@
       }
     },
     "5351": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25743259",
+          "target_video_id": "31308494",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:35:36.697085+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25743259",
         "display_name": "Haute Couture 1080p CZ Dabing",
         "planned_at": "2026-11-23T22:24:53.106527+00:00"
-      },
-      "claim": {
-        "worker_id": "701de6aa3ae24b08bfffdae109e610f2-shard-0",
-        "claimed_at": "2026-11-23T22:24:53.666748+00:00",
-        "lease_expires_at": "2026-11-24T04:24:53.666748+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31308494",
       "prepared": {
@@ -259947,5 +259949,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:32:10.538882+00:00"
+  "updated_at": "2026-11-23T22:35:36.697108+00:00"
 }
