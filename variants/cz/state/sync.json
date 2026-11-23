@@ -208487,17 +208487,19 @@
       }
     },
     "22871": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33790225",
+          "target_video_id": "31270121",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:10:15.934950+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33790225",
         "display_name": "The Mosquito Coast 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:03:54.014974+00:00"
-      },
-      "claim": {
-        "worker_id": "a925658facbb4545a104cfc55584337d-shard-0",
-        "claimed_at": "2026-11-23T03:03:54.849626+00:00",
-        "lease_expires_at": "2026-11-23T09:03:54.849626+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270121",
       "prepared": {
@@ -249649,5 +249651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:10:13.683428+00:00"
+  "updated_at": "2026-11-23T03:10:15.934966+00:00"
 }
