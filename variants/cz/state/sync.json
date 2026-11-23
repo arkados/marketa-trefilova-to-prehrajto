@@ -219863,17 +219863,19 @@
       "attempts": []
     },
     "30179": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29087884",
+          "target_video_id": "31301562",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:24:25.067024+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29087884",
         "display_name": "12 Paces Without a Head SD CZ Dabing",
         "planned_at": "2026-11-23T20:21:57.469110+00:00"
-      },
-      "claim": {
-        "worker_id": "0136386bb7dd4f4d923127ab3de4db6e-shard-0",
-        "claimed_at": "2026-11-23T20:21:58.261392+00:00",
-        "lease_expires_at": "2026-11-24T02:21:58.261392+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31301562",
       "prepared": {
@@ -258687,5 +258689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:22:02.718255+00:00"
+  "updated_at": "2026-11-23T20:24:25.067042+00:00"
 }
