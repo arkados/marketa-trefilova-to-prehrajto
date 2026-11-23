@@ -210234,17 +210234,19 @@
       }
     },
     "3610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29805809",
+          "target_video_id": "31272784",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:55:46.123044+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29805809",
         "display_name": "It’s What’s Inside (It's What's Inside) 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:51:15.387529+00:00"
-      },
-      "claim": {
-        "worker_id": "437faca236164c0a85fb7682683d1e5b-shard-0",
-        "claimed_at": "2026-11-23T04:51:15.825105+00:00",
-        "lease_expires_at": "2026-11-23T10:51:15.825105+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272784",
       "prepared": {
@@ -250972,5 +250974,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:51:19.515120+00:00"
+  "updated_at": "2026-11-23T04:55:46.123064+00:00"
 }
