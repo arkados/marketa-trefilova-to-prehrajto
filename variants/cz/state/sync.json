@@ -209857,17 +209857,19 @@
       "attempts": []
     },
     "13397": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25696055",
+          "target_video_id": "31272261",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:28:52.274407+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25696055",
         "display_name": "Proof 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:28:36.264165+00:00"
-      },
-      "claim": {
-        "worker_id": "d79d0b9627024f309784fef62c8a0ee8-shard-0",
-        "claimed_at": "2026-11-23T04:28:36.712230+00:00",
-        "lease_expires_at": "2026-11-23T10:28:36.712230+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272261",
       "prepared": {
@@ -250652,5 +250654,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:28:46.641374+00:00"
+  "updated_at": "2026-11-23T04:28:52.274434+00:00"
 }
