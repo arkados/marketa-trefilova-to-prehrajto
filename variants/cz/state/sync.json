@@ -216269,17 +216269,19 @@
       }
     },
     "33966": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34494086",
+          "target_video_id": "31292717",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:44:08.737224+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34494086",
         "display_name": "5 Card Stud 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:37:02.933286+00:00"
-      },
-      "claim": {
-        "worker_id": "76f44628db064763a624d0fb2a452ade-shard-0",
-        "claimed_at": "2026-11-23T16:37:03.537881+00:00",
-        "lease_expires_at": "2026-11-23T22:37:03.537881+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292717",
       "prepared": {
@@ -256020,5 +256022,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:40:34.049641+00:00"
+  "updated_at": "2026-11-23T16:44:08.737239+00:00"
 }
