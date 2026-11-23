@@ -211364,17 +211364,19 @@
       }
     },
     "11658": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29502069",
+          "target_video_id": "31274989",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:25:01.441537+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29502069",
         "display_name": "Short Circuit 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:21:57.569604+00:00"
-      },
-      "claim": {
-        "worker_id": "e49c8274f1df48388930b0f7846d5939-shard-0",
-        "claimed_at": "2026-11-23T06:21:58.007324+00:00",
-        "lease_expires_at": "2026-11-23T12:21:58.007324+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274989",
       "prepared": {
@@ -251919,5 +251921,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:24:21.959628+00:00"
+  "updated_at": "2026-11-23T06:25:01.441555+00:00"
 }
