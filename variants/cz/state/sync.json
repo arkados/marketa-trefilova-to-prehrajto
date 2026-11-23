@@ -214870,17 +214870,19 @@
       }
     },
     "3615": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34285051",
+          "target_video_id": "31287418",
+          "permanent": false,
+          "attempted_at": "2026-11-23T13:49:47.509005+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34285051",
         "display_name": "Twister 4K CZ Dabing",
         "planned_at": "2026-11-23T13:36:50.266059+00:00"
-      },
-      "claim": {
-        "worker_id": "907e37121a174f9db181308aa98c8d9a-shard-0",
-        "claimed_at": "2026-11-23T13:36:51.086769+00:00",
-        "lease_expires_at": "2026-11-23T19:36:51.086769+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31287418",
       "prepared": {
@@ -254854,5 +254856,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T13:47:42.329425+00:00"
+  "updated_at": "2026-11-23T13:49:47.509021+00:00"
 }
