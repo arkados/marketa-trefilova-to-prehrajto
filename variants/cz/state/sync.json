@@ -207731,17 +207731,19 @@
       }
     },
     "23776": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21849568",
+          "target_video_id": "31269166",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:27:04.943784+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21849568",
         "display_name": "One Eight Seven SD CZ Dabing",
         "planned_at": "2026-11-23T02:23:47.897816+00:00"
-      },
-      "claim": {
-        "worker_id": "fa7f5e644812462bb1fa049279aefcc1-shard-0",
-        "claimed_at": "2026-11-23T02:23:48.776145+00:00",
-        "lease_expires_at": "2026-11-23T08:23:48.776145+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269166",
       "prepared": {
@@ -249039,5 +249041,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:24:32.114041+00:00"
+  "updated_at": "2026-11-23T02:27:04.943800+00:00"
 }
