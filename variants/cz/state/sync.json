@@ -214303,17 +214303,19 @@
       }
     },
     "3942": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14311808",
+          "target_video_id": "31285305",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:27:01.410767+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14311808",
         "display_name": "The Lovely Bones 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:19:53.673966+00:00"
-      },
-      "claim": {
-        "worker_id": "bf9c53ea1bc64c3d89431ba90c5c9c95-shard-0",
-        "claimed_at": "2026-11-23T12:19:56.808402+00:00",
-        "lease_expires_at": "2026-11-23T18:19:56.808402+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285305",
       "prepared": {
@@ -254421,5 +254423,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:23:35.792765+00:00"
+  "updated_at": "2026-11-23T12:27:01.410796+00:00"
 }
