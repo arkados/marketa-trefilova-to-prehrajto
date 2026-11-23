@@ -218321,17 +218321,19 @@
       "attempts": []
     },
     "28932": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30835144",
+          "target_video_id": "31296910",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:57:51.921390+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30835144",
         "display_name": "Coconut, the Little Dragon (Coconut the Dragon) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:52:39.677944+00:00"
-      },
-      "claim": {
-        "worker_id": "b79200f3ab384af884b4d0c381d06078-shard-0",
-        "claimed_at": "2026-11-23T18:52:40.500198+00:00",
-        "lease_expires_at": "2026-11-24T00:52:40.500198+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296910",
       "prepared": {
@@ -257592,5 +257594,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:57:05.045756+00:00"
+  "updated_at": "2026-11-23T18:57:51.921408+00:00"
 }
