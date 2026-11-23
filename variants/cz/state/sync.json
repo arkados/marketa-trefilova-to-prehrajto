@@ -220124,17 +220124,19 @@
       "attempts": []
     },
     "13563": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35232248",
+          "target_video_id": "31305381",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:45:55.594907+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35232248",
         "display_name": "From Subway with Love (Román pro ženy) 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:33:51.571754+00:00"
-      },
-      "claim": {
-        "worker_id": "3c0dc6d4771c4d1998710f23b77ce57b-shard-0",
-        "claimed_at": "2026-11-23T20:33:52.389554+00:00",
-        "lease_expires_at": "2026-11-24T02:33:52.389554+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305381",
       "prepared": {
@@ -258947,5 +258949,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:45:06.266246+00:00"
+  "updated_at": "2026-11-23T20:45:55.594925+00:00"
 }
