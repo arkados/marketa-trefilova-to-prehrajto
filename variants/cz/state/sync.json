@@ -221243,17 +221243,19 @@
       "attempts": []
     },
     "21647": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16196655",
+          "target_video_id": "31307884",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:31:39.617959+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16196655",
         "display_name": "The 300 Spartans 4K CZ Dabing",
         "planned_at": "2026-11-23T22:03:20.334680+00:00"
-      },
-      "claim": {
-        "worker_id": "e32b42ce2fa449b68553aa5d268055b2-shard-0",
-        "claimed_at": "2026-11-23T22:03:20.923340+00:00",
-        "lease_expires_at": "2026-11-24T04:03:20.923340+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31307884",
       "prepared": {
@@ -260344,5 +260346,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:28:51.926157+00:00"
+  "updated_at": "2026-11-23T23:31:39.617976+00:00"
 }
