@@ -220218,17 +220218,19 @@
       }
     },
     "6266": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17558271",
+          "target_video_id": "31305739",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:47:53.266073+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17558271",
         "display_name": "Never Too Late SD CZ Dabing",
         "planned_at": "2026-11-23T20:46:04.066362+00:00"
-      },
-      "claim": {
-        "worker_id": "a88ee1fdaeed418b85e29e72c4210986-shard-0",
-        "claimed_at": "2026-11-23T20:46:04.882095+00:00",
-        "lease_expires_at": "2026-11-24T02:46:04.882095+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305739",
       "prepared": {
@@ -258967,5 +258969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:46:08.436739+00:00"
+  "updated_at": "2026-11-23T20:47:53.266089+00:00"
 }
