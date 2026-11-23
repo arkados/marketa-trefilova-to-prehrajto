@@ -212098,17 +212098,19 @@
       }
     },
     "3932": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6203762",
+          "target_video_id": "31277281",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:58:42.222493+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6203762",
         "display_name": "Midnight Special 1080p CZ Dabing",
         "planned_at": "2026-11-23T07:40:28.532263+00:00"
-      },
-      "claim": {
-        "worker_id": "3c33f85f702043d28f5d8854b02cca05-shard-0",
-        "claimed_at": "2026-11-23T07:40:28.963961+00:00",
-        "lease_expires_at": "2026-11-23T13:40:28.963961+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31277281",
       "prepared": {
@@ -252613,5 +252615,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:58:01.663071+00:00"
+  "updated_at": "2026-11-23T07:58:42.222513+00:00"
 }
