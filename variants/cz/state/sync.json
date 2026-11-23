@@ -184723,13 +184723,6 @@
           "source_id": "33707550",
           "target_video_id": "31204550",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:12:44.876166+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33707550",
-          "target_video_id": "31204550",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:37:23.120624+00:00"
         },
         {
@@ -184738,12 +184731,19 @@
           "target_video_id": "31204550",
           "permanent": false,
           "attempted_at": "2026-11-22T22:20:13.078380+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33707550",
+          "target_video_id": "31204550",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:21:39.145842+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T04:13:03.432351+00:00"
+        "planned_at": "2026-11-23T04:21:36.522957+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -209692,7 +209692,18 @@
       "attempts": []
     },
     "11310": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "25891019",
+        "display_name": "Phantasm 1080p CZ Dabing",
+        "planned_at": "2026-11-23T04:21:36.765507+00:00"
+      },
+      "claim": {
+        "worker_id": "0787f481519140cbb66d655186bc6e7f-shard-0",
+        "claimed_at": "2026-11-23T04:21:37.472214+00:00",
+        "lease_expires_at": "2026-11-23T10:21:37.472214+00:00",
+        "run_id": "45102278157"
+      }
     },
     "4129": {
       "attempts": []
@@ -209701,10 +209712,20 @@
       "attempts": []
     },
     "3821": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "35181064",
+        "display_name": "Smallfoot 1080p CZ Dabing",
+        "planned_at": "2026-11-23T04:21:36.920996+00:00"
+      }
     },
     "3586": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "31982042",
+        "display_name": "Wasabi 1080p CZ Dabing",
+        "planned_at": "2026-11-23T04:21:37.069613+00:00"
+      }
     },
     "34574": {
       "attempts": []
@@ -250505,5 +250526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:20:19.873607+00:00"
+  "updated_at": "2026-11-23T04:21:39.145855+00:00"
 }
