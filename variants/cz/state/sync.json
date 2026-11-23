@@ -215009,17 +215009,19 @@
       }
     },
     "3981": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26238760",
+          "target_video_id": "31287911",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:02:09.861569+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26238760",
         "display_name": "Me, Myself & Irene 1080p CZ Dabing",
         "planned_at": "2026-11-23T13:56:24.240593+00:00"
-      },
-      "claim": {
-        "worker_id": "f714fa379ab4467bb97ab3da3a4575de-shard-0",
-        "claimed_at": "2026-11-23T13:56:24.912875+00:00",
-        "lease_expires_at": "2026-11-23T19:56:24.912875+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31287911",
       "prepared": {
@@ -254934,5 +254936,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T13:56:29.122592+00:00"
+  "updated_at": "2026-11-23T14:02:09.861587+00:00"
 }
