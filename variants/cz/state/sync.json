@@ -222164,17 +222164,19 @@
       "attempts": []
     },
     "15577": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27660047",
+          "target_video_id": "31310794",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:53:27.264811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27660047",
         "display_name": "Something You Said Last Night 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:37:21.999338+00:00"
-      },
-      "claim": {
-        "worker_id": "9153ca487a934d409c13e2bcc52eeac4-shard-0",
-        "claimed_at": "2026-11-23T23:37:22.484293+00:00",
-        "lease_expires_at": "2026-11-24T05:37:22.484293+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31310794",
       "prepared": {
@@ -260574,5 +260576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:51:58.402661+00:00"
+  "updated_at": "2026-11-23T23:53:27.264831+00:00"
 }
