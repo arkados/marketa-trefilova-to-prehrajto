@@ -221078,17 +221078,19 @@
       }
     },
     "26881": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24030547",
+          "target_video_id": "31307716",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:56:57.450083+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24030547",
         "display_name": "The Dawn (2020) 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:52:58.992272+00:00"
-      },
-      "claim": {
-        "worker_id": "c518c15b227047f1b8e6a425e1a3837a-shard-0",
-        "claimed_at": "2026-11-23T21:52:59.478722+00:00",
-        "lease_expires_at": "2026-11-24T03:52:59.478722+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31307716",
       "prepared": {
@@ -259647,5 +259649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:56:49.720816+00:00"
+  "updated_at": "2026-11-23T21:56:57.450102+00:00"
 }
