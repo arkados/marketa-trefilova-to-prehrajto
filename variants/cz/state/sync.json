@@ -217503,17 +217503,19 @@
       }
     },
     "12038": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32422310",
+          "target_video_id": "31295710",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:14:44.748909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32422310",
         "display_name": "The Return of Casanova (Le retour de Casanova) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:09:23.400352+00:00"
-      },
-      "claim": {
-        "worker_id": "a86e32f6d18e46e9b38006a664fa3f04-shard-0",
-        "claimed_at": "2026-11-23T18:09:24.154247+00:00",
-        "lease_expires_at": "2026-11-24T00:09:24.154247+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295710",
       "prepared": {
@@ -256997,5 +256999,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:14:00.612670+00:00"
+  "updated_at": "2026-11-23T18:14:44.748934+00:00"
 }
