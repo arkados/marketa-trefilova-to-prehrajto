@@ -212718,17 +212718,19 @@
       }
     },
     "22836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33529030",
+          "target_video_id": "31281127",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:54:50.892100+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33529030",
         "display_name": "Weird Science 4K CZ Dabing",
         "planned_at": "2026-11-23T09:50:09.072412+00:00"
-      },
-      "claim": {
-        "worker_id": "4d24690ef3e84201bfadd65ad35ef7c6-shard-0",
-        "claimed_at": "2026-11-23T09:50:09.904865+00:00",
-        "lease_expires_at": "2026-11-23T15:50:09.904865+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281127",
       "prepared": {
@@ -253050,5 +253052,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:54:13.128432+00:00"
+  "updated_at": "2026-11-23T09:54:50.892116+00:00"
 }
