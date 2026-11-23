@@ -213456,17 +213456,19 @@
       }
     },
     "19608": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35062903",
+          "target_video_id": "31283313",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:22:20.427368+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35062903",
         "display_name": "The Long Walk 1080p CZ Dabing",
         "planned_at": "2026-11-23T11:18:45.872725+00:00"
-      },
-      "claim": {
-        "worker_id": "63e67e417fe84db3be018abb0c44bea2-shard-0",
-        "claimed_at": "2026-11-23T11:18:46.800849+00:00",
-        "lease_expires_at": "2026-11-23T17:18:46.800849+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283313",
       "prepared": {
@@ -253627,5 +253629,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:18:50.467979+00:00"
+  "updated_at": "2026-11-23T11:22:20.427383+00:00"
 }
