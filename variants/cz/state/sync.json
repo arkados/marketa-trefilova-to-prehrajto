@@ -217364,17 +217364,19 @@
       "attempts": []
     },
     "4202": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14052725",
+          "target_video_id": "31295526",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:07:38.132052+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14052725",
         "display_name": "All Together Now 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:02:31.195211+00:00"
-      },
-      "claim": {
-        "worker_id": "4d5a756c43f4451e9ee4a7673140a967-shard-0",
-        "claimed_at": "2026-11-23T18:02:31.950021+00:00",
-        "lease_expires_at": "2026-11-24T00:02:31.950021+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295526",
       "prepared": {
@@ -256857,5 +256859,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:05:49.367060+00:00"
+  "updated_at": "2026-11-23T18:07:38.132070+00:00"
 }
