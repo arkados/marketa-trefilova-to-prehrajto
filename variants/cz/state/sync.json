@@ -215608,17 +215608,19 @@
       "attempts": []
     },
     "3988": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26852146",
+          "target_video_id": "31289961",
+          "permanent": false,
+          "attempted_at": "2026-11-23T15:11:20.005351+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26852146",
         "display_name": "This Is the End 1080p CZ Dabing",
         "planned_at": "2026-11-23T15:00:36.038510+00:00"
-      },
-      "claim": {
-        "worker_id": "ed991229f36841b2ad3a4aec5c453877-shard-0",
-        "claimed_at": "2026-11-23T15:00:36.680843+00:00",
-        "lease_expires_at": "2026-11-23T21:00:36.680843+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31289961",
       "prepared": {
@@ -255458,5 +255460,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T15:02:44.000129+00:00"
+  "updated_at": "2026-11-23T15:11:20.005368+00:00"
 }
