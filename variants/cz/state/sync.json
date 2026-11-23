@@ -208562,17 +208562,19 @@
       "attempts": []
     },
     "11396": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26081233",
+          "target_video_id": "31270191",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:11:01.782014+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26081233",
         "display_name": "Buddy Goes West (Occhio alla penna) 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:07:36.240454+00:00"
-      },
-      "claim": {
-        "worker_id": "81c2dedecbf345a9967db217b83bb813-shard-0",
-        "claimed_at": "2026-11-23T03:07:37.111935+00:00",
-        "lease_expires_at": "2026-11-23T09:07:37.111935+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270191",
       "prepared": {
@@ -249687,5 +249689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:10:43.779267+00:00"
+  "updated_at": "2026-11-23T03:11:01.782032+00:00"
 }
