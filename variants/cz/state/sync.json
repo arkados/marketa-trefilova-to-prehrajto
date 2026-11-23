@@ -209604,17 +209604,19 @@
       }
     },
     "3928": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713042",
+          "target_video_id": "31271536",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:12:34.493568+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713042",
         "display_name": "Coco Before Chanel (Coco avant Chanel) 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:06:58.121025+00:00"
-      },
-      "claim": {
-        "worker_id": "c491f3a693b046b7880299051e7a4ee6-shard-0",
-        "claimed_at": "2026-11-23T04:06:59.398330+00:00",
-        "lease_expires_at": "2026-11-23T10:06:59.398330+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271536",
       "prepared": {
@@ -250459,5 +250461,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:07:06.772832+00:00"
+  "updated_at": "2026-11-23T04:12:34.493585+00:00"
 }
