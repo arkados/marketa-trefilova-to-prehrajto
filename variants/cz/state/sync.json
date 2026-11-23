@@ -206278,17 +206278,19 @@
       "attempts": []
     },
     "16873": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34775233",
+          "target_video_id": "31266199",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:30:19.754360+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34775233",
         "display_name": "Stop the Wedding 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:26:20.015209+00:00"
-      },
-      "claim": {
-        "worker_id": "3a3ebdef1ad44842990721dc9c3f6cbb-shard-0",
-        "claimed_at": "2026-11-23T00:26:20.875007+00:00",
-        "lease_expires_at": "2026-11-23T06:26:20.875007+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266199",
       "prepared": {
@@ -247900,5 +247902,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:30:12.400530+00:00"
+  "updated_at": "2026-11-23T00:30:19.754383+00:00"
 }
