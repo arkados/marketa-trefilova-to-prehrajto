@@ -206024,17 +206024,19 @@
       "attempts": []
     },
     "3787": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13761438",
+          "target_video_id": "31265177",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:12:09.825517+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13761438",
         "display_name": "Plus One 1080p CZ Dabing",
         "planned_at": "2026-11-22T23:54:15.669936+00:00"
-      },
-      "claim": {
-        "worker_id": "87109bd0c40d40c78e6c1432dd2eca0d-shard-0",
-        "claimed_at": "2026-11-22T23:54:16.641299+00:00",
-        "lease_expires_at": "2026-11-23T05:54:16.641299+00:00",
-        "run_id": "45063988883"
       },
       "previous_target_id": "31265177",
       "prepared": {
@@ -247682,5 +247684,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:02:54.335878+00:00"
+  "updated_at": "2026-11-23T00:12:09.825534+00:00"
 }
