@@ -216731,17 +216731,19 @@
       }
     },
     "14209": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25405323",
+          "target_video_id": "31294168",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:34:41.874538+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25405323",
         "display_name": "Waiting for Bojangles (En attendant Bojangles) 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:23:36.884513+00:00"
-      },
-      "claim": {
-        "worker_id": "54244375e191414eb1320415c1b35028-shard-0",
-        "claimed_at": "2026-11-23T17:23:37.528065+00:00",
-        "lease_expires_at": "2026-11-23T23:23:37.528065+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31294168",
       "prepared": {
@@ -256417,5 +256419,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:33:25.406269+00:00"
+  "updated_at": "2026-11-23T17:34:41.874554+00:00"
 }
