@@ -211050,17 +211050,19 @@
       }
     },
     "11803": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33873971",
+          "target_video_id": "31274224",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:03:35.774465+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33873971",
         "display_name": "Black Rain 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:57:25.528251+00:00"
-      },
-      "claim": {
-        "worker_id": "4f418da5c0914587bc68af5211c386c7-shard-0",
-        "claimed_at": "2026-11-23T05:57:26.010658+00:00",
-        "lease_expires_at": "2026-11-23T11:57:26.010658+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274224",
       "prepared": {
@@ -251626,5 +251628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:57:29.873251+00:00"
+  "updated_at": "2026-11-23T06:03:35.774482+00:00"
 }
