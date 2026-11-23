@@ -217277,17 +217277,19 @@
       }
     },
     "31963": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850094",
+          "target_video_id": "31295445",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:02:20.690413+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850094",
         "display_name": "Don't Touch the White Woman! (Touche pas à la femme blanche) SD CZ Dabing",
         "planned_at": "2026-11-23T18:00:22.296022+00:00"
-      },
-      "claim": {
-        "worker_id": "065efa7d38194343b4d9f7601b9c536d-shard-0",
-        "claimed_at": "2026-11-23T18:00:23.082874+00:00",
-        "lease_expires_at": "2026-11-24T00:00:23.082874+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295445",
       "prepared": {
@@ -256797,5 +256799,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:01:37.976747+00:00"
+  "updated_at": "2026-11-23T18:02:20.690454+00:00"
 }
