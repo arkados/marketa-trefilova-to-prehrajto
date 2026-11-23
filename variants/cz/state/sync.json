@@ -209358,17 +209358,19 @@
       }
     },
     "17436": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13353559",
+          "target_video_id": "31271266",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:59:01.255351+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13353559",
         "display_name": "Beware the Gorilla (Attenti al gorilla) 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:56:02.407213+00:00"
-      },
-      "claim": {
-        "worker_id": "2d448226b9a04ae9bda7df301686e679-shard-0",
-        "claimed_at": "2026-11-23T03:56:03.387734+00:00",
-        "lease_expires_at": "2026-11-23T09:56:03.387734+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271266",
       "prepared": {
@@ -250282,5 +250284,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:56:48.227966+00:00"
+  "updated_at": "2026-11-23T03:59:01.255369+00:00"
 }
