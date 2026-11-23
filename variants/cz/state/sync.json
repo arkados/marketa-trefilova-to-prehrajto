@@ -209833,17 +209833,19 @@
       }
     },
     "3743": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34557470",
+          "target_video_id": "31272253",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:31:15.574025+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34557470",
         "display_name": "Fatherhood 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:28:11.623573+00:00"
-      },
-      "claim": {
-        "worker_id": "aff4d519517e4b4fa0090d2095bebc91-shard-0",
-        "claimed_at": "2026-11-23T04:28:12.056471+00:00",
-        "lease_expires_at": "2026-11-23T10:28:12.056471+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272253",
       "prepared": {
@@ -250672,5 +250674,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:29:03.936672+00:00"
+  "updated_at": "2026-11-23T04:31:15.574045+00:00"
 }
