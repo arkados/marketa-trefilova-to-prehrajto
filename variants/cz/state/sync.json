@@ -210069,17 +210069,19 @@
       }
     },
     "3568": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32899534",
+          "target_video_id": "31272608",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:50:33.666216+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32899534",
         "display_name": "People We Meet on Vacation 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:43:57.376582+00:00"
-      },
-      "claim": {
-        "worker_id": "3b2fe8511ed14c4894580b58f5225285-shard-0",
-        "claimed_at": "2026-11-23T04:43:57.819797+00:00",
-        "lease_expires_at": "2026-11-23T10:43:57.819797+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272608",
       "prepared": {
@@ -250912,5 +250914,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:50:07.714319+00:00"
+  "updated_at": "2026-11-23T04:50:33.666234+00:00"
 }
