@@ -212903,17 +212903,19 @@
       }
     },
     "12045": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33794005",
+          "target_video_id": "31281728",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:17:30.208968+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33794005",
         "display_name": "Sister Act 1080p CZ Dabing",
         "planned_at": "2026-11-23T10:13:35.161076+00:00"
-      },
-      "claim": {
-        "worker_id": "a2c76261209340b8a03152f4a16c43ca-shard-0",
-        "claimed_at": "2026-11-23T10:13:36.063201+00:00",
-        "lease_expires_at": "2026-11-23T16:13:36.063201+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281728",
       "prepared": {
@@ -253170,5 +253172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:13:39.544516+00:00"
+  "updated_at": "2026-11-23T10:17:30.208985+00:00"
 }
