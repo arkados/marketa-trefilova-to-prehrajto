@@ -208142,17 +208142,19 @@
       "attempts": []
     },
     "3159": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33879935",
+          "target_video_id": "31269794",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:50:07.246368+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33879935",
         "display_name": "Goat (2026) 4K CZ Dabing",
         "planned_at": "2026-11-23T02:49:56.587920+00:00"
-      },
-      "claim": {
-        "worker_id": "0f972ddd0a6d44a5b434b56829ce16d4-shard-0",
-        "claimed_at": "2026-11-23T02:49:57.401108+00:00",
-        "lease_expires_at": "2026-11-23T08:49:57.401108+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269794",
       "prepared": {
@@ -249336,5 +249338,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:50:00.908341+00:00"
+  "updated_at": "2026-11-23T02:50:07.246384+00:00"
 }
