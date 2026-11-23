@@ -209719,17 +209719,19 @@
       "attempts": []
     },
     "3821": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35181064",
+          "target_video_id": "31272059",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:24:55.356051+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35181064",
         "display_name": "Smallfoot 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:21:47.467270+00:00"
-      },
-      "claim": {
-        "worker_id": "5c44d7fad96948a495cecd241309f905-shard-0",
-        "claimed_at": "2026-11-23T04:21:47.872708+00:00",
-        "lease_expires_at": "2026-11-23T10:21:47.872708+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272059",
       "prepared": {
@@ -250559,5 +250561,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:22:11.553599+00:00"
+  "updated_at": "2026-11-23T04:24:55.356070+00:00"
 }
