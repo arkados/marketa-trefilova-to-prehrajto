@@ -214378,17 +214378,19 @@
       }
     },
     "3979": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33177418",
+          "target_video_id": "31285400",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:29:52.017598+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33177418",
         "display_name": "Eagle Eye 4K CZ Dabing",
         "planned_at": "2026-11-23T12:23:13.520340+00:00"
-      },
-      "claim": {
-        "worker_id": "39ba7140b97c4155a3b835f0dd44ef6f-shard-0",
-        "claimed_at": "2026-11-23T12:23:14.409120+00:00",
-        "lease_expires_at": "2026-11-23T18:23:14.409120+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285400",
       "prepared": {
@@ -254441,5 +254443,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:27:18.026245+00:00"
+  "updated_at": "2026-11-23T12:29:52.017615+00:00"
 }
