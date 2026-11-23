@@ -206456,17 +206456,19 @@
       "attempts": []
     },
     "13385": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15651971",
+          "target_video_id": "31266492",
+          "permanent": false,
+          "attempted_at": "2026-11-23T00:39:18.736331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15651971",
         "display_name": "Saints and Soldiers SD CZ Dabing",
         "planned_at": "2026-11-23T00:35:09.280599+00:00"
-      },
-      "claim": {
-        "worker_id": "a15ef4aa53ff47a3bb4cc03490bf67e0-shard-0",
-        "claimed_at": "2026-11-23T00:35:10.052046+00:00",
-        "lease_expires_at": "2026-11-23T06:35:10.052046+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266492",
       "prepared": {
@@ -248070,5 +248072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T00:39:16.070144+00:00"
+  "updated_at": "2026-11-23T00:39:18.736350+00:00"
 }
