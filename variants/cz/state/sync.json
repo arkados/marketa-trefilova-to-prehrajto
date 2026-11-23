@@ -209488,17 +209488,19 @@
       }
     },
     "30255": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32137208",
+          "target_video_id": "31271403",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:04:17.373811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32137208",
         "display_name": "The Gypsy (1975) 720p CZ Dabing",
         "planned_at": "2026-11-23T04:01:27.807419+00:00"
-      },
-      "claim": {
-        "worker_id": "3d98230e1b4646dfae18bd8f1626871d-shard-0",
-        "claimed_at": "2026-11-23T04:01:28.629134+00:00",
-        "lease_expires_at": "2026-11-23T10:01:28.629134+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31271403",
       "prepared": {
@@ -250379,5 +250381,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:04:13.463785+00:00"
+  "updated_at": "2026-11-23T04:04:17.373827+00:00"
 }
