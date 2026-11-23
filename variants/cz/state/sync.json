@@ -218005,17 +218005,19 @@
       }
     },
     "21097": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33663904",
+          "target_video_id": "31296331",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:35:19.623264+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33663904",
         "display_name": "Buried Alive (1990) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:33:10.132615+00:00"
-      },
-      "claim": {
-        "worker_id": "9dcf91f4f6924e5ab18e53db882c9eb6-shard-0",
-        "claimed_at": "2026-11-23T18:33:10.950954+00:00",
-        "lease_expires_at": "2026-11-24T00:33:10.950954+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296331",
       "prepared": {
@@ -257312,5 +257314,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:33:14.802213+00:00"
+  "updated_at": "2026-11-23T18:35:19.623286+00:00"
 }
