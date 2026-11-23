@@ -210310,17 +210310,19 @@
       "attempts": []
     },
     "17946": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26101325",
+          "target_video_id": "31272942",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:08:16.138958+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26101325",
         "display_name": "The Furnace 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:00:37.322725+00:00"
-      },
-      "claim": {
-        "worker_id": "a1fd0f3c0de9435cad3e35343f39b56e-shard-0",
-        "claimed_at": "2026-11-23T05:00:40.048133+00:00",
-        "lease_expires_at": "2026-11-23T11:00:40.048133+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272942",
       "prepared": {
@@ -251112,5 +251114,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:06:42.434625+00:00"
+  "updated_at": "2026-11-23T05:08:16.138977+00:00"
 }
