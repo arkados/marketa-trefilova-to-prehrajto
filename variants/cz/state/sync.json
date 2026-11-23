@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T04:00:46.589060+00:00"
+        "planned_at": "2026-11-23T04:00:56.545328+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -209443,11 +209443,23 @@
       "attempts": []
     },
     "36673": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34788797",
+          "reason": "Source detail has no authenticated download link; source_id=34788797",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:01:01.330001+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34788797",
         "display_name": "Plucking the Daisy (En effeuillant la marguerite) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T04:00:47.120387+00:00"
+        "planned_at": "2026-11-23T04:00:57.051714+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34788797",
+        "requested_at": "2026-11-23T04:01:01.329975+00:00"
       }
     },
     "4969": {
@@ -250309,5 +250321,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:00:47.120404+00:00"
+  "updated_at": "2026-11-23T04:01:01.330007+00:00"
 }
