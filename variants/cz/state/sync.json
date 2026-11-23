@@ -217026,17 +217026,19 @@
       "attempts": []
     },
     "29389": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18231061",
+          "target_video_id": "31295196",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:54:40.450108+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18231061",
         "display_name": "The Stranger Inside 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:50:41.063693+00:00"
-      },
-      "claim": {
-        "worker_id": "749240bec5d64e85865e03c872970b4b-shard-0",
-        "claimed_at": "2026-11-23T17:50:44.516706+00:00",
-        "lease_expires_at": "2026-11-23T23:50:44.516706+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295196",
       "prepared": {
@@ -256637,5 +256639,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:54:17.155676+00:00"
+  "updated_at": "2026-11-23T17:54:40.450129+00:00"
 }
