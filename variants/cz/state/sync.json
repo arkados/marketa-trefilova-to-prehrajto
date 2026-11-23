@@ -206957,17 +206957,19 @@
       "attempts": []
     },
     "29954": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30683026",
+          "target_video_id": "31267309",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:18:16.737506+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30683026",
         "display_name": "King of California SD CZ Dabing",
         "planned_at": "2026-11-23T01:05:22.698978+00:00"
-      },
-      "claim": {
-        "worker_id": "1657eb17337e4ee9a0cdb0b114c8f6d1-shard-0",
-        "claimed_at": "2026-11-23T01:05:23.527533+00:00",
-        "lease_expires_at": "2026-11-23T07:05:23.527533+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31267309",
       "prepared": {
@@ -248447,5 +248449,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:12:18.123320+00:00"
+  "updated_at": "2026-11-23T01:18:16.737531+00:00"
 }
