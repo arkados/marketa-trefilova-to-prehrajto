@@ -222362,17 +222362,19 @@
       }
     },
     "8398": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31561370",
+          "target_video_id": "31311309",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:55:44.769786+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31561370",
         "display_name": "Just Super (Helt super) 720p CZ Dabing",
         "planned_at": "2026-11-23T23:53:36.372815+00:00"
-      },
-      "claim": {
-        "worker_id": "46ac74d41437426c9e6e43bf885489ef-shard-0",
-        "claimed_at": "2026-11-23T23:53:36.863945+00:00",
-        "lease_expires_at": "2026-11-24T05:53:36.863945+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311309",
       "prepared": {
@@ -260634,5 +260636,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:54:55.213078+00:00"
+  "updated_at": "2026-11-23T23:55:44.769804+00:00"
 }
