@@ -211617,17 +211617,19 @@
       }
     },
     "11690": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32923409",
+          "target_video_id": "31275862",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:54:23.452607+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32923409",
         "display_name": "Hell on the Battleground SD CZ Dabing",
         "planned_at": "2026-11-23T06:50:29.493808+00:00"
-      },
-      "claim": {
-        "worker_id": "cefc6e919f9f4ecdbbb2a9d35afce99e-shard-0",
-        "claimed_at": "2026-11-23T06:50:30.013177+00:00",
-        "lease_expires_at": "2026-11-23T12:50:30.013177+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275862",
       "prepared": {
@@ -252136,5 +252138,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:53:03.846962+00:00"
+  "updated_at": "2026-11-23T06:54:23.452627+00:00"
 }
