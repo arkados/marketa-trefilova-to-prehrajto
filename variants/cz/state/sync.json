@@ -217442,17 +217442,19 @@
       "attempts": []
     },
     "22548": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34357228",
+          "target_video_id": "31295663",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:09:50.713188+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34357228",
         "display_name": "Buddy Buddy SD CZ Dabing",
         "planned_at": "2026-11-23T18:07:47.250855+00:00"
-      },
-      "claim": {
-        "worker_id": "38111b25a8f7451796767262bda6897d-shard-0",
-        "claimed_at": "2026-11-23T18:07:48.081561+00:00",
-        "lease_expires_at": "2026-11-24T00:07:48.081561+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295663",
       "prepared": {
@@ -256917,5 +256919,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:09:28.042419+00:00"
+  "updated_at": "2026-11-23T18:09:50.713206+00:00"
 }
