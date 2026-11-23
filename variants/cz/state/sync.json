@@ -210742,17 +210742,19 @@
       }
     },
     "13737": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33883861",
+          "target_video_id": "31273636",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:38:04.576916+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33883861",
         "display_name": "My Blueberry Nights (LanMeiZhiYe) SD CZ Dabing",
         "planned_at": "2026-11-23T05:35:57.286836+00:00"
-      },
-      "claim": {
-        "worker_id": "34742f7dca3e488b9a76886cfc7de982-shard-0",
-        "claimed_at": "2026-11-23T05:35:57.721234+00:00",
-        "lease_expires_at": "2026-11-23T11:35:57.721234+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273636",
       "prepared": {
@@ -251429,5 +251431,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:37:46.938618+00:00"
+  "updated_at": "2026-11-23T05:38:04.576930+00:00"
 }
