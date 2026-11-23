@@ -216818,17 +216818,19 @@
       "attempts": []
     },
     "14937": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34993928",
+          "target_video_id": "31294442",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:39:49.442341+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34993928",
         "display_name": "Everybody Loves Jeanne (Tout le monde aime Jeanne) 720p CZ Dabing",
         "planned_at": "2026-11-23T17:31:39.944488+00:00"
-      },
-      "claim": {
-        "worker_id": "c9c7a58cef6f4df982aec2a02e040699-shard-0",
-        "claimed_at": "2026-11-23T17:31:40.581733+00:00",
-        "lease_expires_at": "2026-11-23T23:31:40.581733+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31294442",
       "prepared": {
@@ -256439,5 +256441,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:37:50.035727+00:00"
+  "updated_at": "2026-11-23T17:39:49.442358+00:00"
 }
