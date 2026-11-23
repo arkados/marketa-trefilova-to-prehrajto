@@ -220780,17 +220780,19 @@
       "attempts": []
     },
     "23187": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34704089",
+          "target_video_id": "31306979",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:36:52.820255+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34704089",
         "display_name": "Daddy (1991) 720p CZ Dabing",
         "planned_at": "2026-11-23T21:24:16.883720+00:00"
-      },
-      "claim": {
-        "worker_id": "70a826013fe04b308b960ecc01d4ec01-shard-0",
-        "claimed_at": "2026-11-23T21:24:17.750289+00:00",
-        "lease_expires_at": "2026-11-24T03:24:17.750289+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306979",
       "prepared": {
@@ -259507,5 +259509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:35:54.586824+00:00"
+  "updated_at": "2026-11-23T21:36:52.820273+00:00"
 }
