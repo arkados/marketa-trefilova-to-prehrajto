@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T02:57:58.164401+00:00"
+        "planned_at": "2026-11-23T02:58:03.646905+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -208353,11 +208353,23 @@
       "attempts": []
     },
     "6512": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30137345",
+          "reason": "Source detail has no authenticated download link; source_id=30137345",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:58:07.267541+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30137345",
         "display_name": "Forgotten Christmas (Snekker Andersen og Julenissen - Den vesle bygda som glømte at det var jul) 1080p CZ Dabing",
-        "planned_at": "2026-11-23T02:57:58.680944+00:00"
+        "planned_at": "2026-11-23T02:58:04.109744+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30137345",
+        "requested_at": "2026-11-23T02:58:07.267526+00:00"
       }
     },
     "13176": {
@@ -249483,5 +249495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:57:58.680960+00:00"
+  "updated_at": "2026-11-23T02:58:07.267546+00:00"
 }
