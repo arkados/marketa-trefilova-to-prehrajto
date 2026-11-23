@@ -209928,17 +209928,19 @@
       }
     },
     "32180": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27724237",
+          "target_video_id": "31272387",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:37:21.142861+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27724237",
         "display_name": "Bitconned 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:32:43.188765+00:00"
-      },
-      "claim": {
-        "worker_id": "97913338c17e4ef7b0adaf8b502a085b-shard-0",
-        "claimed_at": "2026-11-23T04:32:43.637367+00:00",
-        "lease_expires_at": "2026-11-23T10:32:43.637367+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272387",
       "prepared": {
@@ -250732,5 +250734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:37:08.209049+00:00"
+  "updated_at": "2026-11-23T04:37:21.142876+00:00"
 }
