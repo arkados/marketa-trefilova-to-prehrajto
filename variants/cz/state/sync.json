@@ -207203,17 +207203,19 @@
       }
     },
     "23563": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34704595",
+          "target_video_id": "31268081",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:36:30.368390+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34704595",
         "display_name": "When a Man Loves a Woman 1080p CZ Dabing",
         "planned_at": "2026-11-23T01:30:34.915757+00:00"
-      },
-      "claim": {
-        "worker_id": "1f6e9ea4e9614b2b88af6954154e9b96-shard-0",
-        "claimed_at": "2026-11-23T01:30:35.736988+00:00",
-        "lease_expires_at": "2026-11-23T07:30:35.736988+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31268081",
       "prepared": {
@@ -248607,5 +248609,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:33:45.908640+00:00"
+  "updated_at": "2026-11-23T01:36:30.368406+00:00"
 }
