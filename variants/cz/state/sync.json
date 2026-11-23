@@ -184743,7 +184743,7 @@
       "last_plan": {
         "source_id": "33707550",
         "display_name": "Bastardi: Reparát 1080p CZ Dabing",
-        "planned_at": "2026-11-23T01:02:46.834444+00:00"
+        "planned_at": "2026-11-23T01:02:54.102154+00:00"
       },
       "previous_target_id": "31204550",
       "prepared": {
@@ -206813,17 +206813,19 @@
       "attempts": []
     },
     "5863": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23246241",
+          "target_video_id": "31266986",
+          "permanent": false,
+          "attempted_at": "2026-11-23T01:02:56.119553+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23246241",
         "display_name": "Het verloren transport (Lost Transport) 1080p CZ Dabing",
         "planned_at": "2026-11-23T00:54:19.563355+00:00"
-      },
-      "claim": {
-        "worker_id": "b89b2d2d79e049e290e8d46ab12aa653-shard-0",
-        "claimed_at": "2026-11-23T00:54:20.411157+00:00",
-        "lease_expires_at": "2026-11-23T06:54:20.411157+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31266986",
       "prepared": {
@@ -206908,7 +206910,13 @@
       "last_plan": {
         "source_id": "35313942",
         "display_name": "Where Is Anne Frank 1080p CZ Dabing",
-        "planned_at": "2026-11-23T01:02:47.301625+00:00"
+        "planned_at": "2026-11-23T01:02:54.541823+00:00"
+      },
+      "claim": {
+        "worker_id": "ffd2b4e9a36643c3976de1dc5a8a6f37-shard-0",
+        "claimed_at": "2026-11-23T01:02:55.429550+00:00",
+        "lease_expires_at": "2026-11-23T07:02:55.429550+00:00",
+        "run_id": "45074101768"
       }
     },
     "17162": {
@@ -248334,5 +248342,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:02:47.301642+00:00"
+  "updated_at": "2026-11-23T01:02:56.119569+00:00"
 }
