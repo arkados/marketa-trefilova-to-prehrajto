@@ -214703,17 +214703,19 @@
       "attempts": []
     },
     "3792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31821922",
+          "target_video_id": "31286464",
+          "permanent": false,
+          "attempted_at": "2026-11-23T13:06:30.143119+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31821922",
         "display_name": "Zombieland: Double Tap 4K CZ Dabing",
         "planned_at": "2026-11-23T12:58:50.782840+00:00"
-      },
-      "claim": {
-        "worker_id": "214f31346ec84bb186521d900a48dafa-shard-0",
-        "claimed_at": "2026-11-23T12:58:51.649507+00:00",
-        "lease_expires_at": "2026-11-23T18:58:51.649507+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31286464",
       "prepared": {
@@ -254694,5 +254696,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:59:31.444197+00:00"
+  "updated_at": "2026-11-23T13:06:30.143136+00:00"
 }
