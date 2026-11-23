@@ -216079,17 +216079,19 @@
       }
     },
     "15139": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14762786",
+          "target_video_id": "31292362",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:31:22.642113+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14762786",
         "display_name": "Sans laisser de traces 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:24:43.569464+00:00"
-      },
-      "claim": {
-        "worker_id": "9499db96bc1b40a490c11774c8f2af2a-shard-0",
-        "claimed_at": "2026-11-23T16:24:44.179979+00:00",
-        "lease_expires_at": "2026-11-23T22:24:44.179979+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292362",
       "prepared": {
@@ -255883,5 +255885,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:30:27.015531+00:00"
+  "updated_at": "2026-11-23T16:31:22.642133+00:00"
 }
