@@ -213618,17 +213618,19 @@
       }
     },
     "3636": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34457775",
+          "target_video_id": "31283540",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:36:29.446880+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34457775",
         "display_name": "The Faculty 4K CZ Dabing",
         "planned_at": "2026-11-23T11:30:25.828359+00:00"
-      },
-      "claim": {
-        "worker_id": "5ce9ae8fc5c7422da2a4948486c7a225-shard-0",
-        "claimed_at": "2026-11-23T11:30:26.740186+00:00",
-        "lease_expires_at": "2026-11-23T17:30:26.740186+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31283540",
       "prepared": {
@@ -253824,5 +253826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:35:01.651907+00:00"
+  "updated_at": "2026-11-23T11:36:29.446898+00:00"
 }
