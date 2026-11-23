@@ -210211,17 +210211,19 @@
       "attempts": []
     },
     "3723": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32218142",
+          "target_video_id": "31272779",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:51:07.267964+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32218142",
         "display_name": "Happiest Season SD CZ Dabing",
         "planned_at": "2026-11-23T04:50:58.992159+00:00"
-      },
-      "claim": {
-        "worker_id": "5691c9ba18b04a4ab2bacd6a06d34f57-shard-0",
-        "claimed_at": "2026-11-23T04:50:59.415934+00:00",
-        "lease_expires_at": "2026-11-23T10:50:59.415934+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272779",
       "prepared": {
@@ -250952,5 +250954,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:51:02.853704+00:00"
+  "updated_at": "2026-11-23T04:51:07.267981+00:00"
 }
