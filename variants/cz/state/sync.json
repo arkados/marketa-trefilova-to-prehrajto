@@ -208017,17 +208017,19 @@
       "attempts": []
     },
     "13778": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24704232",
+          "target_video_id": "31269701",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:49:14.605618+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24704232",
         "display_name": "A Mighty Heart 720p CZ Dabing",
         "planned_at": "2026-11-23T02:45:33.044830+00:00"
-      },
-      "claim": {
-        "worker_id": "2285cabba4b446779d42c8fafb4414f1-shard-0",
-        "claimed_at": "2026-11-23T02:45:34.103704+00:00",
-        "lease_expires_at": "2026-11-23T08:45:34.103704+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269701",
       "prepared": {
@@ -249279,5 +249281,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:47:05.082508+00:00"
+  "updated_at": "2026-11-23T02:49:14.605633+00:00"
 }
