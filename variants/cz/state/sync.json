@@ -219069,17 +219069,19 @@
       }
     },
     "4971": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25405473",
+          "target_video_id": "31298586",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:46:57.326578+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25405473",
         "display_name": "Chang Can Dunk 720p CZ Dabing",
         "planned_at": "2026-11-23T19:43:45.139168+00:00"
-      },
-      "claim": {
-        "worker_id": "692803f85502437f87c7d06cb69bc185-shard-0",
-        "claimed_at": "2026-11-23T19:43:45.954857+00:00",
-        "lease_expires_at": "2026-11-24T01:43:45.954857+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31298586",
       "prepared": {
@@ -258142,5 +258144,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:45:51.029817+00:00"
+  "updated_at": "2026-11-23T19:46:57.326596+00:00"
 }
