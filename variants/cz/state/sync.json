@@ -212954,17 +212954,19 @@
       }
     },
     "3969": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34486872",
+          "target_video_id": "31281967",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:30:07.940875+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34486872",
         "display_name": "Inherent Vice 1080p CZ Dabing",
         "planned_at": "2026-11-23T10:22:56.680138+00:00"
-      },
-      "claim": {
-        "worker_id": "891791bd97d64252a48c34e3d4479f86-shard-0",
-        "claimed_at": "2026-11-23T10:22:57.599013+00:00",
-        "lease_expires_at": "2026-11-23T16:22:57.599013+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281967",
       "prepared": {
@@ -253230,5 +253232,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:26:03.350332+00:00"
+  "updated_at": "2026-11-23T10:30:07.940892+00:00"
 }
