@@ -219663,17 +219663,19 @@
       }
     },
     "16412": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34592701",
+          "target_video_id": "31299356",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:17:58.398366+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34592701",
         "display_name": "Beyond Beyond (Resan till Fjäderkungens Rike) 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:12:19.296805+00:00"
-      },
-      "claim": {
-        "worker_id": "81dbc1d20ac14295ab3abde69d14fc37-shard-0",
-        "claimed_at": "2026-11-23T20:12:20.088089+00:00",
-        "lease_expires_at": "2026-11-24T02:12:20.088089+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31299356",
       "prepared": {
@@ -258607,5 +258609,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:17:50.417144+00:00"
+  "updated_at": "2026-11-23T20:17:58.398385+00:00"
 }
