@@ -218120,17 +218120,19 @@
       }
     },
     "11466": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33770222",
+          "target_video_id": "31296462",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:41:08.254730+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33770222",
         "display_name": "Fantozzi Still Suffers (Fantozzi subisce ancora) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:37:37.858011+00:00"
-      },
-      "claim": {
-        "worker_id": "07d0820d4a6b4eff8bb86e891727331a-shard-0",
-        "claimed_at": "2026-11-23T18:37:38.653409+00:00",
-        "lease_expires_at": "2026-11-24T00:37:38.653409+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296462",
       "prepared": {
@@ -257412,5 +257414,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:40:36.030329+00:00"
+  "updated_at": "2026-11-23T18:41:08.254748+00:00"
 }
