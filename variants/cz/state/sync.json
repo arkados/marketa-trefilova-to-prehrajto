@@ -221655,17 +221655,19 @@
       "attempts": []
     },
     "26286": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27639847",
+          "target_video_id": "31309243",
+          "permanent": false,
+          "attempted_at": "2026-11-23T22:56:45.205545+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27639847",
         "display_name": "Tales of the Riverbank SD CZ Dabing",
         "planned_at": "2026-11-23T22:55:48.630281+00:00"
-      },
-      "claim": {
-        "worker_id": "b548299231f14fd8972e541f14f132e8-shard-0",
-        "claimed_at": "2026-11-23T22:55:49.075720+00:00",
-        "lease_expires_at": "2026-11-24T04:55:49.075720+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31309243",
       "prepared": {
@@ -260044,5 +260046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T22:55:53.642463+00:00"
+  "updated_at": "2026-11-23T22:56:45.205565+00:00"
 }
