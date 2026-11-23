@@ -211643,17 +211643,19 @@
       "attempts": []
     },
     "3608": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30850709",
+          "target_video_id": "31275924",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:55:11.644618+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30850709",
         "display_name": "Woman of the Hour 1080p CZ Dabing",
         "planned_at": "2026-11-23T06:52:32.505152+00:00"
-      },
-      "claim": {
-        "worker_id": "c577aa5e536f4b268615615c13c3d552-shard-0",
-        "claimed_at": "2026-11-23T06:52:33.003435+00:00",
-        "lease_expires_at": "2026-11-23T12:52:33.003435+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275924",
       "prepared": {
@@ -252156,5 +252158,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:54:37.056886+00:00"
+  "updated_at": "2026-11-23T06:55:11.644639+00:00"
 }
