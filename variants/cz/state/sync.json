@@ -212137,17 +212137,19 @@
       }
     },
     "12221": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "4263228",
+          "target_video_id": "31277304",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:49:51.392160+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "4263228",
         "display_name": "Copycat 1080p CZ Dabing",
         "planned_at": "2026-11-23T07:41:30.045032+00:00"
-      },
-      "claim": {
-        "worker_id": "981a035479c749c3932c8f0c163d071a-shard-0",
-        "claimed_at": "2026-11-23T07:41:30.490800+00:00",
-        "lease_expires_at": "2026-11-23T13:41:30.490800+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31277304",
       "prepared": {
@@ -252533,5 +252535,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:41:34.085026+00:00"
+  "updated_at": "2026-11-23T07:49:51.392175+00:00"
 }
