@@ -217098,17 +217098,19 @@
       "attempts": []
     },
     "21937": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34700440",
+          "target_video_id": "31295256",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:55:18.548786+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34700440",
         "display_name": "Alfred the Great SD CZ Dabing",
         "planned_at": "2026-11-23T17:53:32.285341+00:00"
-      },
-      "claim": {
-        "worker_id": "f970cbc497e540e384c7cd2fd536b733-shard-0",
-        "claimed_at": "2026-11-23T17:53:33.076823+00:00",
-        "lease_expires_at": "2026-11-23T23:53:33.076823+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295256",
       "prepared": {
@@ -256657,5 +256659,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:54:58.851480+00:00"
+  "updated_at": "2026-11-23T17:55:18.548802+00:00"
 }
