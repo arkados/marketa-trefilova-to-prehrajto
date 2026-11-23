@@ -215163,17 +215163,19 @@
       }
     },
     "25980": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29780862",
+          "target_video_id": "31288367",
+          "permanent": false,
+          "attempted_at": "2026-11-23T14:12:56.743361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29780862",
         "display_name": "Bitter Flowers (Varg Veum - Bitter Flowers) SD CZ Dabing",
         "planned_at": "2026-11-23T14:11:12.615493+00:00"
-      },
-      "claim": {
-        "worker_id": "12d35521dad647d2b906bdfd9fc5bb3b-shard-0",
-        "claimed_at": "2026-11-23T14:11:13.238504+00:00",
-        "lease_expires_at": "2026-11-23T20:11:13.238504+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31288367",
       "prepared": {
@@ -255064,5 +255066,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:11:17.619619+00:00"
+  "updated_at": "2026-11-23T14:12:56.743377+00:00"
 }
