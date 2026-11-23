@@ -217681,17 +217681,19 @@
       "attempts": []
     },
     "23273": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11730946",
+          "target_video_id": "31295967",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:20:11.849509+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11730946",
         "display_name": "Dien Bien Phu (Diên Biên Phu) SD CZ Dabing",
         "planned_at": "2026-11-23T18:18:14.848743+00:00"
-      },
-      "claim": {
-        "worker_id": "f6e882c2355d43fb8e70934d65684970-shard-0",
-        "claimed_at": "2026-11-23T18:18:15.682283+00:00",
-        "lease_expires_at": "2026-11-24T00:18:15.682283+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295967",
       "prepared": {
@@ -257072,5 +257074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:18:35.764254+00:00"
+  "updated_at": "2026-11-23T18:20:11.849527+00:00"
 }
