@@ -219046,17 +219046,19 @@
       }
     },
     "15422": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32710752",
+          "target_video_id": "31298561",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:45:37.895185+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32710752",
         "display_name": "Christmas on Mistletoe Lake 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:42:22.663744+00:00"
-      },
-      "claim": {
-        "worker_id": "6d2e9f18278d4a79931b8bde305d618b-shard-0",
-        "claimed_at": "2026-11-23T19:42:23.496718+00:00",
-        "lease_expires_at": "2026-11-24T01:42:23.496718+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31298561",
       "prepared": {
@@ -258122,5 +258124,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:44:31.900669+00:00"
+  "updated_at": "2026-11-23T19:45:37.895202+00:00"
 }
