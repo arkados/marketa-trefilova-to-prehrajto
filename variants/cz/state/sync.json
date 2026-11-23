@@ -208116,17 +208116,19 @@
       }
     },
     "11170": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33421837",
+          "target_video_id": "31269792",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:49:47.305560+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33421837",
         "display_name": "Incorrigible (L'Incorrigible) 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:49:37.585593+00:00"
-      },
-      "claim": {
-        "worker_id": "f884ee0d2e5f495eaab186f6c2e90a7b-shard-0",
-        "claimed_at": "2026-11-23T02:49:38.353924+00:00",
-        "lease_expires_at": "2026-11-23T08:49:38.353924+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269792",
       "prepared": {
@@ -249316,5 +249318,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:49:41.797493+00:00"
+  "updated_at": "2026-11-23T02:49:47.305576+00:00"
 }
