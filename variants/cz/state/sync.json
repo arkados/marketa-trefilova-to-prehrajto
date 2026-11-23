@@ -211433,17 +211433,19 @@
       }
     },
     "3802": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11651923",
+          "target_video_id": "31275086",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:52:24.317025+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11651923",
         "display_name": "Alpha (2018) 4K CZ Dabing",
         "planned_at": "2026-11-23T06:25:09.620896+00:00"
-      },
-      "claim": {
-        "worker_id": "a5ec1bf9c90247739d5b9c5be1365dcf-shard-0",
-        "claimed_at": "2026-11-23T06:25:10.053709+00:00",
-        "lease_expires_at": "2026-11-23T12:25:10.053709+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31275086",
       "prepared": {
@@ -252096,5 +252098,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:50:33.535270+00:00"
+  "updated_at": "2026-11-23T06:52:24.317049+00:00"
 }
