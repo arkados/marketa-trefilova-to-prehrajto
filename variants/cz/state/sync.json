@@ -220153,17 +220153,19 @@
       "attempts": []
     },
     "27562": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14803790",
+          "target_video_id": "31305438",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:56:22.474587+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14803790",
         "display_name": "The Gang of Oss 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:36:24.630212+00:00"
-      },
-      "claim": {
-        "worker_id": "1a96d6d5214a4067b6ca19a2e030b718-shard-0",
-        "claimed_at": "2026-11-23T20:36:25.425989+00:00",
-        "lease_expires_at": "2026-11-24T02:36:25.425989+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305438",
       "prepared": {
@@ -259067,5 +259069,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:54:31.494345+00:00"
+  "updated_at": "2026-11-23T20:56:22.474605+00:00"
 }
