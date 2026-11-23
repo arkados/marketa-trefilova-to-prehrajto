@@ -220943,17 +220943,19 @@
       "attempts": []
     },
     "4184": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18477933",
+          "target_video_id": "31307358",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:41:49.932770+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18477933",
         "display_name": "Falling 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:35:50.182587+00:00"
-      },
-      "claim": {
-        "worker_id": "218348ae2a09487289ee5d57f04ccc21-shard-0",
-        "claimed_at": "2026-11-23T21:35:50.988953+00:00",
-        "lease_expires_at": "2026-11-24T03:35:50.988953+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31307358",
       "prepared": {
@@ -259547,5 +259549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:38:19.650951+00:00"
+  "updated_at": "2026-11-23T21:41:49.932789+00:00"
 }
