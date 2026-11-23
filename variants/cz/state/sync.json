@@ -110399,7 +110399,7 @@
       "last_plan": {
         "source_id": "35139243",
         "display_name": "Christmas with Elisabeth 720p CZ Dabing",
-        "planned_at": "2026-11-23T07:08:15.085684+00:00"
+        "planned_at": "2026-11-23T07:08:19.620854+00:00"
       },
       "previous_target_id": "30983706",
       "prepared": {
@@ -211883,17 +211883,19 @@
       }
     },
     "5435": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660130",
+          "target_video_id": "31276207",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:08:22.700028+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660130",
         "display_name": "Spin 1080p CZ Dabing",
         "planned_at": "2026-11-23T07:03:42.392493+00:00"
-      },
-      "claim": {
-        "worker_id": "4c6e02e2047e4e52ac10cd133ea9d190-shard-0",
-        "claimed_at": "2026-11-23T07:03:42.997274+00:00",
-        "lease_expires_at": "2026-11-23T13:03:42.997274+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31276207",
       "prepared": {
@@ -211908,7 +211910,13 @@
       "last_plan": {
         "source_id": "32858266",
         "display_name": "Hunter Killer 4K CZ Dabing",
-        "planned_at": "2026-11-23T07:08:15.356873+00:00"
+        "planned_at": "2026-11-23T07:08:19.882364+00:00"
+      },
+      "claim": {
+        "worker_id": "dc4cc93090364d07858b52e4d32c8f03-shard-0",
+        "claimed_at": "2026-11-23T07:08:20.374071+00:00",
+        "lease_expires_at": "2026-11-23T13:08:20.374071+00:00",
+        "run_id": "45102278157"
       }
     },
     "22046": {
@@ -252323,5 +252331,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:08:15.356895+00:00"
+  "updated_at": "2026-11-23T07:08:22.700047+00:00"
 }
