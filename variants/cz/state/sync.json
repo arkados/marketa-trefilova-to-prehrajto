@@ -210257,17 +210257,19 @@
       }
     },
     "14442": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25619575",
+          "target_video_id": "31272872",
+          "permanent": false,
+          "attempted_at": "2026-11-23T04:57:01.803097+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25619575",
         "display_name": "Dragons: Rescue Riders: Secrets of the Songwing 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:55:54.811468+00:00"
-      },
-      "claim": {
-        "worker_id": "4969f0489c654eeb9ecd989d5dd5129d-shard-0",
-        "claimed_at": "2026-11-23T04:55:55.284903+00:00",
-        "lease_expires_at": "2026-11-23T10:55:55.284903+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272872",
       "prepared": {
@@ -250992,5 +250994,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:55:58.947343+00:00"
+  "updated_at": "2026-11-23T04:57:01.803117+00:00"
 }
