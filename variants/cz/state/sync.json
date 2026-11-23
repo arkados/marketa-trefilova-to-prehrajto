@@ -216947,17 +216947,19 @@
       "attempts": []
     },
     "6527": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26684346",
+          "target_video_id": "31295047",
+          "permanent": false,
+          "attempted_at": "2026-11-23T17:48:42.929944+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26684346",
         "display_name": "Lego Disney Princess: The Castle Quest 720p CZ Dabing",
         "planned_at": "2026-11-23T17:45:21.275379+00:00"
-      },
-      "claim": {
-        "worker_id": "15c45646e19f4794828d5bfd1db78d6c-shard-0",
-        "claimed_at": "2026-11-23T17:45:22.305071+00:00",
-        "lease_expires_at": "2026-11-23T23:45:22.305071+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295047",
       "prepared": {
@@ -256497,5 +256499,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:45:26.952836+00:00"
+  "updated_at": "2026-11-23T17:48:42.929961+00:00"
 }
