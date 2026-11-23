@@ -217707,17 +217707,19 @@
       "attempts": []
     },
     "14610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31506749",
+          "target_video_id": "31295972",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:21:11.290892+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31506749",
         "display_name": "You Kiss like a God (Líbáš jako Bůh) 1080p CZ Dabing",
         "planned_at": "2026-11-23T18:18:31.245564+00:00"
-      },
-      "claim": {
-        "worker_id": "06e9a94640204a6db84d423f1b03931f-shard-0",
-        "claimed_at": "2026-11-23T18:18:32.048802+00:00",
-        "lease_expires_at": "2026-11-24T00:18:32.048802+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295972",
       "prepared": {
@@ -257092,5 +257094,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:20:25.903771+00:00"
+  "updated_at": "2026-11-23T18:21:11.290910+00:00"
 }
