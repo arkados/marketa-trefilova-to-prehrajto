@@ -222400,17 +222400,19 @@
       "attempts": []
     },
     "6354": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12192492",
+          "target_video_id": "31311331",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:56:43.570954+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12192492",
         "display_name": "Sticky Notes SD CZ Dabing",
         "planned_at": "2026-11-23T23:54:23.324270+00:00"
-      },
-      "claim": {
-        "worker_id": "447ab158b6d34829804656d3a034fc44-shard-0",
-        "claimed_at": "2026-11-23T23:54:23.824601+00:00",
-        "lease_expires_at": "2026-11-24T05:54:23.824601+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311331",
       "prepared": {
@@ -260654,5 +260656,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:55:58.438044+00:00"
+  "updated_at": "2026-11-23T23:56:43.570972+00:00"
 }
