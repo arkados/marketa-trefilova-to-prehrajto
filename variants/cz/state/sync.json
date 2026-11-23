@@ -212857,17 +212857,19 @@
       }
     },
     "27213": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34980621",
+          "target_video_id": "31281394",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:07:15.021899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34980621",
         "display_name": "Attack the Block 720p CZ Dabing",
         "planned_at": "2026-11-23T10:01:21.564653+00:00"
-      },
-      "claim": {
-        "worker_id": "21a17ef205334b51ab0106d4d87dd36b-shard-0",
-        "claimed_at": "2026-11-23T10:01:22.487898+00:00",
-        "lease_expires_at": "2026-11-23T16:01:22.487898+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281394",
       "prepared": {
@@ -253130,5 +253132,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:01:26.001399+00:00"
+  "updated_at": "2026-11-23T10:07:15.021918+00:00"
 }
