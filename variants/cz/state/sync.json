@@ -212071,17 +212071,19 @@
       }
     },
     "3965": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34983103",
+          "target_video_id": "31276945",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:40:21.699813+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34983103",
         "display_name": "The Wedding Ringer 1080p CZ Dabing",
         "planned_at": "2026-11-23T07:27:14.068926+00:00"
-      },
-      "claim": {
-        "worker_id": "ef10ae0eb88347c2b73d40764988b351-shard-0",
-        "claimed_at": "2026-11-23T07:27:14.554558+00:00",
-        "lease_expires_at": "2026-11-23T13:27:14.554558+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31276945",
       "prepared": {
@@ -252476,5 +252478,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:27:19.232746+00:00"
+  "updated_at": "2026-11-23T07:40:21.699828+00:00"
 }
