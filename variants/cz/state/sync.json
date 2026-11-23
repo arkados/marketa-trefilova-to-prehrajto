@@ -214053,17 +214053,19 @@
       }
     },
     "3606": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32941027",
+          "target_video_id": "31284247",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:05:54.962320+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32941027",
         "display_name": "Beetlejuice Beetlejuice 4K CZ Dabing",
         "planned_at": "2026-11-23T11:57:19.099911+00:00"
-      },
-      "claim": {
-        "worker_id": "f4dd5d4da26e41ddad7181b49a20bf40-shard-0",
-        "claimed_at": "2026-11-23T11:57:19.967284+00:00",
-        "lease_expires_at": "2026-11-23T17:57:19.967284+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31284247",
       "prepared": {
@@ -254184,5 +254186,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:04:12.180467+00:00"
+  "updated_at": "2026-11-23T12:05:54.962345+00:00"
 }
