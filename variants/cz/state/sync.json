@@ -215990,17 +215990,19 @@
       "attempts": []
     },
     "14777": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32205733",
+          "target_video_id": "31292111",
+          "permanent": false,
+          "attempted_at": "2026-11-23T16:24:33.762997+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32205733",
         "display_name": "Catch the Billionaire (Ulovit miliardáře) 1080p CZ Dabing",
         "planned_at": "2026-11-23T16:17:18.532382+00:00"
-      },
-      "claim": {
-        "worker_id": "1ebcfc8df37b4a8e9ee536541ca3505b-shard-0",
-        "claimed_at": "2026-11-23T16:17:19.154413+00:00",
-        "lease_expires_at": "2026-11-23T22:17:19.154413+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31292111",
       "prepared": {
@@ -255803,5 +255805,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:21:47.740991+00:00"
+  "updated_at": "2026-11-23T16:24:33.763014+00:00"
 }
