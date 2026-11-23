@@ -208075,17 +208075,19 @@
       "attempts": []
     },
     "10976": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34025876",
+          "target_video_id": "31269735",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:51:34.184678+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34025876",
         "display_name": "The Tattoo (Le Tatoué) 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:47:00.354662+00:00"
-      },
-      "claim": {
-        "worker_id": "6e261fc96a2243f9bbf335ee6c7cea75-shard-0",
-        "claimed_at": "2026-11-23T02:47:01.185444+00:00",
-        "lease_expires_at": "2026-11-23T08:47:01.185444+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269735",
       "prepared": {
@@ -249376,5 +249378,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:50:42.799002+00:00"
+  "updated_at": "2026-11-23T02:51:34.184695+00:00"
 }
