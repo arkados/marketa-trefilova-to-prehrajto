@@ -214468,17 +214468,19 @@
       }
     },
     "15064": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32927752",
+          "target_video_id": "31285589",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:38:34.402124+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32927752",
         "display_name": "The Shameless (nirljj) 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:30:29.604353+00:00"
-      },
-      "claim": {
-        "worker_id": "347efc7d7f094f2c8f0633e32e0d96f2-shard-0",
-        "claimed_at": "2026-11-23T12:30:30.789211+00:00",
-        "lease_expires_at": "2026-11-23T18:30:30.789211+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31285589",
       "prepared": {
@@ -254534,5 +254536,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:37:33.939810+00:00"
+  "updated_at": "2026-11-23T12:38:34.402141+00:00"
 }
