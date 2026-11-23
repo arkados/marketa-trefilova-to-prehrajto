@@ -220573,17 +220573,19 @@
       }
     },
     "6164": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34661574",
+          "target_video_id": "31306447",
+          "permanent": false,
+          "attempted_at": "2026-11-23T21:14:22.707108+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34661574",
         "display_name": "Swing Into Romance 1080p CZ Dabing",
         "planned_at": "2026-11-23T21:09:59.458469+00:00"
-      },
-      "claim": {
-        "worker_id": "cbd7dd303a264f538dddb967a41a6b93-shard-0",
-        "claimed_at": "2026-11-23T21:10:00.312073+00:00",
-        "lease_expires_at": "2026-11-24T03:10:00.312073+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31306447",
       "prepared": {
@@ -259247,5 +259249,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T21:10:18.699724+00:00"
+  "updated_at": "2026-11-23T21:14:22.707127+00:00"
 }
