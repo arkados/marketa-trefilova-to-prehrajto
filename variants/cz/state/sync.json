@@ -212436,17 +212436,19 @@
       "attempts": []
     },
     "24832": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34059595",
+          "target_video_id": "31280177",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:21:30.956783+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34059595",
         "display_name": "Mona Lisa Smile 1080p CZ Dabing",
         "planned_at": "2026-11-23T09:18:18.588556+00:00"
-      },
-      "claim": {
-        "worker_id": "867e4f522ba74ee192df8655512ff81a-shard-0",
-        "claimed_at": "2026-11-23T09:18:19.955213+00:00",
-        "lease_expires_at": "2026-11-23T15:18:19.955213+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31280177",
       "prepared": {
@@ -252793,5 +252795,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:20:33.842940+00:00"
+  "updated_at": "2026-11-23T09:21:30.956799+00:00"
 }
