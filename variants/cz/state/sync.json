@@ -217202,17 +217202,19 @@
       "attempts": []
     },
     "17644": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34696443",
+          "target_video_id": "31295318",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:00:08.713139+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34696443",
         "display_name": "Killer in Suburbia 1080p CZ Dabing",
         "planned_at": "2026-11-23T17:56:42.320785+00:00"
-      },
-      "claim": {
-        "worker_id": "5ad3d9c9e9ee4beba61566d5fdf1eac0-shard-0",
-        "claimed_at": "2026-11-23T17:56:43.141723+00:00",
-        "lease_expires_at": "2026-11-23T23:56:43.141723+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31295318",
       "prepared": {
@@ -256737,5 +256739,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:58:51.824810+00:00"
+  "updated_at": "2026-11-23T18:00:08.713156+00:00"
 }
