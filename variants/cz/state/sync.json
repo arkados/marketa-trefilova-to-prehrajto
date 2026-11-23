@@ -212624,17 +212624,19 @@
       "attempts": []
     },
     "3980": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35103809",
+          "target_video_id": "31280813",
+          "permanent": false,
+          "attempted_at": "2026-11-23T09:44:18.915418+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35103809",
         "display_name": "Hot Shots! Part Deux 4K CZ Dabing",
         "planned_at": "2026-11-23T09:38:57.368699+00:00"
-      },
-      "claim": {
-        "worker_id": "bd789c9c7b3b463fbf09824ffce88cae-shard-0",
-        "claimed_at": "2026-11-23T09:38:58.216928+00:00",
-        "lease_expires_at": "2026-11-23T15:38:58.216928+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31280813",
       "prepared": {
@@ -252933,5 +252935,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T09:39:02.083283+00:00"
+  "updated_at": "2026-11-23T09:44:18.915435+00:00"
 }
