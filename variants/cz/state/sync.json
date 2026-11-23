@@ -212697,17 +212697,19 @@
       }
     },
     "24041": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34910751",
+          "target_video_id": "31281117",
+          "permanent": false,
+          "attempted_at": "2026-11-23T11:03:54.032770+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34910751",
         "display_name": "Double Jeopardy 4K CZ Dabing",
         "planned_at": "2026-11-23T09:49:43.393853+00:00"
-      },
-      "claim": {
-        "worker_id": "c4c417cc66f946af80e1be7c44cad2f5-shard-0",
-        "claimed_at": "2026-11-23T09:49:44.265355+00:00",
-        "lease_expires_at": "2026-11-23T15:49:44.265355+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31281117",
       "prepared": {
@@ -253447,5 +253449,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T11:00:53.293674+00:00"
+  "updated_at": "2026-11-23T11:03:54.032785+00:00"
 }
