@@ -219292,17 +219292,19 @@
       "attempts": []
     },
     "14492": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686410",
+          "target_video_id": "31298878",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:55:47.944668+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686410",
         "display_name": "Dashing Home for Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-23T19:53:05.141055+00:00"
-      },
-      "claim": {
-        "worker_id": "850dba5a63194e2a9eedc434431ce4d4-shard-0",
-        "claimed_at": "2026-11-23T19:53:05.923119+00:00",
-        "lease_expires_at": "2026-11-24T01:53:05.923119+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31298878",
       "prepared": {
@@ -258302,5 +258304,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:54:37.257327+00:00"
+  "updated_at": "2026-11-23T19:55:47.944687+00:00"
 }
