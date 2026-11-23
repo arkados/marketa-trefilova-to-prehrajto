@@ -213064,17 +213064,19 @@
       }
     },
     "14700": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686833",
+          "target_video_id": "31282184",
+          "permanent": false,
+          "attempted_at": "2026-11-23T10:36:04.797081+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686833",
         "display_name": "Cooking Up Love 1080p CZ Dabing",
         "planned_at": "2026-11-23T10:33:32.369390+00:00"
-      },
-      "claim": {
-        "worker_id": "166995daf8b5412a959c2f53f47e740f-shard-0",
-        "claimed_at": "2026-11-23T10:33:33.266154+00:00",
-        "lease_expires_at": "2026-11-23T16:33:33.266154+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31282184",
       "prepared": {
@@ -253307,5 +253309,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:33:37.079146+00:00"
+  "updated_at": "2026-11-23T10:36:04.797097+00:00"
 }
