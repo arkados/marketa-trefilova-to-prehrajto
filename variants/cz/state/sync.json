@@ -215559,17 +215559,19 @@
       }
     },
     "22829": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34060426",
+          "target_video_id": "31289727",
+          "permanent": false,
+          "attempted_at": "2026-11-23T15:00:26.380124+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34060426",
         "display_name": "Superfantozzi (Super Fantozzi) 1080p CZ Dabing",
         "planned_at": "2026-11-23T14:51:35.938846+00:00"
-      },
-      "claim": {
-        "worker_id": "9c4682212b294eed883901da9df8a261-shard-0",
-        "claimed_at": "2026-11-23T14:51:36.600140+00:00",
-        "lease_expires_at": "2026-11-23T20:51:36.600140+00:00",
-        "run_id": "45177937096"
       },
       "previous_target_id": "31289727",
       "prepared": {
@@ -255418,5 +255420,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:52:12.262285+00:00"
+  "updated_at": "2026-11-23T15:00:26.380144+00:00"
 }
