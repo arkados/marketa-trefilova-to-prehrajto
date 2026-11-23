@@ -219403,17 +219403,23 @@
       "attempts": []
     },
     "23480": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30135052",
+          "reason": "Source detail has no authenticated download link; source_id=30135052",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:56:11.643253+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30135052",
         "display_name": "A Christmas Romance SD CZ Dabing",
         "planned_at": "2026-11-23T19:56:04.968527+00:00"
       },
-      "claim": {
-        "worker_id": "7cd0d74e34c74d1380888a0727d4d547-shard-0",
-        "claimed_at": "2026-11-23T19:56:05.997176+00:00",
-        "lease_expires_at": "2026-11-24T01:56:05.997176+00:00",
-        "run_id": "45230846843"
+      "source_repair_requested": {
+        "source_id": "30135052",
+        "requested_at": "2026-11-23T19:56:11.643237+00:00"
       }
     },
     "27093": {
@@ -258342,5 +258348,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T19:56:06.718108+00:00"
+  "updated_at": "2026-11-23T19:56:11.643260+00:00"
 }
