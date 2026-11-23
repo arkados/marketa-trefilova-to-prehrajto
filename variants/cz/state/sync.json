@@ -217984,17 +217984,19 @@
       }
     },
     "6840": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26399550",
+          "target_video_id": "31296306",
+          "permanent": false,
+          "attempted_at": "2026-11-23T18:36:33.148801+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26399550",
         "display_name": "Le torrent 720p CZ Dabing",
         "planned_at": "2026-11-23T18:32:24.183798+00:00"
-      },
-      "claim": {
-        "worker_id": "aef895c474314bf889e1b7643c59c011-shard-0",
-        "claimed_at": "2026-11-23T18:32:24.986967+00:00",
-        "lease_expires_at": "2026-11-24T00:32:24.986967+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31296306",
       "prepared": {
@@ -257332,5 +257334,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:35:34.532667+00:00"
+  "updated_at": "2026-11-23T18:36:33.148820+00:00"
 }
