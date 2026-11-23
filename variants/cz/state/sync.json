@@ -220304,17 +220304,19 @@
       "attempts": []
     },
     "10776": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34022748",
+          "target_video_id": "31305973",
+          "permanent": false,
+          "attempted_at": "2026-11-23T20:54:12.702829+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34022748",
         "display_name": "Taxi, Roulotte et Corrida 1080p CZ Dabing",
         "planned_at": "2026-11-23T20:52:25.637669+00:00"
-      },
-      "claim": {
-        "worker_id": "b8c9393748a64050a0121e00792e9eea-shard-0",
-        "claimed_at": "2026-11-23T20:52:26.451105+00:00",
-        "lease_expires_at": "2026-11-24T02:52:26.451105+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31305973",
       "prepared": {
@@ -259047,5 +259049,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T20:53:09.792509+00:00"
+  "updated_at": "2026-11-23T20:54:12.702848+00:00"
 }
