@@ -222450,17 +222450,19 @@
       }
     },
     "11425": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32941602",
+          "target_video_id": "31311378",
+          "permanent": false,
+          "attempted_at": "2026-11-23T23:58:41.771721+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32941602",
         "display_name": "Bonnie and Clyde Italian Style (Bonnie e Clyde all'italiana) 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:55:53.540222+00:00"
-      },
-      "claim": {
-        "worker_id": "37ce49a7c7ac4641a02e956ef5e8980e-shard-0",
-        "claimed_at": "2026-11-23T23:55:54.001832+00:00",
-        "lease_expires_at": "2026-11-24T05:55:54.001832+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311378",
       "prepared": {
@@ -260674,5 +260676,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T23:56:59.445277+00:00"
+  "updated_at": "2026-11-23T23:58:41.771736+00:00"
 }
