@@ -211999,17 +211999,19 @@
       "attempts": []
     },
     "11724": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767695",
+          "target_video_id": "31276534",
+          "permanent": false,
+          "attempted_at": "2026-11-23T07:18:13.010539+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767695",
         "display_name": "The Witches of Eastwick 1080p CZ Dabing",
         "planned_at": "2026-11-23T07:14:47.757125+00:00"
-      },
-      "claim": {
-        "worker_id": "ce0a04619c374fdeb753dc2526a5a946-shard-0",
-        "claimed_at": "2026-11-23T07:14:48.292675+00:00",
-        "lease_expires_at": "2026-11-23T13:14:48.292675+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31276534",
       "prepared": {
@@ -252416,5 +252418,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:14:52.155604+00:00"
+  "updated_at": "2026-11-23T07:18:13.010557+00:00"
 }
