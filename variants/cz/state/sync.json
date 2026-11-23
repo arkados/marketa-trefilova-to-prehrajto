@@ -210161,17 +210161,19 @@
       }
     },
     "3873": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25258800",
+          "target_video_id": "31272753",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:00:30.930636+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25258800",
         "display_name": "Ingrid Goes West 1080p CZ Dabing",
         "planned_at": "2026-11-23T04:50:03.860500+00:00"
-      },
-      "claim": {
-        "worker_id": "6977438951cd4fe5b1e96f178c6b50a1-shard-0",
-        "claimed_at": "2026-11-23T04:50:04.320472+00:00",
-        "lease_expires_at": "2026-11-23T10:50:04.320472+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31272753",
       "prepared": {
@@ -251012,5 +251014,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T04:57:30.355734+00:00"
+  "updated_at": "2026-11-23T05:00:30.930656+00:00"
 }
