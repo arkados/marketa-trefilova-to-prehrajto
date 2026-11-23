@@ -207782,17 +207782,19 @@
       "attempts": []
     },
     "22523": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33794079",
+          "target_video_id": "31269239",
+          "permanent": false,
+          "attempted_at": "2026-11-23T02:33:28.966141+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33794079",
         "display_name": "Death Watch 1080p CZ Dabing",
         "planned_at": "2026-11-23T02:27:13.862284+00:00"
-      },
-      "claim": {
-        "worker_id": "34a16b5d9bfc48d99ff003410edbc8df-shard-0",
-        "claimed_at": "2026-11-23T02:27:14.723922+00:00",
-        "lease_expires_at": "2026-11-23T08:27:14.723922+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31269239",
       "prepared": {
@@ -249159,5 +249161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T02:32:35.640607+00:00"
+  "updated_at": "2026-11-23T02:33:28.966157+00:00"
 }
