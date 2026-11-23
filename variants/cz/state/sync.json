@@ -218419,17 +218419,19 @@
       "attempts": []
     },
     "27660": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27428871",
+          "target_video_id": "31297036",
+          "permanent": false,
+          "attempted_at": "2026-11-23T19:01:09.919490+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27428871",
         "display_name": "Me and You (Me & You) SD CZ Dabing",
         "planned_at": "2026-11-23T18:57:59.928210+00:00"
-      },
-      "claim": {
-        "worker_id": "fa9b39fbb882445b827647a10702a0f5-shard-0",
-        "claimed_at": "2026-11-23T18:58:00.720312+00:00",
-        "lease_expires_at": "2026-11-24T00:58:00.720312+00:00",
-        "run_id": "45230846843"
       },
       "previous_target_id": "31297036",
       "prepared": {
@@ -257612,5 +257614,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T18:58:04.931024+00:00"
+  "updated_at": "2026-11-23T19:01:09.919511+00:00"
 }
