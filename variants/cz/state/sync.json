@@ -214798,17 +214798,19 @@
       }
     },
     "4226": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34658040",
+          "target_video_id": "31286858",
+          "permanent": false,
+          "attempted_at": "2026-11-23T13:21:23.464120+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34658040",
         "display_name": "Little White Lies 2 (Nous finirons ensemble) 1080p CZ Dabing",
         "planned_at": "2026-11-23T13:16:52.481565+00:00"
-      },
-      "claim": {
-        "worker_id": "2751bcb206f7461d9f08e7dd5c186525-shard-0",
-        "claimed_at": "2026-11-23T13:16:53.411773+00:00",
-        "lease_expires_at": "2026-11-23T19:16:53.411773+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31286858",
       "prepared": {
@@ -254756,5 +254758,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T13:18:22.550116+00:00"
+  "updated_at": "2026-11-23T13:21:23.464138+00:00"
 }
