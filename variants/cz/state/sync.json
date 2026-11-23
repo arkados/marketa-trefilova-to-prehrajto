@@ -211337,17 +211337,19 @@
       }
     },
     "21594": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28764564",
+          "target_video_id": "31274924",
+          "permanent": false,
+          "attempted_at": "2026-11-23T06:21:49.248998+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28764564",
         "display_name": "Flaming Star SD CZ Dabing",
         "planned_at": "2026-11-23T06:20:04.115181+00:00"
-      },
-      "claim": {
-        "worker_id": "132a4a8d9b2b4d2386b067ac1c412d7d-shard-0",
-        "claimed_at": "2026-11-23T06:20:04.540093+00:00",
-        "lease_expires_at": "2026-11-23T12:20:04.540093+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31274924",
       "prepared": {
@@ -251859,5 +251861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T06:20:10.941011+00:00"
+  "updated_at": "2026-11-23T06:21:49.249018+00:00"
 }
