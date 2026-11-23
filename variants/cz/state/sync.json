@@ -210644,17 +210644,19 @@
       }
     },
     "3618": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29856092",
+          "target_video_id": "31273438",
+          "permanent": false,
+          "attempted_at": "2026-11-23T05:37:20.795560+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29856092",
         "display_name": "To Catch a Killer 1080p CZ Dabing",
         "planned_at": "2026-11-23T05:25:50.319969+00:00"
-      },
-      "claim": {
-        "worker_id": "b5eb6e82c2ea40adb2ce7c97c917c5ed-shard-0",
-        "claimed_at": "2026-11-23T05:25:50.832275+00:00",
-        "lease_expires_at": "2026-11-23T11:25:50.832275+00:00",
-        "run_id": "45102278157"
       },
       "previous_target_id": "31273438",
       "prepared": {
@@ -251389,5 +251391,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T05:36:02.569126+00:00"
+  "updated_at": "2026-11-23T05:37:20.795574+00:00"
 }
