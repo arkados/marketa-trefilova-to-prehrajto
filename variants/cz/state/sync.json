@@ -208873,17 +208873,19 @@
       }
     },
     "10900": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33839161",
+          "target_video_id": "31270585",
+          "permanent": false,
+          "attempted_at": "2026-11-23T03:23:20.730491+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33839161",
         "display_name": "Les grandes vacances 1080p CZ Dabing",
         "planned_at": "2026-11-23T03:23:11.278550+00:00"
-      },
-      "claim": {
-        "worker_id": "594804ee53c34685b572232abebecebc-shard-0",
-        "claimed_at": "2026-11-23T03:23:12.143899+00:00",
-        "lease_expires_at": "2026-11-23T09:23:12.143899+00:00",
-        "run_id": "45074101768"
       },
       "previous_target_id": "31270585",
       "prepared": {
@@ -249887,5 +249889,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:23:15.593720+00:00"
+  "updated_at": "2026-11-23T03:23:20.730508+00:00"
 }
