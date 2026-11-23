@@ -214120,17 +214120,19 @@
       }
     },
     "5308": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34260455",
+          "target_video_id": "31284555",
+          "permanent": false,
+          "attempted_at": "2026-11-23T12:06:39.277291+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34260455",
         "display_name": "Les malheurs d'Alfred 1080p CZ Dabing",
         "planned_at": "2026-11-23T12:04:07.337497+00:00"
-      },
-      "claim": {
-        "worker_id": "2195845ffe18420ebf378d1dcb32aebd-shard-0",
-        "claimed_at": "2026-11-23T12:04:08.206345+00:00",
-        "lease_expires_at": "2026-11-23T18:04:08.206345+00:00",
-        "run_id": "45145591522"
       },
       "previous_target_id": "31284555",
       "prepared": {
@@ -254204,5 +254206,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-23T12:06:10.907465+00:00"
+  "updated_at": "2026-11-23T12:06:39.277309+00:00"
 }
