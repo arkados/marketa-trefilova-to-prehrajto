@@ -240569,17 +240569,19 @@
       }
     },
     "22064": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30770359",
+          "target_video_id": "31349330",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:20:19.508203+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30770359",
         "display_name": "Shoot Out 720p CZ Dabing",
         "planned_at": "2026-11-24T21:17:39.003392+00:00"
-      },
-      "claim": {
-        "worker_id": "de5285c8271e403f99776e27715d1861-shard-0",
-        "claimed_at": "2026-11-24T21:17:39.441792+00:00",
-        "lease_expires_at": "2026-11-25T03:17:39.441792+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349330",
       "prepared": {
@@ -274915,5 +274917,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:17:43.205693+00:00"
+  "updated_at": "2026-11-24T21:20:19.508220+00:00"
 }
