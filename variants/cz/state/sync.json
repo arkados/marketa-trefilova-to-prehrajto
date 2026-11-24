@@ -131822,7 +131822,7 @@
       "last_plan": {
         "source_id": "32647219",
         "display_name": "Mama (Máma) (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T16:23:16.704221+00:00"
+        "planned_at": "2026-11-24T16:23:26.360719+00:00"
       },
       "previous_target_id": "30987015",
       "prepared": {
@@ -236885,17 +236885,19 @@
       }
     },
     "28472": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35149088",
+          "target_video_id": "31342176",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:23:28.084541+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35149088",
         "display_name": "My Little Pony: Equestria Girls 1080p CZ Dabing",
         "planned_at": "2026-11-24T16:14:47.427129+00:00"
-      },
-      "claim": {
-        "worker_id": "c52f093084e64a42b7d01e94b07622b0-shard-0",
-        "claimed_at": "2026-11-24T16:14:48.251907+00:00",
-        "lease_expires_at": "2026-11-24T22:14:48.251907+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342176",
       "prepared": {
@@ -236931,7 +236933,13 @@
       "last_plan": {
         "source_id": "33846152",
         "display_name": "X 1080p CZ Dabing",
-        "planned_at": "2026-11-24T16:23:17.210072+00:00"
+        "planned_at": "2026-11-24T16:23:26.872362+00:00"
+      },
+      "claim": {
+        "worker_id": "950cd3ccb6f34486938074046d53fe58-shard-0",
+        "claimed_at": "2026-11-24T16:23:27.730501+00:00",
+        "lease_expires_at": "2026-11-24T22:23:27.730501+00:00",
+        "run_id": "45379676352"
       }
     },
     "4162": {
@@ -272022,5 +272030,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:23:17.210088+00:00"
+  "updated_at": "2026-11-24T16:23:28.084559+00:00"
 }
