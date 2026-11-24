@@ -241284,17 +241284,19 @@
       }
     },
     "14100": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34685639",
+          "target_video_id": "31349954",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:48:52.149088+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34685639",
         "display_name": "A Princess for Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:46:21.949022+00:00"
-      },
-      "claim": {
-        "worker_id": "cbe565d96d8641f8a34ea10012916808-shard-0",
-        "claimed_at": "2026-11-24T21:46:22.448654+00:00",
-        "lease_expires_at": "2026-11-25T03:46:22.448654+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349954",
       "prepared": {
@@ -275465,5 +275467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:48:20.939742+00:00"
+  "updated_at": "2026-11-24T21:48:52.149109+00:00"
 }
