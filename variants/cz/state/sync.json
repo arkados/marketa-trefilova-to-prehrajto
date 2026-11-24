@@ -230216,17 +230216,19 @@
       "attempts": []
     },
     "34300": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30723498",
+          "target_video_id": "31326678",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:56:42.618378+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30723498",
         "display_name": "The Wrong Track (På villspor) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:53:42.863802+00:00"
-      },
-      "claim": {
-        "worker_id": "45e9268fbe91430c8ae5f2243a233cff-shard-0",
-        "claimed_at": "2026-11-24T07:53:43.349849+00:00",
-        "lease_expires_at": "2026-11-24T13:53:43.349849+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326678",
       "prepared": {
@@ -266626,5 +266628,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:55:31.891888+00:00"
+  "updated_at": "2026-11-24T07:56:42.618395+00:00"
 }
