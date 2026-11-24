@@ -223665,17 +223665,19 @@
       }
     },
     "10781": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30109180",
+          "target_video_id": "31312985",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:58:35.742327+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30109180",
         "display_name": "Beloved Infidel 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:55:11.272687+00:00"
-      },
-      "claim": {
-        "worker_id": "e0e249a5aad0459da17a41c36d47067e-shard-0",
-        "claimed_at": "2026-11-24T00:55:11.832259+00:00",
-        "lease_expires_at": "2026-11-24T06:55:11.832259+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312985",
       "prepared": {
@@ -261606,5 +261608,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:58:17.678952+00:00"
+  "updated_at": "2026-11-24T00:58:35.742344+00:00"
 }
