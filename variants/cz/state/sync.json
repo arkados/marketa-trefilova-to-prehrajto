@@ -240408,17 +240408,19 @@
       }
     },
     "13901": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19555213",
+          "target_video_id": "31349146",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:09:22.679815+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19555213",
         "display_name": "Bull (2019) SD CZ Dabing",
         "planned_at": "2026-11-24T21:07:43.369734+00:00"
-      },
-      "claim": {
-        "worker_id": "d07739dcdb4040b88370dc135e32895a-shard-0",
-        "claimed_at": "2026-11-24T21:07:43.837383+00:00",
-        "lease_expires_at": "2026-11-25T03:07:43.837383+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349146",
       "prepared": {
@@ -274775,5 +274777,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:07:49.737888+00:00"
+  "updated_at": "2026-11-24T21:09:22.679833+00:00"
 }
