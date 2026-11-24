@@ -231828,17 +231828,19 @@
       "attempts": []
     },
     "26708": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11443515",
+          "target_video_id": "31329149",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:22:50.879707+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11443515",
         "display_name": "Will You Merry Me? 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:14:23.923274+00:00"
-      },
-      "claim": {
-        "worker_id": "c08d798f3e054ff99baf51682f75ad3a-shard-0",
-        "claimed_at": "2026-11-24T09:14:24.467623+00:00",
-        "lease_expires_at": "2026-11-24T15:14:24.467623+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329149",
       "prepared": {
@@ -267976,5 +267978,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:22:45.755803+00:00"
+  "updated_at": "2026-11-24T09:22:50.879725+00:00"
 }
