@@ -243663,17 +243663,19 @@
       }
     },
     "8483": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18510679",
+          "target_video_id": "31352847",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:35:42.022706+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18510679",
         "display_name": "The Right One SD CZ Dabing",
         "planned_at": "2026-11-24T23:33:06.945006+00:00"
-      },
-      "claim": {
-        "worker_id": "adee64ae9db241878fd4afbe71ec67f2-shard-0",
-        "claimed_at": "2026-11-24T23:33:07.556069+00:00",
-        "lease_expires_at": "2026-11-25T05:33:07.556069+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31352847",
       "prepared": {
@@ -277274,5 +277276,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:33:52.456273+00:00"
+  "updated_at": "2026-11-24T23:35:42.022725+00:00"
 }
