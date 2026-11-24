@@ -241693,17 +241693,19 @@
       "attempts": []
     },
     "21796": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29561791",
+          "target_video_id": "31350300",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:09:04.725884+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29561791",
         "display_name": "Cast a Giant Shadow 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:02:18.032089+00:00"
-      },
-      "claim": {
-        "worker_id": "6ed108a17def46b7a7b49e84b06242e0-shard-0",
-        "claimed_at": "2026-11-24T22:02:18.486484+00:00",
-        "lease_expires_at": "2026-11-25T04:02:18.486484+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350300",
       "prepared": {
@@ -275858,5 +275860,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:08:16.552256+00:00"
+  "updated_at": "2026-11-24T22:09:04.725901+00:00"
 }
