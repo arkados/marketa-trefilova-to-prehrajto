@@ -242431,17 +242431,19 @@
       }
     },
     "11678": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34786340",
+          "target_video_id": "31351215",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:40:50.278281+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34786340",
         "display_name": "The Care Bears Adventure in Wonderland SD CZ Dabing",
         "planned_at": "2026-11-24T22:39:35.657862+00:00"
-      },
-      "claim": {
-        "worker_id": "3d2cea4b88d9480cb860c76797a45201-shard-0",
-        "claimed_at": "2026-11-24T22:39:36.147858+00:00",
-        "lease_expires_at": "2026-11-25T04:39:36.147858+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351215",
       "prepared": {
@@ -276351,5 +276353,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:39:51.261867+00:00"
+  "updated_at": "2026-11-24T22:40:50.278305+00:00"
 }
