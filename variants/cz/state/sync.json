@@ -243512,17 +243512,19 @@
       "attempts": []
     },
     "22322": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22960266",
+          "target_video_id": "31352663",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:28:30.934557+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22960266",
         "display_name": "St. Ives SD CZ Dabing",
         "planned_at": "2026-11-24T23:27:00.752740+00:00"
-      },
-      "claim": {
-        "worker_id": "0dfd321d71a94fe58be3eaa9cae3274e-shard-0",
-        "claimed_at": "2026-11-24T23:27:01.321586+00:00",
-        "lease_expires_at": "2026-11-25T05:27:01.321586+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31352663",
       "prepared": {
@@ -277141,5 +277143,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:27:06.231100+00:00"
+  "updated_at": "2026-11-24T23:28:30.934578+00:00"
 }
