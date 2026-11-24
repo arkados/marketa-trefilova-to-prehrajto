@@ -227366,17 +227366,19 @@
       "attempts": []
     },
     "25892": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34285819",
+          "target_video_id": "31321330",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:08:10.770764+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34285819",
         "display_name": "Feast of Love SD CZ Dabing",
         "planned_at": "2026-11-24T05:05:45.843101+00:00"
-      },
-      "claim": {
-        "worker_id": "d8d8cd5487ee4eb4b564ccd919ff720c-shard-0",
-        "claimed_at": "2026-11-24T05:05:46.367807+00:00",
-        "lease_expires_at": "2026-11-24T11:05:46.367807+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321330",
       "prepared": {
@@ -264452,5 +264454,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:06:40.968351+00:00"
+  "updated_at": "2026-11-24T05:08:10.770786+00:00"
 }
