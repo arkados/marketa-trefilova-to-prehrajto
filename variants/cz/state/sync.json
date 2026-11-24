@@ -226910,17 +226910,19 @@
       }
     },
     "16792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30149404",
+          "target_video_id": "31320184",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:29:08.073213+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30149404",
         "display_name": "Below the Surface SD CZ Dabing",
         "planned_at": "2026-11-24T04:27:22.612253+00:00"
-      },
-      "claim": {
-        "worker_id": "37032fb57d514cb4b805d5612a182f9b-shard-0",
-        "claimed_at": "2026-11-24T04:27:23.122882+00:00",
-        "lease_expires_at": "2026-11-24T10:27:23.122882+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320184",
       "prepared": {
@@ -264072,5 +264074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:27:26.799020+00:00"
+  "updated_at": "2026-11-24T04:29:08.073231+00:00"
 }
