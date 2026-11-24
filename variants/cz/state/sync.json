@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:04:19.903289+00:00"
+        "planned_at": "2026-11-24T03:04:25.274540+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225341,17 +225341,19 @@
       "attempts": []
     },
     "21293": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15347568",
+          "target_video_id": "31317238",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:04:27.387406+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15347568",
         "display_name": "Joan of Arc (1948) SD CZ Dabing",
         "planned_at": "2026-11-24T03:02:25.109706+00:00"
-      },
-      "claim": {
-        "worker_id": "ef0bbcff56354d39bfb9f103d83d7344-shard-0",
-        "claimed_at": "2026-11-24T03:02:25.680649+00:00",
-        "lease_expires_at": "2026-11-24T09:02:25.680649+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31317238",
       "prepared": {
@@ -225386,7 +225388,13 @@
       "last_plan": {
         "source_id": "34975684",
         "display_name": "The Crash (2026) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T03:04:20.274570+00:00"
+        "planned_at": "2026-11-24T03:04:25.592860+00:00"
+      },
+      "claim": {
+        "worker_id": "30821d03b5184c61ac08059d21cdb69e-shard-0",
+        "claimed_at": "2026-11-24T03:04:26.160472+00:00",
+        "lease_expires_at": "2026-11-24T09:04:26.160472+00:00",
+        "run_id": "45312111226"
       }
     },
     "29883": {
@@ -262855,5 +262863,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:04:20.274587+00:00"
+  "updated_at": "2026-11-24T03:04:27.387426+00:00"
 }
