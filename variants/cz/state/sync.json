@@ -242238,17 +242238,19 @@
       }
     },
     "34867": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34779493",
+          "target_video_id": "31351004",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:34:54.652262+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34779493",
         "display_name": "My African Adventure (My Sister's Kids in Africa) 720p CZ Dabing",
         "planned_at": "2026-11-24T22:31:15.892075+00:00"
-      },
-      "claim": {
-        "worker_id": "1e3c53b9914d4d43b2c619d7e081dd86-shard-0",
-        "claimed_at": "2026-11-24T22:31:16.372001+00:00",
-        "lease_expires_at": "2026-11-25T04:31:16.372001+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351004",
       "prepared": {
@@ -276211,5 +276213,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:33:34.185241+00:00"
+  "updated_at": "2026-11-24T22:34:54.652280+00:00"
 }
