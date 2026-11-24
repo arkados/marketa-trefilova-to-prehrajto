@@ -222608,17 +222608,19 @@
       "attempts": []
     },
     "16773": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27155537",
+          "target_video_id": "31311605",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:07:35.531324+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27155537",
         "display_name": "Harvest Moon 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:03:22.024486+00:00"
-      },
-      "claim": {
-        "worker_id": "d9d6f2a21c0343b3a54576274a2d6f17-shard-0",
-        "claimed_at": "2026-11-24T00:03:22.525687+00:00",
-        "lease_expires_at": "2026-11-24T06:03:22.525687+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311605",
       "prepared": {
@@ -260814,5 +260816,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:05:42.433415+00:00"
+  "updated_at": "2026-11-24T00:07:35.531344+00:00"
 }
