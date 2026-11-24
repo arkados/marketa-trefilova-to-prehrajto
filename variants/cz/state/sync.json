@@ -227207,17 +227207,19 @@
       "attempts": []
     },
     "14450": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35143586",
+          "target_video_id": "31321066",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:00:19.825570+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35143586",
         "display_name": "Shameless (Nestyda) (2008) 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:53:46.252856+00:00"
-      },
-      "claim": {
-        "worker_id": "d57bbe72883b43ada4de566598bbf697-shard-0",
-        "claimed_at": "2026-11-24T04:53:46.819133+00:00",
-        "lease_expires_at": "2026-11-24T10:53:46.819133+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321066",
       "prepared": {
@@ -264372,5 +264374,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:58:39.916523+00:00"
+  "updated_at": "2026-11-24T05:00:19.825592+00:00"
 }
