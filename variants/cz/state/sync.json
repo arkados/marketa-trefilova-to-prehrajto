@@ -237069,17 +237069,19 @@
       "attempts": []
     },
     "4327": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11240402",
+          "target_video_id": "31342800",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:08:42.662555+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11240402",
         "display_name": "The Secret Life of Pets 4K CZ Dabing",
         "planned_at": "2026-11-24T16:44:52.297499+00:00"
-      },
-      "claim": {
-        "worker_id": "16cebe3f17344e1ea424645fbf31dd98-shard-0",
-        "claimed_at": "2026-11-24T16:44:53.155651+00:00",
-        "lease_expires_at": "2026-11-24T22:44:53.155651+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342800",
       "prepared": {
@@ -272272,5 +272274,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:07:19.642095+00:00"
+  "updated_at": "2026-11-24T17:08:42.662572+00:00"
 }
