@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T19:52:48.715791+00:00"
+        "planned_at": "2026-11-24T19:52:53.572797+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -239123,11 +239123,23 @@
       "attempts": []
     },
     "19585": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34698226",
+          "reason": "Request failed for https://sdilej.cz/34698226/ochrana-statu-2008-cz-dabing.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:52:55.568026+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34698226",
         "display_name": "Secret Defense (Secret défense) 720p CZ Dabing",
-        "planned_at": "2026-11-24T19:52:48.999491+00:00"
+        "planned_at": "2026-11-24T19:52:53.854480+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34698226",
+        "requested_at": "2026-11-24T19:52:55.568013+00:00"
       }
     },
     "24740": {
@@ -273774,5 +273786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:52:48.999514+00:00"
+  "updated_at": "2026-11-24T19:52:55.568030+00:00"
 }
