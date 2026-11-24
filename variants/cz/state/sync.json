@@ -231747,17 +231747,19 @@
       "attempts": []
     },
     "4218": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12972529",
+          "target_video_id": "31329038",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:15:39.896305+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12972529",
         "display_name": "Late Night 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:09:55.349726+00:00"
-      },
-      "claim": {
-        "worker_id": "0ed575cc373f4d1b92c1f2896fd5bded-shard-0",
-        "claimed_at": "2026-11-24T09:09:55.867483+00:00",
-        "lease_expires_at": "2026-11-24T15:09:55.867483+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329038",
       "prepared": {
@@ -267856,5 +267858,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:14:28.968046+00:00"
+  "updated_at": "2026-11-24T09:15:39.896324+00:00"
 }
