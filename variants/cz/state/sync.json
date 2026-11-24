@@ -230543,17 +230543,19 @@
       }
     },
     "23756": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "9826830",
+          "target_video_id": "31327207",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:12:06.677112+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "9826830",
         "display_name": "Stealing Beauty SD CZ Dabing",
         "planned_at": "2026-11-24T08:09:55.207475+00:00"
-      },
-      "claim": {
-        "worker_id": "e381c33f7db34111b10f378dfa57c22c-shard-0",
-        "claimed_at": "2026-11-24T08:09:55.700738+00:00",
-        "lease_expires_at": "2026-11-24T14:09:55.700738+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327207",
       "prepared": {
@@ -266866,5 +266868,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:12:00.317634+00:00"
+  "updated_at": "2026-11-24T08:12:06.677128+00:00"
 }
