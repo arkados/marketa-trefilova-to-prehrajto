@@ -227872,17 +227872,19 @@
       "attempts": []
     },
     "4565": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21203224",
+          "target_video_id": "31322326",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:42:54.212778+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21203224",
         "display_name": "Black Beauty (2020) 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:38:04.125826+00:00"
-      },
-      "claim": {
-        "worker_id": "5cdab4b47baf4370ba90ad2638678345-shard-0",
-        "claimed_at": "2026-11-24T05:38:04.688823+00:00",
-        "lease_expires_at": "2026-11-24T11:38:04.688823+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322326",
       "prepared": {
@@ -264832,5 +264834,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:39:12.944037+00:00"
+  "updated_at": "2026-11-24T05:42:54.212808+00:00"
 }
