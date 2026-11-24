@@ -243144,17 +243144,19 @@
       "attempts": []
     },
     "32908": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34780248",
+          "target_video_id": "31352152",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:13:32.447102+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34780248",
         "display_name": "The Eye of the Storm 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:10:37.448236+00:00"
-      },
-      "claim": {
-        "worker_id": "6fc0d1d3a5f249dbafb09f0155ea23ea-shard-0",
-        "claimed_at": "2026-11-24T23:10:37.962644+00:00",
-        "lease_expires_at": "2026-11-25T05:10:37.962644+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352152",
       "prepared": {
@@ -276881,5 +276883,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:13:02.594403+00:00"
+  "updated_at": "2026-11-24T23:13:32.447118+00:00"
 }
