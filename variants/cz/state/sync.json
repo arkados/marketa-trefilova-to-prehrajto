@@ -239440,17 +239440,19 @@
       }
     },
     "13932": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32265912",
+          "target_video_id": "31347870",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:09:52.916481+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32265912",
         "display_name": "Goodrich 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:05:17.250623+00:00"
-      },
-      "claim": {
-        "worker_id": "1d7f14036ac04983af98562431f47e99-shard-0",
-        "claimed_at": "2026-11-24T20:05:17.724722+00:00",
-        "lease_expires_at": "2026-11-25T02:05:17.724722+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347870",
       "prepared": {
@@ -274044,5 +274046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:06:16.975486+00:00"
+  "updated_at": "2026-11-24T20:09:52.916498+00:00"
 }
