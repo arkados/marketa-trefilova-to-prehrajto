@@ -231981,17 +231981,19 @@
       }
     },
     "4375": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30103833",
+          "target_video_id": "31329402",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:25:14.135074+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30103833",
         "display_name": "Brewster's Millions 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:22:41.061034+00:00"
-      },
-      "claim": {
-        "worker_id": "56bac4bcfefa4cdcbaa702551032e854-shard-0",
-        "claimed_at": "2026-11-24T09:22:41.605902+00:00",
-        "lease_expires_at": "2026-11-24T15:22:41.605902+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329402",
       "prepared": {
@@ -268016,5 +268018,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:24:23.302768+00:00"
+  "updated_at": "2026-11-24T09:25:14.135092+00:00"
 }
