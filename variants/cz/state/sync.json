@@ -240709,17 +240709,19 @@
       "attempts": []
     },
     "14123": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34823324",
+          "target_video_id": "31349492",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:26:31.058258+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34823324",
         "display_name": "Passchendaele SD CZ Dabing",
         "planned_at": "2026-11-24T21:24:26.646401+00:00"
-      },
-      "claim": {
-        "worker_id": "733af67ea4e54973978595aee038b2b0-shard-0",
-        "claimed_at": "2026-11-24T21:24:27.239666+00:00",
-        "lease_expires_at": "2026-11-25T03:24:27.239666+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349492",
       "prepared": {
@@ -275068,5 +275070,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:26:28.491006+00:00"
+  "updated_at": "2026-11-24T21:26:31.058275+00:00"
 }
