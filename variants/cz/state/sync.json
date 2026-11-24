@@ -226969,17 +226969,19 @@
       "attempts": []
     },
     "15245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33026947",
+          "target_video_id": "31320384",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:44:16.026515+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33026947",
         "display_name": "Franz 4K CZ Dabing",
         "planned_at": "2026-11-24T04:31:51.564922+00:00"
-      },
-      "claim": {
-        "worker_id": "51ddd95f84fc4ea6bd981df4de32acca-shard-0",
-        "claimed_at": "2026-11-24T04:31:52.105128+00:00",
-        "lease_expires_at": "2026-11-24T10:31:52.105128+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320384",
       "prepared": {
@@ -264232,5 +264234,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:43:03.982843+00:00"
+  "updated_at": "2026-11-24T04:44:16.026536+00:00"
 }
