@@ -240435,17 +240435,19 @@
       }
     },
     "17596": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34696355",
+          "target_video_id": "31349185",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:15:41.471763+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34696355",
         "display_name": "Legiony 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:09:42.156585+00:00"
-      },
-      "claim": {
-        "worker_id": "3a795f5d5e614ab686d7cee29fb3d672-shard-0",
-        "claimed_at": "2026-11-24T21:09:42.635813+00:00",
-        "lease_expires_at": "2026-11-25T03:09:42.635813+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349185",
       "prepared": {
@@ -274855,5 +274857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:12:59.524779+00:00"
+  "updated_at": "2026-11-24T21:15:41.471779+00:00"
 }
