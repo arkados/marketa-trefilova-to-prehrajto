@@ -228426,17 +228426,19 @@
       }
     },
     "4021": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34084851",
+          "target_video_id": "31323085",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:11:27.121532+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34084851",
         "display_name": "Dust Bunny 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:08:34.014076+00:00"
-      },
-      "claim": {
-        "worker_id": "9c27176b27bb4e8e99ffc9ad320d7724-shard-0",
-        "claimed_at": "2026-11-24T06:08:34.586550+00:00",
-        "lease_expires_at": "2026-11-24T12:08:34.586550+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31323085",
       "prepared": {
@@ -265269,5 +265271,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:11:04.373611+00:00"
+  "updated_at": "2026-11-24T06:11:27.121550+00:00"
 }
