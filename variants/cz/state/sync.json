@@ -236323,17 +236323,19 @@
       "attempts": []
     },
     "4412": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31276215",
+          "target_video_id": "31339253",
+          "permanent": false,
+          "attempted_at": "2026-11-24T14:44:58.473475+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31276215",
         "display_name": "The Mechanic (2011) 4K CZ Dabing",
         "planned_at": "2026-11-24T14:34:06.463930+00:00"
-      },
-      "claim": {
-        "worker_id": "6c6146addee74cc09f69c6adc94f44d0-shard-0",
-        "claimed_at": "2026-11-24T14:34:07.011725+00:00",
-        "lease_expires_at": "2026-11-24T20:34:07.011725+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31339253",
       "prepared": {
@@ -271524,5 +271526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:34:11.047098+00:00"
+  "updated_at": "2026-11-24T14:44:58.473497+00:00"
 }
