@@ -242768,17 +242768,19 @@
       "attempts": []
     },
     "17432": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28712243",
+          "target_video_id": "31351668",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:56:38.279089+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28712243",
         "display_name": "Let's Dance 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:53:55.122441+00:00"
-      },
-      "claim": {
-        "worker_id": "c61b186b2a5648419b749cadd1849e2a-shard-0",
-        "claimed_at": "2026-11-24T22:53:55.624137+00:00",
-        "lease_expires_at": "2026-11-25T04:53:55.624137+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351668",
       "prepared": {
@@ -276604,5 +276606,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:55:27.470112+00:00"
+  "updated_at": "2026-11-24T22:56:38.279106+00:00"
 }
