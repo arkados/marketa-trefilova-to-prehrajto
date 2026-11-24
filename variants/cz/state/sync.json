@@ -227545,17 +227545,19 @@
       "attempts": []
     },
     "4534": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34820103",
+          "target_video_id": "31321758",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:21:46.642215+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34820103",
         "display_name": "Queen Bees 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:18:39.454746+00:00"
-      },
-      "claim": {
-        "worker_id": "47e83f5fc6fe40468ad07a9d41e5bab4-shard-0",
-        "claimed_at": "2026-11-24T05:18:40.035364+00:00",
-        "lease_expires_at": "2026-11-24T11:18:40.035364+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321758",
       "prepared": {
@@ -264592,5 +264594,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:19:24.958026+00:00"
+  "updated_at": "2026-11-24T05:21:46.642235+00:00"
 }
