@@ -240222,17 +240222,19 @@
       }
     },
     "4890": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31067666",
+          "target_video_id": "31348961",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:58:57.286874+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31067666",
         "display_name": "Last Bullet (Balle perdue 3) 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:55:37.328659+00:00"
-      },
-      "claim": {
-        "worker_id": "f478ec6f4ded4a4ea4beaf6bf535264e-shard-0",
-        "claimed_at": "2026-11-24T20:55:37.803558+00:00",
-        "lease_expires_at": "2026-11-25T02:55:37.803558+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348961",
       "prepared": {
@@ -274655,5 +274657,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:57:13.717978+00:00"
+  "updated_at": "2026-11-24T20:58:57.286891+00:00"
 }
