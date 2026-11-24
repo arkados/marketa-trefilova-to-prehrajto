@@ -242456,17 +242456,19 @@
       }
     },
     "16339": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31192607",
+          "target_video_id": "31351217",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:46:38.754026+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31192607",
         "display_name": "The Heart Knows (Corazón delator) 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:39:46.482431+00:00"
-      },
-      "claim": {
-        "worker_id": "4f005f150086483ca7208a717c124594-shard-0",
-        "claimed_at": "2026-11-24T22:39:46.932113+00:00",
-        "lease_expires_at": "2026-11-25T04:39:46.932113+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351217",
       "prepared": {
@@ -276484,5 +276486,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:46:35.785098+00:00"
+  "updated_at": "2026-11-24T22:46:38.754044+00:00"
 }
