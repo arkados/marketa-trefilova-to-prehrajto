@@ -240338,17 +240338,19 @@
       "attempts": []
     },
     "25070": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15653581",
+          "target_video_id": "31349071",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:05:24.921695+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15653581",
         "display_name": "Wolf Summer SD CZ Dabing",
         "planned_at": "2026-11-24T21:03:27.543801+00:00"
-      },
-      "claim": {
-        "worker_id": "47474cf624a94a4daec0f773fbaaebb5-shard-0",
-        "claimed_at": "2026-11-24T21:03:28.044665+00:00",
-        "lease_expires_at": "2026-11-25T03:03:28.044665+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349071",
       "prepared": {
@@ -274735,5 +274737,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:03:55.076467+00:00"
+  "updated_at": "2026-11-24T21:05:24.921714+00:00"
 }
