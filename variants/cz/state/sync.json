@@ -225467,17 +225467,19 @@
       }
     },
     "6858": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24579629",
+          "target_video_id": "31317319",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:09:14.800542+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24579629",
         "display_name": "Nelly Rapp – Monsteragent (Nelly Rapp - monsteragent) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:05:04.884421+00:00"
-      },
-      "claim": {
-        "worker_id": "f476d698d6a642c3a2dda5543a3437e6-shard-0",
-        "claimed_at": "2026-11-24T03:05:05.489053+00:00",
-        "lease_expires_at": "2026-11-24T09:05:05.489053+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31317319",
       "prepared": {
@@ -262982,5 +262984,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:08:49.214892+00:00"
+  "updated_at": "2026-11-24T03:09:14.800569+00:00"
 }
