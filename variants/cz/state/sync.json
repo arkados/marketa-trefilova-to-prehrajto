@@ -227678,17 +227678,19 @@
       "attempts": []
     },
     "4918": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659535",
+          "target_video_id": "31321925",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:27:05.854716+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659535",
         "display_name": "Dark Land II (Underverden 2) 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:24:27.787019+00:00"
-      },
-      "claim": {
-        "worker_id": "4372d2dbc0214e4186d1190557412205-shard-0",
-        "claimed_at": "2026-11-24T05:24:28.359819+00:00",
-        "lease_expires_at": "2026-11-24T11:24:28.359819+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321925",
       "prepared": {
@@ -227730,6 +227732,12 @@
         "source_id": "34723014",
         "display_name": "The Far Horizons SD CZ Dabing",
         "planned_at": "2026-11-24T05:27:02.380387+00:00"
+      },
+      "claim": {
+        "worker_id": "474cf24a44bf48f690294db5eca0cca8-shard-0",
+        "claimed_at": "2026-11-24T05:27:05.599813+00:00",
+        "lease_expires_at": "2026-11-24T11:27:05.599813+00:00",
+        "run_id": "45312111226"
       }
     },
     "5468": {
@@ -264681,5 +264689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:27:02.380403+00:00"
+  "updated_at": "2026-11-24T05:27:05.854732+00:00"
 }
