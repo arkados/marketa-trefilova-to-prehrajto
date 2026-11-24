@@ -231166,17 +231166,19 @@
       }
     },
     "29942": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27427409",
+          "target_video_id": "31328196",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:45:09.209723+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27427409",
         "display_name": "Batman (1966) 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:41:11.560919+00:00"
-      },
-      "claim": {
-        "worker_id": "70b85dce610242139c87a90ac2e9dd2c-shard-0",
-        "claimed_at": "2026-11-24T08:41:12.081225+00:00",
-        "lease_expires_at": "2026-11-24T14:41:12.081225+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328196",
       "prepared": {
@@ -267363,5 +267365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:44:13.972250+00:00"
+  "updated_at": "2026-11-24T08:45:09.209748+00:00"
 }
