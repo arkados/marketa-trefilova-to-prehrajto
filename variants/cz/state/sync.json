@@ -233809,17 +233809,19 @@
       }
     },
     "4019": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33180854",
+          "target_video_id": "31332398",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:10:25.546096+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33180854",
         "display_name": "Blindness 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:07:41.076333+00:00"
-      },
-      "claim": {
-        "worker_id": "db1a8b12e2de4251ae5b14cceb5ddd72-shard-0",
-        "claimed_at": "2026-11-24T11:07:41.578592+00:00",
-        "lease_expires_at": "2026-11-24T17:07:41.578592+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332398",
       "prepared": {
@@ -269442,5 +269444,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:07:45.493329+00:00"
+  "updated_at": "2026-11-24T11:10:25.546115+00:00"
 }
