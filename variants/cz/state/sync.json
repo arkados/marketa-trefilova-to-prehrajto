@@ -239289,17 +239289,19 @@
       "attempts": []
     },
     "14459": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19550791",
+          "target_video_id": "31347708",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:03:02.743431+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19550791",
         "display_name": "Nimby 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:55:53.734701+00:00"
-      },
-      "claim": {
-        "worker_id": "13c0b38faf1f44ee91c436fbb6ccd99d-shard-0",
-        "claimed_at": "2026-11-24T19:55:54.204907+00:00",
-        "lease_expires_at": "2026-11-25T01:55:54.204907+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347708",
       "prepared": {
@@ -273964,5 +273966,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:59:58.832299+00:00"
+  "updated_at": "2026-11-24T20:03:02.743449+00:00"
 }
