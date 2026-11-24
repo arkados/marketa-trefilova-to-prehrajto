@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T05:44:49.341137+00:00"
+        "planned_at": "2026-11-24T05:44:55.709815+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -227974,11 +227974,23 @@
       "attempts": []
     },
     "10996": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34061123",
+          "reason": "Source detail has no authenticated download link; source_id=34061123",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:44:58.629659+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34061123",
         "display_name": "Mayerling 720p CZ Dabing",
-        "planned_at": "2026-11-24T05:44:49.664459+00:00"
+        "planned_at": "2026-11-24T05:44:56.041817+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34061123",
+        "requested_at": "2026-11-24T05:44:58.629639+00:00"
       }
     },
     "25901": {
@@ -264879,5 +264891,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:44:49.664489+00:00"
+  "updated_at": "2026-11-24T05:44:58.629664+00:00"
 }
