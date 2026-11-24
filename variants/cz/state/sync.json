@@ -229187,17 +229187,19 @@
       "attempts": []
     },
     "23243": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13565716",
+          "target_video_id": "31324946",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:01:06.839694+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13565716",
         "display_name": "La Totale! (The Jackpot!) 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:54:26.808442+00:00"
-      },
-      "claim": {
-        "worker_id": "0e8a245263c74c7f91c8a0950ef15844-shard-0",
-        "claimed_at": "2026-11-24T06:54:27.309854+00:00",
-        "lease_expires_at": "2026-11-24T12:54:27.309854+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324946",
       "prepared": {
@@ -265849,5 +265851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:58:03.728077+00:00"
+  "updated_at": "2026-11-24T07:01:06.839716+00:00"
 }
