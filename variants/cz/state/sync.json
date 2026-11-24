@@ -232972,17 +232972,19 @@
       }
     },
     "12223": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30690995",
+          "target_video_id": "31330803",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:13:09.960380+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30690995",
         "display_name": "Dangerous Minds 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:06:52.593837+00:00"
-      },
-      "claim": {
-        "worker_id": "763fb55d1a7a49a7a46918a3dbf47d03-shard-0",
-        "claimed_at": "2026-11-24T10:06:53.083765+00:00",
-        "lease_expires_at": "2026-11-24T16:06:53.083765+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330803",
       "prepared": {
@@ -268849,5 +268851,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:11:26.375272+00:00"
+  "updated_at": "2026-11-24T10:13:09.960398+00:00"
 }
