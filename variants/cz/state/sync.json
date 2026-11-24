@@ -227045,17 +227045,19 @@
       "attempts": []
     },
     "12324": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734526",
+          "target_video_id": "31320663",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:42:50.803488+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734526",
         "display_name": "My Fellow Americans 720p CZ Dabing",
         "planned_at": "2026-11-24T04:39:27.947268+00:00"
-      },
-      "claim": {
-        "worker_id": "fe4e60d6f2ea4119b3073ad124a3f4bf-shard-0",
-        "claimed_at": "2026-11-24T04:39:28.529210+00:00",
-        "lease_expires_at": "2026-11-24T10:39:28.529210+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320663",
       "prepared": {
@@ -264212,5 +264214,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:41:29.056473+00:00"
+  "updated_at": "2026-11-24T04:42:50.803510+00:00"
 }
