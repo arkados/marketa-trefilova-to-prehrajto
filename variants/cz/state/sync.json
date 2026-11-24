@@ -236250,17 +236250,19 @@
       }
     },
     "4109": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26199778",
+          "target_video_id": "31338764",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:00:10.026655+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26199778",
         "display_name": "Evil Dead Rise 4K CZ Dabing",
         "planned_at": "2026-11-24T14:18:29.025801+00:00"
-      },
-      "claim": {
-        "worker_id": "8978ffafbbc94e66b923ab70a6d372f4-shard-0",
-        "claimed_at": "2026-11-24T14:18:29.606979+00:00",
-        "lease_expires_at": "2026-11-24T20:18:29.606979+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31338764",
       "prepared": {
@@ -271564,5 +271566,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:50:11.395223+00:00"
+  "updated_at": "2026-11-24T15:00:10.026697+00:00"
 }
