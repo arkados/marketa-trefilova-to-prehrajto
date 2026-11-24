@@ -238096,17 +238096,19 @@
       "attempts": []
     },
     "4368": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32798596",
+          "target_video_id": "31345712",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:47:19.532799+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32798596",
         "display_name": "The Day After Tomorrow 4K CZ Dabing",
         "planned_at": "2026-11-24T18:34:42.389658+00:00"
-      },
-      "claim": {
-        "worker_id": "a703982d840e4a65b4fb65096ede791c-shard-0",
-        "claimed_at": "2026-11-24T18:34:43.245422+00:00",
-        "lease_expires_at": "2026-11-25T00:34:43.245422+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345712",
       "prepared": {
@@ -273037,5 +273039,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:47:12.514146+00:00"
+  "updated_at": "2026-11-24T18:47:19.532822+00:00"
 }
