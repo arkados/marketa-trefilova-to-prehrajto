@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T20:37:25.732504+00:00"
+        "planned_at": "2026-11-24T20:37:30.763707+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -239929,11 +239929,23 @@
       "attempts": []
     },
     "22213": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33690113",
+          "reason": "Request failed for https://sdilej.cz/33690113/ctyri-sluhove-a-ctyri-musketyri-1974-1080p-ac3-cz-komedie.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:37:32.503223+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33690113",
         "display_name": "The Four Charlots Musketeers 1080p CZ Dabing",
-        "planned_at": "2026-11-24T20:37:26.021568+00:00"
+        "planned_at": "2026-11-24T20:37:31.034077+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33690113",
+        "requested_at": "2026-11-24T20:37:32.503211+00:00"
       }
     },
     "9610": {
@@ -274385,5 +274397,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:37:26.021583+00:00"
+  "updated_at": "2026-11-24T20:37:32.503226+00:00"
 }
