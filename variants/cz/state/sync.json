@@ -242170,17 +242170,19 @@
       "attempts": []
     },
     "5807": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28252354",
+          "target_video_id": "31350888",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:31:46.270584+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28252354",
         "display_name": "Penoza: The Final Chapter 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:27:02.840331+00:00"
-      },
-      "claim": {
-        "worker_id": "8c9d98e750bd46d9a2b25d7a558867b5-shard-0",
-        "claimed_at": "2026-11-24T22:27:03.308387+00:00",
-        "lease_expires_at": "2026-11-25T04:27:03.308387+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350888",
       "prepared": {
@@ -276171,5 +276173,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:31:20.715183+00:00"
+  "updated_at": "2026-11-24T22:31:46.270603+00:00"
 }
