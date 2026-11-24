@@ -238922,17 +238922,19 @@
       "attempts": []
     },
     "22454": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27734793",
+          "target_video_id": "31347243",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:43:38.398437+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27734793",
         "display_name": "Concorde Affaire '79 (Concorde Affair) 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:40:22.991998+00:00"
-      },
-      "claim": {
-        "worker_id": "312b1d5de17e4f51b9d173580f0a7b1b-shard-0",
-        "claimed_at": "2026-11-24T19:40:23.478730+00:00",
-        "lease_expires_at": "2026-11-25T01:40:23.478730+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347243",
       "prepared": {
@@ -273667,5 +273669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:42:24.387897+00:00"
+  "updated_at": "2026-11-24T19:43:38.398455+00:00"
 }
