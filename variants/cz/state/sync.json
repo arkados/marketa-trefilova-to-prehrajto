@@ -243118,17 +243118,19 @@
       "attempts": []
     },
     "23130": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33786700",
+          "target_video_id": "31352140",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:12:48.532945+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33786700",
         "display_name": "Miami Blues 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:10:19.259036+00:00"
-      },
-      "claim": {
-        "worker_id": "b81edd60647349929a9892c98c943a8f-shard-0",
-        "claimed_at": "2026-11-24T23:10:19.771588+00:00",
-        "lease_expires_at": "2026-11-25T05:10:19.771588+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352140",
       "prepared": {
@@ -276861,5 +276863,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:10:43.158841+00:00"
+  "updated_at": "2026-11-24T23:12:48.532962+00:00"
 }
