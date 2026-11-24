@@ -234865,17 +234865,19 @@
       }
     },
     "4207": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29657070",
+          "target_video_id": "31334315",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:17:00.365402+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29657070",
         "display_name": "Eurovision Song Contest: The Story of Fire Saga (nv'h kyrl vdrkh l'yrvvyzyvn - hlk ') 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:08:34.002907+00:00"
-      },
-      "claim": {
-        "worker_id": "763c1d3895024ea6a97ed8cf86eb9cd0-shard-0",
-        "claimed_at": "2026-11-24T12:08:34.580511+00:00",
-        "lease_expires_at": "2026-11-24T18:08:34.580511+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334315",
       "prepared": {
@@ -270356,5 +270358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:14:51.563521+00:00"
+  "updated_at": "2026-11-24T12:17:00.365424+00:00"
 }
