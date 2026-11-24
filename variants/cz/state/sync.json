@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T08:12:33.915726+00:00"
+        "planned_at": "2026-11-24T08:12:44.099770+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -230652,11 +230652,23 @@
       "attempts": []
     },
     "18603": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33875134",
+          "reason": "Source detail has no authenticated download link; source_id=33875134",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:12:47.975319+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33875134",
         "display_name": "Babovresky 2 1080p CZ Dabing",
-        "planned_at": "2026-11-24T08:12:34.210232+00:00"
+        "planned_at": "2026-11-24T08:12:44.393259+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33875134",
+        "requested_at": "2026-11-24T08:12:47.975299+00:00"
       }
     },
     "15575": {
@@ -266893,5 +266905,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:12:34.210249+00:00"
+  "updated_at": "2026-11-24T08:12:47.975324+00:00"
 }
