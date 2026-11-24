@@ -227923,17 +227923,19 @@
       "attempts": []
     },
     "25907": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33441195",
+          "target_video_id": "31322460",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:49:10.944861+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33441195",
         "display_name": "Facing the Giants 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:43:06.662715+00:00"
-      },
-      "claim": {
-        "worker_id": "8b72b5fabee246d2b89aa279330fce70-shard-0",
-        "claimed_at": "2026-11-24T05:43:07.274450+00:00",
-        "lease_expires_at": "2026-11-24T11:43:07.274450+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322460",
       "prepared": {
@@ -264949,5 +264951,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:48:31.740756+00:00"
+  "updated_at": "2026-11-24T05:49:10.944882+00:00"
 }
