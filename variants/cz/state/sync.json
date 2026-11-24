@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:45:39.475172+00:00"
+        "planned_at": "2026-11-24T03:45:44.759578+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -226084,17 +226084,19 @@
       "attempts": []
     },
     "28783": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32183061",
+          "target_video_id": "31318316",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:45:46.387634+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32183061",
         "display_name": "Romeo and Juliet (2014) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:40:54.941254+00:00"
-      },
-      "claim": {
-        "worker_id": "2c5ba35902434b338600e3c336c86a37-shard-0",
-        "claimed_at": "2026-11-24T03:40:58.356946+00:00",
-        "lease_expires_at": "2026-11-24T09:40:58.356946+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318316",
       "prepared": {
@@ -226156,7 +226158,13 @@
       "last_plan": {
         "source_id": "35116225",
         "display_name": "She Rides Shotgun 4K CZ Dabing",
-        "planned_at": "2026-11-24T03:45:39.829952+00:00"
+        "planned_at": "2026-11-24T03:45:45.080504+00:00"
+      },
+      "claim": {
+        "worker_id": "3e7d9b0ed2b040d29823dbd4e8f47a55-shard-0",
+        "claimed_at": "2026-11-24T03:45:45.687817+00:00",
+        "lease_expires_at": "2026-11-24T09:45:45.687817+00:00",
+        "run_id": "45312111226"
       }
     },
     "25511": {
@@ -263466,5 +263474,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:45:39.829989+00:00"
+  "updated_at": "2026-11-24T03:45:46.387655+00:00"
 }
