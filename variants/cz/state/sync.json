@@ -225977,17 +225977,19 @@
       }
     },
     "15434": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24510465",
+          "target_video_id": "31318243",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:39:52.578423+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24510465",
         "display_name": "A Night at the Kindergarten (Noc w przedszkolu) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:37:07.981909+00:00"
-      },
-      "claim": {
-        "worker_id": "74a1bf4c2d1a4b5aa7c9606797515b4f-shard-0",
-        "claimed_at": "2026-11-24T03:37:08.546280+00:00",
-        "lease_expires_at": "2026-11-24T09:37:08.546280+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318243",
       "prepared": {
@@ -263379,5 +263381,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:39:16.397906+00:00"
+  "updated_at": "2026-11-24T03:39:52.578446+00:00"
 }
