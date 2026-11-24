@@ -232751,17 +232751,19 @@
       "attempts": []
     },
     "15067": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6198696",
+          "target_video_id": "31330534",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:59:06.608967+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6198696",
         "display_name": "The Grace Card SD CZ Dabing",
         "planned_at": "2026-11-24T09:57:56.648089+00:00"
-      },
-      "claim": {
-        "worker_id": "6c779087f8b24570be13470b5f4f3cea-shard-0",
-        "claimed_at": "2026-11-24T09:57:57.184661+00:00",
-        "lease_expires_at": "2026-11-24T15:57:57.184661+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330534",
       "prepared": {
@@ -268609,5 +268611,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:58:31.145540+00:00"
+  "updated_at": "2026-11-24T09:59:06.609003+00:00"
 }
