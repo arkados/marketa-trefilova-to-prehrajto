@@ -239206,17 +239206,19 @@
       }
     },
     "15324": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28706006",
+          "target_video_id": "31347678",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:55:32.876745+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28706006",
         "display_name": "My Lai Four (My Lai Four: Soldati senza onore) SD CZ Dabing",
         "planned_at": "2026-11-24T19:54:09.548696+00:00"
-      },
-      "claim": {
-        "worker_id": "01db6d35426f4dabb0a344e897d4b467-shard-0",
-        "claimed_at": "2026-11-24T19:54:10.033500+00:00",
-        "lease_expires_at": "2026-11-25T01:54:10.033500+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347678",
       "prepared": {
@@ -273864,5 +273866,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:54:39.219483+00:00"
+  "updated_at": "2026-11-24T19:55:32.876762+00:00"
 }
