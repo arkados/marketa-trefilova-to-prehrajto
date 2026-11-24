@@ -227950,17 +227950,19 @@
       "attempts": []
     },
     "6818": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27685692",
+          "target_video_id": "31322477",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:47:17.711339+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27685692",
         "display_name": "Miss Shampoo (QingWen,HaiYouNaLiXuYaoJiaQiang) 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:43:50.151646+00:00"
-      },
-      "claim": {
-        "worker_id": "65d5e2f1b3d34d72a3604c4b6349b1ba-shard-0",
-        "claimed_at": "2026-11-24T05:43:50.733587+00:00",
-        "lease_expires_at": "2026-11-24T11:43:50.733587+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322477",
       "prepared": {
@@ -264909,5 +264911,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:45:11.940334+00:00"
+  "updated_at": "2026-11-24T05:47:17.711365+00:00"
 }
