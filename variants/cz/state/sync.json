@@ -226369,17 +226369,19 @@
       }
     },
     "23455": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25441624",
+          "target_video_id": "31318987",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:01:18.006336+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25441624",
         "display_name": "Kung Fu Cult Master SD CZ Dabing",
         "planned_at": "2026-11-24T03:59:13.306187+00:00"
-      },
-      "claim": {
-        "worker_id": "26faa895d157484393dd96aab5fb4d76-shard-0",
-        "claimed_at": "2026-11-24T03:59:13.797305+00:00",
-        "lease_expires_at": "2026-11-24T09:59:13.797305+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318987",
       "prepared": {
@@ -263639,5 +263641,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:59:19.175250+00:00"
+  "updated_at": "2026-11-24T04:01:18.006356+00:00"
 }
