@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T22:57:53.639332+00:00"
+        "planned_at": "2026-11-24T22:57:58.581967+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -242859,11 +242859,23 @@
       "attempts": []
     },
     "11161": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34131990",
+          "reason": "Source detail has no authenticated download link; source_id=34131990",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:58:01.796594+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34131990",
         "display_name": "Cry, Onion! (Cipolla Colt) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T22:57:53.950402+00:00"
+        "planned_at": "2026-11-24T22:57:58.873399+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34131990",
+        "requested_at": "2026-11-24T22:58:01.796576+00:00"
       }
     },
     "4643": {
@@ -276631,5 +276643,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:57:53.950419+00:00"
+  "updated_at": "2026-11-24T22:58:01.796597+00:00"
 }
