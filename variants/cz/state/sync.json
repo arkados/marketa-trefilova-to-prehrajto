@@ -224749,17 +224749,19 @@
       "attempts": []
     },
     "4425": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33996077",
+          "target_video_id": "31316240",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:45:18.401390+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33996077",
         "display_name": "The Last Warrior (Posledniy bogatyr') (2017) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:31:15.617351+00:00"
-      },
-      "claim": {
-        "worker_id": "d7b9586479404f8b8287552db3be8c76-shard-0",
-        "claimed_at": "2026-11-24T02:31:16.172432+00:00",
-        "lease_expires_at": "2026-11-24T08:31:16.172432+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316240",
       "prepared": {
@@ -262517,5 +262519,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:43:00.995176+00:00"
+  "updated_at": "2026-11-24T02:45:18.401410+00:00"
 }
