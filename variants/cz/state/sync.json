@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T20:31:15.618706+00:00"
+        "planned_at": "2026-11-24T20:31:20.362854+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -239786,17 +239786,19 @@
       "attempts": []
     },
     "6284": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13917842",
+          "target_video_id": "31348522",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:31:22.697854+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13917842",
         "display_name": "My Zoe SD CZ Dabing",
         "planned_at": "2026-11-24T20:28:50.118148+00:00"
-      },
-      "claim": {
-        "worker_id": "3d3a3c16b8a04229836b1f30838f439d-shard-0",
-        "claimed_at": "2026-11-24T20:28:50.597131+00:00",
-        "lease_expires_at": "2026-11-25T02:28:50.597131+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348522",
       "prepared": {
@@ -239832,7 +239834,13 @@
       "last_plan": {
         "source_id": "34709441",
         "display_name": "Saving God 1080p CZ Dabing",
-        "planned_at": "2026-11-24T20:31:15.891533+00:00"
+        "planned_at": "2026-11-24T20:31:20.638415+00:00"
+      },
+      "claim": {
+        "worker_id": "a90202be5a6b45c5b93c9cc0b4182075-shard-0",
+        "claimed_at": "2026-11-24T20:31:21.102065+00:00",
+        "lease_expires_at": "2026-11-25T02:31:21.102065+00:00",
+        "run_id": "45469401145"
       }
     },
     "4449": {
@@ -274308,5 +274316,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:31:15.891550+00:00"
+  "updated_at": "2026-11-24T20:31:22.697870+00:00"
 }
