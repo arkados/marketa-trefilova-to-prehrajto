@@ -241342,17 +241342,19 @@
       "attempts": []
     },
     "25485": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34417440",
+          "target_video_id": "31350007",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:51:25.949375+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34417440",
         "display_name": "House of Fury 720p CZ Dabing",
         "planned_at": "2026-11-24T21:48:59.686857+00:00"
-      },
-      "claim": {
-        "worker_id": "ed9547cdcc1e432ea319ae56b127a0fd-shard-0",
-        "claimed_at": "2026-11-24T21:49:00.151178+00:00",
-        "lease_expires_at": "2026-11-25T03:49:00.151178+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350007",
       "prepared": {
@@ -275525,5 +275527,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:50:31.604830+00:00"
+  "updated_at": "2026-11-24T21:51:25.949392+00:00"
 }
