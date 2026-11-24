@@ -223266,17 +223266,19 @@
       "attempts": []
     },
     "30317": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713382",
+          "target_video_id": "31312576",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:44:33.286816+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713382",
         "display_name": "One More Train to Rob 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:38:42.739966+00:00"
-      },
-      "claim": {
-        "worker_id": "21b31e36c3d64b559e4628b13cb6897e-shard-0",
-        "claimed_at": "2026-11-24T00:38:43.194578+00:00",
-        "lease_expires_at": "2026-11-24T06:38:43.194578+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312576",
       "prepared": {
@@ -261306,5 +261308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:43:38.551138+00:00"
+  "updated_at": "2026-11-24T00:44:33.286830+00:00"
 }
