@@ -237930,17 +237930,19 @@
       "attempts": []
     },
     "25987": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27840334",
+          "target_video_id": "31345306",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:20:23.639690+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27840334",
         "display_name": "The Stone Angel 720p CZ Dabing",
         "planned_at": "2026-11-24T18:17:21.368838+00:00"
-      },
-      "claim": {
-        "worker_id": "0eb6d247ae364857b579cb2633865164-shard-0",
-        "claimed_at": "2026-11-24T18:17:22.209961+00:00",
-        "lease_expires_at": "2026-11-25T00:17:22.209961+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345306",
       "prepared": {
@@ -272873,5 +272875,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:19:51.418174+00:00"
+  "updated_at": "2026-11-24T18:20:23.639708+00:00"
 }
