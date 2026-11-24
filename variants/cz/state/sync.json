@@ -223344,17 +223344,19 @@
       "attempts": []
     },
     "17004": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34840495",
+          "target_video_id": "31312697",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:44:55.459169+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34840495",
         "display_name": "12 Days of Giving SD CZ Dabing",
         "planned_at": "2026-11-24T00:43:30.928962+00:00"
-      },
-      "claim": {
-        "worker_id": "3e50ef2726e14dcaba5e26027a7e0f42-shard-0",
-        "claimed_at": "2026-11-24T00:43:31.428913+00:00",
-        "lease_expires_at": "2026-11-24T06:43:31.428913+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312697",
       "prepared": {
@@ -261333,5 +261335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:44:52.379323+00:00"
+  "updated_at": "2026-11-24T00:44:55.459185+00:00"
 }
