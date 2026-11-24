@@ -238246,17 +238246,19 @@
       }
     },
     "5296": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33859608",
+          "target_video_id": "31346047",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:55:51.943080+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33859608",
         "display_name": "The Physician II (Der Medicus II) 1080p CZ Dabing",
         "planned_at": "2026-11-24T18:49:03.395857+00:00"
-      },
-      "claim": {
-        "worker_id": "b5f773033df64e809465010ff0bc526b-shard-0",
-        "claimed_at": "2026-11-24T18:49:04.347580+00:00",
-        "lease_expires_at": "2026-11-25T00:49:04.347580+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31346047",
       "prepared": {
@@ -273167,5 +273169,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:54:48.579151+00:00"
+  "updated_at": "2026-11-24T18:55:51.943097+00:00"
 }
