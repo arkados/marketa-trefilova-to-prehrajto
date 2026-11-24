@@ -233099,17 +233099,19 @@
       "attempts": []
     },
     "8180": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34667912",
+          "target_video_id": "31330972",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:15:11.273520+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34667912",
         "display_name": "The Almond and the Seahorse 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:13:18.648464+00:00"
-      },
-      "claim": {
-        "worker_id": "826be4a43bf64055b866bad94fb4ca9b-shard-0",
-        "claimed_at": "2026-11-24T10:13:19.181795+00:00",
-        "lease_expires_at": "2026-11-24T16:13:19.181795+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330972",
       "prepared": {
@@ -268909,5 +268911,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:14:40.099028+00:00"
+  "updated_at": "2026-11-24T10:15:11.273542+00:00"
 }
