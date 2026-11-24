@@ -228238,17 +228238,19 @@
       "attempts": []
     },
     "22395": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10214141",
+          "target_video_id": "31322807",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:59:49.307427+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10214141",
         "display_name": "Stay As You Are SD CZ Dabing",
         "planned_at": "2026-11-24T05:57:34.718512+00:00"
-      },
-      "claim": {
-        "worker_id": "ef7838f8f46847b99a6ae57817601dd1-shard-0",
-        "claimed_at": "2026-11-24T05:57:35.258822+00:00",
-        "lease_expires_at": "2026-11-24T11:57:35.258822+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322807",
       "prepared": {
@@ -265129,5 +265131,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:59:05.065302+00:00"
+  "updated_at": "2026-11-24T05:59:49.307446+00:00"
 }
