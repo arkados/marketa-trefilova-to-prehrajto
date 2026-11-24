@@ -222505,17 +222505,19 @@
       }
     },
     "4199": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27026382",
+          "target_video_id": "31311460",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:01:08.466352+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27026382",
         "display_name": "Crown Vic SD CZ Dabing",
         "planned_at": "2026-11-23T23:58:52.630789+00:00"
-      },
-      "claim": {
-        "worker_id": "9950e63db0f945e1a50656c0ffa43705-shard-0",
-        "claimed_at": "2026-11-23T23:58:53.139795+00:00",
-        "lease_expires_at": "2026-11-24T05:58:53.139795+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311460",
       "prepared": {
@@ -260714,5 +260716,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:00:00.686252+00:00"
+  "updated_at": "2026-11-24T00:01:08.466371+00:00"
 }
