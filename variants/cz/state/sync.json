@@ -241994,17 +241994,19 @@
       }
     },
     "28513": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34479403",
+          "target_video_id": "31350626",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:18:03.517571+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34479403",
         "display_name": "Dolphin Tale 2 720p CZ Dabing",
         "planned_at": "2026-11-24T22:15:49.502877+00:00"
-      },
-      "claim": {
-        "worker_id": "f71b8aef48a8431387dffd8c126d1098-shard-0",
-        "claimed_at": "2026-11-24T22:15:50.040316+00:00",
-        "lease_expires_at": "2026-11-25T04:15:50.040316+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350626",
       "prepared": {
@@ -275998,5 +276000,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:15:56.231633+00:00"
+  "updated_at": "2026-11-24T22:18:03.517589+00:00"
 }
