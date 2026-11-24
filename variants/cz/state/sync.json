@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T02:36:47.737667+00:00"
+        "planned_at": "2026-11-24T02:36:54.345239+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -224845,17 +224845,19 @@
       "attempts": []
     },
     "6900": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29561211",
+          "target_video_id": "31316295",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:37:00.097808+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29561211",
         "display_name": "Upír z Feratu 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:33:58.490877+00:00"
-      },
-      "claim": {
-        "worker_id": "ab3c0653458648f49b1cd37dbdd58bf6-shard-0",
-        "claimed_at": "2026-11-24T02:33:59.029669+00:00",
-        "lease_expires_at": "2026-11-24T08:33:59.029669+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316295",
       "prepared": {
@@ -224890,7 +224892,13 @@
       "last_plan": {
         "source_id": "25048150",
         "display_name": "Hostile Waters 1080p CZ Dabing",
-        "planned_at": "2026-11-24T02:36:48.108551+00:00"
+        "planned_at": "2026-11-24T02:36:54.655508+00:00"
+      },
+      "claim": {
+        "worker_id": "db168bc68a5643e68f28bcf9fb874454-shard-0",
+        "claimed_at": "2026-11-24T02:36:55.219290+00:00",
+        "lease_expires_at": "2026-11-24T08:36:55.219290+00:00",
+        "run_id": "45312111226"
       }
     },
     "37544": {
@@ -262464,5 +262472,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:36:48.108569+00:00"
+  "updated_at": "2026-11-24T02:37:00.097827+00:00"
 }
