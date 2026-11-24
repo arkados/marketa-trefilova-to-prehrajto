@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T20:26:48.656400+00:00"
+        "planned_at": "2026-11-24T20:26:52.992005+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -239735,11 +239735,23 @@
       }
     },
     "27766": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "6051383",
+          "reason": "Request failed for https://sdilej.cz/6051383/kovbojky-a-andele-2012-dvd-cz.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:26:55.106029+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6051383",
         "display_name": "Cowgirls 'n Angels (Cowgirls n' Angels) SD CZ Dabing",
-        "planned_at": "2026-11-24T20:26:48.917461+00:00"
+        "planned_at": "2026-11-24T20:26:53.257707+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "6051383",
+        "requested_at": "2026-11-24T20:26:55.106017+00:00"
       }
     },
     "26217": {
@@ -274251,5 +274263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:26:48.917478+00:00"
+  "updated_at": "2026-11-24T20:26:55.106033+00:00"
 }
