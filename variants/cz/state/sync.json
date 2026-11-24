@@ -233068,17 +233068,19 @@
       }
     },
     "4414": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28782477",
+          "target_video_id": "31330929",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:14:09.488144+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28782477",
         "display_name": "Mouse Hunt (MouseHunt) 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:11:21.761363+00:00"
-      },
-      "claim": {
-        "worker_id": "75f31b67886b483f957febedbe738b60-shard-0",
-        "claimed_at": "2026-11-24T10:11:22.272472+00:00",
-        "lease_expires_at": "2026-11-24T16:11:22.272472+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330929",
       "prepared": {
@@ -268869,5 +268871,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:13:23.139213+00:00"
+  "updated_at": "2026-11-24T10:14:09.488163+00:00"
 }
