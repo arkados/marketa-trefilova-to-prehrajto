@@ -238660,17 +238660,19 @@
       }
     },
     "30739": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30631698",
+          "target_video_id": "31346920",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:27:41.627089+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30631698",
         "display_name": "Spinster 720p CZ Dabing",
         "planned_at": "2026-11-24T19:25:05.924799+00:00"
-      },
-      "claim": {
-        "worker_id": "d44bad51cb7a4306a23b881c168d5d3c-shard-0",
-        "claimed_at": "2026-11-24T19:25:06.381871+00:00",
-        "lease_expires_at": "2026-11-25T01:25:06.381871+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31346920",
       "prepared": {
@@ -273447,5 +273449,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:26:41.567555+00:00"
+  "updated_at": "2026-11-24T19:27:41.627105+00:00"
 }
