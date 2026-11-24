@@ -240525,17 +240525,19 @@
       }
     },
     "13168": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27941913",
+          "target_video_id": "31349304",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:17:25.123946+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27941913",
         "display_name": "Framed (2002) SD CZ Dabing",
         "planned_at": "2026-11-24T21:15:50.369074+00:00"
-      },
-      "claim": {
-        "worker_id": "4eacf30e4a854ed68b59e9ca19530cc2-shard-0",
-        "claimed_at": "2026-11-24T21:15:50.844617+00:00",
-        "lease_expires_at": "2026-11-25T03:15:50.844617+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349304",
       "prepared": {
@@ -274882,5 +274884,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:17:20.917687+00:00"
+  "updated_at": "2026-11-24T21:17:25.123963+00:00"
 }
