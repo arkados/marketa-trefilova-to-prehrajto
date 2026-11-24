@@ -223006,17 +223006,19 @@
       }
     },
     "22459": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27407424",
+          "target_video_id": "31312177",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:29:34.312349+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27407424",
         "display_name": "The Electric Horseman SD CZ Dabing",
         "planned_at": "2026-11-24T00:27:02.200568+00:00"
-      },
-      "claim": {
-        "worker_id": "af59b21de83c4a35af214a4d40b8b8e4-shard-0",
-        "claimed_at": "2026-11-24T00:27:05.082938+00:00",
-        "lease_expires_at": "2026-11-24T06:27:05.082938+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312177",
       "prepared": {
@@ -261089,5 +261091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:27:20.776989+00:00"
+  "updated_at": "2026-11-24T00:29:34.312365+00:00"
 }
