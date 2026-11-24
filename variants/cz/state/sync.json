@@ -235738,17 +235738,19 @@
       }
     },
     "10943": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34477370",
+          "target_video_id": "31336385",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:07:47.314561+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34477370",
         "display_name": "Preparati la bara! 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:03:43.601819+00:00"
-      },
-      "claim": {
-        "worker_id": "9ad993e046ea431793dcd5082d153e53-shard-0",
-        "claimed_at": "2026-11-24T13:03:44.246784+00:00",
-        "lease_expires_at": "2026-11-24T19:03:44.246784+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336385",
       "prepared": {
@@ -271047,5 +271049,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:03:48.617397+00:00"
+  "updated_at": "2026-11-24T13:07:47.314580+00:00"
 }
