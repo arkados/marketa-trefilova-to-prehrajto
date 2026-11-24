@@ -235692,17 +235692,19 @@
       }
     },
     "4321": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31095293",
+          "target_video_id": "31336274",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:03:14.379427+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31095293",
         "display_name": "The Sum of All Fears 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:59:35.289259+00:00"
-      },
-      "claim": {
-        "worker_id": "927ea2db38f44e10834c4b6e6bb5d195-shard-0",
-        "claimed_at": "2026-11-24T12:59:35.872619+00:00",
-        "lease_expires_at": "2026-11-24T18:59:35.872619+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336274",
       "prepared": {
@@ -271007,5 +271009,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:59:39.868325+00:00"
+  "updated_at": "2026-11-24T13:03:14.379448+00:00"
 }
