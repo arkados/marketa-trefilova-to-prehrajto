@@ -238374,17 +238374,19 @@
       }
     },
     "8454": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27380371",
+          "target_video_id": "31346267",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:01:47.233110+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27380371",
         "display_name": "The Three Wise Kings vs Santa (Reyes contra Santa) 1080p CZ Dabing",
         "planned_at": "2026-11-24T18:57:58.952223+00:00"
-      },
-      "claim": {
-        "worker_id": "6252a9e7dbb74927bd87ade8f5edadf2-shard-0",
-        "claimed_at": "2026-11-24T18:57:59.906542+00:00",
-        "lease_expires_at": "2026-11-25T00:57:59.906542+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31346267",
       "prepared": {
@@ -273227,5 +273229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:00:57.282233+00:00"
+  "updated_at": "2026-11-24T19:01:47.233128+00:00"
 }
