@@ -228611,17 +228611,19 @@
       }
     },
     "27127": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6027504",
+          "target_video_id": "31323416",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:21:37.743632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6027504",
         "display_name": "Big Miracle SD CZ Dabing",
         "planned_at": "2026-11-24T06:18:52.800513+00:00"
-      },
-      "claim": {
-        "worker_id": "9df204c805744c2d9a49774dabcf64a3-shard-0",
-        "claimed_at": "2026-11-24T06:18:53.368252+00:00",
-        "lease_expires_at": "2026-11-24T12:18:53.368252+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31323416",
       "prepared": {
@@ -265409,5 +265411,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:20:26.290039+00:00"
+  "updated_at": "2026-11-24T06:21:37.743650+00:00"
 }
