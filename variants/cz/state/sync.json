@@ -235814,17 +235814,19 @@
       }
     },
     "4055": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30162869",
+          "target_video_id": "31336760",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:43:45.701595+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30162869",
         "display_name": "A Haunting in Venice 4K CZ Dabing",
         "planned_at": "2026-11-24T13:17:46.236468+00:00"
-      },
-      "claim": {
-        "worker_id": "d131ee18ffa24b4d950e52654c7b7ac3-shard-0",
-        "claimed_at": "2026-11-24T13:17:46.782565+00:00",
-        "lease_expires_at": "2026-11-24T19:17:46.782565+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336760",
       "prepared": {
@@ -271207,5 +271209,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:38:55.823361+00:00"
+  "updated_at": "2026-11-24T13:43:45.701613+00:00"
 }
