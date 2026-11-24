@@ -230251,17 +230251,19 @@
       "attempts": []
     },
     "17486": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31072107",
+          "target_video_id": "31326729",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:59:54.107339+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31072107",
         "display_name": "The Keepers of the 5 Kingdoms 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:55:04.123852+00:00"
-      },
-      "claim": {
-        "worker_id": "b548b22e73ef4bd695859c8afff7ade7-shard-0",
-        "claimed_at": "2026-11-24T07:55:04.605821+00:00",
-        "lease_expires_at": "2026-11-24T13:55:04.605821+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326729",
       "prepared": {
@@ -266686,5 +266688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:59:20.219564+00:00"
+  "updated_at": "2026-11-24T07:59:54.107356+00:00"
 }
