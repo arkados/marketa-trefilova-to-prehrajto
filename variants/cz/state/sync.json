@@ -227750,17 +227750,19 @@
       }
     },
     "5468": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34332234",
+          "target_video_id": "31321995",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:35:41.348875+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34332234",
         "display_name": "Cold Feet (Kalte Füße) 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:27:14.424109+00:00"
-      },
-      "claim": {
-        "worker_id": "e36332f9e11942ce81f96b7dfb0595c3-shard-0",
-        "claimed_at": "2026-11-24T05:27:15.064849+00:00",
-        "lease_expires_at": "2026-11-24T11:27:15.064849+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321995",
       "prepared": {
@@ -264772,5 +264774,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:32:52.994499+00:00"
+  "updated_at": "2026-11-24T05:35:41.348898+00:00"
 }
