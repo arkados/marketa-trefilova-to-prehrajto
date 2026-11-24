@@ -222582,17 +222582,19 @@
       "attempts": []
     },
     "29219": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30853688",
+          "target_video_id": "31311543",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:05:29.743766+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30853688",
         "display_name": "Scooby-Doo! and Kiss: Rock and Roll Mystery 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:01:20.005160+00:00"
-      },
-      "claim": {
-        "worker_id": "11b764deba4e4d1aa8665712883043e4-shard-0",
-        "claimed_at": "2026-11-24T00:01:20.491979+00:00",
-        "lease_expires_at": "2026-11-24T06:01:20.491979+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311543",
       "prepared": {
@@ -260794,5 +260796,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:05:00.961070+00:00"
+  "updated_at": "2026-11-24T00:05:29.743789+00:00"
 }
