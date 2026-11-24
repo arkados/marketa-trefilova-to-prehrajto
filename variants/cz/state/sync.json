@@ -234557,17 +234557,19 @@
       }
     },
     "16901": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31983024",
+          "target_video_id": "31333800",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:53:18.932224+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31983024",
         "display_name": "Mia and Me: The Hero of Centopia 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:51:05.783004+00:00"
-      },
-      "claim": {
-        "worker_id": "2356a23f73e24f819490c2f7e0d86e49-shard-0",
-        "claimed_at": "2026-11-24T11:51:06.279985+00:00",
-        "lease_expires_at": "2026-11-24T17:51:06.279985+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333800",
       "prepared": {
@@ -270082,5 +270084,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:52:43.145752+00:00"
+  "updated_at": "2026-11-24T11:53:18.932243+00:00"
 }
