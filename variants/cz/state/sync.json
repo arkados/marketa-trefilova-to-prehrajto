@@ -224939,17 +224939,19 @@
       "attempts": []
     },
     "33710": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30864914",
+          "target_video_id": "31316576",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:48:08.564694+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30864914",
         "display_name": "Retribution (kyou) (2007) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:42:56.479116+00:00"
-      },
-      "claim": {
-        "worker_id": "c7feafca472a429b9cc45bc322c35595-shard-0",
-        "claimed_at": "2026-11-24T02:42:56.980523+00:00",
-        "lease_expires_at": "2026-11-24T08:42:56.980523+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316576",
       "prepared": {
@@ -262577,5 +262579,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:47:45.351159+00:00"
+  "updated_at": "2026-11-24T02:48:08.564714+00:00"
 }
