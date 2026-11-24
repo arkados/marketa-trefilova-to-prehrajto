@@ -242954,17 +242954,19 @@
       }
     },
     "5433": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31688831",
+          "target_video_id": "31351902",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:04:20.074889+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31688831",
         "display_name": "The Red Ghost (Krasnyy prizrak) 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:02:17.170714+00:00"
-      },
-      "claim": {
-        "worker_id": "9ca22e5a0562499992b92c2cfc06d88b-shard-0",
-        "claimed_at": "2026-11-24T23:02:17.670731+00:00",
-        "lease_expires_at": "2026-11-25T05:02:17.670731+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351902",
       "prepared": {
@@ -276721,5 +276723,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:02:23.102951+00:00"
+  "updated_at": "2026-11-24T23:04:20.074904+00:00"
 }
