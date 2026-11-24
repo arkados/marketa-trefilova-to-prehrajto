@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T08:12:09.970699+00:00"
+        "planned_at": "2026-11-24T08:12:20.920545+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -230575,17 +230575,19 @@
       "attempts": []
     },
     "28311": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26204443",
+          "target_video_id": "31327217",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:12:27.608059+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26204443",
         "display_name": "Stretch 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:10:21.456771+00:00"
-      },
-      "claim": {
-        "worker_id": "4dc276d69b6f4144b0486c685970f9dc-shard-0",
-        "claimed_at": "2026-11-24T08:10:21.940468+00:00",
-        "lease_expires_at": "2026-11-24T14:10:21.940468+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327217",
       "prepared": {
@@ -230630,7 +230632,13 @@
       "last_plan": {
         "source_id": "30710818",
         "display_name": "Spartan SD CZ Dabing",
-        "planned_at": "2026-11-24T08:12:10.273429+00:00"
+        "planned_at": "2026-11-24T08:12:21.197317+00:00"
+      },
+      "claim": {
+        "worker_id": "c27ad08e173044a2bf3f85802b23d9a5-shard-0",
+        "claimed_at": "2026-11-24T08:12:21.702170+00:00",
+        "lease_expires_at": "2026-11-24T14:12:21.702170+00:00",
+        "run_id": "45341588798"
       }
     },
     "23516": {
@@ -266873,5 +266881,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:12:10.273448+00:00"
+  "updated_at": "2026-11-24T08:12:27.608074+00:00"
 }
