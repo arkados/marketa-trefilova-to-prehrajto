@@ -243893,17 +243893,19 @@
       "attempts": []
     },
     "36677": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32764172",
+          "target_video_id": "31353362",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:54:57.049472+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32764172",
         "display_name": "Ah! The Beautiful Priestesses of Bacchus (Ah ! Les belles bacchantes) 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:48:34.039436+00:00"
-      },
-      "claim": {
-        "worker_id": "03832f0a1d744c57bd3caa56ddccc91d-shard-0",
-        "claimed_at": "2026-11-24T23:48:37.180917+00:00",
-        "lease_expires_at": "2026-11-25T05:48:37.180917+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353362",
       "prepared": {
@@ -277494,5 +277496,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:52:22.016905+00:00"
+  "updated_at": "2026-11-24T23:54:57.049491+00:00"
 }
