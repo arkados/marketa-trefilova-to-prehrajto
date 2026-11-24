@@ -238609,17 +238609,19 @@
       "attempts": []
     },
     "17129": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695630",
+          "target_video_id": "31346857",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:26:13.671388+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695630",
         "display_name": "The Body (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:22:43.759938+00:00"
-      },
-      "claim": {
-        "worker_id": "1d3a508713604e60ace915f2c92222b6-shard-0",
-        "claimed_at": "2026-11-24T19:22:44.404168+00:00",
-        "lease_expires_at": "2026-11-25T01:22:44.404168+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31346857",
       "prepared": {
@@ -273407,5 +273409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:25:10.065102+00:00"
+  "updated_at": "2026-11-24T19:26:13.671405+00:00"
 }
