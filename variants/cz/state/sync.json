@@ -224145,17 +224145,19 @@
       "attempts": []
     },
     "17101": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14724959",
+          "target_video_id": "31313912",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:23:33.746070+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14724959",
         "display_name": "Eaten by Lions SD CZ Dabing",
         "planned_at": "2026-11-24T01:21:32.945329+00:00"
-      },
-      "claim": {
-        "worker_id": "c2c74c7181cb4431b39be17068dcb213-shard-0",
-        "claimed_at": "2026-11-24T01:21:33.424714+00:00",
-        "lease_expires_at": "2026-11-24T07:21:33.424714+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313912",
       "prepared": {
@@ -261946,5 +261948,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:23:27.678824+00:00"
+  "updated_at": "2026-11-24T01:23:33.746091+00:00"
 }
