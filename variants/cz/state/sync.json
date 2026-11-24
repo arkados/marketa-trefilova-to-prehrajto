@@ -233763,17 +233763,19 @@
       }
     },
     "35229": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34720347",
+          "target_video_id": "31332337",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:07:20.604912+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34720347",
         "display_name": "The Cloud (Die Wolke) 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:05:08.651344+00:00"
-      },
-      "claim": {
-        "worker_id": "88dbeea4b5c34e638d8477aeb7959936-shard-0",
-        "claimed_at": "2026-11-24T11:05:09.220574+00:00",
-        "lease_expires_at": "2026-11-24T17:05:09.220574+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332337",
       "prepared": {
@@ -269402,5 +269404,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:05:13.514837+00:00"
+  "updated_at": "2026-11-24T11:07:20.604932+00:00"
 }
