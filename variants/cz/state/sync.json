@@ -238633,17 +238633,19 @@
       "attempts": []
     },
     "6193": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27752886",
+          "target_video_id": "31346863",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:24:54.375344+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27752886",
         "display_name": "Thank You, I'm Sorry (Tack och förlåt) 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:22:55.397546+00:00"
-      },
-      "claim": {
-        "worker_id": "73ad7e263eb2421c8d8e55c465378ba3-shard-0",
-        "claimed_at": "2026-11-24T19:22:56.192795+00:00",
-        "lease_expires_at": "2026-11-25T01:22:56.192795+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31346863",
       "prepared": {
@@ -273387,5 +273389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:23:01.174237+00:00"
+  "updated_at": "2026-11-24T19:24:54.375363+00:00"
 }
