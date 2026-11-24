@@ -232828,17 +232828,19 @@
       "attempts": []
     },
     "13466": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16506624",
+          "target_video_id": "31330624",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:05:24.673756+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16506624",
         "display_name": "Casanova 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:00:38.355264+00:00"
-      },
-      "claim": {
-        "worker_id": "adc3c5d839114ac2b118d0a770637b3b-shard-0",
-        "claimed_at": "2026-11-24T10:00:38.903877+00:00",
-        "lease_expires_at": "2026-11-24T16:00:38.903877+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330624",
       "prepared": {
@@ -268709,5 +268711,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:05:12.917443+00:00"
+  "updated_at": "2026-11-24T10:05:24.673775+00:00"
 }
