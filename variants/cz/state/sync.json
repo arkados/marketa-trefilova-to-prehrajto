@@ -227459,17 +227459,19 @@
       }
     },
     "25976": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30310867",
+          "target_video_id": "31321650",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:16:13.806286+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30310867",
         "display_name": "Wild Chicks in Love SD CZ Dabing",
         "planned_at": "2026-11-24T05:14:58.271497+00:00"
-      },
-      "claim": {
-        "worker_id": "fdbc11c5076e47f18478b8fb5d7fca72-shard-0",
-        "claimed_at": "2026-11-24T05:14:58.855890+00:00",
-        "lease_expires_at": "2026-11-24T11:14:58.855890+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321650",
       "prepared": {
@@ -264512,5 +264514,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:15:02.699908+00:00"
+  "updated_at": "2026-11-24T05:16:13.806306+00:00"
 }
