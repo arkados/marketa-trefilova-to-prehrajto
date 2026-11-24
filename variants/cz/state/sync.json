@@ -241868,17 +241868,19 @@
       "attempts": []
     },
     "13793": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32528443",
+          "target_video_id": "31350489",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:11:53.628064+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32528443",
         "display_name": "The Girl in the Park 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:09:37.404971+00:00"
-      },
-      "claim": {
-        "worker_id": "9be3d882e42c4f1ba8544341f63352b3-shard-0",
-        "claimed_at": "2026-11-24T22:09:37.885756+00:00",
-        "lease_expires_at": "2026-11-25T04:09:37.885756+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350489",
       "prepared": {
@@ -275938,5 +275940,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:11:33.359420+00:00"
+  "updated_at": "2026-11-24T22:11:53.628081+00:00"
 }
