@@ -225810,17 +225810,19 @@
       "attempts": []
     },
     "27677": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25841263",
+          "target_video_id": "31318011",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:28:49.676502+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25841263",
         "display_name": "And Baby Will Fall SD CZ Dabing",
         "planned_at": "2026-11-24T03:27:07.007382+00:00"
-      },
-      "claim": {
-        "worker_id": "d26eeadf9f4c45b7bf36e0ce4b2d7440-shard-0",
-        "claimed_at": "2026-11-24T03:27:07.507813+00:00",
-        "lease_expires_at": "2026-11-24T09:27:07.507813+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318011",
       "prepared": {
@@ -263239,5 +263241,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:28:24.342518+00:00"
+  "updated_at": "2026-11-24T03:28:49.676522+00:00"
 }
