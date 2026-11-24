@@ -233963,17 +233963,19 @@
       }
     },
     "4337": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28518945",
+          "target_video_id": "31332738",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:18:59.879549+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28518945",
         "display_name": "A Perfect Getaway 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:16:54.908977+00:00"
-      },
-      "claim": {
-        "worker_id": "78418f9ec6234fe1b187e25a4536dfb7-shard-0",
-        "claimed_at": "2026-11-24T11:16:55.460264+00:00",
-        "lease_expires_at": "2026-11-24T17:16:55.460264+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332738",
       "prepared": {
@@ -269622,5 +269624,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:18:55.100944+00:00"
+  "updated_at": "2026-11-24T11:18:59.879568+00:00"
 }
