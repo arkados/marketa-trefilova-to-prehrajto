@@ -243274,17 +243274,19 @@
       }
     },
     "12393": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11708777",
+          "target_video_id": "31352368",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:18:25.542427+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11708777",
         "display_name": "The Bet (Le Pari) SD CZ Dabing",
         "planned_at": "2026-11-24T23:17:17.943471+00:00"
-      },
-      "claim": {
-        "worker_id": "26ef720779ec44d6a63efbe6e9f3f2bb-shard-0",
-        "claimed_at": "2026-11-24T23:17:18.400416+00:00",
-        "lease_expires_at": "2026-11-25T05:17:18.400416+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352368",
       "prepared": {
@@ -276981,5 +276983,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:17:57.827192+00:00"
+  "updated_at": "2026-11-24T23:18:25.542445+00:00"
 }
