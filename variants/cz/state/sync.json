@@ -232700,17 +232700,19 @@
       "attempts": []
     },
     "12467": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767246",
+          "target_video_id": "31330396",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:56:30.338321+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767246",
         "display_name": "Banzai 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:54:19.843874+00:00"
-      },
-      "claim": {
-        "worker_id": "3a76b9de65f14084ae0239f3fd137217-shard-0",
-        "claimed_at": "2026-11-24T09:54:20.376138+00:00",
-        "lease_expires_at": "2026-11-24T15:54:20.376138+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330396",
       "prepared": {
@@ -268549,5 +268551,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:54:24.687250+00:00"
+  "updated_at": "2026-11-24T09:56:30.338340+00:00"
 }
