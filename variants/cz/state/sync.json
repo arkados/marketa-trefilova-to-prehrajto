@@ -234580,17 +234580,19 @@
       }
     },
     "4387": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31094188",
+          "target_video_id": "31333844",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:55:23.725663+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31094188",
         "display_name": "Jackass Presents: Bad Grandpa 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:52:38.599404+00:00"
-      },
-      "claim": {
-        "worker_id": "2b349f9b4f6547c8a82743b4d64709a4-shard-0",
-        "claimed_at": "2026-11-24T11:52:39.533837+00:00",
-        "lease_expires_at": "2026-11-24T17:52:39.533837+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333844",
       "prepared": {
@@ -270102,5 +270104,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:53:31.129971+00:00"
+  "updated_at": "2026-11-24T11:55:23.725698+00:00"
 }
