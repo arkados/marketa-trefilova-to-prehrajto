@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T19:42:01.673903+00:00"
+        "planned_at": "2026-11-24T19:42:06.180578+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -238873,17 +238873,19 @@
       }
     },
     "21930": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33598708",
+          "target_video_id": "31347171",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:42:09.206760+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33598708",
         "display_name": "Spirits of the Dead 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:37:26.568196+00:00"
-      },
-      "claim": {
-        "worker_id": "b1049c5b48a54e62b7c8787caea52f09-shard-0",
-        "claimed_at": "2026-11-24T19:37:27.063501+00:00",
-        "lease_expires_at": "2026-11-25T01:37:27.063501+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347171",
       "prepared": {
@@ -238951,7 +238953,13 @@
       "last_plan": {
         "source_id": "27644507",
         "display_name": "The Bedroom Window 1080p CZ Dabing",
-        "planned_at": "2026-11-24T19:42:01.947887+00:00"
+        "planned_at": "2026-11-24T19:42:06.458599+00:00"
+      },
+      "claim": {
+        "worker_id": "aa4b39dd2de24617a009229e5bcf5b3c-shard-0",
+        "claimed_at": "2026-11-24T19:42:06.933912+00:00",
+        "lease_expires_at": "2026-11-25T01:42:06.933912+00:00",
+        "run_id": "45469401145"
       }
     },
     "16489": {
@@ -273634,5 +273642,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:42:01.947904+00:00"
+  "updated_at": "2026-11-24T19:42:09.206782+00:00"
 }
