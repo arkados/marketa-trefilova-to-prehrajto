@@ -235078,17 +235078,19 @@
       }
     },
     "26050": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25725640",
+          "target_video_id": "31334800",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:26:54.940139+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25725640",
         "display_name": "Letters to Juliet 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:23:51.731801+00:00"
-      },
-      "claim": {
-        "worker_id": "660c7f16af77441c9fc11c4e0574d54e-shard-0",
-        "claimed_at": "2026-11-24T12:23:52.283754+00:00",
-        "lease_expires_at": "2026-11-24T18:23:52.283754+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334800",
       "prepared": {
@@ -270533,5 +270535,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:24:24.470128+00:00"
+  "updated_at": "2026-11-24T12:26:54.940159+00:00"
 }
