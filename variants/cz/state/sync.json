@@ -233555,17 +233555,19 @@
       }
     },
     "4077": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32960704",
+          "target_video_id": "31331976",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:15:37.610977+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32960704",
         "display_name": "The First Omen 4K CZ Dabing",
         "planned_at": "2026-11-24T10:52:12.384614+00:00"
-      },
-      "claim": {
-        "worker_id": "d318e2daf353432f8fee827f6885ea3f-shard-0",
-        "claimed_at": "2026-11-24T10:52:13.054163+00:00",
-        "lease_expires_at": "2026-11-24T16:52:13.054163+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31331976",
       "prepared": {
@@ -269522,5 +269524,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:14:46.172609+00:00"
+  "updated_at": "2026-11-24T11:15:37.610995+00:00"
 }
