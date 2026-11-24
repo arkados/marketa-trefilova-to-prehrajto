@@ -235149,17 +235149,19 @@
       }
     },
     "4016": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33239606",
+          "target_video_id": "31334882",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:29:51.585598+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33239606",
         "display_name": "Bean 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:27:01.456106+00:00"
-      },
-      "claim": {
-        "worker_id": "467080b93cf54364ae90c2d05c20fd52-shard-0",
-        "claimed_at": "2026-11-24T12:27:02.217285+00:00",
-        "lease_expires_at": "2026-11-24T18:27:02.217285+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334882",
       "prepared": {
@@ -270610,5 +270612,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:27:59.974587+00:00"
+  "updated_at": "2026-11-24T12:29:51.585618+00:00"
 }
