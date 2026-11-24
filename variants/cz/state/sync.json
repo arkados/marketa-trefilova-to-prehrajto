@@ -238117,17 +238117,19 @@
       }
     },
     "4339": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31005006",
+          "target_video_id": "31345792",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:47:05.635658+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31005006",
         "display_name": "X-Men Origins: Wolverine 4K CZ Dabing",
         "planned_at": "2026-11-24T18:39:02.798454+00:00"
-      },
-      "claim": {
-        "worker_id": "cd6d2f7d4c2749ad807b5d048708e298-shard-0",
-        "claimed_at": "2026-11-24T18:39:03.951878+00:00",
-        "lease_expires_at": "2026-11-25T00:39:03.951878+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345792",
       "prepared": {
@@ -273030,5 +273032,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:44:59.632926+00:00"
+  "updated_at": "2026-11-24T18:47:05.635677+00:00"
 }
