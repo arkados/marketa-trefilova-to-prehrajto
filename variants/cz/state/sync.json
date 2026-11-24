@@ -240817,17 +240817,19 @@
       "attempts": []
     },
     "13562": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32958393",
+          "target_video_id": "31349551",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:30:13.680920+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32958393",
         "display_name": "Taming Crocodiles (Jak se krotí krokodýli) 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:26:40.564865+00:00"
-      },
-      "claim": {
-        "worker_id": "70a187bd5fbb47c7a9eed8d2e784e146-shard-0",
-        "claimed_at": "2026-11-24T21:26:41.070995+00:00",
-        "lease_expires_at": "2026-11-25T03:26:41.070995+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349551",
       "prepared": {
@@ -275088,5 +275090,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:26:47.882407+00:00"
+  "updated_at": "2026-11-24T21:30:13.680936+00:00"
 }
