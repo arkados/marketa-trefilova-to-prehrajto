@@ -231663,17 +231663,19 @@
       }
     },
     "4071": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29782719",
+          "target_video_id": "31328951",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:11:04.634820+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29782719",
         "display_name": "Boston Strangler 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:06:04.687531+00:00"
-      },
-      "claim": {
-        "worker_id": "f5c78f2782a740fc856fd786357bf9f4-shard-0",
-        "claimed_at": "2026-11-24T09:06:05.227424+00:00",
-        "lease_expires_at": "2026-11-24T15:06:05.227424+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328951",
       "prepared": {
@@ -267796,5 +267798,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:10:00.076452+00:00"
+  "updated_at": "2026-11-24T09:11:04.634840+00:00"
 }
