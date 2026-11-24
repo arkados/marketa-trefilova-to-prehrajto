@@ -226032,17 +226032,19 @@
       "attempts": []
     },
     "13469": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19550541",
+          "target_video_id": "31318285",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:42:46.639243+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19550541",
         "display_name": "Pánská jízda 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:39:11.972984+00:00"
-      },
-      "claim": {
-        "worker_id": "617f368de4ad4fc59c6f2e20f16e3b62-shard-0",
-        "claimed_at": "2026-11-24T03:39:12.525566+00:00",
-        "lease_expires_at": "2026-11-24T09:39:12.525566+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318285",
       "prepared": {
@@ -263439,5 +263441,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:41:14.405780+00:00"
+  "updated_at": "2026-11-24T03:42:46.639265+00:00"
 }
