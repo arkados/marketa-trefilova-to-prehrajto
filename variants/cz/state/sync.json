@@ -235124,17 +235124,19 @@
       }
     },
     "25010": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28306592",
+          "target_video_id": "31334816",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:26:57.132131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28306592",
         "display_name": "Hostage (2005) 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:24:19.708155+00:00"
-      },
-      "claim": {
-        "worker_id": "83b00772eb20449c963cc856939bfe8c-shard-0",
-        "claimed_at": "2026-11-24T12:24:20.233501+00:00",
-        "lease_expires_at": "2026-11-24T18:24:20.233501+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334816",
       "prepared": {
@@ -270535,5 +270537,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:26:54.940159+00:00"
+  "updated_at": "2026-11-24T12:26:57.132158+00:00"
 }
