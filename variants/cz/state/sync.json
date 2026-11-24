@@ -223237,17 +223237,19 @@
       }
     },
     "14048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34459675",
+          "target_video_id": "31312540",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:40:23.686354+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34459675",
         "display_name": "Psy 3 (Psy 3: W imię zasad) SD CZ Dabing",
         "planned_at": "2026-11-24T00:37:55.865433+00:00"
-      },
-      "claim": {
-        "worker_id": "a7c4337cb01f40aa9263384d7b22e86d-shard-0",
-        "claimed_at": "2026-11-24T00:37:56.297895+00:00",
-        "lease_expires_at": "2026-11-24T06:37:56.297895+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312540",
       "prepared": {
@@ -261266,5 +261268,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:39:00.120705+00:00"
+  "updated_at": "2026-11-24T00:40:23.686372+00:00"
 }
