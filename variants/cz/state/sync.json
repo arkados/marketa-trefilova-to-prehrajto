@@ -228814,17 +228814,19 @@
       "attempts": []
     },
     "19974": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34724254",
+          "target_video_id": "31324313",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:40:12.757909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34724254",
         "display_name": "Blood Ties SD CZ Dabing",
         "planned_at": "2026-11-24T06:38:12.303652+00:00"
-      },
-      "claim": {
-        "worker_id": "3eb455e1d3ca4f90a68d46cd469b8f0b-shard-0",
-        "claimed_at": "2026-11-24T06:38:12.759131+00:00",
-        "lease_expires_at": "2026-11-24T12:38:12.759131+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324313",
       "prepared": {
@@ -265549,5 +265551,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:40:10.318308+00:00"
+  "updated_at": "2026-11-24T06:40:12.757929+00:00"
 }
