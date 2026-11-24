@@ -225139,17 +225139,19 @@
       "attempts": []
     },
     "22539": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34494433",
+          "target_video_id": "31316849",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:55:17.550353+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34494433",
         "display_name": "Trois hommes à abattre (Three Men to Kill) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:51:54.944324+00:00"
-      },
-      "claim": {
-        "worker_id": "3bbc8f10a3bb4edea49c3e06793a3bae-shard-0",
-        "claimed_at": "2026-11-24T02:51:55.463731+00:00",
-        "lease_expires_at": "2026-11-24T08:51:55.463731+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316849",
       "prepared": {
@@ -262694,5 +262696,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:53:44.969067+00:00"
+  "updated_at": "2026-11-24T02:55:17.550372+00:00"
 }
