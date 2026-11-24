@@ -235841,17 +235841,19 @@
       "attempts": []
     },
     "4392": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26227067",
+          "target_video_id": "31336978",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:28:36.702646+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26227067",
         "display_name": "Homefront 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:25:01.209692+00:00"
-      },
-      "claim": {
-        "worker_id": "fa79223c66ec41549082988adfffb86c-shard-0",
-        "claimed_at": "2026-11-24T13:25:04.756045+00:00",
-        "lease_expires_at": "2026-11-24T19:25:04.756045+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336978",
       "prepared": {
@@ -271147,5 +271149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:25:19.457569+00:00"
+  "updated_at": "2026-11-24T13:28:36.702666+00:00"
 }
