@@ -235336,17 +235336,19 @@
       "attempts": []
     },
     "4406": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25305227",
+          "target_video_id": "31335607",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:42:00.943487+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25305227",
         "display_name": "Premium Rush 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:36:04.405955+00:00"
-      },
-      "claim": {
-        "worker_id": "6618089627fb4a649d5bac4524b3e3b1-shard-0",
-        "claimed_at": "2026-11-24T12:36:04.951500+00:00",
-        "lease_expires_at": "2026-11-24T18:36:04.951500+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31335607",
       "prepared": {
@@ -270767,5 +270769,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:39:08.798256+00:00"
+  "updated_at": "2026-11-24T12:42:00.943507+00:00"
 }
