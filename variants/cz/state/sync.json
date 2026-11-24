@@ -230437,17 +230437,19 @@
       }
     },
     "4144": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20626467",
+          "target_video_id": "31326923",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:04:45.442354+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20626467",
         "display_name": "Against The Ice 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:01:33.630978+00:00"
-      },
-      "claim": {
-        "worker_id": "58fc0ec8cd9a41f7b7dd8279f05e99bc-shard-0",
-        "claimed_at": "2026-11-24T08:01:34.123863+00:00",
-        "lease_expires_at": "2026-11-24T14:01:34.123863+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326923",
       "prepared": {
@@ -266766,5 +266768,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:03:33.498364+00:00"
+  "updated_at": "2026-11-24T08:04:45.442373+00:00"
 }
