@@ -241894,17 +241894,19 @@
       "attempts": []
     },
     "22302": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34122391",
+          "target_video_id": "31350527",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:19:40.053047+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34122391",
         "display_name": "The Last Hard Men 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:11:06.483626+00:00"
-      },
-      "claim": {
-        "worker_id": "19640f80aba948b5a39cae8756a9461a-shard-0",
-        "claimed_at": "2026-11-24T22:11:06.947020+00:00",
-        "lease_expires_at": "2026-11-25T04:11:06.947020+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350527",
       "prepared": {
@@ -276018,5 +276020,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:18:20.828768+00:00"
+  "updated_at": "2026-11-24T22:19:40.053064+00:00"
 }
