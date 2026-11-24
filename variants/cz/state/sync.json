@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T09:00:59.367082+00:00"
+        "planned_at": "2026-11-24T09:01:03.973651+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -231516,17 +231516,19 @@
       }
     },
     "5473": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26941037",
+          "target_video_id": "31328782",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:01:04.943752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26941037",
         "display_name": "Savage (2019) SD CZ Dabing",
         "planned_at": "2026-11-24T08:59:46.474617+00:00"
-      },
-      "claim": {
-        "worker_id": "d3422eab4f104c34b6142b4df8604594-shard-0",
-        "claimed_at": "2026-11-24T08:59:46.923684+00:00",
-        "lease_expires_at": "2026-11-24T14:59:46.923684+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328782",
       "prepared": {
@@ -231568,7 +231570,13 @@
       "last_plan": {
         "source_id": "26385411",
         "display_name": "Tom and Jerry: Spy Quest 1080p CZ Dabing",
-        "planned_at": "2026-11-24T09:00:59.632097+00:00"
+        "planned_at": "2026-11-24T09:01:04.273855+00:00"
+      },
+      "claim": {
+        "worker_id": "f4670ff538ca4ed7be7daf9a019fa008-shard-0",
+        "claimed_at": "2026-11-24T09:01:04.741407+00:00",
+        "lease_expires_at": "2026-11-24T15:01:04.741407+00:00",
+        "run_id": "45341588798"
       }
     },
     "24598": {
@@ -267643,5 +267651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:00:59.632114+00:00"
+  "updated_at": "2026-11-24T09:01:04.943770+00:00"
 }
