@@ -232924,17 +232924,19 @@
       }
     },
     "4310": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28759723",
+          "target_video_id": "31330756",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:08:22.977022+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28759723",
         "display_name": "The First Wives Club 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:05:29.995986+00:00"
-      },
-      "claim": {
-        "worker_id": "cd3f96f460f54a4bb588ba28e636a898-shard-0",
-        "claimed_at": "2026-11-24T10:05:30.648434+00:00",
-        "lease_expires_at": "2026-11-24T16:05:30.648434+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330756",
       "prepared": {
@@ -268769,5 +268771,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:06:57.334334+00:00"
+  "updated_at": "2026-11-24T10:08:22.977038+00:00"
 }
