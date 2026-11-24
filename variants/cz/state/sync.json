@@ -235379,17 +235379,19 @@
       }
     },
     "22040": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31286525",
+          "target_video_id": "31335615",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:46:42.305157+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31286525",
         "display_name": "Diamonds Are Forever 4K CZ Dabing",
         "planned_at": "2026-11-24T12:36:28.628433+00:00"
-      },
-      "claim": {
-        "worker_id": "54f93d618c6e4f928cc06c4d2b296b47-shard-0",
-        "claimed_at": "2026-11-24T12:36:29.150189+00:00",
-        "lease_expires_at": "2026-11-24T18:36:29.150189+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31335615",
       "prepared": {
@@ -270807,5 +270809,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:42:52.515118+00:00"
+  "updated_at": "2026-11-24T12:46:42.305177+00:00"
 }
