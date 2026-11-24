@@ -226203,17 +226203,19 @@
       }
     },
     "28349": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30852656",
+          "target_video_id": "31318495",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:53:27.345831+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30852656",
         "display_name": "Superman: Unbound 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:46:11.023696+00:00"
-      },
-      "claim": {
-        "worker_id": "93902152faa642d0998219ec94688eb7-shard-0",
-        "claimed_at": "2026-11-24T03:46:11.766184+00:00",
-        "lease_expires_at": "2026-11-24T09:46:11.766184+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318495",
       "prepared": {
@@ -263539,5 +263541,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:50:21.436152+00:00"
+  "updated_at": "2026-11-24T03:53:27.345850+00:00"
 }
