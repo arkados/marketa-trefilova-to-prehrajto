@@ -242682,17 +242682,19 @@
       "attempts": []
     },
     "25202": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25843949",
+          "target_video_id": "31351524",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:50:45.655772+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25843949",
         "display_name": "Pretty Persuasion SD CZ Dabing",
         "planned_at": "2026-11-24T22:49:23.709246+00:00"
-      },
-      "claim": {
-        "worker_id": "73d2909daa58435287dfe1380572f170-shard-0",
-        "claimed_at": "2026-11-24T22:49:24.161101+00:00",
-        "lease_expires_at": "2026-11-25T04:49:24.161101+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351524",
       "prepared": {
@@ -276524,5 +276526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:49:27.842753+00:00"
+  "updated_at": "2026-11-24T22:50:45.655790+00:00"
 }
