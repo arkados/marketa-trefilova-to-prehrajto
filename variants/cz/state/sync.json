@@ -224530,17 +224530,19 @@
       }
     },
     "7645": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11130317",
+          "target_video_id": "31314727",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:51:50.704195+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11130317",
         "display_name": "Demi soeurs (Demi-sœurs) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:47:49.688615+00:00"
-      },
-      "claim": {
-        "worker_id": "04e5cbe6bd944085a4d7ab1753618264-shard-0",
-        "claimed_at": "2026-11-24T01:47:50.144214+00:00",
-        "lease_expires_at": "2026-11-24T07:47:50.144214+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31314727",
       "prepared": {
@@ -262226,5 +262228,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:49:01.661374+00:00"
+  "updated_at": "2026-11-24T01:51:50.704213+00:00"
 }
