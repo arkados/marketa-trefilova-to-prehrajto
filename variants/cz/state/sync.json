@@ -234205,17 +234205,19 @@
       "attempts": []
     },
     "3882": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34387258",
+          "target_video_id": "31333058",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:31:08.575875+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34387258",
         "display_name": "Peaky Blinders: The Immortal Man 4K CZ Dabing",
         "planned_at": "2026-11-24T11:25:44.351930+00:00"
-      },
-      "claim": {
-        "worker_id": "6acd73847ca9444b9f548a405c94877c-shard-0",
-        "claimed_at": "2026-11-24T11:25:44.910715+00:00",
-        "lease_expires_at": "2026-11-24T17:25:44.910715+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333058",
       "prepared": {
@@ -269822,5 +269824,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:31:05.886019+00:00"
+  "updated_at": "2026-11-24T11:31:08.575898+00:00"
 }
