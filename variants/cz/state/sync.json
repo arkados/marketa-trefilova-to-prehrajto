@@ -234108,17 +234108,19 @@
       "attempts": []
     },
     "12144": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19228268",
+          "target_video_id": "31332908",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:24:50.096440+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19228268",
         "display_name": "Fatherland 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:21:24.284774+00:00"
-      },
-      "claim": {
-        "worker_id": "bf3f6f52ea9845428b9eddbfdf9c809d-shard-0",
-        "claimed_at": "2026-11-24T11:21:24.817465+00:00",
-        "lease_expires_at": "2026-11-24T17:21:24.817465+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332908",
       "prepared": {
@@ -269722,5 +269724,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:23:15.754283+00:00"
+  "updated_at": "2026-11-24T11:24:50.096459+00:00"
 }
