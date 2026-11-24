@@ -233717,17 +233717,19 @@
       }
     },
     "21953": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "4989283",
+          "target_video_id": "31332229",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:02:52.306414+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "4989283",
         "display_name": "The Good Guys and the Bad Guys SD CZ Dabing",
         "planned_at": "2026-11-24T11:01:38.082808+00:00"
-      },
-      "claim": {
-        "worker_id": "3047918a42c7444dad7fa80d20a594c2-shard-0",
-        "claimed_at": "2026-11-24T11:01:38.651722+00:00",
-        "lease_expires_at": "2026-11-24T17:01:38.651722+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332229",
       "prepared": {
@@ -269362,5 +269364,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:01:42.793057+00:00"
+  "updated_at": "2026-11-24T11:02:52.306435+00:00"
 }
