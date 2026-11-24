@@ -237088,17 +237088,19 @@
       }
     },
     "13533": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32569975",
+          "target_video_id": "31342831",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:52:14.430716+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32569975",
         "display_name": "Get Smart 1080p CZ Dabing",
         "planned_at": "2026-11-24T16:46:42.519570+00:00"
-      },
-      "claim": {
-        "worker_id": "afd36b1aa94d4b70aef17a201f775b5d-shard-0",
-        "claimed_at": "2026-11-24T16:46:43.424064+00:00",
-        "lease_expires_at": "2026-11-24T22:46:43.424064+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342831",
       "prepared": {
@@ -272172,5 +272174,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:46:48.072146+00:00"
+  "updated_at": "2026-11-24T16:52:14.430732+00:00"
 }
