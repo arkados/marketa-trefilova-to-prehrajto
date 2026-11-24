@@ -243642,17 +243642,19 @@
       "attempts": []
     },
     "21673": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32817582",
+          "target_video_id": "31352838",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:36:52.420299+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32817582",
         "display_name": "Love on a Pillow 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:32:34.177188+00:00"
-      },
-      "claim": {
-        "worker_id": "a57cc1fa2fd7497a95dd4b11d93a5038-shard-0",
-        "claimed_at": "2026-11-24T23:32:35.302031+00:00",
-        "lease_expires_at": "2026-11-25T05:32:35.302031+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31352838",
       "prepared": {
@@ -277294,5 +277296,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:35:55.191438+00:00"
+  "updated_at": "2026-11-24T23:36:52.420318+00:00"
 }
