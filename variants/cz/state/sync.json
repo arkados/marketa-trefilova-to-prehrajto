@@ -131802,13 +131802,6 @@
           "source_id": "32647219",
           "target_video_id": "30987015",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:13:41.444898+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32647219",
-          "target_video_id": "30987015",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:38:18.318933+00:00"
         },
         {
@@ -131817,12 +131810,19 @@
           "target_video_id": "30987015",
           "permanent": false,
           "attempted_at": "2026-11-22T22:21:08.404375+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32647219",
+          "target_video_id": "30987015",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:22:34.826237+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32647219",
         "display_name": "Mama (Máma) (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T19:14:20.696846+00:00"
+        "planned_at": "2026-11-24T19:22:31.812322+00:00"
       },
       "previous_target_id": "30987015",
       "prepared": {
@@ -238576,7 +238576,18 @@
       }
     },
     "15133": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "12076499",
+        "display_name": "A Birder's Guide to Everything 1080p CZ Dabing",
+        "planned_at": "2026-11-24T19:22:32.084035+00:00"
+      },
+      "claim": {
+        "worker_id": "b359553a7c964186b166a86f66f5401a-shard-0",
+        "claimed_at": "2026-11-24T19:22:32.934639+00:00",
+        "lease_expires_at": "2026-11-25T01:22:32.934639+00:00",
+        "run_id": "45469401145"
+      }
     },
     "21823": {
       "attempts": []
@@ -238591,13 +238602,23 @@
       "attempts": []
     },
     "17129": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34695630",
+        "display_name": "The Body (2018) 1080p CZ Dabing",
+        "planned_at": "2026-11-24T19:22:32.262492+00:00"
+      }
     },
     "20003": {
       "attempts": []
     },
     "6193": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27752886",
+        "display_name": "Thank You, I'm Sorry (Tack och förlåt) 1080p CZ Dabing",
+        "planned_at": "2026-11-24T19:22:32.453811+00:00"
+      }
     },
     "30739": {
       "attempts": []
@@ -273333,5 +273354,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:18:30.640752+00:00"
+  "updated_at": "2026-11-24T19:22:34.826258+00:00"
 }
