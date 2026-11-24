@@ -237162,17 +237162,19 @@
       }
     },
     "4390": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34355508",
+          "target_video_id": "31343053",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:06:58.144922+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34355508",
         "display_name": "Ice Age: Continental Drift 4K CZ Dabing",
         "planned_at": "2026-11-24T16:58:37.303176+00:00"
-      },
-      "claim": {
-        "worker_id": "7e4252b66e80461d9cb9cb82cca7e740-shard-0",
-        "claimed_at": "2026-11-24T16:58:38.165108+00:00",
-        "lease_expires_at": "2026-11-24T22:58:38.165108+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31343053",
       "prepared": {
@@ -272252,5 +272254,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:05:29.760632+00:00"
+  "updated_at": "2026-11-24T17:06:58.144941+00:00"
 }
