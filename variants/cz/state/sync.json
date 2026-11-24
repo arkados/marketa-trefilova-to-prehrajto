@@ -240943,17 +240943,19 @@
       }
     },
     "21384": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34699650",
+          "target_video_id": "31349726",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:36:18.556244+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34699650",
         "display_name": "Ali Baba and the Forty Thieves SD CZ Dabing",
         "planned_at": "2026-11-24T21:35:08.621488+00:00"
-      },
-      "claim": {
-        "worker_id": "5c69634cfed1450185d90c6d3ad0b01e-shard-0",
-        "claimed_at": "2026-11-24T21:35:09.107526+00:00",
-        "lease_expires_at": "2026-11-25T03:35:09.107526+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349726",
       "prepared": {
@@ -275208,5 +275210,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:35:32.767786+00:00"
+  "updated_at": "2026-11-24T21:36:18.556260+00:00"
 }
