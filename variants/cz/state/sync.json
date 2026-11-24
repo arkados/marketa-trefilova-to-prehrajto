@@ -152515,7 +152515,7 @@
       "last_plan": {
         "source_id": "25586153",
         "display_name": "Framed for Murder: A Fixer Upper Mystery 1080p CZ Dabing",
-        "planned_at": "2026-11-24T12:27:37.446459+00:00"
+        "planned_at": "2026-11-24T12:27:42.512612+00:00"
       },
       "previous_target_id": "31035253",
       "prepared": {
@@ -235191,11 +235191,23 @@
       }
     },
     "4138": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34160137",
+          "reason": "Source detail has no authenticated download link; source_id=34160137",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:27:45.890752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34160137",
         "display_name": "Sonic the Hedgehog 2 4K CZ Dabing",
-        "planned_at": "2026-11-24T12:27:37.752401+00:00"
+        "planned_at": "2026-11-24T12:27:42.835160+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34160137",
+        "requested_at": "2026-11-24T12:27:45.890731+00:00"
       }
     },
     "4025": {
@@ -270580,5 +270592,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:27:37.752421+00:00"
+  "updated_at": "2026-11-24T12:27:45.890757+00:00"
 }
