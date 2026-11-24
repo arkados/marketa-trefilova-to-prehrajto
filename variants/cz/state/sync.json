@@ -243988,17 +243988,19 @@
       }
     },
     "13463": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34782189",
+          "target_video_id": "31353561",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:58:33.969677+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34782189",
         "display_name": "Choking Hazard 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:55:09.810862+00:00"
-      },
-      "claim": {
-        "worker_id": "91162a6009924eaa9fd6c8ad8cec6e8a-shard-0",
-        "claimed_at": "2026-11-24T23:55:10.402885+00:00",
-        "lease_expires_at": "2026-11-25T05:55:10.402885+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353561",
       "prepared": {
@@ -277554,5 +277556,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:58:07.246233+00:00"
+  "updated_at": "2026-11-24T23:58:33.969698+00:00"
 }
