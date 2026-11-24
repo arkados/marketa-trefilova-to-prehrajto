@@ -241810,17 +241810,19 @@
       }
     },
     "22033": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34816832",
+          "target_video_id": "31350446",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:11:19.137030+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34816832",
         "display_name": "The Anderson Tapes 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:08:10.399401+00:00"
-      },
-      "claim": {
-        "worker_id": "75533da9b1c144b187b0f17e96c23180-shard-0",
-        "claimed_at": "2026-11-24T22:08:10.883402+00:00",
-        "lease_expires_at": "2026-11-25T04:08:10.883402+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350446",
       "prepared": {
@@ -275918,5 +275920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:11:10.749039+00:00"
+  "updated_at": "2026-11-24T22:11:19.137046+00:00"
 }
