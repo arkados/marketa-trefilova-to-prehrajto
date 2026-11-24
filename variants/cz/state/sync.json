@@ -229412,17 +229412,19 @@
       }
     },
     "9400": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34670353",
+          "target_video_id": "31325317",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:10:27.410283+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34670353",
         "display_name": "Tiny Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:07:58.989886+00:00"
-      },
-      "claim": {
-        "worker_id": "a82de739c8f04f72b5391bba49bf3689-shard-0",
-        "claimed_at": "2026-11-24T07:07:59.504568+00:00",
-        "lease_expires_at": "2026-11-24T13:07:59.504568+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325317",
       "prepared": {
@@ -266029,5 +266031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:08:47.928071+00:00"
+  "updated_at": "2026-11-24T07:10:27.410304+00:00"
 }
