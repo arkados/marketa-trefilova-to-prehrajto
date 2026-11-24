@@ -226288,17 +226288,19 @@
       "attempts": []
     },
     "17693": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32756342",
+          "target_video_id": "31318838",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:57:50.106673+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32756342",
         "display_name": "Fire and Ice 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:55:19.761970+00:00"
-      },
-      "claim": {
-        "worker_id": "5892b512e5fc4baf874e6c157e4f220a-shard-0",
-        "claimed_at": "2026-11-24T03:55:20.281050+00:00",
-        "lease_expires_at": "2026-11-24T09:55:20.281050+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318838",
       "prepared": {
@@ -263579,5 +263581,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:55:25.366695+00:00"
+  "updated_at": "2026-11-24T03:57:50.106694+00:00"
 }
