@@ -226784,17 +226784,19 @@
       }
     },
     "16709": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33853372",
+          "target_video_id": "31320023",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:24:57.816454+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33853372",
         "display_name": "The Ultimate Legacy SD CZ Dabing",
         "planned_at": "2026-11-24T04:23:12.022857+00:00"
-      },
-      "claim": {
-        "worker_id": "7e846b80abb24261bc812de5320d2179-shard-0",
-        "claimed_at": "2026-11-24T04:23:12.587113+00:00",
-        "lease_expires_at": "2026-11-24T10:23:12.587113+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320023",
       "prepared": {
@@ -263979,5 +263981,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:23:16.488710+00:00"
+  "updated_at": "2026-11-24T04:24:57.816478+00:00"
 }
