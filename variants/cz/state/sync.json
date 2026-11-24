@@ -241834,17 +241834,19 @@
       "attempts": []
     },
     "26099": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11876755",
+          "target_video_id": "31350483",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:10:58.590289+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11876755",
         "display_name": "The Restless SD CZ Dabing",
         "planned_at": "2026-11-24T22:09:16.742719+00:00"
-      },
-      "claim": {
-        "worker_id": "d4b149b6f3b54cc38b6969b4c2a46025-shard-0",
-        "claimed_at": "2026-11-24T22:09:17.230570+00:00",
-        "lease_expires_at": "2026-11-25T04:09:17.230570+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350483",
       "prepared": {
@@ -275898,5 +275900,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:09:41.597310+00:00"
+  "updated_at": "2026-11-24T22:10:58.590306+00:00"
 }
