@@ -238799,17 +238799,19 @@
       }
     },
     "27280": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22301427",
+          "target_video_id": "31347125",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:35:43.967613+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22301427",
         "display_name": "De vrais mensonges (Beautiful Lies) SD CZ Dabing",
         "planned_at": "2026-11-24T19:34:24.974813+00:00"
-      },
-      "claim": {
-        "worker_id": "8c5f3428b95b48a5995e0ea6019a1496-shard-0",
-        "claimed_at": "2026-11-24T19:34:25.414408+00:00",
-        "lease_expires_at": "2026-11-25T01:34:25.414408+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347125",
       "prepared": {
@@ -273547,5 +273549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:35:10.769697+00:00"
+  "updated_at": "2026-11-24T19:35:43.967630+00:00"
 }
