@@ -232800,17 +232800,19 @@
       "attempts": []
     },
     "14716": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20114617",
+          "target_video_id": "31330578",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:02:13.684811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20114617",
         "display_name": "Jesus Henry Christ 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:59:16.488240+00:00"
-      },
-      "claim": {
-        "worker_id": "4687bffeda2240a6af7a6dc16a732095-shard-0",
-        "claimed_at": "2026-11-24T09:59:17.091445+00:00",
-        "lease_expires_at": "2026-11-24T15:59:17.091445+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330578",
       "prepared": {
@@ -268649,5 +268651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:00:43.526148+00:00"
+  "updated_at": "2026-11-24T10:02:13.684829+00:00"
 }
