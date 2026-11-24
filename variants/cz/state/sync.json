@@ -226941,17 +226941,19 @@
       "attempts": []
     },
     "16858": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695330",
+          "target_video_id": "31320278",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:31:42.746959+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695330",
         "display_name": "A Stranger with My Kids 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:29:17.497943+00:00"
-      },
-      "claim": {
-        "worker_id": "83a6490f01674743b8db44772bd65e8b-shard-0",
-        "claimed_at": "2026-11-24T04:29:18.101212+00:00",
-        "lease_expires_at": "2026-11-24T10:29:18.101212+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320278",
       "prepared": {
@@ -264112,5 +264114,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:31:37.111878+00:00"
+  "updated_at": "2026-11-24T04:31:42.746999+00:00"
 }
