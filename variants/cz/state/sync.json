@@ -224909,17 +224909,19 @@
       }
     },
     "37544": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34881663",
+          "target_video_id": "31316398",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:42:47.103207+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34881663",
         "display_name": "The Chronology of Water 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:37:12.132126+00:00"
-      },
-      "claim": {
-        "worker_id": "54b789b31391427f86d612cedeec3c1c-shard-0",
-        "claimed_at": "2026-11-24T02:37:12.732367+00:00",
-        "lease_expires_at": "2026-11-24T08:37:12.732367+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316398",
       "prepared": {
@@ -262497,5 +262499,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:37:16.723884+00:00"
+  "updated_at": "2026-11-24T02:42:47.103222+00:00"
 }
