@@ -235425,17 +235425,19 @@
       }
     },
     "4408": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25556784",
+          "target_video_id": "31335794",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:47:55.676789+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25556784",
         "display_name": "Safe 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:42:08.781896+00:00"
-      },
-      "claim": {
-        "worker_id": "aafa648c7f144c9d8a88ab6cd2811861-shard-0",
-        "claimed_at": "2026-11-24T12:42:09.346906+00:00",
-        "lease_expires_at": "2026-11-24T18:42:09.346906+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31335794",
       "prepared": {
@@ -270827,5 +270829,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:46:55.776589+00:00"
+  "updated_at": "2026-11-24T12:47:55.676805+00:00"
 }
