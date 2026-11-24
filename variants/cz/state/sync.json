@@ -242635,17 +242635,19 @@
       "attempts": []
     },
     "31618": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714096",
+          "target_video_id": "31351419",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:49:16.268117+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714096",
         "display_name": "Bloodfist V: Human Target 720p CZ Dabing",
         "planned_at": "2026-11-24T22:46:31.640465+00:00"
-      },
-      "claim": {
-        "worker_id": "8cc13c5bcee246a29fdf14ab681e85e3-shard-0",
-        "claimed_at": "2026-11-24T22:46:32.088288+00:00",
-        "lease_expires_at": "2026-11-25T04:46:32.088288+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351419",
       "prepared": {
@@ -276504,5 +276506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:46:52.113811+00:00"
+  "updated_at": "2026-11-24T22:49:16.268134+00:00"
 }
