@@ -238750,17 +238750,19 @@
       }
     },
     "4998": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25436526",
+          "target_video_id": "31347036",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:34:15.870588+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25436526",
         "display_name": "Aline 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:30:00.145596+00:00"
-      },
-      "claim": {
-        "worker_id": "563d1f854bfa482983a1e799993e756b-shard-0",
-        "claimed_at": "2026-11-24T19:30:00.647176+00:00",
-        "lease_expires_at": "2026-11-25T01:30:00.647176+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347036",
       "prepared": {
@@ -273507,5 +273509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:30:40.128585+00:00"
+  "updated_at": "2026-11-24T19:34:15.870604+00:00"
 }
