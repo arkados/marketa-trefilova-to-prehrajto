@@ -223767,17 +223767,19 @@
       }
     },
     "30940": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713696",
+          "target_video_id": "31313111",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:01:27.845481+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713696",
         "display_name": "Ella Bella Bingo 720p CZ Dabing",
         "planned_at": "2026-11-24T00:58:46.045670+00:00"
-      },
-      "claim": {
-        "worker_id": "9092183efb8a4d9c89c3e2a9ab20de5c-shard-0",
-        "claimed_at": "2026-11-24T00:58:46.521607+00:00",
-        "lease_expires_at": "2026-11-24T06:58:46.521607+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313111",
       "prepared": {
@@ -261646,5 +261648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:00:10.177376+00:00"
+  "updated_at": "2026-11-24T01:01:27.845498+00:00"
 }
