@@ -243386,17 +243386,19 @@
       }
     },
     "29071": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25259195",
+          "target_video_id": "31352485",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:25:29.617458+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25259195",
         "display_name": "One Crazy Cruise 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:21:30.593836+00:00"
-      },
-      "claim": {
-        "worker_id": "1007f17f9c7b42158ca095f82a277fae-shard-0",
-        "claimed_at": "2026-11-24T23:21:31.235210+00:00",
-        "lease_expires_at": "2026-11-25T05:21:31.235210+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352485",
       "prepared": {
@@ -277085,5 +277087,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:23:59.649195+00:00"
+  "updated_at": "2026-11-24T23:25:29.617475+00:00"
 }
