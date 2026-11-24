@@ -243711,17 +243711,19 @@
       }
     },
     "22181": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32940986",
+          "target_video_id": "31352926",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:38:46.908851+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32940986",
         "display_name": "Sadsacks Go to War (Rookies Go to War) 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:35:50.669426+00:00"
-      },
-      "claim": {
-        "worker_id": "392e1007a7714a209c6aaa60c5fffd08-shard-0",
-        "claimed_at": "2026-11-24T23:35:51.282790+00:00",
-        "lease_expires_at": "2026-11-25T05:35:51.282790+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31352926",
       "prepared": {
@@ -277334,5 +277336,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:37:41.089905+00:00"
+  "updated_at": "2026-11-24T23:38:46.908875+00:00"
 }
