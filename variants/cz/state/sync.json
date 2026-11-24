@@ -241195,17 +241195,19 @@
       "attempts": []
     },
     "27604": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15646001",
+          "target_video_id": "31349902",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:44:52.044395+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15646001",
         "display_name": "The Bait SD CZ Dabing",
         "planned_at": "2026-11-24T21:43:37.662161+00:00"
-      },
-      "claim": {
-        "worker_id": "ad8815a06a224d9e9582bbe270e26fe0-shard-0",
-        "claimed_at": "2026-11-24T21:43:38.128917+00:00",
-        "lease_expires_at": "2026-11-25T03:43:38.128917+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349902",
       "prepared": {
@@ -275385,5 +275387,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:43:42.196537+00:00"
+  "updated_at": "2026-11-24T21:44:52.044411+00:00"
 }
