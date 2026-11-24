@@ -235789,17 +235789,19 @@
       }
     },
     "4401": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25316767",
+          "target_video_id": "31336641",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:24:49.393830+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25316767",
         "display_name": "J. Edgar 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:13:25.004390+00:00"
-      },
-      "claim": {
-        "worker_id": "8e44cc5387f8413c9b82043799d8f698-shard-0",
-        "claimed_at": "2026-11-24T13:13:25.533414+00:00",
-        "lease_expires_at": "2026-11-24T19:13:25.533414+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336641",
       "prepared": {
@@ -271107,5 +271109,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:17:55.681576+00:00"
+  "updated_at": "2026-11-24T13:24:49.393850+00:00"
 }
