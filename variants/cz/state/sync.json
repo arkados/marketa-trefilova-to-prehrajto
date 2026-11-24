@@ -226322,17 +226322,19 @@
       "attempts": []
     },
     "21723": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24745463",
+          "target_video_id": "31318944",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:59:04.612360+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24745463",
         "display_name": "Invitation to a Gunfighter SD CZ Dabing",
         "planned_at": "2026-11-24T03:57:57.496428+00:00"
-      },
-      "claim": {
-        "worker_id": "f12bab6ab62e436eb226a2198d2ff264-shard-0",
-        "claimed_at": "2026-11-24T03:57:57.981730+00:00",
-        "lease_expires_at": "2026-11-24T09:57:57.981730+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318944",
       "prepared": {
@@ -263619,5 +263621,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:59:00.218357+00:00"
+  "updated_at": "2026-11-24T03:59:04.612377+00:00"
 }
