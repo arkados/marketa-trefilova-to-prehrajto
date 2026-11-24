@@ -230676,17 +230676,19 @@
       }
     },
     "15575": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26657567",
+          "target_video_id": "31327301",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:21:26.067321+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26657567",
         "display_name": "The Current War 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:12:57.071658+00:00"
-      },
-      "claim": {
-        "worker_id": "44aa9cc8d7cc4988b8e437f6966ea0f3-shard-0",
-        "claimed_at": "2026-11-24T08:12:57.586362+00:00",
-        "lease_expires_at": "2026-11-24T14:12:57.586362+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327301",
       "prepared": {
@@ -267063,5 +267065,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:19:48.226796+00:00"
+  "updated_at": "2026-11-24T08:21:26.067338+00:00"
 }
