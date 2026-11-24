@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T02:48:11.159432+00:00"
+        "planned_at": "2026-11-24T02:48:16.717579+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225042,11 +225042,23 @@
       "attempts": []
     },
     "14299": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30135435",
+          "reason": "Source detail has no authenticated download link; source_id=30135435",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:48:22.270695+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30135435",
         "display_name": "Christmas on Ice 1080p CZ Dabing",
-        "planned_at": "2026-11-24T02:48:11.470912+00:00"
+        "planned_at": "2026-11-24T02:48:17.029802+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30135435",
+        "requested_at": "2026-11-24T02:48:22.270674+00:00"
       }
     },
     "5079": {
@@ -262584,5 +262596,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:48:11.470924+00:00"
+  "updated_at": "2026-11-24T02:48:22.270701+00:00"
 }
