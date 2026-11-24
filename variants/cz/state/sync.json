@@ -226868,17 +226868,19 @@
       "attempts": []
     },
     "24641": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30854862",
+          "target_video_id": "31320131",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:31:18.108668+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30854862",
         "display_name": "Joseph: King of Dreams 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:26:14.973799+00:00"
-      },
-      "claim": {
-        "worker_id": "f6279c4f572f40dcb0fe6c98a5453290-shard-0",
-        "claimed_at": "2026-11-24T04:26:15.598653+00:00",
-        "lease_expires_at": "2026-11-24T10:26:15.598653+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320131",
       "prepared": {
@@ -264092,5 +264094,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:29:28.800132+00:00"
+  "updated_at": "2026-11-24T04:31:18.108688+00:00"
 }
