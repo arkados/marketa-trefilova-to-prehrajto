@@ -234362,17 +234362,19 @@
       }
     },
     "22894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33746365",
+          "target_video_id": "31333444",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:40:32.937523+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33746365",
         "display_name": "Three Amigos (¡Three Amigos!) 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:37:52.735151+00:00"
-      },
-      "claim": {
-        "worker_id": "3ccd2b813809466ca5afa9419df8448d-shard-0",
-        "claimed_at": "2026-11-24T11:37:53.284335+00:00",
-        "lease_expires_at": "2026-11-24T17:37:53.284335+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333444",
       "prepared": {
@@ -269902,5 +269904,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:37:57.140304+00:00"
+  "updated_at": "2026-11-24T11:40:32.937549+00:00"
 }
