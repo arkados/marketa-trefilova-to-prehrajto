@@ -226639,17 +226639,19 @@
       }
     },
     "34770": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33506066",
+          "target_video_id": "31319794",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:19:57.419632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33506066",
         "display_name": "Power 98 SD CZ Dabing",
         "planned_at": "2026-11-24T04:17:58.460779+00:00"
-      },
-      "claim": {
-        "worker_id": "f74de362b37a445fb992b1921875bd6e-shard-0",
-        "claimed_at": "2026-11-24T04:17:58.982313+00:00",
-        "lease_expires_at": "2026-11-24T10:17:58.982313+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319794",
       "prepared": {
@@ -263879,5 +263881,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:19:19.718647+00:00"
+  "updated_at": "2026-11-24T04:19:57.419650+00:00"
 }
