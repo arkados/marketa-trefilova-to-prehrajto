@@ -232392,17 +232392,19 @@
       }
     },
     "26211": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34135528",
+          "target_video_id": "31329895",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:04:27.005107+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34135528",
         "display_name": "The Runaways 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:38:18.130396+00:00"
-      },
-      "claim": {
-        "worker_id": "9aea118bf6244da0bba567f2053f0218-shard-0",
-        "claimed_at": "2026-11-24T09:38:18.790116+00:00",
-        "lease_expires_at": "2026-11-24T15:38:18.790116+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329895",
       "prepared": {
@@ -268669,5 +268671,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:02:27.970576+00:00"
+  "updated_at": "2026-11-24T10:04:27.005125+00:00"
 }
