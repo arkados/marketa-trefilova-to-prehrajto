@@ -234480,17 +234480,19 @@
       "attempts": []
     },
     "17125": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29816378",
+          "target_video_id": "31333658",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:48:30.539102+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29816378",
         "display_name": "Above the Law (Tueurs) (2017) 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:46:00.867504+00:00"
-      },
-      "claim": {
-        "worker_id": "b22703ba64b94c798aab1558db3c1fe8-shard-0",
-        "claimed_at": "2026-11-24T11:46:01.394037+00:00",
-        "lease_expires_at": "2026-11-24T17:46:01.394037+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333658",
       "prepared": {
@@ -270002,5 +270004,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:46:05.564640+00:00"
+  "updated_at": "2026-11-24T11:48:30.539120+00:00"
 }
