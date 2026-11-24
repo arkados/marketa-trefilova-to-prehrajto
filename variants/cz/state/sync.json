@@ -243071,17 +243071,19 @@
       }
     },
     "30234": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32817697",
+          "target_video_id": "31352092",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:10:28.104681+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32817697",
         "display_name": "Doctor at Sea SD CZ Dabing",
         "planned_at": "2026-11-24T23:08:42.109464+00:00"
-      },
-      "claim": {
-        "worker_id": "54badd77fbe84effad3b2ed87b918c36-shard-0",
-        "claimed_at": "2026-11-24T23:08:42.599148+00:00",
-        "lease_expires_at": "2026-11-25T05:08:42.599148+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352092",
       "prepared": {
@@ -276841,5 +276843,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:10:25.635450+00:00"
+  "updated_at": "2026-11-24T23:10:28.104700+00:00"
 }
