@@ -243332,17 +243332,19 @@
       "attempts": []
     },
     "15558": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34693935",
+          "target_video_id": "31352402",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:21:25.139382+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34693935",
         "display_name": "Marmalade 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:18:33.732285+00:00"
-      },
-      "claim": {
-        "worker_id": "7bcfb563c932438bbda71b8fd8421b82-shard-0",
-        "claimed_at": "2026-11-24T23:18:34.275779+00:00",
-        "lease_expires_at": "2026-11-25T05:18:34.275779+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352402",
       "prepared": {
@@ -277021,5 +277023,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:19:14.062723+00:00"
+  "updated_at": "2026-11-24T23:21:25.139398+00:00"
 }
