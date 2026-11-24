@@ -224655,17 +224655,19 @@
       }
     },
     "29937": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34712681",
+          "target_video_id": "31316049",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:29:02.846775+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34712681",
         "display_name": "Mothra vs. Godzilla (mosura tsui gojira) 720p CZ Dabing",
         "planned_at": "2026-11-24T02:25:43.798165+00:00"
-      },
-      "claim": {
-        "worker_id": "113ac68fd5754e6dadbdb3279968f2de-shard-0",
-        "claimed_at": "2026-11-24T02:25:44.455316+00:00",
-        "lease_expires_at": "2026-11-24T08:25:44.455316+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316049",
       "prepared": {
@@ -262306,5 +262308,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:25:49.493566+00:00"
+  "updated_at": "2026-11-24T02:29:02.846795+00:00"
 }
