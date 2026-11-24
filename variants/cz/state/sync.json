@@ -230133,17 +230133,19 @@
       "attempts": []
     },
     "29999": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "5522761",
+          "target_video_id": "31326580",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:52:48.707314+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "5522761",
         "display_name": "Christmas Cottage SD CZ Dabing",
         "planned_at": "2026-11-24T07:51:17.628375+00:00"
-      },
-      "claim": {
-        "worker_id": "4e160a8b6994469d9b16168b8e40ca7c-shard-0",
-        "claimed_at": "2026-11-24T07:51:18.170586+00:00",
-        "lease_expires_at": "2026-11-24T13:51:18.170586+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326580",
       "prepared": {
@@ -266533,5 +266535,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:52:44.076799+00:00"
+  "updated_at": "2026-11-24T07:52:48.707336+00:00"
 }
