@@ -239542,17 +239542,19 @@
       "attempts": []
     },
     "17130": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32857512",
+          "target_video_id": "31347988",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:14:41.403534+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32857512",
         "display_name": "Naked Normandy (Normandie Nue) 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:10:33.200798+00:00"
-      },
-      "claim": {
-        "worker_id": "3cecb6717d414f608b3675a203fdb710-shard-0",
-        "claimed_at": "2026-11-24T20:10:33.689458+00:00",
-        "lease_expires_at": "2026-11-25T02:10:33.689458+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347988",
       "prepared": {
@@ -274104,5 +274106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:10:37.569646+00:00"
+  "updated_at": "2026-11-24T20:14:41.403552+00:00"
 }
