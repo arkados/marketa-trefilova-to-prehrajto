@@ -223212,17 +223212,19 @@
       "attempts": []
     },
     "5147": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14866753",
+          "target_video_id": "31312482",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:38:34.772412+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14866753",
         "display_name": "All Saints SD CZ Dabing",
         "planned_at": "2026-11-24T00:36:15.340358+00:00"
-      },
-      "claim": {
-        "worker_id": "39a832b0a7254e1b94a395989cc5a5f3-shard-0",
-        "claimed_at": "2026-11-24T00:36:15.776408+00:00",
-        "lease_expires_at": "2026-11-24T06:36:15.776408+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312482",
       "prepared": {
@@ -261226,5 +261228,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:38:00.484181+00:00"
+  "updated_at": "2026-11-24T00:38:34.772429+00:00"
 }
