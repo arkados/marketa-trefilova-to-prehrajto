@@ -225540,17 +225540,19 @@
       "attempts": []
     },
     "36662": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34776432",
+          "target_video_id": "31317415",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:10:37.135337+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34776432",
         "display_name": "Villa Rides SD CZ Dabing",
         "planned_at": "2026-11-24T03:08:44.406639+00:00"
-      },
-      "claim": {
-        "worker_id": "7f75a6c8d0224fdeb4d4b8b0698545fb-shard-0",
-        "claimed_at": "2026-11-24T03:08:45.004489+00:00",
-        "lease_expires_at": "2026-11-24T09:08:45.004489+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31317415",
       "prepared": {
@@ -263002,5 +263004,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:09:29.666532+00:00"
+  "updated_at": "2026-11-24T03:10:37.135356+00:00"
 }
