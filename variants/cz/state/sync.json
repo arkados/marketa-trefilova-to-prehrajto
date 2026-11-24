@@ -241171,17 +241171,19 @@
       }
     },
     "4517": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26263669",
+          "target_video_id": "31349901",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:45:30.064048+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26263669",
         "display_name": "A Beautiful Life 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:43:27.456048+00:00"
-      },
-      "claim": {
-        "worker_id": "3573461f2bdf49ed815effa8cc8f3b02-shard-0",
-        "claimed_at": "2026-11-24T21:43:30.393829+00:00",
-        "lease_expires_at": "2026-11-25T03:43:30.393829+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349901",
       "prepared": {
@@ -275405,5 +275407,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:45:06.069837+00:00"
+  "updated_at": "2026-11-24T21:45:30.064066+00:00"
 }
