@@ -243048,17 +243048,19 @@
       "attempts": []
     },
     "36659": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34788385",
+          "target_video_id": "31352053",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:10:08.284604+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34788385",
         "display_name": "The Quiller Memorandum 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:07:24.153447+00:00"
-      },
-      "claim": {
-        "worker_id": "10fae4787a5246c08fd6dae7ce54d6fa-shard-0",
-        "claimed_at": "2026-11-24T23:07:24.612736+00:00",
-        "lease_expires_at": "2026-11-25T05:07:24.612736+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352053",
       "prepared": {
@@ -276821,5 +276823,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:09:14.237978+00:00"
+  "updated_at": "2026-11-24T23:10:08.284644+00:00"
 }
