@@ -234456,17 +234456,19 @@
       }
     },
     "25509": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26705493",
+          "target_video_id": "31333629",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:50:57.723187+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26705493",
         "display_name": "Slither 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:45:03.351346+00:00"
-      },
-      "claim": {
-        "worker_id": "76e6e0684f22481aabd4e31503747ee2-shard-0",
-        "claimed_at": "2026-11-24T11:45:03.939640+00:00",
-        "lease_expires_at": "2026-11-24T17:45:03.939640+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333629",
       "prepared": {
@@ -270042,5 +270044,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:50:24.124039+00:00"
+  "updated_at": "2026-11-24T11:50:57.723206+00:00"
 }
