@@ -231068,17 +231068,19 @@
       }
     },
     "13552": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26966649",
+          "target_video_id": "31327930",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:39:39.312263+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26966649",
         "display_name": "Hollywoodland 720p CZ Dabing",
         "planned_at": "2026-11-24T08:34:14.218716+00:00"
-      },
-      "claim": {
-        "worker_id": "cd926457cf9e4d74813191ead9c393f3-shard-0",
-        "claimed_at": "2026-11-24T08:34:14.785663+00:00",
-        "lease_expires_at": "2026-11-24T14:34:14.785663+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327930",
       "prepared": {
@@ -267283,5 +267285,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:37:19.900654+00:00"
+  "updated_at": "2026-11-24T08:39:39.312280+00:00"
 }
