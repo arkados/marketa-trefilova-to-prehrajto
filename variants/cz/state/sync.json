@@ -224994,17 +224994,19 @@
       "attempts": []
     },
     "30470": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18805478",
+          "target_video_id": "31316685",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:50:17.564195+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18805478",
         "display_name": "Mark & Russell's Wild Ride 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:46:43.394597+00:00"
-      },
-      "claim": {
-        "worker_id": "da248dedffed41738dbe2ea695723ff1-shard-0",
-        "claimed_at": "2026-11-24T02:46:43.930520+00:00",
-        "lease_expires_at": "2026-11-24T08:46:43.930520+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316685",
       "prepared": {
@@ -262634,5 +262636,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:49:35.849201+00:00"
+  "updated_at": "2026-11-24T02:50:17.564216+00:00"
 }
