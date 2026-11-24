@@ -231493,17 +231493,19 @@
       }
     },
     "37424": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34596844",
+          "target_video_id": "31328709",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:00:56.874242+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34596844",
         "display_name": "Cycle of Time 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:56:41.742419+00:00"
-      },
-      "claim": {
-        "worker_id": "fccc209c01e449d4b5b853e984cf6796-shard-0",
-        "claimed_at": "2026-11-24T08:56:42.187439+00:00",
-        "lease_expires_at": "2026-11-24T14:56:42.187439+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328709",
       "prepared": {
@@ -267636,5 +267638,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:00:16.525934+00:00"
+  "updated_at": "2026-11-24T09:00:56.874261+00:00"
 }
