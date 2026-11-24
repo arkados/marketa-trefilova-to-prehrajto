@@ -238894,17 +238894,19 @@
       }
     },
     "16145": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17458254",
+          "target_video_id": "31347176",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:41:58.696904+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17458254",
         "display_name": "Annabelle Hooper and the Ghosts of Nantucket 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:37:42.270025+00:00"
-      },
-      "claim": {
-        "worker_id": "bc3777811c3c45a4a9fc8a607c0596e4-shard-0",
-        "claimed_at": "2026-11-24T19:37:42.729427+00:00",
-        "lease_expires_at": "2026-11-25T01:37:42.729427+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347176",
       "prepared": {
@@ -273627,5 +273629,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:40:27.531503+00:00"
+  "updated_at": "2026-11-24T19:41:58.696929+00:00"
 }
