@@ -231097,17 +231097,19 @@
       "attempts": []
     },
     "8045": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34880453",
+          "target_video_id": "31328023",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:43:38.079054+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34880453",
         "display_name": "Rudý kapitán (Červený kapitán) 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:36:59.381527+00:00"
-      },
-      "claim": {
-        "worker_id": "bff7f96cffb4438e8d9901489f6b635e-shard-0",
-        "claimed_at": "2026-11-24T08:37:00.148051+00:00",
-        "lease_expires_at": "2026-11-24T14:37:00.148051+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328023",
       "prepared": {
@@ -267323,5 +267325,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:41:16.597153+00:00"
+  "updated_at": "2026-11-24T08:43:38.079074+00:00"
 }
