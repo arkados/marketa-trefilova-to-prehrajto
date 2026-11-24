@@ -223032,17 +223032,19 @@
       "attempts": []
     },
     "15772": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29299676",
+          "target_video_id": "31312186",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:30:53.159640+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29299676",
         "display_name": "The Journey Home (Midnight Sun) 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:27:13.480408+00:00"
-      },
-      "claim": {
-        "worker_id": "c74b5ec5e7d04dfaa147809f196455c8-shard-0",
-        "claimed_at": "2026-11-24T00:27:13.901453+00:00",
-        "lease_expires_at": "2026-11-24T06:27:13.901453+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312186",
       "prepared": {
@@ -261109,5 +261111,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:29:51.009327+00:00"
+  "updated_at": "2026-11-24T00:30:53.159656+00:00"
 }
