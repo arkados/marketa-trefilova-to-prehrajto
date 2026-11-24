@@ -229288,17 +229288,19 @@
       }
     },
     "8719": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21495778",
+          "target_video_id": "31325124",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:05:17.048041+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21495778",
         "display_name": "Maya the Bee: The Golden Orb 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:01:18.139360+00:00"
-      },
-      "claim": {
-        "worker_id": "8566e54f412f48579e90d5ab639ce9ab-shard-0",
-        "claimed_at": "2026-11-24T07:01:18.670449+00:00",
-        "lease_expires_at": "2026-11-24T13:01:18.670449+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325124",
       "prepared": {
@@ -265929,5 +265931,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:04:33.344954+00:00"
+  "updated_at": "2026-11-24T07:05:17.048061+00:00"
 }
