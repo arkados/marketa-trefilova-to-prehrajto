@@ -225493,17 +225493,19 @@
       "attempts": []
     },
     "35082": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34720222",
+          "target_video_id": "31317392",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:11:30.899280+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34720222",
         "display_name": "This Is the Year 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:08:05.786336+00:00"
-      },
-      "claim": {
-        "worker_id": "d1c1f5b06c2242c1a7520c9cc38bdc6d-shard-0",
-        "claimed_at": "2026-11-24T03:08:06.419896+00:00",
-        "lease_expires_at": "2026-11-24T09:08:06.419896+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31317392",
       "prepared": {
@@ -263022,5 +263024,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:10:50.842190+00:00"
+  "updated_at": "2026-11-24T03:11:30.899299+00:00"
 }
