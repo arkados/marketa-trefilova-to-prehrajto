@@ -135559,13 +135559,6 @@
           "source_id": "34716014",
           "target_video_id": "30987579",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:13:46.603924+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34716014",
-          "target_video_id": "30987579",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:38:21.062938+00:00"
         },
         {
@@ -135574,12 +135567,19 @@
           "target_video_id": "30987579",
           "permanent": false,
           "attempted_at": "2026-11-22T22:21:13.086261+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34716014",
+          "target_video_id": "30987579",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:26:37.830784+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T23:22:06.050239+00:00"
+        "planned_at": "2026-11-24T23:26:34.493982+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -243461,7 +243461,18 @@
       }
     },
     "30054": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34900554",
+        "display_name": "Black Widow (1987) SD CZ Dabing",
+        "planned_at": "2026-11-24T23:26:34.826979+00:00"
+      },
+      "claim": {
+        "worker_id": "0106fcb8c7f5414f8eeb9cdab1352f6a-shard-0",
+        "claimed_at": "2026-11-24T23:26:35.815232+00:00",
+        "lease_expires_at": "2026-11-25T05:26:35.815232+00:00",
+        "run_id": "45489062851"
+      }
     },
     "20861": {
       "attempts": []
@@ -243470,13 +243481,23 @@
       "attempts": []
     },
     "5896": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "23920281",
+        "display_name": "Waiting for Anya 1080p CZ Dabing",
+        "planned_at": "2026-11-24T23:26:35.068227+00:00"
+      }
     },
     "21460": {
       "attempts": []
     },
     "22322": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "22960266",
+        "display_name": "St. Ives SD CZ Dabing",
+        "planned_at": "2026-11-24T23:26:35.276431+00:00"
+      }
     },
     "24268": {
       "attempts": []
@@ -277087,5 +277108,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:25:29.617475+00:00"
+  "updated_at": "2026-11-24T23:26:37.830804+00:00"
 }
