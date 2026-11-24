@@ -224288,17 +224288,19 @@
       }
     },
     "34292": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34504262",
+          "target_video_id": "31314106",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:33:34.899385+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34504262",
         "display_name": "Storm Rider (Il grande duello) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:28:21.760316+00:00"
-      },
-      "claim": {
-        "worker_id": "633c85e053ca4c68a14dc7f60c40a6fd-shard-0",
-        "claimed_at": "2026-11-24T01:28:22.218347+00:00",
-        "lease_expires_at": "2026-11-24T07:28:22.218347+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31314106",
       "prepared": {
@@ -262026,5 +262028,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:28:26.518424+00:00"
+  "updated_at": "2026-11-24T01:33:34.899405+00:00"
 }
