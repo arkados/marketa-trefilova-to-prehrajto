@@ -135579,7 +135579,7 @@
       "last_plan": {
         "source_id": "34716014",
         "display_name": "Matrix AB SD CZ Dabing",
-        "planned_at": "2026-11-24T22:34:57.131929+00:00"
+        "planned_at": "2026-11-24T22:35:02.241896+00:00"
       },
       "previous_target_id": "30987579",
       "prepared": {
@@ -241949,17 +241949,19 @@
       "attempts": []
     },
     "10842": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32203556",
+          "target_video_id": "31350554",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:35:04.734502+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32203556",
         "display_name": "Old Shatterhand 4K CZ Dabing",
         "planned_at": "2026-11-24T22:12:02.883616+00:00"
-      },
-      "claim": {
-        "worker_id": "72f4bfe431104af9be07f6e083f224b4-shard-0",
-        "claimed_at": "2026-11-24T22:12:03.345603+00:00",
-        "lease_expires_at": "2026-11-25T04:12:03.345603+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350554",
       "prepared": {
@@ -242318,7 +242320,13 @@
       "last_plan": {
         "source_id": "26655304",
         "display_name": "The Battle of El Alamein (La battaglia di El Alamein) SD CZ Dabing",
-        "planned_at": "2026-11-24T22:34:57.412073+00:00"
+        "planned_at": "2026-11-24T22:35:02.509941+00:00"
+      },
+      "claim": {
+        "worker_id": "f95fb31cb9454f8aae5ae927a4e8c008-shard-0",
+        "claimed_at": "2026-11-24T22:35:02.983397+00:00",
+        "lease_expires_at": "2026-11-25T04:35:02.983397+00:00",
+        "run_id": "45469401145"
       }
     },
     "34820": {
@@ -276218,5 +276226,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:34:57.412089+00:00"
+  "updated_at": "2026-11-24T22:35:04.734539+00:00"
 }
