@@ -240045,17 +240045,19 @@
       }
     },
     "37482": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35006830",
+          "target_video_id": "31348788",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:11:51.674289+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35006830",
         "display_name": "Preschool 1440p CZ Dabing",
         "planned_at": "2026-11-24T20:44:52.720635+00:00"
-      },
-      "claim": {
-        "worker_id": "a56c77ae87824f9f90d50efff7db055f-shard-0",
-        "claimed_at": "2026-11-24T20:44:53.182230+00:00",
-        "lease_expires_at": "2026-11-25T02:44:53.182230+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348788",
       "prepared": {
@@ -274815,5 +274817,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:09:59.041812+00:00"
+  "updated_at": "2026-11-24T21:11:51.674306+00:00"
 }
