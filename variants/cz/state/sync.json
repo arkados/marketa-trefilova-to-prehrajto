@@ -230968,17 +230968,19 @@
       "attempts": []
     },
     "17330": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20099603",
+          "target_video_id": "31327810",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:32:01.723474+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20099603",
         "display_name": "Vic the Viking and the Magic Sword (Vic the Viking: The Magic Sword) SD CZ Dabing",
         "planned_at": "2026-11-24T08:29:55.128888+00:00"
-      },
-      "claim": {
-        "worker_id": "cb4cafe1be6e4c35b2f89496f4f40361-shard-0",
-        "claimed_at": "2026-11-24T08:29:55.706251+00:00",
-        "lease_expires_at": "2026-11-24T14:29:55.706251+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327810",
       "prepared": {
@@ -267183,5 +267185,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:31:26.274173+00:00"
+  "updated_at": "2026-11-24T08:32:01.723495+00:00"
 }
