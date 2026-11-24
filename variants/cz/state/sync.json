@@ -241490,17 +241490,19 @@
       }
     },
     "24348": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34705683",
+          "target_video_id": "31350120",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:55:40.355831+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34705683",
         "display_name": "Lockdown (2000) SD CZ Dabing",
         "planned_at": "2026-11-24T21:54:30.336863+00:00"
-      },
-      "claim": {
-        "worker_id": "b171a16c56b54a26b8cb799cbad1fb70-shard-0",
-        "claimed_at": "2026-11-24T21:54:30.842342+00:00",
-        "lease_expires_at": "2026-11-25T03:54:30.842342+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350120",
       "prepared": {
@@ -275605,5 +275607,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:54:34.723668+00:00"
+  "updated_at": "2026-11-24T21:55:40.355847+00:00"
 }
