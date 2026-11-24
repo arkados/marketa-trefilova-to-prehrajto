@@ -241971,17 +241971,19 @@
       "attempts": []
     },
     "6177": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34794548",
+          "target_video_id": "31350560",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:15:39.741696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34794548",
         "display_name": "Blueback 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:12:31.666852+00:00"
-      },
-      "claim": {
-        "worker_id": "b2a2926778cf4b6ebbd60810867fa918-shard-0",
-        "claimed_at": "2026-11-24T22:12:32.185006+00:00",
-        "lease_expires_at": "2026-11-25T04:12:32.185006+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350560",
       "prepared": {
@@ -275978,5 +275980,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:12:38.792402+00:00"
+  "updated_at": "2026-11-24T22:15:39.741712+00:00"
 }
