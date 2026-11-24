@@ -223824,17 +223824,19 @@
       "attempts": []
     },
     "11238": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34824412",
+          "target_video_id": "31313223",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:08:23.491240+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34824412",
         "display_name": "The Inglorious Bastards (Quel maledetto treno blindato) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:01:37.666659+00:00"
-      },
-      "claim": {
-        "worker_id": "515f84daa5684c9ea9eb8346f6c34ad4-shard-0",
-        "claimed_at": "2026-11-24T01:01:38.122163+00:00",
-        "lease_expires_at": "2026-11-24T07:01:38.122163+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313223",
       "prepared": {
@@ -261726,5 +261728,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:05:26.440361+00:00"
+  "updated_at": "2026-11-24T01:08:23.491260+00:00"
 }
