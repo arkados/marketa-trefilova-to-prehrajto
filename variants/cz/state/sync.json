@@ -233424,17 +233424,19 @@
       }
     },
     "32442": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23511199",
+          "target_video_id": "31331318",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:31:37.652877+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23511199",
         "display_name": "The Informant! SD CZ Dabing",
         "planned_at": "2026-11-24T10:28:43.332660+00:00"
-      },
-      "claim": {
-        "worker_id": "bd78127ec305496e8e7aef070dd5c529-shard-0",
-        "claimed_at": "2026-11-24T10:28:43.858842+00:00",
-        "lease_expires_at": "2026-11-24T16:28:43.858842+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31331318",
       "prepared": {
@@ -269129,5 +269131,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:28:47.887465+00:00"
+  "updated_at": "2026-11-24T10:31:37.652897+00:00"
 }
