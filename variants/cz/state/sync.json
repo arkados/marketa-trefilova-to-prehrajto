@@ -240971,17 +240971,19 @@
       "attempts": []
     },
     "32212": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "8262340",
+          "target_video_id": "31349729",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:37:09.171656+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "8262340",
         "display_name": "The District! (Nyócker!) SD CZ Dabing",
         "planned_at": "2026-11-24T21:35:28.414460+00:00"
-      },
-      "claim": {
-        "worker_id": "4c91d29fcd014b59a26c129bec87d84c-shard-0",
-        "claimed_at": "2026-11-24T21:35:28.888414+00:00",
-        "lease_expires_at": "2026-11-25T03:35:28.888414+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349729",
       "prepared": {
@@ -275248,5 +275250,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:36:45.817683+00:00"
+  "updated_at": "2026-11-24T21:37:09.171673+00:00"
 }
