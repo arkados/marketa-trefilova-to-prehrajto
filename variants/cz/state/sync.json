@@ -226891,17 +226891,19 @@
       }
     },
     "37333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29891315",
+          "target_video_id": "31320155",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:34:49.690648+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29891315",
         "display_name": "Switchback 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:26:39.064986+00:00"
-      },
-      "claim": {
-        "worker_id": "fcc4ed2bb699434db2db1aadb65398ed-shard-0",
-        "claimed_at": "2026-11-24T04:26:39.577659+00:00",
-        "lease_expires_at": "2026-11-24T10:26:39.577659+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320155",
       "prepared": {
@@ -264152,5 +264154,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:34:17.674297+00:00"
+  "updated_at": "2026-11-24T04:34:49.690667+00:00"
 }
