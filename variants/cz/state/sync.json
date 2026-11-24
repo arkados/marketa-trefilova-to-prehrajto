@@ -147167,7 +147167,7 @@
       "last_plan": {
         "source_id": "35418934",
         "display_name": "Murder in Luberon (Crime dans le Lubéron) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T00:30:58.633527+00:00"
+        "planned_at": "2026-11-24T00:31:03.269108+00:00"
       },
       "previous_target_id": "30995991",
       "prepared": {
@@ -223085,11 +223085,23 @@
       "attempts": []
     },
     "34968": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30132386",
+          "reason": "Source detail has no authenticated download link; source_id=30132386",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:31:06.148410+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30132386",
         "display_name": "Royal New Year's Eve 1080p CZ Dabing",
-        "planned_at": "2026-11-24T00:30:58.884742+00:00"
+        "planned_at": "2026-11-24T00:31:03.524198+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30132386",
+        "requested_at": "2026-11-24T00:31:06.148365+00:00"
       }
     },
     "32927": {
@@ -261116,5 +261128,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:30:58.884759+00:00"
+  "updated_at": "2026-11-24T00:31:06.148414+00:00"
 }
