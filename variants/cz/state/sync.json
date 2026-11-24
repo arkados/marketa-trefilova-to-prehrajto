@@ -223382,17 +223382,19 @@
       "attempts": []
     },
     "17682": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30806202",
+          "target_video_id": "31312729",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:47:12.416958+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30806202",
         "display_name": "White Fang (Zanna Bianca) (1973) 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:44:42.424248+00:00"
-      },
-      "claim": {
-        "worker_id": "52895a182a974d6b8ea1dd736ac64b38-shard-0",
-        "claimed_at": "2026-11-24T00:44:45.235530+00:00",
-        "lease_expires_at": "2026-11-24T06:44:45.235530+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312729",
       "prepared": {
@@ -261386,5 +261388,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:46:54.689273+00:00"
+  "updated_at": "2026-11-24T00:47:12.416978+00:00"
 }
