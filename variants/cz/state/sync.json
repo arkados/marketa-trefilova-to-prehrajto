@@ -235671,17 +235671,19 @@
       }
     },
     "21661": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34699997",
+          "target_video_id": "31336264",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:03:33.524125+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34699997",
         "display_name": "Jack the Giant Killer (1962) 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:59:08.905029+00:00"
-      },
-      "claim": {
-        "worker_id": "0f4ee13b97644b2f91c72fb1b2d308fe-shard-0",
-        "claimed_at": "2026-11-24T12:59:09.459557+00:00",
-        "lease_expires_at": "2026-11-24T18:59:09.459557+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336264",
       "prepared": {
@@ -271027,5 +271029,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:03:27.434638+00:00"
+  "updated_at": "2026-11-24T13:03:33.524143+00:00"
 }
