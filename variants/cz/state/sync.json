@@ -224723,17 +224723,19 @@
       "attempts": []
     },
     "8675": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29525363",
+          "target_video_id": "31316228",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:33:33.482248+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29525363",
         "display_name": "My Fairy Troublemaker (Meine Chaosfee & Ich) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:30:56.024229+00:00"
-      },
-      "claim": {
-        "worker_id": "184dd96d45924097bac22ae4e9944194-shard-0",
-        "claimed_at": "2026-11-24T02:30:56.577741+00:00",
-        "lease_expires_at": "2026-11-24T08:30:56.577741+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316228",
       "prepared": {
@@ -262403,5 +262405,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:31:48.924070+00:00"
+  "updated_at": "2026-11-24T02:33:33.482273+00:00"
 }
