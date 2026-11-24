@@ -224246,17 +224246,19 @@
       }
     },
     "4057": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29867038",
+          "target_video_id": "31314076",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:36:46.202609+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29867038",
         "display_name": "The Shadow Strays 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:26:47.276609+00:00"
-      },
-      "claim": {
-        "worker_id": "456c7580f5ec448ebba4ee1ffc41a625-shard-0",
-        "claimed_at": "2026-11-24T01:26:47.758016+00:00",
-        "lease_expires_at": "2026-11-24T07:26:47.758016+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31314076",
       "prepared": {
@@ -262066,5 +262068,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:35:35.971507+00:00"
+  "updated_at": "2026-11-24T01:36:46.202629+00:00"
 }
