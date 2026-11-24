@@ -234035,17 +234035,19 @@
       }
     },
     "4364": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32953504",
+          "target_video_id": "31332808",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:21:15.883250+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32953504",
         "display_name": "Entourage 720p CZ Dabing",
         "planned_at": "2026-11-24T11:18:50.576314+00:00"
-      },
-      "claim": {
-        "worker_id": "b9b5a4ac2b9c42cdb4f1542bf0bf33ec-shard-0",
-        "claimed_at": "2026-11-24T11:18:51.127404+00:00",
-        "lease_expires_at": "2026-11-24T17:18:51.127404+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332808",
       "prepared": {
@@ -269662,5 +269664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:20:59.277193+00:00"
+  "updated_at": "2026-11-24T11:21:15.883267+00:00"
 }
