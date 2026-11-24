@@ -226844,17 +226844,19 @@
       }
     },
     "16033": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "34694467",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-24T04:26:30.200089+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694467",
         "display_name": "Scooby-Doo! and Krypto, Too! 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:25:18.153077+00:00"
-      },
-      "claim": {
-        "worker_id": "f67cebc8b61d4dbeb8617036491f0665-shard-0",
-        "claimed_at": "2026-11-24T04:25:18.696737+00:00",
-        "lease_expires_at": "2026-11-24T10:25:18.696737+00:00",
-        "run_id": "45312111226"
       }
     },
     "32780": {
@@ -264032,5 +264034,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:26:20.583807+00:00"
+  "updated_at": "2026-11-24T04:26:30.200112+00:00"
 }
