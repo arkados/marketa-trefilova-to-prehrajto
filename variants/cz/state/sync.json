@@ -224171,17 +224171,19 @@
       "attempts": []
     },
     "11566": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34622537",
+          "target_video_id": "31313972",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:28:12.875889+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34622537",
         "display_name": "Disciples of the 36th Chamber (PiLiShiJie) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:23:08.426788+00:00"
-      },
-      "claim": {
-        "worker_id": "66fd8e9ec47746b9a7c441addce9f642-shard-0",
-        "claimed_at": "2026-11-24T01:23:09.099080+00:00",
-        "lease_expires_at": "2026-11-24T07:23:09.099080+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313972",
       "prepared": {
@@ -262006,5 +262008,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:27:32.259743+00:00"
+  "updated_at": "2026-11-24T01:28:12.875924+00:00"
 }
