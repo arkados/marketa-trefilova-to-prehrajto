@@ -225262,17 +225262,19 @@
       }
     },
     "31580": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34779548",
+          "target_video_id": "31317201",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:04:05.342224+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34779548",
         "display_name": "Snake and Mongoose (Snake & Mongoose) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:01:20.112119+00:00"
-      },
-      "claim": {
-        "worker_id": "ed5c0f113174439a83af45bb76a8cae7-shard-0",
-        "claimed_at": "2026-11-24T03:01:20.793045+00:00",
-        "lease_expires_at": "2026-11-24T09:01:20.793045+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31317201",
       "prepared": {
@@ -262831,5 +262833,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:02:29.661879+00:00"
+  "updated_at": "2026-11-24T03:04:05.342243+00:00"
 }
