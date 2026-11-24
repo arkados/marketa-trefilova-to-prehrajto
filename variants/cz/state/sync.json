@@ -228590,17 +228590,19 @@
       }
     },
     "4092": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27872819",
+          "target_video_id": "31323415",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:32:10.887875+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27872819",
         "display_name": "The Son (2022) 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:18:41.250516+00:00"
-      },
-      "claim": {
-        "worker_id": "e64b231985e4499f9bec136cd6807ecb-shard-0",
-        "claimed_at": "2026-11-24T06:18:41.858879+00:00",
-        "lease_expires_at": "2026-11-24T12:18:41.858879+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31323415",
       "prepared": {
@@ -265453,5 +265455,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:26:36.410210+00:00"
+  "updated_at": "2026-11-24T06:32:10.887897+00:00"
 }
