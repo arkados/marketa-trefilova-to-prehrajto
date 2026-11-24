@@ -229697,17 +229697,19 @@
       "attempts": []
     },
     "16014": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694449",
+          "target_video_id": "31325934",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:34:26.032620+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694449",
         "display_name": "Wild Diamond (Diamant brut) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:29:46.184311+00:00"
-      },
-      "claim": {
-        "worker_id": "7405291f034c44ccb688737f35c3ba19-shard-0",
-        "claimed_at": "2026-11-24T07:29:46.731809+00:00",
-        "lease_expires_at": "2026-11-24T13:29:46.731809+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325934",
       "prepared": {
@@ -266209,5 +266211,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:29:51.589934+00:00"
+  "updated_at": "2026-11-24T07:34:26.032755+00:00"
 }
