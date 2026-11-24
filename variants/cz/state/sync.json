@@ -233293,17 +233293,19 @@
       }
     },
     "25315": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35244386",
+          "target_video_id": "31331147",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:23:17.445853+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35244386",
         "display_name": "The Sisterhood of the Traveling Pants 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:20:21.657440+00:00"
-      },
-      "claim": {
-        "worker_id": "cc4872b7730e4b0ebda5ba0858bf5fc0-shard-0",
-        "claimed_at": "2026-11-24T10:20:22.224050+00:00",
-        "lease_expires_at": "2026-11-24T16:20:22.224050+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31331147",
       "prepared": {
@@ -269049,5 +269051,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:22:49.320495+00:00"
+  "updated_at": "2026-11-24T10:23:17.445872+00:00"
 }
