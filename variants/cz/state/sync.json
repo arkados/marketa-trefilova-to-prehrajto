@@ -224221,17 +224221,19 @@
       "attempts": []
     },
     "12607": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19714367",
+          "target_video_id": "31313996",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:27:17.461453+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19714367",
         "display_name": "August 32nd on Earth (Un 32 août sur terre) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:23:43.470535+00:00"
-      },
-      "claim": {
-        "worker_id": "42f434b64bb54327b2bfa55e98621fa9-shard-0",
-        "claimed_at": "2026-11-24T01:23:44.047836+00:00",
-        "lease_expires_at": "2026-11-24T07:23:44.047836+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313996",
       "prepared": {
@@ -261986,5 +261988,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:26:55.325624+00:00"
+  "updated_at": "2026-11-24T01:27:17.461472+00:00"
 }
