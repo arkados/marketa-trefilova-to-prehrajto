@@ -241517,17 +241517,19 @@
       }
     },
     "5168": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35174439",
+          "target_video_id": "31350150",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:59:09.917932+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35174439",
         "display_name": "Shock Wave (ChaiDanZhuanJia) 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:55:49.445063+00:00"
-      },
-      "claim": {
-        "worker_id": "b79b89aa3923454ebad45c0f19ed9017-shard-0",
-        "claimed_at": "2026-11-24T21:55:49.914950+00:00",
-        "lease_expires_at": "2026-11-25T03:55:49.914950+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350150",
       "prepared": {
@@ -275685,5 +275687,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:58:40.630933+00:00"
+  "updated_at": "2026-11-24T21:59:09.917952+00:00"
 }
