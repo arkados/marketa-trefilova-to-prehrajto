@@ -236138,17 +236138,19 @@
       }
     },
     "4353": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32930877",
+          "target_video_id": "31338135",
+          "permanent": false,
+          "attempted_at": "2026-11-24T14:11:52.755979+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32930877",
         "display_name": "Crimson Peak 4K CZ Dabing",
         "planned_at": "2026-11-24T13:59:52.539930+00:00"
-      },
-      "claim": {
-        "worker_id": "e0519fe7a8f94f0c9bb56fe1e36b81e2-shard-0",
-        "claimed_at": "2026-11-24T13:59:53.081133+00:00",
-        "lease_expires_at": "2026-11-24T19:59:53.081133+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31338135",
       "prepared": {
@@ -271424,5 +271426,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:06:03.054096+00:00"
+  "updated_at": "2026-11-24T14:11:52.756009+00:00"
 }
