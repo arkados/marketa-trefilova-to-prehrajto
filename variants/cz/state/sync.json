@@ -226565,17 +226565,19 @@
       "attempts": []
     },
     "34585": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "4945791",
+          "target_video_id": "31319656",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:16:51.238686+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "4945791",
         "display_name": "Love Is All You Need (Den skaldede frisør) SD CZ Dabing",
         "planned_at": "2026-11-24T04:14:51.835708+00:00"
-      },
-      "claim": {
-        "worker_id": "ce1da727a74b47979c689c845cebf08b-shard-0",
-        "claimed_at": "2026-11-24T04:14:52.379141+00:00",
-        "lease_expires_at": "2026-11-24T10:14:52.379141+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319656",
       "prepared": {
@@ -263799,5 +263801,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:15:05.283330+00:00"
+  "updated_at": "2026-11-24T04:16:51.238705+00:00"
 }
