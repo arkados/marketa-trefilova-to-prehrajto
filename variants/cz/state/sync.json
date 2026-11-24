@@ -243004,17 +243004,19 @@
       }
     },
     "18221": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30818199",
+          "target_video_id": "31351968",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:09:00.306705+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30818199",
         "display_name": "Underdogs (Metegol) 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:04:41.242145+00:00"
-      },
-      "claim": {
-        "worker_id": "0d5c7eb9b0d6470e9b49628207e47306-shard-0",
-        "claimed_at": "2026-11-24T23:04:41.684320+00:00",
-        "lease_expires_at": "2026-11-25T05:04:41.684320+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351968",
       "prepared": {
@@ -276801,5 +276803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:08:48.158592+00:00"
+  "updated_at": "2026-11-24T23:09:00.306723+00:00"
 }
