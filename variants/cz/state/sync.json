@@ -233615,17 +233615,19 @@
       }
     },
     "13694": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33080832",
+          "target_video_id": "31332068",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:00:01.239753+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33080832",
         "display_name": "The Borgia (Los Borgia) 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:56:01.014102+00:00"
-      },
-      "claim": {
-        "worker_id": "e324fd619a9d45548d5fca212a110082-shard-0",
-        "claimed_at": "2026-11-24T10:56:01.551104+00:00",
-        "lease_expires_at": "2026-11-24T16:56:01.551104+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332068",
       "prepared": {
@@ -269322,5 +269324,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:59:01.697166+00:00"
+  "updated_at": "2026-11-24T11:00:01.239783+00:00"
 }
