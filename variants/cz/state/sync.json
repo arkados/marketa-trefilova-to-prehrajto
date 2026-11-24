@@ -229385,17 +229385,19 @@
       }
     },
     "11227": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11581687",
+          "target_video_id": "31325277",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:07:41.507696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11581687",
         "display_name": "Three Swedes in Upper Bavaria (Drei Schwedinnen in Oberbayern) SD CZ Dabing",
         "planned_at": "2026-11-24T07:06:34.157554+00:00"
-      },
-      "claim": {
-        "worker_id": "69cf7f5ebce049e59794c19f4f4b8acb-shard-0",
-        "claimed_at": "2026-11-24T07:06:34.649249+00:00",
-        "lease_expires_at": "2026-11-24T13:06:34.649249+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325277",
       "prepared": {
@@ -265969,5 +265971,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:06:40.284847+00:00"
+  "updated_at": "2026-11-24T07:07:41.507704+00:00"
 }
