@@ -228663,17 +228663,19 @@
       "attempts": []
     },
     "4030": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34774779",
+          "target_video_id": "31323873",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:26:36.410195+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34774779",
         "display_name": "Parthenope 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:21:46.731433+00:00"
-      },
-      "claim": {
-        "worker_id": "204e86136bcf4e04820d6c9290a5a08c-shard-0",
-        "claimed_at": "2026-11-24T06:21:47.270265+00:00",
-        "lease_expires_at": "2026-11-24T12:21:47.270265+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31323873",
       "prepared": {
@@ -265451,5 +265453,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:25:39.176873+00:00"
+  "updated_at": "2026-11-24T06:26:36.410210+00:00"
 }
