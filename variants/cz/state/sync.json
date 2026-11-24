@@ -234084,17 +234084,19 @@
       "attempts": []
     },
     "4231": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34722715",
+          "target_video_id": "31332885",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:25:36.696456+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34722715",
         "display_name": "The Lego Movie 2: The Second Part 4K CZ Dabing",
         "planned_at": "2026-11-24T11:20:54.887524+00:00"
-      },
-      "claim": {
-        "worker_id": "aeca5c318293433081d5dcd0ef968036-shard-0",
-        "claimed_at": "2026-11-24T11:20:55.444582+00:00",
-        "lease_expires_at": "2026-11-24T17:20:55.444582+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332885",
       "prepared": {
@@ -269742,5 +269744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:25:03.774085+00:00"
+  "updated_at": "2026-11-24T11:25:36.696476+00:00"
 }
