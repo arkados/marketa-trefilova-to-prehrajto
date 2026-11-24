@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T08:43:43.758557+00:00"
+        "planned_at": "2026-11-24T08:43:50.630202+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -231143,17 +231143,19 @@
       }
     },
     "29496": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31171275",
+          "target_video_id": "31328135",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:43:54.857899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31171275",
         "display_name": "Winnetou - Das Geheimnis vom Silbersee (Winnetou - The Secret of Silver Lake) SD CZ Dabing",
         "planned_at": "2026-11-24T08:39:50.385775+00:00"
-      },
-      "claim": {
-        "worker_id": "e2944c62a74440f29ab1a117f3474013-shard-0",
-        "claimed_at": "2026-11-24T08:39:50.850091+00:00",
-        "lease_expires_at": "2026-11-24T14:39:50.850091+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328135",
       "prepared": {
@@ -231192,7 +231194,13 @@
       "last_plan": {
         "source_id": "15189697",
         "display_name": "Comedy of Power (L'Ivresse du pouvoir) 720p CZ Dabing",
-        "planned_at": "2026-11-24T08:43:44.051457+00:00"
+        "planned_at": "2026-11-24T08:43:50.923166+00:00"
+      },
+      "claim": {
+        "worker_id": "6948613d1991477ab72ccf49ba26a435-shard-0",
+        "claimed_at": "2026-11-24T08:43:51.440964+00:00",
+        "lease_expires_at": "2026-11-24T14:43:51.440964+00:00",
+        "run_id": "45341588798"
       }
     },
     "5899": {
@@ -267330,5 +267338,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:43:44.051477+00:00"
+  "updated_at": "2026-11-24T08:43:54.857918+00:00"
 }
