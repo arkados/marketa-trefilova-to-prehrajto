@@ -226053,17 +226053,19 @@
       }
     },
     "14533": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12818912",
+          "target_video_id": "31318302",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:40:51.609217+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12818912",
         "display_name": "Barbie in 'A Christmas Carol' SD CZ Dabing",
         "planned_at": "2026-11-24T03:40:01.551770+00:00"
-      },
-      "claim": {
-        "worker_id": "3c4ad9bd63cb430f84db50ed84f7df00-shard-0",
-        "claimed_at": "2026-11-24T03:40:02.089844+00:00",
-        "lease_expires_at": "2026-11-24T09:40:02.089844+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318302",
       "prepared": {
@@ -263406,5 +263408,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:40:46.812704+00:00"
+  "updated_at": "2026-11-24T03:40:51.609242+00:00"
 }
