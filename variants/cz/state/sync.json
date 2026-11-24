@@ -243094,17 +243094,19 @@
       }
     },
     "12043": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33799040",
+          "target_video_id": "31352105",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:13:53.754083+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33799040",
         "display_name": "Shining Through 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:09:08.298387+00:00"
-      },
-      "claim": {
-        "worker_id": "cca458230404460c89e778a17b28abb1-shard-0",
-        "claimed_at": "2026-11-24T23:09:08.781063+00:00",
-        "lease_expires_at": "2026-11-25T05:09:08.781063+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352105",
       "prepared": {
@@ -276901,5 +276903,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:13:44.662184+00:00"
+  "updated_at": "2026-11-24T23:13:53.754100+00:00"
 }
