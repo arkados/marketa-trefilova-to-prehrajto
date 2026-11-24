@@ -237496,17 +237496,19 @@
       }
     },
     "4389": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "29445160",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-24T17:27:35.134565+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29445160",
         "display_name": "Mamma Mia! 1080p CZ Dabing",
         "planned_at": "2026-11-24T17:26:10.951335+00:00"
-      },
-      "claim": {
-        "worker_id": "b0000aa92a70418fbb865fea07200ab7-shard-0",
-        "claimed_at": "2026-11-24T17:26:11.871780+00:00",
-        "lease_expires_at": "2026-11-24T23:26:11.871780+00:00",
-        "run_id": "45379676352"
       }
     },
     "4400": {
@@ -272519,5 +272521,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:26:59.355797+00:00"
+  "updated_at": "2026-11-24T17:27:35.134584+00:00"
 }
