@@ -224890,17 +224890,19 @@
       }
     },
     "12377": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25048150",
+          "target_video_id": "31316390",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:46:35.500557+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25048150",
         "display_name": "Hostile Waters 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:36:54.655508+00:00"
-      },
-      "claim": {
-        "worker_id": "db168bc68a5643e68f28bcf9fb874454-shard-0",
-        "claimed_at": "2026-11-24T02:36:55.219290+00:00",
-        "lease_expires_at": "2026-11-24T08:36:55.219290+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316390",
       "prepared": {
@@ -262537,5 +262539,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:45:34.262931+00:00"
+  "updated_at": "2026-11-24T02:46:35.500577+00:00"
 }
