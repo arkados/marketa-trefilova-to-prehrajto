@@ -234654,17 +234654,19 @@
       }
     },
     "4114": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33444342",
+          "target_video_id": "31334030",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:06:56.586012+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33444342",
         "display_name": "Plane 4K CZ Dabing",
         "planned_at": "2026-11-24T12:00:12.095933+00:00"
-      },
-      "claim": {
-        "worker_id": "cf43166c1de84556b5e16ca8bcc01ff8-shard-0",
-        "claimed_at": "2026-11-24T12:00:12.617284+00:00",
-        "lease_expires_at": "2026-11-24T18:00:12.617284+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334030",
       "prepared": {
@@ -270256,5 +270258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:05:18.850161+00:00"
+  "updated_at": "2026-11-24T12:06:56.586032+00:00"
 }
