@@ -236995,17 +236995,19 @@
       }
     },
     "4018": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32998815",
+          "target_video_id": "31342515",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:42:21.564619+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32998815",
         "display_name": "Longlegs 1080p CZ Dabing",
         "planned_at": "2026-11-24T16:30:44.015195+00:00"
-      },
-      "claim": {
-        "worker_id": "5b6e5aff34464919abfa04ef4c08279f-shard-0",
-        "claimed_at": "2026-11-24T16:30:44.832932+00:00",
-        "lease_expires_at": "2026-11-24T22:30:44.832932+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342515",
       "prepared": {
@@ -272112,5 +272114,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:38:18.621860+00:00"
+  "updated_at": "2026-11-24T16:42:21.564636+00:00"
 }
