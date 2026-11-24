@@ -230462,17 +230462,19 @@
       }
     },
     "4274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35155835",
+          "target_video_id": "31326982",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:10:04.640754+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35155835",
         "display_name": "Fire in the Sky 720p CZ Dabing",
         "planned_at": "2026-11-24T08:03:27.535189+00:00"
-      },
-      "claim": {
-        "worker_id": "fc9e1a1771214fbfb17eb57942f73f71-shard-0",
-        "claimed_at": "2026-11-24T08:03:28.057318+00:00",
-        "lease_expires_at": "2026-11-24T14:03:28.057318+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326982",
       "prepared": {
@@ -266826,5 +266828,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:10:00.204829+00:00"
+  "updated_at": "2026-11-24T08:10:04.640771+00:00"
 }
