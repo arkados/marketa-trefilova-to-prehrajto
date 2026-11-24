@@ -235057,17 +235057,19 @@
       }
     },
     "4248": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34400248",
+          "target_video_id": "31334743",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:27:34.733005+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34400248",
         "display_name": "The Quick and the Dead (1995) 4K CZ Dabing",
         "planned_at": "2026-11-24T12:21:27.355503+00:00"
-      },
-      "claim": {
-        "worker_id": "fbf14a2f904f477486c7751879a84511-shard-0",
-        "claimed_at": "2026-11-24T12:21:27.901863+00:00",
-        "lease_expires_at": "2026-11-24T18:21:27.901863+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334743",
       "prepared": {
@@ -270573,5 +270575,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:27:18.383094+00:00"
+  "updated_at": "2026-11-24T12:27:34.733027+00:00"
 }
