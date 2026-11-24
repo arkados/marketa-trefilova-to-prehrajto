@@ -243207,17 +243207,19 @@
       "attempts": []
     },
     "12894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33493692",
+          "target_video_id": "31352253",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:17:08.049613+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33493692",
         "display_name": "Les Acteurs 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:13:40.049905+00:00"
-      },
-      "claim": {
-        "worker_id": "275a2d62ebb44bc09582af69af0a823f-shard-0",
-        "claimed_at": "2026-11-24T23:13:40.541051+00:00",
-        "lease_expires_at": "2026-11-25T05:13:40.541051+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352253",
       "prepared": {
@@ -276941,5 +276943,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:16:53.784542+00:00"
+  "updated_at": "2026-11-24T23:17:08.049631+00:00"
 }
