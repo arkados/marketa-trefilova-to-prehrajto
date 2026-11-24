@@ -242738,17 +242738,19 @@
       "attempts": []
     },
     "35403": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34983106",
+          "target_video_id": "31351611",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:58:31.236717+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34983106",
         "display_name": "Gang Related 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:51:38.288603+00:00"
-      },
-      "claim": {
-        "worker_id": "e8c8b667476c4b4794d013c70fb619f4-shard-0",
-        "claimed_at": "2026-11-24T22:51:38.772636+00:00",
-        "lease_expires_at": "2026-11-25T04:51:38.772636+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351611",
       "prepared": {
@@ -276661,5 +276663,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:58:16.876036+00:00"
+  "updated_at": "2026-11-24T22:58:31.236733+00:00"
 }
