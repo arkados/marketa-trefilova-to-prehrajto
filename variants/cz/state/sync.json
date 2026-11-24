@@ -232508,17 +232508,19 @@
       "attempts": []
     },
     "15031": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27264639",
+          "target_video_id": "31330103",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:47:23.884795+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27264639",
         "display_name": "Communion (film) (Kommunioun) 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:44:34.563358+00:00"
-      },
-      "claim": {
-        "worker_id": "bde1fe224c3943ceaaf0507a61d7f12f-shard-0",
-        "claimed_at": "2026-11-24T09:44:35.104127+00:00",
-        "lease_expires_at": "2026-11-24T15:44:35.104127+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330103",
       "prepared": {
@@ -268429,5 +268431,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:45:38.144175+00:00"
+  "updated_at": "2026-11-24T09:47:23.884813+00:00"
 }
