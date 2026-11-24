@@ -243860,17 +243860,19 @@
       }
     },
     "17458": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26709770",
+          "target_video_id": "31353112",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:48:24.429784+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26709770",
         "display_name": "The Wrong Patient 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:42:02.504055+00:00"
-      },
-      "claim": {
-        "worker_id": "35a70bbcfbec48aaab41f08ddc13ec19-shard-0",
-        "claimed_at": "2026-11-24T23:42:03.141642+00:00",
-        "lease_expires_at": "2026-11-25T05:42:03.141642+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353112",
       "prepared": {
@@ -277414,5 +277416,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:42:07.513780+00:00"
+  "updated_at": "2026-11-24T23:48:24.429805+00:00"
 }
