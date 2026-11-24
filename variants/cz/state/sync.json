@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T02:31:09.999508+00:00"
+        "planned_at": "2026-11-24T02:31:15.250048+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -224613,17 +224613,19 @@
       }
     },
     "5730": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33807341",
+          "target_video_id": "31316033",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:31:19.109848+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33807341",
         "display_name": "The Red Line (esntay saylwng) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:25:17.238494+00:00"
-      },
-      "claim": {
-        "worker_id": "01b9489d50d64df28cf8442890cf6217-shard-0",
-        "claimed_at": "2026-11-24T02:25:18.143465+00:00",
-        "lease_expires_at": "2026-11-24T08:25:18.143465+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316033",
       "prepared": {
@@ -224749,7 +224751,13 @@
       "last_plan": {
         "source_id": "33996077",
         "display_name": "The Last Warrior (Posledniy bogatyr') (2017) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T02:31:10.316116+00:00"
+        "planned_at": "2026-11-24T02:31:15.617351+00:00"
+      },
+      "claim": {
+        "worker_id": "d7b9586479404f8b8287552db3be8c76-shard-0",
+        "claimed_at": "2026-11-24T02:31:16.172432+00:00",
+        "lease_expires_at": "2026-11-24T08:31:16.172432+00:00",
+        "run_id": "45312111226"
       }
     },
     "25473": {
@@ -262353,5 +262361,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:31:10.316135+00:00"
+  "updated_at": "2026-11-24T02:31:19.109871+00:00"
 }
