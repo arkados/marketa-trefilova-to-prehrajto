@@ -230494,17 +230494,19 @@
       "attempts": []
     },
     "12053": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29185156",
+          "target_video_id": "31327017",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:11:34.783905+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29185156",
         "display_name": "Under Suspicion (1991) 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:04:57.844478+00:00"
-      },
-      "claim": {
-        "worker_id": "d6a7f0464d454c59b9a1a14322556aab-shard-0",
-        "claimed_at": "2026-11-24T08:04:58.346574+00:00",
-        "lease_expires_at": "2026-11-24T14:04:58.346574+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327017",
       "prepared": {
@@ -266846,5 +266848,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:10:26.684487+00:00"
+  "updated_at": "2026-11-24T08:11:34.783922+00:00"
 }
