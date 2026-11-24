@@ -234798,17 +234798,19 @@
       }
     },
     "4183": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34941779",
+          "target_video_id": "31334205",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:08:25.185931+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34941779",
         "display_name": "The Last House on the Left 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:05:13.892264+00:00"
-      },
-      "claim": {
-        "worker_id": "704aef07d271477ca3d000f3d8a7e835-shard-0",
-        "claimed_at": "2026-11-24T12:05:14.387543+00:00",
-        "lease_expires_at": "2026-11-24T18:05:14.387543+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334205",
       "prepared": {
@@ -270296,5 +270298,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:08:07.680938+00:00"
+  "updated_at": "2026-11-24T12:08:25.185949+00:00"
 }
