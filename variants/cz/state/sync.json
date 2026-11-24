@@ -239644,17 +239644,19 @@
       }
     },
     "17572": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34849647",
+          "target_video_id": "31348242",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:28:42.644752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34849647",
         "display_name": "The Death of Dick Long 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:18:31.599964+00:00"
-      },
-      "claim": {
-        "worker_id": "c452d16dd246400599130f51be6cc367-shard-0",
-        "claimed_at": "2026-11-24T20:18:32.088957+00:00",
-        "lease_expires_at": "2026-11-25T02:18:32.088957+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348242",
       "prepared": {
@@ -274281,5 +274283,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:27:09.092446+00:00"
+  "updated_at": "2026-11-24T20:28:42.644768+00:00"
 }
