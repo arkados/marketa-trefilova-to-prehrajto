@@ -224479,17 +224479,19 @@
       }
     },
     "10931": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34672508",
+          "target_video_id": "31314618",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:46:23.272519+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34672508",
         "display_name": "The Crazy Kids of the War (La feldmarescialla) SD CZ Dabing",
         "planned_at": "2026-11-24T01:44:29.965665+00:00"
-      },
-      "claim": {
-        "worker_id": "5bb4d1598ad04441b8b49d95c08a6032-shard-0",
-        "claimed_at": "2026-11-24T01:44:30.422902+00:00",
-        "lease_expires_at": "2026-11-24T07:44:30.422902+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31314618",
       "prepared": {
@@ -262166,5 +262168,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:44:34.523677+00:00"
+  "updated_at": "2026-11-24T01:46:23.272535+00:00"
 }
