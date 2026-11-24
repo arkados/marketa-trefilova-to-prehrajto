@@ -230921,17 +230921,19 @@
       "attempts": []
     },
     "4117": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35255742",
+          "target_video_id": "31327584",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:31:08.548336+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35255742",
         "display_name": "Luck 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:22:51.325602+00:00"
-      },
-      "claim": {
-        "worker_id": "267b770b8b3f4f608de82e87d6ac5426-shard-0",
-        "claimed_at": "2026-11-24T08:22:51.818173+00:00",
-        "lease_expires_at": "2026-11-24T14:22:51.818173+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327584",
       "prepared": {
@@ -267163,5 +267165,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:30:00.822138+00:00"
+  "updated_at": "2026-11-24T08:31:08.548359+00:00"
 }
