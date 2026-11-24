@@ -232077,17 +232077,19 @@
       }
     },
     "22165": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11733490",
+          "target_video_id": "31329521",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:28:41.257375+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11733490",
         "display_name": "Scorpio SD CZ Dabing",
         "planned_at": "2026-11-24T09:26:58.275841+00:00"
-      },
-      "claim": {
-        "worker_id": "4943ac2c0eb94ff086d5119e2689644e-shard-0",
-        "claimed_at": "2026-11-24T09:27:01.276895+00:00",
-        "lease_expires_at": "2026-11-24T15:27:01.276895+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329521",
       "prepared": {
@@ -268076,5 +268078,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:27:14.719429+00:00"
+  "updated_at": "2026-11-24T09:28:41.257399+00:00"
 }
