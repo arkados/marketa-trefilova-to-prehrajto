@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T08:54:01.769386+00:00"
+        "planned_at": "2026-11-24T08:54:08.518302+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -231333,17 +231333,19 @@
       }
     },
     "22936": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11905665",
+          "target_video_id": "31328572",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:54:20.249722+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11905665",
         "display_name": "The Secret of My Success 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:50:40.973118+00:00"
-      },
-      "claim": {
-        "worker_id": "956e0011bb5240a8910514f66e881883-shard-0",
-        "claimed_at": "2026-11-24T08:50:41.515300+00:00",
-        "lease_expires_at": "2026-11-24T14:50:41.515300+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328572",
       "prepared": {
@@ -231405,7 +231407,13 @@
       "last_plan": {
         "source_id": "25305825",
         "display_name": "Her Boyfriend's Secret 720p CZ Dabing",
-        "planned_at": "2026-11-24T08:54:02.053362+00:00"
+        "planned_at": "2026-11-24T08:54:08.801181+00:00"
+      },
+      "claim": {
+        "worker_id": "7abd95d1ba194f679409919d842d9a22-shard-0",
+        "claimed_at": "2026-11-24T08:54:09.259049+00:00",
+        "lease_expires_at": "2026-11-24T14:54:09.259049+00:00",
+        "run_id": "45341588798"
       }
     },
     "4223": {
@@ -267510,5 +267518,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:54:02.053380+00:00"
+  "updated_at": "2026-11-24T08:54:20.249738+00:00"
 }
