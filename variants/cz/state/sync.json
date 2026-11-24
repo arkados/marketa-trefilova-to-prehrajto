@@ -243490,17 +243490,19 @@
       "attempts": []
     },
     "5896": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23920281",
+          "target_video_id": "31352652",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:31:42.439737+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23920281",
         "display_name": "Waiting for Anya 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:26:44.017285+00:00"
-      },
-      "claim": {
-        "worker_id": "da255a27bc314364a996e1a023de4fa6-shard-0",
-        "claimed_at": "2026-11-24T23:26:44.932465+00:00",
-        "lease_expires_at": "2026-11-25T05:26:44.932465+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31352652",
       "prepared": {
@@ -277201,5 +277203,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:31:07.297426+00:00"
+  "updated_at": "2026-11-24T23:31:42.439755+00:00"
 }
