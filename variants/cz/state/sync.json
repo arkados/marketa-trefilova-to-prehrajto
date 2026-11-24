@@ -223163,17 +223163,19 @@
       "attempts": []
     },
     "33756": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31415400",
+          "target_video_id": "31312337",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:36:05.892169+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31415400",
         "display_name": "Helter Skelter 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:32:14.772324+00:00"
-      },
-      "claim": {
-        "worker_id": "99cabdd30077465f85eebf8bf05f1b8a-shard-0",
-        "claimed_at": "2026-11-24T00:32:15.219808+00:00",
-        "lease_expires_at": "2026-11-24T06:32:15.219808+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312337",
       "prepared": {
@@ -261186,5 +261188,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:32:42.283882+00:00"
+  "updated_at": "2026-11-24T00:36:05.892186+00:00"
 }
