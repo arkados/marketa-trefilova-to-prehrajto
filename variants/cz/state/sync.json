@@ -228056,17 +228056,19 @@
       }
     },
     "25205": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31754046",
+          "target_video_id": "31322562",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:55:58.821478+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31754046",
         "display_name": "Curious George 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:48:24.956502+00:00"
-      },
-      "claim": {
-        "worker_id": "6296b89b4e8a4c52ae26bf756682dcd6-shard-0",
-        "claimed_at": "2026-11-24T05:48:25.518084+00:00",
-        "lease_expires_at": "2026-11-24T11:48:25.518084+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322562",
       "prepared": {
@@ -265049,5 +265051,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:53:26.942224+00:00"
+  "updated_at": "2026-11-24T05:55:58.821499+00:00"
 }
