@@ -233636,17 +233636,19 @@
       }
     },
     "4382": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850716",
+          "target_video_id": "31332075",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:58:47.820778+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850716",
         "display_name": "Magic in the Moonlight 720p CZ Dabing",
         "planned_at": "2026-11-24T10:56:14.204612+00:00"
-      },
-      "claim": {
-        "worker_id": "8079c661240a4ebea18f87c546bb658e-shard-0",
-        "claimed_at": "2026-11-24T10:56:14.784237+00:00",
-        "lease_expires_at": "2026-11-24T16:56:14.784237+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332075",
       "prepared": {
@@ -269302,5 +269304,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:56:19.367400+00:00"
+  "updated_at": "2026-11-24T10:58:47.820797+00:00"
 }
