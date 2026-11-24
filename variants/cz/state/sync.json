@@ -238019,17 +238019,19 @@
       }
     },
     "4908": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30014245",
+          "target_video_id": "31345449",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:31:44.228931+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30014245",
         "display_name": "Pedro Páramo 1080p CZ Dabing",
         "planned_at": "2026-11-24T18:24:01.416116+00:00"
-      },
-      "claim": {
-        "worker_id": "06f31e5b48ad4153b9e618e6c3de174a-shard-0",
-        "claimed_at": "2026-11-24T18:24:02.362956+00:00",
-        "lease_expires_at": "2026-11-25T00:24:02.362956+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345449",
       "prepared": {
@@ -272950,5 +272952,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:28:01.938548+00:00"
+  "updated_at": "2026-11-24T18:31:44.228946+00:00"
 }
