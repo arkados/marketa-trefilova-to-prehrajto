@@ -235936,17 +235936,19 @@
       "attempts": []
     },
     "4319": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12576228",
+          "target_video_id": "31337399",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:44:27.883780+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12576228",
         "display_name": "Nerve 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:38:51.593755+00:00"
-      },
-      "claim": {
-        "worker_id": "246bb64e745942cbb5e30fa999ab7b95-shard-0",
-        "claimed_at": "2026-11-24T13:38:52.153313+00:00",
-        "lease_expires_at": "2026-11-24T19:38:52.153313+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31337399",
       "prepared": {
@@ -271227,5 +271229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:43:57.711626+00:00"
+  "updated_at": "2026-11-24T13:44:27.883803+00:00"
 }
