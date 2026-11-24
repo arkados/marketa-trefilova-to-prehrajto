@@ -227819,17 +227819,19 @@
       }
     },
     "4489": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34658490",
+          "target_video_id": "31322119",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:39:00.281428+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34658490",
         "display_name": "Merry Little Batman 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:32:40.329516+00:00"
-      },
-      "claim": {
-        "worker_id": "fb7d72ea30f24174b352072752961868-shard-0",
-        "claimed_at": "2026-11-24T05:32:40.866188+00:00",
-        "lease_expires_at": "2026-11-24T11:32:40.866188+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322119",
       "prepared": {
@@ -264812,5 +264814,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:38:09.025543+00:00"
+  "updated_at": "2026-11-24T05:39:00.281448+00:00"
 }
