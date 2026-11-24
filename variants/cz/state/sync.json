@@ -236629,17 +236629,19 @@
       }
     },
     "4053": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30649499",
+          "target_video_id": "31341110",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:22:47.641745+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30649499",
         "display_name": "Carry-On 4K CZ Dabing",
         "planned_at": "2026-11-24T15:33:46.123205+00:00"
-      },
-      "claim": {
-        "worker_id": "285661df2dca4f6c895d1bf8d583bb8c-shard-0",
-        "claimed_at": "2026-11-24T15:33:46.981618+00:00",
-        "lease_expires_at": "2026-11-24T21:33:46.981618+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31341110",
       "prepared": {
@@ -271995,5 +271997,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:14:53.070654+00:00"
+  "updated_at": "2026-11-24T16:22:47.641763+00:00"
 }
