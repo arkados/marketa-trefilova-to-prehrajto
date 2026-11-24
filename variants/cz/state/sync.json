@@ -229887,17 +229887,23 @@
       "attempts": []
     },
     "34988": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34776094",
+          "reason": "Source detail has no authenticated download link; source_id=34776094",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:42:55.473909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34776094",
         "display_name": "Babovresky 3 (Old Gossiptown 3) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:42:50.865561+00:00"
       },
-      "claim": {
-        "worker_id": "0864f1ee69374ad39909f48d2c4ebc02-shard-0",
-        "claimed_at": "2026-11-24T07:42:51.477893+00:00",
-        "lease_expires_at": "2026-11-24T13:42:51.477893+00:00",
-        "run_id": "45341588798"
+      "source_repair_requested": {
+        "source_id": "34776094",
+        "requested_at": "2026-11-24T07:42:55.473892+00:00"
       }
     },
     "14063": {
@@ -266349,5 +266355,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:42:51.477917+00:00"
+  "updated_at": "2026-11-24T07:42:55.473918+00:00"
 }
