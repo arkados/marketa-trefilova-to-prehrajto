@@ -234012,17 +234012,19 @@
       "attempts": []
     },
     "4354": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25474775",
+          "target_video_id": "31332792",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:20:46.257740+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25474775",
         "display_name": "REC 2 ([REC]²) 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:18:24.580811+00:00"
-      },
-      "claim": {
-        "worker_id": "a31a7d781f194b2d9396c57bc2535d98-shard-0",
-        "claimed_at": "2026-11-24T11:18:25.134178+00:00",
-        "lease_expires_at": "2026-11-24T17:18:25.134178+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332792",
       "prepared": {
@@ -269642,5 +269644,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:19:14.526500+00:00"
+  "updated_at": "2026-11-24T11:20:46.257766+00:00"
 }
