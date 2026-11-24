@@ -236693,17 +236693,19 @@
       }
     },
     "4208": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32599115",
+          "target_video_id": "31341370",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:48:56.675654+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32599115",
         "display_name": "Detective Pikachu (Pokémon Detective Pikachu) 1080p CZ Dabing",
         "planned_at": "2026-11-24T15:43:12.437283+00:00"
-      },
-      "claim": {
-        "worker_id": "a91c38be2eb94f5a87915109f2abf409-shard-0",
-        "claimed_at": "2026-11-24T15:43:13.261420+00:00",
-        "lease_expires_at": "2026-11-24T21:43:13.261420+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31341370",
       "prepared": {
@@ -271855,5 +271857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:47:30.338579+00:00"
+  "updated_at": "2026-11-24T15:48:56.675671+00:00"
 }
