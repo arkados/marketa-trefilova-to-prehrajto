@@ -232945,17 +232945,19 @@
       }
     },
     "26403": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34709234",
+          "target_video_id": "31330764",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:06:43.055376+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34709234",
         "display_name": "Far til Fire - På Hjemmebane (Father of Four: Home Field Advantage) SD CZ Dabing",
         "planned_at": "2026-11-24T10:05:43.760021+00:00"
-      },
-      "claim": {
-        "worker_id": "60c9b0dc4ee342d6931dbbf6e43d785d-shard-0",
-        "claimed_at": "2026-11-24T10:05:44.237205+00:00",
-        "lease_expires_at": "2026-11-24T16:05:44.237205+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330764",
       "prepared": {
@@ -268749,5 +268751,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:05:48.868274+00:00"
+  "updated_at": "2026-11-24T10:06:43.055394+00:00"
 }
