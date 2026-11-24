@@ -228187,17 +228187,19 @@
       }
     },
     "18744": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33466775",
+          "target_video_id": "31322703",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:57:24.090453+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33466775",
         "display_name": "Red Flags 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:53:22.281946+00:00"
-      },
-      "claim": {
-        "worker_id": "ed6c53e5d6af4408aa6b7662a913784f-shard-0",
-        "claimed_at": "2026-11-24T05:53:22.911549+00:00",
-        "lease_expires_at": "2026-11-24T11:53:22.911549+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322703",
       "prepared": {
@@ -265069,5 +265071,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:56:15.344042+00:00"
+  "updated_at": "2026-11-24T05:57:24.090471+00:00"
 }
