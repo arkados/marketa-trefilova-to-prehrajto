@@ -230869,17 +230869,19 @@
       "attempts": []
     },
     "4045": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32448596",
+          "target_video_id": "31327551",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:27:12.238029+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32448596",
         "display_name": "Bridget Jones: Mad About the Boy 1440p CZ Dabing",
         "planned_at": "2026-11-24T08:21:41.809803+00:00"
-      },
-      "claim": {
-        "worker_id": "f315adb24f9945e896e5ce60b6fbef69-shard-0",
-        "claimed_at": "2026-11-24T08:21:44.400109+00:00",
-        "lease_expires_at": "2026-11-24T14:21:44.400109+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327551",
       "prepared": {
@@ -267123,5 +267125,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:22:58.992718+00:00"
+  "updated_at": "2026-11-24T08:27:12.238048+00:00"
 }
