@@ -239830,17 +239830,19 @@
       "attempts": []
     },
     "26596": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34709441",
+          "target_video_id": "31348579",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:36:50.367612+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34709441",
         "display_name": "Saving God 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:31:20.638415+00:00"
-      },
-      "claim": {
-        "worker_id": "a90202be5a6b45c5b93c9cc0b4182075-shard-0",
-        "claimed_at": "2026-11-24T20:31:21.102065+00:00",
-        "lease_expires_at": "2026-11-25T02:31:21.102065+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348579",
       "prepared": {
@@ -274341,5 +274343,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:31:38.379896+00:00"
+  "updated_at": "2026-11-24T20:36:50.367629+00:00"
 }
