@@ -225836,17 +225836,19 @@
       "attempts": []
     },
     "15616": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694083",
+          "target_video_id": "31318014",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:32:26.434180+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694083",
         "display_name": "Championext (Campeonex) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:27:17.450030+00:00"
-      },
-      "claim": {
-        "worker_id": "4ac32d66432e48739db8fcdb22ba4682-shard-0",
-        "claimed_at": "2026-11-24T03:27:17.960521+00:00",
-        "lease_expires_at": "2026-11-24T09:27:17.960521+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318014",
       "prepared": {
@@ -263279,5 +263281,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:29:28.153307+00:00"
+  "updated_at": "2026-11-24T03:32:26.434202+00:00"
 }
