@@ -226226,17 +226226,19 @@
       }
     },
     "11082": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32156869",
+          "target_video_id": "31318603",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:55:11.397457+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32156869",
         "display_name": "Horror Express (Pánico en el Transiberiano) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:50:17.008265+00:00"
-      },
-      "claim": {
-        "worker_id": "baca123654ff4dfe8f3acdb913af8775-shard-0",
-        "claimed_at": "2026-11-24T03:50:17.544382+00:00",
-        "lease_expires_at": "2026-11-24T09:50:17.544382+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318603",
       "prepared": {
@@ -263559,5 +263561,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:53:41.370382+00:00"
+  "updated_at": "2026-11-24T03:55:11.397476+00:00"
 }
