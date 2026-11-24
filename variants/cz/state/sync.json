@@ -240502,17 +240502,19 @@
       }
     },
     "4455": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29623902",
+          "target_video_id": "31349238",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:17:18.064698+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29623902",
         "display_name": "The Miracle Club 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:12:55.317603+00:00"
-      },
-      "claim": {
-        "worker_id": "967b50ea29c440c3a8eaf5f7f4f65d0d-shard-0",
-        "claimed_at": "2026-11-24T21:12:55.790828+00:00",
-        "lease_expires_at": "2026-11-25T03:12:55.790828+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349238",
       "prepared": {
@@ -274875,5 +274877,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:15:55.193672+00:00"
+  "updated_at": "2026-11-24T21:17:18.064715+00:00"
 }
