@@ -224634,17 +224634,19 @@
       }
     },
     "4462": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34658426",
+          "target_video_id": "31316042",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:30:47.888696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34658426",
         "display_name": "The Sweet East 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:25:25.848545+00:00"
-      },
-      "claim": {
-        "worker_id": "ec3a5a0cacf54b8d907c59245bd29df8-shard-0",
-        "claimed_at": "2026-11-24T02:25:26.731025+00:00",
-        "lease_expires_at": "2026-11-24T08:25:26.731025+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316042",
       "prepared": {
@@ -262326,5 +262328,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:29:15.434338+00:00"
+  "updated_at": "2026-11-24T02:30:47.888714+00:00"
 }
