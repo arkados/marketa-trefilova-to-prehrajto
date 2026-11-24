@@ -222713,17 +222713,19 @@
       "attempts": []
     },
     "19836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24906871",
+          "target_video_id": "31311701",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:10:21.791385+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24906871",
         "display_name": "At Middleton SD CZ Dabing",
         "planned_at": "2026-11-24T00:08:05.754765+00:00"
-      },
-      "claim": {
-        "worker_id": "45d949cb914143ea988303f7f2d549c4-shard-0",
-        "claimed_at": "2026-11-24T00:08:08.933264+00:00",
-        "lease_expires_at": "2026-11-24T06:08:08.933264+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311701",
       "prepared": {
@@ -260874,5 +260876,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:08:21.417554+00:00"
+  "updated_at": "2026-11-24T00:10:21.791403+00:00"
 }
