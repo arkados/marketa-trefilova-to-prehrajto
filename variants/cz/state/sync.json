@@ -222793,25 +222793,22 @@
       "attempts": []
     },
     "15159": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "upload_failed",
+          "source_id": "32216134",
+          "reason": "PrehrajtoError",
+          "permanent": false,
+          "target_video_id": "31311808",
+          "attempted_at": "2026-11-24T00:20:58.938842+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32216134",
         "display_name": "2Bobule 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:12:52.108922+00:00"
       },
-      "claim": {
-        "worker_id": "d5c7f5032cca4b59bafb1218665a0ee9-shard-0",
-        "claimed_at": "2026-11-24T00:12:52.575749+00:00",
-        "lease_expires_at": "2026-11-24T06:12:52.575749+00:00",
-        "run_id": "45273969052"
-      },
-      "previous_target_id": "31311808",
-      "prepared": {
-        "target_video_id": "31311808",
-        "size_bytes": 2034502541,
-        "prepared_at": "2026-11-24T00:12:56.831604+00:00",
-        "relay_source_id": "32216134"
-      }
+      "previous_target_id": "31311808"
     },
     "26933": {
       "attempts": []
@@ -260994,5 +260991,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:20:22.521131+00:00"
+  "updated_at": "2026-11-24T00:20:58.938860+00:00"
 }
