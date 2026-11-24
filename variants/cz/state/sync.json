@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T02:36:37.384198+00:00"
+        "planned_at": "2026-11-24T02:36:42.550810+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -224866,11 +224866,23 @@
       }
     },
     "23418": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34785578",
+          "reason": "Request failed for https://sdilej.cz/34785578/program-1993-.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:36:44.582737+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34785578",
         "display_name": "The Program (1993) SD CZ Dabing",
-        "planned_at": "2026-11-24T02:36:37.728418+00:00"
+        "planned_at": "2026-11-24T02:36:42.895093+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34785578",
+        "requested_at": "2026-11-24T02:36:44.582723+00:00"
       }
     },
     "12377": {
@@ -262447,5 +262459,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:36:37.728436+00:00"
+  "updated_at": "2026-11-24T02:36:44.582741+00:00"
 }
