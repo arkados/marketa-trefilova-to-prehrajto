@@ -229072,17 +229072,19 @@
       "attempts": []
     },
     "16958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12575759",
+          "target_video_id": "31324787",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:52:39.857113+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12575759",
         "display_name": "Poveri ma ricchi 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:50:34.205351+00:00"
-      },
-      "claim": {
-        "worker_id": "313a0135401f4b0091ab2798168f11e8-shard-0",
-        "claimed_at": "2026-11-24T06:50:34.723847+00:00",
-        "lease_expires_at": "2026-11-24T12:50:34.723847+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324787",
       "prepared": {
@@ -265729,5 +265731,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:51:52.512018+00:00"
+  "updated_at": "2026-11-24T06:52:39.857132+00:00"
 }
