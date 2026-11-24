@@ -233863,17 +233863,19 @@
       }
     },
     "17340": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15015440",
+          "target_video_id": "31332504",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:14:33.408485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15015440",
         "display_name": "Pokémon the Movie: The Power of Us (gekijouban pokettomonsutaa minnano monogatari) 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:11:11.341771+00:00"
-      },
-      "claim": {
-        "worker_id": "7cd7529b2f624fd9a8c8f5e0f7347caf-shard-0",
-        "claimed_at": "2026-11-24T11:11:11.865293+00:00",
-        "lease_expires_at": "2026-11-24T17:11:11.865293+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332504",
       "prepared": {
@@ -269502,5 +269504,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:12:41.847602+00:00"
+  "updated_at": "2026-11-24T11:14:33.408504+00:00"
 }
