@@ -233840,17 +233840,19 @@
       "attempts": []
     },
     "23971": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29344362",
+          "target_video_id": "31332480",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:12:25.648361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29344362",
         "display_name": "Bowfinger 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:10:34.473591+00:00"
-      },
-      "claim": {
-        "worker_id": "ac915639451c4f3b82cb320998aab444-shard-0",
-        "claimed_at": "2026-11-24T11:10:35.015277+00:00",
-        "lease_expires_at": "2026-11-24T17:10:35.015277+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332480",
       "prepared": {
@@ -269482,5 +269484,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:11:15.846989+00:00"
+  "updated_at": "2026-11-24T11:12:25.648381+00:00"
 }
