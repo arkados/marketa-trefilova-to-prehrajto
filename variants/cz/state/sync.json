@@ -226348,17 +226348,19 @@
       "attempts": []
     },
     "20028": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34698636",
+          "target_video_id": "31318976",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:02:59.683194+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34698636",
         "display_name": "Missing: The Lucie Blackman Case (Keishichô sôsaikka rûshî burakku man jiken) 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:58:55.647892+00:00"
-      },
-      "claim": {
-        "worker_id": "4918a6d2b9ad4109b43b95d229862277-shard-0",
-        "claimed_at": "2026-11-24T03:58:56.163800+00:00",
-        "lease_expires_at": "2026-11-24T09:58:56.163800+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31318976",
       "prepared": {
@@ -263659,5 +263661,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:01:34.032847+00:00"
+  "updated_at": "2026-11-24T04:02:59.683216+00:00"
 }
