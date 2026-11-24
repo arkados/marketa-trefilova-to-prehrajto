@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T10:08:25.776413+00:00"
+        "planned_at": "2026-11-24T10:08:32.136275+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -232903,17 +232903,19 @@
       "attempts": []
     },
     "25050": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28380032",
+          "target_video_id": "31330747",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:08:32.361300+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28380032",
         "display_name": "Ladder 49 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:05:07.954112+00:00"
-      },
-      "claim": {
-        "worker_id": "2b2452d5ccce4f9e8ce9b709072c2b06-shard-0",
-        "claimed_at": "2026-11-24T10:05:08.503065+00:00",
-        "lease_expires_at": "2026-11-24T16:05:08.503065+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330747",
       "prepared": {
@@ -268776,5 +268778,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:08:26.061543+00:00"
+  "updated_at": "2026-11-24T10:08:32.361320+00:00"
 }
