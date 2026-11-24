@@ -236115,17 +236115,19 @@
       "attempts": []
     },
     "4251": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33483441",
+          "target_video_id": "31338044",
+          "permanent": false,
+          "attempted_at": "2026-11-24T14:01:46.691505+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33483441",
         "display_name": "Tag (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:57:53.313168+00:00"
-      },
-      "claim": {
-        "worker_id": "c0f5c6d889fb42b78bbf9e9cf690cf68-shard-0",
-        "claimed_at": "2026-11-24T13:57:53.913348+00:00",
-        "lease_expires_at": "2026-11-24T19:57:53.913348+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31338044",
       "prepared": {
@@ -271367,5 +271369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:59:56.901371+00:00"
+  "updated_at": "2026-11-24T14:01:46.691528+00:00"
 }
