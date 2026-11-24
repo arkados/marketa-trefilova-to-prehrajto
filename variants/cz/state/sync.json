@@ -227509,17 +227509,19 @@
       }
     },
     "6239": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12216299",
+          "target_video_id": "31321716",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:23:22.736938+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12216299",
         "display_name": "Sonja: The White Swan (Sonja) 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:17:04.386532+00:00"
-      },
-      "claim": {
-        "worker_id": "d6d88ca121434032916478612de9424f-shard-0",
-        "claimed_at": "2026-11-24T05:17:05.158372+00:00",
-        "lease_expires_at": "2026-11-24T11:17:05.158372+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321716",
       "prepared": {
@@ -264612,5 +264614,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:21:59.469051+00:00"
+  "updated_at": "2026-11-24T05:23:22.736956+00:00"
 }
