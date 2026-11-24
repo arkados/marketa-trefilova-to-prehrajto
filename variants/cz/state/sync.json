@@ -234251,17 +234251,19 @@
       }
     },
     "12829": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15388450",
+          "target_video_id": "31333214",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:36:12.673281+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15388450",
         "display_name": "Space Cowboys 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:30:30.902651+00:00"
-      },
-      "claim": {
-        "worker_id": "664606e3db3c456180be6b895bd35d42-shard-0",
-        "claimed_at": "2026-11-24T11:30:31.489538+00:00",
-        "lease_expires_at": "2026-11-24T17:30:31.489538+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333214",
       "prepared": {
@@ -269862,5 +269864,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:33:51.902374+00:00"
+  "updated_at": "2026-11-24T11:36:12.673300+00:00"
 }
