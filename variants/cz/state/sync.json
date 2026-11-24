@@ -237020,17 +237020,19 @@
       }
     },
     "4901": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659514",
+          "target_video_id": "31342661",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:46:29.740986+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659514",
         "display_name": "Mayhem! (Farang) 1080p CZ Dabing",
         "planned_at": "2026-11-24T16:38:09.786919+00:00"
-      },
-      "claim": {
-        "worker_id": "fe84d35f71e24bfdb7501d22f771a9a3-shard-0",
-        "claimed_at": "2026-11-24T16:38:10.593325+00:00",
-        "lease_expires_at": "2026-11-24T22:38:10.593325+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342661",
       "prepared": {
@@ -272152,5 +272154,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:44:58.029798+00:00"
+  "updated_at": "2026-11-24T16:46:29.741002+00:00"
 }
