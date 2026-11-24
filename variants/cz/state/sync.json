@@ -230312,17 +230312,19 @@
       "attempts": []
     },
     "12088": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29657059",
+          "target_video_id": "31326790",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:59:56.319454+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29657059",
         "display_name": "Malice 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:56:57.012958+00:00"
-      },
-      "claim": {
-        "worker_id": "e4fcaa255b394b3c9e622073088e3959-shard-0",
-        "claimed_at": "2026-11-24T07:56:57.524570+00:00",
-        "lease_expires_at": "2026-11-24T13:56:57.524570+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326790",
       "prepared": {
@@ -266688,5 +266690,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:59:54.107356+00:00"
+  "updated_at": "2026-11-24T07:59:56.319472+00:00"
 }
