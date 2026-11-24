@@ -226543,17 +226543,19 @@
       }
     },
     "19027": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32743752",
+          "target_video_id": "31319643",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:17:48.985265+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32743752",
         "display_name": "The Most Beautiful Day (Der geilste Tag) 720p CZ Dabing",
         "planned_at": "2026-11-24T04:14:34.459468+00:00"
-      },
-      "claim": {
-        "worker_id": "cf9a5b48cd274e6b85188cfa3ac254a5-shard-0",
-        "claimed_at": "2026-11-24T04:14:34.958110+00:00",
-        "lease_expires_at": "2026-11-24T10:14:34.958110+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319643",
       "prepared": {
@@ -263839,5 +263841,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:17:39.571710+00:00"
+  "updated_at": "2026-11-24T04:17:48.985292+00:00"
 }
