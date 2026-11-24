@@ -231682,17 +231682,19 @@
       }
     },
     "11884": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34962646",
+          "target_video_id": "31328965",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:09:14.357516+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34962646",
         "display_name": "The Exorcist III 720p CZ Dabing",
         "planned_at": "2026-11-24T09:07:08.140941+00:00"
-      },
-      "claim": {
-        "worker_id": "f0873b24c9a24897b70e876fd99431e2-shard-0",
-        "claimed_at": "2026-11-24T09:07:08.632769+00:00",
-        "lease_expires_at": "2026-11-24T15:07:08.632769+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328965",
       "prepared": {
@@ -267756,5 +267758,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:07:14.096479+00:00"
+  "updated_at": "2026-11-24T09:09:14.357536+00:00"
 }
