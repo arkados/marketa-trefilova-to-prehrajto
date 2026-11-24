@@ -237214,17 +237214,19 @@
       "attempts": []
     },
     "4393": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22343739",
+          "target_video_id": "31343247",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:09:20.353532+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22343739",
         "display_name": "Big Daddy SD CZ Dabing",
         "planned_at": "2026-11-24T17:07:13.615100+00:00"
-      },
-      "claim": {
-        "worker_id": "6ecc749d52a847f39de8bd5433299d66-shard-0",
-        "claimed_at": "2026-11-24T17:07:14.578138+00:00",
-        "lease_expires_at": "2026-11-24T23:07:14.578138+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31343247",
       "prepared": {
@@ -272292,5 +272294,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:09:00.692679+00:00"
+  "updated_at": "2026-11-24T17:09:20.353549+00:00"
 }
