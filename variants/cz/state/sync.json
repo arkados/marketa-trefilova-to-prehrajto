@@ -229341,17 +229341,19 @@
       "attempts": []
     },
     "24215": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27032654",
+          "target_video_id": "31325209",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:06:25.216109+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27032654",
         "display_name": "Halloweentown SD CZ Dabing",
         "planned_at": "2026-11-24T07:04:26.787939+00:00"
-      },
-      "claim": {
-        "worker_id": "8714f3c20c46460f953058c1128ade00-shard-0",
-        "claimed_at": "2026-11-24T07:04:27.290627+00:00",
-        "lease_expires_at": "2026-11-24T13:04:27.290627+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325209",
       "prepared": {
@@ -265949,5 +265951,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:05:32.078955+00:00"
+  "updated_at": "2026-11-24T07:06:25.216130+00:00"
 }
