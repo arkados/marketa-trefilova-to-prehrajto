@@ -241078,17 +241078,19 @@
       }
     },
     "6135": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34661434",
+          "target_video_id": "31349822",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:43:23.926847+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34661434",
         "display_name": "Four Letters of Love 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:39:31.190730+00:00"
-      },
-      "claim": {
-        "worker_id": "b7ba51ba44b341999b74b490e70e5d45-shard-0",
-        "claimed_at": "2026-11-24T21:39:31.672641+00:00",
-        "lease_expires_at": "2026-11-25T03:39:31.672641+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349822",
       "prepared": {
@@ -275352,5 +275354,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:43:19.600477+00:00"
+  "updated_at": "2026-11-24T21:43:23.926867+00:00"
 }
