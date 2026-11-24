@@ -152515,7 +152515,7 @@
       "last_plan": {
         "source_id": "25586153",
         "display_name": "Framed for Murder: A Fixer Upper Mystery 1080p CZ Dabing",
-        "planned_at": "2026-11-24T12:51:18.834182+00:00"
+        "planned_at": "2026-11-24T12:51:22.276524+00:00"
       },
       "previous_target_id": "31035253",
       "prepared": {
@@ -235477,17 +235477,19 @@
       "attempts": []
     },
     "4040": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31648533",
+          "target_video_id": "31335931",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:51:24.117947+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31648533",
         "display_name": "Naked Gun 33⅓: The Final Insult 4K CZ Dabing",
         "planned_at": "2026-11-24T12:46:51.248101+00:00"
-      },
-      "claim": {
-        "worker_id": "e077f4ce4a5c46dc9410760fc817b05e-shard-0",
-        "claimed_at": "2026-11-24T12:46:51.773308+00:00",
-        "lease_expires_at": "2026-11-24T18:46:51.773308+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31335931",
       "prepared": {
@@ -235558,10 +235560,21 @@
         "source_id": "30568014",
         "display_name": "The Love Scam (Mica è Colpa Mia) 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:51:19.118906+00:00"
+      },
+      "claim": {
+        "worker_id": "b9aeed9ad4ee4ccd9c9b71042c542e77-shard-0",
+        "claimed_at": "2026-11-24T12:51:22.046751+00:00",
+        "lease_expires_at": "2026-11-24T18:51:22.046751+00:00",
+        "run_id": "45378695605"
       }
     },
     "4347": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "33735003",
+        "display_name": "A Walk Among the Tombstones 1080p CZ Dabing",
+        "planned_at": "2026-11-24T12:51:22.558232+00:00"
+      }
     },
     "4352": {
       "attempts": []
@@ -270876,5 +270889,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:51:19.118923+00:00"
+  "updated_at": "2026-11-24T12:51:24.117964+00:00"
 }
