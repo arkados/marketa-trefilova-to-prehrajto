@@ -232725,17 +232725,19 @@
       }
     },
     "23960": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29857695",
+          "target_video_id": "31330486",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:58:18.451910+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29857695",
         "display_name": "Can't Hardly Wait SD CZ Dabing",
         "planned_at": "2026-11-24T09:56:38.705348+00:00"
-      },
-      "claim": {
-        "worker_id": "a778ccb0bcda4881a7e024b1bcef6c7b-shard-0",
-        "claimed_at": "2026-11-24T09:56:39.230612+00:00",
-        "lease_expires_at": "2026-11-24T15:56:39.230612+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330486",
       "prepared": {
@@ -268589,5 +268591,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:58:01.446888+00:00"
+  "updated_at": "2026-11-24T09:58:18.451933+00:00"
 }
