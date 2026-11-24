@@ -229938,17 +229938,19 @@
       "attempts": []
     },
     "17173": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30548014",
+          "target_video_id": "31326342",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:48:02.947730+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30548014",
         "display_name": "Super Crazy (Re loca) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:43:16.094544+00:00"
-      },
-      "claim": {
-        "worker_id": "f9a2643c60884c50a5cb2d877564ae70-shard-0",
-        "claimed_at": "2026-11-24T07:43:16.567313+00:00",
-        "lease_expires_at": "2026-11-24T13:43:16.567313+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326342",
       "prepared": {
@@ -266426,5 +266428,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:47:02.329553+00:00"
+  "updated_at": "2026-11-24T07:48:02.947756+00:00"
 }
