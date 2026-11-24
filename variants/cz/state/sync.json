@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:08:25.101221+00:00"
+        "planned_at": "2026-11-24T03:08:31.687873+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225512,11 +225512,23 @@
       }
     },
     "8760": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33711806",
+          "reason": "Request failed for https://sdilej.cz/33711806/skola-konci-2018-1080p-hdtv-cz.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:08:34.049544+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33711806",
         "display_name": "L'école est finie 1080p CZ Dabing",
-        "planned_at": "2026-11-24T03:08:25.452348+00:00"
+        "planned_at": "2026-11-24T03:08:32.082344+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33711806",
+        "requested_at": "2026-11-24T03:08:34.049531+00:00"
       }
     },
     "35704": {
@@ -262952,5 +262964,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:08:25.452366+00:00"
+  "updated_at": "2026-11-24T03:08:34.049548+00:00"
 }
