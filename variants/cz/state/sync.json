@@ -240069,17 +240069,19 @@
       "attempts": []
     },
     "11521": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31555171",
+          "target_video_id": "31348834",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:50:38.533540+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31555171",
         "display_name": "The Twin (Le Jumeau) (1984) 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:47:30.387515+00:00"
-      },
-      "claim": {
-        "worker_id": "271ba36700e0484c9c800d030debabe0-shard-0",
-        "claimed_at": "2026-11-24T20:47:30.866080+00:00",
-        "lease_expires_at": "2026-11-25T02:47:30.866080+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348834",
       "prepared": {
@@ -274535,5 +274537,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:50:04.527823+00:00"
+  "updated_at": "2026-11-24T20:50:38.533558+00:00"
 }
