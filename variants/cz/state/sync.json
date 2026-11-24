@@ -228356,17 +228356,19 @@
       }
     },
     "22183": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34824354",
+          "target_video_id": "31322960",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:12:09.534496+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34824354",
         "display_name": "Borsalino & Co. (Borsalino and Co.) 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:03:57.465573+00:00"
-      },
-      "claim": {
-        "worker_id": "4ed9f5e76bba4f30bc6a2b6a22eab411-shard-0",
-        "claimed_at": "2026-11-24T06:03:58.016863+00:00",
-        "lease_expires_at": "2026-11-24T12:03:58.016863+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322960",
       "prepared": {
@@ -265289,5 +265291,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:11:40.597541+00:00"
+  "updated_at": "2026-11-24T06:12:09.534514+00:00"
 }
