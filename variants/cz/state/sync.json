@@ -230628,17 +230628,19 @@
       "attempts": []
     },
     "13345": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30710818",
+          "target_video_id": "31327286",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:13:58.683992+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30710818",
         "display_name": "Spartan SD CZ Dabing",
         "planned_at": "2026-11-24T08:12:21.197317+00:00"
-      },
-      "claim": {
-        "worker_id": "c27ad08e173044a2bf3f85802b23d9a5-shard-0",
-        "claimed_at": "2026-11-24T08:12:21.702170+00:00",
-        "lease_expires_at": "2026-11-24T14:12:21.702170+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327286",
       "prepared": {
@@ -266923,5 +266925,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:13:02.045517+00:00"
+  "updated_at": "2026-11-24T08:13:58.684011+00:00"
 }
