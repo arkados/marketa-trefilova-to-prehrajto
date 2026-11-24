@@ -234752,17 +234752,19 @@
       }
     },
     "4359": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33771350",
+          "target_video_id": "31334188",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:07:54.877272+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33771350",
         "display_name": "Self/less 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:04:45.405391+00:00"
-      },
-      "claim": {
-        "worker_id": "e118ec9897124e63b9e512c5490d8bed-shard-0",
-        "claimed_at": "2026-11-24T12:04:45.946825+00:00",
-        "lease_expires_at": "2026-11-24T18:04:45.946825+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334188",
       "prepared": {
@@ -270276,5 +270278,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:07:09.372166+00:00"
+  "updated_at": "2026-11-24T12:07:54.877293+00:00"
 }
