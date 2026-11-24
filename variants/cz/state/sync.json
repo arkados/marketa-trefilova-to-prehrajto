@@ -237953,17 +237953,19 @@
       }
     },
     "17842": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31655212",
+          "target_video_id": "31345357",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:27:32.418530+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31655212",
         "display_name": "Night at the Museum 4K CZ Dabing",
         "planned_at": "2026-11-24T18:19:45.741066+00:00"
-      },
-      "claim": {
-        "worker_id": "b26eca4b11de4e11800b0c9bb2385916-shard-0",
-        "claimed_at": "2026-11-24T18:19:46.679514+00:00",
-        "lease_expires_at": "2026-11-25T00:19:46.679514+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345357",
       "prepared": {
@@ -272930,5 +272932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:24:07.062048+00:00"
+  "updated_at": "2026-11-24T18:27:32.418546+00:00"
 }
