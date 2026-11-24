@@ -226474,17 +226474,19 @@
       "attempts": []
     },
     "10879": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34430060",
+          "target_video_id": "31319372",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:17:24.215810+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34430060",
         "display_name": "Im Reich des silbernen Löwen (Im Reiche des silbernen Löwen) 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:08:22.474827+00:00"
-      },
-      "claim": {
-        "worker_id": "68f4b236263b4c25addd6421d5042d23-shard-0",
-        "claimed_at": "2026-11-24T04:08:23.049291+00:00",
-        "lease_expires_at": "2026-11-24T10:08:23.049291+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319372",
       "prepared": {
@@ -263819,5 +263821,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:17:03.929146+00:00"
+  "updated_at": "2026-11-24T04:17:24.215831+00:00"
 }
