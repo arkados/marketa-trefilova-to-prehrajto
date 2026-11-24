@@ -231542,17 +231542,19 @@
       "attempts": []
     },
     "30649": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713623",
+          "target_video_id": "31328810",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:03:11.992466+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713623",
         "display_name": "A Song For Christmas (Christmas Solo) (2017) [ID 30649] 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:00:01.560668+00:00"
-      },
-      "claim": {
-        "worker_id": "dcfe6dbdc17842b49df72414a87c4668-shard-0",
-        "claimed_at": "2026-11-24T09:00:02.049135+00:00",
-        "lease_expires_at": "2026-11-24T15:00:02.049135+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328810",
       "prepared": {
@@ -267676,5 +267678,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:01:20.198494+00:00"
+  "updated_at": "2026-11-24T09:03:11.992485+00:00"
 }
