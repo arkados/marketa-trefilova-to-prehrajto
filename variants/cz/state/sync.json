@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:04:43.859788+00:00"
+        "planned_at": "2026-11-24T03:04:51.318790+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225443,11 +225443,23 @@
       }
     },
     "26710": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34445230",
+          "reason": "Request failed for https://sdilej.cz/34445230/pet-minut-v-nebi-2009-juraison-.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:04:53.703254+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34445230",
         "display_name": "Five Minutes of Heaven SD CZ Dabing",
-        "planned_at": "2026-11-24T03:04:44.189271+00:00"
+        "planned_at": "2026-11-24T03:04:51.634416+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34445230",
+        "requested_at": "2026-11-24T03:04:53.703241+00:00"
       }
     },
     "6858": {
@@ -262895,5 +262907,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:04:48.746115+00:00"
+  "updated_at": "2026-11-24T03:04:53.703258+00:00"
 }
