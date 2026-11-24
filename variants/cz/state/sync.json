@@ -225017,17 +225017,19 @@
       }
     },
     "24645": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35076647",
+          "target_video_id": "31316717",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:56:59.933432+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35076647",
         "display_name": "Recess: School's Out 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:47:41.027030+00:00"
-      },
-      "claim": {
-        "worker_id": "597a8cebd4ba446fb53da6ba613b652b-shard-0",
-        "claimed_at": "2026-11-24T02:47:41.542610+00:00",
-        "lease_expires_at": "2026-11-24T08:47:41.542610+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316717",
       "prepared": {
@@ -262734,5 +262736,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:56:37.793084+00:00"
+  "updated_at": "2026-11-24T02:56:59.933454+00:00"
 }
