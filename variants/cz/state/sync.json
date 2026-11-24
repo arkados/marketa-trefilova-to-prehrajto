@@ -230080,17 +230080,19 @@
       }
     },
     "5464": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34254991",
+          "target_video_id": "31326530",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:52:40.952067+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34254991",
         "display_name": "Figli 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:49:51.853235+00:00"
-      },
-      "claim": {
-        "worker_id": "b5153a58bb8a4528bf697810e6df3941-shard-0",
-        "claimed_at": "2026-11-24T07:49:52.376287+00:00",
-        "lease_expires_at": "2026-11-24T13:49:52.376287+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326530",
       "prepared": {
@@ -266526,5 +266528,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:51:36.325329+00:00"
+  "updated_at": "2026-11-24T07:52:40.952081+00:00"
 }
