@@ -235501,17 +235501,19 @@
       "attempts": []
     },
     "6478": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18833409",
+          "target_video_id": "31335978",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:51:16.458081+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18833409",
         "display_name": "Snowboarďáci 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:48:03.870944+00:00"
-      },
-      "claim": {
-        "worker_id": "6ace22f255a9423db02e4110b764ed76-shard-0",
-        "claimed_at": "2026-11-24T12:48:04.419950+00:00",
-        "lease_expires_at": "2026-11-24T18:48:04.419950+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31335978",
       "prepared": {
@@ -270874,5 +270876,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:51:11.337955+00:00"
+  "updated_at": "2026-11-24T12:51:16.458109+00:00"
 }
