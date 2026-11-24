@@ -242097,17 +242097,19 @@
       }
     },
     "10869": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31182406",
+          "target_video_id": "31350772",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:26:55.160557+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31182406",
         "display_name": "Arizona Raiders 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:22:23.480845+00:00"
-      },
-      "claim": {
-        "worker_id": "e4efdd6334644990ade2bf5b9449e53f-shard-0",
-        "claimed_at": "2026-11-24T22:22:23.963793+00:00",
-        "lease_expires_at": "2026-11-25T04:22:23.963793+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350772",
       "prepared": {
@@ -276098,5 +276100,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:25:16.356078+00:00"
+  "updated_at": "2026-11-24T22:26:55.160573+00:00"
 }
