@@ -239098,17 +239098,19 @@
       }
     },
     "26795": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32216490",
+          "target_video_id": "31347638",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:54:00.606530+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32216490",
         "display_name": "Happy Halloween, Scooby-Doo! 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:51:22.210555+00:00"
-      },
-      "claim": {
-        "worker_id": "15795408b3cb452d9559c9e0c427994a-shard-0",
-        "claimed_at": "2026-11-24T19:51:22.747881+00:00",
-        "lease_expires_at": "2026-11-25T01:51:22.747881+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347638",
       "prepared": {
@@ -273824,5 +273826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:53:25.404788+00:00"
+  "updated_at": "2026-11-24T19:54:00.606549+00:00"
 }
