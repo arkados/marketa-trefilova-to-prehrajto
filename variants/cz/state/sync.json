@@ -231118,17 +231118,19 @@
       }
     },
     "24857": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34706463",
+          "target_video_id": "31328039",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:41:00.706576+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34706463",
         "display_name": "Crime Spree 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:37:13.447625+00:00"
-      },
-      "claim": {
-        "worker_id": "fc61b6364cdc43d7b8560105cf5f1c91-shard-0",
-        "claimed_at": "2026-11-24T08:37:13.974329+00:00",
-        "lease_expires_at": "2026-11-24T14:37:13.974329+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328039",
       "prepared": {
@@ -267303,5 +267305,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:39:56.131169+00:00"
+  "updated_at": "2026-11-24T08:41:00.706593+00:00"
 }
