@@ -227796,17 +227796,19 @@
       }
     },
     "17695": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29657912",
+          "target_video_id": "31322052",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:37:52.844077+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29657912",
         "display_name": "Jagged Edge 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:29:45.309048+00:00"
-      },
-      "claim": {
-        "worker_id": "d82b8bf8652f4c01a1fd323509ffbc74-shard-0",
-        "claimed_at": "2026-11-24T05:29:45.895547+00:00",
-        "lease_expires_at": "2026-11-24T11:29:45.895547+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322052",
       "prepared": {
@@ -264792,5 +264794,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:35:56.130957+00:00"
+  "updated_at": "2026-11-24T05:37:52.844098+00:00"
 }
