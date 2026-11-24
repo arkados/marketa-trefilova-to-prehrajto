@@ -241231,17 +241231,19 @@
       "attempts": []
     },
     "11800": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26079074",
+          "target_video_id": "31349926",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:48:08.212649+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26079074",
         "display_name": "Asterix and the Big Fight (Astérix et le Coup du menhir) 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:45:01.213915+00:00"
-      },
-      "claim": {
-        "worker_id": "a71cb8beda84479ba47a370d4f6329b2-shard-0",
-        "claimed_at": "2026-11-24T21:45:01.737189+00:00",
-        "lease_expires_at": "2026-11-25T03:45:01.737189+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349926",
       "prepared": {
@@ -275445,5 +275447,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:46:26.542448+00:00"
+  "updated_at": "2026-11-24T21:48:08.212683+00:00"
 }
