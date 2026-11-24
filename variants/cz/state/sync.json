@@ -229157,17 +229157,19 @@
       "attempts": []
     },
     "21423": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30760275",
+          "target_video_id": "31324898",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:54:16.462610+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30760275",
         "display_name": "Fort Yuma SD CZ Dabing",
         "planned_at": "2026-11-24T06:53:03.903456+00:00"
-      },
-      "claim": {
-        "worker_id": "882b2d99bb6748ad8b0b731e1261dc8d-shard-0",
-        "claimed_at": "2026-11-24T06:53:04.452955+00:00",
-        "lease_expires_at": "2026-11-24T12:53:04.452955+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324898",
       "prepared": {
@@ -265769,5 +265771,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:53:07.850337+00:00"
+  "updated_at": "2026-11-24T06:54:16.462630+00:00"
 }
