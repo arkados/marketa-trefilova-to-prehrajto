@@ -238189,17 +238189,19 @@
       "attempts": []
     },
     "11667": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34674504",
+          "target_video_id": "31346005",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:49:32.834946+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34674504",
         "display_name": "Aces Go Places 4 (ZuiJiaPaiDangZhiQianLiJiuChaPo) SD CZ Dabing",
         "planned_at": "2026-11-24T18:47:39.539173+00:00"
-      },
-      "claim": {
-        "worker_id": "9e8cedd119c046e18e893b00a95bd26e-shard-0",
-        "claimed_at": "2026-11-24T18:47:40.415591+00:00",
-        "lease_expires_at": "2026-11-25T00:47:40.415591+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31346005",
       "prepared": {
@@ -273107,5 +273109,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:49:11.225068+00:00"
+  "updated_at": "2026-11-24T18:49:32.834963+00:00"
 }
