@@ -241634,17 +241634,19 @@
       "attempts": []
     },
     "27445": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21030312",
+          "target_video_id": "31350251",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:01:08.021231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21030312",
         "display_name": "Bubble (baburu) (2022) [ID 27445] SD CZ Dabing",
         "planned_at": "2026-11-24T21:59:40.664350+00:00"
-      },
-      "claim": {
-        "worker_id": "d3967e14568746c0825f8672cb240e6b-shard-0",
-        "claimed_at": "2026-11-24T21:59:41.140912+00:00",
-        "lease_expires_at": "2026-11-25T03:59:41.140912+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350251",
       "prepared": {
@@ -275725,5 +275727,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:59:44.892368+00:00"
+  "updated_at": "2026-11-24T22:01:08.021248+00:00"
 }
