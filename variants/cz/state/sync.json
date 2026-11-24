@@ -226685,17 +226685,19 @@
       }
     },
     "27955": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30704076",
+          "target_video_id": "31319878",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:21:48.245551+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30704076",
         "display_name": "Emperor (2012) SD CZ Dabing",
         "planned_at": "2026-11-24T04:20:06.491980+00:00"
-      },
-      "claim": {
-        "worker_id": "0e9fbaee5434477f915de12cd20d6386-shard-0",
-        "claimed_at": "2026-11-24T04:20:07.045769+00:00",
-        "lease_expires_at": "2026-11-24T10:20:07.045769+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319878",
       "prepared": {
@@ -263919,5 +263921,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:20:36.702928+00:00"
+  "updated_at": "2026-11-24T04:21:48.245575+00:00"
 }
