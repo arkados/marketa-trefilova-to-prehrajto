@@ -226595,17 +226595,19 @@
       "attempts": []
     },
     "14835": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28797169",
+          "target_video_id": "31319746",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:19:07.391763+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28797169",
         "display_name": "Shortcomings 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:16:59.535173+00:00"
-      },
-      "claim": {
-        "worker_id": "4ac7fd5c34df49a3a98c292bdd5e3027-shard-0",
-        "claimed_at": "2026-11-24T04:17:00.263185+00:00",
-        "lease_expires_at": "2026-11-24T10:17:00.263185+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319746",
       "prepared": {
@@ -263859,5 +263861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:18:07.970517+00:00"
+  "updated_at": "2026-11-24T04:19:07.391782+00:00"
 }
