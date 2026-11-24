@@ -225065,17 +225065,19 @@
       "attempts": []
     },
     "31609": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34786366",
+          "target_video_id": "31316738",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:49:23.131347+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34786366",
         "display_name": "Fight to Win SD CZ Dabing",
         "planned_at": "2026-11-24T02:48:31.129266+00:00"
-      },
-      "claim": {
-        "worker_id": "0f694ce82c2747168b7b6768bbfc6d8d-shard-0",
-        "claimed_at": "2026-11-24T02:48:31.637375+00:00",
-        "lease_expires_at": "2026-11-24T08:48:31.637375+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316738",
       "prepared": {
@@ -262614,5 +262616,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:48:35.271154+00:00"
+  "updated_at": "2026-11-24T02:49:23.131365+00:00"
 }
