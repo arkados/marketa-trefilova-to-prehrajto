@@ -223562,17 +223562,19 @@
       }
     },
     "11409": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34206739",
+          "target_video_id": "31312836",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:53:43.757517+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34206739",
         "display_name": "La Soupe aux choux 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:50:20.263116+00:00"
-      },
-      "claim": {
-        "worker_id": "bb7860a3d1894fdfab818999b926916f-shard-0",
-        "claimed_at": "2026-11-24T00:50:20.776458+00:00",
-        "lease_expires_at": "2026-11-24T06:50:20.776458+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312836",
       "prepared": {
@@ -261486,5 +261488,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:53:03.218418+00:00"
+  "updated_at": "2026-11-24T00:53:43.757538+00:00"
 }
