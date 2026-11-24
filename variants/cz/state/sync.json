@@ -234503,17 +234503,19 @@
       }
     },
     "14369": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11538315",
+          "target_video_id": "31333733",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:50:06.455132+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11538315",
         "display_name": "Hereafter SD CZ Dabing",
         "planned_at": "2026-11-24T11:48:38.883369+00:00"
-      },
-      "claim": {
-        "worker_id": "e49c2e676dbc493d8c826c5a66454050-shard-0",
-        "claimed_at": "2026-11-24T11:48:39.402449+00:00",
-        "lease_expires_at": "2026-11-24T17:48:39.402449+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333733",
       "prepared": {
@@ -270022,5 +270024,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:48:43.106695+00:00"
+  "updated_at": "2026-11-24T11:50:06.455151+00:00"
 }
