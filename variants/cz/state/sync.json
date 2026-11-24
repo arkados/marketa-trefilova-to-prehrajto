@@ -232613,17 +232613,19 @@
       "attempts": []
     },
     "26561": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25815971",
+          "target_video_id": "31330269",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:52:42.621087+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25815971",
         "display_name": "Dogtanian and the Three Muskehounds 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:50:37.560698+00:00"
-      },
-      "claim": {
-        "worker_id": "732b88eabdc4451c9b28b8a883799645-shard-0",
-        "claimed_at": "2026-11-24T09:50:38.093672+00:00",
-        "lease_expires_at": "2026-11-24T15:50:38.093672+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330269",
       "prepared": {
@@ -268489,5 +268491,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:50:41.788995+00:00"
+  "updated_at": "2026-11-24T09:52:42.621106+00:00"
 }
