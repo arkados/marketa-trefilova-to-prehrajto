@@ -222534,17 +222534,19 @@
       "attempts": []
     },
     "16245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30107762",
+          "target_video_id": "31311489",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:03:10.342736+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30107762",
         "display_name": "Maybe Baby 2 (Bytte Bytte Barn) 1080p CZ Dabing",
         "planned_at": "2026-11-23T23:59:53.993257+00:00"
-      },
-      "claim": {
-        "worker_id": "f14690e2271d4303ad0dfa4528749f66-shard-0",
-        "claimed_at": "2026-11-23T23:59:54.437450+00:00",
-        "lease_expires_at": "2026-11-24T05:59:54.437450+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311489",
       "prepared": {
@@ -260734,5 +260736,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:01:24.885039+00:00"
+  "updated_at": "2026-11-24T00:03:10.342761+00:00"
 }
