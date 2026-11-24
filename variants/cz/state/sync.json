@@ -243299,17 +243299,19 @@
       }
     },
     "37472": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34775992",
+          "target_video_id": "31352385",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:21:57.210250+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34775992",
         "display_name": "A French Summer (Summer in France) 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:17:53.166039+00:00"
-      },
-      "claim": {
-        "worker_id": "d4f277434f214ad5bc43a49e7513e07e-shard-0",
-        "claimed_at": "2026-11-24T23:17:53.643694+00:00",
-        "lease_expires_at": "2026-11-25T05:17:53.643694+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31352385",
       "prepared": {
@@ -277061,5 +277063,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:21:47.945097+00:00"
+  "updated_at": "2026-11-24T23:21:57.210267+00:00"
 }
