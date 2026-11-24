@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:02:01.446066+00:00"
+        "planned_at": "2026-11-24T03:02:14.056216+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225316,11 +225316,23 @@
       "attempts": []
     },
     "6720": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31596123",
+          "reason": "Request failed for https://sdilej.cz/31596123/kajinek-720p.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:02:16.389346+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31596123",
         "display_name": "Kajínek 720p CZ Dabing",
-        "planned_at": "2026-11-24T03:02:01.782096+00:00"
+        "planned_at": "2026-11-24T03:02:14.361392+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31596123",
+        "requested_at": "2026-11-24T03:02:16.389330+00:00"
       }
     },
     "16230": {
@@ -262801,5 +262813,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:02:01.782113+00:00"
+  "updated_at": "2026-11-24T03:02:16.389350+00:00"
 }
