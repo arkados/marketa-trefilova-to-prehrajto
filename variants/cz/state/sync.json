@@ -227484,17 +227484,19 @@
       }
     },
     "16255": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32329417",
+          "target_video_id": "31321693",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:18:25.952066+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32329417",
         "display_name": "My Happy Ending 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:16:25.393608+00:00"
-      },
-      "claim": {
-        "worker_id": "de5883b7903c4fcaab339ad2523fe821-shard-0",
-        "claimed_at": "2026-11-24T05:16:25.949210+00:00",
-        "lease_expires_at": "2026-11-24T11:16:25.949210+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321693",
       "prepared": {
@@ -264552,5 +264554,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:17:10.955307+00:00"
+  "updated_at": "2026-11-24T05:18:25.952085+00:00"
 }
