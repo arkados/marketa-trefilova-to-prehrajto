@@ -231872,17 +231872,19 @@
       }
     },
     "28083": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11995620",
+          "target_video_id": "31329195",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:18:51.226153+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11995620",
         "display_name": "The Revenge of the Whore (The Revenge of the Siren) 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:15:59.669509+00:00"
-      },
-      "claim": {
-        "worker_id": "a5c3bd42a34c4c4d878f783f8a1fc36d-shard-0",
-        "claimed_at": "2026-11-24T09:16:00.223500+00:00",
-        "lease_expires_at": "2026-11-24T15:16:00.223500+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329195",
       "prepared": {
@@ -267916,5 +267918,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:18:05.466920+00:00"
+  "updated_at": "2026-11-24T09:18:51.226174+00:00"
 }
