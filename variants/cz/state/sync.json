@@ -227440,17 +227440,19 @@
       "attempts": []
     },
     "16575": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33441338",
+          "target_video_id": "31321552",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:19:11.238670+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33441338",
         "display_name": "War Room 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:11:48.287297+00:00"
-      },
-      "claim": {
-        "worker_id": "3d4df0204bd6441fb414dbb155046e0d-shard-0",
-        "claimed_at": "2026-11-24T05:11:48.852079+00:00",
-        "lease_expires_at": "2026-11-24T11:11:48.852079+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321552",
       "prepared": {
@@ -264572,5 +264574,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:18:43.882035+00:00"
+  "updated_at": "2026-11-24T05:19:11.238717+00:00"
 }
