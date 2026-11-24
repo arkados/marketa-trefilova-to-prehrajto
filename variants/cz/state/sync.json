@@ -236377,17 +236377,19 @@
       }
     },
     "4242": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13762312",
+          "target_video_id": "31339798",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:06:46.716518+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13762312",
         "display_name": "Halloween (2018) 4K CZ Dabing",
         "planned_at": "2026-11-24T14:50:06.283267+00:00"
-      },
-      "claim": {
-        "worker_id": "e51b9e8fd84244cc9388ba5d8290fdf6-shard-0",
-        "claimed_at": "2026-11-24T14:50:06.848780+00:00",
-        "lease_expires_at": "2026-11-24T20:50:06.848780+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31339798",
       "prepared": {
@@ -271566,5 +271568,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:00:10.026697+00:00"
+  "updated_at": "2026-11-24T15:06:46.716541+00:00"
 }
