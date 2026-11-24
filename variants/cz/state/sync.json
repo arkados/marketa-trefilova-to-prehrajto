@@ -240144,17 +240144,19 @@
       "attempts": []
     },
     "30602": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12927273",
+          "target_video_id": "31348916",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:54:22.666946+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12927273",
         "display_name": "Lego DC Super Hero Girls: Brain Drain SD CZ Dabing",
         "planned_at": "2026-11-24T20:52:56.866246+00:00"
-      },
-      "claim": {
-        "worker_id": "df0c10971b3a4a56a4b9efd75316fb11-shard-0",
-        "claimed_at": "2026-11-24T20:52:57.337364+00:00",
-        "lease_expires_at": "2026-11-25T02:52:57.337364+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348916",
       "prepared": {
@@ -274595,5 +274597,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:54:09.603229+00:00"
+  "updated_at": "2026-11-24T20:54:22.666962+00:00"
 }
