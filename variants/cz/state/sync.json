@@ -229109,17 +229109,19 @@
       "attempts": []
     },
     "6474": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35340126",
+          "target_video_id": "31324854",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:55:12.076610+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35340126",
         "display_name": "Checkmates (Menudas piezas) 720p CZ Dabing",
         "planned_at": "2026-11-24T06:51:48.311166+00:00"
-      },
-      "claim": {
-        "worker_id": "250df0e756d44113a5069126d746adfa-shard-0",
-        "claimed_at": "2026-11-24T06:51:48.791760+00:00",
-        "lease_expires_at": "2026-11-24T12:51:48.791760+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324854",
       "prepared": {
@@ -265789,5 +265791,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:54:31.962705+00:00"
+  "updated_at": "2026-11-24T06:55:12.076626+00:00"
 }
