@@ -224007,17 +224007,19 @@
       "attempts": []
     },
     "22654": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33745762",
+          "target_video_id": "31313732",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:18:08.543371+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33745762",
         "display_name": "Pick Up Your Belongings 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:14:41.464314+00:00"
-      },
-      "claim": {
-        "worker_id": "5aa584f388e0421fb6c33beee0eb5f5d-shard-0",
-        "claimed_at": "2026-11-24T01:14:44.432817+00:00",
-        "lease_expires_at": "2026-11-24T07:14:44.432817+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313732",
       "prepared": {
@@ -261846,5 +261848,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:17:30.837131+00:00"
+  "updated_at": "2026-11-24T01:18:08.543391+00:00"
 }
