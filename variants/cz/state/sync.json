@@ -232367,17 +232367,19 @@
       "attempts": []
     },
     "28049": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17304348",
+          "target_video_id": "31329858",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:38:13.839086+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17304348",
         "display_name": "Barbie in a Mermaid Tale 2 SD CZ Dabing",
         "planned_at": "2026-11-24T09:37:09.742342+00:00"
-      },
-      "claim": {
-        "worker_id": "24cd2fada3304ffeabbaa656d0f6b16d-shard-0",
-        "claimed_at": "2026-11-24T09:37:10.287623+00:00",
-        "lease_expires_at": "2026-11-24T15:37:10.287623+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329858",
       "prepared": {
@@ -268291,5 +268293,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:38:11.367623+00:00"
+  "updated_at": "2026-11-24T09:38:13.839106+00:00"
 }
