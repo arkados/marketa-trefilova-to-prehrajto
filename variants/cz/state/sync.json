@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T07:08:21.431749+00:00"
+        "planned_at": "2026-11-24T07:08:28.475330+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -229317,17 +229317,19 @@
       "attempts": []
     },
     "15760": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31923431",
+          "target_video_id": "31325148",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:08:30.365156+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31923431",
         "display_name": "Artificial Justice (Justicia artificial) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:02:14.995694+00:00"
-      },
-      "claim": {
-        "worker_id": "fb0fbc8a92c949459710a213b5da5b40-shard-0",
-        "claimed_at": "2026-11-24T07:02:15.532282+00:00",
-        "lease_expires_at": "2026-11-24T13:02:15.532282+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325148",
       "prepared": {
@@ -229441,7 +229443,13 @@
       "last_plan": {
         "source_id": "34360999",
         "display_name": "Hero (1992) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T07:08:21.735361+00:00"
+        "planned_at": "2026-11-24T07:08:28.763185+00:00"
+      },
+      "claim": {
+        "worker_id": "91d970bbd0404eec91af0cf0896f5e09-shard-0",
+        "claimed_at": "2026-11-24T07:08:29.254146+00:00",
+        "lease_expires_at": "2026-11-24T13:08:29.254146+00:00",
+        "run_id": "45341588798"
       }
     },
     "29277": {
@@ -265996,5 +266004,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:08:21.735381+00:00"
+  "updated_at": "2026-11-24T07:08:30.365175+00:00"
 }
