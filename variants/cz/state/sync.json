@@ -131822,7 +131822,7 @@
       "last_plan": {
         "source_id": "32647219",
         "display_name": "Mama (Máma) (2025) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T18:23:37.989017+00:00"
+        "planned_at": "2026-11-24T18:23:44.789097+00:00"
       },
       "previous_target_id": "30987015",
       "prepared": {
@@ -237997,11 +237997,23 @@
       }
     },
     "4410": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31913624",
+          "reason": "Source detail has no authenticated download link; source_id=31913624",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:23:48.917294+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31913624",
         "display_name": "Ocean's Twelve 4K CZ Dabing",
-        "planned_at": "2026-11-24T18:23:38.543550+00:00"
+        "planned_at": "2026-11-24T18:23:45.312892+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31913624",
+        "requested_at": "2026-11-24T18:23:48.917277+00:00"
       }
     },
     "4908": {
@@ -272900,5 +272912,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:23:38.543565+00:00"
+  "updated_at": "2026-11-24T18:23:48.917299+00:00"
 }
