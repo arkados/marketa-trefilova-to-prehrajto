@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T08:59:41.172661+00:00"
+        "planned_at": "2026-11-24T08:59:46.210506+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -231444,17 +231444,19 @@
       }
     },
     "37425": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34603541",
+          "target_video_id": "31328687",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:59:48.930837+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34603541",
         "display_name": "A Murder Between Friends 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:55:51.934924+00:00"
-      },
-      "claim": {
-        "worker_id": "459d4b23c1014061bc50c2c13f885ecd-shard-0",
-        "claimed_at": "2026-11-24T08:55:54.677629+00:00",
-        "lease_expires_at": "2026-11-24T14:55:54.677629+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31328687",
       "prepared": {
@@ -231516,7 +231518,13 @@
       "last_plan": {
         "source_id": "26941037",
         "display_name": "Savage (2019) SD CZ Dabing",
-        "planned_at": "2026-11-24T08:59:41.449848+00:00"
+        "planned_at": "2026-11-24T08:59:46.474617+00:00"
+      },
+      "claim": {
+        "worker_id": "d3422eab4f104c34b6142b4df8604594-shard-0",
+        "claimed_at": "2026-11-24T08:59:46.923684+00:00",
+        "lease_expires_at": "2026-11-24T14:59:46.923684+00:00",
+        "run_id": "45341588798"
       }
     },
     "33626": {
@@ -267603,5 +267611,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:59:41.449866+00:00"
+  "updated_at": "2026-11-24T08:59:48.930854+00:00"
 }
