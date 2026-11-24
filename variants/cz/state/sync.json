@@ -230002,17 +230002,19 @@
       "attempts": []
     },
     "4210": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13680490",
+          "target_video_id": "31326452",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:50:05.406641+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13680490",
         "display_name": "Bad Samaritan 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:46:57.869818+00:00"
-      },
-      "claim": {
-        "worker_id": "ce7b86b0145e488289c9763a7b675bb2-shard-0",
-        "claimed_at": "2026-11-24T07:46:58.453275+00:00",
-        "lease_expires_at": "2026-11-24T13:46:58.453275+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326452",
       "prepared": {
@@ -266486,5 +266488,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:49:56.557306+00:00"
+  "updated_at": "2026-11-24T07:50:05.406660+00:00"
 }
