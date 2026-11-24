@@ -231901,17 +231901,19 @@
       "attempts": []
     },
     "4986": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22954354",
+          "target_video_id": "31329259",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:21:10.143743+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22954354",
         "display_name": "Drifting Home (ame wo koku ke ゙ ru hyouryuu danchi) 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:18:00.590942+00:00"
-      },
-      "claim": {
-        "worker_id": "0bce3372db904d0f9d52bfaa54446291-shard-0",
-        "claimed_at": "2026-11-24T09:18:01.148109+00:00",
-        "lease_expires_at": "2026-11-24T15:18:01.148109+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329259",
       "prepared": {
@@ -267936,5 +267938,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:19:07.467613+00:00"
+  "updated_at": "2026-11-24T09:21:10.143766+00:00"
 }
