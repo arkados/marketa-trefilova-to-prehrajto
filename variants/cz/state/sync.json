@@ -230944,17 +230944,19 @@
       }
     },
     "37130": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33507278",
+          "target_video_id": "31327724",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:33:30.160324+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33507278",
         "display_name": "The Indian Fighter 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:27:22.038873+00:00"
-      },
-      "claim": {
-        "worker_id": "2cc32fe93c15484c9d3607a7a8b82c59-shard-0",
-        "claimed_at": "2026-11-24T08:27:22.547388+00:00",
-        "lease_expires_at": "2026-11-24T14:27:22.547388+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327724",
       "prepared": {
@@ -267203,5 +267205,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:32:13.979738+00:00"
+  "updated_at": "2026-11-24T08:33:30.160343+00:00"
 }
