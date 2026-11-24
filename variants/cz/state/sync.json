@@ -230813,17 +230813,19 @@
       }
     },
     "19088": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6509456",
+          "target_video_id": "31327466",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:19:29.817472+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6509456",
         "display_name": "Tom and Jerry: Back to Oz (Tom & Jerry: Back to Oz) SD CZ Dabing",
         "planned_at": "2026-11-24T08:18:38.403723+00:00"
-      },
-      "claim": {
-        "worker_id": "c740b396fd934adebd26239e9aa1e756-shard-0",
-        "claimed_at": "2026-11-24T08:18:38.952026+00:00",
-        "lease_expires_at": "2026-11-24T14:18:38.952026+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327466",
       "prepared": {
@@ -267043,5 +267045,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:18:43.315736+00:00"
+  "updated_at": "2026-11-24T08:19:29.817494+00:00"
 }
