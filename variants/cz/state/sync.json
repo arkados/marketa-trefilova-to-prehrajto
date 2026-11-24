@@ -225113,17 +225113,19 @@
       }
     },
     "15344": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34692242",
+          "target_video_id": "31316799",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:53:32.685086+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34692242",
         "display_name": "The Quiet Maid (Calladita) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:50:26.815324+00:00"
-      },
-      "claim": {
-        "worker_id": "f1a76a36fbfb452b98ad7933753fa8fc-shard-0",
-        "claimed_at": "2026-11-24T02:50:27.367798+00:00",
-        "lease_expires_at": "2026-11-24T08:50:27.367798+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316799",
       "prepared": {
@@ -262674,5 +262676,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:52:00.494465+00:00"
+  "updated_at": "2026-11-24T02:53:32.685108+00:00"
 }
