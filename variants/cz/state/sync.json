@@ -227073,17 +227073,19 @@
       "attempts": []
     },
     "25666": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32261691",
+          "target_video_id": "31320704",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:44:37.284066+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32261691",
         "display_name": "Rafťáci (Rafters) 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:41:24.374132+00:00"
-      },
-      "claim": {
-        "worker_id": "3803d8d0f7b94c60ad65a682a6828f02-shard-0",
-        "claimed_at": "2026-11-24T04:41:24.946342+00:00",
-        "lease_expires_at": "2026-11-24T10:41:24.946342+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320704",
       "prepared": {
@@ -264252,5 +264254,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:44:30.371495+00:00"
+  "updated_at": "2026-11-24T04:44:37.284087+00:00"
 }
