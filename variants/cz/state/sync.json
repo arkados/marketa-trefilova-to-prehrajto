@@ -239595,17 +239595,19 @@
       }
     },
     "6203": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26555099",
+          "target_video_id": "31348121",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:20:02.138778+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26555099",
         "display_name": "Two Tickets to Greece (Les Cyclades) 720p CZ Dabing",
         "planned_at": "2026-11-24T20:15:06.010876+00:00"
-      },
-      "claim": {
-        "worker_id": "9cc2d51ac2e442439c6e0421201c8d91-shard-0",
-        "claimed_at": "2026-11-24T20:15:06.487213+00:00",
-        "lease_expires_at": "2026-11-25T02:15:06.487213+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348121",
       "prepared": {
@@ -274184,5 +274186,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:18:35.987666+00:00"
+  "updated_at": "2026-11-24T20:20:02.138796+00:00"
 }
