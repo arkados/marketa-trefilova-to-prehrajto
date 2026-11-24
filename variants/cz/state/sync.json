@@ -152515,7 +152515,7 @@
       "last_plan": {
         "source_id": "25586153",
         "display_name": "Framed for Murder: A Fixer Upper Mystery 1080p CZ Dabing",
-        "planned_at": "2026-11-24T14:05:42.636574+00:00"
+        "planned_at": "2026-11-24T14:05:48.634908+00:00"
       },
       "previous_target_id": "31035253",
       "prepared": {
@@ -236182,11 +236182,23 @@
       }
     },
     "4285": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "11089605",
+          "reason": "Request failed for https://sdilej.cz/11089605/annabelle.2.zrozeni.zla.annabelle.creation.2017.1080p.bluray.x264.ac3.5.1.cz.dabing.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T14:05:50.637159+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11089605",
         "display_name": "Annabelle: Creation 1080p CZ Dabing",
-        "planned_at": "2026-11-24T14:05:42.923886+00:00"
+        "planned_at": "2026-11-24T14:05:48.939415+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "11089605",
+        "requested_at": "2026-11-24T14:05:50.637144+00:00"
       }
     },
     "12084": {
@@ -271394,5 +271406,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:05:42.923906+00:00"
+  "updated_at": "2026-11-24T14:05:50.637163+00:00"
 }
