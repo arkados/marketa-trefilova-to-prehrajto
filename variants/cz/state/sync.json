@@ -236402,17 +236402,19 @@
       }
     },
     "12792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11551104",
+          "target_video_id": "31340691",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:24:12.680655+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11551104",
         "display_name": "The Perfect Storm 1080p CZ Dabing",
         "planned_at": "2026-11-24T15:15:39.385861+00:00"
-      },
-      "claim": {
-        "worker_id": "8b210a870640488bb2e8e40cc7737f6e-shard-0",
-        "claimed_at": "2026-11-24T15:15:40.677879+00:00",
-        "lease_expires_at": "2026-11-24T21:15:40.677879+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31340691",
       "prepared": {
@@ -271681,5 +271683,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:23:02.846337+00:00"
+  "updated_at": "2026-11-24T15:24:12.680673+00:00"
 }
