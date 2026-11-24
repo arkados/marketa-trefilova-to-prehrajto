@@ -228403,17 +228403,19 @@
       "attempts": []
     },
     "14572": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686607",
+          "target_video_id": "31323011",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:10:48.099292+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686607",
         "display_name": "Sněženky a machři po 25 letech 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:05:37.400031+00:00"
-      },
-      "claim": {
-        "worker_id": "e91c1726e4324bc9bd2a0339917bb14f-shard-0",
-        "claimed_at": "2026-11-24T06:05:37.992899+00:00",
-        "lease_expires_at": "2026-11-24T12:05:37.992899+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31323011",
       "prepared": {
@@ -265249,5 +265251,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:08:38.258515+00:00"
+  "updated_at": "2026-11-24T06:10:48.099311+00:00"
 }
