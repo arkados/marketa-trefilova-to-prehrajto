@@ -236908,17 +236908,19 @@
       }
     },
     "17791": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34014901",
+          "target_video_id": "31342377",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:30:33.180569+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34014901",
         "display_name": "Secret Window 1080p CZ Dabing",
         "planned_at": "2026-11-24T16:23:00.508373+00:00"
-      },
-      "claim": {
-        "worker_id": "858a0f05e80b45b4beb3cce7528a0af6-shard-0",
-        "claimed_at": "2026-11-24T16:23:01.435142+00:00",
-        "lease_expires_at": "2026-11-24T22:23:01.435142+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342377",
       "prepared": {
@@ -272072,5 +272074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:24:03.807877+00:00"
+  "updated_at": "2026-11-24T16:30:33.180586+00:00"
 }
