@@ -241536,17 +241536,19 @@
       }
     },
     "21791": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34015013",
+          "target_video_id": "31350178",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:58:06.939394+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34015013",
         "display_name": "Texas, Adios SD CZ Dabing",
         "planned_at": "2026-11-24T21:57:02.121690+00:00"
-      },
-      "claim": {
-        "worker_id": "49215f7e8baf4ee8b266f88fd81d5a64-shard-0",
-        "claimed_at": "2026-11-24T21:57:02.598049+00:00",
-        "lease_expires_at": "2026-11-25T03:57:02.598049+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31350178",
       "prepared": {
@@ -275645,5 +275647,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:57:06.247808+00:00"
+  "updated_at": "2026-11-24T21:58:06.939412+00:00"
 }
