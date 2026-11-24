@@ -235912,17 +235912,19 @@
       }
     },
     "4397": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29294547",
+          "target_video_id": "31337115",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:51:39.454796+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29294547",
         "display_name": "Harold & Kumar Escape from Guantanamo Bay 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:30:06.629490+00:00"
-      },
-      "claim": {
-        "worker_id": "8bb417266223494c8c1615cc40b8b2ef-shard-0",
-        "claimed_at": "2026-11-24T13:30:07.208249+00:00",
-        "lease_expires_at": "2026-11-24T19:30:07.208249+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31337115",
       "prepared": {
@@ -271287,5 +271289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:49:51.862075+00:00"
+  "updated_at": "2026-11-24T13:51:39.454822+00:00"
 }
