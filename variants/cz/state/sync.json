@@ -225715,17 +225715,23 @@
       }
     },
     "28113": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32943092",
+          "reason": "Source detail has no authenticated download link; source_id=32943092",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:23:19.446477+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32943092",
         "display_name": "Retribution (2012) 4K CZ Dabing",
         "planned_at": "2026-11-24T03:23:07.203644+00:00"
       },
-      "claim": {
-        "worker_id": "07df2201484544a7ad953aa0293f1b92-shard-0",
-        "claimed_at": "2026-11-24T03:23:10.820753+00:00",
-        "lease_expires_at": "2026-11-24T09:23:10.820753+00:00",
-        "run_id": "45312111226"
+      "source_repair_requested": {
+        "source_id": "32943092",
+        "requested_at": "2026-11-24T03:23:19.446453+00:00"
       }
     },
     "4681": {
@@ -263130,5 +263136,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:23:15.974947+00:00"
+  "updated_at": "2026-11-24T03:23:19.446486+00:00"
 }
