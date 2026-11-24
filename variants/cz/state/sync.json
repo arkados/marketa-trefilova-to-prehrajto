@@ -238951,17 +238951,19 @@
       "attempts": []
     },
     "11673": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27644507",
+          "target_video_id": "31347305",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:49:24.927326+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27644507",
         "display_name": "The Bedroom Window 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:42:06.458599+00:00"
-      },
-      "claim": {
-        "worker_id": "aa4b39dd2de24617a009229e5bcf5b3c-shard-0",
-        "claimed_at": "2026-11-24T19:42:06.933912+00:00",
-        "lease_expires_at": "2026-11-25T01:42:06.933912+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347305",
       "prepared": {
@@ -273727,5 +273729,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:46:42.626002+00:00"
+  "updated_at": "2026-11-24T19:49:24.927343+00:00"
 }
