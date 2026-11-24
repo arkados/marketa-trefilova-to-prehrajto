@@ -224799,17 +224799,19 @@
       "attempts": []
     },
     "11685": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33883360",
+          "target_video_id": "31316252",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:36:33.621808+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33883360",
         "display_name": "The Fourth Protocol 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:31:43.980239+00:00"
-      },
-      "claim": {
-        "worker_id": "7ae28aa2c32f48c1b449540ffe5ce098-shard-0",
-        "claimed_at": "2026-11-24T02:31:44.593411+00:00",
-        "lease_expires_at": "2026-11-24T08:31:44.593411+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316252",
       "prepared": {
@@ -262440,5 +262442,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:34:03.049163+00:00"
+  "updated_at": "2026-11-24T02:36:33.621828+00:00"
 }
