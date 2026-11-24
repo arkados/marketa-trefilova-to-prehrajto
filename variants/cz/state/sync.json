@@ -147167,7 +147167,7 @@
       "last_plan": {
         "source_id": "35418934",
         "display_name": "Murder in Luberon (Crime dans le Lubéron) 1080p CZ Dabing",
-        "planned_at": "2026-11-24T00:55:04.577120+00:00"
+        "planned_at": "2026-11-24T00:55:10.999929+00:00"
       },
       "previous_target_id": "30995991",
       "prepared": {
@@ -223590,17 +223590,19 @@
       "attempts": []
     },
     "6808": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29034446",
+          "target_video_id": "31312915",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:55:12.730991+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29034446",
         "display_name": "The Inseparables 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:52:58.035631+00:00"
-      },
-      "claim": {
-        "worker_id": "e80790011dc2403d9f73600fbd598748-shard-0",
-        "claimed_at": "2026-11-24T00:52:58.583033+00:00",
-        "lease_expires_at": "2026-11-24T06:52:58.583033+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312915",
       "prepared": {
@@ -223665,7 +223667,13 @@
       "last_plan": {
         "source_id": "30109180",
         "display_name": "Beloved Infidel 1080p CZ Dabing",
-        "planned_at": "2026-11-24T00:55:04.846714+00:00"
+        "planned_at": "2026-11-24T00:55:11.272687+00:00"
+      },
+      "claim": {
+        "worker_id": "e0e249a5aad0459da17a41c36d47067e-shard-0",
+        "claimed_at": "2026-11-24T00:55:11.832259+00:00",
+        "lease_expires_at": "2026-11-24T06:55:11.832259+00:00",
+        "run_id": "45273969052"
       }
     },
     "4237": {
@@ -261533,5 +261541,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:55:04.846733+00:00"
+  "updated_at": "2026-11-24T00:55:12.731010+00:00"
 }
