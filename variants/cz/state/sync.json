@@ -222875,17 +222875,19 @@
       "attempts": []
     },
     "23248": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767299",
+          "target_video_id": "31311967",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:23:21.228727+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767299",
         "display_name": "White Palace 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:19:00.110752+00:00"
-      },
-      "claim": {
-        "worker_id": "05f03c7387714dde8dd5e3cb8abc7e04-shard-0",
-        "claimed_at": "2026-11-24T00:19:00.552925+00:00",
-        "lease_expires_at": "2026-11-24T06:19:00.552925+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311967",
       "prepared": {
@@ -261029,5 +261031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:22:14.397032+00:00"
+  "updated_at": "2026-11-24T00:23:21.228743+00:00"
 }
