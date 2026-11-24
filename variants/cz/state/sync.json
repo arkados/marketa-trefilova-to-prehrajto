@@ -236670,17 +236670,19 @@
       }
     },
     "5088": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12420256",
+          "target_video_id": "31341359",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:47:13.672605+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12420256",
         "display_name": "Sometimes Always Never SD CZ Dabing",
         "planned_at": "2026-11-24T15:42:55.594917+00:00"
-      },
-      "claim": {
-        "worker_id": "edfd096c3de94d219c2ca306db2405c0-shard-0",
-        "claimed_at": "2026-11-24T15:42:56.511766+00:00",
-        "lease_expires_at": "2026-11-24T21:42:56.511766+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31341359",
       "prepared": {
@@ -271835,5 +271837,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:43:17.994535+00:00"
+  "updated_at": "2026-11-24T15:47:13.672621+00:00"
 }
