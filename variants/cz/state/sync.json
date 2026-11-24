@@ -235238,17 +235238,19 @@
       }
     },
     "4086": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17259873",
+          "target_video_id": "31334958",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:32:58.644597+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17259873",
         "display_name": "The Craft 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:30:00.280113+00:00"
-      },
-      "claim": {
-        "worker_id": "9859a8df6cae477ca33607e835692045-shard-0",
-        "claimed_at": "2026-11-24T12:30:00.854920+00:00",
-        "lease_expires_at": "2026-11-24T18:30:00.854920+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334958",
       "prepared": {
@@ -270670,5 +270672,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:31:22.398538+00:00"
+  "updated_at": "2026-11-24T12:32:58.644615+00:00"
 }
