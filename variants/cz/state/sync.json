@@ -241055,17 +241055,19 @@
       "attempts": []
     },
     "14778": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34812213",
+          "target_video_id": "31349773",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:43:16.647442+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34812213",
         "display_name": "True Legend (SuQiEr) 720p CZ Dabing",
         "planned_at": "2026-11-24T21:37:17.856744+00:00"
-      },
-      "claim": {
-        "worker_id": "2a89f4f8c4d14c69b801b8758de9ae01-shard-0",
-        "claimed_at": "2026-11-24T21:37:18.350622+00:00",
-        "lease_expires_at": "2026-11-25T03:37:18.350622+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349773",
       "prepared": {
@@ -275345,5 +275347,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:43:13.723354+00:00"
+  "updated_at": "2026-11-24T21:43:16.647459+00:00"
 }
