@@ -238993,17 +238993,19 @@
       }
     },
     "15471": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32854963",
+          "target_video_id": "31347376",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:46:08.273457+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32854963",
         "display_name": "Tack för senast 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:43:46.933431+00:00"
-      },
-      "claim": {
-        "worker_id": "5df5f3383742489594e1ed047fdece24-shard-0",
-        "claimed_at": "2026-11-24T19:43:47.377039+00:00",
-        "lease_expires_at": "2026-11-25T01:43:47.377039+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347376",
       "prepared": {
@@ -273687,5 +273689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:43:51.220772+00:00"
+  "updated_at": "2026-11-24T19:46:08.273475+00:00"
 }
