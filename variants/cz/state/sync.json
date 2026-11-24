@@ -223795,17 +223795,19 @@
       "attempts": []
     },
     "7302": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27791433",
+          "target_video_id": "31313167",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:03:48.456972+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27791433",
         "display_name": "The Snow Queen: Mirrorlands (Snezhnaya Koroleva: Zazerkal'e) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:00:04.568785+00:00"
-      },
-      "claim": {
-        "worker_id": "b9453652065b4f81b22635a58a7ed9c1-shard-0",
-        "claimed_at": "2026-11-24T01:00:05.041851+00:00",
-        "lease_expires_at": "2026-11-24T07:00:05.041851+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313167",
       "prepared": {
@@ -261686,5 +261688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:02:03.600401+00:00"
+  "updated_at": "2026-11-24T01:03:48.456991+00:00"
 }
