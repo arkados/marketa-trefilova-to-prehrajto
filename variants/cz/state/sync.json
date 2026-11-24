@@ -232540,17 +232540,19 @@
       "attempts": []
     },
     "12185": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24666387",
+          "target_video_id": "31330133",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:49:51.454434+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24666387",
         "display_name": "The River Wild 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:45:33.184040+00:00"
-      },
-      "claim": {
-        "worker_id": "213eda03008045ab8a8f296dc9b59db7-shard-0",
-        "claimed_at": "2026-11-24T09:45:33.676112+00:00",
-        "lease_expires_at": "2026-11-24T15:45:33.676112+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31330133",
       "prepared": {
@@ -268449,5 +268451,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:47:38.067237+00:00"
+  "updated_at": "2026-11-24T09:49:51.454455+00:00"
 }
