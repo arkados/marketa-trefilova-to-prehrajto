@@ -237563,17 +237563,19 @@
       "attempts": []
     },
     "4399": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34977262",
+          "target_video_id": "31343837",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:31:22.940115+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34977262",
         "display_name": "The Blair Witch Project 1080p CZ Dabing",
         "planned_at": "2026-11-24T17:28:08.312213+00:00"
-      },
-      "claim": {
-        "worker_id": "1b61278fa555453f8e4ce929ddb571ae-shard-0",
-        "claimed_at": "2026-11-24T17:28:09.452374+00:00",
-        "lease_expires_at": "2026-11-24T23:28:09.452374+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31343837",
       "prepared": {
@@ -272578,5 +272580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:31:18.167019+00:00"
+  "updated_at": "2026-11-24T17:31:22.940134+00:00"
 }
