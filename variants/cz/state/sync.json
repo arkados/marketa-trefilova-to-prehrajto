@@ -237139,17 +237139,19 @@
       "attempts": []
     },
     "4257": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33770096",
+          "target_video_id": "31343030",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:05:10.420151+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33770096",
         "display_name": "The Chronicles of Narnia: Prince Caspian 1080p CZ Dabing",
         "planned_at": "2026-11-24T16:57:12.500783+00:00"
-      },
-      "claim": {
-        "worker_id": "e42507a051214c19b467a5e63602f122-shard-0",
-        "claimed_at": "2026-11-24T16:57:13.366133+00:00",
-        "lease_expires_at": "2026-11-24T22:57:13.366133+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31343030",
       "prepared": {
@@ -272232,5 +272234,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:58:43.016666+00:00"
+  "updated_at": "2026-11-24T17:05:10.420169+00:00"
 }
