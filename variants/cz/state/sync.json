@@ -238045,17 +238045,19 @@
       "attempts": []
     },
     "4365": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31033437",
+          "target_video_id": "31345529",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:38:45.627931+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31033437",
         "display_name": "Quantum of Solace 4K CZ Dabing",
         "planned_at": "2026-11-24T18:27:47.973795+00:00"
-      },
-      "claim": {
-        "worker_id": "eed45d8507984e328c3efd18434bef13-shard-0",
-        "claimed_at": "2026-11-24T18:27:48.935937+00:00",
-        "lease_expires_at": "2026-11-25T00:27:48.935937+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345529",
       "prepared": {
@@ -272990,5 +272992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:34:47.798348+00:00"
+  "updated_at": "2026-11-24T18:38:45.627947+00:00"
 }
