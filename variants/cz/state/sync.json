@@ -230697,17 +230697,19 @@
       }
     },
     "15096": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29132795",
+          "target_video_id": "31327332",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:16:34.100450+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29132795",
         "display_name": "Too Old for Fairy Tales (Za duży na bajki) 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:14:09.237895+00:00"
-      },
-      "claim": {
-        "worker_id": "bea9da8165114293b362baff51464ff5-shard-0",
-        "claimed_at": "2026-11-24T08:14:09.751251+00:00",
-        "lease_expires_at": "2026-11-24T14:14:09.751251+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327332",
       "prepared": {
@@ -266983,5 +266985,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:16:03.800794+00:00"
+  "updated_at": "2026-11-24T08:16:34.100470+00:00"
 }
