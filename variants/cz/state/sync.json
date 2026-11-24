@@ -232007,17 +232007,19 @@
       "attempts": []
     },
     "15737": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32869768",
+          "target_video_id": "31329411",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:28:49.872150+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32869768",
         "display_name": "Eden (2024) 4K CZ Dabing",
         "planned_at": "2026-11-24T09:23:00.826150+00:00"
-      },
-      "claim": {
-        "worker_id": "9ff86708c56142a18f415ae6da50c56c-shard-0",
-        "claimed_at": "2026-11-24T09:23:01.308780+00:00",
-        "lease_expires_at": "2026-11-24T15:23:01.308780+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329411",
       "prepared": {
@@ -268083,5 +268085,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:28:44.435572+00:00"
+  "updated_at": "2026-11-24T09:28:49.872173+00:00"
 }
