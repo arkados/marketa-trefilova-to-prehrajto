@@ -236581,17 +236581,19 @@
       }
     },
     "4217": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30136238",
+          "target_video_id": "31341002",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:42:27.447142+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30136238",
         "display_name": "Sonic the Hedgehog 4K CZ Dabing",
         "planned_at": "2026-11-24T15:28:36.608875+00:00"
-      },
-      "claim": {
-        "worker_id": "041acf9fe7b5435b98da7c6376801fd6-shard-0",
-        "claimed_at": "2026-11-24T15:28:37.481225+00:00",
-        "lease_expires_at": "2026-11-24T21:28:37.481225+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31341002",
       "prepared": {
@@ -271778,5 +271780,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:33:53.849266+00:00"
+  "updated_at": "2026-11-24T15:42:27.447159+00:00"
 }
