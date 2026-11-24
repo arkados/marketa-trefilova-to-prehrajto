@@ -240245,17 +240245,19 @@
       }
     },
     "30409": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31646008",
+          "target_video_id": "31348983",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:59:14.856027+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31646008",
         "display_name": "Herkules (Hercules) 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:57:09.187724+00:00"
-      },
-      "claim": {
-        "worker_id": "48503c9a285c4fdbb963b4f3193dff8f-shard-0",
-        "claimed_at": "2026-11-24T20:57:09.679552+00:00",
-        "lease_expires_at": "2026-11-25T02:57:09.679552+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348983",
       "prepared": {
@@ -274675,5 +274677,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:59:12.420605+00:00"
+  "updated_at": "2026-11-24T20:59:14.856045+00:00"
 }
