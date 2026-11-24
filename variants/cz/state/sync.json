@@ -230768,17 +230768,19 @@
       }
     },
     "22084": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34176870",
+          "target_video_id": "31327405",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:21:38.392791+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34176870",
         "display_name": "The Cross and the Switchblade 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:16:43.714173+00:00"
-      },
-      "claim": {
-        "worker_id": "b6e9fb44f581464a9e9fc0665dd81952-shard-0",
-        "claimed_at": "2026-11-24T08:16:44.262155+00:00",
-        "lease_expires_at": "2026-11-24T14:16:44.262155+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327405",
       "prepared": {
@@ -267070,5 +267072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:21:28.818762+00:00"
+  "updated_at": "2026-11-24T08:21:38.392813+00:00"
 }
