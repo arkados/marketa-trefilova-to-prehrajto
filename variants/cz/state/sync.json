@@ -231774,17 +231774,19 @@
       "attempts": []
     },
     "4601": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24687934",
+          "target_video_id": "31329073",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:14:10.842514+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24687934",
         "display_name": "Jack Frost (Morozko) (1965) 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:11:12.988125+00:00"
-      },
-      "claim": {
-        "worker_id": "f52e0e18d2cd43108517ff947e335295-shard-0",
-        "claimed_at": "2026-11-24T09:11:13.512277+00:00",
-        "lease_expires_at": "2026-11-24T15:11:13.512277+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329073",
       "prepared": {
@@ -267836,5 +267838,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:11:37.036072+00:00"
+  "updated_at": "2026-11-24T09:14:10.842536+00:00"
 }
