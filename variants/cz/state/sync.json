@@ -237716,17 +237716,19 @@
       "attempts": []
     },
     "4219": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12835350",
+          "target_video_id": "31344393",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:44:41.229389+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12835350",
         "display_name": "It: Chapter Two (It Chapter Two) 4K CZ Dabing",
         "planned_at": "2026-11-24T17:47:05.452706+00:00"
-      },
-      "claim": {
-        "worker_id": "be0a58b1fca244bdb52357bd0aca4de4-shard-0",
-        "claimed_at": "2026-11-24T17:47:06.303589+00:00",
-        "lease_expires_at": "2026-11-24T23:47:06.303589+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31344393",
       "prepared": {
@@ -273010,5 +273012,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:39:10.038776+00:00"
+  "updated_at": "2026-11-24T18:44:41.229406+00:00"
 }
