@@ -224073,17 +224073,19 @@
       }
     },
     "14730": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33191507",
+          "target_video_id": "31313789",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:23:02.535905+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33191507",
         "display_name": "Dante's Inferno: An Animated Epic 720p CZ Dabing",
         "planned_at": "2026-11-24T01:17:24.691522+00:00"
-      },
-      "claim": {
-        "worker_id": "2aaa88025a594098a4e4780c0abef0cb-shard-0",
-        "claimed_at": "2026-11-24T01:17:25.190738+00:00",
-        "lease_expires_at": "2026-11-24T07:17:25.190738+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313789",
       "prepared": {
@@ -261906,5 +261908,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:21:38.693550+00:00"
+  "updated_at": "2026-11-24T01:23:02.535962+00:00"
 }
