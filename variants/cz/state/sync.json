@@ -237665,17 +237665,19 @@
       }
     },
     "4356": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31063871",
+          "target_video_id": "31344001",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:46:54.343296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31063871",
         "display_name": "Fast & Furious 4K CZ Dabing",
         "planned_at": "2026-11-24T17:33:21.775422+00:00"
-      },
-      "claim": {
-        "worker_id": "566bba0fe014498ba95a076a7f857afa-shard-0",
-        "claimed_at": "2026-11-24T17:33:22.634074+00:00",
-        "lease_expires_at": "2026-11-24T23:33:22.634074+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31344001",
       "prepared": {
@@ -272656,5 +272658,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:45:50.073310+00:00"
+  "updated_at": "2026-11-24T17:46:54.343313+00:00"
 }
