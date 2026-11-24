@@ -235215,17 +235215,19 @@
       }
     },
     "4025": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33493529",
+          "target_video_id": "31334906",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:31:08.229527+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33493529",
         "display_name": "Gremlins 2: The New Batch 1080p CZ Dabing",
         "planned_at": "2026-11-24T12:27:55.722877+00:00"
-      },
-      "claim": {
-        "worker_id": "efe952e6c75f48b093cfe2fc9bf44c16-shard-0",
-        "claimed_at": "2026-11-24T12:27:56.326891+00:00",
-        "lease_expires_at": "2026-11-24T18:27:56.326891+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334906",
       "prepared": {
@@ -270650,5 +270652,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:30:59.699837+00:00"
+  "updated_at": "2026-11-24T12:31:08.229548+00:00"
 }
