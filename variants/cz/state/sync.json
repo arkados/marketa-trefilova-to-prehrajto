@@ -240197,17 +240197,19 @@
       "attempts": []
     },
     "33394": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29740492",
+          "target_video_id": "31348944",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:55:29.280137+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29740492",
         "display_name": "Avenging Angel SD CZ Dabing",
         "planned_at": "2026-11-24T20:54:32.536999+00:00"
-      },
-      "claim": {
-        "worker_id": "329f3b6bec1a4443b4244cad65065245-shard-0",
-        "claimed_at": "2026-11-24T20:54:34.104671+00:00",
-        "lease_expires_at": "2026-11-25T02:54:34.104671+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348944",
       "prepared": {
@@ -274615,5 +274617,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:54:37.540754+00:00"
+  "updated_at": "2026-11-24T20:55:29.280156+00:00"
 }
