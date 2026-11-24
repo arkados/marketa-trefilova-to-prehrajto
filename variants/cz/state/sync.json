@@ -237330,17 +237330,19 @@
       }
     },
     "4137": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22228197",
+          "target_video_id": "31343421",
+          "permanent": false,
+          "attempted_at": "2026-11-24T17:19:33.065397+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22228197",
         "display_name": "The Gray Man (2022) 1080p CZ Dabing",
         "planned_at": "2026-11-24T17:13:35.445310+00:00"
-      },
-      "claim": {
-        "worker_id": "284b6ccb59a943e9a3ab5c4cabd76744-shard-0",
-        "claimed_at": "2026-11-24T17:13:36.330869+00:00",
-        "lease_expires_at": "2026-11-24T23:13:36.330869+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31343421",
       "prepared": {
@@ -272372,5 +272374,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:13:41.004227+00:00"
+  "updated_at": "2026-11-24T17:19:33.065415+00:00"
 }
