@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T04:25:11.076002+00:00"
+        "planned_at": "2026-11-24T04:25:17.863725+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -226765,17 +226765,19 @@
       }
     },
     "4521": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25952619",
+          "target_video_id": "31320003",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:26:04.878748+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25952619",
         "display_name": "Autumn Dreams 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:22:41.700160+00:00"
-      },
-      "claim": {
-        "worker_id": "46484dfaf831434b833e41d78607415a-shard-0",
-        "claimed_at": "2026-11-24T04:22:42.276805+00:00",
-        "lease_expires_at": "2026-11-24T10:22:42.276805+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320003",
       "prepared": {
@@ -226846,7 +226848,13 @@
       "last_plan": {
         "source_id": "34694467",
         "display_name": "Scooby-Doo! and Krypto, Too! 1080p CZ Dabing",
-        "planned_at": "2026-11-24T04:25:11.410648+00:00"
+        "planned_at": "2026-11-24T04:25:18.153077+00:00"
+      },
+      "claim": {
+        "worker_id": "f67cebc8b61d4dbeb8617036491f0665-shard-0",
+        "claimed_at": "2026-11-24T04:25:18.696737+00:00",
+        "lease_expires_at": "2026-11-24T10:25:18.696737+00:00",
+        "run_id": "45312111226"
       }
     },
     "32780": {
@@ -264006,5 +264014,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:25:15.768329+00:00"
+  "updated_at": "2026-11-24T04:26:04.878766+00:00"
 }
