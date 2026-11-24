@@ -225193,17 +225193,19 @@
       }
     },
     "25638": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26131687",
+          "target_video_id": "31316984",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:01:08.959380+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26131687",
         "display_name": "Wild Chicks (The Wild Chicks) 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:55:25.433436+00:00"
-      },
-      "claim": {
-        "worker_id": "0252a12914e147f38e2c62e4b6300ffd-shard-0",
-        "claimed_at": "2026-11-24T02:55:25.968676+00:00",
-        "lease_expires_at": "2026-11-24T08:55:25.968676+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316984",
       "prepared": {
@@ -262754,5 +262756,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:57:14.179046+00:00"
+  "updated_at": "2026-11-24T03:01:08.959402+00:00"
 }
