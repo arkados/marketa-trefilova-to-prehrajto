@@ -229786,17 +229786,19 @@
       }
     },
     "6802": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30854254",
+          "target_video_id": "31326156",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:39:03.478500+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30854254",
         "display_name": "The Inventor 720p CZ Dabing",
         "planned_at": "2026-11-24T07:36:41.324269+00:00"
-      },
-      "claim": {
-        "worker_id": "164a164983b942bfb8f23afcef828a67-shard-0",
-        "claimed_at": "2026-11-24T07:36:41.819013+00:00",
-        "lease_expires_at": "2026-11-24T13:36:41.819013+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326156",
       "prepared": {
@@ -266289,5 +266291,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:38:04.695594+00:00"
+  "updated_at": "2026-11-24T07:39:03.478525+00:00"
 }
