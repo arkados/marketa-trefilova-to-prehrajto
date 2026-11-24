@@ -228953,17 +228953,19 @@
       "attempts": []
     },
     "34192": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32945637",
+          "target_video_id": "31324684",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:49:20.967561+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32945637",
         "display_name": "Wild Grizzly 720p CZ Dabing",
         "planned_at": "2026-11-24T06:47:19.592087+00:00"
-      },
-      "claim": {
-        "worker_id": "8483c1a4fb2c42fe97b0fd3f8f50ab8b-shard-0",
-        "claimed_at": "2026-11-24T06:47:21.955485+00:00",
-        "lease_expires_at": "2026-11-24T12:47:21.955485+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324684",
       "prepared": {
@@ -265649,5 +265651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:49:09.104708+00:00"
+  "updated_at": "2026-11-24T06:49:20.967579+00:00"
 }
