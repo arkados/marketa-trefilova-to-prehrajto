@@ -225090,17 +225090,19 @@
       }
     },
     "7125": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34665107",
+          "target_video_id": "31316770",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:51:39.735695+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34665107",
         "display_name": "Diary of a Wimpy Kid: The Last Straw 1080p CZ Dabing",
         "planned_at": "2026-11-24T02:49:31.239366+00:00"
-      },
-      "claim": {
-        "worker_id": "65c7594eb075400f8c30b2d78e29d4ff-shard-0",
-        "claimed_at": "2026-11-24T02:49:31.790150+00:00",
-        "lease_expires_at": "2026-11-24T08:49:31.790150+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31316770",
       "prepared": {
@@ -262654,5 +262656,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:50:31.370698+00:00"
+  "updated_at": "2026-11-24T02:51:39.735715+00:00"
 }
