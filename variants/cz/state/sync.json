@@ -222820,17 +222820,19 @@
       "attempts": []
     },
     "4585": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17985801",
+          "target_video_id": "31311869",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:20:03.233425+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17985801",
         "display_name": "Percy 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:14:49.240725+00:00"
-      },
-      "claim": {
-        "worker_id": "99ac24716cf34822bc49121488169780-shard-0",
-        "claimed_at": "2026-11-24T00:14:49.700563+00:00",
-        "lease_expires_at": "2026-11-24T06:14:49.700563+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311869",
       "prepared": {
@@ -260974,5 +260976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:19:05.231910+00:00"
+  "updated_at": "2026-11-24T00:20:03.233442+00:00"
 }
