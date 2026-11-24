@@ -229210,17 +229210,19 @@
       }
     },
     "6169": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33650547",
+          "target_video_id": "31324985",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:02:07.026146+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33650547",
         "display_name": "Someday We’ll Tell Each Other Everything (Irgendwann werden wir uns alles erzählen) 1080p CZ Dabing",
         "planned_at": "2026-11-24T06:55:25.157386+00:00"
-      },
-      "claim": {
-        "worker_id": "9a34922916ff4c608a46be9a2ff43582-shard-0",
-        "claimed_at": "2026-11-24T06:55:25.657591+00:00",
-        "lease_expires_at": "2026-11-24T12:55:25.657591+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31324985",
       "prepared": {
@@ -265889,5 +265891,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:01:40.141033+00:00"
+  "updated_at": "2026-11-24T07:02:07.026165+00:00"
 }
