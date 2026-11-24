@@ -234226,17 +234226,19 @@
       }
     },
     "17754": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33502008",
+          "target_video_id": "31333079",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:30:52.211838+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33502008",
         "display_name": "Awake (2007) 4K CZ Dabing",
         "planned_at": "2026-11-24T11:26:19.961773+00:00"
-      },
-      "claim": {
-        "worker_id": "c2640f11203b4a5f832f9a5b016f9a5a-shard-0",
-        "claimed_at": "2026-11-24T11:26:20.521610+00:00",
-        "lease_expires_at": "2026-11-24T17:26:20.521610+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333079",
       "prepared": {
@@ -269802,5 +269804,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:30:35.632470+00:00"
+  "updated_at": "2026-11-24T11:30:52.211859+00:00"
 }
