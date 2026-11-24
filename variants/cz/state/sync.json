@@ -230272,17 +230272,19 @@
       }
     },
     "5978": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10584685",
+          "target_video_id": "31326741",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:57:38.308294+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10584685",
         "display_name": "Humor Me 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:55:25.976474+00:00"
-      },
-      "claim": {
-        "worker_id": "ef643a84d09e40d0b69074850849ec60-shard-0",
-        "claimed_at": "2026-11-24T07:55:26.440663+00:00",
-        "lease_expires_at": "2026-11-24T13:55:26.440663+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326741",
       "prepared": {
@@ -266646,5 +266648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:57:03.122701+00:00"
+  "updated_at": "2026-11-24T07:57:38.308313+00:00"
 }
