@@ -238576,17 +238576,19 @@
       }
     },
     "15133": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12076499",
+          "target_video_id": "31346852",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:26:18.734786+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12076499",
         "display_name": "A Birder's Guide to Everything 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:22:32.084035+00:00"
-      },
-      "claim": {
-        "worker_id": "b359553a7c964186b166a86f66f5401a-shard-0",
-        "claimed_at": "2026-11-24T19:22:32.934639+00:00",
-        "lease_expires_at": "2026-11-25T01:22:32.934639+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31346852",
       "prepared": {
@@ -273409,5 +273411,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:26:13.671405+00:00"
+  "updated_at": "2026-11-24T19:26:18.734804+00:00"
 }
