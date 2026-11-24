@@ -240994,17 +240994,19 @@
       }
     },
     "23152": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33794211",
+          "target_video_id": "31349752",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:39:22.587982+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33794211",
         "display_name": "Stanley & Iris 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:36:26.377872+00:00"
-      },
-      "claim": {
-        "worker_id": "be9bdf8042db46daa04877370cb1818f-shard-0",
-        "claimed_at": "2026-11-24T21:36:26.871455+00:00",
-        "lease_expires_at": "2026-11-25T03:36:26.871455+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349752",
       "prepared": {
@@ -275268,5 +275270,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:37:22.552240+00:00"
+  "updated_at": "2026-11-24T21:39:22.588000+00:00"
 }
