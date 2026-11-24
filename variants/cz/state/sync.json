@@ -226823,17 +226823,19 @@
       "attempts": []
     },
     "21958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31909904",
+          "target_video_id": "31320090",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:27:11.917542+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31909904",
         "display_name": "Marlowe (1969) SD CZ Dabing",
         "planned_at": "2026-11-24T04:25:07.761365+00:00"
-      },
-      "claim": {
-        "worker_id": "b0133bc4671a407aa71d75cc73425537-shard-0",
-        "claimed_at": "2026-11-24T04:25:10.811045+00:00",
-        "lease_expires_at": "2026-11-24T10:25:10.811045+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31320090",
       "prepared": {
@@ -264052,5 +264054,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:26:44.595579+00:00"
+  "updated_at": "2026-11-24T04:27:11.917562+00:00"
 }
