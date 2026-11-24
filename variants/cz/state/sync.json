@@ -240118,17 +240118,19 @@
       }
     },
     "16878": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27864893",
+          "target_video_id": "31348880",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:53:54.709164+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27864893",
         "display_name": "The Three Christs of Ypsilanti (Three Christs) 720p CZ Dabing",
         "planned_at": "2026-11-24T20:50:45.927336+00:00"
-      },
-      "claim": {
-        "worker_id": "ebf279005d6244eeaf5953c846b4752b-shard-0",
-        "claimed_at": "2026-11-24T20:50:46.422142+00:00",
-        "lease_expires_at": "2026-11-25T02:50:46.422142+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348880",
       "prepared": {
@@ -274575,5 +274577,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:53:00.986778+00:00"
+  "updated_at": "2026-11-24T20:53:54.709181+00:00"
 }
