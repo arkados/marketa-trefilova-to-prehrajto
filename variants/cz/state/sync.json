@@ -235717,17 +235717,19 @@
       }
     },
     "4396": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29667795",
+          "target_video_id": "31336380",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:13:15.852728+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29667795",
         "display_name": "Step Up 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:03:23.169440+00:00"
-      },
-      "claim": {
-        "worker_id": "b3489dfca9ad493db93e7063e5e6af1f-shard-0",
-        "claimed_at": "2026-11-24T13:03:23.680495+00:00",
-        "lease_expires_at": "2026-11-24T19:03:23.680495+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336380",
       "prepared": {
@@ -271067,5 +271069,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:08:01.948824+00:00"
+  "updated_at": "2026-11-24T13:13:15.852749+00:00"
 }
