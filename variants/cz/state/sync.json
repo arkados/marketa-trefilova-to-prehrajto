@@ -239396,17 +239396,19 @@
       "attempts": []
     },
     "21393": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34788948",
+          "target_video_id": "31347849",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:06:03.375821+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34788948",
         "display_name": "Désirée SD CZ Dabing",
         "planned_at": "2026-11-24T20:03:17.300081+00:00"
-      },
-      "claim": {
-        "worker_id": "239fb6d187954acfa718c374f7eab277-shard-0",
-        "claimed_at": "2026-11-24T20:03:20.527859+00:00",
-        "lease_expires_at": "2026-11-25T02:03:20.527859+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347849",
       "prepared": {
@@ -274024,5 +274026,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:05:21.883262+00:00"
+  "updated_at": "2026-11-24T20:06:03.375840+00:00"
 }
