@@ -235009,17 +235009,19 @@
       "attempts": []
     },
     "27293": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34709877",
+          "target_video_id": "31334700",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:21:18.211337+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34709877",
         "display_name": "Killing Bono SD CZ Dabing",
         "planned_at": "2026-11-24T12:19:56.943680+00:00"
-      },
-      "claim": {
-        "worker_id": "4e3a700e9d2345c0b76d7498f1ea9180-shard-0",
-        "claimed_at": "2026-11-24T12:19:57.482065+00:00",
-        "lease_expires_at": "2026-11-24T18:19:57.482065+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31334700",
       "prepared": {
@@ -270456,5 +270458,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T12:21:15.501868+00:00"
+  "updated_at": "2026-11-24T12:21:18.211356+00:00"
 }
