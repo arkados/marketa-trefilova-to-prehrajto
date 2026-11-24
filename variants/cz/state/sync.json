@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:04:08.318344+00:00"
+        "planned_at": "2026-11-24T03:04:13.515110+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225362,11 +225362,23 @@
       }
     },
     "36615": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33852903",
+          "reason": "Request failed for https://sdilej.cz/33852903/bizoni-na-tahu-1980-1080p-cz.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:04:15.772830+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33852903",
         "display_name": "Where the Buffalo Roam 1080p CZ Dabing",
-        "planned_at": "2026-11-24T03:04:08.651053+00:00"
+        "planned_at": "2026-11-24T03:04:13.842504+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33852903",
+        "requested_at": "2026-11-24T03:04:15.772816+00:00"
       }
     },
     "37293": {
@@ -262838,5 +262850,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:04:08.651072+00:00"
+  "updated_at": "2026-11-24T03:04:15.772835+00:00"
 }
