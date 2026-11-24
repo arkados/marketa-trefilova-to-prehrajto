@@ -237902,17 +237902,19 @@
       "attempts": []
     },
     "4867": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22837303",
+          "target_video_id": "31345236",
+          "permanent": false,
+          "attempted_at": "2026-11-24T18:17:08.031258+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22837303",
         "display_name": "Chickenhare and the Hamster of Darkness 1080p CZ Dabing",
         "planned_at": "2026-11-24T18:13:54.993287+00:00"
-      },
-      "claim": {
-        "worker_id": "113054616b06439a96923a88768b584d-shard-0",
-        "claimed_at": "2026-11-24T18:13:55.893697+00:00",
-        "lease_expires_at": "2026-11-25T00:13:55.893697+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31345236",
       "prepared": {
@@ -272833,5 +272835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:14:00.809715+00:00"
+  "updated_at": "2026-11-24T18:17:08.031276+00:00"
 }
