@@ -241766,17 +241766,19 @@
       "attempts": []
     },
     "6274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "14915953",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-24T22:08:01.926063+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14915953",
         "display_name": "Cambio tutto! 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:06:56.156036+00:00"
-      },
-      "claim": {
-        "worker_id": "9b39d28c082f423d844a57d7e9f7c000-shard-0",
-        "claimed_at": "2026-11-24T22:06:56.671236+00:00",
-        "lease_expires_at": "2026-11-25T04:06:56.671236+00:00",
-        "run_id": "45469401145"
       }
     },
     "4727": {
@@ -275838,5 +275840,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:07:22.686044+00:00"
+  "updated_at": "2026-11-24T22:08:01.926082+00:00"
 }
