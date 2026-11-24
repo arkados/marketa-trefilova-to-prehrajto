@@ -233694,17 +233694,19 @@
       "attempts": []
     },
     "13410": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32246009",
+          "target_video_id": "31332190",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:01:27.703198+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32246009",
         "display_name": "Farewell to the Planet of the Apes SD CZ Dabing",
         "planned_at": "2026-11-24T11:00:10.191895+00:00"
-      },
-      "claim": {
-        "worker_id": "a58c3d1bca4c412da36970616858387f-shard-0",
-        "claimed_at": "2026-11-24T11:00:10.759595+00:00",
-        "lease_expires_at": "2026-11-24T17:00:10.759595+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332190",
       "prepared": {
@@ -269342,5 +269344,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:00:18.156976+00:00"
+  "updated_at": "2026-11-24T11:01:27.703220+00:00"
 }
