@@ -230840,17 +230840,19 @@
       }
     },
     "5395": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25631583",
+          "target_video_id": "31327496",
+          "permanent": false,
+          "attempted_at": "2026-11-24T08:22:43.681865+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25631583",
         "display_name": "Madeleine Collins 720p CZ Dabing",
         "planned_at": "2026-11-24T08:19:43.144193+00:00"
-      },
-      "claim": {
-        "worker_id": "cb65303a1e704f00bae3c6a92ca0124d-shard-0",
-        "claimed_at": "2026-11-24T08:19:43.651999+00:00",
-        "lease_expires_at": "2026-11-24T14:19:43.651999+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31327496",
       "prepared": {
@@ -267103,5 +267105,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:21:57.315349+00:00"
+  "updated_at": "2026-11-24T08:22:43.681881+00:00"
 }
