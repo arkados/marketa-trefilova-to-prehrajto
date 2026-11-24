@@ -137374,7 +137374,7 @@
       "last_plan": {
         "source_id": "28002795",
         "display_name": "Děvče za výkladem SD CZ Dabing",
-        "planned_at": "2026-11-24T08:54:35.262362+00:00"
+        "planned_at": "2026-11-24T08:55:46.872224+00:00"
       },
       "previous_target_id": "30987767",
       "prepared": {
@@ -231426,21 +231426,28 @@
       }
     },
     "4223": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "31003369",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-24T08:55:48.657618+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31003369",
         "display_name": "Dumplin' 1080p CZ Dabing",
         "planned_at": "2026-11-24T08:54:35.559821+00:00"
-      },
-      "claim": {
-        "worker_id": "d07ace3e40a4422f9059c77b09b87bac-shard-0",
-        "claimed_at": "2026-11-24T08:54:36.153349+00:00",
-        "lease_expires_at": "2026-11-24T14:54:36.153349+00:00",
-        "run_id": "45341588798"
       }
     },
     "37425": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34603541",
+        "display_name": "A Murder Between Friends 1080p CZ Dabing",
+        "planned_at": "2026-11-24T08:55:47.178190+00:00"
+      }
     },
     "11945": {
       "attempts": []
@@ -267538,5 +267545,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:55:41.738699+00:00"
+  "updated_at": "2026-11-24T08:55:48.657637+00:00"
 }
