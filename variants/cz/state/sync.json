@@ -240170,17 +240170,19 @@
       "attempts": []
     },
     "17427": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34696035",
+          "target_video_id": "31348934",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:57:01.594245+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34696035",
         "display_name": "My Killer Client 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:54:04.242067+00:00"
-      },
-      "claim": {
-        "worker_id": "63017987e60a43d48cebd09c556b77b1-shard-0",
-        "claimed_at": "2026-11-24T20:54:05.054487+00:00",
-        "lease_expires_at": "2026-11-25T02:54:05.054487+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31348934",
       "prepared": {
@@ -274635,5 +274637,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:55:41.991158+00:00"
+  "updated_at": "2026-11-24T20:57:01.594261+00:00"
 }
