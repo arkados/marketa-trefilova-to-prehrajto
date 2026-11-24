@@ -222683,17 +222683,19 @@
       }
     },
     "7251": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18708839",
+          "target_video_id": "31311691",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:12:41.386908+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18708839",
         "display_name": "God, You're Such a Prick (Gott, du kannst ein Arsch sein!) 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:07:45.738182+00:00"
-      },
-      "claim": {
-        "worker_id": "6ccda92e3e9c4971b96891588799fc8d-shard-0",
-        "claimed_at": "2026-11-24T00:07:46.238559+00:00",
-        "lease_expires_at": "2026-11-24T06:07:46.238559+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31311691",
       "prepared": {
@@ -260894,5 +260896,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:10:38.994786+00:00"
+  "updated_at": "2026-11-24T00:12:41.386925+00:00"
 }
