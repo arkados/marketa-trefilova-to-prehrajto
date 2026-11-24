@@ -239465,17 +239465,19 @@
       }
     },
     "16275": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34774930",
+          "target_video_id": "31347885",
+          "permanent": false,
+          "attempted_at": "2026-11-24T20:10:24.337149+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34774930",
         "display_name": "The Submarine Kid 1080p CZ Dabing",
         "planned_at": "2026-11-24T20:06:12.549263+00:00"
-      },
-      "claim": {
-        "worker_id": "71664b97fefc4be98bd33600d17dc785-shard-0",
-        "claimed_at": "2026-11-24T20:06:13.022579+00:00",
-        "lease_expires_at": "2026-11-25T02:06:13.022579+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347885",
       "prepared": {
@@ -274084,5 +274086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:10:21.780605+00:00"
+  "updated_at": "2026-11-24T20:10:24.337168+00:00"
 }
