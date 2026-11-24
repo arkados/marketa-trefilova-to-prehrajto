@@ -233917,17 +233917,19 @@
       "attempts": []
     },
     "4139": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27953662",
+          "target_video_id": "31332658",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:17:17.923076+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27953662",
         "display_name": "Spencer 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:14:41.833330+00:00"
-      },
-      "claim": {
-        "worker_id": "62844cf3f5f8489fb9c02abc81c7d0b1-shard-0",
-        "claimed_at": "2026-11-24T11:14:42.378556+00:00",
-        "lease_expires_at": "2026-11-24T17:14:42.378556+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332658",
       "prepared": {
@@ -269562,5 +269564,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:16:59.659277+00:00"
+  "updated_at": "2026-11-24T11:17:17.923095+00:00"
 }
