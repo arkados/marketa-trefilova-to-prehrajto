@@ -227328,17 +227328,19 @@
       }
     },
     "7869": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30454888",
+          "target_video_id": "31321291",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:06:26.485594+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30454888",
         "display_name": "The Assassin (SalSu) (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:04:21.668426+00:00"
-      },
-      "claim": {
-        "worker_id": "ffe5e04c55f2402381d3b594a42141ba-shard-0",
-        "claimed_at": "2026-11-24T05:04:22.182009+00:00",
-        "lease_expires_at": "2026-11-24T11:04:22.182009+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31321291",
       "prepared": {
@@ -264432,5 +264434,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:05:50.600385+00:00"
+  "updated_at": "2026-11-24T05:06:26.485612+00:00"
 }
