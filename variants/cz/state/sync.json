@@ -238972,17 +238972,19 @@
       }
     },
     "16489": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34885703",
+          "target_video_id": "31347313",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:46:28.744927+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34885703",
         "display_name": "From the Ashes: The Pit (jrs 'ndhr: lhfrh) 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:42:20.091843+00:00"
-      },
-      "claim": {
-        "worker_id": "10ff9d668c484830bd0a38a514af941a-shard-0",
-        "claimed_at": "2026-11-24T19:42:20.557531+00:00",
-        "lease_expires_at": "2026-11-25T01:42:20.557531+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347313",
       "prepared": {
@@ -273707,5 +273709,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:46:23.382900+00:00"
+  "updated_at": "2026-11-24T19:46:28.744945+00:00"
 }
