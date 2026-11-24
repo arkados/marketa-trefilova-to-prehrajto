@@ -236811,17 +236811,19 @@
       }
     },
     "4329": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31527913",
+          "target_video_id": "31341815",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:09:29.185780+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31527913",
         "display_name": "Tomorrow Never Dies 1080p CZ Dabing",
         "planned_at": "2026-11-24T15:59:49.999815+00:00"
-      },
-      "claim": {
-        "worker_id": "d9411763ff4746e7a4058e5cb7b13637-shard-0",
-        "claimed_at": "2026-11-24T15:59:50.921935+00:00",
-        "lease_expires_at": "2026-11-24T21:59:50.921935+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31341815",
       "prepared": {
@@ -271955,5 +271957,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:02:43.726329+00:00"
+  "updated_at": "2026-11-24T16:09:29.185796+00:00"
 }
