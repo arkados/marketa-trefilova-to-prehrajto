@@ -242602,17 +242602,19 @@
       }
     },
     "12414": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23640546",
+          "target_video_id": "31351411",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:55:12.480043+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23640546",
         "display_name": "Once Upon a Time in China and America (HuangFeiHongZhiXiYuXiongShi) 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:46:17.830152+00:00"
-      },
-      "claim": {
-        "worker_id": "d8b52605deb84cfe8f0582d77a2de380-shard-0",
-        "claimed_at": "2026-11-24T22:46:22.661993+00:00",
-        "lease_expires_at": "2026-11-25T04:46:22.661993+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351411",
       "prepared": {
@@ -276584,5 +276586,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:53:59.410164+00:00"
+  "updated_at": "2026-11-24T22:55:12.480058+00:00"
 }
