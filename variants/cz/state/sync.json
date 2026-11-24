@@ -236471,17 +236471,19 @@
       }
     },
     "15280": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34331386",
+          "target_video_id": "31340866",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:27:11.595592+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34331386",
         "display_name": "Locked-in Society (Eingeschlossene Gesellschaft) 1080p CZ Dabing",
         "planned_at": "2026-11-24T15:22:14.472922+00:00"
-      },
-      "claim": {
-        "worker_id": "5dbc40b7a8ce40fbb27f4c4558360e82-shard-0",
-        "claimed_at": "2026-11-24T15:22:15.280034+00:00",
-        "lease_expires_at": "2026-11-24T21:22:15.280034+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31340866",
       "prepared": {
@@ -271701,5 +271703,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:24:31.219586+00:00"
+  "updated_at": "2026-11-24T15:27:11.595611+00:00"
 }
