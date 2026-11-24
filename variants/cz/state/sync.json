@@ -236951,17 +236951,19 @@
       }
     },
     "4162": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33492775",
+          "target_video_id": "31342389",
+          "permanent": false,
+          "attempted_at": "2026-11-24T16:44:40.502254+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33492775",
         "display_name": "Jungle Cruise 4K CZ Dabing",
         "planned_at": "2026-11-24T16:23:41.748497+00:00"
-      },
-      "claim": {
-        "worker_id": "683374e1758a4f75a86a6fd86c5f37af-shard-0",
-        "claimed_at": "2026-11-24T16:23:42.732370+00:00",
-        "lease_expires_at": "2026-11-24T22:23:42.732370+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31342389",
       "prepared": {
@@ -272132,5 +272134,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:42:39.729794+00:00"
+  "updated_at": "2026-11-24T16:44:40.502269+00:00"
 }
