@@ -240763,17 +240763,19 @@
       "attempts": []
     },
     "21808": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32453481",
+          "target_video_id": "31349520",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:33:30.694015+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32453481",
         "display_name": "Gendarme in New York (The Gendarme in New York) 4K CZ Dabing",
         "planned_at": "2026-11-24T21:25:38.772445+00:00"
-      },
-      "claim": {
-        "worker_id": "65e198c6b2364481a62ad517812b7104-shard-0",
-        "claimed_at": "2026-11-24T21:25:39.386919+00:00",
-        "lease_expires_at": "2026-11-25T03:25:39.386919+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349520",
       "prepared": {
@@ -275148,5 +275150,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:31:33.282140+00:00"
+  "updated_at": "2026-11-24T21:33:30.694033+00:00"
 }
