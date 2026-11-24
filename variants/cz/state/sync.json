@@ -230057,17 +230057,19 @@
       }
     },
     "25222": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34706996",
+          "target_video_id": "31326512",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:51:07.261061+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34706996",
         "display_name": "Springtime with Roo (Winnie the Pooh: Springtime with Roo) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:48:52.079991+00:00"
-      },
-      "claim": {
-        "worker_id": "569c1eeb3bb44b8dbdab8ba62ed7629f-shard-0",
-        "claimed_at": "2026-11-24T07:48:52.616378+00:00",
-        "lease_expires_at": "2026-11-24T13:48:52.616378+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31326512",
       "prepared": {
@@ -266506,5 +266508,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:50:25.159824+00:00"
+  "updated_at": "2026-11-24T07:51:07.261085+00:00"
 }
