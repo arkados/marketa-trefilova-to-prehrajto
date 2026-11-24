@@ -238776,17 +238776,19 @@
       "attempts": []
     },
     "27810": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29229271",
+          "target_video_id": "31347044",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:34:53.455745+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29229271",
         "display_name": "The Man Who Laughs 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:30:35.850119+00:00"
-      },
-      "claim": {
-        "worker_id": "f061a38677e642dcb1190988a003b87b-shard-0",
-        "claimed_at": "2026-11-24T19:30:36.313395+00:00",
-        "lease_expires_at": "2026-11-25T01:30:36.313395+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347044",
       "prepared": {
@@ -273527,5 +273529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:34:29.845056+00:00"
+  "updated_at": "2026-11-24T19:34:53.455762+00:00"
 }
