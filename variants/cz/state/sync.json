@@ -233379,17 +233379,19 @@
       "attempts": []
     },
     "21453": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660802",
+          "target_video_id": "31331268",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:34:11.044519+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660802",
         "display_name": "Elena and Her Men 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:26:20.044988+00:00"
-      },
-      "claim": {
-        "worker_id": "a216b4169063490cbbaabeca47aae17b-shard-0",
-        "claimed_at": "2026-11-24T10:26:20.548260+00:00",
-        "lease_expires_at": "2026-11-24T16:26:20.548260+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31331268",
       "prepared": {
@@ -269149,5 +269151,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:31:50.179230+00:00"
+  "updated_at": "2026-11-24T10:34:11.044539+00:00"
 }
