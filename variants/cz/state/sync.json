@@ -228166,17 +228166,19 @@
       "attempts": []
     },
     "4243": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34853742",
+          "target_video_id": "31322699",
+          "permanent": false,
+          "attempted_at": "2026-11-24T05:58:07.952138+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34853742",
         "display_name": "Brad's Status 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:53:09.996232+00:00"
-      },
-      "claim": {
-        "worker_id": "f5aae3b6bdae4c6396ef066e15caf4ee-shard-0",
-        "claimed_at": "2026-11-24T05:53:10.565841+00:00",
-        "lease_expires_at": "2026-11-24T11:53:10.565841+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322699",
       "prepared": {
@@ -265089,5 +265091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T05:57:39.570639+00:00"
+  "updated_at": "2026-11-24T05:58:07.952159+00:00"
 }
