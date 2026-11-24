@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T03:23:00.835806+00:00"
+        "planned_at": "2026-11-24T03:23:04.205117+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -225692,17 +225692,19 @@
       }
     },
     "26119": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30820700",
+          "target_video_id": "31317765",
+          "permanent": false,
+          "attempted_at": "2026-11-24T03:23:04.447436+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30820700",
         "display_name": "Dragon Hunters 1080p CZ Dabing",
         "planned_at": "2026-11-24T03:18:33.267257+00:00"
-      },
-      "claim": {
-        "worker_id": "d23cd3f61d12422386e5db9219fea2fa-shard-0",
-        "claimed_at": "2026-11-24T03:18:33.871958+00:00",
-        "lease_expires_at": "2026-11-24T09:18:33.871958+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31317765",
       "prepared": {
@@ -263111,5 +263113,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T03:23:01.145900+00:00"
+  "updated_at": "2026-11-24T03:23:04.447449+00:00"
 }
