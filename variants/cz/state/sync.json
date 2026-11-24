@@ -231802,17 +231802,19 @@
       "attempts": []
     },
     "16721": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12249872",
+          "target_video_id": "31329078",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:15:42.264693+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12249872",
         "display_name": "Time Toys 1080p CZ Dabing",
         "planned_at": "2026-11-24T09:11:31.659408+00:00"
-      },
-      "claim": {
-        "worker_id": "8248c0ba2dd64bc6944539cb08c72090-shard-0",
-        "claimed_at": "2026-11-24T09:11:32.153888+00:00",
-        "lease_expires_at": "2026-11-24T15:11:32.153888+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329078",
       "prepared": {
@@ -267858,5 +267860,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:15:39.896324+00:00"
+  "updated_at": "2026-11-24T09:15:42.264714+00:00"
 }
