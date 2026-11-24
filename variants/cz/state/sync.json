@@ -223483,17 +223483,19 @@
       "attempts": []
     },
     "12794": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33774849",
+          "target_video_id": "31312778",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:50:10.287261+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33774849",
         "display_name": "I Won the New Year's Lottery (Ho vinto la lotteria di Capodanno) 1080p CZ Dabing",
         "planned_at": "2026-11-24T00:47:20.144890+00:00"
-      },
-      "claim": {
-        "worker_id": "b566e3dca4e94eb99d8f80ce80a5e7b2-shard-0",
-        "claimed_at": "2026-11-24T00:47:20.647112+00:00",
-        "lease_expires_at": "2026-11-24T06:47:20.647112+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312778",
       "prepared": {
@@ -261446,5 +261448,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:48:53.537529+00:00"
+  "updated_at": "2026-11-24T00:50:10.287280+00:00"
 }
