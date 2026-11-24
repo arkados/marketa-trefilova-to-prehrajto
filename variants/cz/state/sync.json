@@ -235650,17 +235650,19 @@
       "attempts": []
     },
     "3678": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25554209",
+          "target_video_id": "31336237",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:24:58.566619+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25554209",
         "display_name": "The Green Knight 4K CZ Dabing",
         "planned_at": "2026-11-24T12:58:13.279607+00:00"
-      },
-      "claim": {
-        "worker_id": "a0826705f401443b955b9f949aa36795-shard-0",
-        "claimed_at": "2026-11-24T12:58:13.848631+00:00",
-        "lease_expires_at": "2026-11-24T18:58:13.848631+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31336237",
       "prepared": {
@@ -271114,5 +271116,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:24:53.748755+00:00"
+  "updated_at": "2026-11-24T13:24:58.566647+00:00"
 }
