@@ -233940,17 +233940,19 @@
       }
     },
     "27469": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29388567",
+          "target_video_id": "31332697",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:18:16.246130+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29388567",
         "display_name": "The Cup 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:15:47.122734+00:00"
-      },
-      "claim": {
-        "worker_id": "1255fbfcc9fb4ee7884fd41bc1527f02-shard-0",
-        "claimed_at": "2026-11-24T11:15:47.626524+00:00",
-        "lease_expires_at": "2026-11-24T17:15:47.626524+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332697",
       "prepared": {
@@ -269582,5 +269584,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:17:31.049052+00:00"
+  "updated_at": "2026-11-24T11:18:16.246150+00:00"
 }
