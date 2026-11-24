@@ -234156,17 +234156,19 @@
       }
     },
     "5165": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33888529",
+          "target_video_id": "31332968",
+          "permanent": false,
+          "attempted_at": "2026-11-24T11:26:10.620809+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33888529",
         "display_name": "Cloud 9 720p CZ Dabing",
         "planned_at": "2026-11-24T11:23:11.444103+00:00"
-      },
-      "claim": {
-        "worker_id": "1fc745ce16a243dfb4ae7dd47b229794-shard-0",
-        "claimed_at": "2026-11-24T11:23:12.010756+00:00",
-        "lease_expires_at": "2026-11-24T17:23:12.010756+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31332968",
       "prepared": {
@@ -269762,5 +269764,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:25:49.531202+00:00"
+  "updated_at": "2026-11-24T11:26:10.620829+00:00"
 }
