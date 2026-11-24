@@ -236034,17 +236034,19 @@
       "attempts": []
     },
     "34888": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35385366",
+          "target_video_id": "31337750",
+          "permanent": false,
+          "attempted_at": "2026-11-24T13:59:42.958861+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35385366",
         "display_name": "The April Fools 1080p CZ Dabing",
         "planned_at": "2026-11-24T13:49:47.574268+00:00"
-      },
-      "claim": {
-        "worker_id": "c9f81b2d33f3467aa38a12002734bed6-shard-0",
-        "claimed_at": "2026-11-24T13:49:48.134599+00:00",
-        "lease_expires_at": "2026-11-24T19:49:48.134599+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31337750",
       "prepared": {
@@ -271347,5 +271349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T13:58:00.664894+00:00"
+  "updated_at": "2026-11-24T13:59:42.958880+00:00"
 }
