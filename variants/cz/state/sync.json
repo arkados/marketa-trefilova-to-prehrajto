@@ -239159,17 +239159,19 @@
       "attempts": []
     },
     "6756": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32961095",
+          "target_video_id": "31347663",
+          "permanent": false,
+          "attempted_at": "2026-11-24T19:56:06.464968+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32961095",
         "display_name": "Grand Prix of Europe 1080p CZ Dabing",
         "planned_at": "2026-11-24T19:53:05.659670+00:00"
-      },
-      "claim": {
-        "worker_id": "eb97667326964c39a951a30714817eea-shard-0",
-        "claimed_at": "2026-11-24T19:53:06.245897+00:00",
-        "lease_expires_at": "2026-11-25T01:53:06.245897+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31347663",
       "prepared": {
@@ -273904,5 +273906,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T19:55:58.319244+00:00"
+  "updated_at": "2026-11-24T19:56:06.464987+00:00"
 }
