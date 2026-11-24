@@ -226618,17 +226618,19 @@
       }
     },
     "4150": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19228823",
+          "target_video_id": "31319774",
+          "permanent": false,
+          "attempted_at": "2026-11-24T04:22:33.460678+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19228823",
         "display_name": "I Still Believe 1080p CZ Dabing",
         "planned_at": "2026-11-24T04:17:34.538800+00:00"
-      },
-      "claim": {
-        "worker_id": "a2f09ffd436b4c9eb0178cadb80e9282-shard-0",
-        "claimed_at": "2026-11-24T04:17:35.100223+00:00",
-        "lease_expires_at": "2026-11-24T10:17:35.100223+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31319774",
       "prepared": {
@@ -263939,5 +263941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T04:22:01.232422+00:00"
+  "updated_at": "2026-11-24T04:22:33.460697+00:00"
 }
