@@ -242536,17 +242536,19 @@
       }
     },
     "11193": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25572747",
+          "target_video_id": "31351273",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:44:30.285236+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25572747",
         "display_name": "The Fruit is Ripe (Griechische Feigen) SD CZ Dabing",
         "planned_at": "2026-11-24T22:42:06.622982+00:00"
-      },
-      "claim": {
-        "worker_id": "971d2b992dd14139bc0b5a3f1c33ab3a-shard-0",
-        "claimed_at": "2026-11-24T22:42:07.087026+00:00",
-        "lease_expires_at": "2026-11-25T04:42:07.087026+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351273",
       "prepared": {
@@ -276411,5 +276413,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:42:10.665241+00:00"
+  "updated_at": "2026-11-24T22:44:30.285257+00:00"
 }
