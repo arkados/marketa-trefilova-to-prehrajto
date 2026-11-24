@@ -223454,17 +223454,19 @@
       "attempts": []
     },
     "31156": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28174495",
+          "target_video_id": "31312764",
+          "permanent": false,
+          "attempted_at": "2026-11-24T00:48:32.718446+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28174495",
         "display_name": "Případ dr. Kováře SD CZ Dabing",
         "planned_at": "2026-11-24T00:46:49.851512+00:00"
-      },
-      "claim": {
-        "worker_id": "1cd9cd29e30e492fb6a09b0e7f77d278-shard-0",
-        "claimed_at": "2026-11-24T00:46:50.371567+00:00",
-        "lease_expires_at": "2026-11-24T06:46:50.371567+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31312764",
       "prepared": {
@@ -261426,5 +261428,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T00:48:09.841958+00:00"
+  "updated_at": "2026-11-24T00:48:32.718468+00:00"
 }
