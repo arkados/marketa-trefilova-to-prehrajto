@@ -242822,17 +242822,19 @@
       "attempts": []
     },
     "4576": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31916798",
+          "target_video_id": "31351743",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:04:28.872284+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31916798",
         "display_name": "The Broken Hearts Gallery 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:56:46.843553+00:00"
-      },
-      "claim": {
-        "worker_id": "7f02cc52b305479b9c7e532884419d0b-shard-0",
-        "claimed_at": "2026-11-24T22:56:47.361339+00:00",
-        "lease_expires_at": "2026-11-25T04:56:47.361339+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351743",
       "prepared": {
@@ -276728,5 +276730,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:04:22.955496+00:00"
+  "updated_at": "2026-11-24T23:04:28.872304+00:00"
 }
