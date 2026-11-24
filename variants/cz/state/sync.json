@@ -242794,17 +242794,19 @@
       "attempts": []
     },
     "4911": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30846772",
+          "target_video_id": "31351706",
+          "permanent": false,
+          "attempted_at": "2026-11-24T22:57:50.130147+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30846772",
         "display_name": "Justice (Napad) (2024) 1080p CZ Dabing",
         "planned_at": "2026-11-24T22:55:22.579817+00:00"
-      },
-      "claim": {
-        "worker_id": "2f5a444448474210b581c8cb2d059d60-shard-0",
-        "claimed_at": "2026-11-24T22:55:23.077648+00:00",
-        "lease_expires_at": "2026-11-25T04:55:23.077648+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31351706",
       "prepared": {
@@ -276624,5 +276626,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T22:56:51.833640+00:00"
+  "updated_at": "2026-11-24T22:57:50.130166+00:00"
 }
