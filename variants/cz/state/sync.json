@@ -228264,17 +228264,19 @@
       "attempts": []
     },
     "4110": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26185122",
+          "target_video_id": "31322822",
+          "permanent": false,
+          "attempted_at": "2026-11-24T06:01:00.938892+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26185122",
         "display_name": "Blood & Gold 1080p CZ Dabing",
         "planned_at": "2026-11-24T05:58:16.969860+00:00"
-      },
-      "claim": {
-        "worker_id": "1fc0a33f137c488786ba7a9f5b375315-shard-0",
-        "claimed_at": "2026-11-24T05:58:17.592869+00:00",
-        "lease_expires_at": "2026-11-24T11:58:17.592869+00:00",
-        "run_id": "45312111226"
       },
       "previous_target_id": "31322822",
       "prepared": {
@@ -265149,5 +265151,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T06:00:01.675420+00:00"
+  "updated_at": "2026-11-24T06:01:00.938912+00:00"
 }
