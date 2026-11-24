@@ -156127,7 +156127,7 @@
       "last_plan": {
         "source_id": "34908898",
         "display_name": "48 Stunden bis Acapulco SD CZ Dabing",
-        "planned_at": "2026-11-24T02:33:36.987012+00:00"
+        "planned_at": "2026-11-24T02:33:41.965556+00:00"
       },
       "previous_target_id": "31057025",
       "prepared": {
@@ -224820,11 +224820,23 @@
       }
     },
     "11009": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "25006927",
+          "reason": "Request failed for https://sdilej.cz/25006927/valecny-nalet-tisicem-letadel-dvdrip-cz-ss23-.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-24T02:33:44.143365+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25006927",
         "display_name": "The Thousand Plane Raid SD CZ Dabing",
-        "planned_at": "2026-11-24T02:33:37.319317+00:00"
+        "planned_at": "2026-11-24T02:33:42.271568+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "25006927",
+        "requested_at": "2026-11-24T02:33:44.143349+00:00"
       }
     },
     "18921": {
@@ -262410,5 +262422,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:33:37.319334+00:00"
+  "updated_at": "2026-11-24T02:33:44.143370+00:00"
 }
