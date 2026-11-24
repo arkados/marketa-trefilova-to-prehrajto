@@ -240629,17 +240629,19 @@
       "attempts": []
     },
     "15088": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13671116",
+          "target_video_id": "31349420",
+          "permanent": false,
+          "attempted_at": "2026-11-24T21:24:03.006854+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13671116",
         "display_name": "Iris the Movie (AILiSeu Deo MuBi) 1080p CZ Dabing",
         "planned_at": "2026-11-24T21:20:42.086379+00:00"
-      },
-      "claim": {
-        "worker_id": "9d44e95387be42ef9cc251961a5a3f71-shard-0",
-        "claimed_at": "2026-11-24T21:20:42.562855+00:00",
-        "lease_expires_at": "2026-11-25T03:20:42.562855+00:00",
-        "run_id": "45469401145"
       },
       "previous_target_id": "31349420",
       "prepared": {
@@ -274975,5 +274977,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:20:56.607092+00:00"
+  "updated_at": "2026-11-24T21:24:03.006876+00:00"
 }
