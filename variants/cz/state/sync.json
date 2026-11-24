@@ -229566,17 +229566,19 @@
       }
     },
     "4214": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34218362",
+          "target_video_id": "31325474",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:19:31.908901+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34218362",
         "display_name": "Every Day (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:14:07.151958+00:00"
-      },
-      "claim": {
-        "worker_id": "5928c3f914cc46c9aa5291082e3363f2-shard-0",
-        "claimed_at": "2026-11-24T07:14:07.685240+00:00",
-        "lease_expires_at": "2026-11-24T13:14:07.685240+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325474",
       "prepared": {
@@ -266149,5 +266151,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:18:28.368654+00:00"
+  "updated_at": "2026-11-24T07:19:31.908921+00:00"
 }
