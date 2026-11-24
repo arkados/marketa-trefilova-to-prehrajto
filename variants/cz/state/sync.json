@@ -236227,17 +236227,19 @@
       }
     },
     "4355": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31382803",
+          "target_video_id": "31338561",
+          "permanent": false,
+          "attempted_at": "2026-11-24T14:18:36.450454+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31382803",
         "display_name": "Underworld: Rise of the Lycans 4K CZ Dabing",
         "planned_at": "2026-11-24T14:12:00.987326+00:00"
-      },
-      "claim": {
-        "worker_id": "96eeede8a0af48849fa867077a53cde5-shard-0",
-        "claimed_at": "2026-11-24T14:12:01.544644+00:00",
-        "lease_expires_at": "2026-11-24T20:12:01.544644+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31338561",
       "prepared": {
@@ -271464,5 +271466,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:18:33.582297+00:00"
+  "updated_at": "2026-11-24T14:18:36.450477+00:00"
 }
