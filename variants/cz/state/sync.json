@@ -234627,17 +234627,19 @@
       }
     },
     "26137": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24164275",
+          "target_video_id": "31333924",
+          "permanent": false,
+          "attempted_at": "2026-11-24T12:00:01.824944+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24164275",
         "display_name": "The International 1080p CZ Dabing",
         "planned_at": "2026-11-24T11:55:31.451022+00:00"
-      },
-      "claim": {
-        "worker_id": "39979f206d00419f8c9006aafce817ed-shard-0",
-        "claimed_at": "2026-11-24T11:55:31.962086+00:00",
-        "lease_expires_at": "2026-11-24T17:55:31.962086+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31333924",
       "prepared": {
@@ -270122,5 +270124,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T11:55:35.365345+00:00"
+  "updated_at": "2026-11-24T12:00:01.824964+00:00"
 }
