@@ -233175,17 +233175,19 @@
       "attempts": []
     },
     "4654": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11918425",
+          "target_video_id": "31331037",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:17:35.280354+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11918425",
         "display_name": "Beats 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:15:19.728799+00:00"
-      },
-      "claim": {
-        "worker_id": "bbb23465bfb34b5c964be5700e2d8c91-shard-0",
-        "claimed_at": "2026-11-24T10:15:20.280859+00:00",
-        "lease_expires_at": "2026-11-24T16:15:20.280859+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31331037",
       "prepared": {
@@ -268949,5 +268951,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:17:06.172612+00:00"
+  "updated_at": "2026-11-24T10:17:35.280374+00:00"
 }
