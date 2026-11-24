@@ -243688,17 +243688,19 @@
       }
     },
     "34380": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34719767",
+          "target_video_id": "31352861",
+          "permanent": false,
+          "attempted_at": "2026-11-24T23:37:27.459241+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34719767",
         "display_name": "Extremities 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:33:47.921397+00:00"
-      },
-      "claim": {
-        "worker_id": "77150ed7c98941d081ebb0669108e110-shard-0",
-        "claimed_at": "2026-11-24T23:33:48.509347+00:00",
-        "lease_expires_at": "2026-11-25T05:33:48.509347+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31352861",
       "prepared": {
@@ -277314,5 +277316,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:37:09.755977+00:00"
+  "updated_at": "2026-11-24T23:37:27.459263+00:00"
 }
