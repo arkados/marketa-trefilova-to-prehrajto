@@ -223980,17 +223980,19 @@
       "attempts": []
     },
     "14478": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27818593",
+          "target_video_id": "31313727",
+          "permanent": false,
+          "attempted_at": "2026-11-24T01:19:38.110953+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27818593",
         "display_name": "The Charlemagne Code (Die Jagd nach dem Schatz der Nibelungen) 1080p CZ Dabing",
         "planned_at": "2026-11-24T01:14:27.139805+00:00"
-      },
-      "claim": {
-        "worker_id": "bff8d6b87d214a728dcbfc0dcf0fd19c-shard-0",
-        "claimed_at": "2026-11-24T01:14:31.063233+00:00",
-        "lease_expires_at": "2026-11-24T07:14:31.063233+00:00",
-        "run_id": "45273969052"
       },
       "previous_target_id": "31313727",
       "prepared": {
@@ -261866,5 +261868,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T01:18:22.427839+00:00"
+  "updated_at": "2026-11-24T01:19:38.110980+00:00"
 }
