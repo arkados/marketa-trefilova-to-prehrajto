@@ -236558,17 +236558,19 @@
       }
     },
     "9956": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27595247",
+          "target_video_id": "31340980",
+          "permanent": false,
+          "attempted_at": "2026-11-24T15:33:19.670987+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27595247",
         "display_name": "The Taming of the Shrewd 2 (Poskromienie złośnicy 2 czyli wiele hałasu o nic) 1080p CZ Dabing",
         "planned_at": "2026-11-24T15:27:22.674535+00:00"
-      },
-      "claim": {
-        "worker_id": "a87815f73e4145a1a0a8ed46d44a0657-shard-0",
-        "claimed_at": "2026-11-24T15:27:23.605356+00:00",
-        "lease_expires_at": "2026-11-24T21:27:23.605356+00:00",
-        "run_id": "45379676352"
       },
       "previous_target_id": "31340980",
       "prepared": {
@@ -271741,5 +271743,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:28:42.288630+00:00"
+  "updated_at": "2026-11-24T15:33:19.671004+00:00"
 }
