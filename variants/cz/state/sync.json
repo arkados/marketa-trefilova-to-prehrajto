@@ -229491,17 +229491,19 @@
       }
     },
     "21788": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29411154",
+          "target_video_id": "31325378",
+          "permanent": false,
+          "attempted_at": "2026-11-24T07:13:38.119703+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29411154",
         "display_name": "Alvarez Kelly 1080p CZ Dabing",
         "planned_at": "2026-11-24T07:10:37.354001+00:00"
-      },
-      "claim": {
-        "worker_id": "f92a900134da4c3d94e0b521cb6a8572-shard-0",
-        "claimed_at": "2026-11-24T07:10:37.896935+00:00",
-        "lease_expires_at": "2026-11-24T13:10:37.896935+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31325378",
       "prepared": {
@@ -266069,5 +266071,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:11:51.735333+00:00"
+  "updated_at": "2026-11-24T07:13:38.119724+00:00"
 }
