@@ -233272,17 +233272,19 @@
       }
     },
     "27494": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32993674",
+          "target_video_id": "31331144",
+          "permanent": false,
+          "attempted_at": "2026-11-24T10:28:34.886774+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32993674",
         "display_name": "Triggerman (Doc West II : Triggerman) 1080p CZ Dabing",
         "planned_at": "2026-11-24T10:20:07.293518+00:00"
-      },
-      "claim": {
-        "worker_id": "a1d28d70dc84431795f333c2a91dddcb-shard-0",
-        "claimed_at": "2026-11-24T10:20:08.008155+00:00",
-        "lease_expires_at": "2026-11-24T16:20:08.008155+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31331144",
       "prepared": {
@@ -269109,5 +269111,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T10:27:35.571328+00:00"
+  "updated_at": "2026-11-24T10:28:34.886795+00:00"
 }
