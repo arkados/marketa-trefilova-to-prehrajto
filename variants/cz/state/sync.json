@@ -232263,17 +232263,19 @@
       }
     },
     "25732": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34032449",
+          "target_video_id": "31329741",
+          "permanent": false,
+          "attempted_at": "2026-11-24T09:35:12.207815+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34032449",
         "display_name": "Alone (2007) SD CZ Dabing",
         "planned_at": "2026-11-24T09:33:54.568018+00:00"
-      },
-      "claim": {
-        "worker_id": "292ffe0f1426433e88e6b7c66ca04ce7-shard-0",
-        "claimed_at": "2026-11-24T09:33:55.276753+00:00",
-        "lease_expires_at": "2026-11-24T15:33:55.276753+00:00",
-        "run_id": "45341588798"
       },
       "previous_target_id": "31329741",
       "prepared": {
@@ -268229,5 +268231,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T09:34:14.116096+00:00"
+  "updated_at": "2026-11-24T09:35:12.207836+00:00"
 }
