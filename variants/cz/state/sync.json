@@ -236159,17 +236159,19 @@
       }
     },
     "17733": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33806098",
+          "target_video_id": "31338213",
+          "permanent": false,
+          "attempted_at": "2026-11-24T14:05:40.036688+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33806098",
         "display_name": "Antz 1080p CZ Dabing",
         "planned_at": "2026-11-24T14:01:54.874018+00:00"
-      },
-      "claim": {
-        "worker_id": "fb098d9379634bf68d5ffd027a859a36-shard-0",
-        "claimed_at": "2026-11-24T14:01:55.441441+00:00",
-        "lease_expires_at": "2026-11-24T20:01:55.441441+00:00",
-        "run_id": "45378695605"
       },
       "previous_target_id": "31338213",
       "prepared": {
@@ -271387,5 +271389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T14:01:59.418962+00:00"
+  "updated_at": "2026-11-24T14:05:40.036713+00:00"
 }
