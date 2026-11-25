@@ -262980,17 +262980,19 @@
       "attempts": []
     },
     "26659": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12750313",
+          "target_video_id": "31376970",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:39:02.078123+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12750313",
         "display_name": "Impy's Wonderland SD CZ Dabing",
         "planned_at": "2026-11-25T17:38:16.968812+00:00"
-      },
-      "claim": {
-        "worker_id": "40ede5d8e7044a95b624bfcb55fd23cb-shard-0",
-        "claimed_at": "2026-11-25T17:38:17.669960+00:00",
-        "lease_expires_at": "2026-11-25T23:38:17.669960+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376970",
       "prepared": {
@@ -292602,5 +292604,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:38:21.412676+00:00"
+  "updated_at": "2026-11-25T17:39:02.078144+00:00"
 }
