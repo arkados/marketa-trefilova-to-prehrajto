@@ -264428,17 +264428,19 @@
       "attempts": []
     },
     "10083": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34671147",
+          "target_video_id": "31378459",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:38:44.790813+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34671147",
         "display_name": "La Croisière 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:35:28.765765+00:00"
-      },
-      "claim": {
-        "worker_id": "c428df65545546eebce6d8056051f412-shard-0",
-        "claimed_at": "2026-11-25T18:35:29.574594+00:00",
-        "lease_expires_at": "2026-11-26T00:35:29.574594+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378459",
       "prepared": {
@@ -293776,5 +293778,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:37:35.004501+00:00"
+  "updated_at": "2026-11-25T18:38:44.790833+00:00"
 }
