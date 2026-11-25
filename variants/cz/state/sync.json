@@ -265481,17 +265481,19 @@
       }
     },
     "7064": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34523486",
+          "target_video_id": "31379660",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:28:15.242345+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34523486",
         "display_name": "Journey to the Christmas Star (Reisen til julestjernen) 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:24:35.996108+00:00"
-      },
-      "claim": {
-        "worker_id": "c3d64b7adafe4a17958ca4df08d6e2f7-shard-0",
-        "claimed_at": "2026-11-25T19:24:36.816130+00:00",
-        "lease_expires_at": "2026-11-26T01:24:36.816130+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379660",
       "prepared": {
@@ -294569,5 +294571,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:26:01.214722+00:00"
+  "updated_at": "2026-11-25T19:28:15.242373+00:00"
 }
