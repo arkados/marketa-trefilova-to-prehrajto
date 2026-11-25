@@ -265536,17 +265536,19 @@
       }
     },
     "5394": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32296950",
+          "target_video_id": "31379705",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:28:43.442523+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32296950",
         "display_name": "The Amazing Maurice 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:25:56.474970+00:00"
-      },
-      "claim": {
-        "worker_id": "2b2c6884358342628596ce5b22ebf845-shard-0",
-        "claimed_at": "2026-11-25T19:25:57.295797+00:00",
-        "lease_expires_at": "2026-11-26T01:25:57.295797+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379705",
       "prepared": {
@@ -294589,5 +294591,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:28:37.808623+00:00"
+  "updated_at": "2026-11-25T19:28:43.442546+00:00"
 }
