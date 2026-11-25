@@ -270751,17 +270751,19 @@
       "attempts": []
     },
     "6165": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32448619",
+          "target_video_id": "31386609",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:53:40.396268+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32448619",
         "display_name": "A Paris Christmas Waltz (Paris Christmas Waltz) 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:49:06.493240+00:00"
-      },
-      "claim": {
-        "worker_id": "a1ef0db812cf4545b6d8296029129d38-shard-0",
-        "claimed_at": "2026-11-25T23:49:07.025938+00:00",
-        "lease_expires_at": "2026-11-26T05:49:07.025938+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386609",
       "prepared": {
@@ -298647,5 +298649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:51:24.360120+00:00"
+  "updated_at": "2026-11-25T23:53:40.396288+00:00"
 }
