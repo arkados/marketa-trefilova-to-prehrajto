@@ -262718,17 +262718,19 @@
       }
     },
     "28268": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25108293",
+          "target_video_id": "31376843",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:34:10.343397+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25108293",
         "display_name": "Trust Me SD CZ Dabing",
         "planned_at": "2026-11-25T17:32:51.379106+00:00"
-      },
-      "claim": {
-        "worker_id": "5423a0c54b2d4829a97210a9e61e4d46-shard-0",
-        "claimed_at": "2026-11-25T17:32:52.179281+00:00",
-        "lease_expires_at": "2026-11-25T23:32:52.179281+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376843",
       "prepared": {
@@ -292445,5 +292447,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:33:52.226485+00:00"
+  "updated_at": "2026-11-25T17:34:10.343419+00:00"
 }
