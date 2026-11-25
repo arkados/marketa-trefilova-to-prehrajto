@@ -256912,17 +256912,19 @@
       }
     },
     "4664": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34241091",
+          "target_video_id": "31370390",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:58:05.527773+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34241091",
         "display_name": "The Grinch 4K CZ Dabing",
         "planned_at": "2026-11-25T12:53:56.246107+00:00"
-      },
-      "claim": {
-        "worker_id": "c05b852c62804369a85bde88cedc4688-shard-0",
-        "claimed_at": "2026-11-25T12:53:57.179776+00:00",
-        "lease_expires_at": "2026-11-25T18:53:57.179776+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370390",
       "prepared": {
@@ -287763,5 +287765,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:57:50.328928+00:00"
+  "updated_at": "2026-11-25T12:58:05.527791+00:00"
 }
