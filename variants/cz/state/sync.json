@@ -257306,17 +257306,19 @@
       }
     },
     "4722": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659288",
+          "target_video_id": "31370975",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:14:00.598490+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659288",
         "display_name": "The Babysitter (2017) 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:12:06.677333+00:00"
-      },
-      "claim": {
-        "worker_id": "25252b8cb8714edaa1c84235ccb4b2be-shard-0",
-        "claimed_at": "2026-11-25T13:12:07.548311+00:00",
-        "lease_expires_at": "2026-11-25T19:12:07.548311+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370975",
       "prepared": {
@@ -288080,5 +288082,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:12:52.737748+00:00"
+  "updated_at": "2026-11-25T13:14:00.598510+00:00"
 }
