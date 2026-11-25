@@ -244254,17 +244254,19 @@
       }
     },
     "15880": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30891107",
+          "target_video_id": "31353997",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:20:57.606743+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30891107",
         "display_name": "Vera and the Pleasure of Others (Vera y el placer de los otros) 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:14:43.343518+00:00"
-      },
-      "claim": {
-        "worker_id": "2cb635da16e74909ab1cd1ef0ebe000b-shard-0",
-        "claimed_at": "2026-11-25T00:14:43.923675+00:00",
-        "lease_expires_at": "2026-11-25T06:14:43.923675+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353997",
       "prepared": {
@@ -277794,5 +277796,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:20:20.872873+00:00"
+  "updated_at": "2026-11-25T00:20:57.606763+00:00"
 }
