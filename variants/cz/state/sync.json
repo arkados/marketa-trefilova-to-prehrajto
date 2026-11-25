@@ -247621,17 +247621,19 @@
       }
     },
     "23226": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29340189",
+          "target_video_id": "31357839",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:51:07.330824+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29340189",
         "display_name": "Speaking of the Devil 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:47:53.175791+00:00"
-      },
-      "claim": {
-        "worker_id": "055130689832406f8dee061f8d2afa75-shard-0",
-        "claimed_at": "2026-11-25T03:47:54.530392+00:00",
-        "lease_expires_at": "2026-11-25T09:47:54.530392+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31357839",
       "prepared": {
@@ -280338,5 +280340,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:50:19.174322+00:00"
+  "updated_at": "2026-11-25T03:51:07.330838+00:00"
 }
