@@ -256767,17 +256767,19 @@
       }
     },
     "12294": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34205894",
+          "target_video_id": "31370182",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:52:29.982938+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34205894",
         "display_name": "Dragonheart 4K CZ Dabing",
         "planned_at": "2026-11-25T12:48:34.636078+00:00"
-      },
-      "claim": {
-        "worker_id": "51f30a7a650a4398a78b8d2022f3a330-shard-0",
-        "claimed_at": "2026-11-25T12:48:35.520147+00:00",
-        "lease_expires_at": "2026-11-25T18:48:35.520147+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370182",
       "prepared": {
@@ -287663,5 +287665,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:52:05.077907+00:00"
+  "updated_at": "2026-11-25T12:52:29.982958+00:00"
 }
