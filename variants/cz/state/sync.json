@@ -260127,17 +260127,19 @@
       }
     },
     "8130": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34857982",
+          "target_video_id": "31374695",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:17:27.113064+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34857982",
         "display_name": "The Squad: Home Run (Antigang : La Relève) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:15:33.411165+00:00"
-      },
-      "claim": {
-        "worker_id": "395d825ca51c4eaeb5180baa8fce3855-shard-0",
-        "claimed_at": "2026-11-25T16:15:34.485605+00:00",
-        "lease_expires_at": "2026-11-25T22:15:34.485605+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31374695",
       "prepared": {
@@ -290424,5 +290426,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:17:22.661498+00:00"
+  "updated_at": "2026-11-25T16:17:27.113085+00:00"
 }
