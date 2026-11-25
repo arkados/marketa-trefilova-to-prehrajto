@@ -264811,17 +264811,19 @@
       "attempts": []
     },
     "5324": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34441944",
+          "target_video_id": "31378846",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:57:49.138208+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34441944",
         "display_name": "A Genius, Two Partners and a Dupe (Un genio, due compari, un pollo) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:48:43.092400+00:00"
-      },
-      "claim": {
-        "worker_id": "bd84701e79f84f1fb22a0a37534d758b-shard-0",
-        "claimed_at": "2026-11-25T18:48:43.882652+00:00",
-        "lease_expires_at": "2026-11-26T00:48:43.882652+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378846",
       "prepared": {
@@ -294089,5 +294091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:57:29.901462+00:00"
+  "updated_at": "2026-11-25T18:57:49.138229+00:00"
 }
