@@ -256221,17 +256221,19 @@
       "attempts": []
     },
     "5119": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29489866",
+          "target_video_id": "31369549",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:25:30.564851+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29489866",
         "display_name": "14 Blades (JinYiWei) 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:22:51.303877+00:00"
-      },
-      "claim": {
-        "worker_id": "97df3b1b555d43fbb15bf94e9be57e45-shard-0",
-        "claimed_at": "2026-11-25T12:22:52.224435+00:00",
-        "lease_expires_at": "2026-11-25T18:22:52.224435+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369549",
       "prepared": {
@@ -287163,5 +287165,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:23:56.766465+00:00"
+  "updated_at": "2026-11-25T12:25:30.564875+00:00"
 }
