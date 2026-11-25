@@ -262178,17 +262178,19 @@
       }
     },
     "24876": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28574277",
+          "target_video_id": "31376304",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:16:40.393686+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28574277",
         "display_name": "Imagining Argentina SD CZ Dabing",
         "planned_at": "2026-11-25T17:15:04.496822+00:00"
-      },
-      "claim": {
-        "worker_id": "0e1feb9a3eca4b19ac3d3d6edc419a0d-shard-0",
-        "claimed_at": "2026-11-25T17:15:05.293855+00:00",
-        "lease_expires_at": "2026-11-25T23:15:05.293855+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376304",
       "prepared": {
@@ -292048,5 +292050,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:16:18.378258+00:00"
+  "updated_at": "2026-11-25T17:16:40.393707+00:00"
 }
