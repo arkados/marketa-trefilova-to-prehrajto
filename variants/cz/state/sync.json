@@ -252950,17 +252950,19 @@
       }
     },
     "5086": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659758",
+          "target_video_id": "31365232",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:23:24.388857+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659758",
         "display_name": "100 Things (100 Dinge) 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:19:59.995336+00:00"
-      },
-      "claim": {
-        "worker_id": "75a01cbf332349188dd4a717fba87172-shard-0",
-        "claimed_at": "2026-11-25T09:20:00.950629+00:00",
-        "lease_expires_at": "2026-11-25T15:20:00.950629+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365232",
       "prepared": {
@@ -284501,5 +284503,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:22:10.253828+00:00"
+  "updated_at": "2026-11-25T09:23:24.388874+00:00"
 }
