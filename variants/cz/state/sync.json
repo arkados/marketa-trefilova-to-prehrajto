@@ -255120,17 +255120,19 @@
       }
     },
     "4519": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32970470",
+          "target_video_id": "31367933",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:22:20.774176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32970470",
         "display_name": "Wes Craven's New Nightmare 4K CZ Dabing",
         "planned_at": "2026-11-25T11:18:31.290025+00:00"
-      },
-      "claim": {
-        "worker_id": "fe7ba6bbae224c8490d49c66bfb778b2-shard-0",
-        "claimed_at": "2026-11-25T11:18:32.335027+00:00",
-        "lease_expires_at": "2026-11-25T17:18:32.335027+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31367933",
       "prepared": {
@@ -286303,5 +286305,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:21:47.471079+00:00"
+  "updated_at": "2026-11-25T11:22:20.774192+00:00"
 }
