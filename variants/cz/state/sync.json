@@ -265885,17 +265885,19 @@
       "attempts": []
     },
     "5042": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17001684",
+          "target_video_id": "31380102",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:44:55.396160+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17001684",
         "display_name": "Chemical Hearts 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:40:19.215743+00:00"
-      },
-      "claim": {
-        "worker_id": "b25c1a0dfce548e486c3ba89d71b261f-shard-0",
-        "claimed_at": "2026-11-25T19:40:20.018272+00:00",
-        "lease_expires_at": "2026-11-26T01:40:20.018272+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380102",
       "prepared": {
@@ -294859,5 +294861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:42:20.777614+00:00"
+  "updated_at": "2026-11-25T19:44:55.396180+00:00"
 }
