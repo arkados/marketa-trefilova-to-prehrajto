@@ -265023,17 +265023,19 @@
       }
     },
     "23472": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30855190",
+          "target_video_id": "31379118",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:04:04.041744+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30855190",
         "display_name": "Blue Chips 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:00:51.876388+00:00"
-      },
-      "claim": {
-        "worker_id": "d722aa1f0b5f49b495e511a395a2c36a-shard-0",
-        "claimed_at": "2026-11-25T19:00:52.686181+00:00",
-        "lease_expires_at": "2026-11-26T01:00:52.686181+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379118",
       "prepared": {
@@ -294189,5 +294191,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:03:14.576168+00:00"
+  "updated_at": "2026-11-25T19:04:04.041765+00:00"
 }
