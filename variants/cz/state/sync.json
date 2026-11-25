@@ -139344,7 +139344,7 @@
       "last_plan": {
         "source_id": "34715447",
         "display_name": "Snow White (O Sněhurce) (1972) SD CZ Dabing",
-        "planned_at": "2026-11-25T16:26:38.522356+00:00"
+        "planned_at": "2026-11-25T16:26:42.989380+00:00"
       },
       "previous_target_id": "30987931",
       "prepared": {
@@ -260488,15 +260488,32 @@
       "attempts": []
     },
     "12376": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34466734",
+          "reason": "Source detail has no authenticated download link; source_id=34466734",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:26:44.899683+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34466734",
         "display_name": "Hercules and Xena – The Animated Movie: The Battle for Mount Olympus (Hercules and Xena - The Animated Movie: The Battle for Mount Olympus) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:26:38.973127+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34466734",
+        "requested_at": "2026-11-25T16:26:44.899664+00:00"
       }
     },
     "29215": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "25571929",
+        "display_name": "The Snow Queen 3: Fire and Ice 1080p CZ Dabing",
+        "planned_at": "2026-11-25T16:26:43.431439+00:00"
+      }
     },
     "21452": {
       "attempts": []
@@ -290670,5 +290687,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:26:38.973146+00:00"
+  "updated_at": "2026-11-25T16:26:44.899687+00:00"
 }
