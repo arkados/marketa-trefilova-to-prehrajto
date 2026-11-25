@@ -253988,17 +253988,19 @@
       }
     },
     "22825": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32394691",
+          "target_video_id": "31366521",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:19:33.560703+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32394691",
         "display_name": "Spies Like Us 4K CZ Dabing",
         "planned_at": "2026-11-25T10:16:36.082061+00:00"
-      },
-      "claim": {
-        "worker_id": "271d24214ad348578dedb36bde19839d-shard-0",
-        "claimed_at": "2026-11-25T10:16:37.079448+00:00",
-        "lease_expires_at": "2026-11-25T16:16:37.079448+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366521",
       "prepared": {
@@ -285356,5 +285358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:18:51.496259+00:00"
+  "updated_at": "2026-11-25T10:19:33.560719+00:00"
 }
