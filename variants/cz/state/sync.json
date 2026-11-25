@@ -254063,17 +254063,19 @@
       }
     },
     "4818": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11878253",
+          "target_video_id": "31366550",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:24:35.610091+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11878253",
         "display_name": "The Double (2013) 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:19:44.817216+00:00"
-      },
-      "claim": {
-        "worker_id": "e30ad0f0da8146a09050b263a779e1e9-shard-0",
-        "claimed_at": "2026-11-25T10:19:45.802000+00:00",
-        "lease_expires_at": "2026-11-25T16:19:45.802000+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366550",
       "prepared": {
@@ -285416,5 +285418,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:22:18.756416+00:00"
+  "updated_at": "2026-11-25T10:24:35.610106+00:00"
 }
