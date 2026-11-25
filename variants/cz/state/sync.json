@@ -268182,17 +268182,19 @@
       }
     },
     "18609": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30441031",
+          "target_video_id": "31383021",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:27:58.006207+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30441031",
         "display_name": "Bravetown (Strings) SD CZ Dabing",
         "planned_at": "2026-11-25T21:26:48.783549+00:00"
-      },
-      "claim": {
-        "worker_id": "7044e85bd6814d11ab4182cc8e562e0a-shard-0",
-        "claimed_at": "2026-11-25T21:26:49.422405+00:00",
-        "lease_expires_at": "2026-11-26T03:26:49.422405+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383021",
       "prepared": {
@@ -296616,5 +296618,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:27:18.229783+00:00"
+  "updated_at": "2026-11-25T21:27:58.006228+00:00"
 }
