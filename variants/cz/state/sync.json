@@ -199661,13 +199661,6 @@
           "source_id": "35178312",
           "target_video_id": "31243478",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:15:06.637359+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "35178312",
-          "target_video_id": "31243478",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:39:41.008758+00:00"
         },
         {
@@ -199676,12 +199669,19 @@
           "target_video_id": "31243478",
           "permanent": false,
           "attempted_at": "2026-11-22T22:22:38.615995+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "35178312",
+          "target_video_id": "31243478",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:23:24.315752+00:00"
         }
       ],
       "last_plan": {
         "source_id": "35178312",
         "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T20:14:36.010169+00:00"
+        "planned_at": "2026-11-25T20:23:21.303767+00:00"
       },
       "previous_target_id": "31243478",
       "prepared": {
@@ -266760,7 +266760,18 @@
       "attempts": []
     },
     "12399": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34675663",
+        "display_name": "Scorpio One 1080p CZ Dabing",
+        "planned_at": "2026-11-25T20:23:21.605528+00:00"
+      },
+      "claim": {
+        "worker_id": "2e66ead925f04bb59a935e1af0b9d72f-shard-0",
+        "claimed_at": "2026-11-25T20:23:22.496401+00:00",
+        "lease_expires_at": "2026-11-26T02:23:22.496401+00:00",
+        "run_id": "45694325045"
+      }
     },
     "18278": {
       "attempts": []
@@ -266769,13 +266780,23 @@
       "attempts": []
     },
     "7999": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "29868609",
+        "display_name": "You choose (L'Embarras du choix) 720p CZ Dabing",
+        "planned_at": "2026-11-25T20:23:21.800949+00:00"
+      }
     },
     "35453": {
       "attempts": []
     },
     "30479": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "7372239",
+        "display_name": "Rufus SD CZ Dabing",
+        "planned_at": "2026-11-25T20:23:21.986124+00:00"
+      }
     },
     "28586": {
       "attempts": []
@@ -295485,5 +295506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:19:12.488195+00:00"
+  "updated_at": "2026-11-25T20:23:24.315773+00:00"
 }
