@@ -252656,17 +252656,19 @@
       "attempts": []
     },
     "17182": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21478430",
+          "target_video_id": "31364874",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:08:18.110877+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21478430",
         "display_name": "Lethal Admirer 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:04:37.756667+00:00"
-      },
-      "claim": {
-        "worker_id": "23530c6ac27f4819be2cd551a99b767d-shard-0",
-        "claimed_at": "2026-11-25T09:04:38.709820+00:00",
-        "lease_expires_at": "2026-11-25T15:04:38.709820+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364874",
       "prepared": {
@@ -284281,5 +284283,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:07:26.387957+00:00"
+  "updated_at": "2026-11-25T09:08:18.110892+00:00"
 }
