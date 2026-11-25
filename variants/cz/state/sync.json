@@ -139344,7 +139344,7 @@
       "last_plan": {
         "source_id": "34715447",
         "display_name": "Snow White (O Sněhurce) (1972) SD CZ Dabing",
-        "planned_at": "2026-11-25T16:28:47.514277+00:00"
+        "planned_at": "2026-11-25T16:28:53.342000+00:00"
       },
       "previous_target_id": "30987931",
       "prepared": {
@@ -260555,11 +260555,23 @@
       }
     },
     "22379": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "11814403",
+          "reason": "Request failed for https://sdilej.cz/11814403/vsichni-proti-vsem-1977-r.-karel-stekly-.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:28:56.006740+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11814403",
         "display_name": "Všichni proti všem (All Against All) SD CZ Dabing",
-        "planned_at": "2026-11-25T16:28:47.981329+00:00"
+        "planned_at": "2026-11-25T16:28:53.881665+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "11814403",
+        "requested_at": "2026-11-25T16:28:56.006725+00:00"
       }
     },
     "22604": {
@@ -290725,5 +290737,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:28:47.981347+00:00"
+  "updated_at": "2026-11-25T16:28:56.006745+00:00"
 }
