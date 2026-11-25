@@ -249493,17 +249493,19 @@
       }
     },
     "7009": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27533073",
+          "target_video_id": "31359920",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:43:05.087779+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27533073",
         "display_name": "Barbie: Star Light Adventure 720p CZ Dabing",
         "planned_at": "2026-11-25T05:37:07.286310+00:00"
-      },
-      "claim": {
-        "worker_id": "b99b8947dda24248b9e7685dfe5109e5-shard-0",
-        "claimed_at": "2026-11-25T05:37:08.135474+00:00",
-        "lease_expires_at": "2026-11-25T11:37:08.135474+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359920",
       "prepared": {
@@ -281752,5 +281754,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:42:06.219152+00:00"
+  "updated_at": "2026-11-25T05:43:05.087794+00:00"
 }
