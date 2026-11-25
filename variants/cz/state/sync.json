@@ -199681,7 +199681,7 @@
       "last_plan": {
         "source_id": "35178312",
         "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T17:57:38.490589+00:00"
+        "planned_at": "2026-11-25T17:57:47.643925+00:00"
       },
       "previous_target_id": "31243478",
       "prepared": {
@@ -263515,11 +263515,23 @@
       }
     },
     "23328": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31902362",
+          "reason": "Source detail has no authenticated download link; source_id=31902362",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:57:51.115845+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31902362",
         "display_name": "Talons of the Eagle 1080p CZ Dabing",
-        "planned_at": "2026-11-25T17:57:38.968770+00:00"
+        "planned_at": "2026-11-25T17:57:48.129319+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31902362",
+        "requested_at": "2026-11-25T17:57:51.115825+00:00"
       }
     },
     "28010": {
@@ -292989,5 +293001,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:57:41.391037+00:00"
+  "updated_at": "2026-11-25T17:57:51.115850+00:00"
 }
