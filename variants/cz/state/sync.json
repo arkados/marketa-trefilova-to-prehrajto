@@ -259477,17 +259477,19 @@
       "attempts": []
     },
     "24124": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29058094",
+          "target_video_id": "31373645",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:31:53.674376+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29058094",
         "display_name": "Alice in Wonderland (1999) SD CZ Dabing",
         "planned_at": "2026-11-25T15:30:30.282481+00:00"
-      },
-      "claim": {
-        "worker_id": "b8f5524fa1f44e78acd56b5ad8617a0b-shard-0",
-        "claimed_at": "2026-11-25T15:30:31.215108+00:00",
-        "lease_expires_at": "2026-11-25T21:30:31.215108+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373645",
       "prepared": {
@@ -289876,5 +289878,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:30:36.190484+00:00"
+  "updated_at": "2026-11-25T15:31:53.674397+00:00"
 }
