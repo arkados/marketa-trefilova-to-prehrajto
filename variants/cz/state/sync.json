@@ -257525,17 +257525,19 @@
       "attempts": []
     },
     "13402": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27407992",
+          "target_video_id": "31371341",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:23:45.249681+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27407992",
         "display_name": "The Land Before Time X: The Great Longneck Migration SD CZ Dabing",
         "planned_at": "2026-11-25T13:22:44.641888+00:00"
-      },
-      "claim": {
-        "worker_id": "b2bef1a6271d439691111aeb6078384a-shard-0",
-        "claimed_at": "2026-11-25T13:22:48.688191+00:00",
-        "lease_expires_at": "2026-11-25T19:22:48.688191+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371341",
       "prepared": {
@@ -288257,5 +288259,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:23:04.300752+00:00"
+  "updated_at": "2026-11-25T13:23:45.249710+00:00"
 }
