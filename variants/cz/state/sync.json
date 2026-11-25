@@ -245286,17 +245286,19 @@
       }
     },
     "14028": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26729344",
+          "target_video_id": "31355072",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:20:03.662141+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26729344",
         "display_name": "Champagne ! 720p CZ Dabing",
         "planned_at": "2026-11-25T01:15:20.458235+00:00"
-      },
-      "claim": {
-        "worker_id": "b73546414e5d422186b4f4ce4e138894-shard-0",
-        "claimed_at": "2026-11-25T01:15:21.070875+00:00",
-        "lease_expires_at": "2026-11-25T07:15:21.070875+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355072",
       "prepared": {
@@ -278585,5 +278587,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:19:58.346369+00:00"
+  "updated_at": "2026-11-25T01:20:03.662176+00:00"
 }
