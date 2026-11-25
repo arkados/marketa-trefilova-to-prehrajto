@@ -266760,17 +266760,19 @@
       "attempts": []
     },
     "12399": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34675663",
+          "target_video_id": "31381151",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:26:16.532281+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34675663",
         "display_name": "Scorpio One 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:23:21.605528+00:00"
-      },
-      "claim": {
-        "worker_id": "2e66ead925f04bb59a935e1af0b9d72f-shard-0",
-        "claimed_at": "2026-11-25T20:23:22.496401+00:00",
-        "lease_expires_at": "2026-11-26T02:23:22.496401+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381151",
       "prepared": {
@@ -295579,5 +295581,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:26:07.962684+00:00"
+  "updated_at": "2026-11-25T20:26:16.532299+00:00"
 }
