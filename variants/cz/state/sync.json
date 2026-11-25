@@ -261414,17 +261414,19 @@
       "attempts": []
     },
     "23316": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33745669",
+          "target_video_id": "31375588",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:51:34.397570+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33745669",
         "display_name": "Rapid Fire 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:49:26.751150+00:00"
-      },
-      "claim": {
-        "worker_id": "b00ceae6ab9d4a079f7b0a701141008e-shard-0",
-        "claimed_at": "2026-11-25T16:49:27.456622+00:00",
-        "lease_expires_at": "2026-11-25T22:49:27.456622+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375588",
       "prepared": {
@@ -291420,5 +291422,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:50:35.464979+00:00"
+  "updated_at": "2026-11-25T16:51:34.397590+00:00"
 }
