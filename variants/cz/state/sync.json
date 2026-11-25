@@ -252570,17 +252570,19 @@
       }
     },
     "4453": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29623850",
+          "target_video_id": "31364633",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:59:35.927370+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29623850",
         "display_name": "Boy Kills World 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:57:51.429829+00:00"
-      },
-      "claim": {
-        "worker_id": "8a0eacc8e41947609ea65290e505b5dd-shard-0",
-        "claimed_at": "2026-11-25T08:57:52.404561+00:00",
-        "lease_expires_at": "2026-11-25T14:57:52.404561+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364633",
       "prepared": {
@@ -284181,5 +284183,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:57:56.220770+00:00"
+  "updated_at": "2026-11-25T08:59:35.927386+00:00"
 }
