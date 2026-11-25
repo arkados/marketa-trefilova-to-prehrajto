@@ -254533,17 +254533,19 @@
       "attempts": []
     },
     "22274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33772630",
+          "target_video_id": "31366841",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:43:32.349591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33772630",
         "display_name": "Hand of Death 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:41:13.179288+00:00"
-      },
-      "claim": {
-        "worker_id": "81bb7f9e65114d9c9b55c2c72c82eb73-shard-0",
-        "claimed_at": "2026-11-25T10:41:14.123598+00:00",
-        "lease_expires_at": "2026-11-25T16:41:14.123598+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366841",
       "prepared": {
@@ -285769,5 +285771,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:41:37.176219+00:00"
+  "updated_at": "2026-11-25T10:43:32.349607+00:00"
 }
