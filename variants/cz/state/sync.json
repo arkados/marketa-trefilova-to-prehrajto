@@ -253723,17 +253723,19 @@
       }
     },
     "5396": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35377559",
+          "target_video_id": "31366099",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:06:48.446129+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35377559",
         "display_name": "Surge 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:01:00.179843+00:00"
-      },
-      "claim": {
-        "worker_id": "c475f940bb2448108b3c7096a0e604cd-shard-0",
-        "claimed_at": "2026-11-25T10:01:01.093405+00:00",
-        "lease_expires_at": "2026-11-25T16:01:01.093405+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366099",
       "prepared": {
@@ -285156,5 +285158,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:05:56.659204+00:00"
+  "updated_at": "2026-11-25T10:06:48.446145+00:00"
 }
