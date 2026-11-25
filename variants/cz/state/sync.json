@@ -248586,17 +248586,19 @@
       }
     },
     "23780": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30540236",
+          "target_video_id": "31358755",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:37:45.575010+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30540236",
         "display_name": "Anna Karenina (1997) SD CZ Dabing",
         "planned_at": "2026-11-25T04:35:41.280778+00:00"
-      },
-      "claim": {
-        "worker_id": "d59bf4c6490e4f56aaa3f06a2bbd86a2-shard-0",
-        "claimed_at": "2026-11-25T04:35:42.109563+00:00",
-        "lease_expires_at": "2026-11-25T10:35:42.109563+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358755",
       "prepared": {
@@ -281055,5 +281057,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:37:23.093192+00:00"
+  "updated_at": "2026-11-25T04:37:45.575025+00:00"
 }
