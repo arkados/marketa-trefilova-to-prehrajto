@@ -268828,17 +268828,19 @@
       }
     },
     "11553": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33480074",
+          "target_video_id": "31383818",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:58:25.927862+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33480074",
         "display_name": "Unfaithfully Yours 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:56:28.755102+00:00"
-      },
-      "claim": {
-        "worker_id": "b25b657a18864026a7c9e07f518fc575-shard-0",
-        "claimed_at": "2026-11-25T21:56:29.282108+00:00",
-        "lease_expires_at": "2026-11-26T03:56:29.282108+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383818",
       "prepared": {
@@ -297153,5 +297155,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:56:49.505195+00:00"
+  "updated_at": "2026-11-25T21:58:25.927882+00:00"
 }
