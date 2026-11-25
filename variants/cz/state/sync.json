@@ -248491,17 +248491,19 @@
       }
     },
     "7048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11173772",
+          "target_video_id": "31358629",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:33:11.420436+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11173772",
         "display_name": "Un gallo con muchos huevos 720p CZ Dabing",
         "planned_at": "2026-11-25T04:29:38.576175+00:00"
-      },
-      "claim": {
-        "worker_id": "9977bc865b7f41adbf1f9e087b47d500-shard-0",
-        "claimed_at": "2026-11-25T04:29:39.400475+00:00",
-        "lease_expires_at": "2026-11-25T10:29:39.400475+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358629",
       "prepared": {
@@ -280975,5 +280977,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:31:11.023111+00:00"
+  "updated_at": "2026-11-25T04:33:11.420451+00:00"
 }
