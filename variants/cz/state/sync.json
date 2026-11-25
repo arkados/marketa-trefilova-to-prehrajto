@@ -256010,17 +256010,19 @@
       "attempts": []
     },
     "29917": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31292436",
+          "target_video_id": "31369271",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:18:54.202488+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31292436",
         "display_name": "Star Trek: Nemesis 4K CZ Dabing",
         "planned_at": "2026-11-25T12:13:33.853432+00:00"
-      },
-      "claim": {
-        "worker_id": "e707a5328f5c4d56b5cde94838d5f58d-shard-0",
-        "claimed_at": "2026-11-25T12:13:34.740568+00:00",
-        "lease_expires_at": "2026-11-25T18:13:34.740568+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369271",
       "prepared": {
@@ -287023,5 +287025,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:17:37.261087+00:00"
+  "updated_at": "2026-11-25T12:18:54.202511+00:00"
 }
