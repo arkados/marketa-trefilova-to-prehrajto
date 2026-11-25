@@ -250361,17 +250361,19 @@
       "attempts": []
     },
     "12538": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22679501",
+          "target_video_id": "31361877",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:03:42.244210+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22679501",
         "display_name": "A Midsummer Night's Dream SD CZ Dabing",
         "planned_at": "2026-11-25T07:01:33.258506+00:00"
-      },
-      "claim": {
-        "worker_id": "79fe6ce9a79c429c8dda1331388d79bb-shard-0",
-        "claimed_at": "2026-11-25T07:01:34.092976+00:00",
-        "lease_expires_at": "2026-11-25T13:01:34.092976+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361877",
       "prepared": {
@@ -282464,5 +282466,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:02:41.923383+00:00"
+  "updated_at": "2026-11-25T07:03:42.244224+00:00"
 }
