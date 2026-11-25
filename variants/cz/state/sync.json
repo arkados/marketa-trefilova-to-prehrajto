@@ -265945,17 +265945,19 @@
       "attempts": []
     },
     "11512": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23247980",
+          "target_video_id": "31380226",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:49:33.776691+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23247980",
         "display_name": "Dreamscape 720p CZ Dabing",
         "planned_at": "2026-11-25T19:45:06.265267+00:00"
-      },
-      "claim": {
-        "worker_id": "068958246ed348feaed94830e17abd7b-shard-0",
-        "claimed_at": "2026-11-25T19:45:07.074619+00:00",
-        "lease_expires_at": "2026-11-26T01:45:07.074619+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380226",
       "prepared": {
@@ -294939,5 +294941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:47:42.520923+00:00"
+  "updated_at": "2026-11-25T19:49:33.776721+00:00"
 }
