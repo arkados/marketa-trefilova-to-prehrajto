@@ -248248,17 +248248,19 @@
       }
     },
     "24446": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20348536",
+          "target_video_id": "31358397",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:19:30.119651+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20348536",
         "display_name": "The Tigger Movie SD CZ Dabing",
         "planned_at": "2026-11-25T04:18:13.828409+00:00"
-      },
-      "claim": {
-        "worker_id": "cfa6d499699b4f749243325c28c90cf4-shard-0",
-        "claimed_at": "2026-11-25T04:18:14.722828+00:00",
-        "lease_expires_at": "2026-11-25T10:18:14.722828+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358397",
       "prepared": {
@@ -280795,5 +280797,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:19:17.150645+00:00"
+  "updated_at": "2026-11-25T04:19:30.119668+00:00"
 }
