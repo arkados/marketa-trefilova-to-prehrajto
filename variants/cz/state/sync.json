@@ -270688,17 +270688,19 @@
       "attempts": []
     },
     "15748": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24149090",
+          "target_video_id": "31386524",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:47:56.988602+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24149090",
         "display_name": "The Boss Baby: Christmas Bonus 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:45:55.915838+00:00"
-      },
-      "claim": {
-        "worker_id": "bed15d64adff4cabb9dff81ce38303e3-shard-0",
-        "claimed_at": "2026-11-25T23:45:57.006145+00:00",
-        "lease_expires_at": "2026-11-26T05:45:57.006145+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386524",
       "prepared": {
@@ -298587,5 +298589,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:46:01.381197+00:00"
+  "updated_at": "2026-11-25T23:47:56.988620+00:00"
 }
