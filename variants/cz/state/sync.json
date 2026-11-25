@@ -244050,17 +244050,19 @@
       }
     },
     "22634": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734723",
+          "target_video_id": "31353650",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:00:19.881599+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734723",
         "display_name": "Dragon Lord 1080p CZ Dabing",
         "planned_at": "2026-11-24T23:58:02.621792+00:00"
-      },
-      "claim": {
-        "worker_id": "5d5d44e9c3344b3b8160029fe5ec16c0-shard-0",
-        "claimed_at": "2026-11-24T23:58:03.274898+00:00",
-        "lease_expires_at": "2026-11-25T05:58:03.274898+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353650",
       "prepared": {
@@ -277574,5 +277576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-24T23:58:49.481459+00:00"
+  "updated_at": "2026-11-25T00:00:19.881627+00:00"
 }
