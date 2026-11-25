@@ -247513,17 +247513,19 @@
       "attempts": []
     },
     "17247": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12897001",
+          "target_video_id": "31357427",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:23:19.220797+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12897001",
         "display_name": "Deadly Vows SD CZ Dabing",
         "planned_at": "2026-11-25T03:22:10.535438+00:00"
-      },
-      "claim": {
-        "worker_id": "361d1d1f0a1d42ea8aaecc1a573175b4-shard-0",
-        "claimed_at": "2026-11-25T03:22:11.166472+00:00",
-        "lease_expires_at": "2026-11-25T09:22:11.166472+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357427",
       "prepared": {
@@ -280198,5 +280200,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:22:15.411591+00:00"
+  "updated_at": "2026-11-25T03:23:19.220817+00:00"
 }
