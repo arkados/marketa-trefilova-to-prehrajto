@@ -258345,17 +258345,19 @@
       }
     },
     "14868": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23187406",
+          "target_video_id": "31372406",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:21:05.389055+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23187406",
         "display_name": "Muppets Haunted Mansion 4K CZ Dabing",
         "planned_at": "2026-11-25T14:14:26.884032+00:00"
-      },
-      "claim": {
-        "worker_id": "c38564c86f7345158682bc152647593d-shard-0",
-        "claimed_at": "2026-11-25T14:14:27.786065+00:00",
-        "lease_expires_at": "2026-11-25T20:14:27.786065+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372406",
       "prepared": {
@@ -288951,5 +288953,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:17:59.082028+00:00"
+  "updated_at": "2026-11-25T14:21:05.389076+00:00"
 }
