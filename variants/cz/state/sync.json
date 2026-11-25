@@ -259767,17 +259767,19 @@
       "attempts": []
     },
     "4793": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32453423",
+          "target_video_id": "31373952",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:51:29.126644+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32453423",
         "display_name": "Godzilla (2014) 4K CZ Dabing",
         "planned_at": "2026-11-25T15:46:07.919589+00:00"
-      },
-      "claim": {
-        "worker_id": "453e9b85f5484623a860032782c366d9-shard-0",
-        "claimed_at": "2026-11-25T15:46:08.808975+00:00",
-        "lease_expires_at": "2026-11-25T21:46:08.808975+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373952",
       "prepared": {
@@ -290150,5 +290152,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:50:36.819468+00:00"
+  "updated_at": "2026-11-25T15:51:29.126664+00:00"
 }
