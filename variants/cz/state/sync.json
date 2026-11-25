@@ -144437,7 +144437,7 @@
       "last_plan": {
         "source_id": "34716304",
         "display_name": "Arms for Prague (Zbraně pro Prahu) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T21:53:31.825831+00:00"
+        "planned_at": "2026-11-25T21:53:36.671085+00:00"
       },
       "previous_target_id": "30988791",
       "prepared": {
@@ -268759,17 +268759,19 @@
       "attempts": []
     },
     "23883": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28960209",
+          "target_video_id": "31383695",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:53:39.325463+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28960209",
         "display_name": "Celebrity SD CZ Dabing",
         "planned_at": "2026-11-25T21:52:06.514054+00:00"
-      },
-      "claim": {
-        "worker_id": "5fc7579fab2646fda8de7b4a30215724-shard-0",
-        "claimed_at": "2026-11-25T21:52:07.009589+00:00",
-        "lease_expires_at": "2026-11-26T03:52:07.009589+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383695",
       "prepared": {
@@ -268784,7 +268786,13 @@
       "last_plan": {
         "source_id": "34497929",
         "display_name": "Adiós, Sabata 1080p CZ Dabing",
-        "planned_at": "2026-11-25T21:53:32.122530+00:00"
+        "planned_at": "2026-11-25T21:53:36.962235+00:00"
+      },
+      "claim": {
+        "worker_id": "6110caa46468471eb97a48d3ab3fbadb-shard-0",
+        "claimed_at": "2026-11-25T21:53:37.431929+00:00",
+        "lease_expires_at": "2026-11-26T03:53:37.431929+00:00",
+        "run_id": "45694325045"
       }
     },
     "24449": {
@@ -297060,5 +297068,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:53:32.122548+00:00"
+  "updated_at": "2026-11-25T21:53:39.325477+00:00"
 }
