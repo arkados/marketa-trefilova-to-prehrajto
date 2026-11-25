@@ -255592,17 +255592,19 @@
       }
     },
     "5392": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34846415",
+          "target_video_id": "31368436",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:47:51.560476+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34846415",
         "display_name": "Funny Pages 1080p CZ Dabing",
         "planned_at": "2026-11-25T11:43:44.527200+00:00"
-      },
-      "claim": {
-        "worker_id": "f06dc5f178b04f7e800809bc97844d36-shard-0",
-        "claimed_at": "2026-11-25T11:43:45.536851+00:00",
-        "lease_expires_at": "2026-11-25T17:43:45.536851+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31368436",
       "prepared": {
@@ -286663,5 +286665,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:45:51.899423+00:00"
+  "updated_at": "2026-11-25T11:47:51.560490+00:00"
 }
