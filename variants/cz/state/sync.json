@@ -118277,7 +118277,7 @@
       "last_plan": {
         "source_id": "30138435",
         "display_name": "Logan's Run SD CZ Dabing",
-        "planned_at": "2026-11-22T22:21:49.803583+00:00"
+        "planned_at": "2026-11-25T16:40:03.475685+00:00"
       },
       "previous_target_id": "30984838",
       "prepared": {
@@ -261031,11 +261031,23 @@
       "attempts": []
     },
     "37117": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32208626",
+          "reason": "Request failed for https://sdilej.cz/32208626/deset-minut-do-pulnoci-10-to-midnight-1983-czdab.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:40:07.293010+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32208626",
         "display_name": "10 to Midnight 1080p CZ Dabing",
-        "planned_at": "2026-11-25T16:39:58.178512+00:00"
+        "planned_at": "2026-11-25T16:40:03.955847+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "32208626",
+        "requested_at": "2026-11-25T16:40:07.292994+00:00"
       }
     },
     "30139": {
@@ -291096,5 +291108,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:40:00.797336+00:00"
+  "updated_at": "2026-11-25T16:40:07.293015+00:00"
 }
