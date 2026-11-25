@@ -259960,17 +259960,19 @@
       "attempts": []
     },
     "5891": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19617208",
+          "target_video_id": "31374223",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:03:43.515260+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19617208",
         "display_name": "How I Fell in Love with a Gangster (Jak pokochałam gangstera) 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:59:43.075835+00:00"
-      },
-      "claim": {
-        "worker_id": "fdf969d00e35406db705ff8f5598d2cf-shard-0",
-        "claimed_at": "2026-11-25T15:59:43.994390+00:00",
-        "lease_expires_at": "2026-11-25T21:59:43.994390+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31374223",
       "prepared": {
@@ -290287,5 +290289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:00:55.379521+00:00"
+  "updated_at": "2026-11-25T16:03:43.515282+00:00"
 }
