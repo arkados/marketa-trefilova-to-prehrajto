@@ -251717,17 +251717,19 @@
       }
     },
     "17602": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30698105",
+          "target_video_id": "31363653",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:21:49.594135+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30698105",
         "display_name": "My Sweet Monster (Buka. Moe lyubimoe chudishche) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:18:40.630712+00:00"
-      },
-      "claim": {
-        "worker_id": "0f1a0492f7f94fa3b295159c5ecc0739-shard-0",
-        "claimed_at": "2026-11-25T08:18:41.611903+00:00",
-        "lease_expires_at": "2026-11-25T14:18:41.611903+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363653",
       "prepared": {
@@ -283544,5 +283546,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:20:54.688851+00:00"
+  "updated_at": "2026-11-25T08:21:49.594149+00:00"
 }
