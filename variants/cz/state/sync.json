@@ -266142,17 +266142,19 @@
       "attempts": []
     },
     "35576": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18082242",
+          "target_video_id": "31380399",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:58:48.665495+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18082242",
         "display_name": "Wakefield 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:53:08.760641+00:00"
-      },
-      "claim": {
-        "worker_id": "76f5c33547e34a84b67ebcaf1debb1ce-shard-0",
-        "claimed_at": "2026-11-25T19:53:09.615799+00:00",
-        "lease_expires_at": "2026-11-26T01:53:09.615799+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380399",
       "prepared": {
@@ -295079,5 +295081,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:58:26.645357+00:00"
+  "updated_at": "2026-11-25T19:58:48.665516+00:00"
 }
