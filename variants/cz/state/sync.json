@@ -143074,7 +143074,7 @@
       "last_plan": {
         "source_id": "34953142",
         "display_name": "Les Mystères de la Chorale SD CZ Dabing",
-        "planned_at": "2026-11-25T17:04:35.698932+00:00"
+        "planned_at": "2026-11-25T17:04:42.138101+00:00"
       },
       "previous_target_id": "30988584",
       "prepared": {
@@ -261821,17 +261821,19 @@
       }
     },
     "18468": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "9910022",
+          "target_video_id": "31375944",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:04:44.981249+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "9910022",
         "display_name": "Les gamins SD CZ Dabing",
         "planned_at": "2026-11-25T17:03:46.189140+00:00"
-      },
-      "claim": {
-        "worker_id": "d849c5ccacaf4cf6a6d08ceca3b188a3-shard-0",
-        "claimed_at": "2026-11-25T17:03:46.994141+00:00",
-        "lease_expires_at": "2026-11-25T23:03:46.994141+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375944",
       "prepared": {
@@ -261849,7 +261851,13 @@
       "last_plan": {
         "source_id": "18546207",
         "display_name": "Together (2021) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T17:04:36.407481+00:00"
+        "planned_at": "2026-11-25T17:04:42.651238+00:00"
+      },
+      "claim": {
+        "worker_id": "68be3e9d92b84f6e9102d48a60b58d93-shard-0",
+        "claimed_at": "2026-11-25T17:04:43.435809+00:00",
+        "lease_expires_at": "2026-11-25T23:04:43.435809+00:00",
+        "run_id": "45651964996"
       }
     },
     "24931": {
@@ -291724,5 +291732,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:04:36.407500+00:00"
+  "updated_at": "2026-11-25T17:04:44.981269+00:00"
 }
