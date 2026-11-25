@@ -262046,17 +262046,19 @@
       "attempts": []
     },
     "5096": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12160771",
+          "target_video_id": "31376136",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:12:03.035965+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12160771",
         "display_name": "Breakthrough (2019) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:09:45.461470+00:00"
-      },
-      "claim": {
-        "worker_id": "be9ac40d33b94fb4a7c8802f6b168f43-shard-0",
-        "claimed_at": "2026-11-25T17:09:46.272709+00:00",
-        "lease_expires_at": "2026-11-25T23:09:46.272709+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376136",
       "prepared": {
@@ -291911,5 +291913,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:10:21.959915+00:00"
+  "updated_at": "2026-11-25T17:12:03.035987+00:00"
 }
