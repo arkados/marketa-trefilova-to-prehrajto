@@ -268106,17 +268106,19 @@
       "attempts": []
     },
     "25549": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30900664",
+          "target_video_id": "31382940",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:27:05.336873+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30900664",
         "display_name": "London 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:23:45.575511+00:00"
-      },
-      "claim": {
-        "worker_id": "3d8692c3c29f485abf1b16e3da67d41a-shard-0",
-        "claimed_at": "2026-11-25T21:23:46.113282+00:00",
-        "lease_expires_at": "2026-11-26T03:23:46.113282+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382940",
       "prepared": {
@@ -296596,5 +296598,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:26:53.522982+00:00"
+  "updated_at": "2026-11-25T21:27:05.336892+00:00"
 }
