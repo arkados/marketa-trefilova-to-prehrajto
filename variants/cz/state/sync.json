@@ -252236,17 +252236,19 @@
       "attempts": []
     },
     "19944": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6670028",
+          "target_video_id": "31364250",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:45:15.336332+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6670028",
         "display_name": "Memorial Day SD CZ Dabing",
         "planned_at": "2026-11-25T08:43:38.819673+00:00"
-      },
-      "claim": {
-        "worker_id": "b98423eceaf843f28b4e3ac8a6697056-shard-0",
-        "claimed_at": "2026-11-25T08:43:40.993694+00:00",
-        "lease_expires_at": "2026-11-25T14:43:40.993694+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364250",
       "prepared": {
@@ -283964,5 +283966,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:44:55.780349+00:00"
+  "updated_at": "2026-11-25T08:45:15.336349+00:00"
 }
