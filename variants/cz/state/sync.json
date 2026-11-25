@@ -263868,17 +263868,19 @@
       "attempts": []
     },
     "4893": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30969645",
+          "target_video_id": "31377713",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:22:26.184547+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30969645",
         "display_name": "Dog Man 4K CZ Dabing",
         "planned_at": "2026-11-25T18:07:11.607804+00:00"
-      },
-      "claim": {
-        "worker_id": "fa301ba7f6d542b6b819b44a276b3c67-shard-0",
-        "claimed_at": "2026-11-25T18:07:12.414680+00:00",
-        "lease_expires_at": "2026-11-26T00:07:12.414680+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377713",
       "prepared": {
@@ -293456,5 +293458,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:21:48.164778+00:00"
+  "updated_at": "2026-11-25T18:22:26.184567+00:00"
 }
