@@ -263494,17 +263494,19 @@
       "attempts": []
     },
     "4924": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29467609",
+          "target_video_id": "31377478",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:59:46.096270+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29467609",
         "display_name": "Find Me Falling 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:57:34.313612+00:00"
-      },
-      "claim": {
-        "worker_id": "770cf64896994a3ab869f6152ce06f23-shard-0",
-        "claimed_at": "2026-11-25T17:57:35.147844+00:00",
-        "lease_expires_at": "2026-11-25T23:57:35.147844+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377478",
       "prepared": {
@@ -293019,5 +293021,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:58:08.942595+00:00"
+  "updated_at": "2026-11-25T17:59:46.096290+00:00"
 }
