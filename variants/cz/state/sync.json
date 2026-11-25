@@ -245865,17 +245865,19 @@
       "attempts": []
     },
     "4819": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24942703",
+          "target_video_id": "31355495",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:46:19.165122+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24942703",
         "display_name": "Largo Winch 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:38:14.204527+00:00"
-      },
-      "claim": {
-        "worker_id": "a2f00d21edba4031b246606460d72b41-shard-0",
-        "claimed_at": "2026-11-25T01:38:14.831855+00:00",
-        "lease_expires_at": "2026-11-25T07:38:14.831855+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355495",
       "prepared": {
@@ -278958,5 +278960,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:45:31.147370+00:00"
+  "updated_at": "2026-11-25T01:46:19.165140+00:00"
 }
