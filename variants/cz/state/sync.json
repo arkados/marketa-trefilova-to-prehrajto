@@ -255913,17 +255913,19 @@
       "attempts": []
     },
     "25723": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30934756",
+          "target_video_id": "31369144",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:10:42.084685+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30934756",
         "display_name": "No Reservations 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:07:37.524343+00:00"
-      },
-      "claim": {
-        "worker_id": "1d9e9dd24d6b4a9a90b073cbf60ccf4f-shard-0",
-        "claimed_at": "2026-11-25T12:07:38.367338+00:00",
-        "lease_expires_at": "2026-11-25T18:07:38.367338+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369144",
       "prepared": {
@@ -286903,5 +286905,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:09:19.774482+00:00"
+  "updated_at": "2026-11-25T12:10:42.084705+00:00"
 }
