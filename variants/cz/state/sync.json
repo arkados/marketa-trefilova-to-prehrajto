@@ -251352,17 +251352,19 @@
       "attempts": []
     },
     "25399": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29667616",
+          "target_video_id": "31363307",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:05:57.799129+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29667616",
         "display_name": "In the Land of Women SD CZ Dabing",
         "planned_at": "2026-11-25T08:04:06.874016+00:00"
-      },
-      "claim": {
-        "worker_id": "177b8d4e94884cdb9d104a166bb383c9-shard-0",
-        "claimed_at": "2026-11-25T08:04:07.850689+00:00",
-        "lease_expires_at": "2026-11-25T14:04:07.850689+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363307",
       "prepared": {
@@ -283224,5 +283226,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:04:11.303812+00:00"
+  "updated_at": "2026-11-25T08:05:57.799145+00:00"
 }
