@@ -248340,17 +248340,19 @@
       }
     },
     "4608": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14638238",
+          "target_video_id": "31358464",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:25:23.663555+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14638238",
         "display_name": "Jingle Jangle: A Christmas Journey 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:21:46.582731+00:00"
-      },
-      "claim": {
-        "worker_id": "2727ab8c51d24712bb12a04d1224487c-shard-0",
-        "claimed_at": "2026-11-25T04:21:47.488165+00:00",
-        "lease_expires_at": "2026-11-25T10:21:47.488165+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358464",
       "prepared": {
@@ -280875,5 +280877,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:23:01.581831+00:00"
+  "updated_at": "2026-11-25T04:25:23.663570+00:00"
 }
