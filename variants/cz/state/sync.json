@@ -251542,17 +251542,19 @@
       }
     },
     "11169": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12977045",
+          "target_video_id": "31363540",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:16:02.576444+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12977045",
         "display_name": "The Hindenburg SD CZ Dabing",
         "planned_at": "2026-11-25T08:12:49.391719+00:00"
-      },
-      "claim": {
-        "worker_id": "0e87b0b9387044cfb76b1a01da504c43-shard-0",
-        "claimed_at": "2026-11-25T08:12:50.810411+00:00",
-        "lease_expires_at": "2026-11-25T14:12:50.810411+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363540",
       "prepared": {
@@ -283384,5 +283386,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:15:23.854208+00:00"
+  "updated_at": "2026-11-25T08:16:02.576462+00:00"
 }
