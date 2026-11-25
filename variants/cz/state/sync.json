@@ -244915,17 +244915,19 @@
       }
     },
     "37538": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34880990",
+          "target_video_id": "31354667",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:11:29.524473+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34880990",
         "display_name": "The Magic Faraway Tree 4K CZ Dabing",
         "planned_at": "2026-11-25T00:53:50.540162+00:00"
-      },
-      "claim": {
-        "worker_id": "44583c724fa6455fba5ef618988cf1f2-shard-0",
-        "claimed_at": "2026-11-25T00:53:51.165688+00:00",
-        "lease_expires_at": "2026-11-25T06:53:51.165688+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354667",
       "prepared": {
@@ -278423,5 +278425,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:11:26.782457+00:00"
+  "updated_at": "2026-11-25T01:11:29.524505+00:00"
 }
