@@ -264640,17 +264640,19 @@
       }
     },
     "14788": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34526152",
+          "target_video_id": "31378718",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:46:49.084678+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34526152",
         "display_name": "Paris Express (Coursier) 720p CZ Dabing",
         "planned_at": "2026-11-25T18:44:02.442890+00:00"
-      },
-      "claim": {
-        "worker_id": "97e6147771d84060ad3c03678684c24e-shard-0",
-        "claimed_at": "2026-11-25T18:44:03.222014+00:00",
-        "lease_expires_at": "2026-11-26T00:44:03.222014+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378718",
       "prepared": {
@@ -293929,5 +293931,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:44:53.216727+00:00"
+  "updated_at": "2026-11-25T18:46:49.084699+00:00"
 }
