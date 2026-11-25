@@ -267416,17 +267416,19 @@
       }
     },
     "23745": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33956555",
+          "target_video_id": "31381902",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:53:32.860586+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33956555",
         "display_name": "Pédale douce (What a Drag) 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:49:03.601375+00:00"
-      },
-      "claim": {
-        "worker_id": "c38b3e3b6b194349a4d4f39e26ab09ab-shard-0",
-        "claimed_at": "2026-11-25T20:49:04.209832+00:00",
-        "lease_expires_at": "2026-11-26T02:49:04.209832+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381902",
       "prepared": {
@@ -296079,5 +296081,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:53:30.130671+00:00"
+  "updated_at": "2026-11-25T20:53:32.860605+00:00"
 }
