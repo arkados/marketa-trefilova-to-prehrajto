@@ -259934,17 +259934,19 @@
       }
     },
     "5550": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21644022",
+          "target_video_id": "31374183",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:00:34.290431+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21644022",
         "display_name": "The Ash Lad in the Hall of the Mountain King (Askeladden - I Dovregubbens hall) 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:57:59.749287+00:00"
-      },
-      "claim": {
-        "worker_id": "24e80d09ead1448c9691aaf205d3114a-shard-0",
-        "claimed_at": "2026-11-25T15:58:00.840650+00:00",
-        "lease_expires_at": "2026-11-25T21:58:00.840650+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31374183",
       "prepared": {
@@ -290267,5 +290269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:59:48.090820+00:00"
+  "updated_at": "2026-11-25T16:00:34.290452+00:00"
 }
