@@ -261633,17 +261633,19 @@
       "attempts": []
     },
     "15809": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26682670",
+          "target_video_id": "31375688",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:58:41.386618+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26682670",
         "display_name": "10 Days of a Bad Man (Kötü Adamın 10 Günü) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:55:17.460153+00:00"
-      },
-      "claim": {
-        "worker_id": "1ede64537d104416bbf66c1708666e0a-shard-0",
-        "claimed_at": "2026-11-25T16:55:18.584983+00:00",
-        "lease_expires_at": "2026-11-25T22:55:18.584983+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375688",
       "prepared": {
@@ -291600,5 +291602,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:58:26.418678+00:00"
+  "updated_at": "2026-11-25T16:58:41.386663+00:00"
 }
