@@ -264034,17 +264034,19 @@
       "attempts": []
     },
     "27769": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34710353",
+          "target_video_id": "31377933",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:21:08.031898+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34710353",
         "display_name": "The Mystery of Marilyn Monroe: The Unheard Tapes 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:17:41.386401+00:00"
-      },
-      "claim": {
-        "worker_id": "1fad99d3596046bd9396abc90beacbff-shard-0",
-        "claimed_at": "2026-11-25T18:17:42.180059+00:00",
-        "lease_expires_at": "2026-11-26T00:17:42.180059+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377933",
       "prepared": {
@@ -293416,5 +293418,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:17:46.782463+00:00"
+  "updated_at": "2026-11-25T18:21:08.031920+00:00"
 }
