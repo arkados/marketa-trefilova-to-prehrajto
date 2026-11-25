@@ -265092,17 +265092,19 @@
       }
     },
     "4956": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27210628",
+          "target_video_id": "31379190",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:10:51.913957+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27210628",
         "display_name": "El Conde 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:04:27.771722+00:00"
-      },
-      "claim": {
-        "worker_id": "4945c6649a144e26a54484a1ad9bebec-shard-0",
-        "claimed_at": "2026-11-25T19:04:28.602383+00:00",
-        "lease_expires_at": "2026-11-26T01:04:28.602383+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379190",
       "prepared": {
@@ -294269,5 +294271,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:07:25.142536+00:00"
+  "updated_at": "2026-11-25T19:10:51.913977+00:00"
 }
