@@ -263935,17 +263935,19 @@
       }
     },
     "28870": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6874310",
+          "target_video_id": "31377790",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:12:05.642238+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6874310",
         "display_name": "Antboy: Revenge of the Red Fury SD CZ Dabing",
         "planned_at": "2026-11-25T18:10:35.497711+00:00"
-      },
-      "claim": {
-        "worker_id": "e9c2b2e2d4bf43be8f800dfb1c21489c-shard-0",
-        "claimed_at": "2026-11-25T18:10:36.293755+00:00",
-        "lease_expires_at": "2026-11-26T00:10:36.293755+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377790",
       "prepared": {
@@ -293356,5 +293358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:11:32.757947+00:00"
+  "updated_at": "2026-11-25T18:12:05.642259+00:00"
 }
