@@ -268280,17 +268280,19 @@
       }
     },
     "30077": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33731507",
+          "target_video_id": "31383110",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:33:29.822173+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33731507",
         "display_name": "The Black Stallion Returns 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:29:24.108251+00:00"
-      },
-      "claim": {
-        "worker_id": "9b6dd24fab2445afb8dd9b5735730752-shard-0",
-        "claimed_at": "2026-11-25T21:29:24.674916+00:00",
-        "lease_expires_at": "2026-11-26T03:29:24.674916+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383110",
       "prepared": {
@@ -296696,5 +296698,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:32:35.861613+00:00"
+  "updated_at": "2026-11-25T21:33:29.822191+00:00"
 }
