@@ -270092,17 +270092,19 @@
       "attempts": []
     },
     "17045": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10714860",
+          "target_video_id": "31385919",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:21:08.192507+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10714860",
         "display_name": "Nostalgia SD CZ Dabing",
         "planned_at": "2026-11-25T23:19:06.661621+00:00"
-      },
-      "claim": {
-        "worker_id": "652b8d83b0b844379fbd3b5ec5635d53-shard-0",
-        "claimed_at": "2026-11-25T23:19:07.162837+00:00",
-        "lease_expires_at": "2026-11-26T05:19:07.162837+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385919",
       "prepared": {
@@ -298167,5 +298169,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:19:58.942712+00:00"
+  "updated_at": "2026-11-25T23:21:08.192525+00:00"
 }
