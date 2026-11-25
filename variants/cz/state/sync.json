@@ -265751,17 +265751,19 @@
       }
     },
     "16744": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30703444",
+          "target_video_id": "31379990",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:38:50.391365+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30703444",
         "display_name": "Operation Chromite (InCheonSangLyugJagJeon) SD CZ Dabing",
         "planned_at": "2026-11-25T19:36:11.546817+00:00"
-      },
-      "claim": {
-        "worker_id": "db1a27b2704b49a1b2e0ef8d891ea154-shard-0",
-        "claimed_at": "2026-11-25T19:36:12.359877+00:00",
-        "lease_expires_at": "2026-11-26T01:36:12.359877+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379990",
       "prepared": {
@@ -294799,5 +294801,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:38:40.693547+00:00"
+  "updated_at": "2026-11-25T19:38:50.391385+00:00"
 }
