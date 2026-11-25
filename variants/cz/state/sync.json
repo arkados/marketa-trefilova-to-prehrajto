@@ -251813,17 +251813,19 @@
       }
     },
     "4595": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22438001",
+          "target_video_id": "31363768",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:26:00.954522+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22438001",
         "display_name": "The Vault (Way Down) (2021) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:23:30.348024+00:00"
-      },
-      "claim": {
-        "worker_id": "fb5cbd947a954634b738a9cf66f2d6ab-shard-0",
-        "claimed_at": "2026-11-25T08:23:31.313554+00:00",
-        "lease_expires_at": "2026-11-25T14:23:31.313554+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363768",
       "prepared": {
@@ -283611,5 +283613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:25:55.652697+00:00"
+  "updated_at": "2026-11-25T08:26:00.954540+00:00"
 }
