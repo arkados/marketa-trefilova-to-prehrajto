@@ -254014,17 +254014,19 @@
       "attempts": []
     },
     "4662": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18842276",
+          "target_video_id": "31366528",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:21:06.566221+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18842276",
         "display_name": "Everything Must Go 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:17:44.622062+00:00"
-      },
-      "claim": {
-        "worker_id": "590d476d036b40b9adfbbdf9b3685111-shard-0",
-        "claimed_at": "2026-11-25T10:17:45.607210+00:00",
-        "lease_expires_at": "2026-11-25T16:17:45.607210+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366528",
       "prepared": {
@@ -285376,5 +285378,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:19:49.349892+00:00"
+  "updated_at": "2026-11-25T10:21:06.566237+00:00"
 }
