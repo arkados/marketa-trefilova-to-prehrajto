@@ -247207,17 +247207,19 @@
       }
     },
     "6248": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18155853",
+          "target_video_id": "31357255",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:11:56.375907+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18155853",
         "display_name": "Baby Done 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:10:07.140001+00:00"
-      },
-      "claim": {
-        "worker_id": "d59dbdd23f8d463ba327e4750b828cc7-shard-0",
-        "claimed_at": "2026-11-25T03:10:07.744588+00:00",
-        "lease_expires_at": "2026-11-25T09:10:07.744588+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357255",
       "prepared": {
@@ -279958,5 +279960,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:10:11.652069+00:00"
+  "updated_at": "2026-11-25T03:11:56.375947+00:00"
 }
