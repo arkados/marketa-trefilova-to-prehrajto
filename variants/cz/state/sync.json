@@ -263164,17 +263164,19 @@
       "attempts": []
     },
     "25117": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23106863",
+          "target_video_id": "31377137",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:51:42.943667+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23106863",
         "display_name": "The Red Baron 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:44:53.804991+00:00"
-      },
-      "claim": {
-        "worker_id": "5e8b706ee0d641ca94c062c94019b2ff-shard-0",
-        "claimed_at": "2026-11-25T17:44:54.613755+00:00",
-        "lease_expires_at": "2026-11-25T23:44:54.613755+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377137",
       "prepared": {
@@ -292822,5 +292824,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:51:20.767829+00:00"
+  "updated_at": "2026-11-25T17:51:42.943689+00:00"
 }
