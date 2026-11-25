@@ -259590,17 +259590,19 @@
       }
     },
     "4783": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33443659",
+          "target_video_id": "31373763",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:56:23.878464+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33443659",
         "display_name": "The Mummy Returns 4K CZ Dabing",
         "planned_at": "2026-11-25T15:35:36.255151+00:00"
-      },
-      "claim": {
-        "worker_id": "9e646b3d035b4c9ca9a4efde07c5bc27-shard-0",
-        "claimed_at": "2026-11-25T15:35:37.180170+00:00",
-        "lease_expires_at": "2026-11-25T21:35:37.180170+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373763",
       "prepared": {
@@ -290207,5 +290209,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:54:01.310560+00:00"
+  "updated_at": "2026-11-25T15:56:23.878480+00:00"
 }
