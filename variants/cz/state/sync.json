@@ -263419,17 +263419,19 @@
       "attempts": []
     },
     "17126": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12964917",
+          "target_video_id": "31377404",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:56:42.785854+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12964917",
         "display_name": "Gloria Bell SD CZ Dabing",
         "planned_at": "2026-11-25T17:54:46.553358+00:00"
-      },
-      "claim": {
-        "worker_id": "3fb0f5fc17674cdf8a8cfa978cd39504-shard-0",
-        "claimed_at": "2026-11-25T17:54:47.378130+00:00",
-        "lease_expires_at": "2026-11-25T23:54:47.378130+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377404",
       "prepared": {
@@ -292942,5 +292944,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:55:52.822897+00:00"
+  "updated_at": "2026-11-25T17:56:42.785874+00:00"
 }
