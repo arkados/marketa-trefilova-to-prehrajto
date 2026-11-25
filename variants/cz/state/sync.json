@@ -257190,17 +257190,19 @@
       }
     },
     "4509": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34644133",
+          "target_video_id": "31370804",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:11:51.535329+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34644133",
         "display_name": "Renfield 4K CZ Dabing",
         "planned_at": "2026-11-25T13:07:33.206786+00:00"
-      },
-      "claim": {
-        "worker_id": "a8c3d45b2c1244099c247b3c75964cc1-shard-0",
-        "claimed_at": "2026-11-25T13:07:34.076350+00:00",
-        "lease_expires_at": "2026-11-25T19:07:34.076350+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370804",
       "prepared": {
@@ -288040,5 +288042,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:11:26.952019+00:00"
+  "updated_at": "2026-11-25T13:11:51.535347+00:00"
 }
