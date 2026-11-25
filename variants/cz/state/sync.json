@@ -257403,17 +257403,19 @@
       }
     },
     "4822": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26245836",
+          "target_video_id": "31371151",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:21:37.733146+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26245836",
         "display_name": "From Paris with Love 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:17:01.515477+00:00"
-      },
-      "claim": {
-        "worker_id": "a5a695e90e594ecf873353aa3defe26c-shard-0",
-        "claimed_at": "2026-11-25T13:17:02.415848+00:00",
-        "lease_expires_at": "2026-11-25T19:17:02.415848+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371151",
       "prepared": {
@@ -288197,5 +288199,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:19:56.513923+00:00"
+  "updated_at": "2026-11-25T13:21:37.733169+00:00"
 }
