@@ -251307,17 +251307,19 @@
       }
     },
     "13943": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34177234",
+          "target_video_id": "31363252",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:07:18.928425+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34177234",
         "display_name": "The Bravest (LieHuoYingXiong) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:02:46.033110+00:00"
-      },
-      "claim": {
-        "worker_id": "48d5ad1eac26467a95be5b01559b583f-shard-0",
-        "claimed_at": "2026-11-25T08:02:47.502907+00:00",
-        "lease_expires_at": "2026-11-25T14:02:47.502907+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363252",
       "prepared": {
@@ -283244,5 +283246,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:06:13.031509+00:00"
+  "updated_at": "2026-11-25T08:07:18.928442+00:00"
 }
