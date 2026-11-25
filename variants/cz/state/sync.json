@@ -263264,17 +263264,19 @@
       }
     },
     "17800": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "4232937",
+          "target_video_id": "31377283",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:51:04.442404+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "4232937",
         "display_name": "BIONICLE 2: Legends of Metru Nui SD CZ Dabing",
         "planned_at": "2026-11-25T17:50:19.542487+00:00"
-      },
-      "claim": {
-        "worker_id": "8ce2e03598d549a586272be9246e9ba3-shard-0",
-        "claimed_at": "2026-11-25T17:50:20.368626+00:00",
-        "lease_expires_at": "2026-11-25T23:50:20.368626+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377283",
       "prepared": {
@@ -292802,5 +292804,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:50:24.824318+00:00"
+  "updated_at": "2026-11-25T17:51:04.442426+00:00"
 }
