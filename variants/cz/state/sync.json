@@ -247387,17 +247387,19 @@
       }
     },
     "25770": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34708483",
+          "target_video_id": "31357367",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:19:47.996413+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34708483",
         "display_name": "The Letter for the King SD CZ Dabing",
         "planned_at": "2026-11-25T03:18:26.582980+00:00"
-      },
-      "claim": {
-        "worker_id": "151133c4570543a08a35c38bfc449393-shard-0",
-        "claimed_at": "2026-11-25T03:18:27.195952+00:00",
-        "lease_expires_at": "2026-11-25T09:18:27.195952+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357367",
       "prepared": {
@@ -280138,5 +280140,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:19:07.368002+00:00"
+  "updated_at": "2026-11-25T03:19:47.996435+00:00"
 }
