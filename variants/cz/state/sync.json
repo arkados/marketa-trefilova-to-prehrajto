@@ -246335,17 +246335,19 @@
       }
     },
     "23652": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27648143",
+          "target_video_id": "31356328",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:29:06.644699+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27648143",
         "display_name": "Total Eclipse 720p CZ Dabing",
         "planned_at": "2026-11-25T02:25:26.310847+00:00"
-      },
-      "claim": {
-        "worker_id": "e2b471f66e8b44f79dc60cbfae86b30f-shard-0",
-        "claimed_at": "2026-11-25T02:25:29.293789+00:00",
-        "lease_expires_at": "2026-11-25T08:25:29.293789+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356328",
       "prepared": {
@@ -279338,5 +279340,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:27:38.745058+00:00"
+  "updated_at": "2026-11-25T02:29:06.644721+00:00"
 }
