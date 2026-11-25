@@ -263442,17 +263442,19 @@
       }
     },
     "6397": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26444567",
+          "target_video_id": "31377429",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:57:22.807457+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26444567",
         "display_name": "Stockholm, Pennsylvania SD CZ Dabing",
         "planned_at": "2026-11-25T17:55:47.152520+00:00"
-      },
-      "claim": {
-        "worker_id": "e3209dccf62a4024a1c564418545fe97-shard-0",
-        "claimed_at": "2026-11-25T17:55:47.984135+00:00",
-        "lease_expires_at": "2026-11-25T23:55:47.984135+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377429",
       "prepared": {
@@ -292962,5 +292964,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:56:58.793527+00:00"
+  "updated_at": "2026-11-25T17:57:22.807478+00:00"
 }
