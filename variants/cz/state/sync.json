@@ -246650,17 +246650,19 @@
       "attempts": []
     },
     "22149": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7334767",
+          "target_video_id": "31356910",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:51:11.263476+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7334767",
         "display_name": "The Mackintosh Man SD CZ Dabing",
         "planned_at": "2026-11-25T02:50:01.434633+00:00"
-      },
-      "claim": {
-        "worker_id": "dd62d3ce07ef4109844508145a0c8370-shard-0",
-        "claimed_at": "2026-11-25T02:50:02.008016+00:00",
-        "lease_expires_at": "2026-11-25T08:50:02.008016+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356910",
       "prepared": {
@@ -279547,5 +279549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:51:08.440049+00:00"
+  "updated_at": "2026-11-25T02:51:11.263505+00:00"
 }
