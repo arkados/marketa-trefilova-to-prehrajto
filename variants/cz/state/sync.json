@@ -266533,17 +266533,19 @@
       }
     },
     "27480": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24638504",
+          "target_video_id": "31380741",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:10:12.064324+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24638504",
         "display_name": "Forces spéciales (Special Forces) SD CZ Dabing",
         "planned_at": "2026-11-25T20:09:08.875671+00:00"
-      },
-      "claim": {
-        "worker_id": "f525f4ac88cf44d5b6331f85e68eaf5b-shard-0",
-        "claimed_at": "2026-11-25T20:09:09.684892+00:00",
-        "lease_expires_at": "2026-11-26T02:09:09.684892+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380741",
       "prepared": {
@@ -295339,5 +295341,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:09:13.523130+00:00"
+  "updated_at": "2026-11-25T20:10:12.064345+00:00"
 }
