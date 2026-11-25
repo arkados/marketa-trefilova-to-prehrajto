@@ -247011,17 +247011,19 @@
       }
     },
     "4536": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25190126",
+          "target_video_id": "31357120",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:06:33.189642+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25190126",
         "display_name": "Armageddon Time 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:02:05.310992+00:00"
-      },
-      "claim": {
-        "worker_id": "a091f7f98da34e4f85d392470d349e2a-shard-0",
-        "claimed_at": "2026-11-25T03:02:06.021038+00:00",
-        "lease_expires_at": "2026-11-25T09:02:06.021038+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357120",
       "prepared": {
@@ -279878,5 +279880,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:05:25.297432+00:00"
+  "updated_at": "2026-11-25T03:06:33.189663+00:00"
 }
