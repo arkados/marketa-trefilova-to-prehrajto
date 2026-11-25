@@ -244846,17 +244846,19 @@
       }
     },
     "13095": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27186934",
+          "target_video_id": "31354584",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:53:41.671454+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27186934",
         "display_name": "Avalon 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:49:39.700358+00:00"
-      },
-      "claim": {
-        "worker_id": "64b2e7bb31af446a862cba835c6cbc89-shard-0",
-        "claimed_at": "2026-11-25T00:49:40.236965+00:00",
-        "lease_expires_at": "2026-11-25T06:49:40.236965+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354584",
       "prepared": {
@@ -278214,5 +278216,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:52:56.724728+00:00"
+  "updated_at": "2026-11-25T00:53:41.671473+00:00"
 }
