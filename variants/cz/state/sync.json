@@ -259212,17 +259212,19 @@
       }
     },
     "4892": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29012119",
+          "target_video_id": "31373286",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:13:12.949104+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29012119",
         "display_name": "13 Going on 30 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:11:02.589863+00:00"
-      },
-      "claim": {
-        "worker_id": "5ad582ec7a5246679b5d9f495f6db02a-shard-0",
-        "claimed_at": "2026-11-25T15:11:03.487675+00:00",
-        "lease_expires_at": "2026-11-25T21:11:03.487675+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373286",
       "prepared": {
@@ -289659,5 +289661,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:11:07.690797+00:00"
+  "updated_at": "2026-11-25T15:13:12.949125+00:00"
 }
