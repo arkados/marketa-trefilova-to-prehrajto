@@ -259741,17 +259741,19 @@
       "attempts": []
     },
     "23106": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29907387",
+          "target_video_id": "31373933",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:46:44.599296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29907387",
         "display_name": "Dancing Machine SD CZ Dabing",
         "planned_at": "2026-11-25T15:45:02.181634+00:00"
-      },
-      "claim": {
-        "worker_id": "34b2a567d774443b8c6558067bbc343b-shard-0",
-        "claimed_at": "2026-11-25T15:45:03.325480+00:00",
-        "lease_expires_at": "2026-11-25T21:45:03.325480+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373933",
       "prepared": {
@@ -290110,5 +290112,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:46:13.328396+00:00"
+  "updated_at": "2026-11-25T15:46:44.599315+00:00"
 }
