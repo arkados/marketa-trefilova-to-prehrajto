@@ -253891,17 +253891,19 @@
       "attempts": []
     },
     "4683": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12275438",
+          "target_video_id": "31366377",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:16:07.370723+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12275438",
         "display_name": "Unsane 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:10:59.396225+00:00"
-      },
-      "claim": {
-        "worker_id": "4cab84709e8649749e4d6061da808817-shard-0",
-        "claimed_at": "2026-11-25T10:11:02.823720+00:00",
-        "lease_expires_at": "2026-11-25T16:11:02.823720+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366377",
       "prepared": {
@@ -285276,5 +285278,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:15:34.607733+00:00"
+  "updated_at": "2026-11-25T10:16:07.370740+00:00"
 }
