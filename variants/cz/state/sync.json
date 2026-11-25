@@ -265857,17 +265857,19 @@
       "attempts": []
     },
     "26349": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29060495",
+          "target_video_id": "31380067",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:40:09.716231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29060495",
         "display_name": "Crash and Burn SD CZ Dabing",
         "planned_at": "2026-11-25T19:39:01.445386+00:00"
-      },
-      "claim": {
-        "worker_id": "83dbc1ffc4f044bfbb0bc0a9eefba27c-shard-0",
-        "claimed_at": "2026-11-25T19:39:02.274191+00:00",
-        "lease_expires_at": "2026-11-26T01:39:02.274191+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380067",
       "prepared": {
@@ -294819,5 +294821,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:39:06.675692+00:00"
+  "updated_at": "2026-11-25T19:40:09.716252+00:00"
 }
