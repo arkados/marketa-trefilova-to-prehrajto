@@ -256169,17 +256169,19 @@
       }
     },
     "6089": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28700869",
+          "target_video_id": "31369494",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:22:29.468588+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28700869",
         "display_name": "Mea Culpa (2014) SD CZ Dabing",
         "planned_at": "2026-11-25T12:21:29.125880+00:00"
-      },
-      "claim": {
-        "worker_id": "7f32de1d6a3d4a9ea607c9832c5161dd-shard-0",
-        "claimed_at": "2026-11-25T12:21:30.029020+00:00",
-        "lease_expires_at": "2026-11-25T18:21:30.029020+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369494",
       "prepared": {
@@ -287105,5 +287107,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:22:26.043503+00:00"
+  "updated_at": "2026-11-25T12:22:29.468617+00:00"
 }
