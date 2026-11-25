@@ -262747,17 +262747,19 @@
       "attempts": []
     },
     "11416": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34786970",
+          "target_video_id": "31376864",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:34:52.376576+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34786970",
         "display_name": "Wolfen SD CZ Dabing",
         "planned_at": "2026-11-25T17:33:33.962123+00:00"
-      },
-      "claim": {
-        "worker_id": "8a365a0f99244e02a5fab78cbec38511-shard-0",
-        "claimed_at": "2026-11-25T17:33:34.766829+00:00",
-        "lease_expires_at": "2026-11-25T23:33:34.766829+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376864",
       "prepared": {
@@ -292465,5 +292467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:34:24.060456+00:00"
+  "updated_at": "2026-11-25T17:34:52.376594+00:00"
 }
