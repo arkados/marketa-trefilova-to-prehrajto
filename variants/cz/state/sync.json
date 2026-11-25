@@ -258117,17 +258117,19 @@
       }
     },
     "13525": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26863696",
+          "target_video_id": "31372067",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:05:37.547339+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26863696",
         "display_name": "Red Eye 4K CZ Dabing",
         "planned_at": "2026-11-25T13:56:57.042301+00:00"
-      },
-      "claim": {
-        "worker_id": "16c1e8e9de464da1b48fabaad2b3344d-shard-0",
-        "claimed_at": "2026-11-25T13:56:58.065519+00:00",
-        "lease_expires_at": "2026-11-25T19:56:58.065519+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372067",
       "prepared": {
@@ -288831,5 +288833,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:03:10.310601+00:00"
+  "updated_at": "2026-11-25T14:05:37.547360+00:00"
 }
