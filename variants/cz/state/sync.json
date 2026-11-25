@@ -253912,17 +253912,19 @@
       }
     },
     "29953": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33786588",
+          "target_video_id": "31366384",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:15:20.185854+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33786588",
         "display_name": "Keeping the Faith 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:11:13.921458+00:00"
-      },
-      "claim": {
-        "worker_id": "ef5516109e3f4e1891c4c46aca5a06b3-shard-0",
-        "claimed_at": "2026-11-25T10:11:14.891481+00:00",
-        "lease_expires_at": "2026-11-25T16:11:14.891481+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366384",
       "prepared": {
@@ -285256,5 +285258,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:11:21.594118+00:00"
+  "updated_at": "2026-11-25T10:15:20.185869+00:00"
 }
