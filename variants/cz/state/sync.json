@@ -259888,17 +259888,19 @@
       "attempts": []
     },
     "21458": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29253160",
+          "target_video_id": "31374101",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:57:42.687544+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29253160",
         "display_name": "Ilya Muromets (The Sword and the Dragon) 720p CZ Dabing",
         "planned_at": "2026-11-25T15:53:56.157438+00:00"
-      },
-      "claim": {
-        "worker_id": "e29cd12aa4f948ecb8bd3c901981adcd-shard-0",
-        "claimed_at": "2026-11-25T15:53:57.037694+00:00",
-        "lease_expires_at": "2026-11-25T21:53:57.037694+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31374101",
       "prepared": {
@@ -290227,5 +290229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:56:41.276397+00:00"
+  "updated_at": "2026-11-25T15:57:42.687564+00:00"
 }
