@@ -251021,17 +251021,19 @@
       "attempts": []
     },
     "15392": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34602930",
+          "target_video_id": "31362716",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:50:31.275673+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34602930",
         "display_name": "Yamada: The Samurai of Ayothaya (samuair ooythya) 1080p CZ Dabing",
         "planned_at": "2026-11-25T07:44:44.679954+00:00"
-      },
-      "claim": {
-        "worker_id": "d48cb000e3fc4baf8dabb8acaf7a5ddc-shard-0",
-        "claimed_at": "2026-11-25T07:44:45.596975+00:00",
-        "lease_expires_at": "2026-11-25T13:44:45.596975+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31362716",
       "prepared": {
@@ -282988,5 +282990,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:49:00.224209+00:00"
+  "updated_at": "2026-11-25T07:50:31.275687+00:00"
 }
