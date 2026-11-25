@@ -248147,17 +248147,19 @@
       }
     },
     "22404": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34452349",
+          "target_video_id": "31358303",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:18:22.615387+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34452349",
         "display_name": "Force 10 from Navarone 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:13:08.158599+00:00"
-      },
-      "claim": {
-        "worker_id": "4af7dd3bdae14cfd8617409b5228e93a-shard-0",
-        "claimed_at": "2026-11-25T04:13:09.083214+00:00",
-        "lease_expires_at": "2026-11-25T10:13:09.083214+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358303",
       "prepared": {
@@ -280755,5 +280757,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:18:19.200773+00:00"
+  "updated_at": "2026-11-25T04:18:22.615401+00:00"
 }
