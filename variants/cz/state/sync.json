@@ -262907,17 +262907,19 @@
       }
     },
     "20791": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7096152",
+          "target_video_id": "31376950",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:38:05.943234+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7096152",
         "display_name": "The Swap SD CZ Dabing",
         "planned_at": "2026-11-25T17:37:06.574248+00:00"
-      },
-      "claim": {
-        "worker_id": "436faba2ba4a4d65872f0d1af38ba94b-shard-0",
-        "claimed_at": "2026-11-25T17:37:07.272044+00:00",
-        "lease_expires_at": "2026-11-25T23:37:07.272044+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376950",
       "prepared": {
@@ -292582,5 +292584,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:37:43.214583+00:00"
+  "updated_at": "2026-11-25T17:38:05.943253+00:00"
 }
