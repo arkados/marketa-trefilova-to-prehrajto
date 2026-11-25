@@ -260603,17 +260603,19 @@
       "attempts": []
     },
     "14345": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12245164",
+          "target_video_id": "31375133",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:30:34.776161+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12245164",
         "display_name": "LOL (LOL (Laughing Out Loud)) (2008) SD CZ Dabing",
         "planned_at": "2026-11-25T16:29:29.511767+00:00"
-      },
-      "claim": {
-        "worker_id": "cb62fd61b8524f17ba62d420bec2b1a8-shard-0",
-        "claimed_at": "2026-11-25T16:29:30.310532+00:00",
-        "lease_expires_at": "2026-11-25T22:29:30.310532+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375133",
       "prepared": {
@@ -290795,5 +290797,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:30:15.550585+00:00"
+  "updated_at": "2026-11-25T16:30:34.776181+00:00"
 }
