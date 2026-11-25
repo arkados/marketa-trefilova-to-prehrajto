@@ -259104,17 +259104,19 @@
       }
     },
     "4492": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27493803",
+          "target_video_id": "31373203",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:30:13.340131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27493803",
         "display_name": "Leave the World Behind (2023) 4K CZ Dabing",
         "planned_at": "2026-11-25T15:04:48.709765+00:00"
-      },
-      "claim": {
-        "worker_id": "21e90072a9324ad4ad1cb225929da670-shard-0",
-        "claimed_at": "2026-11-25T15:04:49.653829+00:00",
-        "lease_expires_at": "2026-11-25T21:04:49.653829+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373203",
       "prepared": {
@@ -289856,5 +289858,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:28:13.376092+00:00"
+  "updated_at": "2026-11-25T15:30:13.340151+00:00"
 }
