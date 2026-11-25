@@ -246228,17 +246228,19 @@
       "attempts": []
     },
     "6242": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20964879",
+          "target_video_id": "31356242",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:25:08.382178+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20964879",
         "display_name": "The Girl and the Spider (Das Mädchen und die Spinne) 1080p CZ Dabing",
         "planned_at": "2026-11-25T02:20:35.452182+00:00"
-      },
-      "claim": {
-        "worker_id": "c0a7afd381104327bcc1fe6834c6f030-shard-0",
-        "claimed_at": "2026-11-25T02:20:36.266373+00:00",
-        "lease_expires_at": "2026-11-25T08:20:36.266373+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356242",
       "prepared": {
@@ -279278,5 +279280,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:23:02.724651+00:00"
+  "updated_at": "2026-11-25T02:25:08.382211+00:00"
 }
