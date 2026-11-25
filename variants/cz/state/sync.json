@@ -264895,17 +264895,19 @@
       "attempts": []
     },
     "37286": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34355967",
+          "target_video_id": "31378990",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:58:25.366897+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34355967",
         "display_name": "Tamerlane: Rise of the Last Conqueror (Rise of the Conqueror) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:55:19.167673+00:00"
-      },
-      "claim": {
-        "worker_id": "cfb6895c8dda4c7eaf1b0cac7d9ec9d7-shard-0",
-        "claimed_at": "2026-11-25T18:55:19.984775+00:00",
-        "lease_expires_at": "2026-11-26T00:55:19.984775+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378990",
       "prepared": {
@@ -294109,5 +294111,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:58:06.417066+00:00"
+  "updated_at": "2026-11-25T18:58:25.366918+00:00"
 }
