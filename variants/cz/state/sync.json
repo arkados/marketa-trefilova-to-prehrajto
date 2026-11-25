@@ -269663,17 +269663,19 @@
       }
     },
     "26800": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27738586",
+          "target_video_id": "31385112",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:50:14.128415+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27738586",
         "display_name": "In Their Sleep SD CZ Dabing",
         "planned_at": "2026-11-25T22:49:25.078206+00:00"
-      },
-      "claim": {
-        "worker_id": "bc62f4eb039544d68568df8b70d2d638-shard-0",
-        "claimed_at": "2026-11-25T22:49:25.632876+00:00",
-        "lease_expires_at": "2026-11-26T04:49:25.632876+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385112",
       "prepared": {
@@ -297790,5 +297792,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:49:29.406523+00:00"
+  "updated_at": "2026-11-25T22:50:14.128432+00:00"
 }
