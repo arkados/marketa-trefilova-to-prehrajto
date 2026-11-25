@@ -262444,17 +262444,19 @@
       }
     },
     "6306": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34286128",
+          "target_video_id": "31376551",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:26:11.846847+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34286128",
         "display_name": "The Pagan King (Nameja gredzens) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:22:57.596887+00:00"
-      },
-      "claim": {
-        "worker_id": "c0e6957e4e244050a53816f06973f674-shard-0",
-        "claimed_at": "2026-11-25T17:22:58.419174+00:00",
-        "lease_expires_at": "2026-11-25T23:22:58.419174+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376551",
       "prepared": {
@@ -292228,5 +292230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:24:42.333687+00:00"
+  "updated_at": "2026-11-25T17:26:11.846873+00:00"
 }
