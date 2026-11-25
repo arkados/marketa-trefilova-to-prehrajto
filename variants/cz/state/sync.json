@@ -263369,17 +263369,19 @@
       "attempts": []
     },
     "14365": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22815223",
+          "target_video_id": "31377358",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:55:37.538276+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22815223",
         "display_name": "Winx Club: The Secret of the Lost Kingdom (Winx Club - Il segreto del regno perduto) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:52:26.333472+00:00"
-      },
-      "claim": {
-        "worker_id": "893cc9446d7a418c8f886f10fdd36329-shard-0",
-        "claimed_at": "2026-11-25T17:52:27.111236+00:00",
-        "lease_expires_at": "2026-11-25T23:52:27.111236+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377358",
       "prepared": {
@@ -292922,5 +292924,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:54:50.850604+00:00"
+  "updated_at": "2026-11-25T17:55:37.538297+00:00"
 }
