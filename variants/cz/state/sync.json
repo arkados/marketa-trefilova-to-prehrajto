@@ -255569,17 +255569,19 @@
       "attempts": []
     },
     "17563": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28174035",
+          "target_video_id": "31368406",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:45:11.566850+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28174035",
         "display_name": "Asombrosa Elisa 720p CZ Dabing",
         "planned_at": "2026-11-25T11:42:03.104075+00:00"
-      },
-      "claim": {
-        "worker_id": "dae596ad4d4f46eb89cbe44ded0e52c2-shard-0",
-        "claimed_at": "2026-11-25T11:42:04.122881+00:00",
-        "lease_expires_at": "2026-11-25T17:42:04.122881+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31368406",
       "prepared": {
@@ -286625,5 +286627,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:45:09.066547+00:00"
+  "updated_at": "2026-11-25T11:45:11.566866+00:00"
 }
