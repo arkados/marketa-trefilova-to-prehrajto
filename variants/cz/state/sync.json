@@ -141229,7 +141229,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T14:51:37.618093+00:00"
+        "planned_at": "2026-11-25T14:51:43.609947+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -258664,17 +258664,19 @@
       }
     },
     "17345": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26482780",
+          "target_video_id": "31372784",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:51:45.687039+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26482780",
         "display_name": "Planeta Singli 2 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:39:11.729670+00:00"
-      },
-      "claim": {
-        "worker_id": "1ad5834340204e0c888dddf7b3bffbc2-shard-0",
-        "claimed_at": "2026-11-25T14:39:12.644276+00:00",
-        "lease_expires_at": "2026-11-25T20:39:12.644276+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372784",
       "prepared": {
@@ -258894,7 +258896,13 @@
       "last_plan": {
         "source_id": "33492530",
         "display_name": "The Number 23 720p CZ Dabing",
-        "planned_at": "2026-11-25T14:51:38.162305+00:00"
+        "planned_at": "2026-11-25T14:51:44.085767+00:00"
+      },
+      "claim": {
+        "worker_id": "996f7f4ce1104c30aea2573cdffeac50-shard-0",
+        "claimed_at": "2026-11-25T14:51:44.929537+00:00",
+        "lease_expires_at": "2026-11-25T20:51:44.929537+00:00",
+        "run_id": "45610173034"
       }
     },
     "4809": {
@@ -289369,5 +289377,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:51:38.162324+00:00"
+  "updated_at": "2026-11-25T14:51:45.687067+00:00"
 }
