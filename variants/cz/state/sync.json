@@ -244620,17 +244620,19 @@
       }
     },
     "5039": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21158080",
+          "target_video_id": "31354352",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:43:08.773072+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21158080",
         "display_name": "Magic Camp 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:35:46.244421+00:00"
-      },
-      "claim": {
-        "worker_id": "77a9c3c3850a4bdb96ed907ddf4a3b54-shard-0",
-        "claimed_at": "2026-11-25T00:35:46.824004+00:00",
-        "lease_expires_at": "2026-11-25T06:35:46.824004+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354352",
       "prepared": {
@@ -278054,5 +278056,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:41:52.698161+00:00"
+  "updated_at": "2026-11-25T00:43:08.773103+00:00"
 }
