@@ -263958,17 +263958,19 @@
       }
     },
     "25478": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21632785",
+          "target_video_id": "31377802",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:15:26.535483+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21632785",
         "display_name": "Tom and Jerry: Blast Off to Mars (Tom and Jerry Blast Off to Mars!) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:11:26.681950+00:00"
-      },
-      "claim": {
-        "worker_id": "468352d911c649c49fdaca27f18f71b5-shard-0",
-        "claimed_at": "2026-11-25T18:11:27.677214+00:00",
-        "lease_expires_at": "2026-11-26T00:11:27.677214+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377802",
       "prepared": {
@@ -293376,5 +293378,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:12:20.478080+00:00"
+  "updated_at": "2026-11-25T18:15:26.535503+00:00"
 }
