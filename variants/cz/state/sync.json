@@ -122636,7 +122636,7 @@
       "last_plan": {
         "source_id": "12796812",
         "display_name": "T-34 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:22:19.570477+00:00"
+        "planned_at": "2026-11-25T16:44:47.772088+00:00"
       },
       "previous_target_id": "30985447",
       "prepared": {
@@ -261210,11 +261210,23 @@
       }
     },
     "5143": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "11987157",
+          "reason": "Request failed for https://sdilej.cz/11987157/pohadka-stastna-hvezda-cz-2017-221839.mp4 (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:44:50.539797+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11987157",
         "display_name": "The Star (2017) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T16:44:42.724310+00:00"
+        "planned_at": "2026-11-25T16:44:48.327505+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "11987157",
+        "requested_at": "2026-11-25T16:44:50.539782+00:00"
       }
     },
     "17302": {
@@ -291230,5 +291242,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:44:45.134437+00:00"
+  "updated_at": "2026-11-25T16:44:50.539802+00:00"
 }
