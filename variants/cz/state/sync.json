@@ -250258,17 +250258,19 @@
       }
     },
     "4438": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34658357",
+          "target_video_id": "31361713",
+          "permanent": false,
+          "attempted_at": "2026-11-25T06:56:59.980194+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34658357",
         "display_name": "Fight or Flight 1080p CZ Dabing",
         "planned_at": "2026-11-25T06:54:07.531461+00:00"
-      },
-      "claim": {
-        "worker_id": "a8af0d067325406aa3e5d7ad4789aa7f-shard-0",
-        "claimed_at": "2026-11-25T06:54:08.421552+00:00",
-        "lease_expires_at": "2026-11-25T12:54:08.421552+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361713",
       "prepared": {
@@ -282364,5 +282366,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T06:54:13.050440+00:00"
+  "updated_at": "2026-11-25T06:56:59.980209+00:00"
 }
