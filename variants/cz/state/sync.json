@@ -249387,17 +249387,19 @@
       "attempts": []
     },
     "23888": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30160319",
+          "target_video_id": "31359742",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:33:42.564415+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30160319",
         "display_name": "Brokedown Palace 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:26:13.707541+00:00"
-      },
-      "claim": {
-        "worker_id": "d18fc66825d2498eaf255fd1c28f679e-shard-0",
-        "claimed_at": "2026-11-25T05:26:14.621720+00:00",
-        "lease_expires_at": "2026-11-25T11:26:14.621720+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359742",
       "prepared": {
@@ -281672,5 +281674,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:33:34.322156+00:00"
+  "updated_at": "2026-11-25T05:33:42.564430+00:00"
 }
