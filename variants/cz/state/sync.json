@@ -265578,17 +265578,19 @@
       "attempts": []
     },
     "34198": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31067161",
+          "target_video_id": "31379780",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:33:04.301335+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31067161",
         "display_name": "The Return (2024) 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:28:47.287102+00:00"
-      },
-      "claim": {
-        "worker_id": "092269ac2149424c9c8a00ba58299996-shard-0",
-        "claimed_at": "2026-11-25T19:28:51.433026+00:00",
-        "lease_expires_at": "2026-11-26T01:28:51.433026+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379780",
       "prepared": {
@@ -294682,5 +294684,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:32:50.388183+00:00"
+  "updated_at": "2026-11-25T19:33:04.301370+00:00"
 }
