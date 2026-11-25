@@ -246015,17 +246015,19 @@
       }
     },
     "16286": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30158788",
+          "target_video_id": "31355828",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:04:31.717336+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30158788",
         "display_name": "Widow Clicquot 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:58:16.551725+00:00"
-      },
-      "claim": {
-        "worker_id": "895506f22edc4175b167f6c872d4c674-shard-0",
-        "claimed_at": "2026-11-25T01:58:17.434742+00:00",
-        "lease_expires_at": "2026-11-25T07:58:17.434742+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355828",
       "prepared": {
@@ -279078,5 +279080,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:01:43.253526+00:00"
+  "updated_at": "2026-11-25T02:04:31.717355+00:00"
 }
