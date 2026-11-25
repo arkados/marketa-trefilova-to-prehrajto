@@ -261353,17 +261353,19 @@
       "attempts": []
     },
     "37209": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34256149",
+          "target_video_id": "31375551",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:50:20.384929+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34256149",
         "display_name": "My Dearest Assassin 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:47:34.687877+00:00"
-      },
-      "claim": {
-        "worker_id": "098eeb6064c84984974eb0ad2d618002-shard-0",
-        "claimed_at": "2026-11-25T16:47:35.488119+00:00",
-        "lease_expires_at": "2026-11-25T22:47:35.488119+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375551",
       "prepared": {
@@ -291400,5 +291402,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:49:55.599851+00:00"
+  "updated_at": "2026-11-25T16:50:20.384949+00:00"
 }
