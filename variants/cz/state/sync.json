@@ -139344,7 +139344,7 @@
       "last_plan": {
         "source_id": "34715447",
         "display_name": "Snow White (O Sněhurce) (1972) SD CZ Dabing",
-        "planned_at": "2026-11-25T16:32:09.398590+00:00"
+        "planned_at": "2026-11-25T16:32:14.863067+00:00"
       },
       "previous_target_id": "30987931",
       "prepared": {
@@ -260711,11 +260711,23 @@
       "attempts": []
     },
     "11297": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34868050",
+          "reason": "Request failed for https://sdilej.cz/34868050/le-gendarme-et-les-extra-terrestres-1979-.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:32:17.538915+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34868050",
         "display_name": "The Gendarme and the Extra-Terrestrials (Le Gendarme et les Extra-terrestres) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T16:32:09.865773+00:00"
+        "planned_at": "2026-11-25T16:32:15.388616+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34868050",
+        "requested_at": "2026-11-25T16:32:17.538900+00:00"
       }
     },
     "13982": {
@@ -290842,5 +290854,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:32:09.865794+00:00"
+  "updated_at": "2026-11-25T16:32:17.538920+00:00"
 }
