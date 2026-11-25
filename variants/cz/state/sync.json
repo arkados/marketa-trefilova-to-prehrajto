@@ -269986,17 +269986,19 @@
       "attempts": []
     },
     "17457": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13168229",
+          "target_video_id": "31385784",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:15:48.493820+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13168229",
         "display_name": "The Tomorrow Man SD CZ Dabing",
         "planned_at": "2026-11-25T23:13:23.395908+00:00"
-      },
-      "claim": {
-        "worker_id": "6b7461b916294e07976943b91a22617d-shard-0",
-        "claimed_at": "2026-11-25T23:13:23.913787+00:00",
-        "lease_expires_at": "2026-11-26T05:13:23.913787+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385784",
       "prepared": {
@@ -298050,5 +298052,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:15:33.970056+00:00"
+  "updated_at": "2026-11-25T23:15:48.493840+00:00"
 }
