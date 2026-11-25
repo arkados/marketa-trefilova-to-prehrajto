@@ -262886,17 +262886,19 @@
       }
     },
     "6356": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27437215",
+          "target_video_id": "31376942",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:41:51.511906+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27437215",
         "display_name": "Sword Master (SanShaoYeDeJian) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:36:44.594810+00:00"
-      },
-      "claim": {
-        "worker_id": "46ed068f60f34e73ba28378e9754c577-shard-0",
-        "claimed_at": "2026-11-25T17:36:45.398847+00:00",
-        "lease_expires_at": "2026-11-25T23:36:45.398847+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376942",
       "prepared": {
@@ -292642,5 +292644,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:41:12.921675+00:00"
+  "updated_at": "2026-11-25T17:41:51.511927+00:00"
 }
