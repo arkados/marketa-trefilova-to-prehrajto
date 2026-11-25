@@ -260793,17 +260793,19 @@
       "attempts": []
     },
     "6843": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27325725",
+          "target_video_id": "31375266",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:36:29.158213+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27325725",
         "display_name": "Fanfic (Fanfik) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:34:05.273988+00:00"
-      },
-      "claim": {
-        "worker_id": "24cbea4e9029458ba1c3ec13ec9df471-shard-0",
-        "claimed_at": "2026-11-25T16:34:08.892563+00:00",
-        "lease_expires_at": "2026-11-25T22:34:08.892563+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375266",
       "prepared": {
@@ -290974,5 +290976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:36:25.355188+00:00"
+  "updated_at": "2026-11-25T16:36:29.158240+00:00"
 }
