@@ -126455,13 +126455,6 @@
           "source_id": "32203585",
           "target_video_id": "30986193",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:13:49.798972+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "32203585",
-          "target_video_id": "30986193",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:38:26.094595+00:00"
         },
         {
@@ -126470,12 +126463,19 @@
           "target_video_id": "30986193",
           "permanent": false,
           "attempted_at": "2026-11-22T22:21:17.630291+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "32203585",
+          "target_video_id": "30986193",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:28:13.435708+00:00"
         }
       ],
       "last_plan": {
         "source_id": "32203585",
         "display_name": "The Treasure of Silver Lake (Der Schatz im Silbersee) 4K CZ Dabing",
-        "planned_at": "2026-11-25T01:27:57.838643+00:00"
+        "planned_at": "2026-11-25T01:28:09.365762+00:00"
       },
       "previous_target_id": "30986193",
       "prepared": {
@@ -245631,11 +245631,22 @@
       "last_plan": {
         "source_id": "24231730",
         "display_name": "The Great Buck Howard 1080p CZ Dabing",
-        "planned_at": "2026-11-25T01:27:58.170096+00:00"
+        "planned_at": "2026-11-25T01:28:09.766984+00:00"
+      },
+      "claim": {
+        "worker_id": "6eee8f284d104f4193bd47c714adbc89-shard-0",
+        "claimed_at": "2026-11-25T01:28:10.793393+00:00",
+        "lease_expires_at": "2026-11-25T07:28:10.793393+00:00",
+        "run_id": "45489062851"
       }
     },
     "11520": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34085031",
+        "display_name": "Happy Easter (Joyeuses Pâques) 1080p CZ Dabing",
+        "planned_at": "2026-11-25T01:28:09.974204+00:00"
+      }
     },
     "32136": {
       "attempts": []
@@ -245653,7 +245664,12 @@
       "attempts": []
     },
     "29495": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32815058",
+        "display_name": "Winter War SD CZ Dabing",
+        "planned_at": "2026-11-25T01:28:10.181568+00:00"
+      }
     },
     "30556": {
       "attempts": []
@@ -278749,5 +278765,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:28:04.641380+00:00"
+  "updated_at": "2026-11-25T01:28:13.435727+00:00"
 }
