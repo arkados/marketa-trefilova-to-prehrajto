@@ -257242,17 +257242,19 @@
       "attempts": []
     },
     "30474": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25586153",
+          "target_video_id": "31370906",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:12:36.196532+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25586153",
         "display_name": "Framed (2017) 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:10:22.833692+00:00"
-      },
-      "claim": {
-        "worker_id": "eb0a716961f64b26a7ad6512cbe75a60-shard-0",
-        "claimed_at": "2026-11-25T13:10:23.761760+00:00",
-        "lease_expires_at": "2026-11-25T19:10:23.761760+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370906",
       "prepared": {
@@ -288060,5 +288062,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:12:12.368987+00:00"
+  "updated_at": "2026-11-25T13:12:36.196551+00:00"
 }
