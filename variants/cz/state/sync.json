@@ -267639,17 +267639,19 @@
       }
     },
     "16425": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26252774",
+          "target_video_id": "31382235",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:02:59.422589+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26252774",
         "display_name": "Anacleto: agente secreto 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:00:05.035111+00:00"
-      },
-      "claim": {
-        "worker_id": "a14475ad2f7041f999563edfabce7d3a-shard-0",
-        "claimed_at": "2026-11-25T21:00:05.595049+00:00",
-        "lease_expires_at": "2026-11-26T03:00:05.595049+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382235",
       "prepared": {
@@ -296196,5 +296198,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:02:08.586130+00:00"
+  "updated_at": "2026-11-25T21:02:59.422609+00:00"
 }
