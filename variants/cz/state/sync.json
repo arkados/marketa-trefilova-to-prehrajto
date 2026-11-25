@@ -125587,7 +125587,7 @@
       "last_plan": {
         "source_id": "4983288",
         "display_name": "Jar City SD CZ Dabing",
-        "planned_at": "2026-11-25T04:44:25.027486+00:00"
+        "planned_at": "2026-11-25T04:44:31.419352+00:00"
       },
       "previous_target_id": "30985832",
       "prepared": {
@@ -248663,17 +248663,19 @@
       }
     },
     "22104": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27145812",
+          "target_video_id": "31358819",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:44:38.321525+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27145812",
         "display_name": "Joe Kidd 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:40:26.901874+00:00"
-      },
-      "claim": {
-        "worker_id": "d6e1e1e40bea498d83af47420f677592-shard-0",
-        "claimed_at": "2026-11-25T04:40:27.790122+00:00",
-        "lease_expires_at": "2026-11-25T10:40:27.790122+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358819",
       "prepared": {
@@ -248712,7 +248714,13 @@
       "last_plan": {
         "source_id": "34782533",
         "display_name": "Big Trouble 1080p CZ Dabing",
-        "planned_at": "2026-11-25T04:44:25.550264+00:00"
+        "planned_at": "2026-11-25T04:44:31.951840+00:00"
+      },
+      "claim": {
+        "worker_id": "4df71a9f949641da871f257317ff3420-shard-0",
+        "claimed_at": "2026-11-25T04:44:32.857474+00:00",
+        "lease_expires_at": "2026-11-25T10:44:32.857474+00:00",
+        "run_id": "45542333853"
       }
     },
     "26319": {
@@ -281122,5 +281130,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:44:25.550278+00:00"
+  "updated_at": "2026-11-25T04:44:38.321539+00:00"
 }
