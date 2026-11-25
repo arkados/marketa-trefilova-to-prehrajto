@@ -251164,17 +251164,19 @@
       }
     },
     "25695": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35024802",
+          "target_video_id": "31362955",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:57:58.195913+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35024802",
         "display_name": "Pride (2007) SD CZ Dabing",
         "planned_at": "2026-11-25T07:55:37.779274+00:00"
-      },
-      "claim": {
-        "worker_id": "8a615888002e4d3d912abf69524d7746-shard-0",
-        "claimed_at": "2026-11-25T07:55:38.677971+00:00",
-        "lease_expires_at": "2026-11-25T13:55:38.677971+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31362955",
       "prepared": {
@@ -283084,5 +283086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:55:42.939602+00:00"
+  "updated_at": "2026-11-25T07:57:58.195929+00:00"
 }
