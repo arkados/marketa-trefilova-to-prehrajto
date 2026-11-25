@@ -143074,7 +143074,7 @@
       "last_plan": {
         "source_id": "34953142",
         "display_name": "Les Mystères de la Chorale SD CZ Dabing",
-        "planned_at": "2026-11-25T17:15:30.768538+00:00"
+        "planned_at": "2026-11-25T17:15:37.507686+00:00"
       },
       "previous_target_id": "30988584",
       "prepared": {
@@ -262200,11 +262200,23 @@
       "attempts": []
     },
     "13763": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34846123",
+          "reason": "Request failed for https://sdilej.cz/34846123/tajemstvi-polevky-ramen-the.ramen.girl.2008.1080p.bluray.cz-en.nighthunter.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:15:40.851749+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34846123",
         "display_name": "The Ramen Girl 1080p CZ Dabing",
-        "planned_at": "2026-11-25T17:15:31.434542+00:00"
+        "planned_at": "2026-11-25T17:15:38.039415+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34846123",
+        "requested_at": "2026-11-25T17:15:40.851733+00:00"
       }
     },
     "5000": {
@@ -291998,5 +292010,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:15:31.434561+00:00"
+  "updated_at": "2026-11-25T17:15:40.851754+00:00"
 }
