@@ -266411,17 +266411,19 @@
       }
     },
     "4950": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26973849",
+          "target_video_id": "31380625",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:07:05.093132+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26973849",
         "display_name": "Ballerina (BalLeLiNa) (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:04:48.463986+00:00"
-      },
-      "claim": {
-        "worker_id": "37e1c1f5d3514064a398eb1c09ee7852-shard-0",
-        "claimed_at": "2026-11-25T20:04:52.794883+00:00",
-        "lease_expires_at": "2026-11-26T02:04:52.794883+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380625",
       "prepared": {
@@ -295259,5 +295261,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:05:08.557453+00:00"
+  "updated_at": "2026-11-25T20:07:05.093162+00:00"
 }
