@@ -264387,17 +264387,19 @@
       }
     },
     "9504": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24990886",
+          "target_video_id": "31378426",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:36:22.620459+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24990886",
         "display_name": "Hero Dog: The Journey Home 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:34:18.876777+00:00"
-      },
-      "claim": {
-        "worker_id": "1ee5927c6e644f73a6f8ed4c8be45405-shard-0",
-        "claimed_at": "2026-11-25T18:34:19.691452+00:00",
-        "lease_expires_at": "2026-11-26T00:34:19.691452+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378426",
       "prepared": {
@@ -293736,5 +293738,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:35:54.292293+00:00"
+  "updated_at": "2026-11-25T18:36:22.620481+00:00"
 }
