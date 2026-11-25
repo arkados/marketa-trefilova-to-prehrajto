@@ -261481,17 +261481,19 @@
       }
     },
     "34370": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34719546",
+          "target_video_id": "31375621",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:52:51.539606+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34719546",
         "display_name": "Horror Cannibal 2 (Mondo Cannibale) SD CZ Dabing",
         "planned_at": "2026-11-25T16:51:45.484842+00:00"
-      },
-      "claim": {
-        "worker_id": "38f7a9b50d134087a6a9200c77173de7-shard-0",
-        "claimed_at": "2026-11-25T16:51:46.280477+00:00",
-        "lease_expires_at": "2026-11-25T22:51:46.280477+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375621",
       "prepared": {
@@ -291460,5 +291462,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:52:10.536357+00:00"
+  "updated_at": "2026-11-25T16:52:51.539627+00:00"
 }
