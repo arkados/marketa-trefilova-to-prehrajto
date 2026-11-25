@@ -266787,17 +266787,19 @@
       "attempts": []
     },
     "7999": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29868609",
+          "target_video_id": "31381166",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:25:51.133533+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29868609",
         "display_name": "You choose (L'Embarras du choix) 720p CZ Dabing",
         "planned_at": "2026-11-25T20:23:34.270092+00:00"
-      },
-      "claim": {
-        "worker_id": "ec649cffbbb940568f4418224e8f7c7e-shard-0",
-        "claimed_at": "2026-11-25T20:23:34.918635+00:00",
-        "lease_expires_at": "2026-11-26T02:23:34.918635+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381166",
       "prepared": {
@@ -295559,5 +295561,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:24:39.738323+00:00"
+  "updated_at": "2026-11-25T20:25:51.133553+00:00"
 }
