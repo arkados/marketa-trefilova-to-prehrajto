@@ -253278,17 +253278,19 @@
       "attempts": []
     },
     "23346": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26758944",
+          "target_video_id": "31365737",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:44:24.946283+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26758944",
         "display_name": "Triple Cross (Angel Of Fury) (1992) 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:39:43.170239+00:00"
-      },
-      "claim": {
-        "worker_id": "f1ba5432d9734734a18d3b5cc0537c9f-shard-0",
-        "claimed_at": "2026-11-25T09:39:44.126305+00:00",
-        "lease_expires_at": "2026-11-25T15:39:44.126305+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365737",
       "prepared": {
@@ -284801,5 +284803,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:43:20.821488+00:00"
+  "updated_at": "2026-11-25T09:44:24.946299+00:00"
 }
