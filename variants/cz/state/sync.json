@@ -260892,17 +260892,19 @@
       }
     },
     "11309": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14239509",
+          "target_video_id": "31375357",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:37:44.147059+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14239509",
         "display_name": "The Passage SD CZ Dabing",
         "planned_at": "2026-11-25T16:36:37.279200+00:00"
-      },
-      "claim": {
-        "worker_id": "398b98e8b7a84b788bcc55f8a1bada18-shard-0",
-        "claimed_at": "2026-11-25T16:36:38.390582+00:00",
-        "lease_expires_at": "2026-11-25T22:36:38.390582+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375357",
       "prepared": {
@@ -291012,5 +291014,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:36:55.667863+00:00"
+  "updated_at": "2026-11-25T16:37:44.147079+00:00"
 }
