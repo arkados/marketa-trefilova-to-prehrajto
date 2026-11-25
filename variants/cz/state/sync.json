@@ -258065,17 +258065,19 @@
       }
     },
     "4659": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27820890",
+          "target_video_id": "31372024",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:57:09.084559+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27820890",
         "display_name": "Escape Room (2019) 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:54:41.211980+00:00"
-      },
-      "claim": {
-        "worker_id": "5217b9dbf16e46cface4113ef180b8ad-shard-0",
-        "claimed_at": "2026-11-25T13:54:42.147197+00:00",
-        "lease_expires_at": "2026-11-25T19:54:42.147197+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372024",
       "prepared": {
@@ -288731,5 +288733,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:57:04.162666+00:00"
+  "updated_at": "2026-11-25T13:57:09.084583+00:00"
 }
