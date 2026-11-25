@@ -262153,17 +262153,19 @@
       }
     },
     "17103": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32830779",
+          "target_video_id": "31376243",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:15:27.566227+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32830779",
         "display_name": "The Shamer's Daughter II – The Serpent Gift (Skammerens Datter II : Slangens Gave) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:13:20.148733+00:00"
-      },
-      "claim": {
-        "worker_id": "bbd823fb63c5415988db2b9f46357c1d-shard-0",
-        "claimed_at": "2026-11-25T17:13:20.962170+00:00",
-        "lease_expires_at": "2026-11-25T23:13:20.962170+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376243",
       "prepared": {
@@ -291991,5 +291993,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:15:20.264464+00:00"
+  "updated_at": "2026-11-25T17:15:27.566248+00:00"
 }
