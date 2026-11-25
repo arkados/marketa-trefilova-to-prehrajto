@@ -264750,17 +264750,19 @@
       }
     },
     "10924": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34441298",
+          "target_video_id": "31378811",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:51:56.066565+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34441298",
         "display_name": "God Forgives... I Don't! (Dio perdona... Io no!) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:47:17.261791+00:00"
-      },
-      "claim": {
-        "worker_id": "0e4ea341c955490c80d8ba76cb346eae-shard-0",
-        "claimed_at": "2026-11-25T18:47:18.132410+00:00",
-        "lease_expires_at": "2026-11-26T00:47:18.132410+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378811",
       "prepared": {
@@ -294009,5 +294011,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:48:47.955976+00:00"
+  "updated_at": "2026-11-25T18:51:56.066587+00:00"
 }
