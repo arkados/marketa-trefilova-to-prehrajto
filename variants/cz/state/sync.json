@@ -257804,17 +257804,19 @@
       }
     },
     "34578": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34830810",
+          "target_video_id": "31371767",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:45:01.687469+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34830810",
         "display_name": "Disclosure Day 4K CZ Dabing",
         "planned_at": "2026-11-25T13:38:24.936463+00:00"
-      },
-      "claim": {
-        "worker_id": "b80b4343f4604ba6bb361515caa6501a-shard-0",
-        "claimed_at": "2026-11-25T13:38:25.848532+00:00",
-        "lease_expires_at": "2026-11-25T19:38:25.848532+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371767",
       "prepared": {
@@ -288494,5 +288496,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:43:55.361753+00:00"
+  "updated_at": "2026-11-25T13:45:01.687490+00:00"
 }
