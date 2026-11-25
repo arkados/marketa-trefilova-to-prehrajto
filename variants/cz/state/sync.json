@@ -246809,17 +246809,19 @@
       "attempts": []
     },
     "26418": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12795507",
+          "target_video_id": "31356986",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:56:24.769221+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12795507",
         "display_name": "Hamlet 2 SD CZ Dabing",
         "planned_at": "2026-11-25T02:54:37.836454+00:00"
-      },
-      "claim": {
-        "worker_id": "d7413b51aabf4d91a215c5d3ac15d7e9-shard-0",
-        "claimed_at": "2026-11-25T02:54:38.369635+00:00",
-        "lease_expires_at": "2026-11-25T08:54:38.369635+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356986",
       "prepared": {
@@ -279698,5 +279700,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:56:16.282948+00:00"
+  "updated_at": "2026-11-25T02:56:24.769241+00:00"
 }
