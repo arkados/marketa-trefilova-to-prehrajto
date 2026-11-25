@@ -257924,17 +257924,19 @@
       }
     },
     "4933": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28516246",
+          "target_video_id": "31371896",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:51:00.807654+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28516246",
         "display_name": "The Beautiful Game 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:47:20.429995+00:00"
-      },
-      "claim": {
-        "worker_id": "2815c850d7d944c5b15527c0ee3ec7d8-shard-0",
-        "claimed_at": "2026-11-25T13:47:21.358100+00:00",
-        "lease_expires_at": "2026-11-25T19:47:21.358100+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371896",
       "prepared": {
@@ -288611,5 +288613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:49:01.578511+00:00"
+  "updated_at": "2026-11-25T13:51:00.807675+00:00"
 }
