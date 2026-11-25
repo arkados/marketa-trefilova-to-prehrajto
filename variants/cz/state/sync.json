@@ -245457,17 +245457,19 @@
       "attempts": []
     },
     "18593": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34389224",
+          "target_video_id": "31355205",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:24:20.099162+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34389224",
         "display_name": "Fackham Hall 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:22:10.946319+00:00"
-      },
-      "claim": {
-        "worker_id": "129152ed64e5456ca7b1d72be1425805-shard-0",
-        "claimed_at": "2026-11-25T01:22:14.002359+00:00",
-        "lease_expires_at": "2026-11-25T07:22:14.002359+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355205",
       "prepared": {
@@ -278678,5 +278680,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:23:36.804181+00:00"
+  "updated_at": "2026-11-25T01:24:20.099185+00:00"
 }
