@@ -144437,7 +144437,7 @@
       "last_plan": {
         "source_id": "34716304",
         "display_name": "Arms for Prague (Zbraně pro Prahu) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T22:07:28.331462+00:00"
+        "planned_at": "2026-11-25T22:07:33.309142+00:00"
       },
       "previous_target_id": "30988791",
       "prepared": {
@@ -269130,11 +269130,23 @@
       "attempts": []
     },
     "32261": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33875511",
+          "reason": "Source detail has no authenticated download link; source_id=33875511",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:07:36.601723+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33875511",
         "display_name": "Thirst 1080p CZ Dabing",
-        "planned_at": "2026-11-25T22:07:28.639823+00:00"
+        "planned_at": "2026-11-25T22:07:33.612876+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33875511",
+        "requested_at": "2026-11-25T22:07:36.601701+00:00"
       }
     },
     "26578": {
@@ -297340,5 +297352,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:07:28.639844+00:00"
+  "updated_at": "2026-11-25T22:07:36.601727+00:00"
 }
