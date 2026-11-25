@@ -260963,17 +260963,19 @@
       }
     },
     "36607": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32273653",
+          "target_video_id": "31375405",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:40:49.387782+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32273653",
         "display_name": "Sam Whiskey 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:38:13.162437+00:00"
-      },
-      "claim": {
-        "worker_id": "17f66459ce8445a3942bf8dad6c3e3f4-shard-0",
-        "claimed_at": "2026-11-25T16:38:13.970104+00:00",
-        "lease_expires_at": "2026-11-25T22:38:13.970104+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375405",
       "prepared": {
@@ -291126,5 +291128,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:40:22.676181+00:00"
+  "updated_at": "2026-11-25T16:40:49.387802+00:00"
 }
