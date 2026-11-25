@@ -264008,17 +264008,19 @@
       }
     },
     "29017": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34711544",
+          "target_video_id": "31377884",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:17:30.501534+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34711544",
         "display_name": "Correcting Christmas (Back to Christmas) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:15:38.216481+00:00"
-      },
-      "claim": {
-        "worker_id": "f7b476dee2f24ffa8724104ad6949d8a-shard-0",
-        "claimed_at": "2026-11-25T18:15:39.018009+00:00",
-        "lease_expires_at": "2026-11-26T00:15:39.018009+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377884",
       "prepared": {
@@ -293396,5 +293398,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:15:43.656341+00:00"
+  "updated_at": "2026-11-25T18:17:30.501554+00:00"
 }
