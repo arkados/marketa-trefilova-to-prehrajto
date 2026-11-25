@@ -256891,17 +256891,19 @@
       }
     },
     "37456": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34710763",
+          "target_video_id": "31370373",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:59:26.228322+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34710763",
         "display_name": "Masters of the Universe (2026) 4K CZ Dabing",
         "planned_at": "2026-11-25T12:53:19.865747+00:00"
-      },
-      "claim": {
-        "worker_id": "e25dd7a89cfb4250a345321f871830fa-shard-0",
-        "claimed_at": "2026-11-25T12:53:20.745270+00:00",
-        "lease_expires_at": "2026-11-25T18:53:20.745270+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370373",
       "prepared": {
@@ -287783,5 +287785,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:58:21.404060+00:00"
+  "updated_at": "2026-11-25T12:59:26.228341+00:00"
 }
