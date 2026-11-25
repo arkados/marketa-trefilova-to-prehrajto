@@ -268685,17 +268685,19 @@
       }
     },
     "11395": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19068921",
+          "target_video_id": "31383580",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:48:38.950259+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19068921",
         "display_name": "My Bloody Valentine SD CZ Dabing",
         "planned_at": "2026-11-25T21:47:12.235352+00:00"
-      },
-      "claim": {
-        "worker_id": "51bff8c715e848448666236d6c7c6672-shard-0",
-        "claimed_at": "2026-11-25T21:47:12.716372+00:00",
-        "lease_expires_at": "2026-11-26T03:47:12.716372+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383580",
       "prepared": {
@@ -296993,5 +296995,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:47:16.207159+00:00"
+  "updated_at": "2026-11-25T21:48:38.950278+00:00"
 }
