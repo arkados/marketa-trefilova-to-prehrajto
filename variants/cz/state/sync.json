@@ -258320,17 +258320,19 @@
       }
     },
     "17777": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28378798",
+          "target_video_id": "31372377",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:14:12.025514+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28378798",
         "display_name": "Freaky Friday (2003) 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:12:05.633953+00:00"
-      },
-      "claim": {
-        "worker_id": "c26440bc7734426cace549d0307eb47c-shard-0",
-        "claimed_at": "2026-11-25T14:12:06.560625+00:00",
-        "lease_expires_at": "2026-11-25T20:12:06.560625+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372377",
       "prepared": {
@@ -288911,5 +288913,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:12:10.852261+00:00"
+  "updated_at": "2026-11-25T14:14:12.025534+00:00"
 }
