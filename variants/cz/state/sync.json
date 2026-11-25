@@ -255189,17 +255189,19 @@
       }
     },
     "4756": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35186071",
+          "target_video_id": "31367993",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:23:04.708382+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35186071",
         "display_name": "Blood Father 1080p CZ Dabing",
         "planned_at": "2026-11-25T11:21:28.718600+00:00"
-      },
-      "claim": {
-        "worker_id": "d81217956cf54d32a2f2e8a1c41dc383-shard-0",
-        "claimed_at": "2026-11-25T11:21:29.717377+00:00",
-        "lease_expires_at": "2026-11-25T17:21:29.717377+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31367993",
       "prepared": {
@@ -286323,5 +286325,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:22:35.727107+00:00"
+  "updated_at": "2026-11-25T11:23:04.708398+00:00"
 }
