@@ -256981,17 +256981,19 @@
       }
     },
     "25160": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26654258",
+          "target_video_id": "31370538",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:01:02.276864+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26654258",
         "display_name": "The Interpreter (2005) 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:58:16.051211+00:00"
-      },
-      "claim": {
-        "worker_id": "794b9a9ca5094a64b50434c0da30c9d4-shard-0",
-        "claimed_at": "2026-11-25T12:58:16.933195+00:00",
-        "lease_expires_at": "2026-11-25T18:58:16.933195+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370538",
       "prepared": {
@@ -287803,5 +287805,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:59:41.647643+00:00"
+  "updated_at": "2026-11-25T13:01:02.276891+00:00"
 }
