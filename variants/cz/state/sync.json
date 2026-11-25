@@ -264773,17 +264773,19 @@
       }
     },
     "5407": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34531510",
+          "target_video_id": "31378815",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:52:36.942055+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34531510",
         "display_name": "Green Lantern: Beware My Power 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:47:30.046525+00:00"
-      },
-      "claim": {
-        "worker_id": "01fac9fbc4a34d90a40c07e2fd9ffc42-shard-0",
-        "claimed_at": "2026-11-25T18:47:30.848030+00:00",
-        "lease_expires_at": "2026-11-26T00:47:30.848030+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378815",
       "prepared": {
@@ -294029,5 +294031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:52:12.508168+00:00"
+  "updated_at": "2026-11-25T18:52:36.942076+00:00"
 }
