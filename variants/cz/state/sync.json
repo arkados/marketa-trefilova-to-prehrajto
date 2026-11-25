@@ -247944,17 +247944,19 @@
       "attempts": []
     },
     "25751": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24397044",
+          "target_video_id": "31358125",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:07:25.887303+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24397044",
         "display_name": "Where Is Fred? SD CZ Dabing",
         "planned_at": "2026-11-25T04:04:10.841250+00:00"
-      },
-      "claim": {
-        "worker_id": "c50d908c9dcf48aa9a57a8bb22e22883-shard-0",
-        "claimed_at": "2026-11-25T04:04:11.690001+00:00",
-        "lease_expires_at": "2026-11-25T10:04:11.690001+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358125",
       "prepared": {
@@ -280578,5 +280580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:07:10.080505+00:00"
+  "updated_at": "2026-11-25T04:07:25.887317+00:00"
 }
