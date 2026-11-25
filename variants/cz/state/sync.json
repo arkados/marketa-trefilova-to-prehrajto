@@ -260054,17 +260054,23 @@
       }
     },
     "4685": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32924786",
+          "reason": "Source detail has no authenticated download link; source_id=32924786",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:14:57.524649+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32924786",
         "display_name": "Batman v Superman: Dawn of Justice 4K CZ Dabing",
         "planned_at": "2026-11-25T16:14:49.377593+00:00"
       },
-      "claim": {
-        "worker_id": "f037b6ecbae7437cb961ba417f284a02-shard-0",
-        "claimed_at": "2026-11-25T16:14:51.368274+00:00",
-        "lease_expires_at": "2026-11-25T22:14:51.368274+00:00",
-        "run_id": "45651964996"
+      "source_repair_requested": {
+        "source_id": "32924786",
+        "requested_at": "2026-11-25T16:14:57.524599+00:00"
       }
     },
     "16365": {
@@ -290354,5 +290360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:14:54.002819+00:00"
+  "updated_at": "2026-11-25T16:14:57.524662+00:00"
 }
