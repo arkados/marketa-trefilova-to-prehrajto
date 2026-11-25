@@ -256557,17 +256557,19 @@
       "attempts": []
     },
     "5548": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11745085",
+          "target_video_id": "31369861",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:39:40.287709+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11745085",
         "display_name": "Tad the Lost Explorer and the Secret of King Midas (Tadeo Jones 2: El secreto del rey Midas) 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:37:44.071357+00:00"
-      },
-      "claim": {
-        "worker_id": "ed405a3fe2ba422d934e29466a02dbcc-shard-0",
-        "claimed_at": "2026-11-25T12:37:44.984000+00:00",
-        "lease_expires_at": "2026-11-25T18:37:44.984000+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369861",
       "prepared": {
@@ -287463,5 +287465,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:39:36.093822+00:00"
+  "updated_at": "2026-11-25T12:39:40.287729+00:00"
 }
