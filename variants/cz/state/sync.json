@@ -247967,17 +247967,19 @@
       }
     },
     "16588": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11116337",
+          "target_video_id": "31358182",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:09:23.718543+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11116337",
         "display_name": "Winx Club: The Mystery Of The Abyss (Winx Club - Il mistero degli abissi) 720p CZ Dabing",
         "planned_at": "2026-11-25T04:06:28.861054+00:00"
-      },
-      "claim": {
-        "worker_id": "607daad7ea254574bf6f3feb3e076958-shard-0",
-        "claimed_at": "2026-11-25T04:06:29.657816+00:00",
-        "lease_expires_at": "2026-11-25T10:06:29.657816+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358182",
       "prepared": {
@@ -280598,5 +280600,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:07:44.121045+00:00"
+  "updated_at": "2026-11-25T04:09:23.718558+00:00"
 }
