@@ -244491,17 +244491,19 @@
       }
     },
     "10886": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29867405",
+          "target_video_id": "31354222",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:32:19.702898+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29867405",
         "display_name": "Die Pyramide des Sonnengottes 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:27:36.964358+00:00"
-      },
-      "claim": {
-        "worker_id": "88cee12ede2d4b40babf14e7c4e45b76-shard-0",
-        "claimed_at": "2026-11-25T00:27:37.520565+00:00",
-        "lease_expires_at": "2026-11-25T06:27:37.520565+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354222",
       "prepared": {
@@ -277934,5 +277936,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:31:52.286569+00:00"
+  "updated_at": "2026-11-25T00:32:19.702917+00:00"
 }
