@@ -261849,17 +261849,19 @@
       "attempts": []
     },
     "5428": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18546207",
+          "target_video_id": "31375974",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:07:46.338361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18546207",
         "display_name": "Together (2021) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:04:42.651238+00:00"
-      },
-      "claim": {
-        "worker_id": "68be3e9d92b84f6e9102d48a60b58d93-shard-0",
-        "claimed_at": "2026-11-25T17:04:43.435809+00:00",
-        "lease_expires_at": "2026-11-25T23:04:43.435809+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375974",
       "prepared": {
@@ -291814,5 +291816,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:07:28.325976+00:00"
+  "updated_at": "2026-11-25T17:07:46.338382+00:00"
 }
