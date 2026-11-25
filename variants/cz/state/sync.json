@@ -250454,17 +250454,19 @@
       "attempts": []
     },
     "13220": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22313902",
+          "target_video_id": "31361951",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:07:48.847849+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22313902",
         "display_name": "Levity SD CZ Dabing",
         "planned_at": "2026-11-25T07:06:30.979919+00:00"
-      },
-      "claim": {
-        "worker_id": "d7cfd8a6a4094d7dbf1246cd11c7d3b3-shard-0",
-        "claimed_at": "2026-11-25T07:06:31.894976+00:00",
-        "lease_expires_at": "2026-11-25T13:06:31.894976+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361951",
       "prepared": {
@@ -282524,5 +282526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:06:36.394940+00:00"
+  "updated_at": "2026-11-25T07:07:48.847864+00:00"
 }
