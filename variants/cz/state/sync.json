@@ -249253,17 +249253,19 @@
       }
     },
     "5667": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28991408",
+          "target_video_id": "31359576",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:22:30.719281+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28991408",
         "display_name": "Quantum Love (Une rencontre) 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:18:00.017101+00:00"
-      },
-      "claim": {
-        "worker_id": "530c4556863f4d018c2046f8807c8c94-shard-0",
-        "claimed_at": "2026-11-25T05:18:00.873194+00:00",
-        "lease_expires_at": "2026-11-25T11:18:00.873194+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359576",
       "prepared": {
@@ -281572,5 +281574,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:21:11.979880+00:00"
+  "updated_at": "2026-11-25T05:22:30.719296+00:00"
 }
