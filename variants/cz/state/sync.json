@@ -257577,17 +257577,19 @@
       "attempts": []
     },
     "4667": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26327525",
+          "target_video_id": "31371389",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:26:56.864291+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26327525",
         "display_name": "Savages 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:24:03.481086+00:00"
-      },
-      "claim": {
-        "worker_id": "16daf8f5c2814ba8b5789138c20e6b3d-shard-0",
-        "claimed_at": "2026-11-25T13:24:04.402091+00:00",
-        "lease_expires_at": "2026-11-25T19:24:04.402091+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371389",
       "prepared": {
@@ -288297,5 +288299,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:25:41.761736+00:00"
+  "updated_at": "2026-11-25T13:26:56.864316+00:00"
 }
