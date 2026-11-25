@@ -248069,17 +248069,19 @@
       "attempts": []
     },
     "17578": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30192812",
+          "target_video_id": "31358239",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:15:05.885584+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30192812",
         "display_name": "Agatha and the Truth of Murder 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:09:34.385982+00:00"
-      },
-      "claim": {
-        "worker_id": "59a9157252ac450bb571b4b8b31fb40f-shard-0",
-        "claimed_at": "2026-11-25T04:09:35.282719+00:00",
-        "lease_expires_at": "2026-11-25T10:09:35.282719+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358239",
       "prepared": {
@@ -280685,5 +280687,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:15:00.140441+00:00"
+  "updated_at": "2026-11-25T04:15:05.885598+00:00"
 }
