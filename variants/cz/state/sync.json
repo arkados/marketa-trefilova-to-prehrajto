@@ -248759,17 +248759,19 @@
       }
     },
     "4728": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27510118",
+          "target_video_id": "31358909",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:48:37.596255+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27510118",
         "display_name": "Lonely Hearts 720p CZ Dabing",
         "planned_at": "2026-11-25T04:46:08.857168+00:00"
-      },
-      "claim": {
-        "worker_id": "486d257038cb4bf284191eb7ee9f0ccf-shard-0",
-        "claimed_at": "2026-11-25T04:46:09.739959+00:00",
-        "lease_expires_at": "2026-11-25T10:46:09.739959+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358909",
       "prepared": {
@@ -281195,5 +281197,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:47:13.609064+00:00"
+  "updated_at": "2026-11-25T04:48:37.596268+00:00"
 }
