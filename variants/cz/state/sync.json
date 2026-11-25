@@ -253069,17 +253069,19 @@
       }
     },
     "4889": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31215725",
+          "target_video_id": "31365418",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:32:01.686804+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31215725",
         "display_name": "Alienoid (OeGye+In 1Bu) 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:27:52.408231+00:00"
-      },
-      "claim": {
-        "worker_id": "091e8c2d56c64c12826b09e26816f529-shard-0",
-        "claimed_at": "2026-11-25T09:27:53.377303+00:00",
-        "lease_expires_at": "2026-11-25T15:27:53.377303+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365418",
       "prepared": {
@@ -284581,5 +284583,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:27:57.147771+00:00"
+  "updated_at": "2026-11-25T09:32:01.686821+00:00"
 }
