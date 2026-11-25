@@ -248871,17 +248871,19 @@
       }
     },
     "13326": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23589949",
+          "target_video_id": "31358980",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:54:03.757677+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23589949",
         "display_name": "My New Partner III (Ripoux 3) 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:50:14.205490+00:00"
-      },
-      "claim": {
-        "worker_id": "6789b525cb35415785e20dab4832a0e0-shard-0",
-        "claimed_at": "2026-11-25T04:50:15.076924+00:00",
-        "lease_expires_at": "2026-11-25T10:50:15.076924+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358980",
       "prepared": {
@@ -281295,5 +281297,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:53:36.560506+00:00"
+  "updated_at": "2026-11-25T04:54:03.757695+00:00"
 }
