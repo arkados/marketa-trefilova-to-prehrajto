@@ -255259,17 +255259,19 @@
       "attempts": []
     },
     "4859": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13516216",
+          "target_video_id": "31368024",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:25:42.492057+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13516216",
         "display_name": "Dead Man Down 1080p CZ Dabing",
         "planned_at": "2026-11-25T11:23:14.954465+00:00"
-      },
-      "claim": {
-        "worker_id": "9624020256364a7dad60cdfe0b1e8482-shard-0",
-        "claimed_at": "2026-11-25T11:23:15.924048+00:00",
-        "lease_expires_at": "2026-11-25T17:23:15.924048+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31368024",
       "prepared": {
@@ -286363,5 +286365,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:24:26.636396+00:00"
+  "updated_at": "2026-11-25T11:25:42.492072+00:00"
 }
