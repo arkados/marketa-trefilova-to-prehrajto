@@ -261725,17 +261725,19 @@
       }
     },
     "15278": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29460194",
+          "target_video_id": "31375843",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:04:31.576891+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29460194",
         "display_name": "House of Lust (La Maison) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:00:59.114707+00:00"
-      },
-      "claim": {
-        "worker_id": "f1507252a1df4e508e2907bdf5e07c67-shard-0",
-        "claimed_at": "2026-11-25T17:00:59.908001+00:00",
-        "lease_expires_at": "2026-11-25T23:00:59.908001+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375843",
       "prepared": {
@@ -291717,5 +291719,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:03:50.603676+00:00"
+  "updated_at": "2026-11-25T17:04:31.576913+00:00"
 }
