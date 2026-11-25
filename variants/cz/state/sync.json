@@ -268664,17 +268664,19 @@
       }
     },
     "6305": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10734269",
+          "target_video_id": "31383571",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:48:47.132284+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10734269",
         "display_name": "Luis and the Aliens (Luis und die Aliens) 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:46:32.167900+00:00"
-      },
-      "claim": {
-        "worker_id": "ffe1b3fb23a94466b422f55ebbeb9ecc-shard-0",
-        "claimed_at": "2026-11-25T21:46:32.696165+00:00",
-        "lease_expires_at": "2026-11-26T03:46:32.696165+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383571",
       "prepared": {
@@ -297000,5 +297002,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:48:42.094041+00:00"
+  "updated_at": "2026-11-25T21:48:47.132310+00:00"
 }
