@@ -141209,7 +141209,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T13:10:59.896680+00:00"
+        "planned_at": "2026-11-25T13:11:06.303590+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -257261,11 +257261,23 @@
       }
     },
     "4430": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33961103",
+          "reason": "Source detail has no authenticated download link; source_id=33961103",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:11:10.390831+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33961103",
         "display_name": "A House of Dynamite 4K CZ Dabing",
-        "planned_at": "2026-11-25T13:11:00.433035+00:00"
+        "planned_at": "2026-11-25T13:11:06.861514+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33961103",
+        "requested_at": "2026-11-25T13:11:10.390812+00:00"
       }
     },
     "4638": {
@@ -288010,5 +288022,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:11:00.433054+00:00"
+  "updated_at": "2026-11-25T13:11:10.390837+00:00"
 }
