@@ -267748,17 +267748,19 @@
       "attempts": []
     },
     "18780": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11918631",
+          "target_video_id": "31382465",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:13:55.867629+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11918631",
         "display_name": "To Steal from a Thief (Cien años de perdón) 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:06:59.621517+00:00"
-      },
-      "claim": {
-        "worker_id": "e44f81920b6c4ce984c696a192a11420-shard-0",
-        "claimed_at": "2026-11-25T21:07:00.159222+00:00",
-        "lease_expires_at": "2026-11-26T03:07:00.159222+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382465",
       "prepared": {
@@ -296356,5 +296358,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:13:45.752038+00:00"
+  "updated_at": "2026-11-25T21:13:55.867649+00:00"
 }
