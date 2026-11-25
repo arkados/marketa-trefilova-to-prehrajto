@@ -113135,7 +113135,7 @@
       "last_plan": {
         "source_id": "34721047",
         "display_name": "Pongo Calling 1080p CZ Dabing",
-        "planned_at": "2026-11-22T22:22:06.370545+00:00"
+        "planned_at": "2026-11-25T16:43:25.894734+00:00"
       },
       "previous_target_id": "30983966",
       "prepared": {
@@ -261126,11 +261126,23 @@
       "attempts": []
     },
     "28085": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "17587979",
+          "reason": "Request failed for https://sdilej.cz/17587979/rodinne-pouto-heart.of.the.country.2013.1080p.hdtv.cz.dabing.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:43:29.445213+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17587979",
         "display_name": "Heart of the Country 1080p CZ Dabing",
-        "planned_at": "2026-11-25T16:43:20.960451+00:00"
+        "planned_at": "2026-11-25T16:43:26.381232+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "17587979",
+        "requested_at": "2026-11-25T16:43:29.445197+00:00"
       }
     },
     "21280": {
@@ -291173,5 +291185,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:43:23.231957+00:00"
+  "updated_at": "2026-11-25T16:43:29.445218+00:00"
 }
