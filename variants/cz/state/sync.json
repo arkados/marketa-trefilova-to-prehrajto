@@ -141229,7 +141229,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T15:32:00.232048+00:00"
+        "planned_at": "2026-11-25T15:32:06.692949+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -259500,11 +259500,23 @@
       }
     },
     "4762": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34058865",
+          "reason": "Source detail has no authenticated download link; source_id=34058865",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:32:10.361188+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34058865",
         "display_name": "Dr. Seuss' How the Grinch Stole Christmas (How the Grinch Stole Christmas) 4K CZ Dabing",
-        "planned_at": "2026-11-25T15:32:00.782052+00:00"
+        "planned_at": "2026-11-25T15:32:07.228245+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34058865",
+        "requested_at": "2026-11-25T15:32:10.361169+00:00"
       }
     },
     "4732": {
@@ -289883,5 +289895,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:32:00.782072+00:00"
+  "updated_at": "2026-11-25T15:32:10.361194+00:00"
 }
