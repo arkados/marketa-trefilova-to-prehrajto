@@ -246196,17 +246196,19 @@
       }
     },
     "28259": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29018483",
+          "target_video_id": "31356205",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:21:37.384030+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29018483",
         "display_name": "Witching & Bitching SD CZ Dabing",
         "planned_at": "2026-11-25T02:18:22.652956+00:00"
-      },
-      "claim": {
-        "worker_id": "d6ae360969ea4d159b40cb9aed92275f-shard-0",
-        "claimed_at": "2026-11-25T02:18:23.538320+00:00",
-        "lease_expires_at": "2026-11-25T08:18:23.538320+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356205",
       "prepared": {
@@ -279238,5 +279240,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:20:57.684891+00:00"
+  "updated_at": "2026-11-25T02:21:37.384052+00:00"
 }
