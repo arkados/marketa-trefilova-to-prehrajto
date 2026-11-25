@@ -267662,17 +267662,19 @@
       }
     },
     "14000": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6648925",
+          "target_video_id": "31382286",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:03:19.169963+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6648925",
         "display_name": "Mein Kampf SD CZ Dabing",
         "planned_at": "2026-11-25T21:02:03.744189+00:00"
-      },
-      "claim": {
-        "worker_id": "3504521245e246128df6a2b544bcf168-shard-0",
-        "claimed_at": "2026-11-25T21:02:04.329196+00:00",
-        "lease_expires_at": "2026-11-26T03:02:04.329196+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382286",
       "prepared": {
@@ -296216,5 +296218,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:03:13.720479+00:00"
+  "updated_at": "2026-11-25T21:03:19.169984+00:00"
 }
