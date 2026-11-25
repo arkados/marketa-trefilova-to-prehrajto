@@ -139344,7 +139344,7 @@
       "last_plan": {
         "source_id": "34715447",
         "display_name": "Snow White (O Sněhurce) (1972) SD CZ Dabing",
-        "planned_at": "2026-11-25T16:22:47.055564+00:00"
+        "planned_at": "2026-11-25T16:22:55.540541+00:00"
       },
       "previous_target_id": "30987931",
       "prepared": {
@@ -260353,11 +260353,23 @@
       }
     },
     "17308": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "19144012",
+          "reason": "Request failed for https://sdilej.cz/19144012/more-kouzel.-cz-dabing.mkv (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:22:58.247599+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19144012",
         "display_name": "Magic Arch 3D (Polnoe pogruzhenie) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T16:22:47.518018+00:00"
+        "planned_at": "2026-11-25T16:22:56.071182+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "19144012",
+        "requested_at": "2026-11-25T16:22:58.247582+00:00"
       }
     },
     "18970": {
@@ -290571,5 +290583,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:22:52.771307+00:00"
+  "updated_at": "2026-11-25T16:22:58.247605+00:00"
 }
