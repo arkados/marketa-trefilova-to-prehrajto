@@ -262288,17 +262288,19 @@
       "attempts": []
     },
     "11406": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29262050",
+          "target_video_id": "31376371",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:19:24.583330+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29262050",
         "display_name": "Race for the Yankee Zephyr 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:17:02.121317+00:00"
-      },
-      "claim": {
-        "worker_id": "2bba0cef90e84342ae9406aba5d2cd5d-shard-0",
-        "claimed_at": "2026-11-25T17:17:05.637133+00:00",
-        "lease_expires_at": "2026-11-25T23:17:05.637133+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376371",
       "prepared": {
@@ -292128,5 +292130,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:18:46.970718+00:00"
+  "updated_at": "2026-11-25T17:19:24.583348+00:00"
 }
