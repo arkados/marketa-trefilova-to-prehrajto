@@ -245648,17 +245648,19 @@
       }
     },
     "11520": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34085031",
+          "target_video_id": "31355314",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:30:34.857573+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34085031",
         "display_name": "Happy Easter (Joyeuses Pâques) 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:28:19.624861+00:00"
-      },
-      "claim": {
-        "worker_id": "5faf02a344c74d999048c06aa17f0f1b-shard-0",
-        "claimed_at": "2026-11-25T01:28:20.457768+00:00",
-        "lease_expires_at": "2026-11-25T07:28:20.457768+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355314",
       "prepared": {
@@ -278798,5 +278800,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:28:43.110644+00:00"
+  "updated_at": "2026-11-25T01:30:34.857593+00:00"
 }
