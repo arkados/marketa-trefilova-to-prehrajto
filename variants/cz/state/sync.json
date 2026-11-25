@@ -268161,17 +268161,19 @@
       "attempts": []
     },
     "4958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34159250",
+          "target_video_id": "31382980",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:30:54.056737+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34159250",
         "display_name": "Paradise (2023) 4K CZ Dabing",
         "planned_at": "2026-11-25T21:25:05.486595+00:00"
-      },
-      "claim": {
-        "worker_id": "01cf7ee414584071bf6fee8eb4b48785-shard-0",
-        "claimed_at": "2026-11-25T21:25:06.006643+00:00",
-        "lease_expires_at": "2026-11-26T03:25:06.006643+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382980",
       "prepared": {
@@ -296656,5 +296658,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:29:28.710376+00:00"
+  "updated_at": "2026-11-25T21:30:54.056757+00:00"
 }
