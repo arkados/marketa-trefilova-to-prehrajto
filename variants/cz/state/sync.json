@@ -258256,17 +258256,19 @@
       }
     },
     "4752": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33528346",
+          "target_video_id": "31372245",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:09:55.429468+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33528346",
         "display_name": "Friday the 13th (1980) 4K CZ Dabing",
         "planned_at": "2026-11-25T14:05:47.664260+00:00"
-      },
-      "claim": {
-        "worker_id": "e460852f133c44419f8a393667b12dbd-shard-0",
-        "claimed_at": "2026-11-25T14:05:48.596829+00:00",
-        "lease_expires_at": "2026-11-25T20:05:48.596829+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372245",
       "prepared": {
@@ -288871,5 +288873,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:08:24.045192+00:00"
+  "updated_at": "2026-11-25T14:09:55.429489+00:00"
 }
