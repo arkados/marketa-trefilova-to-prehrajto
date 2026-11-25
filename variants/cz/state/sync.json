@@ -125607,7 +125607,7 @@
       "last_plan": {
         "source_id": "4983288",
         "display_name": "Jar City SD CZ Dabing",
-        "planned_at": "2026-11-25T05:58:06.473758+00:00"
+        "planned_at": "2026-11-25T05:58:14.004074+00:00"
       },
       "previous_target_id": "30985832",
       "prepared": {
@@ -249689,17 +249689,19 @@
       }
     },
     "11034": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26313571",
+          "target_video_id": "31360239",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:58:15.671643+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26313571",
         "display_name": "Perched on a Tree (Sur un arbre perché) 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:53:34.896800+00:00"
-      },
-      "claim": {
-        "worker_id": "a37de37f0b114643bea9bbaf164f52ed-shard-0",
-        "claimed_at": "2026-11-25T05:53:35.810329+00:00",
-        "lease_expires_at": "2026-11-25T11:53:35.810329+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31360239",
       "prepared": {
@@ -249743,7 +249745,13 @@
       "last_plan": {
         "source_id": "34915398",
         "display_name": "Slaves of the Realm (Chained Sinners: Medieval Fleshpots) 720p CZ Dabing",
-        "planned_at": "2026-11-25T05:58:06.979736+00:00"
+        "planned_at": "2026-11-25T05:58:14.461657+00:00"
+      },
+      "claim": {
+        "worker_id": "b05a298f074f4514b4c2edd59c573311-shard-0",
+        "claimed_at": "2026-11-25T05:58:15.325588+00:00",
+        "lease_expires_at": "2026-11-25T11:58:15.325588+00:00",
+        "run_id": "45542333853"
       }
     },
     "15950": {
@@ -281919,5 +281927,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:58:06.979749+00:00"
+  "updated_at": "2026-11-25T05:58:15.671656+00:00"
 }
