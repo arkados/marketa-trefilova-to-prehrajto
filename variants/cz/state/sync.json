@@ -246595,17 +246595,19 @@
       }
     },
     "21428": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30699694",
+          "target_video_id": "31356897",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:51:08.440020+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30699694",
         "display_name": "The Kentuckian SD CZ Dabing",
         "planned_at": "2026-11-25T02:49:11.561165+00:00"
-      },
-      "claim": {
-        "worker_id": "fd41d4c28db64eaaa07dc407aecf2c8c-shard-0",
-        "claimed_at": "2026-11-25T02:49:12.176320+00:00",
-        "lease_expires_at": "2026-11-25T08:49:12.176320+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356897",
       "prepared": {
@@ -279545,5 +279547,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:51:03.922115+00:00"
+  "updated_at": "2026-11-25T02:51:08.440049+00:00"
 }
