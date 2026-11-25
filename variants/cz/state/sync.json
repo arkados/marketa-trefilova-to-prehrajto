@@ -246432,17 +246432,19 @@
       "attempts": []
     },
     "26483": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20326878",
+          "target_video_id": "31356587",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:39:15.015956+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20326878",
         "display_name": "Trader Games SD CZ Dabing",
         "planned_at": "2026-11-25T02:34:47.280974+00:00"
-      },
-      "claim": {
-        "worker_id": "200fc4f277db4bb5a71ab4130421bf39-shard-0",
-        "claimed_at": "2026-11-25T02:34:47.842018+00:00",
-        "lease_expires_at": "2026-11-25T08:34:47.842018+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356587",
       "prepared": {
@@ -279378,5 +279380,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:34:52.054008+00:00"
+  "updated_at": "2026-11-25T02:39:15.015980+00:00"
 }
