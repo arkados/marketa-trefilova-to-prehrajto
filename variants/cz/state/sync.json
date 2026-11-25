@@ -258573,17 +258573,19 @@
       }
     },
     "4665": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13601493",
+          "target_video_id": "31372687",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:36:49.787072+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13601493",
         "display_name": "He's Just Not That Into You 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:33:11.395121+00:00"
-      },
-      "claim": {
-        "worker_id": "605061b9988e4008b12c58a68dc2fcbe-shard-0",
-        "claimed_at": "2026-11-25T14:33:12.297392+00:00",
-        "lease_expires_at": "2026-11-25T20:33:12.297392+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372687",
       "prepared": {
@@ -289131,5 +289133,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:35:39.197767+00:00"
+  "updated_at": "2026-11-25T14:36:49.787092+00:00"
 }
