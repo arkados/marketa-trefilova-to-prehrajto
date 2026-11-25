@@ -256721,17 +256721,19 @@
       "attempts": []
     },
     "7967": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26060433",
+          "target_video_id": "31370121",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:50:31.687791+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26060433",
         "display_name": "Luna (2017) [ID 7967] 720p CZ Dabing",
         "planned_at": "2026-11-25T12:46:40.704787+00:00"
-      },
-      "claim": {
-        "worker_id": "a26f864c212049d3ac90d9e03db62142-shard-0",
-        "claimed_at": "2026-11-25T12:46:41.607541+00:00",
-        "lease_expires_at": "2026-11-25T18:46:41.607541+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370121",
       "prepared": {
@@ -287603,5 +287605,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:48:41.380817+00:00"
+  "updated_at": "2026-11-25T12:50:31.687808+00:00"
 }
