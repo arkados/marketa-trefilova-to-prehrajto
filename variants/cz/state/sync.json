@@ -251489,17 +251489,19 @@
       "attempts": []
     },
     "4981": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23753646",
+          "target_video_id": "31363520",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:16:25.074800+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23753646",
         "display_name": "Lost Bullet 2: Back for More (Balle perdue 2) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:12:01.073318+00:00"
-      },
-      "claim": {
-        "worker_id": "8ae2afae48614ae5b9acb64e1be9f8b9-shard-0",
-        "claimed_at": "2026-11-25T08:12:02.277300+00:00",
-        "lease_expires_at": "2026-11-25T14:12:02.277300+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363520",
       "prepared": {
@@ -283404,5 +283406,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:16:22.320895+00:00"
+  "updated_at": "2026-11-25T08:16:25.074817+00:00"
 }
