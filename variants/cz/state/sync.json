@@ -260377,17 +260377,19 @@
       }
     },
     "18970": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15688908",
+          "target_video_id": "31374927",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:25:52.228457+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15688908",
         "display_name": "Up for Love (Un homme à la hauteur) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:23:10.012759+00:00"
-      },
-      "claim": {
-        "worker_id": "d823819475894fe895ab26408d4cb89c-shard-0",
-        "claimed_at": "2026-11-25T16:23:10.805967+00:00",
-        "lease_expires_at": "2026-11-25T22:23:10.805967+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31374927",
       "prepared": {
@@ -290641,5 +290643,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:25:49.313230+00:00"
+  "updated_at": "2026-11-25T16:25:52.228479+00:00"
 }
