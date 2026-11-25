@@ -258846,17 +258846,19 @@
       "attempts": []
     },
     "14176": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30998148",
+          "target_video_id": "31372933",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:51:30.300402+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30998148",
         "display_name": "The Taking of Pelham 123 (The Taking of Pelham 1 2 3) 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:47:07.596906+00:00"
-      },
-      "claim": {
-        "worker_id": "125b48ab3588463dbbcd8344a02b2dd1-shard-0",
-        "claimed_at": "2026-11-25T14:47:08.694275+00:00",
-        "lease_expires_at": "2026-11-25T20:47:08.694275+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372933",
       "prepared": {
@@ -289362,5 +289364,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:49:09.275482+00:00"
+  "updated_at": "2026-11-25T14:51:30.300422+00:00"
 }
