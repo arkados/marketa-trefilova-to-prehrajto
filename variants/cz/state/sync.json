@@ -266110,17 +266110,19 @@
       "attempts": []
     },
     "9206": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27964193",
+          "target_video_id": "31380374",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:55:09.499228+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27964193",
         "display_name": "Moonbound (Peterchens Mondfahrt) 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:51:44.061783+00:00"
-      },
-      "claim": {
-        "worker_id": "ef8d9f23efbf492f8fceb4f1360c3053-shard-0",
-        "claimed_at": "2026-11-25T19:51:44.875166+00:00",
-        "lease_expires_at": "2026-11-26T01:51:44.875166+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380374",
       "prepared": {
@@ -295039,5 +295041,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:53:39.943147+00:00"
+  "updated_at": "2026-11-25T19:55:09.499248+00:00"
 }
