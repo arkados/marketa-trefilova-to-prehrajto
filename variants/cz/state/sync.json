@@ -253377,17 +253377,19 @@
       "attempts": []
     },
     "23638": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28485095",
+          "target_video_id": "31365814",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:47:44.231216+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28485095",
         "display_name": "Sabrina (1995) 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:44:35.048828+00:00"
-      },
-      "claim": {
-        "worker_id": "e2040c58966d4fea9b7940e6880e6275-shard-0",
-        "claimed_at": "2026-11-25T09:44:38.667628+00:00",
-        "lease_expires_at": "2026-11-25T15:44:38.667628+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365814",
       "prepared": {
@@ -284841,5 +284843,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:44:52.493872+00:00"
+  "updated_at": "2026-11-25T09:47:44.231234+00:00"
 }
