@@ -245529,17 +245529,19 @@
       }
     },
     "17420": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695995",
+          "target_video_id": "31355249",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:27:54.946394+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695995",
         "display_name": "Murder at the Mansion 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:24:29.564773+00:00"
-      },
-      "claim": {
-        "worker_id": "48f85f71f0414eae91eaad1bf2970af3-shard-0",
-        "claimed_at": "2026-11-25T01:24:30.171119+00:00",
-        "lease_expires_at": "2026-11-25T07:24:30.171119+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355249",
       "prepared": {
@@ -278738,5 +278740,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:25:47.021907+00:00"
+  "updated_at": "2026-11-25T01:27:54.946410+00:00"
 }
