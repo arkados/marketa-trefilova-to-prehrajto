@@ -248611,17 +248611,19 @@
       }
     },
     "32145": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714936",
+          "target_video_id": "31358778",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:40:40.464379+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714936",
         "display_name": "A Christmas Detour 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:37:17.805810+00:00"
-      },
-      "claim": {
-        "worker_id": "a5e8d97f2eeb4ef7a4a0d06545f11862-shard-0",
-        "claimed_at": "2026-11-25T04:37:18.678372+00:00",
-        "lease_expires_at": "2026-11-25T10:37:18.678372+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358778",
       "prepared": {
@@ -281095,5 +281097,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:40:32.086429+00:00"
+  "updated_at": "2026-11-25T04:40:40.464394+00:00"
 }
