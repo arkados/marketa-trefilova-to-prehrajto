@@ -249056,17 +249056,19 @@
       "attempts": []
     },
     "4609": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27009998",
+          "target_video_id": "31359168",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:03:46.713483+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27009998",
         "display_name": "Kajillionaire 720p CZ Dabing",
         "planned_at": "2026-11-25T04:58:26.083077+00:00"
-      },
-      "claim": {
-        "worker_id": "7dd32513866a4e92af9f7b4c28601c70-shard-0",
-        "claimed_at": "2026-11-25T04:58:26.903450+00:00",
-        "lease_expires_at": "2026-11-25T10:58:26.903450+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359168",
       "prepared": {
@@ -281435,5 +281437,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:03:41.021947+00:00"
+  "updated_at": "2026-11-25T05:03:46.713496+00:00"
 }
