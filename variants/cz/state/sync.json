@@ -266318,17 +266318,19 @@
       "attempts": []
     },
     "28979": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11222472",
+          "target_video_id": "31380534",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:04:38.615044+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11222472",
         "display_name": "Lost & Found (2016) 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:01:04.041985+00:00"
-      },
-      "claim": {
-        "worker_id": "db816eae827e43ca838cfff08685251f-shard-0",
-        "claimed_at": "2026-11-25T20:01:04.861558+00:00",
-        "lease_expires_at": "2026-11-26T02:01:04.861558+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380534",
       "prepared": {
@@ -295219,5 +295221,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:04:22.432070+00:00"
+  "updated_at": "2026-11-25T20:04:38.615070+00:00"
 }
