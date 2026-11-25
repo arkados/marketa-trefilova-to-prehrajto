@@ -264180,17 +264180,19 @@
       }
     },
     "27710": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11624261",
+          "target_video_id": "31378156",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:26:30.363353+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11624261",
         "display_name": "The Face of Love SD CZ Dabing",
         "planned_at": "2026-11-25T18:25:16.267685+00:00"
-      },
-      "claim": {
-        "worker_id": "094878a18e2d42dfbf640f5c6ef73a84-shard-0",
-        "claimed_at": "2026-11-25T18:25:17.078567+00:00",
-        "lease_expires_at": "2026-11-26T00:25:17.078567+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378156",
       "prepared": {
@@ -293556,5 +293558,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:26:10.135891+00:00"
+  "updated_at": "2026-11-25T18:26:30.363378+00:00"
 }
