@@ -267908,17 +267908,19 @@
       "attempts": []
     },
     "31627": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32364463",
+          "target_video_id": "31382687",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:16:29.014880+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32364463",
         "display_name": "Aileen: Queen of the Serial Killers 720p CZ Dabing",
         "planned_at": "2026-11-25T21:14:06.557319+00:00"
-      },
-      "claim": {
-        "worker_id": "74aa2e98fbc540439478f03931406a11-shard-0",
-        "claimed_at": "2026-11-25T21:14:07.216982+00:00",
-        "lease_expires_at": "2026-11-26T03:14:07.216982+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382687",
       "prepared": {
@@ -296396,5 +296398,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:15:23.879032+00:00"
+  "updated_at": "2026-11-25T21:16:29.014899+00:00"
 }
