@@ -266997,17 +266997,19 @@
       "attempts": []
     },
     "22987": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19360481",
+          "target_video_id": "31381332",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:32:11.904643+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19360481",
         "display_name": "Married to the Mob 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:29:39.474532+00:00"
-      },
-      "claim": {
-        "worker_id": "d7cb3cbcc93f4e798432201a137d33c2-shard-0",
-        "claimed_at": "2026-11-25T20:29:40.093303+00:00",
-        "lease_expires_at": "2026-11-26T02:29:40.093303+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381332",
       "prepared": {
@@ -295719,5 +295721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:31:09.847583+00:00"
+  "updated_at": "2026-11-25T20:32:11.904662+00:00"
 }
