@@ -254688,17 +254688,19 @@
       "attempts": []
     },
     "12113": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34440373",
+          "target_video_id": "31367050",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:04:08.800977+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34440373",
         "display_name": "The Three Musketeers (1993) 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:48:26.303389+00:00"
-      },
-      "claim": {
-        "worker_id": "495a59eab44748b3b5b836bb6b015573-shard-0",
-        "claimed_at": "2026-11-25T10:48:27.232212+00:00",
-        "lease_expires_at": "2026-11-25T16:48:27.232212+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31367050",
       "prepared": {
@@ -286046,5 +286048,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:02:50.748071+00:00"
+  "updated_at": "2026-11-25T11:04:08.800993+00:00"
 }
