@@ -251330,17 +251330,19 @@
       }
     },
     "4699": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34905453",
+          "target_video_id": "31363275",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:08:11.481446+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34905453",
         "display_name": "Dirty Work 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:03:23.193283+00:00"
-      },
-      "claim": {
-        "worker_id": "7342208e3d22497e8c58c1e66f85d50c-shard-0",
-        "claimed_at": "2026-11-25T08:03:24.147531+00:00",
-        "lease_expires_at": "2026-11-25T14:03:24.147531+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363275",
       "prepared": {
@@ -283264,5 +283266,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:07:35.353631+00:00"
+  "updated_at": "2026-11-25T08:08:11.481464+00:00"
 }
