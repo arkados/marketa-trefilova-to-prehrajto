@@ -246754,17 +246754,19 @@
       }
     },
     "15618": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694028",
+          "target_video_id": "31356953",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:55:44.649484+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694028",
         "display_name": "Triumph (Triumf) 1080p CZ Dabing",
         "planned_at": "2026-11-25T02:52:30.783229+00:00"
-      },
-      "claim": {
-        "worker_id": "6b08965cda0d49ba8e9e8c62d49b8ca1-shard-0",
-        "claimed_at": "2026-11-25T02:52:31.316100+00:00",
-        "lease_expires_at": "2026-11-25T08:52:31.316100+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356953",
       "prepared": {
@@ -279658,5 +279660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:54:42.387600+00:00"
+  "updated_at": "2026-11-25T02:55:44.649505+00:00"
 }
