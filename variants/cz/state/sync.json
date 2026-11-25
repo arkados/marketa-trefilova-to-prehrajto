@@ -260311,17 +260311,19 @@
       }
     },
     "7347": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33957408",
+          "target_video_id": "31374903",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:23:20.042422+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33957408",
         "display_name": "Barbie: Dolphin Magic SD CZ Dabing",
         "planned_at": "2026-11-25T16:22:23.159484+00:00"
-      },
-      "claim": {
-        "worker_id": "fee36f6f905c45729dcc5f34a99054c9-shard-0",
-        "claimed_at": "2026-11-25T16:22:23.969156+00:00",
-        "lease_expires_at": "2026-11-25T22:22:23.969156+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31374903",
       "prepared": {
@@ -290601,5 +290603,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:23:15.470303+00:00"
+  "updated_at": "2026-11-25T16:23:20.042443+00:00"
 }
