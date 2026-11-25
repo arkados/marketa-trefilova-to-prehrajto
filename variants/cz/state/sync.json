@@ -268539,17 +268539,19 @@
       }
     },
     "13124": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29834161",
+          "target_video_id": "31383440",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:43:56.345145+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29834161",
         "display_name": "Virtual Weapon 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:42:16.337240+00:00"
-      },
-      "claim": {
-        "worker_id": "4bc8b5250b494727b33786c67348f57b-shard-0",
-        "claimed_at": "2026-11-25T21:42:16.911918+00:00",
-        "lease_expires_at": "2026-11-26T03:42:16.911918+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383440",
       "prepared": {
@@ -296913,5 +296915,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:43:37.441083+00:00"
+  "updated_at": "2026-11-25T21:43:56.345163+00:00"
 }
