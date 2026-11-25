@@ -244869,17 +244869,19 @@
       }
     },
     "4550": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34596270",
+          "target_video_id": "31354625",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:55:44.402063+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34596270",
         "display_name": "You Won't Be Alone 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:51:57.668720+00:00"
-      },
-      "claim": {
-        "worker_id": "7fcaae99d42e4f6099bc1fa466a36039-shard-0",
-        "claimed_at": "2026-11-25T00:51:58.298114+00:00",
-        "lease_expires_at": "2026-11-25T06:51:58.298114+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354625",
       "prepared": {
@@ -278234,5 +278236,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:53:55.594591+00:00"
+  "updated_at": "2026-11-25T00:55:44.402087+00:00"
 }
