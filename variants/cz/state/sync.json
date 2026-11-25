@@ -270043,17 +270043,19 @@
       "attempts": []
     },
     "15058": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28505368",
+          "target_video_id": "31385847",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:19:45.755428+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28505368",
         "display_name": "Flypaper 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:16:01.706910+00:00"
-      },
-      "claim": {
-        "worker_id": "4a25e6abeefa4f4c8a4a43119c1923e4-shard-0",
-        "claimed_at": "2026-11-25T23:16:04.080983+00:00",
-        "lease_expires_at": "2026-11-26T05:16:04.080983+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385847",
       "prepared": {
@@ -298147,5 +298149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:19:43.079338+00:00"
+  "updated_at": "2026-11-25T23:19:45.755443+00:00"
 }
