@@ -270635,17 +270635,19 @@
       }
     },
     "14514": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6163764",
+          "target_video_id": "31386484",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:45:43.155304+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6163764",
         "display_name": "Coming Soon (opraekrmhna wiyyanoakhat) SD CZ Dabing",
         "planned_at": "2026-11-25T23:44:44.577108+00:00"
-      },
-      "claim": {
-        "worker_id": "404ccb73f43448ff87e8e7264e93294d-shard-0",
-        "claimed_at": "2026-11-25T23:44:45.087661+00:00",
-        "lease_expires_at": "2026-11-26T05:44:45.087661+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386484",
       "prepared": {
@@ -298567,5 +298569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:45:20.759346+00:00"
+  "updated_at": "2026-11-25T23:45:43.155322+00:00"
 }
