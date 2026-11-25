@@ -264087,17 +264087,19 @@
       "attempts": []
     },
     "11168": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34633565",
+          "target_video_id": "31378048",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:25:54.655172+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34633565",
         "display_name": "Funny Lady 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:21:43.241599+00:00"
-      },
-      "claim": {
-        "worker_id": "3a3885168288494184ea210ac43b77d0-shard-0",
-        "claimed_at": "2026-11-25T18:21:44.082356+00:00",
-        "lease_expires_at": "2026-11-26T00:21:44.082356+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378048",
       "prepared": {
@@ -293536,5 +293538,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:25:21.019531+00:00"
+  "updated_at": "2026-11-25T18:25:54.655192+00:00"
 }
