@@ -268944,17 +268944,19 @@
       "attempts": []
     },
     "4939": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34902147",
+          "target_video_id": "31383883",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:02:05.467079+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34902147",
         "display_name": "Chicken Run: Dawn of the Nugget 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:59:24.703026+00:00"
-      },
-      "claim": {
-        "worker_id": "e0927977279c41c8b43d298b0692f345-shard-0",
-        "claimed_at": "2026-11-25T21:59:25.270042+00:00",
-        "lease_expires_at": "2026-11-26T03:59:25.270042+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383883",
       "prepared": {
@@ -297233,5 +297235,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:01:36.532158+00:00"
+  "updated_at": "2026-11-25T22:02:05.467099+00:00"
 }
