@@ -23487,17 +23487,19 @@
       "attempts": []
     },
     "16835": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31885956",
+          "target_video_id": "31385321",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:01:29.243023+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31885956",
         "display_name": "Hotel Mumbai 720p CZ Dabing",
         "planned_at": "2026-11-25T22:57:23.338762+00:00"
-      },
-      "claim": {
-        "worker_id": "1b82c73d86eb4629af45b9ebd3f7c4e5-shard-0",
-        "claimed_at": "2026-11-25T22:57:23.869447+00:00",
-        "lease_expires_at": "2026-11-26T04:57:23.869447+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385321",
       "prepared": {
@@ -297890,5 +297892,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:00:30.386603+00:00"
+  "updated_at": "2026-11-25T23:01:29.243043+00:00"
 }
