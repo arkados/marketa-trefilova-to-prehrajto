@@ -256029,17 +256029,19 @@
       }
     },
     "4702": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33541625",
+          "target_video_id": "31369296",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:16:41.974174+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33541625",
         "display_name": "The Mountain Between Us 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:14:18.806649+00:00"
-      },
-      "claim": {
-        "worker_id": "03868f06d1b5493d94965e86b0bd7922-shard-0",
-        "claimed_at": "2026-11-25T12:14:19.714413+00:00",
-        "lease_expires_at": "2026-11-25T18:14:19.714413+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369296",
       "prepared": {
@@ -286983,5 +286985,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:14:24.010934+00:00"
+  "updated_at": "2026-11-25T12:16:41.974197+00:00"
 }
