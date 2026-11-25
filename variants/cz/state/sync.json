@@ -255420,17 +255420,19 @@
       }
     },
     "24048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34195103",
+          "target_video_id": "31368215",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:36:09.781852+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34195103",
         "display_name": "The Messenger: The Story of Joan of Arc 1080p CZ Dabing",
         "planned_at": "2026-11-25T11:32:25.890742+00:00"
-      },
-      "claim": {
-        "worker_id": "4db576970ee64f18ae2aff4e289d002f-shard-0",
-        "claimed_at": "2026-11-25T11:32:26.903820+00:00",
-        "lease_expires_at": "2026-11-25T17:32:26.903820+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31368215",
       "prepared": {
@@ -286503,5 +286505,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:35:25.665007+00:00"
+  "updated_at": "2026-11-25T11:36:09.781869+00:00"
 }
