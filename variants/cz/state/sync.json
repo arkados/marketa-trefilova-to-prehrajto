@@ -252677,17 +252677,19 @@
       }
     },
     "25580": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27550647",
+          "target_video_id": "31364916",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:07:06.682447+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27550647",
         "display_name": "Taking Five (Taking 5) SD CZ Dabing",
         "planned_at": "2026-11-25T09:06:13.972435+00:00"
-      },
-      "claim": {
-        "worker_id": "4757605882be4c99baf9bda3bbdcc272-shard-0",
-        "claimed_at": "2026-11-25T09:06:14.970562+00:00",
-        "lease_expires_at": "2026-11-25T15:06:14.970562+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364916",
       "prepared": {
@@ -284261,5 +284263,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:06:18.763510+00:00"
+  "updated_at": "2026-11-25T09:07:06.682463+00:00"
 }
