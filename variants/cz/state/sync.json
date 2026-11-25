@@ -256357,17 +256357,19 @@
       }
     },
     "16266": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30115257",
+          "target_video_id": "31369711",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:30:52.846528+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30115257",
         "display_name": "All I Want for Christmas 720p CZ Dabing",
         "planned_at": "2026-11-25T12:29:00.753560+00:00"
-      },
-      "claim": {
-        "worker_id": "5408aa6ac034431fa00f7dc1dd5872e7-shard-0",
-        "claimed_at": "2026-11-25T12:29:01.640280+00:00",
-        "lease_expires_at": "2026-11-25T18:29:01.640280+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369711",
       "prepared": {
@@ -287263,5 +287265,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:29:07.018201+00:00"
+  "updated_at": "2026-11-25T12:30:52.846548+00:00"
 }
