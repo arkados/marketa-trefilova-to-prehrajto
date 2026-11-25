@@ -244185,17 +244185,19 @@
       }
     },
     "17587": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27412106",
+          "target_video_id": "31353800",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:16:24.378665+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27412106",
         "display_name": "Life as It Should Be (Alles is zoals het zou moeten zijn) 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:05:23.475494+00:00"
-      },
-      "claim": {
-        "worker_id": "ffe47b6a88514883a53e0a87b5dc5a8d-shard-0",
-        "claimed_at": "2026-11-25T00:05:24.293344+00:00",
-        "lease_expires_at": "2026-11-25T06:05:24.293344+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353800",
       "prepared": {
@@ -277734,5 +277736,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:15:01.166003+00:00"
+  "updated_at": "2026-11-25T00:16:24.378688+00:00"
 }
