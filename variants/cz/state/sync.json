@@ -143017,7 +143017,7 @@
       "last_plan": {
         "source_id": "34911160",
         "display_name": "Murders in Brouage (Les Mystères des majorettes) SD CZ Dabing",
-        "planned_at": "2026-11-25T10:48:02.402832+00:00"
+        "planned_at": "2026-11-25T10:48:08.403873+00:00"
       },
       "previous_target_id": "30988583",
       "prepared": {
@@ -254658,11 +254658,23 @@
       "attempts": []
     },
     "31843": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34083064",
+          "reason": "Source detail has no authenticated download link; source_id=34083064",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:48:12.633210+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34083064",
         "display_name": "Mee-Shee: The Water Giant SD CZ Dabing",
-        "planned_at": "2026-11-25T10:48:02.934632+00:00"
+        "planned_at": "2026-11-25T10:48:08.965109+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34083064",
+        "requested_at": "2026-11-25T10:48:12.633195+00:00"
       }
     },
     "7258": {
@@ -285836,5 +285848,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:48:02.934661+00:00"
+  "updated_at": "2026-11-25T10:48:12.633217+00:00"
 }
