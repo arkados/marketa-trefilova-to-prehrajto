@@ -265919,17 +265919,19 @@
       "attempts": []
     },
     "28237": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12134515",
+          "target_video_id": "31380151",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:45:50.198261+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12134515",
         "display_name": "1 Chance 2 Dance SD CZ Dabing",
         "planned_at": "2026-11-25T19:42:15.896651+00:00"
-      },
-      "claim": {
-        "worker_id": "bf22a49b9758475abc6b0d712a49546a-shard-0",
-        "claimed_at": "2026-11-25T19:42:16.685654+00:00",
-        "lease_expires_at": "2026-11-26T01:42:16.685654+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380151",
       "prepared": {
@@ -294899,5 +294901,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:45:33.531688+00:00"
+  "updated_at": "2026-11-25T19:45:50.198282+00:00"
 }
