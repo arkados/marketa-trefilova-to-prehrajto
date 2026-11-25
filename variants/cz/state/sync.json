@@ -256529,17 +256529,19 @@
       "attempts": []
     },
     "4579": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659016",
+          "target_video_id": "31369825",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:38:30.681942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659016",
         "display_name": "Army of Thieves 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:35:51.491118+00:00"
-      },
-      "claim": {
-        "worker_id": "45c77dd306234ae69608fb505f6a94e1-shard-0",
-        "claimed_at": "2026-11-25T12:35:52.527225+00:00",
-        "lease_expires_at": "2026-11-25T18:35:52.527225+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369825",
       "prepared": {
@@ -287423,5 +287425,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:37:49.469472+00:00"
+  "updated_at": "2026-11-25T12:38:30.681967+00:00"
 }
