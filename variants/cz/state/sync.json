@@ -255445,17 +255445,19 @@
       }
     },
     "5026": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18546207",
+          "target_video_id": "31368276",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:40:43.653544+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18546207",
         "display_name": "Stuck Together (8 Rue de l'Humanité) 1080p CZ Dabing",
         "planned_at": "2026-11-25T11:35:19.901900+00:00"
-      },
-      "claim": {
-        "worker_id": "ee850a1debb4453092881b99345d8ee4-shard-0",
-        "claimed_at": "2026-11-25T11:35:21.362319+00:00",
-        "lease_expires_at": "2026-11-25T17:35:21.362319+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31368276",
       "prepared": {
@@ -286543,5 +286545,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:38:16.995185+00:00"
+  "updated_at": "2026-11-25T11:40:43.653561+00:00"
 }
