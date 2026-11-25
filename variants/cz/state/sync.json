@@ -269820,17 +269820,19 @@
       "attempts": []
     },
     "4891": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29890956",
+          "target_video_id": "31385448",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:11:32.713812+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29890956",
         "display_name": "Descendants 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:01:43.993468+00:00"
-      },
-      "claim": {
-        "worker_id": "259a4a0e93714981af154d31ce3e6a85-shard-0",
-        "claimed_at": "2026-11-25T23:01:44.507344+00:00",
-        "lease_expires_at": "2026-11-26T05:01:44.507344+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385448",
       "prepared": {
@@ -297990,5 +297992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:11:27.422303+00:00"
+  "updated_at": "2026-11-25T23:11:32.713829+00:00"
 }
