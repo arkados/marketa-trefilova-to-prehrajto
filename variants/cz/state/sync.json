@@ -258688,17 +258688,19 @@
       "attempts": []
     },
     "4855": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26237011",
+          "target_video_id": "31372807",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:42:17.204198+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26237011",
         "display_name": "The Woman in Black 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:39:47.651378+00:00"
-      },
-      "claim": {
-        "worker_id": "0f1f66ffa6db4a2e9b4134e3a79719b2-shard-0",
-        "claimed_at": "2026-11-25T14:39:48.577600+00:00",
-        "lease_expires_at": "2026-11-25T20:39:48.577600+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372807",
       "prepared": {
@@ -289228,5 +289230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:40:45.705358+00:00"
+  "updated_at": "2026-11-25T14:42:17.204218+00:00"
 }
