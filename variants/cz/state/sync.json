@@ -258138,17 +258138,19 @@
       }
     },
     "12389": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29570169",
+          "target_video_id": "31372075",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:00:37.484583+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29570169",
         "display_name": "My Best Friend's Wedding 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:57:32.127909+00:00"
-      },
-      "claim": {
-        "worker_id": "1339ee1590f14955a66a0e9c4cfe32c0-shard-0",
-        "claimed_at": "2026-11-25T13:57:37.150696+00:00",
-        "lease_expires_at": "2026-11-25T19:57:37.150696+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372075",
       "prepared": {
@@ -288778,5 +288780,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:00:31.219376+00:00"
+  "updated_at": "2026-11-25T14:00:37.484649+00:00"
 }
