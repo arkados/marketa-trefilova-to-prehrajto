@@ -265163,17 +265163,19 @@
       }
     },
     "15961": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694400",
+          "target_video_id": "31379314",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:14:13.010819+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694400",
         "display_name": "Bonjour Tristesse 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:11:03.078688+00:00"
-      },
-      "claim": {
-        "worker_id": "5f892a7806d7427e93dc4912cde9395d-shard-0",
-        "claimed_at": "2026-11-25T19:11:08.033547+00:00",
-        "lease_expires_at": "2026-11-26T01:11:08.033547+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379314",
       "prepared": {
@@ -294331,5 +294333,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:14:10.164249+00:00"
+  "updated_at": "2026-11-25T19:14:13.010844+00:00"
 }
