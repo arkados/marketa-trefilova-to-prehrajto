@@ -249470,17 +249470,19 @@
       "attempts": []
     },
     "4443": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30898255",
+          "target_video_id": "31359910",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:41:47.295118+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30898255",
         "display_name": "Maria (2024) 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:36:19.440005+00:00"
-      },
-      "claim": {
-        "worker_id": "22fb325fb28746a4b3c05102c2fa7af7-shard-0",
-        "claimed_at": "2026-11-25T05:36:20.316264+00:00",
-        "lease_expires_at": "2026-11-25T11:36:20.316264+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359910",
       "prepared": {
@@ -281732,5 +281734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:37:12.321184+00:00"
+  "updated_at": "2026-11-25T05:41:47.295131+00:00"
 }
