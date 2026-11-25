@@ -259384,17 +259384,19 @@
       "attempts": []
     },
     "4799": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34355554",
+          "target_video_id": "31373491",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:27:35.575736+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34355554",
         "display_name": "Minions 4K CZ Dabing",
         "planned_at": "2026-11-25T15:22:57.592384+00:00"
-      },
-      "claim": {
-        "worker_id": "88bef4a71aa44165835fc222fdc9c73d-shard-0",
-        "claimed_at": "2026-11-25T15:22:58.542174+00:00",
-        "lease_expires_at": "2026-11-25T21:22:58.542174+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373491",
       "prepared": {
@@ -289816,5 +289818,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:25:02.654293+00:00"
+  "updated_at": "2026-11-25T15:27:35.575758+00:00"
 }
