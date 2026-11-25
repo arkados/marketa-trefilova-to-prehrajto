@@ -270774,17 +270774,19 @@
       }
     },
     "14005": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24714855",
+          "target_video_id": "31386661",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:53:46.266759+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24714855",
         "display_name": "Serial (Bad) Weddings 3 (Qu'est-ce qu'on a tous fait au Bon Dieu ?) SD CZ Dabing",
         "planned_at": "2026-11-25T23:51:20.010727+00:00"
-      },
-      "claim": {
-        "worker_id": "7ab4ed1458ce448b9379aaaaf974c2b5-shard-0",
-        "claimed_at": "2026-11-25T23:51:20.577985+00:00",
-        "lease_expires_at": "2026-11-26T05:51:20.577985+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386661",
       "prepared": {
@@ -298649,5 +298651,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:53:40.396288+00:00"
+  "updated_at": "2026-11-25T23:53:46.266777+00:00"
 }
