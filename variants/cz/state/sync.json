@@ -266462,17 +266462,19 @@
       "attempts": []
     },
     "5319": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31921096",
+          "target_video_id": "31380685",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:11:05.949015+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31921096",
         "display_name": "French Lover 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:07:16.060053+00:00"
-      },
-      "claim": {
-        "worker_id": "e6ec4396134a43c2bc3a5cd1288a57b8-shard-0",
-        "claimed_at": "2026-11-25T20:07:16.897432+00:00",
-        "lease_expires_at": "2026-11-26T02:07:16.897432+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380685",
       "prepared": {
@@ -295359,5 +295361,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:10:29.730919+00:00"
+  "updated_at": "2026-11-25T20:11:05.949036+00:00"
 }
