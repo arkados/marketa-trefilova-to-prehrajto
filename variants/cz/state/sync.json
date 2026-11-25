@@ -265239,17 +265239,19 @@
       "attempts": []
     },
     "4429": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33257455",
+          "target_video_id": "31379389",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:17:24.978171+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33257455",
         "display_name": "Ginger Snaps 2: Unleashed 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:14:21.955178+00:00"
-      },
-      "claim": {
-        "worker_id": "c718c86c9fc0449cbcf3cd6232aa90e2-shard-0",
-        "claimed_at": "2026-11-25T19:14:23.414437+00:00",
-        "lease_expires_at": "2026-11-26T01:14:23.414437+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379389",
       "prepared": {
@@ -294389,5 +294391,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:17:11.448897+00:00"
+  "updated_at": "2026-11-25T19:17:24.978191+00:00"
 }
