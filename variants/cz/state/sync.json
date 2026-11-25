@@ -143074,7 +143074,7 @@
       "last_plan": {
         "source_id": "34953142",
         "display_name": "Les Mystères de la Chorale SD CZ Dabing",
-        "planned_at": "2026-11-25T17:05:08.514363+00:00"
+        "planned_at": "2026-11-25T17:05:18.803973+00:00"
       },
       "previous_target_id": "30988584",
       "prepared": {
@@ -261900,11 +261900,23 @@
       "attempts": []
     },
     "28740": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "22206443",
+          "reason": "Request failed for https://sdilej.cz/22206443/dokonale-stesti.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:05:22.095039+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22206443",
         "display_name": "Lucky in Love SD CZ Dabing",
-        "planned_at": "2026-11-25T17:05:08.970133+00:00"
+        "planned_at": "2026-11-25T17:05:19.253802+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "22206443",
+        "requested_at": "2026-11-25T17:05:22.095021+00:00"
       }
     },
     "17369": {
@@ -291764,5 +291776,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:05:14.571256+00:00"
+  "updated_at": "2026-11-25T17:05:22.095043+00:00"
 }
