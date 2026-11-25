@@ -269887,17 +269887,19 @@
       "attempts": []
     },
     "13798": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22519664",
+          "target_video_id": "31385544",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:13:13.766144+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22519664",
         "display_name": "Sleuth (2007) 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:03:46.784695+00:00"
-      },
-      "claim": {
-        "worker_id": "6b4cdb66e2fa49178ec032cd26560c9c-shard-0",
-        "claimed_at": "2026-11-25T23:03:47.314721+00:00",
-        "lease_expires_at": "2026-11-26T05:03:47.314721+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385544",
       "prepared": {
@@ -298010,5 +298012,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:11:49.952557+00:00"
+  "updated_at": "2026-11-25T23:13:13.766161+00:00"
 }
