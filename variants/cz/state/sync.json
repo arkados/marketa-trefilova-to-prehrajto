@@ -252387,17 +252387,19 @@
       "attempts": []
     },
     "14548": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6960903",
+          "target_video_id": "31364462",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:53:29.362844+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6960903",
         "display_name": "My Fake Fiancé (My Fake Fiance) SD CZ Dabing",
         "planned_at": "2026-11-25T08:52:15.422706+00:00"
-      },
-      "claim": {
-        "worker_id": "3da58f360f56479582cd3563cb93db13-shard-0",
-        "claimed_at": "2026-11-25T08:52:16.397091+00:00",
-        "lease_expires_at": "2026-11-25T14:52:16.397091+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364462",
       "prepared": {
@@ -284064,5 +284066,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:52:43.979110+00:00"
+  "updated_at": "2026-11-25T08:53:29.362858+00:00"
 }
