@@ -260207,17 +260207,19 @@
       "attempts": []
     },
     "5065": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34376320",
+          "target_video_id": "31374770",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:21:01.975454+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34376320",
         "display_name": "Proxima 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:18:03.683242+00:00"
-      },
-      "claim": {
-        "worker_id": "5923253569f04ef898fb74d3626ccf68-shard-0",
-        "claimed_at": "2026-11-25T16:18:04.463098+00:00",
-        "lease_expires_at": "2026-11-25T22:18:04.463098+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31374770",
       "prepared": {
@@ -290504,5 +290506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:20:44.953125+00:00"
+  "updated_at": "2026-11-25T16:21:01.975474+00:00"
 }
