@@ -266630,17 +266630,19 @@
       "attempts": []
     },
     "7272": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17328077",
+          "target_video_id": "31380815",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:14:12.335331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17328077",
         "display_name": "Double Dad (Pai em Dobro) 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:11:29.281832+00:00"
-      },
-      "claim": {
-        "worker_id": "bbee7f910db14d58afcf7847ad39665b-shard-0",
-        "claimed_at": "2026-11-25T20:11:30.094745+00:00",
-        "lease_expires_at": "2026-11-26T02:11:30.094745+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380815",
       "prepared": {
@@ -295439,5 +295441,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:13:37.262984+00:00"
+  "updated_at": "2026-11-25T20:14:12.335351+00:00"
 }
