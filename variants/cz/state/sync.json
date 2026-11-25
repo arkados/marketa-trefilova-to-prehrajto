@@ -266685,17 +266685,19 @@
       "attempts": []
     },
     "29497": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29814285",
+          "target_video_id": "31380884",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:15:04.608789+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29814285",
         "display_name": "A Family for the Holidays (A Wedding Wonderland) SD CZ Dabing",
         "planned_at": "2026-11-25T20:13:31.906023+00:00"
-      },
-      "claim": {
-        "worker_id": "bfe74a2ae7fa4bebb4fce21d539c1467-shard-0",
-        "claimed_at": "2026-11-25T20:13:32.720292+00:00",
-        "lease_expires_at": "2026-11-26T02:13:32.720292+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380884",
       "prepared": {
@@ -295479,5 +295481,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:14:41.375421+00:00"
+  "updated_at": "2026-11-25T20:15:04.608819+00:00"
 }
