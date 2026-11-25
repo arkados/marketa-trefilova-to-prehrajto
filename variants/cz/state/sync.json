@@ -259567,17 +259567,19 @@
       }
     },
     "4767": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17900511",
+          "target_video_id": "31373698",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:36:59.066540+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17900511",
         "display_name": "Now You See Me 2 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:33:19.123871+00:00"
-      },
-      "claim": {
-        "worker_id": "4fbaacbeb10e409498c50ec79cb2aa36-shard-0",
-        "claimed_at": "2026-11-25T15:33:20.033904+00:00",
-        "lease_expires_at": "2026-11-25T21:33:20.033904+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373698",
       "prepared": {
@@ -289990,5 +289992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:36:36.586005+00:00"
+  "updated_at": "2026-11-25T15:36:59.066562+00:00"
 }
