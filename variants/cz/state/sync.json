@@ -249030,17 +249030,19 @@
       }
     },
     "16494": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21443872",
+          "target_video_id": "31359147",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:03:23.443686+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21443872",
         "display_name": "My Boyfriends' Dogs 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:57:28.616290+00:00"
-      },
-      "claim": {
-        "worker_id": "5d2aae5bcf884bbca498c614b0a0aa24-shard-0",
-        "claimed_at": "2026-11-25T04:57:29.514895+00:00",
-        "lease_expires_at": "2026-11-25T10:57:29.514895+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359147",
       "prepared": {
@@ -281415,5 +281417,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:01:39.948745+00:00"
+  "updated_at": "2026-11-25T05:03:23.443700+00:00"
 }
