@@ -266390,17 +266390,19 @@
       "attempts": []
     },
     "23853": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34809640",
+          "target_video_id": "31380611",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:07:34.922217+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34809640",
         "display_name": "Red Corner 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:04:17.858080+00:00"
-      },
-      "claim": {
-        "worker_id": "0a8d81dbc57a4377800e1b1b378c1b3e-shard-0",
-        "claimed_at": "2026-11-25T20:04:18.676318+00:00",
-        "lease_expires_at": "2026-11-26T02:04:18.676318+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380611",
       "prepared": {
@@ -295279,5 +295281,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:07:22.075938+00:00"
+  "updated_at": "2026-11-25T20:07:34.922239+00:00"
 }
