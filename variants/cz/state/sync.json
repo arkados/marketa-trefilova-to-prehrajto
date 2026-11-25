@@ -244227,17 +244227,19 @@
       }
     },
     "4474": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33866639",
+          "target_video_id": "31353914",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:14:35.216284+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33866639",
         "display_name": "The Three Musketeers: Milady (Les Trois Mousquetaires : Milady) 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:10:29.088795+00:00"
-      },
-      "claim": {
-        "worker_id": "a76747b7fba74ed6b7349a56732e6990-shard-0",
-        "claimed_at": "2026-11-25T00:10:29.743717+00:00",
-        "lease_expires_at": "2026-11-25T06:10:29.743717+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353914",
       "prepared": {
@@ -277694,5 +277696,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:10:34.068816+00:00"
+  "updated_at": "2026-11-25T00:14:35.216305+00:00"
 }
