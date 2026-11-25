@@ -266261,17 +266261,19 @@
       }
     },
     "15089": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25016209",
+          "target_video_id": "31380507",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:00:52.740665+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25016209",
         "display_name": "Country Strong SD CZ Dabing",
         "planned_at": "2026-11-25T19:59:23.375814+00:00"
-      },
-      "claim": {
-        "worker_id": "0be116b9d7af4ce7adb116da64f27a5d-shard-0",
-        "claimed_at": "2026-11-25T19:59:24.226097+00:00",
-        "lease_expires_at": "2026-11-26T01:59:24.226097+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380507",
       "prepared": {
@@ -295139,5 +295141,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:59:42.670925+00:00"
+  "updated_at": "2026-11-25T20:00:52.740686+00:00"
 }
