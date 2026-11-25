@@ -259035,17 +259035,19 @@
       }
     },
     "20052": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32932290",
+          "target_video_id": "31373148",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:04:36.080567+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32932290",
         "display_name": "Pain & Gain 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:01:13.003250+00:00"
-      },
-      "claim": {
-        "worker_id": "bd375d3c84e94f1a8b5af44477368dc3-shard-0",
-        "claimed_at": "2026-11-25T15:01:13.906153+00:00",
-        "lease_expires_at": "2026-11-25T21:01:13.906153+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373148",
       "prepared": {
@@ -289542,5 +289544,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:03:29.905010+00:00"
+  "updated_at": "2026-11-25T15:04:36.080588+00:00"
 }
