@@ -258440,17 +258440,19 @@
       }
     },
     "24563": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30970529",
+          "target_video_id": "31372543",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:28:48.485778+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30970529",
         "display_name": "The Princess Diaries 4K CZ Dabing",
         "planned_at": "2026-11-25T14:23:44.015329+00:00"
-      },
-      "claim": {
-        "worker_id": "05de80b3dccf4005abc6f2affbef754f-shard-0",
-        "claimed_at": "2026-11-25T14:23:44.911056+00:00",
-        "lease_expires_at": "2026-11-25T20:23:44.911056+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372543",
       "prepared": {
@@ -289031,5 +289033,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:24:33.634361+00:00"
+  "updated_at": "2026-11-25T14:28:48.485805+00:00"
 }
