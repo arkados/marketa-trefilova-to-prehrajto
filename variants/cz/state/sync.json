@@ -258519,17 +258519,19 @@
       "attempts": []
     },
     "4748": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33603006",
+          "target_video_id": "31372636",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:32:27.080086+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33603006",
         "display_name": "Monsters vs. Aliens (Monsters vs Aliens) 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:30:06.352554+00:00"
-      },
-      "claim": {
-        "worker_id": "796372f396b34fc9a9d43cb733047575-shard-0",
-        "claimed_at": "2026-11-25T14:30:07.217593+00:00",
-        "lease_expires_at": "2026-11-25T20:30:07.217593+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372636",
       "prepared": {
@@ -289071,5 +289073,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:30:11.676433+00:00"
+  "updated_at": "2026-11-25T14:32:27.080106+00:00"
 }
