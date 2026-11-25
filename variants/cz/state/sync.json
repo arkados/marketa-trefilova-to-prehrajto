@@ -268784,17 +268784,19 @@
       }
     },
     "22031": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34497929",
+          "target_video_id": "31383743",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:56:35.912351+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34497929",
         "display_name": "Adiós, Sabata 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:53:36.962235+00:00"
-      },
-      "claim": {
-        "worker_id": "6110caa46468471eb97a48d3ab3fbadb-shard-0",
-        "claimed_at": "2026-11-25T21:53:37.431929+00:00",
-        "lease_expires_at": "2026-11-26T03:53:37.431929+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383743",
       "prepared": {
@@ -297133,5 +297135,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:56:33.211958+00:00"
+  "updated_at": "2026-11-25T21:56:35.912371+00:00"
 }
