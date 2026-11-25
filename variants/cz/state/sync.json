@@ -247066,17 +247066,19 @@
       "attempts": []
     },
     "11780": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29833105",
+          "target_video_id": "31357165",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:09:58.381067+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29833105",
         "display_name": "They Call Me Renegade (Renegade) 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:05:07.367748+00:00"
-      },
-      "claim": {
-        "worker_id": "e9d0a6629b0045deafd7524c905fa5c8-shard-0",
-        "claimed_at": "2026-11-25T03:05:07.898850+00:00",
-        "lease_expires_at": "2026-11-25T09:05:07.898850+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357165",
       "prepared": {
@@ -279938,5 +279940,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:08:35.152345+00:00"
+  "updated_at": "2026-11-25T03:09:58.381082+00:00"
 }
