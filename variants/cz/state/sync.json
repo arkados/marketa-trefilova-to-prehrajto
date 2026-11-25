@@ -252805,17 +252805,19 @@
       }
     },
     "24779": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26879021",
+          "target_video_id": "31365057",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:13:43.452819+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26879021",
         "display_name": "Mean Machine SD CZ Dabing",
         "planned_at": "2026-11-25T09:11:20.624932+00:00"
-      },
-      "claim": {
-        "worker_id": "1292ddc4d4da40ec96179a3c8e9f0e7e-shard-0",
-        "claimed_at": "2026-11-25T09:11:21.588991+00:00",
-        "lease_expires_at": "2026-11-25T15:11:21.588991+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365057",
       "prepared": {
@@ -284401,5 +284403,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:13:22.762288+00:00"
+  "updated_at": "2026-11-25T09:13:43.452835+00:00"
 }
