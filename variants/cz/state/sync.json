@@ -253525,17 +253525,19 @@
       "attempts": []
     },
     "23167": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25410377",
+          "target_video_id": "31365916",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:54:12.079480+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25410377",
         "display_name": "American Shaolin 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:51:33.731074+00:00"
-      },
-      "claim": {
-        "worker_id": "e8992cbe06e349408ec66b460bab1881-shard-0",
-        "claimed_at": "2026-11-25T09:51:34.632371+00:00",
-        "lease_expires_at": "2026-11-25T15:51:34.632371+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365916",
       "prepared": {
@@ -284956,5 +284958,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:52:55.674124+00:00"
+  "updated_at": "2026-11-25T09:54:12.079496+00:00"
 }
