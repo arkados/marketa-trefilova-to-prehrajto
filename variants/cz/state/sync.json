@@ -254577,17 +254577,19 @@
       }
     },
     "4652": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26251466",
+          "target_video_id": "31366899",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:46:07.629137+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26251466",
         "display_name": "Shaft (2019) 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:43:43.117546+00:00"
-      },
-      "claim": {
-        "worker_id": "f840856246e041f3b2eb6789c64a6728-shard-0",
-        "claimed_at": "2026-11-25T10:43:43.958696+00:00",
-        "lease_expires_at": "2026-11-25T16:43:43.958696+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366899",
       "prepared": {
@@ -285789,5 +285791,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:43:47.573233+00:00"
+  "updated_at": "2026-11-25T10:46:07.629153+00:00"
 }
