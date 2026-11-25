@@ -258984,17 +258984,19 @@
       }
     },
     "17584": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34186368",
+          "target_video_id": "31373060",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:59:05.723655+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34186368",
         "display_name": "Love Sarah 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:54:41.114022+00:00"
-      },
-      "claim": {
-        "worker_id": "ebd938e37c594f6fbfb1f372f7e9e93d-shard-0",
-        "claimed_at": "2026-11-25T14:54:42.032256+00:00",
-        "lease_expires_at": "2026-11-25T20:54:42.032256+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373060",
       "prepared": {
@@ -289482,5 +289484,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:55:19.613574+00:00"
+  "updated_at": "2026-11-25T14:59:05.723675+00:00"
 }
