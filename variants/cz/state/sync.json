@@ -249204,17 +249204,19 @@
       "attempts": []
     },
     "17691": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34142610",
+          "target_video_id": "31359437",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:17:49.203249+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34142610",
         "display_name": "Blue Thunder 4K CZ Dabing",
         "planned_at": "2026-11-25T05:10:39.198366+00:00"
-      },
-      "claim": {
-        "worker_id": "da86ba3079b643dfaa4df66a2f3d4d75-shard-0",
-        "claimed_at": "2026-11-25T05:10:40.087660+00:00",
-        "lease_expires_at": "2026-11-25T11:10:40.087660+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359437",
       "prepared": {
@@ -281532,5 +281534,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:14:23.379051+00:00"
+  "updated_at": "2026-11-25T05:17:49.203265+00:00"
 }
