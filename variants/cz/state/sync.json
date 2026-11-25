@@ -248271,17 +248271,19 @@
       }
     },
     "22687": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32982585",
+          "target_video_id": "31358409",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:21:33.113957+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32982585",
         "display_name": "Nate and Hayes 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:18:35.944385+00:00"
-      },
-      "claim": {
-        "worker_id": "5efa253a5a5c49fe85b634e435374b93-shard-0",
-        "claimed_at": "2026-11-25T04:18:37.305080+00:00",
-        "lease_expires_at": "2026-11-25T10:18:37.305080+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358409",
       "prepared": {
@@ -280815,5 +280817,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:19:46.964095+00:00"
+  "updated_at": "2026-11-25T04:21:33.113972+00:00"
 }
