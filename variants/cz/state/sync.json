@@ -244135,17 +244135,19 @@
       "attempts": []
     },
     "30621": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31583183",
+          "target_video_id": "31353743",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:04:55.362629+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31583183",
         "display_name": "Hannah SD CZ Dabing",
         "planned_at": "2026-11-25T00:01:46.776886+00:00"
-      },
-      "claim": {
-        "worker_id": "b0155f40adb64486b36bbb7e4820d77d-shard-0",
-        "claimed_at": "2026-11-25T00:01:47.416599+00:00",
-        "lease_expires_at": "2026-11-25T06:01:47.416599+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31353743",
       "prepared": {
@@ -277614,5 +277616,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:01:51.209664+00:00"
+  "updated_at": "2026-11-25T00:04:55.362662+00:00"
 }
