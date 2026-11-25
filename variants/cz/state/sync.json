@@ -265374,17 +265374,19 @@
       "attempts": []
     },
     "5787": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31068210",
+          "target_video_id": "31379531",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:25:12.335820+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31068210",
         "display_name": "Janet Planet 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:20:20.571197+00:00"
-      },
-      "claim": {
-        "worker_id": "7afac3fbf2964c6ea2e166a52a0ef368-shard-0",
-        "claimed_at": "2026-11-25T19:20:21.378490+00:00",
-        "lease_expires_at": "2026-11-26T01:20:21.378490+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379531",
       "prepared": {
@@ -294529,5 +294531,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:24:40.796560+00:00"
+  "updated_at": "2026-11-25T19:25:12.335842+00:00"
 }
