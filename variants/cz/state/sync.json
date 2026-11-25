@@ -249178,17 +249178,19 @@
       }
     },
     "20161": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17331049",
+          "target_video_id": "31359397",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:14:01.980259+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17331049",
         "display_name": "Beauty and the Beast (La belle et la bête) (2014) 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:08:44.759635+00:00"
-      },
-      "claim": {
-        "worker_id": "92336f1142214921ac8dcc5127c79874-shard-0",
-        "claimed_at": "2026-11-25T05:08:45.583423+00:00",
-        "lease_expires_at": "2026-11-25T11:08:45.583423+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359397",
       "prepared": {
@@ -281512,5 +281514,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:10:44.563061+00:00"
+  "updated_at": "2026-11-25T05:14:01.980273+00:00"
 }
