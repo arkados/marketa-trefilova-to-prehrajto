@@ -265599,17 +265599,19 @@
       }
     },
     "26822": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21710310",
+          "target_video_id": "31379789",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:31:11.920079+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21710310",
         "display_name": "Solitary Man 720p CZ Dabing",
         "planned_at": "2026-11-25T19:29:03.267230+00:00"
-      },
-      "claim": {
-        "worker_id": "add5ed1e0884456387ca3f8d65c126dc-shard-0",
-        "claimed_at": "2026-11-25T19:29:04.458516+00:00",
-        "lease_expires_at": "2026-11-26T01:29:04.458516+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379789",
       "prepared": {
@@ -294642,5 +294644,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:29:53.757525+00:00"
+  "updated_at": "2026-11-25T19:31:11.920099+00:00"
 }
