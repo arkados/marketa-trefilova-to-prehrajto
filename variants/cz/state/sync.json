@@ -263291,17 +263291,19 @@
       }
     },
     "24921": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11734863",
+          "target_video_id": "31377323",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:52:15.523399+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11734863",
         "display_name": "Shade SD CZ Dabing",
         "planned_at": "2026-11-25T17:51:15.486794+00:00"
-      },
-      "claim": {
-        "worker_id": "4332d1e2ac794006856e4c84814a926f-shard-0",
-        "claimed_at": "2026-11-25T17:51:16.289262+00:00",
-        "lease_expires_at": "2026-11-25T23:51:16.289262+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377323",
       "prepared": {
@@ -292862,5 +292864,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:52:10.933229+00:00"
+  "updated_at": "2026-11-25T17:52:15.523420+00:00"
 }
