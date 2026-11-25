@@ -268589,17 +268589,19 @@
       }
     },
     "19841": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24709903",
+          "target_video_id": "31383468",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:45:24.056588+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24709903",
         "display_name": "Chalet Girl 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:43:32.818766+00:00"
-      },
-      "claim": {
-        "worker_id": "dc232c7e73fb4eeaaaa5a3fcc619dbf5-shard-0",
-        "claimed_at": "2026-11-25T21:43:33.363259+00:00",
-        "lease_expires_at": "2026-11-26T03:43:33.363259+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383468",
       "prepared": {
@@ -296933,5 +296935,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:44:09.237828+00:00"
+  "updated_at": "2026-11-25T21:45:24.056608+00:00"
 }
