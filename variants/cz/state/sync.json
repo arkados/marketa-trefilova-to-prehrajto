@@ -249109,17 +249109,19 @@
       "attempts": []
     },
     "18260": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26611755",
+          "target_video_id": "31359270",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:08:34.434368+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26611755",
         "display_name": "Resident Evil: Damnation (Baiohazâdo Damunêshon) 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:03:35.774769+00:00"
-      },
-      "claim": {
-        "worker_id": "cd8bae3ff6274af2b11c48087898d87c-shard-0",
-        "claimed_at": "2026-11-25T05:03:36.659348+00:00",
-        "lease_expires_at": "2026-11-25T11:03:36.659348+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359270",
       "prepared": {
@@ -281472,5 +281474,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:04:18.637598+00:00"
+  "updated_at": "2026-11-25T05:08:34.434381+00:00"
 }
