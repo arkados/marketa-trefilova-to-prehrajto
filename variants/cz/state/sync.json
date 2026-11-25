@@ -247570,17 +247570,19 @@
       "attempts": []
     },
     "17274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22394944",
+          "target_video_id": "31357468",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:28:04.488736+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22394944",
         "display_name": "Love Is Love Is Love 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:24:44.976075+00:00"
-      },
-      "claim": {
-        "worker_id": "be4b368c5900477092b302e9ad098d63-shard-0",
-        "claimed_at": "2026-11-25T03:24:45.820700+00:00",
-        "lease_expires_at": "2026-11-25T09:24:45.820700+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357468",
       "prepared": {
@@ -280258,5 +280260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:25:05.312492+00:00"
+  "updated_at": "2026-11-25T03:28:04.488756+00:00"
 }
