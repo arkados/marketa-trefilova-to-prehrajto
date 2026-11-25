@@ -250534,17 +250534,19 @@
       "attempts": []
     },
     "16302": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31415985",
+          "target_video_id": "31362057",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:15:18.154178+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31415985",
         "display_name": "Batman Ninja vs. Yakuza League (ninjabattoman tsui yakuzariigu) 1080p CZ Dabing",
         "planned_at": "2026-11-25T07:12:06.311738+00:00"
-      },
-      "claim": {
-        "worker_id": "8c5a45fcfb9a4ce89f81e846472a9a65-shard-0",
-        "claimed_at": "2026-11-25T07:12:07.149750+00:00",
-        "lease_expires_at": "2026-11-25T13:12:07.149750+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31362057",
       "prepared": {
@@ -282604,5 +282606,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:14:13.755952+00:00"
+  "updated_at": "2026-11-25T07:15:18.154193+00:00"
 }
