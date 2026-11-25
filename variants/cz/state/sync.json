@@ -249343,17 +249343,19 @@
       "attempts": []
     },
     "12530": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30774353",
+          "target_video_id": "31359733",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:29:10.970447+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30774353",
         "display_name": "The Yards 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:25:55.548227+00:00"
-      },
-      "claim": {
-        "worker_id": "16b0f806fe3f430386820ea4bffc37e5-shard-0",
-        "claimed_at": "2026-11-25T05:25:56.679729+00:00",
-        "lease_expires_at": "2026-11-25T11:25:56.679729+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359733",
       "prepared": {
@@ -281632,5 +281634,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:26:19.432652+00:00"
+  "updated_at": "2026-11-25T05:29:10.970460+00:00"
 }
