@@ -259304,17 +259304,19 @@
       }
     },
     "4436": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34814925",
+          "target_video_id": "31373392",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:21:44.205058+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34814925",
         "display_name": "Mars Attacks! 4K CZ Dabing",
         "planned_at": "2026-11-25T15:17:22.416163+00:00"
-      },
-      "claim": {
-        "worker_id": "71132285938440c9bb0578fee5981a56-shard-0",
-        "claimed_at": "2026-11-25T15:17:23.478702+00:00",
-        "lease_expires_at": "2026-11-25T21:17:23.478702+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373392",
       "prepared": {
@@ -289739,5 +289741,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:17:30.101954+00:00"
+  "updated_at": "2026-11-25T15:21:44.205078+00:00"
 }
