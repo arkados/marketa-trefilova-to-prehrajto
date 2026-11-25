@@ -258963,17 +258963,19 @@
       }
     },
     "4677": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28981858",
+          "target_video_id": "31373044",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:03:00.129263+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28981858",
         "display_name": "17 Again 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:54:10.969392+00:00"
-      },
-      "claim": {
-        "worker_id": "0460398085344303b76489bbe005b2b8-shard-0",
-        "claimed_at": "2026-11-25T14:54:11.902838+00:00",
-        "lease_expires_at": "2026-11-25T20:54:11.902838+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373044",
       "prepared": {
@@ -289504,5 +289506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:01:19.444702+00:00"
+  "updated_at": "2026-11-25T15:03:00.129292+00:00"
 }
