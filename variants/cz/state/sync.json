@@ -249664,17 +249664,19 @@
       }
     },
     "25479": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7507917",
+          "target_video_id": "31360218",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:53:22.434624+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7507917",
         "display_name": "Aloha, Scooby-Doo! (Aloha Scooby-Doo!) SD CZ Dabing",
         "planned_at": "2026-11-25T05:52:08.904096+00:00"
-      },
-      "claim": {
-        "worker_id": "120c440c7906420db109d734163ba8c9-shard-0",
-        "claimed_at": "2026-11-25T05:52:09.767393+00:00",
-        "lease_expires_at": "2026-11-25T11:52:09.767393+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31360218",
       "prepared": {
@@ -281872,5 +281874,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:52:16.100511+00:00"
+  "updated_at": "2026-11-25T05:53:22.434639+00:00"
 }
