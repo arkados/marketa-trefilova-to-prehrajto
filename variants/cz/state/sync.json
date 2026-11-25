@@ -257781,17 +257781,19 @@
       }
     },
     "17499": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21846303",
+          "target_video_id": "31371747",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:43:32.663180+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21846303",
         "display_name": "InstaPsycho 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:36:52.871848+00:00"
-      },
-      "claim": {
-        "worker_id": "042211fb2eea4aad8f128198810089de-shard-0",
-        "claimed_at": "2026-11-25T13:36:53.777232+00:00",
-        "lease_expires_at": "2026-11-25T19:36:53.777232+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371747",
       "prepared": {
@@ -288474,5 +288476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:38:34.869911+00:00"
+  "updated_at": "2026-11-25T13:43:32.663199+00:00"
 }
