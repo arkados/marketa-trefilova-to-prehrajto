@@ -264203,17 +264203,19 @@
       }
     },
     "24675": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34372802",
+          "target_video_id": "31378191",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:27:42.501050+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34372802",
         "display_name": "Ararat SD CZ Dabing",
         "planned_at": "2026-11-25T18:26:04.204677+00:00"
-      },
-      "claim": {
-        "worker_id": "aedfa8763c8249dc9c6adb38e81f7695-shard-0",
-        "claimed_at": "2026-11-25T18:26:05.638186+00:00",
-        "lease_expires_at": "2026-11-26T00:26:05.638186+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378191",
       "prepared": {
@@ -293576,5 +293578,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:26:48.346196+00:00"
+  "updated_at": "2026-11-25T18:27:42.501071+00:00"
 }
