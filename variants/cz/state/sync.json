@@ -252051,17 +252051,19 @@
       }
     },
     "25351": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32927077",
+          "target_video_id": "31364026",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:39:03.396580+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32927077",
         "display_name": "Day Watch 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:33:48.744537+00:00"
-      },
-      "claim": {
-        "worker_id": "0ea183a6adcd4dafba2cbc09b5949f58-shard-0",
-        "claimed_at": "2026-11-25T08:33:49.664775+00:00",
-        "lease_expires_at": "2026-11-25T14:33:49.664775+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364026",
       "prepared": {
@@ -283824,5 +283826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:39:00.513610+00:00"
+  "updated_at": "2026-11-25T08:39:03.396598+00:00"
 }
