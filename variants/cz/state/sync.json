@@ -250479,17 +250479,19 @@
       }
     },
     "23003": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33681652",
+          "target_video_id": "31361978",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:11:54.618496+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33681652",
         "display_name": "The Serpent and the Rainbow 1080p CZ Dabing",
         "planned_at": "2026-11-25T07:08:05.310312+00:00"
-      },
-      "claim": {
-        "worker_id": "292b8b064ea94441bcbb27dcb53ebf82-shard-0",
-        "claimed_at": "2026-11-25T07:08:06.157025+00:00",
-        "lease_expires_at": "2026-11-25T13:08:06.157025+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361978",
       "prepared": {
@@ -282564,5 +282566,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:08:58.970087+00:00"
+  "updated_at": "2026-11-25T07:11:54.618510+00:00"
 }
