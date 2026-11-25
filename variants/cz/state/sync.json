@@ -266481,17 +266481,19 @@
       }
     },
     "22169": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28666608",
+          "target_video_id": "31380701",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:08:41.739489+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28666608",
         "display_name": "The Stone Killer SD CZ Dabing",
         "planned_at": "2026-11-25T20:07:45.999858+00:00"
-      },
-      "claim": {
-        "worker_id": "2c97d2f6bc1946d5b69570a7be5a584c-shard-0",
-        "claimed_at": "2026-11-25T20:07:47.106098+00:00",
-        "lease_expires_at": "2026-11-26T02:07:47.106098+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380701",
       "prepared": {
@@ -295299,5 +295301,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:07:51.410575+00:00"
+  "updated_at": "2026-11-25T20:08:41.739510+00:00"
 }
