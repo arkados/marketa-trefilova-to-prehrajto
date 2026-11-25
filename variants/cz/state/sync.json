@@ -256960,17 +256960,19 @@
       }
     },
     "4670": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34192586",
+          "target_video_id": "31370529",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:02:21.306508+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34192586",
         "display_name": "The Cell 4K CZ Dabing",
         "planned_at": "2026-11-25T12:57:45.269625+00:00"
-      },
-      "claim": {
-        "worker_id": "68db4cb17a8e4985aa0e5f3c1bed505e-shard-0",
-        "claimed_at": "2026-11-25T12:57:46.160916+00:00",
-        "lease_expires_at": "2026-11-25T18:57:46.160916+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370529",
       "prepared": {
@@ -287823,5 +287825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:01:17.731440+00:00"
+  "updated_at": "2026-11-25T13:02:21.306527+00:00"
 }
