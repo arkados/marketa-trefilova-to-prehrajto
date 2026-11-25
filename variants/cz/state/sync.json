@@ -264942,17 +264942,19 @@
       }
     },
     "11964": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32960097",
+          "target_video_id": "31379051",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:59:52.794117+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32960097",
         "display_name": "The King of the Kickboxers 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:58:00.380938+00:00"
-      },
-      "claim": {
-        "worker_id": "273a20960c2444649bb38ec5c3b8eabb-shard-0",
-        "claimed_at": "2026-11-25T18:58:01.219467+00:00",
-        "lease_expires_at": "2026-11-26T00:58:01.219467+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379051",
       "prepared": {
@@ -294129,5 +294131,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:58:40.871855+00:00"
+  "updated_at": "2026-11-25T18:59:52.794137+00:00"
 }
