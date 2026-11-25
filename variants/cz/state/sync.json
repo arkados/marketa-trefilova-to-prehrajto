@@ -269564,17 +269564,19 @@
       }
     },
     "22292": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28238614",
+          "target_video_id": "31384935",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:44:24.332530+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28238614",
         "display_name": "The Duchess and the Dirtwater Fox SD CZ Dabing",
         "planned_at": "2026-11-25T22:43:01.350369+00:00"
-      },
-      "claim": {
-        "worker_id": "60a47623777040ab91f8b43058bb8568-shard-0",
-        "claimed_at": "2026-11-25T22:43:01.865577+00:00",
-        "lease_expires_at": "2026-11-26T04:43:01.865577+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384935",
       "prepared": {
@@ -297730,5 +297732,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:44:05.678135+00:00"
+  "updated_at": "2026-11-25T22:44:24.332548+00:00"
 }
