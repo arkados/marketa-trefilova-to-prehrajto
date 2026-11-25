@@ -269416,17 +269416,19 @@
       "attempts": []
     },
     "11321": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34673706",
+          "target_video_id": "31384707",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:41:52.398308+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34673706",
         "display_name": "American Gigolo 1080p CZ Dabing",
         "planned_at": "2026-11-25T22:34:30.709914+00:00"
-      },
-      "claim": {
-        "worker_id": "e1f04c42d4f64524880ceffa553e6cd3-shard-0",
-        "claimed_at": "2026-11-25T22:34:31.177596+00:00",
-        "lease_expires_at": "2026-11-26T04:34:31.177596+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384707",
       "prepared": {
@@ -297670,5 +297672,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:41:04.880152+00:00"
+  "updated_at": "2026-11-25T22:41:52.398327+00:00"
 }
