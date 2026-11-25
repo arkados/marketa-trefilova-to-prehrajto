@@ -260917,17 +260917,19 @@
       }
     },
     "4961": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27356007",
+          "target_video_id": "31375365",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:39:21.978131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27356007",
         "display_name": "Breaking 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:36:50.966167+00:00"
-      },
-      "claim": {
-        "worker_id": "ee8515a387e94b5fa1dd7cbad3446251-shard-0",
-        "claimed_at": "2026-11-25T16:36:51.781934+00:00",
-        "lease_expires_at": "2026-11-25T22:36:51.781934+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375365",
       "prepared": {
@@ -291052,5 +291054,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:38:18.117931+00:00"
+  "updated_at": "2026-11-25T16:39:21.978152+00:00"
 }
