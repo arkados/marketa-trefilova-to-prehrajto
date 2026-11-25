@@ -125587,7 +125587,7 @@
       "last_plan": {
         "source_id": "4983288",
         "display_name": "Jar City SD CZ Dabing",
-        "planned_at": "2026-11-25T05:03:51.223087+00:00"
+        "planned_at": "2026-11-25T05:03:57.937646+00:00"
       },
       "previous_target_id": "30985832",
       "prepared": {
@@ -249133,11 +249133,23 @@
       "attempts": []
     },
     "16960": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "15935798",
+          "reason": "Source detail has no authenticated download link; source_id=15935798",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:04:01.886965+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15935798",
         "display_name": "Lego Jurassic World: The Indominus Escape SD CZ Dabing",
-        "planned_at": "2026-11-25T05:03:51.829321+00:00"
+        "planned_at": "2026-11-25T05:03:58.439625+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "15935798",
+        "requested_at": "2026-11-25T05:04:01.886951+00:00"
       }
     },
     "11773": {
@@ -281442,5 +281454,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:03:51.829335+00:00"
+  "updated_at": "2026-11-25T05:04:01.886971+00:00"
 }
