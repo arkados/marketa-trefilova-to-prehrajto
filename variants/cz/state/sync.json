@@ -250430,17 +250430,19 @@
       }
     },
     "4440": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34968793",
+          "target_video_id": "31361922",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:08:37.971697+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34968793",
         "display_name": "Hot Summer Nights 1080p CZ Dabing",
         "planned_at": "2026-11-25T07:04:28.651280+00:00"
-      },
-      "claim": {
-        "worker_id": "a568abd472124ee2925f8be9aa73ddb8-shard-0",
-        "claimed_at": "2026-11-25T07:04:29.496329+00:00",
-        "lease_expires_at": "2026-11-25T13:04:29.496329+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361922",
       "prepared": {
@@ -282544,5 +282546,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:08:10.766342+00:00"
+  "updated_at": "2026-11-25T07:08:37.971742+00:00"
 }
