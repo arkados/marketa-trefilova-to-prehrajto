@@ -254848,17 +254848,19 @@
       }
     },
     "18987": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29126681",
+          "target_video_id": "31367274",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:00:59.356701+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29126681",
         "display_name": "Batman: The Killing Joke 720p CZ Dabing",
         "planned_at": "2026-11-25T10:58:07.889077+00:00"
-      },
-      "claim": {
-        "worker_id": "75057fcd51b3490798c9ca11ec9f7289-shard-0",
-        "claimed_at": "2026-11-25T10:58:08.914081+00:00",
-        "lease_expires_at": "2026-11-25T16:58:08.914081+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31367274",
       "prepared": {
@@ -286006,5 +286008,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:58:13.198585+00:00"
+  "updated_at": "2026-11-25T11:00:59.356718+00:00"
 }
