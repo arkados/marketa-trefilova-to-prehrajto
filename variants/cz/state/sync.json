@@ -21338,17 +21338,19 @@
       }
     },
     "22916": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27746363",
+          "target_video_id": "31359851",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:46:49.713817+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27746363",
         "display_name": "Hachiko Monogatari (Hachiko) 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:33:29.187193+00:00"
-      },
-      "claim": {
-        "worker_id": "6cccc6b8a1644ffdad00a0e422bff450-shard-0",
-        "claimed_at": "2026-11-25T05:33:30.025390+00:00",
-        "lease_expires_at": "2026-11-25T11:33:30.025390+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359851",
       "prepared": {
@@ -281779,5 +281781,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:46:42.870156+00:00"
+  "updated_at": "2026-11-25T05:46:49.713831+00:00"
 }
