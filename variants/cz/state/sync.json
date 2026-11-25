@@ -263703,17 +263703,19 @@
       }
     },
     "29366": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6453424",
+          "target_video_id": "31377638",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:05:50.152435+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6453424",
         "display_name": "Lego Scooby-Doo! Haunted Hollywood 720p CZ Dabing",
         "planned_at": "2026-11-25T18:04:02.970639+00:00"
-      },
-      "claim": {
-        "worker_id": "cab194115e1841069d046ae75168ded6-shard-0",
-        "claimed_at": "2026-11-25T18:04:03.783539+00:00",
-        "lease_expires_at": "2026-11-26T00:04:03.783539+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377638",
       "prepared": {
@@ -293201,5 +293203,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:05:46.444495+00:00"
+  "updated_at": "2026-11-25T18:05:50.152461+00:00"
 }
