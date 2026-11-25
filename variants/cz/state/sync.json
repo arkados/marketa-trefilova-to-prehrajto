@@ -249155,17 +249155,19 @@
       }
     },
     "11773": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33793968",
+          "target_video_id": "31359283",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:10:27.984477+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33793968",
         "display_name": "Off Limits 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:04:13.458270+00:00"
-      },
-      "claim": {
-        "worker_id": "e2e58e95c3834d36b56394fda14daab0-shard-0",
-        "claimed_at": "2026-11-25T05:04:14.285695+00:00",
-        "lease_expires_at": "2026-11-25T11:04:14.285695+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359283",
       "prepared": {
@@ -281492,5 +281494,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:08:51.496225+00:00"
+  "updated_at": "2026-11-25T05:10:27.984493+00:00"
 }
