@@ -253403,17 +253403,19 @@
       "attempts": []
     },
     "11769": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19002403",
+          "target_video_id": "31365816",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:50:00.428747+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19002403",
         "display_name": "Let Sleeping Cops Lie (Ne réveillez pas un flic qui dort) 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:44:47.644746+00:00"
-      },
-      "claim": {
-        "worker_id": "598e7980c9c64445a7e4481b110ca216-shard-0",
-        "claimed_at": "2026-11-25T09:44:48.551146+00:00",
-        "lease_expires_at": "2026-11-25T15:44:48.551146+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365816",
       "prepared": {
@@ -284876,5 +284878,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:48:28.045109+00:00"
+  "updated_at": "2026-11-25T09:50:00.428771+00:00"
 }
