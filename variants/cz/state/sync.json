@@ -254881,17 +254881,19 @@
       "attempts": []
     },
     "4864": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32960259",
+          "target_video_id": "31367329",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:05:14.295968+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32960259",
         "display_name": "Kickboxer 4K CZ Dabing",
         "planned_at": "2026-11-25T11:01:10.724396+00:00"
-      },
-      "claim": {
-        "worker_id": "ab41974a7c544793a2e5488f21e6d13b-shard-0",
-        "claimed_at": "2026-11-25T11:01:11.667088+00:00",
-        "lease_expires_at": "2026-11-25T17:01:11.667088+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31367329",
       "prepared": {
@@ -286073,5 +286075,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:05:05.528751+00:00"
+  "updated_at": "2026-11-25T11:05:14.295991+00:00"
 }
