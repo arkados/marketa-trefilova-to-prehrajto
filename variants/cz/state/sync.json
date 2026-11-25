@@ -247316,17 +247316,19 @@
       "attempts": []
     },
     "33052": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34721381",
+          "target_video_id": "31357312",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:16:15.210967+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34721381",
         "display_name": "Message from the King 720p CZ Dabing",
         "planned_at": "2026-11-25T03:13:52.828709+00:00"
-      },
-      "claim": {
-        "worker_id": "29eb1848d68b4ec883ead7649e2ef1b2-shard-0",
-        "claimed_at": "2026-11-25T03:13:53.477653+00:00",
-        "lease_expires_at": "2026-11-25T09:13:53.477653+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357312",
       "prepared": {
@@ -280058,5 +280060,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:15:49.196177+00:00"
+  "updated_at": "2026-11-25T03:16:15.210986+00:00"
 }
