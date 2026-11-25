@@ -249085,17 +249085,19 @@
       "attempts": []
     },
     "4671": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33786566",
+          "target_video_id": "31359222",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:25:45.126680+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33786566",
         "display_name": "Loving Pablo 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:01:34.366256+00:00"
-      },
-      "claim": {
-        "worker_id": "ad0eebb83a7d4da7846a6231a0c5f11d-shard-0",
-        "claimed_at": "2026-11-25T05:01:35.275951+00:00",
-        "lease_expires_at": "2026-11-25T11:01:35.275951+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359222",
       "prepared": {
@@ -281592,5 +281594,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:22:52.395721+00:00"
+  "updated_at": "2026-11-25T05:25:45.126696+00:00"
 }
