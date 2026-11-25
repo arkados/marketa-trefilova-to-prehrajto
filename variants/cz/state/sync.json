@@ -253025,17 +253025,19 @@
       "attempts": []
     },
     "16703": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12212368",
+          "target_video_id": "31365320",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:27:41.438392+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12212368",
         "display_name": "On Wings of Eagles 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:25:01.349021+00:00"
-      },
-      "claim": {
-        "worker_id": "ae9ae9169c9f4cf2a5b0e18b4c2b8c03-shard-0",
-        "claimed_at": "2026-11-25T09:25:02.354317+00:00",
-        "lease_expires_at": "2026-11-25T15:25:02.354317+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365320",
       "prepared": {
@@ -284561,5 +284563,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:25:30.151441+00:00"
+  "updated_at": "2026-11-25T09:27:41.438409+00:00"
 }
