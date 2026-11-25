@@ -245367,17 +245367,19 @@
       "attempts": []
     },
     "22795": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32585923",
+          "target_video_id": "31355121",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:22:00.476313+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32585923",
         "display_name": "Into the Night 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:17:54.072948+00:00"
-      },
-      "claim": {
-        "worker_id": "ac2d5a2ba00f445ab8096fd5a1dddae3-shard-0",
-        "claimed_at": "2026-11-25T01:17:54.670913+00:00",
-        "lease_expires_at": "2026-11-25T07:17:54.670913+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355121",
       "prepared": {
@@ -278618,5 +278620,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:20:24.688053+00:00"
+  "updated_at": "2026-11-25T01:22:00.476333+00:00"
 }
