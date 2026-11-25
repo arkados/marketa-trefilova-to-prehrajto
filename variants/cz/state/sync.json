@@ -267939,17 +267939,19 @@
       "attempts": []
     },
     "19605": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27236315",
+          "target_video_id": "31382714",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:21:08.637956+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27236315",
         "display_name": "Best Sellers 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:15:18.935190+00:00"
-      },
-      "claim": {
-        "worker_id": "85557ae118b64aeba57cce1053274a76-shard-0",
-        "claimed_at": "2026-11-25T21:15:19.502192+00:00",
-        "lease_expires_at": "2026-11-26T03:15:19.502192+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382714",
       "prepared": {
@@ -296476,5 +296478,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:19:43.608379+00:00"
+  "updated_at": "2026-11-25T21:21:08.637974+00:00"
 }
