@@ -246938,17 +246938,19 @@
       "attempts": []
     },
     "23500": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29815425",
+          "target_video_id": "31357074",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:00:32.361307+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29815425",
         "display_name": "Genesis: The Creation and the Flood SD CZ Dabing",
         "planned_at": "2026-11-25T02:59:10.707805+00:00"
-      },
-      "claim": {
-        "worker_id": "c639151823c74f95b12f841a2fae7a54-shard-0",
-        "claimed_at": "2026-11-25T02:59:11.366749+00:00",
-        "lease_expires_at": "2026-11-25T08:59:11.366749+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357074",
       "prepared": {
@@ -279758,5 +279760,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:59:15.758694+00:00"
+  "updated_at": "2026-11-25T03:00:32.361325+00:00"
 }
