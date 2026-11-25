@@ -125587,7 +125587,7 @@
       "last_plan": {
         "source_id": "4983288",
         "display_name": "Jar City SD CZ Dabing",
-        "planned_at": "2026-11-25T04:15:09.851474+00:00"
+        "planned_at": "2026-11-25T04:15:14.430779+00:00"
       },
       "previous_target_id": "30985832",
       "prepared": {
@@ -248180,15 +248180,32 @@
       "attempts": []
     },
     "5921": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30130180",
+          "reason": "Source detail has no authenticated download link; source_id=30130180",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:15:16.703643+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30130180",
         "display_name": "Return to Christmas Creek 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:15:10.327116+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30130180",
+        "requested_at": "2026-11-25T04:15:16.703631+00:00"
       }
     },
     "11098": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32998703",
+        "display_name": "Even Angels Eat Beans (Anche gli angeli mangiano fagioli) 1080p CZ Dabing",
+        "planned_at": "2026-11-25T04:15:14.901178+00:00"
+      }
     },
     "15106": {
       "attempts": []
@@ -280687,5 +280704,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:15:10.327130+00:00"
+  "updated_at": "2026-11-25T04:15:16.703649+00:00"
 }
