@@ -269150,17 +269150,19 @@
       }
     },
     "26578": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27943711",
+          "target_video_id": "31384099",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:09:07.062414+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27943711",
         "display_name": "L'emmerdeur (A Pain in the Ass) SD CZ Dabing",
         "planned_at": "2026-11-25T22:07:49.033983+00:00"
-      },
-      "claim": {
-        "worker_id": "f298435d852f4bd49e184aad1fa4cfbe-shard-0",
-        "claimed_at": "2026-11-25T22:07:49.594919+00:00",
-        "lease_expires_at": "2026-11-26T04:07:49.594919+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384099",
       "prepared": {
@@ -297370,5 +297372,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:07:53.380192+00:00"
+  "updated_at": "2026-11-25T22:09:07.062434+00:00"
 }
