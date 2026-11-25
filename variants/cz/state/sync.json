@@ -248784,17 +248784,19 @@
       }
     },
     "23507": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34898147",
+          "target_video_id": "31358929",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:53:19.115088+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34898147",
         "display_name": "The New Legend of Shaolin (Legend of the Red Dragon) 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:47:08.509315+00:00"
-      },
-      "claim": {
-        "worker_id": "212cf1f714604dd2a54aa0955d8b4c7b-shard-0",
-        "claimed_at": "2026-11-25T04:47:09.412405+00:00",
-        "lease_expires_at": "2026-11-25T10:47:09.412405+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358929",
       "prepared": {
@@ -281275,5 +281277,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:51:34.536322+00:00"
+  "updated_at": "2026-11-25T04:53:19.115103+00:00"
 }
