@@ -245945,17 +245945,19 @@
       }
     },
     "34885": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33977267",
+          "target_video_id": "31355654",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:18:12.530726+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33977267",
         "display_name": "Dad 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:48:46.790567+00:00"
-      },
-      "claim": {
-        "worker_id": "dac787e91d0a485cbca6b688b9950677-shard-0",
-        "claimed_at": "2026-11-25T01:48:47.436520+00:00",
-        "lease_expires_at": "2026-11-25T07:48:47.436520+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355654",
       "prepared": {
@@ -279178,5 +279180,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:18:02.412315+00:00"
+  "updated_at": "2026-11-25T02:18:12.530744+00:00"
 }
