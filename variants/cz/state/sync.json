@@ -263563,17 +263563,19 @@
       "attempts": []
     },
     "21884": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "5663451",
+          "target_video_id": "31377538",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:01:10.099835+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "5663451",
         "display_name": "Welcome to Hard Times SD CZ Dabing",
         "planned_at": "2026-11-25T17:59:58.012585+00:00"
-      },
-      "claim": {
-        "worker_id": "8ad29129efeb40aa985165267133b40d-shard-0",
-        "claimed_at": "2026-11-25T17:59:58.868111+00:00",
-        "lease_expires_at": "2026-11-25T23:59:58.868111+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377538",
       "prepared": {
@@ -293059,5 +293061,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:00:33.411297+00:00"
+  "updated_at": "2026-11-25T18:01:10.099856+00:00"
 }
