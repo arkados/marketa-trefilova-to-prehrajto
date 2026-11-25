@@ -261102,17 +261102,19 @@
       }
     },
     "24358": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28799826",
+          "target_video_id": "31375487",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:44:11.135910+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28799826",
         "display_name": "The Order of the Black Eagle SD CZ Dabing",
         "planned_at": "2026-11-25T16:42:58.880118+00:00"
-      },
-      "claim": {
-        "worker_id": "c15d6c7259a347269097051d1d53ac39-shard-0",
-        "claimed_at": "2026-11-25T16:42:59.574519+00:00",
-        "lease_expires_at": "2026-11-25T22:42:59.574519+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375487",
       "prepared": {
@@ -291203,5 +291205,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:43:47.794282+00:00"
+  "updated_at": "2026-11-25T16:44:11.135929+00:00"
 }
