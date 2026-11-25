@@ -262022,17 +262022,19 @@
       "attempts": []
     },
     "12154": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32700611",
+          "target_video_id": "31376124",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:13:05.958009+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32700611",
         "display_name": "Hercules in the Maze of the Minotaur 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:09:19.787058+00:00"
-      },
-      "claim": {
-        "worker_id": "b41c1943d90241c89fee33176f15211d-shard-0",
-        "claimed_at": "2026-11-25T17:09:20.599593+00:00",
-        "lease_expires_at": "2026-11-25T23:09:20.599593+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376124",
       "prepared": {
@@ -291951,5 +291953,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:12:36.767000+00:00"
+  "updated_at": "2026-11-25T17:13:05.958030+00:00"
 }
