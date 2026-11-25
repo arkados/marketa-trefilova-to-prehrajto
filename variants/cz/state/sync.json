@@ -265433,17 +265433,19 @@
       "attempts": []
     },
     "22822": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24053971",
+          "target_video_id": "31379568",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:24:24.925202+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24053971",
         "display_name": "Santa Claus: The Movie 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:21:46.183513+00:00"
-      },
-      "claim": {
-        "worker_id": "a433643737424bb482cb4743d110610c-shard-0",
-        "claimed_at": "2026-11-25T19:21:46.991305+00:00",
-        "lease_expires_at": "2026-11-26T01:21:46.991305+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379568",
       "prepared": {
@@ -294509,5 +294511,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:23:42.819381+00:00"
+  "updated_at": "2026-11-25T19:24:24.925223+00:00"
 }
