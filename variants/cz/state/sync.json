@@ -247269,17 +247269,19 @@
       }
     },
     "5826": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660753",
+          "target_video_id": "31357303",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:15:36.431371+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660753",
         "display_name": "Medusa Deluxe 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:13:07.201051+00:00"
-      },
-      "claim": {
-        "worker_id": "50ed013e881141d79d85d69c456e0b8b-shard-0",
-        "claimed_at": "2026-11-25T03:13:07.787915+00:00",
-        "lease_expires_at": "2026-11-25T09:13:07.787915+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357303",
       "prepared": {
@@ -280038,5 +280040,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:13:57.456795+00:00"
+  "updated_at": "2026-11-25T03:15:36.431394+00:00"
 }
