@@ -266055,17 +266055,19 @@
       }
     },
     "21792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28306573",
+          "target_video_id": "31380347",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:52:57.144201+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28306573",
         "display_name": "The Bible: In the Beginning... 720p CZ Dabing",
         "planned_at": "2026-11-25T19:49:46.954056+00:00"
-      },
-      "claim": {
-        "worker_id": "1f6c7023822b4866b8cf94ae94a3890c-shard-0",
-        "claimed_at": "2026-11-25T19:49:50.470093+00:00",
-        "lease_expires_at": "2026-11-26T01:49:50.470093+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380347",
       "prepared": {
@@ -294999,5 +295001,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:51:48.872737+00:00"
+  "updated_at": "2026-11-25T19:52:57.144222+00:00"
 }
