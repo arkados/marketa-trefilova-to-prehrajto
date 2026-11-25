@@ -249836,17 +249836,19 @@
       "attempts": []
     },
     "14750": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33120165",
+          "target_video_id": "31360565",
+          "permanent": false,
+          "attempted_at": "2026-11-25T06:24:36.793195+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33120165",
         "display_name": "Ice Castles 1080p CZ Dabing",
         "planned_at": "2026-11-25T06:07:49.011740+00:00"
-      },
-      "claim": {
-        "worker_id": "2134d317dd7f4e4da7a24542e7ca19ce-shard-0",
-        "claimed_at": "2026-11-25T06:07:49.858240+00:00",
-        "lease_expires_at": "2026-11-25T12:07:49.858240+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31360565",
       "prepared": {
@@ -282029,5 +282031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T06:20:43.182093+00:00"
+  "updated_at": "2026-11-25T06:24:36.793210+00:00"
 }
