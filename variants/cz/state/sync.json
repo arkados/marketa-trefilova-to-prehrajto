@@ -264261,17 +264261,19 @@
       "attempts": []
     },
     "5679": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22363184",
+          "target_video_id": "31378245",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:29:01.800211+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22363184",
         "display_name": "Bad Grandpa .5 (Jackass Presents: Bad Grandpa .5) SD CZ Dabing",
         "planned_at": "2026-11-25T18:27:53.891003+00:00"
-      },
-      "claim": {
-        "worker_id": "54816a6f254147f787da25612c707fb0-shard-0",
-        "claimed_at": "2026-11-25T18:27:54.709265+00:00",
-        "lease_expires_at": "2026-11-26T00:27:54.709265+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378245",
       "prepared": {
@@ -293616,5 +293618,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:28:41.778051+00:00"
+  "updated_at": "2026-11-25T18:29:01.800232+00:00"
 }
