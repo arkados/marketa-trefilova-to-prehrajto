@@ -253177,17 +253177,19 @@
       }
     },
     "17310": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695846",
+          "target_video_id": "31365625",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:37:58.736290+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695846",
         "display_name": "Bodies at Rest (ChenMoDeZhengRen) 720p CZ Dabing",
         "planned_at": "2026-11-25T09:34:47.028178+00:00"
-      },
-      "claim": {
-        "worker_id": "214b2943af444a5095775620adda9330-shard-0",
-        "claimed_at": "2026-11-25T09:34:48.019351+00:00",
-        "lease_expires_at": "2026-11-25T15:34:48.019351+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365625",
       "prepared": {
@@ -284670,5 +284672,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:37:56.467430+00:00"
+  "updated_at": "2026-11-25T09:37:58.736307+00:00"
 }
