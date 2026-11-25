@@ -262569,17 +262569,19 @@
       }
     },
     "35463": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30594036",
+          "target_video_id": "31376694",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:29:33.330553+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30594036",
         "display_name": "Dead Friend (Lyeong) SD CZ Dabing",
         "planned_at": "2026-11-25T17:27:57.947708+00:00"
-      },
-      "claim": {
-        "worker_id": "c6c87305b4b0476d89d84445f4bd0195-shard-0",
-        "claimed_at": "2026-11-25T17:28:01.645907+00:00",
-        "lease_expires_at": "2026-11-25T23:28:01.645907+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376694",
       "prepared": {
@@ -292308,5 +292310,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:28:15.983014+00:00"
+  "updated_at": "2026-11-25T17:29:33.330572+00:00"
 }
