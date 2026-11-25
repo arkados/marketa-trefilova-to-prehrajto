@@ -262652,17 +262652,19 @@
       "attempts": []
     },
     "6541": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25335871",
+          "target_video_id": "31376774",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:33:25.947329+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25335871",
         "display_name": "True Things 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:30:17.841402+00:00"
-      },
-      "claim": {
-        "worker_id": "66c2afa6047b4c6e85457c7ed8016b72-shard-0",
-        "claimed_at": "2026-11-25T17:30:18.649220+00:00",
-        "lease_expires_at": "2026-11-25T23:30:18.649220+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376774",
       "prepared": {
@@ -292407,5 +292409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:33:22.826255+00:00"
+  "updated_at": "2026-11-25T17:33:25.947358+00:00"
 }
