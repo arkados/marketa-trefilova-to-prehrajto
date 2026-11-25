@@ -263793,17 +263793,19 @@
       "attempts": []
     },
     "26186": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30069934",
+          "target_video_id": "31377694",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:10:08.598449+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30069934",
         "display_name": "The Butcher (2009) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:05:59.293761+00:00"
-      },
-      "claim": {
-        "worker_id": "141b15071ed24dc1a49a6e80829f1498-shard-0",
-        "claimed_at": "2026-11-25T18:06:03.490991+00:00",
-        "lease_expires_at": "2026-11-26T00:06:03.490991+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377694",
       "prepared": {
@@ -293296,5 +293298,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:08:47.362797+00:00"
+  "updated_at": "2026-11-25T18:10:08.598472+00:00"
 }
