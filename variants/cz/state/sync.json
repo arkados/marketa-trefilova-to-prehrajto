@@ -256125,17 +256125,19 @@
       }
     },
     "13087": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23290922",
+          "target_video_id": "31369430",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:22:26.043484+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23290922",
         "display_name": "The Mothman Prophecies 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:19:43.453273+00:00"
-      },
-      "claim": {
-        "worker_id": "5e902e49774e450eb1dd3faa672dc55f-shard-0",
-        "claimed_at": "2026-11-25T12:19:44.382860+00:00",
-        "lease_expires_at": "2026-11-25T18:19:44.382860+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369430",
       "prepared": {
@@ -287103,5 +287105,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:21:34.467975+00:00"
+  "updated_at": "2026-11-25T12:22:26.043503+00:00"
 }
