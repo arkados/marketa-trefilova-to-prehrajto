@@ -257331,17 +257331,19 @@
       }
     },
     "4695": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34446078",
+          "target_video_id": "31370991",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:17:45.341827+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34446078",
         "display_name": "A Cure for Wellness 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:12:47.734129+00:00"
-      },
-      "claim": {
-        "worker_id": "4a3c4794e8e4445b89b46d89c598e65d-shard-0",
-        "claimed_at": "2026-11-25T13:12:48.624466+00:00",
-        "lease_expires_at": "2026-11-25T19:12:48.624466+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370991",
       "prepared": {
@@ -288157,5 +288159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:17:31.678393+00:00"
+  "updated_at": "2026-11-25T13:17:45.341846+00:00"
 }
