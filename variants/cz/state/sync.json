@@ -259788,17 +259788,19 @@
       }
     },
     "4744": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33035194",
+          "target_video_id": "31373969",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:50:19.601199+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33035194",
         "display_name": "Alice in Wonderland (2010) 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:46:57.606299+00:00"
-      },
-      "claim": {
-        "worker_id": "12fbbb2bd213452692bc4adf412b92e6-shard-0",
-        "claimed_at": "2026-11-25T15:46:58.510852+00:00",
-        "lease_expires_at": "2026-11-25T21:46:58.510852+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373969",
       "prepared": {
@@ -290130,5 +290132,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:47:02.951141+00:00"
+  "updated_at": "2026-11-25T15:50:19.601225+00:00"
 }
