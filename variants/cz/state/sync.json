@@ -257600,17 +257600,19 @@
       }
     },
     "14837": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34698734",
+          "target_video_id": "31371437",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:28:01.350052+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34698734",
         "display_name": "Killer Elite 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:25:36.216295+00:00"
-      },
-      "claim": {
-        "worker_id": "e9c83f3573b74e09813e192bd08dd3a6-shard-0",
-        "claimed_at": "2026-11-25T13:25:37.191391+00:00",
-        "lease_expires_at": "2026-11-25T19:25:37.191391+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371437",
       "prepared": {
@@ -288317,5 +288319,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:27:13.340873+00:00"
+  "updated_at": "2026-11-25T13:28:01.350071+00:00"
 }
