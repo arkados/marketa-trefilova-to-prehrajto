@@ -251197,17 +251197,19 @@
       "attempts": []
     },
     "4772": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "3525218",
+          "target_video_id": "31363074",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:59:51.832152+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "3525218",
         "display_name": "Unknown (2006) SD CZ Dabing",
         "planned_at": "2026-11-25T07:58:11.030163+00:00"
-      },
-      "claim": {
-        "worker_id": "f91b06cb2c86489986b4f1db9c8e8577-shard-0",
-        "claimed_at": "2026-11-25T07:58:11.997928+00:00",
-        "lease_expires_at": "2026-11-25T13:58:11.997928+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363074",
       "prepared": {
@@ -283126,5 +283128,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:59:48.930037+00:00"
+  "updated_at": "2026-11-25T07:59:51.832171+00:00"
 }
