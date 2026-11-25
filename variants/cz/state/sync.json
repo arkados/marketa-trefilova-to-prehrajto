@@ -199681,7 +199681,7 @@
       "last_plan": {
         "source_id": "35178312",
         "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T18:22:29.397001+00:00"
+        "planned_at": "2026-11-25T18:22:36.445889+00:00"
       },
       "previous_target_id": "31243478",
       "prepared": {
@@ -264061,17 +264061,19 @@
       }
     },
     "19036": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32618198",
+          "target_video_id": "31378024",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:22:41.154131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32618198",
         "display_name": "Feed (2017) SD CZ Dabing",
         "planned_at": "2026-11-25T18:21:20.032270+00:00"
-      },
-      "claim": {
-        "worker_id": "079055c8a81e41fb836ff5eda02339cf-shard-0",
-        "claimed_at": "2026-11-25T18:21:20.842261+00:00",
-        "lease_expires_at": "2026-11-26T00:21:20.842261+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378024",
       "prepared": {
@@ -264110,7 +264112,13 @@
       "last_plan": {
         "source_id": "34716750",
         "display_name": "Buen Camino 1080p CZ Dabing",
-        "planned_at": "2026-11-25T18:22:29.872674+00:00"
+        "planned_at": "2026-11-25T18:22:36.983339+00:00"
+      },
+      "claim": {
+        "worker_id": "eb8d06e25a604ac7911dcb70ff6b5272-shard-0",
+        "claimed_at": "2026-11-25T18:22:37.787164+00:00",
+        "lease_expires_at": "2026-11-26T00:22:37.787164+00:00",
+        "run_id": "45651964996"
       }
     },
     "10891": {
@@ -293463,5 +293471,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:22:29.872694+00:00"
+  "updated_at": "2026-11-25T18:22:41.154153+00:00"
 }
