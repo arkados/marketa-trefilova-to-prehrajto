@@ -257548,17 +257548,19 @@
       }
     },
     "10024": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25778266",
+          "target_video_id": "31371346",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:25:21.252644+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25778266",
         "display_name": "The Watermill Princess 2 (Princezna ze mlejna 2) 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:22:59.132656+00:00"
-      },
-      "claim": {
-        "worker_id": "10d10ed1432a413db83a649fdd21665a-shard-0",
-        "claimed_at": "2026-11-25T13:23:00.012956+00:00",
-        "lease_expires_at": "2026-11-25T19:23:00.012956+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371346",
       "prepared": {
@@ -288277,5 +288279,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:24:08.830530+00:00"
+  "updated_at": "2026-11-25T13:25:21.252667+00:00"
 }
