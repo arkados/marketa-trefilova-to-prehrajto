@@ -252259,17 +252259,19 @@
       }
     },
     "15123": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27411816",
+          "target_video_id": "31364264",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:51:21.360162+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27411816",
         "display_name": "Allelujah 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:44:04.159895+00:00"
-      },
-      "claim": {
-        "worker_id": "3925d001b50f44fea010b986c137255f-shard-0",
-        "claimed_at": "2026-11-25T08:44:05.098143+00:00",
-        "lease_expires_at": "2026-11-25T14:44:05.098143+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364264",
       "prepared": {
@@ -284004,5 +284006,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:48:22.291936+00:00"
+  "updated_at": "2026-11-25T08:51:21.360178+00:00"
 }
