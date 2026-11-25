@@ -246146,17 +246146,19 @@
       }
     },
     "12901": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27763358",
+          "target_video_id": "31356159",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:17:33.139852+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27763358",
         "display_name": "A Fountain For Susan (Fontána pre Zuzanu 3) SD CZ Dabing",
         "planned_at": "2026-11-25T02:16:07.004893+00:00"
-      },
-      "claim": {
-        "worker_id": "a4b171dd507743df8af155141b3df1be-shard-0",
-        "claimed_at": "2026-11-25T02:16:07.575967+00:00",
-        "lease_expires_at": "2026-11-25T08:16:07.575967+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356159",
       "prepared": {
@@ -279158,5 +279160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:16:11.599782+00:00"
+  "updated_at": "2026-11-25T02:17:33.139873+00:00"
 }
