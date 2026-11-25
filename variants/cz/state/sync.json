@@ -245261,17 +245261,19 @@
       }
     },
     "13716": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17560858",
+          "target_video_id": "31355048",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:16:32.126776+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17560858",
         "display_name": "Finding Rin Tin Tin 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:14:18.650317+00:00"
-      },
-      "claim": {
-        "worker_id": "8026468f9c0c4fed9690269371cef126-shard-0",
-        "claimed_at": "2026-11-25T01:14:19.209694+00:00",
-        "lease_expires_at": "2026-11-25T07:14:19.209694+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355048",
       "prepared": {
@@ -278518,5 +278520,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:15:55.625150+00:00"
+  "updated_at": "2026-11-25T01:16:32.126796+00:00"
 }
