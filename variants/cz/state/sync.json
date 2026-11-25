@@ -255636,17 +255636,19 @@
       }
     },
     "30455": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6721043",
+          "target_video_id": "31368483",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:47:57.473591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6721043",
         "display_name": "Zoom (2015) SD CZ Dabing",
         "planned_at": "2026-11-25T11:45:45.618323+00:00"
-      },
-      "claim": {
-        "worker_id": "dc992ea66c004182ab2e5be0ce842efe-shard-0",
-        "claimed_at": "2026-11-25T11:45:47.358834+00:00",
-        "lease_expires_at": "2026-11-25T17:45:47.358834+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31368483",
       "prepared": {
@@ -286665,5 +286667,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:47:51.560490+00:00"
+  "updated_at": "2026-11-25T11:47:57.473609+00:00"
 }
