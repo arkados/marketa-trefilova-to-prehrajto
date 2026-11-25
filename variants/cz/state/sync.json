@@ -253965,17 +253965,19 @@
       }
     },
     "4780": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22173082",
+          "target_video_id": "31366517",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:18:36.829937+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22173082",
         "display_name": "Black Death 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:16:17.934415+00:00"
-      },
-      "claim": {
-        "worker_id": "aae914bb0eff475ab8adacb1108ff54f-shard-0",
-        "claimed_at": "2026-11-25T10:16:18.881782+00:00",
-        "lease_expires_at": "2026-11-25T16:16:18.881782+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366517",
       "prepared": {
@@ -285336,5 +285338,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:17:49.725987+00:00"
+  "updated_at": "2026-11-25T10:18:36.829953+00:00"
 }
