@@ -259660,17 +259660,19 @@
       }
     },
     "30418": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "8114117",
+          "target_video_id": "31373843",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:41:52.649962+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "8114117",
         "display_name": "The Flintstones & WWE: Stone Age SmackDown (The Flintstones and WWE: Stone Age SmackDown!) 720p CZ Dabing",
         "planned_at": "2026-11-25T15:40:12.369709+00:00"
-      },
-      "claim": {
-        "worker_id": "fdfd53f8425a4c2087997bca796612cc-shard-0",
-        "claimed_at": "2026-11-25T15:40:13.282416+00:00",
-        "lease_expires_at": "2026-11-25T21:40:13.282416+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373843",
       "prepared": {
@@ -290032,5 +290034,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:41:48.940898+00:00"
+  "updated_at": "2026-11-25T15:41:52.649981+00:00"
 }
