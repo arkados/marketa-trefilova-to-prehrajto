@@ -269047,17 +269047,19 @@
       }
     },
     "5980": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10457115",
+          "target_video_id": "31384010",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:07:25.564461+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10457115",
         "display_name": "Épouse-moi mon pote 1080p CZ Dabing",
         "planned_at": "2026-11-25T22:04:20.187213+00:00"
-      },
-      "claim": {
-        "worker_id": "67557999ca8b42c5b1c2f9656631e7ed-shard-0",
-        "claimed_at": "2026-11-25T22:04:20.738608+00:00",
-        "lease_expires_at": "2026-11-26T04:04:20.738608+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384010",
       "prepared": {
@@ -297333,5 +297335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:07:09.430237+00:00"
+  "updated_at": "2026-11-25T22:07:25.564481+00:00"
 }
