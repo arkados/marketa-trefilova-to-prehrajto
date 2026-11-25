@@ -267321,17 +267321,19 @@
       }
     },
     "16368": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33063911",
+          "target_video_id": "31381745",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:48:31.293835+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33063911",
         "display_name": "The Rookie Guide (Le Routard) 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:45:14.919162+00:00"
-      },
-      "claim": {
-        "worker_id": "c808694ffe9a4efe8dfd255d653165b7-shard-0",
-        "claimed_at": "2026-11-25T20:45:15.485609+00:00",
-        "lease_expires_at": "2026-11-26T02:45:15.485609+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381745",
       "prepared": {
@@ -295959,5 +295961,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:47:19.346762+00:00"
+  "updated_at": "2026-11-25T20:48:31.293855+00:00"
 }
