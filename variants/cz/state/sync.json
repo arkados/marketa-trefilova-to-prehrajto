@@ -266734,17 +266734,19 @@
       }
     },
     "11255": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34441004",
+          "target_video_id": "31380911",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:19:12.488176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34441004",
         "display_name": "Convoy 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:14:36.480157+00:00"
-      },
-      "claim": {
-        "worker_id": "a71811163c2a47b7ad859fdc6a44d83e-shard-0",
-        "claimed_at": "2026-11-25T20:14:37.257055+00:00",
-        "lease_expires_at": "2026-11-26T02:14:37.257055+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380911",
       "prepared": {
@@ -295483,5 +295485,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:17:01.964403+00:00"
+  "updated_at": "2026-11-25T20:19:12.488195+00:00"
 }
