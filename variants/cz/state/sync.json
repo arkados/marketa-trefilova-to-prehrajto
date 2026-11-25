@@ -257758,17 +257758,19 @@
       }
     },
     "4633": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33266241",
+          "target_video_id": "31371729",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:38:11.634957+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33266241",
         "display_name": "Let's Be Cops 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:35:56.449152+00:00"
-      },
-      "claim": {
-        "worker_id": "ec1d9e5d03c94f00a06f61b8f1ed20e5-shard-0",
-        "claimed_at": "2026-11-25T13:35:57.683222+00:00",
-        "lease_expires_at": "2026-11-25T19:35:57.683222+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371729",
       "prepared": {
@@ -288454,5 +288456,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:36:57.782116+00:00"
+  "updated_at": "2026-11-25T13:38:11.634976+00:00"
 }
