@@ -261375,17 +261375,19 @@
       "attempts": []
     },
     "6013": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34852404",
+          "target_video_id": "31375567",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:49:15.358853+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34852404",
         "display_name": "Predator Dark Ages (Predator: Dark Ages) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:48:31.067881+00:00"
-      },
-      "claim": {
-        "worker_id": "e845c10607c9493ca4d974e26bbfd711-shard-0",
-        "claimed_at": "2026-11-25T16:48:31.900002+00:00",
-        "lease_expires_at": "2026-11-25T22:48:31.900002+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375567",
       "prepared": {
@@ -291360,5 +291362,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:48:35.752472+00:00"
+  "updated_at": "2026-11-25T16:49:15.358873+00:00"
 }
