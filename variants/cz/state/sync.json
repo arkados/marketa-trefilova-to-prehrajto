@@ -23491,7 +23491,13 @@
       "last_plan": {
         "source_id": "31885956",
         "display_name": "Hotel Mumbai 720p CZ Dabing",
-        "planned_at": "2026-11-25T22:57:16.918959+00:00"
+        "planned_at": "2026-11-25T22:57:23.338762+00:00"
+      },
+      "claim": {
+        "worker_id": "1b82c73d86eb4629af45b9ebd3f7c4e5-shard-0",
+        "claimed_at": "2026-11-25T22:57:23.869447+00:00",
+        "lease_expires_at": "2026-11-26T04:57:23.869447+00:00",
+        "run_id": "45694325045"
       }
     },
     "25025": {
@@ -144442,7 +144448,7 @@
       "last_plan": {
         "source_id": "34716304",
         "display_name": "Arms for Prague (Zbraně pro Prahu) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T22:57:16.621549+00:00"
+        "planned_at": "2026-11-25T22:57:23.043154+00:00"
       },
       "previous_target_id": "30988791",
       "prepared": {
@@ -269594,17 +269600,19 @@
       }
     },
     "25067": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34498608",
+          "target_video_id": "31384960",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:57:24.645702+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34498608",
         "display_name": "Evil Never Dies 1080p CZ Dabing",
         "planned_at": "2026-11-25T22:44:01.190513+00:00"
-      },
-      "claim": {
-        "worker_id": "40a420fcc77b4db88770fed0083176e3-shard-0",
-        "claimed_at": "2026-11-25T22:44:01.725498+00:00",
-        "lease_expires_at": "2026-11-26T04:44:01.725498+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384960",
       "prepared": {
@@ -297817,5 +297825,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:57:16.918978+00:00"
+  "updated_at": "2026-11-25T22:57:24.645721+00:00"
 }
