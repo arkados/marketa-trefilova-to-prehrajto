@@ -250884,17 +250884,19 @@
       "attempts": []
     },
     "22014": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28762357",
+          "target_video_id": "31362544",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:36:59.977713+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28762357",
         "display_name": "A Man Called Sledge SD CZ Dabing",
         "planned_at": "2026-11-25T07:35:47.882517+00:00"
-      },
-      "claim": {
-        "worker_id": "752a1831ace04139b78115afecc08148-shard-0",
-        "claimed_at": "2026-11-25T07:35:48.795318+00:00",
-        "lease_expires_at": "2026-11-25T13:35:48.795318+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31362544",
       "prepared": {
@@ -282864,5 +282866,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:35:53.505125+00:00"
+  "updated_at": "2026-11-25T07:36:59.977727+00:00"
 }
