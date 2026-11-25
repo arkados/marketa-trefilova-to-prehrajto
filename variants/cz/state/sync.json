@@ -256691,17 +256691,19 @@
       }
     },
     "18465": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7057168",
+          "target_video_id": "31370081",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:46:26.050447+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7057168",
         "display_name": "Scooby-Doo! WrestleMania Mystery SD CZ Dabing",
         "planned_at": "2026-11-25T12:45:21.567918+00:00"
-      },
-      "claim": {
-        "worker_id": "9b567e23492943ee99bd40297a8fb2bc-shard-0",
-        "claimed_at": "2026-11-25T12:45:23.243353+00:00",
-        "lease_expires_at": "2026-11-25T18:45:23.243353+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31370081",
       "prepared": {
@@ -287543,5 +287545,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:45:28.210658+00:00"
+  "updated_at": "2026-11-25T12:46:26.050466+00:00"
 }
