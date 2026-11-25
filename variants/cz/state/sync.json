@@ -246526,17 +246526,19 @@
       "attempts": []
     },
     "22713": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32872138",
+          "target_video_id": "31356810",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:49:32.066037+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32872138",
         "display_name": "Tough Enough (1983) 1080p CZ Dabing",
         "planned_at": "2026-11-25T02:44:16.213775+00:00"
-      },
-      "claim": {
-        "worker_id": "597ad8c78b8f4addabf7fab98af2f54b-shard-0",
-        "claimed_at": "2026-11-25T02:44:16.761156+00:00",
-        "lease_expires_at": "2026-11-25T08:44:16.761156+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356810",
       "prepared": {
@@ -279498,5 +279500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:49:20.146096+00:00"
+  "updated_at": "2026-11-25T02:49:32.066057+00:00"
 }
