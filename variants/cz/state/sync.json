@@ -258775,17 +258775,19 @@
       }
     },
     "4777": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28393730",
+          "target_video_id": "31372879",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:46:18.727931+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28393730",
         "display_name": "The Longest Yard 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:43:58.442105+00:00"
-      },
-      "claim": {
-        "worker_id": "5c93fbc7db074f318a2c4d55dc56d99b-shard-0",
-        "claimed_at": "2026-11-25T14:43:59.359844+00:00",
-        "lease_expires_at": "2026-11-25T20:43:59.359844+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372879",
       "prepared": {
@@ -289285,5 +289287,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:44:03.692422+00:00"
+  "updated_at": "2026-11-25T14:46:18.727951+00:00"
 }
