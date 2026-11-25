@@ -250304,17 +250304,19 @@
       }
     },
     "34179": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29259641",
+          "target_video_id": "31361779",
+          "permanent": false,
+          "attempted_at": "2026-11-25T06:59:38.698610+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29259641",
         "display_name": "The Canterville Ghost (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-25T06:57:26.090862+00:00"
-      },
-      "claim": {
-        "worker_id": "21dedcfa0f1e4c9db6e1b667ad5741c3-shard-0",
-        "claimed_at": "2026-11-25T06:57:26.882081+00:00",
-        "lease_expires_at": "2026-11-25T12:57:26.882081+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361779",
       "prepared": {
@@ -282404,5 +282406,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T06:57:31.798560+00:00"
+  "updated_at": "2026-11-25T06:59:38.698624+00:00"
 }
