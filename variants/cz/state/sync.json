@@ -255959,17 +255959,19 @@
       }
     },
     "31870": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714428",
+          "target_video_id": "31369209",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:13:22.499135+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714428",
         "display_name": "La daga de Rasputín 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:10:59.105753+00:00"
-      },
-      "claim": {
-        "worker_id": "332bffcb915b4ac0b26e686eb99cfbf1-shard-0",
-        "claimed_at": "2026-11-25T12:11:02.900788+00:00",
-        "lease_expires_at": "2026-11-25T18:11:02.900788+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369209",
       "prepared": {
@@ -286943,5 +286945,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:11:17.876181+00:00"
+  "updated_at": "2026-11-25T12:13:22.499154+00:00"
 }
