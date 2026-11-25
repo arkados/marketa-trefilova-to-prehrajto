@@ -245063,17 +245063,19 @@
       }
     },
     "16009": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28098378",
+          "target_video_id": "31354876",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:09:27.385558+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28098378",
         "display_name": "The Heartbreak Agency (Die Liebeskümmerer) 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:04:14.810946+00:00"
-      },
-      "claim": {
-        "worker_id": "8b345d79c8e148278eb033f118207f8e-shard-0",
-        "claimed_at": "2026-11-25T01:04:15.355448+00:00",
-        "lease_expires_at": "2026-11-25T07:04:15.355448+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354876",
       "prepared": {
@@ -278371,5 +278373,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:06:30.351811+00:00"
+  "updated_at": "2026-11-25T01:09:27.385578+00:00"
 }
