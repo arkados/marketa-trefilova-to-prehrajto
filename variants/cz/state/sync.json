@@ -269689,17 +269689,19 @@
       "attempts": []
     },
     "26139": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30540237",
+          "target_video_id": "31385134",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:57:13.868739+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30540237",
         "display_name": "Angus, Thongs and Perfect Snogging 720p CZ Dabing",
         "planned_at": "2026-11-25T22:50:22.168736+00:00"
-      },
-      "claim": {
-        "worker_id": "f7d042a2cdb94b01800e16d06e259d86-shard-0",
-        "claimed_at": "2026-11-25T22:50:22.735122+00:00",
-        "lease_expires_at": "2026-11-26T04:50:22.735122+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385134",
       "prepared": {
@@ -297810,5 +297812,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:50:26.457015+00:00"
+  "updated_at": "2026-11-25T22:57:13.868758+00:00"
 }
