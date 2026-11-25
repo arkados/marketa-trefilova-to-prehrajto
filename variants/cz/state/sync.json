@@ -261584,17 +261584,19 @@
       }
     },
     "36670": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34720836",
+          "target_video_id": "31375669",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:57:56.688255+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34720836",
         "display_name": "Les Rois du gag 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:54:21.288030+00:00"
-      },
-      "claim": {
-        "worker_id": "5920c7418b0c4d47bf14fdfdd16cf323-shard-0",
-        "claimed_at": "2026-11-25T16:54:22.099743+00:00",
-        "lease_expires_at": "2026-11-25T22:54:22.099743+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375669",
       "prepared": {
@@ -291560,5 +291562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:55:22.924426+00:00"
+  "updated_at": "2026-11-25T16:57:56.688275+00:00"
 }
