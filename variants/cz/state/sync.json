@@ -257947,17 +257947,19 @@
       }
     },
     "15294": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31247857",
+          "target_video_id": "31371909",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:53:29.625559+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31247857",
         "display_name": "Scream VI (2023) [ID 15294] 4K CZ Dabing",
         "planned_at": "2026-11-25T13:48:06.592100+00:00"
-      },
-      "claim": {
-        "worker_id": "c9eceeb9bec540f4b2c0a6f24e147669-shard-0",
-        "claimed_at": "2026-11-25T13:48:07.489696+00:00",
-        "lease_expires_at": "2026-11-25T19:48:07.489696+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371909",
       "prepared": {
@@ -288651,5 +288653,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:51:50.783503+00:00"
+  "updated_at": "2026-11-25T13:53:29.625581+00:00"
 }
