@@ -269390,17 +269390,19 @@
       "attempts": []
     },
     "23760": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34969824",
+          "target_video_id": "31384573",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:35:09.047920+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34969824",
         "display_name": "Mr. Nice Guy 1080p CZ Dabing",
         "planned_at": "2026-11-25T22:28:35.727383+00:00"
-      },
-      "claim": {
-        "worker_id": "2607c8425d674b1aa2fcd6abe88d906f-shard-0",
-        "claimed_at": "2026-11-25T22:28:36.296993+00:00",
-        "lease_expires_at": "2026-11-26T04:28:36.296993+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384573",
       "prepared": {
@@ -297610,5 +297612,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:34:46.210618+00:00"
+  "updated_at": "2026-11-25T22:35:09.047936+00:00"
 }
