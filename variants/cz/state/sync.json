@@ -260686,17 +260686,19 @@
       }
     },
     "16716": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34773164",
+          "target_video_id": "31375196",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:33:51.222957+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34773164",
         "display_name": "Still Here 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:31:47.943582+00:00"
-      },
-      "claim": {
-        "worker_id": "5eb2dc2cd7254f928121268bca2971e4-shard-0",
-        "claimed_at": "2026-11-25T16:31:48.739415+00:00",
-        "lease_expires_at": "2026-11-25T22:31:48.739415+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375196",
       "prepared": {
@@ -290892,5 +290894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:32:57.471658+00:00"
+  "updated_at": "2026-11-25T16:33:51.222977+00:00"
 }
