@@ -246277,17 +246277,19 @@
       }
     },
     "4538": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26440019",
+          "target_video_id": "31356267",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:27:22.782660+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26440019",
         "display_name": "Cyrano 1080p CZ Dabing",
         "planned_at": "2026-11-25T02:21:46.917687+00:00"
-      },
-      "claim": {
-        "worker_id": "440740f5771444f09bf40dee9df78303-shard-0",
-        "claimed_at": "2026-11-25T02:21:47.496506+00:00",
-        "lease_expires_at": "2026-11-25T08:21:47.496506+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356267",
       "prepared": {
@@ -279318,5 +279320,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:25:41.450653+00:00"
+  "updated_at": "2026-11-25T02:27:22.782681+00:00"
 }
