@@ -251590,17 +251590,19 @@
       }
     },
     "22980": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31961275",
+          "target_video_id": "31363601",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:17:20.829250+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31961275",
         "display_name": "Curse of Snakes Valley (The Curse of Snake Valley) SD CZ Dabing",
         "planned_at": "2026-11-25T08:16:13.049498+00:00"
-      },
-      "claim": {
-        "worker_id": "38db2f1ee8084f03a3490fd05bc901a9-shard-0",
-        "claimed_at": "2026-11-25T08:16:13.982040+00:00",
-        "lease_expires_at": "2026-11-25T14:16:13.982040+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363601",
       "prepared": {
@@ -283444,5 +283446,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:17:05.416890+00:00"
+  "updated_at": "2026-11-25T08:17:20.829266+00:00"
 }
