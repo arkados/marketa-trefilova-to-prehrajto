@@ -264364,17 +264364,19 @@
       }
     },
     "6026": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26899660",
+          "target_video_id": "31378421",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:35:36.933390+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26899660",
         "display_name": "Balto III: Wings of Change SD CZ Dabing",
         "planned_at": "2026-11-25T18:34:05.067218+00:00"
-      },
-      "claim": {
-        "worker_id": "b341918b21054881a58ea17407acb489-shard-0",
-        "claimed_at": "2026-11-25T18:34:08.591059+00:00",
-        "lease_expires_at": "2026-11-26T00:34:08.591059+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378421",
       "prepared": {
@@ -293716,5 +293718,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:35:33.730496+00:00"
+  "updated_at": "2026-11-25T18:35:36.933428+00:00"
 }
