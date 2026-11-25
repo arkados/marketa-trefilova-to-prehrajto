@@ -263033,17 +263033,19 @@
       "attempts": []
     },
     "17237": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33870096",
+          "target_video_id": "31377034",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:43:23.924335+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33870096",
         "display_name": "The Full House (Les dents, pipi et au lit) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:41:08.409555+00:00"
-      },
-      "claim": {
-        "worker_id": "c513230bf1f640e0957ba99737bb2670-shard-0",
-        "claimed_at": "2026-11-25T17:41:09.203562+00:00",
-        "lease_expires_at": "2026-11-25T23:41:09.203562+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377034",
       "prepared": {
@@ -292682,5 +292684,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:42:26.363238+00:00"
+  "updated_at": "2026-11-25T17:43:23.924356+00:00"
 }
