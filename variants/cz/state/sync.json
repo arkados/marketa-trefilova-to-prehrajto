@@ -246700,17 +246700,19 @@
       "attempts": []
     },
     "4763": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27547840",
+          "target_video_id": "31356928",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:52:23.253183+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27547840",
         "display_name": "Shrek the Halls 1080p CZ Dabing",
         "planned_at": "2026-11-25T02:51:17.965479+00:00"
-      },
-      "claim": {
-        "worker_id": "7707ca9bb1b04d4d836bd6fcc9e64f7d-shard-0",
-        "claimed_at": "2026-11-25T02:51:18.794282+00:00",
-        "lease_expires_at": "2026-11-25T08:51:18.794282+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356928",
       "prepared": {
@@ -279598,5 +279600,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:51:38.787615+00:00"
+  "updated_at": "2026-11-25T02:52:23.253202+00:00"
 }
