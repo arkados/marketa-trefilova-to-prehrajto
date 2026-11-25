@@ -246252,17 +246252,19 @@
       "attempts": []
     },
     "26069": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31026570",
+          "target_video_id": "31356250",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:22:40.668144+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31026570",
         "display_name": "Nite Tales: The Movie (Nite Tales) SD CZ Dabing",
         "planned_at": "2026-11-25T02:20:50.607343+00:00"
-      },
-      "claim": {
-        "worker_id": "af768d58f9f54690ae29f7fb331ae330-shard-0",
-        "claimed_at": "2026-11-25T02:20:51.186233+00:00",
-        "lease_expires_at": "2026-11-25T08:20:51.186233+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356250",
       "prepared": {
@@ -279258,5 +279260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:21:51.610121+00:00"
+  "updated_at": "2026-11-25T02:22:40.668166+00:00"
 }
