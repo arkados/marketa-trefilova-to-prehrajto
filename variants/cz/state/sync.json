@@ -263395,17 +263395,19 @@
       "attempts": []
     },
     "5568": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18860827",
+          "target_video_id": "31377397",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:57:25.405660+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18860827",
         "display_name": "Welcome to Germany (Willkommen bei den Hartmanns) 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:54:19.147566+00:00"
-      },
-      "claim": {
-        "worker_id": "a3614fa77124489d9a281f0498303619-shard-0",
-        "claimed_at": "2026-11-25T17:54:19.955743+00:00",
-        "lease_expires_at": "2026-11-25T23:54:19.955743+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377397",
       "prepared": {
@@ -292964,5 +292966,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:57:22.807478+00:00"
+  "updated_at": "2026-11-25T17:57:25.405684+00:00"
 }
