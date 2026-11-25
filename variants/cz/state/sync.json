@@ -265113,17 +265113,19 @@
       }
     },
     "6577": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34819348",
+          "target_video_id": "31379196",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:07:05.963439+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34819348",
         "display_name": "Love Me to Death (Then Came You) SD CZ Dabing",
         "planned_at": "2026-11-25T19:05:00.428726+00:00"
-      },
-      "claim": {
-        "worker_id": "4c4320d382ae41a39a2a47b43fa8e481-shard-0",
-        "claimed_at": "2026-11-25T19:05:01.286144+00:00",
-        "lease_expires_at": "2026-11-26T01:05:01.286144+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379196",
       "prepared": {
@@ -294249,5 +294251,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:05:05.254182+00:00"
+  "updated_at": "2026-11-25T19:07:05.963462+00:00"
 }
