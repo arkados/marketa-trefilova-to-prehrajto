@@ -253677,17 +253677,19 @@
       }
     },
     "17700": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23505667",
+          "target_video_id": "31366092",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:01:43.485171+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23505667",
         "display_name": "Bad Taste SD CZ Dabing",
         "planned_at": "2026-11-25T10:00:17.330922+00:00"
-      },
-      "claim": {
-        "worker_id": "b5dbd27bdaae4edab6d41270ceac0309-shard-0",
-        "claimed_at": "2026-11-25T10:00:18.360257+00:00",
-        "lease_expires_at": "2026-11-25T16:00:18.360257+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366092",
       "prepared": {
@@ -285096,5 +285098,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:01:05.578550+00:00"
+  "updated_at": "2026-11-25T10:01:43.485187+00:00"
 }
