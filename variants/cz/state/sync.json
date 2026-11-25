@@ -256649,17 +256649,19 @@
       }
     },
     "11315": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31290172",
+          "target_video_id": "31369971",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:47:32.430942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31290172",
         "display_name": "Star Trek: The Motion Picture 4K CZ Dabing",
         "planned_at": "2026-11-25T12:41:24.623718+00:00"
-      },
-      "claim": {
-        "worker_id": "fc2855951b5e4b41aa96d171838f2767-shard-0",
-        "claimed_at": "2026-11-25T12:41:25.540379+00:00",
-        "lease_expires_at": "2026-11-25T18:41:25.540379+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369971",
       "prepared": {
@@ -287563,5 +287565,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:46:46.121294+00:00"
+  "updated_at": "2026-11-25T12:47:32.430960+00:00"
 }
