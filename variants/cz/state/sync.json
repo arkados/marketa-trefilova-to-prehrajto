@@ -259355,17 +259355,19 @@
       "attempts": []
     },
     "34894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34720047",
+          "target_video_id": "31373471",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:24:43.480639+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34720047",
         "display_name": "Stevie 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:22:10.796551+00:00"
-      },
-      "claim": {
-        "worker_id": "2638b59d385a4da7836b1980838698fb-shard-0",
-        "claimed_at": "2026-11-25T15:22:11.700297+00:00",
-        "lease_expires_at": "2026-11-25T21:22:11.700297+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373471",
       "prepared": {
@@ -289796,5 +289798,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:23:12.027027+00:00"
+  "updated_at": "2026-11-25T15:24:43.480658+00:00"
 }
