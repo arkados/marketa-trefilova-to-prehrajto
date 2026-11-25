@@ -247694,17 +247694,19 @@
       "attempts": []
     },
     "9761": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26710392",
+          "target_video_id": "31357876",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:54:16.063428+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26710392",
         "display_name": "Squared Love Everlasting (Miłość do kwadratu bez granic) 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:50:14.149173+00:00"
-      },
-      "claim": {
-        "worker_id": "8df18b40fdd54a95a0b998ddddda52fa-shard-0",
-        "claimed_at": "2026-11-25T03:50:14.993192+00:00",
-        "lease_expires_at": "2026-11-25T09:50:14.993192+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31357876",
       "prepared": {
@@ -280358,5 +280360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:51:22.884410+00:00"
+  "updated_at": "2026-11-25T03:54:16.063447+00:00"
 }
