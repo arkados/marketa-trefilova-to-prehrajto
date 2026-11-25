@@ -270797,17 +270797,19 @@
       }
     },
     "5054": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15935791",
+          "target_video_id": "31386714",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:57:44.927781+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15935791",
         "display_name": "To All the Boys: Always and Forever 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:53:49.650495+00:00"
-      },
-      "claim": {
-        "worker_id": "e93e3d3ba75243489caecc6ee460ae22-shard-0",
-        "claimed_at": "2026-11-25T23:53:50.328935+00:00",
-        "lease_expires_at": "2026-11-26T05:53:50.328935+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386714",
       "prepared": {
@@ -298687,5 +298689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:54:07.989421+00:00"
+  "updated_at": "2026-11-25T23:57:44.927799+00:00"
 }
