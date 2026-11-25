@@ -270411,17 +270411,19 @@
       }
     },
     "12021": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34842552",
+          "target_video_id": "31386156",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:34:34.379148+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34842552",
         "display_name": "Lady Dragon 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:30:04.926205+00:00"
-      },
-      "claim": {
-        "worker_id": "44cc2e39e3b240b3a4d0bd0af94a1834-shard-0",
-        "claimed_at": "2026-11-25T23:30:05.457221+00:00",
-        "lease_expires_at": "2026-11-26T05:30:05.457221+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386156",
       "prepared": {
@@ -298367,5 +298369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:30:09.553031+00:00"
+  "updated_at": "2026-11-25T23:34:34.379165+00:00"
 }
