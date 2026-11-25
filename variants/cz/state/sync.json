@@ -253200,17 +253200,19 @@
       }
     },
     "34819": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24659069",
+          "target_video_id": "31365701",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:39:58.365674+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24659069",
         "display_name": "Au Pair SD CZ Dabing",
         "planned_at": "2026-11-25T09:37:56.069764+00:00"
-      },
-      "claim": {
-        "worker_id": "bb0795cc396f4b068e157e275266f9e6-shard-0",
-        "claimed_at": "2026-11-25T09:38:03.112587+00:00",
-        "lease_expires_at": "2026-11-25T15:38:03.112587+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365701",
       "prepared": {
@@ -284741,5 +284743,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:39:48.096096+00:00"
+  "updated_at": "2026-11-25T09:39:58.365692+00:00"
 }
