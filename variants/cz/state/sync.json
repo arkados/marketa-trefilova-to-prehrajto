@@ -248932,17 +248932,19 @@
       "attempts": []
     },
     "19888": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21015797",
+          "target_video_id": "31359048",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:57:00.388643+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21015797",
         "display_name": "Trust No One: The Hunt for the Crypto King 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:53:30.838335+00:00"
-      },
-      "claim": {
-        "worker_id": "3d7b07b03c844d1c8c17feb9860a41f5-shard-0",
-        "claimed_at": "2026-11-25T04:53:31.726081+00:00",
-        "lease_expires_at": "2026-11-25T10:53:31.726081+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359048",
       "prepared": {
@@ -281335,5 +281337,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:54:39.938733+00:00"
+  "updated_at": "2026-11-25T04:57:00.388657+00:00"
 }
