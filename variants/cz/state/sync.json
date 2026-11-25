@@ -256505,17 +256505,19 @@
       }
     },
     "14715": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31105680",
+          "target_video_id": "31369822",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:39:21.083553+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31105680",
         "display_name": "The Fourth Passenger (El cuarto pasajero) 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:35:31.478067+00:00"
-      },
-      "claim": {
-        "worker_id": "9e84e142df814112bf703a70bbcfebbe-shard-0",
-        "claimed_at": "2026-11-25T12:35:33.304918+00:00",
-        "lease_expires_at": "2026-11-25T18:35:33.304918+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369822",
       "prepared": {
@@ -287443,5 +287445,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:38:48.751382+00:00"
+  "updated_at": "2026-11-25T12:39:21.083580+00:00"
 }
