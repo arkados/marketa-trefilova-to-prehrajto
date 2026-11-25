@@ -259709,17 +259709,19 @@
       "attempts": []
     },
     "15108": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689308",
+          "target_video_id": "31373880",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:44:29.622203+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689308",
         "display_name": "You Gotta Believe 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:42:13.619160+00:00"
-      },
-      "claim": {
-        "worker_id": "99aaa9be3cd74bc991f00dfee20edf54-shard-0",
-        "claimed_at": "2026-11-25T15:42:14.510680+00:00",
-        "lease_expires_at": "2026-11-25T21:42:14.510680+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373880",
       "prepared": {
@@ -290072,5 +290074,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:44:07.576164+00:00"
+  "updated_at": "2026-11-25T15:44:29.622228+00:00"
 }
