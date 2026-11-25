@@ -125550,7 +125550,7 @@
       "last_plan": {
         "source_id": "24613759",
         "display_name": "The Royal Game (Schachnovelle) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T03:01:59.939675+00:00"
+        "planned_at": "2026-11-25T03:02:04.961321+00:00"
       },
       "previous_target_id": "30985828",
       "prepared": {
@@ -246832,17 +246832,19 @@
       }
     },
     "7570": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21101674",
+          "target_video_id": "31357018",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:02:08.160116+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21101674",
         "display_name": "Dancing on Glass (Las niñas de cristal) 1080p CZ Dabing",
         "planned_at": "2026-11-25T02:55:55.876368+00:00"
-      },
-      "claim": {
-        "worker_id": "0074f2a1f914458680e395dd009549e5-shard-0",
-        "claimed_at": "2026-11-25T02:55:56.395115+00:00",
-        "lease_expires_at": "2026-11-25T08:55:56.395115+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357018",
       "prepared": {
@@ -247011,7 +247013,13 @@
       "last_plan": {
         "source_id": "25190126",
         "display_name": "Armageddon Time 1080p CZ Dabing",
-        "planned_at": "2026-11-25T03:02:00.277022+00:00"
+        "planned_at": "2026-11-25T03:02:05.310992+00:00"
+      },
+      "claim": {
+        "worker_id": "a091f7f98da34e4f85d392470d349e2a-shard-0",
+        "claimed_at": "2026-11-25T03:02:06.021038+00:00",
+        "lease_expires_at": "2026-11-25T09:02:06.021038+00:00",
+        "run_id": "45489062851"
       }
     },
     "11852": {
@@ -279805,5 +279813,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:02:00.277042+00:00"
+  "updated_at": "2026-11-25T03:02:08.160134+00:00"
 }
