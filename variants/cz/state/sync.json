@@ -263987,17 +263987,19 @@
       "attempts": []
     },
     "5920": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15718136",
+          "target_video_id": "31377816",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:21:31.165694+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15718136",
         "display_name": "Fukushima 50 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:12:15.573589+00:00"
-      },
-      "claim": {
-        "worker_id": "5b4ee00a2d8840be9c9cc98682ce461c-shard-0",
-        "claimed_at": "2026-11-25T18:12:16.370690+00:00",
-        "lease_expires_at": "2026-11-26T00:12:16.370690+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377816",
       "prepared": {
@@ -293436,5 +293438,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:21:24.902071+00:00"
+  "updated_at": "2026-11-25T18:21:31.165715+00:00"
 }
