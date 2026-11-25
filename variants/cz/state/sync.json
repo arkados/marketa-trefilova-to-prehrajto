@@ -141209,7 +141209,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T13:46:29.383707+00:00"
+        "planned_at": "2026-11-25T13:46:45.592364+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -257900,11 +257900,23 @@
       "attempts": []
     },
     "4832": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33756107",
+          "reason": "Source detail has no authenticated download link; source_id=33756107",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:46:56.932999+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33756107",
         "display_name": "She's Out of My League 1080p CZ Dabing",
-        "planned_at": "2026-11-25T13:46:30.430984+00:00"
+        "planned_at": "2026-11-25T13:46:46.894492+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33756107",
+        "requested_at": "2026-11-25T13:46:56.932981+00:00"
       }
     },
     "4933": {
@@ -288541,5 +288553,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:46:41.213588+00:00"
+  "updated_at": "2026-11-25T13:46:56.933004+00:00"
 }
