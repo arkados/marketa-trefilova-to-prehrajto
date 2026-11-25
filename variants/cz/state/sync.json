@@ -249438,17 +249438,19 @@
       "attempts": []
     },
     "19113": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30184961",
+          "target_video_id": "31359859",
+          "permanent": false,
+          "attempted_at": "2026-11-25T05:36:53.788788+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30184961",
         "display_name": "Monster High: Welcome to Monster High 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:33:53.906657+00:00"
-      },
-      "claim": {
-        "worker_id": "1cc4910ca6df41d89b8c8db3c9741b02-shard-0",
-        "claimed_at": "2026-11-25T05:33:54.763432+00:00",
-        "lease_expires_at": "2026-11-25T11:33:54.763432+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31359859",
       "prepared": {
@@ -281712,5 +281714,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:36:25.520484+00:00"
+  "updated_at": "2026-11-25T05:36:53.788802+00:00"
 }
