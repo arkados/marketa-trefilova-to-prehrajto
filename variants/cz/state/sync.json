@@ -141209,13 +141209,6 @@
           "source_id": "34791481",
           "target_video_id": "30988184",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:14:12.488696+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34791481",
-          "target_video_id": "30988184",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:38:45.791100+00:00"
         },
         {
@@ -141224,12 +141217,19 @@
           "target_video_id": "30988184",
           "permanent": false,
           "attempted_at": "2026-11-22T22:21:43.567559+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34791481",
+          "target_video_id": "30988184",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:14:54.002798+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T16:04:26.078746+00:00"
+        "planned_at": "2026-11-25T16:14:48.677276+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -260054,7 +260054,18 @@
       }
     },
     "4685": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32924786",
+        "display_name": "Batman v Superman: Dawn of Justice 4K CZ Dabing",
+        "planned_at": "2026-11-25T16:14:49.377593+00:00"
+      },
+      "claim": {
+        "worker_id": "f037b6ecbae7437cb961ba417f284a02-shard-0",
+        "claimed_at": "2026-11-25T16:14:51.368274+00:00",
+        "lease_expires_at": "2026-11-25T22:14:51.368274+00:00",
+        "run_id": "45651964996"
+      }
     },
     "16365": {
       "attempts": []
@@ -260066,10 +260077,20 @@
       "attempts": []
     },
     "18822": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "32380956",
+        "display_name": "My Father, the BTK Killer 1080p CZ Dabing",
+        "planned_at": "2026-11-25T16:14:49.947883+00:00"
+      }
     },
     "5994": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34835278",
+        "display_name": "Grass Stains (All Summers End) 720p CZ Dabing",
+        "planned_at": "2026-11-25T16:14:50.489778+00:00"
+      }
     },
     "8130": {
       "attempts": []
@@ -290333,5 +290354,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:09:27.161417+00:00"
+  "updated_at": "2026-11-25T16:14:54.002819+00:00"
 }
