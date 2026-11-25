@@ -141209,7 +141209,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T12:30:57.976184+00:00"
+        "planned_at": "2026-11-25T12:31:04.186714+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -256315,17 +256315,19 @@
       }
     },
     "12800": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29287355",
+          "target_video_id": "31369656",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:31:08.518163+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29287355",
         "display_name": "Blue Streak 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:26:19.356193+00:00"
-      },
-      "claim": {
-        "worker_id": "0fdeeece61a24e1fb1a82e153d1cb1a6-shard-0",
-        "claimed_at": "2026-11-25T12:26:20.249499+00:00",
-        "lease_expires_at": "2026-11-25T18:26:20.249499+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369656",
       "prepared": {
@@ -256384,7 +256386,13 @@
       "last_plan": {
         "source_id": "34910750",
         "display_name": "Mission Cross (Mission: Cross) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T12:30:58.502874+00:00"
+        "planned_at": "2026-11-25T12:31:04.695677+00:00"
+      },
+      "claim": {
+        "worker_id": "93d3de977d0a4472b740396b82bdefa6-shard-0",
+        "claimed_at": "2026-11-25T12:31:05.586338+00:00",
+        "lease_expires_at": "2026-11-25T18:31:05.586338+00:00",
+        "run_id": "45610173034"
       }
     },
     "21287": {
@@ -287270,5 +287278,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:30:58.502894+00:00"
+  "updated_at": "2026-11-25T12:31:08.518186+00:00"
 }
