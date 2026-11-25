@@ -247339,17 +247339,19 @@
       }
     },
     "32245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30121281",
+          "target_video_id": "31357337",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:18:18.356736+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30121281",
         "display_name": "The Sea Wolves 1080p CZ Dabing",
         "planned_at": "2026-11-25T03:15:44.505349+00:00"
-      },
-      "claim": {
-        "worker_id": "6fd4c8780a114365b7e337797e61249e-shard-0",
-        "claimed_at": "2026-11-25T03:15:45.136167+00:00",
-        "lease_expires_at": "2026-11-25T09:15:45.136167+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31357337",
       "prepared": {
@@ -280078,5 +280080,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:16:30.333537+00:00"
+  "updated_at": "2026-11-25T03:18:18.356758+00:00"
 }
