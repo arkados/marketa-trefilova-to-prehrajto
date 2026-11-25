@@ -256410,17 +256410,19 @@
       "attempts": []
     },
     "7804": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31102264",
+          "target_video_id": "31369749",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:34:11.730013+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31102264",
         "display_name": "Off Track 2 (Ute och cyklar) 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:31:27.933859+00:00"
-      },
-      "claim": {
-        "worker_id": "3f5333cff2d54642827f3bebab154049-shard-0",
-        "claimed_at": "2026-11-25T12:31:28.925094+00:00",
-        "lease_expires_at": "2026-11-25T18:31:28.925094+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369749",
       "prepared": {
@@ -287343,5 +287345,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:33:42.092555+00:00"
+  "updated_at": "2026-11-25T12:34:11.730033+00:00"
 }
