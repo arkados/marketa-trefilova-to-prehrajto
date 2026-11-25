@@ -244548,17 +244548,19 @@
       "attempts": []
     },
     "10926": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30129073",
+          "target_video_id": "31354300",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:41:35.961845+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30129073",
         "display_name": "Navajo Joe 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:32:27.947636+00:00"
-      },
-      "claim": {
-        "worker_id": "cf5b1e8ae57a4d9593d05839d45b2ef0-shard-0",
-        "claimed_at": "2026-11-25T00:32:28.570310+00:00",
-        "lease_expires_at": "2026-11-25T06:32:28.570310+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354300",
       "prepared": {
@@ -278034,5 +278036,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:37:57.395309+00:00"
+  "updated_at": "2026-11-25T00:41:35.961865+00:00"
 }
