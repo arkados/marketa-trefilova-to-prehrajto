@@ -252603,17 +252603,19 @@
       "attempts": []
     },
     "22965": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32572399",
+          "target_video_id": "31364724",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:06:04.310336+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32572399",
         "display_name": "Full Moon in Blue Water 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:59:46.360602+00:00"
-      },
-      "claim": {
-        "worker_id": "4608972b70a44955ac557f63c884414f-shard-0",
-        "claimed_at": "2026-11-25T08:59:47.341722+00:00",
-        "lease_expires_at": "2026-11-25T14:59:47.341722+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364724",
       "prepared": {
@@ -284241,5 +284243,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:04:43.160386+00:00"
+  "updated_at": "2026-11-25T09:06:04.310352+00:00"
 }
