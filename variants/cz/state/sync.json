@@ -259816,17 +259816,19 @@
       "attempts": []
     },
     "17394": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20577522",
+          "target_video_id": "31374028",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:53:43.901747+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20577522",
         "display_name": "The Racer 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:50:31.612840+00:00"
-      },
-      "claim": {
-        "worker_id": "6dea1231431a4fb8a08a607c9499d114-shard-0",
-        "claimed_at": "2026-11-25T15:50:32.516218+00:00",
-        "lease_expires_at": "2026-11-25T21:50:32.516218+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31374028",
       "prepared": {
@@ -290187,5 +290189,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:52:00.960297+00:00"
+  "updated_at": "2026-11-25T15:53:43.901764+00:00"
 }
