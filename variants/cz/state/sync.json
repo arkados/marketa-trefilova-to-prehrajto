@@ -258894,17 +258894,19 @@
       }
     },
     "4834": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33492530",
+          "target_video_id": "31373015",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:53:57.074736+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33492530",
         "display_name": "The Number 23 720p CZ Dabing",
         "planned_at": "2026-11-25T14:51:44.085767+00:00"
-      },
-      "claim": {
-        "worker_id": "996f7f4ce1104c30aea2573cdffeac50-shard-0",
-        "claimed_at": "2026-11-25T14:51:44.929537+00:00",
-        "lease_expires_at": "2026-11-25T20:51:44.929537+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373015",
       "prepared": {
@@ -289422,5 +289424,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:52:34.234782+00:00"
+  "updated_at": "2026-11-25T14:53:57.074756+00:00"
 }
