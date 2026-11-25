@@ -258489,17 +258489,19 @@
       }
     },
     "4858": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34479966",
+          "target_video_id": "31372620",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:33:00.155645+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34479966",
         "display_name": "Need for Speed 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:28:59.016144+00:00"
-      },
-      "claim": {
-        "worker_id": "8fd4e02fb1584762803b4286d233ee56-shard-0",
-        "claimed_at": "2026-11-25T14:28:59.890425+00:00",
-        "lease_expires_at": "2026-11-25T20:28:59.890425+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372620",
       "prepared": {
@@ -289091,5 +289093,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:32:45.039876+00:00"
+  "updated_at": "2026-11-25T14:33:00.155664+00:00"
 }
