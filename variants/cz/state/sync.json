@@ -253327,25 +253327,22 @@
       "attempts": []
     },
     "4500": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "upload_failed",
+          "source_id": "26971597",
+          "reason": "PrehrajtoError",
+          "permanent": false,
+          "target_video_id": "31365754",
+          "attempted_at": "2026-11-25T09:48:12.589364+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26971597",
         "display_name": "Fair Play (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:40:40.550264+00:00"
       },
-      "claim": {
-        "worker_id": "91770d93f9fd42de9dac74ed70f36959-shard-0",
-        "claimed_at": "2026-11-25T09:40:41.523518+00:00",
-        "lease_expires_at": "2026-11-25T15:40:41.523518+00:00",
-        "run_id": "45545725698"
-      },
-      "previous_target_id": "31365754",
-      "prepared": {
-        "target_video_id": "31365754",
-        "size_bytes": 2500813078,
-        "prepared_at": "2026-11-25T09:40:45.433137+00:00",
-        "relay_source_id": "26971597"
-      }
+      "previous_target_id": "31365754"
     },
     "14310": {
       "attempts": []
@@ -284861,5 +284858,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:48:01.325518+00:00"
+  "updated_at": "2026-11-25T09:48:12.589383+00:00"
 }
