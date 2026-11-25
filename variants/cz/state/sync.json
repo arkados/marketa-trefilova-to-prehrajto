@@ -244643,17 +244643,19 @@
       }
     },
     "16868": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17709542",
+          "target_video_id": "31354388",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:44:01.499856+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17709542",
         "display_name": "Saving Flora 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:37:52.514556+00:00"
-      },
-      "claim": {
-        "worker_id": "8a863662ce6f4160ac387f768d5e6d83-shard-0",
-        "claimed_at": "2026-11-25T00:37:53.127414+00:00",
-        "lease_expires_at": "2026-11-25T06:37:53.127414+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354388",
       "prepared": {
@@ -278074,5 +278076,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:43:22.494745+00:00"
+  "updated_at": "2026-11-25T00:44:01.499883+00:00"
 }
