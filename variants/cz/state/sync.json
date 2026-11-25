@@ -269287,17 +269287,19 @@
       }
     },
     "22774": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33696185",
+          "target_video_id": "31384429",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:26:02.295744+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33696185",
         "display_name": "Cat's Eye 1080p CZ Dabing",
         "planned_at": "2026-11-25T22:22:10.423848+00:00"
-      },
-      "claim": {
-        "worker_id": "eb7a6a50d68d42e7a163eb59875993ae-shard-0",
-        "claimed_at": "2026-11-25T22:22:10.958022+00:00",
-        "lease_expires_at": "2026-11-26T04:22:10.958022+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384429",
       "prepared": {
@@ -297509,5 +297511,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:26:00.057933+00:00"
+  "updated_at": "2026-11-25T22:26:02.295762+00:00"
 }
