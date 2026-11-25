@@ -252857,17 +252857,19 @@
       "attempts": []
     },
     "13649": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22908754",
+          "target_video_id": "31365098",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:17:55.674771+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22908754",
         "display_name": "Severance 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:13:15.746673+00:00"
-      },
-      "claim": {
-        "worker_id": "ba9524bbb30f4001b6868d6a62293b50-shard-0",
-        "claimed_at": "2026-11-25T09:13:17.020821+00:00",
-        "lease_expires_at": "2026-11-25T15:13:17.020821+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365098",
       "prepared": {
@@ -284441,5 +284443,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:15:16.189972+00:00"
+  "updated_at": "2026-11-25T09:17:55.674788+00:00"
 }
