@@ -270225,17 +270225,19 @@
       "attempts": []
     },
     "16724": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11551829",
+          "target_video_id": "31386023",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:28:00.052102+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11551829",
         "display_name": "The Rendezvous 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:23:38.078845+00:00"
-      },
-      "claim": {
-        "worker_id": "c07c717e53404cb29b30a58c614e15ed-shard-0",
-        "claimed_at": "2026-11-25T23:23:38.584768+00:00",
-        "lease_expires_at": "2026-11-26T05:23:38.584768+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386023",
       "prepared": {
@@ -298287,5 +298289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:27:53.644148+00:00"
+  "updated_at": "2026-11-25T23:28:00.052122+00:00"
 }
