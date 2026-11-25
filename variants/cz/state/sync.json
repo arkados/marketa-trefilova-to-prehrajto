@@ -254472,17 +254472,19 @@
       "attempts": []
     },
     "4549": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23162932",
+          "target_video_id": "31366795",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:41:01.159116+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23162932",
         "display_name": "Luckiest Girl Alive 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:38:17.005586+00:00"
-      },
-      "claim": {
-        "worker_id": "17bbeb325ec143db84666742b45379d7-shard-0",
-        "claimed_at": "2026-11-25T10:38:17.950626+00:00",
-        "lease_expires_at": "2026-11-25T16:38:17.950626+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366795",
       "prepared": {
@@ -285729,5 +285731,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:40:27.746239+00:00"
+  "updated_at": "2026-11-25T10:41:01.159132+00:00"
 }
