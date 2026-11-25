@@ -266948,17 +266948,19 @@
       }
     },
     "11102": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26769801",
+          "target_video_id": "31381269",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:30:48.398469+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26769801",
         "display_name": "Chino (Valdez, il mezzosangue) 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:27:13.298906+00:00"
-      },
-      "claim": {
-        "worker_id": "5b1ee1f98f1944b09106a49af0fc39bb-shard-0",
-        "claimed_at": "2026-11-25T20:27:13.882072+00:00",
-        "lease_expires_at": "2026-11-26T02:27:13.882072+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381269",
       "prepared": {
@@ -295686,5 +295688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:30:43.299522+00:00"
+  "updated_at": "2026-11-25T20:30:48.398491+00:00"
 }
