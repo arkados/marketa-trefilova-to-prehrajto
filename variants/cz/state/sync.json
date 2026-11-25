@@ -265835,17 +265835,19 @@
       "attempts": []
     },
     "7965": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34529199",
+          "target_video_id": "31380055",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:45:17.767329+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34529199",
         "display_name": "Spycies 4K CZ Dabing",
         "planned_at": "2026-11-25T19:38:36.059135+00:00"
-      },
-      "claim": {
-        "worker_id": "960cc4fb72194289b4d53ee71a532697-shard-0",
-        "claimed_at": "2026-11-25T19:38:36.856156+00:00",
-        "lease_expires_at": "2026-11-26T01:38:36.856156+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31380055",
       "prepared": {
@@ -294879,5 +294881,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:45:11.613699+00:00"
+  "updated_at": "2026-11-25T19:45:17.767350+00:00"
 }
