@@ -143017,7 +143017,7 @@
       "last_plan": {
         "source_id": "34911160",
         "display_name": "Murders in Brouage (Les Mystères des majorettes) SD CZ Dabing",
-        "planned_at": "2026-11-25T08:57:27.971325+00:00"
+        "planned_at": "2026-11-25T08:57:34.727590+00:00"
       },
       "previous_target_id": "30988583",
       "prepared": {
@@ -252550,11 +252550,23 @@
       "attempts": []
     },
     "27828": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34879492",
+          "reason": "Source detail has no authenticated download link; source_id=34879492",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:57:38.669595+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34879492",
         "display_name": "Compliance 1080p CZ Dabing",
-        "planned_at": "2026-11-25T08:57:28.572492+00:00"
+        "planned_at": "2026-11-25T08:57:35.307043+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34879492",
+        "requested_at": "2026-11-25T08:57:38.669580+00:00"
       }
     },
     "4453": {
@@ -284151,5 +284163,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:57:28.572508+00:00"
+  "updated_at": "2026-11-25T08:57:38.669601+00:00"
 }
