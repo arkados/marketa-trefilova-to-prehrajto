@@ -249789,17 +249789,19 @@
       }
     },
     "23805": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17938402",
+          "target_video_id": "31360358",
+          "permanent": false,
+          "attempted_at": "2026-11-25T06:42:40.395973+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17938402",
         "display_name": "Fierce Creatures 1080p CZ Dabing",
         "planned_at": "2026-11-25T05:58:39.748367+00:00"
-      },
-      "claim": {
-        "worker_id": "e720572f68a24cc6a9b872a9afcc7ee4-shard-0",
-        "claimed_at": "2026-11-25T05:58:40.633474+00:00",
-        "lease_expires_at": "2026-11-25T11:58:40.633474+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31360358",
       "prepared": {
@@ -282184,5 +282186,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T06:41:43.660505+00:00"
+  "updated_at": "2026-11-25T06:42:40.395987+00:00"
 }
