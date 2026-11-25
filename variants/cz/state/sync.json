@@ -141209,7 +141209,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T12:25:56.300311+00:00"
+        "planned_at": "2026-11-25T12:26:02.449117+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -256246,17 +256246,19 @@
       }
     },
     "27448": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11873063",
+          "target_video_id": "31369589",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:26:05.097466+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11873063",
         "display_name": "Our Idiot Brother 1080p CZ Dabing",
         "planned_at": "2026-11-25T12:23:51.333541+00:00"
-      },
-      "claim": {
-        "worker_id": "16c0a85dd208492590c08c34572d7778-shard-0",
-        "claimed_at": "2026-11-25T12:23:52.227984+00:00",
-        "lease_expires_at": "2026-11-25T18:23:52.227984+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369589",
       "prepared": {
@@ -256292,7 +256294,13 @@
       "last_plan": {
         "source_id": "30220292",
         "display_name": "D-Day the Sixth of June 1080p CZ Dabing",
-        "planned_at": "2026-11-25T12:25:56.790885+00:00"
+        "planned_at": "2026-11-25T12:26:02.918598+00:00"
+      },
+      "claim": {
+        "worker_id": "0ba06135d2f94c95b5c63e06ff1157e5-shard-0",
+        "claimed_at": "2026-11-25T12:26:03.724648+00:00",
+        "lease_expires_at": "2026-11-25T18:26:03.724648+00:00",
+        "run_id": "45610173034"
       }
     },
     "12800": {
@@ -287190,5 +287198,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:25:56.790905+00:00"
+  "updated_at": "2026-11-25T12:26:05.097485+00:00"
 }
