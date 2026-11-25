@@ -199681,7 +199681,7 @@
       "last_plan": {
         "source_id": "35178312",
         "display_name": "The Perfect Secret (Das perfekte Geheimnis) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T19:38:15.606905+00:00"
+        "planned_at": "2026-11-25T19:38:22.743185+00:00"
       },
       "previous_target_id": "31243478",
       "prepared": {
@@ -265808,11 +265808,23 @@
       }
     },
     "5602": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31027278",
+          "reason": "Source detail has no authenticated download link; source_id=31027278",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:38:26.016807+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31027278",
         "display_name": "Detour SD CZ Dabing",
-        "planned_at": "2026-11-25T19:38:16.071056+00:00"
+        "planned_at": "2026-11-25T19:38:23.206919+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31027278",
+        "requested_at": "2026-11-25T19:38:26.016788+00:00"
       }
     },
     "32366": {
@@ -294769,5 +294781,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:38:16.071074+00:00"
+  "updated_at": "2026-11-25T19:38:26.016812+00:00"
 }
