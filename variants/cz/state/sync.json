@@ -252828,17 +252828,19 @@
       }
     },
     "4811": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16116029",
+          "target_video_id": "31365071",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:15:00.035407+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16116029",
         "display_name": "Black Sea 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:11:59.423191+00:00"
-      },
-      "claim": {
-        "worker_id": "86b6fecff10c418ead6664b06db31be3-shard-0",
-        "claimed_at": "2026-11-25T09:12:00.389683+00:00",
-        "lease_expires_at": "2026-11-25T15:12:00.389683+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365071",
       "prepared": {
@@ -284421,5 +284423,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:14:02.804158+00:00"
+  "updated_at": "2026-11-25T09:15:00.035424+00:00"
 }
