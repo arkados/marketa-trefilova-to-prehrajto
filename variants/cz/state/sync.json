@@ -262103,17 +262103,19 @@
       "attempts": []
     },
     "14084": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31257347",
+          "target_video_id": "31376214",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:14:52.870899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31257347",
         "display_name": "Saloum 720p CZ Dabing",
         "planned_at": "2026-11-25T17:12:14.828412+00:00"
-      },
-      "claim": {
-        "worker_id": "3fbe569d40414089a6d599769246e3ab-shard-0",
-        "claimed_at": "2026-11-25T17:12:18.673359+00:00",
-        "lease_expires_at": "2026-11-25T23:12:18.673359+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376214",
       "prepared": {
@@ -291971,5 +291973,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:13:25.476848+00:00"
+  "updated_at": "2026-11-25T17:14:52.870920+00:00"
 }
