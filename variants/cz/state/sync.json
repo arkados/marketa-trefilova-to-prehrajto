@@ -244819,17 +244819,19 @@
       "attempts": []
     },
     "18426": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "9985886",
+          "target_video_id": "31354557",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:49:30.386865+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "9985886",
         "display_name": "4 Minute Mile (One Square Mile) SD CZ Dabing",
         "planned_at": "2026-11-25T00:48:29.961300+00:00"
-      },
-      "claim": {
-        "worker_id": "6ff8fa0296f34e91be506d4f8d5201aa-shard-0",
-        "claimed_at": "2026-11-25T00:48:30.584864+00:00",
-        "lease_expires_at": "2026-11-25T06:48:30.584864+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354557",
       "prepared": {
@@ -278154,5 +278156,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:48:34.976609+00:00"
+  "updated_at": "2026-11-25T00:49:30.386885+00:00"
 }
