@@ -244595,17 +244595,19 @@
       "attempts": []
     },
     "33874": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33793971",
+          "target_video_id": "31354326",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:37:42.445235+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33793971",
         "display_name": "Only the Lonely 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:34:30.761357+00:00"
-      },
-      "claim": {
-        "worker_id": "b4080c78a3cd49c0ad29696b66de73c0-shard-0",
-        "claimed_at": "2026-11-25T00:34:31.340485+00:00",
-        "lease_expires_at": "2026-11-25T06:34:31.340485+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354326",
       "prepared": {
@@ -278014,5 +278016,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:35:56.289657+00:00"
+  "updated_at": "2026-11-25T00:37:42.445255+00:00"
 }
