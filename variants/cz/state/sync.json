@@ -255817,17 +255817,19 @@
       }
     },
     "12497": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12107564",
+          "target_video_id": "31369069",
+          "permanent": false,
+          "attempted_at": "2026-11-25T12:07:06.975045+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12107564",
         "display_name": "The Siege SD CZ Dabing",
         "planned_at": "2026-11-25T12:04:34.751684+00:00"
-      },
-      "claim": {
-        "worker_id": "aa6ae763274c4fd5a492bc15612fd1ff-shard-0",
-        "claimed_at": "2026-11-25T12:04:36.062724+00:00",
-        "lease_expires_at": "2026-11-25T18:04:36.062724+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31369069",
       "prepared": {
@@ -286843,5 +286845,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T12:05:12.288839+00:00"
+  "updated_at": "2026-11-25T12:07:06.975065+00:00"
 }
