@@ -255024,17 +255024,19 @@
       }
     },
     "12545": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18186031",
+          "target_video_id": "31367757",
+          "permanent": false,
+          "attempted_at": "2026-11-25T11:14:11.306052+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18186031",
         "display_name": "The General's Daughter 720p CZ Dabing",
         "planned_at": "2026-11-25T11:12:16.017024+00:00"
-      },
-      "claim": {
-        "worker_id": "3dd87ceda4fe41969a7840dbd795df92-shard-0",
-        "claimed_at": "2026-11-25T11:12:16.990159+00:00",
-        "lease_expires_at": "2026-11-25T17:12:16.990159+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31367757",
       "prepared": {
@@ -286146,5 +286148,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T11:12:20.944210+00:00"
+  "updated_at": "2026-11-25T11:14:11.306068+00:00"
 }
