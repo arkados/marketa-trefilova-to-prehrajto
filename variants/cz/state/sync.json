@@ -259544,17 +259544,19 @@
       }
     },
     "4603": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16418016",
+          "target_video_id": "31373690",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:36:19.853810+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16418016",
         "display_name": "Alien 3 (Alien³) 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:32:42.973595+00:00"
-      },
-      "claim": {
-        "worker_id": "f20632063c5e47079f888b8c652f9a14-shard-0",
-        "claimed_at": "2026-11-25T15:32:43.896758+00:00",
-        "lease_expires_at": "2026-11-25T21:32:43.896758+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373690",
       "prepared": {
@@ -289970,5 +289972,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:35:46.689294+00:00"
+  "updated_at": "2026-11-25T15:36:19.853829+00:00"
 }
