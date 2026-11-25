@@ -248317,17 +248317,19 @@
       }
     },
     "19906": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34924201",
+          "target_video_id": "31358435",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:22:42.517479+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34924201",
         "display_name": "Double Wedding 720p CZ Dabing",
         "planned_at": "2026-11-25T04:19:41.891061+00:00"
-      },
-      "claim": {
-        "worker_id": "258698488c8345079d63dbc344cca5ab-shard-0",
-        "claimed_at": "2026-11-25T04:19:42.772568+00:00",
-        "lease_expires_at": "2026-11-25T10:19:42.772568+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358435",
       "prepared": {
@@ -280855,5 +280857,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:22:17.478530+00:00"
+  "updated_at": "2026-11-25T04:22:42.517497+00:00"
 }
