@@ -269339,17 +269339,19 @@
       "attempts": []
     },
     "13001": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34993770",
+          "target_video_id": "31384522",
+          "permanent": false,
+          "attempted_at": "2026-11-25T22:28:26.351410+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34993770",
         "display_name": "Good Advice 720p CZ Dabing",
         "planned_at": "2026-11-25T22:26:08.553869+00:00"
-      },
-      "claim": {
-        "worker_id": "e231758da455425fb4d19602b66415f5-shard-0",
-        "claimed_at": "2026-11-25T22:26:09.261210+00:00",
-        "lease_expires_at": "2026-11-26T04:26:09.261210+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31384522",
       "prepared": {
@@ -297550,5 +297552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T22:26:25.570922+00:00"
+  "updated_at": "2026-11-25T22:28:26.351427+00:00"
 }
