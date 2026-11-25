@@ -258734,17 +258734,19 @@
       }
     },
     "12136": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28264568",
+          "target_video_id": "31372842",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:46:21.281894+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28264568",
         "display_name": "China Moon 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:42:29.042064+00:00"
-      },
-      "claim": {
-        "worker_id": "62557206650c4406bedd4466fb692831-shard-0",
-        "claimed_at": "2026-11-25T14:42:29.958908+00:00",
-        "lease_expires_at": "2026-11-25T20:42:29.958908+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372842",
       "prepared": {
@@ -289287,5 +289289,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:46:18.727951+00:00"
+  "updated_at": "2026-11-25T14:46:21.281913+00:00"
 }
