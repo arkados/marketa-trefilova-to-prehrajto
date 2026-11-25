@@ -244748,17 +244748,19 @@
       "attempts": []
     },
     "15470": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28407727",
+          "target_video_id": "31354510",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:48:18.235038+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28407727",
         "display_name": "The Silent Mountain 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:45:50.158016+00:00"
-      },
-      "claim": {
-        "worker_id": "5fbe1ea594574b779c86e04645670a75-shard-0",
-        "claimed_at": "2026-11-25T00:45:50.823039+00:00",
-        "lease_expires_at": "2026-11-25T06:45:50.823039+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354510",
       "prepared": {
@@ -278134,5 +278136,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:47:13.037774+00:00"
+  "updated_at": "2026-11-25T00:48:18.235055+00:00"
 }
