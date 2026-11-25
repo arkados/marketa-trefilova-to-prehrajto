@@ -264131,17 +264131,19 @@
       }
     },
     "10891": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22060844",
+          "target_video_id": "31378082",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:24:56.347055+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22060844",
         "display_name": "Rampage at Apache Wells (Der Ölprinz) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:22:55.964087+00:00"
-      },
-      "claim": {
-        "worker_id": "c130f9f6b793405db203677e9b77040b-shard-0",
-        "claimed_at": "2026-11-25T18:22:56.784924+00:00",
-        "lease_expires_at": "2026-11-26T00:22:56.784924+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378082",
       "prepared": {
@@ -293498,5 +293500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:24:53.372893+00:00"
+  "updated_at": "2026-11-25T18:24:56.347073+00:00"
 }
