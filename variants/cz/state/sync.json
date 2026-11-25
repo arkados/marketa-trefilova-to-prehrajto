@@ -264669,17 +264669,19 @@
       "attempts": []
     },
     "9356": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34721221",
+          "target_video_id": "31378731",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:46:58.827181+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34721221",
         "display_name": "The Magic Kids: Three Unlikely Heroes (Die Wolf-Gäng) 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:44:28.806945+00:00"
-      },
-      "claim": {
-        "worker_id": "33d02d6e8174450b9117dba83b2bc049-shard-0",
-        "claimed_at": "2026-11-25T18:44:29.609454+00:00",
-        "lease_expires_at": "2026-11-26T00:44:29.609454+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378731",
       "prepared": {
@@ -293936,5 +293938,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:46:53.573293+00:00"
+  "updated_at": "2026-11-25T18:46:58.827208+00:00"
 }
