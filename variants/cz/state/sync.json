@@ -265726,17 +265726,19 @@
       }
     },
     "13603": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30197759",
+          "target_video_id": "31379977",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:36:36.054029+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30197759",
         "display_name": "Barbie: Fairytopia SD CZ Dabing",
         "planned_at": "2026-11-25T19:35:48.859610+00:00"
-      },
-      "claim": {
-        "worker_id": "5509c954c9644c4d9c03a9b640f6f8fd-shard-0",
-        "claimed_at": "2026-11-25T19:35:49.663428+00:00",
-        "lease_expires_at": "2026-11-26T01:35:49.663428+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379977",
       "prepared": {
@@ -294742,5 +294744,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:36:16.898973+00:00"
+  "updated_at": "2026-11-25T19:36:36.054050+00:00"
 }
