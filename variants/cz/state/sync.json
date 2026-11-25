@@ -260006,17 +260006,19 @@
       }
     },
     "11367": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33204800",
+          "target_video_id": "31374312",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:08:25.083768+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33204800",
         "display_name": "Banana Joe 4K CZ Dabing",
         "planned_at": "2026-11-25T16:03:59.532052+00:00"
-      },
-      "claim": {
-        "worker_id": "53afa016eedc47b0978e4a4c8125f839-shard-0",
-        "claimed_at": "2026-11-25T16:04:00.472650+00:00",
-        "lease_expires_at": "2026-11-25T22:04:00.472650+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31374312",
       "prepared": {
@@ -290329,5 +290331,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:05:45.712181+00:00"
+  "updated_at": "2026-11-25T16:08:25.083789+00:00"
 }
