@@ -245238,17 +245238,19 @@
       }
     },
     "16825": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34721309",
+          "target_video_id": "31355006",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:15:11.544666+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34721309",
         "display_name": "Liliane Susewind - Ein tierisches Abenteuer 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:12:00.876604+00:00"
-      },
-      "claim": {
-        "worker_id": "f90cdc40dc944ae48e61e4fb81d6d1ae-shard-0",
-        "claimed_at": "2026-11-25T01:12:01.491154+00:00",
-        "lease_expires_at": "2026-11-25T07:12:01.491154+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355006",
       "prepared": {
@@ -278498,5 +278500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:14:22.964798+00:00"
+  "updated_at": "2026-11-25T01:15:11.544687+00:00"
 }
