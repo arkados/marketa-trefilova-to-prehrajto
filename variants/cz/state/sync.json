@@ -250967,17 +250967,19 @@
       "attempts": []
     },
     "4794": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34883167",
+          "target_video_id": "31362640",
+          "permanent": false,
+          "attempted_at": "2026-11-25T07:47:16.642292+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34883167",
         "display_name": "Son of a Gun 1080p CZ Dabing",
         "planned_at": "2026-11-25T07:40:18.278125+00:00"
-      },
-      "claim": {
-        "worker_id": "6ef7e23b319143a59ebfe88aae355c1b-shard-0",
-        "claimed_at": "2026-11-25T07:40:19.127499+00:00",
-        "lease_expires_at": "2026-11-25T13:40:19.127499+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31362640",
       "prepared": {
@@ -282964,5 +282966,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T07:44:51.216928+00:00"
+  "updated_at": "2026-11-25T07:47:16.642305+00:00"
 }
