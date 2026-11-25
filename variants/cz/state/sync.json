@@ -249908,17 +249908,19 @@
       "attempts": []
     },
     "15518": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12590826",
+          "target_video_id": "31361190",
+          "permanent": false,
+          "attempted_at": "2026-11-25T06:29:31.425572+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12590826",
         "display_name": "10 regole per fare innamorare 720p CZ Dabing",
         "planned_at": "2026-11-25T06:25:01.737041+00:00"
-      },
-      "claim": {
-        "worker_id": "5104a47a642b41a28028c531e713a49d-shard-0",
-        "claimed_at": "2026-11-25T06:25:02.599174+00:00",
-        "lease_expires_at": "2026-11-25T12:25:02.599174+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31361190",
       "prepared": {
@@ -282089,5 +282091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T06:29:28.252941+00:00"
+  "updated_at": "2026-11-25T06:29:31.425587+00:00"
 }
