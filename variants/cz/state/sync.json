@@ -260536,17 +260536,19 @@
       "attempts": []
     },
     "19617": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34698264",
+          "target_video_id": "31375063",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:29:59.275302+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34698264",
         "display_name": "Double World (Zheng tu) 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:27:04.077527+00:00"
-      },
-      "claim": {
-        "worker_id": "2faffc7c252446178ec2ec992a6b8bd0-shard-0",
-        "claimed_at": "2026-11-25T16:27:04.890167+00:00",
-        "lease_expires_at": "2026-11-25T22:27:04.890167+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31375063",
       "prepared": {
@@ -290775,5 +290777,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:29:34.365715+00:00"
+  "updated_at": "2026-11-25T16:29:59.275323+00:00"
 }
