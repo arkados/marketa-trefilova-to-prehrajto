@@ -258227,17 +258227,19 @@
       }
     },
     "4792": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21830408",
+          "target_video_id": "31372138",
+          "permanent": false,
+          "attempted_at": "2026-11-25T14:17:39.383635+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21830408",
         "display_name": "The Purge: Anarchy 1080p CZ Dabing",
         "planned_at": "2026-11-25T14:00:55.600915+00:00"
-      },
-      "claim": {
-        "worker_id": "e964142c5713434a9830fe58fee11c06-shard-0",
-        "claimed_at": "2026-11-25T14:00:56.509596+00:00",
-        "lease_expires_at": "2026-11-25T20:00:56.509596+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31372138",
       "prepared": {
@@ -288931,5 +288933,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:14:31.900208+00:00"
+  "updated_at": "2026-11-25T14:17:39.383654+00:00"
 }
