@@ -259432,17 +259432,19 @@
       }
     },
     "4560": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33911076",
+          "target_video_id": "31373597",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:33:07.308081+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33911076",
         "display_name": "Meet the Fockers 4K CZ Dabing",
         "planned_at": "2026-11-25T15:27:54.200377+00:00"
-      },
-      "claim": {
-        "worker_id": "993ca4f5914745e3ba1549bd2c1a0763-shard-0",
-        "claimed_at": "2026-11-25T15:27:58.205149+00:00",
-        "lease_expires_at": "2026-11-25T21:27:58.205149+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373597",
       "prepared": {
@@ -289930,5 +289932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:32:48.486317+00:00"
+  "updated_at": "2026-11-25T15:33:07.308102+00:00"
 }
