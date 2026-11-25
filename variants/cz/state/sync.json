@@ -264108,17 +264108,19 @@
       }
     },
     "33849": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34716750",
+          "target_video_id": "31378073",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:24:53.372871+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34716750",
         "display_name": "Buen Camino 1080p CZ Dabing",
         "planned_at": "2026-11-25T18:22:36.983339+00:00"
-      },
-      "claim": {
-        "worker_id": "eb8d06e25a604ac7911dcb70ff6b5272-shard-0",
-        "claimed_at": "2026-11-25T18:22:37.787164+00:00",
-        "lease_expires_at": "2026-11-26T00:22:37.787164+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31378073",
       "prepared": {
@@ -293496,5 +293498,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:23:00.693586+00:00"
+  "updated_at": "2026-11-25T18:24:53.372893+00:00"
 }
