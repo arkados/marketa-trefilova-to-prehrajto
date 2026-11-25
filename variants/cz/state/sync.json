@@ -143074,7 +143074,7 @@
       "last_plan": {
         "source_id": "34953142",
         "display_name": "Les Mystères de la Chorale SD CZ Dabing",
-        "planned_at": "2026-11-25T17:32:02.128795+00:00"
+        "planned_at": "2026-11-25T17:32:08.549032+00:00"
       },
       "previous_target_id": "30988584",
       "prepared": {
@@ -262671,11 +262671,23 @@
       }
     },
     "23318": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "27479916",
+          "reason": "Request failed for https://sdilej.cz/27479916/zmrtvychvstani-1991-.avi (HTTP None)",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:32:11.326836+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27479916",
         "display_name": "The Resurrected SD CZ Dabing",
-        "planned_at": "2026-11-25T17:32:02.608310+00:00"
+        "planned_at": "2026-11-25T17:32:09.132027+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "27479916",
+        "requested_at": "2026-11-25T17:32:11.326821+00:00"
       }
     },
     "30210": {
@@ -292355,5 +292367,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:32:02.608329+00:00"
+  "updated_at": "2026-11-25T17:32:11.326841+00:00"
 }
