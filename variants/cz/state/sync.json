@@ -263586,17 +263586,19 @@
       }
     },
     "32144": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28427628",
+          "target_video_id": "31377546",
+          "permanent": false,
+          "attempted_at": "2026-11-25T18:02:03.921702+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28427628",
         "display_name": "Hoodlum SD CZ Dabing",
         "planned_at": "2026-11-25T18:00:14.628723+00:00"
-      },
-      "claim": {
-        "worker_id": "59e4e2220d8f4d649b3fdec11f753a88-shard-0",
-        "claimed_at": "2026-11-25T18:00:15.440040+00:00",
-        "lease_expires_at": "2026-11-26T00:00:15.440040+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31377546",
       "prepared": {
@@ -293079,5 +293081,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T18:01:26.721829+00:00"
+  "updated_at": "2026-11-25T18:02:03.921738+00:00"
 }
