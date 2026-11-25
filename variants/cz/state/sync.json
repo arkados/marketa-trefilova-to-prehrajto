@@ -259260,17 +259260,19 @@
       }
     },
     "4860": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35112561",
+          "target_video_id": "31373342",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:17:08.048374+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35112561",
         "display_name": "The Lone Ranger 1080p CZ Dabing",
         "planned_at": "2026-11-25T15:13:44.821142+00:00"
-      },
-      "claim": {
-        "worker_id": "9aa2b41c810c43a386762518771f808e-shard-0",
-        "claimed_at": "2026-11-25T15:13:45.804522+00:00",
-        "lease_expires_at": "2026-11-25T21:13:45.804522+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373342",
       "prepared": {
@@ -289719,5 +289721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:16:15.202352+00:00"
+  "updated_at": "2026-11-25T15:17:08.048394+00:00"
 }
