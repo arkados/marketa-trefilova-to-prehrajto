@@ -254422,17 +254422,19 @@
       "attempts": []
     },
     "26188": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34233944",
+          "target_video_id": "31366782",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:41:21.710869+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34233944",
         "display_name": "The Experiment 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:37:18.188164+00:00"
-      },
-      "claim": {
-        "worker_id": "a450941663ce4516bc6b5b37e1c67ad0-shard-0",
-        "claimed_at": "2026-11-25T10:37:19.075352+00:00",
-        "lease_expires_at": "2026-11-25T16:37:19.075352+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366782",
       "prepared": {
@@ -285749,5 +285751,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:41:18.859143+00:00"
+  "updated_at": "2026-11-25T10:41:21.710886+00:00"
 }
