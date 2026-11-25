@@ -267508,17 +267508,19 @@
       }
     },
     "5098": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12015436",
+          "target_video_id": "31382067",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:07:54.553884+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12015436",
         "display_name": "The Man Who Killed Don Quixote 1080p CZ Dabing",
         "planned_at": "2026-11-25T20:53:25.630228+00:00"
-      },
-      "claim": {
-        "worker_id": "12eb6649d29d415bb6bf0c5ba4d1bd49-shard-0",
-        "claimed_at": "2026-11-25T20:53:26.194805+00:00",
-        "lease_expires_at": "2026-11-26T02:53:26.194805+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382067",
       "prepared": {
@@ -296276,5 +296278,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:07:49.071208+00:00"
+  "updated_at": "2026-11-25T21:07:54.553905+00:00"
 }
