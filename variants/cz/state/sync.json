@@ -245217,17 +245217,19 @@
       "attempts": []
     },
     "4619": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27324623",
+          "target_video_id": "31355003",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:17:21.614235+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27324623",
         "display_name": "The High Note 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:11:48.171160+00:00"
-      },
-      "claim": {
-        "worker_id": "ecb1c569c1514863a588ddc04646e164-shard-0",
-        "claimed_at": "2026-11-25T01:11:48.769050+00:00",
-        "lease_expires_at": "2026-11-25T07:11:48.769050+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355003",
       "prepared": {
@@ -278538,5 +278540,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:16:44.750013+00:00"
+  "updated_at": "2026-11-25T01:17:21.614253+00:00"
 }
