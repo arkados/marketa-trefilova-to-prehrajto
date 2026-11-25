@@ -247764,17 +247764,19 @@
       "attempts": []
     },
     "15430": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35027122",
+          "target_video_id": "31357970",
+          "permanent": false,
+          "attempted_at": "2026-11-25T03:56:34.077895+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35027122",
         "display_name": "Ladykiller: The Drew Peterson Story (Drew Peterson: Untouchable) SD CZ Dabing",
         "planned_at": "2026-11-25T03:55:21.550857+00:00"
-      },
-      "claim": {
-        "worker_id": "9089cef8a88c48429509fff122929e27-shard-0",
-        "claimed_at": "2026-11-25T03:55:22.458601+00:00",
-        "lease_expires_at": "2026-11-25T09:55:22.458601+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31357970",
       "prepared": {
@@ -280398,5 +280400,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T03:55:27.367750+00:00"
+  "updated_at": "2026-11-25T03:56:34.077930+00:00"
 }
