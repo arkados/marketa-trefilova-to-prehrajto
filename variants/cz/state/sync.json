@@ -268710,17 +268710,19 @@
       }
     },
     "5492": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25234324",
+          "target_video_id": "31383620",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:51:55.230635+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25234324",
         "display_name": "Never Back Down: No Surrender 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:48:49.787791+00:00"
-      },
-      "claim": {
-        "worker_id": "7f3aa6e97f8d45eda8a2a0aef9ca0e5a-shard-0",
-        "claimed_at": "2026-11-25T21:48:53.550759+00:00",
-        "lease_expires_at": "2026-11-26T03:48:53.550759+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383620",
       "prepared": {
@@ -297033,5 +297035,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:49:06.579451+00:00"
+  "updated_at": "2026-11-25T21:51:55.230651+00:00"
 }
