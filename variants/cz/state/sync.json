@@ -268080,17 +268080,19 @@
       "attempts": []
     },
     "9518": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23218701",
+          "target_video_id": "31382906",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:24:56.682632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23218701",
         "display_name": "Battle: Freestyle 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:22:30.096468+00:00"
-      },
-      "claim": {
-        "worker_id": "f5bd45aa373841338d1170e7b8cf562a-shard-0",
-        "claimed_at": "2026-11-25T21:22:30.590511+00:00",
-        "lease_expires_at": "2026-11-26T03:22:30.590511+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31382906",
       "prepared": {
@@ -296556,5 +296558,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:24:16.797180+00:00"
+  "updated_at": "2026-11-25T21:24:56.682649+00:00"
 }
