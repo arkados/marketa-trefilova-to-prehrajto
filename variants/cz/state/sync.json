@@ -253447,17 +253447,19 @@
       }
     },
     "12075": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29292059",
+          "target_video_id": "31365875",
+          "permanent": false,
+          "attempted_at": "2026-11-25T09:50:25.657111+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29292059",
         "display_name": "The Good Son 1080p CZ Dabing",
         "planned_at": "2026-11-25T09:48:22.745282+00:00"
-      },
-      "claim": {
-        "worker_id": "1ea81a32358d4c18b9af1cc1951537fd-shard-0",
-        "claimed_at": "2026-11-25T09:48:23.691068+00:00",
-        "lease_expires_at": "2026-11-25T15:48:23.691068+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31365875",
       "prepared": {
@@ -284896,5 +284898,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T09:50:15.713771+00:00"
+  "updated_at": "2026-11-25T09:50:25.657126+00:00"
 }
