@@ -269847,17 +269847,19 @@
       "attempts": []
     },
     "30262": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713307",
+          "target_video_id": "31385512",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:06:21.121133+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713307",
         "display_name": "Wild Beasts 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:03:03.216979+00:00"
-      },
-      "claim": {
-        "worker_id": "9f5936ee7be24e9ba3a57c988d04b3ab-shard-0",
-        "claimed_at": "2026-11-25T23:03:03.729973+00:00",
-        "lease_expires_at": "2026-11-26T05:03:03.729973+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31385512",
       "prepared": {
@@ -297950,5 +297952,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:03:52.057819+00:00"
+  "updated_at": "2026-11-25T23:06:21.121152+00:00"
 }
