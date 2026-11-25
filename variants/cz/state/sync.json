@@ -260083,17 +260083,19 @@
       "attempts": []
     },
     "18822": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32380956",
+          "target_video_id": "31374678",
+          "permanent": false,
+          "attempted_at": "2026-11-25T16:17:08.080148+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32380956",
         "display_name": "My Father, the BTK Killer 1080p CZ Dabing",
         "planned_at": "2026-11-25T16:15:02.130436+00:00"
-      },
-      "claim": {
-        "worker_id": "d33dcf4cc7cd479bb10909b269d4b80b-shard-0",
-        "claimed_at": "2026-11-25T16:15:07.217953+00:00",
-        "lease_expires_at": "2026-11-25T22:15:07.217953+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31374678",
       "prepared": {
@@ -290404,5 +290406,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T16:15:39.033928+00:00"
+  "updated_at": "2026-11-25T16:17:08.080168+00:00"
 }
