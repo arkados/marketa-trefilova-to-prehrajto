@@ -267117,17 +267117,19 @@
       "attempts": []
     },
     "13567": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17536648",
+          "target_video_id": "31381445",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:39:00.387332+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17536648",
         "display_name": "Rag Tale 720p CZ Dabing",
         "planned_at": "2026-11-25T20:34:18.890665+00:00"
-      },
-      "claim": {
-        "worker_id": "21bff913eafa4f56ba21b1d70f1037de-shard-0",
-        "claimed_at": "2026-11-25T20:34:19.390807+00:00",
-        "lease_expires_at": "2026-11-26T02:34:19.390807+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381445",
       "prepared": {
@@ -295799,5 +295801,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:37:45.623233+00:00"
+  "updated_at": "2026-11-25T20:39:00.387350+00:00"
 }
