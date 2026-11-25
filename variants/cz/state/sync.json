@@ -267298,17 +267298,19 @@
       "attempts": []
     },
     "13647": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24755571",
+          "target_video_id": "31381739",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:47:04.967024+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24755571",
         "display_name": "The Cutting Edge: Going for the Gold 720p CZ Dabing",
         "planned_at": "2026-11-25T20:44:57.974845+00:00"
-      },
-      "claim": {
-        "worker_id": "f4fc56090da64ba2b401177991a4d7a0-shard-0",
-        "claimed_at": "2026-11-25T20:44:58.544422+00:00",
-        "lease_expires_at": "2026-11-26T02:44:58.544422+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381739",
       "prepared": {
@@ -295939,5 +295941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:46:08.507190+00:00"
+  "updated_at": "2026-11-25T20:47:04.967048+00:00"
 }
