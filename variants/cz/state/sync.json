@@ -262419,17 +262419,19 @@
       "attempts": []
     },
     "5475": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29198604",
+          "target_video_id": "31376513",
+          "permanent": false,
+          "attempted_at": "2026-11-25T17:23:44.730996+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29198604",
         "display_name": "Amundsen 1080p CZ Dabing",
         "planned_at": "2026-11-25T17:21:31.779711+00:00"
-      },
-      "claim": {
-        "worker_id": "3a3b61f2f01c47bba26f451c4f6830bd-shard-0",
-        "claimed_at": "2026-11-25T17:21:32.470963+00:00",
-        "lease_expires_at": "2026-11-25T23:21:32.470963+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31376513",
       "prepared": {
@@ -292188,5 +292190,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T17:23:02.650740+00:00"
+  "updated_at": "2026-11-25T17:23:44.731016+00:00"
 }
