@@ -244519,17 +244519,19 @@
       "attempts": []
     },
     "13966": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34684664",
+          "target_video_id": "31354283",
+          "permanent": false,
+          "attempted_at": "2026-11-25T00:34:22.448840+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34684664",
         "display_name": "Henry Poole Is Here 1080p CZ Dabing",
         "planned_at": "2026-11-25T00:31:44.071968+00:00"
-      },
-      "claim": {
-        "worker_id": "84036662754e47f69b767be03273a264-shard-0",
-        "claimed_at": "2026-11-25T00:31:44.653275+00:00",
-        "lease_expires_at": "2026-11-25T06:31:44.653275+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31354283",
       "prepared": {
@@ -277974,5 +277976,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T00:33:49.315818+00:00"
+  "updated_at": "2026-11-25T00:34:22.448861+00:00"
 }
