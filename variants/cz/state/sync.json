@@ -257687,17 +257687,19 @@
       }
     },
     "27618": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30669441",
+          "target_video_id": "31371621",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:31:56.887056+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30669441",
         "display_name": "Last Man Standing (2011) SD CZ Dabing",
         "planned_at": "2026-11-25T13:30:58.616707+00:00"
-      },
-      "claim": {
-        "worker_id": "2f521838826b4b36b4232bae5418d003-shard-0",
-        "claimed_at": "2026-11-25T13:30:59.581781+00:00",
-        "lease_expires_at": "2026-11-25T19:30:59.581781+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371621",
       "prepared": {
@@ -288374,5 +288376,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:31:03.787404+00:00"
+  "updated_at": "2026-11-25T13:31:56.887076+00:00"
 }
