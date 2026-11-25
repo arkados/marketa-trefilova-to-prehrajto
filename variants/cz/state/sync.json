@@ -259683,17 +259683,19 @@
       }
     },
     "13693": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34469664",
+          "target_video_id": "31373875",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:44:07.576145+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34469664",
         "display_name": "Kokoda SD CZ Dabing",
         "planned_at": "2026-11-25T15:41:57.461823+00:00"
-      },
-      "claim": {
-        "worker_id": "9914fd2ca8384bcb9d7106223d60f2f2-shard-0",
-        "claimed_at": "2026-11-25T15:41:58.596002+00:00",
-        "lease_expires_at": "2026-11-25T21:41:58.596002+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31373875",
       "prepared": {
@@ -290070,5 +290072,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:42:18.873915+00:00"
+  "updated_at": "2026-11-25T15:44:07.576164+00:00"
 }
