@@ -257714,17 +257714,19 @@
       }
     },
     "4629": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29787953",
+          "target_video_id": "31371653",
+          "permanent": false,
+          "attempted_at": "2026-11-25T13:36:41.251404+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29787953",
         "display_name": "Mr. Bean's Holiday 1080p CZ Dabing",
         "planned_at": "2026-11-25T13:32:15.027471+00:00"
-      },
-      "claim": {
-        "worker_id": "fcc3a236ea394dab8f4cd9887e5c2b37-shard-0",
-        "claimed_at": "2026-11-25T13:32:15.946905+00:00",
-        "lease_expires_at": "2026-11-25T19:32:15.946905+00:00",
-        "run_id": "45610173034"
       },
       "previous_target_id": "31371653",
       "prepared": {
@@ -288434,5 +288436,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T13:36:02.775958+00:00"
+  "updated_at": "2026-11-25T13:36:41.251422+00:00"
 }
