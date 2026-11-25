@@ -251519,17 +251519,19 @@
       "attempts": []
     },
     "7552": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32838382",
+          "target_video_id": "31363530",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:15:06.837007+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32838382",
         "display_name": "Delivery by Christmas (Jeszcze przed Świętami) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:12:17.045439+00:00"
-      },
-      "claim": {
-        "worker_id": "8bcbcc6ca6484c8fad1e7810fabefd87-shard-0",
-        "claimed_at": "2026-11-25T08:12:18.012849+00:00",
-        "lease_expires_at": "2026-11-25T14:12:18.012849+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31363530",
       "prepared": {
@@ -283364,5 +283366,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:12:55.253155+00:00"
+  "updated_at": "2026-11-25T08:15:06.837022+00:00"
 }
