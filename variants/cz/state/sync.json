@@ -252363,17 +252363,19 @@
       "attempts": []
     },
     "14617": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34606748",
+          "target_video_id": "31364448",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:53:54.863965+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34606748",
         "display_name": "Al Kameen (lkmynAl Kameen) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:51:30.789756+00:00"
-      },
-      "claim": {
-        "worker_id": "d6fab81109174a5fa0786adfc927b9e0-shard-0",
-        "claimed_at": "2026-11-25T08:51:31.698474+00:00",
-        "lease_expires_at": "2026-11-25T14:51:31.698474+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364448",
       "prepared": {
@@ -284084,5 +284086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:53:50.390302+00:00"
+  "updated_at": "2026-11-25T08:53:54.863980+00:00"
 }
