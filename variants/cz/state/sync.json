@@ -246310,17 +246310,19 @@
       "attempts": []
     },
     "4707": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34847593",
+          "target_video_id": "31356279",
+          "permanent": false,
+          "attempted_at": "2026-11-25T02:25:22.685013+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34847593",
         "display_name": "Ashby 720p CZ Dabing",
         "planned_at": "2026-11-25T02:22:53.570709+00:00"
-      },
-      "claim": {
-        "worker_id": "34ad0bd736924356ae0bea40e79be01e-shard-0",
-        "claimed_at": "2026-11-25T02:22:54.173159+00:00",
-        "lease_expires_at": "2026-11-25T08:22:54.173159+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31356279",
       "prepared": {
@@ -279285,5 +279287,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T02:25:13.822298+00:00"
+  "updated_at": "2026-11-25T02:25:22.685041+00:00"
 }
