@@ -141229,7 +141229,7 @@
       "last_plan": {
         "source_id": "34791481",
         "display_name": "And Tomorrow We Will Be Dead (Und morgen seid ihr tot) 1080p CZ Dabing",
-        "planned_at": "2026-11-25T15:21:48.314309+00:00"
+        "planned_at": "2026-11-25T15:21:56.174400+00:00"
       },
       "previous_target_id": "30988184",
       "prepared": {
@@ -259327,11 +259327,23 @@
       }
     },
     "4672": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32457317",
+          "reason": "Source detail has no authenticated download link; source_id=32457317",
+          "permanent": false,
+          "attempted_at": "2026-11-25T15:22:00.318063+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32457317",
         "display_name": "Predators 4K CZ Dabing",
-        "planned_at": "2026-11-25T15:21:48.854892+00:00"
+        "planned_at": "2026-11-25T15:21:56.716985+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "32457317",
+        "requested_at": "2026-11-25T15:22:00.318044+00:00"
       }
     },
     "27257": {
@@ -289746,5 +289758,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T15:21:48.854911+00:00"
+  "updated_at": "2026-11-25T15:22:00.318069+00:00"
 }
