@@ -270610,17 +270610,19 @@
       "attempts": []
     },
     "5069": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34983798",
+          "target_video_id": "31386407",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:44:36.555536+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34983798",
         "display_name": "The Silencing 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:41:24.502227+00:00"
-      },
-      "claim": {
-        "worker_id": "b92418d0f98e41df9eafa0bf67aa93af-shard-0",
-        "claimed_at": "2026-11-25T23:41:25.014926+00:00",
-        "lease_expires_at": "2026-11-26T05:41:25.014926+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386407",
       "prepared": {
@@ -298527,5 +298529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:41:29.020236+00:00"
+  "updated_at": "2026-11-25T23:44:36.555552+00:00"
 }
