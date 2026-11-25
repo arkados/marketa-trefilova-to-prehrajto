@@ -268620,17 +268620,19 @@
       "attempts": []
     },
     "6296": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12004255",
+          "target_video_id": "31383481",
+          "permanent": false,
+          "attempted_at": "2026-11-25T21:53:29.042164+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12004255",
         "display_name": "Altamira 1080p CZ Dabing",
         "planned_at": "2026-11-25T21:44:04.487250+00:00"
-      },
-      "claim": {
-        "worker_id": "1b06281938774ac4be3c6f69ccb59e3f-shard-0",
-        "claimed_at": "2026-11-25T21:44:05.049851+00:00",
-        "lease_expires_at": "2026-11-26T03:44:05.049851+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31383481",
       "prepared": {
@@ -297053,5 +297055,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T21:52:10.762644+00:00"
+  "updated_at": "2026-11-25T21:53:29.042178+00:00"
 }
