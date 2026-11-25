@@ -252308,17 +252308,19 @@
       }
     },
     "10166": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34671229",
+          "target_video_id": "31364296",
+          "permanent": false,
+          "attempted_at": "2026-11-25T08:52:05.814423+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34671229",
         "display_name": "For Jojo (Für Jojo) 1080p CZ Dabing",
         "planned_at": "2026-11-25T08:45:25.930458+00:00"
-      },
-      "claim": {
-        "worker_id": "0d2f3884645e4d37b8c1c05532f7d14c-shard-0",
-        "claimed_at": "2026-11-25T08:45:26.755315+00:00",
-        "lease_expires_at": "2026-11-25T14:45:26.755315+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31364296",
       "prepared": {
@@ -284024,5 +284026,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:51:36.265063+00:00"
+  "updated_at": "2026-11-25T08:52:05.814439+00:00"
 }
