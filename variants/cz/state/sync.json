@@ -266861,17 +266861,19 @@
       }
     },
     "12322": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6537876",
+          "target_video_id": "31381228",
+          "permanent": false,
+          "attempted_at": "2026-11-25T20:27:05.478814+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6537876",
         "display_name": "Mulholland Falls SD CZ Dabing",
         "planned_at": "2026-11-25T20:26:03.855834+00:00"
-      },
-      "claim": {
-        "worker_id": "41b70f37c80e447ba855934fd867003b-shard-0",
-        "claimed_at": "2026-11-25T20:26:04.407462+00:00",
-        "lease_expires_at": "2026-11-26T02:26:04.407462+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31381228",
       "prepared": {
@@ -295619,5 +295621,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T20:26:46.520131+00:00"
+  "updated_at": "2026-11-25T20:27:05.478834+00:00"
 }
