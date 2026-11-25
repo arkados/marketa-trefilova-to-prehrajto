@@ -248202,17 +248202,19 @@
       }
     },
     "11098": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32998703",
+          "target_video_id": "31358347",
+          "permanent": false,
+          "attempted_at": "2026-11-25T04:18:47.600280+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32998703",
         "display_name": "Even Angels Eat Beans (Anche gli angeli mangiano fagioli) 1080p CZ Dabing",
         "planned_at": "2026-11-25T04:15:20.535147+00:00"
-      },
-      "claim": {
-        "worker_id": "d08f322e57784a18883c7dd5ec0f62f2-shard-0",
-        "claimed_at": "2026-11-25T04:15:24.347084+00:00",
-        "lease_expires_at": "2026-11-25T10:15:24.347084+00:00",
-        "run_id": "45542333853"
       },
       "previous_target_id": "31358347",
       "prepared": {
@@ -280775,5 +280777,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T04:18:42.399252+00:00"
+  "updated_at": "2026-11-25T04:18:47.600296+00:00"
 }
