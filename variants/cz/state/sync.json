@@ -245330,17 +245330,19 @@
       }
     },
     "11062": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34673039",
+          "target_video_id": "31355113",
+          "permanent": false,
+          "attempted_at": "2026-11-25T01:19:55.288162+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34673039",
         "display_name": "Twitch of the Death Nerve (Ecologia del delitto) 1080p CZ Dabing",
         "planned_at": "2026-11-25T01:17:30.690446+00:00"
-      },
-      "claim": {
-        "worker_id": "5389954b162940b49937aa47c80135fe-shard-0",
-        "claimed_at": "2026-11-25T01:17:31.249820+00:00",
-        "lease_expires_at": "2026-11-25T07:17:31.249820+00:00",
-        "run_id": "45489062851"
       },
       "previous_target_id": "31355113",
       "prepared": {
@@ -278578,5 +278580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T01:17:59.618682+00:00"
+  "updated_at": "2026-11-25T01:19:55.288190+00:00"
 }
