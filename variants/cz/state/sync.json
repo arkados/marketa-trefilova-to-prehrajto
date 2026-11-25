@@ -253772,17 +253772,19 @@
       "attempts": []
     },
     "4020": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33048623",
+          "target_video_id": "31366190",
+          "permanent": false,
+          "attempted_at": "2026-11-25T10:07:42.306982+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33048623",
         "display_name": "Good Fortune 1080p CZ Dabing",
         "planned_at": "2026-11-25T10:04:51.639425+00:00"
-      },
-      "claim": {
-        "worker_id": "526df9c894cd4b1ab3e104b483c16be2-shard-0",
-        "claimed_at": "2026-11-25T10:04:52.512839+00:00",
-        "lease_expires_at": "2026-11-25T16:04:52.512839+00:00",
-        "run_id": "45545725698"
       },
       "previous_target_id": "31366190",
       "prepared": {
@@ -285176,5 +285178,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:07:03.822630+00:00"
+  "updated_at": "2026-11-25T10:07:42.306998+00:00"
 }
