@@ -265659,17 +265659,19 @@
       "attempts": []
     },
     "5247": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19773770",
+          "target_video_id": "31379860",
+          "permanent": false,
+          "attempted_at": "2026-11-25T19:35:58.990231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19773770",
         "display_name": "The Brass Teapot 1080p CZ Dabing",
         "planned_at": "2026-11-25T19:31:21.840430+00:00"
-      },
-      "claim": {
-        "worker_id": "97732fe994f2428ea00336a77ceb2e8b-shard-0",
-        "claimed_at": "2026-11-25T19:31:22.734356+00:00",
-        "lease_expires_at": "2026-11-26T01:31:22.734356+00:00",
-        "run_id": "45651964996"
       },
       "previous_target_id": "31379860",
       "prepared": {
@@ -294722,5 +294724,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T19:35:53.340298+00:00"
+  "updated_at": "2026-11-25T19:35:58.990252+00:00"
 }
