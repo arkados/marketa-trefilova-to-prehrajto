@@ -270300,17 +270300,19 @@
       "attempts": []
     },
     "8694": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25801874",
+          "target_video_id": "31386083",
+          "permanent": false,
+          "attempted_at": "2026-11-25T23:28:50.513735+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25801874",
         "display_name": "Operation: Nation (Kryptonim: Polska) 1080p CZ Dabing",
         "planned_at": "2026-11-25T23:26:29.607946+00:00"
-      },
-      "claim": {
-        "worker_id": "0affc2416e534a05a3c80d091b436c64-shard-0",
-        "claimed_at": "2026-11-25T23:26:31.471355+00:00",
-        "lease_expires_at": "2026-11-26T05:26:31.471355+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386083",
       "prepared": {
@@ -298307,5 +298309,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-25T23:28:40.930682+00:00"
+  "updated_at": "2026-11-25T23:28:50.513755+00:00"
 }
