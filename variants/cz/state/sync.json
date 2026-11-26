@@ -271209,17 +271209,19 @@
       }
     },
     "23192": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12280609",
+          "target_video_id": "31394812",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:18:08.239102+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12280609",
         "display_name": "Doc Hollywood 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:11:52.862967+00:00"
-      },
-      "claim": {
-        "worker_id": "cc7189205a4c47a4a71ca07c15188e89-shard-0",
-        "claimed_at": "2026-11-26T01:11:53.592201+00:00",
-        "lease_expires_at": "2026-11-26T07:11:53.592201+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31394812",
       "prepared": {
@@ -299047,5 +299049,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:16:50.561174+00:00"
+  "updated_at": "2026-11-26T01:18:08.239122+00:00"
 }
