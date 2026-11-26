@@ -271068,17 +271068,19 @@
       }
     },
     "4965": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19946905",
+          "target_video_id": "31394206",
+          "permanent": false,
+          "attempted_at": "2026-11-26T00:54:40.102234+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19946905",
         "display_name": "13 Sins 1080p CZ Dabing",
         "planned_at": "2026-11-26T00:50:16.653725+00:00"
-      },
-      "claim": {
-        "worker_id": "7337dabffcd74232ae0da9170dbbf35d-shard-0",
-        "claimed_at": "2026-11-26T00:50:17.462823+00:00",
-        "lease_expires_at": "2026-11-26T06:50:17.462823+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31394206",
       "prepared": {
@@ -298907,5 +298909,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T00:50:46.994056+00:00"
+  "updated_at": "2026-11-26T00:54:40.102252+00:00"
 }
