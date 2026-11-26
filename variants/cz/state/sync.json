@@ -137474,7 +137474,7 @@
       "last_plan": {
         "source_id": "29809619",
         "display_name": "Prodavac humoru (Prodavač humoru) SD CZ Dabing",
-        "planned_at": "2026-11-26T03:53:04.033239+00:00"
+        "planned_at": "2026-11-26T03:53:09.600888+00:00"
       },
       "previous_target_id": "30987769",
       "prepared": {
@@ -273402,17 +273402,19 @@
       }
     },
     "14286": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "16407756",
+          "target_video_id": "31398153",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:53:13.212013+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "16407756",
         "display_name": "The Watch (2008) SD CZ Dabing",
         "planned_at": "2026-11-26T03:50:47.621463+00:00"
-      },
-      "claim": {
-        "worker_id": "edd8f6a371c64000a7a4efb243b77b4f-shard-0",
-        "claimed_at": "2026-11-26T03:50:48.412329+00:00",
-        "lease_expires_at": "2026-11-26T09:50:48.412329+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398153",
       "prepared": {
@@ -273436,7 +273438,13 @@
       "last_plan": {
         "source_id": "13953884",
         "display_name": "The Queen of Sin SD CZ Dabing",
-        "planned_at": "2026-11-26T03:53:04.438949+00:00"
+        "planned_at": "2026-11-26T03:53:10.137432+00:00"
+      },
+      "claim": {
+        "worker_id": "6a465b976bc248a9a80f46455822274b-shard-0",
+        "claimed_at": "2026-11-26T03:53:11.014891+00:00",
+        "lease_expires_at": "2026-11-26T09:53:11.014891+00:00",
+        "run_id": "45730957086"
       }
     },
     "23240": {
@@ -300724,5 +300732,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:53:04.438967+00:00"
+  "updated_at": "2026-11-26T03:53:13.212030+00:00"
 }
