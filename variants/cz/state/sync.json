@@ -289641,17 +289641,19 @@
       "attempts": []
     },
     "27855": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31267142",
+          "target_video_id": "31426592",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:07:59.609802+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31267142",
         "display_name": "Brake SD CZ Dabing",
         "planned_at": "2026-11-26T21:06:33.471375+00:00"
-      },
-      "claim": {
-        "worker_id": "51a9fc8188094d7da49ca8d729127592-shard-0",
-        "claimed_at": "2026-11-26T21:06:34.407923+00:00",
-        "lease_expires_at": "2026-11-27T03:06:34.407923+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426592",
       "prepared": {
@@ -313472,5 +313474,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:06:39.113486+00:00"
+  "updated_at": "2026-11-26T21:07:59.609821+00:00"
 }
