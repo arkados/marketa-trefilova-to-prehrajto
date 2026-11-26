@@ -121630,7 +121630,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T08:04:27.265223+00:00"
+        "planned_at": "2026-11-26T08:04:33.466543+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -276577,17 +276577,19 @@
       }
     },
     "4883": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34869953",
+          "target_video_id": "31402943",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:04:35.491756+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34869953",
         "display_name": "Blades of Glory 1080p CZ Dabing",
         "planned_at": "2026-11-26T08:01:58.107906+00:00"
-      },
-      "claim": {
-        "worker_id": "713402b1ccad4ca5a2bbe81e6018c5e9-shard-0",
-        "claimed_at": "2026-11-26T08:01:58.920925+00:00",
-        "lease_expires_at": "2026-11-26T14:01:58.920925+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402943",
       "prepared": {
@@ -276605,7 +276607,13 @@
       "last_plan": {
         "source_id": "31244591",
         "display_name": "Scream (2022) 4K CZ Dabing",
-        "planned_at": "2026-11-26T08:04:27.696618+00:00"
+        "planned_at": "2026-11-26T08:04:34.220728+00:00"
+      },
+      "claim": {
+        "worker_id": "5aa6dbce0e6840e5a46c71767762d609-shard-0",
+        "claimed_at": "2026-11-26T08:04:34.930979+00:00",
+        "lease_expires_at": "2026-11-26T14:04:34.930979+00:00",
+        "run_id": "45757851202"
       }
     },
     "5246": {
@@ -303335,5 +303343,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:04:27.696636+00:00"
+  "updated_at": "2026-11-26T08:04:35.491774+00:00"
 }
