@@ -272637,17 +272637,19 @@
       }
     },
     "5087": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22124389",
+          "target_video_id": "31396838",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:01:16.695616+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22124389",
         "display_name": "The Laundromat 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:58:33.742623+00:00"
-      },
-      "claim": {
-        "worker_id": "151632cadcf64ecaa19339403860795d-shard-0",
-        "claimed_at": "2026-11-26T02:58:34.514842+00:00",
-        "lease_expires_at": "2026-11-26T08:58:34.514842+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396838",
       "prepared": {
@@ -300137,5 +300139,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:59:28.497965+00:00"
+  "updated_at": "2026-11-26T03:01:16.695631+00:00"
 }
