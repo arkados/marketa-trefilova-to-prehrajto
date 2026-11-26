@@ -281279,17 +281279,19 @@
       "attempts": []
     },
     "5500": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34163234",
+          "target_video_id": "31415697",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:57:32.082931+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34163234",
         "display_name": "Holiday in the Wild 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:55:15.379694+00:00"
-      },
-      "claim": {
-        "worker_id": "6389240967f64c2a91244dedd4d4c81e-shard-0",
-        "claimed_at": "2026-11-26T12:55:19.272902+00:00",
-        "lease_expires_at": "2026-11-26T18:55:19.272902+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415697",
       "prepared": {
@@ -306973,5 +306975,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:55:59.607475+00:00"
+  "updated_at": "2026-11-26T12:57:32.082953+00:00"
 }
