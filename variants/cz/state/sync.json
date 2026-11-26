@@ -271163,17 +271163,19 @@
       }
     },
     "33975": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31070916",
+          "target_video_id": "31394676",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:11:43.958155+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31070916",
         "display_name": "The Hills Have Eyes (1977) 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:04:48.303401+00:00"
-      },
-      "claim": {
-        "worker_id": "90ad62662cb0415b96f5f3bd620d37ca-shard-0",
-        "claimed_at": "2026-11-26T01:04:49.145967+00:00",
-        "lease_expires_at": "2026-11-26T07:04:49.145967+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31394676",
       "prepared": {
@@ -298987,5 +298989,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:06:15.736234+00:00"
+  "updated_at": "2026-11-26T01:11:43.958170+00:00"
 }
