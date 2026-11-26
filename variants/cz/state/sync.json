@@ -283255,17 +283255,19 @@
       "attempts": []
     },
     "18715": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34219926",
+          "target_video_id": "31417535",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:20:59.463220+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34219926",
         "display_name": "Spooks: The Greater Good 1080p CZ Dabing",
         "planned_at": "2026-11-26T14:17:34.813849+00:00"
-      },
-      "claim": {
-        "worker_id": "c568025f281c48e6a972ebefb28e479c-shard-0",
-        "claimed_at": "2026-11-26T14:17:35.847652+00:00",
-        "lease_expires_at": "2026-11-26T20:17:35.847652+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417535",
       "prepared": {
@@ -308430,5 +308432,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:20:38.001248+00:00"
+  "updated_at": "2026-11-26T14:20:59.463236+00:00"
 }
