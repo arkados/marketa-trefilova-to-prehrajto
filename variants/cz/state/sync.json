@@ -275099,17 +275099,19 @@
       "attempts": []
     },
     "34324": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34477883",
+          "target_video_id": "31400818",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:08:04.207848+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34477883",
         "display_name": "The Aviator (1985) 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:05:49.552034+00:00"
-      },
-      "claim": {
-        "worker_id": "690bac771a7d4511810c06dac89a6319-shard-0",
-        "claimed_at": "2026-11-26T06:05:50.269368+00:00",
-        "lease_expires_at": "2026-11-26T12:05:50.269368+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400818",
       "prepared": {
@@ -302125,5 +302127,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:06:11.457066+00:00"
+  "updated_at": "2026-11-26T06:08:04.207865+00:00"
 }
