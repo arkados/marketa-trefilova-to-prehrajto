@@ -271459,17 +271459,19 @@
       "attempts": []
     },
     "13092": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34521714",
+          "target_video_id": "31395198",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:53:01.237496+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34521714",
         "display_name": "Death to Smoochy 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:30:57.140676+00:00"
-      },
-      "claim": {
-        "worker_id": "203da21e7db44146b0e2bb2bde92b3bc-shard-0",
-        "claimed_at": "2026-11-26T01:30:57.871861+00:00",
-        "lease_expires_at": "2026-11-26T07:30:57.871861+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395198",
       "prepared": {
@@ -299407,5 +299409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:52:52.574935+00:00"
+  "updated_at": "2026-11-26T01:53:01.237512+00:00"
 }
