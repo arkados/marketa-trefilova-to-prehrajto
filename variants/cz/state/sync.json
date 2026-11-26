@@ -273504,17 +273504,19 @@
       "attempts": []
     },
     "5269": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "3040273",
+          "target_video_id": "31398257",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:56:10.873774+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "3040273",
         "display_name": "Dead Snow (Død snø) SD CZ Dabing",
         "planned_at": "2026-11-26T03:54:24.219308+00:00"
-      },
-      "claim": {
-        "worker_id": "d27aaea87b51440e9ed12508ddca3afd-shard-0",
-        "claimed_at": "2026-11-26T03:54:24.907814+00:00",
-        "lease_expires_at": "2026-11-26T09:54:24.907814+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398257",
       "prepared": {
@@ -300797,5 +300799,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:54:28.794855+00:00"
+  "updated_at": "2026-11-26T03:56:10.873792+00:00"
 }
