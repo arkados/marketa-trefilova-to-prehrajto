@@ -278124,17 +278124,19 @@
       "attempts": []
     },
     "5886": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32155009",
+          "target_video_id": "31405208",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:17:54.525997+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32155009",
         "display_name": "Mothering Sunday 720p CZ Dabing",
         "planned_at": "2026-11-26T10:14:27.543299+00:00"
-      },
-      "claim": {
-        "worker_id": "cbca46b30c314f5fa3334cdff05147f4-shard-0",
-        "claimed_at": "2026-11-26T10:14:28.258558+00:00",
-        "lease_expires_at": "2026-11-26T16:14:28.258558+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405208",
       "prepared": {
@@ -304622,5 +304624,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:17:13.166694+00:00"
+  "updated_at": "2026-11-26T10:17:54.526027+00:00"
 }
