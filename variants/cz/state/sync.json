@@ -277593,17 +277593,19 @@
       }
     },
     "5281": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17999088",
+          "target_video_id": "31404627",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:44:53.063885+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17999088",
         "display_name": "Neighbors 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:41:20.420451+00:00"
-      },
-      "claim": {
-        "worker_id": "89db646377104f93adaf028aa7752cd8-shard-0",
-        "claimed_at": "2026-11-26T09:41:21.358831+00:00",
-        "lease_expires_at": "2026-11-26T15:41:21.358831+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404627",
       "prepared": {
@@ -304205,5 +304207,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:43:32.122212+00:00"
+  "updated_at": "2026-11-26T09:44:53.063903+00:00"
 }
