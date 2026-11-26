@@ -279617,17 +279617,19 @@
       }
     },
     "9178": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34497612",
+          "target_video_id": "31406492",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:20:51.170830+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34497612",
         "display_name": "Flashback (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:19:54.944150+00:00"
-      },
-      "claim": {
-        "worker_id": "a2346e53bdd544c0af68b5c171b1e0dd-shard-0",
-        "claimed_at": "2026-11-26T11:19:55.710681+00:00",
-        "lease_expires_at": "2026-11-26T17:19:55.710681+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406492",
       "prepared": {
@@ -305686,5 +305688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:20:36.777540+00:00"
+  "updated_at": "2026-11-26T11:20:51.170846+00:00"
 }
