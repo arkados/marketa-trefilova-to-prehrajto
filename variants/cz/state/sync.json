@@ -289928,17 +289928,19 @@
       }
     },
     "5616": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35010970",
+          "target_video_id": "31427493",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:54:48.875452+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35010970",
         "display_name": "Ouija: Origin of Evil 1080p CZ Dabing",
         "planned_at": "2026-11-26T21:47:53.798344+00:00"
-      },
-      "claim": {
-        "worker_id": "ceaf38ecabe3416d84c47b5a21be11cf-shard-0",
-        "claimed_at": "2026-11-26T21:47:54.499727+00:00",
-        "lease_expires_at": "2026-11-27T03:47:54.499727+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31427493",
       "prepared": {
@@ -313732,5 +313734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:52:25.092562+00:00"
+  "updated_at": "2026-11-26T21:54:48.875468+00:00"
 }
