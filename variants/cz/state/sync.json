@@ -278820,17 +278820,19 @@
       "attempts": []
     },
     "14659": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27599393",
+          "target_video_id": "31405764",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:45:46.890061+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27599393",
         "display_name": "Love Accidentally 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:43:35.199287+00:00"
-      },
-      "claim": {
-        "worker_id": "df69fa0ce236475d9734920abf09e74c-shard-0",
-        "claimed_at": "2026-11-26T10:43:35.977980+00:00",
-        "lease_expires_at": "2026-11-26T16:43:35.977980+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405764",
       "prepared": {
@@ -305099,5 +305101,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:43:41.020546+00:00"
+  "updated_at": "2026-11-26T10:45:46.890078+00:00"
 }
