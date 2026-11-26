@@ -284315,17 +284315,19 @@
       "attempts": []
     },
     "31880": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28585277",
+          "target_video_id": "31418730",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:20:56.303239+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28585277",
         "display_name": "Housesitter SD CZ Dabing",
         "planned_at": "2026-11-26T15:19:55.015998+00:00"
-      },
-      "claim": {
-        "worker_id": "0d0400ca7f0148479177d8784162351e-shard-0",
-        "claimed_at": "2026-11-26T15:19:56.029770+00:00",
-        "lease_expires_at": "2026-11-26T21:19:56.029770+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31418730",
       "prepared": {
@@ -309223,5 +309225,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:20:01.099666+00:00"
+  "updated_at": "2026-11-26T15:20:56.303254+00:00"
 }
