@@ -275724,17 +275724,19 @@
       }
     },
     "5295": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27699354",
+          "target_video_id": "31401718",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:00:46.882935+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27699354",
         "display_name": "The Last Stand 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:58:39.990559+00:00"
-      },
-      "claim": {
-        "worker_id": "2746fade1c0c4d458468a9f88db99bd4-shard-0",
-        "claimed_at": "2026-11-26T06:58:40.775245+00:00",
-        "lease_expires_at": "2026-11-26T12:58:40.775245+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401718",
       "prepared": {
@@ -302651,5 +302653,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:59:56.218254+00:00"
+  "updated_at": "2026-11-26T07:00:46.882951+00:00"
 }
