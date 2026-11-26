@@ -280012,17 +280012,19 @@
       "attempts": []
     },
     "11668": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24617611",
+          "target_video_id": "31407344",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:51:52.853588+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24617611",
         "display_name": "Youngblood 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:48:39.474913+00:00"
-      },
-      "claim": {
-        "worker_id": "54f671c41d8c4285b63e0a7effee770c-shard-0",
-        "claimed_at": "2026-11-26T11:48:40.228797+00:00",
-        "lease_expires_at": "2026-11-26T17:48:40.228797+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31407344",
       "prepared": {
@@ -305979,5 +305981,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:50:45.619231+00:00"
+  "updated_at": "2026-11-26T11:51:52.853604+00:00"
 }
