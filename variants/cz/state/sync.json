@@ -108274,7 +108274,7 @@
       "last_plan": {
         "source_id": "35084607",
         "display_name": "The Secret of Blood 1080p CZ Dabing",
-        "planned_at": "2026-11-26T17:23:35.144083+00:00"
+        "planned_at": "2026-11-26T17:23:44.991650+00:00"
       },
       "previous_target_id": "30983475",
       "prepared": {
@@ -286566,11 +286566,23 @@
       }
     },
     "5302": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33807361",
+          "reason": "Source detail has no authenticated download link; source_id=33807361",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:23:49.063227+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33807361",
         "display_name": "Dracula: A Love Tale (Dracula) 4K CZ Dabing",
-        "planned_at": "2026-11-26T17:23:35.700561+00:00"
+        "planned_at": "2026-11-26T17:23:45.484027+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33807361",
+        "requested_at": "2026-11-26T17:23:49.063209+00:00"
       }
     },
     "29469": {
@@ -310981,5 +310993,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:23:41.648263+00:00"
+  "updated_at": "2026-11-26T17:23:49.063232+00:00"
 }
