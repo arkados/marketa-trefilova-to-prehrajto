@@ -287442,17 +287442,19 @@
       }
     },
     "5662": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32874525",
+          "target_video_id": "31422797",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:24:30.182116+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32874525",
         "display_name": "Dark Places 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:19:53.850759+00:00"
-      },
-      "claim": {
-        "worker_id": "1fe1fd5760274e9b9be2aacef0566361-shard-0",
-        "claimed_at": "2026-11-26T18:19:54.652594+00:00",
-        "lease_expires_at": "2026-11-27T00:19:54.652594+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422797",
       "prepared": {
@@ -311684,5 +311686,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:19:58.210374+00:00"
+  "updated_at": "2026-11-26T18:24:30.182136+00:00"
 }
