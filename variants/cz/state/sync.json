@@ -278227,17 +278227,19 @@
       "attempts": []
     },
     "25731": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31346283",
+          "target_video_id": "31405279",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:20:39.417636+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31346283",
         "display_name": "Nobel Son SD CZ Dabing",
         "planned_at": "2026-11-26T10:18:57.110449+00:00"
-      },
-      "claim": {
-        "worker_id": "99620b7c6a1747b486589a87823e6917-shard-0",
-        "claimed_at": "2026-11-26T10:18:57.852857+00:00",
-        "lease_expires_at": "2026-11-26T16:18:57.852857+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405279",
       "prepared": {
@@ -304662,5 +304664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:19:02.378262+00:00"
+  "updated_at": "2026-11-26T10:20:39.417652+00:00"
 }
