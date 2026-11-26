@@ -279709,17 +279709,19 @@
       "attempts": []
     },
     "9754": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29909380",
+          "target_video_id": "31406539",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:26:33.423348+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29909380",
         "display_name": "Panic at Rock Island 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:22:11.898068+00:00"
-      },
-      "claim": {
-        "worker_id": "82fb2e9c9d774a2dba8016d5ddfbb09a-shard-0",
-        "claimed_at": "2026-11-26T11:22:13.011430+00:00",
-        "lease_expires_at": "2026-11-26T17:22:13.011430+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406539",
       "prepared": {
@@ -305766,5 +305768,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:23:28.496680+00:00"
+  "updated_at": "2026-11-26T11:26:33.423368+00:00"
 }
