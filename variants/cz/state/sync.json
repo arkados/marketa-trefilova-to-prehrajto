@@ -121610,7 +121610,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T05:30:25.313830+00:00"
+        "planned_at": "2026-11-26T05:30:31.459271+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -274536,17 +274536,19 @@
       }
     },
     "29410": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34711889",
+          "target_video_id": "31400095",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:30:36.309637+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34711889",
         "display_name": "The Last Dragonslayer 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:27:02.148500+00:00"
-      },
-      "claim": {
-        "worker_id": "27038a7b4504404fab8c9a3420c3fee4-shard-0",
-        "claimed_at": "2026-11-26T05:27:02.872618+00:00",
-        "lease_expires_at": "2026-11-26T11:27:02.872618+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400095",
       "prepared": {
@@ -274611,7 +274613,13 @@
       "last_plan": {
         "source_id": "33767323",
         "display_name": "The New Comics (Le nuove comiche) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T05:30:25.779752+00:00"
+        "planned_at": "2026-11-26T05:30:31.931137+00:00"
+      },
+      "claim": {
+        "worker_id": "c119efaad480455fb4e62eac096428e0-shard-0",
+        "claimed_at": "2026-11-26T05:30:32.690914+00:00",
+        "lease_expires_at": "2026-11-26T11:30:32.690914+00:00",
+        "run_id": "45757851202"
       }
     },
     "12650": {
@@ -301692,5 +301700,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:30:25.779769+00:00"
+  "updated_at": "2026-11-26T05:30:36.309653+00:00"
 }
