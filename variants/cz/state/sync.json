@@ -285566,17 +285566,19 @@
       "attempts": []
     },
     "19399": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33870156",
+          "target_video_id": "31419889",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:09:21.485328+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33870156",
         "display_name": "Sweet Liberty 1080p CZ Dabing",
         "planned_at": "2026-11-26T16:07:20.905573+00:00"
-      },
-      "claim": {
-        "worker_id": "cdd0c9a3f8a74a649270fad9a0c1dc89-shard-0",
-        "claimed_at": "2026-11-26T16:07:21.885696+00:00",
-        "lease_expires_at": "2026-11-26T22:07:21.885696+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419889",
       "prepared": {
@@ -310237,5 +310239,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:08:28.733964+00:00"
+  "updated_at": "2026-11-26T16:09:21.485345+00:00"
 }
