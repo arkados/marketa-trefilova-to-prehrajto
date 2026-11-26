@@ -277691,17 +277691,19 @@
       }
     },
     "5264": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29185610",
+          "target_video_id": "31404746",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:52:42.785618+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29185610",
         "display_name": "Pearl Harbor 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:48:22.423161+00:00"
-      },
-      "claim": {
-        "worker_id": "7d55e9d9ab0a40afb99b96dcb9502da3-shard-0",
-        "claimed_at": "2026-11-26T09:48:23.187444+00:00",
-        "lease_expires_at": "2026-11-26T15:48:23.187444+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404746",
       "prepared": {
@@ -304285,5 +304287,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:50:42.530909+00:00"
+  "updated_at": "2026-11-26T09:52:42.785637+00:00"
 }
