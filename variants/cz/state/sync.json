@@ -274347,17 +274347,19 @@
       "attempts": []
     },
     "5232": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659889",
+          "target_video_id": "31399883",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:18:28.277763+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659889",
         "display_name": "The Uninvited 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:15:27.458499+00:00"
-      },
-      "claim": {
-        "worker_id": "85cbe1b67a1f4e9c895e78a9901d388b-shard-0",
-        "claimed_at": "2026-11-26T05:15:28.164535+00:00",
-        "lease_expires_at": "2026-11-26T11:15:28.164535+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399883",
       "prepared": {
@@ -301511,5 +301513,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:16:46.367610+00:00"
+  "updated_at": "2026-11-26T05:18:28.277779+00:00"
 }
