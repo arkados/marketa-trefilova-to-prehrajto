@@ -281401,17 +281401,19 @@
       "attempts": []
     },
     "18014": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34454256",
+          "target_video_id": "31415767",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:02:15.026806+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34454256",
         "display_name": "Black Box (2020) 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:58:16.661856+00:00"
-      },
-      "claim": {
-        "worker_id": "7321de4f718a49f88b2468f82509001e-shard-0",
-        "claimed_at": "2026-11-26T12:58:17.462531+00:00",
-        "lease_expires_at": "2026-11-26T18:58:17.462531+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415767",
       "prepared": {
@@ -307037,5 +307039,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:02:11.150803+00:00"
+  "updated_at": "2026-11-26T13:02:15.026825+00:00"
 }
