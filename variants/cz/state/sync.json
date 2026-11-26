@@ -283407,17 +283407,19 @@
       "attempts": []
     },
     "6166": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30057173",
+          "target_video_id": "31417745",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:31:56.389787+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30057173",
         "display_name": "Daddy or Mommy (Papa ou maman) 1080p CZ Dabing",
         "planned_at": "2026-11-26T14:28:21.283319+00:00"
-      },
-      "claim": {
-        "worker_id": "52f7bce6e8744be891b408136bb5c097-shard-0",
-        "claimed_at": "2026-11-26T14:28:22.240539+00:00",
-        "lease_expires_at": "2026-11-26T20:28:22.240539+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417745",
       "prepared": {
@@ -308570,5 +308572,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:31:28.712585+00:00"
+  "updated_at": "2026-11-26T14:31:56.389801+00:00"
 }
