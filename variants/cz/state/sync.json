@@ -282410,17 +282410,19 @@
       "attempts": []
     },
     "14497": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23956691",
+          "target_video_id": "31416680",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:44:24.470479+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23956691",
         "display_name": "The Noel Diary 1080p CZ Dabing",
         "planned_at": "2026-11-26T13:42:12.896590+00:00"
-      },
-      "claim": {
-        "worker_id": "07c5bd471ecd4daea7e9e09e771d10cd-shard-0",
-        "claimed_at": "2026-11-26T13:42:13.870247+00:00",
-        "lease_expires_at": "2026-11-26T19:42:13.870247+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416680",
       "prepared": {
@@ -307810,5 +307812,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:42:54.489916+00:00"
+  "updated_at": "2026-11-26T13:44:24.470497+00:00"
 }
