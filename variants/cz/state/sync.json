@@ -279399,17 +279399,19 @@
       "attempts": []
     },
     "6589": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34443445",
+          "target_video_id": "31406377",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:15:36.024964+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34443445",
         "display_name": "Torpedo SD CZ Dabing",
         "planned_at": "2026-11-26T11:13:47.359876+00:00"
-      },
-      "claim": {
-        "worker_id": "f8afec967f4c497a85ceec0fd5ff4668-shard-0",
-        "claimed_at": "2026-11-26T11:13:48.081538+00:00",
-        "lease_expires_at": "2026-11-26T17:13:48.081538+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406377",
       "prepared": {
@@ -305556,5 +305558,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:15:33.354180+00:00"
+  "updated_at": "2026-11-26T11:15:36.024978+00:00"
 }
