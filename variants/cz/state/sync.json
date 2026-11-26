@@ -270919,17 +270919,19 @@
       }
     },
     "6238": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21201304",
+          "target_video_id": "31392322",
+          "permanent": false,
+          "attempted_at": "2026-11-26T00:20:00.049236+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21201304",
         "display_name": "Timmy Failure: Mistakes Were Made 1080p CZ Dabing",
         "planned_at": "2026-11-26T00:17:21.357409+00:00"
-      },
-      "claim": {
-        "worker_id": "cea214933d994d48be17aa725794e2fc-shard-0",
-        "claimed_at": "2026-11-26T00:17:21.829275+00:00",
-        "lease_expires_at": "2026-11-26T06:17:21.829275+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31392322",
       "prepared": {
@@ -298767,5 +298769,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T00:17:26.196810+00:00"
+  "updated_at": "2026-11-26T00:20:00.049254+00:00"
 }
