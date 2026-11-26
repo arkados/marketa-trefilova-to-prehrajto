@@ -286617,17 +286617,19 @@
       "attempts": []
     },
     "5770": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30237606",
+          "target_video_id": "31421756",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:28:15.925759+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30237606",
         "display_name": "The Silent Hour 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:26:05.747530+00:00"
-      },
-      "claim": {
-        "worker_id": "e747b239bd7e44cfb36ded1e5da59f29-shard-0",
-        "claimed_at": "2026-11-26T17:26:06.532308+00:00",
-        "lease_expires_at": "2026-11-26T23:26:06.532308+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421756",
       "prepared": {
@@ -311051,5 +311053,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:27:25.005259+00:00"
+  "updated_at": "2026-11-26T17:28:15.925777+00:00"
 }
