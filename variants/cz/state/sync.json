@@ -285540,17 +285540,19 @@
       "attempts": []
     },
     "29943": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23601671",
+          "target_video_id": "31419873",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:08:13.748359+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23601671",
         "display_name": "20,000 Leagues Under the Sea (1997) SD CZ Dabing",
         "planned_at": "2026-11-26T16:06:43.271287+00:00"
-      },
-      "claim": {
-        "worker_id": "41755f71b4f44b7c84794b8f60aff1c5-shard-0",
-        "claimed_at": "2026-11-26T16:06:44.234864+00:00",
-        "lease_expires_at": "2026-11-26T22:06:44.234864+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419873",
       "prepared": {
@@ -310217,5 +310219,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:07:44.638038+00:00"
+  "updated_at": "2026-11-26T16:08:13.748376+00:00"
 }
