@@ -282896,17 +282896,19 @@
       }
     },
     "13836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11688495",
+          "target_video_id": "31417150",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:04:08.852446+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11688495",
         "display_name": "Eichmann 1080p CZ Dabing",
         "planned_at": "2026-11-26T14:00:45.288535+00:00"
-      },
-      "claim": {
-        "worker_id": "2effb92cb50a4f19a31d12e8d31e11d3-shard-0",
-        "claimed_at": "2026-11-26T14:00:46.314468+00:00",
-        "lease_expires_at": "2026-11-26T20:00:46.314468+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417150",
       "prepared": {
@@ -308177,5 +308179,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:04:02.632433+00:00"
+  "updated_at": "2026-11-26T14:04:08.852465+00:00"
 }
