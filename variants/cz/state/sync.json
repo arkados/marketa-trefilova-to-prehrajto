@@ -279645,17 +279645,19 @@
       "attempts": []
     },
     "25930": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33675347",
+          "target_video_id": "31406508",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:23:13.424321+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33675347",
         "display_name": "The Life Before Her Eyes 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:20:31.496115+00:00"
-      },
-      "claim": {
-        "worker_id": "3bd16c83912447a69a2daec78b120836-shard-0",
-        "claimed_at": "2026-11-26T11:20:32.254568+00:00",
-        "lease_expires_at": "2026-11-26T17:20:32.254568+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406508",
       "prepared": {
@@ -305746,5 +305748,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:22:51.857637+00:00"
+  "updated_at": "2026-11-26T11:23:13.424336+00:00"
 }
