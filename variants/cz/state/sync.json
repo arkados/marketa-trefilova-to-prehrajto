@@ -272489,17 +272489,19 @@
       "attempts": []
     },
     "25147": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34706875",
+          "target_video_id": "31396737",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:54:18.454010+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34706875",
         "display_name": "See Jane Date SD CZ Dabing",
         "planned_at": "2026-11-26T02:53:20.899762+00:00"
-      },
-      "claim": {
-        "worker_id": "e0376ecbbf1c4001962e8c1b65ba22db-shard-0",
-        "claimed_at": "2026-11-26T02:53:21.613705+00:00",
-        "lease_expires_at": "2026-11-26T08:53:21.613705+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396737",
       "prepared": {
@@ -300037,5 +300039,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:54:04.057539+00:00"
+  "updated_at": "2026-11-26T02:54:18.454026+00:00"
 }
