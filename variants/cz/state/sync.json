@@ -286470,17 +286470,19 @@
       }
     },
     "12274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34493670",
+          "target_video_id": "31421036",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:06:34.616576+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34493670",
         "display_name": "The Arrival 4K CZ Dabing",
         "planned_at": "2026-11-26T16:58:41.766956+00:00"
-      },
-      "claim": {
-        "worker_id": "c3a431e70374472dbc9b35bc7803a45b-shard-0",
-        "claimed_at": "2026-11-26T16:58:45.843283+00:00",
-        "lease_expires_at": "2026-11-26T22:58:45.843283+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31421036",
       "prepared": {
@@ -310936,5 +310938,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:03:46.164489+00:00"
+  "updated_at": "2026-11-26T17:06:34.616591+00:00"
 }
