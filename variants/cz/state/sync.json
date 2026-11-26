@@ -279853,17 +279853,19 @@
       }
     },
     "27472": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11485811",
+          "target_video_id": "31406847",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:36:37.511239+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11485811",
         "display_name": "The Entitled (2011) SD CZ Dabing",
         "planned_at": "2026-11-26T11:34:45.174553+00:00"
-      },
-      "claim": {
-        "worker_id": "90f45d6120af40a488b71437d031fb6b-shard-0",
-        "claimed_at": "2026-11-26T11:34:45.916959+00:00",
-        "lease_expires_at": "2026-11-26T17:34:45.916959+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406847",
       "prepared": {
@@ -305859,5 +305861,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:35:19.449464+00:00"
+  "updated_at": "2026-11-26T11:36:37.511256+00:00"
 }
