@@ -290109,17 +290109,19 @@
       "attempts": []
     },
     "8241": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30133654",
+          "target_video_id": "31428000",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:13:21.721950+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30133654",
         "display_name": "The Lost Prince (Le prince oublié) SD CZ Dabing",
         "planned_at": "2026-11-26T22:10:01.955539+00:00"
-      },
-      "claim": {
-        "worker_id": "c120c04bbd9b4384b25316bb474e4933-shard-0",
-        "claimed_at": "2026-11-26T22:10:02.666176+00:00",
-        "lease_expires_at": "2026-11-27T04:10:02.666176+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428000",
       "prepared": {
@@ -313865,5 +313867,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:10:06.993820+00:00"
+  "updated_at": "2026-11-26T22:13:21.721965+00:00"
 }
