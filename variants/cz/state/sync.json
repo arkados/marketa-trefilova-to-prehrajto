@@ -277290,17 +277290,19 @@
       }
     },
     "5134": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33927292",
+          "target_video_id": "31404242",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:19:51.873892+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33927292",
         "display_name": "Tomb Raider 4K CZ Dabing",
         "planned_at": "2026-11-26T09:12:33.781242+00:00"
-      },
-      "claim": {
-        "worker_id": "86658247e3e742ce89add2703614667a-shard-0",
-        "claimed_at": "2026-11-26T09:12:34.575528+00:00",
-        "lease_expires_at": "2026-11-26T15:12:34.575528+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404242",
       "prepared": {
@@ -303965,5 +303967,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:15:25.214067+00:00"
+  "updated_at": "2026-11-26T09:19:51.873908+00:00"
 }
