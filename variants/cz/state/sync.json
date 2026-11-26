@@ -286268,17 +286268,19 @@
       }
     },
     "5933": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27838893",
+          "target_video_id": "31420806",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:51:39.830658+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27838893",
         "display_name": "Teen Spirit (2018) 720p CZ Dabing",
         "planned_at": "2026-11-26T16:48:08.312485+00:00"
-      },
-      "claim": {
-        "worker_id": "c1f36f592f6b4a668b36c926397d8110-shard-0",
-        "claimed_at": "2026-11-26T16:48:09.203868+00:00",
-        "lease_expires_at": "2026-11-26T22:48:09.203868+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31420806",
       "prepared": {
@@ -310774,5 +310776,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:49:37.684290+00:00"
+  "updated_at": "2026-11-26T16:51:39.830674+00:00"
 }
