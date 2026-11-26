@@ -271843,17 +271843,19 @@
       }
     },
     "5320": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30992674",
+          "target_video_id": "31395745",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:07:08.788607+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30992674",
         "display_name": "Bullet Train Explosion (shinkansen daibaku ha) 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:03:00.127676+00:00"
-      },
-      "claim": {
-        "worker_id": "ae04ef106ed24f3d8823e9b2c0734c34-shard-0",
-        "claimed_at": "2026-11-26T02:03:01.002754+00:00",
-        "lease_expires_at": "2026-11-26T08:03:01.002754+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395745",
       "prepared": {
@@ -299567,5 +299569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:04:35.040003+00:00"
+  "updated_at": "2026-11-26T02:07:08.788624+00:00"
 }
