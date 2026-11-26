@@ -271613,17 +271613,19 @@
       "attempts": []
     },
     "5327": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31193848",
+          "target_video_id": "31395431",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:47:29.674021+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31193848",
         "display_name": "A Widow's Game (La viuda negra) 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:44:16.611500+00:00"
-      },
-      "claim": {
-        "worker_id": "3946ab34c06f4e3587a90a9242802b9d-shard-0",
-        "claimed_at": "2026-11-26T01:44:17.328287+00:00",
-        "lease_expires_at": "2026-11-26T07:44:17.328287+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395431",
       "prepared": {
@@ -299347,5 +299349,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:46:18.645486+00:00"
+  "updated_at": "2026-11-26T01:47:29.674039+00:00"
 }
