@@ -278584,17 +278584,19 @@
       "attempts": []
     },
     "12064": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29645593",
+          "target_video_id": "31405573",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:39:24.243357+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29645593",
         "display_name": "Bounty Tracker 720p CZ Dabing",
         "planned_at": "2026-11-26T10:34:25.787511+00:00"
-      },
-      "claim": {
-        "worker_id": "93fba6533fb94595a8ad1abfccfa72c1-shard-0",
-        "claimed_at": "2026-11-26T10:34:26.572556+00:00",
-        "lease_expires_at": "2026-11-26T16:34:26.572556+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405573",
       "prepared": {
@@ -304981,5 +304983,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:39:21.677377+00:00"
+  "updated_at": "2026-11-26T10:39:24.243374+00:00"
 }
