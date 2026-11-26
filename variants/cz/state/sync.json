@@ -281930,17 +281930,19 @@
       "attempts": []
     },
     "21983": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34206460",
+          "target_video_id": "31416177",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:22:38.701928+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34206460",
         "display_name": "Topaz 4K CZ Dabing",
         "planned_at": "2026-11-26T13:18:16.301378+00:00"
-      },
-      "claim": {
-        "worker_id": "6beff6ba0c2e4a83ae7c6545035cdf82-shard-0",
-        "claimed_at": "2026-11-26T13:18:17.302714+00:00",
-        "lease_expires_at": "2026-11-26T19:18:17.302714+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416177",
       "prepared": {
@@ -307470,5 +307472,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:21:52.911067+00:00"
+  "updated_at": "2026-11-26T13:22:38.701943+00:00"
 }
