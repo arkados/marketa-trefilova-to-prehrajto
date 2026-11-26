@@ -270825,17 +270825,19 @@
       "attempts": []
     },
     "37500": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34910567",
+          "target_video_id": "31386718",
+          "permanent": false,
+          "attempted_at": "2026-11-26T00:33:38.759212+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34910567",
         "display_name": "Evil Dead Burn 4K CZ Dabing",
         "planned_at": "2026-11-25T23:54:03.302052+00:00"
-      },
-      "claim": {
-        "worker_id": "6a6d7c1a9b5a4d3eaccff95e276fbf65-shard-0",
-        "claimed_at": "2026-11-25T23:54:03.848721+00:00",
-        "lease_expires_at": "2026-11-26T05:54:03.848721+00:00",
-        "run_id": "45694325045"
       },
       "previous_target_id": "31386718",
       "prepared": {
@@ -298809,5 +298811,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T00:24:35.450639+00:00"
+  "updated_at": "2026-11-26T00:33:38.759226+00:00"
 }
