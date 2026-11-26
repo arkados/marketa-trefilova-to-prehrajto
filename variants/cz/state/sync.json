@@ -278428,17 +278428,19 @@
       "attempts": []
     },
     "11222": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30782141",
+          "target_video_id": "31405433",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:30:12.795719+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30782141",
         "display_name": "The Car 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:27:39.799968+00:00"
-      },
-      "claim": {
-        "worker_id": "3f8384d5a1ce471cb42960a312dec51a-shard-0",
-        "claimed_at": "2026-11-26T10:27:40.533697+00:00",
-        "lease_expires_at": "2026-11-26T16:27:40.533697+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405433",
       "prepared": {
@@ -304862,5 +304864,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:30:09.409177+00:00"
+  "updated_at": "2026-11-26T10:30:12.795738+00:00"
 }
