@@ -274117,17 +274117,23 @@
       }
     },
     "27616": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "35041561",
+          "reason": "Source detail has no authenticated download link; source_id=35041561",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:58:32.655242+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35041561",
         "display_name": "Mortal Kombat II 4K CZ Dabing",
         "planned_at": "2026-11-26T04:58:27.166775+00:00"
       },
-      "claim": {
-        "worker_id": "3f872f6ceb9b434aa3ec86dbeb2fb270-shard-0",
-        "claimed_at": "2026-11-26T04:58:27.944120+00:00",
-        "lease_expires_at": "2026-11-26T10:58:27.944120+00:00",
-        "run_id": "45757851202"
+      "source_repair_requested": {
+        "source_id": "35041561",
+        "requested_at": "2026-11-26T04:58:32.655224+00:00"
       }
     },
     "8790": {
@@ -301292,5 +301298,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:58:29.655670+00:00"
+  "updated_at": "2026-11-26T04:58:32.655249+00:00"
 }
