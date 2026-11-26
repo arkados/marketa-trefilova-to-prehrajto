@@ -286787,17 +286787,19 @@
       }
     },
     "19796": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23032828",
+          "target_video_id": "31421929",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:37:22.161727+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23032828",
         "display_name": "Lovelace SD CZ Dabing",
         "planned_at": "2026-11-26T17:34:30.795404+00:00"
-      },
-      "claim": {
-        "worker_id": "995ece3f3ce74025a2141d0b4ac9bc71-shard-0",
-        "claimed_at": "2026-11-26T17:34:31.584215+00:00",
-        "lease_expires_at": "2026-11-26T23:34:31.584215+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421929",
       "prepared": {
@@ -311191,5 +311193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:36:51.678506+00:00"
+  "updated_at": "2026-11-26T17:37:22.161746+00:00"
 }
