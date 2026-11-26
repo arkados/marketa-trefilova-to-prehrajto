@@ -121610,7 +121610,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T06:10:04.353533+00:00"
+        "planned_at": "2026-11-26T06:10:10.764156+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -275029,17 +275029,19 @@
       }
     },
     "5019": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18917797",
+          "target_video_id": "31400724",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:10:22.976364+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18917797",
         "display_name": "Hustlers 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:01:11.936054+00:00"
-      },
-      "claim": {
-        "worker_id": "f5385648f6e84c50b9b36f6ecd22863e-shard-0",
-        "claimed_at": "2026-11-26T06:01:12.674690+00:00",
-        "lease_expires_at": "2026-11-26T12:01:12.674690+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400724",
       "prepared": {
@@ -275176,7 +275178,13 @@
       "last_plan": {
         "source_id": "34501799",
         "display_name": "Maggie Moore(s) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T06:10:04.801610+00:00"
+        "planned_at": "2026-11-26T06:10:11.220031+00:00"
+      },
+      "claim": {
+        "worker_id": "f46dc1d30462430a8265f86c2d286832-shard-0",
+        "claimed_at": "2026-11-26T06:10:11.984576+00:00",
+        "lease_expires_at": "2026-11-26T12:10:11.984576+00:00",
+        "run_id": "45757851202"
       }
     },
     "5175": {
@@ -302152,5 +302160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:10:04.801627+00:00"
+  "updated_at": "2026-11-26T06:10:22.976378+00:00"
 }
