@@ -271663,17 +271663,19 @@
       "attempts": []
     },
     "25362": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32225511",
+          "target_video_id": "31395482",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:49:26.029816+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32225511",
         "display_name": "L'antidote (The Antidote) SD CZ Dabing",
         "planned_at": "2026-11-26T01:47:42.876244+00:00"
-      },
-      "claim": {
-        "worker_id": "0b9ced5484bc45bc983cd2627d40607e-shard-0",
-        "claimed_at": "2026-11-26T01:47:43.605044+00:00",
-        "lease_expires_at": "2026-11-26T07:47:43.605044+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395482",
       "prepared": {
@@ -299367,5 +299369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:47:47.843535+00:00"
+  "updated_at": "2026-11-26T01:49:26.029834+00:00"
 }
