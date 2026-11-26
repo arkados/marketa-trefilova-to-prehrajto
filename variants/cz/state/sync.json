@@ -274370,17 +274370,19 @@
       }
     },
     "5228": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33094548",
+          "target_video_id": "31399898",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:19:40.943159+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33094548",
         "display_name": "Centurion 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:16:41.470222+00:00"
-      },
-      "claim": {
-        "worker_id": "0a1ae05a51bb4ebe955a1d7c822f1553-shard-0",
-        "claimed_at": "2026-11-26T05:16:42.203659+00:00",
-        "lease_expires_at": "2026-11-26T11:16:42.203659+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399898",
       "prepared": {
@@ -301531,5 +301533,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:18:43.084425+00:00"
+  "updated_at": "2026-11-26T05:19:40.943176+00:00"
 }
