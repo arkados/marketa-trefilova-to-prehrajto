@@ -275391,17 +275391,19 @@
       }
     },
     "13480": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28773637",
+          "target_video_id": "31401170",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:28:33.341672+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28773637",
         "display_name": "Zathura: A Space Adventure 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:23:11.415100+00:00"
-      },
-      "claim": {
-        "worker_id": "6723096ea648490ba0f21db7c76490eb-shard-0",
-        "claimed_at": "2026-11-26T06:23:12.166344+00:00",
-        "lease_expires_at": "2026-11-26T12:23:12.166344+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401170",
       "prepared": {
@@ -302378,5 +302380,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:27:53.533435+00:00"
+  "updated_at": "2026-11-26T06:28:33.341688+00:00"
 }
