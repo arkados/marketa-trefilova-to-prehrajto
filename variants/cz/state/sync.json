@@ -273307,17 +273307,19 @@
       }
     },
     "5121": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33063022",
+          "target_video_id": "31397909",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:47:55.036045+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33063022",
         "display_name": "Diary of a Wimpy Kid (2010) 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:41:06.029456+00:00"
-      },
-      "claim": {
-        "worker_id": "efe9deaf518549e0b2325b8de0aa5be7-shard-0",
-        "claimed_at": "2026-11-26T03:41:06.764339+00:00",
-        "lease_expires_at": "2026-11-26T09:41:06.764339+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397909",
       "prepared": {
@@ -300657,5 +300659,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:44:31.741769+00:00"
+  "updated_at": "2026-11-26T03:47:55.036064+00:00"
 }
