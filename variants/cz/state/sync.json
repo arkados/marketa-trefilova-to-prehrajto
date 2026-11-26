@@ -288548,17 +288548,19 @@
       }
     },
     "14405": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11475109",
+          "target_video_id": "31424682",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:44:38.250531+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11475109",
         "display_name": "My Son, My Son, What Have Ye Done? (My Son, My Son, What Have Ye Done) SD CZ Dabing",
         "planned_at": "2026-11-26T19:42:51.195164+00:00"
-      },
-      "claim": {
-        "worker_id": "6e8fe616b81f4fd5a53414c6e1edf37e-shard-0",
-        "claimed_at": "2026-11-26T19:42:52.005486+00:00",
-        "lease_expires_at": "2026-11-27T01:42:52.005486+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424682",
       "prepared": {
@@ -312608,5 +312610,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:44:33.288201+00:00"
+  "updated_at": "2026-11-26T19:44:38.250551+00:00"
 }
