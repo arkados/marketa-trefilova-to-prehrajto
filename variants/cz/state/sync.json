@@ -283760,17 +283760,19 @@
       }
     },
     "5425": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21147627",
+          "target_video_id": "31418236",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:05:25.344244+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21147627",
         "display_name": "Lady and the Tramp (2019) 4K CZ Dabing",
         "planned_at": "2026-11-26T14:55:38.340138+00:00"
-      },
-      "claim": {
-        "worker_id": "acef7bd9ae9744119524bce9011bc279-shard-0",
-        "claimed_at": "2026-11-26T14:55:39.356540+00:00",
-        "lease_expires_at": "2026-11-26T20:55:39.356540+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31418236",
       "prepared": {
@@ -308930,5 +308932,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:03:43.539076+00:00"
+  "updated_at": "2026-11-26T15:05:25.344261+00:00"
 }
