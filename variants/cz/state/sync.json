@@ -275605,17 +275605,19 @@
       }
     },
     "5819": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660731",
+          "target_video_id": "31401534",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:49:21.350302+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660731",
         "display_name": "See You on Venus 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:47:04.824067+00:00"
-      },
-      "claim": {
-        "worker_id": "125570180d584d9a96fb7fa64fea3955-shard-0",
-        "claimed_at": "2026-11-26T06:47:05.492086+00:00",
-        "lease_expires_at": "2026-11-26T12:47:05.492086+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401534",
       "prepared": {
@@ -302538,5 +302540,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:47:55.730255+00:00"
+  "updated_at": "2026-11-26T06:49:21.350321+00:00"
 }
