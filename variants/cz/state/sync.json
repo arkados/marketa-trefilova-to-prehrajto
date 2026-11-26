@@ -282386,17 +282386,19 @@
       "attempts": []
     },
     "5408": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32702682",
+          "target_video_id": "31416655",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:45:50.976615+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32702682",
         "display_name": "Clerks III 1080p CZ Dabing",
         "planned_at": "2026-11-26T13:41:03.620823+00:00"
-      },
-      "claim": {
-        "worker_id": "03eea2be296a490aab5c1b79080bdf3f-shard-0",
-        "claimed_at": "2026-11-26T13:41:04.615180+00:00",
-        "lease_expires_at": "2026-11-26T19:41:04.615180+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416655",
       "prepared": {
@@ -307830,5 +307832,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:44:42.594764+00:00"
+  "updated_at": "2026-11-26T13:45:50.976631+00:00"
 }
