@@ -124658,7 +124658,7 @@
       "last_plan": {
         "source_id": "33977403",
         "display_name": "Farinelli SD CZ Dabing",
-        "planned_at": "2026-11-26T11:15:01.217818+00:00"
+        "planned_at": "2026-11-26T11:15:07.025072+00:00"
       },
       "previous_target_id": "30985736",
       "prepared": {
@@ -279421,11 +279421,23 @@
       "attempts": []
     },
     "7053": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "25688543",
+          "reason": "Source detail has no authenticated download link; source_id=25688543",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:15:11.013115+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25688543",
         "display_name": "Guernica (Gernika) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T11:15:01.626926+00:00"
+        "planned_at": "2026-11-26T11:15:07.422751+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "25688543",
+        "requested_at": "2026-11-26T11:15:11.013098+00:00"
       }
     },
     "30718": {
@@ -305519,5 +305531,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:15:01.626943+00:00"
+  "updated_at": "2026-11-26T11:15:11.013119+00:00"
 }
