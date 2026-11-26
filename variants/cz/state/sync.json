@@ -286668,17 +286668,19 @@
       "attempts": []
     },
     "5591": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31248699",
+          "target_video_id": "31421796",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:32:05.273085+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31248699",
         "display_name": "Lionheart (1990) 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:28:26.421308+00:00"
-      },
-      "claim": {
-        "worker_id": "130a0ed282d747829fb81dbe9ccfd6be-shard-0",
-        "claimed_at": "2026-11-26T17:28:27.209696+00:00",
-        "lease_expires_at": "2026-11-26T23:28:27.209696+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421796",
       "prepared": {
@@ -311131,5 +311133,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:31:32.660547+00:00"
+  "updated_at": "2026-11-26T17:32:05.273105+00:00"
 }
