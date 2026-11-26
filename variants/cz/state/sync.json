@@ -287108,17 +287108,19 @@
       }
     },
     "5414": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22525183",
+          "target_video_id": "31422256",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:55:45.647302+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22525183",
         "display_name": "The Card Counter 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:51:16.008778+00:00"
-      },
-      "claim": {
-        "worker_id": "a04e0fa88b2e4bc19d98c3514c0b8878-shard-0",
-        "claimed_at": "2026-11-26T17:51:16.801339+00:00",
-        "lease_expires_at": "2026-11-26T23:51:16.801339+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422256",
       "prepared": {
@@ -311464,5 +311466,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:55:18.560066+00:00"
+  "updated_at": "2026-11-26T17:55:45.647324+00:00"
 }
