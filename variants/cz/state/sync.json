@@ -281244,17 +281244,19 @@
       "attempts": []
     },
     "8114": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31216469",
+          "target_video_id": "31415660",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:55:42.549625+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31216469",
         "display_name": "Unit 234 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:53:25.089844+00:00"
-      },
-      "claim": {
-        "worker_id": "fbe373bdb65c45bc8d2ff48c036c1714-shard-0",
-        "claimed_at": "2026-11-26T12:53:25.913860+00:00",
-        "lease_expires_at": "2026-11-26T18:53:25.913860+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415660",
       "prepared": {
@@ -306953,5 +306955,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:55:36.065274+00:00"
+  "updated_at": "2026-11-26T12:55:42.549642+00:00"
 }
