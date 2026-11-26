@@ -290368,17 +290368,19 @@
       }
     },
     "25578": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28551667",
+          "target_video_id": "31428517",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:39:20.470816+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28551667",
         "display_name": "Journey to the End of the Night 720p CZ Dabing",
         "planned_at": "2026-11-26T22:36:00.887052+00:00"
-      },
-      "claim": {
-        "worker_id": "a0d256592dbd49e08500a321cd10df8f-shard-0",
-        "claimed_at": "2026-11-26T22:36:01.610198+00:00",
-        "lease_expires_at": "2026-11-27T04:36:01.610198+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428517",
       "prepared": {
@@ -314085,5 +314087,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:36:05.783033+00:00"
+  "updated_at": "2026-11-26T22:39:20.470831+00:00"
 }
