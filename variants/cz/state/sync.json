@@ -271638,17 +271638,19 @@
       }
     },
     "27294": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26396115",
+          "target_video_id": "31395461",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:54:25.550989+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26396115",
         "display_name": "Hope Springs (2012) 720p CZ Dabing",
         "planned_at": "2026-11-26T01:46:13.905871+00:00"
-      },
-      "claim": {
-        "worker_id": "86a5ab77b3954ab397eb6ea6e85a6b53-shard-0",
-        "claimed_at": "2026-11-26T01:46:14.640244+00:00",
-        "lease_expires_at": "2026-11-26T07:46:14.640244+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395461",
       "prepared": {
@@ -299427,5 +299429,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:53:28.475027+00:00"
+  "updated_at": "2026-11-26T01:54:25.551006+00:00"
 }
