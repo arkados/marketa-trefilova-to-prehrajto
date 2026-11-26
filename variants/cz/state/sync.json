@@ -273701,17 +273701,19 @@
       }
     },
     "24005": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33724491",
+          "target_video_id": "31398755",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:20:56.877800+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33724491",
         "display_name": "Bloodfight 1080p CZ Dabing",
         "planned_at": "2026-11-26T04:16:08.780897+00:00"
-      },
-      "claim": {
-        "worker_id": "a4130caf08cd4ca5829a54458b6fd1de-shard-0",
-        "claimed_at": "2026-11-26T04:16:10.016296+00:00",
-        "lease_expires_at": "2026-11-26T10:16:10.016296+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398755",
       "prepared": {
@@ -300997,5 +300999,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:19:43.818920+00:00"
+  "updated_at": "2026-11-26T04:20:56.877816+00:00"
 }
