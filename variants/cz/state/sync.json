@@ -280309,17 +280309,19 @@
       "attempts": []
     },
     "13261": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34618102",
+          "target_video_id": "31407823",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:17:04.140288+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34618102",
         "display_name": "The Big Empty 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:09:10.439175+00:00"
-      },
-      "claim": {
-        "worker_id": "87788d7df3cd4a30ac29c0d3e15dafa3-shard-0",
-        "claimed_at": "2026-11-26T12:09:11.233609+00:00",
-        "lease_expires_at": "2026-11-26T18:09:11.233609+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31407823",
       "prepared": {
@@ -306253,5 +306255,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:14:57.396581+00:00"
+  "updated_at": "2026-11-26T12:17:04.140306+00:00"
 }
