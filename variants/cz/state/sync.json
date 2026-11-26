@@ -282869,17 +282869,19 @@
       "attempts": []
     },
     "23803": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34784229",
+          "target_video_id": "31417113",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:00:33.676412+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34784229",
         "display_name": "Escape from Atlantis SD CZ Dabing",
         "planned_at": "2026-11-26T13:59:17.525235+00:00"
-      },
-      "claim": {
-        "worker_id": "d1e581e1ea9a4e45af6034d012c2f618-shard-0",
-        "claimed_at": "2026-11-26T13:59:18.504271+00:00",
-        "lease_expires_at": "2026-11-26T19:59:18.504271+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417113",
       "prepared": {
@@ -308110,5 +308112,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:59:23.481604+00:00"
+  "updated_at": "2026-11-26T14:00:33.676428+00:00"
 }
