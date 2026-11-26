@@ -287639,17 +287639,19 @@
       }
     },
     "23531": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31061490",
+          "target_video_id": "31423097",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:09:32.792948+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31061490",
         "display_name": "Nostradamus 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:34:45.697493+00:00"
-      },
-      "claim": {
-        "worker_id": "c501e9e19e4746c48ef72fdc6793d232-shard-0",
-        "claimed_at": "2026-11-26T18:34:46.638181+00:00",
-        "lease_expires_at": "2026-11-27T00:34:46.638181+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31423097",
       "prepared": {
@@ -312104,5 +312106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:06:58.140504+00:00"
+  "updated_at": "2026-11-26T19:09:32.792967+00:00"
 }
