@@ -279876,17 +279876,19 @@
       }
     },
     "26259": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31505038",
+          "target_video_id": "31406866",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:38:41.616942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31505038",
         "display_name": "Powder Blue 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:35:14.147680+00:00"
-      },
-      "claim": {
-        "worker_id": "5b9027a5e3494282ad645e057606353c-shard-0",
-        "claimed_at": "2026-11-26T11:35:15.032036+00:00",
-        "lease_expires_at": "2026-11-26T17:35:15.032036+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406866",
       "prepared": {
@@ -305879,5 +305881,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:36:53.920737+00:00"
+  "updated_at": "2026-11-26T11:38:41.616967+00:00"
 }
