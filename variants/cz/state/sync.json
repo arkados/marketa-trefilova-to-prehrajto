@@ -271258,17 +271258,19 @@
       }
     },
     "16823": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14060455",
+          "target_video_id": "31394906",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:21:35.710331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14060455",
         "display_name": "Rock'n Roll 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:16:45.450798+00:00"
-      },
-      "claim": {
-        "worker_id": "75262bfd26f44b129eb346007d51eb01-shard-0",
-        "claimed_at": "2026-11-26T01:16:46.426625+00:00",
-        "lease_expires_at": "2026-11-26T07:16:46.426625+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31394906",
       "prepared": {
@@ -299067,5 +299069,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:18:25.476366+00:00"
+  "updated_at": "2026-11-26T01:21:35.710351+00:00"
 }
