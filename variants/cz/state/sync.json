@@ -275959,17 +275959,19 @@
       }
     },
     "6825": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27324686",
+          "target_video_id": "31401919",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:14:59.899447+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27324686",
         "display_name": "All-Time High (Nouveaux riches) 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:12:10.301628+00:00"
-      },
-      "claim": {
-        "worker_id": "97fce21da5634a4bb918d7ebfa96e4ae-shard-0",
-        "claimed_at": "2026-11-26T07:12:10.984776+00:00",
-        "lease_expires_at": "2026-11-26T13:12:10.984776+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401919",
       "prepared": {
@@ -302808,5 +302810,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:12:14.791764+00:00"
+  "updated_at": "2026-11-26T07:14:59.899464+00:00"
 }
