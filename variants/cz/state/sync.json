@@ -271942,17 +271942,19 @@
       "attempts": []
     },
     "10447": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850396",
+          "target_video_id": "31395816",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:11:18.432396+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850396",
         "display_name": "Babovresky (Babovřesky) 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:07:20.860250+00:00"
-      },
-      "claim": {
-        "worker_id": "9509d4cc0a924103b72e7891a081f6e1-shard-0",
-        "claimed_at": "2026-11-26T02:07:22.069981+00:00",
-        "lease_expires_at": "2026-11-26T08:07:22.069981+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395816",
       "prepared": {
@@ -299607,5 +299609,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:09:13.147471+00:00"
+  "updated_at": "2026-11-26T02:11:18.432413+00:00"
 }
