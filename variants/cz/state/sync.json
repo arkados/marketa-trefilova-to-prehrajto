@@ -280514,17 +280514,19 @@
       "attempts": []
     },
     "17077": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27045408",
+          "target_video_id": "31414491",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:22:10.210989+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27045408",
         "display_name": "All I Want for Christmas Is You (Mariah Carey's All I Want for Christmas Is You) 720p CZ Dabing",
         "planned_at": "2026-11-26T12:18:37.547808+00:00"
-      },
-      "claim": {
-        "worker_id": "d4ac553963d54b1e9b2188c37323a1dc-shard-0",
-        "claimed_at": "2026-11-26T12:18:38.341313+00:00",
-        "lease_expires_at": "2026-11-26T18:18:38.341313+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31414491",
       "prepared": {
@@ -306393,5 +306395,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:22:06.300789+00:00"
+  "updated_at": "2026-11-26T12:22:10.211008+00:00"
 }
