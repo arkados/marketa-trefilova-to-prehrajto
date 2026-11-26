@@ -281210,17 +281210,19 @@
       }
     },
     "5822": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660732",
+          "target_video_id": "31415646",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:55:01.092516+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660732",
         "display_name": "Batman: The Doom That Came to Gotham 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:52:47.670215+00:00"
-      },
-      "claim": {
-        "worker_id": "fa4e731885d3470883bd4e8633737da1-shard-0",
-        "claimed_at": "2026-11-26T12:52:48.469112+00:00",
-        "lease_expires_at": "2026-11-26T18:52:48.469112+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415646",
       "prepared": {
@@ -306913,5 +306915,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:53:31.383531+00:00"
+  "updated_at": "2026-11-26T12:55:01.092533+00:00"
 }
