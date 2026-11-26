@@ -286395,17 +286395,19 @@
       }
     },
     "14078": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17522109",
+          "target_video_id": "31420932",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:58:19.396231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17522109",
         "display_name": "See You in September 1080p CZ Dabing",
         "planned_at": "2026-11-26T16:54:05.661545+00:00"
-      },
-      "claim": {
-        "worker_id": "420105852d194c53849466854d4ad119-shard-0",
-        "claimed_at": "2026-11-26T16:54:06.663521+00:00",
-        "lease_expires_at": "2026-11-26T22:54:06.663521+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31420932",
       "prepared": {
@@ -310874,5 +310876,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:56:14.201942+00:00"
+  "updated_at": "2026-11-26T16:58:19.396247+00:00"
 }
