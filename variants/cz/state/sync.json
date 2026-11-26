@@ -274856,17 +274856,19 @@
       }
     },
     "23990": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28524341",
+          "target_video_id": "31400575",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:56:28.411823+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28524341",
         "display_name": "Intolerable Cruelty 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:54:01.016601+00:00"
-      },
-      "claim": {
-        "worker_id": "ef99f588397540eb9aaede44b0468947-shard-0",
-        "claimed_at": "2026-11-26T05:54:01.860875+00:00",
-        "lease_expires_at": "2026-11-26T11:54:01.860875+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400575",
       "prepared": {
@@ -301945,5 +301947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:55:42.701907+00:00"
+  "updated_at": "2026-11-26T05:56:28.411841+00:00"
 }
