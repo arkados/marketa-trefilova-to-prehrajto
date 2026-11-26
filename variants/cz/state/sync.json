@@ -285309,17 +285309,19 @@
       }
     },
     "5509": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32333608",
+          "target_video_id": "31419660",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:01:44.554175+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32333608",
         "display_name": "Destroyer (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-26T15:57:01.499356+00:00"
-      },
-      "claim": {
-        "worker_id": "060df653edc04055bfb34ed92dba3da5-shard-0",
-        "claimed_at": "2026-11-26T15:57:02.500569+00:00",
-        "lease_expires_at": "2026-11-26T21:57:02.500569+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419660",
       "prepared": {
@@ -310040,5 +310042,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:00:31.617199+00:00"
+  "updated_at": "2026-11-26T16:01:44.554199+00:00"
 }
