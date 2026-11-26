@@ -278954,17 +278954,19 @@
       "attempts": []
     },
     "22498": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34471269",
+          "target_video_id": "31405918",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:56:26.439955+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34471269",
         "display_name": "Bronco Billy 720p CZ Dabing",
         "planned_at": "2026-11-26T10:51:22.221777+00:00"
-      },
-      "claim": {
-        "worker_id": "8f52390d7eb643c7967aea352d22e445-shard-0",
-        "claimed_at": "2026-11-26T10:51:22.967103+00:00",
-        "lease_expires_at": "2026-11-26T16:51:22.967103+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405918",
       "prepared": {
@@ -305239,5 +305241,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:55:51.928784+00:00"
+  "updated_at": "2026-11-26T10:56:26.439970+00:00"
 }
