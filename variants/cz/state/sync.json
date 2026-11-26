@@ -276431,17 +276431,19 @@
       }
     },
     "31653": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34835921",
+          "target_video_id": "31402557",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:49:05.970862+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34835921",
         "display_name": "The Swordsman (1992) 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:42:51.685324+00:00"
-      },
-      "claim": {
-        "worker_id": "e38a93e624c94281a02bb228fbff7ce2-shard-0",
-        "claimed_at": "2026-11-26T07:42:52.365912+00:00",
-        "lease_expires_at": "2026-11-26T13:42:52.365912+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402557",
       "prepared": {
@@ -303208,5 +303210,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:42:56.378492+00:00"
+  "updated_at": "2026-11-26T07:49:05.970881+00:00"
 }
