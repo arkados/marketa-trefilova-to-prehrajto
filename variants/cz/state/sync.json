@@ -277431,17 +277431,19 @@
       }
     },
     "6290": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15413567",
+          "target_video_id": "31404451",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:31:56.652040+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15413567",
         "display_name": "Go Karts (Go!) 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:27:08.281056+00:00"
-      },
-      "claim": {
-        "worker_id": "1039b8ed85b744d194467032b62514fd-shard-0",
-        "claimed_at": "2026-11-26T09:27:09.016741+00:00",
-        "lease_expires_at": "2026-11-26T15:27:09.016741+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404451",
       "prepared": {
@@ -304105,5 +304107,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:31:17.558675+00:00"
+  "updated_at": "2026-11-26T09:31:56.652059+00:00"
 }
