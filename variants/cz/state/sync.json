@@ -121630,7 +121630,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T07:27:30.601734+00:00"
+        "planned_at": "2026-11-26T07:27:36.010334+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -276105,17 +276105,19 @@
       }
     },
     "27152": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11768007",
+          "target_video_id": "31402224",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:27:40.839628+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11768007",
         "display_name": "Under the Skin SD CZ Dabing",
         "planned_at": "2026-11-26T07:26:34.705654+00:00"
-      },
-      "claim": {
-        "worker_id": "d9a18162faf849acbb82d258cd3ef7d2-shard-0",
-        "claimed_at": "2026-11-26T07:26:35.465815+00:00",
-        "lease_expires_at": "2026-11-26T13:26:35.465815+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402224",
       "prepared": {
@@ -276133,7 +276135,13 @@
       "last_plan": {
         "source_id": "31570246",
         "display_name": "An Honest Life (Ett ärligt liv) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T07:27:31.031067+00:00"
+        "planned_at": "2026-11-26T07:27:36.453001+00:00"
+      },
+      "claim": {
+        "worker_id": "b1a44db62ada410ea5c59740a6e69504-shard-0",
+        "claimed_at": "2026-11-26T07:27:37.200603+00:00",
+        "lease_expires_at": "2026-11-26T13:27:37.200603+00:00",
+        "run_id": "45757851202"
       }
     },
     "31752": {
@@ -302935,5 +302943,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:27:31.031108+00:00"
+  "updated_at": "2026-11-26T07:27:40.839645+00:00"
 }
