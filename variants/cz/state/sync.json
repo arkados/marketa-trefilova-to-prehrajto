@@ -287400,17 +287400,19 @@
       "attempts": []
     },
     "12995": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15672620",
+          "target_video_id": "31422746",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:24:36.737949+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15672620",
         "display_name": "The Hole (2001) 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:17:28.842926+00:00"
-      },
-      "claim": {
-        "worker_id": "3dea1820484247f383d07dcb6b2a71ac-shard-0",
-        "claimed_at": "2026-11-26T18:17:29.693020+00:00",
-        "lease_expires_at": "2026-11-27T00:17:29.693020+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422746",
       "prepared": {
@@ -311686,5 +311688,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:24:30.182136+00:00"
+  "updated_at": "2026-11-26T18:24:36.737967+00:00"
 }
