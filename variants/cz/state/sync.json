@@ -274027,17 +274027,19 @@
       "attempts": []
     },
     "5122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34147023",
+          "target_video_id": "31399335",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:48:25.230850+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34147023",
         "display_name": "Death Wish (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-26T04:45:38.721850+00:00"
-      },
-      "claim": {
-        "worker_id": "0b9cff60d7db4e33b694e52e6f76f7ac-shard-0",
-        "claimed_at": "2026-11-26T04:45:39.491236+00:00",
-        "lease_expires_at": "2026-11-26T10:45:39.491236+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31399335",
       "prepared": {
@@ -301221,5 +301223,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:48:16.747006+00:00"
+  "updated_at": "2026-11-26T04:48:25.230866+00:00"
 }
