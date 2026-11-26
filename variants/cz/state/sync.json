@@ -288006,17 +288006,19 @@
       "attempts": []
     },
     "21081": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33730572",
+          "target_video_id": "31424091",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:11:52.912267+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33730572",
         "display_name": "Die Brücke (The Bridge) SD CZ Dabing",
         "planned_at": "2026-11-26T19:10:25.308590+00:00"
-      },
-      "claim": {
-        "worker_id": "4c1a32448798442b820a8aa004b9f549-shard-0",
-        "claimed_at": "2026-11-26T19:10:26.048514+00:00",
-        "lease_expires_at": "2026-11-27T01:10:26.048514+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424091",
       "prepared": {
@@ -312181,5 +312183,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:11:00.350901+00:00"
+  "updated_at": "2026-11-26T19:11:52.912286+00:00"
 }
