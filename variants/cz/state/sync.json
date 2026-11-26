@@ -121610,7 +121610,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T05:55:14.643921+00:00"
+        "planned_at": "2026-11-26T05:55:21.284192+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -274833,17 +274833,19 @@
       "attempts": []
     },
     "4910": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31907944",
+          "target_video_id": "31400544",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:55:24.846317+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31907944",
         "display_name": "It Ends With Us 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:52:18.235125+00:00"
-      },
-      "claim": {
-        "worker_id": "8f7548df1480479888e9b1055239b28f-shard-0",
-        "claimed_at": "2026-11-26T05:52:19.012645+00:00",
-        "lease_expires_at": "2026-11-26T11:52:19.012645+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400544",
       "prepared": {
@@ -274882,7 +274884,13 @@
       "last_plan": {
         "source_id": "34900964",
         "display_name": "The Devil Wears Prada 2 4K CZ Dabing",
-        "planned_at": "2026-11-26T05:55:15.075715+00:00"
+        "planned_at": "2026-11-26T05:55:21.736128+00:00"
+      },
+      "claim": {
+        "worker_id": "aabdf4e10587439eb206adbc27f80569-shard-0",
+        "claimed_at": "2026-11-26T05:55:22.522526+00:00",
+        "lease_expires_at": "2026-11-26T11:55:22.522526+00:00",
+        "run_id": "45757851202"
       }
     },
     "5125": {
@@ -301912,5 +301920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:55:15.075734+00:00"
+  "updated_at": "2026-11-26T05:55:24.846337+00:00"
 }
