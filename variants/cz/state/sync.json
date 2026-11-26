@@ -275050,17 +275050,19 @@
       }
     },
     "11601": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33690610",
+          "target_video_id": "31400735",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:05:39.748854+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33690610",
         "display_name": "A View to a Kill 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:01:37.972045+00:00"
-      },
-      "claim": {
-        "worker_id": "918806215f1c41a796ff849d371b4acc-shard-0",
-        "claimed_at": "2026-11-26T06:01:38.742699+00:00",
-        "lease_expires_at": "2026-11-26T12:01:38.742699+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400735",
       "prepared": {
@@ -302085,5 +302087,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:03:25.579252+00:00"
+  "updated_at": "2026-11-26T06:05:39.748871+00:00"
 }
