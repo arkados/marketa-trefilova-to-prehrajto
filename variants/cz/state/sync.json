@@ -276915,17 +276915,19 @@
       }
     },
     "4957": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31964927",
+          "target_video_id": "31403474",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:36:09.219467+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31964927",
         "display_name": "No Hard Feelings 1080p CZ Dabing",
         "planned_at": "2026-11-26T08:33:25.006591+00:00"
-      },
-      "claim": {
-        "worker_id": "18dbed0c6dbe412eb54614f657ef380a-shard-0",
-        "claimed_at": "2026-11-26T08:33:25.715550+00:00",
-        "lease_expires_at": "2026-11-26T14:33:25.715550+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403474",
       "prepared": {
@@ -303608,5 +303610,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:33:29.398685+00:00"
+  "updated_at": "2026-11-26T08:36:09.219483+00:00"
 }
