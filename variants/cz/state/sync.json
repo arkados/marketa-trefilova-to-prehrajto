@@ -271284,17 +271284,19 @@
       "attempts": []
     },
     "5405": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27422926",
+          "target_video_id": "31394949",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:22:17.492883+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27422926",
         "display_name": "Scrooge: A Christmas Carol 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:18:20.110430+00:00"
-      },
-      "claim": {
-        "worker_id": "3acdd60a7b5246698eb598fe8eba1930-shard-0",
-        "claimed_at": "2026-11-26T01:18:20.865507+00:00",
-        "lease_expires_at": "2026-11-26T07:18:20.865507+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31394949",
       "prepared": {
@@ -299087,5 +299089,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:21:51.450729+00:00"
+  "updated_at": "2026-11-26T01:22:17.492903+00:00"
 }
