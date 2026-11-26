@@ -285188,17 +285188,19 @@
       "attempts": []
     },
     "8279": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35179372",
+          "target_video_id": "31419554",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:55:14.493485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35179372",
         "display_name": "The Jungle Bunch (Les As de la Jungle) 1080p CZ Dabing",
         "planned_at": "2026-11-26T15:52:44.483382+00:00"
-      },
-      "claim": {
-        "worker_id": "b167c6d9dc214d09a740e0f38772a89d-shard-0",
-        "claimed_at": "2026-11-26T15:52:45.402763+00:00",
-        "lease_expires_at": "2026-11-26T21:52:45.402763+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419554",
       "prepared": {
@@ -309940,5 +309942,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:55:09.067680+00:00"
+  "updated_at": "2026-11-26T15:55:14.493502+00:00"
 }
