@@ -273653,17 +273653,19 @@
       }
     },
     "5210": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24203222",
+          "target_video_id": "31398558",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:15:58.854885+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24203222",
         "display_name": "Upside Down 1080p CZ Dabing",
         "planned_at": "2026-11-26T04:09:00.707085+00:00"
-      },
-      "claim": {
-        "worker_id": "705e414b94d948d186890b64afa10749-shard-0",
-        "claimed_at": "2026-11-26T04:09:01.871730+00:00",
-        "lease_expires_at": "2026-11-26T10:09:01.871730+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398558",
       "prepared": {
@@ -300937,5 +300939,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:14:14.557909+00:00"
+  "updated_at": "2026-11-26T04:15:58.854902+00:00"
 }
