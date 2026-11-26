@@ -279806,17 +279806,19 @@
       "attempts": []
     },
     "16160": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33863691",
+          "target_video_id": "31406699",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:33:01.983086+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33863691",
         "display_name": "The Price of Nonna's Inheritance (Ricchi a tutti i costi) 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:29:36.737767+00:00"
-      },
-      "claim": {
-        "worker_id": "7f54d7262dc24508bc2783a9c0aa9ff0-shard-0",
-        "claimed_at": "2026-11-26T11:29:37.494917+00:00",
-        "lease_expires_at": "2026-11-26T17:29:37.494917+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406699",
       "prepared": {
@@ -305806,5 +305808,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:29:42.114397+00:00"
+  "updated_at": "2026-11-26T11:33:01.983102+00:00"
 }
