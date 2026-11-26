@@ -273609,17 +273609,19 @@
       }
     },
     "18626": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34397235",
+          "target_video_id": "31398494",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:13:59.679008+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34397235",
         "display_name": "Criminal 4K CZ Dabing",
         "planned_at": "2026-11-26T04:04:54.224933+00:00"
-      },
-      "claim": {
-        "worker_id": "d4a392bcf1bc4d1b8b1803d1f3281286-shard-0",
-        "claimed_at": "2026-11-26T04:04:54.927668+00:00",
-        "lease_expires_at": "2026-11-26T10:04:54.927668+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398494",
       "prepared": {
@@ -300917,5 +300919,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:09:06.017543+00:00"
+  "updated_at": "2026-11-26T04:13:59.679026+00:00"
 }
