@@ -274734,17 +274734,19 @@
       "attempts": []
     },
     "4877": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767069",
+          "target_video_id": "31400368",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:46:51.581240+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767069",
         "display_name": "Nobody 2 4K CZ Dabing",
         "planned_at": "2026-11-26T05:40:13.838117+00:00"
-      },
-      "claim": {
-        "worker_id": "d6a9564c44764ea9b0ef7a7d70d18bb6-shard-0",
-        "claimed_at": "2026-11-26T05:40:14.542608+00:00",
-        "lease_expires_at": "2026-11-26T11:40:14.542608+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400368",
       "prepared": {
@@ -301805,5 +301807,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:40:17.871377+00:00"
+  "updated_at": "2026-11-26T05:46:51.581257+00:00"
 }
