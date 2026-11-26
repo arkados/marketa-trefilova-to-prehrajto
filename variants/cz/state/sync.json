@@ -286521,17 +286521,19 @@
       "attempts": []
     },
     "15211": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22224349",
+          "target_video_id": "31421684",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:25:54.248591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22224349",
         "display_name": "Deadfall (2012) 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:23:13.516607+00:00"
-      },
-      "claim": {
-        "worker_id": "14f9c260f4da4cb18b81be0e2d7f371f-shard-0",
-        "claimed_at": "2026-11-26T17:23:14.831765+00:00",
-        "lease_expires_at": "2026-11-26T23:23:14.831765+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421684",
       "prepared": {
@@ -311011,5 +311013,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:24:06.944533+00:00"
+  "updated_at": "2026-11-26T17:25:54.248609+00:00"
 }
