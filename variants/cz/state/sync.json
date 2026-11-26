@@ -288250,17 +288250,19 @@
       "attempts": []
     },
     "12143": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29954393",
+          "target_video_id": "31424364",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:30:55.504365+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29954393",
         "display_name": "Disclosure 1080p CZ Dabing",
         "planned_at": "2026-11-26T19:26:09.519775+00:00"
-      },
-      "claim": {
-        "worker_id": "e16ad368cfa84f679488784df0bda39a-shard-0",
-        "claimed_at": "2026-11-26T19:26:10.282702+00:00",
-        "lease_expires_at": "2026-11-27T01:26:10.282702+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424364",
       "prepared": {
@@ -312441,5 +312443,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:30:33.867050+00:00"
+  "updated_at": "2026-11-26T19:30:55.504382+00:00"
 }
