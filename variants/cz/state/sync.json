@@ -278847,17 +278847,19 @@
       }
     },
     "7875": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33184389",
+          "target_video_id": "31405801",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:50:40.659230+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33184389",
         "display_name": "As Good as Dead 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:45:57.041995+00:00"
-      },
-      "claim": {
-        "worker_id": "8ac2cb3f92c043929acd93da915dc093-shard-0",
-        "claimed_at": "2026-11-26T10:45:57.810119+00:00",
-        "lease_expires_at": "2026-11-26T16:45:57.810119+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405801",
       "prepared": {
@@ -305159,5 +305161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:47:49.209717+00:00"
+  "updated_at": "2026-11-26T10:50:40.659246+00:00"
 }
