@@ -137474,7 +137474,7 @@
       "last_plan": {
         "source_id": "29809619",
         "display_name": "Prodavac humoru (Prodavač humoru) SD CZ Dabing",
-        "planned_at": "2026-11-26T03:01:41.333880+00:00"
+        "planned_at": "2026-11-26T03:01:47.433609+00:00"
       },
       "previous_target_id": "30987769",
       "prepared": {
@@ -272662,17 +272662,19 @@
       }
     },
     "28985": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34967167",
+          "target_video_id": "31396855",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:01:55.329609+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34967167",
         "display_name": "Never Let Go (2015) 720p CZ Dabing",
         "planned_at": "2026-11-26T02:59:24.226868+00:00"
-      },
-      "claim": {
-        "worker_id": "93156683c89b4c55af24a89225544878-shard-0",
-        "claimed_at": "2026-11-26T02:59:24.926896+00:00",
-        "lease_expires_at": "2026-11-26T08:59:24.926896+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396855",
       "prepared": {
@@ -272729,7 +272731,13 @@
       "last_plan": {
         "source_id": "32217299",
         "display_name": "Mary Queen of Scots 1080p CZ Dabing",
-        "planned_at": "2026-11-26T03:01:41.790080+00:00"
+        "planned_at": "2026-11-26T03:01:51.670182+00:00"
+      },
+      "claim": {
+        "worker_id": "2425b2b9ab3a464c839542c9148116b3-shard-0",
+        "claimed_at": "2026-11-26T03:01:52.463983+00:00",
+        "lease_expires_at": "2026-11-26T09:01:52.463983+00:00",
+        "run_id": "45730957086"
       }
     },
     "17716": {
@@ -300164,5 +300172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:01:41.790097+00:00"
+  "updated_at": "2026-11-26T03:01:55.329627+00:00"
 }
