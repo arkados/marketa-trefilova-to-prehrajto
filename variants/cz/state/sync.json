@@ -287297,17 +287297,19 @@
       }
     },
     "17833": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26249308",
+          "target_video_id": "31422508",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:11:13.573308+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26249308",
         "display_name": "Mr. Magorium's Wonder Emporium 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:05:06.247764+00:00"
-      },
-      "claim": {
-        "worker_id": "0ac22f9eda244b07a3d8dbabfdff7b8c-shard-0",
-        "claimed_at": "2026-11-26T18:05:07.016153+00:00",
-        "lease_expires_at": "2026-11-27T00:05:07.016153+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422508",
       "prepared": {
@@ -311584,5 +311586,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:06:05.169034+00:00"
+  "updated_at": "2026-11-26T18:11:13.573328+00:00"
 }
