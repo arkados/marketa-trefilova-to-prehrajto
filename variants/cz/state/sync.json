@@ -273867,17 +273867,19 @@
       "attempts": []
     },
     "4980": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30303268",
+          "target_video_id": "31399076",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:35:16.945168+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30303268",
         "display_name": "Guns Akimbo 1080p CZ Dabing",
         "planned_at": "2026-11-26T04:31:15.185336+00:00"
-      },
-      "claim": {
-        "worker_id": "49ee53ae97a048118a60864503460e45-shard-0",
-        "claimed_at": "2026-11-26T04:31:16.062974+00:00",
-        "lease_expires_at": "2026-11-26T10:31:16.062974+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31399076",
       "prepared": {
@@ -301097,5 +301099,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:31:19.923552+00:00"
+  "updated_at": "2026-11-26T04:35:16.945186+00:00"
 }
