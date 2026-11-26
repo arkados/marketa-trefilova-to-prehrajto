@@ -273136,17 +273136,19 @@
       "attempts": []
     },
     "6287": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26202496",
+          "target_video_id": "31397607",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:35:54.353619+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26202496",
         "display_name": "Rich in Love (Ricos de Amor) 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:28:57.019930+00:00"
-      },
-      "claim": {
-        "worker_id": "6540fa8b379b49d18315e74c912edeb8-shard-0",
-        "claimed_at": "2026-11-26T03:28:58.937439+00:00",
-        "lease_expires_at": "2026-11-26T09:28:58.937439+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397607",
       "prepared": {
@@ -300564,5 +300566,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:35:49.502481+00:00"
+  "updated_at": "2026-11-26T03:35:54.353638+00:00"
 }
