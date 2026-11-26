@@ -275840,17 +275840,19 @@
       }
     },
     "5217": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32999707",
+          "target_video_id": "31401793",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:06:06.755023+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32999707",
         "display_name": "The Thing (2011) 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:03:29.068577+00:00"
-      },
-      "claim": {
-        "worker_id": "460769a095104742ab4f7134977ed875-shard-0",
-        "claimed_at": "2026-11-26T07:03:29.862322+00:00",
-        "lease_expires_at": "2026-11-26T13:03:29.862322+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401793",
       "prepared": {
@@ -302731,5 +302733,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:04:15.303172+00:00"
+  "updated_at": "2026-11-26T07:06:06.755041+00:00"
 }
