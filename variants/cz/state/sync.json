@@ -275313,17 +275313,19 @@
       }
     },
     "4420": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33406806",
+          "target_video_id": "31401089",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:27:36.620047+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33406806",
         "display_name": "The Running Man (2025) 4K CZ Dabing",
         "planned_at": "2026-11-26T06:18:56.417841+00:00"
-      },
-      "claim": {
-        "worker_id": "2665ab418f3e4a189be6302f44454f36-shard-0",
-        "claimed_at": "2026-11-26T06:18:57.201316+00:00",
-        "lease_expires_at": "2026-11-26T12:18:57.201316+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401089",
       "prepared": {
@@ -302358,5 +302360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:25:01.102760+00:00"
+  "updated_at": "2026-11-26T06:27:36.620064+00:00"
 }
