@@ -274708,17 +274708,19 @@
       }
     },
     "5259": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27407744",
+          "target_video_id": "31400299",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:40:00.614104+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27407744",
         "display_name": "Monsters 720p CZ Dabing",
         "planned_at": "2026-11-26T05:35:34.698188+00:00"
-      },
-      "claim": {
-        "worker_id": "e72083bf8fe242108633d3438f20fba4-shard-0",
-        "claimed_at": "2026-11-26T05:35:35.414120+00:00",
-        "lease_expires_at": "2026-11-26T11:35:35.414120+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400299",
       "prepared": {
@@ -301785,5 +301787,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:35:39.440765+00:00"
+  "updated_at": "2026-11-26T05:40:00.614122+00:00"
 }
