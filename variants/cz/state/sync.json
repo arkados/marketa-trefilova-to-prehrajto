@@ -290419,17 +290419,19 @@
       "attempts": []
     },
     "5498": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26077339",
+          "target_video_id": "31428836",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:53:42.208233+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26077339",
         "display_name": "Scary Stories to Tell in the Dark 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:47:47.065381+00:00"
-      },
-      "claim": {
-        "worker_id": "50f6321a9ff444109f1d8885e7df7bf1-shard-0",
-        "claimed_at": "2026-11-26T22:47:47.764505+00:00",
-        "lease_expires_at": "2026-11-27T04:47:47.764505+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428836",
       "prepared": {
@@ -314162,5 +314164,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:53:09.069243+00:00"
+  "updated_at": "2026-11-26T22:53:42.208248+00:00"
 }
