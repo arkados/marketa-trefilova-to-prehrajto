@@ -287860,17 +287860,19 @@
       }
     },
     "5501": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12391858",
+          "target_video_id": "31423770",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:00:39.358800+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12391858",
         "display_name": "Stuber 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:57:21.726437+00:00"
-      },
-      "claim": {
-        "worker_id": "50f35921945b49dbae5310ca92eb0d19-shard-0",
-        "claimed_at": "2026-11-26T18:57:22.511509+00:00",
-        "lease_expires_at": "2026-11-27T00:57:22.511509+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31423770",
       "prepared": {
@@ -312024,5 +312026,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:57:25.925769+00:00"
+  "updated_at": "2026-11-26T19:00:39.358819+00:00"
 }
