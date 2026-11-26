@@ -274803,17 +274803,19 @@
       }
     },
     "16550": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31688045",
+          "target_video_id": "31400511",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:52:09.028223+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31688045",
         "display_name": "Planet Single: Greek Adventure (Planeta Singli 4: Wyspa) 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:50:14.715468+00:00"
-      },
-      "claim": {
-        "worker_id": "3de0139307184f409c4ba0ec2fea72b9-shard-0",
-        "claimed_at": "2026-11-26T05:50:15.434735+00:00",
-        "lease_expires_at": "2026-11-26T11:50:15.434735+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400511",
       "prepared": {
@@ -301865,5 +301867,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:50:19.288543+00:00"
+  "updated_at": "2026-11-26T05:52:09.028243+00:00"
 }
