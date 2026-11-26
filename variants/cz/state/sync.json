@@ -290157,17 +290157,19 @@
       }
     },
     "26905": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26205089",
+          "target_video_id": "31428070",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:16:36.279343+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26205089",
         "display_name": "Frozen (2010) SD CZ Dabing",
         "planned_at": "2026-11-26T22:13:54.565669+00:00"
-      },
-      "claim": {
-        "worker_id": "9b3c06153f0c425c949a904f451e5a8c-shard-0",
-        "claimed_at": "2026-11-26T22:13:55.288580+00:00",
-        "lease_expires_at": "2026-11-27T04:13:55.288580+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428070",
       "prepared": {
@@ -313925,5 +313927,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:16:04.005101+00:00"
+  "updated_at": "2026-11-26T22:16:36.279359+00:00"
 }
