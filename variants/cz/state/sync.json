@@ -280556,17 +280556,19 @@
       }
     },
     "23738": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6596497",
+          "target_video_id": "31414622",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:21:49.167722+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6596497",
         "display_name": "Overnight Delivery SD CZ Dabing",
         "planned_at": "2026-11-26T12:20:46.387344+00:00"
-      },
-      "claim": {
-        "worker_id": "fdec79d8e0174f1ba6b7e3f96b201e04-shard-0",
-        "claimed_at": "2026-11-26T12:20:47.234789+00:00",
-        "lease_expires_at": "2026-11-26T18:20:47.234789+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31414622",
       "prepared": {
@@ -306373,5 +306375,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:20:51.926479+00:00"
+  "updated_at": "2026-11-26T12:21:49.167740+00:00"
 }
