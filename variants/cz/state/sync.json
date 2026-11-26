@@ -275706,17 +275706,19 @@
       }
     },
     "32349": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "34172114",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-26T06:59:15.103541+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34172114",
         "display_name": "Hail, Caesar! 4K CZ Dabing",
         "planned_at": "2026-11-26T06:56:57.992236+00:00"
-      },
-      "claim": {
-        "worker_id": "fa180bb17e734455a555c9d7b321e2fd-shard-0",
-        "claimed_at": "2026-11-26T06:56:58.725723+00:00",
-        "lease_expires_at": "2026-11-26T12:56:58.725723+00:00",
-        "run_id": "45757851202"
       }
     },
     "5295": {
@@ -302611,5 +302613,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:58:45.173320+00:00"
+  "updated_at": "2026-11-26T06:59:15.103560+00:00"
 }
