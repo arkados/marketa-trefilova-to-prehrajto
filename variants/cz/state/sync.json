@@ -276410,17 +276410,19 @@
       }
     },
     "4968": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32158218",
+          "target_video_id": "31402532",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:50:50.784655+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32158218",
         "display_name": "M3GAN 4K CZ Dabing",
         "planned_at": "2026-11-26T07:41:40.414381+00:00"
-      },
-      "claim": {
-        "worker_id": "49ca434f72c94bb3bdc60e08c7e80feb-shard-0",
-        "claimed_at": "2026-11-26T07:41:41.081953+00:00",
-        "lease_expires_at": "2026-11-26T13:41:41.081953+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402532",
       "prepared": {
@@ -303228,5 +303230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:49:20.762847+00:00"
+  "updated_at": "2026-11-26T07:50:50.784672+00:00"
 }
