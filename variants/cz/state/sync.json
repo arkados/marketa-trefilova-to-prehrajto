@@ -277404,17 +277404,19 @@
       }
     },
     "5290": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21345733",
+          "target_video_id": "31404419",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:26:56.916578+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21345733",
         "display_name": "Paranormal Activity 720p CZ Dabing",
         "planned_at": "2026-11-26T09:24:00.324666+00:00"
-      },
-      "claim": {
-        "worker_id": "238ee9b56a854f8598b6f3d0e7cbaba8-shard-0",
-        "claimed_at": "2026-11-26T09:24:01.050968+00:00",
-        "lease_expires_at": "2026-11-26T15:24:01.050968+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404419",
       "prepared": {
@@ -304025,5 +304027,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:24:05.283136+00:00"
+  "updated_at": "2026-11-26T09:26:56.916594+00:00"
 }
