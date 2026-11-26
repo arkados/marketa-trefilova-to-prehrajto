@@ -275987,17 +275987,19 @@
       "attempts": []
     },
     "5271": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26233255",
+          "target_video_id": "31401973",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:18:11.922075+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26233255",
         "display_name": "Devil 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:15:15.827296+00:00"
-      },
-      "claim": {
-        "worker_id": "02f80df646f141f5a1fb2ff3f2fb30fd-shard-0",
-        "claimed_at": "2026-11-26T07:15:16.566998+00:00",
-        "lease_expires_at": "2026-11-26T13:15:16.566998+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401973",
       "prepared": {
@@ -302848,5 +302850,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:17:19.946028+00:00"
+  "updated_at": "2026-11-26T07:18:11.922092+00:00"
 }
