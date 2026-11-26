@@ -289193,17 +289193,19 @@
       "attempts": []
     },
     "5685": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29577300",
+          "target_video_id": "31425671",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:44:55.631092+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29577300",
         "display_name": "Dorian Gray 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:30:33.990909+00:00"
-      },
-      "claim": {
-        "worker_id": "f96c764cc55640669a8434e159d10cbd-shard-0",
-        "claimed_at": "2026-11-26T20:30:34.781619+00:00",
-        "lease_expires_at": "2026-11-27T02:30:34.781619+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31425671",
       "prepared": {
@@ -313212,5 +313214,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:43:11.755817+00:00"
+  "updated_at": "2026-11-26T20:44:55.631111+00:00"
 }
