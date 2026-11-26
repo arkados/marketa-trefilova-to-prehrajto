@@ -272014,17 +272014,19 @@
       }
     },
     "4951": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30166230",
+          "target_video_id": "31395904",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:16:27.312296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30166230",
         "display_name": "Nowhere (2023) 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:13:30.414924+00:00"
-      },
-      "claim": {
-        "worker_id": "3567801c8db646378f9775d4df4574cf-shard-0",
-        "claimed_at": "2026-11-26T02:13:31.101252+00:00",
-        "lease_expires_at": "2026-11-26T08:13:31.101252+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395904",
       "prepared": {
@@ -299687,5 +299689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:16:21.553523+00:00"
+  "updated_at": "2026-11-26T02:16:27.312316+00:00"
 }
