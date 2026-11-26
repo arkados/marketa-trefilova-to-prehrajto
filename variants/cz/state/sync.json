@@ -274784,17 +274784,19 @@
       }
     },
     "5342": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30116003",
+          "target_video_id": "31400464",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:55:09.073644+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30116003",
         "display_name": "The Piano Lesson 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:47:20.017174+00:00"
-      },
-      "claim": {
-        "worker_id": "9099476eeb974317bcde7548c1aa7d13-shard-0",
-        "claimed_at": "2026-11-26T05:47:20.794528+00:00",
-        "lease_expires_at": "2026-11-26T11:47:20.794528+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400464",
       "prepared": {
@@ -301905,5 +301907,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:54:09.963878+00:00"
+  "updated_at": "2026-11-26T05:55:09.073663+00:00"
 }
