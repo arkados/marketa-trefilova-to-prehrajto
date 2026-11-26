@@ -273532,17 +273532,19 @@
       "attempts": []
     },
     "5252": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34577096",
+          "target_video_id": "31398316",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:02:26.208987+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34577096",
         "display_name": "The November Man 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:56:20.630514+00:00"
-      },
-      "claim": {
-        "worker_id": "3922cbcbc43a4b6daebfb4e1bd944195-shard-0",
-        "claimed_at": "2026-11-26T03:56:21.294972+00:00",
-        "lease_expires_at": "2026-11-26T09:56:21.294972+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398316",
       "prepared": {
@@ -300837,5 +300839,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:01:35.032857+00:00"
+  "updated_at": "2026-11-26T04:02:26.209004+00:00"
 }
