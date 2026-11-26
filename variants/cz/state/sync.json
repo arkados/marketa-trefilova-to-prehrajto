@@ -272128,17 +272128,19 @@
       "attempts": []
     },
     "12516": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30395237",
+          "target_video_id": "31396102",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:31:31.647425+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30395237",
         "display_name": "Idle Hands 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:23:17.772751+00:00"
-      },
-      "claim": {
-        "worker_id": "42a27e18de68440a93507c4131541491-shard-0",
-        "claimed_at": "2026-11-26T02:23:18.467213+00:00",
-        "lease_expires_at": "2026-11-26T08:23:18.467213+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396102",
       "prepared": {
@@ -299760,5 +299762,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:25:11.124958+00:00"
+  "updated_at": "2026-11-26T02:31:31.647442+00:00"
 }
