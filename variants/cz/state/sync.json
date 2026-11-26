@@ -108294,7 +108294,7 @@
       "last_plan": {
         "source_id": "35084607",
         "display_name": "The Secret of Blood 1080p CZ Dabing",
-        "planned_at": "2026-11-26T19:10:36.601640+00:00"
+        "planned_at": "2026-11-26T19:10:42.097947+00:00"
       },
       "previous_target_id": "30983475",
       "prepared": {
@@ -288027,11 +288027,23 @@
       }
     },
     "5638": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33820414",
+          "reason": "Source detail has no authenticated download link; source_id=33820414",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:10:45.289819+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33820414",
         "display_name": "Before I Wake 1080p CZ Dabing",
-        "planned_at": "2026-11-26T19:10:37.077853+00:00"
+        "planned_at": "2026-11-26T19:10:42.566050+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33820414",
+        "requested_at": "2026-11-26T19:10:45.289801+00:00"
       }
     },
     "25172": {
@@ -312151,5 +312163,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:10:37.077871+00:00"
+  "updated_at": "2026-11-26T19:10:45.289824+00:00"
 }
