@@ -289014,17 +289014,19 @@
       }
     },
     "5502": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12785559",
+          "target_video_id": "31425218",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:31:10.421877+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12785559",
         "display_name": "In the Shadow of the Moon (2019) 4K CZ Dabing",
         "planned_at": "2026-11-26T20:10:58.182717+00:00"
-      },
-      "claim": {
-        "worker_id": "c6ecaeb5ada144a68aff77bd7d335652-shard-0",
-        "claimed_at": "2026-11-26T20:10:58.924976+00:00",
-        "lease_expires_at": "2026-11-27T02:10:58.924976+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31425218",
       "prepared": {
@@ -313095,5 +313097,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:30:38.769497+00:00"
+  "updated_at": "2026-11-26T20:31:10.421897+00:00"
 }
