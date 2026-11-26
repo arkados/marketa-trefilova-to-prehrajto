@@ -288640,17 +288640,19 @@
       "attempts": []
     },
     "5706": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28599061",
+          "target_video_id": "31424726",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:46:50.592155+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28599061",
         "display_name": "Step Up 3D SD CZ Dabing",
         "planned_at": "2026-11-26T19:45:05.035605+00:00"
-      },
-      "claim": {
-        "worker_id": "94043c31492345baac991a5b1ebe1370-shard-0",
-        "claimed_at": "2026-11-26T19:45:05.797127+00:00",
-        "lease_expires_at": "2026-11-27T01:45:05.797127+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424726",
       "prepared": {
@@ -312678,5 +312680,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:46:24.415482+00:00"
+  "updated_at": "2026-11-26T19:46:50.592172+00:00"
 }
