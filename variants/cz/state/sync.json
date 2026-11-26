@@ -108294,7 +108294,7 @@
       "last_plan": {
         "source_id": "35084607",
         "display_name": "The Secret of Blood 1080p CZ Dabing",
-        "planned_at": "2026-11-26T19:32:54.809151+00:00"
+        "planned_at": "2026-11-26T19:33:02.643150+00:00"
       },
       "previous_target_id": "30983475",
       "prepared": {
@@ -288372,17 +288372,19 @@
       "attempts": []
     },
     "23461": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29342969",
+          "target_video_id": "31424460",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:33:04.173420+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29342969",
         "display_name": "Airheads 1080p CZ Dabing",
         "planned_at": "2026-11-26T19:30:29.074832+00:00"
-      },
-      "claim": {
-        "worker_id": "4b32c2be9b084b589aa894d1d66ae110-shard-0",
-        "claimed_at": "2026-11-26T19:30:29.837163+00:00",
-        "lease_expires_at": "2026-11-27T01:30:29.837163+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424460",
       "prepared": {
@@ -288420,7 +288422,13 @@
       "last_plan": {
         "source_id": "7479176",
         "display_name": "Good Kids 720p CZ Dabing",
-        "planned_at": "2026-11-26T19:32:55.306092+00:00"
+        "planned_at": "2026-11-26T19:33:03.102160+00:00"
+      },
+      "claim": {
+        "worker_id": "88eef61619c04e2cabc9c38aff30f1cc-shard-0",
+        "claimed_at": "2026-11-26T19:33:03.841675+00:00",
+        "lease_expires_at": "2026-11-27T01:33:03.841675+00:00",
+        "run_id": "45867150487"
       }
     },
     "23387": {
@@ -312468,5 +312476,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:32:55.306107+00:00"
+  "updated_at": "2026-11-26T19:33:04.173434+00:00"
 }
