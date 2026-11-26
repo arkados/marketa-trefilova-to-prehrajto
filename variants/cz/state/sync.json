@@ -289787,17 +289787,19 @@
       }
     },
     "11779": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31670430",
+          "target_video_id": "31426790",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:28:06.524055+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31670430",
         "display_name": "Red Heat 4K CZ Dabing",
         "planned_at": "2026-11-26T21:17:02.419536+00:00"
-      },
-      "claim": {
-        "worker_id": "5757ea04558b43c3a045e2eed7a42e07-shard-0",
-        "claimed_at": "2026-11-26T21:17:03.280271+00:00",
-        "lease_expires_at": "2026-11-27T03:17:03.280271+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426790",
       "prepared": {
@@ -313614,5 +313616,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:25:19.098935+00:00"
+  "updated_at": "2026-11-26T21:28:06.524074+00:00"
 }
