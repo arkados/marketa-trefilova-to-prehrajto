@@ -274203,17 +274203,19 @@
       }
     },
     "5291": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28051788",
+          "target_video_id": "31399672",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:05:35.622506+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28051788",
         "display_name": "Delivery Man 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:00:31.782301+00:00"
-      },
-      "claim": {
-        "worker_id": "ec84665b7d8145bab735eb71ef8bd941-shard-0",
-        "claimed_at": "2026-11-26T05:00:32.516335+00:00",
-        "lease_expires_at": "2026-11-26T11:00:32.516335+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399672",
       "prepared": {
@@ -301378,5 +301380,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:05:29.803622+00:00"
+  "updated_at": "2026-11-26T05:05:35.622524+00:00"
 }
