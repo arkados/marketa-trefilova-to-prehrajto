@@ -275633,17 +275633,19 @@
       "attempts": []
     },
     "30102": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34908657",
+          "target_video_id": "31401544",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:56:47.324895+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34908657",
         "display_name": "The Savage Bees 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:47:51.297535+00:00"
-      },
-      "claim": {
-        "worker_id": "c2e3154158b34af9b5bb5ae509690c69-shard-0",
-        "claimed_at": "2026-11-26T06:47:51.980936+00:00",
-        "lease_expires_at": "2026-11-26T12:47:51.980936+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401544",
       "prepared": {
@@ -302578,5 +302580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:54:19.558575+00:00"
+  "updated_at": "2026-11-26T06:56:47.324912+00:00"
 }
