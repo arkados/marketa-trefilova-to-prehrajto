@@ -277132,17 +277132,19 @@
       }
     },
     "36680": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32326802",
+          "target_video_id": "31404006",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:09:43.779608+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32326802",
         "display_name": "Kansas 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:00:34.979825+00:00"
-      },
-      "claim": {
-        "worker_id": "af19ec0568a54bfebb64d4d3dd01dea9-shard-0",
-        "claimed_at": "2026-11-26T09:00:36.303190+00:00",
-        "lease_expires_at": "2026-11-26T15:00:36.303190+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404006",
       "prepared": {
@@ -303848,5 +303850,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:08:14.297427+00:00"
+  "updated_at": "2026-11-26T09:09:43.779626+00:00"
 }
