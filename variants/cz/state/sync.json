@@ -279237,17 +279237,19 @@
       "attempts": []
     },
     "30306": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26751733",
+          "target_video_id": "31406207",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:07:40.158177+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26751733",
         "display_name": "The Surgeon 720p CZ Dabing",
         "planned_at": "2026-11-26T11:04:26.889209+00:00"
-      },
-      "claim": {
-        "worker_id": "816c74cf38c64ea6b4b60d704be6c7c6-shard-0",
-        "claimed_at": "2026-11-26T11:04:27.689543+00:00",
-        "lease_expires_at": "2026-11-26T17:04:27.689543+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406207",
       "prepared": {
@@ -305432,5 +305434,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:07:01.001637+00:00"
+  "updated_at": "2026-11-26T11:07:40.158195+00:00"
 }
