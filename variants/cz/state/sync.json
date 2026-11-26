@@ -286043,17 +286043,19 @@
       "attempts": []
     },
     "15244": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29375194",
+          "target_video_id": "31420396",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:34:50.088138+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29375194",
         "display_name": "Every Secret Thing 720p CZ Dabing",
         "planned_at": "2026-11-26T16:29:22.652408+00:00"
-      },
-      "claim": {
-        "worker_id": "862a2fa480ff4d4a81cb76365cf63aff-shard-0",
-        "claimed_at": "2026-11-26T16:29:23.634713+00:00",
-        "lease_expires_at": "2026-11-26T22:29:23.634713+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31420396",
       "prepared": {
@@ -310597,5 +310599,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:29:55.256131+00:00"
+  "updated_at": "2026-11-26T16:34:50.088178+00:00"
 }
