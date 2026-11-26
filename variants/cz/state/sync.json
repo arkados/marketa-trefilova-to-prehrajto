@@ -274320,17 +274320,19 @@
       }
     },
     "22757": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31838881",
+          "target_video_id": "31399834",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:23:26.922034+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31838881",
         "display_name": "Splash 4K CZ Dabing",
         "planned_at": "2026-11-26T05:11:44.209886+00:00"
-      },
-      "claim": {
-        "worker_id": "36a99fd4a2634ce8afd26369e8e0a226-shard-0",
-        "claimed_at": "2026-11-26T05:11:44.954287+00:00",
-        "lease_expires_at": "2026-11-26T11:11:44.954287+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399834",
       "prepared": {
@@ -301568,5 +301570,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:20:07.121307+00:00"
+  "updated_at": "2026-11-26T05:23:26.922052+00:00"
 }
