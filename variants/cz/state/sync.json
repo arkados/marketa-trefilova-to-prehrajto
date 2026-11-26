@@ -278480,17 +278480,19 @@
       "attempts": []
     },
     "25310": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "9633654",
+          "target_video_id": "31405480",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:31:41.419969+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "9633654",
         "display_name": "Bumer: Film vtoroy (Bummer 2) SD CZ Dabing",
         "planned_at": "2026-11-26T10:29:47.522249+00:00"
-      },
-      "claim": {
-        "worker_id": "7524127b5a904643b1037c84ce726120-shard-0",
-        "claimed_at": "2026-11-26T10:29:48.544133+00:00",
-        "lease_expires_at": "2026-11-26T16:29:48.544133+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405480",
       "prepared": {
@@ -304882,5 +304884,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:30:28.968993+00:00"
+  "updated_at": "2026-11-26T10:31:41.419985+00:00"
 }
