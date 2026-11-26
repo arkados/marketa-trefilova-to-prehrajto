@@ -288941,17 +288941,19 @@
       }
     },
     "5317": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14097411",
+          "target_video_id": "31425076",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:06:55.944778+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14097411",
         "display_name": "The Belko Experiment 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:03:53.544642+00:00"
-      },
-      "claim": {
-        "worker_id": "bfc1a435246c45c8b5ea0d0bb1f5ef09-shard-0",
-        "claimed_at": "2026-11-26T20:03:54.317361+00:00",
-        "lease_expires_at": "2026-11-27T02:03:54.317361+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31425076",
       "prepared": {
@@ -312898,5 +312900,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:03:57.907269+00:00"
+  "updated_at": "2026-11-26T20:06:55.944811+00:00"
 }
