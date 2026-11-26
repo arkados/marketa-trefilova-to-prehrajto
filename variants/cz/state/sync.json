@@ -276031,17 +276031,19 @@
       }
     },
     "20610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32151293",
+          "target_video_id": "31402042",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:19:26.162471+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32151293",
         "display_name": "The Parisian Bitch, Princess of Hearts (Connasse, princesse des coeurs) SD CZ Dabing",
         "planned_at": "2026-11-26T07:18:23.414885+00:00"
-      },
-      "claim": {
-        "worker_id": "3eae23c2c3344e04bb497d899ecc7a28-shard-0",
-        "claimed_at": "2026-11-26T07:18:24.150865+00:00",
-        "lease_expires_at": "2026-11-26T13:18:24.150865+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402042",
       "prepared": {
@@ -302868,5 +302870,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:18:28.375905+00:00"
+  "updated_at": "2026-11-26T07:19:26.162488+00:00"
 }
