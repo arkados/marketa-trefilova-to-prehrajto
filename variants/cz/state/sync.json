@@ -290180,17 +290180,19 @@
       }
     },
     "5482": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14482039",
+          "target_video_id": "31428116",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:21:10.022690+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14482039",
         "display_name": "Holidate 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:15:59.308234+00:00"
-      },
-      "claim": {
-        "worker_id": "60905f5e1453435f98e82dab28d2cfbc-shard-0",
-        "claimed_at": "2026-11-26T22:16:00.002083+00:00",
-        "lease_expires_at": "2026-11-27T04:16:00.002083+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428116",
       "prepared": {
@@ -313965,5 +313967,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:20:16.030436+00:00"
+  "updated_at": "2026-11-26T22:21:10.022706+00:00"
 }
