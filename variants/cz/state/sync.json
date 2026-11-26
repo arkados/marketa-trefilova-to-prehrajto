@@ -280456,17 +280456,19 @@
       "attempts": []
     },
     "5439": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660145",
+          "target_video_id": "31413749",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:20:34.076883+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660145",
         "display_name": "Bruised 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:17:31.945952+00:00"
-      },
-      "claim": {
-        "worker_id": "6133a3fb00ee4a6aa5fe941e9f4406ec-shard-0",
-        "claimed_at": "2026-11-26T12:17:33.019329+00:00",
-        "lease_expires_at": "2026-11-26T18:17:33.019329+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31413749",
       "prepared": {
@@ -306353,5 +306355,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:19:24.977318+00:00"
+  "updated_at": "2026-11-26T12:20:34.076901+00:00"
 }
