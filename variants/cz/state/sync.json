@@ -278873,17 +278873,19 @@
       "attempts": []
     },
     "25610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34866905",
+          "target_video_id": "31405822",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:51:12.529134+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34866905",
         "display_name": "Bastards 720p CZ Dabing",
         "planned_at": "2026-11-26T10:46:37.657768+00:00"
-      },
-      "claim": {
-        "worker_id": "e1587e8654484c7cb60ee1ee4ab85559-shard-0",
-        "claimed_at": "2026-11-26T10:46:38.440274+00:00",
-        "lease_expires_at": "2026-11-26T16:46:38.440274+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405822",
       "prepared": {
@@ -305179,5 +305181,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:50:57.992322+00:00"
+  "updated_at": "2026-11-26T10:51:12.529150+00:00"
 }
