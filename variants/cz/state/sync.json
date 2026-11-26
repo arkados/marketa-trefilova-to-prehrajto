@@ -288176,17 +288176,19 @@
       "attempts": []
     },
     "33566": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24995200",
+          "target_video_id": "31424247",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:22:02.824786+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24995200",
         "display_name": "Before and After SD CZ Dabing",
         "planned_at": "2026-11-26T19:20:32.285528+00:00"
-      },
-      "claim": {
-        "worker_id": "b22c2b26938e448ca9cb9b69bf5115dd-shard-0",
-        "claimed_at": "2026-11-26T19:20:33.073051+00:00",
-        "lease_expires_at": "2026-11-27T01:20:33.073051+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424247",
       "prepared": {
@@ -312301,5 +312303,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:21:59.630294+00:00"
+  "updated_at": "2026-11-26T19:22:02.824804+00:00"
 }
