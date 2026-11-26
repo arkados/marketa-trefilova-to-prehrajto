@@ -278449,17 +278449,19 @@
       }
     },
     "12471": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30975097",
+          "target_video_id": "31405442",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:29:42.986482+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30975097",
         "display_name": "Grey Owl SD CZ Dabing",
         "planned_at": "2026-11-26T10:28:04.056898+00:00"
-      },
-      "claim": {
-        "worker_id": "66ef0cfbce17463d8961faa3c00f917b-shard-0",
-        "claimed_at": "2026-11-26T10:28:04.829127+00:00",
-        "lease_expires_at": "2026-11-26T16:28:04.829127+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405442",
       "prepared": {
@@ -304824,5 +304826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:29:38.715724+00:00"
+  "updated_at": "2026-11-26T10:29:42.986499+00:00"
 }
