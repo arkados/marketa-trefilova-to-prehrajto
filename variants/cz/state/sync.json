@@ -282491,17 +282491,19 @@
       "attempts": []
     },
     "5494": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13167845",
+          "target_video_id": "31416793",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:48:48.501631+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13167845",
         "display_name": "Radius 1080p CZ Dabing",
         "planned_at": "2026-11-26T13:46:03.700831+00:00"
-      },
-      "claim": {
-        "worker_id": "5a7dcd0326b64fd7852b9f508d069cc1-shard-0",
-        "claimed_at": "2026-11-26T13:46:04.718487+00:00",
-        "lease_expires_at": "2026-11-26T19:46:04.718487+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416793",
       "prepared": {
@@ -307870,5 +307872,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:48:26.355078+00:00"
+  "updated_at": "2026-11-26T13:48:48.501647+00:00"
 }
