@@ -271892,17 +271892,19 @@
       "attempts": []
     },
     "26573": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34709417",
+          "target_video_id": "31395757",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:08:58.631798+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34709417",
         "display_name": "You Will Meet a Tall Dark Stranger 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:03:48.579526+00:00"
-      },
-      "claim": {
-        "worker_id": "2759ab9db6a74d3bb727c19248812498-shard-0",
-        "claimed_at": "2026-11-26T02:03:49.377991+00:00",
-        "lease_expires_at": "2026-11-26T08:03:49.377991+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395757",
       "prepared": {
@@ -299587,5 +299589,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:07:26.283405+00:00"
+  "updated_at": "2026-11-26T02:08:58.631821+00:00"
 }
