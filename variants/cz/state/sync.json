@@ -279735,17 +279735,19 @@
       "attempts": []
     },
     "5372": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27601619",
+          "target_video_id": "31406544",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:47:01.524704+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27601619",
         "display_name": "Crisis 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:22:44.995976+00:00"
-      },
-      "claim": {
-        "worker_id": "800e842420b24e858b72b986d5f6dcf2-shard-0",
-        "claimed_at": "2026-11-26T11:22:45.965882+00:00",
-        "lease_expires_at": "2026-11-26T17:22:45.965882+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406544",
       "prepared": {
@@ -305919,5 +305921,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:44:46.790053+00:00"
+  "updated_at": "2026-11-26T11:47:01.524721+00:00"
 }
