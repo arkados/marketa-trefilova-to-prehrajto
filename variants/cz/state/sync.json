@@ -275536,17 +275536,19 @@
       "attempts": []
     },
     "5260": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21067612",
+          "target_video_id": "31401440",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:44:08.013434+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21067612",
         "display_name": "As Above, So Below 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:40:10.532472+00:00"
-      },
-      "claim": {
-        "worker_id": "7941c56abaa64471aabca1310f6d4812-shard-0",
-        "claimed_at": "2026-11-26T06:40:11.304015+00:00",
-        "lease_expires_at": "2026-11-26T12:40:11.304015+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401440",
       "prepared": {
@@ -302478,5 +302480,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:41:14.559797+00:00"
+  "updated_at": "2026-11-26T06:44:08.013450+00:00"
 }
