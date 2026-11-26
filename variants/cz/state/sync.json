@@ -280089,17 +280089,19 @@
       "attempts": []
     },
     "37364": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34472748",
+          "target_video_id": "31407427",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:14:05.138725+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34472748",
         "display_name": "Colors of Evil: Black 4K CZ Dabing",
         "planned_at": "2026-11-26T11:52:17.785055+00:00"
-      },
-      "claim": {
-        "worker_id": "291f203edfd44d06b0fbfacb76ee5b21-shard-0",
-        "claimed_at": "2026-11-26T11:52:18.490217+00:00",
-        "lease_expires_at": "2026-11-26T17:52:18.490217+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31407427",
       "prepared": {
@@ -306196,5 +306198,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:11:05.613694+00:00"
+  "updated_at": "2026-11-26T12:14:05.138744+00:00"
 }
