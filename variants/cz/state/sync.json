@@ -280424,17 +280424,19 @@
       "attempts": []
     },
     "12478": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21838239",
+          "target_video_id": "31413549",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:18:26.934843+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21838239",
         "display_name": "The New Swiss Family Robinson SD CZ Dabing",
         "planned_at": "2026-11-26T12:17:14.781151+00:00"
-      },
-      "claim": {
-        "worker_id": "f61c4fbe309846f5922f28cf49fd0275-shard-0",
-        "claimed_at": "2026-11-26T12:17:15.792552+00:00",
-        "lease_expires_at": "2026-11-26T18:17:15.792552+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31413549",
       "prepared": {
@@ -306313,5 +306315,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:17:54.146678+00:00"
+  "updated_at": "2026-11-26T12:18:26.934860+00:00"
 }
