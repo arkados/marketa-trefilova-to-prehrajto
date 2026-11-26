@@ -272972,17 +272972,19 @@
       }
     },
     "5523": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33853376",
+          "target_video_id": "31397267",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:22:43.264417+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33853376",
         "display_name": "Fear (1996) 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:18:53.392841+00:00"
-      },
-      "claim": {
-        "worker_id": "b09387ee9dd149879a13af797e0ffc43-shard-0",
-        "claimed_at": "2026-11-26T03:18:55.317545+00:00",
-        "lease_expires_at": "2026-11-26T09:18:55.317545+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397267",
       "prepared": {
@@ -300397,5 +300399,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:20:41.984066+00:00"
+  "updated_at": "2026-11-26T03:22:43.264434+00:00"
 }
