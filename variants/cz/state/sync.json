@@ -290590,17 +290590,19 @@
       "attempts": []
     },
     "11933": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34469201",
+          "target_video_id": "31429355",
+          "permanent": false,
+          "attempted_at": "2026-11-26T23:16:35.115874+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34469201",
         "display_name": "Too Young to Die? (Too Young to Die) SD CZ Dabing",
         "planned_at": "2026-11-26T23:11:56.373769+00:00"
-      },
-      "claim": {
-        "worker_id": "71549d9ec5164e38a905114482b5f50a-shard-0",
-        "claimed_at": "2026-11-26T23:11:57.105815+00:00",
-        "lease_expires_at": "2026-11-27T05:11:57.105815+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31429355",
       "prepared": {
@@ -314262,5 +314264,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T23:12:01.135542+00:00"
+  "updated_at": "2026-11-26T23:16:35.115890+00:00"
 }
