@@ -108294,7 +108294,7 @@
       "last_plan": {
         "source_id": "35084607",
         "display_name": "The Secret of Blood 1080p CZ Dabing",
-        "planned_at": "2026-11-26T19:44:40.844244+00:00"
+        "planned_at": "2026-11-26T19:44:45.366583+00:00"
       },
       "previous_target_id": "30983475",
       "prepared": {
@@ -288594,15 +288594,32 @@
       }
     },
     "30156": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34019445",
+          "reason": "Source detail has no authenticated download link; source_id=34019445",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:44:47.209973+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34019445",
         "display_name": "It's a Wonderful Afterlife SD CZ Dabing",
         "planned_at": "2026-11-26T19:44:41.324322+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34019445",
+        "requested_at": "2026-11-26T19:44:47.209957+00:00"
       }
     },
     "22867": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34703700",
+        "display_name": "Link SD CZ Dabing",
+        "planned_at": "2026-11-26T19:44:45.827736+00:00"
+      }
     },
     "22909": {
       "attempts": []
@@ -312610,5 +312627,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:44:41.324335+00:00"
+  "updated_at": "2026-11-26T19:44:47.209977+00:00"
 }
