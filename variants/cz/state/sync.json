@@ -274467,17 +274467,19 @@
       "attempts": []
     },
     "25642": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12030497",
+          "target_video_id": "31400019",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:26:49.737762+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12030497",
         "display_name": "The Architect 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:23:39.604656+00:00"
-      },
-      "claim": {
-        "worker_id": "168161ae66b1450c85a79772ccd98a3b-shard-0",
-        "claimed_at": "2026-11-26T05:23:40.326106+00:00",
-        "lease_expires_at": "2026-11-26T11:23:40.326106+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400019",
       "prepared": {
@@ -301628,5 +301630,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:25:54.853006+00:00"
+  "updated_at": "2026-11-26T05:26:49.737781+00:00"
 }
