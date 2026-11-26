@@ -282054,17 +282054,19 @@
       "attempts": []
     },
     "5737": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33205444",
+          "target_video_id": "31416299",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:25:53.979278+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33205444",
         "display_name": "The Last King (Birkebeinerne) 1080p CZ Dabing",
         "planned_at": "2026-11-26T13:23:43.042092+00:00"
-      },
-      "claim": {
-        "worker_id": "64a78a8615004a5fb3a3b13db0190e79-shard-0",
-        "claimed_at": "2026-11-26T13:23:44.567644+00:00",
-        "lease_expires_at": "2026-11-26T19:23:44.567644+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416299",
       "prepared": {
@@ -307550,5 +307552,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:25:30.025985+00:00"
+  "updated_at": "2026-11-26T13:25:53.979294+00:00"
 }
