@@ -286717,17 +286717,19 @@
       "attempts": []
     },
     "5552": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660320",
+          "target_video_id": "31421846",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:36:35.062689+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660320",
         "display_name": "The Fifth Estate 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:30:46.014978+00:00"
-      },
-      "claim": {
-        "worker_id": "514a09a6de9a4c3cbd484e333555948c-shard-0",
-        "claimed_at": "2026-11-26T17:30:46.801872+00:00",
-        "lease_expires_at": "2026-11-26T23:30:46.801872+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421846",
       "prepared": {
@@ -311171,5 +311173,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:34:35.268498+00:00"
+  "updated_at": "2026-11-26T17:36:35.062708+00:00"
 }
