@@ -273356,17 +273356,19 @@
       }
     },
     "5021": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34659667",
+          "target_video_id": "31398094",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:50:37.373043+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34659667",
         "display_name": "Love Hard 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:48:04.877452+00:00"
-      },
-      "claim": {
-        "worker_id": "c9401bf48ebc4c53984923ac52bc7c21-shard-0",
-        "claimed_at": "2026-11-26T03:48:05.591852+00:00",
-        "lease_expires_at": "2026-11-26T09:48:05.591852+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398094",
       "prepared": {
@@ -300697,5 +300699,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:50:15.842738+00:00"
+  "updated_at": "2026-11-26T03:50:37.373059+00:00"
 }
