@@ -288199,17 +288199,19 @@
       }
     },
     "27444": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34813249",
+          "target_video_id": "31424265",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:25:58.883269+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34813249",
         "display_name": "Tomorrow Is Today 1080p CZ Dabing",
         "planned_at": "2026-11-26T19:21:55.171970+00:00"
-      },
-      "claim": {
-        "worker_id": "a9814b77baef4217b476144ae0f214ac-shard-0",
-        "claimed_at": "2026-11-26T19:21:55.973481+00:00",
-        "lease_expires_at": "2026-11-27T01:21:55.973481+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424265",
       "prepared": {
@@ -312321,5 +312323,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:22:17.578020+00:00"
+  "updated_at": "2026-11-26T19:25:58.883286+00:00"
 }
