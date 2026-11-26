@@ -280480,17 +280480,19 @@
       "attempts": []
     },
     "15189": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689675",
+          "target_video_id": "31414017",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:19:07.688392+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689675",
         "display_name": "The Lost Bladesman (GuanYunZhang) SD CZ Dabing",
         "planned_at": "2026-11-26T12:17:48.911447+00:00"
-      },
-      "claim": {
-        "worker_id": "f076836e628747c38c8332f47866fca7-shard-0",
-        "claimed_at": "2026-11-26T12:17:49.714138+00:00",
-        "lease_expires_at": "2026-11-26T18:17:49.714138+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31414017",
       "prepared": {
@@ -306333,5 +306335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:18:42.523963+00:00"
+  "updated_at": "2026-11-26T12:19:07.688410+00:00"
 }
