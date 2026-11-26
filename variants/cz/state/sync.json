@@ -277178,17 +277178,19 @@
       }
     },
     "7333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29249957",
+          "target_video_id": "31404118",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:12:01.624584+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29249957",
         "display_name": "Oro 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:07:00.451764+00:00"
-      },
-      "claim": {
-        "worker_id": "6710c82e56e24a1ca8bc8a37ab8018b6-shard-0",
-        "claimed_at": "2026-11-26T09:07:01.132844+00:00",
-        "lease_expires_at": "2026-11-26T15:07:01.132844+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404118",
       "prepared": {
@@ -303885,5 +303887,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:10:14.938724+00:00"
+  "updated_at": "2026-11-26T09:12:01.624602+00:00"
 }
