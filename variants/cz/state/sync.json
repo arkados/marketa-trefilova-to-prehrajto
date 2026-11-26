@@ -284437,17 +284437,19 @@
       }
     },
     "5791": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30987678",
+          "target_video_id": "31418925",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:27:04.578774+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30987678",
         "display_name": "Asphalt City 1080p CZ Dabing",
         "planned_at": "2026-11-26T15:24:09.195726+00:00"
-      },
-      "claim": {
-        "worker_id": "63a32c835c6d4ae6b1eb2ce9bcc475a7-shard-0",
-        "claimed_at": "2026-11-26T15:24:10.112908+00:00",
-        "lease_expires_at": "2026-11-26T21:24:10.112908+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31418925",
       "prepared": {
@@ -309360,5 +309362,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:26:10.984228+00:00"
+  "updated_at": "2026-11-26T15:27:04.578790+00:00"
 }
