@@ -289540,17 +289540,19 @@
       }
     },
     "6021": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34083806",
+          "target_video_id": "31426406",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:02:25.312221+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34083806",
         "display_name": "Hacker 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:59:08.926399+00:00"
-      },
-      "claim": {
-        "worker_id": "d1f574e782a2408c8a5974d296f20103-shard-0",
-        "claimed_at": "2026-11-26T20:59:09.699690+00:00",
-        "lease_expires_at": "2026-11-27T02:59:09.699690+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426406",
       "prepared": {
@@ -313392,5 +313394,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:59:13.803936+00:00"
+  "updated_at": "2026-11-26T21:02:25.312240+00:00"
 }
