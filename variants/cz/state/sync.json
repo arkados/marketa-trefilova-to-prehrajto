@@ -288614,17 +288614,19 @@
       }
     },
     "22867": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34703700",
+          "target_video_id": "31424722",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:46:08.937830+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34703700",
         "display_name": "Link SD CZ Dabing",
         "planned_at": "2026-11-26T19:44:52.345999+00:00"
-      },
-      "claim": {
-        "worker_id": "c75543237fed457bb3f3b768d0cb2f9d-shard-0",
-        "claimed_at": "2026-11-26T19:44:55.721485+00:00",
-        "lease_expires_at": "2026-11-27T01:44:55.721485+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424722",
       "prepared": {
@@ -312658,5 +312660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:45:10.604148+00:00"
+  "updated_at": "2026-11-26T19:46:08.937870+00:00"
 }
