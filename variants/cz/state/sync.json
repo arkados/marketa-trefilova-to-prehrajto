@@ -121630,7 +121630,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T07:00:51.857554+00:00"
+        "planned_at": "2026-11-26T07:01:00.684757+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -275750,17 +275750,19 @@
       "attempts": []
     },
     "5204": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12748091",
+          "target_video_id": "31401729",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:01:05.060026+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12748091",
         "display_name": "Lights Out (2016) 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:59:23.371108+00:00"
-      },
-      "claim": {
-        "worker_id": "6d6bdcc0c56644ce96994e82face4333-shard-0",
-        "claimed_at": "2026-11-26T06:59:24.133438+00:00",
-        "lease_expires_at": "2026-11-26T12:59:24.133438+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401729",
       "prepared": {
@@ -275796,7 +275798,13 @@
       "last_plan": {
         "source_id": "11364398",
         "display_name": "The Shallows 4K CZ Dabing",
-        "planned_at": "2026-11-26T07:00:54.738205+00:00"
+        "planned_at": "2026-11-26T07:01:01.127353+00:00"
+      },
+      "claim": {
+        "worker_id": "dbf3456acb8e49cbb168d6d9f7c82275-shard-0",
+        "claimed_at": "2026-11-26T07:01:01.879478+00:00",
+        "lease_expires_at": "2026-11-26T13:01:01.879478+00:00",
+        "run_id": "45757851202"
       }
     },
     "5406": {
@@ -302658,5 +302666,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:00:54.738225+00:00"
+  "updated_at": "2026-11-26T07:01:05.060044+00:00"
 }
