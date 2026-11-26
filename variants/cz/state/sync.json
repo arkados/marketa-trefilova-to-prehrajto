@@ -124658,7 +124658,7 @@
       "last_plan": {
         "source_id": "33977403",
         "display_name": "Farinelli SD CZ Dabing",
-        "planned_at": "2026-11-26T12:14:08.623575+00:00"
+        "planned_at": "2026-11-26T12:14:16.709258+00:00"
       },
       "previous_target_id": "30985736",
       "prepared": {
@@ -280351,11 +280351,23 @@
       }
     },
     "34030": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "15230940",
+          "reason": "Source detail has no authenticated download link; source_id=15230940",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:14:21.502209+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15230940",
         "display_name": "Dr. Wai in \"The Scripture with No Words\" (MaoXianWang) SD CZ Dabing",
-        "planned_at": "2026-11-26T12:14:09.074848+00:00"
+        "planned_at": "2026-11-26T12:14:17.188492+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "15230940",
+        "requested_at": "2026-11-26T12:14:21.502192+00:00"
       }
     },
     "15652": {
@@ -306203,5 +306215,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:14:09.074867+00:00"
+  "updated_at": "2026-11-26T12:14:21.502214+00:00"
 }
