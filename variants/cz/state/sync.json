@@ -287083,17 +287083,19 @@
       "attempts": []
     },
     "21879": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29505818",
+          "target_video_id": "31422236",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:54:49.316629+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29505818",
         "display_name": "Valley of the Dolls 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:49:51.447876+00:00"
-      },
-      "claim": {
-        "worker_id": "363e2347b7bc42bdbb874ff966cbd710-shard-0",
-        "claimed_at": "2026-11-26T17:49:52.207440+00:00",
-        "lease_expires_at": "2026-11-26T23:49:52.207440+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422236",
       "prepared": {
@@ -311424,5 +311426,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:51:20.511434+00:00"
+  "updated_at": "2026-11-26T17:54:49.316647+00:00"
 }
