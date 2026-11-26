@@ -281453,17 +281453,19 @@
       "attempts": []
     },
     "14381": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34686218",
+          "target_video_id": "31415890",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:05:10.074030+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34686218",
         "display_name": "Out of Office 1080p CZ Dabing",
         "planned_at": "2026-11-26T13:03:15.391139+00:00"
-      },
-      "claim": {
-        "worker_id": "e862169ad0f1418aababe1a44c5e471e-shard-0",
-        "claimed_at": "2026-11-26T13:03:16.751381+00:00",
-        "lease_expires_at": "2026-11-26T19:03:16.751381+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31415890",
       "prepared": {
@@ -307093,5 +307095,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:03:53.451499+00:00"
+  "updated_at": "2026-11-26T13:05:10.074046+00:00"
 }
