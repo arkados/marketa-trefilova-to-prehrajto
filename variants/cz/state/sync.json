@@ -276364,17 +276364,19 @@
       }
     },
     "23315": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29661437",
+          "target_video_id": "31402505",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:41:30.727855+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29661437",
         "display_name": "Rage and Honor SD CZ Dabing",
         "planned_at": "2026-11-26T07:40:33.636374+00:00"
-      },
-      "claim": {
-        "worker_id": "3a339bbdd37445cf9c9a553eeae76eec-shard-0",
-        "claimed_at": "2026-11-26T07:40:34.366845+00:00",
-        "lease_expires_at": "2026-11-26T13:40:34.366845+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402505",
       "prepared": {
@@ -303168,5 +303170,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:41:04.312183+00:00"
+  "updated_at": "2026-11-26T07:41:30.727874+00:00"
 }
