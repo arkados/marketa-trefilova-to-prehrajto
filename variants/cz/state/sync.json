@@ -289498,17 +289498,19 @@
       "attempts": []
     },
     "5534": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29505057",
+          "target_video_id": "31426334",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:02:59.467879+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29505057",
         "display_name": "Stigmata 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:56:30.483094+00:00"
-      },
-      "claim": {
-        "worker_id": "076f6b224ef64481940bdff19bcd3840-shard-0",
-        "claimed_at": "2026-11-26T20:56:31.623509+00:00",
-        "lease_expires_at": "2026-11-27T02:56:31.623509+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426334",
       "prepared": {
@@ -313412,5 +313414,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:02:39.624304+00:00"
+  "updated_at": "2026-11-26T21:02:59.467897+00:00"
 }
