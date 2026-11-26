@@ -279067,17 +279067,19 @@
       }
     },
     "5674": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "10828508",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-26T10:59:36.559372+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10828508",
         "display_name": "W.E. SD CZ Dabing",
         "planned_at": "2026-11-26T10:58:16.871358+00:00"
-      },
-      "claim": {
-        "worker_id": "56e7723611284bcfa2d3a417a4676ca0-shard-0",
-        "claimed_at": "2026-11-26T10:58:17.600061+00:00",
-        "lease_expires_at": "2026-11-26T16:58:17.600061+00:00",
-        "run_id": "45787588995"
       }
     },
     "32586": {
@@ -279101,6 +279103,13 @@
         "claimed_at": "2026-11-26T10:59:28.280048+00:00",
         "lease_expires_at": "2026-11-26T16:59:28.280048+00:00",
         "run_id": "45787588995"
+      },
+      "previous_target_id": "31406116",
+      "prepared": {
+        "target_video_id": "31406116",
+        "size_bytes": 2963892500,
+        "prepared_at": "2026-11-26T10:59:36.814989+00:00",
+        "relay_source_id": "22314496"
       }
     },
     "30878": {
@@ -305292,5 +305301,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:59:29.901780+00:00"
+  "updated_at": "2026-11-26T10:59:36.815010+00:00"
 }
