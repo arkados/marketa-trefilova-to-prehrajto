@@ -278333,17 +278333,19 @@
       "attempts": []
     },
     "22813": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31245075",
+          "target_video_id": "31405344",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:25:27.895896+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31245075",
         "display_name": "The Peanut Butter Solution SD CZ Dabing",
         "planned_at": "2026-11-26T10:23:33.050911+00:00"
-      },
-      "claim": {
-        "worker_id": "56622121b8574b6397c3d68bb1822fc2-shard-0",
-        "claimed_at": "2026-11-26T10:23:33.795000+00:00",
-        "lease_expires_at": "2026-11-26T16:23:33.795000+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405344",
       "prepared": {
@@ -304762,5 +304764,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:24:06.539857+00:00"
+  "updated_at": "2026-11-26T10:25:27.895912+00:00"
 }
