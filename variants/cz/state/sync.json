@@ -275938,17 +275938,19 @@
       "attempts": []
     },
     "5188": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26117101",
+          "target_video_id": "31401891",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:17:02.472660+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26117101",
         "display_name": "Dear John 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:10:27.113208+00:00"
-      },
-      "claim": {
-        "worker_id": "1334415b8b57453497d7d0eec6d0a61e-shard-0",
-        "claimed_at": "2026-11-26T07:10:27.814222+00:00",
-        "lease_expires_at": "2026-11-26T13:10:27.814222+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401891",
       "prepared": {
@@ -302828,5 +302830,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:15:21.562011+00:00"
+  "updated_at": "2026-11-26T07:17:02.472678+00:00"
 }
