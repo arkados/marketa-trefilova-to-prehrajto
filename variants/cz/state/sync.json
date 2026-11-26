@@ -280820,17 +280820,19 @@
       "attempts": []
     },
     "17014": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34935218",
+          "target_video_id": "31415043",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:37:22.703098+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34935218",
         "display_name": "In the Blink of an Eye 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:32:56.304872+00:00"
-      },
-      "claim": {
-        "worker_id": "107e8015411b489682e9dff93a745b09-shard-0",
-        "claimed_at": "2026-11-26T12:32:57.333349+00:00",
-        "lease_expires_at": "2026-11-26T18:32:57.333349+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415043",
       "prepared": {
@@ -306633,5 +306635,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:35:37.999691+00:00"
+  "updated_at": "2026-11-26T12:37:22.703118+00:00"
 }
