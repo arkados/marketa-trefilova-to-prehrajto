@@ -289110,17 +289110,19 @@
       }
     },
     "5441": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18786282",
+          "target_video_id": "31425506",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:29:59.687094+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18786282",
         "display_name": "The Many Saints of Newark 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:24:34.941836+00:00"
-      },
-      "claim": {
-        "worker_id": "daff47b1383c4e2b8efdb93793db00c9-shard-0",
-        "claimed_at": "2026-11-26T20:24:35.719636+00:00",
-        "lease_expires_at": "2026-11-27T02:24:35.719636+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31425506",
       "prepared": {
@@ -313040,5 +313042,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:29:57.004329+00:00"
+  "updated_at": "2026-11-26T20:29:59.687112+00:00"
 }
