@@ -286918,17 +286918,19 @@
       "attempts": []
     },
     "36612": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31934529",
+          "target_video_id": "31422047",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:42:04.759918+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31934529",
         "display_name": "Employee of the Month (2004) SD CZ Dabing",
         "planned_at": "2026-11-26T17:40:07.324359+00:00"
-      },
-      "claim": {
-        "worker_id": "81aa307a4fa14a0d9ddb6e799940be7d-shard-0",
-        "claimed_at": "2026-11-26T17:40:08.122508+00:00",
-        "lease_expires_at": "2026-11-26T23:40:08.122508+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422047",
       "prepared": {
@@ -311271,5 +311273,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:40:12.160336+00:00"
+  "updated_at": "2026-11-26T17:42:04.759937+00:00"
 }
