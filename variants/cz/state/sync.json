@@ -283451,17 +283451,19 @@
       }
     },
     "19986": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10647560",
+          "target_video_id": "31417795",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:32:57.797493+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10647560",
         "display_name": "Amanda Knox: Murder on Trial in Italy (Amanda Knox) SD CZ Dabing",
         "planned_at": "2026-11-26T14:31:23.258462+00:00"
-      },
-      "claim": {
-        "worker_id": "36d72678603d4678b6419752b2b0f006-shard-0",
-        "claimed_at": "2026-11-26T14:31:24.126129+00:00",
-        "lease_expires_at": "2026-11-26T20:31:24.126129+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417795",
       "prepared": {
@@ -308590,5 +308592,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:32:12.261654+00:00"
+  "updated_at": "2026-11-26T14:32:57.797514+00:00"
 }
