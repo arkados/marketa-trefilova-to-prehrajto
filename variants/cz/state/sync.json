@@ -288466,17 +288466,19 @@
       }
     },
     "11332": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34481250",
+          "target_video_id": "31424550",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:48:10.787909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34481250",
         "display_name": "Why Did You Pick On Me? (Chissà perché... capitano tutte a me) 1080p CZ Dabing",
         "planned_at": "2026-11-26T19:35:51.386592+00:00"
-      },
-      "claim": {
-        "worker_id": "13c516ac5b3144ec891c9025202dc6d0-shard-0",
-        "claimed_at": "2026-11-26T19:35:52.161948+00:00",
-        "lease_expires_at": "2026-11-27T01:35:52.161948+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424550",
       "prepared": {
@@ -312718,5 +312720,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:48:01.017704+00:00"
+  "updated_at": "2026-11-26T19:48:10.787928+00:00"
 }
