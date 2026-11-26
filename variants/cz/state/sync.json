@@ -272345,17 +272345,19 @@
       }
     },
     "5173": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14608550",
+          "target_video_id": "31396589",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:49:02.056529+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14608550",
         "display_name": "Free Fire SD CZ Dabing",
         "planned_at": "2026-11-26T02:45:44.166116+00:00"
-      },
-      "claim": {
-        "worker_id": "ec1235a2c2af444cb92aa410bb464758-shard-0",
-        "claimed_at": "2026-11-26T02:45:44.905471+00:00",
-        "lease_expires_at": "2026-11-26T08:45:44.905471+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396589",
       "prepared": {
@@ -299917,5 +299919,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:47:46.855350+00:00"
+  "updated_at": "2026-11-26T02:49:02.056544+00:00"
 }
