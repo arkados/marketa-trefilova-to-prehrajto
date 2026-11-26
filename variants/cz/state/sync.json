@@ -277500,17 +277500,19 @@
       }
     },
     "5243": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34825452",
+          "target_video_id": "31404510",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:48:11.329071+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34825452",
         "display_name": "Terminator Genisys 4K CZ Dabing",
         "planned_at": "2026-11-26T09:31:11.386304+00:00"
-      },
-      "claim": {
-        "worker_id": "275b2515bca64fa6904958d801a02a9b-shard-0",
-        "claimed_at": "2026-11-26T09:31:12.296319+00:00",
-        "lease_expires_at": "2026-11-26T15:31:12.296319+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404510",
       "prepared": {
@@ -304245,5 +304247,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:45:37.031317+00:00"
+  "updated_at": "2026-11-26T09:48:11.329089+00:00"
 }
