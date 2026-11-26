@@ -274228,17 +274228,19 @@
       }
     },
     "6819": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27818678",
+          "target_video_id": "31399749",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:13:15.749168+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27818678",
         "display_name": "The Independent 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:05:38.701730+00:00"
-      },
-      "claim": {
-        "worker_id": "6f4acc52b71c44b3aae5ccf57210fb90-shard-0",
-        "claimed_at": "2026-11-26T05:05:41.978832+00:00",
-        "lease_expires_at": "2026-11-26T11:05:41.978832+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399749",
       "prepared": {
@@ -301451,5 +301453,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:11:48.715041+00:00"
+  "updated_at": "2026-11-26T05:13:15.749180+00:00"
 }
