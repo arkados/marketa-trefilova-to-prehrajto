@@ -278358,17 +278358,19 @@
       }
     },
     "5391": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28850366",
+          "target_video_id": "31405350",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:27:51.530711+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28850366",
         "display_name": "The Portable Door 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:24:01.334880+00:00"
-      },
-      "claim": {
-        "worker_id": "adb9435f859640f588bc52f9d7f6363e-shard-0",
-        "claimed_at": "2026-11-26T10:24:02.062525+00:00",
-        "lease_expires_at": "2026-11-26T16:24:02.062525+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405350",
       "prepared": {
@@ -304802,5 +304804,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:27:44.878509+00:00"
+  "updated_at": "2026-11-26T10:27:51.530727+00:00"
 }
