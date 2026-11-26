@@ -121630,7 +121630,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T07:06:11.362169+00:00"
+        "planned_at": "2026-11-26T07:06:17.672071+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -275887,11 +275887,23 @@
       }
     },
     "5641": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34061675",
+          "reason": "Source detail has no authenticated download link; source_id=34061675",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:06:20.863180+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34061675",
         "display_name": "Jeepers Creepers 4K CZ Dabing",
-        "planned_at": "2026-11-26T07:06:11.769152+00:00"
+        "planned_at": "2026-11-26T07:06:18.094762+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34061675",
+        "requested_at": "2026-11-26T07:06:20.863160+00:00"
       }
     },
     "30996": {
@@ -302738,5 +302750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:06:11.769169+00:00"
+  "updated_at": "2026-11-26T07:06:20.863186+00:00"
 }
