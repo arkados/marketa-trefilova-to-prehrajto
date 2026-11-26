@@ -277925,17 +277925,19 @@
       "attempts": []
     },
     "22380": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21490509",
+          "target_video_id": "31405009",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:04:57.560572+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21490509",
         "display_name": "The White Buffalo SD CZ Dabing",
         "planned_at": "2026-11-26T10:01:42.777335+00:00"
-      },
-      "claim": {
-        "worker_id": "e733d7219358412690f214ea170c639b-shard-0",
-        "claimed_at": "2026-11-26T10:01:43.931373+00:00",
-        "lease_expires_at": "2026-11-26T16:01:43.931373+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405009",
       "prepared": {
@@ -304462,5 +304464,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:02:17.059857+00:00"
+  "updated_at": "2026-11-26T10:04:57.560590+00:00"
 }
