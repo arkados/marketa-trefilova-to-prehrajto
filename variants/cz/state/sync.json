@@ -273632,17 +273632,19 @@
       }
     },
     "13371": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33712056",
+          "target_video_id": "31398528",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:16:52.864764+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33712056",
         "display_name": "Elizabethtown 4K CZ Dabing",
         "planned_at": "2026-11-26T04:07:23.081467+00:00"
-      },
-      "claim": {
-        "worker_id": "e33a926359c045b0a8148357e843d04b-shard-0",
-        "claimed_at": "2026-11-26T04:07:23.820725+00:00",
-        "lease_expires_at": "2026-11-26T10:07:23.820725+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398528",
       "prepared": {
@@ -300957,5 +300959,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:16:16.458019+00:00"
+  "updated_at": "2026-11-26T04:16:52.864783+00:00"
 }
