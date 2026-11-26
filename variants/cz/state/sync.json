@@ -275866,17 +275866,19 @@
       "attempts": []
     },
     "5227": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24722510",
+          "target_video_id": "31401803",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:10:14.692867+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24722510",
         "display_name": "Jack the Giant Slayer 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:04:10.306716+00:00"
-      },
-      "claim": {
-        "worker_id": "f8579f2ca8a54bde81a76fa697cf4ccb-shard-0",
-        "claimed_at": "2026-11-26T07:04:11.043955+00:00",
-        "lease_expires_at": "2026-11-26T13:04:11.043955+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401803",
       "prepared": {
@@ -302768,5 +302770,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:06:34.870605+00:00"
+  "updated_at": "2026-11-26T07:10:14.692885+00:00"
 }
