@@ -273333,17 +273333,19 @@
       "attempts": []
     },
     "17772": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850723",
+          "target_video_id": "31397989",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:50:02.120310+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850723",
         "display_name": "Mindhunters 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:44:27.158378+00:00"
-      },
-      "claim": {
-        "worker_id": "7c973d7984724161af037bf04561c68f-shard-0",
-        "claimed_at": "2026-11-26T03:44:27.917917+00:00",
-        "lease_expires_at": "2026-11-26T09:44:27.917917+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397989",
       "prepared": {
@@ -300677,5 +300679,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:48:09.535141+00:00"
+  "updated_at": "2026-11-26T03:50:02.120354+00:00"
 }
