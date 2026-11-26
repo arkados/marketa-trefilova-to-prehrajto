@@ -286547,17 +286547,19 @@
       "attempts": []
     },
     "6355": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13123574",
+          "target_video_id": "31421690",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:28:36.053407+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13123574",
         "display_name": "Balto II: Wolf Quest (Balto: Wolf Quest) 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:23:28.752730+00:00"
-      },
-      "claim": {
-        "worker_id": "9a9ed3c95f214643b1f5b3fb3c5dfe6c-shard-0",
-        "claimed_at": "2026-11-26T17:23:33.998114+00:00",
-        "lease_expires_at": "2026-11-26T23:23:33.998114+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421690",
       "prepared": {
@@ -311071,5 +311073,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:28:30.811442+00:00"
+  "updated_at": "2026-11-26T17:28:36.053427+00:00"
 }
