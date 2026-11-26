@@ -276649,17 +276649,19 @@
       }
     },
     "5538": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33373265",
+          "target_video_id": "31403026",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:14:11.613391+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33373265",
         "display_name": "Scream 4 4K CZ Dabing",
         "planned_at": "2026-11-26T08:06:02.611319+00:00"
-      },
-      "claim": {
-        "worker_id": "ffc03a959ffb46b680c8f83193de1f12-shard-0",
-        "claimed_at": "2026-11-26T08:06:03.324844+00:00",
-        "lease_expires_at": "2026-11-26T14:06:03.324844+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403026",
       "prepared": {
@@ -303408,5 +303410,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:12:10.419410+00:00"
+  "updated_at": "2026-11-26T08:14:11.613410+00:00"
 }
