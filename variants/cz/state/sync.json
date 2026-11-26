@@ -276816,17 +276816,19 @@
       "attempts": []
     },
     "5273": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31752576",
+          "target_video_id": "31403356",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:30:54.499676+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31752576",
         "display_name": "Predator 2 4K CZ Dabing",
         "planned_at": "2026-11-26T08:26:01.735251+00:00"
-      },
-      "claim": {
-        "worker_id": "87465504376847a0bf6f4faa5664f8e7-shard-0",
-        "claimed_at": "2026-11-26T08:26:04.445646+00:00",
-        "lease_expires_at": "2026-11-26T14:26:04.445646+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403356",
       "prepared": {
@@ -303548,5 +303550,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:29:43.539330+00:00"
+  "updated_at": "2026-11-26T08:30:54.499693+00:00"
 }
