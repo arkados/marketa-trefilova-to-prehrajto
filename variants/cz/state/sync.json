@@ -279904,17 +279904,19 @@
       "attempts": []
     },
     "5359": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33237811",
+          "target_video_id": "31406927",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:00:57.961205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33237811",
         "display_name": "Infested (Vermines) (2023) 4K CZ Dabing",
         "planned_at": "2026-11-26T11:36:47.772061+00:00"
-      },
-      "claim": {
-        "worker_id": "d798fb1ca89542c4970448b59902284d-shard-0",
-        "claimed_at": "2026-11-26T11:36:48.672411+00:00",
-        "lease_expires_at": "2026-11-26T17:36:48.672411+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406927",
       "prepared": {
@@ -306056,5 +306058,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:58:24.269624+00:00"
+  "updated_at": "2026-11-26T12:00:57.961222+00:00"
 }
