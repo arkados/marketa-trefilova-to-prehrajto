@@ -273436,17 +273436,19 @@
       "attempts": []
     },
     "17206": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13953884",
+          "target_video_id": "31398219",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:54:15.877813+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13953884",
         "display_name": "The Queen of Sin SD CZ Dabing",
         "planned_at": "2026-11-26T03:53:10.137432+00:00"
-      },
-      "claim": {
-        "worker_id": "6a465b976bc248a9a80f46455822274b-shard-0",
-        "claimed_at": "2026-11-26T03:53:11.014891+00:00",
-        "lease_expires_at": "2026-11-26T09:53:11.014891+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398219",
       "prepared": {
@@ -300777,5 +300779,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:54:01.684425+00:00"
+  "updated_at": "2026-11-26T03:54:15.877829+00:00"
 }
