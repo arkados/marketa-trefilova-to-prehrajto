@@ -280794,17 +280794,19 @@
       "attempts": []
     },
     "5831": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33163060",
+          "target_video_id": "31414984",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:34:00.710368+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33163060",
         "display_name": "Corner Office 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:31:17.483902+00:00"
-      },
-      "claim": {
-        "worker_id": "21546f32537b48db9bbc58cd72db533a-shard-0",
-        "claimed_at": "2026-11-26T12:31:18.280290+00:00",
-        "lease_expires_at": "2026-11-26T18:31:18.280290+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31414984",
       "prepared": {
@@ -306593,5 +306595,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:33:20.620265+00:00"
+  "updated_at": "2026-11-26T12:34:00.710387+00:00"
 }
