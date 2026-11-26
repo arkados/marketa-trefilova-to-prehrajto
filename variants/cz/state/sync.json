@@ -137474,7 +137474,7 @@
       "last_plan": {
         "source_id": "29809619",
         "display_name": "Prodavac humoru (Prodavač humoru) SD CZ Dabing",
-        "planned_at": "2026-11-26T02:33:05.643127+00:00"
+        "planned_at": "2026-11-26T02:33:11.014017+00:00"
       },
       "previous_target_id": "30987769",
       "prepared": {
@@ -272219,11 +272219,23 @@
       }
     },
     "5110": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "35276493",
+          "reason": "Source detail has no authenticated download link; source_id=35276493",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:33:14.425293+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35276493",
         "display_name": "The Rebound 720p CZ Dabing",
-        "planned_at": "2026-11-26T02:33:06.064027+00:00"
+        "planned_at": "2026-11-26T02:33:11.421994+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "35276493",
+        "requested_at": "2026-11-26T02:33:14.425277+00:00"
       }
     },
     "24689": {
@@ -299787,5 +299799,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:33:06.064044+00:00"
+  "updated_at": "2026-11-26T02:33:14.425299+00:00"
 }
