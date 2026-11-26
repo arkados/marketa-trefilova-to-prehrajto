@@ -275234,17 +275234,19 @@
       }
     },
     "31568": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30187700",
+          "target_video_id": "31400935",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:15:56.242785+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30187700",
         "display_name": "Shred 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:11:56.066696+00:00"
-      },
-      "claim": {
-        "worker_id": "56a41fe438b149c9bc99a249df6a93f8-shard-0",
-        "claimed_at": "2026-11-26T06:11:56.842357+00:00",
-        "lease_expires_at": "2026-11-26T12:11:56.842357+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400935",
       "prepared": {
@@ -302218,5 +302220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:12:00.353262+00:00"
+  "updated_at": "2026-11-26T06:15:56.242803+00:00"
 }
