@@ -283819,17 +283819,19 @@
       "attempts": []
     },
     "18879": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11355494",
+          "target_video_id": "31418286",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:01:08.126705+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11355494",
         "display_name": "My Little Pony: The Movie 1080p CZ Dabing",
         "planned_at": "2026-11-26T14:58:43.429284+00:00"
-      },
-      "claim": {
-        "worker_id": "7b2d78aa690546599dce27bcb67f4a6a-shard-0",
-        "claimed_at": "2026-11-26T14:58:50.065319+00:00",
-        "lease_expires_at": "2026-11-26T20:58:50.065319+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31418286",
       "prepared": {
@@ -308870,5 +308872,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:00:26.650179+00:00"
+  "updated_at": "2026-11-26T15:01:08.126721+00:00"
 }
