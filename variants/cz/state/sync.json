@@ -281019,17 +281019,19 @@
       }
     },
     "26616": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30078451",
+          "target_video_id": "31415283",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:47:12.614279+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30078451",
         "display_name": "Casino Jack SD CZ Dabing",
         "planned_at": "2026-11-26T12:40:47.124562+00:00"
-      },
-      "claim": {
-        "worker_id": "1f40f8f4fffd4fe6bfc85d92beb3c844-shard-0",
-        "claimed_at": "2026-11-26T12:40:47.922874+00:00",
-        "lease_expires_at": "2026-11-26T18:40:47.922874+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415283",
       "prepared": {
@@ -306773,5 +306775,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:45:38.687768+00:00"
+  "updated_at": "2026-11-26T12:47:12.614297+00:00"
 }
