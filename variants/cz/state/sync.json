@@ -290134,17 +290134,19 @@
       }
     },
     "6481": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34662159",
+          "target_video_id": "31428063",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:15:48.925490+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34662159",
         "display_name": "'Twas the Text Before Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:13:31.119565+00:00"
-      },
-      "claim": {
-        "worker_id": "bbcba002de94435d93fb8d3317b14d33-shard-0",
-        "claimed_at": "2026-11-26T22:13:31.822982+00:00",
-        "lease_expires_at": "2026-11-27T04:13:31.822982+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428063",
       "prepared": {
@@ -313905,5 +313907,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:14:00.000841+00:00"
+  "updated_at": "2026-11-26T22:15:48.925505+00:00"
 }
