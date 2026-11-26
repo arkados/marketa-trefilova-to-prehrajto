@@ -275458,17 +275458,19 @@
       }
     },
     "4898": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30589713",
+          "target_video_id": "31401243",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:41:01.097930+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30589713",
         "display_name": "Moana 2 4K CZ Dabing",
         "planned_at": "2026-11-26T06:27:48.616971+00:00"
-      },
-      "claim": {
-        "worker_id": "0e7211a3f6db48efa277528069fe992f-shard-0",
-        "claimed_at": "2026-11-26T06:27:49.312714+00:00",
-        "lease_expires_at": "2026-11-26T12:27:49.312714+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401243",
       "prepared": {
@@ -302458,5 +302460,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:40:15.299079+00:00"
+  "updated_at": "2026-11-26T06:41:01.097947+00:00"
 }
