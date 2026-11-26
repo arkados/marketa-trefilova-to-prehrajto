@@ -283733,17 +283733,19 @@
       "attempts": []
     },
     "16635": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27235249",
+          "target_video_id": "31418130",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:55:21.520427+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27235249",
         "display_name": "How to Build a Girl 720p CZ Dabing",
         "planned_at": "2026-11-26T14:50:02.961671+00:00"
-      },
-      "claim": {
-        "worker_id": "f6369df35bc047e191021759219ebe83-shard-0",
-        "claimed_at": "2026-11-26T14:50:03.905319+00:00",
-        "lease_expires_at": "2026-11-26T20:50:03.905319+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31418130",
       "prepared": {
@@ -308770,5 +308772,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:50:07.824983+00:00"
+  "updated_at": "2026-11-26T14:55:21.520443+00:00"
 }
