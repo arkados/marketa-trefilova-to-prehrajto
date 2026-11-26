@@ -274092,17 +274092,19 @@
       }
     },
     "4927": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31285634",
+          "target_video_id": "31399504",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:58:14.491337+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31285634",
         "display_name": "Kung Fu Panda 4 4K CZ Dabing",
         "planned_at": "2026-11-26T04:52:48.973006+00:00"
-      },
-      "claim": {
-        "worker_id": "c2bc69776516400a8a9cb2c229d6838b-shard-0",
-        "claimed_at": "2026-11-26T04:52:49.921643+00:00",
-        "lease_expires_at": "2026-11-26T10:52:49.921643+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399504",
       "prepared": {
@@ -301277,5 +301279,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:52:54.016260+00:00"
+  "updated_at": "2026-11-26T04:58:14.491354+00:00"
 }
