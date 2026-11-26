@@ -290324,17 +290324,19 @@
       }
     },
     "5650": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32453968",
+          "target_video_id": "31428359",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:35:51.922712+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32453968",
         "display_name": "Deliver Us from Evil (2014) 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:28:01.132731+00:00"
-      },
-      "claim": {
-        "worker_id": "525569f374f64f6a8713732c3ab876ed-shard-0",
-        "claimed_at": "2026-11-26T22:28:01.851231+00:00",
-        "lease_expires_at": "2026-11-27T04:28:01.851231+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428359",
       "prepared": {
@@ -314065,5 +314067,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:32:38.176374+00:00"
+  "updated_at": "2026-11-26T22:35:51.922728+00:00"
 }
