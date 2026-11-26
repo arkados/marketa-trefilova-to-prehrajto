@@ -287213,17 +287213,19 @@
       "attempts": []
     },
     "6810": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29766849",
+          "target_video_id": "31422404",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:03:07.425245+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29766849",
         "display_name": "A Part of You (En del av dig) 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:58:50.291922+00:00"
-      },
-      "claim": {
-        "worker_id": "cb841d4749744ef28c8b9715255df0d1-shard-0",
-        "claimed_at": "2026-11-26T17:58:51.074231+00:00",
-        "lease_expires_at": "2026-11-26T23:58:51.074231+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422404",
       "prepared": {
@@ -311524,5 +311526,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:59:41.867644+00:00"
+  "updated_at": "2026-11-26T18:03:07.425265+00:00"
 }
