@@ -290201,17 +290201,19 @@
       }
     },
     "5504": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34841519",
+          "target_video_id": "31428126",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:19:59.865002+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34841519",
         "display_name": "Dumbo (2019) 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:16:45.276988+00:00"
-      },
-      "claim": {
-        "worker_id": "573e7f4caa384c82adc9651bf90c77b3-shard-0",
-        "claimed_at": "2026-11-26T22:16:45.959406+00:00",
-        "lease_expires_at": "2026-11-27T04:16:45.959406+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428126",
       "prepared": {
@@ -313945,5 +313947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:16:50.449912+00:00"
+  "updated_at": "2026-11-26T22:19:59.865018+00:00"
 }
