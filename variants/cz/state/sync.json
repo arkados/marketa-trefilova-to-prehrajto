@@ -281094,17 +281094,19 @@
       }
     },
     "6009": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13899500",
+          "target_video_id": "31415491",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:50:15.794747+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13899500",
         "display_name": "The Dark Side of the Moon (Die dunkle Seite des Mondes) 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:47:22.523910+00:00"
-      },
-      "claim": {
-        "worker_id": "2613f66b85a347e5baeb6367a0c741b1-shard-0",
-        "claimed_at": "2026-11-26T12:47:23.296776+00:00",
-        "lease_expires_at": "2026-11-26T18:47:23.296776+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415491",
       "prepared": {
@@ -306833,5 +306835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:49:21.520170+00:00"
+  "updated_at": "2026-11-26T12:50:15.794765+00:00"
 }
