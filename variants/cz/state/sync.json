@@ -272035,17 +272035,19 @@
       }
     },
     "36610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28915154",
+          "target_video_id": "31395913",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:16:08.871510+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28915154",
         "display_name": "Charlotte's Web SD CZ Dabing",
         "planned_at": "2026-11-26T02:13:57.292865+00:00"
-      },
-      "claim": {
-        "worker_id": "fd73eccf1b28412da6d8070c3080a04e-shard-0",
-        "claimed_at": "2026-11-26T02:13:58.003292+00:00",
-        "lease_expires_at": "2026-11-26T08:13:58.003292+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395913",
       "prepared": {
@@ -299667,5 +299669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:14:04.460092+00:00"
+  "updated_at": "2026-11-26T02:16:08.871527+00:00"
 }
