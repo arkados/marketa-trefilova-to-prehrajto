@@ -273584,17 +273584,19 @@
       "attempts": []
     },
     "30000": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28542789",
+          "target_video_id": "31398457",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:07:13.057894+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28542789",
         "display_name": "Island of Lost Souls 720p CZ Dabing",
         "planned_at": "2026-11-26T04:02:39.029790+00:00"
-      },
-      "claim": {
-        "worker_id": "81ae868a14c04c3990d3756c452bc711-shard-0",
-        "claimed_at": "2026-11-26T04:02:39.776028+00:00",
-        "lease_expires_at": "2026-11-26T10:02:39.776028+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398457",
       "prepared": {
@@ -300877,5 +300879,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:05:03.092843+00:00"
+  "updated_at": "2026-11-26T04:07:13.057911+00:00"
 }
