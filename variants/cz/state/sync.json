@@ -280375,17 +280375,19 @@
       }
     },
     "15652": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30470271",
+          "target_video_id": "31410895",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:17:23.728423+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30470271",
         "display_name": "Clawfoot 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:14:33.390766+00:00"
-      },
-      "claim": {
-        "worker_id": "ced530479bb84d158455c40b417521b3-shard-0",
-        "claimed_at": "2026-11-26T12:14:34.198811+00:00",
-        "lease_expires_at": "2026-11-26T18:14:34.198811+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31410895",
       "prepared": {
@@ -306273,5 +306275,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:17:20.470066+00:00"
+  "updated_at": "2026-11-26T12:17:23.728444+00:00"
 }
