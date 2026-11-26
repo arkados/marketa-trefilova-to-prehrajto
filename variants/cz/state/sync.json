@@ -124658,7 +124658,7 @@
       "last_plan": {
         "source_id": "33977403",
         "display_name": "Farinelli SD CZ Dabing",
-        "planned_at": "2026-11-26T10:34:38.889923+00:00"
+        "planned_at": "2026-11-26T10:34:45.153679+00:00"
       },
       "previous_target_id": "30985736",
       "prepared": {
@@ -278609,11 +278609,23 @@
       "attempts": []
     },
     "6921": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30067409",
+          "reason": "Source detail has no authenticated download link; source_id=30067409",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:34:49.069775+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30067409",
         "display_name": "How to Be a Good Wife (La Bonne Épouse) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T10:34:39.337190+00:00"
+        "planned_at": "2026-11-26T10:34:45.600372+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30067409",
+        "requested_at": "2026-11-26T10:34:49.069758+00:00"
       }
     },
     "14024": {
@@ -304929,5 +304941,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:34:39.337208+00:00"
+  "updated_at": "2026-11-26T10:34:49.069780+00:00"
 }
