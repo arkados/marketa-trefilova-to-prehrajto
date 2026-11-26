@@ -288049,17 +288049,19 @@
       }
     },
     "25172": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34232168",
+          "target_video_id": "31424103",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:14:48.098145+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34232168",
         "display_name": "Alfie 1080p CZ Dabing",
         "planned_at": "2026-11-26T19:10:55.772372+00:00"
-      },
-      "claim": {
-        "worker_id": "09d17b1e88b14889b4201d4e44d4f3f6-shard-0",
-        "claimed_at": "2026-11-26T19:10:56.541196+00:00",
-        "lease_expires_at": "2026-11-27T01:10:56.541196+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424103",
       "prepared": {
@@ -312201,5 +312203,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:12:07.542688+00:00"
+  "updated_at": "2026-11-26T19:14:48.098162+00:00"
 }
