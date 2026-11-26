@@ -282915,17 +282915,19 @@
       }
     },
     "12308": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31577113",
+          "target_video_id": "31417163",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:03:24.850079+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31577113",
         "display_name": "Le Jaguar 1080p CZ Dabing",
         "planned_at": "2026-11-26T14:01:20.236427+00:00"
-      },
-      "claim": {
-        "worker_id": "b7e6b59ec3bd4af08e9247ba13dd55a7-shard-0",
-        "claimed_at": "2026-11-26T14:01:21.238057+00:00",
-        "lease_expires_at": "2026-11-26T20:01:21.238057+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417163",
       "prepared": {
@@ -308150,5 +308152,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:01:27.723017+00:00"
+  "updated_at": "2026-11-26T14:03:24.850094+00:00"
 }
