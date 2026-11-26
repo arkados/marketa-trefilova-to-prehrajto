@@ -277717,17 +277717,19 @@
       "attempts": []
     },
     "5330": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660022",
+          "target_video_id": "31404786",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:54:36.552159+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660022",
         "display_name": "Hell House LLC Origins: The Carmichael Manor 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:50:37.459100+00:00"
-      },
-      "claim": {
-        "worker_id": "3368ed061a2d410185dddb97cf4e76df-shard-0",
-        "claimed_at": "2026-11-26T09:50:38.267030+00:00",
-        "lease_expires_at": "2026-11-26T15:50:38.267030+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404786",
       "prepared": {
@@ -304305,5 +304307,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:52:59.331304+00:00"
+  "updated_at": "2026-11-26T09:54:36.552176+00:00"
 }
