@@ -271331,17 +271331,19 @@
       }
     },
     "27450": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11730105",
+          "target_video_id": "31395011",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:24:43.844205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11730105",
         "display_name": "L'amour dure trois ans (Love Lasts Three Years) 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:22:27.363805+00:00"
-      },
-      "claim": {
-        "worker_id": "1a494351375f479ea47d10c395a196da-shard-0",
-        "claimed_at": "2026-11-26T01:22:28.077218+00:00",
-        "lease_expires_at": "2026-11-26T07:22:28.077218+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395011",
       "prepared": {
@@ -299107,5 +299109,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:22:32.025107+00:00"
+  "updated_at": "2026-11-26T01:24:43.844222+00:00"
 }
