@@ -278309,17 +278309,19 @@
       }
     },
     "22775": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33689097",
+          "target_video_id": "31405314",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:27:28.912743+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33689097",
         "display_name": "A Chorus Line 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:21:21.293798+00:00"
-      },
-      "claim": {
-        "worker_id": "12dc58d5aeab4255875730c3731ba0db-shard-0",
-        "claimed_at": "2026-11-26T10:21:22.307671+00:00",
-        "lease_expires_at": "2026-11-26T16:21:22.307671+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405314",
       "prepared": {
@@ -304782,5 +304784,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:25:44.256402+00:00"
+  "updated_at": "2026-11-26T10:27:28.912760+00:00"
 }
