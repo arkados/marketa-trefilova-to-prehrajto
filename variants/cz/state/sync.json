@@ -286016,17 +286016,19 @@
       }
     },
     "14801": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22423995",
+          "target_video_id": "31420383",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:40:31.972972+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22423995",
         "display_name": "The Details 1080p CZ Dabing",
         "planned_at": "2026-11-26T16:29:02.267495+00:00"
-      },
-      "claim": {
-        "worker_id": "c704ecd71ba34c1595d9d848bf2ed970-shard-0",
-        "claimed_at": "2026-11-26T16:29:03.252045+00:00",
-        "lease_expires_at": "2026-11-26T22:29:03.252045+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31420383",
       "prepared": {
@@ -310657,5 +310659,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:37:03.631177+00:00"
+  "updated_at": "2026-11-26T16:40:31.972987+00:00"
 }
