@@ -276503,17 +276503,19 @@
       }
     },
     "5248": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32995259",
+          "target_video_id": "31402758",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:57:33.522508+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32995259",
         "display_name": "Surrogates 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:52:38.805081+00:00"
-      },
-      "claim": {
-        "worker_id": "6af9cd0b51e54ef89678bec7c88255d7-shard-0",
-        "claimed_at": "2026-11-26T07:52:39.608058+00:00",
-        "lease_expires_at": "2026-11-26T13:52:39.608058+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402758",
       "prepared": {
@@ -303268,5 +303270,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:52:43.489556+00:00"
+  "updated_at": "2026-11-26T07:57:33.522527+00:00"
 }
