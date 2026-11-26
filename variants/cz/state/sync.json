@@ -277521,17 +277521,19 @@
       }
     },
     "5229": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32962432",
+          "target_video_id": "31404521",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:43:17.641664+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32962432",
         "display_name": "Maze Runner: The Scorch Trials 4K CZ Dabing",
         "planned_at": "2026-11-26T09:32:06.315108+00:00"
-      },
-      "claim": {
-        "worker_id": "28faf30a00d640578c9d38ed5dbcbd51-shard-0",
-        "claimed_at": "2026-11-26T09:32:07.038330+00:00",
-        "lease_expires_at": "2026-11-26T15:32:07.038330+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404521",
       "prepared": {
@@ -304185,5 +304187,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:41:26.218943+00:00"
+  "updated_at": "2026-11-26T09:43:17.641681+00:00"
 }
