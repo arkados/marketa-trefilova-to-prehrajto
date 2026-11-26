@@ -289808,17 +289808,19 @@
       }
     },
     "5617": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660352",
+          "target_video_id": "31426863",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:25:19.098917+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660352",
         "display_name": "Outlander 720p CZ Dabing",
         "planned_at": "2026-11-26T21:21:18.366416+00:00"
-      },
-      "claim": {
-        "worker_id": "7441dc5f5cb240cbbf97132a68752d99-shard-0",
-        "claimed_at": "2026-11-26T21:21:19.135689+00:00",
-        "lease_expires_at": "2026-11-27T03:21:19.135689+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426863",
       "prepared": {
@@ -313612,5 +313614,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:21:22.918719+00:00"
+  "updated_at": "2026-11-26T21:25:19.098935+00:00"
 }
