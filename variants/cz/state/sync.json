@@ -277079,17 +277079,19 @@
       }
     },
     "5128": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30915700",
+          "target_video_id": "31403789",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:52:20.422267+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30915700",
         "display_name": "The Karate Kid (2010) 1080p CZ Dabing",
         "planned_at": "2026-11-26T08:46:02.779618+00:00"
-      },
-      "claim": {
-        "worker_id": "55e61148ceae4a1496d7de00d2edecea-shard-0",
-        "claimed_at": "2026-11-26T08:46:03.711118+00:00",
-        "lease_expires_at": "2026-11-26T14:46:03.711118+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403789",
       "prepared": {
@@ -303748,5 +303750,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:46:07.880002+00:00"
+  "updated_at": "2026-11-26T08:52:20.422285+00:00"
 }
