@@ -124715,7 +124715,7 @@
       "last_plan": {
         "source_id": "34503356",
         "display_name": "The Hot Rock 1080p CZ Dabing",
-        "planned_at": "2026-11-26T21:52:19.796338+00:00"
+        "planned_at": "2026-11-26T21:54:52.635192+00:00"
       },
       "previous_target_id": "30985739",
       "prepared": {
@@ -289907,17 +289907,19 @@
       }
     },
     "5725": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34916653",
+          "target_video_id": "31427480",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:54:55.615066+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34916653",
         "display_name": "Hackers 1080p CZ Dabing",
         "planned_at": "2026-11-26T21:46:47.892495+00:00"
-      },
-      "claim": {
-        "worker_id": "82933d40272f45f6a7928a7636cb966c-shard-0",
-        "claimed_at": "2026-11-26T21:46:48.604615+00:00",
-        "lease_expires_at": "2026-11-27T03:46:48.604615+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31427480",
       "prepared": {
@@ -289975,7 +289977,12 @@
       "attempts": []
     },
     "5681": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30283842",
+        "display_name": "Chloe 1080p CZ Dabing",
+        "planned_at": "2026-11-26T21:54:53.060028+00:00"
+      }
     },
     "15547": {
       "attempts": []
@@ -313734,5 +313741,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:54:48.875468+00:00"
+  "updated_at": "2026-11-26T21:54:55.615084+00:00"
 }
