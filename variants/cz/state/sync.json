@@ -289472,17 +289472,19 @@
       "attempts": []
     },
     "32065": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714752",
+          "target_video_id": "31426324",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:58:59.822522+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714752",
         "display_name": "The Secret of Moonacre 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:55:45.343242+00:00"
-      },
-      "claim": {
-        "worker_id": "1d2e614124124df699890fcc78e352e5-shard-0",
-        "claimed_at": "2026-11-26T20:55:46.143878+00:00",
-        "lease_expires_at": "2026-11-27T02:55:46.143878+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426324",
       "prepared": {
@@ -313372,5 +313374,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:57:04.898198+00:00"
+  "updated_at": "2026-11-26T20:58:59.822541+00:00"
 }
