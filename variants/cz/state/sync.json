@@ -137474,7 +137474,7 @@
       "last_plan": {
         "source_id": "29809619",
         "display_name": "Prodavac humoru (Prodavač humoru) SD CZ Dabing",
-        "planned_at": "2026-11-26T02:53:14.973654+00:00"
+        "planned_at": "2026-11-26T02:53:20.501876+00:00"
       },
       "previous_target_id": "30987769",
       "prepared": {
@@ -272452,17 +272452,19 @@
       }
     },
     "25679": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22356471",
+          "target_video_id": "31396700",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:53:23.260955+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22356471",
         "display_name": "Watching the Detectives SD CZ Dabing",
         "planned_at": "2026-11-26T02:51:03.043634+00:00"
-      },
-      "claim": {
-        "worker_id": "828e6e6e8dcd4068b47b518c89d3768e-shard-0",
-        "claimed_at": "2026-11-26T02:51:03.828123+00:00",
-        "lease_expires_at": "2026-11-26T08:51:03.828123+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396700",
       "prepared": {
@@ -272489,7 +272491,13 @@
       "last_plan": {
         "source_id": "34706875",
         "display_name": "See Jane Date SD CZ Dabing",
-        "planned_at": "2026-11-26T02:53:15.386586+00:00"
+        "planned_at": "2026-11-26T02:53:20.899762+00:00"
+      },
+      "claim": {
+        "worker_id": "e0376ecbbf1c4001962e8c1b65ba22db-shard-0",
+        "claimed_at": "2026-11-26T02:53:21.613705+00:00",
+        "lease_expires_at": "2026-11-26T08:53:21.613705+00:00",
+        "run_id": "45730957086"
       }
     },
     "19622": {
@@ -299984,5 +299992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:53:15.386604+00:00"
+  "updated_at": "2026-11-26T02:53:23.260972+00:00"
 }
