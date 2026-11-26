@@ -287883,17 +287883,19 @@
       }
     },
     "5304": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13039775",
+          "target_video_id": "31423893",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:04:38.952740+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13039775",
         "display_name": "Untraceable 1080p CZ Dabing",
         "planned_at": "2026-11-26T19:00:48.521580+00:00"
-      },
-      "claim": {
-        "worker_id": "3a01ebb3b9dd49a59e7833f8162a94a6-shard-0",
-        "claimed_at": "2026-11-26T19:00:49.306221+00:00",
-        "lease_expires_at": "2026-11-27T01:00:49.306221+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31423893",
       "prepared": {
@@ -312044,5 +312046,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:00:53.304508+00:00"
+  "updated_at": "2026-11-26T19:04:38.952758+00:00"
 }
