@@ -278026,17 +278026,19 @@
       "attempts": []
     },
     "15856": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694276",
+          "target_video_id": "31405134",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:12:20.023760+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694276",
         "display_name": "Green Night (LuYe) 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:09:25.924549+00:00"
-      },
-      "claim": {
-        "worker_id": "9980633266934844926b429b9215e96c-shard-0",
-        "claimed_at": "2026-11-26T10:09:26.653806+00:00",
-        "lease_expires_at": "2026-11-26T16:09:26.653806+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405134",
       "prepared": {
@@ -304542,5 +304544,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:11:15.014655+00:00"
+  "updated_at": "2026-11-26T10:12:20.023778+00:00"
 }
