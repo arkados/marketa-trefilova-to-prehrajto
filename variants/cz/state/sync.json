@@ -277742,17 +277742,19 @@
       }
     },
     "26469": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11321923",
+          "target_video_id": "31404838",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:55:05.367360+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11321923",
         "display_name": "Sinners and Saints SD CZ Dabing",
         "planned_at": "2026-11-26T09:52:54.005513+00:00"
-      },
-      "claim": {
-        "worker_id": "598a3f1dff5844639a8bac5095c1f99d-shard-0",
-        "claimed_at": "2026-11-26T09:52:54.736581+00:00",
-        "lease_expires_at": "2026-11-26T15:52:54.736581+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404838",
       "prepared": {
@@ -304332,5 +304334,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:54:58.941220+00:00"
+  "updated_at": "2026-11-26T09:55:05.367380+00:00"
 }
