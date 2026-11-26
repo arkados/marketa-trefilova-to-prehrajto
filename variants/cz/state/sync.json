@@ -278049,17 +278049,19 @@
       }
     },
     "7707": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33394573",
+          "target_video_id": "31405163",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:14:16.471495+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33394573",
         "display_name": "Mythica: The Godslayer 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:11:09.590029+00:00"
-      },
-      "claim": {
-        "worker_id": "34839bab723d4df2b783771904544c10-shard-0",
-        "claimed_at": "2026-11-26T10:11:10.421616+00:00",
-        "lease_expires_at": "2026-11-26T16:11:10.421616+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405163",
       "prepared": {
@@ -304562,5 +304564,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:12:36.606568+00:00"
+  "updated_at": "2026-11-26T10:14:16.471526+00:00"
 }
