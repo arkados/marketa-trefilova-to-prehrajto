@@ -279929,17 +279929,19 @@
       "attempts": []
     },
     "28789": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33643684",
+          "target_video_id": "31406993",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:44:31.649241+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33643684",
         "display_name": "The Snow Queen 2: The Snow King (The Snow Queen 2: Refreeze) 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:38:51.735565+00:00"
-      },
-      "claim": {
-        "worker_id": "22c4e2ba91944cde9ae46a52a73e631a-shard-0",
-        "claimed_at": "2026-11-26T11:38:52.467125+00:00",
-        "lease_expires_at": "2026-11-26T17:38:52.467125+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406993",
       "prepared": {
@@ -305899,5 +305901,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:38:56.951422+00:00"
+  "updated_at": "2026-11-26T11:44:31.649257+00:00"
 }
