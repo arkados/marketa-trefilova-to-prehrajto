@@ -277109,17 +277109,19 @@
       "attempts": []
     },
     "5288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34478316",
+          "target_video_id": "31404002",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:06:49.692340+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34478316",
         "display_name": "American Wedding 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:00:20.511808+00:00"
-      },
-      "claim": {
-        "worker_id": "848556a55f5742d5839f6c76822af724-shard-0",
-        "claimed_at": "2026-11-26T09:00:21.704995+00:00",
-        "lease_expires_at": "2026-11-26T15:00:21.704995+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404002",
       "prepared": {
@@ -303808,5 +303810,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:00:55.788294+00:00"
+  "updated_at": "2026-11-26T09:06:49.692357+00:00"
 }
