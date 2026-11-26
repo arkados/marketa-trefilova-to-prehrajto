@@ -289396,17 +289396,19 @@
       }
     },
     "5508": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26481358",
+          "target_video_id": "31426173",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:52:07.532301+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26481358",
         "display_name": "A Very Harold & Kumar Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:49:37.153973+00:00"
-      },
-      "claim": {
-        "worker_id": "d63a1c9ef1e245e6b20b1cf6797f17ce-shard-0",
-        "claimed_at": "2026-11-26T20:49:37.916216+00:00",
-        "lease_expires_at": "2026-11-27T02:49:37.916216+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426173",
       "prepared": {
@@ -313272,5 +313274,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:49:41.357028+00:00"
+  "updated_at": "2026-11-26T20:52:07.532321+00:00"
 }
