@@ -285637,17 +285637,19 @@
       }
     },
     "5488": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33101932",
+          "target_video_id": "31419930",
+          "permanent": false,
+          "attempted_at": "2026-11-26T16:12:39.777286+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33101932",
         "display_name": "Rogue (2007) 1080p CZ Dabing",
         "planned_at": "2026-11-26T16:09:33.114097+00:00"
-      },
-      "claim": {
-        "worker_id": "992dbe4200454162a7ff6266a82286dd-shard-0",
-        "claimed_at": "2026-11-26T16:09:34.038735+00:00",
-        "lease_expires_at": "2026-11-26T22:09:34.038735+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419930",
       "prepared": {
@@ -310257,5 +310259,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T16:09:38.279211+00:00"
+  "updated_at": "2026-11-26T16:12:39.777302+00:00"
 }
