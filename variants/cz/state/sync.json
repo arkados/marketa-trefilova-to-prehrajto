@@ -276746,17 +276746,19 @@
       }
     },
     "4997": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21713787",
+          "target_video_id": "31403242",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:33:14.734288+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21713787",
         "display_name": "The King's Man 4K CZ Dabing",
         "planned_at": "2026-11-26T08:18:02.423235+00:00"
-      },
-      "claim": {
-        "worker_id": "ff807f50024a41ea9478e48d1cee6cfd-shard-0",
-        "claimed_at": "2026-11-26T08:18:03.194404+00:00",
-        "lease_expires_at": "2026-11-26T14:18:03.194404+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403242",
       "prepared": {
@@ -303588,5 +303590,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:32:05.275472+00:00"
+  "updated_at": "2026-11-26T08:33:14.734306+00:00"
 }
