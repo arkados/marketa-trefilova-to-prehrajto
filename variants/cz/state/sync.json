@@ -273678,17 +273678,19 @@
       }
     },
     "5241": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29321582",
+          "target_video_id": "31398704",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:19:25.327537+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29321582",
         "display_name": "True Story 1080p CZ Dabing",
         "planned_at": "2026-11-26T04:14:09.942837+00:00"
-      },
-      "claim": {
-        "worker_id": "6404c8793f824641a7c7e4fe79155a2d-shard-0",
-        "claimed_at": "2026-11-26T04:14:10.670388+00:00",
-        "lease_expires_at": "2026-11-26T10:14:10.670388+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398704",
       "prepared": {
@@ -300977,5 +300979,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:17:09.161895+00:00"
+  "updated_at": "2026-11-26T04:19:25.327555+00:00"
 }
