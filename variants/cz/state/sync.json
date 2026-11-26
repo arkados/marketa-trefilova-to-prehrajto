@@ -273286,17 +273286,19 @@
       }
     },
     "24627": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31100336",
+          "target_video_id": "31397889",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:53:48.166310+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31100336",
         "display_name": "Don't Say a Word 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:40:15.385046+00:00"
-      },
-      "claim": {
-        "worker_id": "7bcd766e1ee643a28c09ddbd3e06c37b-shard-0",
-        "claimed_at": "2026-11-26T03:40:16.076466+00:00",
-        "lease_expires_at": "2026-11-26T09:40:16.076466+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397889",
       "prepared": {
@@ -300757,5 +300759,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:53:30.654495+00:00"
+  "updated_at": "2026-11-26T03:53:48.166327+00:00"
 }
