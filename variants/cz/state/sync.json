@@ -284694,17 +284694,19 @@
       "attempts": []
     },
     "11354": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25398850",
+          "target_video_id": "31419115",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:38:03.805212+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25398850",
         "display_name": "Private Benjamin 1080p CZ Dabing",
         "planned_at": "2026-11-26T15:33:41.335487+00:00"
-      },
-      "claim": {
-        "worker_id": "a8055bbd9e2545b98a21748d3824afaa-shard-0",
-        "claimed_at": "2026-11-26T15:33:42.289505+00:00",
-        "lease_expires_at": "2026-11-26T21:33:42.289505+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419115",
       "prepared": {
@@ -309560,5 +309562,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:35:49.766838+00:00"
+  "updated_at": "2026-11-26T15:38:03.805231+00:00"
 }
