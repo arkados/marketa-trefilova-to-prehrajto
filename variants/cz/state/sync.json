@@ -290083,17 +290083,19 @@
       }
     },
     "5485": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34898203",
+          "target_video_id": "31427887",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:09:52.489416+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34898203",
         "display_name": "Wolf Creek 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:04:48.072236+00:00"
-      },
-      "claim": {
-        "worker_id": "09d4536147374998a6c145d689bbdd1a-shard-0",
-        "claimed_at": "2026-11-26T22:04:48.873112+00:00",
-        "lease_expires_at": "2026-11-27T04:04:48.873112+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31427887",
       "prepared": {
@@ -313845,5 +313847,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:04:55.207133+00:00"
+  "updated_at": "2026-11-26T22:09:52.489433+00:00"
 }
