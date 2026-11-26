@@ -279532,17 +279532,19 @@
       "attempts": []
     },
     "17018": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13390737",
+          "target_video_id": "31406466",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:20:20.813770+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13390737",
         "display_name": "Evil Nanny SD CZ Dabing",
         "planned_at": "2026-11-26T11:18:14.721620+00:00"
-      },
-      "claim": {
-        "worker_id": "350a1a9e3b484a458273afac57c2c2a0-shard-0",
-        "claimed_at": "2026-11-26T11:18:15.461466+00:00",
-        "lease_expires_at": "2026-11-26T17:18:15.461466+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406466",
       "prepared": {
@@ -305666,5 +305668,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:20:00.976105+00:00"
+  "updated_at": "2026-11-26T11:20:20.813786+00:00"
 }
