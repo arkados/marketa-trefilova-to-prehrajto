@@ -281734,17 +281734,19 @@
       "attempts": []
     },
     "11064": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30780201",
+          "target_video_id": "31416072",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:17:01.106595+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30780201",
         "display_name": "A Town Called Bastard 1080p CZ Dabing",
         "planned_at": "2026-11-26T13:13:00.544633+00:00"
-      },
-      "claim": {
-        "worker_id": "666b13cc29fa4a0f9b8d93e22b82feba-shard-0",
-        "claimed_at": "2026-11-26T13:13:01.528206+00:00",
-        "lease_expires_at": "2026-11-26T19:13:01.528206+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416072",
       "prepared": {
@@ -307333,5 +307335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:16:36.255402+00:00"
+  "updated_at": "2026-11-26T13:17:01.106611+00:00"
 }
