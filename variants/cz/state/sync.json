@@ -274398,17 +274398,19 @@
       "attempts": []
     },
     "27426": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30807987",
+          "target_video_id": "31399921",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:24:28.443688+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30807987",
         "display_name": "Young Adult 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:18:38.218397+00:00"
-      },
-      "claim": {
-        "worker_id": "9fa8ab31348e40d99562c676e692de21-shard-0",
-        "claimed_at": "2026-11-26T05:18:38.928357+00:00",
-        "lease_expires_at": "2026-11-26T11:18:38.928357+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399921",
       "prepared": {
@@ -301588,5 +301590,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:23:44.164327+00:00"
+  "updated_at": "2026-11-26T05:24:28.443706+00:00"
 }
