@@ -271480,17 +271480,19 @@
       }
     },
     "4894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34419418",
+          "target_video_id": "31395220",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:39:12.013397+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34419418",
         "display_name": "Escape from the Planet of the Apes 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:32:13.294653+00:00"
-      },
-      "claim": {
-        "worker_id": "6b60ac3ed50642e181a8170be7d46a2d-shard-0",
-        "claimed_at": "2026-11-26T01:32:14.072384+00:00",
-        "lease_expires_at": "2026-11-26T07:32:14.072384+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395220",
       "prepared": {
@@ -299247,5 +299249,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:34:13.863956+00:00"
+  "updated_at": "2026-11-26T01:39:12.013418+00:00"
 }
