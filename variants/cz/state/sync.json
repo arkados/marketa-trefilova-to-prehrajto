@@ -281331,17 +281331,19 @@
       }
     },
     "11872": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34479008",
+          "target_video_id": "31415705",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:58:26.504728+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34479008",
         "display_name": "Bride of Re-Animator 720p CZ Dabing",
         "planned_at": "2026-11-26T12:55:54.175984+00:00"
-      },
-      "claim": {
-        "worker_id": "de98339016504a2683ce6c6a2b09cc7e-shard-0",
-        "claimed_at": "2026-11-26T12:55:54.980739+00:00",
-        "lease_expires_at": "2026-11-26T18:55:54.980739+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415705",
       "prepared": {
@@ -307013,5 +307015,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:58:22.082058+00:00"
+  "updated_at": "2026-11-26T12:58:26.504745+00:00"
 }
