@@ -273837,17 +273837,19 @@
       }
     },
     "5031": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18495106",
+          "target_video_id": "31398994",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:37:39.338293+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18495106",
         "display_name": "Kate 4K CZ Dabing",
         "planned_at": "2026-11-26T04:27:26.223937+00:00"
-      },
-      "claim": {
-        "worker_id": "d9fc8d68a02547f296543bf07fc9e30a-shard-0",
-        "claimed_at": "2026-11-26T04:27:26.908744+00:00",
-        "lease_expires_at": "2026-11-26T10:27:26.908744+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398994",
       "prepared": {
@@ -301117,5 +301119,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:35:31.783615+00:00"
+  "updated_at": "2026-11-26T04:37:39.338311+00:00"
 }
