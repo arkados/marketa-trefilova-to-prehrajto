@@ -280629,17 +280629,19 @@
       }
     },
     "5445": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29252368",
+          "target_video_id": "31414779",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:27:38.795525+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29252368",
         "display_name": "Peter Rabbit 2: The Runaway 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:25:17.513192+00:00"
-      },
-      "claim": {
-        "worker_id": "b87fe3bd7a804f7191e106621c6f9e24-shard-0",
-        "claimed_at": "2026-11-26T12:25:18.359568+00:00",
-        "lease_expires_at": "2026-11-26T18:25:18.359568+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31414779",
       "prepared": {
@@ -306493,5 +306495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:27:20.789247+00:00"
+  "updated_at": "2026-11-26T12:27:38.795544+00:00"
 }
