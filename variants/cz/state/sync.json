@@ -289718,17 +289718,19 @@
       "attempts": []
     },
     "23088": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11905711",
+          "target_video_id": "31426665",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:16:16.776731+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11905711",
         "display_name": "Turner & Hooch 1080p CZ Dabing",
         "planned_at": "2026-11-26T21:10:19.580899+00:00"
-      },
-      "claim": {
-        "worker_id": "c6ecd4aa3ae144ebaf584b7d680aa610-shard-0",
-        "claimed_at": "2026-11-26T21:10:20.350728+00:00",
-        "lease_expires_at": "2026-11-27T03:10:20.350728+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426665",
       "prepared": {
@@ -313552,5 +313554,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:14:39.495408+00:00"
+  "updated_at": "2026-11-26T21:16:16.776750+00:00"
 }
