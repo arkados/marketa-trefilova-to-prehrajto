@@ -272998,17 +272998,19 @@
       "attempts": []
     },
     "12147": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30099702",
+          "target_video_id": "31397323",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:25:07.184323+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30099702",
         "display_name": "Mary Shelley's Frankenstein 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:20:37.594020+00:00"
-      },
-      "claim": {
-        "worker_id": "f7d0d3a4ee8a4890ba5e22cb9b3874c1-shard-0",
-        "claimed_at": "2026-11-26T03:20:38.303033+00:00",
-        "lease_expires_at": "2026-11-26T09:20:38.303033+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397323",
       "prepared": {
@@ -300417,5 +300419,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:22:58.518679+00:00"
+  "updated_at": "2026-11-26T03:25:07.184339+00:00"
 }
