@@ -283593,17 +283593,19 @@
       "attempts": []
     },
     "25296": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734096",
+          "target_video_id": "31417959",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:44:00.222982+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734096",
         "display_name": "The Ice Harvest 1080p CZ Dabing",
         "planned_at": "2026-11-26T14:41:40.220139+00:00"
-      },
-      "claim": {
-        "worker_id": "8b48b696a50e4f589f6d4c8c159acd33-shard-0",
-        "claimed_at": "2026-11-26T14:41:41.227445+00:00",
-        "lease_expires_at": "2026-11-26T20:41:41.227445+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417959",
       "prepared": {
@@ -308690,5 +308692,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:42:30.359247+00:00"
+  "updated_at": "2026-11-26T14:44:00.222999+00:00"
 }
