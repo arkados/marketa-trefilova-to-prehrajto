@@ -278284,17 +278284,19 @@
       }
     },
     "23413": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35098727",
+          "target_video_id": "31405309",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:23:23.067709+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35098727",
         "display_name": "Pretty Princess SD CZ Dabing",
         "planned_at": "2026-11-26T10:21:07.298325+00:00"
-      },
-      "claim": {
-        "worker_id": "85629def424044b6a7c403395f66267e-shard-0",
-        "claimed_at": "2026-11-26T10:21:08.013067+00:00",
-        "lease_expires_at": "2026-11-26T16:21:08.013067+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405309",
       "prepared": {
@@ -304722,5 +304724,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:21:27.580207+00:00"
+  "updated_at": "2026-11-26T10:23:23.067725+00:00"
 }
