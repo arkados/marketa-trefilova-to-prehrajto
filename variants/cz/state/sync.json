@@ -275174,17 +275174,19 @@
       "attempts": []
     },
     "14762": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "34501799",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-26T06:11:17.484979+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34501799",
         "display_name": "Maggie Moore(s) 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:10:11.220031+00:00"
-      },
-      "claim": {
-        "worker_id": "f46dc1d30462430a8265f86c2d286832-shard-0",
-        "claimed_at": "2026-11-26T06:10:11.984576+00:00",
-        "lease_expires_at": "2026-11-26T12:10:11.984576+00:00",
-        "run_id": "45757851202"
       }
     },
     "5175": {
@@ -302178,5 +302180,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:10:41.109444+00:00"
+  "updated_at": "2026-11-26T06:11:17.484997+00:00"
 }
