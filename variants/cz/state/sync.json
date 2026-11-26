@@ -276790,17 +276790,19 @@
       }
     },
     "5272": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34955353",
+          "target_video_id": "31403287",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:29:28.900929+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34955353",
         "display_name": "Rush Hour 3 1080p CZ Dabing",
         "planned_at": "2026-11-26T08:21:16.561515+00:00"
-      },
-      "claim": {
-        "worker_id": "2d246a0480dd48f287a86878f163a11f-shard-0",
-        "claimed_at": "2026-11-26T08:21:17.324591+00:00",
-        "lease_expires_at": "2026-11-26T14:21:17.324591+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403287",
       "prepared": {
@@ -303528,5 +303530,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:26:08.182652+00:00"
+  "updated_at": "2026-11-26T08:29:28.900949+00:00"
 }
