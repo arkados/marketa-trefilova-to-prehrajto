@@ -272565,17 +272565,19 @@
       }
     },
     "16690": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695156",
+          "target_video_id": "31396762",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:57:47.042767+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695156",
         "display_name": "365 Days (2015) 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:54:27.112405+00:00"
-      },
-      "claim": {
-        "worker_id": "15caa6bdd7fb4699aa8951bbfd3f75a2-shard-0",
-        "claimed_at": "2026-11-26T02:54:27.808020+00:00",
-        "lease_expires_at": "2026-11-26T08:54:27.808020+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396762",
       "prepared": {
@@ -300077,5 +300079,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:55:39.521198+00:00"
+  "updated_at": "2026-11-26T02:57:47.042783+00:00"
 }
