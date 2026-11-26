@@ -273104,17 +273104,19 @@
       "attempts": []
     },
     "5200": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26803391",
+          "target_video_id": "31397562",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:33:14.239057+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26803391",
         "display_name": "Mr. Right (2015) [ID 5200] 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:27:24.132601+00:00"
-      },
-      "claim": {
-        "worker_id": "199ee3a8d0b248a384ab4b1c7792e921-shard-0",
-        "claimed_at": "2026-11-26T03:27:25.116236+00:00",
-        "lease_expires_at": "2026-11-26T09:27:25.116236+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397562",
       "prepared": {
@@ -300517,5 +300519,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:31:39.151947+00:00"
+  "updated_at": "2026-11-26T03:33:14.239101+00:00"
 }
