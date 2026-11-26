@@ -287784,17 +287784,19 @@
       }
     },
     "11987": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34040648",
+          "target_video_id": "31423490",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:53:26.652542+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34040648",
         "display_name": "Stone Cold (1991) 4K CZ Dabing",
         "planned_at": "2026-11-26T18:49:03.555697+00:00"
-      },
-      "claim": {
-        "worker_id": "6a7b94722e0542fd9b2ef28dab50b04e-shard-0",
-        "claimed_at": "2026-11-26T18:49:04.357015+00:00",
-        "lease_expires_at": "2026-11-27T00:49:04.357015+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31423490",
       "prepared": {
@@ -311984,5 +311986,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:49:26.487509+00:00"
+  "updated_at": "2026-11-26T18:53:26.652561+00:00"
 }
