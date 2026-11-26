@@ -290613,17 +290613,19 @@
       }
     },
     "26497": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28111761",
+          "target_video_id": "31429440",
+          "permanent": false,
+          "attempted_at": "2026-11-26T23:21:45.385730+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28111761",
         "display_name": "1612 (1612: Chronicles of the Dark Time) SD CZ Dabing",
         "planned_at": "2026-11-26T23:16:44.111092+00:00"
-      },
-      "claim": {
-        "worker_id": "bce9df26b4b04eab82cfb37d648429db-shard-0",
-        "claimed_at": "2026-11-26T23:16:44.808341+00:00",
-        "lease_expires_at": "2026-11-27T05:16:44.808341+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31429440",
       "prepared": {
@@ -314282,5 +314284,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T23:16:49.053105+00:00"
+  "updated_at": "2026-11-26T23:21:45.385767+00:00"
 }
