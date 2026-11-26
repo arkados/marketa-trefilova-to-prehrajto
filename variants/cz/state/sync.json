@@ -273793,17 +273793,19 @@
       }
     },
     "37457": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34730655",
+          "target_video_id": "31398879",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:39:47.957458+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34730655",
         "display_name": "Elize: Shadows of a Woman 4K CZ Dabing",
         "planned_at": "2026-11-26T04:21:23.402642+00:00"
-      },
-      "claim": {
-        "worker_id": "46f284f6c35a468db5554831fdf7b487-shard-0",
-        "claimed_at": "2026-11-26T04:21:24.123256+00:00",
-        "lease_expires_at": "2026-11-26T10:21:24.123256+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398879",
       "prepared": {
@@ -301137,5 +301139,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:37:56.309650+00:00"
+  "updated_at": "2026-11-26T04:39:47.957478+00:00"
 }
