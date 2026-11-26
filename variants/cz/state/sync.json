@@ -275912,17 +275912,19 @@
       "attempts": []
     },
     "31682": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714147",
+          "target_video_id": "31401844",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:11:57.805755+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714147",
         "display_name": "The Boss Baby 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:06:29.967775+00:00"
-      },
-      "claim": {
-        "worker_id": "a8033bb1bab046489a9fec6ad9da93ac-shard-0",
-        "claimed_at": "2026-11-26T07:06:31.145398+00:00",
-        "lease_expires_at": "2026-11-26T13:06:31.145398+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401844",
       "prepared": {
@@ -302788,5 +302790,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:10:32.046335+00:00"
+  "updated_at": "2026-11-26T07:11:57.805772+00:00"
 }
