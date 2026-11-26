@@ -271686,17 +271686,19 @@
       }
     },
     "24365": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22547870",
+          "target_video_id": "31395518",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:52:39.549775+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22547870",
         "display_name": "Rock Star 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:49:38.615245+00:00"
-      },
-      "claim": {
-        "worker_id": "45d5d7fdf54b483b9a3b97931fb38f00-shard-0",
-        "claimed_at": "2026-11-26T01:49:39.288189+00:00",
-        "lease_expires_at": "2026-11-26T07:49:39.288189+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395518",
       "prepared": {
@@ -299387,5 +299389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:49:42.901760+00:00"
+  "updated_at": "2026-11-26T01:52:39.549791+00:00"
 }
