@@ -279322,17 +279322,19 @@
       "attempts": []
     },
     "16700": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34774975",
+          "target_video_id": "31406287",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:10:46.460663+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34774975",
         "display_name": "My Sweet Audrina 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:07:51.732765+00:00"
-      },
-      "claim": {
-        "worker_id": "4ab63e4d110d45149b96652d7a9731c5-shard-0",
-        "claimed_at": "2026-11-26T11:07:52.492137+00:00",
-        "lease_expires_at": "2026-11-26T17:07:52.492137+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406287",
       "prepared": {
@@ -305472,5 +305474,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:10:29.749476+00:00"
+  "updated_at": "2026-11-26T11:10:46.460679+00:00"
 }
