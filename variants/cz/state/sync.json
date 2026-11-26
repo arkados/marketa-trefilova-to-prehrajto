@@ -282158,17 +282158,19 @@
       "attempts": []
     },
     "6138": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34276511",
+          "target_video_id": "31416382",
+          "permanent": false,
+          "attempted_at": "2026-11-26T13:32:15.095254+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34276511",
         "display_name": "Troublemakers (Botte di Natale) 4K CZ Dabing",
         "planned_at": "2026-11-26T13:27:42.527088+00:00"
-      },
-      "claim": {
-        "worker_id": "39564217c63a476eb0df49c1b6f114e0-shard-0",
-        "claimed_at": "2026-11-26T13:27:43.517354+00:00",
-        "lease_expires_at": "2026-11-26T19:27:43.517354+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31416382",
       "prepared": {
@@ -307670,5 +307672,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:32:04.349417+00:00"
+  "updated_at": "2026-11-26T13:32:15.095272+00:00"
 }
