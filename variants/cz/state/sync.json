@@ -283174,17 +283174,19 @@
       "attempts": []
     },
     "16872": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13223784",
+          "target_video_id": "31417500",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:16:47.091022+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13223784",
         "display_name": "Golden Exits SD CZ Dabing",
         "planned_at": "2026-11-26T14:15:26.585081+00:00"
-      },
-      "claim": {
-        "worker_id": "6d61eee3160c49219e248605f859c3b5-shard-0",
-        "claimed_at": "2026-11-26T14:15:27.464932+00:00",
-        "lease_expires_at": "2026-11-26T20:15:27.464932+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417500",
       "prepared": {
@@ -308370,5 +308372,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:15:49.384423+00:00"
+  "updated_at": "2026-11-26T14:16:47.091038+00:00"
 }
