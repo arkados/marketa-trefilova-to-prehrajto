@@ -287178,17 +287178,19 @@
       }
     },
     "12859": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33799593",
+          "target_video_id": "31422349",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:59:27.167576+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33799593",
         "display_name": "Next Friday 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:55:55.401119+00:00"
-      },
-      "claim": {
-        "worker_id": "4b6a5fa7b18e4ff49202a9c038ec5e32-shard-0",
-        "claimed_at": "2026-11-26T17:55:56.196170+00:00",
-        "lease_expires_at": "2026-11-26T23:55:56.196170+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422349",
       "prepared": {
@@ -311504,5 +311506,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:58:54.724230+00:00"
+  "updated_at": "2026-11-26T17:59:27.167594+00:00"
 }
