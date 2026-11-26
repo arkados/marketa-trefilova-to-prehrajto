@@ -281308,17 +281308,19 @@
       "attempts": []
     },
     "6906": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23244118",
+          "target_video_id": "31415700",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:58:05.704009+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23244118",
         "display_name": "Rise of the Footsoldier 3 (Rise of the Footsoldier 3: The Pat Tate Story) 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:55:30.815488+00:00"
-      },
-      "claim": {
-        "worker_id": "71409380ac304a298c20c83ccfdef669-shard-0",
-        "claimed_at": "2026-11-26T12:55:31.576824+00:00",
-        "lease_expires_at": "2026-11-26T18:55:31.576824+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415700",
       "prepared": {
@@ -306993,5 +306995,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:57:47.443851+00:00"
+  "updated_at": "2026-11-26T12:58:05.704044+00:00"
 }
