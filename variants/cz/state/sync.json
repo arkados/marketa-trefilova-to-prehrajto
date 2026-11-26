@@ -286865,17 +286865,19 @@
       "attempts": []
     },
     "13633": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34681495",
+          "target_video_id": "31422014",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:39:55.497228+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34681495",
         "display_name": "The Hairy Tooth Fairy (El ratón Pérez) SD CZ Dabing",
         "planned_at": "2026-11-26T17:38:39.949079+00:00"
-      },
-      "claim": {
-        "worker_id": "0ff99aa25c35468ea25d03a636ab6129-shard-0",
-        "claimed_at": "2026-11-26T17:38:40.769615+00:00",
-        "lease_expires_at": "2026-11-26T23:38:40.769615+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422014",
       "prepared": {
@@ -311251,5 +311253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:39:48.581771+00:00"
+  "updated_at": "2026-11-26T17:39:55.497245+00:00"
 }
