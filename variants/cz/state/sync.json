@@ -276179,17 +276179,19 @@
       }
     },
     "4875": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23023864",
+          "target_video_id": "31402292",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:34:08.264311+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23023864",
         "display_name": "Kindergarten Cop 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:29:00.055153+00:00"
-      },
-      "claim": {
-        "worker_id": "8365f5c77eb043da9e046d25b539ffcf-shard-0",
-        "claimed_at": "2026-11-26T07:29:00.809386+00:00",
-        "lease_expires_at": "2026-11-26T13:29:00.809386+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402292",
       "prepared": {
@@ -303028,5 +303030,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:32:27.279713+00:00"
+  "updated_at": "2026-11-26T07:34:08.264328+00:00"
 }
