@@ -286943,17 +286943,19 @@
       }
     },
     "7481": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29803474",
+          "target_video_id": "31422081",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:43:41.582483+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29803474",
         "display_name": "The Bad Guys: Haunted Heist 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:42:14.571594+00:00"
-      },
-      "claim": {
-        "worker_id": "ef1c1ec537494b5facb171950119468a-shard-0",
-        "claimed_at": "2026-11-26T17:42:15.369409+00:00",
-        "lease_expires_at": "2026-11-26T23:42:15.369409+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422081",
       "prepared": {
@@ -311311,5 +311313,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:43:18.852738+00:00"
+  "updated_at": "2026-11-26T17:43:41.582501+00:00"
 }
