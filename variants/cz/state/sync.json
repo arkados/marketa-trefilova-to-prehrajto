@@ -279756,17 +279756,19 @@
       }
     },
     "9944": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26618101",
+          "target_video_id": "31406569",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:35:02.314778+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26618101",
         "display_name": "Mastemah 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:23:23.399707+00:00"
-      },
-      "claim": {
-        "worker_id": "5ffa15be3b7f47ad82c43ae1f80be120-shard-0",
-        "claimed_at": "2026-11-26T11:23:24.428480+00:00",
-        "lease_expires_at": "2026-11-26T17:23:24.428480+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406569",
       "prepared": {
@@ -305839,5 +305841,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:34:50.309216+00:00"
+  "updated_at": "2026-11-26T11:35:02.314794+00:00"
 }
