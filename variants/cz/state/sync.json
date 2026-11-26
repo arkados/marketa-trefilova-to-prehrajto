@@ -280758,17 +280758,19 @@
       "attempts": []
     },
     "16894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33824445",
+          "target_video_id": "31414910",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:31:07.701813+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33824445",
         "display_name": "Resident Evil: Vendetta (baiohazaado vendetta) 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:28:39.049278+00:00"
-      },
-      "claim": {
-        "worker_id": "4e88485074fb4f62822cd04b54635971-shard-0",
-        "claimed_at": "2026-11-26T12:28:39.844200+00:00",
-        "lease_expires_at": "2026-11-26T18:28:39.844200+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31414910",
       "prepared": {
@@ -306533,5 +306535,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:28:46.542401+00:00"
+  "updated_at": "2026-11-26T12:31:07.701833+00:00"
 }
