@@ -290710,17 +290710,19 @@
       }
     },
     "5566": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30915762",
+          "target_video_id": "31429898",
+          "permanent": false,
+          "attempted_at": "2026-11-26T23:42:02.544238+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30915762",
         "display_name": "American Assassin 1080p CZ Dabing",
         "planned_at": "2026-11-26T23:38:51.322983+00:00"
-      },
-      "claim": {
-        "worker_id": "53a38de879144e3593e2092df260b30a-shard-0",
-        "claimed_at": "2026-11-26T23:38:52.011696+00:00",
-        "lease_expires_at": "2026-11-27T05:38:52.011696+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31429898",
       "prepared": {
@@ -314382,5 +314384,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T23:40:26.226491+00:00"
+  "updated_at": "2026-11-26T23:42:02.544254+00:00"
 }
