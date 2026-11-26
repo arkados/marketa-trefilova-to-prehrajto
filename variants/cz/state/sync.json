@@ -275817,17 +275817,19 @@
       }
     },
     "5406": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23679147",
+          "target_video_id": "31401759",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:04:00.445490+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23679147",
         "display_name": "Lansky 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:01:16.248767+00:00"
-      },
-      "claim": {
-        "worker_id": "cbc218c9f6cc4177805a5f37353cf7fe-shard-0",
-        "claimed_at": "2026-11-26T07:01:16.998111+00:00",
-        "lease_expires_at": "2026-11-26T13:01:16.998111+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401759",
       "prepared": {
@@ -302711,5 +302713,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:03:33.611571+00:00"
+  "updated_at": "2026-11-26T07:04:00.445508+00:00"
 }
