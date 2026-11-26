@@ -272296,17 +272296,19 @@
       "attempts": []
     },
     "7456": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29470258",
+          "target_video_id": "31396551",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:45:35.440142+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29470258",
         "display_name": "Crime Insiders (Truands) SD CZ Dabing",
         "planned_at": "2026-11-26T02:44:10.596708+00:00"
-      },
-      "claim": {
-        "worker_id": "caa47b645075493cb894ea2d14dc39b9-shard-0",
-        "claimed_at": "2026-11-26T02:44:11.405383+00:00",
-        "lease_expires_at": "2026-11-26T08:44:11.405383+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396551",
       "prepared": {
@@ -299877,5 +299879,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:45:03.523666+00:00"
+  "updated_at": "2026-11-26T02:45:35.440160+00:00"
 }
