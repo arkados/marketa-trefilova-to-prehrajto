@@ -271795,17 +271795,19 @@
       "attempts": []
     },
     "15284": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33820017",
+          "target_video_id": "31395591",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:02:50.530882+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33820017",
         "display_name": "Farewell, My Queen (Les Adieux à la reine) 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:54:56.582560+00:00"
-      },
-      "claim": {
-        "worker_id": "db5f9d3ce16745599d57147a6e3e8e37-shard-0",
-        "claimed_at": "2026-11-26T01:54:57.357853+00:00",
-        "lease_expires_at": "2026-11-26T07:54:57.357853+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395591",
       "prepared": {
@@ -299487,5 +299489,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:01:07.111495+00:00"
+  "updated_at": "2026-11-26T02:02:50.530899+00:00"
 }
