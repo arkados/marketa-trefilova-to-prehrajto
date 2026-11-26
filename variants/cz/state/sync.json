@@ -272371,17 +272371,19 @@
       "attempts": []
     },
     "11298": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27300643",
+          "target_video_id": "31396639",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:50:01.557266+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27300643",
         "display_name": "Le Guignolo SD CZ Dabing",
         "planned_at": "2026-11-26T02:47:39.693224+00:00"
-      },
-      "claim": {
-        "worker_id": "76d89ecdcc5842908dea07ee937be467-shard-0",
-        "claimed_at": "2026-11-26T02:47:40.522621+00:00",
-        "lease_expires_at": "2026-11-26T08:47:40.522621+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396639",
       "prepared": {
@@ -299937,5 +299939,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:49:15.880776+00:00"
+  "updated_at": "2026-11-26T02:50:01.557284+00:00"
 }
