@@ -287487,17 +287487,19 @@
       }
     },
     "5499": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35007747",
+          "target_video_id": "31422914",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:27:12.350909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35007747",
         "display_name": "Time Trap 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:25:01.824748+00:00"
-      },
-      "claim": {
-        "worker_id": "49c97363ee3648558e125e790e3afcf9-shard-0",
-        "claimed_at": "2026-11-26T18:25:03.281798+00:00",
-        "lease_expires_at": "2026-11-27T00:25:03.281798+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422914",
       "prepared": {
@@ -311744,5 +311746,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:27:06.858000+00:00"
+  "updated_at": "2026-11-26T18:27:12.350926+00:00"
 }
