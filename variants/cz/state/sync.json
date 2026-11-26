@@ -277153,17 +277153,19 @@
       }
     },
     "13199": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34719253",
+          "target_video_id": "31404009",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:07:57.782901+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34719253",
         "display_name": "Austin Powers in Goldmember 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:00:49.878880+00:00"
-      },
-      "claim": {
-        "worker_id": "5b122299acf04ddbb4151b3ba943a020-shard-0",
-        "claimed_at": "2026-11-26T09:00:50.874203+00:00",
-        "lease_expires_at": "2026-11-26T15:00:50.874203+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404009",
       "prepared": {
@@ -303828,5 +303830,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:07:11.607907+00:00"
+  "updated_at": "2026-11-26T09:07:57.782917+00:00"
 }
