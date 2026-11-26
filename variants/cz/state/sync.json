@@ -276080,17 +276080,19 @@
       }
     },
     "13299": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18018720",
+          "target_video_id": "31402140",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:26:21.689382+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18018720",
         "display_name": "Grand Theft Parsons 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:22:32.945319+00:00"
-      },
-      "claim": {
-        "worker_id": "9053976c7bb34d4db14da0ff455f5ebe-shard-0",
-        "claimed_at": "2026-11-26T07:22:33.694895+00:00",
-        "lease_expires_at": "2026-11-26T13:22:33.694895+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402140",
       "prepared": {
@@ -302908,5 +302910,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:22:40.649670+00:00"
+  "updated_at": "2026-11-26T07:26:21.689399+00:00"
 }
