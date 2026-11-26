@@ -271377,17 +271377,19 @@
       }
     },
     "22725": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734910",
+          "target_video_id": "31395075",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:27:52.922828+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734910",
         "display_name": "Bachelor Party 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:25:10.166334+00:00"
-      },
-      "claim": {
-        "worker_id": "ae7ba0d0c0f548f99b485db2752170e0-shard-0",
-        "claimed_at": "2026-11-26T01:25:11.011388+00:00",
-        "lease_expires_at": "2026-11-26T07:25:11.011388+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395075",
       "prepared": {
@@ -299147,5 +299149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:25:14.800728+00:00"
+  "updated_at": "2026-11-26T01:27:52.922845+00:00"
 }
