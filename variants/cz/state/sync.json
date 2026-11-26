@@ -287155,17 +287155,19 @@
       "attempts": []
     },
     "5377": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27063101",
+          "target_video_id": "31422340",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:58:37.443131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27063101",
         "display_name": "Old Dads 720p CZ Dabing",
         "planned_at": "2026-11-26T17:55:13.147278+00:00"
-      },
-      "claim": {
-        "worker_id": "ebacb49d818f46d29cb3fab97ff365d0-shard-0",
-        "claimed_at": "2026-11-26T17:55:13.913383+00:00",
-        "lease_expires_at": "2026-11-26T23:55:13.913383+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422340",
       "prepared": {
@@ -311484,5 +311486,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:56:00.809380+00:00"
+  "updated_at": "2026-11-26T17:58:37.443149+00:00"
 }
