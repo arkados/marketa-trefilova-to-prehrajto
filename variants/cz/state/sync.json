@@ -275337,17 +275337,19 @@
       "attempts": []
     },
     "13973": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20588561",
+          "target_video_id": "31401106",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:22:54.897296+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20588561",
         "display_name": "Cruel Fixation (Sinister Seduction) 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:19:47.496678+00:00"
-      },
-      "claim": {
-        "worker_id": "506a3d5d648a423d8f001d945c03b66d-shard-0",
-        "claimed_at": "2026-11-26T06:19:48.245879+00:00",
-        "lease_expires_at": "2026-11-26T12:19:48.245879+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401106",
       "prepared": {
@@ -302318,5 +302320,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:20:39.742134+00:00"
+  "updated_at": "2026-11-26T06:22:54.897313+00:00"
 }
