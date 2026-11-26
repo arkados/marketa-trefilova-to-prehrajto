@@ -278200,17 +278200,19 @@
       }
     },
     "17234": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695766",
+          "target_video_id": "31405275",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:20:49.633189+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695766",
         "display_name": "Golden Job (HuangJinXiongDi) 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:18:06.284819+00:00"
-      },
-      "claim": {
-        "worker_id": "081fadeb688f4f53b57f96732f1ffb74-shard-0",
-        "claimed_at": "2026-11-26T10:18:07.043684+00:00",
-        "lease_expires_at": "2026-11-26T16:18:07.043684+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405275",
       "prepared": {
@@ -304669,5 +304671,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:20:43.518115+00:00"
+  "updated_at": "2026-11-26T10:20:49.633208+00:00"
 }
