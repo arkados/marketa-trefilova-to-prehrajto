@@ -26986,17 +26986,19 @@
       }
     },
     "951": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35563675",
+          "target_video_id": "31422912",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:29:29.300292+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35563675",
         "display_name": "Jackie Brown 720p CZ Dabing",
         "planned_at": "2026-11-26T18:24:46.799420+00:00"
-      },
-      "claim": {
-        "worker_id": "28f6c99a608d408a9250bf992cbc32f0-shard-0",
-        "claimed_at": "2026-11-26T18:24:51.167473+00:00",
-        "lease_expires_at": "2026-11-27T00:24:51.167473+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422912",
       "prepared": {
@@ -311764,5 +311766,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:27:26.419314+00:00"
+  "updated_at": "2026-11-26T18:29:29.300311+00:00"
 }
