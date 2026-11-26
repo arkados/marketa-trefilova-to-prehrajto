@@ -280844,17 +280844,19 @@
       "attempts": []
     },
     "31473": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713986",
+          "target_video_id": "31415060",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:35:21.282312+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713986",
         "display_name": "Untold: The Murder of Air McNair 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:33:15.435688+00:00"
-      },
-      "claim": {
-        "worker_id": "95b97e2ac0e9488e85c55eda7d5b6a85-shard-0",
-        "claimed_at": "2026-11-26T12:33:16.251047+00:00",
-        "lease_expires_at": "2026-11-26T18:33:16.251047+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415060",
       "prepared": {
@@ -306613,5 +306615,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:34:20.110899+00:00"
+  "updated_at": "2026-11-26T12:35:21.282331+00:00"
 }
