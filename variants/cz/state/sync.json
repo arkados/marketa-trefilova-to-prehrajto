@@ -286642,17 +286642,19 @@
       }
     },
     "5577": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23634213",
+          "target_video_id": "31421771",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:30:32.055085+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23634213",
         "display_name": "Girls Trip 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:27:20.537984+00:00"
-      },
-      "claim": {
-        "worker_id": "dffa8df3751b432ca4dff40823122054-shard-0",
-        "claimed_at": "2026-11-26T17:27:21.353065+00:00",
-        "lease_expires_at": "2026-11-26T23:27:21.353065+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421771",
       "prepared": {
@@ -311091,5 +311093,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:28:51.010607+00:00"
+  "updated_at": "2026-11-26T17:30:32.055104+00:00"
 }
