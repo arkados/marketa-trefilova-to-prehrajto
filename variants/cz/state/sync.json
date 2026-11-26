@@ -273724,17 +273724,19 @@
       }
     },
     "23709": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25011227",
+          "target_video_id": "31398778",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:21:13.859685+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25011227",
         "display_name": "Foxfire 720p CZ Dabing",
         "planned_at": "2026-11-26T04:17:03.533799+00:00"
-      },
-      "claim": {
-        "worker_id": "75fdf61a2912493987a64bb9d3fa651a-shard-0",
-        "claimed_at": "2026-11-26T04:17:05.213615+00:00",
-        "lease_expires_at": "2026-11-26T10:17:05.213615+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398778",
       "prepared": {
@@ -301017,5 +301019,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:21:11.182133+00:00"
+  "updated_at": "2026-11-26T04:21:13.859700+00:00"
 }
