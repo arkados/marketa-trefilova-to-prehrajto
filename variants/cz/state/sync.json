@@ -285087,17 +285087,19 @@
       "attempts": []
     },
     "13163": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26291151",
+          "target_video_id": "31419415",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:51:26.401930+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26291151",
         "display_name": "Le Boulet 720p CZ Dabing",
         "planned_at": "2026-11-26T15:47:43.275649+00:00"
-      },
-      "claim": {
-        "worker_id": "353654bd7bae4d7192bba8bdc332ba25-shard-0",
-        "claimed_at": "2026-11-26T15:47:44.250109+00:00",
-        "lease_expires_at": "2026-11-26T21:47:44.250109+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419415",
       "prepared": {
@@ -309860,5 +309862,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:50:32.883920+00:00"
+  "updated_at": "2026-11-26T15:51:26.401946+00:00"
 }
