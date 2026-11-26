@@ -289666,17 +289666,19 @@
       }
     },
     "34969": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31346475",
+          "target_video_id": "31426622",
+          "permanent": false,
+          "attempted_at": "2026-11-26T21:09:58.277112+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31346475",
         "display_name": "Snow White: A Tale of Terror SD CZ Dabing",
         "planned_at": "2026-11-26T21:08:10.260193+00:00"
-      },
-      "claim": {
-        "worker_id": "bcabc1c090304d9f8f1c413b172a4850-shard-0",
-        "claimed_at": "2026-11-26T21:08:11.028728+00:00",
-        "lease_expires_at": "2026-11-27T03:08:11.028728+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426622",
       "prepared": {
@@ -313494,5 +313496,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T21:09:55.255461+00:00"
+  "updated_at": "2026-11-26T21:09:58.277130+00:00"
 }
