@@ -272947,17 +272947,19 @@
       }
     },
     "25254": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11964540",
+          "target_video_id": "31397122",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:18:41.921563+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11964540",
         "display_name": "River Queen SD CZ Dabing",
         "planned_at": "2026-11-26T03:14:23.365691+00:00"
-      },
-      "claim": {
-        "worker_id": "d6a1be2617ec44c09da89ba5b4fbe482-shard-0",
-        "claimed_at": "2026-11-26T03:14:24.063057+00:00",
-        "lease_expires_at": "2026-11-26T09:14:24.063057+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397122",
       "prepared": {
@@ -300357,5 +300359,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:14:28.202694+00:00"
+  "updated_at": "2026-11-26T03:18:41.921579+00:00"
 }
