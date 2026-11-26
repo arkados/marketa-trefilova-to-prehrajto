@@ -286836,17 +286836,19 @@
       "attempts": []
     },
     "23761": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29976633",
+          "target_video_id": "31421995",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:39:34.363353+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29976633",
         "display_name": "Female Justice (Sworn to Justice) SD CZ Dabing",
         "planned_at": "2026-11-26T17:37:35.294569+00:00"
-      },
-      "claim": {
-        "worker_id": "3f8e9a7649484e97a9a4d1df0fbbff44-shard-0",
-        "claimed_at": "2026-11-26T17:37:36.092553+00:00",
-        "lease_expires_at": "2026-11-26T23:37:36.092553+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421995",
       "prepared": {
@@ -311231,5 +311233,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:38:46.670966+00:00"
+  "updated_at": "2026-11-26T17:39:34.363411+00:00"
 }
