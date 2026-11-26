@@ -275505,17 +275505,19 @@
       }
     },
     "12872": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20168574",
+          "target_video_id": "31401347",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:39:58.754870+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20168574",
         "display_name": "Guest House Paradiso SD CZ Dabing",
         "planned_at": "2026-11-26T06:34:02.987633+00:00"
-      },
-      "claim": {
-        "worker_id": "306bf9d2b0254ef89d0dd659d7831139-shard-0",
-        "claimed_at": "2026-11-26T06:34:03.705758+00:00",
-        "lease_expires_at": "2026-11-26T12:34:03.705758+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401347",
       "prepared": {
@@ -302438,5 +302440,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:34:07.640883+00:00"
+  "updated_at": "2026-11-26T06:39:58.754887+00:00"
 }
