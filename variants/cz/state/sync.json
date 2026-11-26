@@ -274759,17 +274759,19 @@
       }
     },
     "5201": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26238182",
+          "target_video_id": "31400463",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:50:02.352302+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26238182",
         "display_name": "Goosebumps 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:47:06.275389+00:00"
-      },
-      "claim": {
-        "worker_id": "f86529c9db804e4fa6d477dd9b28b6ae-shard-0",
-        "claimed_at": "2026-11-26T05:47:09.575709+00:00",
-        "lease_expires_at": "2026-11-26T11:47:09.575709+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400463",
       "prepared": {
@@ -301845,5 +301847,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:47:24.295636+00:00"
+  "updated_at": "2026-11-26T05:50:02.352321+00:00"
 }
