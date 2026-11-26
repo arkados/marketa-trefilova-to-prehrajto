@@ -273996,17 +273996,19 @@
       "attempts": []
     },
     "4940": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27693600",
+          "target_video_id": "31399285",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:46:08.810816+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27693600",
         "display_name": "Freaky 1080p CZ Dabing",
         "planned_at": "2026-11-26T04:43:04.371069+00:00"
-      },
-      "claim": {
-        "worker_id": "735f5d7482664b5dbd4726e883c53c2d-shard-0",
-        "claimed_at": "2026-11-26T04:43:05.085002+00:00",
-        "lease_expires_at": "2026-11-26T10:43:05.085002+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31399285",
       "prepared": {
@@ -301217,5 +301219,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:45:43.045146+00:00"
+  "updated_at": "2026-11-26T04:46:08.810835+00:00"
 }
