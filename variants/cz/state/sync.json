@@ -276938,17 +276938,19 @@
       }
     },
     "5256": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33770429",
+          "target_video_id": "31403517",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:39:20.645963+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33770429",
         "display_name": "Oz the Great and Powerful 1080p CZ Dabing",
         "planned_at": "2026-11-26T08:36:21.349119+00:00"
-      },
-      "claim": {
-        "worker_id": "204f6eed8f094cbc89998975ddfdf014-shard-0",
-        "claimed_at": "2026-11-26T08:36:22.741380+00:00",
-        "lease_expires_at": "2026-11-26T14:36:22.741380+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403517",
       "prepared": {
@@ -303628,5 +303630,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:36:26.799701+00:00"
+  "updated_at": "2026-11-26T08:39:20.645980+00:00"
 }
