@@ -121590,7 +121590,7 @@
       "last_plan": {
         "source_id": "34176833",
         "display_name": "Midway (1976) 1080p CZ Dabing",
-        "planned_at": "2026-11-26T04:58:21.444633+00:00"
+        "planned_at": "2026-11-26T04:58:26.703041+00:00"
       },
       "previous_target_id": "30985061",
       "prepared": {
@@ -274050,17 +274050,19 @@
       }
     },
     "17804": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12043548",
+          "target_video_id": "31399491",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:58:29.655652+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12043548",
         "display_name": "Assault on Precinct 13 (2005) 720p CZ Dabing",
         "planned_at": "2026-11-26T04:52:21.190743+00:00"
-      },
-      "claim": {
-        "worker_id": "b7f2786b37b1454584be4b67a16ee6e4-shard-0",
-        "claimed_at": "2026-11-26T04:52:22.422217+00:00",
-        "lease_expires_at": "2026-11-26T10:52:22.422217+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399491",
       "prepared": {
@@ -274119,7 +274121,13 @@
       "last_plan": {
         "source_id": "35041561",
         "display_name": "Mortal Kombat II 4K CZ Dabing",
-        "planned_at": "2026-11-26T04:58:21.896574+00:00"
+        "planned_at": "2026-11-26T04:58:27.166775+00:00"
+      },
+      "claim": {
+        "worker_id": "3f872f6ceb9b434aa3ec86dbeb2fb270-shard-0",
+        "claimed_at": "2026-11-26T04:58:27.944120+00:00",
+        "lease_expires_at": "2026-11-26T10:58:27.944120+00:00",
+        "run_id": "45757851202"
       }
     },
     "8790": {
@@ -301284,5 +301292,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:58:21.896591+00:00"
+  "updated_at": "2026-11-26T04:58:29.655670+00:00"
 }
