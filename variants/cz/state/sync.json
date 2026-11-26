@@ -290492,17 +290492,19 @@
       "attempts": []
     },
     "5698": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14632019",
+          "target_video_id": "31429022",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:58:32.711330+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14632019",
         "display_name": "Blitz 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:53:51.163505+00:00"
-      },
-      "claim": {
-        "worker_id": "adf8850281624a5d922d7816162454de-shard-0",
-        "claimed_at": "2026-11-26T22:53:51.858960+00:00",
-        "lease_expires_at": "2026-11-27T04:53:51.858960+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31429022",
       "prepared": {
@@ -314182,5 +314184,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:53:55.845155+00:00"
+  "updated_at": "2026-11-26T22:58:32.711349+00:00"
 }
