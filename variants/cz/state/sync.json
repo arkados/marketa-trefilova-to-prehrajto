@@ -276767,17 +276767,19 @@
       }
     },
     "5240": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34173152",
+          "target_video_id": "31403283",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:25:45.444506+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34173152",
         "display_name": "This Means War 1080p CZ Dabing",
         "planned_at": "2026-11-26T08:21:03.908845+00:00"
-      },
-      "claim": {
-        "worker_id": "5004abb9c9cc4d85861442218b36b096-shard-0",
-        "claimed_at": "2026-11-26T08:21:04.670217+00:00",
-        "lease_expires_at": "2026-11-26T14:21:04.670217+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31403283",
       "prepared": {
@@ -303508,5 +303510,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:21:21.018288+00:00"
+  "updated_at": "2026-11-26T08:25:45.444523+00:00"
 }
