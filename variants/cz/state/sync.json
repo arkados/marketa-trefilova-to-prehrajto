@@ -278555,17 +278555,19 @@
       "attempts": []
     },
     "6860": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32761813",
+          "target_video_id": "31405530",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:37:40.365264+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32761813",
         "display_name": "Overdose 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:31:54.626467+00:00"
-      },
-      "claim": {
-        "worker_id": "efee3fb483f04400ab00015da65d05af-shard-0",
-        "claimed_at": "2026-11-26T10:31:55.418511+00:00",
-        "lease_expires_at": "2026-11-26T16:31:55.418511+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405530",
       "prepared": {
@@ -304959,5 +304961,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:35:07.080247+00:00"
+  "updated_at": "2026-11-26T10:37:40.365281+00:00"
 }
