@@ -286993,17 +286993,19 @@
       "attempts": []
     },
     "8874": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29060620",
+          "target_video_id": "31422112",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:47:24.758209+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29060620",
         "display_name": "Barber 1080p CZ Dabing",
         "planned_at": "2026-11-26T17:43:53.306340+00:00"
-      },
-      "claim": {
-        "worker_id": "a32f65c9764a4db18015c84b07365f40-shard-0",
-        "claimed_at": "2026-11-26T17:43:54.341662+00:00",
-        "lease_expires_at": "2026-11-26T23:43:54.341662+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422112",
       "prepared": {
@@ -311331,5 +311333,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:43:57.964618+00:00"
+  "updated_at": "2026-11-26T17:47:24.758227+00:00"
 }
