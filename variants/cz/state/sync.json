@@ -286812,17 +286812,19 @@
       }
     },
     "18404": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34848190",
+          "target_video_id": "31421972",
+          "permanent": false,
+          "attempted_at": "2026-11-26T17:47:37.065824+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34848190",
         "display_name": "Maps to the Stars 720p CZ Dabing",
         "planned_at": "2026-11-26T17:36:47.243044+00:00"
-      },
-      "claim": {
-        "worker_id": "01a3895d7d934311837cdd5c7d7d12e8-shard-0",
-        "claimed_at": "2026-11-26T17:36:48.013128+00:00",
-        "lease_expires_at": "2026-11-26T23:36:48.013128+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31421972",
       "prepared": {
@@ -311338,5 +311340,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T17:47:32.061190+00:00"
+  "updated_at": "2026-11-26T17:47:37.065855+00:00"
 }
