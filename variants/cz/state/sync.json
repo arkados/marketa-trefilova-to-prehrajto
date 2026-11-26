@@ -271713,17 +271713,19 @@
       }
     },
     "24851": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850630",
+          "target_video_id": "31395558",
+          "permanent": false,
+          "attempted_at": "2026-11-26T01:54:46.801289+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850630",
         "display_name": "Down with Love 1080p CZ Dabing",
         "planned_at": "2026-11-26T01:52:47.908513+00:00"
-      },
-      "claim": {
-        "worker_id": "255f526cfd4d4ef79e4d8d28ccffa138-shard-0",
-        "claimed_at": "2026-11-26T01:52:48.586262+00:00",
-        "lease_expires_at": "2026-11-26T07:52:48.586262+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395558",
       "prepared": {
@@ -299447,5 +299449,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T01:54:38.621138+00:00"
+  "updated_at": "2026-11-26T01:54:46.801308+00:00"
 }
