@@ -273023,17 +273023,19 @@
       }
     },
     "5242": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26437133",
+          "target_video_id": "31397405",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:27:14.258862+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26437133",
         "display_name": "The Loft 1080p CZ Dabing",
         "planned_at": "2026-11-26T03:22:54.317166+00:00"
-      },
-      "claim": {
-        "worker_id": "f3fd836fd8d1448ea80a80acb2e961c2-shard-0",
-        "claimed_at": "2026-11-26T03:22:55.071113+00:00",
-        "lease_expires_at": "2026-11-26T09:22:55.071113+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397405",
       "prepared": {
@@ -300457,5 +300459,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:25:44.389096+00:00"
+  "updated_at": "2026-11-26T03:27:14.258879+00:00"
 }
