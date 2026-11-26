@@ -289373,17 +289373,19 @@
       }
     },
     "5316": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31429214",
+          "target_video_id": "31426143",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:49:28.483329+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31429214",
         "display_name": "National Lampoon's European Vacation 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:47:31.973310+00:00"
-      },
-      "claim": {
-        "worker_id": "88d5c5837c29475da484460726d052a4-shard-0",
-        "claimed_at": "2026-11-26T20:47:32.721287+00:00",
-        "lease_expires_at": "2026-11-27T02:47:32.721287+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31426143",
       "prepared": {
@@ -313252,5 +313254,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:47:36.974419+00:00"
+  "updated_at": "2026-11-26T20:49:28.483347+00:00"
 }
