@@ -283377,17 +283377,19 @@
       "attempts": []
     },
     "26231": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10398886",
+          "target_video_id": "31417721",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:28:11.740205+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10398886",
         "display_name": "Prey (2009) SD CZ Dabing",
         "planned_at": "2026-11-26T14:27:19.195109+00:00"
-      },
-      "claim": {
-        "worker_id": "ce4bb9bacd794fdbbd4cfee38b31acba-shard-0",
-        "claimed_at": "2026-11-26T14:27:20.146466+00:00",
-        "lease_expires_at": "2026-11-26T20:27:20.146466+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417721",
       "prepared": {
@@ -308510,5 +308512,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:27:24.963521+00:00"
+  "updated_at": "2026-11-26T14:28:11.740221+00:00"
 }
