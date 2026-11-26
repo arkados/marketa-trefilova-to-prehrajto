@@ -284938,17 +284938,19 @@
       "attempts": []
     },
     "13179": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33942601",
+          "target_video_id": "31419307",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:43:56.604516+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33942601",
         "display_name": "Secret Things (Choses secrètes) 720p CZ Dabing",
         "planned_at": "2026-11-26T15:42:16.180731+00:00"
-      },
-      "claim": {
-        "worker_id": "b4870f3444ae4e649f165730e4cfa638-shard-0",
-        "claimed_at": "2026-11-26T15:42:17.145314+00:00",
-        "lease_expires_at": "2026-11-26T21:42:17.145314+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419307",
       "prepared": {
@@ -309720,5 +309722,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:42:46.874363+00:00"
+  "updated_at": "2026-11-26T15:43:56.604533+00:00"
 }
