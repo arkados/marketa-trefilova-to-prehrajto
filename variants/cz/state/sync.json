@@ -277267,17 +277267,19 @@
       }
     },
     "5274": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33155998",
+          "target_video_id": "31404239",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:15:09.988720+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33155998",
         "display_name": "Anger Management 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:12:13.273153+00:00"
-      },
-      "claim": {
-        "worker_id": "010b7975bfef48f081b5a41932e7b0eb-shard-0",
-        "claimed_at": "2026-11-26T09:12:14.064586+00:00",
-        "lease_expires_at": "2026-11-26T15:12:14.064586+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404239",
       "prepared": {
@@ -303945,5 +303947,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:14:22.252534+00:00"
+  "updated_at": "2026-11-26T09:15:09.988736+00:00"
 }
