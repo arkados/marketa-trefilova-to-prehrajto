@@ -276133,17 +276133,19 @@
       "attempts": []
     },
     "16090": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31570246",
+          "target_video_id": "31402253",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:32:12.200722+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31570246",
         "display_name": "An Honest Life (Ett ärligt liv) 1080p CZ Dabing",
         "planned_at": "2026-11-26T07:27:36.453001+00:00"
-      },
-      "claim": {
-        "worker_id": "b1a44db62ada410ea5c59740a6e69504-shard-0",
-        "claimed_at": "2026-11-26T07:27:37.200603+00:00",
-        "lease_expires_at": "2026-11-26T13:27:37.200603+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402253",
       "prepared": {
@@ -303008,5 +303010,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:31:04.686072+00:00"
+  "updated_at": "2026-11-26T07:32:12.200741+00:00"
 }
