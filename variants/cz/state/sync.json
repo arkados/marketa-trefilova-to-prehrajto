@@ -290827,17 +290827,19 @@
       "attempts": []
     },
     "5694": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35103878",
+          "target_video_id": "31430007",
+          "permanent": false,
+          "attempted_at": "2026-11-26T23:52:26.397771+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35103878",
         "display_name": "I Spit on Your Grave (2010) 1080p CZ Dabing",
         "planned_at": "2026-11-26T23:47:27.719552+00:00"
-      },
-      "claim": {
-        "worker_id": "f7df14207b53466c876e8367436ea569-shard-0",
-        "claimed_at": "2026-11-26T23:47:28.438948+00:00",
-        "lease_expires_at": "2026-11-27T05:47:28.438948+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31430007",
       "prepared": {
@@ -314475,5 +314477,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T23:50:41.951851+00:00"
+  "updated_at": "2026-11-26T23:52:26.397785+00:00"
 }
