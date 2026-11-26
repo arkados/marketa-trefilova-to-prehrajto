@@ -284581,17 +284581,19 @@
       "attempts": []
     },
     "16963": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34478548",
+          "target_video_id": "31419032",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:33:29.852333+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34478548",
         "display_name": "Jurassic School 1080p CZ Dabing",
         "planned_at": "2026-11-26T15:29:33.428025+00:00"
-      },
-      "claim": {
-        "worker_id": "9e6dd598b4eb450da5fd46ae6e6fd4db-shard-0",
-        "claimed_at": "2026-11-26T15:29:34.398466+00:00",
-        "lease_expires_at": "2026-11-26T21:29:34.398466+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419032",
       "prepared": {
@@ -309500,5 +309502,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:32:19.506406+00:00"
+  "updated_at": "2026-11-26T15:33:29.852348+00:00"
 }
