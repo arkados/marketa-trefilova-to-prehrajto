@@ -272246,17 +272246,19 @@
       "attempts": []
     },
     "24464": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34782402",
+          "target_video_id": "31396303",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:44:49.557591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34782402",
         "display_name": "The 51st State 1080p CZ Dabing",
         "planned_at": "2026-11-26T02:33:24.555617+00:00"
-      },
-      "claim": {
-        "worker_id": "a59f4709a6c04bf4ac8b6a613cbb6208-shard-0",
-        "claimed_at": "2026-11-26T02:33:25.275658+00:00",
-        "lease_expires_at": "2026-11-26T08:33:25.275658+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31396303",
       "prepared": {
@@ -299857,5 +299859,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:44:14.907997+00:00"
+  "updated_at": "2026-11-26T02:44:49.557607+00:00"
 }
