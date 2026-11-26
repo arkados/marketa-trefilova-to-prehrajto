@@ -275773,17 +275773,19 @@
       }
     },
     "11346": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27684252",
+          "target_video_id": "31401737",
+          "permanent": false,
+          "attempted_at": "2026-11-26T07:03:19.040923+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27684252",
         "display_name": "The Mirror Crack'd 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:59:41.061369+00:00"
-      },
-      "claim": {
-        "worker_id": "1f9a3c04c25e49cd8c1f4ef0f78449e8-shard-0",
-        "claimed_at": "2026-11-26T06:59:41.817540+00:00",
-        "lease_expires_at": "2026-11-26T12:59:41.817540+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401737",
       "prepared": {
@@ -302691,5 +302693,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:01:20.791786+00:00"
+  "updated_at": "2026-11-26T07:03:19.040941+00:00"
 }
