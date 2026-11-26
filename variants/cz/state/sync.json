@@ -283508,17 +283508,19 @@
       }
     },
     "5298": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34922365",
+          "target_video_id": "31417822",
+          "permanent": false,
+          "attempted_at": "2026-11-26T14:58:38.568509+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34922365",
         "display_name": "Mike & Nick & Nick & Alice 4K CZ Dabing",
         "planned_at": "2026-11-26T14:33:07.852637+00:00"
-      },
-      "claim": {
-        "worker_id": "8891cce8531447fbbffa3f80112da7bc-shard-0",
-        "claimed_at": "2026-11-26T14:33:08.712267+00:00",
-        "lease_expires_at": "2026-11-26T20:33:08.712267+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31417822",
       "prepared": {
@@ -308817,5 +308819,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T14:58:32.447886+00:00"
+  "updated_at": "2026-11-26T14:58:38.568534+00:00"
 }
