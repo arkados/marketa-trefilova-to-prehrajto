@@ -274903,17 +274903,19 @@
       }
     },
     "5125": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15863179",
+          "target_video_id": "31400606",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:58:23.891503+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15863179",
         "display_name": "The American 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:55:38.177268+00:00"
-      },
-      "claim": {
-        "worker_id": "86b5e4bce3cc46d398552b53d322392f-shard-0",
-        "claimed_at": "2026-11-26T05:55:38.957258+00:00",
-        "lease_expires_at": "2026-11-26T11:55:38.957258+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400606",
       "prepared": {
@@ -301965,5 +301967,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:56:43.951775+00:00"
+  "updated_at": "2026-11-26T05:58:23.891520+00:00"
 }
