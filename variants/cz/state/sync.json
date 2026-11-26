@@ -288144,17 +288144,19 @@
       "attempts": []
     },
     "6872": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27457346",
+          "target_video_id": "31424229",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:21:44.561620+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27457346",
         "display_name": "The Parts You Lose 720p CZ Dabing",
         "planned_at": "2026-11-26T19:19:07.613065+00:00"
-      },
-      "claim": {
-        "worker_id": "edb4302d731040378898a7ce820b2a6d-shard-0",
-        "claimed_at": "2026-11-26T19:19:08.400964+00:00",
-        "lease_expires_at": "2026-11-27T01:19:08.400964+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424229",
       "prepared": {
@@ -312281,5 +312283,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:20:37.480054+00:00"
+  "updated_at": "2026-11-26T19:21:44.561637+00:00"
 }
