@@ -285031,17 +285031,19 @@
       }
     },
     "8392": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25217823",
+          "target_video_id": "31419365",
+          "permanent": false,
+          "attempted_at": "2026-11-26T15:46:44.054471+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25217823",
         "display_name": "Eyes of an Angel SD CZ Dabing",
         "planned_at": "2026-11-26T15:45:04.224637+00:00"
-      },
-      "claim": {
-        "worker_id": "1dc2b8a2ac6b4623980520a1d7173746-shard-0",
-        "claimed_at": "2026-11-26T15:45:05.180677+00:00",
-        "lease_expires_at": "2026-11-26T21:45:05.180677+00:00",
-        "run_id": "45793057097"
       },
       "previous_target_id": "31419365",
       "prepared": {
@@ -309780,5 +309782,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T15:45:09.782640+00:00"
+  "updated_at": "2026-11-26T15:46:44.054486+00:00"
 }
