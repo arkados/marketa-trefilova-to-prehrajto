@@ -276484,17 +276484,19 @@
       }
     },
     "5155": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33108813",
+          "target_video_id": "31402710",
+          "permanent": false,
+          "attempted_at": "2026-11-26T08:20:55.428853+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33108813",
         "display_name": "Despicable Me 3 4K CZ Dabing",
         "planned_at": "2026-11-26T07:51:03.032289+00:00"
-      },
-      "claim": {
-        "worker_id": "4193365f7b52479c9841a2bad5f9ac04-shard-0",
-        "claimed_at": "2026-11-26T07:51:04.004778+00:00",
-        "lease_expires_at": "2026-11-26T13:51:04.004778+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31402710",
       "prepared": {
@@ -303470,5 +303472,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:20:52.868305+00:00"
+  "updated_at": "2026-11-26T08:20:55.428874+00:00"
 }
