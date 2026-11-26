@@ -278769,17 +278769,19 @@
       }
     },
     "21887": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34697637",
+          "target_video_id": "31405754",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:47:32.799660+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34697637",
         "display_name": "Anzio (Lo sbarco di Anzio) 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:43:02.925756+00:00"
-      },
-      "claim": {
-        "worker_id": "d85a2fbab3374f2baa047b81428a9e33-shard-0",
-        "claimed_at": "2026-11-26T10:43:06.588214+00:00",
-        "lease_expires_at": "2026-11-26T16:43:06.588214+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405754",
       "prepared": {
@@ -305139,5 +305141,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:46:43.671168+00:00"
+  "updated_at": "2026-11-26T10:47:32.799677+00:00"
 }
