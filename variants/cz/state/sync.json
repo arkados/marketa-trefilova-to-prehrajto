@@ -287441,17 +287441,19 @@
       }
     },
     "5629": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27718818",
+          "target_video_id": "31422770",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:26:51.935504+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27718818",
         "display_name": "New York, I Love You 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:18:43.475233+00:00"
-      },
-      "claim": {
-        "worker_id": "095661a0cd8341159b786ceb18789d6b-shard-0",
-        "claimed_at": "2026-11-26T18:18:44.298948+00:00",
-        "lease_expires_at": "2026-11-27T00:18:44.298948+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31422770",
       "prepared": {
@@ -311724,5 +311726,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:25:07.307944+00:00"
+  "updated_at": "2026-11-26T18:26:51.935523+00:00"
 }
