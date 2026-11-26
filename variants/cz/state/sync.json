@@ -278670,17 +278670,19 @@
       "attempts": []
     },
     "28809": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22856018",
+          "target_video_id": "31405653",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:39:21.677358+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22856018",
         "display_name": "Death Clique SD CZ Dabing",
         "planned_at": "2026-11-26T10:37:51.698611+00:00"
-      },
-      "claim": {
-        "worker_id": "b341c6edc3cd43dcb84907e64d3a1db4-shard-0",
-        "claimed_at": "2026-11-26T10:37:52.453495+00:00",
-        "lease_expires_at": "2026-11-26T16:37:52.453495+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405653",
       "prepared": {
@@ -304979,5 +304981,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:37:56.920405+00:00"
+  "updated_at": "2026-11-26T10:39:21.677377+00:00"
 }
