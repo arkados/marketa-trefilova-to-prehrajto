@@ -279152,17 +279152,19 @@
       "attempts": []
     },
     "27295": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34946101",
+          "target_video_id": "31406127",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:03:24.158791+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34946101",
         "display_name": "Lying to Be Perfect 720p CZ Dabing",
         "planned_at": "2026-11-26T10:59:53.670960+00:00"
-      },
-      "claim": {
-        "worker_id": "ec89c58e545e428c86973ae4f9a1878f-shard-0",
-        "claimed_at": "2026-11-26T10:59:54.517966+00:00",
-        "lease_expires_at": "2026-11-26T16:59:54.517966+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406127",
       "prepared": {
@@ -305332,5 +305334,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:59:59.172764+00:00"
+  "updated_at": "2026-11-26T11:03:24.158809+00:00"
 }
