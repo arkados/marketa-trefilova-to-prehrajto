@@ -274511,17 +274511,19 @@
       }
     },
     "15369": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11116043",
+          "target_video_id": "31400067",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:28:59.182508+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11116043",
         "display_name": "To Rome with Love SD CZ Dabing",
         "planned_at": "2026-11-26T05:25:47.025267+00:00"
-      },
-      "claim": {
-        "worker_id": "1e79fe66fb134221a8966ed099554727-shard-0",
-        "claimed_at": "2026-11-26T05:25:47.768796+00:00",
-        "lease_expires_at": "2026-11-26T11:25:47.768796+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400067",
       "prepared": {
@@ -301648,5 +301650,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:27:06.716987+00:00"
+  "updated_at": "2026-11-26T05:28:59.182529+00:00"
 }
