@@ -290639,17 +290639,19 @@
       "attempts": []
     },
     "5400": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33745193",
+          "target_video_id": "31429570",
+          "permanent": false,
+          "attempted_at": "2026-11-26T23:32:06.678388+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33745193",
         "display_name": "Case 39 1080p CZ Dabing",
         "planned_at": "2026-11-26T23:21:56.694943+00:00"
-      },
-      "claim": {
-        "worker_id": "cdf7267e717443cfabdd646521736440-shard-0",
-        "claimed_at": "2026-11-26T23:21:57.435134+00:00",
-        "lease_expires_at": "2026-11-27T05:21:57.435134+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31429570",
       "prepared": {
@@ -314302,5 +314304,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T23:22:01.313315+00:00"
+  "updated_at": "2026-11-26T23:32:06.678404+00:00"
 }
