@@ -288095,17 +288095,19 @@
       }
     },
     "8065": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12739407",
+          "target_video_id": "31424168",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:18:55.459674+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12739407",
         "display_name": "Yellowbird (Gus - Petit oiseau, grand voyage) 720p CZ Dabing",
         "planned_at": "2026-11-26T19:14:58.478458+00:00"
-      },
-      "claim": {
-        "worker_id": "fb8fb3960a384594ae754f2fa7055a5e-shard-0",
-        "claimed_at": "2026-11-26T19:14:59.676656+00:00",
-        "lease_expires_at": "2026-11-27T01:14:59.676656+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424168",
       "prepared": {
@@ -312241,5 +312243,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:16:41.158775+00:00"
+  "updated_at": "2026-11-26T19:18:55.459692+00:00"
 }
