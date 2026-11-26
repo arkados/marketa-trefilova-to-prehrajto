@@ -281048,17 +281048,19 @@
       "attempts": []
     },
     "5333": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30675190",
+          "target_video_id": "31415329",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:49:04.339306+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30675190",
         "display_name": "My Fault: London 4K CZ Dabing",
         "planned_at": "2026-11-26T12:42:14.615110+00:00"
-      },
-      "claim": {
-        "worker_id": "c0dc09f6b6ac4036a596789c9a134889-shard-0",
-        "claimed_at": "2026-11-26T12:42:15.395204+00:00",
-        "lease_expires_at": "2026-11-26T18:42:15.395204+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415329",
       "prepared": {
@@ -306813,5 +306815,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:48:09.301828+00:00"
+  "updated_at": "2026-11-26T12:49:04.339325+00:00"
 }
