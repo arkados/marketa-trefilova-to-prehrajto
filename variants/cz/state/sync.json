@@ -279483,17 +279483,19 @@
       "attempts": []
     },
     "16366": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694807",
+          "target_video_id": "31406410",
+          "permanent": false,
+          "attempted_at": "2026-11-26T11:19:44.624485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694807",
         "display_name": "The Map That Leads to You 1080p CZ Dabing",
         "planned_at": "2026-11-26T11:15:38.930245+00:00"
-      },
-      "claim": {
-        "worker_id": "7e00162dd6c043d48deec790934ad3e6-shard-0",
-        "claimed_at": "2026-11-26T11:15:42.270570+00:00",
-        "lease_expires_at": "2026-11-26T17:15:42.270570+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31406410",
       "prepared": {
@@ -305646,5 +305648,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:19:41.737200+00:00"
+  "updated_at": "2026-11-26T11:19:44.624504+00:00"
 }
