@@ -287593,17 +287593,19 @@
       "attempts": []
     },
     "5539": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29404471",
+          "target_video_id": "31423025",
+          "permanent": false,
+          "attempted_at": "2026-11-26T18:38:03.853473+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29404471",
         "display_name": "London Boulevard 1080p CZ Dabing",
         "planned_at": "2026-11-26T18:30:54.834092+00:00"
-      },
-      "claim": {
-        "worker_id": "61efb668317a4157bb27feedaa12ef47-shard-0",
-        "claimed_at": "2026-11-26T18:30:55.581437+00:00",
-        "lease_expires_at": "2026-11-27T00:30:55.581437+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31423025",
       "prepared": {
@@ -311864,5 +311866,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T18:35:26.084055+00:00"
+  "updated_at": "2026-11-26T18:38:03.853493+00:00"
 }
