@@ -272827,17 +272827,19 @@
       }
     },
     "35658": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30780466",
+          "target_video_id": "31397001",
+          "permanent": false,
+          "attempted_at": "2026-11-26T03:13:26.790373+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30780466",
         "display_name": "Foxes (1980) SD CZ Dabing",
         "planned_at": "2026-11-26T03:07:49.426296+00:00"
-      },
-      "claim": {
-        "worker_id": "8466360cee2f4b24923013b7a6c04efe-shard-0",
-        "claimed_at": "2026-11-26T03:07:50.177431+00:00",
-        "lease_expires_at": "2026-11-26T09:07:50.177431+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31397001",
       "prepared": {
@@ -300297,5 +300299,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T03:10:05.446886+00:00"
+  "updated_at": "2026-11-26T03:13:26.790391+00:00"
 }
