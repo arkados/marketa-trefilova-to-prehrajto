@@ -289061,17 +289061,19 @@
       }
     },
     "5604": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30419884",
+          "target_video_id": "31425350",
+          "permanent": false,
+          "attempted_at": "2026-11-26T20:24:25.514937+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30419884",
         "display_name": "The Boondock Saints II: All Saints Day 1080p CZ Dabing",
         "planned_at": "2026-11-26T20:17:50.359554+00:00"
-      },
-      "claim": {
-        "worker_id": "418cf366bb544d0b93ffaea365103a67-shard-0",
-        "claimed_at": "2026-11-26T20:17:51.138041+00:00",
-        "lease_expires_at": "2026-11-27T02:17:51.138041+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31425350",
       "prepared": {
@@ -313018,5 +313020,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T20:21:44.274398+00:00"
+  "updated_at": "2026-11-26T20:24:25.514957+00:00"
 }
