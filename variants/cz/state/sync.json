@@ -274250,17 +274250,19 @@
       "attempts": []
     },
     "16885": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34695369",
+          "target_video_id": "31399753",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:08:55.489140+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34695369",
         "display_name": "Spy Cat (Die sagenhaften Vier) 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:05:50.734212+00:00"
-      },
-      "claim": {
-        "worker_id": "3e278c9310314ff18de788bed0a2d3ea-shard-0",
-        "claimed_at": "2026-11-26T05:05:51.393105+00:00",
-        "lease_expires_at": "2026-11-26T11:05:51.393105+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399753",
       "prepared": {
@@ -301411,5 +301413,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:05:55.553040+00:00"
+  "updated_at": "2026-11-26T05:08:55.489158+00:00"
 }
