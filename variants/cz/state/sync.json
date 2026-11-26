@@ -290226,17 +290226,19 @@
       }
     },
     "5632": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30838105",
+          "target_video_id": "31428231",
+          "permanent": false,
+          "attempted_at": "2026-11-26T22:24:13.287869+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30838105",
         "display_name": "Solaris (2002) 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:20:11.132180+00:00"
-      },
-      "claim": {
-        "worker_id": "6c17ae5a125d4fa8b428da935900a769-shard-0",
-        "claimed_at": "2026-11-26T22:20:11.800400+00:00",
-        "lease_expires_at": "2026-11-27T04:20:11.800400+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31428231",
       "prepared": {
@@ -313985,5 +313987,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:21:25.379819+00:00"
+  "updated_at": "2026-11-26T22:24:13.287883+00:00"
 }
