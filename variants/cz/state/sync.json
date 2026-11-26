@@ -271918,17 +271918,19 @@
       "attempts": []
     },
     "28635": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34466913",
+          "target_video_id": "31395763",
+          "permanent": false,
+          "attempted_at": "2026-11-26T02:13:48.632044+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34466913",
         "display_name": "They Will Kill You 4K CZ Dabing",
         "planned_at": "2026-11-26T02:04:30.095028+00:00"
-      },
-      "claim": {
-        "worker_id": "a75ed544b5a84c7ba377e3132f9c86bf-shard-0",
-        "claimed_at": "2026-11-26T02:04:30.955738+00:00",
-        "lease_expires_at": "2026-11-26T08:04:30.955738+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31395763",
       "prepared": {
@@ -299647,5 +299649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:13:35.274165+00:00"
+  "updated_at": "2026-11-26T02:13:48.632062+00:00"
 }
