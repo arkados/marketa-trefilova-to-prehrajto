@@ -274565,17 +274565,19 @@
       "attempts": []
     },
     "8019": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33664371",
+          "target_video_id": "31400147",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:30:48.633158+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33664371",
         "display_name": "Love's Last Resort 720p CZ Dabing",
         "planned_at": "2026-11-26T05:29:09.965759+00:00"
-      },
-      "claim": {
-        "worker_id": "17b6cfbd94374f75965c4b5123d3e442-shard-0",
-        "claimed_at": "2026-11-26T05:29:10.719646+00:00",
-        "lease_expires_at": "2026-11-26T11:29:10.719646+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31400147",
       "prepared": {
@@ -301712,5 +301714,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:30:43.427879+00:00"
+  "updated_at": "2026-11-26T05:30:48.633178+00:00"
 }
