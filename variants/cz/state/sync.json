@@ -274441,17 +274441,19 @@
       }
     },
     "5258": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26233937",
+          "target_video_id": "31399944",
+          "permanent": false,
+          "attempted_at": "2026-11-26T05:25:33.782378+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26233937",
         "display_name": "Before I Go to Sleep 1080p CZ Dabing",
         "planned_at": "2026-11-26T05:20:02.616372+00:00"
-      },
-      "claim": {
-        "worker_id": "a38e8cb7a24c4839b22afcb5a06ed013-shard-0",
-        "claimed_at": "2026-11-26T05:20:03.318774+00:00",
-        "lease_expires_at": "2026-11-26T11:20:03.318774+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31399944",
       "prepared": {
@@ -301608,5 +301610,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T05:24:43.806483+00:00"
+  "updated_at": "2026-11-26T05:25:33.782395+00:00"
 }
