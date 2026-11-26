@@ -275559,17 +275559,19 @@
       }
     },
     "15804": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694230",
+          "target_video_id": "31401458",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:46:55.416361+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694230",
         "display_name": "Field of Lost Shoes 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:41:09.819629+00:00"
-      },
-      "claim": {
-        "worker_id": "8b7d2bb27e3c4292bd4880de2ff9bf3e-shard-0",
-        "claimed_at": "2026-11-26T06:41:10.570972+00:00",
-        "lease_expires_at": "2026-11-26T12:41:10.570972+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401458",
       "prepared": {
@@ -302498,5 +302500,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:44:25.661613+00:00"
+  "updated_at": "2026-11-26T06:46:55.416377+00:00"
 }
