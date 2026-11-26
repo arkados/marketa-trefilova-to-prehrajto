@@ -124658,7 +124658,7 @@
       "last_plan": {
         "source_id": "33977403",
         "display_name": "Farinelli SD CZ Dabing",
-        "planned_at": "2026-11-26T09:12:06.284342+00:00"
+        "planned_at": "2026-11-26T09:12:12.832785+00:00"
       },
       "previous_target_id": "30985736",
       "prepared": {
@@ -277201,17 +277201,19 @@
       }
     },
     "5170": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30734314",
+          "target_video_id": "31404139",
+          "permanent": false,
+          "attempted_at": "2026-11-26T09:12:18.687567+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30734314",
         "display_name": "Ghost in the Shell (2017) 1080p CZ Dabing",
         "planned_at": "2026-11-26T09:08:08.346999+00:00"
-      },
-      "claim": {
-        "worker_id": "8ced715af031463d9b07823f4c0c7764-shard-0",
-        "claimed_at": "2026-11-26T09:08:09.112074+00:00",
-        "lease_expires_at": "2026-11-26T15:08:09.112074+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31404139",
       "prepared": {
@@ -277267,7 +277269,13 @@
       "last_plan": {
         "source_id": "33155998",
         "display_name": "Anger Management 1080p CZ Dabing",
-        "planned_at": "2026-11-26T09:12:06.733384+00:00"
+        "planned_at": "2026-11-26T09:12:13.273153+00:00"
+      },
+      "claim": {
+        "worker_id": "010b7975bfef48f081b5a41932e7b0eb-shard-0",
+        "claimed_at": "2026-11-26T09:12:14.064586+00:00",
+        "lease_expires_at": "2026-11-26T15:12:14.064586+00:00",
+        "run_id": "45787588995"
       }
     },
     "5134": {
@@ -303892,5 +303900,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T09:12:06.733405+00:00"
+  "updated_at": "2026-11-26T09:12:18.687589+00:00"
 }
