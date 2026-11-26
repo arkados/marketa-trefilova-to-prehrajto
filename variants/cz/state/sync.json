@@ -273770,17 +273770,19 @@
       }
     },
     "4865": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33738196",
+          "target_video_id": "31398864",
+          "permanent": false,
+          "attempted_at": "2026-11-26T04:31:05.310902+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33738196",
         "display_name": "The Smashing Machine 4K CZ Dabing",
         "planned_at": "2026-11-26T04:21:07.017832+00:00"
-      },
-      "claim": {
-        "worker_id": "06823523b905420e89b394c337a13af2-shard-0",
-        "claimed_at": "2026-11-26T04:21:07.816469+00:00",
-        "lease_expires_at": "2026-11-26T10:21:07.816469+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31398864",
       "prepared": {
@@ -301077,5 +301079,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T04:27:31.385776+00:00"
+  "updated_at": "2026-11-26T04:31:05.310919+00:00"
 }
