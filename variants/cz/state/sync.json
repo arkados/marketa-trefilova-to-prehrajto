@@ -275482,17 +275482,19 @@
       "attempts": []
     },
     "21093": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23691835",
+          "target_video_id": "31401265",
+          "permanent": false,
+          "attempted_at": "2026-11-26T06:33:52.370591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23691835",
         "display_name": "Entrapment 1080p CZ Dabing",
         "planned_at": "2026-11-26T06:28:42.778273+00:00"
-      },
-      "claim": {
-        "worker_id": "776a2887cabe45b38bb63c6b83f1f390-shard-0",
-        "claimed_at": "2026-11-26T06:28:43.481711+00:00",
-        "lease_expires_at": "2026-11-26T12:28:43.481711+00:00",
-        "run_id": "45757851202"
       },
       "previous_target_id": "31401265",
       "prepared": {
@@ -302418,5 +302420,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T06:31:28.027991+00:00"
+  "updated_at": "2026-11-26T06:33:52.370608+00:00"
 }
