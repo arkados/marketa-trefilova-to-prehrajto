@@ -288569,17 +288569,19 @@
       }
     },
     "11720": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13532777",
+          "target_video_id": "31424688",
+          "permanent": false,
+          "attempted_at": "2026-11-26T19:44:28.887068+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13532777",
         "display_name": "Three Men and a Baby (3 Men and a Baby) SD CZ Dabing",
         "planned_at": "2026-11-26T19:43:10.832102+00:00"
-      },
-      "claim": {
-        "worker_id": "e87b5fffbffe4e8496c7248275ad04e4-shard-0",
-        "claimed_at": "2026-11-26T19:43:11.616394+00:00",
-        "lease_expires_at": "2026-11-27T01:43:11.616394+00:00",
-        "run_id": "45867150487"
       },
       "previous_target_id": "31424688",
       "prepared": {
@@ -312601,5 +312603,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T19:43:17.110476+00:00"
+  "updated_at": "2026-11-26T19:44:28.887087+00:00"
 }
