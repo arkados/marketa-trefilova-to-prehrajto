@@ -290515,17 +290515,19 @@
       }
     },
     "5935": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19524568",
+          "target_video_id": "31429110",
+          "permanent": false,
+          "attempted_at": "2026-11-26T23:05:59.258221+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19524568",
         "display_name": "Miami Bici 1080p CZ Dabing",
         "planned_at": "2026-11-26T22:58:43.308904+00:00"
-      },
-      "claim": {
-        "worker_id": "0bfb2ee0909b4d7eb1c55b572bf99282-shard-0",
-        "claimed_at": "2026-11-26T22:58:44.011833+00:00",
-        "lease_expires_at": "2026-11-27T04:58:44.011833+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31429110",
       "prepared": {
@@ -314202,5 +314204,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T22:58:48.770539+00:00"
+  "updated_at": "2026-11-26T23:05:59.258243+00:00"
 }
