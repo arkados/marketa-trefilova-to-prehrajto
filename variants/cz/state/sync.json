@@ -278742,17 +278742,19 @@
       "attempts": []
     },
     "23084": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33746375",
+          "target_video_id": "31405699",
+          "permanent": false,
+          "attempted_at": "2026-11-26T10:42:49.151718+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33746375",
         "display_name": "Three Fugitives 1080p CZ Dabing",
         "planned_at": "2026-11-26T10:40:01.505064+00:00"
-      },
-      "claim": {
-        "worker_id": "64c86e83d42945b3ab99194af6a015d9-shard-0",
-        "claimed_at": "2026-11-26T10:40:02.285768+00:00",
-        "lease_expires_at": "2026-11-26T16:40:02.285768+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31405699",
       "prepared": {
@@ -305039,5 +305041,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T10:40:08.514978+00:00"
+  "updated_at": "2026-11-26T10:42:49.151736+00:00"
 }
