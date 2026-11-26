@@ -271094,17 +271094,19 @@
       "attempts": []
     },
     "12536": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29344651",
+          "target_video_id": "31394216",
+          "permanent": false,
+          "attempted_at": "2026-11-26T00:58:50.761168+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29344651",
         "display_name": "Message in a Bottle 1080p CZ Dabing",
         "planned_at": "2026-11-26T00:50:42.391188+00:00"
-      },
-      "claim": {
-        "worker_id": "8f458e60d084445eafd35bd082a8bd58-shard-0",
-        "claimed_at": "2026-11-26T00:50:43.092407+00:00",
-        "lease_expires_at": "2026-11-26T06:50:43.092407+00:00",
-        "run_id": "45730957086"
       },
       "previous_target_id": "31394216",
       "prepared": {
@@ -298927,5 +298929,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T00:54:57.102788+00:00"
+  "updated_at": "2026-11-26T00:58:50.761186+00:00"
 }
