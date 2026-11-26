@@ -281161,17 +281161,19 @@
       }
     },
     "18933": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15006322",
+          "target_video_id": "31415595",
+          "permanent": false,
+          "attempted_at": "2026-11-26T12:52:37.453363+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15006322",
         "display_name": "Salma's Big Wish (Dia de Muertos) 1080p CZ Dabing",
         "planned_at": "2026-11-26T12:50:25.970685+00:00"
-      },
-      "claim": {
-        "worker_id": "b2cfa8676732449488aab6fe365a23ee-shard-0",
-        "claimed_at": "2026-11-26T12:50:30.193213+00:00",
-        "lease_expires_at": "2026-11-26T18:50:30.193213+00:00",
-        "run_id": "45787588995"
       },
       "previous_target_id": "31415595",
       "prepared": {
@@ -306873,5 +306875,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:50:46.993881+00:00"
+  "updated_at": "2026-11-26T12:52:37.453382+00:00"
 }
