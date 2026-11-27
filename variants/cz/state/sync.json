@@ -304226,17 +304226,19 @@
       }
     },
     "12199": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33852901",
+          "target_video_id": "31478438",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:36:40.056897+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33852901",
         "display_name": "White Fang 2: Myth of the White Wolf 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:34:19.079104+00:00"
-      },
-      "claim": {
-        "worker_id": "b32bdac1f4d34a7485d67d291877032c-shard-0",
-        "claimed_at": "2026-11-27T21:34:19.881772+00:00",
-        "lease_expires_at": "2026-11-28T03:34:19.881772+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478438",
       "prepared": {
@@ -324967,5 +324969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:36:37.354029+00:00"
+  "updated_at": "2026-11-27T21:36:40.056916+00:00"
 }
