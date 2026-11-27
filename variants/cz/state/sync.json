@@ -294448,17 +294448,19 @@
       }
     },
     "11936": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31772513",
+          "target_video_id": "31460032",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:55:59.564805+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31772513",
         "display_name": "The Two Jakes 4K CZ Dabing",
         "planned_at": "2026-11-27T07:35:18.742738+00:00"
-      },
-      "claim": {
-        "worker_id": "f927548339484d3189c3038a2ef38344-shard-0",
-        "claimed_at": "2026-11-27T07:35:19.689613+00:00",
-        "lease_expires_at": "2026-11-27T13:35:19.689613+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460032",
       "prepared": {
@@ -317527,5 +317529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:54:40.960677+00:00"
+  "updated_at": "2026-11-27T07:55:59.564823+00:00"
 }
