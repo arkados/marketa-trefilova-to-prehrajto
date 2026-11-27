@@ -303982,17 +303982,19 @@
       }
     },
     "21153": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33257449",
+          "target_video_id": "31478266",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:27:29.192888+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33257449",
         "display_name": "Larry Crowne 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:25:23.578500+00:00"
-      },
-      "claim": {
-        "worker_id": "d4cbf6ed836040ae8b063d773648ecaa-shard-0",
-        "claimed_at": "2026-11-27T21:25:24.390141+00:00",
-        "lease_expires_at": "2026-11-28T03:25:24.390141+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478266",
       "prepared": {
@@ -324765,5 +324767,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:27:19.266299+00:00"
+  "updated_at": "2026-11-27T21:27:29.192908+00:00"
 }
