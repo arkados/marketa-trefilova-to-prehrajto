@@ -291369,17 +291369,19 @@
       "attempts": []
     },
     "13209": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34044164",
+          "target_video_id": "31450771",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:03:00.783819+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34044164",
         "display_name": "Shanghai Knights 1080p CZ Dabing",
         "planned_at": "2026-11-27T00:57:34.506454+00:00"
-      },
-      "claim": {
-        "worker_id": "bb6a8f901af142ffa6006a69ee4ad418-shard-0",
-        "claimed_at": "2026-11-27T00:57:35.214776+00:00",
-        "lease_expires_at": "2026-11-27T06:57:35.214776+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450771",
       "prepared": {
@@ -314932,5 +314934,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:02:28.027529+00:00"
+  "updated_at": "2026-11-27T01:03:00.783836+00:00"
 }
