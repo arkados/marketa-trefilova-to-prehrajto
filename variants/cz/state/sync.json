@@ -296806,17 +296806,19 @@
       }
     },
     "26570": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30149732",
+          "target_video_id": "31469276",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:10:05.950284+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30149732",
         "display_name": "Bunraku 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:03:48.330857+00:00"
-      },
-      "claim": {
-        "worker_id": "99cb79003d7043559569c5df3aceb2ac-shard-0",
-        "claimed_at": "2026-11-27T14:03:49.308888+00:00",
-        "lease_expires_at": "2026-11-27T20:03:49.308888+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469276",
       "prepared": {
@@ -319218,5 +319220,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:09:34.712667+00:00"
+  "updated_at": "2026-11-27T14:10:05.950338+00:00"
 }
