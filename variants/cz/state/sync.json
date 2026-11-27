@@ -305807,17 +305807,19 @@
       }
     },
     "12952": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33221667",
+          "target_video_id": "31480816",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:13:12.611956+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33221667",
         "display_name": "The Mexican 1080p CZ Dabing",
         "planned_at": "2026-11-27T23:09:00.331847+00:00"
-      },
-      "claim": {
-        "worker_id": "936ac18bc5ea48308867638b71dc3062-shard-0",
-        "claimed_at": "2026-11-27T23:09:01.162839+00:00",
-        "lease_expires_at": "2026-11-28T05:09:01.162839+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480816",
       "prepared": {
@@ -326245,5 +326247,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:09:05.583686+00:00"
+  "updated_at": "2026-11-27T23:13:12.611975+00:00"
 }
