@@ -294262,17 +294262,19 @@
       }
     },
     "6975": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12584109",
+          "target_video_id": "31459823",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:28:36.312964+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12584109",
         "display_name": "Four Against the Bank (Vier gegen die Bank) SD CZ Dabing",
         "planned_at": "2026-11-27T07:26:18.612175+00:00"
-      },
-      "claim": {
-        "worker_id": "8b2709fb1c884017b116b31d367272bc-shard-0",
-        "claimed_at": "2026-11-27T07:26:19.665232+00:00",
-        "lease_expires_at": "2026-11-27T13:26:19.665232+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459823",
       "prepared": {
@@ -317250,5 +317252,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:28:00.110282+00:00"
+  "updated_at": "2026-11-27T07:28:36.312983+00:00"
 }
