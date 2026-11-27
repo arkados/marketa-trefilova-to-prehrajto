@@ -291396,17 +291396,19 @@
       "attempts": []
     },
     "5646": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35053849",
+          "target_video_id": "31450816",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:02:09.884673+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35053849",
         "display_name": "Grimsby 1080p CZ Dabing",
         "planned_at": "2026-11-27T00:58:42.993096+00:00"
-      },
-      "claim": {
-        "worker_id": "5644cc1ca9594cbc8993b7d2450e9d94-shard-0",
-        "claimed_at": "2026-11-27T00:58:43.748354+00:00",
-        "lease_expires_at": "2026-11-27T06:58:43.748354+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450816",
       "prepared": {
@@ -314912,5 +314914,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:58:48.057315+00:00"
+  "updated_at": "2026-11-27T01:02:09.884688+00:00"
 }
