@@ -296542,17 +296542,19 @@
       }
     },
     "25385": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33460600",
+          "target_video_id": "31468611",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:51:08.639489+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33460600",
         "display_name": "Jade Warrior SD CZ Dabing",
         "planned_at": "2026-11-27T13:49:09.903257+00:00"
-      },
-      "claim": {
-        "worker_id": "ad17218643b84765a816b40277d7dbec-shard-0",
-        "claimed_at": "2026-11-27T13:49:10.768545+00:00",
-        "lease_expires_at": "2026-11-27T19:49:10.768545+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31468611",
       "prepared": {
@@ -318980,5 +318982,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:51:05.468165+00:00"
+  "updated_at": "2026-11-27T13:51:08.639510+00:00"
 }
