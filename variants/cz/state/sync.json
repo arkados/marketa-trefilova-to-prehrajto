@@ -292384,17 +292384,19 @@
       "attempts": []
     },
     "6588": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31062422",
+          "target_video_id": "31453004",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:41:56.613141+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31062422",
         "display_name": "Patrick (2018) SD CZ Dabing",
         "planned_at": "2026-11-27T02:38:51.519610+00:00"
-      },
-      "claim": {
-        "worker_id": "3f60dbcef2a044a5b87c0f2cc2f3f18c-shard-0",
-        "claimed_at": "2026-11-27T02:38:52.030510+00:00",
-        "lease_expires_at": "2026-11-27T08:38:52.030510+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31453004",
       "prepared": {
@@ -315776,5 +315778,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:39:51.925613+00:00"
+  "updated_at": "2026-11-27T02:41:56.613158+00:00"
 }
