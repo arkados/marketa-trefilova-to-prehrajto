@@ -294665,17 +294665,19 @@
       }
     },
     "21846": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34858589",
+          "target_video_id": "31460492",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:15:21.760745+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34858589",
         "display_name": "A Countess from Hong Kong 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:56:09.438547+00:00"
-      },
-      "claim": {
-        "worker_id": "af888273d52c4bd18f3c9ce9d355cc8f-shard-0",
-        "claimed_at": "2026-11-27T07:56:10.462395+00:00",
-        "lease_expires_at": "2026-11-27T13:56:10.462395+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460492",
       "prepared": {
@@ -317647,5 +317649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:09:25.681757+00:00"
+  "updated_at": "2026-11-27T08:15:21.760762+00:00"
 }
