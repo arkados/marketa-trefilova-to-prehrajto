@@ -301464,17 +301464,19 @@
       }
     },
     "9083": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32212501",
+          "target_video_id": "31475841",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:36:50.520816+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32212501",
         "display_name": "Elliot the Littlest Reindeer (Elliot: The Littlest Reindeer) 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:35:11.854138+00:00"
-      },
-      "claim": {
-        "worker_id": "d21d5718ee594a9eb9db983d60bfb14b-shard-0",
-        "claimed_at": "2026-11-27T19:35:12.862175+00:00",
-        "lease_expires_at": "2026-11-28T01:35:12.862175+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475841",
       "prepared": {
@@ -322820,5 +322822,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:36:28.015448+00:00"
+  "updated_at": "2026-11-27T19:36:50.520831+00:00"
 }
