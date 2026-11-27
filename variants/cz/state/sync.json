@@ -294156,17 +294156,19 @@
       "attempts": []
     },
     "22062": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32499132",
+          "target_video_id": "31459643",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:25:36.701852+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32499132",
         "display_name": "Return of Sabata 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:20:04.998681+00:00"
-      },
-      "claim": {
-        "worker_id": "ef6b879c20cb4a9cbd5b50310d2bb0cd-shard-0",
-        "claimed_at": "2026-11-27T07:20:06.722392+00:00",
-        "lease_expires_at": "2026-11-27T13:20:06.722392+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459643",
       "prepared": {
@@ -317190,5 +317192,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:24:42.280351+00:00"
+  "updated_at": "2026-11-27T07:25:36.701869+00:00"
 }
