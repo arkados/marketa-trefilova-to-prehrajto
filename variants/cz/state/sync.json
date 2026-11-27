@@ -290873,17 +290873,19 @@
       }
     },
     "5619": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660363",
+          "target_video_id": "31430094",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:03:28.641882+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660363",
         "display_name": "The Game Plan 1080p CZ Dabing",
         "planned_at": "2026-11-26T23:52:40.563215+00:00"
-      },
-      "claim": {
-        "worker_id": "df0487a5b4ea4a2ba044b7b0ea02d80f-shard-0",
-        "claimed_at": "2026-11-26T23:52:41.273866+00:00",
-        "lease_expires_at": "2026-11-27T05:52:41.273866+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31430094",
       "prepared": {
@@ -314515,5 +314517,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-26T23:55:40.784579+00:00"
+  "updated_at": "2026-11-27T00:03:28.641905+00:00"
 }
