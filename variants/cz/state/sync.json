@@ -131979,7 +131979,7 @@
       "last_plan": {
         "source_id": "24028358",
         "display_name": "Vanilla Flavour (Vůně vanilky) SD CZ Dabing",
-        "planned_at": "2026-11-27T02:39:15.355995+00:00"
+        "planned_at": "2026-11-27T02:39:21.531736+00:00"
       },
       "previous_target_id": "30987024",
       "prepared": {
@@ -292309,17 +292309,19 @@
       }
     },
     "5358": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22805131",
+          "target_video_id": "31452882",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:39:25.169936+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22805131",
         "display_name": "Mad Max Beyond Thunderdome 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:33:16.743296+00:00"
-      },
-      "claim": {
-        "worker_id": "d2b8b725e80a4fa98ed9ec3cb59e3ae1-shard-0",
-        "claimed_at": "2026-11-27T02:33:17.234455+00:00",
-        "lease_expires_at": "2026-11-27T08:33:17.234455+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452882",
       "prepared": {
@@ -292407,7 +292409,13 @@
       "last_plan": {
         "source_id": "32907703",
         "display_name": "The Conjuring: The Devil Made Me Do It 4K CZ Dabing",
-        "planned_at": "2026-11-27T02:39:15.660285+00:00"
+        "planned_at": "2026-11-27T02:39:21.821481+00:00"
+      },
+      "claim": {
+        "worker_id": "427bb668dc8145fc842cd15f3d84a5d7-shard-0",
+        "claimed_at": "2026-11-27T02:39:22.319511+00:00",
+        "lease_expires_at": "2026-11-27T08:39:22.319511+00:00",
+        "run_id": "45925946745"
       }
     },
     "5703": {
@@ -315726,5 +315734,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:39:15.660302+00:00"
+  "updated_at": "2026-11-27T02:39:25.169952+00:00"
 }
