@@ -295790,17 +295790,19 @@
       }
     },
     "19827": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34698391",
+          "target_video_id": "31463413",
+          "permanent": false,
+          "attempted_at": "2026-11-27T10:27:50.227219+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34698391",
         "display_name": "BIONICLE: The Legend Reborn 1080p CZ Dabing",
         "planned_at": "2026-11-27T10:23:21.904980+00:00"
-      },
-      "claim": {
-        "worker_id": "010db431b729409dac848253bc8c13ce-shard-0",
-        "claimed_at": "2026-11-27T10:23:22.809843+00:00",
-        "lease_expires_at": "2026-11-27T16:23:22.809843+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31463413",
       "prepared": {
@@ -318364,5 +318366,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T10:23:26.660754+00:00"
+  "updated_at": "2026-11-27T10:27:50.227235+00:00"
 }
