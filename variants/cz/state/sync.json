@@ -141366,7 +141366,7 @@
       "last_plan": {
         "source_id": "34710797",
         "display_name": "Pohádka o splněných přáních 1080p CZ Dabing",
-        "planned_at": "2026-11-27T13:42:35.879010+00:00"
+        "planned_at": "2026-11-27T13:42:43.742798+00:00"
       },
       "previous_target_id": "30988191",
       "prepared": {
@@ -296451,11 +296451,23 @@
       "attempts": []
     },
     "19489": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33767648",
+          "reason": "Source detail has no authenticated download link; source_id=33767648",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:42:47.947747+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767648",
         "display_name": "Cargo (2009) 1080p CZ Dabing",
-        "planned_at": "2026-11-27T13:42:36.363651+00:00"
+        "planned_at": "2026-11-27T13:42:44.242073+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33767648",
+        "requested_at": "2026-11-27T13:42:47.947732+00:00"
       }
     },
     "17483": {
@@ -318871,5 +318883,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:42:36.363666+00:00"
+  "updated_at": "2026-11-27T13:42:47.947752+00:00"
 }
