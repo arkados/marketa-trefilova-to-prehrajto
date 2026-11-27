@@ -293706,17 +293706,19 @@
       "attempts": []
     },
     "25270": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26653701",
+          "target_video_id": "31459109",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:55:45.540219+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26653701",
         "display_name": "Alatriste (Captain Alatriste: The Spanish Musketeer) SD CZ Dabing",
         "planned_at": "2026-11-27T06:54:19.925241+00:00"
-      },
-      "claim": {
-        "worker_id": "81cffde417244af7943a531522a2e859-shard-0",
-        "claimed_at": "2026-11-27T06:54:20.856102+00:00",
-        "lease_expires_at": "2026-11-27T12:54:20.856102+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459109",
       "prepared": {
@@ -316784,5 +316786,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:54:24.532330+00:00"
+  "updated_at": "2026-11-27T06:55:45.540237+00:00"
 }
