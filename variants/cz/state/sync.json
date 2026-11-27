@@ -131979,7 +131979,7 @@
       "last_plan": {
         "source_id": "24028358",
         "display_name": "Vanilla Flavour (Vůně vanilky) SD CZ Dabing",
-        "planned_at": "2026-11-27T02:32:57.132216+00:00"
+        "planned_at": "2026-11-27T02:33:03.504148+00:00"
       },
       "previous_target_id": "30987024",
       "prepared": {
@@ -292285,11 +292285,23 @@
       }
     },
     "5339": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30208756",
+          "reason": "Source detail has no authenticated download link; source_id=30208756",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:33:07.154179+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30208756",
         "display_name": "Red One 4K CZ Dabing",
-        "planned_at": "2026-11-27T02:32:57.418276+00:00"
+        "planned_at": "2026-11-27T02:33:03.824379+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30208756",
+        "requested_at": "2026-11-27T02:33:07.154164+00:00"
       }
     },
     "5358": {
@@ -315629,5 +315641,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:32:57.418292+00:00"
+  "updated_at": "2026-11-27T02:33:07.154184+00:00"
 }
