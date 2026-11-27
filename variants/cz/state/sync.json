@@ -300478,17 +300478,19 @@
       }
     },
     "29969": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22221885",
+          "target_video_id": "31474940",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:58:27.904452+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22221885",
         "display_name": "The Invisible SD CZ Dabing",
         "planned_at": "2026-11-27T18:57:37.953375+00:00"
-      },
-      "claim": {
-        "worker_id": "226d1208c72745c0ae4e0c01547a748c-shard-0",
-        "claimed_at": "2026-11-27T18:57:38.988045+00:00",
-        "lease_expires_at": "2026-11-28T00:57:38.988045+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474940",
       "prepared": {
@@ -322011,5 +322013,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:58:23.266518+00:00"
+  "updated_at": "2026-11-27T18:58:27.904469+00:00"
 }
