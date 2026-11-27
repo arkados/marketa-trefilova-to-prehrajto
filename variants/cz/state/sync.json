@@ -299170,17 +299170,19 @@
       "attempts": []
     },
     "22985": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33726080",
+          "target_video_id": "31473843",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:17:18.513867+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33726080",
         "display_name": "Little Nikita 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:00:39.800785+00:00"
-      },
-      "claim": {
-        "worker_id": "cfb3ed741e4841aba32c88840075c4e5-shard-0",
-        "claimed_at": "2026-11-27T18:00:40.671318+00:00",
-        "lease_expires_at": "2026-11-28T00:00:40.671318+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473843",
       "prepared": {
@@ -321035,5 +321037,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:16:46.619088+00:00"
+  "updated_at": "2026-11-27T18:17:18.513882+00:00"
 }
