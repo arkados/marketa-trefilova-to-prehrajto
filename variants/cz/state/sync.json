@@ -293733,17 +293733,19 @@
       }
     },
     "37448": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34681518",
+          "target_video_id": "31459138",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:02:34.648718+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34681518",
         "display_name": "23,000 Lives (23 000 Lives) 1080p CZ Dabing",
         "planned_at": "2026-11-27T06:55:58.623986+00:00"
-      },
-      "claim": {
-        "worker_id": "030a60da05ab4418a96506eb8838c5d5-shard-0",
-        "claimed_at": "2026-11-27T06:55:59.581115+00:00",
-        "lease_expires_at": "2026-11-27T12:55:59.581115+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459138",
       "prepared": {
@@ -316884,5 +316886,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:01:33.361079+00:00"
+  "updated_at": "2026-11-27T07:02:34.648736+00:00"
 }
