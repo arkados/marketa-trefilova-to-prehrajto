@@ -304847,17 +304847,19 @@
       "attempts": []
     },
     "22283": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29545194",
+          "target_video_id": "31479251",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:11:12.176990+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29545194",
         "display_name": "The Big Bus 1080p CZ Dabing",
         "planned_at": "2026-11-27T22:09:08.209549+00:00"
-      },
-      "claim": {
-        "worker_id": "eb1f5b0198d144928bc8a6a58b6479f1-shard-0",
-        "claimed_at": "2026-11-27T22:09:09.072959+00:00",
-        "lease_expires_at": "2026-11-28T04:09:09.072959+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31479251",
       "prepared": {
@@ -325471,5 +325473,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:10:44.228032+00:00"
+  "updated_at": "2026-11-27T22:11:12.177017+00:00"
 }
