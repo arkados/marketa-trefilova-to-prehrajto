@@ -131183,7 +131183,7 @@
       "last_plan": {
         "source_id": "34451524",
         "display_name": "Circus Angel SD CZ Dabing",
-        "planned_at": "2026-11-27T19:42:34.263974+00:00"
+        "planned_at": "2026-11-27T19:42:40.363898+00:00"
       },
       "previous_target_id": "30986945",
       "prepared": {
@@ -301653,11 +301653,23 @@
       "attempts": []
     },
     "22097": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31654231",
+          "reason": "Source detail has no authenticated download link; source_id=31654231",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:42:44.366401+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31654231",
         "display_name": "Fuzz SD CZ Dabing",
-        "planned_at": "2026-11-27T19:42:34.882752+00:00"
+        "planned_at": "2026-11-27T19:42:41.016928+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31654231",
+        "requested_at": "2026-11-27T19:42:44.366387+00:00"
       }
     },
     "14193": {
@@ -322927,5 +322939,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:42:34.882767+00:00"
+  "updated_at": "2026-11-27T19:42:44.366407+00:00"
 }
