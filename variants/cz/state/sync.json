@@ -304748,17 +304748,19 @@
       }
     },
     "6195": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34891921",
+          "target_video_id": "31479037",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:10:29.495486+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34891921",
         "display_name": "G.I. Jane 4K CZ Dabing",
         "planned_at": "2026-11-27T22:02:43.068992+00:00"
-      },
-      "claim": {
-        "worker_id": "f97879931e244fa48e52a57009039c8f-shard-0",
-        "claimed_at": "2026-11-27T22:02:43.885831+00:00",
-        "lease_expires_at": "2026-11-28T04:02:43.885831+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31479037",
       "prepared": {
@@ -325451,5 +325453,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:09:14.060292+00:00"
+  "updated_at": "2026-11-27T22:10:29.495542+00:00"
 }
