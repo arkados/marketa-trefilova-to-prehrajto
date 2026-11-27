@@ -295925,17 +295925,19 @@
       }
     },
     "30191": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12618100",
+          "target_video_id": "31466254",
+          "permanent": false,
+          "attempted_at": "2026-11-27T12:31:02.569328+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12618100",
         "display_name": "The Fourth War SD CZ Dabing",
         "planned_at": "2026-11-27T12:23:09.482711+00:00"
-      },
-      "claim": {
-        "worker_id": "f2634d38a02444d9a3fcabeb3254d4f0-shard-0",
-        "claimed_at": "2026-11-27T12:23:13.773348+00:00",
-        "lease_expires_at": "2026-11-27T18:23:13.773348+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31466254",
       "prepared": {
@@ -318484,5 +318486,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T12:23:31.286279+00:00"
+  "updated_at": "2026-11-27T12:31:02.569351+00:00"
 }
