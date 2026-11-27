@@ -300681,17 +300681,19 @@
       "attempts": []
     },
     "23677": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30682914",
+          "target_video_id": "31475071",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:09:07.131068+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30682914",
         "display_name": "Blood and Wine SD CZ Dabing",
         "planned_at": "2026-11-27T19:03:48.446808+00:00"
-      },
-      "claim": {
-        "worker_id": "fa04bd34e8a74339bbe1be6022eb787e-shard-0",
-        "claimed_at": "2026-11-27T19:03:49.480608+00:00",
-        "lease_expires_at": "2026-11-28T01:03:49.480608+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475071",
       "prepared": {
@@ -322186,5 +322188,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:07:02.162574+00:00"
+  "updated_at": "2026-11-27T19:09:07.131090+00:00"
 }
