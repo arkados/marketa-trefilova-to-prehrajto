@@ -303390,17 +303390,19 @@
       }
     },
     "21863": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20648673",
+          "target_video_id": "31477858",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:08:40.413198+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20648673",
         "display_name": "How I Won the War 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:06:22.160617+00:00"
-      },
-      "claim": {
-        "worker_id": "1847204784a7425bb8266f0849224300-shard-0",
-        "claimed_at": "2026-11-27T21:06:25.815933+00:00",
-        "lease_expires_at": "2026-11-28T03:06:25.815933+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477858",
       "prepared": {
@@ -324328,5 +324330,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:07:48.372478+00:00"
+  "updated_at": "2026-11-27T21:08:40.413219+00:00"
 }
