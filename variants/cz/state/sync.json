@@ -297826,17 +297826,19 @@
       "attempts": []
     },
     "26654": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34485230",
+          "target_video_id": "31471564",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:49:09.375384+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34485230",
         "display_name": "Everyman's War SD CZ Dabing",
         "planned_at": "2026-11-27T15:45:19.030610+00:00"
-      },
-      "claim": {
-        "worker_id": "659d9bcbabf3458f9571e08d24c20e53-shard-0",
-        "claimed_at": "2026-11-27T15:45:19.885107+00:00",
-        "lease_expires_at": "2026-11-27T21:45:19.885107+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471564",
       "prepared": {
@@ -319938,5 +319940,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:45:24.098419+00:00"
+  "updated_at": "2026-11-27T15:49:09.375402+00:00"
 }
