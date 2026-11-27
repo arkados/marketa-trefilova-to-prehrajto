@@ -304515,17 +304515,19 @@
       }
     },
     "12079": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29645130",
+          "target_video_id": "31478723",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:52:55.028280+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29645130",
         "display_name": "Indecent Proposal 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:50:06.392947+00:00"
-      },
-      "claim": {
-        "worker_id": "71f38614f42b4eda87c1c8a2e35ab2bb-shard-0",
-        "claimed_at": "2026-11-27T21:50:07.217813+00:00",
-        "lease_expires_at": "2026-11-28T03:50:07.217813+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478723",
       "prepared": {
@@ -325205,5 +325207,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:50:41.231241+00:00"
+  "updated_at": "2026-11-27T21:52:55.028301+00:00"
 }
