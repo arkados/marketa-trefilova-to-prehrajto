@@ -164120,7 +164120,7 @@
       "last_plan": {
         "source_id": "33734079",
         "display_name": "True Believer 1080p CZ Dabing",
-        "planned_at": "2026-11-27T09:31:21.020614+00:00"
+        "planned_at": "2026-11-27T09:31:28.624541+00:00"
       },
       "previous_target_id": "31095813",
       "prepared": {
@@ -295393,11 +295393,23 @@
       }
     },
     "5836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34849610",
+          "reason": "Source detail has no authenticated download link; source_id=34849610",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:31:33.627912+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34849610",
         "display_name": "The Overnight 1080p CZ Dabing",
-        "planned_at": "2026-11-27T09:31:21.533106+00:00"
+        "planned_at": "2026-11-27T09:31:29.727349+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34849610",
+        "requested_at": "2026-11-27T09:31:33.627897+00:00"
       }
     },
     "22736": {
@@ -318074,5 +318086,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:31:21.533123+00:00"
+  "updated_at": "2026-11-27T09:31:33.627918+00:00"
 }
