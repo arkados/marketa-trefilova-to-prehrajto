@@ -292266,17 +292266,19 @@
       }
     },
     "5558": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34391150",
+          "target_video_id": "31452832",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:35:20.113796+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34391150",
         "display_name": "Killing Them Softly 720p CZ Dabing",
         "planned_at": "2026-11-27T02:31:07.147592+00:00"
-      },
-      "claim": {
-        "worker_id": "96e2736a15f140cd99a95fea66e7197f-shard-0",
-        "claimed_at": "2026-11-27T02:31:07.617238+00:00",
-        "lease_expires_at": "2026-11-27T08:31:07.617238+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452832",
       "prepared": {
@@ -315679,5 +315681,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:34:05.292853+00:00"
+  "updated_at": "2026-11-27T02:35:20.113814+00:00"
 }
