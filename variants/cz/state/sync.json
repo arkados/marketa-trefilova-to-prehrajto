@@ -291825,17 +291825,19 @@
       "attempts": []
     },
     "25124": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10213987",
+          "target_video_id": "31452301",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:05:24.834532+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10213987",
         "display_name": "Lethal SD CZ Dabing",
         "planned_at": "2026-11-27T02:03:03.940226+00:00"
-      },
-      "claim": {
-        "worker_id": "b5679f9b749041bfb141e94e069af346-shard-0",
-        "claimed_at": "2026-11-27T02:03:04.842552+00:00",
-        "lease_expires_at": "2026-11-27T08:03:04.842552+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452301",
       "prepared": {
@@ -315302,5 +315304,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:03:36.635164+00:00"
+  "updated_at": "2026-11-27T02:05:24.834547+00:00"
 }
