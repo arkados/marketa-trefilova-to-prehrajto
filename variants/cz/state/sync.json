@@ -300344,17 +300344,19 @@
       "attempts": []
     },
     "12166": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34785384",
+          "target_video_id": "31474860",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:56:52.493104+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34785384",
         "display_name": "Lassie (1994) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:54:22.379291+00:00"
-      },
-      "claim": {
-        "worker_id": "3f34f93aaf1e49f2a3c9358b940dae85-shard-0",
-        "claimed_at": "2026-11-27T18:54:23.434567+00:00",
-        "lease_expires_at": "2026-11-28T00:54:23.434567+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474860",
       "prepared": {
@@ -321956,5 +321958,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:56:46.043218+00:00"
+  "updated_at": "2026-11-27T18:56:52.493118+00:00"
 }
