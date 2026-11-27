@@ -302749,17 +302749,19 @@
       }
     },
     "37289": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27483314",
+          "target_video_id": "31477038",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:33:59.528298+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27483314",
         "display_name": "Ice (1998) SD CZ Dabing",
         "planned_at": "2026-11-27T20:32:00.124079+00:00"
-      },
-      "claim": {
-        "worker_id": "7ff735f2b23f40bebfa2221919f68c19-shard-0",
-        "claimed_at": "2026-11-27T20:32:01.662400+00:00",
-        "lease_expires_at": "2026-11-28T02:32:01.662400+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477038",
       "prepared": {
@@ -323834,5 +323836,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:33:55.398209+00:00"
+  "updated_at": "2026-11-27T20:33:59.528328+00:00"
 }
