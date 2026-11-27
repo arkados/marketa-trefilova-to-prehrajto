@@ -296471,17 +296471,19 @@
       }
     },
     "17483": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26220385",
+          "target_video_id": "31468259",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:46:07.931189+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26220385",
         "display_name": "Yes, God, Yes 1080p CZ Dabing",
         "planned_at": "2026-11-27T13:42:58.768364+00:00"
-      },
-      "claim": {
-        "worker_id": "83eb4e24910545e1b4dbf178164ae0bc-shard-0",
-        "claimed_at": "2026-11-27T13:42:59.618241+00:00",
-        "lease_expires_at": "2026-11-27T19:42:59.618241+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31468259",
       "prepared": {
@@ -318901,5 +318903,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:43:03.986747+00:00"
+  "updated_at": "2026-11-27T13:46:07.931207+00:00"
 }
