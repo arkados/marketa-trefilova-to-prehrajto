@@ -304613,17 +304613,19 @@
       }
     },
     "25924": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "34937319",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-27T21:56:15.834220+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34937319",
         "display_name": "Live! 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:55:05.305720+00:00"
-      },
-      "claim": {
-        "worker_id": "465307177f96416bae6444ce427f042e-shard-0",
-        "claimed_at": "2026-11-27T21:55:06.142580+00:00",
-        "lease_expires_at": "2026-11-28T03:55:06.142580+00:00",
-        "run_id": "46064168266"
       }
     },
     "8179": {
@@ -325278,5 +325280,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:56:11.995940+00:00"
+  "updated_at": "2026-11-27T21:56:15.834241+00:00"
 }
