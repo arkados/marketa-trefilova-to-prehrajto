@@ -303604,17 +303604,19 @@
       "attempts": []
     },
     "23836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34730882",
+          "target_video_id": "31478009",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:14:07.321881+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34730882",
         "display_name": "The Night Flier SD CZ Dabing",
         "planned_at": "2026-11-27T21:13:05.995484+00:00"
-      },
-      "claim": {
-        "worker_id": "a0f6377cf3bd4f808fca63e86c71d7f2-shard-0",
-        "claimed_at": "2026-11-27T21:13:07.191626+00:00",
-        "lease_expires_at": "2026-11-28T03:13:07.191626+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478009",
       "prepared": {
@@ -324465,5 +324467,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:13:12.254142+00:00"
+  "updated_at": "2026-11-27T21:14:07.321900+00:00"
 }
