@@ -298766,17 +298766,19 @@
       "attempts": []
     },
     "6071": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29252549",
+          "target_video_id": "31473404",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:12:21.117006+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29252549",
         "display_name": "Dom Hemingway 720p CZ Dabing",
         "planned_at": "2026-11-27T17:09:30.215343+00:00"
-      },
-      "claim": {
-        "worker_id": "d3bc6973e5494c3c8d6492f15d417b70-shard-0",
-        "claimed_at": "2026-11-27T17:09:31.210277+00:00",
-        "lease_expires_at": "2026-11-27T23:09:31.210277+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473404",
       "prepared": {
@@ -320695,5 +320697,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:10:48.947986+00:00"
+  "updated_at": "2026-11-27T17:12:21.117021+00:00"
 }
