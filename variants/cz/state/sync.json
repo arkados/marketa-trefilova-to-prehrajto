@@ -124715,7 +124715,7 @@
       "last_plan": {
         "source_id": "34503356",
         "display_name": "The Hot Rock 1080p CZ Dabing",
-        "planned_at": "2026-11-27T00:52:45.426710+00:00"
+        "planned_at": "2026-11-27T00:52:52.067798+00:00"
       },
       "previous_target_id": "30985739",
       "prepared": {
@@ -291292,11 +291292,23 @@
       }
     },
     "7217": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31093557",
+          "reason": "Source detail has no authenticated download link; source_id=31093557",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:52:55.199637+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31093557",
         "display_name": "Silent Twins (The Silent Twins) 1080p CZ Dabing",
-        "planned_at": "2026-11-27T00:52:45.865317+00:00"
+        "planned_at": "2026-11-27T00:52:52.495876+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31093557",
+        "requested_at": "2026-11-27T00:52:55.199620+00:00"
       }
     },
     "24391": {
@@ -314822,5 +314834,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:52:45.865334+00:00"
+  "updated_at": "2026-11-27T00:52:55.199643+00:00"
 }
