@@ -292670,17 +292670,19 @@
       }
     },
     "5417": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31582764",
+          "target_video_id": "31454393",
+          "permanent": false,
+          "attempted_at": "2026-11-27T03:49:07.885428+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31582764",
         "display_name": "Fantastic Beasts: The Secrets of Dumbledore 4K CZ Dabing",
         "planned_at": "2026-11-27T03:32:40.326743+00:00"
-      },
-      "claim": {
-        "worker_id": "c16852ebb5bc4e2085f4cf81087035ea-shard-0",
-        "claimed_at": "2026-11-27T03:32:40.808636+00:00",
-        "lease_expires_at": "2026-11-27T09:32:40.808636+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31454393",
       "prepared": {
@@ -315960,5 +315962,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T03:49:03.222652+00:00"
+  "updated_at": "2026-11-27T03:49:07.885444+00:00"
 }
