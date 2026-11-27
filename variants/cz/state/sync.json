@@ -297013,17 +297013,19 @@
       "attempts": []
     },
     "11686": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33746622",
+          "target_video_id": "31469566",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:21:45.517016+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33746622",
         "display_name": "The Gate 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:17:40.758570+00:00"
-      },
-      "claim": {
-        "worker_id": "6401730e45c44d7e92bc44407092a4b5-shard-0",
-        "claimed_at": "2026-11-27T14:17:41.589475+00:00",
-        "lease_expires_at": "2026-11-27T20:17:41.589475+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469566",
       "prepared": {
@@ -319338,5 +319340,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:18:46.633511+00:00"
+  "updated_at": "2026-11-27T14:21:45.517033+00:00"
 }
