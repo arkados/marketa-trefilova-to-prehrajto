@@ -292981,17 +292981,19 @@
       }
     },
     "5715": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31730583",
+          "target_video_id": "31456192",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:45:10.690771+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31730583",
         "display_name": "Transcendence 1080p CZ Dabing",
         "planned_at": "2026-11-27T04:36:27.374234+00:00"
-      },
-      "claim": {
-        "worker_id": "8ef2425d7a454ecc9f8f8d5b27b3ed24-shard-0",
-        "claimed_at": "2026-11-27T04:36:27.827877+00:00",
-        "lease_expires_at": "2026-11-27T10:36:27.827877+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31456192",
       "prepared": {
@@ -316230,5 +316232,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:41:40.604302+00:00"
+  "updated_at": "2026-11-27T04:45:10.690789+00:00"
 }
