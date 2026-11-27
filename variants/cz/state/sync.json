@@ -301744,17 +301744,19 @@
       "attempts": []
     },
     "26253": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27106634",
+          "target_video_id": "31476181",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:49:31.033110+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27106634",
         "display_name": "Splinter 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:45:08.300273+00:00"
-      },
-      "claim": {
-        "worker_id": "fda316436185417ebd1092377646a007-shard-0",
-        "claimed_at": "2026-11-27T19:45:15.705640+00:00",
-        "lease_expires_at": "2026-11-28T01:45:15.705640+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476181",
       "prepared": {
@@ -323094,5 +323096,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:48:28.797060+00:00"
+  "updated_at": "2026-11-27T19:49:31.033126+00:00"
 }
