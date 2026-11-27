@@ -131979,7 +131979,7 @@
       "last_plan": {
         "source_id": "24028358",
         "display_name": "Vanilla Flavour (Vůně vanilky) SD CZ Dabing",
-        "planned_at": "2026-11-27T04:16:40.289134+00:00"
+        "planned_at": "2026-11-27T04:16:46.802965+00:00"
       },
       "previous_target_id": "30987024",
       "prepared": {
@@ -292841,11 +292841,23 @@
       }
     },
     "5709": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32943053",
+          "reason": "Source detail has no authenticated download link; source_id=32943053",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:16:51.305239+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32943053",
         "display_name": "Resident Evil: Extinction 4K CZ Dabing",
-        "planned_at": "2026-11-27T04:16:40.580815+00:00"
+        "planned_at": "2026-11-27T04:16:47.109091+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "32943053",
+        "requested_at": "2026-11-27T04:16:51.305221+00:00"
       }
     },
     "17067": {
@@ -316080,5 +316092,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:16:40.580833+00:00"
+  "updated_at": "2026-11-27T04:16:51.305243+00:00"
 }
