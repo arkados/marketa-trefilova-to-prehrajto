@@ -295438,17 +295438,19 @@
       }
     },
     "5938": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25042329",
+          "target_video_id": "31462396",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:40:56.645614+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25042329",
         "display_name": "Work It 1080p CZ Dabing",
         "planned_at": "2026-11-27T09:32:17.695406+00:00"
-      },
-      "claim": {
-        "worker_id": "56d03010d3d0492c85ae63cfd75a8b92-shard-0",
-        "claimed_at": "2026-11-27T09:32:18.668107+00:00",
-        "lease_expires_at": "2026-11-27T15:32:18.668107+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31462396",
       "prepared": {
@@ -318144,5 +318146,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:39:27.662508+00:00"
+  "updated_at": "2026-11-27T09:40:56.645631+00:00"
 }
