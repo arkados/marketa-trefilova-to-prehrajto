@@ -294994,17 +294994,19 @@
       "attempts": []
     },
     "36651": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31543083",
+          "target_video_id": "31461278",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:56:06.854158+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31543083",
         "display_name": "Alone in the Dark (1982) 1080p CZ Dabing",
         "planned_at": "2026-11-27T08:36:37.124725+00:00"
-      },
-      "claim": {
-        "worker_id": "37be6d2533814812ac963211be66a099-shard-0",
-        "claimed_at": "2026-11-27T08:36:37.998560+00:00",
-        "lease_expires_at": "2026-11-27T14:36:37.998560+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31461278",
       "prepared": {
@@ -317867,5 +317869,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:51:01.071119+00:00"
+  "updated_at": "2026-11-27T08:56:06.854174+00:00"
 }
