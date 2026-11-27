@@ -292714,17 +292714,19 @@
       }
     },
     "5489": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6910249",
+          "target_video_id": "31454870",
+          "permanent": false,
+          "attempted_at": "2026-11-27T03:54:08.757635+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6910249",
         "display_name": "The Legend of Tarzan 1080p CZ Dabing",
         "planned_at": "2026-11-27T03:49:23.487747+00:00"
-      },
-      "claim": {
-        "worker_id": "80ba0968cde14f35b1977d324860443d-shard-0",
-        "claimed_at": "2026-11-27T03:49:23.945443+00:00",
-        "lease_expires_at": "2026-11-27T09:49:23.945443+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31454870",
       "prepared": {
@@ -315993,5 +315995,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T03:49:28.367997+00:00"
+  "updated_at": "2026-11-27T03:54:08.757648+00:00"
 }
