@@ -292737,17 +292737,19 @@
       }
     },
     "5721": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26240038",
+          "target_video_id": "31455032",
+          "permanent": false,
+          "attempted_at": "2026-11-27T03:59:11.681128+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26240038",
         "display_name": "Mama (2013) 1080p CZ Dabing",
         "planned_at": "2026-11-27T03:54:18.610628+00:00"
-      },
-      "claim": {
-        "worker_id": "a798f9073f774f3b9aa1a974c9b22aee-shard-0",
-        "claimed_at": "2026-11-27T03:54:19.070467+00:00",
-        "lease_expires_at": "2026-11-27T09:54:19.070467+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31455032",
       "prepared": {
@@ -316013,5 +316015,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T03:54:25.130017+00:00"
+  "updated_at": "2026-11-27T03:59:11.681146+00:00"
 }
