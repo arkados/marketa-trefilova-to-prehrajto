@@ -299437,17 +299437,19 @@
       }
     },
     "6350": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10975481",
+          "target_video_id": "31474073",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:24:33.724719+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10975481",
         "display_name": "Flowers in the Attic (2014) SD CZ Dabing",
         "planned_at": "2026-11-27T18:23:33.640413+00:00"
-      },
-      "claim": {
-        "worker_id": "d65f8a4251ac4a97a71a0c95dacb01c4-shard-0",
-        "claimed_at": "2026-11-27T18:23:34.589010+00:00",
-        "lease_expires_at": "2026-11-28T00:23:34.589010+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474073",
       "prepared": {
@@ -321195,5 +321197,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:24:00.881935+00:00"
+  "updated_at": "2026-11-27T18:24:33.724734+00:00"
 }
