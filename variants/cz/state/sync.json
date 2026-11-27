@@ -297143,17 +297143,19 @@
       }
     },
     "26463": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25814170",
+          "target_video_id": "31469786",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:34:59.247582+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25814170",
         "display_name": "Miss Nobody (2010) 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:29:24.517763+00:00"
-      },
-      "claim": {
-        "worker_id": "4d252d0834d9429493bb44a7dd2eb7b4-shard-0",
-        "claimed_at": "2026-11-27T14:29:28.580078+00:00",
-        "lease_expires_at": "2026-11-27T20:29:28.580078+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469786",
       "prepared": {
@@ -319438,5 +319440,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:29:47.685440+00:00"
+  "updated_at": "2026-11-27T14:34:59.247598+00:00"
 }
