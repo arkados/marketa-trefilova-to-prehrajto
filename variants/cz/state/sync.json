@@ -295036,17 +295036,19 @@
       }
     },
     "6798": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29721969",
+          "target_video_id": "31461387",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:50:39.992309+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29721969",
         "display_name": "Club Zero 1080p CZ Dabing",
         "planned_at": "2026-11-27T08:42:28.378342+00:00"
-      },
-      "claim": {
-        "worker_id": "8117c75d2c1942bf873f521c046f3d06-shard-0",
-        "claimed_at": "2026-11-27T08:42:29.239611+00:00",
-        "lease_expires_at": "2026-11-27T14:42:29.239611+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31461387",
       "prepared": {
@@ -317847,5 +317849,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:42:33.203820+00:00"
+  "updated_at": "2026-11-27T08:50:39.992326+00:00"
 }
