@@ -294177,17 +294177,19 @@
       }
     },
     "5795": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "29126406",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-27T07:24:25.563356+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29126406",
         "display_name": "Am I Ok? 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:22:47.131076+00:00"
-      },
-      "claim": {
-        "worker_id": "c1bd39c126844dd787b54099915eeae5-shard-0",
-        "claimed_at": "2026-11-27T07:22:48.148812+00:00",
-        "lease_expires_at": "2026-11-27T13:22:48.148812+00:00",
-        "run_id": "45930809608"
       }
     },
     "27815": {
@@ -317170,5 +317172,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:23:45.661579+00:00"
+  "updated_at": "2026-11-27T07:24:25.563390+00:00"
 }
