@@ -304036,17 +304036,19 @@
       }
     },
     "6137": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32422511",
+          "target_video_id": "31478308",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:29:49.632797+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32422511",
         "display_name": "Champagne Problems 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:27:40.537515+00:00"
-      },
-      "claim": {
-        "worker_id": "b1428ebe1a1f4d208befcbbc342e95aa-shard-0",
-        "claimed_at": "2026-11-27T21:27:41.353890+00:00",
-        "lease_expires_at": "2026-11-28T03:27:41.353890+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478308",
       "prepared": {
@@ -324825,5 +324827,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:28:35.697300+00:00"
+  "updated_at": "2026-11-27T21:29:49.632816+00:00"
 }
