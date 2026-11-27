@@ -290965,17 +290965,19 @@
       }
     },
     "26620": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31769380",
+          "target_video_id": "31441634",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:14:29.505414+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31769380",
         "display_name": "The Five-Year Engagement SD CZ Dabing",
         "planned_at": "2026-11-27T00:10:13.230366+00:00"
-      },
-      "claim": {
-        "worker_id": "92ca650e10434fca9cacc80c13a16822-shard-0",
-        "claimed_at": "2026-11-27T00:10:13.913458+00:00",
-        "lease_expires_at": "2026-11-27T06:10:13.913458+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31441634",
       "prepared": {
@@ -314595,5 +314597,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:12:46.138246+00:00"
+  "updated_at": "2026-11-27T00:14:29.505430+00:00"
 }
