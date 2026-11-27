@@ -298961,17 +298961,19 @@
       "attempts": []
     },
     "23544": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34704672",
+          "target_video_id": "31473582",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:25:37.429671+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34704672",
         "display_name": "The Shadow SD CZ Dabing",
         "planned_at": "2026-11-27T17:20:57.642401+00:00"
-      },
-      "claim": {
-        "worker_id": "ce762ba455094a97a0f769d0d7592137-shard-0",
-        "claimed_at": "2026-11-27T17:20:58.512345+00:00",
-        "lease_expires_at": "2026-11-27T23:20:58.512345+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473582",
       "prepared": {
@@ -320815,5 +320817,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:21:02.292104+00:00"
+  "updated_at": "2026-11-27T17:25:37.429686+00:00"
 }
