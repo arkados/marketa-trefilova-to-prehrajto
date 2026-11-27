@@ -299144,17 +299144,19 @@
       }
     },
     "30427": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713625",
+          "target_video_id": "31473806",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:14:29.076752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713625",
         "display_name": "Animal Crackers 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:54:39.241923+00:00"
-      },
-      "claim": {
-        "worker_id": "665e5a25912d4dc1a2dbbf818d78a08f-shard-0",
-        "claimed_at": "2026-11-27T17:54:40.093983+00:00",
-        "lease_expires_at": "2026-11-27T23:54:40.093983+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473806",
       "prepared": {
@@ -320995,5 +320997,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:04:41.153666+00:00"
+  "updated_at": "2026-11-27T18:14:29.076776+00:00"
 }
