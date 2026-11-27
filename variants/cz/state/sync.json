@@ -298607,17 +298607,19 @@
       }
     },
     "10126": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11632334",
+          "target_video_id": "31472979",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:56:54.268222+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11632334",
         "display_name": "Wheely 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:51:35.970612+00:00"
-      },
-      "claim": {
-        "worker_id": "6ffe97a4cab240e9aa1ad2ff0de09ccf-shard-0",
-        "claimed_at": "2026-11-27T16:51:36.880628+00:00",
-        "lease_expires_at": "2026-11-27T22:51:36.880628+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472979",
       "prepared": {
@@ -320575,5 +320577,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:55:04.169301+00:00"
+  "updated_at": "2026-11-27T16:56:54.268237+00:00"
 }
