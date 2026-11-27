@@ -305548,17 +305548,19 @@
       "attempts": []
     },
     "13635": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "9705810",
+          "target_video_id": "31480417",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:48:13.938887+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "9705810",
         "display_name": "Right at Your Door SD CZ Dabing",
         "planned_at": "2026-11-27T22:47:19.931237+00:00"
-      },
-      "claim": {
-        "worker_id": "cc7d504a733249409f1a8807a4fa98dd-shard-0",
-        "claimed_at": "2026-11-27T22:47:20.754844+00:00",
-        "lease_expires_at": "2026-11-28T04:47:20.754844+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480417",
       "prepared": {
@@ -326028,5 +326030,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:47:24.981888+00:00"
+  "updated_at": "2026-11-27T22:48:13.938908+00:00"
 }
