@@ -304134,17 +304134,19 @@
       }
     },
     "6067": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30754318",
+          "target_video_id": "31478395",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:34:08.272848+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30754318",
         "display_name": "Solomon Kane 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:31:52.060052+00:00"
-      },
-      "claim": {
-        "worker_id": "235a9e5b079e42bf92d5925a6d7f9944-shard-0",
-        "claimed_at": "2026-11-27T21:31:52.885138+00:00",
-        "lease_expires_at": "2026-11-28T03:31:52.885138+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478395",
       "prepared": {
@@ -324925,5 +324927,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:33:50.304779+00:00"
+  "updated_at": "2026-11-27T21:34:08.272867+00:00"
 }
