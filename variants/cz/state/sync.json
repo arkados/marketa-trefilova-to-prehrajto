@@ -294640,17 +294640,19 @@
       "attempts": []
     },
     "7201": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34666070",
+          "target_video_id": "31460462",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:57:50.632396+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34666070",
         "display_name": "The Adults 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:54:36.105840+00:00"
-      },
-      "claim": {
-        "worker_id": "791dd3a54e5347a9a52aea931f8f475b-shard-0",
-        "claimed_at": "2026-11-27T07:54:37.012178+00:00",
-        "lease_expires_at": "2026-11-27T13:54:37.012178+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460462",
       "prepared": {
@@ -317547,5 +317549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:56:14.249963+00:00"
+  "updated_at": "2026-11-27T07:57:50.632412+00:00"
 }
