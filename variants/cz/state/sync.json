@@ -295141,17 +295141,19 @@
       "attempts": []
     },
     "36697": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23199077",
+          "target_video_id": "31461777",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:08:29.949360+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23199077",
         "display_name": "The Assassins (TongQueTai) SD CZ Dabing",
         "planned_at": "2026-11-27T09:04:11.160845+00:00"
-      },
-      "claim": {
-        "worker_id": "82676aff7a444b07847220cad7ae93d4-shard-0",
-        "claimed_at": "2026-11-27T09:04:12.099296+00:00",
-        "lease_expires_at": "2026-11-27T15:04:12.099296+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31461777",
       "prepared": {
@@ -317907,5 +317909,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:04:15.664270+00:00"
+  "updated_at": "2026-11-27T09:08:29.949377+00:00"
 }
