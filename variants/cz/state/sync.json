@@ -303117,17 +303117,19 @@
       "attempts": []
     },
     "23183": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33794193",
+          "target_video_id": "31477377",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:48:47.355707+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33794193",
         "display_name": "Company Business 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:46:33.401765+00:00"
-      },
-      "claim": {
-        "worker_id": "4b9987e61f3d47dba2397857143458c5-shard-0",
-        "claimed_at": "2026-11-27T20:46:34.227724+00:00",
-        "lease_expires_at": "2026-11-28T02:46:34.227724+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477377",
       "prepared": {
@@ -324071,5 +324073,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:46:37.878635+00:00"
+  "updated_at": "2026-11-27T20:48:47.355727+00:00"
 }
