@@ -293004,17 +293004,19 @@
       }
     },
     "14749": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13805961",
+          "target_video_id": "31456355",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:53:39.467034+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13805961",
         "display_name": "No Strings Attached 1080p CZ Dabing",
         "planned_at": "2026-11-27T04:41:35.694856+00:00"
-      },
-      "claim": {
-        "worker_id": "b922d2b1e9b3413b8f6ddc5f23a7b250-shard-0",
-        "claimed_at": "2026-11-27T04:41:36.152485+00:00",
-        "lease_expires_at": "2026-11-27T10:41:36.152485+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31456355",
       "prepared": {
@@ -316250,5 +316252,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:45:26.025707+00:00"
+  "updated_at": "2026-11-27T04:53:39.467050+00:00"
 }
