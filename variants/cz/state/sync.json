@@ -291450,17 +291450,19 @@
       }
     },
     "7635": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12136609",
+          "target_video_id": "31450945",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:06:27.797394+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12136609",
         "display_name": "Share 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:03:10.428678+00:00"
-      },
-      "claim": {
-        "worker_id": "6ccbbb3d3e4a40f79321efe00406d148-shard-0",
-        "claimed_at": "2026-11-27T01:03:11.162452+00:00",
-        "lease_expires_at": "2026-11-27T07:03:11.162452+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450945",
       "prepared": {
@@ -314972,5 +314974,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:04:25.419074+00:00"
+  "updated_at": "2026-11-27T01:06:27.797410+00:00"
 }
