@@ -298381,17 +298381,19 @@
       }
     },
     "12846": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10275217",
+          "target_video_id": "31472713",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:42:38.461518+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10275217",
         "display_name": "Circus SD CZ Dabing",
         "planned_at": "2026-11-27T16:39:15.243350+00:00"
-      },
-      "claim": {
-        "worker_id": "7398eace5b0640d5826ac267bb53d362-shard-0",
-        "claimed_at": "2026-11-27T16:39:16.096973+00:00",
-        "lease_expires_at": "2026-11-27T22:39:16.096973+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472713",
       "prepared": {
@@ -320418,5 +320420,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:40:12.540759+00:00"
+  "updated_at": "2026-11-27T16:42:38.461561+00:00"
 }
