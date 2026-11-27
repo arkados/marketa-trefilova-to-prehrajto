@@ -295525,17 +295525,19 @@
       "attempts": []
     },
     "37005": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15427447",
+          "target_video_id": "31462728",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:52:02.146131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15427447",
         "display_name": "Sleepwalker (2026) 1080p CZ Dabing",
         "planned_at": "2026-11-27T09:46:57.555855+00:00"
-      },
-      "claim": {
-        "worker_id": "bc0e52cba5a444f18e19e5f88f4f5d22-shard-0",
-        "claimed_at": "2026-11-27T09:46:58.432254+00:00",
-        "lease_expires_at": "2026-11-27T15:46:58.432254+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31462728",
       "prepared": {
@@ -318204,5 +318206,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:51:51.829147+00:00"
+  "updated_at": "2026-11-27T09:52:02.146148+00:00"
 }
