@@ -304422,17 +304422,19 @@
       }
     },
     "17847": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32145018",
+          "target_video_id": "31478602",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:50:26.268065+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32145018",
         "display_name": "Inkheart 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:44:20.362038+00:00"
-      },
-      "claim": {
-        "worker_id": "1f68f03e4f854b2e9320af87d7942046-shard-0",
-        "claimed_at": "2026-11-27T21:44:21.175156+00:00",
-        "lease_expires_at": "2026-11-28T03:44:21.175156+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478602",
       "prepared": {
@@ -325185,5 +325187,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:50:12.219767+00:00"
+  "updated_at": "2026-11-27T21:50:26.268085+00:00"
 }
