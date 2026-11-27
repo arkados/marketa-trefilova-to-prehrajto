@@ -300984,17 +300984,19 @@
       "attempts": []
     },
     "26721": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6516738",
+          "target_video_id": "31475446",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:22:58.274732+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6516738",
         "display_name": "Taras Bulba (Iron & Blood: The Legend of Taras Bulba) (2009) SD CZ Dabing",
         "planned_at": "2026-11-27T19:21:32.250957+00:00"
-      },
-      "claim": {
-        "worker_id": "6101eff061c9461fa704cae3789f800f-shard-0",
-        "claimed_at": "2026-11-27T19:21:35.701583+00:00",
-        "lease_expires_at": "2026-11-28T01:21:35.701583+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475446",
       "prepared": {
@@ -322403,5 +322405,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:21:51.369020+00:00"
+  "updated_at": "2026-11-27T19:22:58.274748+00:00"
 }
