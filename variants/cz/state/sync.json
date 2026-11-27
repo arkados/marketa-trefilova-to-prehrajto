@@ -291269,17 +291269,19 @@
       }
     },
     "13610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26003563",
+          "target_video_id": "31450412",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:52:39.925282+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26003563",
         "display_name": "Vacancy 720p CZ Dabing",
         "planned_at": "2026-11-27T00:48:32.939704+00:00"
-      },
-      "claim": {
-        "worker_id": "16113d73e3b84222b6e18131b0b8f935-shard-0",
-        "claimed_at": "2026-11-27T00:48:33.635215+00:00",
-        "lease_expires_at": "2026-11-27T06:48:33.635215+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450412",
       "prepared": {
@@ -314815,5 +314817,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:48:38.439167+00:00"
+  "updated_at": "2026-11-27T00:52:39.925298+00:00"
 }
