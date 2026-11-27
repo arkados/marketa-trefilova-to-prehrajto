@@ -299713,17 +299713,19 @@
       "attempts": []
     },
     "7120": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34665091",
+          "target_video_id": "31474210",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:32:55.483733+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34665091",
         "display_name": "Firebreak (Cortafuego) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:30:13.056149+00:00"
-      },
-      "claim": {
-        "worker_id": "c39f3a0029da460caeb0bb4fc0f72486-shard-0",
-        "claimed_at": "2026-11-27T18:30:14.759002+00:00",
-        "lease_expires_at": "2026-11-28T00:30:14.759002+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474210",
       "prepared": {
@@ -321432,5 +321434,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:31:59.169626+00:00"
+  "updated_at": "2026-11-27T18:32:55.483751+00:00"
 }
