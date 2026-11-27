@@ -299537,17 +299537,19 @@
       "attempts": []
     },
     "23415": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34441128",
+          "target_video_id": "31474118",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:28:54.268052+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34441128",
         "display_name": "Point of No Return 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:26:28.896166+00:00"
-      },
-      "claim": {
-        "worker_id": "6d4686f8d1bc42e290710fc798f6cb7e-shard-0",
-        "claimed_at": "2026-11-27T18:26:29.911356+00:00",
-        "lease_expires_at": "2026-11-28T00:26:29.911356+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474118",
       "prepared": {
@@ -321315,5 +321317,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:28:09.135886+00:00"
+  "updated_at": "2026-11-27T18:28:54.268067+00:00"
 }
