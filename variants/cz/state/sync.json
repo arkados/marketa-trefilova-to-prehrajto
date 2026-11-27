@@ -294475,17 +294475,19 @@
       "attempts": []
     },
     "11426": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29833856",
+          "target_video_id": "31460079",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:48:09.247000+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29833856",
         "display_name": "Thieves and Robbers (Cane e gatto) 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:38:11.229084+00:00"
-      },
-      "claim": {
-        "worker_id": "4b3b35c30736443382d521a9bde762fb-shard-0",
-        "claimed_at": "2026-11-27T07:38:14.891781+00:00",
-        "lease_expires_at": "2026-11-27T13:38:14.891781+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460079",
       "prepared": {
@@ -317447,5 +317449,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:45:47.050531+00:00"
+  "updated_at": "2026-11-27T07:48:09.247019+00:00"
 }
