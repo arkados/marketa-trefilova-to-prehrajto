@@ -298714,17 +298714,19 @@
       "attempts": []
     },
     "31296": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34843516",
+          "target_video_id": "31473314",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:10:32.979152+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34843516",
         "display_name": "My Mother's Wedding 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:05:02.601383+00:00"
-      },
-      "claim": {
-        "worker_id": "2281dfe36760420b94eb6aefae43d25f-shard-0",
-        "claimed_at": "2026-11-27T17:05:03.511308+00:00",
-        "lease_expires_at": "2026-11-27T23:05:03.511308+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473314",
       "prepared": {
@@ -320675,5 +320677,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:09:34.934926+00:00"
+  "updated_at": "2026-11-27T17:10:32.979168+00:00"
 }
