@@ -297256,17 +297256,19 @@
       }
     },
     "11322": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33852436",
+          "target_video_id": "31470100",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:47:37.599263+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33852436",
         "display_name": "Any Which Way You Can SD CZ Dabing",
         "planned_at": "2026-11-27T14:43:57.731587+00:00"
-      },
-      "claim": {
-        "worker_id": "7a9b9556428843bcada88bca4a545362-shard-0",
-        "claimed_at": "2026-11-27T14:43:58.605348+00:00",
-        "lease_expires_at": "2026-11-27T20:43:58.605348+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31470100",
       "prepared": {
@@ -319518,5 +319520,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:44:03.158090+00:00"
+  "updated_at": "2026-11-27T14:47:37.599278+00:00"
 }
