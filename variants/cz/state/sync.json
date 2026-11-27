@@ -295372,17 +295372,19 @@
       "attempts": []
     },
     "6351": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13719116",
+          "target_video_id": "31462333",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:32:03.817773+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13719116",
         "display_name": "One Night with the King SD CZ Dabing",
         "planned_at": "2026-11-27T09:28:44.754297+00:00"
-      },
-      "claim": {
-        "worker_id": "9f0f6285ff324da585ba56c27d14990c-shard-0",
-        "claimed_at": "2026-11-27T09:28:45.651997+00:00",
-        "lease_expires_at": "2026-11-27T15:28:45.651997+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31462333",
       "prepared": {
@@ -318104,5 +318106,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:31:53.554264+00:00"
+  "updated_at": "2026-11-27T09:32:03.817790+00:00"
 }
