@@ -303580,17 +303580,19 @@
       }
     },
     "17076": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11982902",
+          "target_video_id": "31477991",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:14:09.867531+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11982902",
         "display_name": "Con Man SD CZ Dabing",
         "planned_at": "2026-11-27T21:12:33.065420+00:00"
-      },
-      "claim": {
-        "worker_id": "454f3639aaab462d8088c1a89d47161b-shard-0",
-        "claimed_at": "2026-11-27T21:12:33.874906+00:00",
-        "lease_expires_at": "2026-11-28T03:12:33.874906+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477991",
       "prepared": {
@@ -324467,5 +324469,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:14:07.321900+00:00"
+  "updated_at": "2026-11-27T21:14:09.867556+00:00"
 }
