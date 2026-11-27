@@ -297883,17 +297883,19 @@
       "attempts": []
     },
     "23137": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21540486",
+          "target_video_id": "31471686",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:02:27.229722+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21540486",
         "display_name": "Nuns on the Run 1080p CZ Dabing",
         "planned_at": "2026-11-27T15:51:26.810785+00:00"
-      },
-      "claim": {
-        "worker_id": "ab014ab400d044f2888d4e29d946e017-shard-0",
-        "claimed_at": "2026-11-27T15:51:27.678415+00:00",
-        "lease_expires_at": "2026-11-27T21:51:27.678415+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471686",
       "prepared": {
@@ -320018,5 +320020,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:00:41.536199+00:00"
+  "updated_at": "2026-11-27T16:02:27.229740+00:00"
 }
