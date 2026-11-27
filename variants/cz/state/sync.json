@@ -302470,17 +302470,19 @@
       "attempts": []
     },
     "17116": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26656277",
+          "target_video_id": "31476660",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:16:14.556285+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26656277",
         "display_name": "La Ch'tite famille 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:14:03.058311+00:00"
-      },
-      "claim": {
-        "worker_id": "90e81af0f6fb43e2b4495112d742a74d-shard-0",
-        "claimed_at": "2026-11-27T20:14:04.031110+00:00",
-        "lease_expires_at": "2026-11-28T02:14:04.031110+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476660",
       "prepared": {
@@ -323574,5 +323576,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:15:34.943085+00:00"
+  "updated_at": "2026-11-27T20:16:14.556300+00:00"
 }
