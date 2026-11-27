@@ -293915,17 +293915,19 @@
       "attempts": []
     },
     "5745": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34165220",
+          "target_video_id": "31459281",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:12:32.098799+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34165220",
         "display_name": "The Wrong Paris 4K CZ Dabing",
         "planned_at": "2026-11-27T07:04:03.377679+00:00"
-      },
-      "claim": {
-        "worker_id": "e741b4e938064213b42052731eeb1a15-shard-0",
-        "claimed_at": "2026-11-27T07:04:04.361915+00:00",
-        "lease_expires_at": "2026-11-27T13:04:04.361915+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459281",
       "prepared": {
@@ -317037,5 +317039,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:12:18.313579+00:00"
+  "updated_at": "2026-11-27T07:12:32.098817+00:00"
 }
