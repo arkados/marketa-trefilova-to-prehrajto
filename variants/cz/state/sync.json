@@ -303534,17 +303534,19 @@
       }
     },
     "12558": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30819952",
+          "target_video_id": "31477933",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:12:08.540588+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30819952",
         "display_name": "The Swan Princess III: The Mystery of the Enchanted Treasure (The Swan Princess: The Mystery of the Enchanted Kingdom) 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:10:21.025044+00:00"
-      },
-      "claim": {
-        "worker_id": "534ad61d5c5a4aceb8938a566769b424-shard-0",
-        "claimed_at": "2026-11-27T21:10:21.834431+00:00",
-        "lease_expires_at": "2026-11-28T03:10:21.834431+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477933",
       "prepared": {
@@ -324407,5 +324409,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:12:05.655279+00:00"
+  "updated_at": "2026-11-27T21:12:08.540612+00:00"
 }
