@@ -299121,17 +299121,19 @@
       }
     },
     "9723": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11581052",
+          "target_video_id": "31473799",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:04:27.294411+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11581052",
         "display_name": "Electric Slide SD CZ Dabing",
         "planned_at": "2026-11-27T17:52:37.600128+00:00"
-      },
-      "claim": {
-        "worker_id": "4b9e60181dfb4effac05cbd001777954-shard-0",
-        "claimed_at": "2026-11-27T17:52:38.446002+00:00",
-        "lease_expires_at": "2026-11-27T23:52:38.446002+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473799",
       "prepared": {
@@ -320975,5 +320977,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:00:44.148726+00:00"
+  "updated_at": "2026-11-27T18:04:27.294432+00:00"
 }
