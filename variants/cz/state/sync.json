@@ -300834,17 +300834,19 @@
       "attempts": []
     },
     "5946": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24613356",
+          "target_video_id": "31475305",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:17:29.670000+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24613356",
         "display_name": "Dora and the Lost City of Gold 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:15:04.376683+00:00"
-      },
-      "claim": {
-        "worker_id": "e1663a483f6d4b20bb807d07fb987819-shard-0",
-        "claimed_at": "2026-11-27T19:15:05.383911+00:00",
-        "lease_expires_at": "2026-11-28T01:15:05.383911+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475305",
       "prepared": {
@@ -322286,5 +322288,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:16:10.083724+00:00"
+  "updated_at": "2026-11-27T19:17:29.670016+00:00"
 }
