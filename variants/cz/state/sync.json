@@ -298639,17 +298639,19 @@
       "attempts": []
     },
     "13106": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29208608",
+          "target_video_id": "31473052",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:04:52.311343+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29208608",
         "display_name": "City by the Sea 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:54:59.602553+00:00"
-      },
-      "claim": {
-        "worker_id": "14d29fd8a9c842478d3afa37ad19ec84-shard-0",
-        "claimed_at": "2026-11-27T16:55:00.551644+00:00",
-        "lease_expires_at": "2026-11-27T22:55:00.551644+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473052",
       "prepared": {
@@ -320615,5 +320617,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:02:11.837510+00:00"
+  "updated_at": "2026-11-27T17:04:52.311358+00:00"
 }
