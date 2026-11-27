@@ -304469,17 +304469,19 @@
       "attempts": []
     },
     "12410": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11329407",
+          "target_video_id": "31478668",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:49:55.569949+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11329407",
         "display_name": "Witch Way Love (Un amour de sorcière) SD CZ Dabing",
         "planned_at": "2026-11-27T21:47:17.976119+00:00"
-      },
-      "claim": {
-        "worker_id": "f0b844efa50a404a81205676088acea3-shard-0",
-        "claimed_at": "2026-11-27T21:47:18.814155+00:00",
-        "lease_expires_at": "2026-11-28T03:47:18.814155+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478668",
       "prepared": {
@@ -325165,5 +325167,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:48:48.836626+00:00"
+  "updated_at": "2026-11-27T21:49:55.569976+00:00"
 }
