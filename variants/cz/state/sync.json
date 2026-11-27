@@ -298875,17 +298875,19 @@
       "attempts": []
     },
     "25828": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32701128",
+          "target_video_id": "31473484",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:26:04.419849+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32701128",
         "display_name": "How to Rob a Bank (2007) 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:14:04.187554+00:00"
-      },
-      "claim": {
-        "worker_id": "8288a42fac834c9f840642df95d22c4c-shard-0",
-        "claimed_at": "2026-11-27T17:14:05.171103+00:00",
-        "lease_expires_at": "2026-11-27T23:14:05.171103+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473484",
       "prepared": {
@@ -320835,5 +320837,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:25:54.578582+00:00"
+  "updated_at": "2026-11-27T17:26:04.419872+00:00"
 }
