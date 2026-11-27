@@ -302284,17 +302284,19 @@
       "attempts": []
     },
     "5931": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15194398",
+          "target_video_id": "31476486",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:22:49.920404+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15194398",
         "display_name": "Rebecca (2020) 4K CZ Dabing",
         "planned_at": "2026-11-27T20:04:32.685556+00:00"
-      },
-      "claim": {
-        "worker_id": "4fbbea530361457a8ff470d53efad98e-shard-0",
-        "claimed_at": "2026-11-27T20:04:36.343160+00:00",
-        "lease_expires_at": "2026-11-28T02:04:36.343160+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476486",
       "prepared": {
@@ -323674,5 +323676,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:21:54.962331+00:00"
+  "updated_at": "2026-11-27T20:22:49.920418+00:00"
 }
