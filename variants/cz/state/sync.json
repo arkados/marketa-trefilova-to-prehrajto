@@ -300705,17 +300705,19 @@
       "attempts": []
     },
     "6114": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30975396",
+          "target_video_id": "31475084",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:06:46.285832+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30975396",
         "display_name": "Hit and Run (Hit & Run) (2012) 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:04:20.242136+00:00"
-      },
-      "claim": {
-        "worker_id": "80f507fbad2b4acf8a595e5f1ca1a6e2-shard-0",
-        "claimed_at": "2026-11-27T19:04:21.257099+00:00",
-        "lease_expires_at": "2026-11-28T01:04:21.257099+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475084",
       "prepared": {
@@ -322166,5 +322168,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:04:24.969302+00:00"
+  "updated_at": "2026-11-27T19:06:46.285858+00:00"
 }
