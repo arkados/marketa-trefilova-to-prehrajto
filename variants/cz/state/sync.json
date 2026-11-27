@@ -304109,17 +304109,19 @@
       }
     },
     "6190": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27922629",
+          "target_video_id": "31478366",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:32:05.826469+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27922629",
         "display_name": "Badland Hunters (HwangYa) 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:30:01.038424+00:00"
-      },
-      "claim": {
-        "worker_id": "f62c614f0d084134a212e51e162ba596-shard-0",
-        "claimed_at": "2026-11-27T21:30:01.863457+00:00",
-        "lease_expires_at": "2026-11-28T03:30:01.863457+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478366",
       "prepared": {
@@ -324865,5 +324867,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:31:56.782479+00:00"
+  "updated_at": "2026-11-27T21:32:05.826526+00:00"
 }
