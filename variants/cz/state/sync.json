@@ -295204,17 +295204,19 @@
       }
     },
     "25119": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27495416",
+          "target_video_id": "31461899",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:18:40.308231+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27495416",
         "display_name": "The Myth 1080p CZ Dabing",
         "planned_at": "2026-11-27T09:12:09.104987+00:00"
-      },
-      "claim": {
-        "worker_id": "2d0b83f00e9143209266cfefe45c8f66-shard-0",
-        "claimed_at": "2026-11-27T09:12:10.021073+00:00",
-        "lease_expires_at": "2026-11-27T15:12:10.021073+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31461899",
       "prepared": {
@@ -317967,5 +317969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:13:09.413225+00:00"
+  "updated_at": "2026-11-27T09:18:40.308249+00:00"
 }
