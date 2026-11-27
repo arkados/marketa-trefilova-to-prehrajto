@@ -293640,17 +293640,19 @@
       }
     },
     "5984": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33393657",
+          "target_video_id": "31459085",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:56:45.362085+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33393657",
         "display_name": "The Visitors II: The Corridors of Time (Les Couloirs du temps : Les Visiteurs II) 1080p CZ Dabing",
         "planned_at": "2026-11-27T06:52:49.451980+00:00"
-      },
-      "claim": {
-        "worker_id": "b0284e4afa4a46c6a40c9eb529c2077a-shard-0",
-        "claimed_at": "2026-11-27T06:52:50.396123+00:00",
-        "lease_expires_at": "2026-11-27T12:52:50.396123+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459085",
       "prepared": {
@@ -316804,5 +316806,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:56:03.335435+00:00"
+  "updated_at": "2026-11-27T06:56:45.362102+00:00"
 }
