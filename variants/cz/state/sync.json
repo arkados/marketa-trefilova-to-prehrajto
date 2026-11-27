@@ -299867,17 +299867,19 @@
       "attempts": []
     },
     "36676": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33021117",
+          "target_video_id": "31474327",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:36:44.526100+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33021117",
         "display_name": "Legend of Dinosaurs & Monster Birds (kyouryuu kaichou no densetsu) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:35:12.668054+00:00"
-      },
-      "claim": {
-        "worker_id": "d6a5fc5621d74322a0f24ecbbf94bd44-shard-0",
-        "claimed_at": "2026-11-27T18:35:13.697936+00:00",
-        "lease_expires_at": "2026-11-28T00:35:13.697936+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474327",
       "prepared": {
@@ -321532,5 +321534,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:36:19.605461+00:00"
+  "updated_at": "2026-11-27T18:36:44.526115+00:00"
 }
