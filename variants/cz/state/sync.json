@@ -108277,7 +108277,7 @@
       "last_plan": {
         "source_id": "30853807",
         "display_name": "U nás v Kocourkově 1080p CZ Dabing",
-        "planned_at": "2026-11-27T22:48:31.759383+00:00"
+        "planned_at": "2026-11-27T22:48:39.162182+00:00"
       },
       "previous_target_id": "30983476",
       "prepared": {
@@ -305597,11 +305597,23 @@
       }
     },
     "22745": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33855140",
+          "reason": "Source detail has no authenticated download link; source_id=33855140",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:48:42.631523+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33855140",
         "display_name": "Murder Rock (Murder-Rock: Dancing Death) 1080p CZ Dabing",
-        "planned_at": "2026-11-27T22:48:32.247433+00:00"
+        "planned_at": "2026-11-27T22:48:39.688089+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33855140",
+        "requested_at": "2026-11-27T22:48:42.631499+00:00"
       }
     },
     "12403": {
@@ -326055,5 +326067,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:48:34.401733+00:00"
+  "updated_at": "2026-11-27T22:48:42.631529+00:00"
 }
