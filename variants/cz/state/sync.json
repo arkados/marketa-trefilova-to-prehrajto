@@ -294889,17 +294889,19 @@
       }
     },
     "19396": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33794051",
+          "target_video_id": "31460999",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:26:23.142823+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33794051",
         "display_name": "Avenging Force 1080p CZ Dabing",
         "planned_at": "2026-11-27T08:21:01.250506+00:00"
-      },
-      "claim": {
-        "worker_id": "4084ba235a5040ddad200a0e340448b4-shard-0",
-        "claimed_at": "2026-11-27T08:21:02.297193+00:00",
-        "lease_expires_at": "2026-11-27T14:21:02.297193+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460999",
       "prepared": {
@@ -317727,5 +317729,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:21:06.413071+00:00"
+  "updated_at": "2026-11-27T08:26:23.142841+00:00"
 }
