@@ -292889,17 +292889,19 @@
       "attempts": []
     },
     "5490": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32225396",
+          "target_video_id": "31455585",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:32:24.841000+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32225396",
         "display_name": "Final Destination 2 4K CZ Dabing",
         "planned_at": "2026-11-27T04:18:47.012201+00:00"
-      },
-      "claim": {
-        "worker_id": "81adead6d3e14fa791a3a4ccc9dfe3dd-shard-0",
-        "claimed_at": "2026-11-27T04:18:47.507673+00:00",
-        "lease_expires_at": "2026-11-27T10:18:47.507673+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31455585",
       "prepared": {
@@ -316157,5 +316159,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:32:19.420742+00:00"
+  "updated_at": "2026-11-27T04:32:24.841020+00:00"
 }
