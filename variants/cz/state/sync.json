@@ -299508,17 +299508,19 @@
       }
     },
     "12442": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33774645",
+          "target_video_id": "31474101",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:27:22.408212+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33774645",
         "display_name": "Wrongfully Accused 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:25:38.428775+00:00"
-      },
-      "claim": {
-        "worker_id": "925ea37ffadf4d4d85e9035f2d769807-shard-0",
-        "claimed_at": "2026-11-27T18:25:39.485962+00:00",
-        "lease_expires_at": "2026-11-28T00:25:39.485962+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474101",
       "prepared": {
@@ -321275,5 +321277,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:26:46.245118+00:00"
+  "updated_at": "2026-11-27T18:27:22.408227+00:00"
 }
