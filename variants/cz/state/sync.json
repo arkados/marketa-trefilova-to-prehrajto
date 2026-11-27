@@ -302522,17 +302522,19 @@
       }
     },
     "11461": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33632022",
+          "target_video_id": "31476711",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:18:15.021969+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33632022",
         "display_name": "Cujo 720p CZ Dabing",
         "planned_at": "2026-11-27T20:16:28.318426+00:00"
-      },
-      "claim": {
-        "worker_id": "09bc0c45e3614ae7872cc8e06007c21e-shard-0",
-        "claimed_at": "2026-11-27T20:16:29.370573+00:00",
-        "lease_expires_at": "2026-11-28T02:16:29.370573+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476711",
       "prepared": {
@@ -323614,5 +323616,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:17:48.262002+00:00"
+  "updated_at": "2026-11-27T20:18:15.021984+00:00"
 }
