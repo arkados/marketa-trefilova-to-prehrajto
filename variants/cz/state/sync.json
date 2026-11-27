@@ -305379,17 +305379,19 @@
       }
     },
     "19989": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13107941",
+          "target_video_id": "31480183",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:42:13.701047+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13107941",
         "display_name": "That Awkward Moment 720p CZ Dabing",
         "planned_at": "2026-11-27T22:38:51.731747+00:00"
-      },
-      "claim": {
-        "worker_id": "c1af8487297f4711a6a74dae46316734-shard-0",
-        "claimed_at": "2026-11-27T22:38:52.513536+00:00",
-        "lease_expires_at": "2026-11-28T04:38:52.513536+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480183",
       "prepared": {
@@ -325948,5 +325950,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:41:53.670713+00:00"
+  "updated_at": "2026-11-27T22:42:13.701067+00:00"
 }
