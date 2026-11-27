@@ -131183,7 +131183,7 @@
       "last_plan": {
         "source_id": "34451524",
         "display_name": "Circus Angel SD CZ Dabing",
-        "planned_at": "2026-11-27T18:49:00.849485+00:00"
+        "planned_at": "2026-11-27T18:49:08.855086+00:00"
       },
       "previous_target_id": "30986945",
       "prepared": {
@@ -300216,11 +300216,23 @@
       }
     },
     "6131": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33943346",
+          "reason": "Source detail has no authenticated download link; source_id=33943346",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:49:13.003406+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33943346",
         "display_name": "Undisputed 4K CZ Dabing",
-        "planned_at": "2026-11-27T18:49:01.494465+00:00"
+        "planned_at": "2026-11-27T18:49:09.499592+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33943346",
+        "requested_at": "2026-11-27T18:49:13.003391+00:00"
       }
     },
     "14862": {
@@ -321799,5 +321811,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:49:01.494480+00:00"
+  "updated_at": "2026-11-27T18:49:13.003411+00:00"
 }
