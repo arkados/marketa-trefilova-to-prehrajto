@@ -291615,17 +291615,19 @@
       }
     },
     "26720": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34709527",
+          "target_video_id": "31451257",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:22:37.903423+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34709527",
         "display_name": "Legends of Valhalla: Thor 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:19:39.999324+00:00"
-      },
-      "claim": {
-        "worker_id": "007429d360254b47ace14e806d1957e3-shard-0",
-        "claimed_at": "2026-11-27T01:19:40.679071+00:00",
-        "lease_expires_at": "2026-11-27T07:19:40.679071+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451257",
       "prepared": {
@@ -315089,5 +315091,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:19:44.868181+00:00"
+  "updated_at": "2026-11-27T01:22:37.903439+00:00"
 }
