@@ -294715,17 +294715,19 @@
       "attempts": []
     },
     "23555": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28737555",
+          "target_video_id": "31460539",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:08:28.432271+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28737555",
         "display_name": "Trial by Jury 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:59:00.817332+00:00"
-      },
-      "claim": {
-        "worker_id": "35140922bacb4e419be090722f6ad048-shard-0",
-        "claimed_at": "2026-11-27T07:59:01.678183+00:00",
-        "lease_expires_at": "2026-11-27T13:59:01.678183+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460539",
       "prepared": {
@@ -317607,5 +317609,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:04:32.549920+00:00"
+  "updated_at": "2026-11-27T08:08:28.432288+00:00"
 }
