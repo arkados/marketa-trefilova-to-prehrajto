@@ -300557,17 +300557,19 @@
       "attempts": []
     },
     "14935": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34891270",
+          "target_video_id": "31474966",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:01:34.570418+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34891270",
         "display_name": "In Good Hands (Sen Yaşamaya Bak) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:58:49.120016+00:00"
-      },
-      "claim": {
-        "worker_id": "4856faca0be24805a3dc99f9cfb6f43b-shard-0",
-        "claimed_at": "2026-11-27T18:58:50.148191+00:00",
-        "lease_expires_at": "2026-11-28T00:58:50.148191+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474966",
       "prepared": {
@@ -322069,5 +322071,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:59:42.136260+00:00"
+  "updated_at": "2026-11-27T19:01:34.570434+00:00"
 }
