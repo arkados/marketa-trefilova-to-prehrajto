@@ -291427,17 +291427,19 @@
       "attempts": []
     },
     "16870": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14252490",
+          "target_video_id": "31450934",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:04:10.947596+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14252490",
         "display_name": "First We Take Brooklyn SD CZ Dabing",
         "planned_at": "2026-11-27T01:02:23.456602+00:00"
-      },
-      "claim": {
-        "worker_id": "9f112e113f8c424988468e74484a0023-shard-0",
-        "claimed_at": "2026-11-27T01:02:24.178330+00:00",
-        "lease_expires_at": "2026-11-27T07:02:24.178330+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450934",
       "prepared": {
@@ -314952,5 +314954,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:03:16.463595+00:00"
+  "updated_at": "2026-11-27T01:04:10.947611+00:00"
 }
