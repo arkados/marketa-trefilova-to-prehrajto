@@ -296853,17 +296853,19 @@
       "attempts": []
     },
     "6241": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21114215",
+          "target_video_id": "31469376",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:13:32.218398+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21114215",
         "display_name": "The Kill Team 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:09:28.689770+00:00"
-      },
-      "claim": {
-        "worker_id": "23f26e26a74f45dc82485e71478e9209-shard-0",
-        "claimed_at": "2026-11-27T14:09:29.558664+00:00",
-        "lease_expires_at": "2026-11-27T20:09:29.558664+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469376",
       "prepared": {
@@ -319238,5 +319240,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:10:20.519878+00:00"
+  "updated_at": "2026-11-27T14:13:32.218417+00:00"
 }
