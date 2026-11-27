@@ -303411,17 +303411,19 @@
       }
     },
     "28503": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33809682",
+          "target_video_id": "31477863",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:07:31.523485+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33809682",
         "display_name": "Tornado apocalypse (Jet Stream) SD CZ Dabing",
         "planned_at": "2026-11-27T21:06:35.387625+00:00"
-      },
-      "claim": {
-        "worker_id": "7f8bcc07d6fd4731bf23fadbdfc2789b-shard-0",
-        "claimed_at": "2026-11-27T21:06:36.190573+00:00",
-        "lease_expires_at": "2026-11-28T03:06:36.190573+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477863",
       "prepared": {
@@ -324308,5 +324310,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:06:40.360397+00:00"
+  "updated_at": "2026-11-27T21:07:31.523544+00:00"
 }
