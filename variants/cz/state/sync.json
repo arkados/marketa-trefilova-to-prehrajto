@@ -293663,17 +293663,19 @@
       }
     },
     "16639": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32837916",
+          "target_video_id": "31459099",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:57:20.151515+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32837916",
         "display_name": "The Manny (Der Nanny) (2015) 1080p CZ Dabing",
         "planned_at": "2026-11-27T06:53:43.884435+00:00"
-      },
-      "claim": {
-        "worker_id": "1b16bc718a4a4df7be6938d6735ad560-shard-0",
-        "claimed_at": "2026-11-27T06:53:44.900165+00:00",
-        "lease_expires_at": "2026-11-27T12:53:44.900165+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459099",
       "prepared": {
@@ -316824,5 +316826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:57:01.495548+00:00"
+  "updated_at": "2026-11-27T06:57:20.151533+00:00"
 }
