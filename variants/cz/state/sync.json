@@ -299938,17 +299938,19 @@
       }
     },
     "15952": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34879162",
+          "target_video_id": "31474373",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:39:24.062250+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34879162",
         "display_name": "Mardaani 3 (mrdani 3) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:37:18.913133+00:00"
-      },
-      "claim": {
-        "worker_id": "33a2d752811244418f73a9804b3f47be-shard-0",
-        "claimed_at": "2026-11-27T18:37:19.939343+00:00",
-        "lease_expires_at": "2026-11-28T00:37:19.939343+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474373",
       "prepared": {
@@ -321612,5 +321614,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:38:44.268033+00:00"
+  "updated_at": "2026-11-27T18:39:24.062266+00:00"
 }
