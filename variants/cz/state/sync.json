@@ -298791,17 +298791,19 @@
       }
     },
     "10113": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25672910",
+          "target_video_id": "31473426",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:13:53.077881+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25672910",
         "display_name": "Love Thing (Liebesdings) 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:10:44.351907+00:00"
-      },
-      "claim": {
-        "worker_id": "34f6a4b19443424caf96e45d3f77d3a6-shard-0",
-        "claimed_at": "2026-11-27T17:10:45.395823+00:00",
-        "lease_expires_at": "2026-11-27T23:10:45.395823+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473426",
       "prepared": {
@@ -320735,5 +320737,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:12:54.336405+00:00"
+  "updated_at": "2026-11-27T17:13:53.077896+00:00"
 }
