@@ -294082,17 +294082,19 @@
       }
     },
     "21954": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30664945",
+          "target_video_id": "31459548",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:19:28.435109+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30664945",
         "display_name": "Guns of the Magnificent Seven 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:16:34.762386+00:00"
-      },
-      "claim": {
-        "worker_id": "5848a815ad54438595e7ab9102624aa3-shard-0",
-        "claimed_at": "2026-11-27T07:16:35.658122+00:00",
-        "lease_expires_at": "2026-11-27T13:16:35.658122+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459548",
       "prepared": {
@@ -317097,5 +317099,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:18:39.314157+00:00"
+  "updated_at": "2026-11-27T07:19:28.435126+00:00"
 }
