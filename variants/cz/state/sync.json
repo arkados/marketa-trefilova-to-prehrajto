@@ -305980,17 +305980,19 @@
       "attempts": []
     },
     "37495": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34820116",
+          "target_video_id": "31481644",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:51:29.658373+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34820116",
         "display_name": "Queens of the Dead 1080p CZ Dabing",
         "planned_at": "2026-11-27T23:44:06.975568+00:00"
-      },
-      "claim": {
-        "worker_id": "b33f61a666d44d778b948574cabc4625-shard-0",
-        "claimed_at": "2026-11-27T23:44:07.808713+00:00",
-        "lease_expires_at": "2026-11-28T05:44:07.808713+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481644",
       "prepared": {
@@ -326418,5 +326420,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:50:23.809588+00:00"
+  "updated_at": "2026-11-27T23:51:29.658391+00:00"
 }
