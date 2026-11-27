@@ -302229,17 +302229,19 @@
       }
     },
     "12029": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33136608",
+          "target_video_id": "31476469",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:05:45.390395+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33136608",
         "display_name": "Mikey 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:03:04.428763+00:00"
-      },
-      "claim": {
-        "worker_id": "291cf6b93edd4bb098bdf078f3ab4cbd-shard-0",
-        "claimed_at": "2026-11-27T20:03:05.489161+00:00",
-        "lease_expires_at": "2026-11-28T02:03:05.489161+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476469",
       "prepared": {
@@ -323434,5 +323436,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:04:52.687253+00:00"
+  "updated_at": "2026-11-27T20:05:45.390411+00:00"
 }
