@@ -297563,17 +297563,19 @@
       }
     },
     "5744": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35474494",
+          "target_video_id": "31471004",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:29:02.210738+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35474494",
         "display_name": "Dead of Winter 1080p CZ Dabing",
         "planned_at": "2026-11-27T15:21:46.738921+00:00"
-      },
-      "claim": {
-        "worker_id": "84c18499b85445d98114aec59918f918-shard-0",
-        "claimed_at": "2026-11-27T15:21:47.621205+00:00",
-        "lease_expires_at": "2026-11-27T21:21:47.621205+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471004",
       "prepared": {
@@ -319818,5 +319820,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:26:33.967397+00:00"
+  "updated_at": "2026-11-27T15:29:02.210755+00:00"
 }
