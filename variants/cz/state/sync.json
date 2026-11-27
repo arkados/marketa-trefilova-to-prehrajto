@@ -298688,17 +298688,19 @@
       "attempts": []
     },
     "6243": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23740349",
+          "target_video_id": "31473234",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:06:19.117314+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23740349",
         "display_name": "Rumble 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:02:07.608362+00:00"
-      },
-      "claim": {
-        "worker_id": "34550d50688b4472beeaf98a851a47dd-shard-0",
-        "claimed_at": "2026-11-27T17:02:08.515328+00:00",
-        "lease_expires_at": "2026-11-27T23:02:08.515328+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473234",
       "prepared": {
@@ -320635,5 +320637,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:05:07.305026+00:00"
+  "updated_at": "2026-11-27T17:06:19.117331+00:00"
 }
