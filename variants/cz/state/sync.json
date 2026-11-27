@@ -296878,17 +296878,19 @@
       }
     },
     "5889": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20188824",
+          "target_video_id": "31469389",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:17:29.221811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20188824",
         "display_name": "Dear Evan Hansen 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:10:15.764604+00:00"
-      },
-      "claim": {
-        "worker_id": "8ad5fba6f80b40f4a78fc4306fcbf114-shard-0",
-        "claimed_at": "2026-11-27T14:10:16.618250+00:00",
-        "lease_expires_at": "2026-11-27T20:10:16.618250+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469389",
       "prepared": {
@@ -319298,5 +319300,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:16:39.755198+00:00"
+  "updated_at": "2026-11-27T14:17:29.221830+00:00"
 }
