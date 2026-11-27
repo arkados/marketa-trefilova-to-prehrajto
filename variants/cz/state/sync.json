@@ -164120,7 +164120,7 @@
       "last_plan": {
         "source_id": "33734079",
         "display_name": "True Believer 1080p CZ Dabing",
-        "planned_at": "2026-11-27T07:34:56.267351+00:00"
+        "planned_at": "2026-11-27T07:35:03.246313+00:00"
       },
       "previous_target_id": "31095813",
       "prepared": {
@@ -294424,11 +294424,23 @@
       }
     },
     "35465": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31349186",
+          "reason": "Source detail has no authenticated download link; source_id=31349186",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:35:07.001850+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31349186",
         "display_name": "Vampire in Vegas SD CZ Dabing",
-        "planned_at": "2026-11-27T07:34:56.843202+00:00"
+        "planned_at": "2026-11-27T07:35:03.821297+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "31349186",
+        "requested_at": "2026-11-27T07:35:07.001832+00:00"
       }
     },
     "11936": {
@@ -317357,5 +317369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:34:56.843222+00:00"
+  "updated_at": "2026-11-27T07:35:07.001856+00:00"
 }
