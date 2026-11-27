@@ -303757,17 +303757,19 @@
       }
     },
     "19753": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7186786",
+          "target_video_id": "31478143",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:20:32.508095+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7186786",
         "display_name": "Hidden (Skjult) (2009) SD CZ Dabing",
         "planned_at": "2026-11-27T21:19:29.189877+00:00"
-      },
-      "claim": {
-        "worker_id": "27c55e104dd64e34a57882d09a47d77d-shard-0",
-        "claimed_at": "2026-11-27T21:19:29.998366+00:00",
-        "lease_expires_at": "2026-11-28T03:19:29.998366+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478143",
       "prepared": {
@@ -324585,5 +324587,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:19:34.236261+00:00"
+  "updated_at": "2026-11-27T21:20:32.508117+00:00"
 }
