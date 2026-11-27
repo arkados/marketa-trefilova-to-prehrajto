@@ -302851,17 +302851,19 @@
       "attempts": []
     },
     "5950": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28206824",
+          "target_video_id": "31477084",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:36:07.752136+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28206824",
         "display_name": "Code 8 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:34:09.957380+00:00"
-      },
-      "claim": {
-        "worker_id": "fe7834fafb1a49c49c60a787e5c4e67b-shard-0",
-        "claimed_at": "2026-11-27T20:34:10.752353+00:00",
-        "lease_expires_at": "2026-11-28T02:34:10.752353+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477084",
       "prepared": {
@@ -323874,5 +323876,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:34:41.436745+00:00"
+  "updated_at": "2026-11-27T20:36:07.752156+00:00"
 }
