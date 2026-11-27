@@ -131183,7 +131183,7 @@
       "last_plan": {
         "source_id": "34451524",
         "display_name": "Circus Angel SD CZ Dabing",
-        "planned_at": "2026-11-27T19:25:07.787012+00:00"
+        "planned_at": "2026-11-27T19:25:15.842007+00:00"
       },
       "previous_target_id": "30986945",
       "prepared": {
@@ -301126,11 +301126,23 @@
       }
     },
     "25085": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34942263",
+          "reason": "Source detail has no authenticated download link; source_id=34942263",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:25:19.683414+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34942263",
         "display_name": "Chasing Liberty 720p CZ Dabing",
-        "planned_at": "2026-11-27T19:25:08.397772+00:00"
+        "planned_at": "2026-11-27T19:25:16.482271+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34942263",
+        "requested_at": "2026-11-27T19:25:19.683401+00:00"
       }
     },
     "17314": {
@@ -322490,5 +322502,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:25:09.715316+00:00"
+  "updated_at": "2026-11-27T19:25:19.683419+00:00"
 }
