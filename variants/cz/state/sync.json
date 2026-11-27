@@ -296947,17 +296947,19 @@
       "attempts": []
     },
     "18151": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34848270",
+          "target_video_id": "31469507",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:16:22.595382+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34848270",
         "display_name": "Not Okay SD CZ Dabing",
         "planned_at": "2026-11-27T14:14:54.497657+00:00"
-      },
-      "claim": {
-        "worker_id": "1efe1ef8dfbe45119b8cb69e8d3cbf86-shard-0",
-        "claimed_at": "2026-11-27T14:14:55.674214+00:00",
-        "lease_expires_at": "2026-11-27T20:14:55.674214+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469507",
       "prepared": {
@@ -319278,5 +319280,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:15:00.408102+00:00"
+  "updated_at": "2026-11-27T14:16:22.595401+00:00"
 }
