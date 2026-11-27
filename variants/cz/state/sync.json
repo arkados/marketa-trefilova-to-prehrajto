@@ -297426,17 +297426,19 @@
       "attempts": []
     },
     "30276": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31645551",
+          "target_video_id": "31470611",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:08:12.410707+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31645551",
         "display_name": "Bikini Summer SD CZ Dabing",
         "planned_at": "2026-11-27T15:04:52.192533+00:00"
-      },
-      "claim": {
-        "worker_id": "46920392bcfe4aa7b5bb10c316c66f80-shard-0",
-        "claimed_at": "2026-11-27T15:04:53.030142+00:00",
-        "lease_expires_at": "2026-11-27T21:04:53.030142+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31470611",
       "prepared": {
@@ -319658,5 +319660,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:04:57.429782+00:00"
+  "updated_at": "2026-11-27T15:08:12.410724+00:00"
 }
