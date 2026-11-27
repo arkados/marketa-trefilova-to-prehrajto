@@ -293832,17 +293832,19 @@
       }
     },
     "25637": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30201122",
+          "target_video_id": "31459236",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:02:37.250824+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30201122",
         "display_name": "Cinderella III: A Twist in Time SD CZ Dabing",
         "planned_at": "2026-11-27T07:01:28.431427+00:00"
-      },
-      "claim": {
-        "worker_id": "bdd8d91fb3054be1a4cf13774535a385-shard-0",
-        "claimed_at": "2026-11-27T07:01:29.367827+00:00",
-        "lease_expires_at": "2026-11-27T13:01:29.367827+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459236",
       "prepared": {
@@ -316886,5 +316888,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:02:34.648736+00:00"
+  "updated_at": "2026-11-27T07:02:37.250844+00:00"
 }
