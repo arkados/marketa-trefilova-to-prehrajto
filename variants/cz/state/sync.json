@@ -297852,17 +297852,19 @@
       "attempts": []
     },
     "33836": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31440522",
+          "target_video_id": "31471648",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:51:12.456902+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31440522",
         "display_name": "Bimboland SD CZ Dabing",
         "planned_at": "2026-11-27T15:49:20.289572+00:00"
-      },
-      "claim": {
-        "worker_id": "31180fb26f6a47f8b20f375b2884eb69-shard-0",
-        "claimed_at": "2026-11-27T15:49:21.137039+00:00",
-        "lease_expires_at": "2026-11-27T21:49:21.137039+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471648",
       "prepared": {
@@ -319958,5 +319960,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:49:25.402718+00:00"
+  "updated_at": "2026-11-27T15:51:12.456919+00:00"
 }
