@@ -29510,7 +29510,18 @@
       }
     },
     "23190": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30407959",
+        "display_name": "Delicatessen 1080p CZ Dabing",
+        "planned_at": "2026-11-27T12:22:52.067117+00:00"
+      },
+      "claim": {
+        "worker_id": "f2e95bdfc2c7465d8d022111f67a16e1-shard-0",
+        "claimed_at": "2026-11-27T12:22:53.429659+00:00",
+        "lease_expires_at": "2026-11-27T18:22:53.429659+00:00",
+        "run_id": "45997695498"
+      }
     },
     "995": {
       "attempts": [
@@ -164100,13 +164111,6 @@
           "source_id": "33734079",
           "target_video_id": "31095813",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:15:53.328103+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "33734079",
-          "target_video_id": "31095813",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:40:20.665258+00:00"
         },
         {
@@ -164115,12 +164119,19 @@
           "target_video_id": "31095813",
           "permanent": false,
           "attempted_at": "2026-11-22T22:23:24.767318+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "33734079",
+          "target_video_id": "31095813",
+          "permanent": false,
+          "attempted_at": "2026-11-27T12:22:55.754685+00:00"
         }
       ],
       "last_plan": {
         "source_id": "33734079",
         "display_name": "True Believer 1080p CZ Dabing",
-        "planned_at": "2026-11-27T10:34:28.548005+00:00"
+        "planned_at": "2026-11-27T12:22:51.651645+00:00"
       },
       "previous_target_id": "31095813",
       "prepared": {
@@ -295907,10 +295918,20 @@
       }
     },
     "30191": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "12618100",
+        "display_name": "The Fourth War SD CZ Dabing",
+        "planned_at": "2026-11-27T12:22:52.382021+00:00"
+      }
     },
     "27355": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "20168855",
+        "display_name": "Starstruck 1080p CZ Dabing",
+        "planned_at": "2026-11-27T12:22:52.670875+00:00"
+      }
     },
     "5879": {
       "attempts": []
@@ -318430,5 +318451,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T12:16:22.904205+00:00"
+  "updated_at": "2026-11-27T12:22:55.754702+00:00"
 }
