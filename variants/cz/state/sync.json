@@ -296220,17 +296220,19 @@
       }
     },
     "31946": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27448933",
+          "target_video_id": "31467323",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:08:48.170274+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27448933",
         "display_name": "The Corruptor 720p CZ Dabing",
         "planned_at": "2026-11-27T13:04:42.526850+00:00"
-      },
-      "claim": {
-        "worker_id": "a588bc4f9dec437a81b84d5faf77b900-shard-0",
-        "claimed_at": "2026-11-27T13:04:43.359052+00:00",
-        "lease_expires_at": "2026-11-27T19:04:43.359052+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467323",
       "prepared": {
@@ -318704,5 +318706,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:04:47.866646+00:00"
+  "updated_at": "2026-11-27T13:08:48.170291+00:00"
 }
