@@ -299644,17 +299644,19 @@
       }
     },
     "24498": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28366995",
+          "target_video_id": "31474187",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:31:11.935916+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28366995",
         "display_name": "The Tailor of Panama 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:29:04.715798+00:00"
-      },
-      "claim": {
-        "worker_id": "a048d9a459a9415cb65757fcb9dc65e6-shard-0",
-        "claimed_at": "2026-11-27T18:29:05.653641+00:00",
-        "lease_expires_at": "2026-11-28T00:29:05.653641+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474187",
       "prepared": {
@@ -321392,5 +321394,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:30:18.784021+00:00"
+  "updated_at": "2026-11-27T18:31:11.935931+00:00"
 }
