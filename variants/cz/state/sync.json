@@ -301173,17 +301173,19 @@
       }
     },
     "15418": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14659531",
+          "target_video_id": "31475587",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:29:01.277007+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14659531",
         "display_name": "Gladiators of Rome (Gladiatori di Roma) 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:26:23.682774+00:00"
-      },
-      "claim": {
-        "worker_id": "2caef96f7f4a40e492b74b7ec6bf89f4-shard-0",
-        "claimed_at": "2026-11-27T19:26:24.707058+00:00",
-        "lease_expires_at": "2026-11-28T01:26:24.707058+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475587",
       "prepared": {
@@ -322580,5 +322582,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:27:21.897263+00:00"
+  "updated_at": "2026-11-27T19:29:01.277022+00:00"
 }
