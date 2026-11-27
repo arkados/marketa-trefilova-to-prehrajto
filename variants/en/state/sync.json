@@ -31539,17 +31539,19 @@
       "attempts": []
     },
     "1033": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34336525",
+          "target_video_id": "31451600",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:58:56.782582+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34336525",
         "display_name": "Enemy at the Gates 1080p CZ titulky",
         "planned_at": "2026-11-27T01:31:59.571934+00:00"
-      },
-      "claim": {
-        "worker_id": "739158d13adf4e449427f04fad0c998e-shard-0",
-        "claimed_at": "2026-11-27T01:31:59.864502+00:00",
-        "lease_expires_at": "2026-11-27T07:31:59.864502+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451600",
       "prepared": {
@@ -100912,5 +100914,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:42:58.834632+00:00"
+  "updated_at": "2026-11-27T01:58:56.782598+00:00"
 }
