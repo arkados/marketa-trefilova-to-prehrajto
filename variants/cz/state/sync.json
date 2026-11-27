@@ -293571,17 +293571,19 @@
       "attempts": []
     },
     "28136": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34458008",
+          "target_video_id": "31458911",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:54:08.702963+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34458008",
         "display_name": "Doomsday Book 1080p CZ Dabing",
         "planned_at": "2026-11-27T06:44:09.090268+00:00"
-      },
-      "claim": {
-        "worker_id": "8eac2f927a54485ba5e0ebfd50e8e28e-shard-0",
-        "claimed_at": "2026-11-27T06:44:09.941680+00:00",
-        "lease_expires_at": "2026-11-27T12:44:09.941680+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31458911",
       "prepared": {
@@ -316764,5 +316766,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:53:48.604547+00:00"
+  "updated_at": "2026-11-27T06:54:08.702981+00:00"
 }
