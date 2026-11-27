@@ -290993,17 +290993,19 @@
       "attempts": []
     },
     "5867": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23530871",
+          "target_video_id": "31443147",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:19:39.410380+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23530871",
         "display_name": "Jaula 1080p CZ Dabing",
         "planned_at": "2026-11-27T00:12:41.197103+00:00"
-      },
-      "claim": {
-        "worker_id": "6392f70cd0a34ac186e193f826fbe6bf-shard-0",
-        "claimed_at": "2026-11-27T00:12:41.888893+00:00",
-        "lease_expires_at": "2026-11-27T06:12:41.888893+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31443147",
       "prepared": {
@@ -314635,5 +314637,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:15:48.856634+00:00"
+  "updated_at": "2026-11-27T00:19:39.410396+00:00"
 }
