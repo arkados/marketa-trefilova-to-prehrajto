@@ -296685,17 +296685,19 @@
       }
     },
     "11398": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34045544",
+          "target_video_id": "31468998",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:01:20.165105+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34045544",
         "display_name": "Piratensender Powerplay 1080p CZ Dabing",
         "planned_at": "2026-11-27T13:56:54.449535+00:00"
-      },
-      "claim": {
-        "worker_id": "24d86e71093a4534a1e8df4365f1e0c7-shard-0",
-        "claimed_at": "2026-11-27T13:56:55.301866+00:00",
-        "lease_expires_at": "2026-11-27T19:56:55.301866+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31468998",
       "prepared": {
@@ -319138,5 +319140,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:59:26.672999+00:00"
+  "updated_at": "2026-11-27T14:01:20.165123+00:00"
 }
