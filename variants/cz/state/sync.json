@@ -303877,17 +303877,19 @@
       "attempts": []
     },
     "32007": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11329031",
+          "target_video_id": "31478206",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:24:53.699124+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11329031",
         "display_name": "Violet & Daisy SD CZ Dabing",
         "planned_at": "2026-11-27T21:22:58.179783+00:00"
-      },
-      "claim": {
-        "worker_id": "214ca72a97ad41a6a8affe81195a2898-shard-0",
-        "claimed_at": "2026-11-27T21:23:02.693450+00:00",
-        "lease_expires_at": "2026-11-28T03:23:02.693450+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478206",
       "prepared": {
@@ -324705,5 +324707,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:24:11.850697+00:00"
+  "updated_at": "2026-11-27T21:24:53.699144+00:00"
 }
