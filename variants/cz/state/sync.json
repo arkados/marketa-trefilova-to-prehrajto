@@ -295262,17 +295262,19 @@
       "attempts": []
     },
     "34827": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33734397",
+          "target_video_id": "31462077",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:22:55.081643+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33734397",
         "display_name": "Ring of Fire 1080p CZ Dabing",
         "planned_at": "2026-11-27T09:18:54.384909+00:00"
-      },
-      "claim": {
-        "worker_id": "c5630d22662c4a78bf26123379ac43ca-shard-0",
-        "claimed_at": "2026-11-27T09:18:55.306943+00:00",
-        "lease_expires_at": "2026-11-27T15:18:55.306943+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31462077",
       "prepared": {
@@ -318007,5 +318009,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:22:26.478340+00:00"
+  "updated_at": "2026-11-27T09:22:55.081662+00:00"
 }
