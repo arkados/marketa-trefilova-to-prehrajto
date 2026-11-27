@@ -302950,17 +302950,19 @@
       }
     },
     "24758": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24779191",
+          "target_video_id": "31477219",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:40:15.175098+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24779191",
         "display_name": "Scorched SD CZ Dabing",
         "planned_at": "2026-11-27T20:38:45.433746+00:00"
-      },
-      "claim": {
-        "worker_id": "3c4d5f9772a541a7a83b4991fb79f488-shard-0",
-        "claimed_at": "2026-11-27T20:38:46.227822+00:00",
-        "lease_expires_at": "2026-11-28T02:38:46.227822+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477219",
       "prepared": {
@@ -323934,5 +323936,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:38:51.792175+00:00"
+  "updated_at": "2026-11-27T20:40:15.175119+00:00"
 }
