@@ -305763,17 +305763,19 @@
       }
     },
     "5948": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34975301",
+          "target_video_id": "31480698",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:08:49.552331+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34975301",
         "display_name": "Rambo: Last Blood 4K CZ Dabing",
         "planned_at": "2026-11-27T23:02:15.600360+00:00"
-      },
-      "claim": {
-        "worker_id": "82e82ec16909492985d5b59380db70c2-shard-0",
-        "claimed_at": "2026-11-27T23:02:16.433214+00:00",
-        "lease_expires_at": "2026-11-28T05:02:16.433214+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480698",
       "prepared": {
@@ -326225,5 +326227,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:08:08.277377+00:00"
+  "updated_at": "2026-11-27T23:08:49.552352+00:00"
 }
