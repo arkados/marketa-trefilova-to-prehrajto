@@ -292220,17 +292220,19 @@
       "attempts": []
     },
     "5680": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33266446",
+          "target_video_id": "31452729",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:32:50.613003+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33266446",
         "display_name": "This Is 40 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:26:12.944050+00:00"
-      },
-      "claim": {
-        "worker_id": "4887d51de3864ec3af56852ce73987af-shard-0",
-        "claimed_at": "2026-11-27T02:26:13.391933+00:00",
-        "lease_expires_at": "2026-11-27T08:26:13.391933+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452729",
       "prepared": {
@@ -315622,5 +315624,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:31:12.436063+00:00"
+  "updated_at": "2026-11-27T02:32:50.613022+00:00"
 }
