@@ -297660,17 +297660,19 @@
       }
     },
     "7654": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22878084",
+          "target_video_id": "31471116",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:32:16.985914+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22878084",
         "display_name": "Sammy 2 (A Turtle's Tale 2: Sammy's Escape from Paradise) 1080p CZ Dabing",
         "planned_at": "2026-11-27T15:26:28.724862+00:00"
-      },
-      "claim": {
-        "worker_id": "e9097d99cf9d4dac84c06922c61468d2-shard-0",
-        "claimed_at": "2026-11-27T15:26:29.569356+00:00",
-        "lease_expires_at": "2026-11-27T21:26:29.569356+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471116",
       "prepared": {
@@ -319838,5 +319840,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:29:19.824204+00:00"
+  "updated_at": "2026-11-27T15:32:16.985931+00:00"
 }
