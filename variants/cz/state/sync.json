@@ -293979,17 +293979,19 @@
       }
     },
     "15417": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26823754",
+          "target_video_id": "31459316",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:11:48.441169+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26823754",
         "display_name": "Le Guetteur 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:06:42.276864+00:00"
-      },
-      "claim": {
-        "worker_id": "14fd6e36decd4e60a688c30907f20bb5-shard-0",
-        "claimed_at": "2026-11-27T07:06:43.281459+00:00",
-        "lease_expires_at": "2026-11-27T13:06:43.281459+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459316",
       "prepared": {
@@ -316997,5 +316999,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:06:47.251046+00:00"
+  "updated_at": "2026-11-27T07:11:48.441191+00:00"
 }
