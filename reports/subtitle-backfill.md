@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-27T01:37:26.072845+00:00
+Poslední aktualizace (UTC): 2026-11-27T01:37:27.759124+00:00
 
 Zkontrolováno videí: 774. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 567, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `pending`: 1, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 129, `upload_unconfirmed`: 8
+Stavy: `already_has_czech`: 567, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 130, `upload_unconfirmed`: 8
 
 ## Poslední dávka
 
@@ -95,6 +95,7 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Crime 101 4K CZ Titulky](https://prehraj.to/crime-101-4k-cz-titulky-mkv/c0f3a2c7f8cfe178) (ID 31092791) | [Sdílej 35185544](https://sdilej.cz/35185544/crime-101-2026-2160p-web-dl-ddp5-1-x265-cz-sk-titulky-dop.-.mkv) | target_unavailable | 2026-11-16T14:44:28.778543+00:00 |
 | [Disturbia 1080p CZ Titulky](https://prehraj.to/disturbia-1080p-cz-titulky-mkv/44d408b374b25828) (ID 31083451) | [Sdílej 34714560](https://sdilej.cz/34714560/disturbia-2007-cz-en.mkv) | target_unavailable | 2026-11-16T05:07:12.791445+00:00 |
 | [Empties (Vratné lahve) 1080p CZ Titulky](https://prehraj.to/empties-vratne-lahve-1080p-cz-titulky-mkv/2fa38051e9b275cf) (ID 30938020) | [Sdílej 32453722](https://sdilej.cz/32453722/vratne-lahve-2007-fhd-cz.mkv) | target_unavailable | 2026-11-18T12:42:36.487068+00:00 |
+| [Enemy at the Gates 1080p CZ titulky](https://prehraj.to/enemy-at-the-gates-1080p-cz-titulky-mkv/492f5a2a6db7a22a) (ID 31451600) | [Sdílej 34336525](https://sdilej.cz/34336525/nepritel-pred-branami-2001-valecne-drama-czdab.bluray.1080p.mkv) | target_unavailable | 2026-11-27T01:37:27.759055+00:00 |
 | [Enola Holmes 2 1080p CZ Titulky](https://prehraj.to/enola-holmes-2-1080p-cz-titulky-mkv/b2c4680e2b15504c) (ID 31089623) | [Sdílej 23652012](https://sdilej.cz/23652012/enola.holmes.2.2022.1080p.nf.web-dl.ddp5.1.atmos.h.264-smurf.cz.titulky.mkv) | target_unavailable | 2026-11-16T10:52:31.877634+00:00 |
 | [Erin Brockovich 1080p CZ titulky](https://prehraj.to/erin-brockovich-1080p-cz-titulky-mkv/894daecd9c168ca1) (ID 30715404) | [Sdílej 19346570](https://sdilej.cz/19346570/erin.brockovich.2000.1080p.bluray.cz-en.5.1.mkv) | target_unavailable | 2026-11-18T12:50:33.452447+00:00 |
 | [Fany 1080p CZ Titulky](https://prehraj.to/fany-1080p-cz-titulky-mp4/50d935402cab42ee) (ID 31036927) | [Sdílej 26914298](https://sdilej.cz/26914298/rany-cz-1080p.mp4) | target_unavailable | 2026-11-14T18:46:18.601763+00:00 |
