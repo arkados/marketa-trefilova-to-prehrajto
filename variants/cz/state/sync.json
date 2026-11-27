@@ -292762,17 +292762,19 @@
       }
     },
     "25540": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32364803",
+          "target_video_id": "31455198",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:10:08.469464+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32364803",
         "display_name": "Bambi II 1080p CZ Dabing",
         "planned_at": "2026-11-27T03:59:20.515512+00:00"
-      },
-      "claim": {
-        "worker_id": "b44d151816014c719dd12239339f4365-shard-0",
-        "claimed_at": "2026-11-27T03:59:21.036275+00:00",
-        "lease_expires_at": "2026-11-27T09:59:21.036275+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31455198",
       "prepared": {
@@ -316053,5 +316055,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:02:46.740462+00:00"
+  "updated_at": "2026-11-27T04:10:08.469483+00:00"
 }
