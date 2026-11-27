@@ -301393,17 +301393,19 @@
       "attempts": []
     },
     "30157": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34713108",
+          "target_video_id": "31475735",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:34:45.575064+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34713108",
         "display_name": "Bloodstone 720p CZ Dabing",
         "planned_at": "2026-11-27T19:32:49.337125+00:00"
-      },
-      "claim": {
-        "worker_id": "461e6d88de004f449427bfb903807120-shard-0",
-        "claimed_at": "2026-11-27T19:32:50.364428+00:00",
-        "lease_expires_at": "2026-11-28T01:32:50.364428+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475735",
       "prepared": {
@@ -322740,5 +322742,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:34:03.781820+00:00"
+  "updated_at": "2026-11-27T19:34:45.575079+00:00"
 }
