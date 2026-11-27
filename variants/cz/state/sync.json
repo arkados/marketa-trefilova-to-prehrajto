@@ -304088,17 +304088,19 @@
       "attempts": []
     },
     "9016": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30100877",
+          "target_video_id": "31478325",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:33:11.635719+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30100877",
         "display_name": "GTMAX 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:28:30.937178+00:00"
-      },
-      "claim": {
-        "worker_id": "1694816c73bc4adf84fa49f6ecb023ea-shard-0",
-        "claimed_at": "2026-11-27T21:28:31.716789+00:00",
-        "lease_expires_at": "2026-11-28T03:28:31.716789+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478325",
       "prepared": {
@@ -324885,5 +324887,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:32:25.301746+00:00"
+  "updated_at": "2026-11-27T21:33:11.635739+00:00"
 }
