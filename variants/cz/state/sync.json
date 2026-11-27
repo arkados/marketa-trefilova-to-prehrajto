@@ -304399,17 +304399,19 @@
       "attempts": []
     },
     "5306": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32607975",
+          "target_video_id": "31478526",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:47:07.188038+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32607975",
         "display_name": "Tron: Ares 4K CZ Dabing",
         "planned_at": "2026-11-27T21:40:01.271480+00:00"
-      },
-      "claim": {
-        "worker_id": "3100f72390654d9294e5d4b74317aa99-shard-0",
-        "claimed_at": "2026-11-27T21:40:02.086695+00:00",
-        "lease_expires_at": "2026-11-28T03:40:02.086695+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478526",
       "prepared": {
@@ -325125,5 +325127,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:46:08.157103+00:00"
+  "updated_at": "2026-11-27T21:47:07.188059+00:00"
 }
