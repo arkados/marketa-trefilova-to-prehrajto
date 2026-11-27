@@ -291711,17 +291711,19 @@
       }
     },
     "5658": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34012595",
+          "target_video_id": "31451695",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:41:20.081989+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34012595",
         "display_name": "Vacation 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:35:53.595898+00:00"
-      },
-      "claim": {
-        "worker_id": "dc0f59f84eaf4c96bdc13afb4c4fb65a-shard-0",
-        "claimed_at": "2026-11-27T01:35:54.314116+00:00",
-        "lease_expires_at": "2026-11-27T07:35:54.314116+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451695",
       "prepared": {
@@ -315191,5 +315193,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:36:30.560096+00:00"
+  "updated_at": "2026-11-27T01:41:20.082005+00:00"
 }
