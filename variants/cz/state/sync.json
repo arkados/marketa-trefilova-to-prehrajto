@@ -298553,17 +298553,19 @@
       "attempts": []
     },
     "30142": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30117745",
+          "target_video_id": "31472867",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:49:07.788818+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30117745",
         "display_name": "Happy Tears SD CZ Dabing",
         "planned_at": "2026-11-27T16:47:07.818340+00:00"
-      },
-      "claim": {
-        "worker_id": "75e2deae981d413ba98803bb2da2e479-shard-0",
-        "claimed_at": "2026-11-27T16:47:08.737852+00:00",
-        "lease_expires_at": "2026-11-27T22:47:08.737852+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472867",
       "prepared": {
@@ -320515,5 +320517,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:47:12.289221+00:00"
+  "updated_at": "2026-11-27T16:49:07.788834+00:00"
 }
