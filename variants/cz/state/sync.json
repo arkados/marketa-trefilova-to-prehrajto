@@ -297118,17 +297118,19 @@
       "attempts": []
     },
     "16071": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19693340",
+          "target_video_id": "31469710",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:29:14.985449+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19693340",
         "display_name": "Kidnapping Freddy Heineken (Kidnapping Mr. Heineken) 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:25:01.978334+00:00"
-      },
-      "claim": {
-        "worker_id": "4d41be86897d4346abf8cd482f8c7fce-shard-0",
-        "claimed_at": "2026-11-27T14:25:02.991554+00:00",
-        "lease_expires_at": "2026-11-27T20:25:02.991554+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469710",
       "prepared": {
@@ -319398,5 +319400,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:25:07.957382+00:00"
+  "updated_at": "2026-11-27T14:29:14.985467+00:00"
 }
