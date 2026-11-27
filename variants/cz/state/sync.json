@@ -301862,17 +301862,19 @@
       }
     },
     "5300": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34449446",
+          "target_video_id": "31476242",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:50:28.191599+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34449446",
         "display_name": "Shelter (2026) 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:48:23.924126+00:00"
-      },
-      "claim": {
-        "worker_id": "c96281cddf8c4eaf95cf0c2cf96c1066-shard-0",
-        "claimed_at": "2026-11-27T19:48:24.803716+00:00",
-        "lease_expires_at": "2026-11-28T01:48:24.803716+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476242",
       "prepared": {
@@ -323134,5 +323136,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:50:11.861455+00:00"
+  "updated_at": "2026-11-27T19:50:28.191614+00:00"
 }
