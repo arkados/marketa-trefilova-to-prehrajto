@@ -301311,17 +301311,19 @@
       }
     },
     "22962": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22954016",
+          "target_video_id": "31475700",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:32:38.376815+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22954016",
         "display_name": "Destroyer (1988) SD CZ Dabing",
         "planned_at": "2026-11-27T19:31:16.128019+00:00"
-      },
-      "claim": {
-        "worker_id": "109886eaa0ec40548b7fb5bbb017b294-shard-0",
-        "claimed_at": "2026-11-27T19:31:17.947230+00:00",
-        "lease_expires_at": "2026-11-28T01:31:17.947230+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475700",
       "prepared": {
@@ -322700,5 +322702,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:32:27.858554+00:00"
+  "updated_at": "2026-11-27T19:32:38.376829+00:00"
 }
