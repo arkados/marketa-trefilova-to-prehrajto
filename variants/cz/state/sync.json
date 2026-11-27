@@ -304443,17 +304443,19 @@
       }
     },
     "6130": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32941050",
+          "target_video_id": "31478645",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:48:33.144970+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32941050",
         "display_name": "Broken City 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:46:03.124402+00:00"
-      },
-      "claim": {
-        "worker_id": "63f126016e4344ff8790c4962d57b6ae-shard-0",
-        "claimed_at": "2026-11-27T21:46:03.959049+00:00",
-        "lease_expires_at": "2026-11-28T03:46:03.959049+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478645",
       "prepared": {
@@ -325145,5 +325147,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:47:22.864226+00:00"
+  "updated_at": "2026-11-27T21:48:33.144990+00:00"
 }
