@@ -304823,17 +304823,19 @@
       "attempts": []
     },
     "5969": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26550838",
+          "target_video_id": "31479230",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:14:36.719350+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26550838",
         "display_name": "Mile 22 4K CZ Dabing",
         "planned_at": "2026-11-27T22:08:29.229970+00:00"
-      },
-      "claim": {
-        "worker_id": "ac3ae57f29094b90923446689d48df2b-shard-0",
-        "claimed_at": "2026-11-27T22:08:30.100115+00:00",
-        "lease_expires_at": "2026-11-28T04:08:30.100115+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31479230",
       "prepared": {
@@ -325531,5 +325533,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:13:51.429951+00:00"
+  "updated_at": "2026-11-27T22:14:36.719369+00:00"
 }
