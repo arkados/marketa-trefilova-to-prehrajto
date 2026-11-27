@@ -293754,17 +293754,19 @@
       }
     },
     "11711": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33059915",
+          "target_video_id": "31459158",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:59:43.631042+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33059915",
         "display_name": "The New Adventures of Pippi Longstocking 1080p CZ Dabing",
         "planned_at": "2026-11-27T06:56:56.713607+00:00"
-      },
-      "claim": {
-        "worker_id": "a1bb83a92761421587a6d359edefdda3-shard-0",
-        "claimed_at": "2026-11-27T06:56:57.771247+00:00",
-        "lease_expires_at": "2026-11-27T12:56:57.771247+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459158",
       "prepared": {
@@ -316844,5 +316846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:57:36.211680+00:00"
+  "updated_at": "2026-11-27T06:59:43.631060+00:00"
 }
