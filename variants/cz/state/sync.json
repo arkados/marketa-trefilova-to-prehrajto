@@ -305287,17 +305287,19 @@
       }
     },
     "8712": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25616273",
+          "target_video_id": "31480050",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:38:41.013340+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25616273",
         "display_name": "The Passenger (La pasajera) (2021) 1080p CZ Dabing",
         "planned_at": "2026-11-27T22:33:36.647110+00:00"
-      },
-      "claim": {
-        "worker_id": "1f82430bc3074354962dccf8b80d6a0c-shard-0",
-        "claimed_at": "2026-11-27T22:33:37.663765+00:00",
-        "lease_expires_at": "2026-11-28T04:33:37.663765+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480050",
       "prepared": {
@@ -325868,5 +325870,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:36:55.934089+00:00"
+  "updated_at": "2026-11-27T22:38:41.013361+00:00"
 }
