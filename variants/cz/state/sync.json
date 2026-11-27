@@ -294032,17 +294032,19 @@
       }
     },
     "28031": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34710541",
+          "target_video_id": "31459436",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:18:21.081807+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34710541",
         "display_name": "All Stars 720p CZ Dabing",
         "planned_at": "2026-11-27T07:12:13.270787+00:00"
-      },
-      "claim": {
-        "worker_id": "a852d47ef9284ed6bfadf8fdef55afb4-shard-0",
-        "claimed_at": "2026-11-27T07:12:14.292034+00:00",
-        "lease_expires_at": "2026-11-27T13:12:14.292034+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459436",
       "prepared": {
@@ -317077,5 +317079,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:16:39.573613+00:00"
+  "updated_at": "2026-11-27T07:18:21.081824+00:00"
 }
