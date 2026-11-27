@@ -298003,17 +298003,19 @@
       }
     },
     "15171": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689556",
+          "target_video_id": "31472035",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:13:24.966184+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689556",
         "display_name": "This Time Next Year 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:06:34.238500+00:00"
-      },
-      "claim": {
-        "worker_id": "ea4cddaa32b94239815dcf5f109423d9-shard-0",
-        "claimed_at": "2026-11-27T16:06:35.253638+00:00",
-        "lease_expires_at": "2026-11-27T22:06:35.253638+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31472035",
       "prepared": {
@@ -320118,5 +320120,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:12:48.375954+00:00"
+  "updated_at": "2026-11-27T16:13:24.966202+00:00"
 }
