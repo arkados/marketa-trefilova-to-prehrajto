@@ -300053,17 +300053,19 @@
       }
     },
     "29063": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "5843279",
+          "target_video_id": "31474481",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:42:55.210326+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "5843279",
         "display_name": "The Four Warriors SD CZ Dabing",
         "planned_at": "2026-11-27T18:40:48.744432+00:00"
-      },
-      "claim": {
-        "worker_id": "8b79d461756e45c5b9f44fa5531bafd2-shard-0",
-        "claimed_at": "2026-11-27T18:40:49.644867+00:00",
-        "lease_expires_at": "2026-11-28T00:40:49.644867+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474481",
       "prepared": {
@@ -321712,5 +321714,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:42:52.170704+00:00"
+  "updated_at": "2026-11-27T18:42:55.210341+00:00"
 }
