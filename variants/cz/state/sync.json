@@ -297761,17 +297761,19 @@
       }
     },
     "27121": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34193393",
+          "target_video_id": "31471503",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:45:07.766995+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34193393",
         "display_name": "Snowflake, the White Gorilla 720p CZ Dabing",
         "planned_at": "2026-11-27T15:42:17.066520+00:00"
-      },
-      "claim": {
-        "worker_id": "85538a57c2b04409a0f16571878368a7-shard-0",
-        "claimed_at": "2026-11-27T15:42:17.905257+00:00",
-        "lease_expires_at": "2026-11-27T21:42:17.905257+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471503",
       "prepared": {
@@ -319918,5 +319920,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:42:52.828474+00:00"
+  "updated_at": "2026-11-27T15:45:07.767012+00:00"
 }
