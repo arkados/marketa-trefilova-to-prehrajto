@@ -108277,7 +108277,7 @@
       "last_plan": {
         "source_id": "30853807",
         "display_name": "U nás v Kocourkově 1080p CZ Dabing",
-        "planned_at": "2026-11-27T20:46:10.372483+00:00"
+        "planned_at": "2026-11-27T20:46:18.398428+00:00"
       },
       "previous_target_id": "30983476",
       "prepared": {
@@ -303091,11 +303091,23 @@
       }
     },
     "6161": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30652528",
+          "reason": "Source detail has no authenticated download link; source_id=30652528",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:46:21.716522+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30652528",
         "display_name": "La Dolce Villa 1080p CZ Dabing",
-        "planned_at": "2026-11-27T20:46:10.870834+00:00"
+        "planned_at": "2026-11-27T20:46:18.871013+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30652528",
+        "requested_at": "2026-11-27T20:46:21.716504+00:00"
       }
     },
     "34368": {
@@ -324041,5 +324053,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:46:10.870853+00:00"
+  "updated_at": "2026-11-27T20:46:21.716528+00:00"
 }
