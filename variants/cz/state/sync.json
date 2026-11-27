@@ -293080,17 +293080,19 @@
       "attempts": []
     },
     "23988": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27719178",
+          "target_video_id": "31456658",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:57:14.524100+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27719178",
         "display_name": "Ground Control SD CZ Dabing",
         "planned_at": "2026-11-27T04:54:09.868083+00:00"
-      },
-      "claim": {
-        "worker_id": "9a72bef2c74b44959b5ce863c80503ad-shard-0",
-        "claimed_at": "2026-11-27T04:54:10.330051+00:00",
-        "lease_expires_at": "2026-11-27T10:54:10.330051+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31456658",
       "prepared": {
@@ -316290,5 +316292,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:54:14.424711+00:00"
+  "updated_at": "2026-11-27T04:57:14.524116+00:00"
 }
