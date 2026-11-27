@@ -304999,17 +304999,19 @@
       "attempts": []
     },
     "5790": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32793258",
+          "target_video_id": "31479516",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:20:14.779904+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32793258",
         "display_name": "Universal Soldier 4K CZ Dabing",
         "planned_at": "2026-11-27T22:16:01.319234+00:00"
-      },
-      "claim": {
-        "worker_id": "1836053df9ad4e199e6b8dc5126accf1-shard-0",
-        "claimed_at": "2026-11-27T22:16:02.120655+00:00",
-        "lease_expires_at": "2026-11-28T04:16:02.120655+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31479516",
       "prepared": {
@@ -325631,5 +325633,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:19:20.883669+00:00"
+  "updated_at": "2026-11-27T22:20:14.779925+00:00"
 }
