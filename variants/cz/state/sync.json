@@ -301819,17 +301819,19 @@
       }
     },
     "5753": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34660718",
+          "target_video_id": "31476234",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:49:56.383076+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34660718",
         "display_name": "Deep Rising 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:47:46.052475+00:00"
-      },
-      "claim": {
-        "worker_id": "66c67bc1a35544d6a9064de001ad3240-shard-0",
-        "claimed_at": "2026-11-27T19:47:47.063471+00:00",
-        "lease_expires_at": "2026-11-28T01:47:47.063471+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476234",
       "prepared": {
@@ -323114,5 +323116,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:49:45.666818+00:00"
+  "updated_at": "2026-11-27T19:49:56.383092+00:00"
 }
