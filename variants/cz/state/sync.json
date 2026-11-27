@@ -292022,17 +292022,19 @@
       }
     },
     "30208": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34451819",
+          "target_video_id": "31452453",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:16:42.616528+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34451819",
         "display_name": "Return from the River Kwai SD CZ Dabing",
         "planned_at": "2026-11-27T02:11:54.325182+00:00"
-      },
-      "claim": {
-        "worker_id": "26d811cb9f444b23aa4b46b1ed18bc20-shard-0",
-        "claimed_at": "2026-11-27T02:11:54.799537+00:00",
-        "lease_expires_at": "2026-11-27T08:11:54.799537+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452453",
       "prepared": {
@@ -315442,5 +315444,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:16:07.898095+00:00"
+  "updated_at": "2026-11-27T02:16:42.616543+00:00"
 }
