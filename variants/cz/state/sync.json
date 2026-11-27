@@ -302499,17 +302499,19 @@
       "attempts": []
     },
     "5949": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13047985",
+          "target_video_id": "31476688",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:17:29.491198+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13047985",
         "display_name": "To All the Boys: P.S. I Still Love You 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:15:30.330145+00:00"
-      },
-      "claim": {
-        "worker_id": "1726ad0cea1b41feb61725ad9b4720ed-shard-0",
-        "claimed_at": "2026-11-27T20:15:31.348949+00:00",
-        "lease_expires_at": "2026-11-28T02:15:31.348949+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476688",
       "prepared": {
@@ -323594,5 +323596,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:16:32.960583+00:00"
+  "updated_at": "2026-11-27T20:17:29.491214+00:00"
 }
