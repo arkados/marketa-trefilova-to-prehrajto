@@ -303938,17 +303938,19 @@
       "attempts": []
     },
     "5760": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26248717",
+          "target_video_id": "31478232",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:27:05.325252+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26248717",
         "display_name": "Romeo Must Die 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:24:07.279756+00:00"
-      },
-      "claim": {
-        "worker_id": "ee5c2df86e724661b4d70dccd6472e84-shard-0",
-        "claimed_at": "2026-11-27T21:24:08.153913+00:00",
-        "lease_expires_at": "2026-11-28T03:24:08.153913+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478232",
       "prepared": {
@@ -324745,5 +324747,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:25:28.307080+00:00"
+  "updated_at": "2026-11-27T21:27:05.325272+00:00"
 }
