@@ -299984,17 +299984,19 @@
       }
     },
     "5928": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19714524",
+          "target_video_id": "31474412",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:40:38.740447+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19714524",
         "display_name": "The Princess Switch 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:38:39.077778+00:00"
-      },
-      "claim": {
-        "worker_id": "9e8b1dc6d75648eb82ea262a27b4e2a2-shard-0",
-        "claimed_at": "2026-11-27T18:38:40.146102+00:00",
-        "lease_expires_at": "2026-11-28T00:38:40.146102+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474412",
       "prepared": {
@@ -321652,5 +321654,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:40:07.421952+00:00"
+  "updated_at": "2026-11-27T18:40:38.740463+00:00"
 }
