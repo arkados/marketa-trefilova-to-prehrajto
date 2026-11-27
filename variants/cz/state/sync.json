@@ -305952,17 +305952,19 @@
       }
     },
     "31065": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34532079",
+          "target_video_id": "31481636",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:45:10.758164+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34532079",
         "display_name": "Alice (2022) SD CZ Dabing",
         "planned_at": "2026-11-27T23:43:44.079945+00:00"
-      },
-      "claim": {
-        "worker_id": "069f9c2bbe214b3d86344e23c56713cf-shard-0",
-        "claimed_at": "2026-11-27T23:43:44.906286+00:00",
-        "lease_expires_at": "2026-11-28T05:43:44.906286+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481636",
       "prepared": {
@@ -326378,5 +326380,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:44:11.921096+00:00"
+  "updated_at": "2026-11-27T23:45:10.758187+00:00"
 }
