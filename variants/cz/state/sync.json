@@ -296173,17 +296173,19 @@
       "attempts": []
     },
     "25938": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29869557",
+          "target_video_id": "31467300",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:04:31.652421+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29869557",
         "display_name": "The Edge of Love SD CZ Dabing",
         "planned_at": "2026-11-27T13:02:41.412387+00:00"
-      },
-      "claim": {
-        "worker_id": "0945ffb04fc8439ab75ce472f33fb95c-shard-0",
-        "claimed_at": "2026-11-27T13:02:42.243616+00:00",
-        "lease_expires_at": "2026-11-27T19:02:42.243616+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467300",
       "prepared": {
@@ -318684,5 +318686,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:03:55.459982+00:00"
+  "updated_at": "2026-11-27T13:04:31.652437+00:00"
 }
