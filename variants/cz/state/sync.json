@@ -300195,17 +300195,19 @@
       }
     },
     "16443": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30884720",
+          "target_video_id": "31474627",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:49:37.195579+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30884720",
         "display_name": "Banger (2025) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:47:27.770999+00:00"
-      },
-      "claim": {
-        "worker_id": "3eb8f77c33a7492fa02db13a00fa859f-shard-0",
-        "claimed_at": "2026-11-27T18:47:28.687941+00:00",
-        "lease_expires_at": "2026-11-28T00:47:28.687941+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474627",
       "prepared": {
@@ -321829,5 +321831,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:49:28.171628+00:00"
+  "updated_at": "2026-11-27T18:49:37.195595+00:00"
 }
