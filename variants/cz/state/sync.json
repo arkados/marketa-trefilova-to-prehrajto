@@ -292194,17 +292194,19 @@
       }
     },
     "5613": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28079822",
+          "target_video_id": "31452722",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:30:53.665781+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28079822",
         "display_name": "Tower Heist 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:26:00.967880+00:00"
-      },
-      "claim": {
-        "worker_id": "16f1aebad69945dfb5fa1944dd7f9e76-shard-0",
-        "claimed_at": "2026-11-27T02:26:04.273641+00:00",
-        "lease_expires_at": "2026-11-27T08:26:04.273641+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452722",
       "prepared": {
@@ -315602,5 +315604,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:27:04.774958+00:00"
+  "updated_at": "2026-11-27T02:30:53.665797+00:00"
 }
