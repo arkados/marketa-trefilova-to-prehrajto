@@ -293460,17 +293460,19 @@
       }
     },
     "25064": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20432991",
+          "target_video_id": "31457970",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:05:58.778756+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20432991",
         "display_name": "Day of Wrath 1080p CZ Dabing",
         "planned_at": "2026-11-27T05:59:04.077259+00:00"
-      },
-      "claim": {
-        "worker_id": "a34741f4051e4ed0b67940b5f5ced3ab-shard-0",
-        "claimed_at": "2026-11-27T05:59:04.538825+00:00",
-        "lease_expires_at": "2026-11-27T11:59:04.538825+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31457970",
       "prepared": {
@@ -316604,5 +316606,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T05:59:08.869459+00:00"
+  "updated_at": "2026-11-27T06:05:58.778774+00:00"
 }
