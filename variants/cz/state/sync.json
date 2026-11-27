@@ -301684,17 +301684,19 @@
       "attempts": []
     },
     "25529": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34594654",
+          "target_video_id": "31476163",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:44:53.840047+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34594654",
         "display_name": "Bordertown 720p CZ Dabing",
         "planned_at": "2026-11-27T19:42:55.746638+00:00"
-      },
-      "claim": {
-        "worker_id": "6cca9dbabf404ce48c212fc95354c57c-shard-0",
-        "claimed_at": "2026-11-27T19:42:56.642091+00:00",
-        "lease_expires_at": "2026-11-28T01:42:56.642091+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476163",
       "prepared": {
@@ -322977,5 +322979,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:43:31.980211+00:00"
+  "updated_at": "2026-11-27T19:44:53.840062+00:00"
 }
