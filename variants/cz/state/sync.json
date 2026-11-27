@@ -301107,17 +301107,19 @@
       }
     },
     "22423": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33064197",
+          "target_video_id": "31475554",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:26:52.854001+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33064197",
         "display_name": "Oliver's Story 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:25:03.021330+00:00"
-      },
-      "claim": {
-        "worker_id": "a20e2a7d6eb7480590efde38e1a8c27b-shard-0",
-        "claimed_at": "2026-11-27T19:25:04.195609+00:00",
-        "lease_expires_at": "2026-11-28T01:25:04.195609+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475554",
       "prepared": {
@@ -322540,5 +322542,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:26:28.799332+00:00"
+  "updated_at": "2026-11-27T19:26:52.854016+00:00"
 }
