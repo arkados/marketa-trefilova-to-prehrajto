@@ -297540,17 +297540,19 @@
       "attempts": []
     },
     "25368": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26555466",
+          "target_video_id": "31470994",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:23:30.114053+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26555466",
         "display_name": "Gamebox 1.0 SD CZ Dabing",
         "planned_at": "2026-11-27T15:21:31.386748+00:00"
-      },
-      "claim": {
-        "worker_id": "e9a20d036d3c49428f00c5d8546df8e2-shard-0",
-        "claimed_at": "2026-11-27T15:21:36.623635+00:00",
-        "lease_expires_at": "2026-11-27T21:21:36.623635+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31470994",
       "prepared": {
@@ -319778,5 +319780,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:22:59.451984+00:00"
+  "updated_at": "2026-11-27T15:23:30.114070+00:00"
 }
