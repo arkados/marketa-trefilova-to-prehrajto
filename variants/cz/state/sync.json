@@ -294287,17 +294287,19 @@
       }
     },
     "22856": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34639380",
+          "target_video_id": "31459874",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:34:53.088276+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34639380",
         "display_name": "Eye of the Tiger 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:27:55.479701+00:00"
-      },
-      "claim": {
-        "worker_id": "de537edba83e49498fbaed46edac6a6c-shard-0",
-        "claimed_at": "2026-11-27T07:27:56.433449+00:00",
-        "lease_expires_at": "2026-11-27T13:27:56.433449+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459874",
       "prepared": {
@@ -317350,5 +317352,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:34:37.239312+00:00"
+  "updated_at": "2026-11-27T07:34:53.088296+00:00"
 }
