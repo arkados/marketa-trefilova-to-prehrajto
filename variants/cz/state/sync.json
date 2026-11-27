@@ -299564,17 +299564,19 @@
       "attempts": []
     },
     "23939": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30098954",
+          "target_video_id": "31474121",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:27:53.649721+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30098954",
         "display_name": "Family Plan SD CZ Dabing",
         "planned_at": "2026-11-27T18:26:41.691005+00:00"
-      },
-      "claim": {
-        "worker_id": "9d2c76e68f9c42f8841c4399814525e2-shard-0",
-        "claimed_at": "2026-11-27T18:26:42.705898+00:00",
-        "lease_expires_at": "2026-11-28T00:26:42.705898+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474121",
       "prepared": {
@@ -321295,5 +321297,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:27:38.188598+00:00"
+  "updated_at": "2026-11-27T18:27:53.649736+00:00"
 }
