@@ -290896,17 +290896,19 @@
       }
     },
     "13979": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15686818",
+          "target_video_id": "31430147",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:06:31.419913+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15686818",
         "display_name": "Finding 'Ohana (Finding `Ohana) 1080p CZ Dabing",
         "planned_at": "2026-11-26T23:55:34.816903+00:00"
-      },
-      "claim": {
-        "worker_id": "ee9b448579524b5f81f633f6aefe0b72-shard-0",
-        "claimed_at": "2026-11-26T23:55:35.647502+00:00",
-        "lease_expires_at": "2026-11-27T05:55:35.647502+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31430147",
       "prepared": {
@@ -314535,5 +314537,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:03:44.816729+00:00"
+  "updated_at": "2026-11-27T00:06:31.419929+00:00"
 }
