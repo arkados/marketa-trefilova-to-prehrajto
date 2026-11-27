@@ -294769,17 +294769,19 @@
       "attempts": []
     },
     "23770": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34812327",
+          "target_video_id": "31460752",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:19:50.805834+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34812327",
         "display_name": "Up Close & Personal 720p CZ Dabing",
         "planned_at": "2026-11-27T08:08:42.356784+00:00"
-      },
-      "claim": {
-        "worker_id": "9969f153841e4df4aacf19c8ca6ac4c1-shard-0",
-        "claimed_at": "2026-11-27T08:08:43.306450+00:00",
-        "lease_expires_at": "2026-11-27T14:08:43.306450+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460752",
       "prepared": {
@@ -317687,5 +317689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:18:46.939119+00:00"
+  "updated_at": "2026-11-27T08:19:50.805851+00:00"
 }
