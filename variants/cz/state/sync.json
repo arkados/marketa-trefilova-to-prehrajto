@@ -304723,17 +304723,19 @@
       }
     },
     "6542": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26623349",
+          "target_video_id": "31479013",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:05:16.763748+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26623349",
         "display_name": "Eternal Daughter (The Eternal Daughter) 720p CZ Dabing",
         "planned_at": "2026-11-27T22:02:01.082188+00:00"
-      },
-      "claim": {
-        "worker_id": "994455e28b7048c28b3403fbce9f321c-shard-0",
-        "claimed_at": "2026-11-27T22:02:01.910917+00:00",
-        "lease_expires_at": "2026-11-28T04:02:01.910917+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31479013",
       "prepared": {
@@ -325371,5 +325373,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:02:47.579395+00:00"
+  "updated_at": "2026-11-27T22:05:16.763770+00:00"
 }
