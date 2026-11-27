@@ -298052,17 +298052,19 @@
       }
     },
     "6085": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "20162984",
+          "target_video_id": "31472199",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:19:45.880819+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "20162984",
         "display_name": "Devil's Knot 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:12:42.924873+00:00"
-      },
-      "claim": {
-        "worker_id": "48bd3fe0787148d9b33960ca9b3752fc-shard-0",
-        "claimed_at": "2026-11-27T16:12:43.773400+00:00",
-        "lease_expires_at": "2026-11-27T22:12:43.773400+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31472199",
       "prepared": {
@@ -320178,5 +320180,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:19:13.995937+00:00"
+  "updated_at": "2026-11-27T16:19:45.880835+00:00"
 }
