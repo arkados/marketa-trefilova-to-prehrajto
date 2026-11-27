@@ -291499,17 +291499,19 @@
       }
     },
     "12295": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34490344",
+          "target_video_id": "31451003",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:15:56.053698+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34490344",
         "display_name": "Eraser 4K CZ Dabing",
         "planned_at": "2026-11-27T01:06:38.914419+00:00"
-      },
-      "claim": {
-        "worker_id": "d7f9266b1e5942728b23ba13bcbc1838-shard-0",
-        "claimed_at": "2026-11-27T01:06:39.732071+00:00",
-        "lease_expires_at": "2026-11-27T07:06:39.732071+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451003",
       "prepared": {
@@ -315049,5 +315051,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:15:39.067231+00:00"
+  "updated_at": "2026-11-27T01:15:56.053715+00:00"
 }
