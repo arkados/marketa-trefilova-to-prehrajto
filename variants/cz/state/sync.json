@@ -294382,17 +294382,19 @@
       }
     },
     "9946": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29718683",
+          "target_video_id": "31459999",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:37:56.605247+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29718683",
         "display_name": "Noah's Ark (Arca de Noé) (2024) 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:33:19.177283+00:00"
-      },
-      "claim": {
-        "worker_id": "86ea6e37dbc64d6d8100eaa33b32b214-shard-0",
-        "claimed_at": "2026-11-27T07:33:20.131943+00:00",
-        "lease_expires_at": "2026-11-27T13:33:20.131943+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459999",
       "prepared": {
@@ -317387,5 +317389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:35:24.061934+00:00"
+  "updated_at": "2026-11-27T07:37:56.605265+00:00"
 }
