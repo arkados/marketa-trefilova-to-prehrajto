@@ -291150,17 +291150,19 @@
       }
     },
     "11630": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34907773",
+          "target_video_id": "31449840",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:39:21.475108+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34907773",
         "display_name": "The Karate Kid Part II 4K CZ Dabing",
         "planned_at": "2026-11-27T00:28:41.990089+00:00"
-      },
-      "claim": {
-        "worker_id": "c21cc1cc88b64b5a8c512c1181150843-shard-0",
-        "claimed_at": "2026-11-27T00:28:42.684886+00:00",
-        "lease_expires_at": "2026-11-27T06:28:42.684886+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31449840",
       "prepared": {
@@ -314735,5 +314737,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:35:26.539770+00:00"
+  "updated_at": "2026-11-27T00:39:21.475124+00:00"
 }
