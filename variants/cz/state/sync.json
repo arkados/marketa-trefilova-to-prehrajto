@@ -298404,17 +298404,19 @@
       }
     },
     "12347": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29595311",
+          "target_video_id": "31472725",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:44:49.981163+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29595311",
         "display_name": "Addicted to Love 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:39:47.259090+00:00"
-      },
-      "claim": {
-        "worker_id": "f2ff85a1b45341b4ad71d4577b994a29-shard-0",
-        "claimed_at": "2026-11-27T16:39:48.183867+00:00",
-        "lease_expires_at": "2026-11-27T22:39:48.183867+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472725",
       "prepared": {
@@ -320438,5 +320440,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:42:53.684874+00:00"
+  "updated_at": "2026-11-27T16:44:49.981177+00:00"
 }
