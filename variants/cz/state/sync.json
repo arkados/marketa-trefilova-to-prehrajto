@@ -295769,17 +295769,19 @@
       }
     },
     "19801": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34689291",
+          "target_video_id": "31463351",
+          "permanent": false,
+          "attempted_at": "2026-11-27T10:29:38.898219+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34689291",
         "display_name": "Assassination Games 1080p CZ Dabing",
         "planned_at": "2026-11-27T10:19:30.334154+00:00"
-      },
-      "claim": {
-        "worker_id": "970ec57cb9414ec380a179d1512ef6e5-shard-0",
-        "claimed_at": "2026-11-27T10:19:31.286330+00:00",
-        "lease_expires_at": "2026-11-27T16:19:31.286330+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31463351",
       "prepared": {
@@ -318384,5 +318386,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T10:28:11.439191+00:00"
+  "updated_at": "2026-11-27T10:29:38.898234+00:00"
 }
