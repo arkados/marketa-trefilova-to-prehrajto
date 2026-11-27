@@ -296022,17 +296022,19 @@
       "attempts": []
     },
     "19615": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11226791",
+          "target_video_id": "31466827",
+          "permanent": false,
+          "attempted_at": "2026-11-27T12:54:49.898914+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11226791",
         "display_name": "Miracle at St. Anna SD CZ Dabing",
         "planned_at": "2026-11-27T12:42:27.992572+00:00"
-      },
-      "claim": {
-        "worker_id": "6425473923ec478fa26394ac854dd519-shard-0",
-        "claimed_at": "2026-11-27T12:42:28.834458+00:00",
-        "lease_expires_at": "2026-11-27T18:42:28.834458+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31466827",
       "prepared": {
@@ -318584,5 +318586,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T12:48:00.633837+00:00"
+  "updated_at": "2026-11-27T12:54:49.898930+00:00"
 }
