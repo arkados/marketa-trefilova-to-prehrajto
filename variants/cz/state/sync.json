@@ -124715,7 +124715,7 @@
       "last_plan": {
         "source_id": "34503356",
         "display_name": "The Hot Rock 1080p CZ Dabing",
-        "planned_at": "2026-11-27T01:41:26.212098+00:00"
+        "planned_at": "2026-11-27T01:41:31.792033+00:00"
       },
       "previous_target_id": "30985739",
       "prepared": {
@@ -291737,17 +291737,19 @@
       "attempts": []
     },
     "5640": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33748409",
+          "target_video_id": "31451710",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:41:34.279441+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33748409",
         "display_name": "Alice Through the Looking Glass 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:36:25.360537+00:00"
-      },
-      "claim": {
-        "worker_id": "a1644806bbe2493e92c8d244a8228257-shard-0",
-        "claimed_at": "2026-11-27T01:36:26.061949+00:00",
-        "lease_expires_at": "2026-11-27T07:36:26.061949+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451710",
       "prepared": {
@@ -291762,7 +291764,13 @@
       "last_plan": {
         "source_id": "32872971",
         "display_name": "Why Him? 1080p CZ Dabing",
-        "planned_at": "2026-11-27T01:41:26.635442+00:00"
+        "planned_at": "2026-11-27T01:41:32.183163+00:00"
+      },
+      "claim": {
+        "worker_id": "f7cb25ecfff44c2786d4e2f8eac1d499-shard-0",
+        "claimed_at": "2026-11-27T01:41:32.874169+00:00",
+        "lease_expires_at": "2026-11-27T07:41:32.874169+00:00",
+        "run_id": "45885078015"
       }
     },
     "24610": {
@@ -315198,5 +315206,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:41:26.635458+00:00"
+  "updated_at": "2026-11-27T01:41:34.279457+00:00"
 }
