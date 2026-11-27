@@ -291127,17 +291127,19 @@
       }
     },
     "5682": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28381334",
+          "target_video_id": "31449835",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:35:12.420478+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28381334",
         "display_name": "Wall Street: Money Never Sleeps 1080p CZ Dabing",
         "planned_at": "2026-11-27T00:28:21.932442+00:00"
-      },
-      "claim": {
-        "worker_id": "c27dd197d1a4410f81678f8a3caa69f7-shard-0",
-        "claimed_at": "2026-11-27T00:28:22.661961+00:00",
-        "lease_expires_at": "2026-11-27T06:28:22.661961+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31449835",
       "prepared": {
@@ -314715,5 +314717,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:28:46.815896+00:00"
+  "updated_at": "2026-11-27T00:35:12.420495+00:00"
 }
