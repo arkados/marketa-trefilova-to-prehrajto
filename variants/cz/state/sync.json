@@ -294821,17 +294821,19 @@
       "attempts": []
     },
     "11895": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32998753",
+          "target_video_id": "31460894",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:30:10.052288+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32998753",
         "display_name": "I Come in Peace (Dark Angel) 4K CZ Dabing",
         "planned_at": "2026-11-27T08:15:33.898433+00:00"
-      },
-      "claim": {
-        "worker_id": "3db21c7452e847efad28e768fc2657f8-shard-0",
-        "claimed_at": "2026-11-27T08:15:34.776151+00:00",
-        "lease_expires_at": "2026-11-27T14:15:34.776151+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460894",
       "prepared": {
@@ -317767,5 +317769,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:29:04.793614+00:00"
+  "updated_at": "2026-11-27T08:30:10.052307+00:00"
 }
