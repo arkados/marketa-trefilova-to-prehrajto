@@ -293883,17 +293883,19 @@
       }
     },
     "25568": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34897987",
+          "target_video_id": "31459258",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:06:20.279202+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34897987",
         "display_name": "Love and Other Disasters 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:02:58.544591+00:00"
-      },
-      "claim": {
-        "worker_id": "795463c8e9f84c4b90768125e8f9b992-shard-0",
-        "claimed_at": "2026-11-27T07:02:59.579072+00:00",
-        "lease_expires_at": "2026-11-27T13:02:59.579072+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459258",
       "prepared": {
@@ -316959,5 +316961,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:06:16.993013+00:00"
+  "updated_at": "2026-11-27T07:06:20.279221+00:00"
 }
