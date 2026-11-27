@@ -298182,17 +298182,19 @@
       }
     },
     "23488": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "18078918",
+          "target_video_id": "31472401",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:26:43.010658+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "18078918",
         "display_name": "The Cowboy Way SD CZ Dabing",
         "planned_at": "2026-11-27T16:22:02.338482+00:00"
-      },
-      "claim": {
-        "worker_id": "975f9ab6056241d09fc3351eb3e2cdd7-shard-0",
-        "claimed_at": "2026-11-27T16:22:03.210379+00:00",
-        "lease_expires_at": "2026-11-27T22:22:03.210379+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31472401",
       "prepared": {
@@ -320222,5 +320224,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:25:15.955168+00:00"
+  "updated_at": "2026-11-27T16:26:43.010675+00:00"
 }
