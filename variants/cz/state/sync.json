@@ -141346,13 +141346,6 @@
           "source_id": "34710797",
           "target_video_id": "30988191",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:15:56.733522+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "34710797",
-          "target_video_id": "30988191",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:40:23.696266+00:00"
         },
         {
@@ -141361,12 +141354,19 @@
           "target_video_id": "30988191",
           "permanent": false,
           "attempted_at": "2026-11-22T22:23:28.316368+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "34710797",
+          "target_video_id": "30988191",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:27:56.738223+00:00"
         }
       ],
       "last_plan": {
         "source_id": "34710797",
         "display_name": "Pohádka o splněných přáních 1080p CZ Dabing",
-        "planned_at": "2026-11-27T16:22:01.859340+00:00"
+        "planned_at": "2026-11-27T16:27:52.362483+00:00"
       },
       "previous_target_id": "30988191",
       "prepared": {
@@ -298214,16 +298214,37 @@
       "attempts": []
     },
     "25765": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "30398187",
+        "display_name": "My Name Is Bruce 1080p CZ Dabing",
+        "planned_at": "2026-11-27T16:27:52.840277+00:00"
+      },
+      "claim": {
+        "worker_id": "fb96f714ae9340418078c2f2e610075e-shard-0",
+        "claimed_at": "2026-11-27T16:27:54.269876+00:00",
+        "lease_expires_at": "2026-11-27T22:27:54.269876+00:00",
+        "run_id": "45998674840"
+      }
     },
     "37147": {
       "attempts": []
     },
     "15293": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "27907278",
+        "display_name": "Tad, The Lost Explorer (Las aventuras de Tadeo Jones) 1080p CZ Dabing",
+        "planned_at": "2026-11-27T16:27:53.155770+00:00"
+      }
     },
     "5855": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34895497",
+        "display_name": "We're No Angels (1989) 1080p CZ Dabing",
+        "planned_at": "2026-11-27T16:27:53.472599+00:00"
+      }
     },
     "5834": {
       "attempts": []
@@ -320224,5 +320245,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:26:43.010675+00:00"
+  "updated_at": "2026-11-27T16:27:56.738236+00:00"
 }
