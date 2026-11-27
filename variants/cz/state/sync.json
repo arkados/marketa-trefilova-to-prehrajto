@@ -291973,17 +291973,19 @@
       }
     },
     "37124": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25062581",
+          "target_video_id": "31452400",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:11:44.146326+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25062581",
         "display_name": "Someone to Watch Over Me SD CZ Dabing",
         "planned_at": "2026-11-27T02:08:32.803931+00:00"
-      },
-      "claim": {
-        "worker_id": "c00382d3bdae4f35a6fab5c2d4db6268-shard-0",
-        "claimed_at": "2026-11-27T02:08:33.265511+00:00",
-        "lease_expires_at": "2026-11-27T08:08:33.265511+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452400",
       "prepared": {
@@ -315402,5 +315404,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:11:20.591519+00:00"
+  "updated_at": "2026-11-27T02:11:44.146343+00:00"
 }
