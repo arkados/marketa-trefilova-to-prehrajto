@@ -292330,17 +292330,19 @@
       }
     },
     "5723": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14312099",
+          "target_video_id": "31452895",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:39:12.371631+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14312099",
         "display_name": "The Texas Chainsaw Massacre 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:33:59.290134+00:00"
-      },
-      "claim": {
-        "worker_id": "e121151fe48742729e4b4533d9cf14d8-shard-0",
-        "claimed_at": "2026-11-27T02:33:59.860518+00:00",
-        "lease_expires_at": "2026-11-27T08:33:59.860518+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452895",
       "prepared": {
@@ -315719,5 +315721,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:38:56.824139+00:00"
+  "updated_at": "2026-11-27T02:39:12.371649+00:00"
 }
