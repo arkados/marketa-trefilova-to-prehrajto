@@ -291877,17 +291877,19 @@
       "attempts": []
     },
     "5634": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17328516",
+          "target_video_id": "31452308",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:07:48.413727+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17328516",
         "display_name": "Daddy's Home 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:03:31.308264+00:00"
-      },
-      "claim": {
-        "worker_id": "5013ba5fb3164436b355a2fbc51fda53-shard-0",
-        "claimed_at": "2026-11-27T02:03:31.963486+00:00",
-        "lease_expires_at": "2026-11-27T08:03:31.963486+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452308",
       "prepared": {
@@ -315342,5 +315344,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:06:17.125288+00:00"
+  "updated_at": "2026-11-27T02:07:48.413744+00:00"
 }
