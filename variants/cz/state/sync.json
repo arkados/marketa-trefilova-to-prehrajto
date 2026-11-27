@@ -291222,17 +291222,19 @@
       }
     },
     "24981": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33199843",
+          "target_video_id": "31450169",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:48:22.199696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33199843",
         "display_name": "The Ladykillers (2004) 1080p CZ Dabing",
         "planned_at": "2026-11-27T00:42:23.867355+00:00"
-      },
-      "claim": {
-        "worker_id": "f5d2c42082744e9b8068e33c110cf644-shard-0",
-        "claimed_at": "2026-11-27T00:42:24.566907+00:00",
-        "lease_expires_at": "2026-11-27T06:42:24.566907+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450169",
       "prepared": {
@@ -314795,5 +314797,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:46:37.118622+00:00"
+  "updated_at": "2026-11-27T00:48:22.199712+00:00"
 }
