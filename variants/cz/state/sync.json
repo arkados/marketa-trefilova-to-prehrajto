@@ -296144,17 +296144,19 @@
       "attempts": []
     },
     "26245": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34886488",
+          "target_video_id": "31467267",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:03:36.735826+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34886488",
         "display_name": "Love N' Dancing SD CZ Dabing",
         "planned_at": "2026-11-27T13:00:41.981005+00:00"
-      },
-      "claim": {
-        "worker_id": "3211120e5cac4914a34084a75308154b-shard-0",
-        "claimed_at": "2026-11-27T13:00:42.828550+00:00",
-        "lease_expires_at": "2026-11-27T19:00:42.828550+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467267",
       "prepared": {
@@ -318664,5 +318666,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:02:46.820902+00:00"
+  "updated_at": "2026-11-27T13:03:36.735849+00:00"
 }
