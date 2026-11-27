@@ -296247,17 +296247,19 @@
       }
     },
     "23513": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33152138",
+          "target_video_id": "31467381",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:21:58.117081+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33152138",
         "display_name": "Rudyard Kipling's The Jungle Book (The Jungle Book) 1080p CZ Dabing",
         "planned_at": "2026-11-27T13:08:58.359080+00:00"
-      },
-      "claim": {
-        "worker_id": "141a12bc80b744768d533de46c265d3d-shard-0",
-        "claimed_at": "2026-11-27T13:08:59.199318+00:00",
-        "lease_expires_at": "2026-11-27T19:08:59.199318+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467381",
       "prepared": {
@@ -318764,5 +318766,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:10:56.379636+00:00"
+  "updated_at": "2026-11-27T13:21:58.117104+00:00"
 }
