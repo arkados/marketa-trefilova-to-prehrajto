@@ -297166,17 +297166,19 @@
       }
     },
     "5734": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33191502",
+          "target_video_id": "31469792",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:35:58.292909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33191502",
         "display_name": "Salvable 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:29:40.183396+00:00"
-      },
-      "claim": {
-        "worker_id": "2ed142bc2a9247f6a876497487050028-shard-0",
-        "claimed_at": "2026-11-27T14:29:41.043833+00:00",
-        "lease_expires_at": "2026-11-27T20:29:41.043833+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469792",
       "prepared": {
@@ -319458,5 +319460,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:35:17.854177+00:00"
+  "updated_at": "2026-11-27T14:35:58.292925+00:00"
 }
