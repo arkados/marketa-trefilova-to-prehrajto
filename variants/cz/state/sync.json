@@ -304322,17 +304322,19 @@
       }
     },
     "13475": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33871838",
+          "target_video_id": "31478491",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:39:50.638156+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33871838",
         "display_name": "Casshern (kyashaan) SD CZ Dabing",
         "planned_at": "2026-11-27T21:38:12.490806+00:00"
-      },
-      "claim": {
-        "worker_id": "842c1614130342e8889c4e03e1c809ec-shard-0",
-        "claimed_at": "2026-11-27T21:38:13.266462+00:00",
-        "lease_expires_at": "2026-11-28T03:38:13.266462+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478491",
       "prepared": {
@@ -325065,5 +325067,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:39:47.577542+00:00"
+  "updated_at": "2026-11-27T21:39:50.638176+00:00"
 }
