@@ -302628,17 +302628,19 @@
       "attempts": []
     },
     "27592": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26209056",
+          "target_video_id": "31476803",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:24:39.093999+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26209056",
         "display_name": "The Valdemar Legacy II: The Forbidden Shadow 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:21:49.497685+00:00"
-      },
-      "claim": {
-        "worker_id": "914b1c3fe869420eaff13ff356b155b8-shard-0",
-        "claimed_at": "2026-11-27T20:21:50.899680+00:00",
-        "lease_expires_at": "2026-11-28T02:21:50.899680+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476803",
       "prepared": {
@@ -323714,5 +323716,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:23:45.849335+00:00"
+  "updated_at": "2026-11-27T20:24:39.094015+00:00"
 }
