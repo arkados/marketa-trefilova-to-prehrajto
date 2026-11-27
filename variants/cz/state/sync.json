@@ -299098,17 +299098,19 @@
       "attempts": []
     },
     "16470": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15307479",
+          "target_video_id": "31473731",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:00:29.406264+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15307479",
         "display_name": "The Monk (DaoShiXiaShan) (2015) 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:41:29.838112+00:00"
-      },
-      "claim": {
-        "worker_id": "be9b56306e94495a8e844b107b7ed5f1-shard-0",
-        "claimed_at": "2026-11-27T17:41:30.692223+00:00",
-        "lease_expires_at": "2026-11-27T23:41:30.692223+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473731",
       "prepared": {
@@ -320955,5 +320957,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:54:43.901316+00:00"
+  "updated_at": "2026-11-27T18:00:29.406283+00:00"
 }
