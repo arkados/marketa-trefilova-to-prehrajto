@@ -293321,17 +293321,19 @@
       "attempts": []
     },
     "5979": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10897213",
+          "target_video_id": "31457708",
+          "permanent": false,
+          "attempted_at": "2026-11-27T05:54:31.455591+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10897213",
         "display_name": "Jurassic World: Fallen Kingdom 4K CZ Dabing",
         "planned_at": "2026-11-27T05:42:46.980214+00:00"
-      },
-      "claim": {
-        "worker_id": "8b5b1a83982f4f11a2730640adb3a54a-shard-0",
-        "claimed_at": "2026-11-27T05:42:47.468459+00:00",
-        "lease_expires_at": "2026-11-27T11:42:47.468459+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31457708",
       "prepared": {
@@ -316527,5 +316529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T05:49:26.025780+00:00"
+  "updated_at": "2026-11-27T05:54:31.455610+00:00"
 }
