@@ -305671,17 +305671,19 @@
       "attempts": []
     },
     "5940": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26321082",
+          "target_video_id": "31480574",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:58:27.586916+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26321082",
         "display_name": "Push 1080p CZ Dabing",
         "planned_at": "2026-11-27T22:55:06.869644+00:00"
-      },
-      "claim": {
-        "worker_id": "2990987a27e74586a92007a879bca1a6-shard-0",
-        "claimed_at": "2026-11-27T22:55:07.701366+00:00",
-        "lease_expires_at": "2026-11-28T04:55:07.701366+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480574",
       "prepared": {
@@ -326145,5 +326147,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:55:28.648027+00:00"
+  "updated_at": "2026-11-27T22:58:27.586936+00:00"
 }
