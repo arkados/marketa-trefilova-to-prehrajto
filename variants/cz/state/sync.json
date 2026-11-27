@@ -299759,17 +299759,19 @@
       }
     },
     "5959": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35008490",
+          "target_video_id": "31474248",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:34:44.181942+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35008490",
         "display_name": "Gringo 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:31:54.515984+00:00"
-      },
-      "claim": {
-        "worker_id": "0a431e078c1e4500be47a5c981840cfe-shard-0",
-        "claimed_at": "2026-11-27T18:31:55.555787+00:00",
-        "lease_expires_at": "2026-11-28T00:31:55.555787+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474248",
       "prepared": {
@@ -321472,5 +321474,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:34:04.643248+00:00"
+  "updated_at": "2026-11-27T18:34:44.181957+00:00"
 }
