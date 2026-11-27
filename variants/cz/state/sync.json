@@ -108277,7 +108277,7 @@
       "last_plan": {
         "source_id": "30853807",
         "display_name": "U nás v Kocourkově 1080p CZ Dabing",
-        "planned_at": "2026-11-27T22:55:00.440505+00:00"
+        "planned_at": "2026-11-27T22:55:06.318042+00:00"
       },
       "previous_target_id": "30983476",
       "prepared": {
@@ -305642,17 +305642,19 @@
       }
     },
     "17883": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25847299",
+          "target_video_id": "31480489",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:55:10.367689+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25847299",
         "display_name": "The Switch 1080p CZ Dabing",
         "planned_at": "2026-11-27T22:50:26.084113+00:00"
-      },
-      "claim": {
-        "worker_id": "374baadc3a184932821db5a85c64ff29-shard-0",
-        "claimed_at": "2026-11-27T22:50:26.882877+00:00",
-        "lease_expires_at": "2026-11-28T04:50:26.882877+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480489",
       "prepared": {
@@ -305673,7 +305675,13 @@
       "last_plan": {
         "source_id": "26321082",
         "display_name": "Push 1080p CZ Dabing",
-        "planned_at": "2026-11-27T22:55:00.904814+00:00"
+        "planned_at": "2026-11-27T22:55:06.869644+00:00"
+      },
+      "claim": {
+        "worker_id": "2990987a27e74586a92007a879bca1a6-shard-0",
+        "claimed_at": "2026-11-27T22:55:07.701366+00:00",
+        "lease_expires_at": "2026-11-28T04:55:07.701366+00:00",
+        "run_id": "46064168266"
       }
     },
     "6127": {
@@ -326112,5 +326120,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:55:00.904834+00:00"
+  "updated_at": "2026-11-27T22:55:10.367707+00:00"
 }
