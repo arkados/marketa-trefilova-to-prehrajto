@@ -295064,17 +295064,19 @@
       "attempts": []
     },
     "6399": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34513926",
+          "target_video_id": "31461528",
+          "permanent": false,
+          "attempted_at": "2026-11-27T09:04:01.134882+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34513926",
         "display_name": "The Keeping Room 1080p CZ Dabing",
         "planned_at": "2026-11-27T08:50:54.474992+00:00"
-      },
-      "claim": {
-        "worker_id": "a2cf8cecc2bb49d8871f5a4e27cf9fe7-shard-0",
-        "claimed_at": "2026-11-27T08:50:56.004948+00:00",
-        "lease_expires_at": "2026-11-27T14:50:56.004948+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31461528",
       "prepared": {
@@ -317887,5 +317889,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:56:24.394355+00:00"
+  "updated_at": "2026-11-27T09:04:01.134899+00:00"
 }
