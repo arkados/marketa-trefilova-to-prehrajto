@@ -291688,17 +291688,19 @@
       }
     },
     "34311": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34722235",
+          "target_video_id": "31451603",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:36:16.135378+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34722235",
         "display_name": "Tall Tale (Tall Tale: The Unbelievable Adventure) 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:32:11.733672+00:00"
-      },
-      "claim": {
-        "worker_id": "39bd74961d9c4c86a752df4db6b5f61a-shard-0",
-        "claimed_at": "2026-11-27T01:32:12.448821+00:00",
-        "lease_expires_at": "2026-11-27T07:32:12.448821+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451603",
       "prepared": {
@@ -315171,5 +315173,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:35:58.609981+00:00"
+  "updated_at": "2026-11-27T01:36:16.135394+00:00"
 }
