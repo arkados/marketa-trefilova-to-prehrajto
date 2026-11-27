@@ -305788,17 +305788,19 @@
       }
     },
     "5806": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28506084",
+          "target_video_id": "31480795",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:50:05.192599+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28506084",
         "display_name": "Damsel (2024) 4K CZ Dabing",
         "planned_at": "2026-11-27T23:08:03.459001+00:00"
-      },
-      "claim": {
-        "worker_id": "bfce1e55cc4d4c049642bd51b2fef0ac-shard-0",
-        "claimed_at": "2026-11-27T23:08:04.278908+00:00",
-        "lease_expires_at": "2026-11-28T05:08:04.278908+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31480795",
       "prepared": {
@@ -326398,5 +326400,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:45:27.830117+00:00"
+  "updated_at": "2026-11-27T23:50:05.192619+00:00"
 }
