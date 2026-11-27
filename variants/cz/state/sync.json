@@ -304013,17 +304013,19 @@
       "attempts": []
     },
     "23001": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27795129",
+          "target_video_id": "31478302",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:28:12.954016+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27795129",
         "display_name": "Salsa (1988) SD CZ Dabing",
         "planned_at": "2026-11-27T21:27:14.898250+00:00"
-      },
-      "claim": {
-        "worker_id": "60e4a1d6c4b94468902f576dfea6d1fa-shard-0",
-        "claimed_at": "2026-11-27T21:27:15.686958+00:00",
-        "lease_expires_at": "2026-11-28T03:27:15.686958+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478302",
       "prepared": {
@@ -324792,5 +324794,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:28:07.274471+00:00"
+  "updated_at": "2026-11-27T21:28:12.954034+00:00"
 }
