@@ -295017,17 +295017,19 @@
       }
     },
     "37504": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34949219",
+          "target_video_id": "31461311",
+          "permanent": false,
+          "attempted_at": "2026-11-27T12:16:22.904186+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34949219",
         "display_name": "Beast (2026) 4K CZ Dabing",
         "planned_at": "2026-11-27T08:37:53.622735+00:00"
-      },
-      "claim": {
-        "worker_id": "a94a0514c73a479198bf7c243949843e-shard-0",
-        "claimed_at": "2026-11-27T08:37:54.629719+00:00",
-        "lease_expires_at": "2026-11-27T14:37:54.629719+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31461311",
       "prepared": {
@@ -318428,5 +318430,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T10:47:16.171271+00:00"
+  "updated_at": "2026-11-27T12:16:22.904205+00:00"
 }
