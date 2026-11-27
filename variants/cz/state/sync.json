@@ -295821,17 +295821,19 @@
       "attempts": []
     },
     "36949": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30641548",
+          "target_video_id": "31463519",
+          "permanent": false,
+          "attempted_at": "2026-11-27T10:34:14.005039+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30641548",
         "display_name": "Site 720p CZ Dabing",
         "planned_at": "2026-11-27T10:28:05.352557+00:00"
-      },
-      "claim": {
-        "worker_id": "fde65f1d9dbc4e878e1a24f68f913820-shard-0",
-        "claimed_at": "2026-11-27T10:28:06.242700+00:00",
-        "lease_expires_at": "2026-11-27T16:28:06.242700+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31463519",
       "prepared": {
@@ -318404,5 +318406,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T10:29:55.238403+00:00"
+  "updated_at": "2026-11-27T10:34:14.005059+00:00"
 }
