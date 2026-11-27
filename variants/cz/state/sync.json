@@ -296829,17 +296829,19 @@
       }
     },
     "12150": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27047067",
+          "target_video_id": "31469279",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:14:41.011965+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27047067",
         "display_name": "Guyver: Dark Hero 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:04:02.915782+00:00"
-      },
-      "claim": {
-        "worker_id": "dcfd1261bd4c42c1b30077275bd935c8-shard-0",
-        "claimed_at": "2026-11-27T14:04:03.768985+00:00",
-        "lease_expires_at": "2026-11-27T20:04:03.768985+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469279",
       "prepared": {
@@ -319258,5 +319260,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:13:47.065590+00:00"
+  "updated_at": "2026-11-27T14:14:41.011982+00:00"
 }
