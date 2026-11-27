@@ -292354,17 +292354,19 @@
       "attempts": []
     },
     "5727": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22581414",
+          "target_video_id": "31452936",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:38:42.193071+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22581414",
         "display_name": "Fun with Dick and Jane 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:35:30.372111+00:00"
-      },
-      "claim": {
-        "worker_id": "97d58fa66a40466d81e9601f04176a69-shard-0",
-        "claimed_at": "2026-11-27T02:35:30.832737+00:00",
-        "lease_expires_at": "2026-11-27T08:35:30.832737+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452936",
       "prepared": {
@@ -315699,5 +315701,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:35:35.566124+00:00"
+  "updated_at": "2026-11-27T02:38:42.193089+00:00"
 }
