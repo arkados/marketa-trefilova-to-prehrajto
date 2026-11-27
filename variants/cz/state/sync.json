@@ -297070,17 +297070,19 @@
       }
     },
     "30168": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34897886",
+          "target_video_id": "31469650",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:50:18.742226+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34897886",
         "display_name": "No Small Affair 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:21:57.484751+00:00"
-      },
-      "claim": {
-        "worker_id": "2527ae1333194396a290206608c914cf-shard-0",
-        "claimed_at": "2026-11-27T14:21:58.577690+00:00",
-        "lease_expires_at": "2026-11-27T20:21:58.577690+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469650",
       "prepared": {
@@ -319558,5 +319560,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:49:39.498337+00:00"
+  "updated_at": "2026-11-27T14:50:18.742244+00:00"
 }
