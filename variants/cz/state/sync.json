@@ -304062,17 +304062,19 @@
       "attempts": []
     },
     "32975": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34716021",
+          "target_video_id": "31478321",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:31:40.178224+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34716021",
         "display_name": "Never Say Never Again 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:28:17.454387+00:00"
-      },
-      "claim": {
-        "worker_id": "4fcd41b5cb374fa1ad9433b7affcfe2b-shard-0",
-        "claimed_at": "2026-11-27T21:28:21.043013+00:00",
-        "lease_expires_at": "2026-11-28T03:28:21.043013+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478321",
       "prepared": {
@@ -324845,5 +324847,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:30:06.209010+00:00"
+  "updated_at": "2026-11-27T21:31:40.178245+00:00"
 }
