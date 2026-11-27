@@ -291314,17 +291314,19 @@
       }
     },
     "24391": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "8518392",
+          "target_video_id": "31450590",
+          "permanent": false,
+          "attempted_at": "2026-11-27T00:58:29.615228+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "8518392",
         "display_name": "Bring It On SD CZ Dabing",
         "planned_at": "2026-11-27T00:53:04.222350+00:00"
-      },
-      "claim": {
-        "worker_id": "85eb6f35cae04728802aa2bc22b67907-shard-0",
-        "claimed_at": "2026-11-27T00:53:08.279105+00:00",
-        "lease_expires_at": "2026-11-27T06:53:08.279105+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31450590",
       "prepared": {
@@ -314892,5 +314894,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T00:57:39.552679+00:00"
+  "updated_at": "2026-11-27T00:58:29.615243+00:00"
 }
