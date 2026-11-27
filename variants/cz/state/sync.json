@@ -298354,17 +298354,19 @@
       }
     },
     "35315": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26608229",
+          "target_video_id": "31472685",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:39:05.136017+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26608229",
         "display_name": "Manolete SD CZ Dabing",
         "planned_at": "2026-11-27T16:37:23.750465+00:00"
-      },
-      "claim": {
-        "worker_id": "d3741fceb4b84efd948496e1929ab96a-shard-0",
-        "claimed_at": "2026-11-27T16:37:24.691457+00:00",
-        "lease_expires_at": "2026-11-27T22:37:24.691457+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472685",
       "prepared": {
@@ -320358,5 +320360,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:37:29.066291+00:00"
+  "updated_at": "2026-11-27T16:39:05.136032+00:00"
 }
