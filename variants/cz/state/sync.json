@@ -302680,17 +302680,19 @@
       }
     },
     "7995": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34879200",
+          "target_video_id": "31476840",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:27:54.250684+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34879200",
         "display_name": "Mes trésors 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:23:41.204037+00:00"
-      },
-      "claim": {
-        "worker_id": "096ef448cf134c088e2414aadc7e8bfb-shard-0",
-        "claimed_at": "2026-11-27T20:23:42.198882+00:00",
-        "lease_expires_at": "2026-11-28T02:23:42.198882+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476840",
       "prepared": {
@@ -323763,5 +323765,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:27:50.803291+00:00"
+  "updated_at": "2026-11-27T20:27:54.250705+00:00"
 }
