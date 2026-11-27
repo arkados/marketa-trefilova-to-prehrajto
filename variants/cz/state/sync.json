@@ -305265,17 +305265,23 @@
       }
     },
     "5799": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "31936111",
+          "reason": "Source detail has no authenticated download link; source_id=31936111",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:33:28.618581+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31936111",
         "display_name": "Ghostbusters: Frozen Empire 4K CZ Dabing",
         "planned_at": "2026-11-27T22:33:22.644203+00:00"
       },
-      "claim": {
-        "worker_id": "6af88590f45e4a57aac393d3d4ac086e-shard-0",
-        "claimed_at": "2026-11-27T22:33:23.520984+00:00",
-        "lease_expires_at": "2026-11-28T04:33:23.520984+00:00",
-        "run_id": "46064168266"
+      "source_repair_requested": {
+        "source_id": "31936111",
+        "requested_at": "2026-11-27T22:33:28.618562+00:00"
       }
     },
     "8712": {
@@ -325786,5 +325792,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:33:23.521009+00:00"
+  "updated_at": "2026-11-27T22:33:28.618586+00:00"
 }
