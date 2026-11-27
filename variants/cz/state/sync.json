@@ -294600,17 +294600,19 @@
       }
     },
     "14231": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24779429",
+          "target_video_id": "31460420",
+          "permanent": false,
+          "attempted_at": "2026-11-27T07:54:25.035471+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24779429",
         "display_name": "Blood River SD CZ Dabing",
         "planned_at": "2026-11-27T07:52:23.368633+00:00"
-      },
-      "claim": {
-        "worker_id": "9f0fe737c0b8484ca1eee9e9a38e5b46-shard-0",
-        "claimed_at": "2026-11-27T07:52:24.237047+00:00",
-        "lease_expires_at": "2026-11-27T13:52:24.237047+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460420",
       "prepared": {
@@ -317507,5 +317509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:52:27.532611+00:00"
+  "updated_at": "2026-11-27T07:54:25.035521+00:00"
 }
