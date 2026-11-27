@@ -301288,17 +301288,19 @@
       }
     },
     "25931": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7356693",
+          "target_video_id": "31475668",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:32:11.766562+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7356693",
         "display_name": "Jack Brooks: Monster Slayer SD CZ Dabing",
         "planned_at": "2026-11-27T19:30:10.764517+00:00"
-      },
-      "claim": {
-        "worker_id": "06df3e1ee334457f833fe53ffa8065ba-shard-0",
-        "claimed_at": "2026-11-27T19:30:11.786331+00:00",
-        "lease_expires_at": "2026-11-28T01:30:11.786331+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475668",
       "prepared": {
@@ -322680,5 +322682,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:32:08.671622+00:00"
+  "updated_at": "2026-11-27T19:32:11.766578+00:00"
 }
