@@ -303637,17 +303637,19 @@
       "attempts": []
     },
     "5736": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30157029",
+          "target_video_id": "31478042",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:16:27.943856+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30157029",
         "display_name": "Vampires 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:14:19.224174+00:00"
-      },
-      "claim": {
-        "worker_id": "d90b905a85464e999fdadc3ca7ee1492-shard-0",
-        "claimed_at": "2026-11-27T21:14:23.378483+00:00",
-        "lease_expires_at": "2026-11-28T03:14:23.378483+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478042",
       "prepared": {
@@ -324525,5 +324527,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:15:00.115399+00:00"
+  "updated_at": "2026-11-27T21:16:27.943876+00:00"
 }
