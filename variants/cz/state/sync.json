@@ -296517,17 +296517,19 @@
       }
     },
     "28542": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11759322",
+          "target_video_id": "31468472",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:48:58.735854+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11759322",
         "display_name": "Dance-Off SD CZ Dabing",
         "planned_at": "2026-11-27T13:46:55.568252+00:00"
-      },
-      "claim": {
-        "worker_id": "2f614c1ea5d242a89d8fc4c9f021b747-shard-0",
-        "claimed_at": "2026-11-27T13:46:56.415443+00:00",
-        "lease_expires_at": "2026-11-27T19:46:56.415443+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31468472",
       "prepared": {
@@ -318941,5 +318943,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:47:00.647740+00:00"
+  "updated_at": "2026-11-27T13:48:58.735869+00:00"
 }
