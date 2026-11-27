@@ -165954,7 +165954,7 @@
       "last_plan": {
         "source_id": "29163002",
         "display_name": "Hail the Artist (Salut l'artiste) 1080p CZ Dabing",
-        "planned_at": "2026-11-27T19:45:16.216215+00:00"
+        "planned_at": "2026-11-27T19:45:25.113678+00:00"
       },
       "previous_target_id": "31107589",
       "prepared": {
@@ -301718,17 +301718,19 @@
       "attempts": []
     },
     "30072": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33746937",
+          "target_video_id": "31476169",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:45:27.358915+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33746937",
         "display_name": "Wanted: Dead or Alive 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:43:27.175237+00:00"
-      },
-      "claim": {
-        "worker_id": "8592adeb32fb47fc934bc8492f99facb-shard-0",
-        "claimed_at": "2026-11-27T19:43:28.194281+00:00",
-        "lease_expires_at": "2026-11-28T01:43:28.194281+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31476169",
       "prepared": {
@@ -301767,7 +301769,13 @@
       "last_plan": {
         "source_id": "33746416",
         "display_name": "Breathless (1983) 1080p CZ Dabing",
-        "planned_at": "2026-11-27T19:45:16.881362+00:00"
+        "planned_at": "2026-11-27T19:45:25.612593+00:00"
+      },
+      "claim": {
+        "worker_id": "540b10ba346248ee9861d8958b86364c-shard-0",
+        "claimed_at": "2026-11-27T19:45:26.398000+00:00",
+        "lease_expires_at": "2026-11-28T01:45:26.398000+00:00",
+        "run_id": "45998674840"
       }
     },
     "5746": {
@@ -323004,5 +323012,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:45:22.443434+00:00"
+  "updated_at": "2026-11-27T19:45:27.358929+00:00"
 }
