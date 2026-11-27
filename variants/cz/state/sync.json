@@ -299736,17 +299736,19 @@
       }
     },
     "17533": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "21030624",
+          "target_video_id": "31474235",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:33:47.659819+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "21030624",
         "display_name": "The Goya Murders (El asesino de los caprichos) 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:31:22.953205+00:00"
-      },
-      "claim": {
-        "worker_id": "4bc1031e54c842ae9e7a3ecf7bbea88e-shard-0",
-        "claimed_at": "2026-11-27T18:31:23.962967+00:00",
-        "lease_expires_at": "2026-11-28T00:31:23.962967+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474235",
       "prepared": {
@@ -321452,5 +321454,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:33:11.887769+00:00"
+  "updated_at": "2026-11-27T18:33:47.659834+00:00"
 }
