@@ -298660,17 +298660,19 @@
       }
     },
     "31894": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29684809",
+          "target_video_id": "31473091",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:01:54.100275+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29684809",
         "display_name": "Someone Like You (Someone Like You...) 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:57:04.459786+00:00"
-      },
-      "claim": {
-        "worker_id": "0e5db977b80a4087b9d88bbb3b77d621-shard-0",
-        "claimed_at": "2026-11-27T16:57:05.414777+00:00",
-        "lease_expires_at": "2026-11-27T22:57:05.414777+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473091",
       "prepared": {
@@ -320595,5 +320597,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:57:09.526656+00:00"
+  "updated_at": "2026-11-27T17:01:54.100289+00:00"
 }
