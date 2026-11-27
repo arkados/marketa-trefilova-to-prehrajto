@@ -298134,17 +298134,19 @@
       "attempts": []
     },
     "31793": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34714321",
+          "target_video_id": "31472340",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:21:52.051577+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34714321",
         "display_name": "Edge of Sanity SD CZ Dabing",
         "planned_at": "2026-11-27T16:19:08.684189+00:00"
-      },
-      "claim": {
-        "worker_id": "0d6e4374c1614d9cb47554a9d4018ac1-shard-0",
-        "claimed_at": "2026-11-27T16:19:09.531123+00:00",
-        "lease_expires_at": "2026-11-27T22:19:09.531123+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31472340",
       "prepared": {
@@ -320198,5 +320200,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:20:01.369952+00:00"
+  "updated_at": "2026-11-27T16:21:52.051601+00:00"
 }
