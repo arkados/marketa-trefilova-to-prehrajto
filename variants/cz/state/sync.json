@@ -298485,17 +298485,19 @@
       }
     },
     "23434": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25293955",
+          "target_video_id": "31472818",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:51:25.703923+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25293955",
         "display_name": "Sniper 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:45:00.645517+00:00"
-      },
-      "claim": {
-        "worker_id": "1b6eb7fd5c2942d49e5ffc0080b59088-shard-0",
-        "claimed_at": "2026-11-27T16:45:01.595560+00:00",
-        "lease_expires_at": "2026-11-27T22:45:01.595560+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472818",
       "prepared": {
@@ -320535,5 +320537,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:49:23.929216+00:00"
+  "updated_at": "2026-11-27T16:51:25.703939+00:00"
 }
