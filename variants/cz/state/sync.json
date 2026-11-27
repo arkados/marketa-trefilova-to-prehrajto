@@ -298847,17 +298847,19 @@
       "attempts": []
     },
     "22236": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31037307",
+          "target_video_id": "31473459",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:14:19.614688+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31037307",
         "display_name": "Capone (1975) SD CZ Dabing",
         "planned_at": "2026-11-27T17:12:49.590384+00:00"
-      },
-      "claim": {
-        "worker_id": "08a43d8dec3c4c50a7624be4a1541e97-shard-0",
-        "claimed_at": "2026-11-27T17:12:50.641227+00:00",
-        "lease_expires_at": "2026-11-27T23:12:50.641227+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473459",
       "prepared": {
@@ -320755,5 +320757,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:14:09.608586+00:00"
+  "updated_at": "2026-11-27T17:14:19.614703+00:00"
 }
