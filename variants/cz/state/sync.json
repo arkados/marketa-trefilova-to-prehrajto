@@ -296373,17 +296373,19 @@
       "attempts": []
     },
     "7576": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27606259",
+          "target_video_id": "31467565",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:31:03.060613+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27606259",
         "display_name": "Riverdance: The Animated Adventure 1080p CZ Dabing",
         "planned_at": "2026-11-27T13:28:49.069437+00:00"
-      },
-      "claim": {
-        "worker_id": "3a0aa0c93bae4787a1f8d6dbc09cc1b2-shard-0",
-        "claimed_at": "2026-11-27T13:28:49.838534+00:00",
-        "lease_expires_at": "2026-11-27T19:28:49.838534+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467565",
       "prepared": {
@@ -318824,5 +318826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:28:54.258159+00:00"
+  "updated_at": "2026-11-27T13:31:03.060631+00:00"
 }
