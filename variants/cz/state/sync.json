@@ -141366,7 +141366,7 @@
       "last_plan": {
         "source_id": "34710797",
         "display_name": "Pohádka o splněných přáních 1080p CZ Dabing",
-        "planned_at": "2026-11-27T13:50:55.225060+00:00"
+        "planned_at": "2026-11-27T13:51:01.700795+00:00"
       },
       "previous_target_id": "30988191",
       "prepared": {
@@ -296563,11 +296563,23 @@
       }
     },
     "6871": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "32138217",
+          "reason": "Source detail has no authenticated download link; source_id=32138217",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:51:05.468159+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32138217",
         "display_name": "Three Wishes For Cinderella (Tre nøtter til Askepott) 1080p CZ Dabing",
-        "planned_at": "2026-11-27T13:50:55.698251+00:00"
+        "planned_at": "2026-11-27T13:51:02.225423+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "32138217",
+        "requested_at": "2026-11-27T13:51:05.468142+00:00"
       }
     },
     "22990": {
@@ -318968,5 +318980,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:50:55.698267+00:00"
+  "updated_at": "2026-11-27T13:51:05.468165+00:00"
 }
