@@ -300938,17 +300938,19 @@
       "attempts": []
     },
     "14408": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6652865",
+          "target_video_id": "31475395",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:21:17.934348+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6652865",
         "display_name": "Greenberg SD CZ Dabing",
         "planned_at": "2026-11-27T19:19:44.539080+00:00"
-      },
-      "claim": {
-        "worker_id": "ec8f79462d454fe6b5987b261c3055f2-shard-0",
-        "claimed_at": "2026-11-27T19:19:45.559027+00:00",
-        "lease_expires_at": "2026-11-28T01:19:45.559027+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475395",
       "prepared": {
@@ -322353,5 +322355,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:21:12.441150+00:00"
+  "updated_at": "2026-11-27T19:21:17.934363+00:00"
 }
