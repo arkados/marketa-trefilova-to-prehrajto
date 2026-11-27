@@ -305118,17 +305118,19 @@
       "attempts": []
     },
     "33958": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30565654",
+          "target_video_id": "31479745",
+          "permanent": false,
+          "attempted_at": "2026-11-27T22:28:13.644034+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30565654",
         "display_name": "Rodin 1080p CZ Dabing",
         "planned_at": "2026-11-27T22:23:27.090006+00:00"
-      },
-      "claim": {
-        "worker_id": "ec1630e2324247f5a570636a929efdbd-shard-0",
-        "claimed_at": "2026-11-27T22:23:28.071819+00:00",
-        "lease_expires_at": "2026-11-28T04:23:28.071819+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31479745",
       "prepared": {
@@ -325711,5 +325713,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T22:26:32.862880+00:00"
+  "updated_at": "2026-11-27T22:28:13.644053+00:00"
 }
