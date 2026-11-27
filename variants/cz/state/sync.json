@@ -295847,17 +295847,19 @@
       "attempts": []
     },
     "24754": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26126410",
+          "target_video_id": "31463570",
+          "permanent": false,
+          "attempted_at": "2026-11-27T10:43:49.597673+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26126410",
         "display_name": "Les Rois mages (The Three Kings) 720p CZ Dabing",
         "planned_at": "2026-11-27T10:29:50.515901+00:00"
-      },
-      "claim": {
-        "worker_id": "84354947201b44589b809a59fc9b6074-shard-0",
-        "claimed_at": "2026-11-27T10:29:51.460871+00:00",
-        "lease_expires_at": "2026-11-27T16:29:51.460871+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31463570",
       "prepared": {
@@ -318424,5 +318426,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T10:34:33.542579+00:00"
+  "updated_at": "2026-11-27T10:43:49.597691+00:00"
 }
