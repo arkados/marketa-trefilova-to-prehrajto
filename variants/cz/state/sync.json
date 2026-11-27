@@ -302770,17 +302770,19 @@
       }
     },
     "22199": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28661528",
+          "target_video_id": "31477035",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:33:37.205562+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28661528",
         "display_name": "The Klansman SD CZ Dabing",
         "planned_at": "2026-11-27T20:32:13.793008+00:00"
-      },
-      "claim": {
-        "worker_id": "1d46f32bd92a4808be993b74a3d64885-shard-0",
-        "claimed_at": "2026-11-27T20:32:14.903645+00:00",
-        "lease_expires_at": "2026-11-28T02:32:14.903645+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477035",
       "prepared": {
@@ -323814,5 +323816,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:32:37.213618+00:00"
+  "updated_at": "2026-11-27T20:33:37.205582+00:00"
 }
