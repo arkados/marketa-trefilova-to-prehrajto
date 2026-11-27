@@ -296758,17 +296758,19 @@
       "attempts": []
     },
     "17887": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30737891",
+          "target_video_id": "31469127",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:03:36.514999+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30737891",
         "display_name": "In the Electric Mist 720p CZ Dabing",
         "planned_at": "2026-11-27T13:59:21.176342+00:00"
-      },
-      "claim": {
-        "worker_id": "879bd623f38e43a498c4455a2af41fdd-shard-0",
-        "claimed_at": "2026-11-27T13:59:22.038180+00:00",
-        "lease_expires_at": "2026-11-27T19:59:22.038180+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469127",
       "prepared": {
@@ -319158,5 +319160,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:01:35.635406+00:00"
+  "updated_at": "2026-11-27T14:03:36.515017+00:00"
 }
