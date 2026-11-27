@@ -303072,17 +303072,19 @@
       }
     },
     "5945": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11809278",
+          "target_video_id": "31477356",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:58:13.969477+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11809278",
         "display_name": "The House with a Clock in Its Walls 4K CZ Dabing",
         "planned_at": "2026-11-27T20:45:20.263563+00:00"
-      },
-      "claim": {
-        "worker_id": "c6bc4e9c9c3f4763b0357d27b6a15e6e-shard-0",
-        "claimed_at": "2026-11-27T20:45:21.059176+00:00",
-        "lease_expires_at": "2026-11-28T02:45:21.059176+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477356",
       "prepared": {
@@ -324151,5 +324153,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:54:37.733829+00:00"
+  "updated_at": "2026-11-27T20:58:13.969528+00:00"
 }
