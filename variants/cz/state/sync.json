@@ -298460,17 +298460,19 @@
       "attempts": []
     },
     "29547": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13112377",
+          "target_video_id": "31472777",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:45:34.872632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13112377",
         "display_name": "Trouble (2019) 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:42:47.624430+00:00"
-      },
-      "claim": {
-        "worker_id": "6394c580928f4291b85822c6a7e03910-shard-0",
-        "claimed_at": "2026-11-27T16:42:48.536619+00:00",
-        "lease_expires_at": "2026-11-27T22:42:48.536619+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31472777",
       "prepared": {
@@ -320458,5 +320460,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:45:04.976457+00:00"
+  "updated_at": "2026-11-27T16:45:34.872647+00:00"
 }
