@@ -293514,17 +293514,19 @@
       }
     },
     "22323": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11462124",
+          "target_video_id": "31458805",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:45:29.222269+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11462124",
         "display_name": "A Star Is Born (1976) 1080p CZ Dabing",
         "planned_at": "2026-11-27T06:38:54.277458+00:00"
-      },
-      "claim": {
-        "worker_id": "b469304ad5f046169b41dc8eb00b4d53-shard-0",
-        "claimed_at": "2026-11-27T06:38:56.010420+00:00",
-        "lease_expires_at": "2026-11-27T12:38:56.010420+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31458805",
       "prepared": {
@@ -316684,5 +316686,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:44:13.463038+00:00"
+  "updated_at": "2026-11-27T06:45:29.222288+00:00"
 }
