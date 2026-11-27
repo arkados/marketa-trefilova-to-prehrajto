@@ -303438,17 +303438,19 @@
       }
     },
     "23840": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35478714",
+          "target_video_id": "31477893",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:09:53.094547+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35478714",
         "display_name": "One Night Stand 720p CZ Dabing",
         "planned_at": "2026-11-27T21:07:42.405357+00:00"
-      },
-      "claim": {
-        "worker_id": "0ce58e1894e04158a5c5fb956d9db57a-shard-0",
-        "claimed_at": "2026-11-27T21:07:43.220538+00:00",
-        "lease_expires_at": "2026-11-28T03:07:43.220538+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477893",
       "prepared": {
@@ -324368,5 +324370,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:09:26.609331+00:00"
+  "updated_at": "2026-11-27T21:09:53.094569+00:00"
 }
