@@ -302977,17 +302977,19 @@
       }
     },
     "13396": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28473300",
+          "target_video_id": "31477271",
+          "permanent": false,
+          "attempted_at": "2026-11-27T20:44:01.356251+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28473300",
         "display_name": "Flight of the Phoenix 1080p CZ Dabing",
         "planned_at": "2026-11-27T20:40:26.114756+00:00"
-      },
-      "claim": {
-        "worker_id": "80ff23031c3541329664b6da1c9d000e-shard-0",
-        "claimed_at": "2026-11-27T20:40:26.922182+00:00",
-        "lease_expires_at": "2026-11-28T02:40:26.922182+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477271",
       "prepared": {
@@ -323994,5 +323996,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T20:43:07.748706+00:00"
+  "updated_at": "2026-11-27T20:44:01.356271+00:00"
 }
