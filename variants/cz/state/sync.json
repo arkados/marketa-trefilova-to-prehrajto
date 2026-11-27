@@ -292492,17 +292492,19 @@
       }
     },
     "4903": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33079140",
+          "target_video_id": "31453153",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:56:14.224127+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33079140",
         "display_name": "A Quiet Place: Day One 4K CZ Dabing",
         "planned_at": "2026-11-27T02:44:43.857723+00:00"
-      },
-      "claim": {
-        "worker_id": "4ba77fcb98174c5c882f345dc001e31f-shard-0",
-        "claimed_at": "2026-11-27T02:44:44.320572+00:00",
-        "lease_expires_at": "2026-11-27T08:44:44.320572+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31453153",
       "prepared": {
@@ -315816,5 +315818,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:44:48.564928+00:00"
+  "updated_at": "2026-11-27T02:56:14.224147+00:00"
 }
