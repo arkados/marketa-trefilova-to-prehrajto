@@ -291851,17 +291851,19 @@
       "attempts": []
     },
     "15196": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24917522",
+          "target_video_id": "31452305",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:06:02.693752+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24917522",
         "display_name": "The Decoy Bride SD CZ Dabing",
         "planned_at": "2026-11-27T02:03:16.761112+00:00"
-      },
-      "claim": {
-        "worker_id": "587ff941a7e44991b45f8d7adcd97640-shard-0",
-        "claimed_at": "2026-11-27T02:03:17.304622+00:00",
-        "lease_expires_at": "2026-11-27T08:03:17.304622+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452305",
       "prepared": {
@@ -315322,5 +315324,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:05:42.959979+00:00"
+  "updated_at": "2026-11-27T02:06:02.693768+00:00"
 }
