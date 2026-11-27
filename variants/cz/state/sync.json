@@ -298820,17 +298820,19 @@
       "attempts": []
     },
     "12188": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34897782",
+          "target_video_id": "31473457",
+          "permanent": false,
+          "attempted_at": "2026-11-27T17:15:47.505458+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34897782",
         "display_name": "Scanner Cop 1080p CZ Dabing",
         "planned_at": "2026-11-27T17:12:34.790684+00:00"
-      },
-      "claim": {
-        "worker_id": "b66af22ad873489ca215fe561d7e7d0e-shard-0",
-        "claimed_at": "2026-11-27T17:12:35.773626+00:00",
-        "lease_expires_at": "2026-11-27T23:12:35.773626+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31473457",
       "prepared": {
@@ -320775,5 +320777,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T17:14:36.834872+00:00"
+  "updated_at": "2026-11-27T17:15:47.505478+00:00"
 }
