@@ -301418,17 +301418,19 @@
       }
     },
     "23083": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33787119",
+          "target_video_id": "31475769",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:35:59.714688+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33787119",
         "display_name": "Teen Witch 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:33:59.187573+00:00"
-      },
-      "claim": {
-        "worker_id": "266b73c5106a4bd38271be9c75097028-shard-0",
-        "claimed_at": "2026-11-27T19:34:00.206383+00:00",
-        "lease_expires_at": "2026-11-28T01:34:00.206383+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475769",
       "prepared": {
@@ -322782,5 +322784,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:35:53.635015+00:00"
+  "updated_at": "2026-11-27T19:35:59.714705+00:00"
 }
