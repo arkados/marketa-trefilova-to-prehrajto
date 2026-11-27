@@ -292092,17 +292092,19 @@
       "attempts": []
     },
     "5601": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11707865",
+          "target_video_id": "31452577",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:22:36.387386+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11707865",
         "display_name": "Reign of Fire 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:18:24.719949+00:00"
-      },
-      "claim": {
-        "worker_id": "d4527f6401a14c2ca1a296dc83a21584-shard-0",
-        "claimed_at": "2026-11-27T02:18:25.183341+00:00",
-        "lease_expires_at": "2026-11-27T08:18:25.183341+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452577",
       "prepared": {
@@ -315482,5 +315484,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:18:29.545884+00:00"
+  "updated_at": "2026-11-27T02:22:36.387403+00:00"
 }
