@@ -303173,17 +303173,19 @@
       }
     },
     "5906": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17998462",
+          "target_video_id": "31477477",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:03:40.133705+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17998462",
         "display_name": "Blood Red Sky 4K CZ Dabing",
         "planned_at": "2026-11-27T20:51:36.656540+00:00"
-      },
-      "claim": {
-        "worker_id": "c3deae0754db44169b21519a30f895a4-shard-0",
-        "claimed_at": "2026-11-27T20:51:37.478707+00:00",
-        "lease_expires_at": "2026-11-28T02:51:37.478707+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477477",
       "prepared": {
@@ -324228,5 +324230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:02:48.165075+00:00"
+  "updated_at": "2026-11-27T21:03:40.133727+00:00"
 }
