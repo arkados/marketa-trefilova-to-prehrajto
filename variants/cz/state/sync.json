@@ -291952,17 +291952,19 @@
       "attempts": []
     },
     "14361": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26238812",
+          "target_video_id": "31452392",
+          "permanent": false,
+          "attempted_at": "2026-11-27T02:15:52.268730+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26238812",
         "display_name": "Jack Ryan: Shadow Recruit 1080p CZ Dabing",
         "planned_at": "2026-11-27T02:07:57.388560+00:00"
-      },
-      "claim": {
-        "worker_id": "8316a03b0459478c96022735a876f8bd-shard-0",
-        "claimed_at": "2026-11-27T02:07:57.849633+00:00",
-        "lease_expires_at": "2026-11-27T08:07:57.849633+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31452392",
       "prepared": {
@@ -315422,5 +315424,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T02:11:59.031547+00:00"
+  "updated_at": "2026-11-27T02:15:52.268749+00:00"
 }
