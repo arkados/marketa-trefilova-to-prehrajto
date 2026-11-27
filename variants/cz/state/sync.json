@@ -293053,17 +293053,19 @@
       }
     },
     "5608": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33219354",
+          "target_video_id": "31456655",
+          "permanent": false,
+          "attempted_at": "2026-11-27T05:06:26.238235+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33219354",
         "display_name": "Knowing 4K CZ Dabing",
         "planned_at": "2026-11-27T04:53:56.730004+00:00"
-      },
-      "claim": {
-        "worker_id": "5abdbd4a4d9c4000b7276a0bd4826331-shard-0",
-        "claimed_at": "2026-11-27T04:54:00.016841+00:00",
-        "lease_expires_at": "2026-11-27T10:54:00.016841+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31456655",
       "prepared": {
@@ -316310,5 +316312,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:57:29.547046+00:00"
+  "updated_at": "2026-11-27T05:06:26.238254+00:00"
 }
