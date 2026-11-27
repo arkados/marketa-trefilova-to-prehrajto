@@ -294842,17 +294842,19 @@
       }
     },
     "22231": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34700989",
+          "target_video_id": "31460956",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:20:47.597695+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34700989",
         "display_name": "The Adventure of Sherlock Holmes' Smarter Brother SD CZ Dabing",
         "planned_at": "2026-11-27T08:18:42.308577+00:00"
-      },
-      "claim": {
-        "worker_id": "786e58c020b7426d9710d353e91009ca-shard-0",
-        "claimed_at": "2026-11-27T08:18:43.190795+00:00",
-        "lease_expires_at": "2026-11-27T14:18:43.190795+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460956",
       "prepared": {
@@ -317707,5 +317709,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:20:05.646228+00:00"
+  "updated_at": "2026-11-27T08:20:47.597712+00:00"
 }
