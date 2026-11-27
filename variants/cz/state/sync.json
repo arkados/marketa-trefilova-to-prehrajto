@@ -293613,17 +293613,19 @@
       }
     },
     "5924": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "15006756",
+          "target_video_id": "31459039",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:52:39.543213+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "15006756",
         "display_name": "Let Them All Talk SD CZ Dabing",
         "planned_at": "2026-11-27T06:50:29.160716+00:00"
-      },
-      "claim": {
-        "worker_id": "b89cf1acf94c48dea6e48a3988987b6b-shard-0",
-        "claimed_at": "2026-11-27T06:50:30.060882+00:00",
-        "lease_expires_at": "2026-11-27T12:50:30.060882+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31459039",
       "prepared": {
@@ -316724,5 +316726,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:50:33.625585+00:00"
+  "updated_at": "2026-11-27T06:52:39.543230+00:00"
 }
