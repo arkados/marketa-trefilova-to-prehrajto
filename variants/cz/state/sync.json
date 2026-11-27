@@ -297400,17 +297400,19 @@
       }
     },
     "6609": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12075818",
+          "target_video_id": "31470517",
+          "permanent": false,
+          "attempted_at": "2026-11-27T15:04:40.531352+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12075818",
         "display_name": "Hurricane 1080p CZ Dabing",
         "planned_at": "2026-11-27T15:00:47.360098+00:00"
-      },
-      "claim": {
-        "worker_id": "403e6d823ce54ba6b22d478ed3dfb350-shard-0",
-        "claimed_at": "2026-11-27T15:00:48.222464+00:00",
-        "lease_expires_at": "2026-11-27T21:00:48.222464+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31470517",
       "prepared": {
@@ -319638,5 +319640,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T15:00:52.609771+00:00"
+  "updated_at": "2026-11-27T15:04:40.531371+00:00"
 }
