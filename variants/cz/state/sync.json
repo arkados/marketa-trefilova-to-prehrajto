@@ -297325,17 +297325,19 @@
       }
     },
     "26595": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34709423",
+          "target_video_id": "31470258",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:52:58.064176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34709423",
         "display_name": "An Empress and the Warriors SD CZ Dabing",
         "planned_at": "2026-11-27T14:50:30.733904+00:00"
-      },
-      "claim": {
-        "worker_id": "99a6e5f0ac40412e8ecd7a9f013cbbb0-shard-0",
-        "claimed_at": "2026-11-27T14:50:31.599705+00:00",
-        "lease_expires_at": "2026-11-27T20:50:31.599705+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31470258",
       "prepared": {
@@ -319578,5 +319580,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:50:36.265913+00:00"
+  "updated_at": "2026-11-27T14:52:58.064196+00:00"
 }
