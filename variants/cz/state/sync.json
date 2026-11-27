@@ -306078,17 +306078,19 @@
       }
     },
     "6082": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26223274",
+          "target_video_id": "31481768",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:56:43.877885+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26223274",
         "display_name": "Insidious: Chapter 3 1080p CZ Dabing",
         "planned_at": "2026-11-27T23:53:38.769398+00:00"
-      },
-      "claim": {
-        "worker_id": "9fda8659033e4f35a1bdd84340e570d9-shard-0",
-        "claimed_at": "2026-11-27T23:53:42.504780+00:00",
-        "lease_expires_at": "2026-11-28T05:53:42.504780+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481768",
       "prepared": {
@@ -326531,5 +326533,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:56:14.123228+00:00"
+  "updated_at": "2026-11-27T23:56:43.877904+00:00"
 }
