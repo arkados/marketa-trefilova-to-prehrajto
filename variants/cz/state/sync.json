@@ -131183,7 +131183,7 @@
       "last_plan": {
         "source_id": "34451524",
         "display_name": "Circus Angel SD CZ Dabing",
-        "planned_at": "2026-11-27T19:21:20.517048+00:00"
+        "planned_at": "2026-11-27T19:21:26.067527+00:00"
       },
       "previous_target_id": "30986945",
       "prepared": {
@@ -300961,18 +300961,35 @@
       }
     },
     "14758": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "33077519",
+          "reason": "Source detail has no authenticated download link; source_id=33077519",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:21:27.899676+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33077519",
         "display_name": "Nanny McPhee and the Big Bang 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:21:21.057076+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "33077519",
+        "requested_at": "2026-11-27T19:21:27.899660+00:00"
       }
     },
     "15306": {
       "attempts": []
     },
     "26721": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "6516738",
+        "display_name": "Taras Bulba (Iron & Blood: The Legend of Taras Bulba) (2009) SD CZ Dabing",
+        "planned_at": "2026-11-27T19:21:26.695686+00:00"
+      }
     },
     "5762": {
       "attempts": []
@@ -322355,5 +322372,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:21:21.057092+00:00"
+  "updated_at": "2026-11-27T19:21:27.899685+00:00"
 }
