@@ -303464,17 +303464,19 @@
       "attempts": []
     },
     "5885": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35186774",
+          "target_video_id": "31477919",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:12:54.275970+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35186774",
         "display_name": "Color Out of Space 1080p CZ Dabing",
         "planned_at": "2026-11-27T21:08:54.239726+00:00"
-      },
-      "claim": {
-        "worker_id": "bcbd5fbbb72c45bcbd1aabbb1e12c8b3-shard-0",
-        "claimed_at": "2026-11-27T21:08:55.040403+00:00",
-        "lease_expires_at": "2026-11-28T03:08:55.040403+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31477919",
       "prepared": {
@@ -324445,5 +324447,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:12:37.603873+00:00"
+  "updated_at": "2026-11-27T21:12:54.275988+00:00"
 }
