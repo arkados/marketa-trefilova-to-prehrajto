@@ -294868,17 +294868,19 @@
       "attempts": []
     },
     "7579": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19024796",
+          "target_video_id": "31460982",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:28:47.062322+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19024796",
         "display_name": "Holly Slept Over 1080p CZ Dabing",
         "planned_at": "2026-11-27T08:20:00.661027+00:00"
-      },
-      "claim": {
-        "worker_id": "551e0c5ed8a94a388da150ea41a63463-shard-0",
-        "claimed_at": "2026-11-27T08:20:01.588230+00:00",
-        "lease_expires_at": "2026-11-27T14:20:01.588230+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460982",
       "prepared": {
@@ -317747,5 +317749,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:26:39.369684+00:00"
+  "updated_at": "2026-11-27T08:28:47.062340+00:00"
 }
