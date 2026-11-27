@@ -297189,17 +297189,19 @@
       }
     },
     "23237": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29345187",
+          "target_video_id": "31469917",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:39:10.580913+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29345187",
         "display_name": "Showdown in Little Tokyo 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:35:12.196973+00:00"
-      },
-      "claim": {
-        "worker_id": "b58708f7734f4fa69f0c56c9288b4348-shard-0",
-        "claimed_at": "2026-11-27T14:35:13.338169+00:00",
-        "lease_expires_at": "2026-11-27T20:35:13.338169+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469917",
       "prepared": {
@@ -319478,5 +319480,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:36:13.389744+00:00"
+  "updated_at": "2026-11-27T14:39:10.580930+00:00"
 }
