@@ -296399,17 +296399,19 @@
       "attempts": []
     },
     "6555": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34283917",
+          "target_video_id": "31467718",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:36:02.638784+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34283917",
         "display_name": "France 1080p CZ Dabing",
         "planned_at": "2026-11-27T13:31:16.319086+00:00"
-      },
-      "claim": {
-        "worker_id": "b504bf51faad4ccf861c404014a731ac-shard-0",
-        "claimed_at": "2026-11-27T13:31:17.166343+00:00",
-        "lease_expires_at": "2026-11-27T19:31:17.166343+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467718",
       "prepared": {
@@ -318844,5 +318846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:31:21.560772+00:00"
+  "updated_at": "2026-11-27T13:36:02.638801+00:00"
 }
