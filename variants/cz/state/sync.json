@@ -295685,17 +295685,19 @@
       "attempts": []
     },
     "16919": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34883567",
+          "target_video_id": "31463235",
+          "permanent": false,
+          "attempted_at": "2026-11-27T10:23:07.888075+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34883567",
         "display_name": "Vita and Virginia (Vita & Virginia) 1080p CZ Dabing",
         "planned_at": "2026-11-27T10:12:39.325764+00:00"
-      },
-      "claim": {
-        "worker_id": "04c8a4e8f5ad45fe8f085a850510f83d-shard-0",
-        "claimed_at": "2026-11-27T10:12:40.195800+00:00",
-        "lease_expires_at": "2026-11-27T16:12:40.195800+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31463235",
       "prepared": {
@@ -318344,5 +318346,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T10:19:35.086917+00:00"
+  "updated_at": "2026-11-27T10:23:07.888094+00:00"
 }
