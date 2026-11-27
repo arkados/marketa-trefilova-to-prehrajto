@@ -296068,17 +296068,19 @@
       }
     },
     "12304": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28151760",
+          "target_video_id": "31467023",
+          "permanent": false,
+          "attempted_at": "2026-11-27T13:10:11.266811+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28151760",
         "display_name": "Head Above Water 1080p CZ Dabing",
         "planned_at": "2026-11-27T12:47:55.675693+00:00"
-      },
-      "claim": {
-        "worker_id": "1e5e3bbd145d40a9bd5256db1a10b347-shard-0",
-        "claimed_at": "2026-11-27T12:47:56.486734+00:00",
-        "lease_expires_at": "2026-11-27T18:47:56.486734+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31467023",
       "prepared": {
@@ -318724,5 +318726,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T13:09:03.899362+00:00"
+  "updated_at": "2026-11-27T13:10:11.266827+00:00"
 }
