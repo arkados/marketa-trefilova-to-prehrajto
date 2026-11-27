@@ -292785,17 +292785,19 @@
       }
     },
     "5620": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31010579",
+          "target_video_id": "31455267",
+          "permanent": false,
+          "attempted_at": "2026-11-27T04:16:37.047338+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31010579",
         "display_name": "Inferno (2016) 4K CZ Dabing",
         "planned_at": "2026-11-27T04:02:41.739675+00:00"
-      },
-      "claim": {
-        "worker_id": "81f43763d6d14431a8ce30b08201118f-shard-0",
-        "claimed_at": "2026-11-27T04:02:42.310395+00:00",
-        "lease_expires_at": "2026-11-27T10:02:42.310395+00:00",
-        "run_id": "45925946745"
       },
       "previous_target_id": "31455267",
       "prepared": {
@@ -316073,5 +316075,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T04:10:23.857461+00:00"
+  "updated_at": "2026-11-27T04:16:37.047358+00:00"
 }
