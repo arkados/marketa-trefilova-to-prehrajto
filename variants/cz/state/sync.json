@@ -296919,17 +296919,19 @@
       "attempts": []
     },
     "16533": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34694952",
+          "target_video_id": "31469477",
+          "permanent": false,
+          "attempted_at": "2026-11-27T14:18:30.643880+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34694952",
         "display_name": "Death Fighter 1080p CZ Dabing",
         "planned_at": "2026-11-27T14:13:42.071418+00:00"
-      },
-      "claim": {
-        "worker_id": "64c46f3ea7094ce1a043cdda3816c9c2-shard-0",
-        "claimed_at": "2026-11-27T14:13:42.947084+00:00",
-        "lease_expires_at": "2026-11-27T20:13:42.947084+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31469477",
       "prepared": {
@@ -319318,5 +319320,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T14:17:46.345898+00:00"
+  "updated_at": "2026-11-27T14:18:30.643897+00:00"
 }
