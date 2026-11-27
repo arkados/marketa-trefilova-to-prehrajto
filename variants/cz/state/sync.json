@@ -299621,17 +299621,19 @@
       "attempts": []
     },
     "5794": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34700918",
+          "target_video_id": "31474160",
+          "permanent": false,
+          "attempted_at": "2026-11-27T18:29:59.064113+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34700918",
         "display_name": "Lisa Frankenstein 1080p CZ Dabing",
         "planned_at": "2026-11-27T18:28:04.377995+00:00"
-      },
-      "claim": {
-        "worker_id": "bf683ee6727c4780b84299b6053b0ac8-shard-0",
-        "claimed_at": "2026-11-27T18:28:05.397416+00:00",
-        "lease_expires_at": "2026-11-28T00:28:05.397416+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31474160",
       "prepared": {
@@ -321372,5 +321374,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T18:29:46.422874+00:00"
+  "updated_at": "2026-11-27T18:29:59.064128+00:00"
 }
