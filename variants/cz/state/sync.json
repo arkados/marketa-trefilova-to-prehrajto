@@ -294793,17 +294793,19 @@
       "attempts": []
     },
     "11784": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33746186",
+          "target_video_id": "31460765",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:18:30.779335+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33746186",
         "display_name": "Taffin 1080p CZ Dabing",
         "planned_at": "2026-11-27T08:09:21.109119+00:00"
-      },
-      "claim": {
-        "worker_id": "b2fad1d82cdf4061a98bc7fbe6aac529-shard-0",
-        "claimed_at": "2026-11-27T08:09:22.016547+00:00",
-        "lease_expires_at": "2026-11-27T14:09:22.016547+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460765",
       "prepared": {
@@ -317667,5 +317669,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:15:39.179879+00:00"
+  "updated_at": "2026-11-27T08:18:30.779352+00:00"
 }
