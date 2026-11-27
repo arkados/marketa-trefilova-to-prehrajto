@@ -293493,17 +293493,19 @@
       "attempts": []
     },
     "5699": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31837477",
+          "target_video_id": "31458801",
+          "permanent": false,
+          "attempted_at": "2026-11-27T06:50:19.705767+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31837477",
         "display_name": "Indiana Jones and the Kingdom of the Crystal Skull 4K CZ Dabing",
         "planned_at": "2026-11-27T06:38:39.135891+00:00"
-      },
-      "claim": {
-        "worker_id": "faae7bcf44ba49a7b5a7aa7df8fc8688-shard-0",
-        "claimed_at": "2026-11-27T06:38:40.655809+00:00",
-        "lease_expires_at": "2026-11-27T12:38:40.655809+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31458801",
       "prepared": {
@@ -316704,5 +316706,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T06:45:44.705924+00:00"
+  "updated_at": "2026-11-27T06:50:19.705784+00:00"
 }
