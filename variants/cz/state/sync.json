@@ -301510,17 +301510,19 @@
       }
     },
     "28968": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34899985",
+          "target_video_id": "31475906",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:38:59.024435+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34899985",
         "display_name": "Une famille à louer (Family for Rent) 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:36:23.489393+00:00"
-      },
-      "claim": {
-        "worker_id": "a8cffea82f214e0c9f9beee4293b0a51-shard-0",
-        "claimed_at": "2026-11-27T19:36:24.498351+00:00",
-        "lease_expires_at": "2026-11-28T01:36:24.498351+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475906",
       "prepared": {
@@ -322860,5 +322862,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:37:23.502289+00:00"
+  "updated_at": "2026-11-27T19:38:59.024452+00:00"
 }
