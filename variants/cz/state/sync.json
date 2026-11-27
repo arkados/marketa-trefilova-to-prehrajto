@@ -300730,17 +300730,19 @@
       }
     },
     "11198": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34465963",
+          "target_video_id": "31475148",
+          "permanent": false,
+          "attempted_at": "2026-11-27T19:11:16.855076+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34465963",
         "display_name": "Killer Meteors (FengYuShuangLiuXing) 1080p CZ Dabing",
         "planned_at": "2026-11-27T19:06:57.166887+00:00"
-      },
-      "claim": {
-        "worker_id": "cd0abc8aadfc47c3b00060bd015d0225-shard-0",
-        "claimed_at": "2026-11-27T19:06:58.191585+00:00",
-        "lease_expires_at": "2026-11-28T01:06:58.191585+00:00",
-        "run_id": "45998674840"
       },
       "previous_target_id": "31475148",
       "prepared": {
@@ -322206,5 +322208,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T19:09:24.343964+00:00"
+  "updated_at": "2026-11-27T19:11:16.855091+00:00"
 }
