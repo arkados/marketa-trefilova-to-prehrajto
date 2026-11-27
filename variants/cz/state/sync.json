@@ -306055,17 +306055,19 @@
       }
     },
     "6122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30038680",
+          "target_video_id": "31481749",
+          "permanent": false,
+          "attempted_at": "2026-11-27T23:54:15.168348+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30038680",
         "display_name": "Ride Along 720p CZ Dabing",
         "planned_at": "2026-11-27T23:51:39.137812+00:00"
-      },
-      "claim": {
-        "worker_id": "24df301cdeef428092b4bbf60a211318-shard-0",
-        "claimed_at": "2026-11-27T23:51:39.953299+00:00",
-        "lease_expires_at": "2026-11-28T05:51:39.953299+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481749",
       "prepared": {
@@ -326478,5 +326480,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T23:53:57.372698+00:00"
+  "updated_at": "2026-11-27T23:54:15.168368+00:00"
 }
