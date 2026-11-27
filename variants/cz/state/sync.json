@@ -291568,17 +291568,19 @@
       }
     },
     "14965": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32701288",
+          "target_video_id": "31451177",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:23:30.914268+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32701288",
         "display_name": "On Swift Horses 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:15:34.077444+00:00"
-      },
-      "claim": {
-        "worker_id": "5386c723d6b349d281678c6baee14c88-shard-0",
-        "claimed_at": "2026-11-27T01:15:34.816331+00:00",
-        "lease_expires_at": "2026-11-27T07:15:34.816331+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451177",
       "prepared": {
@@ -315109,5 +315111,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:22:52.235253+00:00"
+  "updated_at": "2026-11-27T01:23:30.914283+00:00"
 }
