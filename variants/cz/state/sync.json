@@ -294581,17 +294581,19 @@
       "attempts": []
     },
     "18373": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "7620181",
+          "target_video_id": "31460418",
+          "permanent": false,
+          "attempted_at": "2026-11-27T08:04:13.942903+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "7620181",
         "display_name": "Black Butterfly 1080p CZ Dabing",
         "planned_at": "2026-11-27T07:52:08.244452+00:00"
-      },
-      "claim": {
-        "worker_id": "ce70dab6f3974eeab7c9ebe3ffb150f8-shard-0",
-        "claimed_at": "2026-11-27T07:52:13.143450+00:00",
-        "lease_expires_at": "2026-11-27T13:52:13.143450+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31460418",
       "prepared": {
@@ -317587,5 +317589,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:59:06.291715+00:00"
+  "updated_at": "2026-11-27T08:04:13.942919+00:00"
 }
