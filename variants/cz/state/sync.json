@@ -304343,17 +304343,19 @@
       }
     },
     "30087": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31960772",
+          "target_video_id": "31478497",
+          "permanent": false,
+          "attempted_at": "2026-11-27T21:39:31.549347+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31960772",
         "display_name": "The Incredible Hulk Returns SD CZ Dabing",
         "planned_at": "2026-11-27T21:38:41.512530+00:00"
-      },
-      "claim": {
-        "worker_id": "1554d43c1f254a21b9fbc7ac42f4ef2e-shard-0",
-        "claimed_at": "2026-11-27T21:38:42.242658+00:00",
-        "lease_expires_at": "2026-11-28T03:38:42.242658+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31478497",
       "prepared": {
@@ -325045,5 +325047,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T21:38:45.900029+00:00"
+  "updated_at": "2026-11-27T21:39:31.549367+00:00"
 }
