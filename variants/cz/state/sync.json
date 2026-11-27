@@ -291543,17 +291543,19 @@
       }
     },
     "37252": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34887730",
+          "target_video_id": "31451082",
+          "permanent": false,
+          "attempted_at": "2026-11-27T01:15:17.794341+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34887730",
         "display_name": "The Golden Bowl 1080p CZ Dabing",
         "planned_at": "2026-11-27T01:10:59.100514+00:00"
-      },
-      "claim": {
-        "worker_id": "d1faf0b38040415283e8e06a8dbc5338-shard-0",
-        "claimed_at": "2026-11-27T01:10:59.836172+00:00",
-        "lease_expires_at": "2026-11-27T07:10:59.836172+00:00",
-        "run_id": "45885078015"
       },
       "previous_target_id": "31451082",
       "prepared": {
@@ -315029,5 +315031,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T01:11:06.185627+00:00"
+  "updated_at": "2026-11-27T01:15:17.794356+00:00"
 }
