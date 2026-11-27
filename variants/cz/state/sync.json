@@ -295566,17 +295566,19 @@
       "attempts": []
     },
     "24086": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33676031",
+          "target_video_id": "31462821",
+          "permanent": false,
+          "attempted_at": "2026-11-27T10:04:08.716439+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33676031",
         "display_name": "One Last Dance 1080p CZ Dabing",
         "planned_at": "2026-11-27T09:51:45.952432+00:00"
-      },
-      "claim": {
-        "worker_id": "d5e72c53bc6243199e4fe6b2649b0a9d-shard-0",
-        "claimed_at": "2026-11-27T09:51:47.220748+00:00",
-        "lease_expires_at": "2026-11-27T15:51:47.220748+00:00",
-        "run_id": "45930809608"
       },
       "previous_target_id": "31462821",
       "prepared": {
@@ -318224,5 +318226,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T09:52:23.233285+00:00"
+  "updated_at": "2026-11-27T10:04:08.716456+00:00"
 }
