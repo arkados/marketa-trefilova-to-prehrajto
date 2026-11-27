@@ -297932,17 +297932,19 @@
       "attempts": []
     },
     "23337": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767285",
+          "target_video_id": "31471881",
+          "permanent": false,
+          "attempted_at": "2026-11-27T16:06:04.829851+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767285",
         "display_name": "White Sands 1080p CZ Dabing",
         "planned_at": "2026-11-27T16:00:35.514639+00:00"
-      },
-      "claim": {
-        "worker_id": "199936558fde45859a2c97b07d841fb2-shard-0",
-        "claimed_at": "2026-11-27T16:00:36.375837+00:00",
-        "lease_expires_at": "2026-11-27T22:00:36.375837+00:00",
-        "run_id": "45997695498"
       },
       "previous_target_id": "31471881",
       "prepared": {
@@ -320038,5 +320040,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-27T16:02:46.507908+00:00"
+  "updated_at": "2026-11-27T16:06:04.829868+00:00"
 }
