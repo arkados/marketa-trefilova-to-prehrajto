@@ -308196,17 +308196,19 @@
       }
     },
     "18345": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14022498",
+          "target_video_id": "31485938",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:19:40.409632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14022498",
         "display_name": "For a Good Time, Call... 1080p CZ Dabing",
         "planned_at": "2026-11-28T04:14:33.796964+00:00"
-      },
-      "claim": {
-        "worker_id": "52d15bb040194cf9bab84eb01494db2b-shard-0",
-        "claimed_at": "2026-11-28T04:14:34.637245+00:00",
-        "lease_expires_at": "2026-11-28T10:14:34.637245+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31485938",
       "prepared": {
@@ -328159,5 +328161,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:16:08.984773+00:00"
+  "updated_at": "2026-11-28T04:19:40.409647+00:00"
 }
