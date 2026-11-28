@@ -313049,17 +313049,19 @@
       }
     },
     "12263": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34905941",
+          "target_video_id": "31502897",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:13:46.476899+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34905941",
         "display_name": "Tremors 2: Aftershocks 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:11:40.968133+00:00"
-      },
-      "claim": {
-        "worker_id": "1f3c34781ae645d182d35e8ec6d38f9c-shard-0",
-        "claimed_at": "2026-11-28T16:11:41.719539+00:00",
-        "lease_expires_at": "2026-11-28T22:11:41.719539+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31502897",
       "prepared": {
@@ -331881,5 +331883,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:13:43.612118+00:00"
+  "updated_at": "2026-11-28T16:13:46.476915+00:00"
 }
