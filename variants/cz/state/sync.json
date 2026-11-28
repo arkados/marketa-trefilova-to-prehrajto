@@ -311898,17 +311898,19 @@
       }
     },
     "14883": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35438451",
+          "target_video_id": "31499727",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:22:59.404410+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35438451",
         "display_name": "Columbus Circle 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:19:14.282255+00:00"
-      },
-      "claim": {
-        "worker_id": "35fa1f491d17490197b513a5453cfa19-shard-0",
-        "claimed_at": "2026-11-28T12:19:15.168993+00:00",
-        "lease_expires_at": "2026-11-28T18:19:15.168993+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499727",
       "prepared": {
@@ -331027,5 +331029,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:21:10.996419+00:00"
+  "updated_at": "2026-11-28T12:22:59.404424+00:00"
 }
