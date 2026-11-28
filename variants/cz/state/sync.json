@@ -310034,17 +310034,19 @@
       "attempts": []
     },
     "12063": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29034982",
+          "target_video_id": "31489725",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:56:54.853365+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29034982",
         "display_name": "Body Snatchers 1080p CZ Dabing",
         "planned_at": "2026-11-28T06:52:01.785415+00:00"
-      },
-      "claim": {
-        "worker_id": "5fc703bbe8a0474fb08ba2647f4cb232-shard-0",
-        "claimed_at": "2026-11-28T06:52:03.182340+00:00",
-        "lease_expires_at": "2026-11-28T12:52:03.182340+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31489725",
       "prepared": {
@@ -329553,5 +329555,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:52:08.155511+00:00"
+  "updated_at": "2026-11-28T06:56:54.853380+00:00"
 }
