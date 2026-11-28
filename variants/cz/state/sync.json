@@ -307676,17 +307676,19 @@
       }
     },
     "15389": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26205158",
+          "target_video_id": "31483993",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:47:51.043234+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26205158",
         "display_name": "Combustion (Combustión) 720p CZ Dabing",
         "planned_at": "2026-11-28T02:24:36.951537+00:00"
-      },
-      "claim": {
-        "worker_id": "7c53831f3844497e96ce02f26e31769b-shard-0",
-        "claimed_at": "2026-11-28T02:24:37.773041+00:00",
-        "lease_expires_at": "2026-11-28T08:24:37.773041+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483993",
       "prepared": {
@@ -327824,5 +327826,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:42:49.893053+00:00"
+  "updated_at": "2026-11-28T02:47:51.043250+00:00"
 }
