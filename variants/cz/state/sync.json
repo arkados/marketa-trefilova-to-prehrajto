@@ -312231,17 +312231,19 @@
       }
     },
     "37218": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23140587",
+          "target_video_id": "31500317",
+          "permanent": false,
+          "attempted_at": "2026-11-28T13:12:18.775223+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23140587",
         "display_name": "Little Indian, Big City 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:56:44.512929+00:00"
-      },
-      "claim": {
-        "worker_id": "48a167136a3e4b1faee44c01334e34c5-shard-0",
-        "claimed_at": "2026-11-28T12:56:45.362581+00:00",
-        "lease_expires_at": "2026-11-28T18:56:45.362581+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31500317",
       "prepared": {
@@ -331251,5 +331253,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T13:08:48.228395+00:00"
+  "updated_at": "2026-11-28T13:12:18.775246+00:00"
 }
