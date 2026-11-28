@@ -312286,17 +312286,23 @@
       "attempts": []
     },
     "6476": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30436722",
+          "reason": "Source detail has no authenticated download link; source_id=30436722",
+          "permanent": false,
+          "attempted_at": "2026-11-28T13:13:40.400856+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30436722",
         "display_name": "Ad Vitam 1080p CZ Dabing",
         "planned_at": "2026-11-28T13:13:33.768433+00:00"
       },
-      "claim": {
-        "worker_id": "1a7ee69c075842a9b3ae0c7b5d44df4c-shard-0",
-        "claimed_at": "2026-11-28T13:13:35.016717+00:00",
-        "lease_expires_at": "2026-11-28T19:13:35.016717+00:00",
-        "run_id": "46147568139"
+      "source_repair_requested": {
+        "source_id": "30436722",
+        "requested_at": "2026-11-28T13:13:40.400841+00:00"
       }
     },
     "26546": {
@@ -331274,5 +331280,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T13:13:37.145212+00:00"
+  "updated_at": "2026-11-28T13:13:40.400864+00:00"
 }
