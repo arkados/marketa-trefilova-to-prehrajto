@@ -307992,17 +307992,19 @@
       "attempts": []
     },
     "28172": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35169142",
+          "target_video_id": "31485092",
+          "permanent": false,
+          "attempted_at": "2026-11-28T03:42:33.377386+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35169142",
         "display_name": "Teen Beach Movie 1080p CZ Dabing",
         "planned_at": "2026-11-28T03:32:33.946221+00:00"
-      },
-      "claim": {
-        "worker_id": "9002800addb745d4b2b52c897cc889ba-shard-0",
-        "claimed_at": "2026-11-28T03:32:34.787288+00:00",
-        "lease_expires_at": "2026-11-28T09:32:34.787288+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31485092",
       "prepared": {
@@ -328001,5 +328003,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T03:32:39.618919+00:00"
+  "updated_at": "2026-11-28T03:42:33.377401+00:00"
 }
