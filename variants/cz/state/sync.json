@@ -311240,17 +311240,19 @@
       "attempts": []
     },
     "12165": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34430210",
+          "target_video_id": "31496822",
+          "permanent": false,
+          "attempted_at": "2026-11-28T10:58:12.568151+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34430210",
         "display_name": "The Land Before Time II: The Great Valley Adventure 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:33:56.777905+00:00"
-      },
-      "claim": {
-        "worker_id": "962d1e5696d740a98716b1b74f98c1a7-shard-0",
-        "claimed_at": "2026-11-28T10:33:57.670044+00:00",
-        "lease_expires_at": "2026-11-28T16:33:57.670044+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31496822",
       "prepared": {
@@ -330547,5 +330549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:50:14.536510+00:00"
+  "updated_at": "2026-11-28T10:58:12.568167+00:00"
 }
