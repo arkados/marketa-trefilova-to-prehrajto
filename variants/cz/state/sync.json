@@ -312352,17 +312352,19 @@
       }
     },
     "6181": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28616420",
+          "target_video_id": "31500492",
+          "permanent": false,
+          "attempted_at": "2026-11-28T13:39:26.108955+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28616420",
         "display_name": "Fast Charlie 1080p CZ Dabing",
         "planned_at": "2026-11-28T13:14:09.863330+00:00"
-      },
-      "claim": {
-        "worker_id": "a5309a0ea89d4e93a8cd2426924a67be-shard-0",
-        "claimed_at": "2026-11-28T13:14:10.730337+00:00",
-        "lease_expires_at": "2026-11-28T19:14:10.730337+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31500492",
       "prepared": {
@@ -331384,5 +331386,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T13:33:17.978902+00:00"
+  "updated_at": "2026-11-28T13:39:26.108970+00:00"
 }
