@@ -309391,17 +309391,19 @@
       }
     },
     "8099": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32941075",
+          "target_video_id": "31488293",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:58:08.350401+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32941075",
         "display_name": "All the Devils Are Here 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:52:39.296842+00:00"
-      },
-      "claim": {
-        "worker_id": "e7a8eb8b05ff4f18be7df23a059be933-shard-0",
-        "claimed_at": "2026-11-28T05:52:40.197644+00:00",
-        "lease_expires_at": "2026-11-28T11:52:40.197644+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488293",
       "prepared": {
@@ -329133,5 +329135,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:57:45.851647+00:00"
+  "updated_at": "2026-11-28T05:58:08.350421+00:00"
 }
