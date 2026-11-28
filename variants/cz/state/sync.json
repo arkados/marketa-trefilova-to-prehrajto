@@ -313247,17 +313247,19 @@
       }
     },
     "15869": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32200547",
+          "target_video_id": "31503232",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:44:12.837300+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32200547",
         "display_name": "Adulthood (2025) 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:25:53.275496+00:00"
-      },
-      "claim": {
-        "worker_id": "ce470ad3c0d5483f8d893e9927f26b78-shard-0",
-        "claimed_at": "2026-11-28T16:25:53.954292+00:00",
-        "lease_expires_at": "2026-11-28T22:25:53.954292+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31503232",
       "prepared": {
@@ -332081,5 +332083,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:29:54.871748+00:00"
+  "updated_at": "2026-11-28T16:44:12.837315+00:00"
 }
