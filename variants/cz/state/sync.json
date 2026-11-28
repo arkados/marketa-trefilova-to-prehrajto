@@ -311425,17 +311425,19 @@
       }
     },
     "30111": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34712954",
+          "target_video_id": "31497763",
+          "permanent": false,
+          "attempted_at": "2026-11-28T11:24:21.506688+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34712954",
         "display_name": "The Mutations 1080p CZ Dabing",
         "planned_at": "2026-11-28T11:10:11.535803+00:00"
-      },
-      "claim": {
-        "worker_id": "5ae76e0ff11e4376a2ba920d43a28942-shard-0",
-        "claimed_at": "2026-11-28T11:10:12.389825+00:00",
-        "lease_expires_at": "2026-11-28T17:10:12.389825+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31497763",
       "prepared": {
@@ -330647,5 +330649,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T11:12:08.218313+00:00"
+  "updated_at": "2026-11-28T11:24:21.506704+00:00"
 }
