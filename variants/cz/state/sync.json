@@ -309273,17 +309273,19 @@
       }
     },
     "23665": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34751674",
+          "target_video_id": "31488028",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:52:27.817286+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34751674",
         "display_name": "Alaska 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:43:22.332006+00:00"
-      },
-      "claim": {
-        "worker_id": "86f41feeaed24bd9bbfcaeba0a4f7efc-shard-0",
-        "claimed_at": "2026-11-28T05:43:25.967281+00:00",
-        "lease_expires_at": "2026-11-28T11:43:25.967281+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488028",
       "prepared": {
@@ -329033,5 +329035,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:50:26.558757+00:00"
+  "updated_at": "2026-11-28T05:52:27.817301+00:00"
 }
