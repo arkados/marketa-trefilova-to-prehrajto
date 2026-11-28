@@ -311282,17 +311282,19 @@
       }
     },
     "15191": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34690940",
+          "target_video_id": "31496967",
+          "permanent": false,
+          "attempted_at": "2026-11-28T10:46:04.604146+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34690940",
         "display_name": "The Naughty Nine 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:38:42.955918+00:00"
-      },
-      "claim": {
-        "worker_id": "810c5185fbaf4325b5626345e296fbad-shard-0",
-        "claimed_at": "2026-11-28T10:38:44.076331+00:00",
-        "lease_expires_at": "2026-11-28T16:38:44.076331+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31496967",
       "prepared": {
@@ -330507,5 +330509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:38:49.613869+00:00"
+  "updated_at": "2026-11-28T10:46:04.604162+00:00"
 }
