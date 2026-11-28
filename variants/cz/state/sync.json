@@ -31713,17 +31713,19 @@
       }
     },
     "902": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33403091",
+          "target_video_id": "31484044",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:40:11.154169+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33403091",
         "display_name": "A Hero (qhrmn) 1080p CZ Dabing",
         "planned_at": "2026-11-28T02:28:32.271994+00:00"
-      },
-      "claim": {
-        "worker_id": "0f0392fffe6f4ed09b854929e165e4c3-shard-0",
-        "claimed_at": "2026-11-28T02:28:33.741137+00:00",
-        "lease_expires_at": "2026-11-28T08:28:33.741137+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31484044",
       "prepared": {
@@ -327789,5 +327791,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:38:31.242122+00:00"
+  "updated_at": "2026-11-28T02:40:11.154185+00:00"
 }
