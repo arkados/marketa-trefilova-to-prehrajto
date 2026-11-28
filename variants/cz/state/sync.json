@@ -306274,17 +306274,19 @@
       }
     },
     "8094": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33323657",
+          "target_video_id": "31481871",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:05:27.436632+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33323657",
         "display_name": "Joe's College Road Trip 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:02:31.854119+00:00"
-      },
-      "claim": {
-        "worker_id": "3f8dfeebee434c9b86b3787a0d83346d-shard-0",
-        "claimed_at": "2026-11-28T00:02:32.677293+00:00",
-        "lease_expires_at": "2026-11-28T06:02:32.677293+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481871",
       "prepared": {
@@ -326664,5 +326666,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:03:10.163683+00:00"
+  "updated_at": "2026-11-28T00:05:27.436652+00:00"
 }
