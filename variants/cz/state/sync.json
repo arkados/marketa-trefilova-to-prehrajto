@@ -308799,17 +308799,19 @@
       }
     },
     "8859": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33078003",
+          "target_video_id": "31487211",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:12:09.559357+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33078003",
         "display_name": "The Price of Money: A Largo Winch Adventure (Largo Winch : Le Prix de l'argent) 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:02:38.201100+00:00"
-      },
-      "claim": {
-        "worker_id": "6a563d7506bb463e8a35eadcf2ab16a5-shard-0",
-        "claimed_at": "2026-11-28T05:02:39.228852+00:00",
-        "lease_expires_at": "2026-11-28T11:02:39.228852+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487211",
       "prepared": {
@@ -328653,5 +328655,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:09:41.889768+00:00"
+  "updated_at": "2026-11-28T05:12:09.559372+00:00"
 }
