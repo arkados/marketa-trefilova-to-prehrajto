@@ -309932,17 +309932,19 @@
       "attempts": []
     },
     "23826": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34704927",
+          "target_video_id": "31489416",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:45:39.580376+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34704927",
         "display_name": "Letters from a Killer SD CZ Dabing",
         "planned_at": "2026-11-28T06:44:05.664651+00:00"
-      },
-      "claim": {
-        "worker_id": "ec9fab410aec4b549f4e60252bb3bab9-shard-0",
-        "claimed_at": "2026-11-28T06:44:06.676146+00:00",
-        "lease_expires_at": "2026-11-28T12:44:06.676146+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31489416",
       "prepared": {
@@ -329493,5 +329495,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:45:02.850579+00:00"
+  "updated_at": "2026-11-28T06:45:39.580392+00:00"
 }
