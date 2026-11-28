@@ -120007,7 +120007,7 @@
       "last_plan": {
         "source_id": "32799273",
         "display_name": "The Life List 1080p CZ Dabing",
-        "planned_at": "2026-11-28T14:40:42.770219+00:00"
+        "planned_at": "2026-11-28T14:40:48.475530+00:00"
       },
       "previous_target_id": "30984959",
       "prepared": {
@@ -312570,11 +312570,23 @@
       "attempts": []
     },
     "35218": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "34965843",
+          "reason": "Source detail has no authenticated download link; source_id=34965843",
+          "permanent": false,
+          "attempted_at": "2026-11-28T14:40:51.938222+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34965843",
         "display_name": "Bastard 1080p CZ Dabing",
-        "planned_at": "2026-11-28T14:40:43.173332+00:00"
+        "planned_at": "2026-11-28T14:40:48.874995+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "34965843",
+        "requested_at": "2026-11-28T14:40:51.938205+00:00"
       }
     },
     "18083": {
@@ -331491,5 +331503,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T14:40:43.173347+00:00"
+  "updated_at": "2026-11-28T14:40:51.938228+00:00"
 }
