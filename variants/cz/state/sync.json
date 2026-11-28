@@ -311066,17 +311066,19 @@
       }
     },
     "28632": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34082107",
+          "target_video_id": "31496281",
+          "permanent": false,
+          "attempted_at": "2026-11-28T10:25:46.561829+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34082107",
         "display_name": "Dreams (2025) 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:14:59.522191+00:00"
-      },
-      "claim": {
-        "worker_id": "bacc59b77c8540969998d85a46174536-shard-0",
-        "claimed_at": "2026-11-28T10:15:00.393056+00:00",
-        "lease_expires_at": "2026-11-28T16:15:00.393056+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31496281",
       "prepared": {
@@ -330387,5 +330389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:23:29.817596+00:00"
+  "updated_at": "2026-11-28T10:25:46.561845+00:00"
 }
