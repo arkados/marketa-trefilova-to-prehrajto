@@ -309342,17 +309342,19 @@
       }
     },
     "23026": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35151176",
+          "target_video_id": "31488224",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:53:50.990035+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35151176",
         "display_name": "The Chilling SD CZ Dabing",
         "planned_at": "2026-11-28T05:50:06.147680+00:00"
-      },
-      "claim": {
-        "worker_id": "a1ac08659c1f452087bbca81e3e926fc-shard-0",
-        "claimed_at": "2026-11-28T05:50:09.693079+00:00",
-        "lease_expires_at": "2026-11-28T11:50:09.693079+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488224",
       "prepared": {
@@ -329053,5 +329055,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:52:45.163505+00:00"
+  "updated_at": "2026-11-28T05:53:50.990050+00:00"
 }
