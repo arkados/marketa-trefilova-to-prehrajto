@@ -306419,17 +306419,19 @@
       "attempts": []
     },
     "7062": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_lookup_failed",
+          "permanent": false,
+          "source_id": "26564932",
+          "reason": "Existing target lookup failed; upload deferred",
+          "attempted_at": "2026-11-28T00:09:38.185217+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26564932",
         "display_name": "Ooops! Noah Is Gone... 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:08:19.275104+00:00"
-      },
-      "claim": {
-        "worker_id": "6790eef63d714501917a62614eaca4fd-shard-0",
-        "claimed_at": "2026-11-28T00:08:22.838890+00:00",
-        "lease_expires_at": "2026-11-28T06:08:22.838890+00:00",
-        "run_id": "46064168266"
       }
     },
     "18749": {
@@ -326757,5 +326759,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:08:38.725701+00:00"
+  "updated_at": "2026-11-28T00:09:38.185238+00:00"
 }
