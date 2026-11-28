@@ -307073,17 +307073,19 @@
       }
     },
     "5952": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12795342",
+          "target_video_id": "31482914",
+          "permanent": false,
+          "attempted_at": "2026-11-28T01:34:41.208683+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12795342",
         "display_name": "Six Underground (6 Underground) 4K CZ Dabing",
         "planned_at": "2026-11-28T01:08:02.262008+00:00"
-      },
-      "claim": {
-        "worker_id": "f5ebce1b95cc4d5d90780547433292d3-shard-0",
-        "claimed_at": "2026-11-28T01:08:03.283125+00:00",
-        "lease_expires_at": "2026-11-28T07:08:03.283125+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31482914",
       "prepared": {
@@ -327387,5 +327389,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T01:32:09.543376+00:00"
+  "updated_at": "2026-11-28T01:34:41.208698+00:00"
 }
