@@ -313501,17 +313501,19 @@
       }
     },
     "6591": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27491534",
+          "target_video_id": "31504726",
+          "permanent": false,
+          "attempted_at": "2026-11-28T17:37:01.755190+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27491534",
         "display_name": "A California Christmas 1080p CZ Dabing",
         "planned_at": "2026-11-28T17:13:07.325189+00:00"
-      },
-      "claim": {
-        "worker_id": "911d3503b51d493a8b979a6b35355fa7-shard-0",
-        "claimed_at": "2026-11-28T17:13:08.004349+00:00",
-        "lease_expires_at": "2026-11-28T23:13:08.004349+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31504726",
       "prepared": {
@@ -332230,5 +332232,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T17:13:32.490663+00:00"
+  "updated_at": "2026-11-28T17:37:01.755204+00:00"
 }
