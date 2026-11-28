@@ -309053,17 +309053,19 @@
       "attempts": []
     },
     "9277": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30853310",
+          "target_video_id": "31487697",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:33:09.094940+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30853310",
         "display_name": "Animal Kingdom: Let's Go Ape (Pourquoi j'ai pas mangé mon père) 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:27:13.989252+00:00"
-      },
-      "claim": {
-        "worker_id": "a809be1ed246467982c916ef22d9a56c-shard-0",
-        "claimed_at": "2026-11-28T05:27:14.884809+00:00",
-        "lease_expires_at": "2026-11-28T11:27:14.884809+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487697",
       "prepared": {
@@ -328833,5 +328835,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:32:18.782466+00:00"
+  "updated_at": "2026-11-28T05:33:09.094956+00:00"
 }
