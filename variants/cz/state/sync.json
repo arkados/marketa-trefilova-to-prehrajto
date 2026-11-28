@@ -309677,17 +309677,19 @@
       "attempts": []
     },
     "6572": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27607379",
+          "target_video_id": "31488961",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:31:52.766931+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27607379",
         "display_name": "French Exit 1080p CZ Dabing",
         "planned_at": "2026-11-28T06:19:49.296572+00:00"
-      },
-      "claim": {
-        "worker_id": "61d82c5523d74013b2d4c4fd7abbe411-shard-0",
-        "claimed_at": "2026-11-28T06:19:50.289884+00:00",
-        "lease_expires_at": "2026-11-28T12:19:50.289884+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488961",
       "prepared": {
@@ -329353,5 +329355,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:30:23.341635+00:00"
+  "updated_at": "2026-11-28T06:31:52.766945+00:00"
 }
