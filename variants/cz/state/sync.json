@@ -308381,17 +308381,19 @@
       "attempts": []
     },
     "28593": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30774373",
+          "target_video_id": "31486329",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:36:14.158620+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30774373",
         "display_name": "Lizzie Borden Took An Ax 720p CZ Dabing",
         "planned_at": "2026-11-28T04:32:38.454047+00:00"
-      },
-      "claim": {
-        "worker_id": "da898475e6674397873eb41ef28bedd3-shard-0",
-        "claimed_at": "2026-11-28T04:32:39.328925+00:00",
-        "lease_expires_at": "2026-11-28T10:32:39.328925+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31486329",
       "prepared": {
@@ -328336,5 +328338,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:35:35.687722+00:00"
+  "updated_at": "2026-11-28T04:36:14.158635+00:00"
 }
