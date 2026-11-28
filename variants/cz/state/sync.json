@@ -308573,17 +308573,19 @@
       "attempts": []
     },
     "6604": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34832748",
+          "target_video_id": "31486838",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:52:37.345379+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34832748",
         "display_name": "The Sun Is Also a Star SD CZ Dabing",
         "planned_at": "2026-11-28T04:50:06.087407+00:00"
-      },
-      "claim": {
-        "worker_id": "5bb0dcf1db454ebd90ea66783396ebf4-shard-0",
-        "claimed_at": "2026-11-28T04:50:07.506018+00:00",
-        "lease_expires_at": "2026-11-28T10:50:07.506018+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31486838",
       "prepared": {
@@ -328416,5 +328418,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:50:12.208432+00:00"
+  "updated_at": "2026-11-28T04:52:37.345396+00:00"
 }
