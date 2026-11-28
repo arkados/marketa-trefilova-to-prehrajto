@@ -307858,17 +307858,19 @@
       "attempts": []
     },
     "27077": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14428138",
+          "target_video_id": "31484477",
+          "permanent": false,
+          "attempted_at": "2026-11-28T03:28:06.306911+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14428138",
         "display_name": "Just Wright 1080p CZ Dabing",
         "planned_at": "2026-11-28T02:55:15.149192+00:00"
-      },
-      "claim": {
-        "worker_id": "cc538828b6124a9c8a2f1a19619f8e38-shard-0",
-        "claimed_at": "2026-11-28T02:55:16.055414+00:00",
-        "lease_expires_at": "2026-11-28T08:55:16.055414+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31484477",
       "prepared": {
@@ -327961,5 +327963,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T03:10:36.151697+00:00"
+  "updated_at": "2026-11-28T03:28:06.306926+00:00"
 }
