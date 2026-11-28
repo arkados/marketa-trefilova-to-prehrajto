@@ -309519,17 +309519,19 @@
       "attempts": []
     },
     "21150": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32608216",
+          "target_video_id": "31488440",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:02:04.605614+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32608216",
         "display_name": "Brainsmasher... A Love Story (Brain Smasher... A Love Story) SD CZ Dabing",
         "planned_at": "2026-11-28T05:58:22.865127+00:00"
-      },
-      "claim": {
-        "worker_id": "82ec9fbb28294ca388ed492df0156b65-shard-0",
-        "claimed_at": "2026-11-28T05:58:23.743463+00:00",
-        "lease_expires_at": "2026-11-28T11:58:23.743463+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488440",
       "prepared": {
@@ -329173,5 +329175,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:59:01.143910+00:00"
+  "updated_at": "2026-11-28T06:02:04.605631+00:00"
 }
