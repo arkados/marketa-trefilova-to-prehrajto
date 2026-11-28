@@ -307748,17 +307748,19 @@
       }
     },
     "5749": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31842603",
+          "target_video_id": "31484290",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:53:27.316401+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31842603",
         "display_name": "Mission: Impossible 2 (Mission: Impossible II) 4K CZ Dabing",
         "planned_at": "2026-11-28T02:42:44.256731+00:00"
-      },
-      "claim": {
-        "worker_id": "017927c487b342a1a77655bae890f37d-shard-0",
-        "claimed_at": "2026-11-28T02:42:45.110823+00:00",
-        "lease_expires_at": "2026-11-28T08:42:45.110823+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31484290",
       "prepared": {
@@ -327844,5 +327846,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:48:10.341657+00:00"
+  "updated_at": "2026-11-28T02:53:27.316418+00:00"
 }
