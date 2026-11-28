@@ -308897,17 +308897,19 @@
       }
     },
     "27468": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27584106",
+          "target_video_id": "31487429",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:27:02.745005+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27584106",
         "display_name": "Peace, Love & Misunderstanding 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:12:19.767878+00:00"
-      },
-      "claim": {
-        "worker_id": "2d1cc26212fc44689089b8fc5d17ab9e-shard-0",
-        "claimed_at": "2026-11-28T05:12:20.620761+00:00",
-        "lease_expires_at": "2026-11-28T11:12:20.620761+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487429",
       "prepared": {
@@ -328773,5 +328775,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:26:39.245135+00:00"
+  "updated_at": "2026-11-28T05:27:02.745022+00:00"
 }
