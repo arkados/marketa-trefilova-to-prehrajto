@@ -754,3 +754,4 @@ Attach subtitles only after target processing has finished.
 | Howl's Moving Castle (Hauru no ugoku shiro) 1080p CZ titulky | 31154500 | https://sdilej.cz/29683410/howl-s-moving-castle-zamek-v-oblacich-cz-dab.-.mkv | Complete: Czech subtitles verified |
 | Aftersun 1080p CZ titulky | 31373134 | https://sdilej.cz/23855881/aftersun-2022-cztit-v-obraze-1080p.mkv | Extract Czech track from exact source after processing |
 | Enemy at the Gates 1080p CZ titulky | 31451600 | https://sdilej.cz/34336525/nepritel-pred-branami-2001-valecne-drama-czdab.bluray.1080p.mkv | Extract Czech track from exact source after processing |
+| How to Steal a Million 1080p CZ titulky | 31484229 | https://sdilej.cz/34156944/jak-ukrast-venusi-1966-1080p-en-pol-cz-dab.mkv | Extract Czech track from exact source after processing |
