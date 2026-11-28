@@ -133302,7 +133302,7 @@
       "last_plan": {
         "source_id": "34694070",
         "display_name": "Séfe, jdeme na to! (Šéfe, jdeme na to!) 1080p CZ Dabing",
-        "planned_at": "2026-11-28T12:56:37.695831+00:00"
+        "planned_at": "2026-11-28T12:56:44.012297+00:00"
       },
       "previous_target_id": "30987219",
       "prepared": {
@@ -312206,17 +312206,19 @@
       "attempts": []
     },
     "27645": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34060631",
+          "target_video_id": "31500237",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:56:49.813131+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34060631",
         "display_name": "Wilson SD CZ Dabing",
         "planned_at": "2026-11-28T12:49:22.562740+00:00"
-      },
-      "claim": {
-        "worker_id": "ab70394a49f04d659571caa18f936ded-shard-0",
-        "claimed_at": "2026-11-28T12:49:23.429574+00:00",
-        "lease_expires_at": "2026-11-28T18:49:23.429574+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31500237",
       "prepared": {
@@ -312231,7 +312233,13 @@
       "last_plan": {
         "source_id": "23140587",
         "display_name": "Little Indian, Big City 1080p CZ Dabing",
-        "planned_at": "2026-11-28T12:56:38.202877+00:00"
+        "planned_at": "2026-11-28T12:56:44.512929+00:00"
+      },
+      "claim": {
+        "worker_id": "48a167136a3e4b1faee44c01334e34c5-shard-0",
+        "claimed_at": "2026-11-28T12:56:45.362581+00:00",
+        "lease_expires_at": "2026-11-28T18:56:45.362581+00:00",
+        "run_id": "46128876408"
       }
     },
     "33040": {
@@ -331214,5 +331222,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:56:38.202892+00:00"
+  "updated_at": "2026-11-28T12:56:49.813145+00:00"
 }
