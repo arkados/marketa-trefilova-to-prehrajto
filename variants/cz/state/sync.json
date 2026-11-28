@@ -309489,17 +309489,19 @@
       "attempts": []
     },
     "8912": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34254991",
+          "target_video_id": "31488427",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:02:51.620259+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34254991",
         "display_name": "Four Kids and It 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:57:40.723314+00:00"
-      },
-      "claim": {
-        "worker_id": "6ab859e1a6784da3bbbf5de617c0fe87-shard-0",
-        "claimed_at": "2026-11-28T05:57:41.628726+00:00",
-        "lease_expires_at": "2026-11-28T11:57:41.628726+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488427",
       "prepared": {
@@ -329193,5 +329195,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:02:20.159701+00:00"
+  "updated_at": "2026-11-28T06:02:51.620276+00:00"
 }
