@@ -311629,17 +311629,19 @@
       "attempts": []
     },
     "11998": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33795570",
+          "target_video_id": "31499187",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:05:35.653941+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33795570",
         "display_name": "The Babe 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:00:21.643400+00:00"
-      },
-      "claim": {
-        "worker_id": "f730c986c56541058d5cc9e12f57f6cb-shard-0",
-        "claimed_at": "2026-11-28T12:00:22.669799+00:00",
-        "lease_expires_at": "2026-11-28T18:00:22.669799+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499187",
       "prepared": {
@@ -330847,5 +330849,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:05:22.482748+00:00"
+  "updated_at": "2026-11-28T12:05:35.653983+00:00"
 }
