@@ -311763,17 +311763,19 @@
       "attempts": []
     },
     "26747": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28300300",
+          "target_video_id": "31499466",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:14:36.412541+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28300300",
         "display_name": "Give 'Em Hell, Malone 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:09:32.197033+00:00"
-      },
-      "claim": {
-        "worker_id": "c9958f3a76084416bc9c791e874405be-shard-0",
-        "claimed_at": "2026-11-28T12:09:33.822154+00:00",
-        "lease_expires_at": "2026-11-28T18:09:33.822154+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499466",
       "prepared": {
@@ -330907,5 +330909,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:10:16.541834+00:00"
+  "updated_at": "2026-11-28T12:14:36.412558+00:00"
 }
