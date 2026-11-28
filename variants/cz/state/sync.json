@@ -311674,17 +311674,19 @@
       }
     },
     "24318": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22155177",
+          "target_video_id": "31499269",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:05:05.384479+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22155177",
         "display_name": "Birthday Girl SD CZ Dabing",
         "planned_at": "2026-11-28T12:02:53.293506+00:00"
-      },
-      "claim": {
-        "worker_id": "bd91d99637bb4cf6b09ba60d7c87bda6-shard-0",
-        "claimed_at": "2026-11-28T12:02:54.185906+00:00",
-        "lease_expires_at": "2026-11-28T18:02:54.185906+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499269",
       "prepared": {
@@ -330827,5 +330829,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:02:59.736225+00:00"
+  "updated_at": "2026-11-28T12:05:05.384496+00:00"
 }
