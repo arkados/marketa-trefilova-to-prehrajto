@@ -308821,17 +308821,19 @@
       "attempts": []
     },
     "28121": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28876162",
+          "target_video_id": "31487216",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:06:02.690416+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28876162",
         "display_name": "The Contractor (2013) SD CZ Dabing",
         "planned_at": "2026-11-28T05:02:52.976483+00:00"
-      },
-      "claim": {
-        "worker_id": "d07823fc5e3c4ae993fa37c6f2a66828-shard-0",
-        "claimed_at": "2026-11-28T05:02:53.830973+00:00",
-        "lease_expires_at": "2026-11-28T11:02:53.830973+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487216",
       "prepared": {
@@ -328613,5 +328615,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:02:58.038339+00:00"
+  "updated_at": "2026-11-28T05:06:02.690432+00:00"
 }
