@@ -313097,17 +313097,19 @@
       }
     },
     "15186": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "14580925",
+          "target_video_id": "31502956",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:17:22.655990+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "14580925",
         "display_name": "The Expatriate (Erased) 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:13:56.640268+00:00"
-      },
-      "claim": {
-        "worker_id": "29528410b16247f6bd379cb4d9e42095-shard-0",
-        "claimed_at": "2026-11-28T16:13:57.397208+00:00",
-        "lease_expires_at": "2026-11-28T22:13:57.397208+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31502956",
       "prepared": {
@@ -331941,5 +331943,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:15:26.477075+00:00"
+  "updated_at": "2026-11-28T16:17:22.656005+00:00"
 }
