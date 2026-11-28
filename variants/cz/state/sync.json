@@ -309596,17 +309596,19 @@
       "attempts": []
     },
     "17837": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34959800",
+          "target_video_id": "31488546",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:23:13.570365+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34959800",
         "display_name": "The Lazarus Project 1080p CZ Dabing",
         "planned_at": "2026-11-28T06:03:01.407024+00:00"
-      },
-      "claim": {
-        "worker_id": "577bc8f54cd44776b45e09bc69850223-shard-0",
-        "claimed_at": "2026-11-28T06:03:02.256751+00:00",
-        "lease_expires_at": "2026-11-28T12:03:02.256751+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488546",
       "prepared": {
@@ -329293,5 +329295,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:23:04.741816+00:00"
+  "updated_at": "2026-11-28T06:23:13.570380+00:00"
 }
