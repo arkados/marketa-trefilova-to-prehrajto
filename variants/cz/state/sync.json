@@ -311711,17 +311711,19 @@
       "attempts": []
     },
     "25138": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34474456",
+          "target_video_id": "31499337",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:09:50.525141+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34474456",
         "display_name": "Direct Action 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:05:16.918555+00:00"
-      },
-      "claim": {
-        "worker_id": "62772d24e1094953ad0c7693c3a157bf-shard-0",
-        "claimed_at": "2026-11-28T12:05:17.849302+00:00",
-        "lease_expires_at": "2026-11-28T18:05:17.849302+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499337",
       "prepared": {
@@ -330887,5 +330889,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:09:38.604014+00:00"
+  "updated_at": "2026-11-28T12:09:50.525157+00:00"
 }
