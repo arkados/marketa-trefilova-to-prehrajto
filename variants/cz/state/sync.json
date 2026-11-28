@@ -311309,17 +311309,19 @@
       }
     },
     "12027": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17383879",
+          "target_video_id": "31497153",
+          "permanent": false,
+          "attempted_at": "2026-11-28T11:00:42.227371+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17383879",
         "display_name": "Medicine Man 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:46:19.909675+00:00"
-      },
-      "claim": {
-        "worker_id": "cc8ea505dd34468989329f120a0d469d-shard-0",
-        "claimed_at": "2026-11-28T10:46:20.783014+00:00",
-        "lease_expires_at": "2026-11-28T16:46:20.783014+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31497153",
       "prepared": {
@@ -330567,5 +330569,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:58:36.136599+00:00"
+  "updated_at": "2026-11-28T11:00:42.227386+00:00"
 }
