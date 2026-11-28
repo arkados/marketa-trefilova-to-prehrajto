@@ -312306,17 +312306,19 @@
       }
     },
     "26546": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "10333679",
+          "target_video_id": "31500486",
+          "permanent": false,
+          "attempted_at": "2026-11-28T13:18:09.578772+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "10333679",
         "display_name": "Polar Opposites SD CZ Dabing",
         "planned_at": "2026-11-28T13:13:43.570280+00:00"
-      },
-      "claim": {
-        "worker_id": "b2d4f48d80af48cdac5de707ec861bd7-shard-0",
-        "claimed_at": "2026-11-28T13:13:47.380717+00:00",
-        "lease_expires_at": "2026-11-28T19:13:47.380717+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31500486",
       "prepared": {
@@ -331344,5 +331346,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T13:18:06.767775+00:00"
+  "updated_at": "2026-11-28T13:18:09.578790+00:00"
 }
