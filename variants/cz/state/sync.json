@@ -310967,17 +310967,19 @@
       }
     },
     "24102": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32945781",
+          "target_video_id": "31495437",
+          "permanent": false,
+          "attempted_at": "2026-11-28T09:56:22.876550+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32945781",
         "display_name": "The Story of Us (1999) 1080p CZ Dabing",
         "planned_at": "2026-11-28T09:48:06.034922+00:00"
-      },
-      "claim": {
-        "worker_id": "569fe441e3bd4f7bbfe618014e7c246e-shard-0",
-        "claimed_at": "2026-11-28T09:48:07.098578+00:00",
-        "lease_expires_at": "2026-11-28T15:48:07.098578+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31495437",
       "prepared": {
@@ -330267,5 +330269,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T09:48:12.160713+00:00"
+  "updated_at": "2026-11-28T09:56:22.876567+00:00"
 }
