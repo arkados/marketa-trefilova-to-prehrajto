@@ -308874,17 +308874,19 @@
       "attempts": []
     },
     "12048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27920653",
+          "target_video_id": "31487376",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:17:42.578055+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27920653",
         "display_name": "Split Second 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:09:35.558023+00:00"
-      },
-      "claim": {
-        "worker_id": "a64c53b5c27d4d54a867aa83869c6cb1-shard-0",
-        "claimed_at": "2026-11-28T05:09:36.459260+00:00",
-        "lease_expires_at": "2026-11-28T11:09:36.459260+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487376",
       "prepared": {
@@ -328693,5 +328695,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:13:46.312908+00:00"
+  "updated_at": "2026-11-28T05:17:42.578072+00:00"
 }
