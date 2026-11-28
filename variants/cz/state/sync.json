@@ -306852,17 +306852,19 @@
       }
     },
     "13891": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29585620",
+          "target_video_id": "31482432",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:47:31.368884+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29585620",
         "display_name": "27 Dresses 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:37:09.485537+00:00"
-      },
-      "claim": {
-        "worker_id": "765b066d373a4f39be06e23e31189cc0-shard-0",
-        "claimed_at": "2026-11-28T00:37:10.981555+00:00",
-        "lease_expires_at": "2026-11-28T06:37:10.981555+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31482432",
       "prepared": {
@@ -327127,5 +327129,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:41:44.300684+00:00"
+  "updated_at": "2026-11-28T00:47:31.368900+00:00"
 }
