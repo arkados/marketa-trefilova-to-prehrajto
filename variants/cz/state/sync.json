@@ -307386,17 +307386,19 @@
       }
     },
     "22257": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25432988",
+          "target_video_id": "31483476",
+          "permanent": false,
+          "attempted_at": "2026-11-28T01:53:45.108635+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25432988",
         "display_name": "The Killer Elite 720p CZ Dabing",
         "planned_at": "2026-11-28T01:49:51.323644+00:00"
-      },
-      "claim": {
-        "worker_id": "97c523f3b7dd40809ec2c21b5f1981e1-shard-0",
-        "claimed_at": "2026-11-28T01:49:52.287658+00:00",
-        "lease_expires_at": "2026-11-28T07:49:52.287658+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483476",
       "prepared": {
@@ -327527,5 +327529,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T01:49:56.919428+00:00"
+  "updated_at": "2026-11-28T01:53:45.108650+00:00"
 }
