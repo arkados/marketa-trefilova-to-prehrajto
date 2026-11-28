@@ -312133,17 +312133,19 @@
       "attempts": []
     },
     "17214": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13054245",
+          "target_video_id": "31500113",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:49:10.682754+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13054245",
         "display_name": "The Wrong Daughter 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:38:59.130155+00:00"
-      },
-      "claim": {
-        "worker_id": "0f66f3e824bc4983b92ce26a3b8f652c-shard-0",
-        "claimed_at": "2026-11-28T12:39:00.011319+00:00",
-        "lease_expires_at": "2026-11-28T18:39:00.011319+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31500113",
       "prepared": {
@@ -331187,5 +331189,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:43:22.200181+00:00"
+  "updated_at": "2026-11-28T12:49:10.682770+00:00"
 }
