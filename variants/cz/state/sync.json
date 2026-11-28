@@ -306372,17 +306372,19 @@
       "attempts": []
     },
     "6128": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28472888",
+          "target_video_id": "31481908",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:08:16.132694+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28472888",
         "display_name": "Wrong Turn (2003) 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:05:57.388851+00:00"
-      },
-      "claim": {
-        "worker_id": "6cc52596ee8f4b089bdef7a3d8880e0c-shard-0",
-        "claimed_at": "2026-11-28T00:05:58.215501+00:00",
-        "lease_expires_at": "2026-11-28T06:05:58.215501+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481908",
       "prepared": {
@@ -326731,5 +326733,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:08:06.694068+00:00"
+  "updated_at": "2026-11-28T00:08:16.132718+00:00"
 }
