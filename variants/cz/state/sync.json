@@ -310919,17 +310919,19 @@
       }
     },
     "16790": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24963820",
+          "target_video_id": "31494892",
+          "permanent": false,
+          "attempted_at": "2026-11-28T10:11:52.451213+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24963820",
         "display_name": "Lizzie 1080p CZ Dabing",
         "planned_at": "2026-11-28T09:27:05.172205+00:00"
-      },
-      "claim": {
-        "worker_id": "92ac0a1b36be4ac49120b0de009cc758-shard-0",
-        "claimed_at": "2026-11-28T09:27:06.020105+00:00",
-        "lease_expires_at": "2026-11-28T15:27:06.020105+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31494892",
       "prepared": {
@@ -330307,5 +330309,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:06:32.634606+00:00"
+  "updated_at": "2026-11-28T10:11:52.451229+00:00"
 }
