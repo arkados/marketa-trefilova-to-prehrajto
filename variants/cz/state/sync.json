@@ -313369,17 +313369,19 @@
       "attempts": []
     },
     "6311": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29298815",
+          "target_video_id": "31503771",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:55:29.245111+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29298815",
         "display_name": "Destination Wedding (2018) SD CZ Dabing",
         "planned_at": "2026-11-28T16:45:34.764681+00:00"
-      },
-      "claim": {
-        "worker_id": "926d7542336c4ee9858733000da7746f-shard-0",
-        "claimed_at": "2026-11-28T16:45:35.447518+00:00",
-        "lease_expires_at": "2026-11-28T22:45:35.447518+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31503771",
       "prepared": {
@@ -332141,5 +332143,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:51:06.738898+00:00"
+  "updated_at": "2026-11-28T16:55:29.245126+00:00"
 }
