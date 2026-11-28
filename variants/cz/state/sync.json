@@ -126673,13 +126673,6 @@
           "source_id": "12859228",
           "target_video_id": "30986203",
           "permanent": false,
-          "attempted_at": "2026-11-22T14:16:38.809780+00:00"
-        },
-        {
-          "status": "target_processing",
-          "source_id": "12859228",
-          "target_video_id": "30986203",
-          "permanent": false,
           "attempted_at": "2026-11-22T20:41:01.186454+00:00"
         },
         {
@@ -126688,12 +126681,19 @@
           "target_video_id": "30986203",
           "permanent": false,
           "attempted_at": "2026-11-22T22:24:14.598815+00:00"
+        },
+        {
+          "status": "target_processing",
+          "source_id": "12859228",
+          "target_video_id": "30986203",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:49:35.492379+00:00"
         }
       ],
       "last_plan": {
         "source_id": "12859228",
         "display_name": "Man in the Wilderness 1080p CZ Dabing",
-        "planned_at": "2026-11-28T04:36:25.504253+00:00"
+        "planned_at": "2026-11-28T04:49:31.362708+00:00"
       },
       "previous_target_id": "30986203",
       "prepared": {
@@ -308516,10 +308516,26 @@
       }
     },
     "15224": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34780320",
+        "display_name": "Flying Swords of Dragon Gate (LongMenFeiJia) 720p CZ Dabing",
+        "planned_at": "2026-11-28T04:49:31.847824+00:00"
+      },
+      "claim": {
+        "worker_id": "c9e53efcbc0947699d8dbe6b6fca8070-shard-0",
+        "claimed_at": "2026-11-28T04:49:33.304682+00:00",
+        "lease_expires_at": "2026-11-28T10:49:33.304682+00:00",
+        "run_id": "46105073712"
+      }
     },
     "32000": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34961653",
+        "display_name": "Collision Course SD CZ Dabing",
+        "planned_at": "2026-11-28T04:49:32.167797+00:00"
+      }
     },
     "26000": {
       "attempts": []
@@ -308537,7 +308553,12 @@
       "attempts": []
     },
     "6604": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34832748",
+        "display_name": "The Sun Is Also a Star SD CZ Dabing",
+        "planned_at": "2026-11-28T04:49:32.490659+00:00"
+      }
     },
     "27425": {
       "attempts": []
@@ -328362,5 +328383,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:48:20.545018+00:00"
+  "updated_at": "2026-11-28T04:49:35.492399+00:00"
 }
