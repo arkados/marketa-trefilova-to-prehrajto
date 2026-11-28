@@ -307413,17 +307413,19 @@
       }
     },
     "5754": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22340385",
+          "target_video_id": "31483517",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:13:49.192757+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22340385",
         "display_name": "Superman Returns 1080p CZ Dabing",
         "planned_at": "2026-11-28T01:54:00.485906+00:00"
-      },
-      "claim": {
-        "worker_id": "0ea5834f86834461bd3f9bf3b4888ca5-shard-0",
-        "claimed_at": "2026-11-28T01:54:01.449302+00:00",
-        "lease_expires_at": "2026-11-28T07:54:01.449302+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483517",
       "prepared": {
@@ -327602,5 +327604,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:08:42.062280+00:00"
+  "updated_at": "2026-11-28T02:13:49.192773+00:00"
 }
