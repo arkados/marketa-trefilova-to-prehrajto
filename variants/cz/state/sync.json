@@ -306440,17 +306440,19 @@
       "attempts": []
     },
     "37497": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35060641",
+          "target_video_id": "31481937",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:13:18.651900+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35060641",
         "display_name": "Lucky Strike 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:08:32.617430+00:00"
-      },
-      "claim": {
-        "worker_id": "78cf0f5a18924b268c1029fb4346a5b4-shard-0",
-        "claimed_at": "2026-11-28T00:08:33.910455+00:00",
-        "lease_expires_at": "2026-11-28T06:08:33.910455+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481937",
       "prepared": {
@@ -326817,5 +326819,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:12:56.202064+00:00"
+  "updated_at": "2026-11-28T00:13:18.651921+00:00"
 }
