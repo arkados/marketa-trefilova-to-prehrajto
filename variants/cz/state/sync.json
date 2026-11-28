@@ -310197,17 +310197,19 @@
       "attempts": []
     },
     "25862": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35355320",
+          "target_video_id": "31490638",
+          "permanent": false,
+          "attempted_at": "2026-11-28T07:16:56.831356+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35355320",
         "display_name": "The Signal (2007) SD CZ Dabing",
         "planned_at": "2026-11-28T07:11:24.279434+00:00"
-      },
-      "claim": {
-        "worker_id": "04d6a0f25a5e43fdb97cc0456f74c732-shard-0",
-        "claimed_at": "2026-11-28T07:11:25.406328+00:00",
-        "lease_expires_at": "2026-11-28T13:11:25.406328+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31490638",
       "prepared": {
@@ -329713,5 +329715,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T07:14:28.557057+00:00"
+  "updated_at": "2026-11-28T07:16:56.831372+00:00"
 }
