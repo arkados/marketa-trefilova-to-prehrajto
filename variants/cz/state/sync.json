@@ -307723,17 +307723,19 @@
       "attempts": []
     },
     "20048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35086183",
+          "target_video_id": "31484255",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:42:32.800786+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35086183",
         "display_name": "Six Bullets (6 Bullets) SD CZ Dabing",
         "planned_at": "2026-11-28T02:40:26.174273+00:00"
-      },
-      "claim": {
-        "worker_id": "719880f382724ae991c4755ff93deba9-shard-0",
-        "claimed_at": "2026-11-28T02:40:26.983526+00:00",
-        "lease_expires_at": "2026-11-28T08:40:26.983526+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31484255",
       "prepared": {
@@ -327804,5 +327806,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:40:31.853681+00:00"
+  "updated_at": "2026-11-28T02:42:32.800803+00:00"
 }
