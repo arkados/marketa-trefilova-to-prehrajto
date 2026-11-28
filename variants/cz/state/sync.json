@@ -307295,17 +307295,19 @@
       }
     },
     "6092": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32994013",
+          "target_video_id": "31483358",
+          "permanent": false,
+          "attempted_at": "2026-11-28T01:49:38.966598+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32994013",
         "display_name": "Sucker Punch 4K CZ Dabing",
         "planned_at": "2026-11-28T01:37:11.337812+00:00"
-      },
-      "claim": {
-        "worker_id": "ff7e39a1bd3143008654e8e824a3c77b-shard-0",
-        "claimed_at": "2026-11-28T01:37:12.292457+00:00",
-        "lease_expires_at": "2026-11-28T07:37:12.292457+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483358",
       "prepared": {
@@ -327507,5 +327509,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T01:49:33.366956+00:00"
+  "updated_at": "2026-11-28T01:49:38.966613+00:00"
 }
