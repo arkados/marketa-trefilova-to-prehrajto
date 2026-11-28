@@ -311450,17 +311450,19 @@
       }
     },
     "6704": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26436020",
+          "target_video_id": "31497804",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:02:40.879783+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26436020",
         "display_name": "Wer 1080p CZ Dabing",
         "planned_at": "2026-11-28T11:12:02.460885+00:00"
-      },
-      "claim": {
-        "worker_id": "dc1005bb31f346bbae7b80dc48df610b-shard-0",
-        "claimed_at": "2026-11-28T11:12:03.324927+00:00",
-        "lease_expires_at": "2026-11-28T17:12:03.324927+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31497804",
       "prepared": {
@@ -330807,5 +330809,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:01:44.695541+00:00"
+  "updated_at": "2026-11-28T12:02:40.879800+00:00"
 }
