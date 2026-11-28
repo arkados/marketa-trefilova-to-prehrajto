@@ -307963,17 +307963,19 @@
       }
     },
     "24323": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27755127",
+          "target_video_id": "31485002",
+          "permanent": false,
+          "attempted_at": "2026-11-28T03:32:22.394985+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27755127",
         "display_name": "Britannic SD CZ Dabing",
         "planned_at": "2026-11-28T03:28:19.917382+00:00"
-      },
-      "claim": {
-        "worker_id": "bb3736074fd0458b9c144170ba028916-shard-0",
-        "claimed_at": "2026-11-28T03:28:20.789847+00:00",
-        "lease_expires_at": "2026-11-28T09:28:20.789847+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31485002",
       "prepared": {
@@ -327981,5 +327983,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T03:28:25.758115+00:00"
+  "updated_at": "2026-11-28T03:32:22.395000+00:00"
 }
