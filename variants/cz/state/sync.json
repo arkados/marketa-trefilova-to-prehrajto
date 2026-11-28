@@ -310308,17 +310308,19 @@
       }
     },
     "6650": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29404827",
+          "target_video_id": "31491399",
+          "permanent": false,
+          "attempted_at": "2026-11-28T07:35:59.621103+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29404827",
         "display_name": "The Debt Collector (2018) 1080p CZ Dabing",
         "planned_at": "2026-11-28T07:28:49.398270+00:00"
-      },
-      "claim": {
-        "worker_id": "77a9f172234f404f9a4242e77d33e940-shard-0",
-        "claimed_at": "2026-11-28T07:28:50.239628+00:00",
-        "lease_expires_at": "2026-11-28T13:28:50.239628+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31491399",
       "prepared": {
@@ -329773,5 +329775,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T07:28:54.594023+00:00"
+  "updated_at": "2026-11-28T07:35:59.621118+00:00"
 }
