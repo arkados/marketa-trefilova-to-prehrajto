@@ -312964,17 +312964,19 @@
       }
     },
     "12418": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33869509",
+          "target_video_id": "31502849",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:11:30.335050+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33869509",
         "display_name": "The Big Hit (1998) 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:09:33.343913+00:00"
-      },
-      "claim": {
-        "worker_id": "04fa0b20a75645f0bb7df482dd98e425-shard-0",
-        "claimed_at": "2026-11-28T16:09:34.104363+00:00",
-        "lease_expires_at": "2026-11-28T22:09:34.104363+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31502849",
       "prepared": {
@@ -331841,5 +331843,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:11:03.628201+00:00"
+  "updated_at": "2026-11-28T16:11:30.335065+00:00"
 }
