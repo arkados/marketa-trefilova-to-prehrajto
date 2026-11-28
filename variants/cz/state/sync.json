@@ -311841,17 +311841,19 @@
       "attempts": []
     },
     "6347": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35180736",
+          "target_video_id": "31499633",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:19:01.883385+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35180736",
         "display_name": "Smurfs: The Lost Village 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:15:08.759336+00:00"
-      },
-      "claim": {
-        "worker_id": "c19c054d120f4a45a23d90fdd96b2de7-shard-0",
-        "claimed_at": "2026-11-28T12:15:09.743406+00:00",
-        "lease_expires_at": "2026-11-28T18:15:09.743406+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499633",
       "prepared": {
@@ -330967,5 +330969,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:16:47.307210+00:00"
+  "updated_at": "2026-11-28T12:19:01.883401+00:00"
 }
