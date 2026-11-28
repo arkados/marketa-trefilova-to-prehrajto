@@ -307365,17 +307365,19 @@
       "attempts": []
     },
     "28995": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13054119",
+          "target_video_id": "31483475",
+          "permanent": false,
+          "attempted_at": "2026-11-28T01:54:25.353740+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13054119",
         "display_name": "Bad Hair Day 1080p CZ Dabing",
         "planned_at": "2026-11-28T01:49:27.827716+00:00"
-      },
-      "claim": {
-        "worker_id": "b115caab7c704b4f9aba8b31f3670145-shard-0",
-        "claimed_at": "2026-11-28T01:49:28.774358+00:00",
-        "lease_expires_at": "2026-11-28T07:49:28.774358+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483475",
       "prepared": {
@@ -327547,5 +327549,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T01:54:12.748085+00:00"
+  "updated_at": "2026-11-28T01:54:25.353755+00:00"
 }
