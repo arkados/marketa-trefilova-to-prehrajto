@@ -310812,17 +310812,19 @@
       "attempts": []
     },
     "6192": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27776423",
+          "target_video_id": "31494322",
+          "permanent": false,
+          "attempted_at": "2026-11-28T09:26:54.675097+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27776423",
         "display_name": "Sick 1080p CZ Dabing",
         "planned_at": "2026-11-28T09:07:29.964655+00:00"
-      },
-      "claim": {
-        "worker_id": "d05239391bf04ab8bd9cdb02814d2ec2-shard-0",
-        "claimed_at": "2026-11-28T09:07:31.165920+00:00",
-        "lease_expires_at": "2026-11-28T15:07:31.165920+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31494322",
       "prepared": {
@@ -330207,5 +330209,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T09:21:50.649619+00:00"
+  "updated_at": "2026-11-28T09:26:54.675118+00:00"
 }
