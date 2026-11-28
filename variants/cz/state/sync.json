@@ -312493,17 +312493,19 @@
       }
     },
     "28346": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34822503",
+          "target_video_id": "31501090",
+          "permanent": false,
+          "attempted_at": "2026-11-28T14:45:56.306719+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34822503",
         "display_name": "Police Story 2013 (JingChaGuShi2013) 1080p CZ Dabing",
         "planned_at": "2026-11-28T14:08:06.787053+00:00"
-      },
-      "claim": {
-        "worker_id": "472d32be91e54175b8d4a0a363987df9-shard-0",
-        "claimed_at": "2026-11-28T14:08:07.467105+00:00",
-        "lease_expires_at": "2026-11-28T20:08:07.467105+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31501090",
       "prepared": {
@@ -331521,5 +331523,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T14:41:06.153285+00:00"
+  "updated_at": "2026-11-28T14:45:56.306737+00:00"
 }
