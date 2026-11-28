@@ -154000,7 +154000,7 @@
       "last_plan": {
         "source_id": "34528254",
         "display_name": "Rumplcimprcampr 1080p CZ Dabing",
-        "planned_at": "2026-11-28T04:53:27.010485+00:00"
+        "planned_at": "2026-11-28T04:53:33.612233+00:00"
       },
       "previous_target_id": "31040631",
       "prepared": {
@@ -308622,11 +308622,23 @@
       }
     },
     "22191": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30167353",
+          "reason": "Source detail has no authenticated download link; source_id=30167353",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:53:37.820336+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30167353",
         "display_name": "Earthquake 1080p CZ Dabing",
-        "planned_at": "2026-11-28T04:53:27.641470+00:00"
+        "planned_at": "2026-11-28T04:53:34.232096+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30167353",
+        "requested_at": "2026-11-28T04:53:37.820321+00:00"
       }
     },
     "33904": {
@@ -328443,5 +328455,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:53:27.641485+00:00"
+  "updated_at": "2026-11-28T04:53:37.820343+00:00"
 }
