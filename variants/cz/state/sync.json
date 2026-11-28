@@ -310333,17 +310333,19 @@
       }
     },
     "6927": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "32988043",
+          "target_video_id": "31491636",
+          "permanent": false,
+          "attempted_at": "2026-11-28T07:47:24.993444+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "32988043",
         "display_name": "Midnight at the Magnolia 1080p CZ Dabing",
         "planned_at": "2026-11-28T07:36:10.697327+00:00"
-      },
-      "claim": {
-        "worker_id": "ebfbb8f3e7ed40fba3c4d2db0809072f-shard-0",
-        "claimed_at": "2026-11-28T07:36:11.535207+00:00",
-        "lease_expires_at": "2026-11-28T13:36:11.535207+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31491636",
       "prepared": {
@@ -329813,5 +329815,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T07:42:16.092582+00:00"
+  "updated_at": "2026-11-28T07:47:24.993460+00:00"
 }
