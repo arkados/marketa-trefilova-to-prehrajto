@@ -311492,17 +311492,19 @@
       }
     },
     "22627": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28349500",
+          "target_video_id": "31498206",
+          "permanent": false,
+          "attempted_at": "2026-11-28T11:33:57.625132+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28349500",
         "display_name": "Forced Vengeance SD CZ Dabing",
         "planned_at": "2026-11-28T11:27:28.604609+00:00"
-      },
-      "claim": {
-        "worker_id": "bca12f0f78a3498c9d4378f2a5355c86-shard-0",
-        "claimed_at": "2026-11-28T11:27:29.499597+00:00",
-        "lease_expires_at": "2026-11-28T17:27:29.499597+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31498206",
       "prepared": {
@@ -330687,5 +330689,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T11:27:34.567916+00:00"
+  "updated_at": "2026-11-28T11:33:57.625149+00:00"
 }
