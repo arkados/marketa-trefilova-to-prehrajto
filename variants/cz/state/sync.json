@@ -309201,17 +309201,19 @@
       "attempts": []
     },
     "6913": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "27789354",
+          "target_video_id": "31487912",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:43:13.555162+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "27789354",
         "display_name": "A Week Away 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:37:44.014647+00:00"
-      },
-      "claim": {
-        "worker_id": "9940539a992f472dbda5658143bec1ec-shard-0",
-        "claimed_at": "2026-11-28T05:37:45.203847+00:00",
-        "lease_expires_at": "2026-11-28T11:37:45.203847+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487912",
       "prepared": {
@@ -328933,5 +328935,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:41:39.468416+00:00"
+  "updated_at": "2026-11-28T05:43:13.555177+00:00"
 }
