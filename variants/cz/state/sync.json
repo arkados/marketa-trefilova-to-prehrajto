@@ -310220,17 +310220,19 @@
       }
     },
     "23185": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767375",
+          "target_video_id": "31490653",
+          "permanent": false,
+          "attempted_at": "2026-11-28T07:25:08.449689+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767375",
         "display_name": "Once Upon a Crime (1992) 1080p CZ Dabing",
         "planned_at": "2026-11-28T07:11:38.248782+00:00"
-      },
-      "claim": {
-        "worker_id": "38b6f118620b4d35bbe800ad20036968-shard-0",
-        "claimed_at": "2026-11-28T07:11:39.238280+00:00",
-        "lease_expires_at": "2026-11-28T13:11:39.238280+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31490653",
       "prepared": {
@@ -329733,5 +329735,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T07:17:17.196733+00:00"
+  "updated_at": "2026-11-28T07:25:08.449711+00:00"
 }
