@@ -313478,17 +313478,19 @@
       "attempts": []
     },
     "11728": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34357802",
+          "target_video_id": "31504379",
+          "permanent": false,
+          "attempted_at": "2026-11-28T17:13:29.579515+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34357802",
         "display_name": "Above the Law (1988) 1080p CZ Dabing",
         "planned_at": "2026-11-28T17:02:59.677859+00:00"
-      },
-      "claim": {
-        "worker_id": "503a50b8be0a4fa29d5e52f448e3030d-shard-0",
-        "claimed_at": "2026-11-28T17:03:00.357058+00:00",
-        "lease_expires_at": "2026-11-28T23:03:00.357058+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31504379",
       "prepared": {
@@ -332228,5 +332230,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T17:13:24.810533+00:00"
+  "updated_at": "2026-11-28T17:13:29.579532+00:00"
 }
