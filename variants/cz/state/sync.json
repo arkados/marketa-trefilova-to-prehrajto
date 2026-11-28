@@ -310243,17 +310243,19 @@
       }
     },
     "11902": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34399975",
+          "target_video_id": "31490787",
+          "permanent": false,
+          "attempted_at": "2026-11-28T07:28:37.645234+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34399975",
         "display_name": "Maniac Cop 2 4K CZ Dabing",
         "planned_at": "2026-11-28T07:14:23.013750+00:00"
-      },
-      "claim": {
-        "worker_id": "fe863cabcb554ef3b12536f64ac71ce0-shard-0",
-        "claimed_at": "2026-11-28T07:14:23.864165+00:00",
-        "lease_expires_at": "2026-11-28T13:14:23.864165+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31490787",
       "prepared": {
@@ -329753,5 +329755,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T07:25:25.274091+00:00"
+  "updated_at": "2026-11-28T07:28:37.645251+00:00"
 }
