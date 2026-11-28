@@ -108277,7 +108277,7 @@
       "last_plan": {
         "source_id": "30853807",
         "display_name": "U nás v Kocourkově 1080p CZ Dabing",
-        "planned_at": "2026-11-28T00:13:21.968124+00:00"
+        "planned_at": "2026-11-28T00:13:29.295942+00:00"
       },
       "previous_target_id": "30983476",
       "prepared": {
@@ -306513,17 +306513,19 @@
       }
     },
     "34921": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "8598773",
+          "target_video_id": "31481982",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:14:14.383563+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "8598773",
         "display_name": "End of the Line SD CZ Dabing",
         "planned_at": "2026-11-28T00:12:51.618254+00:00"
-      },
-      "claim": {
-        "worker_id": "0189962ab6a84528845dad7c99790828-shard-0",
-        "claimed_at": "2026-11-28T00:12:52.462205+00:00",
-        "lease_expires_at": "2026-11-28T06:12:52.462205+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481982",
       "prepared": {
@@ -306541,7 +306543,13 @@
       "last_plan": {
         "source_id": "20625059",
         "display_name": "S.W.A.T. 1080p CZ Dabing",
-        "planned_at": "2026-11-28T00:13:22.460977+00:00"
+        "planned_at": "2026-11-28T00:13:29.825013+00:00"
+      },
+      "claim": {
+        "worker_id": "c34512486d01409a9dc756e9f1d519cb-shard-0",
+        "claimed_at": "2026-11-28T00:13:30.663676+00:00",
+        "lease_expires_at": "2026-11-28T06:13:30.663676+00:00",
+        "run_id": "46064168266"
       }
     },
     "18133": {
@@ -326824,5 +326832,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:13:22.460997+00:00"
+  "updated_at": "2026-11-28T00:14:14.383583+00:00"
 }
