@@ -310067,17 +310067,19 @@
       "attempts": []
     },
     "12069": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30603884",
+          "target_video_id": "31489921",
+          "permanent": false,
+          "attempted_at": "2026-11-28T07:02:21.669690+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30603884",
         "display_name": "The Dark Half SD CZ Dabing",
         "planned_at": "2026-11-28T06:57:04.581356+00:00"
-      },
-      "claim": {
-        "worker_id": "fafca1f3dbd74817b197ccb37eb0e21d-shard-0",
-        "claimed_at": "2026-11-28T06:57:05.403741+00:00",
-        "lease_expires_at": "2026-11-28T12:57:05.403741+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31489921",
       "prepared": {
@@ -329613,5 +329615,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:58:55.181153+00:00"
+  "updated_at": "2026-11-28T07:02:21.669715+00:00"
 }
