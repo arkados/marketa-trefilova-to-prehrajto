@@ -313220,17 +313220,19 @@
       "attempts": []
     },
     "7371": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "25841429",
+          "target_video_id": "31503196",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:25:43.596476+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "25841429",
         "display_name": "The Eye 2 (JianGui2) SD CZ Dabing",
         "planned_at": "2026-11-28T16:24:43.175479+00:00"
-      },
-      "claim": {
-        "worker_id": "a41ccedb3130419ca4cc5c1d30546cfa-shard-0",
-        "claimed_at": "2026-11-28T16:24:43.856854+00:00",
-        "lease_expires_at": "2026-11-28T22:24:43.856854+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31503196",
       "prepared": {
@@ -332001,5 +332003,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:24:47.606756+00:00"
+  "updated_at": "2026-11-28T16:25:43.596495+00:00"
 }
