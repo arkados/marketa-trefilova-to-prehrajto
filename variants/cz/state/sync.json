@@ -313845,17 +313845,19 @@
       "attempts": []
     },
     "13324": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28754862",
+          "target_video_id": "31508187",
+          "permanent": false,
+          "attempted_at": "2026-11-28T19:11:01.414689+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28754862",
         "display_name": "Raising Helen 720p CZ Dabing",
         "planned_at": "2026-11-28T18:54:38.187653+00:00"
-      },
-      "claim": {
-        "worker_id": "ee2a2b8d37104706898556d9aa36765c-shard-0",
-        "claimed_at": "2026-11-28T18:54:38.663056+00:00",
-        "lease_expires_at": "2026-11-29T00:54:38.663056+00:00",
-        "run_id": "46171783214"
       },
       "previous_target_id": "31508187",
       "prepared": {
@@ -332521,5 +332523,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T19:06:26.173297+00:00"
+  "updated_at": "2026-11-28T19:11:01.414707+00:00"
 }
