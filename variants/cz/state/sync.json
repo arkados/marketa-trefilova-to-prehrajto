@@ -311355,17 +311355,19 @@
       }
     },
     "30048": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30177609",
+          "target_video_id": "31497445",
+          "permanent": false,
+          "attempted_at": "2026-11-28T11:09:59.357430+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30177609",
         "display_name": "The Darwin Awards 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:58:29.512191+00:00"
-      },
-      "claim": {
-        "worker_id": "0e60c7c8a3c34876901f8caa135263b6-shard-0",
-        "claimed_at": "2026-11-28T10:58:30.370704+00:00",
-        "lease_expires_at": "2026-11-28T16:58:30.370704+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31497445",
       "prepared": {
@@ -330607,5 +330609,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T11:08:08.395260+00:00"
+  "updated_at": "2026-11-28T11:09:59.357446+00:00"
 }
