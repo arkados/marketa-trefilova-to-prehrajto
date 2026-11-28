@@ -154000,7 +154000,7 @@
       "last_plan": {
         "source_id": "34528254",
         "display_name": "Rumplcimprcampr 1080p CZ Dabing",
-        "planned_at": "2026-11-28T05:43:21.674347+00:00"
+        "planned_at": "2026-11-28T05:43:26.375360+00:00"
       },
       "previous_target_id": "31040631",
       "prepared": {
@@ -309250,17 +309250,19 @@
       }
     },
     "34322": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "24954979",
+          "target_video_id": "31487996",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:43:27.948079+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "24954979",
         "display_name": "She's the One (1996) SD CZ Dabing",
         "planned_at": "2026-11-28T05:41:33.887478+00:00"
-      },
-      "claim": {
-        "worker_id": "0bd2d3344ebd4bdca4f811e91477d9e8-shard-0",
-        "claimed_at": "2026-11-28T05:41:34.861631+00:00",
-        "lease_expires_at": "2026-11-28T11:41:34.861631+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487996",
       "prepared": {
@@ -309276,10 +309278,21 @@
         "source_id": "34751674",
         "display_name": "Alaska 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:43:22.332006+00:00"
+      },
+      "claim": {
+        "worker_id": "86f41feeaed24bd9bbfcaeba0a4f7efc-shard-0",
+        "claimed_at": "2026-11-28T05:43:25.967281+00:00",
+        "lease_expires_at": "2026-11-28T11:43:25.967281+00:00",
+        "run_id": "46105073712"
       }
     },
     "16142": {
-      "attempts": []
+      "attempts": [],
+      "last_plan": {
+        "source_id": "34694567",
+        "display_name": "Love Forever (Kärlek fårever) 1080p CZ Dabing",
+        "planned_at": "2026-11-28T05:43:26.876483+00:00"
+      }
     },
     "32456": {
       "attempts": []
@@ -328942,5 +328955,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:43:22.332023+00:00"
+  "updated_at": "2026-11-28T05:43:27.948095+00:00"
 }
