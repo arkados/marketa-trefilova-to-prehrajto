@@ -307905,17 +307905,19 @@
       "attempts": []
     },
     "28562": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34096059",
+          "target_video_id": "31484602",
+          "permanent": false,
+          "attempted_at": "2026-11-28T03:10:19.770709+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34096059",
         "display_name": "From the Ashes 1080p CZ Dabing",
         "planned_at": "2026-11-28T03:04:08.231810+00:00"
-      },
-      "claim": {
-        "worker_id": "4c699e6a2020477bb5c96a7e46515584-shard-0",
-        "claimed_at": "2026-11-28T03:04:09.105264+00:00",
-        "lease_expires_at": "2026-11-28T09:04:09.105264+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31484602",
       "prepared": {
@@ -327941,5 +327943,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T03:04:13.626165+00:00"
+  "updated_at": "2026-11-28T03:10:19.770724+00:00"
 }
