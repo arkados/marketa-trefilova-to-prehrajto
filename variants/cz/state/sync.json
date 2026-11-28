@@ -306465,17 +306465,19 @@
       "attempts": []
     },
     "5985": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "19084954",
+          "target_video_id": "31481949",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:12:25.616080+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "19084954",
         "display_name": "Magic Mike 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:09:49.174702+00:00"
-      },
-      "claim": {
-        "worker_id": "0fcad6b49bb44e2fb9cf9e038a53e19f-shard-0",
-        "claimed_at": "2026-11-28T00:09:49.987757+00:00",
-        "lease_expires_at": "2026-11-28T06:09:49.987757+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481949",
       "prepared": {
@@ -326777,5 +326779,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:09:53.650314+00:00"
+  "updated_at": "2026-11-28T00:12:25.616100+00:00"
 }
