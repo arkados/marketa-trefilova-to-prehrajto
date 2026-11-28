@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-28T02:39:19.895679+00:00
+Poslední aktualizace (UTC): 2026-11-28T02:39:22.320838+00:00
 
 Zkontrolováno videí: 775. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 567, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `pending`: 1, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 130, `upload_unconfirmed`: 8
+Stavy: `already_has_czech`: 567, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 131, `upload_unconfirmed`: 8
 
 ## Poslední dávka
 
@@ -106,6 +106,7 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
 | [Green Book 1080p](https://prehraj.to/green-book-mp4/2e88bec948b595b6) (ID 30609217) | [Sdílej 31912774](https://sdilej.cz/31912774/green.book.2018.1080p.bluray.h264.aac-rarbg.mp4) | target_unavailable | 2026-11-18T12:50:52.390277+00:00 |
 | [How I Became a Gangster (Jak zostalem gangsterem. Historia prawdziwa) 1080p CZ Titulky](https://prehraj.to/how-i-became-a-gangster-jak-zostalem-gangsterem-historia-prawdziwa-1080p-cz-titulky-mkv/eac6b5d7ef9dc2b1) (ID 31021388) | [Sdílej 24575270](https://sdilej.cz/24575270/jak-jsem-se-stal-gangsterem-webrip-pl-en-tit-cz.mkv) | target_unavailable | 2026-11-13T23:28:50.890647+00:00 |
+| [How to Steal a Million 1080p CZ titulky](https://prehraj.to/how-to-steal-a-million-1080p-cz-titulky-mkv/e33b7a73c3c6577d) (ID 31484229) | [Sdílej 34156944](https://sdilej.cz/34156944/jak-ukrast-venusi-1966-1080p-en-pol-cz-dab.mkv) | target_unavailable | 2026-11-28T02:39:22.127674+00:00 |
 | [I Am Bolt SD CZ titulky](https://prehraj.to/i-am-bolt-sd-cz-titulky-mkv/150f3b94081bd3d1) (ID 30984744) | [Sdílej 7004752](https://sdilej.cz/7004752/i-am-bolt-2016-titulky.cz.mkv) | target_unavailable | 2026-11-18T13:01:19.681212+00:00 |
 | [I See You 1080p CZ titulky](https://prehraj.to/i-see-you-1080p-cz-titulky-mkv/19ae6e9751c99ab1) (ID 31093833) | [Sdílej 33237368](https://sdilej.cz/33237368/i.see.you.2019.1080p.bluray.dl.ac3.x264-majo.mkv) | target_unavailable | 2026-11-16T16:05:01.673159+00:00 |
 | [Icahn: The Restless Billionaire 1080p CZ Titulky](https://prehraj.to/icahn-the-restless-billionaire-1080p-cz-titulky-mkv/cc800dc5fe12cc55) (ID 31024287) | [Sdílej 32831706](https://sdilej.cz/32831706/icahn.the.restless.billionaire.2022.1080p.web.h264-cz-tit.mkv) | target_unavailable | 2026-11-14T05:40:52.471648+00:00 |
