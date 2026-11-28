@@ -126693,7 +126693,7 @@
       "last_plan": {
         "source_id": "12859228",
         "display_name": "Man in the Wilderness 1080p CZ Dabing",
-        "planned_at": "2026-11-28T04:35:07.987286+00:00"
+        "planned_at": "2026-11-28T04:35:14.589806+00:00"
       },
       "previous_target_id": "30986203",
       "prepared": {
@@ -308431,11 +308431,23 @@
       "attempts": []
     },
     "8636": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "source_refresh_failed",
+          "source_id": "30812558",
+          "reason": "Source detail has no authenticated download link; source_id=30812558",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:35:18.472654+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30812558",
         "display_name": "Little Siberia (Pikku Siperia) 1080p CZ Dabing",
-        "planned_at": "2026-11-28T04:35:08.534255+00:00"
+        "planned_at": "2026-11-28T04:35:15.118355+00:00"
+      },
+      "source_repair_requested": {
+        "source_id": "30812558",
+        "requested_at": "2026-11-28T04:35:18.472640+00:00"
       }
     },
     "20435": {
@@ -328306,5 +328318,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:35:08.534269+00:00"
+  "updated_at": "2026-11-28T04:35:18.472659+00:00"
 }
