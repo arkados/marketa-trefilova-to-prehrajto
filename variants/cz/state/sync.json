@@ -313967,17 +313967,19 @@
       }
     },
     "6275": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34517307",
+          "target_video_id": "31510345",
+          "permanent": false,
+          "attempted_at": "2026-11-28T20:07:32.573613+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34517307",
         "display_name": "The Christmas Chronicles 2 (The Christmas Chronicles: Part Two) 1080p CZ Dabing",
         "planned_at": "2026-11-28T19:55:29.986127+00:00"
-      },
-      "claim": {
-        "worker_id": "d283816da1a4411288ba2e88bc429fb5-shard-0",
-        "claimed_at": "2026-11-28T19:55:30.497296+00:00",
-        "lease_expires_at": "2026-11-29T01:55:30.497296+00:00",
-        "run_id": "46171783214"
       },
       "previous_target_id": "31510345",
       "prepared": {
@@ -332601,5 +332603,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T19:55:34.973750+00:00"
+  "updated_at": "2026-11-28T20:07:32.573630+00:00"
 }
