@@ -310601,17 +310601,19 @@
       "attempts": []
     },
     "16434": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30650159",
+          "target_video_id": "31493161",
+          "permanent": false,
+          "attempted_at": "2026-11-28T08:40:33.012935+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30650159",
         "display_name": "Honeymoon Crasher (Lune de miel avec ma mère) 1080p CZ Dabing",
         "planned_at": "2026-11-28T08:23:45.692225+00:00"
-      },
-      "claim": {
-        "worker_id": "abb288b4ea8e4b8796e2ff038d6173da-shard-0",
-        "claimed_at": "2026-11-28T08:23:46.587744+00:00",
-        "lease_expires_at": "2026-11-28T14:23:46.587744+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31493161",
       "prepared": {
@@ -330030,5 +330032,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T08:36:52.197799+00:00"
+  "updated_at": "2026-11-28T08:40:33.012950+00:00"
 }
