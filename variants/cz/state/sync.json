@@ -307457,17 +307457,19 @@
       "previous_target_id": "31483524"
     },
     "6104": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34042418",
+          "target_video_id": "31483629",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:17:25.565535+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34042418",
         "display_name": "Van Helsing 4K CZ Dabing",
         "planned_at": "2026-11-28T02:05:27.000803+00:00"
-      },
-      "claim": {
-        "worker_id": "9f4816cd5d954bc0be24f42a9058a30c-shard-0",
-        "claimed_at": "2026-11-28T02:05:27.846499+00:00",
-        "lease_expires_at": "2026-11-28T08:05:27.846499+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483629",
       "prepared": {
@@ -327622,5 +327624,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:14:10.511795+00:00"
+  "updated_at": "2026-11-28T02:17:25.565550+00:00"
 }
