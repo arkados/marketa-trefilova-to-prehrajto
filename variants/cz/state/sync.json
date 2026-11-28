@@ -313162,17 +313162,19 @@
       }
     },
     "9335": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26999180",
+          "target_video_id": "31503031",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:23:19.010533+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26999180",
         "display_name": "Freestyle 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:17:31.345123+00:00"
-      },
-      "claim": {
-        "worker_id": "947f06623727483296cb7b1554f34af2-shard-0",
-        "claimed_at": "2026-11-28T16:17:32.015972+00:00",
-        "lease_expires_at": "2026-11-28T22:17:32.015972+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31503031",
       "prepared": {
@@ -331961,5 +331963,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:17:35.681487+00:00"
+  "updated_at": "2026-11-28T16:23:19.010548+00:00"
 }
