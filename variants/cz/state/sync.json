@@ -312084,17 +312084,19 @@
       "attempts": []
     },
     "21123": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33788509",
+          "target_video_id": "31499984",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:42:04.804492+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33788509",
         "display_name": "Memoirs of an Invisible Man 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:30:39.266554+00:00"
-      },
-      "claim": {
-        "worker_id": "112616d534784ceb847e716d76f2e61d-shard-0",
-        "claimed_at": "2026-11-28T12:30:43.298458+00:00",
-        "lease_expires_at": "2026-11-28T18:30:43.298458+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499984",
       "prepared": {
@@ -331147,5 +331149,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:39:05.047093+00:00"
+  "updated_at": "2026-11-28T12:42:04.804508+00:00"
 }
