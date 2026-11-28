@@ -313694,17 +313694,19 @@
       }
     },
     "11199": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28783931",
+          "target_video_id": "31506927",
+          "permanent": false,
+          "attempted_at": "2026-11-28T18:35:45.025856+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28783931",
         "display_name": "King Kong (1976) 1080p CZ Dabing",
         "planned_at": "2026-11-28T18:13:14.791247+00:00"
-      },
-      "claim": {
-        "worker_id": "eb6adebcc8004bb8adc58ef4ee64ff7a-shard-0",
-        "claimed_at": "2026-11-28T18:13:16.815256+00:00",
-        "lease_expires_at": "2026-11-29T00:13:16.815256+00:00",
-        "run_id": "46171783214"
       },
       "previous_target_id": "31506927",
       "prepared": {
@@ -332421,5 +332423,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T18:17:27.459521+00:00"
+  "updated_at": "2026-11-28T18:35:45.025875+00:00"
 }
