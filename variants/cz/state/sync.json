@@ -307270,17 +307270,19 @@
       }
     },
     "6126": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "22032094",
+          "target_video_id": "31483337",
+          "permanent": false,
+          "attempted_at": "2026-11-28T01:39:04.948871+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "22032094",
         "display_name": "I Am Number Four 1080p CZ Dabing",
         "planned_at": "2026-11-28T01:35:15.695013+00:00"
-      },
-      "claim": {
-        "worker_id": "869b5a000e8c4ee69fb8380cc6900843-shard-0",
-        "claimed_at": "2026-11-28T01:35:16.612405+00:00",
-        "lease_expires_at": "2026-11-28T07:35:16.612405+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483337",
       "prepared": {
@@ -327447,5 +327449,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T01:37:16.915159+00:00"
+  "updated_at": "2026-11-28T01:39:04.948887+00:00"
 }
