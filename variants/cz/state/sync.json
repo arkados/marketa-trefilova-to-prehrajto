@@ -308976,17 +308976,19 @@
       "attempts": []
     },
     "6335": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33770416",
+          "target_video_id": "31487590",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:26:14.775043+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33770416",
         "display_name": "How to Be a Latin Lover 1080p CZ Dabing",
         "planned_at": "2026-11-28T05:20:12.845313+00:00"
-      },
-      "claim": {
-        "worker_id": "697ac31af4954a229f924394c1ad2201-shard-0",
-        "claimed_at": "2026-11-28T05:20:14.376027+00:00",
-        "lease_expires_at": "2026-11-28T11:20:14.376027+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31487590",
       "prepared": {
@@ -328753,5 +328755,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:25:33.298279+00:00"
+  "updated_at": "2026-11-28T05:26:14.775057+00:00"
 }
