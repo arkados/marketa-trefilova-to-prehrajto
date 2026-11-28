@@ -311188,17 +311188,19 @@
       }
     },
     "13829": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34781514",
+          "target_video_id": "31496648",
+          "permanent": false,
+          "attempted_at": "2026-11-28T10:37:19.307909+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34781514",
         "display_name": "Termination Point 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:28:33.364352+00:00"
-      },
-      "claim": {
-        "worker_id": "072692f2c2214068b1ecf9ba5580f789-shard-0",
-        "claimed_at": "2026-11-28T10:28:34.770806+00:00",
-        "lease_expires_at": "2026-11-28T16:28:34.770806+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31496648",
       "prepared": {
@@ -330467,5 +330469,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:34:02.162768+00:00"
+  "updated_at": "2026-11-28T10:37:19.307924+00:00"
 }
