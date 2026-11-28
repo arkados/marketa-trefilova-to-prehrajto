@@ -312107,17 +312107,19 @@
       }
     },
     "27011": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31729231",
+          "target_video_id": "31499989",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:43:04.598585+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31729231",
         "display_name": "Den Brother 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:30:54.941710+00:00"
-      },
-      "claim": {
-        "worker_id": "c5b309ff68f94a53a15d83d36331ed8e-shard-0",
-        "claimed_at": "2026-11-28T12:30:55.823404+00:00",
-        "lease_expires_at": "2026-11-28T18:30:55.823404+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499989",
       "prepared": {
@@ -331167,5 +331169,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:42:24.710218+00:00"
+  "updated_at": "2026-11-28T12:43:04.598600+00:00"
 }
