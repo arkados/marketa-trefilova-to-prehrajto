@@ -308699,17 +308699,19 @@
       "attempts": []
     },
     "30027": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11107952",
+          "target_video_id": "31486980",
+          "permanent": false,
+          "attempted_at": "2026-11-28T04:59:02.428153+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11107952",
         "display_name": "De l'autre côté du lit (Changing Sides) 1080p CZ Dabing",
         "planned_at": "2026-11-28T04:55:13.994994+00:00"
-      },
-      "claim": {
-        "worker_id": "1c1a74c094cc451986ca667e1d955ba4-shard-0",
-        "claimed_at": "2026-11-28T04:55:14.864790+00:00",
-        "lease_expires_at": "2026-11-28T10:55:14.864790+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31486980",
       "prepared": {
@@ -328553,5 +328555,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T04:58:40.918495+00:00"
+  "updated_at": "2026-11-28T04:59:02.428170+00:00"
 }
