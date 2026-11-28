@@ -312179,17 +312179,19 @@
       }
     },
     "12802": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "28059934",
+          "target_video_id": "31500168",
+          "permanent": false,
+          "attempted_at": "2026-11-28T13:08:48.228378+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "28059934",
         "display_name": "The Caveman's Valentine 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:43:16.651219+00:00"
-      },
-      "claim": {
-        "worker_id": "01a45d47ffec431ba782593ee3b4f1f3-shard-0",
-        "claimed_at": "2026-11-28T12:43:17.493705+00:00",
-        "lease_expires_at": "2026-11-28T18:43:17.493705+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31500168",
       "prepared": {
@@ -331249,5 +331251,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T13:08:45.235598+00:00"
+  "updated_at": "2026-11-28T13:08:48.228395+00:00"
 }
