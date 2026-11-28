@@ -311332,17 +311332,19 @@
       }
     },
     "6905": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34663902",
+          "target_video_id": "31497241",
+          "permanent": false,
+          "attempted_at": "2026-11-28T11:07:48.233224+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34663902",
         "display_name": "How I Became a Super Hero (Comment je suis devenu super-héros) 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:50:08.357949+00:00"
-      },
-      "claim": {
-        "worker_id": "3f1b9013515b4af3bc55700f3bd74fd6-shard-0",
-        "claimed_at": "2026-11-28T10:50:09.199160+00:00",
-        "lease_expires_at": "2026-11-28T16:50:09.199160+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31497241",
       "prepared": {
@@ -330587,5 +330589,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T11:01:00.158117+00:00"
+  "updated_at": "2026-11-28T11:07:48.233242+00:00"
 }
