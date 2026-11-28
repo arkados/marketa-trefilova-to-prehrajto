@@ -312468,17 +312468,19 @@
       }
     },
     "22166": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34850127",
+          "target_video_id": "31500974",
+          "permanent": false,
+          "attempted_at": "2026-11-28T14:23:01.350342+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34850127",
         "display_name": "Scream Bloody Murder SD CZ Dabing",
         "planned_at": "2026-11-28T13:55:41.826972+00:00"
-      },
-      "claim": {
-        "worker_id": "06802a668a294691bfbf38c375329d02-shard-0",
-        "claimed_at": "2026-11-28T13:55:42.485255+00:00",
-        "lease_expires_at": "2026-11-28T19:55:42.485255+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31500974",
       "prepared": {
@@ -331444,5 +331446,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T14:08:11.256716+00:00"
+  "updated_at": "2026-11-28T14:23:01.350357+00:00"
 }
