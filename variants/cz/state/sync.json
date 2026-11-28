@@ -312889,17 +312889,19 @@
       }
     },
     "17263": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12937745",
+          "target_video_id": "31502760",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:10:48.762565+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12937745",
         "display_name": "The Wedding Guest 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:06:58.390883+00:00"
-      },
-      "claim": {
-        "worker_id": "b3da00302d0e480fb4bd205f01117552-shard-0",
-        "claimed_at": "2026-11-28T16:06:59.681476+00:00",
-        "lease_expires_at": "2026-11-28T22:06:59.681476+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31502760",
       "prepared": {
@@ -331821,5 +331823,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:10:08.048207+00:00"
+  "updated_at": "2026-11-28T16:10:48.762580+00:00"
 }
