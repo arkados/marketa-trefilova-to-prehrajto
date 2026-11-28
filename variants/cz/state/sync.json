@@ -307014,17 +307014,19 @@
       }
     },
     "6101": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34299058",
+          "target_video_id": "31482675",
+          "permanent": false,
+          "attempted_at": "2026-11-28T01:06:37.147836+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34299058",
         "display_name": "The Expendables 3 4K CZ Dabing",
         "planned_at": "2026-11-28T00:56:17.086089+00:00"
-      },
-      "claim": {
-        "worker_id": "d7be0c3895404f22b34b09b80ed26caa-shard-0",
-        "claimed_at": "2026-11-28T00:56:18.018216+00:00",
-        "lease_expires_at": "2026-11-28T06:56:18.018216+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31482675",
       "prepared": {
@@ -327227,5 +327229,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:56:22.744671+00:00"
+  "updated_at": "2026-11-28T01:06:37.147853+00:00"
 }
