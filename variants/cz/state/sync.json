@@ -309544,17 +309544,19 @@
       }
     },
     "6188": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "29001957",
+          "target_video_id": "31488454",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:22:47.783945+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "29001957",
         "display_name": "Trolls Band Together 4K CZ Dabing",
         "planned_at": "2026-11-28T05:58:55.550944+00:00"
-      },
-      "claim": {
-        "worker_id": "a8954066a2914f2095e26ebe4a1cb4d9-shard-0",
-        "claimed_at": "2026-11-28T05:58:56.554623+00:00",
-        "lease_expires_at": "2026-11-28T11:58:56.554623+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488454",
       "prepared": {
@@ -329273,5 +329275,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:19:55.344287+00:00"
+  "updated_at": "2026-11-28T06:22:47.783960+00:00"
 }
