@@ -306710,17 +306710,19 @@
       }
     },
     "5878": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "31794492",
+          "target_video_id": "31482191",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:32:32.649551+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31794492",
         "display_name": "The Lost City (2022) 4K CZ Dabing",
         "planned_at": "2026-11-28T00:23:00.966792+00:00"
-      },
-      "claim": {
-        "worker_id": "022c1aba14ea40d8961d84d32c7dfdd5-shard-0",
-        "claimed_at": "2026-11-28T00:23:01.828690+00:00",
-        "lease_expires_at": "2026-11-28T06:23:01.828690+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31482191",
       "prepared": {
@@ -327047,5 +327049,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:31:25.012636+00:00"
+  "updated_at": "2026-11-28T00:32:32.649573+00:00"
 }
