@@ -313270,17 +313270,19 @@
       }
     },
     "12405": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34958998",
+          "target_video_id": "31503251",
+          "permanent": false,
+          "attempted_at": "2026-11-28T16:45:25.033584+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34958998",
         "display_name": "The Swan Princess: Escape from Castle Mountain 720p CZ Dabing",
         "planned_at": "2026-11-28T16:26:29.505573+00:00"
-      },
-      "claim": {
-        "worker_id": "d14441c6c5cd47e896a374029ef86d09-shard-0",
-        "claimed_at": "2026-11-28T16:26:30.361376+00:00",
-        "lease_expires_at": "2026-11-28T22:26:30.361376+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31503251",
       "prepared": {
@@ -332101,5 +332103,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:44:29.457494+00:00"
+  "updated_at": "2026-11-28T16:45:25.033599+00:00"
 }
