@@ -311945,17 +311945,19 @@
       "attempts": []
     },
     "22844": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33767519",
+          "target_video_id": "31499781",
+          "permanent": false,
+          "attempted_at": "2026-11-28T12:25:56.929360+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33767519",
         "display_name": "8 Million Ways to Die 1080p CZ Dabing",
         "planned_at": "2026-11-28T12:21:04.796514+00:00"
-      },
-      "claim": {
-        "worker_id": "d90c100ded6c4035bb75827a8051a35f-shard-0",
-        "claimed_at": "2026-11-28T12:21:05.713862+00:00",
-        "lease_expires_at": "2026-11-28T18:21:05.713862+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31499781",
       "prepared": {
@@ -331047,5 +331049,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T12:23:16.310483+00:00"
+  "updated_at": "2026-11-28T12:25:56.929377+00:00"
 }
