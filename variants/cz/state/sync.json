@@ -309848,17 +309848,19 @@
       }
     },
     "20076": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30739674",
+          "target_video_id": "31489252",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:40:30.471402+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30739674",
         "display_name": "The Liability SD CZ Dabing",
         "planned_at": "2026-11-28T06:37:37.513956+00:00"
-      },
-      "claim": {
-        "worker_id": "b598002b14494aed9b27e2a121a9199f-shard-0",
-        "claimed_at": "2026-11-28T06:37:38.437297+00:00",
-        "lease_expires_at": "2026-11-28T12:37:38.437297+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31489252",
       "prepared": {
@@ -329433,5 +329435,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:38:57.743357+00:00"
+  "updated_at": "2026-11-28T06:40:30.471420+00:00"
 }
