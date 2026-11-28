@@ -311020,17 +311020,19 @@
       }
     },
     "9187": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "33979319",
+          "target_video_id": "31496060",
+          "permanent": false,
+          "attempted_at": "2026-11-28T10:23:12.374181+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "33979319",
         "display_name": "Just ONE Night (El juego de las llaves) 1080p CZ Dabing",
         "planned_at": "2026-11-28T10:06:27.154445+00:00"
-      },
-      "claim": {
-        "worker_id": "adcfc873b9494acca55889a1a84c90e8-shard-0",
-        "claimed_at": "2026-11-28T10:06:28.039858+00:00",
-        "lease_expires_at": "2026-11-28T16:06:28.039858+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31496060",
       "prepared": {
@@ -330367,5 +330369,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T10:20:32.429178+00:00"
+  "updated_at": "2026-11-28T10:23:12.374197+00:00"
 }
