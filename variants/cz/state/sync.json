@@ -313421,17 +313421,19 @@
       }
     },
     "13726": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34707373",
+          "target_video_id": "31504138",
+          "permanent": false,
+          "attempted_at": "2026-11-28T17:02:47.448413+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34707373",
         "display_name": "The Killing Floor SD CZ Dabing",
         "planned_at": "2026-11-28T16:55:39.433789+00:00"
-      },
-      "claim": {
-        "worker_id": "3971064247334dcabb384cbf80eda569-shard-0",
-        "claimed_at": "2026-11-28T16:55:40.109374+00:00",
-        "lease_expires_at": "2026-11-28T22:55:40.109374+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31504138",
       "prepared": {
@@ -332181,5 +332183,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T16:57:16.549639+00:00"
+  "updated_at": "2026-11-28T17:02:47.448428+00:00"
 }
