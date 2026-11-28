@@ -311381,17 +311381,19 @@
       "attempts": []
     },
     "8229": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "23243803",
+          "target_video_id": "31497503",
+          "permanent": false,
+          "attempted_at": "2026-11-28T11:11:51.630126+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "23243803",
         "display_name": "Return of the Footsoldier (Rise of the Footsoldier: Part II) 1080p CZ Dabing",
         "planned_at": "2026-11-28T11:00:54.255048+00:00"
-      },
-      "claim": {
-        "worker_id": "5d6afb58acce40a59b2257432c70405f-shard-0",
-        "claimed_at": "2026-11-28T11:00:55.117766+00:00",
-        "lease_expires_at": "2026-11-28T17:00:55.117766+00:00",
-        "run_id": "46128876408"
       },
       "previous_target_id": "31497503",
       "prepared": {
@@ -330627,5 +330629,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T11:10:17.452923+00:00"
+  "updated_at": "2026-11-28T11:11:51.630142+00:00"
 }
