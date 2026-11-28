@@ -1,12 +1,12 @@
 # Doplňování českých titulků
 
-Poslední aktualizace (UTC): 2026-11-28T19:34:02.114943+00:00
+Poslední aktualizace (UTC): 2026-11-28T19:34:04.014195+00:00
 
 Zkontrolováno videí: 776. Další stránka kontroly: 0.
 
 Pouze titulky z původního zdroje. Bez překladu, generování, OCR, jiných vydání filmu a mazání existujících titulků.
 
-Stavy: `already_has_czech`: 567, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `pending`: 1, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 131, `upload_unconfirmed`: 8
+Stavy: `already_has_czech`: 567, `attached_verified`: 20, `burned_in_czech_verified`: 2, `existing_tracks_uncertain`: 11, `source_czech_full_text_unsupported`: 17, `source_czech_text_missing`: 13, `source_unavailable`: 3, `subtitle_empty`: 1, `subtitle_invalid_timing`: 1, `target_detail_url_missing`: 1, `target_unavailable`: 132, `upload_unconfirmed`: 8
 
 ## Poslední dávka
 
@@ -105,6 +105,7 @@ Kontrol: 1; odesláno: 1; potvrzeno: 1; zbývá k prověření nyní: 151. Důvo
 | [Glass Onion: A Knives Out Mystery 1080p CZ titulky](https://prehraj.to/glass-onion-a-knives-out-mystery-1080p-cz-titulky-mkv/45cd3b6034a03d85) (ID 30903877) | [Sdílej 25583722](https://sdilej.cz/25583722/glass-onion-a-knives-out-mystery-2022-webrip-nf-1080p-dts-ac3-dd-5.1-atmos-x264-mgb.mkv) | target_unavailable | 2026-11-18T12:51:48.581939+00:00 |
 | [Godzilla vs. Destoroyah (ゴジラvsデストロイア) 1080p CZ Titulky](https://prehraj.to/godzilla-vs-destoroyah-vs-1080p-cz-titulky-mkv/0a7f439da8b16d44) (ID 31017298) | [Sdílej 35320512](https://sdilej.cz/35320512/godzilla-vs-destroyah-r.1995.1080p-jap-engdab-cz-engtit-.mkv) | target_unavailable | 2026-11-13T18:03:50.646156+00:00 |
 | [Green Book 1080p](https://prehraj.to/green-book-mp4/2e88bec948b595b6) (ID 30609217) | [Sdílej 31912774](https://sdilej.cz/31912774/green.book.2018.1080p.bluray.h264.aac-rarbg.mp4) | target_unavailable | 2026-11-18T12:50:52.390277+00:00 |
+| [Holding the Man SD CZ titulky](https://prehraj.to/holding-the-man-sd-cz-titulky-mkv/6e058f9b3970f1cb) (ID 31509486) | [Sdílej 12963268](https://sdilej.cz/12963268/holding-the-man-v-muzskem-objeti-2015-70-ceske-titulky.mkv) | target_unavailable | 2026-11-28T19:34:04.014126+00:00 |
 | [How I Became a Gangster (Jak zostalem gangsterem. Historia prawdziwa) 1080p CZ Titulky](https://prehraj.to/how-i-became-a-gangster-jak-zostalem-gangsterem-historia-prawdziwa-1080p-cz-titulky-mkv/eac6b5d7ef9dc2b1) (ID 31021388) | [Sdílej 24575270](https://sdilej.cz/24575270/jak-jsem-se-stal-gangsterem-webrip-pl-en-tit-cz.mkv) | target_unavailable | 2026-11-13T23:28:50.890647+00:00 |
 | [How to Steal a Million 1080p CZ titulky](https://prehraj.to/how-to-steal-a-million-1080p-cz-titulky-mkv/e33b7a73c3c6577d) (ID 31484229) | [Sdílej 34156944](https://sdilej.cz/34156944/jak-ukrast-venusi-1966-1080p-en-pol-cz-dab.mkv) | target_unavailable | 2026-11-28T02:39:22.127674+00:00 |
 | [I Am Bolt SD CZ titulky](https://prehraj.to/i-am-bolt-sd-cz-titulky-mkv/150f3b94081bd3d1) (ID 30984744) | [Sdílej 7004752](https://sdilej.cz/7004752/i-am-bolt-2016-titulky.cz.mkv) | target_unavailable | 2026-11-18T13:01:19.681212+00:00 |
