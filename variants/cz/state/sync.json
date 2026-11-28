@@ -310690,17 +310690,19 @@
       "attempts": []
     },
     "11747": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "30607234",
+          "target_video_id": "31493563",
+          "permanent": false,
+          "attempted_at": "2026-11-28T08:44:23.263509+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "30607234",
         "display_name": "Feds (Feds!) SD CZ Dabing",
         "planned_at": "2026-11-28T08:40:43.848271+00:00"
-      },
-      "claim": {
-        "worker_id": "1c24658d77b8438991f3357a1b1349a9-shard-0",
-        "claimed_at": "2026-11-28T08:40:44.699755+00:00",
-        "lease_expires_at": "2026-11-28T14:40:44.699755+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31493563",
       "prepared": {
@@ -330050,5 +330052,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T08:40:49.705052+00:00"
+  "updated_at": "2026-11-28T08:44:23.263554+00:00"
 }
