@@ -309568,17 +309568,19 @@
       "attempts": []
     },
     "6560": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "17947502",
+          "target_video_id": "31488528",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:08:34.217696+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "17947502",
         "display_name": "Dreamland SD CZ Dabing",
         "planned_at": "2026-11-28T06:02:14.847121+00:00"
-      },
-      "claim": {
-        "worker_id": "72dfde23140a4dd180684f2f80283446-shard-0",
-        "claimed_at": "2026-11-28T06:02:15.870163+00:00",
-        "lease_expires_at": "2026-11-28T12:02:15.870163+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488528",
       "prepared": {
@@ -329213,5 +329215,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:03:07.043702+00:00"
+  "updated_at": "2026-11-28T06:08:34.217712+00:00"
 }
