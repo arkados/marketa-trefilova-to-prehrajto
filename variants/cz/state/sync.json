@@ -313450,17 +313450,19 @@
       "attempts": []
     },
     "6369": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26632206",
+          "target_video_id": "31504190",
+          "permanent": false,
+          "attempted_at": "2026-11-28T17:12:57.585876+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26632206",
         "display_name": "The Tournament (2009) 1080p CZ Dabing",
         "planned_at": "2026-11-28T16:57:10.943956+00:00"
-      },
-      "claim": {
-        "worker_id": "7acf9195ab57480e810e3dbf7305de7d-shard-0",
-        "claimed_at": "2026-11-28T16:57:12.838618+00:00",
-        "lease_expires_at": "2026-11-28T22:57:12.838618+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31504190",
       "prepared": {
@@ -332201,5 +332203,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T17:03:04.524797+00:00"
+  "updated_at": "2026-11-28T17:12:57.585892+00:00"
 }
