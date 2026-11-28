@@ -307797,17 +307797,19 @@
       "attempts": []
     },
     "8355": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "13740760",
+          "target_video_id": "31484460",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:57:27.488051+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "13740760",
         "display_name": "Boys of Abu Ghraib 1080p CZ Dabing",
         "planned_at": "2026-11-28T02:53:40.706856+00:00"
-      },
-      "claim": {
-        "worker_id": "06b8077695a147b1a726cf66b48c8a11-shard-0",
-        "claimed_at": "2026-11-28T02:53:41.565680+00:00",
-        "lease_expires_at": "2026-11-28T08:53:41.565680+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31484460",
       "prepared": {
@@ -327901,5 +327903,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:55:20.717579+00:00"
+  "updated_at": "2026-11-28T02:57:27.488098+00:00"
 }
