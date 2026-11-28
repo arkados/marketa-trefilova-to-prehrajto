@@ -312610,17 +312610,19 @@
       "attempts": []
     },
     "21122": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34012790",
+          "target_video_id": "31501530",
+          "permanent": false,
+          "attempted_at": "2026-11-28T15:01:41.473358+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34012790",
         "display_name": "Pushing Tin 1080p CZ Dabing",
         "planned_at": "2026-11-28T14:41:01.813149+00:00"
-      },
-      "claim": {
-        "worker_id": "c495db7488ed4e08b8f32f47da1bb1c5-shard-0",
-        "claimed_at": "2026-11-28T14:41:02.484795+00:00",
-        "lease_expires_at": "2026-11-28T20:41:02.484795+00:00",
-        "run_id": "46147568139"
       },
       "previous_target_id": "31501530",
       "prepared": {
@@ -331541,5 +331543,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T14:46:10.840650+00:00"
+  "updated_at": "2026-11-28T15:01:41.473374+00:00"
 }
