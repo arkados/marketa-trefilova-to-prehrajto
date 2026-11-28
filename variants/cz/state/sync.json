@@ -309412,17 +309412,19 @@
       }
     },
     "27288": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "6734483",
+          "target_video_id": "31488335",
+          "permanent": false,
+          "attempted_at": "2026-11-28T05:56:05.520503+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "6734483",
         "display_name": "In Gold We Trust SD CZ Dabing",
         "planned_at": "2026-11-28T05:54:02.620666+00:00"
-      },
-      "claim": {
-        "worker_id": "70c1976022f640b5a19cd0694a1d6ac8-shard-0",
-        "claimed_at": "2026-11-28T05:54:03.524917+00:00",
-        "lease_expires_at": "2026-11-28T11:54:03.524917+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31488335",
       "prepared": {
@@ -329093,5 +329095,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T05:54:28.186363+00:00"
+  "updated_at": "2026-11-28T05:56:05.520565+00:00"
 }
