@@ -306687,17 +306687,19 @@
       }
     },
     "7812": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34667298",
+          "target_video_id": "31482172",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:27:11.468341+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34667298",
         "display_name": "Christmas Eve in Miller's Point 1080p CZ Dabing",
         "planned_at": "2026-11-28T00:22:04.334421+00:00"
-      },
-      "claim": {
-        "worker_id": "fd6371af6cc144f4be77b0230fe11996-shard-0",
-        "claimed_at": "2026-11-28T00:22:05.179453+00:00",
-        "lease_expires_at": "2026-11-28T06:22:05.179453+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31482172",
       "prepared": {
@@ -326990,5 +326992,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:25:31.031911+00:00"
+  "updated_at": "2026-11-28T00:27:11.468362+00:00"
 }
