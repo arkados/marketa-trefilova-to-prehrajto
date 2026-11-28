@@ -306752,17 +306752,19 @@
       }
     },
     "5981": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "12903538",
+          "target_video_id": "31482270",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:30:54.077202+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "12903538",
         "display_name": "The Promise (2016) SD CZ Dabing",
         "planned_at": "2026-11-28T00:27:22.204066+00:00"
-      },
-      "claim": {
-        "worker_id": "895400d92086474a88c1c4634bc9c478-shard-0",
-        "claimed_at": "2026-11-28T00:27:23.039180+00:00",
-        "lease_expires_at": "2026-11-28T06:27:23.039180+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31482270",
       "prepared": {
@@ -327010,5 +327012,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:27:27.146313+00:00"
+  "updated_at": "2026-11-28T00:30:54.077223+00:00"
 }
