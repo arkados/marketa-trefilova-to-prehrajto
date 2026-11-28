@@ -307509,17 +307509,19 @@
       "attempts": []
     },
     "6630": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "11118979",
+          "target_video_id": "31483814",
+          "permanent": false,
+          "attempted_at": "2026-11-28T02:18:12.584451+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "11118979",
         "display_name": "Just a Breath Away (Dans la brume) 1080p CZ Dabing",
         "planned_at": "2026-11-28T02:14:05.057621+00:00"
-      },
-      "claim": {
-        "worker_id": "ad3aaa4452984ad38084f035e73aa769-shard-0",
-        "claimed_at": "2026-11-28T02:14:06.009134+00:00",
-        "lease_expires_at": "2026-11-28T08:14:06.009134+00:00",
-        "run_id": "46073695614"
       },
       "previous_target_id": "31483814",
       "prepared": {
@@ -327662,5 +327664,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:18:05.351694+00:00"
+  "updated_at": "2026-11-28T02:18:12.584465+00:00"
 }
