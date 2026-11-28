@@ -307437,25 +307437,22 @@
       "attempts": []
     },
     "5856": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "upload_failed",
+          "source_id": "31106551",
+          "reason": "PrehrajtoError",
+          "permanent": false,
+          "target_video_id": "31483524",
+          "attempted_at": "2026-11-28T02:08:19.754725+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "31106551",
         "display_name": "Black Adam 4K CZ Dabing",
         "planned_at": "2026-11-28T01:54:38.125762+00:00"
       },
-      "claim": {
-        "worker_id": "8f593bf2176f496eb8a7c7aebe772f46-shard-0",
-        "claimed_at": "2026-11-28T01:54:39.066536+00:00",
-        "lease_expires_at": "2026-11-28T07:54:39.066536+00:00",
-        "run_id": "46073695614"
-      },
-      "previous_target_id": "31483524",
-      "prepared": {
-        "target_video_id": "31483524",
-        "size_bytes": 5910359234,
-        "prepared_at": "2026-11-28T01:54:43.555754+00:00",
-        "relay_source_id": "31106551"
-      }
+      "previous_target_id": "31483524"
     },
     "6104": {
       "attempts": [],
@@ -327587,5 +327584,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T02:05:33.096805+00:00"
+  "updated_at": "2026-11-28T02:08:19.754744+00:00"
 }
