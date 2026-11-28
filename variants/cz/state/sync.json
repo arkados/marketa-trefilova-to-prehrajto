@@ -309724,17 +309724,19 @@
       }
     },
     "26610": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34737484",
+          "target_video_id": "31489049",
+          "permanent": false,
+          "attempted_at": "2026-11-28T06:30:03.813285+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34737484",
         "display_name": "The Beacon 1080p CZ Dabing",
         "planned_at": "2026-11-28T06:23:25.462351+00:00"
-      },
-      "claim": {
-        "worker_id": "bdd284c825c54a97b39e20a133e76351-shard-0",
-        "claimed_at": "2026-11-28T06:23:26.353808+00:00",
-        "lease_expires_at": "2026-11-28T12:23:26.353808+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31489049",
       "prepared": {
@@ -329333,5 +329335,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T06:28:34.690886+00:00"
+  "updated_at": "2026-11-28T06:30:03.813300+00:00"
 }
