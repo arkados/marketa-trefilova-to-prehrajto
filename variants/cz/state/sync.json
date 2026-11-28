@@ -313946,17 +313946,19 @@
       "attempts": []
     },
     "6806": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "35146001",
+          "target_video_id": "31509932",
+          "permanent": false,
+          "attempted_at": "2026-11-28T20:10:04.749314+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "35146001",
         "display_name": "Paws of Fury: The Legend of Hank 1080p CZ Dabing",
         "planned_at": "2026-11-28T19:43:30.032414+00:00"
-      },
-      "claim": {
-        "worker_id": "321ab0a9e1fe40d0b0af35f422a4e88d-shard-0",
-        "claimed_at": "2026-11-28T19:43:30.540571+00:00",
-        "lease_expires_at": "2026-11-29T01:43:30.540571+00:00",
-        "run_id": "46171783214"
       },
       "previous_target_id": "31509932",
       "prepared": {
@@ -332621,5 +332623,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T20:07:45.262104+00:00"
+  "updated_at": "2026-11-28T20:10:04.749335+00:00"
 }
