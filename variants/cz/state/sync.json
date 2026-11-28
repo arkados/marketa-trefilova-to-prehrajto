@@ -306492,17 +306492,19 @@
       }
     },
     "5963": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "34724885",
+          "target_video_id": "31481979",
+          "permanent": false,
+          "attempted_at": "2026-11-28T00:25:12.575893+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "34724885",
         "display_name": "Mortal Engines 4K CZ Dabing",
         "planned_at": "2026-11-28T00:12:37.353618+00:00"
-      },
-      "claim": {
-        "worker_id": "0cc2cda52cf6428f9401bfa1054941c0-shard-0",
-        "claimed_at": "2026-11-28T00:12:38.366823+00:00",
-        "lease_expires_at": "2026-11-28T06:12:38.366823+00:00",
-        "run_id": "46064168266"
       },
       "previous_target_id": "31481979",
       "prepared": {
@@ -326970,5 +326972,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T00:23:05.623822+00:00"
+  "updated_at": "2026-11-28T00:25:12.575913+00:00"
 }
