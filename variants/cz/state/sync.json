@@ -310763,17 +310763,19 @@
       }
     },
     "6244": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26914499",
+          "target_video_id": "31493807",
+          "permanent": false,
+          "attempted_at": "2026-11-28T09:02:55.003211+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26914499",
         "display_name": "Home Team 1080p CZ Dabing",
         "planned_at": "2026-11-28T08:48:36.160910+00:00"
-      },
-      "claim": {
-        "worker_id": "09226472d7da4c009a8e9a4a08a454a2-shard-0",
-        "claimed_at": "2026-11-28T08:48:36.967149+00:00",
-        "lease_expires_at": "2026-11-28T14:48:36.967149+00:00",
-        "run_id": "46105073712"
       },
       "previous_target_id": "31493807",
       "prepared": {
@@ -330111,5 +330113,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T08:58:36.504956+00:00"
+  "updated_at": "2026-11-28T09:02:55.003227+00:00"
 }
