@@ -313744,17 +313744,19 @@
       "attempts": []
     },
     "6303": {
-      "attempts": [],
+      "attempts": [
+        {
+          "status": "target_processing",
+          "source_id": "26252071",
+          "target_video_id": "31507087",
+          "permanent": false,
+          "attempted_at": "2026-11-28T18:37:37.294176+00:00"
+        }
+      ],
       "last_plan": {
         "source_id": "26252071",
         "display_name": "Shelter (6 Souls) (2010) [ID 6303] 1080p CZ Dabing",
         "planned_at": "2026-11-28T18:17:22.876484+00:00"
-      },
-      "claim": {
-        "worker_id": "5fc0f7fe0f644672b1faabc21d50d5fd-shard-0",
-        "claimed_at": "2026-11-28T18:17:23.362356+00:00",
-        "lease_expires_at": "2026-11-29T00:17:23.362356+00:00",
-        "run_id": "46171783214"
       },
       "previous_target_id": "31507087",
       "prepared": {
@@ -332441,5 +332443,5 @@
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-28T18:35:58.059637+00:00"
+  "updated_at": "2026-11-28T18:37:37.294192+00:00"
 }
